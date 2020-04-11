@@ -1,2 +1,1 @@
-# taming_python
-Course material for Taming Python series
+# Welcome to the course material repository of Taming Python series
