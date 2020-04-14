@@ -1,8 +1,3 @@
-
-
-
-> Written with [StackEdit](https://stackedit.io/).# Welcome to the course material repository of Taming Python series
-
 Hey Guys
 
 I just wanted to create a tutorial series that helps people develop skill sets in python to achieve their data manipulation / visualization goals
@@ -11,9 +6,9 @@ The approach is to create a nested tree of skills to achieve all the steps to ac
 
 For example, if 
 
-Goal = Read csv file, plot all columns data one below the other, save plot as a png image, 
+Goal = Read csv file, plot all columns data one below the other, save plot as a PNG image, 
 
-User story = Create a summary image of voltage timeseries from a csv file 
+User story = Create a summary image of voltage time-series from a csv file 
 
 The steps and skill sets required may be
 
@@ -78,7 +73,7 @@ save plot image as a png/pdf/jpg/svg file using savefig function (#22) (requires
 * This way the user will be motivated to learn the basics (which generally is boring, without knowing the purpose)
 * We can also have a knowledge base of code samples which can help many beginners
 
-Skills database is maintaned as a google spreadsheet at https://docs.google.com/spreadsheets/d/1vsw5TSprGmex4k6aNvWiAmGOYAH9RU80OpUFMg9Ahvs/edit?usp=sharing
+Skills database is maintained as a google spreadsheet at https://docs.google.com/spreadsheets/d/1vsw5TSprGmex4k6aNvWiAmGOYAH9RU80OpUFMg9Ahvs/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQxNzA1NjYsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTE0MTA0OTczMyw3MzA5OTgxMTZdfQ==
 -->
