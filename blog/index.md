@@ -12,8 +12,7 @@ User story = Create a summary image of voltage time-series from a csv file
 
 The steps and skill sets required may be
 
-Steps
------
+### Steps
 * read excel file into pandas dataframe
 * get the shape/dimensions of a dataframe
 * get all the column names of dataframe
@@ -22,8 +21,7 @@ Steps
 * iterate through all columns data of dataframe
 * plot each dataframe column data inside the generated axis handles with axis title, legend and axis labels included
 
-Skill sets
-----------
+### Skill sets
 using tight layout to optimize plot space in a matplotlib plot (#18) (requires #1, #3, #4, #15, #16, #17)
 
 set plot title, plot size in inches in a matplotlib plot (#19) (requires #1, #3, #4, #15, #16)
@@ -80,6 +78,6 @@ AnJ1xudGl0bGU6IEludHJvIHRvIFRhbWluZyBQeXRob24gc2Vy
 aWVzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6IC
 dweXRob24sIHR1dG9yaWFsJ1xuY2F0ZWdvcmllczogJ2xlYXJu
 aW5nLCBweXRob24sIHR1dG9yaWFsJ1xuZGF0ZTogJzIwMjAtMD
-QtMTQnXG4iLCJoaXN0b3J5IjpbLTEwNTE4OTcyMzAsLTYzNjA4
-ODk5Miw3MzA5OTgxMTZdfQ==
+QtMTQnXG4iLCJoaXN0b3J5IjpbMTEyMjQ2OTU3LC0xMDUxODk3
+MjMwLC02MzYwODg5OTIsNzMwOTk4MTE2XX0=
 -->
