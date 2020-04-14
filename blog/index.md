@@ -32,7 +32,7 @@ set subplot title, x and y axis labels in a matplotlib plot (#20) (requires #1, 
 
 enable legends for an axis handle / subplot in matplotlib plot (#21) (requires #1, #3, #4, #15, #16)
 
-save plot image as a png/pdf/jpg/svg file using savefig function (#22) (requires #1, #3, #4, #15, #16)
+save plot image as a PNG/PDF/JPG/SVG file using savefig function (#22) (requires #1, #3, #4, #15, #16)
 
 ---manipulating variables (#5) (requires #1)
 
@@ -50,7 +50,7 @@ save plot image as a png/pdf/jpg/svg file using savefig function (#22) (requires
 
 ---read excel file into pandas dataframe (#12) (requires #1, #2, #4, #9)
 
----get the shape/diemension of a dataframe (#13) (requires #1, #2, #4, #9)
+---get the shape/dimension of a dataframe (#13) (requires #1, #2, #4, #9)
 
 ---get all the column names of dataframe (#14) (requires #1, #2, #4, #9)
 
@@ -75,5 +75,5 @@ save plot image as a png/pdf/jpg/svg file using savefig function (#22) (requires
 
 Skills database is maintained as a google spreadsheet at https://docs.google.com/spreadsheets/d/1vsw5TSprGmex4k6aNvWiAmGOYAH9RU80OpUFMg9Ahvs/edit?usp=sharing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTA0OTczMyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTYzNjA4ODk5Miw3MzA5OTgxMTZdfQ==
 -->
