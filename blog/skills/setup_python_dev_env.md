@@ -22,6 +22,9 @@ You can Debug python files using *Run->Start Debugging*
 For more beginner tutorial on VS Code visit https://code.visualstudio.com/docs/python/python-tutorial
 
 For more info on setting up python extension in VS Code visit https://marketplace.visualstudio.com/items?itemName=ms-python.python
+
+For vido
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA3MjA2NDYsOTMzNjU0NzEwXX0=
+eyJoaXN0b3J5IjpbMTIzNDAwNjUsLTE5NDA3MjA2NDYsOTMzNj
+U0NzEwXX0=
 -->
