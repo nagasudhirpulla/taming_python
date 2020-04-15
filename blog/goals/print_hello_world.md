@@ -1,7 +1,8 @@
 ## Goal - Print "Hello World!"
-### Steps
-1. setup python environment
+### Skills
+1. setup python environment (link)
+2. basic printing in python (link)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk3NTgzODFdfQ==
+eyJoaXN0b3J5IjpbLTEwMDU4NTc2MTRdfQ==
 -->
