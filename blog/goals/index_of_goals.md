@@ -15,5 +15,8 @@ The motivation for this series can be found [here](https://nagasudhir.blogspot.c
 * [Operations on variables in python](https://nagasudhir.blogspot.com/2020/04/operations-on-variables-in-python.html)
 * [if condition](https://nagasudhir.blogspot.com/2020/04/if-condition-in-python_14.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDMxNTMyN119
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
+FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
+dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5Ij
+pbMjg1MDk5MDIzXX0=
 -->
