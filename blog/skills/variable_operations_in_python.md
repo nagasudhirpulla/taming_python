@@ -113,13 +113,15 @@ z = x / y
 z = 2*x + x^2 + 3*y
 ```
 
-F
+#### Further Reading
+* http://thomas-cokelaer.info/tutorials/python/boolean.html#booleans
+* 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE9wZXJhdGlvbnMgb24gVm
 FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzkxNzgyMjcyLC0yMDA1NDM5NTQ2LC03ODM4Nzcx
-NjEsLTE4OTIwOTI3ODQsMjE0NDUyNjQzMV19
+lzdG9yeSI6Wy0xMDg0MjA0NzEyLC0yMDA1NDM5NTQ2LC03ODM4
+NzcxNjEsLTE4OTIwOTI3ODQsMjE0NDUyNjQzMV19
 -->
