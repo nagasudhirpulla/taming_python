@@ -99,13 +99,23 @@ y = 15
 
 # add x and y and then assign to z
 z = x + y
+
+# subtract x and y and then assign to z
+z = x - y
+
+# multiply x and y and then assign to z
+z = x * y
+
+# divide x and y and then assign to z
+z = x / y
 ```
+
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE9wZXJhdGlvbnMgb24gVm
 FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzEzNDI3NDU2MzMsLTIwMDU0Mzk1NDYsLTc4Mzg3
-NzE2MSwtMTg5MjA5Mjc4NCwyMTQ0NTI2NDMxXX0=
+lzdG9yeSI6WzYxNzQwNTE4MywtMjAwNTQzOTU0NiwtNzgzODc3
+MTYxLC0xODkyMDkyNzg0LDIxNDQ1MjY0MzFdfQ==
 -->
