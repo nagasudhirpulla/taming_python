@@ -1,7 +1,9 @@
-### List of Goals
-[Print "Hello World!"](https://nagasudhir.blogspot.com/2020/04/print-hello-world_54.html)
+### Goals
+* [Print "Hello World!"](https://nagasudhir.blogspot.com/2020/04/print-hello-world_54.html)
 
-### List of
+### Skills
+* [Setup Python Development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
+* [Comments in python]()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTE3Mjc5Ml19
+eyJoaXN0b3J5IjpbLTgxOTEyMDY4NF19
 -->
