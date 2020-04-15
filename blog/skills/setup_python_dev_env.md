@@ -2,11 +2,11 @@
 
 *SKILL ID = IZEPB*
 
-install **python** in your PC from https://www.python.org/downloads/
+Install **python** in your PC from https://www.python.org/downloads/
 
-install **Visual Studio Code (VS Code)** as a code editor from https://code.visualstudio.com/download
+Install **Visual Studio Code (VS Code)** as a code editor from https://code.visualstudio.com/download
 
-install [python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) in Visual Studio Code using View -> Extensions
+Install [python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) in Visual Studio Code using *View -> Extensions*
 
 ### Working on a project
 Create a new folder in your PC
@@ -17,10 +17,10 @@ Now you can create and manage python files in visual studio code
 
 Run python files using **Run Python File in Terminal** play button in the top-right side of the editor.
 ![Using the run python file in terminal button](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/run-python-file-in-terminal-button.png)
-
+You can Debug python files using Run->Start Debuggin
 For more beginner tutorial on VS Code visit https://code.visualstudio.com/docs/python/python-tutorial
 
-For more info n
+For more info on setting up python extension in VS Code visit https://marketplace.visualstudio.com/items?itemName=ms-python.python
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAyMzUwNDIsOTMzNjU0NzEwXX0=
+eyJoaXN0b3J5IjpbLTg4ODMzNjc3MCw5MzM2NTQ3MTBdfQ==
 -->
