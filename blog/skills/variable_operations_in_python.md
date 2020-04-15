@@ -109,7 +109,7 @@ z = x * y
 # divide x and y and then assign to z
 z = x / y
 
-# some complex equation
+# some other equation
 z = 2*x + x^2 + 3*y
 ```
 
@@ -123,6 +123,7 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wy0xNTY0NjQwNjg0LC0yMDA1NDM5NTQ2LC03ODM4
-NzcxNjEsLTE4OTIwOTI3ODQsMjE0NDUyNjQzMV19
+lzdG9yeSI6Wy0xNDc3MTk5MjQ0LC0xNTY0NjQwNjg0LC0yMDA1
+NDM5NTQ2LC03ODM4NzcxNjEsLTE4OTIwOTI3ODQsMjE0NDUyNj
+QzMV19
 -->
