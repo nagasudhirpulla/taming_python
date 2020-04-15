@@ -22,7 +22,9 @@ if x==10:
 	print('The value of x is 10')
 ```
 * **else** can be used to execute when if condition is supplied with value that evaluates to false. For example
-```pytho```
+```python
+
+```
 
 
 ### Further Reading
@@ -33,5 +35,5 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbMTQzMDEwNzYyOCw3MjQxODcwNjldfQ==
+N0b3J5IjpbMTk1MTU1MjY5OCw3MjQxODcwNjldfQ==
 -->
