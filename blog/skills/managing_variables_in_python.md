@@ -8,7 +8,10 @@
 Please make sure to go through all the skills mentioned above to understand and execute the code mentioned below
 
 #### Main Code
+Assigning value to a variable
+```python
 
+```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 AnJ1xudGl0bGU6IE1hbmFnaW5nIFZhcmlhYmxlcyBpbiBQeXRo
@@ -16,5 +19,5 @@ b25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5
-IjpbMTQxOTI5MTUzOF19
+IjpbMTI4NjIyNTE5Nl19
 -->
