@@ -5,7 +5,7 @@
 * [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 
-Please make sure to have all the skills mentioned above to understand and execute the code mentioned below
+Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 ### Main Code
 #### Assigning value to a variable
@@ -45,6 +45,6 @@ b25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5
-IjpbLTEzMjUxMjg0MDAsNTQ2OTc4NTE3LDYxNDExNDQ0MiwxMj
-g2MjI1MTk2XX0=
+IjpbMTEyMzI5MTg1OSw1NDY5Nzg1MTcsNjE0MTE0NDQyLDEyOD
+YyMjUxOTZdfQ==
 -->
