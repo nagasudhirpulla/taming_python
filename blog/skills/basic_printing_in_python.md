@@ -13,10 +13,10 @@ print("Hello world!")
 ```
 
 #### Run this in Visual Studio Code
-Make sure you 
+Create a python file by any name, say ```hello.py``
 
 #### Further Reading
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE2NDcwODBdfQ==
+eyJoaXN0b3J5IjpbNTc1ODQ1NDcxXX0=
 -->
