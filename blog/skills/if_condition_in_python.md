@@ -23,7 +23,11 @@ if x==10:
 ```
 * **else** can be used to execute when if condition is supplied with value that evaluates to false. For example
 ```python
-
+x=10
+if x==5:	
+	print('The value of x is 5')
+else:
+	print('The value of x is not 5')
 ```
 
 
@@ -35,5 +39,5 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbMTk1MTU1MjY5OCw3MjQxODcwNjldfQ==
+N0b3J5IjpbNDg4MDcyODI0LDcyNDE4NzA2OV19
 -->
