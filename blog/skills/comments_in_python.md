@@ -12,9 +12,9 @@ For example consider the following python code
 # Let's print Hello World!
 print('Hello World!')
 ```
-The first three 
+The first two lines in the above code are comments, since they start with a ```#``` .H  ence will not be executed by python
 
 ```SKILL ID = IZEPB```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzAzNTM5MF19
+eyJoaXN0b3J5IjpbMTc5MzExODI0XX0=
 -->
