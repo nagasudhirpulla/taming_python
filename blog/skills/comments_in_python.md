@@ -9,12 +9,12 @@ When a line in python starts with ```#```, python will not execute the line.
 For example consider the following python code
 ```python
 # This is comment which won't be executed
-# Let's 
+# Let's print Hello World!
+print('Hello World!')
 ```
-
-
+The first three 
 
 ```SKILL ID = IZEPB```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjQ0NTQwNl19
+eyJoaXN0b3J5IjpbMTQ2MzAzNTM5MF19
 -->
