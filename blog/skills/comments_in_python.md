@@ -16,7 +16,20 @@ print('Hello World!')
 * The first two lines in the above code are comments, since they start with ```#``` 
 * Hence the first 2 lines will not be executed by python
 
+#### Run this in Visual Studio Code
+* Create a folder in your PC
+* Open this folder in Visual Studio Code using menu _File->Open Folder_
+* Open _File Explorer_
+* Create a python file by any name, say ```hello.py``` and write the following
+```python
+# This is comment which won't be executed
+# Let's print Hello World!
+print("Hello world!")
+```
+* Run the code using menu _Run -> Run Without Debugging_
+* You should see __Hello world!__ printed in the terminal
+* Notice the the first 2 lines are not executed since they are comments
 ```SKILL ID = IZEPB```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTA1ODQwMF19
+eyJoaXN0b3J5IjpbMjAzMzY1OTY5Ml19
 -->
