@@ -1,7 +1,7 @@
 ## Skill - Setup python development environment
-### Steps
-* Install **python** in your PC from https://www.python.org/downloads/
-* Install **Visual Studio Code (VS Code)** as a code editor from https://code.visualstudio.com/download
+### Software to be installed
+* Download and Install **python** in your PC from https://www.python.org/downloads/
+* Download and Install **Visual Studio Code (VS Code)** as a code editor from https://code.visualstudio.com/download
 * Install [python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) in Visual Studio Code using *View -> Extensions*
 
 ### Working on a project
@@ -33,8 +33,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFNldHVwIFB5dGhvbiBEZX
 ZlbG9wbWVudCBFbnZpcm9ubWVudFxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAncHl0aG9uLGxlYXJuaW5nLHR1dG
 9yaWFsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbMT
-Y1OTI0OTI1NCwxOTI1NjIzNjQ2LC0zMTA1MTM1MDAsODA1NDM2
-Mjc1LC03NjU1NzYyOTUsMTA4NzM5NjUwMywtMTk0MDcyMDY0Ni
-w5MzM2NTQ3MTBdfQ==
+bFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbLT
+E0OTUwMTQ2NTQsMTY1OTI0OTI1NCwxOTI1NjIzNjQ2LC0zMTA1
+MTM1MDAsODA1NDM2Mjc1LC03NjU1NzYyOTUsMTA4NzM5NjUwMy
+wtMTk0MDcyMDY0Niw5MzM2NTQ3MTBdfQ==
 -->
