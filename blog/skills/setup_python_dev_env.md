@@ -10,8 +10,11 @@ install **python extension** in Visual Studio Code using View -> Extensions
 
 ### Working on a project
 Create a new folder in your PC
+
 Open the folder in Visual Studio Code using File -> Open Folder
 
+Now you can create and manage python files in visual studio code
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzU2MDkxNzFdfQ==
+eyJoaXN0b3J5IjpbMTM1OTkxMDY2OV19
 -->
