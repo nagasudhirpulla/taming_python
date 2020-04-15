@@ -2,6 +2,7 @@
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
+* [Basic Printing in Python]()
 
 #### Main Code
 When a line in python starts with ```#```, python will not execute the line.
@@ -29,12 +30,13 @@ print("Hello world!")
 * Run the code using menu _Run -> Run Without Debugging_
 * You should see __Hello world!__ printed in the terminal
 * Notice the the first 2 lines are not executed since they are comments
-```SKILL ID = IZEPB```
+
+```SKILL ID = XWHBZ```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IENvbW1lbnRzIGluIHB5dG
 hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 cHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weX
 Rob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9u
 X3NraWxsXG5kYXRlOiAnMjAyMC0wNC0xNSdcbiIsImhpc3Rvcn
-kiOlstMzk3NDkzNTE2XX0=
+kiOlsxOTAwNjcyNjgyXX0=
 -->
