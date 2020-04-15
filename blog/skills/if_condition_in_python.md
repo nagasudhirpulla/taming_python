@@ -14,7 +14,8 @@ if condition runs a code only if the supplied expression evaluates to ```True```
 ```python
 x = 5
 if x==5:
-
+	# the print statement will execute since x is 5
+	print('The value of x is 5')
 ```
 
 
@@ -26,5 +27,5 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTQ4Nzk0NTMwNSw3MjQxODcwNjldfQ==
+N0b3J5IjpbLTYzNjI3MTk2Nyw3MjQxODcwNjldfQ==
 -->
