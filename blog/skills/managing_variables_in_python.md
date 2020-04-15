@@ -35,7 +35,7 @@ x = 2
 # this makes value of y as 4 as x is multiplied by 2
 y = 2*x
 
-# this makes value of z as 6 as 
+# this makes value of z as 6 as the addition of x and y is assigned to z
 z = x + y
 ```
 <!--stackedit_data:
@@ -45,5 +45,5 @@ b25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5
-IjpbMTcwNTA5MzMwLDYxNDExNDQ0MiwxMjg2MjI1MTk2XX0=
+IjpbNTQ2OTc4NTE3LDYxNDExNDQ0MiwxMjg2MjI1MTk2XX0=
 -->
