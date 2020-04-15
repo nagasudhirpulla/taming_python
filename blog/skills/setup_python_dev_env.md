@@ -28,13 +28,15 @@
 
 
 ```SKILL ID = IZEPB```
+
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFNldHVwIFB5dGhvbiBEZX
 ZlbG9wbWVudCBFbnZpcm9ubWVudFxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAncHl0aG9uLGxlYXJuaW5nLHR1dG
 9yaWFsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
 bFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbOD
-I5MzEzMjExLDE2NTkyNDkyNTQsMTkyNTYyMzY0NiwtMzEwNTEz
-NTAwLDgwNTQzNjI3NSwtNzY1NTc2Mjk1LDEwODczOTY1MDMsLT
-E5NDA3MjA2NDYsOTMzNjU0NzEwXX0=
+U4NzIxMTA0LDgyOTMxMzIxMSwxNjU5MjQ5MjU0LDE5MjU2MjM2
+NDYsLTMxMDUxMzUwMCw4MDU0MzYyNzUsLTc2NTU3NjI5NSwxMD
+g3Mzk2NTAzLC0xOTQwNzIwNjQ2LDkzMzY1NDcxMF19
 -->
