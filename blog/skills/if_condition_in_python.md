@@ -1,4 +1,4 @@
-## Skill - "if" condition in python
+## Skill - "if" and "else" conditions in python
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
@@ -10,13 +10,18 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 ### Main Code
-if condition runs a code only if the supplied expression evaluates to ```True```. For Example
+* **if** condition runs a code only if the supplied expression evaluates to ```True```. For Example
 ```python
 x = 5
-if x==5:
-	# the print statement will execute since x is 5
+# the print statement will execute since x is 5
+if x==5:	
 	print('The value of x is 5')
+
+# the print statement will not execute since x is not 10
+if x==10:
+	print('The value of x is 10')
 ```
+* 
 
 
 ### Further Reading
@@ -27,5 +32,5 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTYzNjI3MTk2Nyw3MjQxODcwNjldfQ==
+N0b3J5IjpbMzAwNjA3MTMyLDcyNDE4NzA2OV19
 -->
