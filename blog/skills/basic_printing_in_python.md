@@ -5,7 +5,6 @@
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 
-
 #### Main Stuff
 In order to print the _Hello world!_ string, use the [print()](http://docs.python.org/library/functions.html#print "(in Python v2.7)") function as follows
 ```python
@@ -28,6 +27,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOls3NzY3MzMyODRdfQ
-==
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlsxMzU5MjQyOTYyLD
+c3NjczMzI4NF19
 -->
