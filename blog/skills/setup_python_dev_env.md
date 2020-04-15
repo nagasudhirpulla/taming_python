@@ -27,6 +27,11 @@ Install [python extension](https://marketplace.visualstudio.com/items?itemName=m
 
 * For beginner videos on VS Code visit https://code.visualstudio.com/docs/getstarted/introvideos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NTU3NjI5NSwxMDg3Mzk2NTAzLC0xOT
-QwNzIwNjQ2LDkzMzY1NDcxMF19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFNldHVwIFB5dGhvbiBEZX
+ZlbG9wbWVudCBFbnZpcm9ubWVudFxuYXV0aG9yOiBOYWdhc3Vk
+aGlyIFB1bGxhXG50YWdzOiAncHl0aG9uLGxlYXJuaW5nLHR1dG
+9yaWFsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvblxuZGF0
+ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbLTcyMzE5Nz
+c1NSwtNzY1NTc2Mjk1LDEwODczOTY1MDMsLTE5NDA3MjA2NDYs
+OTMzNjU0NzEwXX0=
 -->
