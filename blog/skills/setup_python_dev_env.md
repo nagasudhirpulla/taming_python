@@ -9,15 +9,16 @@ Install **Visual Studio Code (VS Code)** as a code editor from https://code.visu
 Install [python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) in Visual Studio Code using *View -> Extensions*
 
 ### Working on a project
-Create a new folder in your PC
+* Create a new folder in your PC
 
-Open the folder in Visual Studio Code using menu *File -> Open Folder*
+* Open the folder in Visual Studio Code using menu *File -> Open Folder*
+![Open Folder in Visual Studio Code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open-folder-in-visual-studio-code.png)
 
-Now you can create and manage python files in visual studio code
+* Now you can create and manage python files in visual studio code
 
-Run python files using **Run Python File in Terminal** play button in the top-right side of the editor
+* Run python files using **Run Python File in Terminal** play button in the top-right side of the editor
 ![Using the run python file in terminal button](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/run-python-file-in-terminal-button.png)
-You can Debug python files using *Run->Start Debugging*
+* You can Debug python files using *Run->Start Debugging*
 
 #### Further Reading
 * For more beginner tutorial on VS Code visit https://code.visualstudio.com/docs/python/python-tutorial
@@ -26,6 +27,6 @@ You can Debug python files using *Run->Start Debugging*
 
 * For beginner videos on VS Code visit https://code.visualstudio.com/docs/getstarted/introvideos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzM5NjUwMywtMTk0MDcyMDY0Niw5Mz
-M2NTQ3MTBdfQ==
+eyJoaXN0b3J5IjpbLTE1MDMzNTUxODIsMTA4NzM5NjUwMywtMT
+k0MDcyMDY0Niw5MzM2NTQ3MTBdfQ==
 -->
