@@ -18,7 +18,7 @@ Install [python extension](https://marketplace.visualstudio.com/items?itemName=m
 
 * Run python files using **Run Python File in Terminal** play button in the top-right side of the editor
 ![Using the run python file in terminal button](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/run-python-file-in-terminal-button.png)
-* You can Debug python files using *Run->Start Debugging*
+* You can Debug python files using menu *Run->Start Debugging*
 
 #### Further Reading
 * For more beginner tutorial on VS Code visit https://code.visualstudio.com/docs/python/python-tutorial
@@ -27,6 +27,6 @@ Install [python extension](https://marketplace.visualstudio.com/items?itemName=m
 
 * For beginner videos on VS Code visit https://code.visualstudio.com/docs/getstarted/introvideos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDMzNTUxODIsMTA4NzM5NjUwMywtMT
-k0MDcyMDY0Niw5MzM2NTQ3MTBdfQ==
+eyJoaXN0b3J5IjpbLTc2NTU3NjI5NSwxMDg3Mzk2NTAzLC0xOT
+QwNzIwNjQ2LDkzMzY1NDcxMF19
 -->
