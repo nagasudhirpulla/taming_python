@@ -3,13 +3,13 @@
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 
-#### Explanation
+#### Main Code
 When a line in python starts with ```#```, python will not execute the line.
  So you can write any thing in a comment.
 
 For example consider the following python code
 ```python
-# This is comment which won't be executed
+# This is a comment which won't be executed
 # Let's print Hello World!
 print('Hello World!')
 ```
@@ -22,7 +22,7 @@ print('Hello World!')
 * Open _File Explorer_
 * Create a python file by any name, say ```hello.py``` and write the following
 ```python
-# This is comment which won't be executed
+# This is a comment which won't be executed
 # Let's print Hello World!
 print("Hello world!")
 ```
@@ -31,5 +31,5 @@ print("Hello world!")
 * Notice the the first 2 lines are not executed since they are comments
 ```SKILL ID = IZEPB```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzY1OTY5Ml19
+eyJoaXN0b3J5IjpbLTEwNTgzMzExNjNdfQ==
 -->
