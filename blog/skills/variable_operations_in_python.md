@@ -31,14 +31,20 @@ print(x+5 == y)
 ```
 
 #### not Operator
-* **not** comparison operator can be used to compare values on both sides and returns True only if both sides are equal. For example
+* **not** comparison operator will toggle a boolean value. For example
 ```python
 # assign value to variables
-x = 10
-y = 15
+x = True
 
 # this will print False
-print(x==y)
+print(not True)
+print(not x)
+
+# this will print False
+y = not x
+
+# this will print False
+print(y)
 
 # this will print True
 print(x+5 == y)
@@ -49,6 +55,6 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wy03ODM4NzcxNjEsLTE4OTIwOTI3ODQsMjE0NDUy
-NjQzMV19
+lzdG9yeSI6WzEwMTY4MTc4MDEsLTc4Mzg3NzE2MSwtMTg5MjA5
+Mjc4NCwyMTQ0NTI2NDMxXX0=
 -->
