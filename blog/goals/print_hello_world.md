@@ -3,13 +3,8 @@
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Basic printing in python](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 
+Please make sure to go through all the skills mentioned above to understand and ex
 #### Steps
-In order to print the _Hello world!_ string, use the [print()](http://docs.python.org/library/functions.html#print "(in Python v2.7)") function as follows
-```python
-print("Hello world!")
-```
-
-#### Run this in Visual Studio Code
 * Create a folder in your PC
 * Open this folder in Visual Studio Code using menu _File->Open Folder_
 * Open _File Explorer_
@@ -20,5 +15,5 @@ print("Hello world!")
 * Run the code using menu _Run -> Run Without Debugging_
 * You should see __Hello world!__ printed in the terminal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3NTgyMjI3LC0xMDA1ODU3NjE0XX0=
+eyJoaXN0b3J5IjpbMTM5MDIzMDk4OSwtMTAwNTg1NzYxNF19
 -->
