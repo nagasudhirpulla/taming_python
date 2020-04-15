@@ -10,8 +10,8 @@ https://code.visualstudio.com/download
 
 ### Working on a project
 Create a new folder in your PC
-Open Visual Studio Code and open the folder using File->Open Folder
+Open the folder in Visual Studio Code and open the folder using File -> Open Folder
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0MzQ5OTk2XX0=
+eyJoaXN0b3J5IjpbLTExOTY5ODk3NzRdfQ==
 -->
