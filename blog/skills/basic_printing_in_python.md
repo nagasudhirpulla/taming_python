@@ -1,7 +1,5 @@
 ## Skill - Basic printing in python
 
-*SKILL ID = SBASF*
-
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 
@@ -22,11 +20,12 @@ print("Hello world!")
 * Run the code using menu _Run -> Run Without Debugging_
 * You should see __Hello world!__ printed in the terminal
 
+```SKILL ID = SBASF```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlsxMzU5MjQyOTYyLD
-c3NjczMzI4NF19
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlstMTI2MzI0NTU4MC
+wxMzU5MjQyOTYyLDc3NjczMzI4NF19
 -->
