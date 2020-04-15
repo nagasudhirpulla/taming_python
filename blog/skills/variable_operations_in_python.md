@@ -85,15 +85,20 @@ y = 20
 # this will print True
 print(x==10 or y == 30)
 
-# this will print False, since the lef condition is False
-print(x == 40 and y == 50)
+"""
+this will print False, 
+since both left and right conditions are False
+"""
+print(x == 40 or y == 50)
 ```
+
+
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE9wZXJhdGlvbnMgb24gVm
 FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wy04MTM5MDY1NDUsLTIwMDU0Mzk1NDYsLTc4Mzg3
+lzdG9yeSI6Wy02MTg4MjY5NDAsLTIwMDU0Mzk1NDYsLTc4Mzg3
 NzE2MSwtMTg5MjA5Mjc4NCwyMTQ0NTI2NDMxXX0=
 -->
