@@ -115,12 +115,14 @@ z = 2*x + x^2 + 3*y
 
 ### Further Reading
 * http://thomas-cokelaer.info/tutorials/python/boolean.html#booleans
+
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE9wZXJhdGlvbnMgb24gVm
 FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wy01ODc1NzE0MDEsLTIwMDU0Mzk1NDYsLTc4Mzg3
-NzE2MSwtMTg5MjA5Mjc4NCwyMTQ0NTI2NDMxXX0=
+lzdG9yeSI6Wy0xNTY0NjQwNjg0LC0yMDA1NDM5NTQ2LC03ODM4
+NzcxNjEsLTE4OTIwOTI3ODQsMjE0NDUyNjQzMV19
 -->
