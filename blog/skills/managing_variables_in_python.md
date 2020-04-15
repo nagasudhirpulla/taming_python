@@ -29,7 +29,15 @@ print(type(x))
 The above code will print ```<type 'int'>```
 
 ### Some other operations
+```python
+x = 2
 
+# this makes value of y as 4 as x is multiplied by 2
+y = 2*x
+
+# this makes value of z as 6 as 
+z = x + y
+```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 AnJ1xudGl0bGU6IE1hbmFnaW5nIFZhcmlhYmxlcyBpbiBQeXRo
@@ -37,5 +45,5 @@ b25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5
-IjpbMjQxMzgwNDMzLDYxNDExNDQ0MiwxMjg2MjI1MTk2XX0=
+IjpbMTcwNTA5MzMwLDYxNDExNDQ0MiwxMjg2MjI1MTk2XX0=
 -->
