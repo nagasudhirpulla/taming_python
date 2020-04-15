@@ -17,5 +17,9 @@ print("Hello world!")
 * Run the code using menu _Run -> Run Without Debugging_
 * You should see __Hello world!__ printed in the terminal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MzkzOTgyMSwtMTAwNTg1NzYxNF19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByaW50IFwiSGVsbG8gV2
+9ybGQhXCJcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFn
+czogJ3B5dGhvbiwgbGVhcm5pbmcnXG5jYXRlZ29yaWVzOiB0YW
+1pbmdfcHl0aG9uX2dvYWxcbmRhdGU6ICcyMDIwLTA0LTE1J1xu
+IiwiaGlzdG9yeSI6WzYyMzkzNDA5NCwtMTAwNTg1NzYxNF19
 -->
