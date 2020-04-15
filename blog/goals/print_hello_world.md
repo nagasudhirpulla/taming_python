@@ -17,11 +17,14 @@ print("Hello world!")
 ```
 * Run the code using menu _Run -> Run Without Debugging_
 * You should see __Hello world!__ printed in the terminal
+
+[Goto Index]
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByaW50IFwiSGVsbG8gV2
 9ybGQhXCJcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFn
 czogJ3B5dGhvbiwgbGVhcm5pbmcsIHRhbWluZ19weXRob25fZ2
 9hbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fZ29hbFxu
-ZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbLTE2NT
-g4Mjg0NDMsLTE4NDEwNzM0MjYsLTEwMDU4NTc2MTRdfQ==
+ZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbMjAzOD
+QyMDM0MCwtMTY1ODgyODQ0MywtMTg0MTA3MzQyNiwtMTAwNTg1
+NzYxNF19
 -->
