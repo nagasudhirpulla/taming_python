@@ -11,7 +11,7 @@ print("Hello world!")
 
 #### Run this in Visual Studio Code
 * Create a folder in your PC
-* Open the folder in Visual Studio Code using menu _File->Open Folder_
+* Open this folder in Visual Studio Code using menu _File->Open Folder_
 * Open _File Explorer_
 * Create a python file by any name, say ```hello.py``` and write the following
 ```python
@@ -26,6 +26,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlstMTI2MzI0NTU4MC
-wxMzU5MjQyOTYyLDc3NjczMzI4NF19
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOls0MjE2MDc5NzcsLT
+EyNjMyNDU1ODAsMTM1OTI0Mjk2Miw3NzY3MzMyODRdfQ==
 -->
