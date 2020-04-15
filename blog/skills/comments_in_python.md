@@ -18,10 +18,14 @@ print('Hello World!')
 ```
 * The first two lines in the above code are comments, since they start with ```#``` 
 * Hence the first 2 lines will not be executed by python
-* Multi-line comments using __block comments__
+
+Multi-line comments example are shown below. Multi-line comments are useful to write comments in more lines
 ```python
-# This is a comment which won't be executed
-# Let's print Hello World!
+"""  
+This is a comment  
+written in  
+more than just one line  
+"""
 print('Hello World!')
 ```
 
@@ -46,5 +50,5 @@ hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 cHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weX
 Rob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9u
 X3NraWxsXG5kYXRlOiAnMjAyMC0wNC0xNSdcbiIsImhpc3Rvcn
-kiOlstMTk0NTE0NTMyLC0yMTEzNTE4ODczXX0=
+kiOls5OTU3MDcwMzEsLTIxMTM1MTg4NzNdfQ==
 -->
