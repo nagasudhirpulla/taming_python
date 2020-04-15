@@ -10,8 +10,12 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 ### Main Code
-if condition runs a code only if the supplied expression evaluates to ```True```. Example
+if condition runs a code only if the supplied expression evaluates to ```True```. For Example
+```python
+x = 5
+if x==5:
 
+```
 
 
 ### Further Reading
@@ -22,5 +26,5 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTg4NDI1MTgyLDcyNDE4NzA2OV19
+N0b3J5IjpbLTQ4Nzk0NTMwNSw3MjQxODcwNjldfQ==
 -->
