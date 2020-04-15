@@ -7,7 +7,7 @@
 ### Working on a project
 * Create a new folder in your PC
 * Open Visual Studio Code
-
+![Open Visual Studio Co](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open-visual-studio-code.png)
 * Open the folder in Visual Studio Code using menu *File -> Open Folder*
 ![Open Folder in Visual Studio Code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open-folder-in-visual-studio-code.png)
 * Now you can create and manage python files in visual studio code.
@@ -33,8 +33,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFNldHVwIFB5dGhvbiBEZX
 ZlbG9wbWVudCBFbnZpcm9ubWVudFxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAncHl0aG9uLGxlYXJuaW5nLHR1dG
 9yaWFsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbMT
-kyNTYyMzY0NiwtMzEwNTEzNTAwLDgwNTQzNjI3NSwtNzY1NTc2
-Mjk1LDEwODczOTY1MDMsLTE5NDA3MjA2NDYsOTMzNjU0NzEwXX
-0=
+bFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbLT
+k4NDc1NjEyMiwxOTI1NjIzNjQ2LC0zMTA1MTM1MDAsODA1NDM2
+Mjc1LC03NjU1NzYyOTUsMTA4NzM5NjUwMywtMTk0MDcyMDY0Ni
+w5MzM2NTQ3MTBdfQ==
 -->
