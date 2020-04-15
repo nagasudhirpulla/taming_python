@@ -15,7 +15,7 @@ Open the folder in Visual Studio Code using File -> Open Folder
 
 Now you can create and manage python files in visual studio code
 
-Debug
+Run python files using **Run Python File in Terminal** play button in the top-right side of the editor.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NDc3NjQyMl19
+eyJoaXN0b3J5IjpbLTE5MTAzNjU5OTFdfQ==
 -->
