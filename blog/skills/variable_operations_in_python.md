@@ -17,7 +17,7 @@ y = True
 In the above code the variable x is assigned a boolean value ```True``` and y is assigned a boolean value ```False```
 
 #### == Operator 
-* **==** operator can be used to compare values on both sides and returns True only if both sides are equal. For example
+* **==** comparison operator can be used to compare values on both sides and returns True only if both sides are equal. For example
 ```python
 # assign value to variables
 x = 10
@@ -30,11 +30,25 @@ print(x==y)
 print(x+5 == y)
 ```
 
+#### not Operator
+* **not** comparison operator can be used to compare values on both sides and returns True only if both sides are equal. For example
+```python
+# assign value to variables
+x = 10
+y = 15
+
+# this will print False
+print(x==y)
+
+# this will print True
+print(x+5 == y)
+```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE9wZXJhdGlvbnMgb24gVm
 FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wy0xODkyMDkyNzg0LDIxNDQ1MjY0MzFdfQ==
+lzdG9yeSI6Wy03ODM4NzcxNjEsLTE4OTIwOTI3ODQsMjE0NDUy
+NjQzMV19
 -->
