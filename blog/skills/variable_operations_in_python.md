@@ -6,7 +6,7 @@
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 
-Please make sure to go through all the skills mentioned above to understand and execute the code mentioned below
+Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 ### Main Code
 Boolean means ```True``` or ```False```. For example
@@ -121,6 +121,6 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wy0xMDk0NDY2NjM1LC0yMDA1NDM5NTQ2LC03ODM4
-NzcxNjEsLTE4OTIwOTI3ODQsMjE0NDUyNjQzMV19
+lzdG9yeSI6Wy01ODc1NzE0MDEsLTIwMDU0Mzk1NDYsLTc4Mzg3
+NzE2MSwtMTg5MjA5Mjc4NCwyMTQ0NTI2NDMxXX0=
 -->
