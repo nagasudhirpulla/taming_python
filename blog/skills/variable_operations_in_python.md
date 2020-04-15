@@ -9,7 +9,7 @@
 Please make sure to go through all the skills mentioned above to understand and execute the code mentioned below
 
 ### Main Code
-Boolean means ```True/False```. For example
+Boolean means ```True``` or ```False```. For example
 ```python
 x = False
 y = True
@@ -92,7 +92,7 @@ since both left and right conditions are False
 print(x == 40 or y == 50)
 ```
 
-#### Some Other Operations
+#### Logical Operations
 ```python
 x = 10
 y = 15
@@ -108,14 +108,18 @@ z = x * y
 
 # divide x and y and then assign to z
 z = x / y
+
+# some complex equation
+z = 2*x + x^2 + 3*y
 ```
 
+F
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE9wZXJhdGlvbnMgb24gVm
 FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzYxNzQwNTE4MywtMjAwNTQzOTU0NiwtNzgzODc3
-MTYxLC0xODkyMDkyNzg0LDIxNDQ1MjY0MzFdfQ==
+lzdG9yeSI6WzkxNzgyMjcyLC0yMDA1NDM5NTQ2LC03ODM4Nzcx
+NjEsLTE4OTIwOTI3ODQsMjE0NDUyNjQzMV19
 -->
