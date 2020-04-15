@@ -9,7 +9,12 @@
 Please make sure to go through all the skills mentioned above to understand and execute the code mentioned below
 
 ### Main Code
-Boolean means ```True/False```
+Boolean means ```True/False```. For example
+```python
+x = False
+y = True
+```
+In the above code the variable x is assigned a boolean value ```True``` and the variable y is assigned a boolean
 
 
 <!--stackedit_data:
@@ -18,5 +23,5 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzM2MTYyMDA4LDIxNDQ1MjY0MzFdfQ==
+lzdG9yeSI6Wy0yMDEwMzYzMzc2LDIxNDQ1MjY0MzFdfQ==
 -->
