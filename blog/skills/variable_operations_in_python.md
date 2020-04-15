@@ -64,7 +64,29 @@ y = 20
 print(x==10 and y == 20)
 
 # this will print False, since the left condition is False
-print(x==100 and y == 20)
+print(x==300 and y == 20)
+```
+
+#### or Operator
+* **or** comparison operator will give True if any of both sides are ```True```. For example
+```python
+# this will print True
+print(True or False)
+
+# this will print True
+print(True or True)
+
+# this will print False
+print(False or False)
+
+x = 10
+y = 20
+
+# this will print True
+print(x==10 or y == 30)
+
+# this will print False, since the lef condition is False
+print(x == 40 and y == 50)
 ```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE9wZXJhdGlvbnMgb24gVm
@@ -72,6 +94,6 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wy01MDA5MDY3MDIsLTIwMDU0Mzk1NDYsLTc4Mzg3
+lzdG9yeSI6Wy04MTM5MDY1NDUsLTIwMDU0Mzk1NDYsLTc4Mzg3
 NzE2MSwtMTg5MjA5Mjc4NCwyMTQ0NTI2NDMxXX0=
 -->
