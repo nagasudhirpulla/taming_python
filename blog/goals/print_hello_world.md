@@ -3,7 +3,7 @@
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Basic printing in python](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 
-#### Main Stuff
+#### Steps
 In order to print the _Hello world!_ string, use the [print()](http://docs.python.org/library/functions.html#print "(in Python v2.7)") function as follows
 ```python
 print("Hello world!")
@@ -20,6 +20,5 @@ print("Hello world!")
 * Run the code using menu _Run -> Run Without Debugging_
 * You should see __Hello world!__ printed in the terminal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjk5MDExMjcsLTEwMDU4NTc2MTRdfQ
-==
+eyJoaXN0b3J5IjpbMzI3NTgyMjI3LC0xMDA1ODU3NjE0XX0=
 -->
