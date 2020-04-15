@@ -16,8 +16,10 @@ y = True
 ```
 In the above code the variable x is assigned a boolean value ```True``` and y is assigned a boolean value ```False```
 
+#### == Operator 
 * We can evaluate expressions based on their boolean value. For example
 ```python
+# assign value to variables
 x = 10
 y = 15
 
@@ -34,5 +36,5 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzExNTgzMDI5OTQsMjE0NDUyNjQzMV19
+lzdG9yeSI6Wy0yMTA5NDMyNDY3LDIxNDQ1MjY0MzFdfQ==
 -->
