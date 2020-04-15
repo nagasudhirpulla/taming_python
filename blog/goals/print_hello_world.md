@@ -2,7 +2,7 @@
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Basic printing in python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
-* [Comments in python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
+* [Comments in python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 
 Please make sure to go through all the skills mentioned above to understand and execute the steps mentioned below
 
@@ -22,6 +22,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByaW50IFwiSGVsbG8gV2
 9ybGQhXCJcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFn
 czogJ3B5dGhvbiwgbGVhcm5pbmcsIHRhbWluZ19weXRob25fZ2
 9hbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fZ29hbFxu
-ZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbNjM1MT
-U5OTQxLC0xODQxMDczNDI2LC0xMDA1ODU3NjE0XX0=
+ZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbLTE2NT
+g4Mjg0NDMsLTE4NDEwNzM0MjYsLTEwMDU4NTc2MTRdfQ==
 -->
