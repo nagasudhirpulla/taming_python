@@ -21,9 +21,8 @@ print("Hello world!")
 print("Hello world!")
 ```
 * Run the code using menu _Run -> Run Without Debugging_
-
-#### Further Reading
+* You should see __Hello world!__ printed in the terminal
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4NzUwMzY3XX0=
+eyJoaXN0b3J5IjpbMTc3Njc0OTQ2OV19
 -->
