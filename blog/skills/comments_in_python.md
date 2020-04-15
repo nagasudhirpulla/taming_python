@@ -47,11 +47,13 @@ print("Hello world!")
 * https://www.w3schools.com/python/python_comments.asp
 
 ```SKILL ID = XWHBZ```
+
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IENvbW1lbnRzIGluIHB5dG
 hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 cHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weX
 Rob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9u
 X3NraWxsXG5kYXRlOiAnMjAyMC0wNC0xNSdcbiIsImhpc3Rvcn
-kiOlsxNTU2Nzg3ODQ4LC0yMTEzNTE4ODczXX0=
+kiOls4MTUxNzcxMjMsLTIxMTM1MTg4NzNdfQ==
 -->
