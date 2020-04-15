@@ -18,13 +18,13 @@ print("Hello world!")
 * Run the code using menu _Run -> Run Without Debugging_
 * You should see __Hello world!__ printed in the terminal
 
-[Goto List of Goals]()
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByaW50IFwiSGVsbG8gV2
 9ybGQhXCJcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFn
 czogJ3B5dGhvbiwgbGVhcm5pbmcsIHRhbWluZ19weXRob25fZ2
 9hbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fZ29hbFxu
-ZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbLTE2Mj
-Y3MTQ4NTQsLTE2NTg4Mjg0NDMsLTE4NDEwNzM0MjYsLTEwMDU4
-NTc2MTRdfQ==
+ZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbMTAwOD
+Q5Mzc5OCwtMTY1ODgyODQ0MywtMTg0MTA3MzQyNiwtMTAwNTg1
+NzYxNF19
 -->
