@@ -13,10 +13,14 @@ print("Hello world!")
 ```
 
 #### Run this in Visual Studio Code
-Create a python file by any name, say ```hello.py``
+* Create a folder in your PC
+* Open the folder in Visual Studio Code using menu _File->Open Folder_
+* Open _File Explorer_
+* Create a python file by any name, say ```hello.py```
+* Wriet t
 
 #### Further Reading
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1ODQ1NDcxXX0=
+eyJoaXN0b3J5IjpbOTQ5MDc3MDE4XX0=
 -->
