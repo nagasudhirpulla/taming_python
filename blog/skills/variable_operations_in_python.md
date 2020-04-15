@@ -42,19 +42,20 @@ print(not x)
 
 # this will print False
 y = not x
-
-# this will print False
 print(y)
 
 # this will print True
-print(x+5 == y)
+print(not (1==2))
 ```
+
+#### and Operator
+
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE9wZXJhdGlvbnMgb24gVm
 FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzEwMTY4MTc4MDEsLTc4Mzg3NzE2MSwtMTg5MjA5
+lzdG9yeSI6WzE4MjY3OTY5MTEsLTc4Mzg3NzE2MSwtMTg5MjA5
 Mjc4NCwyMTQ0NTI2NDMxXX0=
 -->
