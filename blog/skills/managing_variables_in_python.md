@@ -18,7 +18,12 @@ The code above assigns the value 1 to variable x and assigns the value 'abc' to 
 ```python
 del x
 ```
-T
+The above code deletes the variable x
+### Get type of the variable
+```python
+x = 1
+type(x)
+```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 AnJ1xudGl0bGU6IE1hbmFnaW5nIFZhcmlhYmxlcyBpbiBQeXRo
@@ -26,5 +31,5 @@ b25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5
-IjpbLTQ3OTY1OTkzMywxMjg2MjI1MTk2XX0=
+IjpbLTI5ODQ4NTgxNSwxMjg2MjI1MTk2XX0=
 -->
