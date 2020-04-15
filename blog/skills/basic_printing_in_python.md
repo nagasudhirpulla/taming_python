@@ -16,11 +16,14 @@ print("Hello world!")
 * Create a folder in your PC
 * Open the folder in Visual Studio Code using menu _File->Open Folder_
 * Open _File Explorer_
-* Create a python file by any name, say ```hello.py```
-* Wriet t
+* Create a python file by any name, say ```hello.py``` and write the following
+```python
+print("Hello world!")
+```
+* Run the code using menu _Run -> Run Without Debugging_
 
 #### Further Reading
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5MDc3MDE4XX0=
+eyJoaXN0b3J5IjpbMjY4NzUwMzY3XX0=
 -->
