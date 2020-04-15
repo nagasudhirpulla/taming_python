@@ -2,20 +2,20 @@
 ### Software to be installed
 * Download and Install **python** in your PC from https://www.python.org/downloads/
 * Download and Install **Visual Studio Code (VS Code)** as a code editor from https://code.visualstudio.com/download
-* Install [python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) in Visual Studio Code using *View -> Extensions*
+* Install [python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) in Visual Studio Code using menu *View -> Extensions*
 
 ### Working on a project
 * Create a new folder in your computer
 * Open Visual Studio Code in your computer
 ![Open Visual Studio Code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open-visual-studio-code.png)
-* Open the folder in Visual Studio Code using menu *File -> Open Folder*
+* Open the created folder in Visual Studio Code using menu *File -> Open Folder*
 ![Open Folder in Visual Studio Code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open-folder-in-visual-studio-code.png)
 * Now you can create and manage python files in visual studio code.
 * Python files have extension __.py__. For example we can have a python file like ```hello.py```
 * Manage files using the **File Explorer** tab in the left sidebar as shown below
 ![File Explorer in Visual Studio Code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/file-explorer-in-visual-studio-code.png) 
 
-* Run python files using **Run Python File in Terminal** play button in the top-right side of the editor
+* Run python files using play button in the top-right side of the editor
 ![Using the run python file in terminal button](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/run-python-file-in-terminal-button.png)
 * You can Debug python files using menu *Run->Start Debugging*
 
@@ -34,7 +34,7 @@ ZlbG9wbWVudCBFbnZpcm9ubWVudFxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAncHl0aG9uLGxlYXJuaW5nLHR1dG
 9yaWFsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
 bFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbLT
-E0OTUwMTQ2NTQsMTY1OTI0OTI1NCwxOTI1NjIzNjQ2LC0zMTA1
+EzOTI4MzE1NTcsMTY1OTI0OTI1NCwxOTI1NjIzNjQ2LC0zMTA1
 MTM1MDAsODA1NDM2Mjc1LC03NjU1NzYyOTUsMTA4NzM5NjUwMy
 wtMTk0MDcyMDY0Niw5MzM2NTQ3MTBdfQ==
 -->
