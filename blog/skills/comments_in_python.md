@@ -43,6 +43,9 @@ print("Hello world!")
 * You should see __Hello world!__ printed in the terminal
 * Notice the the first 2 lines are not executed since they are comments
 
+#### Further Reading
+* https://www.w3schools.com/python/python_comments.asp
+
 ```SKILL ID = XWHBZ```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IENvbW1lbnRzIGluIHB5dG
@@ -50,5 +53,5 @@ hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 cHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weX
 Rob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9u
 X3NraWxsXG5kYXRlOiAnMjAyMC0wNC0xNSdcbiIsImhpc3Rvcn
-kiOls5OTU3MDcwMzEsLTIxMTM1MTg4NzNdfQ==
+kiOlsxNTU2Nzg3ODQ4LC0yMTEzNTE4ODczXX0=
 -->
