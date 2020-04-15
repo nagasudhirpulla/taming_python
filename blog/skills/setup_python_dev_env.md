@@ -19,12 +19,13 @@ Run python files using **Run Python File in Terminal** play button in the top-ri
 ![Using the run python file in terminal button](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/run-python-file-in-terminal-button.png)
 You can Debug python files using *Run->Start Debugging*
 
-For more beginner tutorial on VS Code visit https://code.visualstudio.com/docs/python/python-tutorial
+#### Further Reading
+* For more beginner tutorial on VS Code visit https://code.visualstudio.com/docs/python/python-tutorial
 
-For more info on setting up python extension in VS Code visit https://marketplace.visualstudio.com/items?itemName=ms-python.python
+* For more info on setting up python extension in VS Code visit https://marketplace.visualstudio.com/items?itemName=ms-python.python
 
-For vido
+* For beginner videos on VS Code visit https://code.visualstudio.com/docs/getstarted/introvideos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDAwNjUsLTE5NDA3MjA2NDYsOTMzNj
-U0NzEwXX0=
+eyJoaXN0b3J5IjpbMTA4NzM5NjUwMywtMTk0MDcyMDY0Niw5Mz
+M2NTQ3MTBdfQ==
 -->
