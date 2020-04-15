@@ -13,7 +13,9 @@ Install [python extension](https://marketplace.visualstudio.com/items?itemName=m
 
 * Open the folder in Visual Studio Code using menu *File -> Open Folder*
 ![Open Folder in Visual Studio Code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open-folder-in-visual-studio-code.png)
-* Now you can create and manage python files in visual studio code
+* Now you can create and manage python files in visual studio code.
+
+* Python files have extension __.py__
 
 * Manage files using the **File Explorer** tab in the left sidebar as shown below
 ![File Explorer in Visual Studio Code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/file-explorer-in-visual-studio-code.png) 
@@ -34,6 +36,7 @@ ZlbG9wbWVudCBFbnZpcm9ubWVudFxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAncHl0aG9uLGxlYXJuaW5nLHR1dG
 9yaWFsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
 bFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbLT
-MxMDUxMzUwMCw4MDU0MzYyNzUsLTc2NTU3NjI5NSwxMDg3Mzk2
-NTAzLC0xOTQwNzIwNjQ2LDkzMzY1NDcxMF19
+gyMTQ1ODg0MSwtMzEwNTEzNTAwLDgwNTQzNjI3NSwtNzY1NTc2
+Mjk1LDEwODczOTY1MDMsLTE5NDA3MjA2NDYsOTMzNjU0NzEwXX
+0=
 -->
