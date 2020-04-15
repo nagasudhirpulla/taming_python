@@ -24,5 +24,10 @@ print("Hello world!")
 * You should see __Hello world!__ printed in the terminal
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Njc0OTQ2OV19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
+luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
+YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
+RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOls3NzY3MzMyODRdfQ
+==
 -->
