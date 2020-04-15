@@ -2,7 +2,10 @@
 
 *ID - IZEPB*
 
-install python in your PC from here
+install latest version of python in your PC from 
+https://www.python.org/downloads/
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2ODY1NjExXX0=
+eyJoaXN0b3J5IjpbMTkwMzQ2ODEwMF19
 -->
