@@ -37,8 +37,8 @@ print(x+5 == y)
 x = True
 
 # this will print False
-print(not True)
 print(not x)
+print(not True)
 
 # this will print False
 y = not x
@@ -49,13 +49,25 @@ print(not (1==2))
 ```
 
 #### and Operator
-* **and** comparison operator will toggle a boolean value. For example
+* **and** comparison operator will give True only if both sides are ```True```. For example
+```python
+# this will print False
+print(True and False)
+print(not x)
+
+# this will print False
+y = not x
+print(y)
+
+# this will print True
+print(not (1==2))
+```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE9wZXJhdGlvbnMgb24gVm
 FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wy0yMDA1NDM5NTQ2LC03ODM4NzcxNjEsLTE4OTIw
-OTI3ODQsMjE0NDUyNjQzMV19
+lzdG9yeSI6WzE1MDg3MzczODcsLTIwMDU0Mzk1NDYsLTc4Mzg3
+NzE2MSwtMTg5MjA5Mjc4NCwyMTQ0NTI2NDMxXX0=
 -->
