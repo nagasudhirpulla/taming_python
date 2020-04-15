@@ -14,8 +14,9 @@ Boolean means ```True/False```. For example
 x = False
 y = True
 ```
-In the above code the variable x is assigned a boolean value ```True``` and the variable y is assigned a boolean
+In the above code the variable x is assigned a boolean value ```True``` and y is assigned a boolean value ```False```
 
+* We can evaluate expressions based on their boolean value. For e
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE9wZXJhdGlvbnMgb24gVm
@@ -23,5 +24,5 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wy0yMDEwMzYzMzc2LDIxNDQ1MjY0MzFdfQ==
+lzdG9yeSI6WzE4NjI0OTgyODYsMjE0NDUyNjQzMV19
 -->
