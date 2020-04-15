@@ -23,12 +23,14 @@ print("Hello world!")
 * You should see __Hello world!__ printed in the terminal
 
 ```SKILL ID = SBASF```
+
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlstOTEyOTUxMTc2LC
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlsxOTU0MzY4OTQ3LC
 0yMDcwMTQxMjgwLDQyMTYwNzk3NywtMTI2MzI0NTU4MCwxMzU5
 MjQyOTYyLDc3NjczMzI4NF19
 -->
