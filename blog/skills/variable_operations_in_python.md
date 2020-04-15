@@ -53,14 +53,18 @@ print(not (1==2))
 ```python
 # this will print False
 print(True and False)
-print(not x)
-
-# this will print False
-y = not x
-print(y)
 
 # this will print True
-print(not (1==2))
+print(True and True)
+
+x = 10
+y = 20
+
+# this will print True
+print(x==10 and y == 20)
+
+# this will print False, since the left condition is False
+print(x==100 and y == 20)
 ```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE9wZXJhdGlvbnMgb24gVm
@@ -68,6 +72,6 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzE1MDg3MzczODcsLTIwMDU0Mzk1NDYsLTc4Mzg3
+lzdG9yeSI6Wy01MDA5MDY3MDIsLTIwMDU0Mzk1NDYsLTc4Mzg3
 NzE2MSwtMTg5MjA5Mjc4NCwyMTQ0NTI2NDMxXX0=
 -->
