@@ -20,7 +20,10 @@ Isn't that handy
 ```
 
 ### Substituting variables in string using formatter
-``````
+```python
+# notice how we substituted variables using {0}, {1}
+someStr = 'Greetings from {0}, welcome to {1}'.format('sudhir', 'taming python')
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjUwOTk3NSwxMTgzMjkxMzIxXX0=
+eyJoaXN0b3J5IjpbODIxMzMwMjA1LDExODMyOTEzMjFdfQ==
 -->
