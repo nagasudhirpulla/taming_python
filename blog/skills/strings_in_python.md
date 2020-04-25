@@ -38,6 +38,11 @@ someStr = 'Greetings from {nameStr}, welcome to {courseStr}'.format(nameStr='sud
 # notice how we substituted named variables
 # This way we can easily embed variables in strings
 ```
+
+### title(), capitalize(), lower(), upper() and swapcase() functions
+```python
+# title() will capatalize each w
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzcxMzM4LDExODMyOTEzMjFdfQ==
+eyJoaXN0b3J5IjpbMTM2NTU5OTUwOCwxMTgzMjkxMzIxXX0=
 -->
