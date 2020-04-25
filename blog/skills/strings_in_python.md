@@ -28,6 +28,13 @@ someStr = 'Greetings from {0}, welcome to {1}'.format('sudhir', 'taming python')
 # notice how we substituted variables using {0}, {1}
 # This way we can easily embed variables in strings
 ```
+
+### Another way of substituting variables in string using formatter
+```python
+nameStr = 'sudhir'
+courseStr = 'taming python'
+someStr = 'Greetings from {0}, welcome to {1}'.format('sudhir', 'taming python')
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTMwNDAzMCwxMTgzMjkxMzIxXX0=
+eyJoaXN0b3J5IjpbMjA5ODUxNjkzNCwxMTgzMjkxMzIxXX0=
 -->
