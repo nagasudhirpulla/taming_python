@@ -44,7 +44,14 @@ someStr = 'Greetings from {nameStr}, welcome to {courseStr}'.format(nameStr='sud
 # title() will capatalize each word
 x = 'Hello my dear friends!!!'
 print(x.title())
+# this will print 
+# Hello My Dear Friends!!!
+
+# title() will capatalize only first letter of string
+print(x.capitalize())
+# this will print 
+# Hello My Dear Friends!!!
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzYwMzU4MywxMTgzMjkxMzIxXX0=
+eyJoaXN0b3J5IjpbLTEwOTM0NTkyMTgsMTE4MzI5MTMyMV19
 -->
