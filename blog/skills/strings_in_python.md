@@ -13,9 +13,14 @@ Please make sure to have all the skills mentioned above to understand and execut
 ```python
 x = 'This is string'
 y = "You can use single or double quotes"
-z = '''You can write multiline strings using triple quotes
+z = '''You can write multi-line strings using triple quotes
+like this
+Isn't that handy
 '''
 ```
+
+### Substituting variables in string using formatter
+``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDEyOTQzNCwxMTgzMjkxMzIxXX0=
+eyJoaXN0b3J5IjpbMTIwNjUwOTk3NSwxMTgzMjkxMzIxXX0=
 -->
