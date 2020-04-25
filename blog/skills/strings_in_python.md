@@ -130,7 +130,12 @@ print(x.rfind(' is'))
 # prints the zero based index of first occurence of 'is' in x from the end, i.e., 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODExNjk2NCwxMTkzMTYzMTI4LC01MT
-MwOTU3MjgsMTgxODA1NDI0NSwxMjY0NDgwODgyLDE0Njk5ODAy
-NDEsLTQxMjQyMDAyNiwxMTgzMjkxMzIxXX0=
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFN0cmluZ3MgaW4gcHl0aG
+9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICds
+ZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1
+xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0
+ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbLTQ3MDk5Nz
+MyMCwxMTkzMTYzMTI4LC01MTMwOTU3MjgsMTgxODA1NDI0NSwx
+MjY0NDgwODgyLDE0Njk5ODAyNDEsLTQxMjQyMDAyNiwxMTgzMj
+kxMzIxXX0=
 -->
