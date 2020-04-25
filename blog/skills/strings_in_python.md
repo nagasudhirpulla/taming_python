@@ -8,6 +8,8 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
+**string** means a group of characters
+
 ### Main Code
 #### Creating a string
 ```python
@@ -53,5 +55,5 @@ print(x.capitalize())
 # Hello My Dear Friends!!!
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTM0NTkyMTgsMTE4MzI5MTMyMV19
+eyJoaXN0b3J5IjpbLTE1MDk3MjA5NjgsMTE4MzI5MTMyMV19
 -->
