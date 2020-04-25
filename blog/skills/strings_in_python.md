@@ -116,10 +116,12 @@ print(y)
 
 ### find() function
 ```python
-# todo
+x = "This is a good string"
+print(mystr.find('is'))
+# prints the
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzE2MzEyOCwtNTEzMDk1NzI4LDE4MT
-gwNTQyNDUsMTI2NDQ4MDg4MiwxNDY5OTgwMjQxLC00MTI0MjAw
-MjYsMTE4MzI5MTMyMV19
+eyJoaXN0b3J5IjpbMTQ5MTYwNDc4OCwxMTkzMTYzMTI4LC01MT
+MwOTU3MjgsMTgxODA1NDI0NSwxMjY0NDgwODgyLDE0Njk5ODAy
+NDEsLTQxMjQyMDAyNiwxMTgzMjkxMzIxXX0=
 -->
