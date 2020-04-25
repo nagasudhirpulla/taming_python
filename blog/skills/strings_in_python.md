@@ -41,8 +41,10 @@ someStr = 'Greetings from {nameStr}, welcome to {courseStr}'.format(nameStr='sud
 
 ### title(), capitalize(), lower(), upper() and swapcase() functions
 ```python
-# title() will capatalize each w
+# title() will capatalize each word
+x = 'Hello my dear friends!!!'
+print(x.title())
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTU5OTUwOCwxMTgzMjkxMzIxXX0=
+eyJoaXN0b3J5IjpbLTQxNzYwMzU4MywxMTgzMjkxMzIxXX0=
 -->
