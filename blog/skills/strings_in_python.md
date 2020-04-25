@@ -12,8 +12,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 #### Creating a string
 ```python
 x = 'This is string'
-y = ""
+y = "You can use single or double quotes"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTgxMzQ0Ml19
+eyJoaXN0b3J5IjpbMTE4MzI5MTMyMV19
 -->
