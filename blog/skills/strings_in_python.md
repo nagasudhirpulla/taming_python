@@ -110,11 +110,11 @@ print(y)
 ```python
 y = ','.join(['this' ,'is', 'a', 'useful', 'method'])
 print(y)
-# only first occurence will be replaced, notice the third input of the function
-# this is great string, just a normal one
+# this will print
+# this is a useful method
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzQ3NzY2NywxODE4MDU0MjQ1LDEyNj
+eyJoaXN0b3J5IjpbLTUxMzA5NTcyOCwxODE4MDU0MjQ1LDEyNj
 Q0ODA4ODIsMTQ2OTk4MDI0MSwtNDEyNDIwMDI2LDExODMyOTEz
 MjFdfQ==
 -->
