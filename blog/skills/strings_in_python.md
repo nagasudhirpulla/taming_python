@@ -13,7 +13,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 ```python
 x = 'This is string'
 y = "You can use single or double quotes"
+z = '''You can write multiline strings using triple quotes
+'''
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzI5MTMyMV19
+eyJoaXN0b3J5IjpbLTI4MDEyOTQzNCwxMTgzMjkxMzIxXX0=
 -->
