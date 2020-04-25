@@ -74,14 +74,19 @@ print(x.swapcase())
 ```python
 x = "  string with left and right spaces   "
 print(mystr.strip())
+# string with left and right spaces
+
 x = "string with right spaces   "
 print(mystr.strip())
+# string with right spaces
+
 x = "  string with left spaces"
 print(mystr.strip())
-# all the above print statements will print
-# 
+# string with left spaces
 ```
+
+### strip() function
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3OTEzMzg5LC00MTI0MjAwMjYsMTE4Mz
+eyJoaXN0b3J5IjpbODk2NTIwMTQ2LC00MTI0MjAwMjYsMTE4Mz
 I5MTMyMV19
 -->
