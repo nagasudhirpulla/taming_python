@@ -85,8 +85,12 @@ print(mystr.strip())
 # string with left spaces
 ```
 
-### strip() function
+### replace() function
+````python
+x = 'this is normal string, just a normal one'
+y = x.replace('normal', 'great')
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2NTIwMTQ2LC00MTI0MjAwMjYsMTE4Mz
+eyJoaXN0b3J5IjpbNzIyODQ1MDY0LC00MTI0MjAwMjYsMTE4Mz
 I5MTMyMV19
 -->
