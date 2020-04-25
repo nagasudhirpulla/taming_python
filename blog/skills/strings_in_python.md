@@ -93,10 +93,22 @@ print(y)
 # this is great string, just a great one
 
 y = x.replace('normal', 'great', 1)
-# only first occurence will be replaced, notice the third argument of the function
+# only first occurence will be replaced, notice the third input of the function
+# this is great string, just a normal one
+```
+
+### split() function
+````python
+x = 'one,two,three,four'
+y = x.split(x, ',')
+print(y)
+# this is great string, just a great one
+
+y = x.replace('normal', 'great', 1)
+# only first occurence will be replaced, notice the third input of the function
 # this is great string, just a normal one
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2OTk4MDI0MSwtNDEyNDIwMDI2LDExOD
-MyOTEzMjFdfQ==
+eyJoaXN0b3J5IjpbMTI2NDQ4MDg4MiwxNDY5OTgwMjQxLC00MT
+I0MjAwMjYsMTE4MzI5MTMyMV19
 -->
