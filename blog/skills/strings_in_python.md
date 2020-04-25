@@ -117,11 +117,15 @@ print(y)
 ### find() function
 ```python
 x = "This is a good string"
-print(mystr.find('is'))
-# prints the
+print(x.find('is'))
+# prints the zero based index of first occurence of 'is' in x, i.e., 2
+
+print(x.find(' is'))
+# prints the zero based index of first occurence of ' is' in x, i.e., 4
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTYwNDc4OCwxMTkzMTYzMTI4LC01MT
-MwOTU3MjgsMTgxODA1NDI0NSwxMjY0NDgwODgyLDE0Njk5ODAy
-NDEsLTQxMjQyMDAyNiwxMTgzMjkxMzIxXX0=
+eyJoaXN0b3J5IjpbODc3NzY5ODM5LDExOTMxNjMxMjgsLTUxMz
+A5NTcyOCwxODE4MDU0MjQ1LDEyNjQ0ODA4ODIsMTQ2OTk4MDI0
+MSwtNDEyNDIwMDI2LDExODMyOTEzMjFdfQ==
 -->
