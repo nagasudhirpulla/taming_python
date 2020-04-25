@@ -99,16 +99,18 @@ y = x.replace('normal', 'great', 1)
 
 ### split() function
 ````python
+# this is create a list of strings based on the specified seperator
 x = 'one,two,three,four'
 y = x.split(',')
 print(y)
-# this is create a list of s
+# ['one','two','three','four']
 
-y = x.replace('normal', 'great', 1)
+### join() function
+y = message = ' '.join(['this' ,'is', 'a', 'useful', 'method'])
 # only first occurence will be replaced, notice the third input of the function
 # this is great string, just a normal one
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Mzg4ODkxMSwxMjY0NDgwODgyLDE0Nj
-k5ODAyNDEsLTQxMjQyMDAyNiwxMTgzMjkxMzIxXX0=
+eyJoaXN0b3J5IjpbLTE3MzIyNzY5NzQsMTI2NDQ4MDg4MiwxND
+Y5OTgwMjQxLC00MTI0MjAwMjYsMTE4MzI5MTMyMV19
 -->
