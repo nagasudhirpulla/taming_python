@@ -123,9 +123,14 @@ print(x.find('is'))
 print(x.find(' is'))
 # prints the zero based index of first occurence of ' is' in x, i.e., 4
 
+print(x.find('is'), 3)
+# prints the zero based index of first occurence of 'is' in x after position 3, i.e., 5
+
+print(x.rfind(' is'))
+# prints the zero based index of first occurence of 'is' in x from the end, i.e., 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3NzY5ODM5LDExOTMxNjMxMjgsLTUxMz
-A5NTcyOCwxODE4MDU0MjQ1LDEyNjQ0ODA4ODIsMTQ2OTk4MDI0
-MSwtNDEyNDIwMDI2LDExODMyOTEzMjFdfQ==
+eyJoaXN0b3J5IjpbLTg1ODExNjk2NCwxMTkzMTYzMTI4LC01MT
+MwOTU3MjgsMTgxODA1NDI0NSwxMjY0NDgwODgyLDE0Njk5ODAy
+NDEsLTQxMjQyMDAyNiwxMTgzMjkxMzIxXX0=
 -->
