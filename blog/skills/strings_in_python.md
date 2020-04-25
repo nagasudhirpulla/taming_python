@@ -89,8 +89,14 @@ print(mystr.strip())
 ````python
 x = 'this is normal string, just a normal one'
 y = x.replace('normal', 'great')
+print(y)
+# this is great string, just a great one
+
+y = x.replace('normal', 'great', 1)
+# only first occurence will be replaced, notice the third argument of the function
+# this is great string, just a normal one
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyODQ1MDY0LC00MTI0MjAwMjYsMTE4Mz
-I5MTMyMV19
+eyJoaXN0b3J5IjpbMTQ2OTk4MDI0MSwtNDEyNDIwMDI2LDExOD
+MyOTEzMjFdfQ==
 -->
