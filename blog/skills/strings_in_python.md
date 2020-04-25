@@ -21,9 +21,13 @@ Isn't that handy
 
 ### Substituting variables in string using formatter
 ```python
-# notice how we substituted variables using {0}, {1}
 someStr = 'Greetings from {0}, welcome to {1}'.format('sudhir', 'taming python')
+# this will print 
+# Greetings from sudhir, welcome to taming python
+
+# notice how we substituted variables using {0}, {1}
+# This way we can easily embed variables in strings
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxMzMwMjA1LDExODMyOTEzMjFdfQ==
+eyJoaXN0b3J5IjpbMTk2MTMwNDAzMCwxMTgzMjkxMzIxXX0=
 -->
