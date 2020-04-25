@@ -31,10 +31,13 @@ someStr = 'Greetings from {0}, welcome to {1}'.format('sudhir', 'taming python')
 
 ### Another way of substituting variables in string using formatter
 ```python
-nameStr = 'sudhir'
-courseStr = 'taming python'
-someStr = 'Greetings from {0}, welcome to {1}'.format('sudhir', 'taming python')
+someStr = 'Greetings from {nameStr}, welcome to {courseStr}'.format(nameStr='sudhir', courseStr='taming python')
+# this will print 
+# Greetings from sudhir, welcome to taming python
+
+# notice how we substituted named variables
+# This way we can easily embed variables in strings
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODUxNjkzNCwxMTgzMjkxMzIxXX0=
+eyJoaXN0b3J5IjpbMjExNzcxMzM4LDExODMyOTEzMjFdfQ==
 -->
