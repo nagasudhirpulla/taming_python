@@ -113,8 +113,10 @@ print(y)
 # this will print
 # this is a useful method
 ```
+
+### join() function
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzA5NTcyOCwxODE4MDU0MjQ1LDEyNj
-Q0ODA4ODIsMTQ2OTk4MDI0MSwtNDEyNDIwMDI2LDExODMyOTEz
-MjFdfQ==
+eyJoaXN0b3J5IjpbMTI5NTIzMDgwOCwtNTEzMDk1NzI4LDE4MT
+gwNTQyNDUsMTI2NDQ4MDg4MiwxNDY5OTgwMjQxLC00MTI0MjAw
+MjYsMTE4MzI5MTMyMV19
 -->
