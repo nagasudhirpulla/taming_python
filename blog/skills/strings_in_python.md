@@ -54,16 +54,21 @@ print(x.capitalize())
 # this will print 
 # Hello my dear friends!!!
 
-# lower() will capatalize only first letter of string
+# lower() will make all characters of string as lower case
 print(x.lower())
 # this will print 
 # hello my dear friends!!!
 
-# lower() will capatalize only first letter of string
+# upper() will make all characters of string as upper case
 print(x.upper())
 # this will print 
-# hello my dear friends!!!
+# HELLO MY DEAR FRIENDS!!!
+
+# swapcase() will make all characters of string as upper case
+print(x.swapcase())
+# this will print 
+# HELLO MY DEAR fRIENDS!!!
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTAyNTY5NSwxMTgzMjkxMzIxXX0=
+eyJoaXN0b3J5IjpbLTY2NjM5ODkyOCwxMTgzMjkxMzIxXX0=
 -->
