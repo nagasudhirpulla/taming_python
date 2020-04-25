@@ -106,12 +106,14 @@ print(y)
 # ['one','two','three','four']
 ```
 ### join() function
+````
 y = ','.join(['this' ,'is', 'a', 'useful', 'method'])
 print(y)
 # only first occurence will be replaced, notice the third input of the function
 # this is great string, just a normal one
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxODA1NDI0NSwxMjY0NDgwODgyLDE0Nj
-k5ODAyNDEsLTQxMjQyMDAyNiwxMTgzMjkxMzIxXX0=
+eyJoaXN0b3J5IjpbLTg0MTczMzE2NSwxODE4MDU0MjQ1LDEyNj
+Q0ODA4ODIsMTQ2OTk4MDI0MSwtNDEyNDIwMDI2LDExODMyOTEz
+MjFdfQ==
 -->
