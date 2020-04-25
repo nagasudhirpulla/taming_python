@@ -73,8 +73,15 @@ print(x.swapcase())
 ### strip() function to remove spaces at beginning and end
 ```python
 x = "  string with left and right spaces   "
+print(mystr.strip())
+x = "string with right spaces   "
+print(mystr.strip())
+x = "  string with left spaces"
+print(mystr.strip())
+# all the above print statements will print
+# 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDY2NDIxNzEsLTQxMjQyMDAyNiwxMT
-gzMjkxMzIxXX0=
+eyJoaXN0b3J5IjpbNzk3OTEzMzg5LC00MTI0MjAwMjYsMTE4Mz
+I5MTMyMV19
 -->
