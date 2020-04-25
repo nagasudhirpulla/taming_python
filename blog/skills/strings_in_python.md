@@ -64,11 +64,11 @@ print(x.upper())
 # this will print 
 # HELLO MY DEAR FRIENDS!!!
 
-# swapcase() will make all characters of string as upper case
+# swapcase() will reverse the case of all the characters of a string
 print(x.swapcase())
 # this will print 
 # HELLO MY DEAR fRIENDS!!!
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NjM5ODkyOCwxMTgzMjkxMzIxXX0=
+eyJoaXN0b3J5IjpbLTM2NzcxMjEyMiwxMTgzMjkxMzIxXX0=
 -->
