@@ -86,7 +86,7 @@ print(mystr.strip())
 ```
 
 ### replace() function
-````python
+```python
 x = 'this is normal string, just a normal one'
 y = x.replace('normal', 'great')
 print(y)
@@ -98,22 +98,23 @@ y = x.replace('normal', 'great', 1)
 ```
 
 ### split() function
-````python
+```python
 # this is create a list of strings based on the specified seperator
 x = 'one,two,three,four'
 y = x.split(',')
 print(y)
 # ['one','two','three','four']
 ```
+
 ### join() function
-````
+```python
 y = ','.join(['this' ,'is', 'a', 'useful', 'method'])
 print(y)
 # only first occurence will be replaced, notice the third input of the function
 # this is great string, just a normal one
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTczMzE2NSwxODE4MDU0MjQ1LDEyNj
+eyJoaXN0b3J5IjpbMTI3MzQ3NzY2NywxODE4MDU0MjQ1LDEyNj
 Q0ODA4ODIsMTQ2OTk4MDI0MSwtNDEyNDIwMDI2LDExODMyOTEz
 MjFdfQ==
 -->
