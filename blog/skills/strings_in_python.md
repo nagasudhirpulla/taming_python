@@ -114,9 +114,12 @@ print(y)
 # this is a useful method
 ```
 
-### join() function
+### find() function
+```python
+# todo
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTIzMDgwOCwtNTEzMDk1NzI4LDE4MT
+eyJoaXN0b3J5IjpbMTE5MzE2MzEyOCwtNTEzMDk1NzI4LDE4MT
 gwNTQyNDUsMTI2NDQ4MDg4MiwxNDY5OTgwMjQxLC00MTI0MjAw
 MjYsMTE4MzI5MTMyMV19
 -->
