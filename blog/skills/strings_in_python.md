@@ -43,6 +43,16 @@ someStr = 'Greetings from {nameStr}, welcome to {courseStr}'.format(nameStr='sud
 
 ### title(), capitalize(), lower(), upper() and swapcase() functions
 ```python
+# lower() will make all characters of string as lower case
+print(x.lower())
+# this will print 
+# hello my dear friends!!!
+
+# upper() will make all characters of string as upper case
+print(x.upper())
+# this will print 
+# HELLO MY DEAR FRIENDS!!!
+
 # title() will capatalize each word
 x = 'hello my dear Friends!!!'
 print(x.title())
@@ -54,21 +64,11 @@ print(x.capitalize())
 # this will print 
 # Hello my dear friends!!!
 
-# lower() will make all characters of string as lower case
-print(x.lower())
-# this will print 
-# hello my dear friends!!!
-
-# upper() will make all characters of string as upper case
-print(x.upper())
-# this will print 
-# HELLO MY DEAR FRIENDS!!!
-
 # swapcase() will reverse the case of all the characters of a string
 print(x.swapcase())
 # this will print 
 # HELLO MY DEAR fRIENDS!!!
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzcxMjEyMiwxMTgzMjkxMzIxXX0=
+eyJoaXN0b3J5IjpbLTQxMjQyMDAyNiwxMTgzMjkxMzIxXX0=
 -->
