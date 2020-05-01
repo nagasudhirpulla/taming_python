@@ -53,6 +53,19 @@ print(x)
 # this prints [1,5,3,7,4,10,15]
 ```
 
+#### "extend" function to add multiple new elements at the end
+```python
+# create a list
+x = [1,5,3,7,4]
+
+# add numbers 10, 15 at the end of the list
+x.extend([10, 15])
+
+# print to verify that 10, 15 are added at the end
+print(x)
+# this prints [1,5,3,7,4,10,15]
+```
+
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
@@ -60,6 +73,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0zMDg3Nzk4OT
-AsLTExNTM4Njg5NjldfQ==
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0xODI4NzkyNz
+k0LC0xMTUzODY4OTY5XX0=
 -->
