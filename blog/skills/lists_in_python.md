@@ -26,7 +26,15 @@ print(len(x))
 ```
 
 #### "append" function to add new elements at the end
+```python
+# create a list
+x = [1,5,3,7,4]
 
+# add a number at the end of the list
+x.append(10)
+
+# now print to verify that 1
+```
 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -35,6 +43,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzIwMDA4MzkzNz
-QsLTExNTM4Njg5NjldfQ==
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0yMDAyMDIyNj
+c0LC0xMTUzODY4OTY5XX0=
 -->
