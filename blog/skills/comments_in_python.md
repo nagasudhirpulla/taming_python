@@ -43,10 +43,16 @@ print("Hello world!")
 * You should see __Hello world!__ printed in the terminal
 * Notice the the first 2 lines are not executed since they are comments
 
+
+### Online Interpreter
+You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
+
 #### Further Reading
 * https://www.w3schools.com/python/python_comments.asp
 
 ```SKILL ID = XWHBZ```
+
+<hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
@@ -55,5 +61,6 @@ hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 cHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weX
 Rob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9u
 X3NraWxsXG5kYXRlOiAnMjAyMC0wNC0xNSdcbiIsImhpc3Rvcn
-kiOls4MTUxNzcxMjMsLTIxMTM1MTg4NzNdfQ==
+kiOlsxMzI4MzQ1MjEzLDgxNTE3NzEyMywtMjExMzUxODg3M119
+
 -->
