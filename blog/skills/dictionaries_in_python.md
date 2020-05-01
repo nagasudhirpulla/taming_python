@@ -25,9 +25,17 @@ x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
 print(x['firstname'])
 # prints Nagasudhir
 
-# access lastname property
+# access lastname value
 print(x['lastname'])
 # prints Pulla
+```
+
+### Check if dictionary has a key
+```python
+# create a dictionary
+x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
+
+print(x.has_key(''))
 ```
 
 
@@ -43,6 +51,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpY3Rpb25hcmllcyBpbi
 BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
-IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls2Nj
-U1NzIxOTQsLTExNzEwMzgxOTBdfQ==
+IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxND
+Q3OTYzNDcyLC0xMTcxMDM4MTkwXX0=
 -->
