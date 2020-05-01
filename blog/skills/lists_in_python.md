@@ -69,7 +69,7 @@ print(x)
 # this prints [54, 1, 5, 3, 7, 21, 4]
 ```
 
-#### "index" function to find the first occurrence of element in the list
+#### "index" function to search for the first occurrence in the list
 ```python
 # initialize a list
 x = ['a','b','c','b', 'a']
@@ -88,7 +88,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0yMDYwNTcyNz
-YyLC0yMDE1NzY0MDcyLC01NzA3MTA5NzksLTE1Nzc1ODI3OTAs
-LTExNTM4Njg5NjldfQ==
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0xMjM1NTAwNT
+czLC0yMDYwNTcyNzYyLC0yMDE1NzY0MDcyLC01NzA3MTA5Nzks
+LTE1Nzc1ODI3OTAsLTExNTM4Njg5NjldfQ==
 -->
