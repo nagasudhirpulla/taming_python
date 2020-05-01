@@ -30,27 +30,25 @@ print(len(x))
 # create a list
 x = [1,5,3,7,4]
 
-# add a number at the end of the list
+# add 10 at the end of the list
 x.append(10)
-# add a number at the end of the list
+# add 15 at the end of the list
 x.append(15)
 
-# now print to verify that 10, 15 are added at the end
+# print to verify that 10, 15 are added at the end
 print(x)
 # this prints [1,5,3,7,4,10,15]
 ```
 
-#### "extend" function to add new elements list at the end
+#### "extend" function to add multiple new elements at the end
 ```python
 # create a list
 x = [1,5,3,7,4]
 
-# add a number at the end of the list
-x.append(10)
-# add a number at the end of the list
-x.append(15)
+# add numbers 10, 15 at the end of the list
+x.extend([10, 15])
 
-# now print to verify that 10, 15 are added at the end
+# print to verify that 10, 15 are added at the end
 print(x)
 # this prints [1,5,3,7,4,10,15]
 ```
@@ -62,6 +60,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzgwMjk0ODkwLC
-0xMTUzODY4OTY5XX0=
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0zMDg3Nzk4OT
+AsLTExNTM4Njg5NjldfQ==
 -->
