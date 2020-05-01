@@ -69,13 +69,16 @@ print(x)
 # this prints [54, 1, 5, 3, 7, 21, 4]
 ```
 
+#### "index" function to find the first occurrence of element in the list
+```python
 
+```
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0xNTc3NTgyNz
-kwLC0xMTUzODY4OTY5XX0=
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy03MTY5NDE4OD
+MsLTE1Nzc1ODI3OTAsLTExNTM4Njg5NjldfQ==
 -->
