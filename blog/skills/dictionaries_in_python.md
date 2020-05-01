@@ -61,13 +61,15 @@ print(list(x.values()))
 # create a dictionary
 x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
 
-# print all the keys
-print(list(x.keys()))
-# prints ['firstname', 'lastname']
+# change firstname
+x['firstname'] = 'Sudhir'
 
-# print all the values
-print(list(x.values()))
-# prints ['Nagasudhir', 'Pulla']
+# create a new property with key as 'age'
+x['age'] = 28
+
+# print the dictionary
+print(x)
+# prints {'firstname': 'Sudhir', 'lastname': 'Pulla', 'age': 28}
 ```
 
 ### Online Interpreter
@@ -81,7 +83,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpY3Rpb25hcmllcyBpbi
 BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
-IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsyNj
-Y1MzE1NzksLTE0MjQzODE5NjYsLTQ1NDEwODgzOCwtMTE3MTAz
-ODE5MF19
+IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstOD
+E3OTYyMTAxLC0xNDI0MzgxOTY2LC00NTQxMDg4MzgsLTExNzEw
+MzgxOTBdfQ==
 -->
