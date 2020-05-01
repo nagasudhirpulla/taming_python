@@ -30,17 +30,20 @@ print(x['lastname'])
 # prints Pulla
 ```
 
-### Check if dictionary has a key
+### Check if dictionary has a key using "in" operator
 ```python
 # create a dictionary
 x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
 
-print(x.has_key('firstname'))
+print('firstname' in x)
 # prints True
 
-print(x.has_key('somethingElse'))
+print('somethingElse' in x)
 # prints False
 ```
+
+### List out all the keys and values of a dictionary
+
 
 
 
@@ -55,6 +58,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpY3Rpb25hcmllcyBpbi
 BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
-IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstOD
-A0ODgxOTQ0LC0xMTcxMDM4MTkwXX0=
+IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMT
+UyODIxNjI1MSwtMTE3MTAzODE5MF19
 -->
