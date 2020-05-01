@@ -48,10 +48,12 @@ print('somethingElse' in x)
 x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
 
 # print all the keys
-print(x.keys())
+print(list(x.keys()))
+# prints ['firstname', 'lastname']
 
 # print all the values
-print(x.values())
+print(list(x.values()))
+# prints ['Nagasudhir', 'Pulla']
 ```
 
 
@@ -67,6 +69,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpY3Rpb25hcmllcyBpbi
 BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
-IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxOT
-kxOTk0MzYyLC00NTQxMDg4MzgsLTExNzEwMzgxOTBdfQ==
+IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMT
+QyNDM4MTk2NiwtNDU0MTA4ODM4LC0xMTcxMDM4MTkwXX0=
 -->
