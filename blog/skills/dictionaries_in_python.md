@@ -16,7 +16,19 @@ A Dictionary contains a set of key-value pairs encapsulated in it
 # create a dictionary
 x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
 ```
-### Acce
+### Access value using key
+```python
+# create a dictionary
+x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
+
+# access firstname value
+print(x['firstname'])
+# prints Nagasudhir
+
+# access lastname property
+print(x['lastname'])
+# prints Pulla
+```
 
 
 
@@ -31,6 +43,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpY3Rpb25hcmllcyBpbi
 BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
-IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNz
-Q4NjU0NTE1LC0xMTcxMDM4MTkwXX0=
+IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls2Nj
+U1NzIxOTQsLTExNzEwMzgxOTBdfQ==
 -->
