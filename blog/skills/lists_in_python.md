@@ -53,13 +53,16 @@ print(x)
 # this prints [1,5,3,7,4,10,15]
 ```
 
-#### "extend" function to add multiple new elements at the end
+#### "insert" function to add new element at any position
 ```python
 # create a list
 x = [1,5,3,7,4]
 
-# add numbers 10, 15 at the end of the list
-x.extend([10, 15])
+# add number 54 at the start the list
+x.insert(0, 54)
+
+# add number 21 at the second last position of the list
+x.insert(len(x)-2, 21)
 
 # print to verify that 10, 15 are added at the end
 print(x)
@@ -73,6 +76,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0xODI4NzkyNz
-k0LC0xMTUzODY4OTY5XX0=
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzEyNTAwODU3Nz
+QsLTExNTM4Njg5NjldfQ==
 -->
