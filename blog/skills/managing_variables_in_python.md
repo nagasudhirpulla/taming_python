@@ -38,7 +38,10 @@ y = 2*x
 # this makes value of z as 6 as the addition of x and y is assigned to z
 z = x + y
 ```
+### Online Interpreter
+You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
+<hr/>
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
@@ -47,6 +50,6 @@ b25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5
-IjpbLTM3OTcxNzU3Niw1NDY5Nzg1MTcsNjE0MTE0NDQyLDEyOD
-YyMjUxOTZdfQ==
+IjpbLTk4NDU0MjYzOCwtMzc5NzE3NTc2LDU0Njk3ODUxNyw2MT
+QxMTQ0NDIsMTI4NjIyNTE5Nl19
 -->
