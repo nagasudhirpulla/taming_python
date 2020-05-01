@@ -120,13 +120,18 @@ print(x[2:-1])
 # prints [2, 3, 4]
 ```
 
+### Online Interpreter
+You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
+
+
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzY1MTY2OTUwMS
-wtMjkxMTY0ODQzLC0yMDYwNTcyNzYyLC0yMDE1NzY0MDcyLC01
-NzA3MTA5NzksLTE1Nzc1ODI3OTAsLTExNTM4Njg5NjldfQ==
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzEzMTgyMzgzND
+YsNjUxNjY5NTAxLC0yOTExNjQ4NDMsLTIwNjA1NzI3NjIsLTIw
+MTU3NjQwNzIsLTU3MDcxMDk3OSwtMTU3NzU4Mjc5MCwtMTE1Mz
+g2ODk2OV19
 -->
