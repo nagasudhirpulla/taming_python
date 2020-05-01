@@ -87,7 +87,20 @@ print(x.index('b', 2))
 x = [5,1,2,9,4,6]
 x.sort()
 print(x)
-# prints 
+# prints [1, 2, 4, 5, 6, 9]
+
+x = ['z','w','p','a']
+x.sort()
+print(x)
+# prints ['a', 'p', 'w', 'z']
+```
+
+#### "reverse" function
+```python
+x = [5,1,2,9,4,6]
+x.sort()
+print(x)
+# prints [1, 2, 4, 5, 6, 9]
 ```
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -96,7 +109,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy05ODcxNTg2NT
-UsLTIwNjA1NzI3NjIsLTIwMTU3NjQwNzIsLTU3MDcxMDk3OSwt
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0yNTMyNDQyNT
+IsLTIwNjA1NzI3NjIsLTIwMTU3NjQwNzIsLTU3MDcxMDk3OSwt
 MTU3NzU4Mjc5MCwtMTE1Mzg2ODk2OV19
 -->
