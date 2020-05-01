@@ -11,7 +11,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 Lists means just a list of objects
 
 ### Main Code
-#### Creating a list and accessing its elements
+#### Basic stuff
 ```python
 # creating a list and storing in variable x
 x = [0,2,4,5,9]
@@ -25,6 +25,8 @@ print(x[2])
 print(len(x))
 ```
 
+#### "append" function to add new elements at the end
+
 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -33,6 +35,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy03ODk2MDM1OD
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzIwMDA4MzkzNz
 QsLTExNTM4Njg5NjldfQ==
 -->
