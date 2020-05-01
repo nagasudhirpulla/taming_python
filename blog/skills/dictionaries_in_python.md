@@ -11,10 +11,12 @@ Please make sure to have all the skills mentioned above to understand and execut
 A Dictionary contains a set of key-value pairs encapsulated in it
 
 ### Main Code
-#### Basic stuff
+#### Create a dictionary
 ```python
-
+# create a dictionary
+x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
 ```
+### Acce
 
 
 
@@ -29,6 +31,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpY3Rpb25hcmllcyBpbi
 BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
-IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMT
-E3MTAzODE5MF19
+IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNz
+Q4NjU0NTE1LC0xMTcxMDM4MTkwXX0=
 -->
