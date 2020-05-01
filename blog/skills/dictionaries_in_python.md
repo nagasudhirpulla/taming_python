@@ -56,7 +56,19 @@ print(list(x.values()))
 # prints ['Nagasudhir', 'Pulla']
 ```
 
+### Create / Edit values in a dictionary
+```python
+# create a dictionary
+x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
 
+# print all the keys
+print(list(x.keys()))
+# prints ['firstname', 'lastname']
+
+# print all the values
+print(list(x.values()))
+# prints ['Nagasudhir', 'Pulla']
+```
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -69,6 +81,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpY3Rpb25hcmllcyBpbi
 BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
-IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMT
-QyNDM4MTk2NiwtNDU0MTA4ODM4LC0xMTcxMDM4MTkwXX0=
+IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsyNj
+Y1MzE1NzksLTE0MjQzODE5NjYsLTQ1NDEwODgzOCwtMTE3MTAz
+ODE5MF19
 -->
