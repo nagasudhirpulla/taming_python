@@ -78,7 +78,7 @@ x = ['a','b','c','b', 'a']
 print(x.index('b'))
 # prints 1
 
-# find the position of 'b', but search from 2
+# find the position of 'b', but search from index 2
 print(x.index('b', 2))
 # prints 3
 ```
@@ -88,7 +88,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0yMDE1NzY0MD
-cyLC01NzA3MTA5NzksLTE1Nzc1ODI3OTAsLTExNTM4Njg5Njld
-fQ==
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0yMDYwNTcyNz
+YyLC0yMDE1NzY0MDcyLC01NzA3MTA5NzksLTE1Nzc1ODI3OTAs
+LTExNTM4Njg5NjldfQ==
 -->
