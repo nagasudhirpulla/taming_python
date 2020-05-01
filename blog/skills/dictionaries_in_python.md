@@ -47,7 +47,11 @@ print('somethingElse' in x)
 # create a dictionary
 x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
 
+# print all the keys
+print(x.keys())
 
+# print all the values
+print(x.values())
 ```
 
 
@@ -63,6 +67,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpY3Rpb25hcmllcyBpbi
 BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
-IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstND
-U0MTA4ODM4LC0xMTcxMDM4MTkwXX0=
+IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxOT
+kxOTk0MzYyLC00NTQxMDg4MzgsLTExNzEwMzgxOTBdfQ==
 -->
