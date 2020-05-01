@@ -16,6 +16,7 @@ Here are the goals and skills in this tutorial series
 * [Operations on variables in python](https://nagasudhir.blogspot.com/2020/04/operations-on-variables-in-python.html)
 * [if condition](https://nagasudhir.blogspot.com/2020/04/if-condition-in-python_14.html)
 * [strings in python](https://nagasudhir.blogspot.com/2020/04/strings-in-python.html)
+* [lists in python](https://nagasudhir.blogspot.com/2020/04/lists-in-python.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -23,6 +24,6 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbNTcwODQwMDc3LC0zOTg2ND
-UyNTJdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbOTIyMjA5OTgwLDU3MDg0MD
+A3NywtMzk4NjQ1MjUyXX0=
 -->
