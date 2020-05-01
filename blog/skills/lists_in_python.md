@@ -97,10 +97,10 @@ print(x)
 
 #### "reverse" function
 ```python
-x = [5,1,2,9,4,6]
-x.sort()
+x = [4,6,3,7,9]
+x.reverse()
 print(x)
-# prints [1, 2, 4, 5, 6, 9]
+# prints [9, 7, 3, 6, 4]
 ```
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -109,7 +109,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0yNTMyNDQyNT
-IsLTIwNjA1NzI3NjIsLTIwMTU3NjQwNzIsLTU3MDcxMDk3OSwt
-MTU3NzU4Mjc5MCwtMTE1Mzg2ODk2OV19
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0xMTgyNDg4OD
+g2LC0yMDYwNTcyNzYyLC0yMDE1NzY0MDcyLC01NzA3MTA5Nzks
+LTE1Nzc1ODI3OTAsLTExNTM4Njg5NjldfQ==
 -->
