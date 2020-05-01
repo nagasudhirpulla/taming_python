@@ -82,13 +82,21 @@ print(x.index('b'))
 print(x.index('b', 2))
 # prints 3
 ```
+#### "sort" function to sort a list
+```python
+x = [5,1,2,9,4,6]
+x.sort()
+print(x)
+# prints 
+```
+
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0xMjM1NTAwNT
-czLC0yMDYwNTcyNzYyLC0yMDE1NzY0MDcyLC01NzA3MTA5Nzks
-LTE1Nzc1ODI3OTAsLTExNTM4Njg5NjldfQ==
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy05ODcxNTg2NT
+UsLTIwNjA1NzI3NjIsLTIwMTU3NjQwNzIsLTU3MDcxMDk3OSwt
+MTU3NzU4Mjc5MCwtMTE1Mzg2ODk2OV19
 -->
