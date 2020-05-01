@@ -105,9 +105,9 @@ print(x)
 
 #### slicing a list using : operator
 ```python
-x = [4,6,3,7,9]
-x.reverse()
-print(x)
+x = [0, 1, 2, 3, 4, 5]
+
+# get elements from index 2 
 # prints [9, 7, 3, 6, 4]
 ```
 
@@ -117,7 +117,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0yOTExNjQ4ND
-MsLTIwNjA1NzI3NjIsLTIwMTU3NjQwNzIsLTU3MDcxMDk3OSwt
-MTU3NzU4Mjc5MCwtMTE1Mzg2ODk2OV19
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0yMDM0NjE2OD
+IwLC0yOTExNjQ4NDMsLTIwNjA1NzI3NjIsLTIwMTU3NjQwNzIs
+LTU3MDcxMDk3OSwtMTU3NzU4Mjc5MCwtMTE1Mzg2ODk2OV19
 -->
