@@ -15,6 +15,14 @@ Lists means just a list of objects
 ```python
 # creating a list and storing in variable x
 x = [0,2,4,5,9]
+
+# print the first element (index=0)
+print(x[0])
+# print the third element (index=2)
+print(x[2])
+
+# print the length of the list using len fucntion
+print(len(x))
 ```
 
 
@@ -25,6 +33,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzE0MjA1ODM1OD
-IsLTExNTM4Njg5NjldfQ==
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzIwMzkwNDM0MT
+EsLTExNTM4Njg5NjldfQ==
 -->
