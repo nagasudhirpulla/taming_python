@@ -71,6 +71,12 @@ print(x)
 
 #### "index" function to find the first occurrence of element in the list
 ```python
+x = ['a','b','c','b', 'a']
+
+# find the position of 'b'
+print(x.index('b'))
+# prints 1
+
 
 ```
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -79,6 +85,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy03MTY5NDE4OD
-MsLTE1Nzc1ODI3OTAsLTExNTM4Njg5NjldfQ==
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy01NzA3MTA5Nz
+ksLTE1Nzc1ODI3OTAsLTExNTM4Njg5NjldfQ==
 -->
