@@ -31,8 +31,13 @@ else:
 ```
 
 
+### Online Interpreter
+You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
+
 ### Further Reading
 * https://docs.python.org/3.8/tutorial/controlflow.html#if-statements
+
+<hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
@@ -41,6 +46,6 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTcyODY3OTE3LDQ4ODA3MjgyNCw3MjQxODcwNjld
-fQ==
+N0b3J5IjpbNTU3MDcwMjksNDg4MDcyODI0LDcyNDE4NzA2OV19
+
 -->
