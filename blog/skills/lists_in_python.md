@@ -8,8 +8,16 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
+Lists means just a list of objects
 
 ### Main Code
+#### Creating a list
+```python
+# creating a list and storing in variable x
+x = [0,2,4,5,9]
+```
+
+
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
@@ -17,6 +25,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0xMTUzODY4OT
-Y5XX0=
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzE0MjA1ODM1OD
+IsLTExNTM4Njg5NjldfQ==
 -->
