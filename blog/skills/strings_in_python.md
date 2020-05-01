@@ -127,8 +127,12 @@ print(x.find('is'), 3)
 # prints the zero based index of first occurence of 'is' in x after position 3, i.e., 5
 
 print(x.rfind(' is'))
-# prints the zero based index of first occurence of 'is' in x from the end, i.e., 5
+# prints the zero based index of first occurence of ' is' in x from the end, i.e., 5
 ```
+### Online Interpreter
+You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
+
+<hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
@@ -136,8 +140,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFN0cmluZ3MgaW4gcHl0aG
 9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICds
 ZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1
 xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0
-ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbNTUyODMwOD
-M1LDExOTMxNjMxMjgsLTUxMzA5NTcyOCwxODE4MDU0MjQ1LDEy
-NjQ0ODA4ODIsMTQ2OTk4MDI0MSwtNDEyNDIwMDI2LDExODMyOT
-EzMjFdfQ==
+ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbLTE3NDM2MT
+cxNDcsNTUyODMwODM1LDExOTMxNjMxMjgsLTUxMzA5NTcyOCwx
+ODE4MDU0MjQ1LDEyNjQ0ODA4ODIsMTQ2OTk4MDI0MSwtNDEyND
+IwMDI2LDExODMyOTEzMjFdfQ==
 -->
