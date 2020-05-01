@@ -62,11 +62,11 @@ x = [1,5,3,7,4]
 x.insert(0, 54)
 
 # add number 21 at the second last position of the list
-x.insert(len(x)-2, 21)
+x.insert(len(x)-1, 21)
 
-# print to verify that 10, 15 are added at the end
+# print to verify that 54, 21 are added at the correct positions
 print(x)
-# this prints [1,5,3,7,4,10,15]
+# this prints [54, 1, 5, 3, 7, 21, 4]
 ```
 
 
@@ -76,6 +76,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzEyNTAwODU3Nz
-QsLTExNTM4Njg5NjldfQ==
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0xNTc3NTgyNz
+kwLC0xMTUzODY4OTY5XX0=
 -->
