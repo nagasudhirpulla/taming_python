@@ -24,13 +24,19 @@ print("Hello world!")
 
 ```SKILL ID = SBASF```
 
+
+### Online Interpreter
+You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
+
+<hr/>
+
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlsxOTU0MzY4OTQ3LC
-0yMDcwMTQxMjgwLDQyMTYwNzk3NywtMTI2MzI0NTU4MCwxMzU5
-MjQyOTYyLDc3NjczMzI4NF19
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOls4NjcwNTM5NTUsLT
+IwNzAxNDEyODAsNDIxNjA3OTc3LC0xMjYzMjQ1NTgwLDEzNTky
+NDI5NjIsNzc2NzMzMjg0XX0=
 -->
