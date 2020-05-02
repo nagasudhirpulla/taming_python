@@ -10,54 +10,10 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-`for` loop is used to iterate over a sequence of items one after the other. `for` loop is useful to perform the same task over and over again.
+`for` loop is used to iterate over a sequence of items and perform a task on each item one after the other. 
 
-### Syntax
-```python
-for item in seq:
-	
-```
-here ```start``` and ```step``` are optional parameters
-* start = optional input that specifies the number from which the sequence should start, default value is 0
-* stop = input that specifies the number at which the sequence should end
-* step = optional input that specifies the incrementation of sequence. default value is 1
 
-### Generating a sequence
-```python
-# create a sequence from 0 to 4, i.e., 0,1,2,3,4
-x = range(5)
 
-# create a sequence from 1 to 7, i.e., 1,2,3,4,5,6,7
-x = range(1,8)
-
-# sequence from 2 to 12 with steps of 2, i.e., 2,4,6,8,10,12
-x = range(2,13,2)
-```
-
-### Creating a list from sequence
-we can create list from sequence using `*` operator
-```python
-# create sequence from 2 to 12 with steps of 2, i.e., 2,4,6,8,10,12
-x = range(2,13,2)
-
-# create a list from sequence using * operator
-y = [*x]
-
-print(y)
-# this code should print [2,4,6,8,10,12]
-```
-
-### Iterating over a sequence
-Using `in` operator with `for` loop, we can iterate over each item of a sequence
-```python
-# create sequence from 2 to 12 with steps of 2, i.e., 2,4,6,8,10,12
-x = range(2,13,2)
-
-# iterate over the sequence using for loop and in operator
-for n in x:
-	print(n)
-# this code should print 2,4,6,8,10,12 in each line of the console
-```
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -72,6 +28,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZvciBsb29wIGluIHB5dG
 hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 bGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbC
 dcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRh
-dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6Wy0yMDU0Mj
-U3MTA3XX0=
+dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6Wy0xNDU5Nz
+Q4OTQ3XX0=
 -->
