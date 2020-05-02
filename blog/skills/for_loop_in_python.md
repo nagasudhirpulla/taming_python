@@ -10,13 +10,12 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-for loop is used to iterate over a sequence of items one after the other. For loop is useful to perform the same task over and over again.
-
-These sequences can be used in for loops and many other situations
+`for` loop is used to iterate over a sequence of items one after the other. `for` loop is useful to perform the same task over and over again.
 
 ### Syntax
-```
-range(start, stop, step)
+```python
+for item in seq:
+	
 ```
 here ```start``` and ```step``` are optional parameters
 * start = optional input that specifies the number from which the sequence should start, default value is 0
@@ -73,6 +72,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZvciBsb29wIGluIHB5dG
 hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 bGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbC
 dcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRh
-dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6Wy0xNzYyMj
-IwMzk4XX0=
+dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6Wy0yMDU0Mj
+U3MTA3XX0=
 -->
