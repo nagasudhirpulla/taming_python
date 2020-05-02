@@ -35,7 +35,7 @@ x = range(2,12,2)
 ```
 
 ### Iterating over a sequence
-
+Using `in` operator with `for` loop, we can iterate over a sequence
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -50,5 +50,5 @@ Mgd2l0aCByYW5nZSBmdW5jdGlvblxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdG
 FtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWlu
 Z19weXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA1LTAyJ1xuIi
-wiaGlzdG9yeSI6Wy0xNzY4NjE3NTg5XX0=
+wiaGlzdG9yeSI6WzcxMzMwNzczOV19
 -->
