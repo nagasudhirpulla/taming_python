@@ -1,4 +1,5 @@
 ## Skill - Strings in Python
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
@@ -140,8 +141,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFN0cmluZ3MgaW4gcHl0aG
 9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICds
 ZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1
 xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0
-ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbLTE3NDM2MT
-cxNDcsNTUyODMwODM1LDExOTMxNjMxMjgsLTUxMzA5NTcyOCwx
-ODE4MDU0MjQ1LDEyNjQ0ODA4ODIsMTQ2OTk4MDI0MSwtNDEyND
-IwMDI2LDExODMyOTEzMjFdfQ==
+ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbLTI1MTk2Nz
+A4LDU1MjgzMDgzNSwxMTkzMTYzMTI4LC01MTMwOTU3MjgsMTgx
+ODA1NDI0NSwxMjY0NDgwODgyLDE0Njk5ODAyNDEsLTQxMjQyMD
+AyNiwxMTgzMjkxMzIxXX0=
 -->
