@@ -13,6 +13,13 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 `for` loop is used to iterate over a sequence of items and perform a task on each item one after the other. 
 
+### For loop on an array
+```python
+x = [1,8,6,5]
+for n in x:
+	print('The number is ' + x)
+```
+
 
 
 
@@ -29,6 +36,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZvciBsb29wIGluIHB5dG
 hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 bGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbC
 dcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRh
-dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6WzEzNDc0OD
-E0OCwtMTQ1OTc0ODk0N119
+dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6WzE1MjQwNj
+A5NzEsMTM0NzQ4MTQ4LC0xNDU5NzQ4OTQ3XX0=
 -->
