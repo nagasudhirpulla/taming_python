@@ -1,4 +1,5 @@
 ## Skill - Basic printing in python
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
@@ -36,7 +37,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOls4NjcwNTM5NTUsLT
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlszOTYyNDE4NTAsLT
 IwNzAxNDEyODAsNDIxNjA3OTc3LC0xMjYzMjQ1NTgwLDEzNTky
 NDI5NjIsNzc2NzMzMjg0XX0=
 -->
