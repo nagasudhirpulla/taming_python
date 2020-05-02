@@ -1,4 +1,5 @@
 ## Skill - Managing Variables in python
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
@@ -50,6 +51,6 @@ b25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5
-IjpbLTk4NDU0MjYzOCwtMzc5NzE3NTc2LDU0Njk3ODUxNyw2MT
-QxMTQ0NDIsMTI4NjIyNTE5Nl19
+IjpbNjI0NjUwOTk3LC0zNzk3MTc1NzYsNTQ2OTc4NTE3LDYxND
+ExNDQ0MiwxMjg2MjI1MTk2XX0=
 -->
