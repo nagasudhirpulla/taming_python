@@ -13,15 +13,23 @@ User story = Create a summary image of voltage time-series from a csv file
 The steps and skill sets required may be
 
 ### Steps
-* read excel file into pandas dataframe
-* get the shape/dimensions of a dataframe
-* get all the column names of dataframe
-* create a figure with matplotlib subplots as the number of dataframe columns
-* Set title to the figure
-* iterate through all columns data of dataframe
-* plot each dataframe column data inside the generated axis handles with axis title, legend and axis labels included
+```
+read excel file into pandas dataframe
+get the shape/dimensions of a dataframe
+
+get all the column names of dataframe
+
+create a figure with matplotlib subplots as the number of dataframe columns
+
+Set title to the figure
+
+iterate through all columns data of dataframe
+
+plot each dataframe column data inside the generated axis handles with axis title, legend and axis labels included
+```
 
 ### Skill sets
+```
 using tight layout to optimize plot space in a matplotlib plot (#18) (requires #1, #3, #4, #15, #16, #17)
 
 set plot title, plot size in inches in a matplotlib plot (#19) (requires #1, #3, #4, #15, #16)
@@ -65,7 +73,7 @@ save plot image as a PNG/PDF/JPG/SVG file using savefig function (#22) (requires
 ------install matplotlib library (#3)
 
 ------import required library modules for using in our python programs (#4)
-
+```
 * Each skill mentioned above will have a blog post, sample code and references
 * We can see that the user is now clear on what skills to acquire in order to achieve a specific goal
 * This way the user will be motivated to learn the basics (which generally is boring, without knowing the purpose)
@@ -82,6 +90,6 @@ AnJ1xudGl0bGU6IEludHJvIHRvIFRhbWluZyBQeXRob24gc2Vy
 aWVzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6IC
 dweXRob24sIHR1dG9yaWFsJ1xuY2F0ZWdvcmllczogJ2xlYXJu
 aW5nLCBweXRob24sIHR1dG9yaWFsJ1xuZGF0ZTogJzIwMjAtMD
-QtMTQnXG4iLCJoaXN0b3J5IjpbNjM2ODgyMDY5LDExMjI0Njk1
+QtMTQnXG4iLCJoaXN0b3J5IjpbNjk5MzgwMjk1LDExMjI0Njk1
 NywtMTA1MTg5NzIzMCwtNjM2MDg4OTkyLDczMDk5ODExNl19
 -->
