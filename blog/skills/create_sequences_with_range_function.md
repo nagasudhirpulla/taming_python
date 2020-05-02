@@ -9,7 +9,9 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-Lists means just a list of objects
+Range is a python built-in sequence generator function in python through which we can generate sequences
+
+These sequences can be used in for loops and many other 
 
 ### Main Code
 
@@ -27,5 +29,5 @@ Mgd2l0aCByYW5nZSBmdW5jdGlvblxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdG
 FtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWlu
 Z19weXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA1LTAyJ1xuIi
-wiaGlzdG9yeSI6Wy0xNTQxNTEzNDkxXX0=
+wiaGlzdG9yeSI6Wy04NTU2MzM0MjZdfQ==
 -->
