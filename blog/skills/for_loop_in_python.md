@@ -24,6 +24,10 @@ for n in x:
 # The number is 8
 # The number is 6
 # The number is 5
+
+y = ['Nagasudhir', 'lakshmi', 'kishore']
+for n in y:
+	print('Hi {0}')
 ```
 
 ### For loop on a sequence
@@ -34,12 +38,11 @@ for n in range(1,10,2):
 
 # this will print
 # The number is 1
-# The number is 8
-# The number is 6
+# The number is 3
 # The number is 5
+# The number is 7
+# The number is 9
 ```
-
-
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -54,7 +57,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZvciBsb29wIGluIHB5dG
 hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 bGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbC
 dcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRh
-dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6WzExNjkyOT
-czNjEsMTUyNDA2MDk3MSwxMzQ3NDgxNDgsLTE0NTk3NDg5NDdd
+dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6WzIwMzk3MD
+g3MTEsMTUyNDA2MDk3MSwxMzQ3NDgxNDgsLTE0NTk3NDg5NDdd
 fQ==
 -->
