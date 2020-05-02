@@ -9,7 +9,7 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-Range is a python built-in sequence generator function in python through which we can generate sequences
+Range is a python built-in **sequence generator** function in python through which we can generate sequences
 
 These sequences can be used in for loops and many other situations
 
@@ -34,18 +34,6 @@ x = range(1,8)
 x = range(2,13,2)
 ```
 
-### Iterating over a sequence
-Using `in` operator with `for` loop, we can iterate over a sequence
-```python
-# create sequence from 2 to 12 with steps of 2, i.e., 2,4,6,8,10,12
-x = range(2,13,2)
-
-# iterate over the sequence using for loop and in operator
-for n in x:
-	print(n)
-# this code should print 2,4,6,8,10,12 in each line of the console
-```
-
 ### Creating a list from sequence
 we can create list from sequence using `*` operator
 ```python
@@ -59,6 +47,17 @@ print(y)
 # this code should print [2,4,6,8,10,12]
 ```
 
+### Iterating over a sequence
+Using `in` operator with `for` loop, we can iterate over each item of a sequence
+```python
+# create sequence from 2 to 12 with steps of 2, i.e., 2,4,6,8,10,12
+x = range(2,13,2)
+
+# iterate over the sequence using for loop and in operator
+for n in x:
+	print(n)
+# this code should print 2,4,6,8,10,12 in each line of the console
+```
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -73,6 +72,6 @@ Mgd2l0aCByYW5nZSBmdW5jdGlvblxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdG
 FtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWlu
 Z19weXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA1LTAyJ1xuIi
-wiaGlzdG9yeSI6Wy0xOTA0Mzg4OTQ0LDE5MTQyODU3NTBdfQ==
+wiaGlzdG9yeSI6Wy0xMTg3MDY0ODcxLDE5MTQyODU3NTBdfQ==
 
 -->
