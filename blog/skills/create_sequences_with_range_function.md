@@ -28,8 +28,14 @@ here ```start``` and ```step``` are optional parameters
 x = range(5)
 
 # create a sequence from 1 to 7, i.e., 1,2,3,4,5,6,7
-x = range(5)
+x = range(1,8)
+
+# sequence from 2 to 12 with steps of 2, i.e., 2,4,6,8,10,12
+x = range(2,12,2)
 ```
+
+### Iterating over a sequence
+
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -44,5 +50,5 @@ Mgd2l0aCByYW5nZSBmdW5jdGlvblxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdG
 FtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWlu
 Z19weXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA1LTAyJ1xuIi
-wiaGlzdG9yeSI6Wy05MTU3MTAxMDFdfQ==
+wiaGlzdG9yeSI6Wy0xNzY4NjE3NTg5XX0=
 -->
