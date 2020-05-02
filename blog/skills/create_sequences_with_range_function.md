@@ -19,7 +19,8 @@ range(start, stop, step)
 ```
 here ```start``` and ```step``` are optional parameters
 * start = optional input that specifies the number from which the sequence should start, default value is 0
-* stop = input that specifies the (number+1) at which the sequence should end
+* stop = input that specifies the number at which the sequence should end
+* step = 
 
 ### Main Code
 
@@ -37,5 +38,5 @@ Mgd2l0aCByYW5nZSBmdW5jdGlvblxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdG
 FtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWlu
 Z19weXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA1LTAyJ1xuIi
-wiaGlzdG9yeSI6Wzc0NzkyNTUxMV19
+wiaGlzdG9yeSI6WzE0OTY4NzEzODNdfQ==
 -->
