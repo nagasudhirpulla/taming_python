@@ -24,7 +24,11 @@ here ```start``` and ```step``` are optional parameters
 
 ### Generating a sequence
 ```
-x = ran
+# create a sequence from 0 to 4, i.e., 0,1,2,3,4
+x = range(5)
+
+# create a sequence from 1 to 7, i.e., 1,2,3,4,5,6,7
+x = range(5)
 ```
 
 ### Online Interpreter
@@ -40,5 +44,5 @@ Mgd2l0aCByYW5nZSBmdW5jdGlvblxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdG
 FtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWlu
 Z19weXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA1LTAyJ1xuIi
-wiaGlzdG9yeSI6Wy0yMDA4MTU0MDYxXX0=
+wiaGlzdG9yeSI6Wy05MTU3MTAxMDFdfQ==
 -->
