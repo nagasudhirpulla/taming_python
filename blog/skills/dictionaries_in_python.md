@@ -1,4 +1,5 @@
 ## Skill - Dictionaries in Python
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
@@ -83,7 +84,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpY3Rpb25hcmllcyBpbi
 BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
-IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstOD
-E3OTYyMTAxLC0xNDI0MzgxOTY2LC00NTQxMDg4MzgsLTExNzEw
-MzgxOTBdfQ==
+IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsyMT
+A5NDg2OTQsLTgxNzk2MjEwMSwtMTQyNDM4MTk2NiwtNDU0MTA4
+ODM4LC0xMTcxMDM4MTkwXX0=
 -->
