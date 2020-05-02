@@ -1,4 +1,6 @@
 ## Goal - Print "Hello World!"
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
+
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Basic printing in python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
@@ -24,7 +26,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByaW50IFwiSGVsbG8gV2
 9ybGQhXCJcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFn
 czogJ3B5dGhvbiwgbGVhcm5pbmcsIHRhbWluZ19weXRob25fZ2
 9hbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fZ29hbFxu
-ZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbMTAwOD
-Q5Mzc5OCwtMTY1ODgyODQ0MywtMTg0MTA3MzQyNiwtMTAwNTg1
-NzYxNF19
+ZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbNjAwMD
+kwNDIxLC0xNjU4ODI4NDQzLC0xODQxMDczNDI2LC0xMDA1ODU3
+NjE0XX0=
 -->
