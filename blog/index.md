@@ -72,12 +72,16 @@ save plot image as a PNG/PDF/JPG/SVG file using savefig function (#22) (requires
 * We can also have a knowledge base of code samples which can help many beginners
 
 Skills database is maintained as a google spreadsheet at https://docs.google.com/spreadsheets/d/1vsw5TSprGmex4k6aNvWiAmGOYAH9RU80OpUFMg9Ahvs/edit?usp=sharing
+
+<hr/>
+
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 AnJ1xudGl0bGU6IEludHJvIHRvIFRhbWluZyBQeXRob24gc2Vy
 aWVzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6IC
 dweXRob24sIHR1dG9yaWFsJ1xuY2F0ZWdvcmllczogJ2xlYXJu
 aW5nLCBweXRob24sIHR1dG9yaWFsJ1xuZGF0ZTogJzIwMjAtMD
-QtMTQnXG4iLCJoaXN0b3J5IjpbMTEyMjQ2OTU3LC0xMDUxODk3
-MjMwLC02MzYwODg5OTIsNzMwOTk4MTE2XX0=
+QtMTQnXG4iLCJoaXN0b3J5IjpbNjM2ODgyMDY5LDExMjI0Njk1
+NywtMTA1MTg5NzIzMCwtNjM2MDg4OTkyLDczMDk5ODExNl19
 -->
