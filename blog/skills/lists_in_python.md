@@ -1,4 +1,5 @@
 ## Skill - Lists in Python
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
@@ -131,8 +132,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzIwOTE2OTI4NT
-ksNjUxNjY5NTAxLC0yOTExNjQ4NDMsLTIwNjA1NzI3NjIsLTIw
-MTU3NjQwNzIsLTU3MDcxMDk3OSwtMTU3NzU4Mjc5MCwtMTE1Mz
-g2ODk2OV19
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzU5ODQzMzgsMj
+A5MTY5Mjg1OSw2NTE2Njk1MDEsLTI5MTE2NDg0MywtMjA2MDU3
+Mjc2MiwtMjAxNTc2NDA3MiwtNTcwNzEwOTc5LC0xNTc3NTgyNz
+kwLC0xMTUzODY4OTY5XX0=
 -->
