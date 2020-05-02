@@ -47,11 +47,12 @@ for n in x:
 ```
 
 ### Creating a list from sequence
+we can create list from sequence using `*` operator
 ```python
 # create sequence from 2 to 12 with steps of 2, i.e., 2,4,6,8,10,12
 x = range(2,13,2)
 
-# create a list from sequence
+# create a list from sequence using * operator
 y = [*x]
 
 print(y)
@@ -72,6 +73,6 @@ Mgd2l0aCByYW5nZSBmdW5jdGlvblxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdG
 FtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWlu
 Z19weXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA1LTAyJ1xuIi
-wiaGlzdG9yeSI6Wy0xNzAyMDczNDA3LDE5MTQyODU3NTBdfQ==
+wiaGlzdG9yeSI6Wy0xOTA0Mzg4OTQ0LDE5MTQyODU3NTBdfQ==
 
 -->
