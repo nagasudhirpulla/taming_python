@@ -20,10 +20,12 @@ range(start, stop, step)
 here ```start``` and ```step``` are optional parameters
 * start = optional input that specifies the number from which the sequence should start, default value is 0
 * stop = input that specifies the number at which the sequence should end
-* step = 
+* step = optional input that specifies the incrementation of sequence. default value is 1
 
-### Main Code
-
+### Generating a sequence
+```
+x = ran
+```
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -38,5 +40,5 @@ Mgd2l0aCByYW5nZSBmdW5jdGlvblxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdG
 FtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWlu
 Z19weXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA1LTAyJ1xuIi
-wiaGlzdG9yeSI6WzE0OTY4NzEzODNdfQ==
+wiaGlzdG9yeSI6Wy0yMDA4MTU0MDYxXX0=
 -->
