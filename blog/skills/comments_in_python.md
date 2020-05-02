@@ -1,4 +1,5 @@
 ## Skill - Comments in python
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
@@ -61,6 +62,6 @@ hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 cHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weX
 Rob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9u
 X3NraWxsXG5kYXRlOiAnMjAyMC0wNC0xNSdcbiIsImhpc3Rvcn
-kiOlsxMzI4MzQ1MjEzLDgxNTE3NzEyMywtMjExMzUxODg3M119
+kiOls4MTU1MTAwNCw4MTUxNzcxMjMsLTIxMTM1MTg4NzNdfQ==
 
 -->
