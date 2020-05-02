@@ -31,14 +31,14 @@ x = range(5)
 x = range(1,8)
 
 # sequence from 2 to 12 with steps of 2, i.e., 2,4,6,8,10,12
-x = range(2,12,2)
+x = range(2,13,2)
 ```
 
 ### Iterating over a sequence
 Using `in` operator with `for` loop, we can iterate over a sequence
 ```python
 # create sequence from 2 to 12 with steps of 2, i.e., 2,4,6,8,10,12
-x = range(2,12,2)
+x = range(2,13,2)
 
 # iterate over the sequence using for loop and in operator
 for n in x:
@@ -49,12 +49,13 @@ for n in x:
 ### Creating a list from sequence
 ```python
 # create sequence from 2 to 12 with steps of 2, i.e., 2,4,6,8,10,12
-x = range(2,12,2)
+x = range(2,13,2)
 
-# iterate over the sequence using for loop and in operator
-for n in x:
-	print(n)
-# this code should print 2,4,6,8,10,12 in each line of the console
+# create a list from sequence
+y = [*x]
+
+print(y)
+# this code should print [2,4,6,8,10,12]
 ```
 
 
@@ -71,5 +72,6 @@ Mgd2l0aCByYW5nZSBmdW5jdGlvblxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdG
 FtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWlu
 Z19weXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA1LTAyJ1xuIi
-wiaGlzdG9yeSI6Wy00NjQwMzgzMzksMTkxNDI4NTc1MF19
+wiaGlzdG9yeSI6Wy0xNzAyMDczNDA3LDE5MTQyODU3NTBdfQ==
+
 -->
