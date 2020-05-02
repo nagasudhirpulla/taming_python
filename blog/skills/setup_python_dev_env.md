@@ -1,4 +1,6 @@
 ## Skill - Setup python development environment
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
+
 ### Software to be installed
 * Download and Install **python** in your PC from https://www.python.org/downloads/
 * Download and Install **Visual Studio Code (VS Code)** as a code editor from https://code.visualstudio.com/download
@@ -35,8 +37,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFNldHVwIFB5dGhvbiBEZX
 ZlbG9wbWVudCBFbnZpcm9ubWVudFxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAncHl0aG9uLGxlYXJuaW5nLHR1dG
 9yaWFsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbOD
-U4NzIxMTA0LDgyOTMxMzIxMSwxNjU5MjQ5MjU0LDE5MjU2MjM2
+bFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbNj
+AzOTc2MTIxLDgyOTMxMzIxMSwxNjU5MjQ5MjU0LDE5MjU2MjM2
 NDYsLTMxMDUxMzUwMCw4MDU0MzYyNzUsLTc2NTU3NjI5NSwxMD
 g3Mzk2NTAzLC0xOTQwNzIwNjQ2LDkzMzY1NDcxMF19
 -->
