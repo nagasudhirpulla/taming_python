@@ -1,4 +1,5 @@
 ## Skill - "if" and "else" conditions in python
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
@@ -46,6 +47,6 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbNTU3MDcwMjksNDg4MDcyODI0LDcyNDE4NzA2OV19
-
+N0b3J5IjpbMTEyMDAxMjg5NCw0ODgwNzI4MjQsNzI0MTg3MDY5
+XX0=
 -->
