@@ -6,11 +6,11 @@
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Lists in python](https://nagasudhir.blogspot.com/2020/04/lists-in-python.html)
-* []
+* [Create sequences with range function in python](https://nagasudhir.blogspot.com/2020/05/create-sequences-with-range-function.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-Range is a python built-in **sequence generator** function in python through which we can generate sequences
+for loop is used to iterate over a sequence of items one after the other. For loop is useful to perform the same task over and over again.
 
 These sequences can be used in for loops and many other situations
 
@@ -73,6 +73,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZvciBsb29wIGluIHB5dG
 hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 bGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbC
 dcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRh
-dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6WzQyMTYyMD
-gzNF19
+dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6Wy0xNzYyMj
+IwMzk4XX0=
 -->
