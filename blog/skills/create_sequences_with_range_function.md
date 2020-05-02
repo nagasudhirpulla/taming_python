@@ -46,6 +46,17 @@ for n in x:
 # this code should print 2,4,6,8,10,12 in each line of the console
 ```
 
+### Creating a list from sequence
+```python
+# create sequence from 2 to 12 with steps of 2, i.e., 2,4,6,8,10,12
+x = range(2,12,2)
+
+# iterate over the sequence using for loop and in operator
+for n in x:
+	print(n)
+# this code should print 2,4,6,8,10,12 in each line of the console
+```
+
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -60,5 +71,5 @@ Mgd2l0aCByYW5nZSBmdW5jdGlvblxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdG
 FtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWlu
 Z19weXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA1LTAyJ1xuIi
-wiaGlzdG9yeSI6WzE5MTQyODU3NTBdfQ==
+wiaGlzdG9yeSI6Wy00NjQwMzgzMzksMTkxNDI4NTc1MF19
 -->
