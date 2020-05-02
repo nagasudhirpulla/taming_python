@@ -17,7 +17,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ```python
 x = [1,8,6,5]
 for n in x:
-	print('The number is {0}'.format(x))
+	print('The number is {0}'.format(n))
 
 # this will print
 # The number is 1
@@ -27,11 +27,10 @@ for n in x:
 ```
 
 ### For loop on a sequence
-
+In this example we are generating a sequence using range function
 ```python
-x = [1,8,6,5]
-for n in x:
-	print('The number is {0}'.format(x))
+for n in range(1,10,2):
+	print('The number is {0}'.format(n))
 
 # this will print
 # The number is 1
@@ -55,7 +54,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZvciBsb29wIGluIHB5dG
 hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 bGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbC
 dcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRh
-dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6WzE1MTE2OD
-E4NzgsMTUyNDA2MDk3MSwxMzQ3NDgxNDgsLTE0NTk3NDg5NDdd
+dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6WzExNjkyOT
+czNjEsMTUyNDA2MDk3MSwxMzQ3NDgxNDgsLTE0NTk3NDg5NDdd
 fQ==
 -->
