@@ -125,18 +125,17 @@ print(df)
 2    Miss. Elizabeth   58  female
 '''
 ```
-This code can be run in Visual Studio Code as shown below, make sure csv in the same folder as python file.
+This code can be run in Visual Studio Code as shown below. Make sure the xlsx file in the same folder as python file.
 ![read_csv_demo_vs_code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/read_excel_demo.png)
 
 
 ### Online Interpreter
-Although we recommend to practice the above codes in Visual Studio Code, you can run these codes online at https://www.tutorialspoint.com/execute_python_online.php
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
 * https://www.geeksforgeeks.org/python-pandas-dataframe/
 * installing pandas YouTube video - https://www.youtube.com/watch?v=nZVolpD_Nl4
-
 * Image credits - ```https://www.geeksforgeeks.org```, ```https://pandas.pydata.org```
 <hr/>
 
@@ -148,7 +147,7 @@ UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
 bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMT
-Y1OTQyNDE3NywtNDc1NTg5NzY3LDU5ODY3MjgyMiw3NDgxMDI1
+YwNDE3NjQzOSwtNDc1NTg5NzY3LDU5ODY3MjgyMiw3NDgxMDI1
 NCwtMTQ1ODI0NTA4NywtMTA0NjIxMzg1OSwtMTAyMzEzNTYxOC
 wyMDIyOTExOTEsMTcxMzU3ODgzLC0zNDg0MzMwODcsNTM4Mzc1
 MjcyLDcwODIzODk0MSw3MzA5OTgxMTZdfQ==
