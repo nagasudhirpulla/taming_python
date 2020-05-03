@@ -14,9 +14,8 @@ You can install pandas using the command ```pip install pandas```
 **DataFrame** is a data structure provided by the pandas library
 The image shown below tries to describe the anatomy of a DataFrame
 
+![Pandas DataFrame anatomy](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pandas_dataframe_anatomy.png)
 ![Pandas DataFrame illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pandas_dataframe_illustration.png)
-
-
 * As shown above, a DataFrame is just like an excel sheet
 * A DataFrame has columns, where each column has a name and position
 * A DataFrame has rows, where each row also has a name and position
@@ -33,13 +32,13 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
 * https://www.geeksforgeeks.org/python-pandas-dataframe/
 
-* Image credits - ```https://www.geeksforgeeks.org```
+* Image credits - ```https://www.geeksforgeeks.org```, ```https://pandas.pydata.org```
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTgxNTQ0NywxNzEzNTc4ODMsLTM0OD
+eyJoaXN0b3J5IjpbMTUyNDg2ODQzMCwxNzEzNTc4ODMsLTM0OD
 QzMzA4Nyw1MzgzNzUyNzIsNzA4MjM4OTQxLDczMDk5ODExNl19
 
 -->
