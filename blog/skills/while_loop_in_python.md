@@ -33,12 +33,21 @@ while x<=10:
 '''
 ```
 ### Using break  to abort while loop
+In the example below, we can s
 ```python
 x = 1
 while x<=10:
 	print('{0} - Hello World!'.format(x))
+	if x==4:
+		break
 	x = x + 1
 # this prints
+'''
+1 - Hello World!
+2 - Hello World!
+3 - Hello World!
+4 - Hello World!
+'''
 ```
 
 ### Online Interpreter
@@ -50,5 +59,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTEwMjE2Ml19
+eyJoaXN0b3J5IjpbLTQ3MjM2NDA1NF19
 -->
