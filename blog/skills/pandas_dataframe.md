@@ -88,6 +88,23 @@ print(df)
 '''
 ```
 
+#### Creating a DataFrame from csv using 'read_csv'
+
+```python
+import pandas as pd
+
+df = pd.DataFrame(x, columns=["Name", "Age", "Sex"])
+ 
+print(df)
+# this will print
+'''
+                Name  Age     Sex
+0             Harris   22    male
+1  Mr. William Henry   35    male
+2    Miss. Elizabeth   58  female
+'''
+```
+
 ### Online Interpreter
 You can run these codes online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -106,8 +123,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhbmRhcyBEYXRhRnJhbW
 UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLT
-E0NTgyNDUwODcsLTEwNDYyMTM4NTksLTEwMjMxMzU2MTgsMjAy
-MjkxMTkxLDE3MTM1Nzg4MywtMzQ4NDMzMDg3LDUzODM3NTI3Mi
-w3MDgyMzg5NDEsNzMwOTk4MTE2XX0=
+bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMT
+E4ODM0MzQ1MSwtMTQ1ODI0NTA4NywtMTA0NjIxMzg1OSwtMTAy
+MzEzNTYxOCwyMDIyOTExOTEsMTcxMzU3ODgzLC0zNDg0MzMwOD
+csNTM4Mzc1MjcyLDcwODIzODk0MSw3MzA5OTgxMTZdfQ==
 -->
