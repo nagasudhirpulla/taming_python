@@ -89,7 +89,7 @@ print(df)
 ```
 
 #### Creating a DataFrame from csv using 'read_csv'
-
+read the complete documentation of read_csv [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
 ```python
 import pandas as pd
 
@@ -123,8 +123,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhbmRhcyBEYXRhRnJhbW
 UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMT
-E4ODM0MzQ1MSwtMTQ1ODI0NTA4NywtMTA0NjIxMzg1OSwtMTAy
-MzEzNTYxOCwyMDIyOTExOTEsMTcxMzU3ODgzLC0zNDg0MzMwOD
-csNTM4Mzc1MjcyLDcwODIzODk0MSw3MzA5OTgxMTZdfQ==
+bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbNz
+Q4MTAyNTQsLTE0NTgyNDUwODcsLTEwNDYyMTM4NTksLTEwMjMx
+MzU2MTgsMjAyMjkxMTkxLDE3MTM1Nzg4MywtMzQ4NDMzMDg3LD
+UzODM3NTI3Miw3MDgyMzg5NDEsNzMwOTk4MTE2XX0=
 -->
