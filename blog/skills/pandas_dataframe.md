@@ -129,7 +129,7 @@ This code can be run in Visual Studio Code as shown below, make sure csv in the 
 
 
 ### Online Interpreter
-You can run these codes online at https://www.tutorialspoint.com/execute_python_online.php
+Although we recommend to practice the above codes in Visual Studio Code, you can run these codes online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
@@ -146,9 +146,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhbmRhcyBEYXRhRnJhbW
 UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMT
-E5MTE0NzYzNCw3NDgxMDI1NCwtMTQ1ODI0NTA4NywtMTA0NjIx
-Mzg1OSwtMTAyMzEzNTYxOCwyMDIyOTExOTEsMTcxMzU3ODgzLC
-0zNDg0MzMwODcsNTM4Mzc1MjcyLDcwODIzODk0MSw3MzA5OTgx
-MTZdfQ==
+bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbNT
+k4NjcyODIyLDc0ODEwMjU0LC0xNDU4MjQ1MDg3LC0xMDQ2MjEz
+ODU5LC0xMDIzMTM1NjE4LDIwMjI5MTE5MSwxNzEzNTc4ODMsLT
+M0ODQzMzA4Nyw1MzgzNzUyNzIsNzA4MjM4OTQxLDczMDk5ODEx
+Nl19
 -->
