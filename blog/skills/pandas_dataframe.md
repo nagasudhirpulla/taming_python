@@ -72,19 +72,19 @@ print(df)
 ```python
 import pandas as pd
 x = [
-        {"Name": "Harris", "Age": 22, "Sex": "male"},
-        {"Name": "Mr. William Henry", "Age": 35, "Sex": "male"},
-        {"Name": "Miss. Elizabeth", "Age": 58, "Sex": "female"},
+        ["Harris", 22,"male"],
+        ["Mr. William Henry", 35, "male"],
+        ["Miss. Elizabeth", 58, "female"],
     ]
-df = pd.DataFrame(x)
+df = pd.DataFrame(x, columns=["Name", "Age", "Sex"])
  
 print(df)
 # this will print
 '''
-   Age               Name     Sex
-0   22             Harris    male
-1   35  Mr. William Henry    male
-2   58    Miss. Elizabeth  female
+                Name  Age     Sex
+0             Harris   22    male
+1  Mr. William Henry   35    male
+2    Miss. Elizabeth   58  female
 '''
 ```
 
@@ -107,7 +107,7 @@ UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
 bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLT
-EwNDYyMTM4NTksLTEwMjMxMzU2MTgsMjAyMjkxMTkxLDE3MTM1
-Nzg4MywtMzQ4NDMzMDg3LDUzODM3NTI3Miw3MDgyMzg5NDEsNz
-MwOTk4MTE2XX0=
+E0NTgyNDUwODcsLTEwNDYyMTM4NTksLTEwMjMxMzU2MTgsMjAy
+MjkxMTkxLDE3MTM1Nzg4MywtMzQ4NDMzMDg3LDUzODM3NTI3Mi
+w3MDgyMzg5NDEsNzMwOTk4MTE2XX0=
 -->
