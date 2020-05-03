@@ -7,12 +7,10 @@
 * [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
-* [Lists in python](https://nagasudhir.blogspot.com/2020/04/lists-in-python.html)
-* [Create sequences with range function in python](https://nagasudhir.blogspot.com/2020/05/create-sequences-with-range-function.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-`while` loop is used to run co. 
+`while` loop is used to run code again and again until a specified condition is satisfied. 
 
 ### For loop on an array
 
@@ -26,5 +24,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTIwMDc1MjJdfQ==
+eyJoaXN0b3J5IjpbMTA0NjYzODYzNl19
 -->
