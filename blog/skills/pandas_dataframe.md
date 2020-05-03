@@ -10,7 +10,6 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 Pandas is a python library.
-You can install pandas using the command ```pip install pandas```
 **DataFrame** is a data structure provided by the pandas library
 The image shown below tries to describe the anatomy of a DataFrame
 
@@ -24,7 +23,8 @@ The image shown below tries to describe the anatomy of a DataFrame
 * All the column labels of a DataFrame are called **columns**
 * All the row labels of a DataFrame are called **index**
 
-### Main Code
+### Using Pandas DataFrame
+Install pandas using the command ```pip install pandas```
 
 
 ### Online Interpreter
@@ -44,7 +44,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhbmRhcyBEYXRhRnJhbW
 UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbOD
-k0OTkyNjI0LDIwMjI5MTE5MSwxNzEzNTc4ODMsLTM0ODQzMzA4
-Nyw1MzgzNzUyNzIsNzA4MjM4OTQxLDczMDk5ODExNl19
+bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLT
+EzOTc2MDc4NzksMjAyMjkxMTkxLDE3MTM1Nzg4MywtMzQ4NDMz
+MDg3LDUzODM3NTI3Miw3MDgyMzg5NDEsNzMwOTk4MTE2XX0=
 -->
