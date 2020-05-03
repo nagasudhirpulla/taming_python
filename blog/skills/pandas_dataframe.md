@@ -20,6 +20,7 @@ The image shown below tries to describe the anatomy of a DataFrame
 * A DataFrame has columns, where each column has a name and position
 * A DataFrame has rows, where each row also has a name and position
 * The data in of a DataFrame lies in the cells of the DataFrame. Each cell has a specific row and column
+* All the column labels of a DataFrame are called **columns**
 * 
 
 ### Main Code
@@ -38,7 +39,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDg2ODQzMCwxNzEzNTc4ODMsLTM0OD
-QzMzA4Nyw1MzgzNzUyNzIsNzA4MjM4OTQxLDczMDk5ODExNl19
-
+eyJoaXN0b3J5IjpbLTEzNzIyOTQ2NTIsMTcxMzU3ODgzLC0zND
+g0MzMwODcsNTM4Mzc1MjcyLDcwODIzODk0MSw3MzA5OTgxMTZd
+fQ==
 -->
