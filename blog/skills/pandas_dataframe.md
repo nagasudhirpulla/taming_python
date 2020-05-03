@@ -44,7 +44,7 @@ print(df)
 2   58    Miss. Elizabeth  female
 '''
 ```
-As shob
+As shown above, each key of the dictionary will become a column in the DataFrame
 
 ### Online Interpreter
 You can run these codes online at https://www.tutorialspoint.com/execute_python_online.php
@@ -64,8 +64,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhbmRhcyBEYXRhRnJhbW
 UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbND
-czMTMxMDkyLC0xMDIzMTM1NjE4LDIwMjI5MTE5MSwxNzEzNTc4
-ODMsLTM0ODQzMzA4Nyw1MzgzNzUyNzIsNzA4MjM4OTQxLDczMD
-k5ODExNl19
+bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLT
+E3MjE0Mjg2MzksLTEwMjMxMzU2MTgsMjAyMjkxMTkxLDE3MTM1
+Nzg4MywtMzQ4NDMzMDg3LDUzODM3NTI3Miw3MDgyMzg5NDEsNz
+MwOTk4MTE2XX0=
 -->
