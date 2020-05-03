@@ -32,8 +32,8 @@ while x<=10:
 10 - Hello World!
 '''
 ```
-### Using break  to abort while loop
-In the example below, we can s
+### Using 'break' to abort while loop
+In the example below, we can see that the loop is broken using the `break` keyword
 ```python
 x = 1
 while x<=10:
@@ -59,5 +59,10 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjM2NDA1NF19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFdoaWxlIGxvb3AgaW4gcH
+l0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6
+ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraW
+xsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxu
+ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMTMxND
+gwOTAzNl19
 -->
