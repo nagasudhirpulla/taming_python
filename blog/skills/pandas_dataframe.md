@@ -25,7 +25,7 @@ The image shown below tries to describe the anatomy of a DataFrame
 
 ### Using Pandas DataFrame
 * Open command prompt, type the command ```pip install pandas``` and press enter. This should install pandas library in your computer.
-* In your python file write ```import pandas as pd```
+* In your python file write ```import pandas as pd``` at the top. Now you  can the variable `pd` to access pandas DataFrame
 
 
 ### Online Interpreter
@@ -47,6 +47,6 @@ UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
 bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMT
-QxMTQyNzk5NSwyMDIyOTExOTEsMTcxMzU3ODgzLC0zNDg0MzMw
+UwNzgxNjUxOSwyMDIyOTExOTEsMTcxMzU3ODgzLC0zNDg0MzMw
 ODcsNTM4Mzc1MjcyLDcwODIzODk0MSw3MzA5OTgxMTZdfQ==
 -->
