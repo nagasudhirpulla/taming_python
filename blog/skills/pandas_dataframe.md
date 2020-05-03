@@ -90,7 +90,7 @@ print(df)
 ```
 
 #### Creating a DataFrame from csv using 'read_csv'
-read the complete documentation of read_csv [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
+read the complete documentation of `read_csv` [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
 The csv used for this example can be found [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/df_beginner.csv)
 ```python
 import pandas as pd
@@ -106,7 +106,7 @@ print(df)
 2    Miss. Elizabeth   58  female
 '''
 ```
-This code can be run in Visual Studio Code as shown below, make sure csv in the same folder as python file.
+This code can be run in Visual Studio Code as shown below. Make sure csv in the same folder as python file.
 ![read_csv_demo_vs_code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/read_csv_demo.png)
 #### Creating a DataFrame from excel using 'read_excel'
 read the complete documentation of read_excel [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html)
@@ -147,9 +147,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhbmRhcyBEYXRhRnJhbW
 UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLT
-Q3NTU4OTc2Nyw1OTg2NzI4MjIsNzQ4MTAyNTQsLTE0NTgyNDUw
-ODcsLTEwNDYyMTM4NTksLTEwMjMxMzU2MTgsMjAyMjkxMTkxLD
-E3MTM1Nzg4MywtMzQ4NDMzMDg3LDUzODM3NTI3Miw3MDgyMzg5
-NDEsNzMwOTk4MTE2XX0=
+bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMT
+Y1OTQyNDE3NywtNDc1NTg5NzY3LDU5ODY3MjgyMiw3NDgxMDI1
+NCwtMTQ1ODI0NTA4NywtMTA0NjIxMzg1OSwtMTAyMzEzNTYxOC
+wyMDIyOTExOTEsMTcxMzU3ODgzLC0zNDg0MzMwODcsNTM4Mzc1
+MjcyLDcwODIzODk0MSw3MzA5OTgxMTZdfQ==
 -->
