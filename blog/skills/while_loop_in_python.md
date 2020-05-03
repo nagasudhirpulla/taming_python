@@ -16,7 +16,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ```python
 x = 1
 while x<=10:
-	print('{0} - Hello World!'.format())
+	print('{0} - Hello World!'.format(x))
 # this prints
 
 ```
@@ -31,5 +31,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTQ5MTI3NF19
+eyJoaXN0b3J5IjpbLTEwNDYyMTE3NDJdfQ==
 -->
