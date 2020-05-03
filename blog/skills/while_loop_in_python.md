@@ -32,7 +32,14 @@ while x<=10:
 10 - Hello World!
 '''
 ```
-
+### Using break  to abort while loop
+```python
+x = 1
+while x<=10:
+	print('{0} - Hello World!'.format(x))
+	x = x + 1
+# this prints
+```
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -43,5 +50,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzODUxOTExXX0=
+eyJoaXN0b3J5IjpbMjA4MTEwMjE2Ml19
 -->
