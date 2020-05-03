@@ -68,6 +68,25 @@ print(df)
 '''
 ```
 
+#### Creating a DataFrame with a list of lists
+```python
+import pandas as pd
+x = [
+        {"Name": "Harris", "Age": 22, "Sex": "male"},
+        {"Name": "Mr. William Henry", "Age": 35, "Sex": "male"},
+        {"Name": "Miss. Elizabeth", "Age": 58, "Sex": "female"},
+    ]
+df = pd.DataFrame(x)
+ 
+print(df)
+# this will print
+'''
+   Age               Name     Sex
+0   22             Harris    male
+1   35  Mr. William Henry    male
+2   58    Miss. Elizabeth  female
+'''
+```
 
 ### Online Interpreter
 You can run these codes online at https://www.tutorialspoint.com/execute_python_online.php
@@ -87,8 +106,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhbmRhcyBEYXRhRnJhbW
 UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMT
-UxOTI1ODgyMiwtMTAyMzEzNTYxOCwyMDIyOTExOTEsMTcxMzU3
-ODgzLC0zNDg0MzMwODcsNTM4Mzc1MjcyLDcwODIzODk0MSw3Mz
-A5OTgxMTZdfQ==
+bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLT
+EwNDYyMTM4NTksLTEwMjMxMzU2MTgsMjAyMjkxMTkxLDE3MTM1
+Nzg4MywtMzQ4NDMzMDg3LDUzODM3NTI3Miw3MDgyMzg5NDEsNz
+MwOTk4MTE2XX0=
 -->
