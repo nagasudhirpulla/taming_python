@@ -1,4 +1,4 @@
-## Skill - Create sequences with range function in python
+## Skill - For loop in python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -61,7 +61,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZvciBsb29wIGluIHB5dG
 hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 bGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbC
 dcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRh
-dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6Wy05NjgzNj
-A0MDEsMTUyNDA2MDk3MSwxMzQ3NDgxNDgsLTE0NTk3NDg5NDdd
-fQ==
+dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6WzE4NjI0Nz
+EzMTksLTk2ODM2MDQwMSwxNTI0MDYwOTcxLDEzNDc0ODE0OCwt
+MTQ1OTc0ODk0N119
 -->
