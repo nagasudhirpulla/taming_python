@@ -40,7 +40,11 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExNzM4NDA1LDIwMjI5MTE5MSwxNzEzNT
-c4ODMsLTM0ODQzMzA4Nyw1MzgzNzUyNzIsNzA4MjM4OTQxLDcz
-MDk5ODExNl19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhbmRhcyBEYXRhRnJhbW
+UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
+Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
+NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
+bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbOD
+k0OTkyNjI0LDIwMjI5MTE5MSwxNzEzNTc4ODMsLTM0ODQzMzA4
+Nyw1MzgzNzUyNzIsNzA4MjM4OTQxLDczMDk5ODExNl19
 -->
