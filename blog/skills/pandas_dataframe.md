@@ -18,7 +18,8 @@ The image shown below tries to describe the anatomy of a DataFrame
 * As shown above, a DataFrame is just like an excel sheet
 * A DataFrame has columns, where each column has a name and position
 * A DataFrame has rows, where each row also has a name and position
-* The data in of a DataFrame lies in the cells of the DataFrame. Each cell has 
+* The data in of a DataFrame lies in the cells of the DataFrame. Each cell has a specific row and column
+* 
 
 ### Main Code
 
@@ -35,6 +36,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODYzNzc2OSw1MzgzNzUyNzIsNzA4Mj
+eyJoaXN0b3J5IjpbLTM0ODQzMzA4Nyw1MzgzNzUyNzIsNzA4Mj
 M4OTQxLDczMDk5ODExNl19
 -->
