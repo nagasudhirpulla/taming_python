@@ -9,7 +9,9 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-Pandas i
+Pandas is a python library.
+You can install pandas using the command ```pip install pandas```
+A **DataFrame** is a data structure p
 ![Pandas DataFrame illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pandas_dataframe_illustration.png)
 
 ### Main Code
@@ -25,6 +27,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzkwNDA4Myw1MzgzNzUyNzIsNzA4Mj
-M4OTQxLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEwMDYzMDcwMDIsNTM4Mzc1MjcyLDcwOD
+IzODk0MSw3MzA5OTgxMTZdfQ==
 -->
