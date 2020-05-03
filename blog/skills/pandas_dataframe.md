@@ -34,6 +34,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
 * https://www.geeksforgeeks.org/python-pandas-dataframe/
+* installing pandas YouTube video - https://www.youtube.com/watch?v=nZVolpD_Nl4
 
 * Image credits - ```https://www.geeksforgeeks.org```, ```https://pandas.pydata.org```
 <hr/>
@@ -45,7 +46,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhbmRhcyBEYXRhRnJhbW
 UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbND
-QzNjcxMDEyLDIwMjI5MTE5MSwxNzEzNTc4ODMsLTM0ODQzMzA4
-Nyw1MzgzNzUyNzIsNzA4MjM4OTQxLDczMDk5ODExNl19
+bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMT
+QxMTQyNzk5NSwyMDIyOTExOTEsMTcxMzU3ODgzLC0zNDg0MzMw
+ODcsNTM4Mzc1MjcyLDcwODIzODk0MSw3MzA5OTgxMTZdfQ==
 -->
