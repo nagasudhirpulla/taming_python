@@ -48,6 +48,25 @@ print(df)
 ```
 As shown above, each key of the dictionary will become a column in the DataFrame
 
+#### Creating a DataFrame with a list of dictionaries
+```python
+import pandas as pd
+x = {
+	"Name": ["Harris","Mr. William Henry","Miss. Elizabeth"],
+	"Age": [22, 35, 58],
+	"Sex": ["male", "male", "female"]
+	}
+df = pd.DataFrame(x)
+ 
+print(df)
+# this will print
+'''
+   Age               Name     Sex
+0   22             Harris    male
+1   35  Mr. William Henry    male
+2   58    Miss. Elizabeth  female
+'''
+```
 ### Online Interpreter
 You can run these codes online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -66,8 +85,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhbmRhcyBEYXRhRnJhbW
 UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbNT
-MxNjk2NzI4LC0xMDIzMTM1NjE4LDIwMjI5MTE5MSwxNzEzNTc4
-ODMsLTM0ODQzMzA4Nyw1MzgzNzUyNzIsNzA4MjM4OTQxLDczMD
-k5ODExNl19
+bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLT
+E4MTUzNzE3MDYsLTEwMjMxMzU2MTgsMjAyMjkxMTkxLDE3MTM1
+Nzg4MywtMzQ4NDMzMDg3LDUzODM3NTI3Miw3MDgyMzg5NDEsNz
+MwOTk4MTE2XX0=
 -->
