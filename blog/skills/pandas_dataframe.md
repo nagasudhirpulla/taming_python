@@ -15,6 +15,8 @@ You can install pandas using the command ```pip install pandas```
 The image shown below tries to describe the anatomy of a DataFrame
 
 ![Pandas DataFrame illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pandas_dataframe_illustration.png)
+As shown above, a DataFrame is just like an excel sheet
+A DataFrame has columns, where each column has a name and index (position)
 
 
 ### Main Code
@@ -32,6 +34,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODEyODA4NSw1MzgzNzUyNzIsNzA4Mj
-M4OTQxLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTk1MjQ1OTc3LDUzODM3NTI3Miw3MDgyMz
+g5NDEsNzMwOTk4MTE2XX0=
 -->
