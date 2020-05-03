@@ -28,6 +28,7 @@ The image shown below tries to describe the anatomy of a DataFrame
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
 ### References
+* Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
 * https://www.geeksforgeeks.org/python-pandas-dataframe/
 
 * Image credits - ```https://www.geeksforgeeks.org```
@@ -36,6 +37,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODQzMzA4Nyw1MzgzNzUyNzIsNzA4Mj
-M4OTQxLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTcxMzU3ODgzLC0zNDg0MzMwODcsNTM4Mz
+c1MjcyLDcwODIzODk0MSw3MzA5OTgxMTZdfQ==
 -->
