@@ -1,5 +1,5 @@
 
-## Skill - Create sequences with range function in python
+## Skill - while loop in python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -12,7 +12,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 `while` loop is used to run code again and again until a specified condition is satisfied. 
 
-### For loop on an array
+### Using while loop to print
 
 
 ### Online Interpreter
@@ -24,5 +24,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NjYzODYzNl19
+eyJoaXN0b3J5IjpbMTYxMjcyNTU5M119
 -->
