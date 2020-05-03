@@ -21,6 +21,7 @@ Here are the goals and skills in this tutorial series
 * [Create sequences with range function in python](https://nagasudhir.blogspot.com/2020/05/create-sequences-with-range-function.html)
 * [For loop in python](https://nagasudhir.blogspot.com/2020/05/for-loop-in-python.html)
 * [while loop in python](https://nagasudhir.blogspot.com/2020/05/while-loop-in-python.html)
+* [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -28,7 +29,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbNjI4NDEyODcwLC04MTUxND
-Q5NzAsMTE2NjE3Nzc2Nyw5MjIyMDk5ODAsNTcwODQwMDc3LC0z
-OTg2NDUyNTJdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMjA3NzUxMTA4MCw2Mjg0MT
+I4NzAsLTgxNTE0NDk3MCwxMTY2MTc3NzY3LDkyMjIwOTk4MCw1
+NzA4NDAwNzcsLTM5ODY0NTI1Ml19
 -->
