@@ -24,7 +24,7 @@ The image shown below tries to describe the anatomy of a DataFrame
 * All the row labels of a DataFrame are called **index**
 
 ### Using Pandas DataFrame
-* Open command prompt and type the command ```pip install pandas```
+* Open command prompt, type the command ```pip install pandas``` and press enter. This should install pandas library in your computer.
 * In your python file write ```import pandas as pd```
 
 
@@ -46,6 +46,6 @@ UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
 bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbND
-I0NTYwODI2LDIwMjI5MTE5MSwxNzEzNTc4ODMsLTM0ODQzMzA4
+QzNjcxMDEyLDIwMjI5MTE5MSwxNzEzNTc4ODMsLTM0ODQzMzA4
 Nyw1MzgzNzUyNzIsNzA4MjM4OTQxLDczMDk5ODExNl19
 -->
