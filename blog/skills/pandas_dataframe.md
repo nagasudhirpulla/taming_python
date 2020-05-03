@@ -105,7 +105,28 @@ print(df)
 2    Miss. Elizabeth   58  female
 '''
 ```
-This code can be run 
+This code can be run in Visual Studio Code as shown below, make sure csv in the same folder as python file.
+![read_csv_demo_vs_code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/read_csv_demo.png)
+#### Creating a DataFrame from excel using 'read_excel'
+read the complete documentation of read_csv [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
+The csv used for this example can be found [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/df_beginner.csv)
+```python
+import pandas as pd
+
+df = pd.read_csv('df_beginner.csv')
+
+print(df)
+# this will print
+'''
+                Name  Age     Sex
+0             Harris   22    male
+1  Mr. William Henry   35    male
+2    Miss. Elizabeth   58  female
+'''
+```
+This code can be run in Visual Studio Code as shown below, make sure csv in the same folder as python file.
+![read_csv_demo_vs_code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/read_csv_demo.png)
+
 
 ### Online Interpreter
 You can run these codes online at https://www.tutorialspoint.com/execute_python_online.php
@@ -126,8 +147,8 @@ UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
 bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLT
-I2Nzg3NTIzMiw3NDgxMDI1NCwtMTQ1ODI0NTA4NywtMTA0NjIx
-Mzg1OSwtMTAyMzEzNTYxOCwyMDIyOTExOTEsMTcxMzU3ODgzLC
-0zNDg0MzMwODcsNTM4Mzc1MjcyLDcwODIzODk0MSw3MzA5OTgx
-MTZdfQ==
+E0NDEwNzk1MjEsNzQ4MTAyNTQsLTE0NTgyNDUwODcsLTEwNDYy
+MTM4NTksLTEwMjMxMzU2MTgsMjAyMjkxMTkxLDE3MTM1Nzg4My
+wtMzQ4NDMzMDg3LDUzODM3NTI3Miw3MDgyMzg5NDEsNzMwOTk4
+MTE2XX0=
 -->
