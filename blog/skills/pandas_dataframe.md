@@ -27,7 +27,7 @@ The image shown below tries to describe the anatomy of a DataFrame
 * Open command prompt, type the command ```pip install pandas``` and press enter. This should install pandas library in your computer.
 * In your python file write ```import pandas as pd``` at the top. Now you  can the variable `pd` to access pandas DataFrame
 
-#### Creating DataFrame with labelled arrays
+#### Creating a DataFrame with a dictionary of lists
 ```python
 import pandas as pd
 df = pd.DataFrame({
@@ -44,6 +44,7 @@ print(df)
 2   58    Miss. Elizabeth  female
 '''
 ```
+As shob
 
 ### Online Interpreter
 You can run these codes online at https://www.tutorialspoint.com/execute_python_online.php
@@ -63,8 +64,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhbmRhcyBEYXRhRnJhbW
 UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLT
-EwNTI4ODcyNjksLTEwMjMxMzU2MTgsMjAyMjkxMTkxLDE3MTM1
-Nzg4MywtMzQ4NDMzMDg3LDUzODM3NTI3Miw3MDgyMzg5NDEsNz
-MwOTk4MTE2XX0=
+bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbND
+czMTMxMDkyLC0xMDIzMTM1NjE4LDIwMjI5MTE5MSwxNzEzNTc4
+ODMsLTM0ODQzMzA4Nyw1MzgzNzUyNzIsNzA4MjM4OTQxLDczMD
+k5ODExNl19
 -->
