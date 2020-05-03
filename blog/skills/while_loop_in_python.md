@@ -12,7 +12,14 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 `while` loop is used to run code again and again until a specified condition is satisfied. 
 
-### Using while loop to print
+### Using while loop to print 10 times
+```python
+x = 1
+while x<=10:
+	print('{0} - Hello World!'.format())
+# this prints
+
+```
 
 
 ### Online Interpreter
@@ -24,5 +31,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjcyNTU5M119
+eyJoaXN0b3J5IjpbLTkzNTQ5MTI3NF19
 -->
