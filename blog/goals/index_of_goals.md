@@ -20,6 +20,7 @@ Here are the goals and skills in this tutorial series
 * [dictionaries in python](https://nagasudhir.blogspot.com/2020/04/dictionaries-in-python.html)
 * [Create sequences with range function in python](https://nagasudhir.blogspot.com/2020/05/create-sequences-with-range-function.html)
 * [For loop in python](https://nagasudhir.blogspot.com/2020/05/for-loop-in-python.html)
+* [while loop in python](https://nagasudhir.blogspot.com/2020/05/while-loop-in-python.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -27,7 +28,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbODI2MDA3OTU1LC04MTUxND
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbNjI4NDEyODcwLC04MTUxND
 Q5NzAsMTE2NjE3Nzc2Nyw5MjIyMDk5ODAsNTcwODQwMDc3LC0z
 OTg2NDUyNTJdfQ==
 -->
