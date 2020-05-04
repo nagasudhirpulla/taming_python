@@ -35,7 +35,13 @@ print(dfExcel)
 ```
 
 #### read data from specific excel sheet using "sheet_name" option
+**sheet_name** can be the name of the sheet or the position of the sheet (zero-based)
+```python
+import pandas as pd
 
+dfExcel = pd.read_excel('gen_schedules.xlsx', sheet_name='Sheet1')
+print(dfExcel)
+```
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -54,6 +60,6 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlstMTIxMzAzNDY1MSwxNzU5NDUxNTgx
-LDYxMjkzNzEyOSwxMjYyODQ1NTA2XX0=
+dcbiIsImhpc3RvcnkiOlstODg3ODI5Mzk1LDE3NTk0NTE1ODEs
+NjEyOTM3MTI5LDEyNjI4NDU1MDZdfQ==
 -->
