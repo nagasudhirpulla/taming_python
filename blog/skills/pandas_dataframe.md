@@ -109,7 +109,7 @@ print(df)
 This code can be run in Visual Studio Code as shown below. Make sure csv in the same folder as python file.
 ![read_csv_demo_vs_code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/read_csv_demo.png)
 #### Creating a DataFrame from excel using 'read_excel'
-read the complete documentation of read_excel [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html)
+read the complete documentation of `read_excel` [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html)
 The excel file used for this example can be found [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/df_beginner.xlsx)
 ```python
 import pandas as pd
@@ -146,9 +146,10 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhbmRhcyBEYXRhRnJhbW
 UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMT
-YwNDE3NjQzOSwtNDc1NTg5NzY3LDU5ODY3MjgyMiw3NDgxMDI1
-NCwtMTQ1ODI0NTA4NywtMTA0NjIxMzg1OSwtMTAyMzEzNTYxOC
-wyMDIyOTExOTEsMTcxMzU3ODgzLC0zNDg0MzMwODcsNTM4Mzc1
-MjcyLDcwODIzODk0MSw3MzA5OTgxMTZdfQ==
+bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLT
+E5NDUyNjAzMjUsMTYwNDE3NjQzOSwtNDc1NTg5NzY3LDU5ODY3
+MjgyMiw3NDgxMDI1NCwtMTQ1ODI0NTA4NywtMTA0NjIxMzg1OS
+wtMTAyMzEzNTYxOCwyMDIyOTExOTEsMTcxMzU3ODgzLC0zNDg0
+MzMwODcsNTM4Mzc1MjcyLDcwODIzODk0MSw3MzA5OTgxMTZdfQ
+==
 -->
