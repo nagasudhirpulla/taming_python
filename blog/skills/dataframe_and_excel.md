@@ -62,7 +62,12 @@ import pandas as pd
 dfExcel = pd.read_excel('gen_schedules.xlsx', usecols=['CGPL','GADARWARA-I','GANDHAR-APM'])
 print(dfExcel)
 
-dfCsv = pd.read_csv('gen_schedules.csv', header=None)
+# read only columns with positions(zero-based) 2,6,8
+dfCsv = pd.read_csv('gen_schedules.csv', usecols=[2,6,8])
+print(dfExcel)
+
+# read only columns with headers CGPL,GADARWARA-I,GANDHAR-APM
+dfExcel = pd.read_excel('gen_schedules.xlsx', usecols=['CGPL','GADARWARA-I','GANDHAR-APM'])
 print(dfExcel)
 ```
 
@@ -83,6 +88,6 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlstMTAyMDMxMjMyNCwtODg3ODI5Mzk1
-LDE3NTk0NTE1ODEsNjEyOTM3MTI5LDEyNjI4NDU1MDZdfQ==
+dcbiIsImhpc3RvcnkiOls1ODEyMTkxNSwtODg3ODI5Mzk1LDE3
+NTk0NTE1ODEsNjEyOTM3MTI5LDEyNjI4NDU1MDZdfQ==
 -->
