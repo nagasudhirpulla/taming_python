@@ -14,6 +14,9 @@ Pandas is a python library.
 **DataFrame** is a data structure provided by the pandas library.
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
+In this post, we will learn common excel input output scenarios with pandas DataFrames
+
+
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -32,5 +35,6 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlsxMjYyODQ1NTA2XX0=
+dcbiIsImhpc3RvcnkiOlsxNjIwNjA3MzEyLDEyNjI4NDU1MDZd
+fQ==
 -->
