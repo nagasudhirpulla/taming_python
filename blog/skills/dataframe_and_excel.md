@@ -17,8 +17,8 @@ Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020
 In this post, we will learn common excel input output scenarios with pandas DataFrames
 
 #### Creating a DataFrame from using 'read_csv' or 'read_excel'
-read the complete documentation of `read_csv` [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
-read the complete documentation of read_excel [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html)
+read the documentation of `read_csv` [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
+read the documentation of `read_excel` [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html)
 ```python
 
 ```
@@ -40,6 +40,6 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlsyMzE4MDIyNTcsMTI2Mjg0NTUwNl19
+dcbiIsImhpc3RvcnkiOls2MTI5MzcxMjksMTI2Mjg0NTUwNl19
 
 -->
