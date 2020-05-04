@@ -103,6 +103,7 @@ print(dfExcel)
 ```
 
 ### export DataFrame to excel / csv using "to_excel " and "to_csv"
+for more options to export data, read the official docs of 
 ```python
 import pandas as pd
 
@@ -124,11 +125,11 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
-* read_excel documentation - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html
-*  read_csv documentation - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html#pandas.read_csv
-* to_csv documentation - 
-* to_excel documentation - # export DataFrame to a file named out.csv
-x.to_csv('out.csv')
+* *read_excel* documentation - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html
+*  *read_csv* documentation - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html#pandas.read_csv
+* *to_csv* documentation - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html
+* *to_excel* documentation - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_excel.html#pandas.DataFrame.to_excel
+
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -140,7 +141,7 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOls1ODYwNDQ4NTUsLTIwMTIxNTk3MzMs
-MTU5OTc2NDUwMywtODg3ODI5Mzk1LDE3NTk0NTE1ODEsNjEyOT
-M3MTI5LDEyNjI4NDU1MDZdfQ==
+dcbiIsImhpc3RvcnkiOlsyMTMyOTY2MDYxLC0yMDEyMTU5NzMz
+LDE1OTk3NjQ1MDMsLTg4NzgyOTM5NSwxNzU5NDUxNTgxLDYxMj
+kzNzEyOSwxMjYyODQ1NTA2XX0=
 -->
