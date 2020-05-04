@@ -16,8 +16,10 @@ Pandas is a python library.
 
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
-In this post, we will learn how to get the shape of a pandas dataframe using **shape()** function
+In this post, we will learn how to get the shape of a pandas dataframe using **shape** attribute
+```python
 
+```
 
 
 ### Online Interpreter
@@ -31,5 +33,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0Nzc4MjY4NF19
+eyJoaXN0b3J5IjpbLTg5NzQ1ODMyOV19
 -->
