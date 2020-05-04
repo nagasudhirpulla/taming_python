@@ -28,10 +28,12 @@ x = {
 df = pd.DataFrame(x)
 
 # print the columns of DataFrame. This will return an index object
-print(list(df.columns))
+print(df.columns)
+# Index([u'Age', u'Name', u'Sex'], dtype='object')
 
-# print the list of columns of the DataFrame
+# print the list of columns of the DataFrame by passing it through 'list' function
 print(list(df.columns))
+# ['Age', 'Name', 'Sex']
 ```
 
 
@@ -46,5 +48,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjAzOTkxNF19
+eyJoaXN0b3J5IjpbMzk3MTgzOTM1XX0=
 -->
