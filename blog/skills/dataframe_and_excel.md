@@ -58,7 +58,8 @@ print(dfExcel)
 ```python
 import pandas as pd
 
-dfExcel = pd.read_excel('gen_schedules.xlsx', usecols)
+# read only three columns with headers CGPL,GADARWARA-I,GANDHAR-APM
+dfExcel = pd.read_excel('gen_schedules.xlsx', usecols=['CGPL','GADARWARA-I','GANDHAR-APM'])
 print(dfExcel)
 
 dfCsv = pd.read_csv('gen_schedules.csv', header=None)
@@ -82,6 +83,6 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOls2ODQ1OTEwNDksLTg4NzgyOTM5NSwx
-NzU5NDUxNTgxLDYxMjkzNzEyOSwxMjYyODQ1NTA2XX0=
+dcbiIsImhpc3RvcnkiOlstMTAyMDMxMjMyNCwtODg3ODI5Mzk1
+LDE3NTk0NTE1ODEsNjEyOTM3MTI5LDEyNjI4NDU1MDZdfQ==
 -->
