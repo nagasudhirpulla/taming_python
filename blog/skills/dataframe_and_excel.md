@@ -42,6 +42,7 @@ import pandas as pd
 dfExcel = pd.read_excel('gen_schedules.xlsx', sheet_name='Sheet1')
 print(dfExcel)
 ```
+
 #### import excel/csv data without header using "header" option
 ```python
 import pandas as pd
@@ -49,7 +50,18 @@ import pandas as pd
 dfExcel = pd.read_excel('gen_schedules.xlsx', header=None)
 print(dfExcel)
 
-dfCsv = pd.read_csv('gen_schedules.xlsx', header=None)
+dfCsv = pd.read_csv('gen_schedules.csv', header=None)
+print(dfExcel)
+```
+
+#### import only specific columns with "usecols" option
+```python
+import pandas as pd
+
+dfExcel = pd.read_excel('gen_schedules.xlsx', usecols)
+print(dfExcel)
+
+dfCsv = pd.read_csv('gen_schedules.csv', header=None)
 print(dfExcel)
 ```
 
@@ -70,6 +82,6 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlstMTY4MTg4MDYzNCwtODg3ODI5Mzk1
-LDE3NTk0NTE1ODEsNjEyOTM3MTI5LDEyNjI4NDU1MDZdfQ==
+dcbiIsImhpc3RvcnkiOls2ODQ1OTEwNDksLTg4NzgyOTM5NSwx
+NzU5NDUxNTgxLDYxMjkzNzEyOSwxMjYyODQ1NTA2XX0=
 -->
