@@ -23,6 +23,7 @@ Here are the goals and skills in this tutorial series
 * [while loop in python](https://nagasudhir.blogspot.com/2020/05/while-loop-in-python.html)
 * [pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
 * [Working with excel files and pandas DataFrames](https://nagasudhir.blogspot.com/2020/05/working-with-excel-and-pandas-dataframes.html)
+* [Getting the shape / dimension of a DataFrame](https://nagasudhir.blogspot.com/2020/05/dimension-of-dataframe.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -30,7 +31,8 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTI0MzUwNjcwOCwtMTQxOT
-MxMTY3Miw2Mjg0MTI4NzAsLTgxNTE0NDk3MCwxMTY2MTc3NzY3
-LDkyMjIwOTk4MCw1NzA4NDAwNzcsLTM5ODY0NTI1Ml19
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTYxNzQ5MTkwMiwxMjQzNT
+A2NzA4LC0xNDE5MzExNjcyLDYyODQxMjg3MCwtODE1MTQ0OTcw
+LDExNjYxNzc3NjcsOTIyMjA5OTgwLDU3MDg0MDA3NywtMzk4Nj
+Q1MjUyXX0=
 -->
