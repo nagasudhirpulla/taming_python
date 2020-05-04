@@ -15,8 +15,11 @@ Pandas is a python library.
 
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
-In this post we will l
+In this post we will learn how to get the column names of a DataFrame using the **columns** attribute
 
+```python
+
+```
 
 
 ### Online Interpreter
@@ -30,5 +33,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2ODkyMjVdfQ==
+eyJoaXN0b3J5IjpbLTE1MjQ2NzE4ODJdfQ==
 -->
