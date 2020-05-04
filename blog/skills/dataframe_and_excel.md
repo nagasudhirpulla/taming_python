@@ -16,8 +16,10 @@ Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020
 
 In this post, we will learn common excel input output scenarios with pandas DataFrames
 
-The csv file used in this post can be found [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/gen_schedules.csv), the excel file used in this post can be found [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/gen_schedules.xlsx)
-
+#### Instructions to run the codes below
+* Create a folder and place the csv file used in this post from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/gen_schedules.csv) and excel file used in this post from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/gen_schedules.xlsx)
+* 
+* 
 #### Creating a DataFrame from using 'read_csv' or 'read_excel'
 read the documentation of `read_csv` [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
 read the documentation of `read_excel` [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html)
@@ -42,6 +44,6 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlsxNzU5NDUxNTgxLDYxMjkzNzEyOSwx
-MjYyODQ1NTA2XX0=
+dcbiIsImhpc3RvcnkiOlstMzc5NjQ4MjY5LDE3NTk0NTE1ODEs
+NjEyOTM3MTI5LDEyNjI4NDU1MDZdfQ==
 -->
