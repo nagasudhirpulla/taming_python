@@ -71,6 +71,14 @@ dfExcel = pd.read_excel('gen_schedules.xlsx', usecols=['A,C,E:H'])
 print(dfExcel)
 ```
 
+#### import only specific number of rows using nrows option
+```python
+import pandas as pd
+
+# read only 50 rows
+dfExcel = pd.read_excel('gen_schedules.xlsx', nrows=50)
+print(dfExcel)
+```
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -88,6 +96,7 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlsxNTk5NzY0NTAzLC04ODc4MjkzOTUs
-MTc1OTQ1MTU4MSw2MTI5MzcxMjksMTI2Mjg0NTUwNl19
+dcbiIsImhpc3RvcnkiOls0MDEyNzE5NzUsMTU5OTc2NDUwMywt
+ODg3ODI5Mzk1LDE3NTk0NTE1ODEsNjEyOTM3MTI5LDEyNjI4ND
+U1MDZdfQ==
 -->
