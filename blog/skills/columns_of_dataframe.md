@@ -36,7 +36,6 @@ print(list(df.columns))
 # ['Age', 'Name', 'Sex']
 ```
 
-
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -48,5 +47,10 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MTgzOTM1XX0=
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEdldHRpbmcgdGhlIGNvbH
+VtbiBuYW1lcyBvZiBhIERhdGFGcmFtZVxuYXV0aG9yOiBOYWdh
+c3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNS0wNCdcbnRhZ3
+M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3Nr
+aWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbF
+xuIiwiaGlzdG9yeSI6Wy04MzQ2NjIwMjhdfQ==
 -->
