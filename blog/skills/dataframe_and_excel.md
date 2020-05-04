@@ -70,13 +70,24 @@ print(dfExcel)
 dfExcel = pd.read_excel('gen_schedules.xlsx', usecols=['A,C,E:H'])
 print(dfExcel)
 ```
-#### skip rows during import using "skiprows" option
+#### skip rows at the top during import using "skiprows" option
 If the main excel/csv data starts after some rows, this option will be useful
 ```python
 import pandas as pd
 
 # skip first 5 rows and then read the excel data
 dfExcel = pd.read_excel('gen_schedules.xlsx', skiprows=5)
+
+print(dfExcel)
+```
+
+#### skip rows at the bottom during import using "skipfooter" option
+If the main excel/csv data has unnecessary data at the end of the file, this option will be useful
+```python
+import pandas as pd
+
+# skip the bottom 2 rows and then read the excel data
+dfExcel = pd.read_excel('gen_schedules.xlsx', skipfooter=2)
 
 print(dfExcel)
 ```
@@ -106,7 +117,7 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlstMjAxMjE1OTczMywxNTk5NzY0NTAz
-LC04ODc4MjkzOTUsMTc1OTQ1MTU4MSw2MTI5MzcxMjksMTI2Mj
-g0NTUwNl19
+dcbiIsImhpc3RvcnkiOlstNzk3MzY4Nzc2LC0yMDEyMTU5NzMz
+LDE1OTk3NjQ1MDMsLTg4NzgyOTM5NSwxNzU5NDUxNTgxLDYxMj
+kzNzEyOSwxMjYyODQ1NTA2XX0=
 -->
