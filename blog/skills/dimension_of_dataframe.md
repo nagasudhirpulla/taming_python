@@ -29,15 +29,17 @@ x = {
 	}
 df = pd.DataFrame(x)
 
-# prints the dimension of DataFrame as (2,3)
 print(df.shape)
+# this will print (2,3)
 
 print('Number of rows = {0}'.format(df.shape[0]))
 print('Number of columns = {0}'.format(df.shape[1]))
-# this will print
-
+'''
+this will print
+Number of rows = 2
+Number of columns = 3
+'''
 ```
-
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -50,5 +52,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTg1NDI2NV19
+eyJoaXN0b3J5IjpbLTEwNjQ1NjAwMDldfQ==
 -->
