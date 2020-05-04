@@ -17,17 +17,19 @@ Pandas is a python library.
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
 In this post, we will learn how to get the shape of a pandas dataframe using **shape** attribute
+
+The
 ```python
 import pandas as pd
 # create a dataframe
 x = {
-	"Name": ["Harris","Mr. William Henry","Miss. Elizabeth"],
-	"Age": [22, 35, 58],
-	"Sex": ["male", "male", "female"]
+	"Name": ["Harris", "Miss. Elizabeth"],
+	"Age": [22, 58],
+	"Sex": ["male", "female"]
 	}
 df = pd.DataFrame(x)
 
-# prints the dimension of DataFrame 
+# prints the dimension of DataFrame as (2,3)
 print(df.shape)
 ```
 
@@ -43,5 +45,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzNjA0ODUzXX0=
+eyJoaXN0b3J5IjpbLTE4Njg5ODI0OV19
 -->
