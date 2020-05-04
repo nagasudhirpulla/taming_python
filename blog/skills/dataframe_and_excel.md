@@ -71,11 +71,13 @@ dfExcel = pd.read_excel('gen_schedules.xlsx', usecols=['A,C,E:H'])
 print(dfExcel)
 ```
 #### skip rows during import using "skiprows" option
-If the main excel data starts after some rows, this option will be useful
+If the main excel/csv data starts after some rows, this option will be useful
 ```python
 import pandas as pd
 
+# skip first 5 rows and then read the excel data
 dfExcel = pd.read_excel('gen_schedules.xlsx', skiprows=5)
+
 print(dfExcel)
 ```
 
@@ -104,7 +106,7 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlstMTgwNjUwMzM5OCwxNTk5NzY0NTAz
+dcbiIsImhpc3RvcnkiOlstMjAxMjE1OTczMywxNTk5NzY0NTAz
 LC04ODc4MjkzOTUsMTc1OTQ1MTU4MSw2MTI5MzcxMjksMTI2Mj
 g0NTUwNl19
 -->
