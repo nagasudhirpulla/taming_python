@@ -35,8 +35,8 @@ dfExcel = pd.read_excel('gen_schedules.xlsx')
 print(dfExcel)
 ```
 
-#### read data from a specific excel sheet using "sheet_name" option
-**sheet_name** can be the name of the sheet or the position of the sheet (zero-based)
+### read data from a specific excel sheet using "sheet_name" option
+`sheet_name` can be the name of the sheet or the position of the sheet (zero-based)
 ```python
 import pandas as pd
 
@@ -101,6 +101,10 @@ import pandas as pd
 dfExcel = pd.read_excel('gen_schedules.xlsx', nrows=50)
 print(dfExcel)
 ```
+
+### export DataFrame to excel / csv using "to_excel " and "to_csv"
+```pytho```
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -119,7 +123,7 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlsyOTkxMTU3NzksLTIwMTIxNTk3MzMs
-MTU5OTc2NDUwMywtODg3ODI5Mzk1LDE3NTk0NTE1ODEsNjEyOT
-M3MTI5LDEyNjI4NDU1MDZdfQ==
+dcbiIsImhpc3RvcnkiOlsyMDkyMzk4NjE1LC0yMDEyMTU5NzMz
+LDE1OTk3NjQ1MDMsLTg4NzgyOTM5NSwxNzU5NDUxNTgxLDYxMj
+kzNzEyOSwxMjYyODQ1NTA2XX0=
 -->
