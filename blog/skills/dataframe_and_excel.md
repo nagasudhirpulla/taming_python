@@ -1,4 +1,4 @@
-## Skill - Working with Excel and pandas DataFrames
+## Skill - Working with excel files and pandas DataFrames
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -21,6 +21,7 @@ In this post, we will learn common excel input output scenarios with pandas Data
 * Create a folder and place the csv file used in this post from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/gen_schedules.csv) and excel file used in this post from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/gen_schedules.xlsx)
 * Open the folder in Visual Studio Code
 * Create and work on python files in this folder
+![excel_file_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/all_gen_data.png)
 
 #### Creating a DataFrame from excel files using 'read_csv' or 'read_excel'
 read the documentation of `read_csv` [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
@@ -144,7 +145,7 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlstMTE0ODU3OTMwMSwtMjAxMjE1OTcz
-MywxNTk5NzY0NTAzLC04ODc4MjkzOTUsMTc1OTQ1MTU4MSw2MT
-I5MzcxMjksMTI2Mjg0NTUwNl19
+dcbiIsImhpc3RvcnkiOlsxMTM3NzI2NTc0LC0xMTQ4NTc5MzAx
+LC0yMDEyMTU5NzMzLDE1OTk3NjQ1MDMsLTg4NzgyOTM5NSwxNz
+U5NDUxNTgxLDYxMjkzNzEyOSwxMjYyODQ1NTA2XX0=
 -->
