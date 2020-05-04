@@ -21,12 +21,20 @@ In this post, we will learn common excel input output scenarios with pandas Data
 * Open the folder in Visual Studio Code
 * Create and work on python files in this folder
 
-#### Creating a DataFrame from using 'read_csv' or 'read_excel'
+#### Creating a DataFrame from excel files using 'read_csv' or 'read_excel'
 read the documentation of `read_csv` [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
 read the documentation of `read_excel` [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html)
 ```python
+import pandas as pd
 
+dfCsv = pd.read_csv('gen_schedules.csv')
+print(dfCsv)
+
+dfExcel = pd.read_excel('gen_schedules.xlsx')
+print(dfExcel)
 ```
+
+#### Print 
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -45,6 +53,6 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlsyMDgzMDg5NTk5LDE3NTk0NTE1ODEs
-NjEyOTM3MTI5LDEyNjI4NDU1MDZdfQ==
+dcbiIsImhpc3RvcnkiOlstMTY4MjM2ODY5OCwxNzU5NDUxNTgx
+LDYxMjkzNzEyOSwxMjYyODQ1NTA2XX0=
 -->
