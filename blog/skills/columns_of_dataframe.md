@@ -18,7 +18,20 @@ Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020
 In this post we will learn how to get the column names of a DataFrame using the **columns** attribute
 
 ```python
+import pandas as pd
+# create a dataframe
+x = {
+	"Name": ["Harris", "Miss. Elizabeth"],
+	"Age": [22, 58],
+	"Sex": ["male", "female"]
+	}
+df = pd.DataFrame(x)
 
+# print the columns of DataFrame. This will return an index object
+print(list(df.columns))
+
+# print the list of columns of the DataFrame
+print(list(df.columns))
 ```
 
 
@@ -33,5 +46,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ2NzE4ODJdfQ==
+eyJoaXN0b3J5IjpbMTgzMjAzOTkxNF19
 -->
