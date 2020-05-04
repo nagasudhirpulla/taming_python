@@ -12,6 +12,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 Pandas is a python library.
 **DataFrame** is a data structure provided by the pandas library.
+
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
 In this post, we will learn common excel input output scenarios with pandas DataFrames
@@ -105,6 +106,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
+* read_excel documentation - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html
 *  
 <hr/>
 
@@ -117,7 +119,7 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlstNzk3MzY4Nzc2LC0yMDEyMTU5NzMz
+dcbiIsImhpc3RvcnkiOlsyMDI0NDU2NzE0LC0yMDEyMTU5NzMz
 LDE1OTk3NjQ1MDMsLTg4NzgyOTM5NSwxNzU5NDUxNTgxLDYxMj
 kzNzEyOSwxMjYyODQ1NTA2XX0=
 -->
