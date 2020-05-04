@@ -70,8 +70,10 @@ print(dfExcel)
 dfExcel = pd.read_excel('gen_schedules.xlsx', usecols=['A,C,E:H'])
 print(dfExcel)
 ```
-
-#### import only specific number of rows using nrows option
+#### skip rows during import using "skiprows" option
+```python
+```
+#### import only specific number of rows using "nrows" option
 ```python
 import pandas as pd
 
@@ -96,7 +98,7 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOls0MDEyNzE5NzUsMTU5OTc2NDUwMywt
-ODg3ODI5Mzk1LDE3NTk0NTE1ODEsNjEyOTM3MTI5LDEyNjI4ND
-U1MDZdfQ==
+dcbiIsImhpc3RvcnkiOlsxMTA2Nzk3NzU4LDE1OTk3NjQ1MDMs
+LTg4NzgyOTM5NSwxNzU5NDUxNTgxLDYxMjkzNzEyOSwxMjYyOD
+Q1NTA2XX0=
 -->
