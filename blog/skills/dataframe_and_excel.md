@@ -103,7 +103,18 @@ print(dfExcel)
 ```
 
 ### export DataFrame to excel / csv using "to_excel " and "to_csv"
-```pytho```
+```python
+import pandas as pd
+
+x = [
+        {"Name": "Harris", "Age": 22, "Sex": "male"},
+        {"Name": "Mr. William Henry", "Age": 35, "Sex": "male"},
+        {"Name": "Miss. Elizabeth", "Age": 58, "Sex": "female"},
+    ]
+
+# export data
+x.to_csv('out.csv')
+```
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -123,7 +134,7 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlsyMDkyMzk4NjE1LC0yMDEyMTU5NzMz
+dcbiIsImhpc3RvcnkiOlsxODcxODM3MTEwLC0yMDEyMTU5NzMz
 LDE1OTk3NjQ1MDMsLTg4NzgyOTM5NSwxNzU5NDUxNTgxLDYxMj
 kzNzEyOSwxMjYyODQ1NTA2XX0=
 -->
