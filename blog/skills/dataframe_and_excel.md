@@ -12,7 +12,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 Pandas is a python library.
 **DataFrame** is a data structure provided by the pandas library.
-Please go through 
+Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
 
 ### Online Interpreter
@@ -20,9 +20,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
-* https://www.geeksforgeeks.org/python-pandas-dataframe/
-* installing pandas YouTube video - https://www.youtube.com/watch?v=nZVolpD_Nl4
-* Image credits - ```https://www.geeksforgeeks.org```, ```https://pandas.pydata.org```
+*  
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -34,5 +32,5 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOls1MzkzNzE5MDBdfQ==
+dcbiIsImhpc3RvcnkiOlsxMjYyODQ1NTA2XX0=
 -->
