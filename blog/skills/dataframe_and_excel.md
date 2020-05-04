@@ -34,7 +34,7 @@ dfExcel = pd.read_excel('gen_schedules.xlsx')
 print(dfExcel)
 ```
 
-#### read data from specific excel sheet using "sheet_name" option
+#### read data from a specific excel sheet using "sheet_name" option
 **sheet_name** can be the name of the sheet or the position of the sheet (zero-based)
 ```python
 import pandas as pd
@@ -60,6 +60,6 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlstODg3ODI5Mzk1LDE3NTk0NTE1ODEs
-NjEyOTM3MTI5LDEyNjI4NDU1MDZdfQ==
+dcbiIsImhpc3RvcnkiOlsyNDAyMjMzNzIsLTg4NzgyOTM5NSwx
+NzU5NDUxNTgxLDYxMjkzNzEyOSwxMjYyODQ1NTA2XX0=
 -->
