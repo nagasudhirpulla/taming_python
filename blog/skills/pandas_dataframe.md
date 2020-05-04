@@ -127,8 +127,6 @@ print(df)
 ```
 This code can be run in Visual Studio Code as shown below. Make sure the xlsx file in the same folder as python file.
 ![read_csv_demo_vs_code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/read_excel_demo.png)
-
-
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -146,10 +144,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhbmRhcyBEYXRhRnJhbW
 UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLT
-E5NDUyNjAzMjUsMTYwNDE3NjQzOSwtNDc1NTg5NzY3LDU5ODY3
-MjgyMiw3NDgxMDI1NCwtMTQ1ODI0NTA4NywtMTA0NjIxMzg1OS
-wtMTAyMzEzNTYxOCwyMDIyOTExOTEsMTcxMzU3ODgzLC0zNDg0
-MzMwODcsNTM4Mzc1MjcyLDcwODIzODk0MSw3MzA5OTgxMTZdfQ
-==
+bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMz
+EyNzI1NTU5LDE2MDQxNzY0MzksLTQ3NTU4OTc2Nyw1OTg2NzI4
+MjIsNzQ4MTAyNTQsLTE0NTgyNDUwODcsLTEwNDYyMTM4NTksLT
+EwMjMxMzU2MTgsMjAyMjkxMTkxLDE3MTM1Nzg4MywtMzQ4NDMz
+MDg3LDUzODM3NTI3Miw3MDgyMzg5NDEsNzMwOTk4MTE2XX0=
 -->
