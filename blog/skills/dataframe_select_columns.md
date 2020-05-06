@@ -12,12 +12,16 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
+<hr/>
+
 Pandas is a python library.
 **DataFrame** is a data structure provided by the pandas library.
 
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
 In this post, we will learn how to select only desired columns of a dataframe
+
+<hr/>
 
 #### Instructions to run the codes below
 * Create a folder and place the csv file used in this post from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/gen_schedules.csv)
@@ -54,6 +58,8 @@ print(type(kharData))
 ```
 Notice that the type of `kharData` is Series and the type of `filteredDf` is DataFrame. This is because `kharData` variable is obtained by getting only a single column of the main dataframe `df`
 
+<hr/>
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -72,6 +78,5 @@ JhbWUgY29sdW1uc1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxh
 XG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dG
 hvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25f
 c2tpbGxcbmRhdGU6ICcyMDIwLTA1LTA2J1xuIiwiaGlzdG9yeS
-I6Wy0xNzQ4NDYxNzg0LDk5MDU1NTEyLC02NTMyMTI3NzldfQ==
-
+I6WzIwOTc3NjU5NjksOTkwNTU1MTIsLTY1MzIxMjc3OV19
 -->
