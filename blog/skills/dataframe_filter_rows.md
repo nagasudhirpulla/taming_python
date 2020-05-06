@@ -36,8 +36,13 @@ Suppose in a DataFrame `df` we want to get rows with values in column 'A' greate
 import pandas as pd
 
 df = pd.read_csv('gen_schedules.csv')
-print()
 
+print('Number of rows in df = {0}'.format(df.shape[0]))
+# this prints 
+
+filteredDf = df[df['CGPL']>2500]
+print('Number of rows in filteredDf = {0}'.format(filteredDf.shape[0]))
+# this prints 
 ```
 
 
@@ -56,5 +61,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzNDk5MjAzLC0xMDIyOTU1MTIxXX0=
+eyJoaXN0b3J5IjpbLTE3NjUwNzUxMjIsLTEwMjI5NTUxMjFdfQ
+==
 -->
