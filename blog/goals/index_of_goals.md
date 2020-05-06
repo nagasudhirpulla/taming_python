@@ -13,6 +13,7 @@ Here are the goals and skills in this tutorial series
 * [Commenting in python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Basic printing in python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
+* [Getting type of variable in python](https://nagasudhir.blogspot.com/2020/05/getting-type-of-python-variable.html)
 * [Operations on variables in python](https://nagasudhir.blogspot.com/2020/04/operations-on-variables-in-python.html)
 * [if condition](https://nagasudhir.blogspot.com/2020/04/if-condition-in-python_14.html)
 * [strings in python](https://nagasudhir.blogspot.com/2020/04/strings-in-python.html)
@@ -33,8 +34,8 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTMxNzMyODkzOSwtMTQwND
-M5NzM1MywtNjE3NDkxOTAyLDEyNDM1MDY3MDgsLTE0MTkzMTE2
-NzIsNjI4NDEyODcwLC04MTUxNDQ5NzAsMTE2NjE3Nzc2Nyw5Mj
-IyMDk5ODAsNTcwODQwMDc3LC0zOTg2NDUyNTJdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMzM0NzM0MTk4LC0xNDA0Mz
+k3MzUzLC02MTc0OTE5MDIsMTI0MzUwNjcwOCwtMTQxOTMxMTY3
+Miw2Mjg0MTI4NzAsLTgxNTE0NDk3MCwxMTY2MTc3NzY3LDkyMj
+IwOTk4MCw1NzA4NDAwNzcsLTM5ODY0NTI1Ml19
 -->
