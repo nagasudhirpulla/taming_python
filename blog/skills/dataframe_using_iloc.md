@@ -1,4 +1,4 @@
-## Skill - Selecting 
+## Skill - Selecting a subset of DataFrame using 'iloc' function
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -52,5 +52,10 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTYxMDExNV19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIGlsb2MgZnVuY3
+Rpb24gb2YgRGF0YUZyYW1lXG5hdXRob3I6IE5hZ2FzdWRoaXIg
+UHVsbGFcbmRhdGU6ICcyMDIwLTA1LTA2J1xudGFnczogJ2xlYX
+JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
+YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
+N0b3J5IjpbMTA5MDgwODE4NV19
 -->
