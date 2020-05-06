@@ -13,12 +13,15 @@ Please make sure to have all the skills mentioned above to understand and execut
 ```python
 x = 5
 print(type(x))
+# <class 'int'>
 
 y = 'Nagasudhir'
 print(type(y))
+# <class 'str'>
 
 z = [1, 3, 6]
 print(type(z))
+# <class 'list'>
 ```
 
 ### Online Interpreter
@@ -27,5 +30,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 <hr/>
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2MTY3NzQ5XX0=
+eyJoaXN0b3J5IjpbMTM2NTkzNjkwOF19
 -->
