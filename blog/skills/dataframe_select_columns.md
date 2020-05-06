@@ -34,6 +34,10 @@ df = pd.read_csv('gen_schedules.csv')
 
 # This dataframe contains many columns, but now we will select only KAPS, KHARGONE-I columns
 filteredDf = df[["KAPS", "KHARGONE-I"]]
+print(filteredDf)
+
+# select only KHARGONE-I data
+kharData = df["KHARGONE-I"]
 ```
 
 
@@ -50,5 +54,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwNTU1MTIsLTY1MzIxMjc3OV19
+eyJoaXN0b3J5IjpbMTI5NTIwOTk2Nyw5OTA1NTUxMiwtNjUzMj
+EyNzc5XX0=
 -->
