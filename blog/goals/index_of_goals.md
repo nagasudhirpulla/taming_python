@@ -20,8 +20,8 @@ Here are the goals and skills in this tutorial series
 * [lists in python](https://nagasudhir.blogspot.com/2020/04/lists-in-python.html)
 * [dictionaries in python](https://nagasudhir.blogspot.com/2020/04/dictionaries-in-python.html)
 * [Create sequences with range function in python](https://nagasudhir.blogspot.com/2020/05/create-sequences-with-range-function.html)
-* [for loop in python](https://nagasudhir.blogspot.com/2020/05/for-loop-in-python.html)
-* [while loop in python](https://nagasudhir.blogspot.com/2020/05/while-loop-in-python.html)
+* ['for' loop in python](https://nagasudhir.blogspot.com/2020/05/for-loop-in-python.html)
+* ['while' loop in python](https://nagasudhir.blogspot.com/2020/05/while-loop-in-python.html)
 * [pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
 * [Working with excel files and pandas DataFrames](https://nagasudhir.blogspot.com/2020/05/working-with-excel-and-pandas-dataframes.html)
 * [Getting the shape / dimension of a DataFrame](https://nagasudhir.blogspot.com/2020/05/dimension-of-dataframe.html)
@@ -36,9 +36,9 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTIwNzMxNzY4NjcsMjQzND
-U3NjU2LC0xNDA0Mzk3MzUzLC02MTc0OTE5MDIsMTI0MzUwNjcw
-OCwtMTQxOTMxMTY3Miw2Mjg0MTI4NzAsLTgxNTE0NDk3MCwxMT
-Y2MTc3NzY3LDkyMjIwOTk4MCw1NzA4NDAwNzcsLTM5ODY0NTI1
-Ml19
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTMwMzQzMDI1OSwyNDM0NT
+c2NTYsLTE0MDQzOTczNTMsLTYxNzQ5MTkwMiwxMjQzNTA2NzA4
+LC0xNDE5MzExNjcyLDYyODQxMjg3MCwtODE1MTQ0OTcwLDExNj
+YxNzc3NjcsOTIyMjA5OTgwLDU3MDg0MDA3NywtMzk4NjQ1MjUy
+XX0=
 -->
