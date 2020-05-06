@@ -1,4 +1,4 @@
-## Skill - Working with excel files and pandas DataFrames
+## Skill - Selecting DataFrame columns
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -66,6 +66,10 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0MjQ0NzI3LDk5MDU1NTEyLC02NTMyMT
-I3NzldfQ==
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFNlbGVjdGluZyBEYXRhRn
+JhbWUgY29sdW1uc1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxh
+XG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dG
+hvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25f
+c2tpbGxcbmRhdGU6ICcyMDIwLTA1LTA2J1xuIiwiaGlzdG9yeS
+I6WzEyNTM4NDE3NDcsOTkwNTU1MTIsLTY1MzIxMjc3OV19
 -->
