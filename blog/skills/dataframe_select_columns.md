@@ -26,9 +26,9 @@ In this post, we will learn how to select only desired columns of a dataframe
 The excel files should look like the image below 
 ![excel_file_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/all_gen_data.png)
 
-Suppose a dataframe is `df` and if we want to get a single column data say column 'A', then we call df['A']. This will return a pandas *Series*.
+Suppose a dataframe is `df` and if we want to get a single column data say column 'A', then we call `df['A']`. This will return a pandas *Series* because each column data of a dataframe is a *Series*.
 
-Suppose a dataframe is `df` and if we want to get a data of multiple columns data say columns 'A', 'B', 'C', then we call df[['A', 'B', 'C']]. This will return a pandas *DataFrame*.
+Suppose a dataframe is `df` and if we want to get a data of multiple columns data say columns 'A', 'B', 'C', then we call `df[['A', 'B', 'C']]`. This will return a pandas *DataFrame*.
 
 ### Example
 ```python
@@ -52,7 +52,7 @@ print(type(kharData))
 # this will print pandas.core.series.Series
 ```
 
-Notice that the type of `kharData` is Series and the type of `filteredDf` is DataFrame. This is because `kharData` variable 
+Notice that the type of `kharData` is Series and the type of `filteredDf` is DataFrame. This is because `kharData` variable is obtained by getting only a single column of the main dataframe `df`
 
 
 ### Online Interpreter
@@ -68,6 +68,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzY5OTIzNTYsOTkwNTU1MTIsLTY1Mz
+eyJoaXN0b3J5IjpbLTEwOTkyMDk0NjQsOTkwNTU1MTIsLTY1Mz
 IxMjc3OV19
 -->
