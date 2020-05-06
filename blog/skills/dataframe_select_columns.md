@@ -30,7 +30,7 @@ Suppose a dataframe is `df` and if we want to get a single column data say colum
 
 Suppose a dataframe is `df` and if we want to get a data of multiple columns data say columns 'A', 'B', 'C', then we call df[['A', 'B', 'C']]. This will return a pandas *DataFrame*.
 
-### Example Code
+### Example
 ```python
 import pandas as pd
 
@@ -52,6 +52,8 @@ print(type(kharData))
 # this will print pandas.core.series.Series
 ```
 
+Notice that the type of `kharData` is Series and the type of `filteredDf` is DataFrame. This is because `kharData` variable 
+
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -66,6 +68,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk4MDM2OTgsOTkwNTU1MTIsLTY1Mz
+eyJoaXN0b3J5IjpbLTE3NzY5OTIzNTYsOTkwNTU1MTIsLTY1Mz
 IxMjc3OV19
 -->
