@@ -40,8 +40,10 @@ The excel files should look like the image below
 ```python
 import pandas as pd
 
+# create DataFrame from csv
 df = pd.read_csv('gen_schedules.csv')
 
+df1 = df.iloc[]
 ```
 
 
@@ -65,5 +67,5 @@ Rpb24gb2YgRGF0YUZyYW1lXG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA1LTA2J1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbMTUzMzMzMDE1NywxNDYxMjk2NDk3XX0=
+N0b3J5IjpbMTE0NDExNDAyLDE0NjEyOTY0OTddfQ==
 -->
