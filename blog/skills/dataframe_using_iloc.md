@@ -33,11 +33,14 @@ The excel files should look like the image below
 * If we want all rows but only 5th to 9th columns then we can use `df.iloc[:, 4:8]`
 
 * If we want all columns but only 45th to 64th rows then we can use `df.iloc[44:63, :]`
-*
- 
+
+* If we want all rows but only 1,5,8 columns then we can use `df.iloc[:, [1,5,8]]` 
 
 ### Example
 ```python
+import pandas as pd
+
+df = pd.read_csv('gen_schedules.csv')
 
 ```
 
@@ -62,5 +65,5 @@ Rpb24gb2YgRGF0YUZyYW1lXG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA1LTA2J1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTcwMTgyNjgxLDE0NjEyOTY0OTddfQ==
+N0b3J5IjpbMTUzMzMzMDE1NywxNDYxMjk2NDk3XX0=
 -->
