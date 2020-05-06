@@ -44,13 +44,20 @@ import pandas as pd
 df = pd.read_csv('gen_schedules.csv')
 
 # get 2nd to 5th columns and 12th to 28th rows
-df1 = 
+df1 = df.iloc[11:27, 1:4]
+print(df1)
 
 # get all rows but only 5th to 9th columns
 df2 = df.iloc[:, 4:8]
-print(df1)
+print(df2)
 
+# get all columns but only 45th to 64th rows
+df3 = df.iloc[44:63, :]
+print(df3)
 
+# get all rows but only 1,5,8 columns
+df4 = df.iloc[:, [1,5,8]]
+print(df4)
 ```
 
 
@@ -74,5 +81,5 @@ Rpb24gb2YgRGF0YUZyYW1lXG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA1LTA2J1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTIxMTQ3MzAyOTAsMTQ2MTI5NjQ5N119
+N0b3J5IjpbLTEwNjgzMTQzNTgsMTQ2MTI5NjQ5N119
 -->
