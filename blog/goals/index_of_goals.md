@@ -27,6 +27,7 @@ Here are the goals and skills in this tutorial series
 * [Getting the shape / dimension of a DataFrame](https://nagasudhir.blogspot.com/2020/05/dimension-of-dataframe.html)
 * [Getting the column names of DataFrame](https://nagasudhir.blogspot.com/2020/05/getting-column-names-of-dataframe.html)
 * [Selecting DataFrame columns](https://nagasudhir.blogspot.com/2020/05/selecting-dataframe-columns.html)
+* [Filter DataFrame rows](https://nagasudhir.blogspot.com/2020/05/filter-dataframe-rows.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -34,7 +35,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMzM0NzM0MTk4LC0xNDA0Mz
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMjQzNDU3NjU2LC0xNDA0Mz
 k3MzUzLC02MTc0OTE5MDIsMTI0MzUwNjcwOCwtMTQxOTMxMTY3
 Miw2Mjg0MTI4NzAsLTgxNTE0NDk3MCwxMTY2MTc3NzY3LDkyMj
 IwOTk4MCw1NzA4NDAwNzcsLTM5ODY0NTI1Ml19
