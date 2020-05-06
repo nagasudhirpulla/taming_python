@@ -7,6 +7,7 @@
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
+* [Getting the column names of DataFrame](https://nagasudhir.blogspot.com/2020/05/getting-column-names-of-dataframe.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
@@ -15,10 +16,18 @@ Pandas is a python library.
 
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
-In this post, we will learn how to select only desired column of a dataframe
+In this post, we will learn how to select only desired columns of a dataframe
 
+#### Instructions to run the codes below
+* Create a folder and place the csv file used in this post from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/gen_schedules.csv)
+* Open the folder in Visual Studio Code
+* Create and work on python files in this folder
 
-
+The excel files should look like the image below 
+![excel_file_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/all_gen_data.png)
+### Main Code
+```p
+```
 
 
 ### Online Interpreter
@@ -34,5 +43,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA2ODk1OTFdfQ==
+eyJoaXN0b3J5IjpbLTExMzcxMDgyNTRdfQ==
 -->
