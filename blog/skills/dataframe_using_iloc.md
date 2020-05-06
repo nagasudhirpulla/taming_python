@@ -28,7 +28,9 @@ In this post, we will learn how to select a subset of DataFrame using `iloc` fun
 
 The excel files should look like the image below 
 ![excel_file_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/all_gen_data.png)
-Suppose for a dataframe `df` if you want to get a subset DataFrame with 2nd to 5th columns and 12th to 28th rows
+Suppose for a dataframe `df` if you want to get a subset DataFrame with 2nd to 5th columns and 12th to 28th rows, we can use `df.iloc[1:4,11:27]`
+
+If we want all rows but only 5th to 9th columns then we can use `df.iloc[:, 4:8]`
 
 
 ### Example
@@ -57,5 +59,5 @@ Rpb24gb2YgRGF0YUZyYW1lXG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA1LTA2J1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbMTYyNzg2NzQ4OV19
+N0b3J5IjpbODExODEyNjcwXX0=
 -->
