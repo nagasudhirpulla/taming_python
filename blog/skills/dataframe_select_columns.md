@@ -32,7 +32,8 @@ import pandas as pd
 # read the csv file into a dataframe named df
 df = pd.read_csv('gen_schedules.csv')
 
-# This dataframe contains many columns, but now we will select only 
+# This dataframe contains many columns, but now we will select only KAPS, KHARGONE-I columns
+filteredDf = df[["KAPS", "KHARGONE-I"]]
 ```
 
 
@@ -49,5 +50,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MzIxMjc3OV19
+eyJoaXN0b3J5IjpbOTkwNTU1MTIsLTY1MzIxMjc3OV19
 -->
