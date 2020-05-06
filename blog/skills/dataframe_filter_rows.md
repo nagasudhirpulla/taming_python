@@ -17,7 +17,7 @@ Pandas is a python library.
 
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
-In this post, we will learn how to select only desired columns of a dataframe
+In this post, we will learn how to filter the rows of a DataFrame based on our desired criteria
 
 <hr/>
 
@@ -73,7 +73,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZpbHRlciBEYXRhRnJhbW
 Ugcm93c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRl
 OiAnMjAyMC0wNS0wNidcbnRhZ3M6ICdsZWFybmluZywgcHl0aG
 9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
-dGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6WzQwOD
-AxODM0MSw2MzgzNzc3OTcsLTE3NjUwNzUxMjIsLTEwMjI5NTUx
-MjFdfQ==
+dGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0xNT
+gzNjQ0ODU1LDQwODAxODM0MSw2MzgzNzc3OTcsLTE3NjUwNzUx
+MjIsLTEwMjI5NTUxMjFdfQ==
 -->
