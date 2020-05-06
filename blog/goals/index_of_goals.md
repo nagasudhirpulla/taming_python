@@ -15,7 +15,7 @@ Here are the goals and skills in this tutorial series
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Getting type of variable in python](https://nagasudhir.blogspot.com/2020/05/getting-type-of-python-variable.html)
 * [Operations on variables in python](https://nagasudhir.blogspot.com/2020/04/operations-on-variables-in-python.html)
-* [if condition](https://nagasudhir.blogspot.com/2020/04/if-condition-in-python_14.html)
+* ['if' condition](https://nagasudhir.blogspot.com/2020/04/if-condition-in-python_14.html)
 * [strings in python](https://nagasudhir.blogspot.com/2020/04/strings-in-python.html)
 * [lists in python](https://nagasudhir.blogspot.com/2020/04/lists-in-python.html)
 * [dictionaries in python](https://nagasudhir.blogspot.com/2020/04/dictionaries-in-python.html)
@@ -36,7 +36,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTMwMzQzMDI1OSwyNDM0NT
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTQ2MDEwODc1NSwyNDM0NT
 c2NTYsLTE0MDQzOTczNTMsLTYxNzQ5MTkwMiwxMjQzNTA2NzA4
 LC0xNDE5MzExNjcyLDYyODQxMjg3MCwtODE1MTQ0OTcwLDExNj
 YxNzc3NjcsOTIyMjA5OTgwLDU3MDg0MDA3NywtMzk4NjQ1MjUy
