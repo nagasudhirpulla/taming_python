@@ -37,19 +37,19 @@ import pandas as pd
 df = pd.read_csv('gen_schedules.csv')
 
 print('Number of rows in df = {0}'.format(df.shape[0]))
-# this prints 100
+# this prints Number of rows in df = 100
 
 # filter the rows with CGPL values greater than 2200
 filteredDf = df[df['CGPL']>2200]
 
 print('Number of rows in filteredDf = {0}'.format(filteredDf.shape[0]))
-# this prints 65
+# this prints Number of rows in filteredDf = 65
 
 # filter the rows with CGPL values greater than 2200 and KSTPS7 less than 450
-filteredDf2 = df[(df['CGPL']>2200) & (df['KSTPS7']>420)]
+filteredDf2 = df[(df['CGPL']>2200) & (df['KSTPS7']<450)]
 
 print('Number of rows in filteredDf2 = {0}'.format(filteredDf2.shape[0]))
-# this prints 10
+# this prints Number of rows in filteredDf2 = 10
 ```
 
 
@@ -68,6 +68,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDA1Mjk3Nyw2MzgzNzc3OTcsLTE3Nj
-UwNzUxMjIsLTEwMjI5NTUxMjFdfQ==
+eyJoaXN0b3J5IjpbNTA1MTQxMzI1LDYzODM3Nzc5NywtMTc2NT
+A3NTEyMiwtMTAyMjk1NTEyMV19
 -->
