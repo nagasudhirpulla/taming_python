@@ -6,6 +6,7 @@
 * [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
+* [Getting type of variable in python](https://nagasudhir.blogspot.com/2020/05/getting-type-of-python-variable.html)
 * [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
 * [Getting the column names of DataFrame](https://nagasudhir.blogspot.com/2020/05/getting-column-names-of-dataframe.html)
 
@@ -71,5 +72,6 @@ JhbWUgY29sdW1uc1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxh
 XG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dG
 hvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25f
 c2tpbGxcbmRhdGU6ICcyMDIwLTA1LTA2J1xuIiwiaGlzdG9yeS
-I6WzEyNTM4NDE3NDcsOTkwNTU1MTIsLTY1MzIxMjc3OV19
+I6Wy0xNzQ4NDYxNzg0LDk5MDU1NTEyLC02NTMyMTI3NzldfQ==
+
 -->
