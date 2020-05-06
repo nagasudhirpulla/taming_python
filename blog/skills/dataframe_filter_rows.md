@@ -34,15 +34,16 @@ Suppose in a DataFrame `df` we want to get rows with values in column 'A' greate
 ### Example
 ```python
 import pandas as pd
-
 df = pd.read_csv('gen_schedules.csv')
 
 print('Number of rows in df = {0}'.format(df.shape[0]))
-# this prints 
+# this prints 100
 
-filteredDf = df[df['CGPL']>2500]
+filteredDf = df[df['CGPL']>2200]
+
 print('Number of rows in filteredDf = {0}'.format(filteredDf.shape[0]))
-# this prints 
+
+# this prints 65
 ```
 
 
@@ -61,6 +62,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjUwNzUxMjIsLTEwMjI5NTUxMjFdfQ
-==
+eyJoaXN0b3J5IjpbLTEzMTUxMzA5NywtMTc2NTA3NTEyMiwtMT
+AyMjk1NTEyMV19
 -->
