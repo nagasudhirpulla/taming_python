@@ -29,10 +29,14 @@ In this post, we will learn how to select only desired columns of a dataframe
 The excel files should look like the image below 
 ![excel_file_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/all_gen_data.png)
 
-Suppose in a DataFrame `df` we want to get rows 
+Suppose in a DataFrame `df` we want to get rows with values in column 'A' greater than 20, then we use `df[df['A']>20]`
 
 ### Example
 ```python
+import pandas as pd
+
+df = pd.read_csv('gen_schedules.csv')
+print()
 
 ```
 
@@ -52,5 +56,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjI5NTUxMjFdfQ==
+eyJoaXN0b3J5IjpbMzYzNDk5MjAzLC0xMDIyOTU1MTIxXX0=
 -->
