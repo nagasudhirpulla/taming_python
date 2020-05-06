@@ -25,6 +25,7 @@ Here are the goals and skills in this tutorial series
 * [Working with excel files and pandas DataFrames](https://nagasudhir.blogspot.com/2020/05/working-with-excel-and-pandas-dataframes.html)
 * [Getting the shape / dimension of a DataFrame](https://nagasudhir.blogspot.com/2020/05/dimension-of-dataframe.html)
 * [Getting the column names of DataFrame](https://nagasudhir.blogspot.com/2020/05/getting-column-names-of-dataframe.html)
+* [Selecting DataFrame columns](https://nagasudhir.blogspot.com/2020/05/selecting-dataframe-columns.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -32,8 +33,8 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE0MDQzOTczNTMsLTYxNz
-Q5MTkwMiwxMjQzNTA2NzA4LC0xNDE5MzExNjcyLDYyODQxMjg3
-MCwtODE1MTQ0OTcwLDExNjYxNzc3NjcsOTIyMjA5OTgwLDU3MD
-g0MDA3NywtMzk4NjQ1MjUyXX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTMxNzMyODkzOSwtMTQwND
+M5NzM1MywtNjE3NDkxOTAyLDEyNDM1MDY3MDgsLTE0MTkzMTE2
+NzIsNjI4NDEyODcwLC04MTUxNDQ5NzAsMTE2NjE3Nzc2Nyw5Mj
+IyMDk5ODAsNTcwODQwMDc3LC0zOTg2NDUyNTJdfQ==
 -->
