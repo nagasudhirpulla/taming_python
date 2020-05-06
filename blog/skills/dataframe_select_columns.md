@@ -36,9 +36,15 @@ df = pd.read_csv('gen_schedules.csv')
 filteredDf = df[["KAPS", "KHARGONE-I"]]
 print(filteredDf)
 
+print(type(filteredDf))
+# this will print pandas.core.frame.DataFrame
+
 # select only KHARGONE-I data
 kharData = df["KHARGONE-I"]
 print(kharData)
+
+print(type(kharData))
+# this will print pandas.core.series.Series
 ```
 
 
@@ -55,6 +61,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjMyNzgzLDk5MDU1NTEyLC02NTMyMT
-I3NzldfQ==
+eyJoaXN0b3J5IjpbLTg1MzM0MTU2Niw5OTA1NTUxMiwtNjUzMj
+EyNzc5XX0=
 -->
