@@ -45,11 +45,11 @@ filteredDf = df[df['CGPL']>2200]
 print('Number of rows in filteredDf = {0}'.format(filteredDf.shape[0]))
 # this prints 65
 
-# filter the rows with CGPL values greater than 2200 and KSTPS7 greater than 420
+# filter the rows with CGPL values greater than 2200 and KSTPS7 less than 450
 filteredDf2 = df[(df['CGPL']>2200) & (df['KSTPS7']>420)]
 
 print('Number of rows in filteredDf2 = {0}'.format(filteredDf2.shape[0]))
-# this prints 60
+# this prints 10
 ```
 
 
@@ -68,6 +68,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Nzk5MTcxMiw2MzgzNzc3OTcsLTE3Nj
+eyJoaXN0b3J5IjpbLTQ4NDA1Mjk3Nyw2MzgzNzc3OTcsLTE3Nj
 UwNzUxMjIsLTEwMjI5NTUxMjFdfQ==
 -->
