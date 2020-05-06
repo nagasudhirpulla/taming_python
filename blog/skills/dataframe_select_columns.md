@@ -26,9 +26,9 @@ In this post, we will learn how to select only desired columns of a dataframe
 The excel files should look like the image below 
 ![excel_file_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/all_gen_data.png)
 
-Suppose a dataframe is `df` and if we want to get a single column data say column 'A', then we call `df['A']`. This will return a pandas *Series* because each column data of a dataframe is a *Series*.
+Suppose we want to get a single column data say column 'A' from a dataframe `df`, then we call `df['A']`. This will return a pandas *Series*. This is because each column data of a dataframe is a *Series*.
 
-Suppose a dataframe is `df` and if we want to get a data of multiple columns data say columns 'A', 'B', 'C', then we call `df[['A','B','C']]`. This will return a pandas *DataFrame*.
+Suppose we want to get data of multiple columns data say columns 'A', 'B', 'C' from a dataframe `df`, then we call `df[['A','B','C']]`. This will return a pandas *DataFrame*.
 
 ### Example
 ```python
@@ -66,6 +66,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTcwNDI4NCw5OTA1NTUxMiwtNjUzMj
-EyNzc5XX0=
+eyJoaXN0b3J5IjpbOTU0MjQ0NzI3LDk5MDU1NTEyLC02NTMyMT
+I3NzldfQ==
 -->
