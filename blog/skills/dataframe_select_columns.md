@@ -38,6 +38,7 @@ print(filteredDf)
 
 # select only KHARGONE-I data
 kharData = df["KHARGONE-I"]
+print(kharData)
 ```
 
 
@@ -54,6 +55,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTIwOTk2Nyw5OTA1NTUxMiwtNjUzMj
-EyNzc5XX0=
+eyJoaXN0b3J5IjpbMTA0MjMyNzgzLDk5MDU1NTEyLC02NTMyMT
+I3NzldfQ==
 -->
