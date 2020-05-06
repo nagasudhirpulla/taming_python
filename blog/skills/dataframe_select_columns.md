@@ -26,7 +26,13 @@ In this post, we will learn how to select only desired columns of a dataframe
 The excel files should look like the image below 
 ![excel_file_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/all_gen_data.png)
 ### Main Code
-```p
+```python
+import pandas as pd
+
+# read the csv file into a dataframe named df
+df = pd.read_csv('gen_schedules.csv')
+
+# This dataframe contains many columns, but now we will select only 
 ```
 
 
@@ -43,5 +49,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzcxMDgyNTRdfQ==
+eyJoaXN0b3J5IjpbLTY1MzIxMjc3OV19
 -->
