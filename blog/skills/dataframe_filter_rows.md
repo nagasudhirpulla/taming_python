@@ -39,10 +39,10 @@ df = pd.read_csv('gen_schedules.csv')
 print('Number of rows in df = {0}'.format(df.shape[0]))
 # this prints 100
 
+# filter the rows with CGPL values greater than 2200
 filteredDf = df[df['CGPL']>2200]
 
 print('Number of rows in filteredDf = {0}'.format(filteredDf.shape[0]))
-
 # this prints 65
 ```
 
@@ -62,6 +62,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTUxMzA5NywtMTc2NTA3NTEyMiwtMT
-AyMjk1NTEyMV19
+eyJoaXN0b3J5IjpbNjM4Mzc3Nzk3LC0xNzY1MDc1MTIyLC0xMD
+IyOTU1MTIxXX0=
 -->
