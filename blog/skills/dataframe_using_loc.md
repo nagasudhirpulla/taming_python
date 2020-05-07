@@ -34,10 +34,11 @@ The `loc` function of DataFrame can get a subset of DataFrame using the index va
 
 A similar function is [iloc](https://nagasudhir.blogspot.com/2020/05/using-iloc-function-of-dataframe.html), but it uses row and column positions to get a subset of DataFrame
 
-### Example
+### Getting values
 ```python
 import pandas as pd
 
+# create a dataframe with column names and row indexes
 df = pd.DataFrame([[2, 3], [5, 6], [8, 9]],
      index=['cobra', 'viper', 'sidewinder'],
      columns=['max_speed', 'shield'])
@@ -88,9 +89,10 @@ sidewinder          8       9
 '''
 
 # get rows with values in 'shield' column greater than 6, but return only 'max_speed' column
-print(df.loc[df['shield'] > 6], ['max_speed'])
+print(df.loc[df['shield'] > 6, ['max_speed']])
 '''
-
+            max_speed
+sidewinder          8
 '''
 ```
 
@@ -114,6 +116,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlstMTA2ODk3Nzc3NCwtMTcwNTY2ODUwNSwtNjcxNjQw
-Mzc5LC04ODI0MTI0MCw4MDU0ODQ4MTNdfQ==
+RvcnkiOlsxNTEyNDY4MzY4LC0xNzA1NjY4NTA1LC02NzE2NDAz
+NzksLTg4MjQxMjQwLDgwNTQ4NDgxM119
 -->
