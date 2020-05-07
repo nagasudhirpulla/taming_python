@@ -157,6 +157,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html
+* https://www.w3resource.com/pandas/dataframe/dataframe-iloc.php
 
 <hr/>
 
@@ -170,6 +171,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlsxNjY1NzQzNzE3LC0xODQ3Mjg2OTY1LC0xNzA1NjY4
+RvcnkiOlsxMzg2Mzk2ODYwLC0xODQ3Mjg2OTY1LC0xNzA1NjY4
 NTA1LC02NzE2NDAzNzksLTg4MjQxMjQwLDgwNTQ4NDgxM119
 -->
