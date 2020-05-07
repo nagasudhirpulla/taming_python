@@ -67,9 +67,9 @@ viper               5       6
 sidewinder          8       9
 '''
 
-# get cell value with column name v and row index 
+# get cell value with row index 'cobra' and column name 'shield'
 print(df.loc['cobra', 'shield'])
-
+# this should print 3
 ```
 
 <hr/>
@@ -92,6 +92,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlsxMTMyOTE0MzEsLTY3MTY0MDM3OSwtODgyNDEyNDAs
+RvcnkiOls2MDY1NjUzMjUsLTY3MTY0MDM3OSwtODgyNDEyNDAs
 ODA1NDg0ODEzXX0=
 -->
