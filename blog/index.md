@@ -7,7 +7,7 @@ I just wanted to create a tutorial series that helps people develop skill sets i
 
 The approach is to create precise skills to understand all the steps to achieve a specific goal. 
 This approach helps the user to acquire only the skills required for achieving a specific goal, not more not less. 
-This saves a lot of time to achieve each goal.
+This saves a lot of time to achieve each goal with out pondering on unnecessary skills.
 
 For example, if 
 
@@ -45,31 +45,31 @@ enable legends for an axis handle / subplot in matplotlib plot (#21) (requires #
 
 save plot image as a PNG/PDF/JPG/SVG file using savefig function (#22) (requires #1, #3, #4, #15, #16)
 
----manipulating variables (#5) (requires #1)
+manipulating variables (#5) (requires #1)
 
----create arrays with sequences (#6) (requires #1)
+create arrays with sequences (#6) (requires #1)
 
----'range' function to create sequences for using inside a 'for' loop (#7) (requires #1)
+'range' function to create sequences for using inside a 'for' loop (#7) (requires #1)
 
----'for' loop (#8) (requires #1)
+'for' loop (#8) (requires #1)
 
----anatomy/nomenclatures of a pandas dataframe (#9) (requires #1, #2, #4)
+anatomy/nomenclatures of a pandas dataframe (#9) (requires #1, #2, #4)
 
----create dataframe from array of objects (#10) (requires #1, #2, #4, #9)
+create dataframe from array of objects (#10) (requires #1, #2, #4, #9)
 
----create dataframe from object with each property as array (#11) (requires #1, #2, #4, #9)
+create dataframe from object with each property as array (#11) (requires #1, #2, #4, #9)
 
----read excel file into pandas dataframe (#12) (requires #1, #2, #4, #9)
+read excel file into pandas dataframe (#12) (requires #1, #2, #4, #9)
 
----get the shape/dimension of a dataframe (#13) (requires #1, #2, #4, #9)
+get the shape/dimension of a dataframe (#13) (requires #1, #2, #4, #9)
 
----get all the column names of dataframe (#14) (requires #1, #2, #4, #9)
+get all the column names of dataframe (#14) (requires #1, #2, #4, #9)
 
----anatomy/nomenclatures of a plot in matplotlib (#15) (requires #1, #3, #4)
+anatomy/nomenclatures of a plot in matplotlib (#15) (requires #1, #3, #4)
 
----basic data plotting in matploltlib using matploltlib.pyplot (#16) (requires #1, #3, #4, #15)
+basic data plotting in matploltlib using matploltlib.pyplot (#16) (requires #1, #3, #4, #15)
 
----creating figure and axis handles to plot multiple subplots in matplotlib (#17) (requires #1, #3, #4, #15)
+creating figure and axis handles to plot multiple subplots in matplotlib (#17) (requires #1, #3, #4, #15)
 
 ------setup python development environment (#1)
 
@@ -95,7 +95,7 @@ AnJ1xudGl0bGU6IEludHJvIHRvIFRhbWluZyBQeXRob24gc2Vy
 aWVzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6IC
 dweXRob24sIHR1dG9yaWFsJ1xuY2F0ZWdvcmllczogJ2xlYXJu
 aW5nLCBweXRob24sIHR1dG9yaWFsJ1xuZGF0ZTogJzIwMjAtMD
-QtMTQnXG4iLCJoaXN0b3J5IjpbLTIxMTIzNTU3OSw2OTkzODAy
-OTUsMTEyMjQ2OTU3LC0xMDUxODk3MjMwLC02MzYwODg5OTIsNz
-MwOTk4MTE2XX0=
+QtMTQnXG4iLCJoaXN0b3J5IjpbLTEwODMwOTY1MjEsNjk5Mzgw
+Mjk1LDExMjI0Njk1NywtMTA1MTg5NzIzMCwtNjM2MDg4OTkyLD
+czMDk5ODExNl19
 -->
