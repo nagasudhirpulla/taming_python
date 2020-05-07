@@ -30,7 +30,9 @@ The excel files should look like the image below
 ![excel_file_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/all_gen_data.png)
 The `loc` function of DataFrame can get a subset of DataFrame using the index values (for filtering rows) and column names (for filtering columns).
 
-A similar function is [iloc](), but it uses row and column positions to get a subset of DataFrame
+
+
+A similar function is [iloc](https://nagasudhir.blogspot.com/2020/05/using-iloc-function-of-dataframe.html), but it uses row and column positions to get a subset of DataFrame
 
 
 <hr/>
@@ -53,5 +55,5 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOls0MjI3MzUzMiw4MDU0ODQ4MTNdfQ==
+RvcnkiOlstODgyNDEyNDAsODA1NDg0ODEzXX0=
 -->
