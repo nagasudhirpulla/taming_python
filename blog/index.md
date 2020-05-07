@@ -6,6 +6,7 @@ Hey Guys
 I just wanted to create a tutorial series that helps people develop skill sets in python to achieve their data manipulation / visualization goals
 
 The approach is to create precise skills to understand all the steps to achieve a specific goal. 
+
 This approach helps the user to acquire only the skills required for achieving a specific goal, not more not less. 
 This saves a lot of time to achieve each goal with out pondering on unnecessary skills.
 
@@ -95,7 +96,7 @@ AnJ1xudGl0bGU6IEludHJvIHRvIFRhbWluZyBQeXRob24gc2Vy
 aWVzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6IC
 dweXRob24sIHR1dG9yaWFsJ1xuY2F0ZWdvcmllczogJ2xlYXJu
 aW5nLCBweXRob24sIHR1dG9yaWFsJ1xuZGF0ZTogJzIwMjAtMD
-QtMTQnXG4iLCJoaXN0b3J5IjpbOTI1NTM0NjQ1LDY5OTM4MDI5
-NSwxMTIyNDY5NTcsLTEwNTE4OTcyMzAsLTYzNjA4ODk5Miw3Mz
-A5OTgxMTZdfQ==
+QtMTQnXG4iLCJoaXN0b3J5IjpbMTk5MTQ0NzMwMyw2OTkzODAy
+OTUsMTEyMjQ2OTU3LC0xMDUxODk3MjMwLC02MzYwODg5OTIsNz
+MwOTk4MTE2XX0=
 -->
