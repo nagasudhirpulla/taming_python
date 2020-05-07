@@ -143,7 +143,15 @@ viper              30      30
 sidewinder         30      30
 '''
 
-# set a single for all columns of rows that s
+# set a single for all columns of rows that satisfy a condition
+df.loc[df['shield'] > 25] = 0
+print(df)
+'''
+            max_speed  shield
+cobra              30      10
+viper               0       0
+sidewinder          0       0
+'''
 ```
 <hr/>
 
@@ -165,6 +173,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlstMjExODEyNTA3MiwtMTcwNTY2ODUwNSwtNjcxNjQw
+RvcnkiOlstMTE2MTgwMzY1NSwtMTcwNTY2ODUwNSwtNjcxNjQw
 Mzc5LC04ODI0MTI0MCw4MDU0ODQ4MTNdfQ==
 -->
