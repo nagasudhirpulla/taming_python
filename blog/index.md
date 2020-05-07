@@ -5,7 +5,7 @@ Hey Guys
 
 I just wanted to create a tutorial series that helps people develop skill sets in python to achieve their data manipulation / visualization goals
 
-The approach is to create a nested tree of skills to achieve all the steps to achieve each specific goal
+The approach is to create skills to understand all the steps to achieve each specific goal
 
 For example, if 
 
@@ -93,7 +93,7 @@ AnJ1xudGl0bGU6IEludHJvIHRvIFRhbWluZyBQeXRob24gc2Vy
 aWVzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6IC
 dweXRob24sIHR1dG9yaWFsJ1xuY2F0ZWdvcmllczogJ2xlYXJu
 aW5nLCBweXRob24sIHR1dG9yaWFsJ1xuZGF0ZTogJzIwMjAtMD
-QtMTQnXG4iLCJoaXN0b3J5IjpbLTYwNjgxMDEzMCw2OTkzODAy
-OTUsMTEyMjQ2OTU3LC0xMDUxODk3MjMwLC02MzYwODg5OTIsNz
-MwOTk4MTE2XX0=
+QtMTQnXG4iLCJoaXN0b3J5IjpbLTE4MjQ4Mzk1NTAsNjk5Mzgw
+Mjk1LDExMjI0Njk1NywtMTA1MTg5NzIzMCwtNjM2MDg4OTkyLD
+czMDk5ODExNl19
 -->
