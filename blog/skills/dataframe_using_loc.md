@@ -22,6 +22,9 @@ In this post, we will learn how to select a subset of DataFrame using `iloc` fun
 
 The `loc` function of DataFrame can get a subset of DataFrame using the index values (for filtering rows) and column names (for filtering columns).
 
+Suppose for a DataFrame df
+df
+
 ### Getting values
 ```python
 import pandas as pd
@@ -163,6 +166,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlsxMjI5NjgwNjksLTE4NDcyODY5NjUsLTE3MDU2Njg1
+RvcnkiOls2NjMzMDAxMTUsLTE4NDcyODY5NjUsLTE3MDU2Njg1
 MDUsLTY3MTY0MDM3OSwtODgyNDEyNDAsODA1NDg0ODEzXX0=
 -->
