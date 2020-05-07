@@ -1,7 +1,7 @@
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
-Hey Guys
+Hey Guys,
 
 I just wanted to create a tutorial series that helps people develop skill sets in python to achieve their data manipulation / visualization goals
 
@@ -96,7 +96,7 @@ AnJ1xudGl0bGU6IEludHJvIHRvIFRhbWluZyBQeXRob24gc2Vy
 aWVzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6IC
 dweXRob24sIHR1dG9yaWFsJ1xuY2F0ZWdvcmllczogJ2xlYXJu
 aW5nLCBweXRob24sIHR1dG9yaWFsJ1xuZGF0ZTogJzIwMjAtMD
-QtMTQnXG4iLCJoaXN0b3J5IjpbLTc1Mjg1Mzk3MCw2OTkzODAy
+QtMTQnXG4iLCJoaXN0b3J5IjpbMTExOTIyMTI0NCw2OTkzODAy
 OTUsMTEyMjQ2OTU3LC0xMDUxODk3MjMwLC02MzYwODg5OTIsNz
 MwOTk4MTE2XX0=
 -->
