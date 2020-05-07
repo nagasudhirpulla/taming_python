@@ -73,7 +73,7 @@ print(df.loc['cobra', 'shield'])
 
 # get rows starting from 'cobra' till 'viper' and column 'max_speed'
 print(df.loc['cobra':'viper', 'max_speed'])
-# sin
+# since we asked for only one column we got a series
 '''
 cobra    2
 viper    5
@@ -101,6 +101,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlstMTQwODk3NDkzMiwtNjcxNjQwMzc5LC04ODI0MTI0
+RvcnkiOlstMTU2NzEwNjg0MSwtNjcxNjQwMzc5LC04ODI0MTI0
 MCw4MDU0ODQ4MTNdfQ==
 -->
