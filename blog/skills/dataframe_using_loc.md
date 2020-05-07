@@ -18,16 +18,8 @@ Pandas is a python library.
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
 In this post, we will learn how to select a subset of DataFrame using `iloc` function
-
 <hr/>
 
-#### Instructions to run the codes below
-* Create a folder and place the csv file used in this post from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/gen_schedules.csv)
-* Open the folder in Visual Studio Code
-* Create and work on python files in this folder
-
-The excel files should look like the image below 
-![excel_file_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/all_gen_data.png)
 The `loc` function of DataFrame can get a subset of DataFrame using the index values (for filtering rows) and column names (for filtering columns).
 
 
@@ -173,6 +165,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlstMTE2MTgwMzY1NSwtMTcwNTY2ODUwNSwtNjcxNjQw
+RvcnkiOlstMTg0NzI4Njk2NSwtMTcwNTY2ODUwNSwtNjcxNjQw
 Mzc5LC04ODI0MTI0MCw4MDU0ODQ4MTNdfQ==
 -->
