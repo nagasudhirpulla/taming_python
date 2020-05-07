@@ -60,6 +60,7 @@ df4 = df.iloc[:, [1,5,8]]
 print(df4)
 ```
 
+A similar function is [loc](https://nagasudhir.blogspot.com/2020/05/using-iloc-function-of-dataframe.html), but it uses indexes and column names to get a subset of DataFrame.
 <hr/>
 
 ### Online Interpreter
@@ -80,5 +81,5 @@ Rpb24gb2YgRGF0YUZyYW1lXG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA1LTA2J1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTIxMjQwNzM4OTIsMTQ2MTI5NjQ5N119
+N0b3J5IjpbMTc2MzAzMjUyMiwxNDYxMjk2NDk3XX0=
 -->
