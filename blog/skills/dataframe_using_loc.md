@@ -38,7 +38,18 @@ A similar function is [iloc](https://nagasudhir.blogspot.com/2020/05/using-iloc-
 ```python
 import pandas as pd
 
+df = pd.DataFrame([[2, 3], [5, 6], [8, 9]],
+     index=['cobra', 'viper', 'sidewinder'],
+     columns=['max_speed', 'shield'])
+print(df)
+'''
+            max_speed  shield
+cobra               2       3
+viper               5       6
+sidewinder          8       9
+'''
 
+# get a single row based on 
 ```
 
 <hr/>
@@ -61,6 +72,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOls1MTQxMDQ1NDMsLTg4MjQxMjQwLDgwNTQ4NDgxM119
-
+RvcnkiOlstMjEzNzY2NzgxMSwtODgyNDEyNDAsODA1NDg0ODEz
+XX0=
 -->
