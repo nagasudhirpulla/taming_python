@@ -49,9 +49,18 @@ viper               5       6
 sidewinder          8       9
 '''
 
-# get a single row based on the index, say 'viper'
+# get a single row with index 'viper'
 print(df.loc['viper'])
 # we can see that it returns the row as a series
+'''
+max_speed    5
+shield       6
+Name: viper, dtype: int64
+'''
+
+# get two rows with index 'viper' and 'sidewinder'
+print(df.loc[['viper', 'sidewinder']])
+# we can see that it returns the the subset DataFrame
 '''
 max_speed    5
 shield       6
@@ -79,6 +88,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlstMTYzMzU1Mzg3MSwtODgyNDEyNDAsODA1NDg0ODEz
+RvcnkiOlstMTYwMDY1NTM5MiwtODgyNDEyNDAsODA1NDg0ODEz
 XX0=
 -->
