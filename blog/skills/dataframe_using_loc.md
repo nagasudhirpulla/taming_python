@@ -98,6 +98,22 @@ sidewinder          8
 
 ### Setting values
 ```python
+import pandas as pd
+
+# create a dataframe with column names and row indexes
+df = pd.DataFrame([[2, 3], [5, 6], [8, 9]],
+     index=['cobra', 'viper', 'sidewinder'],
+     columns=['max_speed', 'shield'])
+print(df)
+'''
+            max_speed  shield
+cobra               2       3
+viper               5       6
+sidewinder          8       9
+'''
+
+# set a single value for rows with indexes 'viper', 'sidewinder' 
+# and column 'shield'
 
 ```
 <hr/>
@@ -120,6 +136,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlsxMzAxODQzNjQ1LC0xNzA1NjY4NTA1LC02NzE2NDAz
-NzksLTg4MjQxMjQwLDgwNTQ4NDgxM119
+RvcnkiOlstMTI5NjMzNjkwMSwtMTcwNTY2ODUwNSwtNjcxNjQw
+Mzc5LC04ODI0MTI0MCw4MDU0ODQ4MTNdfQ==
 -->
