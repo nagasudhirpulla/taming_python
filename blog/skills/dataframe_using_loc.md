@@ -28,6 +28,7 @@ In this post, we will learn how to select a subset of DataFrame using `iloc` fun
 
 The excel files should look like the image below 
 ![excel_file_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/all_gen_data.png)
+The `loc` function of DataFrame can get a subset of DataFrame using the index values (for filtering rows) and column
 
 
 <hr/>
@@ -50,5 +51,5 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOls4MDU0ODQ4MTNdfQ==
+RvcnkiOls4MTU0ODA2NTQsODA1NDg0ODEzXX0=
 -->
