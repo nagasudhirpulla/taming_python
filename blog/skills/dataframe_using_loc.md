@@ -79,6 +79,9 @@ cobra    2
 viper    5
 Name: max_speed, dtype: int64
 '''
+
+# get rows with values in 'shield' column greater than 6
+print(df.loc[df['shield'] > 6])
 ```
 
 <hr/>
@@ -101,6 +104,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlstMTU2NzEwNjg0MSwtNjcxNjQwMzc5LC04ODI0MTI0
+RvcnkiOlstMTcwNTY2ODUwNSwtNjcxNjQwMzc5LC04ODI0MTI0
 MCw4MDU0ODQ4MTNdfQ==
 -->
