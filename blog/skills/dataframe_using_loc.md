@@ -62,9 +62,9 @@ Name: viper, dtype: int64
 print(df.loc[['viper', 'sidewinder']])
 # we can see that it returns the the subset DataFrame
 '''
-max_speed    5
-shield       6
-Name: viper, dtype: int64
+            max_speed  shield
+viper               5       6
+sidewinder          8       9
 '''
 ```
 
@@ -88,6 +88,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlstMTYwMDY1NTM5MiwtODgyNDEyNDAsODA1NDg0ODEz
-XX0=
+RvcnkiOlstNjcxNjQwMzc5LC04ODI0MTI0MCw4MDU0ODQ4MTNd
+fQ==
 -->
