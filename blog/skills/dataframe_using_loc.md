@@ -114,7 +114,17 @@ sidewinder          8       9
 
 # set a single value for rows with indexes 'viper', 'sidewinder' 
 # and column 'shield'
+df.loc[['viper', 'sidewinder'], ['shield']] = 30
+print(df)
+'''
+            max_speed  shield
+cobra               2       3
+viper               5      30
+sidewinder          8      30
+'''
 
+# set a single value of all columns of a row with index 'cobra'
+df.loc['']
 ```
 <hr/>
 
@@ -136,6 +146,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlstMTI5NjMzNjkwMSwtMTcwNTY2ODUwNSwtNjcxNjQw
+RvcnkiOlstMTAxNTgwODE2MSwtMTcwNTY2ODUwNSwtNjcxNjQw
 Mzc5LC04ODI0MTI0MCw4MDU0ODQ4MTNdfQ==
 -->
