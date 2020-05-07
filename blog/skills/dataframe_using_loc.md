@@ -82,6 +82,16 @@ Name: max_speed, dtype: int64
 
 # get rows with values in 'shield' column greater than 6
 print(df.loc[df['shield'] > 6])
+'''
+            max_speed  shield
+sidewinder          8       9
+'''
+
+# get rows with values in 'shield' column greater than 6, but return only 'max_speed' column
+print(df.loc[df['shield'] > 6], ['max_speed'])
+'''
+
+'''
 ```
 
 <hr/>
@@ -104,6 +114,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlstMTcwNTY2ODUwNSwtNjcxNjQwMzc5LC04ODI0MTI0
-MCw4MDU0ODQ4MTNdfQ==
+RvcnkiOlstMTA2ODk3Nzc3NCwtMTcwNTY2ODUwNSwtNjcxNjQw
+Mzc5LC04ODI0MTI0MCw4MDU0ODQ4MTNdfQ==
 -->
