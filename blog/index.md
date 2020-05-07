@@ -33,7 +33,7 @@ iterate through all columns data of dataframe
 plot each dataframe column data inside the generated axis handles with axis title, legend and axis labels included
 ```
 
-### Skill sets
+### Skills
 ```
 using tight layout to optimize plot space in a matplotlib plot (#18) (requires #1, #3, #4, #15, #16, #17)
 
@@ -71,13 +71,13 @@ basic data plotting in matploltlib using matploltlib.pyplot (#16) (requires #1, 
 
 creating figure and axis handles to plot multiple subplots in matplotlib (#17) (requires #1, #3, #4, #15)
 
-------setup python development environment (#1)
+setup python development environment (#1)
 
-------install pandas library (#2)
+install pandas library (#2)
 
-------install matplotlib library (#3)
+install matplotlib library (#3)
 
-------import required library modules for using in our python programs (#4)
+import required library modules for using in our python programs (#4)
 ```
 * Each skill mentioned above will have a blog post, sample code and references
 * We can see that the user is now clear on what skills to acquire in order to achieve a specific goal
@@ -95,7 +95,7 @@ AnJ1xudGl0bGU6IEludHJvIHRvIFRhbWluZyBQeXRob24gc2Vy
 aWVzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6IC
 dweXRob24sIHR1dG9yaWFsJ1xuY2F0ZWdvcmllczogJ2xlYXJu
 aW5nLCBweXRob24sIHR1dG9yaWFsJ1xuZGF0ZTogJzIwMjAtMD
-QtMTQnXG4iLCJoaXN0b3J5IjpbLTEwODMwOTY1MjEsNjk5Mzgw
-Mjk1LDExMjI0Njk1NywtMTA1MTg5NzIzMCwtNjM2MDg4OTkyLD
-czMDk5ODExNl19
+QtMTQnXG4iLCJoaXN0b3J5IjpbOTI1NTM0NjQ1LDY5OTM4MDI5
+NSwxMTIyNDY5NTcsLTEwNTE4OTcyMzAsLTYzNjA4ODk5Miw3Mz
+A5OTgxMTZdfQ==
 -->
