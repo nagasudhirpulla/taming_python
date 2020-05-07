@@ -96,6 +96,10 @@ sidewinder          8
 '''
 ```
 
+### Setting values
+```python
+
+```
 <hr/>
 
 ### Online Interpreter
@@ -116,6 +120,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlsxNTEyNDY4MzY4LC0xNzA1NjY4NTA1LC02NzE2NDAz
+RvcnkiOlsxMzAxODQzNjQ1LC0xNzA1NjY4NTA1LC02NzE2NDAz
 NzksLTg4MjQxMjQwLDgwNTQ4NDgxM119
 -->
