@@ -22,10 +22,6 @@ In this post, we will learn how to select a subset of DataFrame using `iloc` fun
 
 The `loc` function of DataFrame can get a subset of DataFrame using the index values (for filtering rows) and column names (for filtering columns).
 
-
-
-A similar function is [iloc](https://nagasudhir.blogspot.com/2020/05/using-iloc-function-of-dataframe.html), but it uses row and column positions to get a subset of DataFrame
-
 ### Getting values
 ```python
 import pandas as pd
@@ -145,6 +141,8 @@ viper               0       0
 sidewinder          0       0
 '''
 ```
+
+A similar function is [iloc](https://nagasudhir.blogspot.com/2020/05/using-iloc-function-of-dataframe.html), but it uses row and column positions to get a subset of DataFrame
 <hr/>
 
 ### Online Interpreter
@@ -165,6 +163,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlstMTg0NzI4Njk2NSwtMTcwNTY2ODUwNSwtNjcxNjQw
-Mzc5LC04ODI0MTI0MCw4MDU0ODQ4MTNdfQ==
+RvcnkiOlsxMjI5NjgwNjksLTE4NDcyODY5NjUsLTE3MDU2Njg1
+MDUsLTY3MTY0MDM3OSwtODgyNDEyNDAsODA1NDg0ODEzXX0=
 -->
