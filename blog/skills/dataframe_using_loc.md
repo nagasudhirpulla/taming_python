@@ -29,8 +29,7 @@ Suppose for a DataFrame df,
 * ```df.loc['<index>', [<columns_list>]]``` will return the row data as a *Series*.
 * ```df.loc[[<index_list>], '<column_name>']``` will return the column data as a *Series*.
 
-
-### Getting values
+### Example: Getting values
 ```python
 import pandas as pd
 
@@ -92,7 +91,7 @@ sidewinder          8
 '''
 ```
 
-### Setting values
+### Example: Setting values
 ```python
 import pandas as pd
 
@@ -171,6 +170,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlsxNDE5MTMyMjU5LC0xODQ3Mjg2OTY1LC0xNzA1NjY4
+RvcnkiOlsxNjY1NzQzNzE3LC0xODQ3Mjg2OTY1LC0xNzA1NjY4
 NTA1LC02NzE2NDAzNzksLTg4MjQxMjQwLDgwNTQ4NDgxM119
 -->
