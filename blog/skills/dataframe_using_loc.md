@@ -70,6 +70,15 @@ sidewinder          8       9
 # get cell value with row index 'cobra' and column name 'shield'
 print(df.loc['cobra', 'shield'])
 # this should print 3
+
+# get rows starting from 'cobra' till 'viper' and column 'max_speed'
+print(df.loc['cobra':'viper', 'max_speed'])
+# sin
+'''
+cobra    2
+viper    5
+Name: max_speed, dtype: int64
+'''
 ```
 
 <hr/>
@@ -92,6 +101,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOls2MDY1NjUzMjUsLTY3MTY0MDM3OSwtODgyNDEyNDAs
-ODA1NDg0ODEzXX0=
+RvcnkiOlstMTQwODk3NDkzMiwtNjcxNjQwMzc5LC04ODI0MTI0
+MCw4MDU0ODQ4MTNdfQ==
 -->
