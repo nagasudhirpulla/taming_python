@@ -34,6 +34,12 @@ The `loc` function of DataFrame can get a subset of DataFrame using the index va
 
 A similar function is [iloc](https://nagasudhir.blogspot.com/2020/05/using-iloc-function-of-dataframe.html), but it uses row and column positions to get a subset of DataFrame
 
+### Example
+```python
+import pandas as pd
+
+
+```
 
 <hr/>
 
@@ -41,7 +47,7 @@ A similar function is [iloc](https://nagasudhir.blogspot.com/2020/05/using-iloc-
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
-* Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/03_subset_data.html#min-tut-03-subset
+* Official tutorial - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html
 
 <hr/>
 
@@ -55,5 +61,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlstODgyNDEyNDAsODA1NDg0ODEzXX0=
+RvcnkiOls1MTQxMDQ1NDMsLTg4MjQxMjQwLDgwNTQ4NDgxM119
+
 -->
