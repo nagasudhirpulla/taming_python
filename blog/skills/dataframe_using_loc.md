@@ -23,10 +23,11 @@ In this post, we will learn how to select a subset of DataFrame using `iloc` fun
 The `loc` function of DataFrame can get a subset of DataFrame using the index values (for filtering rows) and column names (for filtering columns).
 
 Suppose for a DataFrame df,
-* ```df.loc[[<index_list>], [<columns_list>]]``` returns a subset dataframe
-* ```df.loc[[<True/False_list>], [<columns_list>]]``` returns a subset dataframe
+* ```df.loc[[<index_list>], [<columns_list>]]``` returns a subset DataFrame
+* ```df.loc[[<True/False_list>], [<columns_list>]]``` returns a subset DataFrame
 * ```df.loc['<index>', '<column_name>']``` returns a single value of the cell
-* ```df.loc['<index>', [<columns_list>]]``` or ```df.loc[[<index_list>], '<column_name>']``` will return the row data and column 
+* ```df.loc['<index>', [<columns_list>]]``` will return the row data as a *Series*.
+* ```df.loc[[<index_list>], '<column_name>']``` will return the column data as a *Series*.
 
 
 ### Getting values
@@ -170,6 +171,6 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlstOTA4MzU0MzU0LC0xODQ3Mjg2OTY1LC0xNzA1NjY4
+RvcnkiOlsxNDE5MTMyMjU5LC0xODQ3Mjg2OTY1LC0xNzA1NjY4
 NTA1LC02NzE2NDAzNzksLTg4MjQxMjQwLDgwNTQ4NDgxM119
 -->
