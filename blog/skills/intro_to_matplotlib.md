@@ -35,13 +35,13 @@ import matplotlib.pyplot as plt
 x = [1, 2, 3, 4]
 y = [1, 4, 2, 3]
 
-# create a figure with axes
+# create a figure and axes handle using 'subplots' function
 fig, ax = plt.subplots()
 
-# plot data on the axes and get the plot artist in return
+# use axes handle to plot xy data and get the plot artist in return
 la, = ax.plot(x, y)
 
-# set the title for our plot
+# set the title for our plot using axes handle
 ax.set_title('Basic Matplotlib plot')
 
 # set x and y axis titles
@@ -116,9 +116,9 @@ RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMDgnXG50YWdzOiAncHl0aG9uLCBsZWFybmluZy
 wgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbLTE3MTI2MDQ0MiwxMjIwNjkzNjI3LDIxNDQzMTQ5NzYs
-LTcxMzM4NDExNyw3NjUxNDYwODcsMzMyMjg3NDQ1LDE0NjY5MD
-U1OTAsMTk3NTg3Njk2NCwtMTA5MDAyMzk5MCwtMjc4NTQ0MDM1
-LC0yMDU1MzA1NjQ1LC0xODIzNDE2NzU1LDUxMDUwOTc2OSwxMj
-IyODYwMjkwXX0=
+J5IjpbNzA4MDUwNTIzLC0xNzEyNjA0NDIsMTIyMDY5MzYyNywy
+MTQ0MzE0OTc2LC03MTMzODQxMTcsNzY1MTQ2MDg3LDMzMjI4Nz
+Q0NSwxNDY2OTA1NTkwLDE5NzU4NzY5NjQsLTEwOTAwMjM5OTAs
+LTI3ODU0NDAzNSwtMjA1NTMwNTY0NSwtMTgyMzQxNjc1NSw1MT
+A1MDk3NjksMTIyMjg2MDI5MF19
 -->
