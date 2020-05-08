@@ -22,6 +22,8 @@ Matplotlib is a plotting library in the scipy ecosystem of libraries.
 * You can refer to this figure any time to recollect the terminology used in matplotlib functions
 
 ![anatomy of a matplotlib figure](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/anatomy_of_matplotlib_figure.PNG)
+### Basics
+* As shown above, in order to create a plot with matlp 
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -35,6 +37,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjIzMzMxMywtMTgyMzQxNjc1NSw1MT
+eyJoaXN0b3J5IjpbMTczNjY0NDM5MywtMTgyMzQxNjc1NSw1MT
 A1MDk3NjksMTIyMjg2MDI5MF19
 -->
