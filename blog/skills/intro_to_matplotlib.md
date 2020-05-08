@@ -8,6 +8,8 @@
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
+<hr/>
+In this post we will get a beginner level introduction to Matplotlib library which is extensively used for plotting in python
 
 Matplotlib is a plotting library in the scipy ecosystem of libraries.
 
@@ -25,8 +27,10 @@ Matplotlib is a plotting library in the scipy ecosystem of libraries.
 ### Basics
 * As shown above, in order to create a plot with matplotlib, we need to create a figure with axes
 
-#### Creating a basic line plot with luof x and y points
+#### Creating a basic line plot with lists of x and y coordinates
 Lets create a simple line plot with x and y lists
+```
+```
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -40,6 +44,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDg0MjAxNSwtMTgyMzQxNjc1NSw1MT
-A1MDk3NjksMTIyMjg2MDI5MF19
+eyJoaXN0b3J5IjpbNTUwOTY2ODcxLC0xODIzNDE2NzU1LDUxMD
+UwOTc2OSwxMjIyODYwMjkwXX0=
 -->
