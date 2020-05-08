@@ -58,7 +58,7 @@ ax.legend()
 plt.show()
 ```
 ![plot_python_output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_matplotlib_plot.png)
-### Line styles
+### Plot styles
 the `plot` function accepts a string for specifying the line style
 ```ax.plot([<x_vals>], [<y_vals>], fmt)```
 
@@ -73,7 +73,7 @@ Example formats are shown below
 '^k:'  # black triangle_up markers connected by a dotted line
 ```
 
-A small example can be seen below
+An example can be seen below
 ```python
 import matplotlib.pyplot as plt
 
@@ -92,6 +92,7 @@ la, = ax.plot(x, y, '*-r')
 plt.show()
 ```
 ![plot with format string](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_matplotlib_plot_with_line_format_string.png)
+<hr/>
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
@@ -105,9 +106,9 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQyMDA2NjAsMTIyMDY5MzYyNywyMT
-Q0MzE0OTc2LC03MTMzODQxMTcsNzY1MTQ2MDg3LDMzMjI4NzQ0
-NSwxNDY2OTA1NTkwLDE5NzU4NzY5NjQsLTEwOTAwMjM5OTAsLT
-I3ODU0NDAzNSwtMjA1NTMwNTY0NSwtMTgyMzQxNjc1NSw1MTA1
-MDk3NjksMTIyMjg2MDI5MF19
+eyJoaXN0b3J5IjpbNDExMjA2MTQxLDEyMjA2OTM2MjcsMjE0ND
+MxNDk3NiwtNzEzMzg0MTE3LDc2NTE0NjA4NywzMzIyODc0NDUs
+MTQ2NjkwNTU5MCwxOTc1ODc2OTY0LC0xMDkwMDIzOTkwLC0yNz
+g1NDQwMzUsLTIwNTUzMDU2NDUsLTE4MjM0MTY3NTUsNTEwNTA5
+NzY5LDEyMjI4NjAyOTBdfQ==
 -->
