@@ -19,9 +19,9 @@ Please make sure that you covered the [post on basics](https://nagasudhir.blogsp
 
 ### Plot styles
 the `plot` function accepts a string for specifying the line style
-```ax.plot([<x_vals>], [<y_vals>], fmt)```
+```ax.plot([<x_vals>], [<y_vals>], <fmt>)```
 
-the format string should be like ```'[marker][line][color]'```
+`fmt` string should in the format ```'[marker][line][color]'```
 ![matplotlib line style formats](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_line_style_formats.PNG)
 Example formats are shown below
 ```python
@@ -71,5 +71,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODA5OTAzMjddfQ==
+eyJoaXN0b3J5IjpbLTEwNTM2MjMwNDldfQ==
 -->
