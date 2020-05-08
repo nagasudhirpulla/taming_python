@@ -39,7 +39,7 @@ y = [1, 4, 2, 3]
 fig, ax = plt.subplots()
 
 # plot data on the axes
-ax.plot(x, y)
+ax.plot(x, y, label='basic_plt')
 
 # set the title for our plot
 ax.set_title('Basic Matplotlib plot')
@@ -70,7 +70,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3ODI1ODEzLDE0NjY5MDU1OTAsMTk3NT
+eyJoaXN0b3J5IjpbMzMyMjg3NDQ1LDE0NjY5MDU1OTAsMTk3NT
 g3Njk2NCwtMTA5MDAyMzk5MCwtMjc4NTQ0MDM1LC0yMDU1MzA1
 NjQ1LC0xODIzNDE2NzU1LDUxMDUwOTc2OSwxMjIyODYwMjkwXX
 0=
