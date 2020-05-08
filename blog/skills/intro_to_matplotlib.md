@@ -9,7 +9,7 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
-In this post we will get a beginner level introduction to Matplotlib library which is extensively used for plotting in python
+In this post we will get a beginner level introduction to Matplotlib library which is extensively **used for plotting** in python
 
 **Matplotlib** is a plotting library in the scipy ecosystem of libraries.
 
@@ -38,7 +38,7 @@ y = [1, 4, 2, 3]
 # create a figure with axes
 fig, ax = plt.subplots()
 
-# plot data on the axes
+# plot data on the axes and get the plot artist in return
 la, = ax.plot(x, y)
 
 # set the title for our plot
@@ -105,9 +105,9 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDY5MzYyNywyMTQ0MzE0OTc2LC03MT
-MzODQxMTcsNzY1MTQ2MDg3LDMzMjI4NzQ0NSwxNDY2OTA1NTkw
-LDE5NzU4NzY5NjQsLTEwOTAwMjM5OTAsLTI3ODU0NDAzNSwtMj
-A1NTMwNTY0NSwtMTgyMzQxNjc1NSw1MTA1MDk3NjksMTIyMjg2
-MDI5MF19
+eyJoaXN0b3J5IjpbLTIwNDQyMDA2NjAsMTIyMDY5MzYyNywyMT
+Q0MzE0OTc2LC03MTMzODQxMTcsNzY1MTQ2MDg3LDMzMjI4NzQ0
+NSwxNDY2OTA1NTkwLDE5NzU4NzY5NjQsLTEwOTAwMjM5OTAsLT
+I3ODU0NDAzNSwtMjA1NTMwNTY0NSwtMTgyMzQxNjc1NSw1MTA1
+MDk3NjksMTIyMjg2MDI5MF19
 -->
