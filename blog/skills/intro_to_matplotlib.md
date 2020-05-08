@@ -17,7 +17,8 @@ Matplotlib is a plotting library in the scipy ecosystem of libraries.
 ### Anatomy of a matplotlib figure
 * A graph in matplotlib is called a **figure**
 * A matplotlib figure can have **plot, axis, title, legend, grid, ticks, tick labels, spines**
-* The figure below describes all the components of a matplotlib figure
+* The figure below describes all the components of a matplotlib figure. 
+* Please take your time to understand the nomenclatures used in matplotlib figure, since these terms will be used in matplotlib functions to control the appearance of a figure.
 
 ![anatomy of a matplotlib figure](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/anatomy_of_matplotlib_figure.PNG)
 
@@ -33,6 +34,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTYyMjM5OSwtMTgyMzQxNjc1NSw1MT
-A1MDk3NjksMTIyMjg2MDI5MF19
+eyJoaXN0b3J5IjpbMjQ5NzA5MTg3LC0xODIzNDE2NzU1LDUxMD
+UwOTc2OSwxMjIyODYwMjkwXX0=
 -->
