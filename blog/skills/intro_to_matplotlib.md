@@ -81,19 +81,19 @@ import matplotlib.pyplot as plt
 x = [1, 2, 3, 4]
 y = [1, 4, 2, 3]
 
-# create a figure with axes
+# create a figure and axes handle using 'subplots' function
 fig, ax = plt.subplots()
 
-# plot data on the axes
+# use axes handle to plot xy data and get the plot artist in return
 la, = ax.plot(x, y, '*-r')
-# notice in format string * means marker, - means normal line, r means red color
+# In the format string, * means marker, - means normal line, r means red color
 
 # print the plot
 plt.show()
 ```
 ![plot with format string](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_matplotlib_plot_with_line_format_string.png)
 
-Congrats, we just covered the intro, installation and very basic plotting skills of *Matplotlib*
+Congrats!, we just covered the intro, installation and very basic plotting skills of *Matplotlib*
 
 I would also like to point out that in the [anatomy of figure](https://matplotlib.org/3.2.1/gallery/showcase/anatomy.html) page, the code with which the diagram is created is mentioned below it. That code is a very useful as a reference for beginners on how to create plots, titles, legends etc
 
@@ -116,9 +116,9 @@ RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMDgnXG50YWdzOiAncHl0aG9uLCBsZWFybmluZy
 wgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbLTEwMzM4MTMxMDUsLTE3MTI2MDQ0MiwxMjIwNjkzNjI3
-LDIxNDQzMTQ5NzYsLTcxMzM4NDExNyw3NjUxNDYwODcsMzMyMj
-g3NDQ1LDE0NjY5MDU1OTAsMTk3NTg3Njk2NCwtMTA5MDAyMzk5
-MCwtMjc4NTQ0MDM1LC0yMDU1MzA1NjQ1LC0xODIzNDE2NzU1LD
-UxMDUwOTc2OSwxMjIyODYwMjkwXX0=
+J5IjpbMzI0MzM4ODM4LC0xNzEyNjA0NDIsMTIyMDY5MzYyNywy
+MTQ0MzE0OTc2LC03MTMzODQxMTcsNzY1MTQ2MDg3LDMzMjI4Nz
+Q0NSwxNDY2OTA1NTkwLDE5NzU4NzY5NjQsLTEwOTAwMjM5OTAs
+LTI3ODU0NDAzNSwtMjA1NTMwNTY0NSwtMTgyMzQxNjc1NSw1MT
+A1MDk3NjksMTIyMjg2MDI5MF19
 -->
