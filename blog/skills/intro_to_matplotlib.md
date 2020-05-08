@@ -14,6 +14,10 @@ Matplotlib is a plotting library in the scipy ecosystem of libraries.
 ### Installing matplotlib
 * Open command prompt and type ```pip install matplotlib```
 ![pip install matplotlib](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/install_matplotlib.png)
+### Basics
+* A plot in matplotlib is calleda  a
+
+![anatomy of a matplotlib figure](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/anatomy_of_matplotlib_figure.PNG)
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -27,6 +31,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM0MTY3NTUsNTEwNTA5NzY5LDEyMj
-I4NjAyOTBdfQ==
+eyJoaXN0b3J5IjpbMTcyODIxMDI0NywtMTgyMzQxNjc1NSw1MT
+A1MDk3NjksMTIyMjg2MDI5MF19
 -->
