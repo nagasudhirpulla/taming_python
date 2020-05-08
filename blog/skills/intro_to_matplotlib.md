@@ -93,7 +93,9 @@ plt.show()
 ```
 ![plot with format string](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_matplotlib_plot_with_line_format_string.png)
 
-Congrats, we just covered the intro, installation and very basic plotting skills of Matplotlib.
+Congrats, we just covered the intro, installation and very basic plotting skills of *Matplotlib*
+
+I would also like to point out that in the [anatomy of figure](https://matplotlib.org/3.2.1/gallery/showcase/anatomy.html) page, the code with which the fi
 <hr/>
 
 ### Online Interpreter
@@ -108,9 +110,9 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzM4NjY4OCwxMjIwNjkzNjI3LDIxND
-QzMTQ5NzYsLTcxMzM4NDExNyw3NjUxNDYwODcsMzMyMjg3NDQ1
-LDE0NjY5MDU1OTAsMTk3NTg3Njk2NCwtMTA5MDAyMzk5MCwtMj
-c4NTQ0MDM1LC0yMDU1MzA1NjQ1LC0xODIzNDE2NzU1LDUxMDUw
-OTc2OSwxMjIyODYwMjkwXX0=
+eyJoaXN0b3J5IjpbMzM0MDI1Njk3LDEyMjA2OTM2MjcsMjE0ND
+MxNDk3NiwtNzEzMzg0MTE3LDc2NTE0NjA4NywzMzIyODc0NDUs
+MTQ2NjkwNTU5MCwxOTc1ODc2OTY0LC0xMDkwMDIzOTkwLC0yNz
+g1NDQwMzUsLTIwNTUzMDU2NDUsLTE4MjM0MTY3NTUsNTEwNTA5
+NzY5LDEyMjI4NjAyOTBdfQ==
 -->
