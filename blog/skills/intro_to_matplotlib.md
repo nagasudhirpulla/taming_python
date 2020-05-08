@@ -23,7 +23,10 @@ Matplotlib is a plotting library in the scipy ecosystem of libraries.
 
 ![anatomy of a matplotlib figure](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/anatomy_of_matplotlib_figure.PNG)
 ### Basics
-* As shown above, in order to create a plot with matlp 
+* As shown above, in order to create a plot with matplotlib, we need to create a figure with axes
+
+#### Creating a basic line plot with luof x and y points
+Lets create a simple line plot with x and y lists
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -37,6 +40,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjY0NDM5MywtMTgyMzQxNjc1NSw1MT
+eyJoaXN0b3J5IjpbMTc3NDg0MjAxNSwtMTgyMzQxNjc1NSw1MT
 A1MDk3NjksMTIyMjg2MDI5MF19
 -->
