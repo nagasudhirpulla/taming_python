@@ -44,14 +44,14 @@ la, = ax.plot(x, y)
 # set the title for our plot using axes handle
 ax.set_title('Basic Matplotlib plot')
 
-# set x and y axis titles
+# set x and y axis titles using axes handle
 ax.set_xlabel("X Data")
 ax.set_ylabel("Y Data")
 
-# set label to the plot for the sake of legend
+# set label to the plot for the sake of legend using the plot artist
 la.set_label('basic_plot')
 
-# enable legends for the axes
+# enable legends for the axes handle
 ax.legend()
 
 # print the plot
@@ -116,9 +116,9 @@ RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMDgnXG50YWdzOiAncHl0aG9uLCBsZWFybmluZy
 wgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbNzA4MDUwNTIzLC0xNzEyNjA0NDIsMTIyMDY5MzYyNywy
-MTQ0MzE0OTc2LC03MTMzODQxMTcsNzY1MTQ2MDg3LDMzMjI4Nz
-Q0NSwxNDY2OTA1NTkwLDE5NzU4NzY5NjQsLTEwOTAwMjM5OTAs
-LTI3ODU0NDAzNSwtMjA1NTMwNTY0NSwtMTgyMzQxNjc1NSw1MT
-A1MDk3NjksMTIyMjg2MDI5MF19
+J5IjpbLTEwMzM4MTMxMDUsLTE3MTI2MDQ0MiwxMjIwNjkzNjI3
+LDIxNDQzMTQ5NzYsLTcxMzM4NDExNyw3NjUxNDYwODcsMzMyMj
+g3NDQ1LDE0NjY5MDU1OTAsMTk3NTg3Njk2NCwtMTA5MDAyMzk5
+MCwtMjc4NTQ0MDM1LC0yMDU1MzA1NjQ1LC0xODIzNDE2NzU1LD
+UxMDUwOTc2OSwxMjIyODYwMjkwXX0=
 -->
