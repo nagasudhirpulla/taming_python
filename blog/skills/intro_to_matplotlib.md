@@ -44,6 +44,10 @@ ax.plot(x, y)
 # set the title for our plot
 ax.set_title('Basic Matplotlib plot')
 
+# set x and y axis titles
+ax.set_xlabel("X Data")
+ax.set_ylabel("Y Data")
+
 # print the plot
 plt.show()
 ```
@@ -60,7 +64,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MjgwNjg5MSwtMjc4NTQ0MDM1LC0yMD
-U1MzA1NjQ1LC0xODIzNDE2NzU1LDUxMDUwOTc2OSwxMjIyODYw
-MjkwXX0=
+eyJoaXN0b3J5IjpbLTEwOTAwMjM5OTAsLTI3ODU0NDAzNSwtMj
+A1NTMwNTY0NSwtMTgyMzQxNjc1NSw1MTA1MDk3NjksMTIyMjg2
+MDI5MF19
 -->
