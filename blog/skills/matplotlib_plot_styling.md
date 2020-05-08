@@ -60,7 +60,7 @@ Other marker styling options are
 ```
 markeredgecolor / mec - control the color of marker edge / outline
 
-markeredgewidth / mew - a number that can control the marker edge /outline width
+markeredgewidth / mew - a number that can control the marker outline/edge width
 
 markerfacecolor / mfc - control the color of marker filling inside the outline
 
@@ -76,7 +76,7 @@ y = [1, 4, 2, 3]
 fig, ax = plt.subplots()
 
 # using color keyword in plot function to control color
-plt.plot(x,y,marker='p')
+plt.plot(x,y,marker='p', ms=5, mfc='magenta', mec='cyan', mew=1)
 
 # print figure
 plt.show()
@@ -134,6 +134,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDA2MTcyNiwtMTM4MDA1MzcxMSwtMT
-g2Mzg2MjEyNl19
+eyJoaXN0b3J5IjpbOTI2NjY2MzgsLTEzODAwNTM3MTEsLTE4Nj
+M4NjIxMjZdfQ==
 -->
