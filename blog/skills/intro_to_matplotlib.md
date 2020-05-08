@@ -1,5 +1,4 @@
-
-## Skill - Pandas DataFrame Basics
+## Skill - Intro to Matplotlib
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -10,6 +9,7 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
+Mtaplotlib is a 
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -23,5 +23,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjg2MDI5MF19
+eyJoaXN0b3J5IjpbLTgwNTY4ODc0NSwxMjIyODYwMjkwXX0=
 -->
