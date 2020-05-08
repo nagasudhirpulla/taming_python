@@ -63,6 +63,7 @@ the `plot` function accepts a string for specifying the line style
 ```ax.plot([<x_vals>], [<y_vals>], fmt)```
 
 the format string should be like ```'[marker][line][color]'```
+![matplotlib line style formats](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_line_style_formats.PNG)
 Example formats are shown below
 ```python
 'b'    # blue markers with default shape
@@ -87,8 +88,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzM4NDExNyw3NjUxNDYwODcsMzMyMj
-g3NDQ1LDE0NjY5MDU1OTAsMTk3NTg3Njk2NCwtMTA5MDAyMzk5
-MCwtMjc4NTQ0MDM1LC0yMDU1MzA1NjQ1LC0xODIzNDE2NzU1LD
-UxMDUwOTc2OSwxMjIyODYwMjkwXX0=
+eyJoaXN0b3J5IjpbMjE0NDMxNDk3NiwtNzEzMzg0MTE3LDc2NT
+E0NjA4NywzMzIyODc0NDUsMTQ2NjkwNTU5MCwxOTc1ODc2OTY0
+LC0xMDkwMDIzOTkwLC0yNzg1NDQwMzUsLTIwNTUzMDU2NDUsLT
+E4MjM0MTY3NTUsNTEwNTA5NzY5LDEyMjI4NjAyOTBdfQ==
 -->
