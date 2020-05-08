@@ -17,10 +17,15 @@ In this post we will try to understand how to control the styling of a Matplotli
 
 Please make sure that you covered the [post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 
-### styling plots
+### Plot Color
+```python
+import matplotlib.pyplot as plt
 
+fig, ax = plt.subplots()
 
-### styling plots using format string
+```
+
+### Styling plots using format string
 the `plot` function accepts a format string as the 3rd input for specifying the line style in a single string.
 ```ax.plot([<x_vals>], [<y_vals>], <fmt>)```
 
@@ -72,5 +77,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDE0NDA3MywtMTg2Mzg2MjEyNl19
+eyJoaXN0b3J5IjpbLTQ2NTYyMTA1LC0xODYzODYyMTI2XX0=
 -->
