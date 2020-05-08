@@ -59,15 +59,15 @@ plt.show()
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
 ### References
-* axes plot function api-
+* plot function api - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
 * Examples gallery - https://matplotlib.org/gallery/index.html
 * medium post - https://towardsdatascience.com/data-visualization-using-matplotlib-16f1aae5ce70
-* 
+
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0MjE3ODFdfQ==
+eyJoaXN0b3J5IjpbNDA4MTM2NzY5XX0=
 -->
