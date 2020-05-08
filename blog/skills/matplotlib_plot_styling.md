@@ -32,7 +32,7 @@ Example formats are shown below
 '^k:'  # black triangle_up markers connected by a dotted line
 ```
 
-An example can be seen below
+An example of styling a plot using format string can be seen below
 ```python
 import matplotlib.pyplot as plt
 
@@ -52,9 +52,6 @@ plt.show()
 ```
 ![plot with format string](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_matplotlib_plot_with_line_format_string.png)
 
-Congrats!, we just covered the intro, installation and very basic plotting skills of *Matplotlib*
-
-I would also like to point out that in the [anatomy of figure](https://matplotlib.org/3.2.1/gallery/showcase/anatomy.html) page, the code with which the diagram is created is mentioned below it. That code is a very useful as a reference for beginners on how to create plots, titles, legends etc
 
 <hr/>
 
@@ -64,12 +61,12 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 ### References
 * Examples gallery - https://matplotlib.org/gallery/index.html
 * medium post - https://towardsdatascience.com/data-visualization-using-matplotlib-16f1aae5ce70
-* anatomy of a figure - https://matplotlib.org/3.2.1/gallery/showcase/anatomy.html
+* https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTM2MjMwNDldfQ==
+eyJoaXN0b3J5IjpbLTUxMzE1OTgwOV19
 -->
