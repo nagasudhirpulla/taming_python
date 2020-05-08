@@ -64,6 +64,7 @@ markeredgewidth / mew - a number that can control the marker edge /outline width
 
 markerfacecolor / mfc - control the color of marker filling inside the outline
 
+markersize / ms - a number that can control the size of the marker
 ```
 ```python
 import matplotlib.pyplot as plt
@@ -133,6 +134,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTgzNTAwOSwtMTM4MDA1MzcxMSwtMT
+eyJoaXN0b3J5IjpbLTU3MDA2MTcyNiwtMTM4MDA1MzcxMSwtMT
 g2Mzg2MjEyNl19
 -->
