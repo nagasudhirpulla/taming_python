@@ -39,7 +39,7 @@ y = [1, 4, 2, 3]
 fig, ax = plt.subplots()
 
 # plot data on the axes
-ax.plot()
+ax.plot(x, y)
 ```
 
 ### Online Interpreter
@@ -54,6 +54,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1MTYwNTEyLC0xODIzNDE2NzU1LDUxMD
-UwOTc2OSwxMjIyODYwMjkwXX0=
+eyJoaXN0b3J5IjpbLTIwNTUzMDU2NDUsLTE4MjM0MTY3NTUsNT
+EwNTA5NzY5LDEyMjI4NjAyOTBdfQ==
 -->
