@@ -12,7 +12,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 Matplotlib is a plotting library in the scipy ecosystem of libraries.
 
 ### Installing matplotlib
-* Open command prompt 
+* Open command prompt and type ```pip install matplotlib```
+
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -26,5 +27,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTYxOTU5NiwxMjIyODYwMjkwXX0=
+eyJoaXN0b3J5IjpbNTEwNTA5NzY5LDEyMjI4NjAyOTBdfQ==
 -->
