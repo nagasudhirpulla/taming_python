@@ -58,41 +58,6 @@ ax.legend()
 plt.show()
 ```
 ![plot_python_output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_matplotlib_plot.png)
-### Plot styles
-the `plot` function accepts a string for specifying the line style
-```ax.plot([<x_vals>], [<y_vals>], fmt)```
-
-the format string should be like ```'[marker][line][color]'```
-![matplotlib line style formats](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_line_style_formats.PNG)
-Example formats are shown below
-```python
-'b'    # blue markers with default shape
-'or'   # red circles
-'-g'   # green solid line
-'--'   # dashed line with default color
-'^k:'  # black triangle_up markers connected by a dotted line
-```
-
-An example can be seen below
-```python
-import matplotlib.pyplot as plt
-
-# the lists of x and y coordinates
-x = [1, 2, 3, 4]
-y = [1, 4, 2, 3]
-
-# create a figure and axes handle using 'subplots' function
-fig, ax = plt.subplots()
-
-# use axes handle to plot xy data and get the plot artist in return
-la, = ax.plot(x, y, '*-r')
-# In the format string, * means marker, - means normal line, r means red color
-
-# print the plot
-plt.show()
-```
-![plot with format string](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_matplotlib_plot_with_line_format_string.png)
-
 Congrats!, we just covered the intro, installation and very basic plotting skills of *Matplotlib*
 
 I would also like to point out that in the [anatomy of figure](https://matplotlib.org/3.2.1/gallery/showcase/anatomy.html) page, the code with which the diagram is created is mentioned below it. That code is a very useful as a reference for beginners on how to create plots, titles, legends etc
@@ -116,9 +81,9 @@ RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMDgnXG50YWdzOiAncHl0aG9uLCBsZWFybmluZy
 wgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbMzI0MzM4ODM4LC0xNzEyNjA0NDIsMTIyMDY5MzYyNywy
-MTQ0MzE0OTc2LC03MTMzODQxMTcsNzY1MTQ2MDg3LDMzMjI4Nz
-Q0NSwxNDY2OTA1NTkwLDE5NzU4NzY5NjQsLTEwOTAwMjM5OTAs
-LTI3ODU0NDAzNSwtMjA1NTMwNTY0NSwtMTgyMzQxNjc1NSw1MT
-A1MDk3NjksMTIyMjg2MDI5MF19
+J5IjpbLTIxMTQ4NDc1MjMsMzI0MzM4ODM4LC0xNzEyNjA0NDIs
+MTIyMDY5MzYyNywyMTQ0MzE0OTc2LC03MTMzODQxMTcsNzY1MT
+Q2MDg3LDMzMjI4NzQ0NSwxNDY2OTA1NTkwLDE5NzU4NzY5NjQs
+LTEwOTAwMjM5OTAsLTI3ODU0NDAzNSwtMjA1NTMwNTY0NSwtMT
+gyMzQxNjc1NSw1MTA1MDk3NjksMTIyMjg2MDI5MF19
 -->
