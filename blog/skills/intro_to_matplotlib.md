@@ -95,7 +95,8 @@ plt.show()
 
 Congrats, we just covered the intro, installation and very basic plotting skills of *Matplotlib*
 
-I would also like to point out that in the [anatomy of figure](https://matplotlib.org/3.2.1/gallery/showcase/anatomy.html) page, the code with which the fi
+I would also like to point out that in the [anatomy of figure](https://matplotlib.org/3.2.1/gallery/showcase/anatomy.html) page, the code with which the diagram is created is mentioned below it. That code is a very useful as a reference for beginners on how to create plots, titles, legends etc
+
 <hr/>
 
 ### Online Interpreter
@@ -110,9 +111,9 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0MDI1Njk3LDEyMjA2OTM2MjcsMjE0ND
-MxNDk3NiwtNzEzMzg0MTE3LDc2NTE0NjA4NywzMzIyODc0NDUs
-MTQ2NjkwNTU5MCwxOTc1ODc2OTY0LC0xMDkwMDIzOTkwLC0yNz
-g1NDQwMzUsLTIwNTUzMDU2NDUsLTE4MjM0MTY3NTUsNTEwNTA5
-NzY5LDEyMjI4NjAyOTBdfQ==
+eyJoaXN0b3J5IjpbLTM3NzQ4NDg2OCwxMjIwNjkzNjI3LDIxND
+QzMTQ5NzYsLTcxMzM4NDExNyw3NjUxNDYwODcsMzMyMjg3NDQ1
+LDE0NjY5MDU1OTAsMTk3NTg3Njk2NCwtMTA5MDAyMzk5MCwtMj
+c4NTQ0MDM1LC0yMDU1MzA1NjQ1LC0xODIzNDE2NzU1LDUxMDUw
+OTc2OSwxMjIyODYwMjkwXX0=
 -->
