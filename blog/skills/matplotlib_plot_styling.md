@@ -17,7 +17,8 @@ In this post we will try to understand how to control the styling of a Matplotli
 
 Please make sure that you covered the [post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 
-### Plot Color
+### Color
+use `color` parameter in plot function. color can be a known color string or a hex col
 ```python
 import matplotlib.pyplot as plt
 
@@ -51,6 +52,7 @@ plt.plot(x,y,linestyle='dashed')
 # print figure
 plt.show()
 ```
+![plot line style demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_plot_linestyle_demo.png)
 
 ### Styling plots using format string
 the `plot` function accepts a format string as the 3rd input for specifying the line style in a single string.
@@ -104,5 +106,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTI1NTg4NCwtMTg2Mzg2MjEyNl19
+eyJoaXN0b3J5IjpbLTY0NjUyMTI0MiwtMTg2Mzg2MjEyNl19
 -->
