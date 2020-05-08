@@ -11,16 +11,16 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 In this post we will get a beginner level introduction to Matplotlib library which is extensively used for plotting in python
 
-Matplotlib is a plotting library in the scipy ecosystem of libraries.
+**Matplotlib** is a plotting library in the scipy ecosystem of libraries.
 
-### Installing matplotlib
+### Installing Matplotlib
 * Open command prompt and type ```pip install matplotlib```
 ![pip install matplotlib](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/install_matplotlib.png)
 ### Anatomy of a matplotlib figure
-* A graph in matplotlib is called a **figure**
+* A graph in matplotlib is called a **figure**. It is like a canvas on which we draw figures.
 * A matplotlib figure can have **plot, axis, title, legend, grid, ticks, tick labels, spines**
 * The figure below describes all the components of a matplotlib figure. 
-* Please take your time to understand the nomenclatures used in matplotlib figure, since these terms will be used in matplotlib functions to control the appearance of a figure.
+* Please take your time to understand the **terminology** used in matplotlib figure, since these terms will be used in matplotlib functions to **control the appearance of a figure**.
 * You can refer to this figure any time to recollect the terminology used in matplotlib functions
 
 ![anatomy of a matplotlib figure](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/anatomy_of_matplotlib_figure.PNG)
@@ -44,6 +44,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwOTY2ODcxLC0xODIzNDE2NzU1LDUxMD
-UwOTc2OSwxMjIyODYwMjkwXX0=
+eyJoaXN0b3J5IjpbLTQzMTIyOTkwOCwtMTgyMzQxNjc1NSw1MT
+A1MDk3NjksMTIyMjg2MDI5MF19
 -->
