@@ -98,8 +98,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 ### References
 * plot function api - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
 * Examples gallery - https://matplotlib.org/gallery/index.html
-* medium post - https://towardsdatascience.com/data-visualization-using-matplotlib-16f1aae5ce70
-* m
+* matplotlib colors - https://matplotlib.org/2.1.1/api/colors_api.html
 
 <hr/>
 
@@ -107,5 +106,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTI2NjUxLC0xODYzODYyMTI2XX0=
+eyJoaXN0b3J5IjpbLTEzODAwNTM3MTEsLTE4NjM4NjIxMjZdfQ
+==
 -->
