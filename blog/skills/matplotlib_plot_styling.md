@@ -59,7 +59,11 @@ Marker strings like the one used above can be found [here](https://matplotlib.or
 Other marker styling options are
 ```
 markeredgecolor / mec - control the color of marker edge / outline
-markeredgewidth / mew - a number that can control the marker edge /o
+
+markeredgewidth / mew - a number that can control the marker edge /outline width
+
+markerfacecolor / mfc - control the color of marker filling inside the outline
+
 ```
 ```python
 import matplotlib.pyplot as plt
@@ -129,6 +133,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTA4NTY0NCwtMTM4MDA1MzcxMSwtMT
+eyJoaXN0b3J5IjpbMjA1MTgzNTAwOSwtMTM4MDA1MzcxMSwtMT
 g2Mzg2MjEyNl19
 -->
