@@ -54,8 +54,10 @@ plt.show()
 ```
 ![plot line style demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_plot_linestyle_demo.png)
 ### Markers
-marker parameter can be used to control the marker styling. For example, here we are using `marker='p'` to use pentagon marker. 
+marker parameter can be used to control the marker style. For example, here we are using `marker='p'` to use pentagon marker. 
 Marker strings like the one used above can be found [here](https://matplotlib.org/2.1.1/api/markers_api.html#module-matplotlib.markers)
+Other marker styling options are
+
 ```python
 import matplotlib.pyplot as plt
 
@@ -124,6 +126,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE3MDUwOTMyLC0xMzgwMDUzNzExLC0xOD
-YzODYyMTI2XX0=
+eyJoaXN0b3J5IjpbLTI2NDQwOTUwNSwtMTM4MDA1MzcxMSwtMT
+g2Mzg2MjEyNl19
 -->
