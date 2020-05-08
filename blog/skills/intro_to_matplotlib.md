@@ -57,7 +57,7 @@ ax.legend()
 # print the plot
 plt.show()
 ```
-
+![plot_python_output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_matplotlib_plot.png)
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
@@ -70,8 +70,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1MTQ2MDg3LDMzMjI4NzQ0NSwxNDY2OT
-A1NTkwLDE5NzU4NzY5NjQsLTEwOTAwMjM5OTAsLTI3ODU0NDAz
-NSwtMjA1NTMwNTY0NSwtMTgyMzQxNjc1NSw1MTA1MDk3NjksMT
-IyMjg2MDI5MF19
+eyJoaXN0b3J5IjpbMTI3NzUwNTA0Miw3NjUxNDYwODcsMzMyMj
+g3NDQ1LDE0NjY5MDU1OTAsMTk3NTg3Njk2NCwtMTA5MDAyMzk5
+MCwtMjc4NTQ0MDM1LC0yMDU1MzA1NjQ1LC0xODIzNDE2NzU1LD
+UxMDUwOTc2OSwxMjIyODYwMjkwXX0=
 -->
