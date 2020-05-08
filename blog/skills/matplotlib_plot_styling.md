@@ -110,7 +110,7 @@ fig, ax = plt.subplots()
 
 # use axes handle to plot xy data and get the plot artist in return
 la, = ax.plot(x, y, '*-r')
-# In the format string, * means marker, - means normal line, r means red color
+# In the format string, * means marker style, - means normal line, r means red color
 
 # print the plot
 plt.show()
@@ -139,6 +139,6 @@ xpYiBQbG90c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5k
 YXRlOiAnMjAyMC0wNS0wOCdcbnRhZ3M6ICdweXRob24sIGxlYX
 JuaW5nLCB0dXRvcmlhbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOlstMTg2Mzc2NTQ3NiwzMjE0MDA2MTAsLTEzODAw
-NTM3MTEsLTE4NjM4NjIxMjZdfQ==
+hpc3RvcnkiOlstMzI4ODU3MTA5LDMyMTQwMDYxMCwtMTM4MDA1
+MzcxMSwtMTg2Mzg2MjEyNl19
 -->
