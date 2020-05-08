@@ -18,7 +18,7 @@ In this post we will try to understand how to control the styling of a Matplotli
 Please make sure that you covered the [post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 
 ### Color
-use `color` parameter in plot function. color can be a known color like `'red'` string or a hex color like `'#0F0F0F'`. You can use online color pickers like this to generate hex codes from colors
+use `color` parameter in plot function. color can be a known color like `'red'` string or a hex color like `'#0F0F0F'`. You can use online color pickers like [this](https://cssgenerator.org/rgba-and-hex-color-generator.html) to generate hex codes from colors.
 ```python
 import matplotlib.pyplot as plt
 
@@ -36,7 +36,7 @@ plt.show()
 ```
 ![plot color demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_plot_color_demo.png)
 ### Line style
-we can use `'solid', 'dashed',  'dashdot', 'dotted', 'None'` for line style
+linestyle can be `'solid', 'dashed',  'dashdot', 'dotted', 'None'`
 ```python
 import matplotlib.pyplot as plt
 
@@ -53,7 +53,6 @@ plt.plot(x,y,linestyle='dashed')
 plt.show()
 ```
 ![plot line style demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_plot_linestyle_demo.png)
-
 ### Styling plots using format string
 the `plot` function accepts a format string as the 3rd input for specifying the line style in a single string.
 ```ax.plot([<x_vals>], [<y_vals>], <fmt>)```
@@ -88,7 +87,7 @@ la, = ax.plot(x, y, '*-r')
 plt.show()
 ```
 ![plot with format string](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_matplotlib_plot_with_line_format_string.png)
-
+For more styling options an in depth understanding of styling please check out the [api documentaion page]
 
 <hr/>
 
@@ -106,6 +105,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQ4NzYzNDMsLTEzODAwNTM3MTEsLT
-E4NjM4NjIxMjZdfQ==
+eyJoaXN0b3J5IjpbMjMzNzEzOTQsLTEzODAwNTM3MTEsLTE4Nj
+M4NjIxMjZdfQ==
 -->
