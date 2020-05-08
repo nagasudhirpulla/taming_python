@@ -74,6 +74,22 @@ Example formats are shown below
 ```
 
 A small example can be seen below
+```python
+import matplotlib.pyplot as plt
+
+# the lists of x and y coordinates
+x = [1, 2, 3, 4]
+y = [1, 4, 2, 3]
+
+# create a figure with axes
+fig, ax = plt.subplots()
+
+# plot data on the axes
+la, = ax.plot(x, y, '*-r')
+
+# print the plot
+plt.show()
+```
 
 
 ### Online Interpreter
@@ -88,8 +104,9 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDMxNDk3NiwtNzEzMzg0MTE3LDc2NT
-E0NjA4NywzMzIyODc0NDUsMTQ2NjkwNTU5MCwxOTc1ODc2OTY0
-LC0xMDkwMDIzOTkwLC0yNzg1NDQwMzUsLTIwNTUzMDU2NDUsLT
-E4MjM0MTY3NTUsNTEwNTA5NzY5LDEyMjI4NjAyOTBdfQ==
+eyJoaXN0b3J5IjpbLTY0NzE1MTQwNywyMTQ0MzE0OTc2LC03MT
+MzODQxMTcsNzY1MTQ2MDg3LDMzMjI4NzQ0NSwxNDY2OTA1NTkw
+LDE5NzU4NzY5NjQsLTEwOTAwMjM5OTAsLTI3ODU0NDAzNSwtMj
+A1NTMwNTY0NSwtMTgyMzQxNjc1NSw1MTA1MDk3NjksMTIyMjg2
+MDI5MF19
 -->
