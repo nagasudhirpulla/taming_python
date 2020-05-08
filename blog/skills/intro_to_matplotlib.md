@@ -48,6 +48,9 @@ ax.set_title('Basic Matplotlib plot')
 ax.set_xlabel("X Data")
 ax.set_ylabel("Y Data")
 
+# enable legends for the axes
+ax.legend()
+
 # print the plot
 plt.show()
 ```
@@ -64,7 +67,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTg3Njk2NCwtMTA5MDAyMzk5MCwtMj
-c4NTQ0MDM1LC0yMDU1MzA1NjQ1LC0xODIzNDE2NzU1LDUxMDUw
-OTc2OSwxMjIyODYwMjkwXX0=
+eyJoaXN0b3J5IjpbMTQ2NjkwNTU5MCwxOTc1ODc2OTY0LC0xMD
+kwMDIzOTkwLC0yNzg1NDQwMzUsLTIwNTUzMDU2NDUsLTE4MjM0
+MTY3NTUsNTEwNTA5NzY5LDEyMjI4NjAyOTBdfQ==
 -->
