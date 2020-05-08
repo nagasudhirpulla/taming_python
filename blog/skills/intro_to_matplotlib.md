@@ -39,7 +39,7 @@ y = [1, 4, 2, 3]
 fig, ax = plt.subplots()
 
 # plot data on the axes
-l, = ax.plot(x, y, label='basic_plt')
+la, = ax.plot(x, y)
 
 # set the title for our plot
 ax.set_title('Basic Matplotlib plot')
@@ -49,7 +49,7 @@ ax.set_xlabel("X Data")
 ax.set_ylabel("Y Data")
 
 # set label to the plot for the sake of legend
-ax.set_label('basic_plot')
+la.set_label('basic_plot')
 
 # enable legends for the axes
 ax.legend()
@@ -70,8 +70,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjgzMzY0MCwzMzIyODc0NDUsMTQ2Nj
-kwNTU5MCwxOTc1ODc2OTY0LC0xMDkwMDIzOTkwLC0yNzg1NDQw
-MzUsLTIwNTUzMDU2NDUsLTE4MjM0MTY3NTUsNTEwNTA5NzY5LD
-EyMjI4NjAyOTBdfQ==
+eyJoaXN0b3J5IjpbNzY1MTQ2MDg3LDMzMjI4NzQ0NSwxNDY2OT
+A1NTkwLDE5NzU4NzY5NjQsLTEwOTAwMjM5OTAsLTI3ODU0NDAz
+NSwtMjA1NTMwNTY0NSwtMTgyMzQxNjc1NSw1MTA1MDk3NjksMT
+IyMjg2MDI5MF19
 -->
