@@ -53,7 +53,7 @@ plt.show()
 ```
 
 ### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
 ### References
 * Examples gallery - https://matplotlib.org/gallery/index.html
@@ -64,7 +64,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTAwMjM5OTAsLTI3ODU0NDAzNSwtMj
-A1NTMwNTY0NSwtMTgyMzQxNjc1NSw1MTA1MDk3NjksMTIyMjg2
-MDI5MF19
+eyJoaXN0b3J5IjpbMTk3NTg3Njk2NCwtMTA5MDAyMzk5MCwtMj
+c4NTQ0MDM1LC0yMDU1MzA1NjQ1LC0xODIzNDE2NzU1LDUxMDUw
+OTc2OSwxMjIyODYwMjkwXX0=
 -->
