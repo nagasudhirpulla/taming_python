@@ -18,7 +18,7 @@ In this post we will try to understand how to control the styling of a Matplotli
 Please make sure that you covered the [post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 
 ### Color
-use `color` parameter in plot function. color can be a known color string or a hex col
+use `color` parameter in plot function. color can be a known color string or a hex color like 
 ```python
 import matplotlib.pyplot as plt
 
@@ -99,6 +99,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 * plot function api - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
 * Examples gallery - https://matplotlib.org/gallery/index.html
 * medium post - https://towardsdatascience.com/data-visualization-using-matplotlib-16f1aae5ce70
+* m
 
 <hr/>
 
@@ -106,5 +107,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NjUyMTI0MiwtMTg2Mzg2MjEyNl19
+eyJoaXN0b3J5IjpbLTg1MTI2NjUxLC0xODYzODYyMTI2XX0=
 -->
