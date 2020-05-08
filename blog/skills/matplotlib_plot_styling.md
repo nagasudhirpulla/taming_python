@@ -87,7 +87,7 @@ la, = ax.plot(x, y, '*-r')
 plt.show()
 ```
 ![plot with format string](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_matplotlib_plot_with_line_format_string.png)
-For more styling options an in depth understanding of styling please check out the [api documentaion page]
+For more styling options an in depth understanding of styling please check out the [api documentation page](https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html)
 
 <hr/>
 
@@ -105,6 +105,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzNzEzOTQsLTEzODAwNTM3MTEsLTE4Nj
-M4NjIxMjZdfQ==
+eyJoaXN0b3J5IjpbLTQwNjgyNzQ5MiwtMTM4MDA1MzcxMSwtMT
+g2Mzg2MjEyNl19
 -->
