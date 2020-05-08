@@ -31,7 +31,15 @@ Lets create a simple line plot with x and y lists
 ```python
 import matplotlib.pyplot as plt
 
+# the lists of x and y coordinates
+x = [1, 2, 3, 4]
+y = [1, 4, 2, 3]
+
 # create a figure with axes
+fig, ax = plt.subplots()
+
+# plot data on the axes
+ax.plot()
 ```
 
 ### Online Interpreter
@@ -46,6 +54,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTc4MDQxMSwtMTgyMzQxNjc1NSw1MT
-A1MDk3NjksMTIyMjg2MDI5MF19
+eyJoaXN0b3J5IjpbMzI1MTYwNTEyLC0xODIzNDE2NzU1LDUxMD
+UwOTc2OSwxMjIyODYwMjkwXX0=
 -->
