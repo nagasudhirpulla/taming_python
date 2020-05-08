@@ -54,7 +54,7 @@ plt.show()
 ```
 ![plot line style demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_plot_linestyle_demo.png)
 ### Markers
-marker parameter can be used to control the marker styling
+marker parameter can be used to control the marker styling. marker strings can be found [here](https://matplotlib.org/2.1.1/api/markers_api.html#module-matplotlib.markers). For example, here we are using marker='p'
 ```python
 import matplotlib.pyplot as plt
 
@@ -123,6 +123,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTc4NzI3NiwtMTM4MDA1MzcxMSwtMT
+eyJoaXN0b3J5IjpbLTY5ODUwMzM5NiwtMTM4MDA1MzcxMSwtMT
 g2Mzg2MjEyNl19
 -->
