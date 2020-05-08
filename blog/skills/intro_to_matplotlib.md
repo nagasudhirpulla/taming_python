@@ -63,7 +63,17 @@ the `plot` function accepts a string for specifying the line style
 ```ax.plot([<x_vals>], [<y_vals>], fmt)```
 
 the format string should be like ```'[marker][line][color]'```
-Example 
+Example formats are shown below
+```python
+'b'    # blue markers with default shape
+'or'   # red circles
+'-g'   # green solid line
+'--'   # dashed line with default color
+'^k:'  # black triangle_up markers connected by a dotted line
+```
+
+A small example can be seen below
+
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
@@ -77,8 +87,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1MTg3MDA4LDc2NTE0NjA4NywzMzIyOD
-c0NDUsMTQ2NjkwNTU5MCwxOTc1ODc2OTY0LC0xMDkwMDIzOTkw
-LC0yNzg1NDQwMzUsLTIwNTUzMDU2NDUsLTE4MjM0MTY3NTUsNT
-EwNTA5NzY5LDEyMjI4NjAyOTBdfQ==
+eyJoaXN0b3J5IjpbLTcxMzM4NDExNyw3NjUxNDYwODcsMzMyMj
+g3NDQ1LDE0NjY5MDU1OTAsMTk3NTg3Njk2NCwtMTA5MDAyMzk5
+MCwtMjc4NTQ0MDM1LC0yMDU1MzA1NjQ1LC0xODIzNDE2NzU1LD
+UxMDUwOTc2OSwxMjIyODYwMjkwXX0=
 -->
