@@ -17,8 +17,8 @@ In this post we will try to understand how to control the styling of a Matplotli
 
 Please make sure that you covered the [post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 
-### Plot styles
-the `plot` function accepts a string for specifying the line style
+### Plot styles using format string
+the `plot` function accepts a format string as the 3rd input for specifying the line style in a single string.
 ```ax.plot([<x_vals>], [<y_vals>], <fmt>)```
 
 `fmt` string should in the format ```'[marker][line][color]'```
@@ -59,14 +59,15 @@ plt.show()
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
 ### References
+* axes plot function api-
 * Examples gallery - https://matplotlib.org/gallery/index.html
 * medium post - https://towardsdatascience.com/data-visualization-using-matplotlib-16f1aae5ce70
-* https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
+* 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzE1OTgwOV19
+eyJoaXN0b3J5IjpbOTY0MjE3ODFdfQ==
 -->
