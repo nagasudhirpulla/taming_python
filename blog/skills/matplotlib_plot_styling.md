@@ -81,7 +81,7 @@ plt.plot(x,y,marker='p', ms=15, mfc='magenta', mec='yellow', mew=3)
 # print figure
 plt.show()
 ```
-
+![plot marker demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_plot_marker_demo.png)
 ### Styling plots using format string
 the `plot` function accepts a format string as the 3rd input for specifying the line style in a single string.
 ```ax.plot([<x_vals>], [<y_vals>], <fmt>)```
@@ -134,6 +134,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDE5Nzg0OTQsLTEzODAwNTM3MTEsLT
-E4NjM4NjIxMjZdfQ==
+eyJoaXN0b3J5IjpbMTI1NjU2Nzg4NSwtMTM4MDA1MzcxMSwtMT
+g2Mzg2MjEyNl19
 -->
