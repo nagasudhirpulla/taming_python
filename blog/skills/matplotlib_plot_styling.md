@@ -33,7 +33,7 @@ plt.plot(x,y,color='magenta')
 # print figure
 plt.show()
 ```
-
+![plot color demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_plot_color_demo.png)
 
 ### Styling plots using format string
 the `plot` function accepts a format string as the 3rd input for specifying the line style in a single string.
@@ -87,6 +87,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTc4NzAzNjcsLTE4NjM4NjIxMjZdfQ
-==
+eyJoaXN0b3J5IjpbMzA4ODMyNTU2LC0xODYzODYyMTI2XX0=
 -->
