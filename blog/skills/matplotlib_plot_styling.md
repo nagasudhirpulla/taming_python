@@ -34,6 +34,23 @@ plt.plot(x,y,color='magenta')
 plt.show()
 ```
 ![plot color demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_plot_color_demo.png)
+### Line style
+we can use `'solid', ''`
+```python
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4]
+y = [1, 4, 2, 3]
+
+# create a new figure and get figure, axes handle in return
+fig, ax = plt.subplots()
+
+# using color keyword in plot function to control color
+plt.plot(x,y,linestyle='magenta')
+
+# print figure
+plt.show()
+```
 
 ### Styling plots using format string
 the `plot` function accepts a format string as the 3rd input for specifying the line style in a single string.
@@ -87,5 +104,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4ODMyNTU2LC0xODYzODYyMTI2XX0=
+eyJoaXN0b3J5IjpbLTI2MDA0MDg3NCwtMTg2Mzg2MjEyNl19
 -->
