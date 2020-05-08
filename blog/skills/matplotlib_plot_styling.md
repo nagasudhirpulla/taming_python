@@ -54,7 +54,8 @@ plt.show()
 ```
 ![plot line style demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_plot_linestyle_demo.png)
 ### Markers
-marker parameter can be used to control the marker styling. marker strings can be found [here](https://matplotlib.org/2.1.1/api/markers_api.html#module-matplotlib.markers). For example, here we are using marker='p'
+marker parameter can be used to control the marker styling. For example, here we are using `marker='p'` to use pentagon marker. 
+Marker strings like the one used above can be found [here](https://matplotlib.org/2.1.1/api/markers_api.html#module-matplotlib.markers)
 ```python
 import matplotlib.pyplot as plt
 
@@ -65,7 +66,7 @@ y = [1, 4, 2, 3]
 fig, ax = plt.subplots()
 
 # using color keyword in plot function to control color
-plt.plot(x,y,marker=)
+plt.plot(x,y,marker='p')
 
 # print figure
 plt.show()
@@ -123,6 +124,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODUwMzM5NiwtMTM4MDA1MzcxMSwtMT
-g2Mzg2MjEyNl19
+eyJoaXN0b3J5IjpbMjE3MDUwOTMyLC0xMzgwMDUzNzExLC0xOD
+YzODYyMTI2XX0=
 -->
