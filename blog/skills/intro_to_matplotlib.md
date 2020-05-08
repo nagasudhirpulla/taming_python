@@ -14,9 +14,10 @@ Matplotlib is a plotting library in the scipy ecosystem of libraries.
 ### Installing matplotlib
 * Open command prompt and type ```pip install matplotlib```
 ![pip install matplotlib](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/install_matplotlib.png)
-### Basics
+### Anatomy of a matplotlib figure
 * A graph in matplotlib is called a **figure**
-* A matplotlib figure can have plot, axis, title, legend, ticks, tick labels, 
+* A matplotlib figure can have **plot, axis, title, legend, grid, ticks, tick labels, spines**
+* The figure below describes all the components of a matplotlib figure
 
 ![anatomy of a matplotlib figure](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/anatomy_of_matplotlib_figure.PNG)
 
@@ -32,6 +33,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5ODMwNTA1LC0xODIzNDE2NzU1LDUxMD
-UwOTc2OSwxMjIyODYwMjkwXX0=
+eyJoaXN0b3J5IjpbMTQ3MTYyMjM5OSwtMTgyMzQxNjc1NSw1MT
+A1MDk3NjksMTIyMjg2MDI5MF19
 -->
