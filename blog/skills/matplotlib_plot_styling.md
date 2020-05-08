@@ -35,7 +35,7 @@ plt.show()
 ```
 ![plot color demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_plot_color_demo.png)
 ### Line style
-we can use `'solid', ''`
+we can use `'solid', 'dashed',  'dashdot', 'dotted', 'None'` for line style
 ```python
 import matplotlib.pyplot as plt
 
@@ -46,7 +46,7 @@ y = [1, 4, 2, 3]
 fig, ax = plt.subplots()
 
 # using color keyword in plot function to control color
-plt.plot(x,y,linestyle='magenta')
+plt.plot(x,y,linestyle='dashed')
 
 # print figure
 plt.show()
@@ -104,5 +104,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDA0MDg3NCwtMTg2Mzg2MjEyNl19
+eyJoaXN0b3J5IjpbLTkxNTI1NTg4NCwtMTg2Mzg2MjEyNl19
 -->
