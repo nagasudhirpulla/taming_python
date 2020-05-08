@@ -27,11 +27,13 @@ y = [1, 4, 2, 3]
 # create a new figure and get figure, axes handle in return
 fig, ax = plt.subplots()
 
-# using color keyword in plot function to control 
+# using color keyword in plot function to control color
 plt.plot(x,y,color='magenta')
 
-
+# print figure
+plt.show()
 ```
+
 
 ### Styling plots using format string
 the `plot` function accepts a format string as the 3rd input for specifying the line style in a single string.
@@ -85,5 +87,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDk2NDc2OCwtMTg2Mzg2MjEyNl19
+eyJoaXN0b3J5IjpbLTE4OTc4NzAzNjcsLTE4NjM4NjIxMjZdfQ
+==
 -->
