@@ -76,7 +76,7 @@ y = [1, 4, 2, 3]
 fig, ax = plt.subplots()
 
 # using color keyword in plot function to control color
-plt.plot(x,y,marker='p', ms=5, mfc='magenta', mec='cyan', mew=1)
+plt.plot(x,y,marker='p', ms=15, mfc='magenta', mec='yellow', mew=3)
 
 # print figure
 plt.show()
@@ -134,6 +134,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2NjY2MzgsLTEzODAwNTM3MTEsLTE4Nj
-M4NjIxMjZdfQ==
+eyJoaXN0b3J5IjpbLTEzMDE5Nzg0OTQsLTEzODAwNTM3MTEsLT
+E4NjM4NjIxMjZdfQ==
 -->
