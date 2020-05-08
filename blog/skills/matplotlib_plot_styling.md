@@ -17,7 +17,9 @@ In this post we will try to understand how to control the styling of a Matplotli
 
 Please make sure that you covered the [post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 
-### Plot styles using format string
+### key 
+
+### format string to style plots
 the `plot` function accepts a format string as the 3rd input for specifying the line style in a single string.
 ```ax.plot([<x_vals>], [<y_vals>], <fmt>)```
 
@@ -69,5 +71,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4MTM2NzY5XX0=
+eyJoaXN0b3J5IjpbLTE4NjM4NjIxMjZdfQ==
 -->
