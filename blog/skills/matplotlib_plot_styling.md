@@ -21,7 +21,15 @@ Please make sure that you covered the [post on basics](https://nagasudhir.blogsp
 ```python
 import matplotlib.pyplot as plt
 
+x = [1, 2, 3, 4]
+y = [1, 4, 2, 3]
+
+# create a new figure and get figure, axes handle in return
 fig, ax = plt.subplots()
+
+# using color keyword in plot function to control 
+plt.plot(x,y,color='magenta')
+
 
 ```
 
@@ -77,5 +85,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTYyMTA1LC0xODYzODYyMTI2XX0=
+eyJoaXN0b3J5IjpbMTM5MDk2NDc2OCwtMTg2Mzg2MjEyNl19
 -->
