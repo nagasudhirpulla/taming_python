@@ -53,6 +53,24 @@ plt.plot(x,y,linestyle='dashed')
 plt.show()
 ```
 ![plot line style demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_plot_linestyle_demo.png)
+### Markers
+marker parameter can be used to control the marker styling
+```python
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4]
+y = [1, 4, 2, 3]
+
+# create a new figure and get figure, axes handle in return
+fig, ax = plt.subplots()
+
+# using color keyword in plot function to control color
+plt.plot(x,y,marker=)
+
+# print figure
+plt.show()
+```
+
 ### Styling plots using format string
 the `plot` function accepts a format string as the 3rd input for specifying the line style in a single string.
 ```ax.plot([<x_vals>], [<y_vals>], <fmt>)```
@@ -105,6 +123,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjgyNzQ5MiwtMTM4MDA1MzcxMSwtMT
+eyJoaXN0b3J5IjpbLTM2MTc4NzI3NiwtMTM4MDA1MzcxMSwtMT
 g2Mzg2MjEyNl19
 -->
