@@ -53,10 +53,14 @@ fig, ax = plt.subplots()
 ax.set_title('Multiple plots example')
 
 # set x and y labels
-ax.set_xlabel('X-axis ')
+ax.set_xlabel('this is X-axis')
+ax.set_ylabel('this is Y-axis')
 
-# plot some data
+# plot some data and get the line artist object in return
 la1, = ax.plot([0,4,8,12], [6,8,4,2])
+
+# set label to line artist object for legend
+la1.set_label('First Plot')
 
 # plot again
 ax.plot([0,3,9,12,15,18], [2,1,9,6,4,3])
@@ -85,6 +89,6 @@ luIGEgc2FtZSBzdWJwbG90IHVzaW5nIE1hdHBsb3RsaWJcbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 UtMDknXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3Jp
 YWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOi
-B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTg0
-NzgzNDE1MSwtMTY5Mzg3NzI5Ml19
+B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTA2
+NTIyNTE3OCwtMTY5Mzg3NzI5Ml19
 -->
