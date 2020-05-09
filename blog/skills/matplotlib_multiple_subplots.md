@@ -39,6 +39,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 ### References
 *  subplot layouts official guide - https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html
+* another post - https://towardsdatascience.com/data-visualization-using-matplotlib-16f1aae5ce70
 * Examples gallery - https://matplotlib.org/gallery/index.html
 
 <hr/>
@@ -53,6 +54,7 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTczNTE0
-NjY2MiwxMzIzNDMzMjQ3LDMwNzkwNDU3Ml19
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTQ2MTkx
+NzU0NiwtNzM1MTQ2NjYyLDEzMjM0MzMyNDcsMzA3OTA0NTcyXX
+0=
 -->
