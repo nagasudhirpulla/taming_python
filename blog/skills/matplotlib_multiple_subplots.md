@@ -101,7 +101,8 @@ fig, ax = plt.subplots()
 ax.plot([1,2,3],[9,5,4])
 
 # create an inset axes
-# at 
+# here the 4 numbers of the array indicate the position of the inset axes
+# in the form of left
 axins = ax.inset_axes([0.5, 0.5, 0.47, 0.47])
 axins.plot([7,8,9],[2,8,6])
 
@@ -139,9 +140,9 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE5NjY5
-NzAwNDAsLTk3MDMwMTk0MiwtMTQzMTk4NjU1MCwtMTI2ODM3Mj
-M5NywtNTA2NTEzODU1LC04MTA4MTQ4MDIsLTU2MDE3MzI4MCwt
-NzY1ODA0NTAxLDE0NjE5MTc1NDYsLTczNTE0NjY2MiwxMzIzND
-MzMjQ3LDMwNzkwNDU3Ml19
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTIzNzE1
+MzQ1NywtOTcwMzAxOTQyLC0xNDMxOTg2NTUwLC0xMjY4MzcyMz
+k3LC01MDY1MTM4NTUsLTgxMDgxNDgwMiwtNTYwMTczMjgwLC03
+NjU4MDQ1MDEsMTQ2MTkxNzU0NiwtNzM1MTQ2NjYyLDEzMjM0Mz
+MyNDcsMzA3OTA0NTcyXX0=
 -->
