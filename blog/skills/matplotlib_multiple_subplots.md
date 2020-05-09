@@ -28,7 +28,13 @@ import matplotlib.pyplot as plt
 # constrained_layout parameter takes care of proper spacing
 fig, axs = plt.subplots(nrows=3,ncols=2,constrained_layout=True)
 
-axs[0][0].plot()
+axs[0][0].set_title('0,0 position')
+axs[0][1].set_title('0,1 position')
+axs[1][0].set_title('1,0 position')
+axs[1][1].set_title('1,1 position')
+axs[2][0].set_title('2,0 position')
+axs[2][1].set_title('2,1 position')
+
 ```
 
 Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots for detailed and in depth explanation covering many use cases
@@ -61,7 +67,7 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbODk0Mzk1
-MDQ2LDE0NjE5MTc1NDYsLTczNTE0NjY2MiwxMzIzNDMzMjQ3LD
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTUzODgx
+OTcyLDE0NjE5MTc1NDYsLTczNTE0NjY2MiwxMzIzNDMzMjQ3LD
 MwNzkwNDU3Ml19
 -->
