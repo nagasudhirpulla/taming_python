@@ -155,6 +155,9 @@ A similar function is [iloc](https://nagasudhir.blogspot.com/2020/05/using-iloc-
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
+### You can practice here
+
+
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html
 * https://www.w3resource.com/pandas/dataframe/dataframe-iloc.php
@@ -171,6 +174,7 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlsxMzg2Mzk2ODYwLC0xODQ3Mjg2OTY1LC0xNzA1NjY4
-NTA1LC02NzE2NDAzNzksLTg4MjQxMjQwLDgwNTQ4NDgxM119
+RvcnkiOlstMjEwNDEyOTYwNSwxMzg2Mzk2ODYwLC0xODQ3Mjg2
+OTY1LC0xNzA1NjY4NTA1LC02NzE2NDAzNzksLTg4MjQxMjQwLD
+gwNTQ4NDgxM119
 -->
