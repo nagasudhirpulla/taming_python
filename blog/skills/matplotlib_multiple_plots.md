@@ -29,7 +29,13 @@ import matplotlib.pyplot as plt
 fig, ax = plt.subplot()
 
 # plot some data
-ax.plot([1,5,9,4], [6,8,4,21])
+ax.plot([1,5,9,4], [6,8,4,2,1])
+
+# plot again
+ax.plot([4,9,3,7,1,5], [2,1,9,6,4,3])
+
+# print plot
+plt.show()
 ```
 
 
@@ -53,6 +59,6 @@ luIGEgc2FtZSBzdWJwbG90IHVzaW5nIE1hdHBsb3RsaWJcbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 UtMDknXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3Jp
 YWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOi
-B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEx
-MDE0OTgxNDYsLTE2OTM4NzcyOTJdfQ==
+B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE4
+OTEzNzQ3MjAsLTE2OTM4NzcyOTJdfQ==
 -->
