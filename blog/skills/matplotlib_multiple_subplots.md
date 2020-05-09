@@ -68,10 +68,10 @@ ax1 = fig.add_subplot(gspec[1, :-1])
 # set subplot title
 ax1.set_title('gspec[1, :-1]')
 
-# create a subplot in 1st row but occupying all the columns leaving the last column
-ax1 = fig.add_subplot(gspec[1, :-1])
+# create a subplot in 1st till end rows and last column
+ax2 = fig.add_subplot(gs[1:, -1])
 # set subplot title
-ax1.set_title('gspec[1, :-1]')
+ax2.set_title('gs[1:, -1]')
 ```
 
 Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots for detailed and in depth explanation covering many use cases
@@ -104,7 +104,7 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTU2MDE3
-MzI4MCwtNzY1ODA0NTAxLDE0NjE5MTc1NDYsLTczNTE0NjY2Mi
-wxMzIzNDMzMjQ3LDMwNzkwNDU3Ml19
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTY0MDI1
+OTg1NiwtNTYwMTczMjgwLC03NjU4MDQ1MDEsMTQ2MTkxNzU0Ni
+wtNzM1MTQ2NjYyLDEzMjM0MzMyNDcsMzA3OTA0NTcyXX0=
 -->
