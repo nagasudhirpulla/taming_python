@@ -24,9 +24,11 @@ In this post we will learn how to plot multiple subplots on a single Matplotlib 
 import matplotlib.pyplot as plt
 
 # suppose we want a figure with 3 rows 2 columns
-# use nrows, ncols iputs
+# use nrows, ncols inputs to control the rows and columns of subplots
+# constrained_layout parameter takes care of proper spacing
 fig, axs = plt.subplots(nrows=3,ncols=2,constrained_layout=True)
 
+axs[0][0].plot
 ```
 
 Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots for detailed and in depth explanation covering many use cases
@@ -59,7 +61,7 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTkwNjE5
-MTM5MSwxNDYxOTE3NTQ2LC03MzUxNDY2NjIsMTMyMzQzMzI0Ny
-wzMDc5MDQ1NzJdfQ==
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEwNDA1
+NTUwMzUsMTQ2MTkxNzU0NiwtNzM1MTQ2NjYyLDEzMjM0MzMyND
+csMzA3OTA0NTcyXX0=
 -->
