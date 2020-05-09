@@ -17,8 +17,6 @@ In this post we will try to understand how to create multiple plots in the same 
 
 Please make sure that you covered the [post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 
-In this post we will learn how to plot multiple plots on a single subplot
-
 <hr/>
 
 ### Example
@@ -105,6 +103,7 @@ luIGEgc2FtZSBzdWJwbG90IHVzaW5nIE1hdHBsb3RsaWJcbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 UtMDknXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3Jp
 YWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOi
-B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTUw
-MDA1OTMxLC03MzEzMTE1MCwtMTY5Mzg3NzI5Ml19
+B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTY4
+Njk1MDUxMSwtNTAwMDU5MzEsLTczMTMxMTUwLC0xNjkzODc3Mj
+kyXX0=
 -->
