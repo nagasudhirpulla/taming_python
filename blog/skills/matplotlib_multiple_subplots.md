@@ -53,7 +53,11 @@ import matplotlib.pyplot as plt
 # just create the figure first and get the figure handle, we will add subplots later
 fig = plt.figure(constrained_layout=True)
 
+# create a grid spec for 3 rows and 3 columns
 gspec = fig.add_gridspec(nrows=3, ncols=3)
+
+# create a subplot in 0th row but occupying all the columns
+ax0 = fig.add_subplot()
 ```
 
 Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots for detailed and in depth explanation covering many use cases
@@ -86,7 +90,7 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTcxMTA1
-OTk3LC03NjU4MDQ1MDEsMTQ2MTkxNzU0NiwtNzM1MTQ2NjYyLD
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNzQ0MjQ5
+MjQ3LC03NjU4MDQ1MDEsMTQ2MTkxNzU0NiwtNzM1MTQ2NjYyLD
 EzMjM0MzMyNDcsMzA3OTA0NTcyXX0=
 -->
