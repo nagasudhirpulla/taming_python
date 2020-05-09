@@ -130,7 +130,8 @@ This code can be run in Visual Studio Code as shown below. Make sure the xlsx fi
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
-### You can practice
+### You can practice here
+<iframe height="800px" width="100%" src="https://repl.it/repls/WeirdUnknownDribbleware?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
@@ -147,7 +148,7 @@ UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
 bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLT
-IwNDU3NjcxMjYsLTc0MzkyNjMzMSwzMTI3MjU1NTksMTYwNDE3
+E5ODc2MzgyNDMsLTc0MzkyNjMzMSwzMTI3MjU1NTksMTYwNDE3
 NjQzOSwtNDc1NTg5NzY3LDU5ODY3MjgyMiw3NDgxMDI1NCwtMT
 Q1ODI0NTA4NywtMTA0NjIxMzg1OSwtMTAyMzEzNTYxOCwyMDIy
 OTExOTEsMTcxMzU3ODgzLC0zNDg0MzMwODcsNTM4Mzc1MjcyLD
