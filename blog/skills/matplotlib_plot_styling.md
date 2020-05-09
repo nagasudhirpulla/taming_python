@@ -123,8 +123,11 @@ For more styling options an in depth understanding of styling please check out t
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
+### Color example
 <iframe src="https://trinket.io/embed/python3/026c5476b1" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
+### Line style example
+<iframe src="https://trinket.io/embed/python3/28a9eb549a" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 
@@ -144,7 +147,7 @@ xpYiBQbG90c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5k
 YXRlOiAnMjAyMC0wNS0wOCdcbnRhZ3M6ICdweXRob24sIGxlYX
 JuaW5nLCB0dXRvcmlhbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOlsxOTkxMzk3ODI1LDU3NjY5Mjg5NCwtMzI4ODU3
+hpc3RvcnkiOlstMjk3MjQ2ODY4LDU3NjY5Mjg5NCwtMzI4ODU3
 MTA5LDMyMTQwMDYxMCwtMTM4MDA1MzcxMSwtMTg2Mzg2MjEyNl
 19
 -->
