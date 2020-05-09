@@ -50,7 +50,7 @@ If the size of all the subplots in the grid is not same, then we need to use the
 ```python
 import matplotlib.pyplot as plt
 
-# create the figure first and get the figure handle, we will add subplots later
+# create the figure and get the figure handle
 fig = plt.figure(constrained_layout=True)
 
 # create a grid spec for 3 rows and 3 columns
@@ -95,10 +95,10 @@ Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
 ### grid of subplots example
-<iframe height="400px" width="100%" src="https://repl.it/repls/WryGummyMemwatch?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="800px" width="100%" src="https://repl.it/repls/WryGummyMemwatch?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-### Styled multiple plots example
-<iframe src="https://trinket.io/embed/python3/93046401c2" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+### uneven subplots grid example
+<iframe height="800px" width="100%" src="https://repl.it/repls/OutlandishSilentPoints?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 *  subplot layouts official guide - https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html
@@ -117,8 +117,8 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNDc4NjEz
-MTQxLC04MTA4MTQ4MDIsLTU2MDE3MzI4MCwtNzY1ODA0NTAxLD
-E0NjE5MTc1NDYsLTczNTE0NjY2MiwxMzIzNDMzMjQ3LDMwNzkw
-NDU3Ml19
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEzODE3
+MTUyMzEsLTgxMDgxNDgwMiwtNTYwMTczMjgwLC03NjU4MDQ1MD
+EsMTQ2MTkxNzU0NiwtNzM1MTQ2NjYyLDEzMjM0MzMyNDcsMzA3
+OTA0NTcyXX0=
 -->
