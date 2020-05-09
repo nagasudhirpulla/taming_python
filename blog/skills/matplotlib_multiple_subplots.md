@@ -72,6 +72,11 @@ ax1.set_title('gspec[1, :-1]')
 ax2 = fig.add_subplot(gspec[1:, -1])
 # set subplot title
 ax2.set_title('gspec[1:, -1]')
+
+# create a subplot in 
+ax3 = fig.add_subplot(gspec[-1, 0])
+# set subplot title
+ax3.set_title('gspec[-1, 0]')
 ```
 
 Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots for detailed and in depth explanation covering many use cases
@@ -104,7 +109,8 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTgxMDgx
-NDgwMiwtNTYwMTczMjgwLC03NjU4MDQ1MDEsMTQ2MTkxNzU0Ni
-wtNzM1MTQ2NjYyLDEzMjM0MzMyNDcsMzA3OTA0NTcyXX0=
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMjgwNTI5
+Nzg1LC04MTA4MTQ4MDIsLTU2MDE3MzI4MCwtNzY1ODA0NTAxLD
+E0NjE5MTc1NDYsLTczNTE0NjY2MiwxMzIzNDMzMjQ3LDMwNzkw
+NDU3Ml19
 -->
