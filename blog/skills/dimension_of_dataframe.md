@@ -44,6 +44,8 @@ Number of columns = 3
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
+### You can p
+
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
 <hr/>
@@ -57,5 +59,5 @@ RhdGFGcmFtZVxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl
 9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tp
 bGxcbmRhdGU6ICcyMDIwLTA1LTA0J1xuIiwiaGlzdG9yeSI6Wy
-0xMTYyNjM1MTVdfQ==
+0xMjI5ODgyMDYxLC0xMTYyNjM1MTVdfQ==
 -->
