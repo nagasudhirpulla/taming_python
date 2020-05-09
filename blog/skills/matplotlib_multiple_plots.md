@@ -84,6 +84,12 @@ plt.show()
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
+### Multiple plots example
+<iframe src="https://trinket.io/embed/python3/3bc5748621" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+### Styled multiple plots example
+<iframe src="https://trinket.io/embed/python3/93046401c2" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 ### References
 *  plot function API - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
 * Examples gallery - https://matplotlib.org/gallery/index.html
@@ -99,6 +105,6 @@ luIGEgc2FtZSBzdWJwbG90IHVzaW5nIE1hdHBsb3RsaWJcbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 UtMDknXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3Jp
 YWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOi
-B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE5
-Njk3NTUwMjcsLTczMTMxMTUwLC0xNjkzODc3MjkyXX0=
+B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTUw
+MDA1OTMxLC03MzEzMTE1MCwtMTY5Mzg3NzI5Ml19
 -->
