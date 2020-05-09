@@ -42,6 +42,9 @@ z = x + y
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
+### You can practice here
+<iframe height="800px" width="100%" src="https://repl.it/repls/BurlywoodLeftSection?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 <hr/>
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
@@ -51,6 +54,6 @@ b25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5
-IjpbNjI0NjUwOTk3LC0zNzk3MTc1NzYsNTQ2OTc4NTE3LDYxND
+IjpbMzMwNzIzNDY4LC0zNzk3MTc1NzYsNTQ2OTc4NTE3LDYxND
 ExNDQ0MiwxMjg2MjI1MTk2XX0=
 -->
