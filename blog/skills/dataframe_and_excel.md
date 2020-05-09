@@ -129,6 +129,8 @@ x.to_excel(r'C:\Users\Nagasudhir\Documents\Python Projects\taming_python\data.xl
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
+### You can practice here
+
 <iframe height="400px" width="100%" src="https://repl.it/repls/UnfitUnsteadyExpertise?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
@@ -149,8 +151,8 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlsxMDg4MDQxOTAwLDEzMzk1NjQ1NDMs
-LTExNDg1NzkzMDEsLTIwMTIxNTk3MzMsMTU5OTc2NDUwMywtOD
-g3ODI5Mzk1LDE3NTk0NTE1ODEsNjEyOTM3MTI5LDEyNjI4NDU1
-MDZdfQ==
+dcbiIsImhpc3RvcnkiOls0NzM4NTgwOTMsMTMzOTU2NDU0Mywt
+MTE0ODU3OTMwMSwtMjAxMjE1OTczMywxNTk5NzY0NTAzLC04OD
+c4MjkzOTUsMTc1OTQ1MTU4MSw2MTI5MzcxMjksMTI2Mjg0NTUw
+Nl19
 -->
