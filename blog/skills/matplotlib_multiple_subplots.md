@@ -49,13 +49,11 @@ plt.show()
 If the size of all the subplots in the grid is not same, then we need to use the `GridSpec` api to control how many rows and column each subplot will occupy in the subplot grid.
 ```python
 import matplotlib.pyplot as plt
-# import gridspec module additionally
-import matplotlib.gridspec as gridspec
 
 # just create the figure first and get the figure handle, we will add subplots later
 fig = plt.figure(constrained_layout=True)
 
-gspec = gridspe.GridSpec(nrows=)
+gspec = fig.add_gridspec(nrows=3, ncols=3)
 ```
 
 Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots for detailed and in depth explanation covering many use cases
@@ -88,7 +86,7 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTExMTkz
-MTYzMDMsLTc2NTgwNDUwMSwxNDYxOTE3NTQ2LC03MzUxNDY2Nj
-IsMTMyMzQzMzI0NywzMDc5MDQ1NzJdfQ==
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTcxMTA1
+OTk3LC03NjU4MDQ1MDEsMTQ2MTkxNzU0NiwtNzM1MTQ2NjYyLD
+EzMjM0MzMyNDcsMzA3OTA0NTcyXX0=
 -->
