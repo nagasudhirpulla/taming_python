@@ -63,6 +63,10 @@ Notice that the type of `kharData` is Series and the type of `filteredDf` is Dat
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
+### You can practice here
+
+
+
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/03_subset_data.html#min-tut-03-subset
 
@@ -78,5 +82,6 @@ JhbWUgY29sdW1uc1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxh
 XG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dG
 hvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25f
 c2tpbGxcbmRhdGU6ICcyMDIwLTA1LTA2J1xuIiwiaGlzdG9yeS
-I6WzIwOTc3NjU5NjksOTkwNTU1MTIsLTY1MzIxMjc3OV19
+I6WzEyODYyMzQzOCwyMDk3NzY1OTY5LDk5MDU1NTEyLC02NTMy
+MTI3NzldfQ==
 -->
