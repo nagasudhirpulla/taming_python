@@ -124,6 +124,9 @@ print(x[2:-1])
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
+### You can practice here
+
+
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -132,8 +135,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzU5ODQzMzgsMj
-A5MTY5Mjg1OSw2NTE2Njk1MDEsLTI5MTE2NDg0MywtMjA2MDU3
-Mjc2MiwtMjAxNTc2NDA3MiwtNTcwNzEwOTc5LC0xNTc3NTgyNz
-kwLC0xMTUzODY4OTY5XX0=
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzE1MDUxMjczOD
+ksMjA5MTY5Mjg1OSw2NTE2Njk1MDEsLTI5MTE2NDg0MywtMjA2
+MDU3Mjc2MiwtMjAxNTc2NDA3MiwtNTcwNzEwOTc5LC0xNTc3NT
+gyNzkwLC0xMTUzODY4OTY5XX0=
 -->
