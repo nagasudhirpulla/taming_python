@@ -134,6 +134,9 @@ print(x.rfind(' is'))
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
+### You can practice here
+<iframe height="800px" width="100%" src="https://repl.it/repls/TediousComplexClick?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -142,8 +145,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFN0cmluZ3MgaW4gcHl0aG
 9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICds
 ZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1
 xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0
-ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbLTIzMjQ0OD
-Q1OSw1NTI4MzA4MzUsMTE5MzE2MzEyOCwtNTEzMDk1NzI4LDE4
-MTgwNTQyNDUsMTI2NDQ4MDg4MiwxNDY5OTgwMjQxLC00MTI0Mj
-AwMjYsMTE4MzI5MTMyMV19
+ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbLTE1NDczMT
+gxMDgsNTUyODMwODM1LDExOTMxNjMxMjgsLTUxMzA5NTcyOCwx
+ODE4MDU0MjQ1LDEyNjQ0ODA4ODIsMTQ2OTk4MDI0MSwtNDEyND
+IwMDI2LDExODMyOTEzMjFdfQ==
 -->
