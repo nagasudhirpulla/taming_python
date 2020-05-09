@@ -93,13 +93,12 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 
-
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IE11bHRpcGxlIFBsb3RzIG
 luIGEgc2FtZSBzdWJwbG90IHVzaW5nIE1hdHBsb3RsaWJcbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 UtMDknXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3Jp
 YWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOi
-B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEx
-MTUzODQ5OTcsLTczMTMxMTUwLC0xNjkzODc3MjkyXX0=
+B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE5
+Njk3NTUwMjcsLTczMTMxMTUwLC0xNjkzODc3MjkyXX0=
 -->
