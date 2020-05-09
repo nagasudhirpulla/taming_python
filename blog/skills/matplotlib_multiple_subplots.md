@@ -56,7 +56,7 @@ fig = plt.figure(constrained_layout=True)
 # create a grid spec for 3 rows and 3 columns
 gspec = fig.add_gridspec(nrows=3, ncols=3)
 
-# set the title for the whole figure
+# set title for the whole figure
 fig.suptitle('Uneven subplots grid example')
 
 # create a subplot in 0th row but occupying all the columns
@@ -120,8 +120,8 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTQ2Nzg4
-NzI2NiwtNTA2NTEzODU1LC04MTA4MTQ4MDIsLTU2MDE3MzI4MC
-wtNzY1ODA0NTAxLDE0NjE5MTc1NDYsLTczNTE0NjY2MiwxMzIz
-NDMzMjQ3LDMwNzkwNDU3Ml19
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEyNjgz
+NzIzOTcsLTUwNjUxMzg1NSwtODEwODE0ODAyLC01NjAxNzMyOD
+AsLTc2NTgwNDUwMSwxNDYxOTE3NTQ2LC03MzUxNDY2NjIsMTMy
+MzQzMzI0NywzMDc5MDQ1NzJdfQ==
 -->
