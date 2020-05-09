@@ -71,9 +71,6 @@ la2.set_label('Second Plot')
 # set a marker style
 la2.set_marker('o')
 
-# set marker size
-la2.set_markersize(15)
-
 # enable legends
 ax.legend()
 
@@ -101,6 +98,6 @@ luIGEgc2FtZSBzdWJwbG90IHVzaW5nIE1hdHBsb3RsaWJcbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 UtMDknXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3Jp
 YWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOi
-B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbOTUx
-NTAxNDM5LC0xNjkzODc3MjkyXX0=
+B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMzU3
+MzM0ODEsLTE2OTM4NzcyOTJdfQ==
 -->
