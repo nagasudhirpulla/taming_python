@@ -46,7 +46,7 @@ plt.show()
 ```
 ![basic subplots grid output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_subplots_grid.PNG)
 ### Grid of subplots with uneven sizes
-
+If the size of all the subplots in the grid is not same, then we need to use the `GridSpec` api to control how many rows and column each subplot will occupy in the subplot grid.
 
 Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots for detailed and in depth explanation covering many use cases
 
@@ -78,7 +78,7 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbODQ2NjE4
-Mzc5LC03NjU4MDQ1MDEsMTQ2MTkxNzU0NiwtNzM1MTQ2NjYyLD
-EzMjM0MzMyNDcsMzA3OTA0NTcyXX0=
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMjA4NjI1
+NjE5NiwtNzY1ODA0NTAxLDE0NjE5MTc1NDYsLTczNTE0NjY2Mi
+wxMzIzNDMzMjQ3LDMwNzkwNDU3Ml19
 -->
