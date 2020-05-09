@@ -67,6 +67,9 @@ I would also like to point out that in the [anatomy of figure](https://matplotli
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
+### Basic Plot Example
+<iframe src="https://trinket.io/embed/python3/b3c8e34720" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 ### References
 * Examples gallery - https://matplotlib.org/gallery/index.html
 * medium post - https://towardsdatascience.com/data-visualization-using-matplotlib-16f1aae5ce70
@@ -81,9 +84,10 @@ RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMDgnXG50YWdzOiAncHl0aG9uLCBsZWFybmluZy
 wgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbLTIxMTQ4NDc1MjMsMzI0MzM4ODM4LC0xNzEyNjA0NDIs
-MTIyMDY5MzYyNywyMTQ0MzE0OTc2LC03MTMzODQxMTcsNzY1MT
-Q2MDg3LDMzMjI4NzQ0NSwxNDY2OTA1NTkwLDE5NzU4NzY5NjQs
-LTEwOTAwMjM5OTAsLTI3ODU0NDAzNSwtMjA1NTMwNTY0NSwtMT
-gyMzQxNjc1NSw1MTA1MDk3NjksMTIyMjg2MDI5MF19
+J5IjpbNTk1OTc1Mjg3LC0yMTE0ODQ3NTIzLDMyNDMzODgzOCwt
+MTcxMjYwNDQyLDEyMjA2OTM2MjcsMjE0NDMxNDk3NiwtNzEzMz
+g0MTE3LDc2NTE0NjA4NywzMzIyODc0NDUsMTQ2NjkwNTU5MCwx
+OTc1ODc2OTY0LC0xMDkwMDIzOTkwLC0yNzg1NDQwMzUsLTIwNT
+UzMDU2NDUsLTE4MjM0MTY3NTUsNTEwNTA5NzY5LDEyMjI4NjAy
+OTBdfQ==
 -->
