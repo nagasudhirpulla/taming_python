@@ -89,7 +89,7 @@ ax4.set_title('gspec[-1, -2]')
 # print the figure
 plt.show()
 ```
-
+![uneven subplots grid output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/uneven_subplots_grid.PNG)
 Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots for detailed and in depth explanation covering many use cases
 
 <hr/>
@@ -120,8 +120,8 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEyNjgz
-NzIzOTcsLTUwNjUxMzg1NSwtODEwODE0ODAyLC01NjAxNzMyOD
-AsLTc2NTgwNDUwMSwxNDYxOTE3NTQ2LC03MzUxNDY2NjIsMTMy
-MzQzMzI0NywzMDc5MDQ1NzJdfQ==
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE0MzE5
+ODY1NTAsLTEyNjgzNzIzOTcsLTUwNjUxMzg1NSwtODEwODE0OD
+AyLC01NjAxNzMyODAsLTc2NTgwNDUwMSwxNDYxOTE3NTQ2LC03
+MzUxNDY2NjIsMTMyMzQzMzI0NywzMDc5MDQ1NzJdfQ==
 -->
