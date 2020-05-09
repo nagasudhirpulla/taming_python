@@ -21,61 +21,10 @@ In this post we will learn how to plot multiple subplots on a single Matplotlib 
 
 ### Creating a grid of subplots
 ```python
-import matplotlib.pyplot as plt
 
-# create a plotting area and get the figure, axes handle in return
-fig, ax = plt.subplots()
-
-# plot some data
-ax.plot([0,4,8,12], [6,8,4,2])
-
-# plot again
-ax.plot([0,3,9,12,15,18], [2,1,9,6,4,3])
-
-# print plot
-plt.show()
 ```
-![basic multiple plots output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_multiple_plots.png)
-So just by calling `plot` function on a single axes handle, we can add any number of plots to a single subplot.
 
-### More styled example
-This example is the same as above, but adds some extra styling.
-Please make sure you covered the [styling plots](https://nagasudhir.blogspot.com/2020/05/styling-matplotlib-plots.html) post in order to understand this code.
-```python
-import matplotlib.pyplot as plt
-
-# create a plotting area and get the figure, axes handle in return
-fig, ax = plt.subplots()
-
-# set plot title
-ax.set_title('Multiple plots example')
-
-# set x and y labels
-ax.set_xlabel('this is X-axis')
-ax.set_ylabel('this is Y-axis')
-
-# plot some data and get the line artist object in return
-la1, = ax.plot([0,4,8,12], [6,8,4,2], color='#de689f')
-
-# set label to line artist object for legend
-la1.set_label('First Plot')
-
-# plot again and get the line artist object in return
-la2, = ax.plot([0,3,9,12,15,18], [2,1,9,6,4,3], color='#a155b9')
-
-# set label to line artist object for legend
-la2.set_label('Second Plot')
-
-# set a marker style
-la2.set_marker('o')
-
-# enable legends
-ax.legend()
-
-# print plot
-plt.show()
-```
-![styled basic multiple plots output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_multiple_plots_styled.png)
+Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots
 
 <hr/>
 
@@ -104,6 +53,6 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTMyMzQz
-MzI0NywzMDc5MDQ1NzJdfQ==
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEwMTQ5
+MDM1ODcsMTMyMzQzMzI0NywzMDc5MDQ1NzJdfQ==
 -->
