@@ -101,10 +101,13 @@ fig, ax = plt.subplots()
 ax.plot([1,2,3],[9,5,4])
 
 # create an inset axes
-# here the 4 numbers of the array indicate the position of the inset axes
-# in the form of Lower-left corner of inset axes, and its width and height.
+# the input array specifies the sizing and position of the inset axes
+# in the form of lower-left corner coordinates of inset axes, and its width and height respectively as a fraction of original axes
 axins = ax.inset_axes([0.4, 0.5, 0.47, 0.47])
 axins.plot([7,8,9],[2,8,6])
+
+# set ti
+axins.set_title('')
 
 plt.show()
 ```
@@ -140,9 +143,9 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMjExNTAw
-NjcxNywtOTcwMzAxOTQyLC0xNDMxOTg2NTUwLC0xMjY4MzcyMz
-k3LC01MDY1MTM4NTUsLTgxMDgxNDgwMiwtNTYwMTczMjgwLC03
-NjU4MDQ1MDEsMTQ2MTkxNzU0NiwtNzM1MTQ2NjYyLDEzMjM0Mz
-MyNDcsMzA3OTA0NTcyXX0=
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNDAwNzcw
+NjkzLC05NzAzMDE5NDIsLTE0MzE5ODY1NTAsLTEyNjgzNzIzOT
+csLTUwNjUxMzg1NSwtODEwODE0ODAyLC01NjAxNzMyODAsLTc2
+NTgwNDUwMSwxNDYxOTE3NTQ2LC03MzUxNDY2NjIsMTMyMzQzMz
+I0NywzMDc5MDQ1NzJdfQ==
 -->
