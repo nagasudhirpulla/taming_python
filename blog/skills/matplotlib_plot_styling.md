@@ -130,6 +130,11 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 <iframe src="https://trinket.io/embed/python3/28a9eb549a" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
+### Markers example
+<iframe src="https://trinket.io/embed/python3/77771190ab" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+### Format string example
+<iframe src="https://trinket.io/embed/python3/09f1cdf07b" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### References
 * plot function API - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
@@ -147,7 +152,7 @@ xpYiBQbG90c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5k
 YXRlOiAnMjAyMC0wNS0wOCdcbnRhZ3M6ICdweXRob24sIGxlYX
 JuaW5nLCB0dXRvcmlhbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOlstMjk3MjQ2ODY4LDU3NjY5Mjg5NCwtMzI4ODU3
-MTA5LDMyMTQwMDYxMCwtMTM4MDA1MzcxMSwtMTg2Mzg2MjEyNl
-19
+hpc3RvcnkiOls0ODY5MTcyNjMsNTc2NjkyODk0LC0zMjg4NTcx
+MDksMzIxNDAwNjEwLC0xMzgwMDUzNzExLC0xODYzODYyMTI2XX
+0=
 -->
