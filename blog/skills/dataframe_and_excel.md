@@ -129,6 +129,8 @@ x.to_excel(r'C:\Users\Nagasudhir\Documents\Python Projects\taming_python\data.xl
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
+<iframe height="400px" width="100%" src="https://repl.it/repls/UnfitUnsteadyExpertise?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
 * *read_excel* documentation - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html
@@ -147,7 +149,8 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlsxMzM5NTY0NTQzLC0xMTQ4NTc5MzAx
-LC0yMDEyMTU5NzMzLDE1OTk3NjQ1MDMsLTg4NzgyOTM5NSwxNz
-U5NDUxNTgxLDYxMjkzNzEyOSwxMjYyODQ1NTA2XX0=
+dcbiIsImhpc3RvcnkiOlsxMDg4MDQxOTAwLDEzMzk1NjQ1NDMs
+LTExNDg1NzkzMDEsLTIwMTIxNTk3MzMsMTU5OTc2NDUwMywtOD
+g3ODI5Mzk1LDE3NTk0NTE1ODEsNjEyOTM3MTI5LDEyNjI4NDU1
+MDZdfQ==
 -->
