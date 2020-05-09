@@ -130,6 +130,8 @@ This code can be run in Visual Studio Code as shown below. Make sure the xlsx fi
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
+### You can 
+
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
 * https://www.geeksforgeeks.org/python-pandas-dataframe/
@@ -144,9 +146,10 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFBhbmRhcyBEYXRhRnJhbW
 UgQmFzaWNzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRh
 Z3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3
 NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMz
-EyNzI1NTU5LDE2MDQxNzY0MzksLTQ3NTU4OTc2Nyw1OTg2NzI4
-MjIsNzQ4MTAyNTQsLTE0NTgyNDUwODcsLTEwNDYyMTM4NTksLT
-EwMjMxMzU2MTgsMjAyMjkxMTkxLDE3MTM1Nzg4MywtMzQ4NDMz
-MDg3LDUzODM3NTI3Miw3MDgyMzg5NDEsNzMwOTk4MTE2XX0=
+bFxuZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLT
+c0MzkyNjMzMSwzMTI3MjU1NTksMTYwNDE3NjQzOSwtNDc1NTg5
+NzY3LDU5ODY3MjgyMiw3NDgxMDI1NCwtMTQ1ODI0NTA4NywtMT
+A0NjIxMzg1OSwtMTAyMzEzNTYxOCwyMDIyOTExOTEsMTcxMzU3
+ODgzLC0zNDg0MzMwODcsNTM4Mzc1MjcyLDcwODIzODk0MSw3Mz
+A5OTgxMTZdfQ==
 -->
