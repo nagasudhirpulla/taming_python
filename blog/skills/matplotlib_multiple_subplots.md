@@ -79,9 +79,9 @@ ax3 = fig.add_subplot(gspec[-1, 0])
 ax3.set_title('gspec[-1, 0]')
 
 # create a subplot in last row, 2nd last column
-ax3 = fig.add_subplot(gspec[-1, -2])
+ax4 = fig.add_subplot(gspec[-1, -2])
 # set subplot title
-ax3.set_title('gspec[-1, -2]')
+ax4.set_title('gspec[-1, -2]')
 
 # print the figure
 plt.show()
@@ -117,8 +117,8 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEzODE3
-MTUyMzEsLTgxMDgxNDgwMiwtNTYwMTczMjgwLC03NjU4MDQ1MD
-EsMTQ2MTkxNzU0NiwtNzM1MTQ2NjYyLDEzMjM0MzMyNDcsMzA3
-OTA0NTcyXX0=
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTUwNjUx
+Mzg1NSwtODEwODE0ODAyLC01NjAxNzMyODAsLTc2NTgwNDUwMS
+wxNDYxOTE3NTQ2LC03MzUxNDY2NjIsMTMyMzQzMzI0NywzMDc5
+MDQ1NzJdfQ==
 -->
