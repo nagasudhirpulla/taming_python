@@ -156,7 +156,7 @@ A similar function is [iloc](https://nagasudhir.blogspot.com/2020/05/using-iloc-
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### You can practice here
-
+<iframe height="800px" width="100%" src="https://repl.it/repls/LargeFrillyBundledsoftware?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html
@@ -174,7 +174,7 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlstMjEwNDEyOTYwNSwxMzg2Mzk2ODYwLC0xODQ3Mjg2
-OTY1LC0xNzA1NjY4NTA1LC02NzE2NDAzNzksLTg4MjQxMjQwLD
-gwNTQ4NDgxM119
+RvcnkiOlsyMTEwMTQzNTg0LC0yMTA0MTI5NjA1LDEzODYzOTY4
+NjAsLTE4NDcyODY5NjUsLTE3MDU2Njg1MDUsLTY3MTY0MDM3OS
+wtODgyNDEyNDAsODA1NDg0ODEzXX0=
 -->
