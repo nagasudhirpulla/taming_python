@@ -114,7 +114,6 @@ axins.set_title('Inset Plot')
 plt.show()
 ```
 
-
 Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots for detailed and in depth explanation covering many use cases
 
 <hr/>
@@ -127,6 +126,9 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 ### uneven subplots grid example
 <iframe height="800px" width="100%" src="https://repl.it/repls/OutlandishSilentPoints?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+### inset plot example
+<iframe height="800px" width="100%" src="https://repl.it/repls/DarkturquoiseFractalSpreadsheets?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 *  subplot layouts official guide - https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html
@@ -145,8 +147,8 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTExMjg3
-MjYxMywtOTcwMzAxOTQyLC0xNDMxOTg2NTUwLC0xMjY4MzcyMz
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTM5NDE1
+OTQyMiwtOTcwMzAxOTQyLC0xNDMxOTg2NTUwLC0xMjY4MzcyMz
 k3LC01MDY1MTM4NTUsLTgxMDgxNDgwMiwtNTYwMTczMjgwLC03
 NjU4MDQ1MDEsMTQ2MTkxNzU0NiwtNzM1MTQ2NjYyLDEzMjM0Mz
 MyNDcsMzA3OTA0NTcyXX0=
