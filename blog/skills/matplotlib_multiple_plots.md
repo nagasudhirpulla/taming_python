@@ -49,8 +49,14 @@ import matplotlib.pyplot as plt
 # create a plotting area and get the figure, axes handle in return
 fig, ax = plt.subplots()
 
+# set plot title
+ax.set_title('Multiple plots example')
+
+# set x and y labels
+ax.set_xlabel('X-axis ')
+
 # plot some data
-ax.plot([0,4,8,12], [6,8,4,2])
+la1, = ax.plot([0,4,8,12], [6,8,4,2])
 
 # plot again
 ax.plot([0,3,9,12,15,18], [2,1,9,6,4,3])
@@ -79,6 +85,6 @@ luIGEgc2FtZSBzdWJwbG90IHVzaW5nIE1hdHBsb3RsaWJcbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 UtMDknXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3Jp
 YWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOi
-B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEw
-NDgyMzU0NjYsLTE2OTM4NzcyOTJdfQ==
+B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTg0
+NzgzNDE1MSwtMTY5Mzg3NzI5Ml19
 -->
