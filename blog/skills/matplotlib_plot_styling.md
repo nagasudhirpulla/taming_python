@@ -29,7 +29,7 @@ y = [1, 4, 2, 3]
 fig, ax = plt.subplots()
 
 # using color keyword in plot function to control color
-plt.plot(x,y,color='magenta')
+ax.plot(x,y,color='magenta')
 
 # print figure
 plt.show()
@@ -47,7 +47,7 @@ y = [1, 4, 2, 3]
 fig, ax = plt.subplots()
 
 # using linestyle keyword in plot function
-plt.plot(x,y,linestyle='dashed')
+ax.plot(x,y,linestyle='dashed')
 
 # print figure
 plt.show()
@@ -76,7 +76,7 @@ y = [1, 4, 2, 3]
 fig, ax = plt.subplots()
 
 # using marker, ms, mfc, mec, mew keywords in plot function to control marker appearance
-plt.plot(x,y,marker='p', ms=15, mfc='magenta', mec='yellow', mew=3)
+ax.plot(x,y,marker='p', ms=15, mfc='magenta', mec='yellow', mew=3)
 
 # print figure
 plt.show()
@@ -139,6 +139,6 @@ xpYiBQbG90c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5k
 YXRlOiAnMjAyMC0wNS0wOCdcbnRhZ3M6ICdweXRob24sIGxlYX
 JuaW5nLCB0dXRvcmlhbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOlstMzI4ODU3MTA5LDMyMTQwMDYxMCwtMTM4MDA1
-MzcxMSwtMTg2Mzg2MjEyNl19
+hpc3RvcnkiOls1NzY2OTI4OTQsLTMyODg1NzEwOSwzMjE0MDA2
+MTAsLTEzODAwNTM3MTEsLTE4NjM4NjIxMjZdfQ==
 -->
