@@ -35,6 +35,9 @@ else:
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
+### You can practice here
+<iframe height="800px" width="100%" src="https://repl.it/repls/GregariousInexperiencedLinuxpc?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 ### Further Reading
 * https://docs.python.org/3.8/tutorial/controlflow.html#if-statements
 
@@ -47,6 +50,6 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbMTEyMDAxMjg5NCw0ODgwNzI4MjQsNzI0MTg3MDY5
-XX0=
+N0b3J5IjpbMzM1NjYyNjkyLDQ4ODA3MjgyNCw3MjQxODcwNjld
+fQ==
 -->
