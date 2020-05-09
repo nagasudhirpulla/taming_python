@@ -63,7 +63,10 @@ la1, = ax.plot([0,4,8,12], [6,8,4,2])
 la1.set_label('First Plot')
 
 # plot again
-ax.plot([0,3,9,12,15,18], [2,1,9,6,4,3])
+ax.plot([0,3,9,12,15,18], [2,1,9,6,4,3], color='#')
+
+# enable legends
+ax.legend()
 
 # print plot
 plt.show()
@@ -89,6 +92,6 @@ luIGEgc2FtZSBzdWJwbG90IHVzaW5nIE1hdHBsb3RsaWJcbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 UtMDknXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3Jp
 YWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOi
-B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTA2
-NTIyNTE3OCwtMTY5Mzg3NzI5Ml19
+B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNDMw
+MTY1Mjk0LC0xNjkzODc3MjkyXX0=
 -->
