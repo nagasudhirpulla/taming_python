@@ -64,7 +64,7 @@ Notice that the type of `kharData` is Series and the type of `filteredDf` is Dat
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### You can practice here
-
+<iframe height="800px" width="100%" src="https://repl.it/repls/WrongTechnicalMemory?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 
 ### References
@@ -82,6 +82,6 @@ JhbWUgY29sdW1uc1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxh
 XG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dG
 hvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25f
 c2tpbGxcbmRhdGU6ICcyMDIwLTA1LTA2J1xuIiwiaGlzdG9yeS
-I6WzEyODYyMzQzOCwyMDk3NzY1OTY5LDk5MDU1NTEyLC02NTMy
-MTI3NzldfQ==
+I6Wy00NzM5Njc2NzgsMjA5Nzc2NTk2OSw5OTA1NTUxMiwtNjUz
+MjEyNzc5XX0=
 -->
