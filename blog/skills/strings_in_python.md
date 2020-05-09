@@ -25,6 +25,7 @@ Isn't that handy
 ### Substituting variables in string using formatter
 ```python
 someStr = 'Greetings from {0}, welcome to {1}'.format('sudhir', 'taming python')
+print(someStr)
 # this will print 
 # Greetings from sudhir, welcome to taming python
 
@@ -141,8 +142,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFN0cmluZ3MgaW4gcHl0aG
 9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICds
 ZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1
 xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0
-ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbLTI1MTk2Nz
-A4LDU1MjgzMDgzNSwxMTkzMTYzMTI4LC01MTMwOTU3MjgsMTgx
-ODA1NDI0NSwxMjY0NDgwODgyLDE0Njk5ODAyNDEsLTQxMjQyMD
-AyNiwxMTgzMjkxMzIxXX0=
+ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbLTIzMjQ0OD
+Q1OSw1NTI4MzA4MzUsMTE5MzE2MzEyOCwtNTEzMDk1NzI4LDE4
+MTgwNTQyNDUsMTI2NDQ4MDg4MiwxNDY5OTgwMjQxLC00MTI0Mj
+AwMjYsMTE4MzI5MTMyMV19
 -->
