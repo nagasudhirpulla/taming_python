@@ -29,7 +29,7 @@ import matplotlib.pyplot as plt
 fig, axs = plt.subplots(nrows=3,ncols=2,constrained_layout=True)
 
 # set figure title
-fig.suptitle()
+fig.suptitle('3 x 2 Subplot grid', fontsize=12)
 
 # set titles
 axs[0][0].set_title('0,0 position')
@@ -38,6 +38,9 @@ axs[1][0].set_title('1,0 position')
 axs[1][1].set_title('1,1 position')
 axs[2][0].set_title('2,0 position')
 axs[2][1].set_title('2,1 position')
+
+# print the plots
+plt.show()
 
 ```
 
@@ -71,7 +74,7 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMjA2NTg3
-MjExOCwxNDYxOTE3NTQ2LC03MzUxNDY2NjIsMTMyMzQzMzI0Ny
-wzMDc5MDQ1NzJdfQ==
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEzMjU2
+MDIyNTMsMTQ2MTkxNzU0NiwtNzM1MTQ2NjYyLDEzMjM0MzMyND
+csMzA3OTA0NTcyXX0=
 -->
