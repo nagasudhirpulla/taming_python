@@ -51,7 +51,7 @@ Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
-### subplot grid example
+### grid of subplots example
 <iframe height="400px" width="100%" src="https://repl.it/repls/WryGummyMemwatch?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### Styled multiple plots example
@@ -74,7 +74,7 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTExNTg1
-NTM1MzMsMTQ2MTkxNzU0NiwtNzM1MTQ2NjYyLDEzMjM0MzMyND
-csMzA3OTA0NTcyXX0=
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTMyNTU0
+NjA4MSwxNDYxOTE3NTQ2LC03MzUxNDY2NjIsMTMyMzQzMzI0Ny
+wzMDc5MDQ1NzJdfQ==
 -->
