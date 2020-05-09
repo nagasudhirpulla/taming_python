@@ -50,7 +50,7 @@ If the size of all the subplots in the grid is not same, then we need to use the
 ```python
 import matplotlib.pyplot as plt
 
-# just create the figure first and get the figure handle, we will add subplots later
+# create the figure first and get the figure handle, we will add subplots later
 fig = plt.figure(constrained_layout=True)
 
 # create a grid spec for 3 rows and 3 columns
@@ -73,10 +73,18 @@ ax2 = fig.add_subplot(gspec[1:, -1])
 # set subplot title
 ax2.set_title('gspec[1:, -1]')
 
-# create a subplot in 
+# create a subplot in last row, 0th column
 ax3 = fig.add_subplot(gspec[-1, 0])
 # set subplot title
 ax3.set_title('gspec[-1, 0]')
+
+# create a subplot in last row, 2nd last column
+ax3 = fig.add_subplot(gspec[-1, -2])
+# set subplot title
+ax3.set_title('gspec[-1, -2]')
+
+# print the figure
+plt.show()
 ```
 
 Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots for detailed and in depth explanation covering many use cases
@@ -109,8 +117,8 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMjgwNTI5
-Nzg1LC04MTA4MTQ4MDIsLTU2MDE3MzI4MCwtNzY1ODA0NTAxLD
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNDc4NjEz
+MTQxLC04MTA4MTQ4MDIsLTU2MDE3MzI4MCwtNzY1ODA0NTAxLD
 E0NjE5MTc1NDYsLTczNTE0NjY2MiwxMzIzNDMzMjQ3LDMwNzkw
 NDU3Ml19
 -->
