@@ -24,7 +24,7 @@ In this post we will learn how to plot multiple subplots on a single Matplotlib 
 
 ```
 
-Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots for detailed and in depth explanation covering many 
+Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots for detailed and in depth explanation covering many use cases
 
 <hr/>
 
@@ -38,7 +38,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 <iframe src="https://trinket.io/embed/python3/93046401c2" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### References
-*  plot function API - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
+*  subplot layouts official guide - https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html
 * Examples gallery - https://matplotlib.org/gallery/index.html
 
 <hr/>
@@ -53,6 +53,6 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTMzMzkw
-ODUyLDEzMjM0MzMyNDcsMzA3OTA0NTcyXX0=
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTczNTE0
+NjY2MiwxMzIzNDMzMjQ3LDMwNzkwNDU3Ml19
 -->
