@@ -113,6 +113,7 @@ axins.set_title('Inset Plot')
 # print the figure
 plt.show()
 ```
+![inset plot output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/inset_plot_basic.PNG)
 
 Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots for detailed and in depth explanation covering many use cases
 
@@ -147,9 +148,9 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTM5NDE1
-OTQyMiwtOTcwMzAxOTQyLC0xNDMxOTg2NTUwLC0xMjY4MzcyMz
-k3LC01MDY1MTM4NTUsLTgxMDgxNDgwMiwtNTYwMTczMjgwLC03
-NjU4MDQ1MDEsMTQ2MTkxNzU0NiwtNzM1MTQ2NjYyLDEzMjM0Mz
-MyNDcsMzA3OTA0NTcyXX0=
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNjA2MTU0
+ODQ5LC0zOTQxNTk0MjIsLTk3MDMwMTk0MiwtMTQzMTk4NjU1MC
+wtMTI2ODM3MjM5NywtNTA2NTEzODU1LC04MTA4MTQ4MDIsLTU2
+MDE3MzI4MCwtNzY1ODA0NTAxLDE0NjE5MTc1NDYsLTczNTE0Nj
+Y2MiwxMzIzNDMzMjQ3LDMwNzkwNDU3Ml19
 -->
