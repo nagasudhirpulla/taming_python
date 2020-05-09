@@ -21,7 +21,9 @@ In this post we will learn how to plot multiple subplots on a single Matplotlib 
 
 ### Creating a grid of subplots
 ```python
+import matplotlib.pyplot as plt
 
+# suppose we want a figure with 3 rows 2 colu
 ```
 
 Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots for detailed and in depth explanation covering many use cases
@@ -54,7 +56,7 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTQ2MTkx
-NzU0NiwtNzM1MTQ2NjYyLDEzMjM0MzMyNDcsMzA3OTA0NTcyXX
-0=
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEyNzIx
+MTMzODMsMTQ2MTkxNzU0NiwtNzM1MTQ2NjYyLDEzMjM0MzMyND
+csMzA3OTA0NTcyXX0=
 -->
