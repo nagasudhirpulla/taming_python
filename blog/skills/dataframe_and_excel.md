@@ -131,7 +131,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 ### You can practice here
 
-<iframe height="400px" width="100%" src="https://repl.it/repls/UnfitUnsteadyExpertise?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="800px" width="100%" src="https://repl.it/repls/UnfitUnsteadyExpertise?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
@@ -151,8 +151,8 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOls0NzM4NTgwOTMsMTMzOTU2NDU0Mywt
-MTE0ODU3OTMwMSwtMjAxMjE1OTczMywxNTk5NzY0NTAzLC04OD
-c4MjkzOTUsMTc1OTQ1MTU4MSw2MTI5MzcxMjksMTI2Mjg0NTUw
-Nl19
+dcbiIsImhpc3RvcnkiOlstMTcwODE3NjU5MSw0NzM4NTgwOTMs
+MTMzOTU2NDU0MywtMTE0ODU3OTMwMSwtMjAxMjE1OTczMywxNT
+k5NzY0NTAzLC04ODc4MjkzOTUsMTc1OTQ1MTU4MSw2MTI5Mzcx
+MjksMTI2Mjg0NTUwNl19
 -->
