@@ -65,6 +65,11 @@ la1.set_label('First Plot')
 # plot again
 la2, = ax.plot([0,3,9,12,15,18], [2,1,9,6,4,3], color='#a155b9')
 
+# set label to line artist object for legend
+la2.set_label('Second Plot')
+
+# set marker size
+la2.`set_markersize
 # enable legends
 ax.legend()
 
@@ -92,6 +97,6 @@ luIGEgc2FtZSBzdWJwbG90IHVzaW5nIE1hdHBsb3RsaWJcbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 UtMDknXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3Jp
 YWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOi
-B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNzcx
-NDIwOTcwLC0xNjkzODc3MjkyXX0=
+B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNTI0
+MjQ2NTE3LC0xNjkzODc3MjkyXX0=
 -->
