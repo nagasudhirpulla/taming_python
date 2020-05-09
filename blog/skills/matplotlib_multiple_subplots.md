@@ -19,7 +19,7 @@ In this post we will learn how to plot multiple subplots on a single Matplotlib 
 
 <hr/>
 
-### Creating subplo
+### Creating a grid of subplots
 ```python
 import matplotlib.pyplot as plt
 
@@ -104,6 +104,6 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbOTY5NzEx
-NTMyLDMwNzkwNDU3Ml19
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTMyMzQz
+MzI0NywzMDc5MDQ1NzJdfQ==
 -->
