@@ -117,6 +117,9 @@ z = 2*x + x^2 + 3*y
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
+### You can practice here
+<iframe height="800px" width="100%" src="https://repl.it/repls/PlainLeftAttributes?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 ### Further Reading
 * http://thomas-cokelaer.info/tutorials/python/boolean.html#booleans
 
@@ -129,7 +132,7 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wy0xMTMyMTM2MDkzLC0xNDc3MTk5MjQ0LC0xNTY0
-NjQwNjg0LC0yMDA1NDM5NTQ2LC03ODM4NzcxNjEsLTE4OTIwOT
-I3ODQsMjE0NDUyNjQzMV19
+lzdG9yeSI6WzE1NDc5MDA1MDUsLTE0NzcxOTkyNDQsLTE1NjQ2
+NDA2ODQsLTIwMDU0Mzk1NDYsLTc4Mzg3NzE2MSwtMTg5MjA5Mj
+c4NCwyMTQ0NTI2NDMxXX0=
 -->
