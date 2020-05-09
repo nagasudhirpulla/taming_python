@@ -59,6 +59,9 @@ print('Number of rows in filteredDf2 = {0}'.format(filteredDf2.shape[0]))
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
+### You can practice here
+<iframe height="800px" width="100%" src="https://repl.it/repls/RevolvingAngryFrontend?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/03_subset_data.html#min-tut-03-subset
 
@@ -73,7 +76,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZpbHRlciBEYXRhRnJhbW
 Ugcm93c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRl
 OiAnMjAyMC0wNS0wNidcbnRhZ3M6ICdsZWFybmluZywgcHl0aG
 9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
-dGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0xNT
-gzNjQ0ODU1LDQwODAxODM0MSw2MzgzNzc3OTcsLTE3NjUwNzUx
-MjIsLTEwMjI5NTUxMjFdfQ==
+dGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0xMD
+AyOTU1MzI2LC0xNTgzNjQ0ODU1LDQwODAxODM0MSw2MzgzNzc3
+OTcsLTE3NjUwNzUxMjIsLTEwMjI5NTUxMjFdfQ==
 -->
