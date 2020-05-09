@@ -125,7 +125,7 @@ print(x[2:-1])
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
 ### You can practice here
-
+<iframe height="800px" width="100%" src="https://repl.it/repls/FoolishHandmadeAstronomy?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <hr/>
 
@@ -135,8 +135,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzE1MDUxMjczOD
-ksMjA5MTY5Mjg1OSw2NTE2Njk1MDEsLTI5MTE2NDg0MywtMjA2
-MDU3Mjc2MiwtMjAxNTc2NDA3MiwtNTcwNzEwOTc5LC0xNTc3NT
-gyNzkwLC0xMTUzODY4OTY5XX0=
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzkyODQ5ODEzMi
+wyMDkxNjkyODU5LDY1MTY2OTUwMSwtMjkxMTY0ODQzLC0yMDYw
+NTcyNzYyLC0yMDE1NzY0MDcyLC01NzA3MTA5NzksLTE1Nzc1OD
+I3OTAsLTExNTM4Njg5NjldfQ==
 -->
