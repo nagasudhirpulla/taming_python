@@ -23,7 +23,13 @@ In this post we will learn how to plot multiple plots on a single subplot
 
 ### Example
 ```python
-import 
+import matplotlib.pyplot as plt
+
+# create a plotting area and get the figure, axes handle in return
+fig, ax = plt.subplot()
+
+# plot some data
+ax.plot([1,5,9,4], [6,8,4,21])
 ```
 
 
@@ -47,6 +53,6 @@ luIGEgc2FtZSBzdWJwbG90IHVzaW5nIE1hdHBsb3RsaWJcbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 UtMDknXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3Jp
 YWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOi
-B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE1
-NDY2NTAyMDUsLTE2OTM4NzcyOTJdfQ==
+B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEx
+MDE0OTgxNDYsLTE2OTM4NzcyOTJdfQ==
 -->
