@@ -77,6 +77,7 @@ ax.legend()
 # print plot
 plt.show()
 ```
+![styled basic multiple plots output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_multiple_plots_styled.png)
 
 <hr/>
 
@@ -98,6 +99,6 @@ luIGEgc2FtZSBzdWJwbG90IHVzaW5nIE1hdHBsb3RsaWJcbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 UtMDknXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3Jp
 YWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOi
-B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMzU3
-MzM0ODEsLTE2OTM4NzcyOTJdfQ==
+B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEx
+ODA0MDc1NTksLTE2OTM4NzcyOTJdfQ==
 -->
