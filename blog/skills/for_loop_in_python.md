@@ -51,6 +51,9 @@ for n in range(1,10,2):
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
+### You can practice here
+
+
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -61,7 +64,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZvciBsb29wIGluIHB5dG
 hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 bGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbC
 dcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRh
-dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6WzE4NjI0Nz
-EzMTksLTk2ODM2MDQwMSwxNTI0MDYwOTcxLDEzNDc0ODE0OCwt
-MTQ1OTc0ODk0N119
+dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6Wy0xNTY3Mj
+I3MjE2LDE4NjI0NzEzMTksLTk2ODM2MDQwMSwxNTI0MDYwOTcx
+LDEzNDc0ODE0OCwtMTQ1OTc0ODk0N119
 -->
