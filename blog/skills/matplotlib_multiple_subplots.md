@@ -20,6 +20,7 @@ In this post we will learn how to plot multiple subplots on a single Matplotlib 
 <hr/>
 
 ### Creating a grid of subplots
+use `nrows, ncols` parameters of the `subplots` function to get a grid of subplots. This returns a figure and an array of axes handles in the same shape of the grid. 
 ```python
 import matplotlib.pyplot as plt
 
@@ -41,7 +42,6 @@ axs[2][1].set_title('2,1 position')
 
 # print the plots
 plt.show()
-
 ```
 
 Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html) on creating matplotlib layouts with subplots for detailed and in depth explanation covering many use cases
@@ -74,7 +74,7 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTYzNTI3
-MTM2NiwxNDYxOTE3NTQ2LC03MzUxNDY2NjIsMTMyMzQzMzI0Ny
-wzMDc5MDQ1NzJdfQ==
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbODY2ODc5
+NTU1LDE0NjE5MTc1NDYsLTczNTE0NjY2MiwxMzIzNDMzMjQ3LD
+MwNzkwNDU3Ml19
 -->
