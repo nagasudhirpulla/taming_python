@@ -41,7 +41,8 @@ plt.show()
 So just by calling `plot` function on a single axes handle, we can add any number of plots to a single subplot.
 
 ### More styled example
-This example 
+This example is the same as above, but adds some extra styling.
+Please make sure you covered the [styling plots](https://nagasudhir.blogspot.com/2020/05/styling-matplotlib-plots.html) post in order to understand this code.
 ```python
 import matplotlib.pyplot as plt
 
@@ -78,6 +79,6 @@ luIGEgc2FtZSBzdWJwbG90IHVzaW5nIE1hdHBsb3RsaWJcbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 UtMDknXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3Jp
 YWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOi
-B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTYx
-MzM1MjM2NSwtMTY5Mzg3NzI5Ml19
+B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEw
+NDgyMzU0NjYsLTE2OTM4NzcyOTJdfQ==
 -->
