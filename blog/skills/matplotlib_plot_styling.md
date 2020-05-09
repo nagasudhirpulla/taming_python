@@ -124,7 +124,7 @@ For more styling options an in depth understanding of styling please check out t
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
 ### References
-* plot function api - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
+* plot function API - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
 * matplotlib colors - https://matplotlib.org/2.1.1/api/colors_api.html
 * Examples gallery - https://matplotlib.org/gallery/index.html
 
@@ -139,6 +139,7 @@ xpYiBQbG90c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5k
 YXRlOiAnMjAyMC0wNS0wOCdcbnRhZ3M6ICdweXRob24sIGxlYX
 JuaW5nLCB0dXRvcmlhbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOls1NzY2OTI4OTQsLTMyODg1NzEwOSwzMjE0MDA2
-MTAsLTEzODAwNTM3MTEsLTE4NjM4NjIxMjZdfQ==
+hpc3RvcnkiOlstNzczNDU2MjU4LDU3NjY5Mjg5NCwtMzI4ODU3
+MTA5LDMyMTQwMDYxMCwtMTM4MDA1MzcxMSwtMTg2Mzg2MjEyNl
+19
 -->
