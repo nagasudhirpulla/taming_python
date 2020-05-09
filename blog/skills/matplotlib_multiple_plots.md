@@ -29,7 +29,7 @@ import matplotlib.pyplot as plt
 fig, ax = plt.subplots()
 
 # plot some data
-ax.plot([1,5,9,4], [6,8,4,2,1])
+ax.plot([1,5,9,4], [6,8,4,2])
 
 # plot again
 ax.plot([4,9,3,7,1,5], [2,1,9,6,4,3])
@@ -59,6 +59,6 @@ luIGEgc2FtZSBzdWJwbG90IHVzaW5nIE1hdHBsb3RsaWJcbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 UtMDknXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3Jp
 YWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOi
-B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTg1
-MTAxMzk1MywtMTY5Mzg3NzI5Ml19
+B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE3
+NDI2ODMwMzYsLTE2OTM4NzcyOTJdfQ==
 -->
