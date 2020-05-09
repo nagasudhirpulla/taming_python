@@ -37,6 +37,9 @@ ax.plot([0,3,9,12,15,18], [2,1,9,6,4,3])
 # print plot
 plt.show()
 ```
+![basic multiple plots output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_multiple_plots.png)
+As shown above, just by calling plot function on a s
+### More styled example
 
 
 <hr/>
@@ -59,6 +62,6 @@ luIGEgc2FtZSBzdWJwbG90IHVzaW5nIE1hdHBsb3RsaWJcbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 UtMDknXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3Jp
 YWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOi
-B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTgx
-ODY4ODc1OSwtMTY5Mzg3NzI5Ml19
+B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTIw
+OTcxNjU4MDIsLTE2OTM4NzcyOTJdfQ==
 -->
