@@ -90,7 +90,8 @@ ax4.set_title('gspec[-1, -2]')
 plt.show()
 ```
 ![uneven subplots grid output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/uneven_subplots_grid.PNG)
-### Plot inside subplot
+### Plot inside subplot using inset axes
+call `inset_axes` function on axes handle to create a plot inside the subplot
 ```python
 import matplotlib.pyplot as plt
 
@@ -106,8 +107,8 @@ ax.plot([1,2,3],[9,5,4])
 axins = ax.inset_axes([0.4, 0.5, 0.47, 0.47])
 axins.plot([7,8,9],[2,8,6])
 
-# set ti
-axins.set_title('')
+# set title to the inset axes
+axins.set_title('Inset Plot')
 
 plt.show()
 ```
@@ -143,9 +144,9 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNDAwNzcw
-NjkzLC05NzAzMDE5NDIsLTE0MzE5ODY1NTAsLTEyNjgzNzIzOT
-csLTUwNjUxMzg1NSwtODEwODE0ODAyLC01NjAxNzMyODAsLTc2
-NTgwNDUwMSwxNDYxOTE3NTQ2LC03MzUxNDY2NjIsMTMyMzQzMz
-I0NywzMDc5MDQ1NzJdfQ==
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTExMzY5
+OTEzMzIsLTk3MDMwMTk0MiwtMTQzMTk4NjU1MCwtMTI2ODM3Mj
+M5NywtNTA2NTEzODU1LC04MTA4MTQ4MDIsLTU2MDE3MzI4MCwt
+NzY1ODA0NTAxLDE0NjE5MTc1NDYsLTczNTE0NjY2MiwxMzIzND
+MzMjQ3LDMwNzkwNDU3Ml19
 -->
