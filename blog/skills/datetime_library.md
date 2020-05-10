@@ -31,7 +31,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 ### References
 * Detailed examples - https://www.programiz.com/python-programming/datetime
-* Official documentation - 
+* Official documentation - https://docs.python.org/3/library/datetime.html
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
@@ -40,5 +40,6 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbLTE4NTY2MzI4MzQsNDU5MTUwMTE0LDM4ODIxMzEyMV19
+pbLTEzMTIwMjM3ODMsLTE4NTY2MzI4MzQsNDU5MTUwMTE0LDM4
+ODIxMzEyMV19
 -->
