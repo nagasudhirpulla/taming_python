@@ -43,19 +43,20 @@ print(dt.datetime.timestamp(t3))
 As shown above it is really easy to create datetime objects
 
 ### get datetime from string using 'strptime'
+By using appropriate format string, we can convert string to datetime objects using `strptime` function
 ```python
 import datetime as dt
 
 dtStr1 = '2020-05-10'
-dt1 = dt.datetime.strptime('dtStr1', '%Y-%m-%d')
+dt1 = dt.datetime.strptime(dtStr1, '%Y-%m-%d')
 print(dt1)
 
 dtStr2 = '2020-05-10 15:21:32'
-dt2 = dt.datetime.strptime('dtStr1', '%Y-%m-%d %H:%m:%S')
+dt2 = dt.datetime.strptime(dtStr2, '%Y-%m-%d %H:%M:%S')
 print(dt2)
 
-dtStr3 = ' 05 May 2020 15:21:32'
-dt3 = dt.datetime.strptime('dtStr1', '%d %b %Y %H:%m:%S')
+dtStr3 = '05 May 2020 16:58:14'
+dt3 = dt.datetime.strptime(dtStr3, '%d %b %Y %H:%M:%S')
 print(dt3)
 ```
 
@@ -80,6 +81,7 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbMTYxNDQyNDM2MiwtMTE0NTMwMDU1MSwtMjAzMDA4NTEwMCwt
-MTg1NjYzMjgzNCw0NTkxNTAxMTQsMzg4MjEzMTIxXX0=
+pbLTc3MDAxMjc3NCwxNjE0NDI0MzYyLC0xMTQ1MzAwNTUxLC0y
+MDMwMDg1MTAwLC0xODU2NjMyODM0LDQ1OTE1MDExNCwzODgyMT
+MxMjFdfQ==
 -->
