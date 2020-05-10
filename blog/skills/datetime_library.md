@@ -13,7 +13,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 `datetime` library in python is very useful in handling date-times.
 
 ### Installation
-In command prompt type `pip install datetime` and press enter
+In command prompt type `pip install datetime` and press Enter
+
+![pip install datetime image](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pip_install_datetime.png)
 
 
 ### Main Code
@@ -34,5 +36,5 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbMzg4MjEzMTIxXX0=
+pbLTk5OTU1MTc1NiwzODgyMTMxMjFdfQ==
 -->
