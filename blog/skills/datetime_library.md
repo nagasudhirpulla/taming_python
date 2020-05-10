@@ -16,9 +16,14 @@ Please make sure to have all the skills mentioned above to understand and execut
 In command prompt type `pip install datetime` and press Enter
 
 ![pip install datetime image](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pip_install_datetime.png)
+### Create a datetime
+```python
+import datetime as dt
 
+# get current time
+curTime = dt.datetime.now()
 
-### Main Code
+```
 
 
 ### Online Interpreter
@@ -40,6 +45,6 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbLTEzMTIwMjM3ODMsLTE4NTY2MzI4MzQsNDU5MTUwMTE0LDM4
-ODIxMzEyMV19
+pbLTQwMDIwOTE4NCwtMTg1NjYzMjgzNCw0NTkxNTAxMTQsMzg4
+MjEzMTIxXX0=
 -->
