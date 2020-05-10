@@ -10,7 +10,7 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-`datetime` library in python is very useful in handling date-times.
+`datetime` library in python is very useful in manipulating date-times.
 
 ### Installation
 In command prompt type `pip install datetime` and press Enter
@@ -36,5 +36,5 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbLTk5OTU1MTc1NiwzODgyMTMxMjFdfQ==
+pbNDU5MTUwMTE0LDM4ODIxMzEyMV19
 -->
