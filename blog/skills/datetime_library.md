@@ -34,6 +34,10 @@ print(t2)
 
 # create datetime from UNIX timestamp
 # UNIX timestamp = number seconds from 01 Jan 1970 00:00:00 UTC (also called UNIX epoch)
+t3 = dt.datetime.fromtimestamp(1589068800)
+print(t3)
+
+# get timesta
 ```
 As shown above it is really easy to create datetime objects
 
@@ -61,6 +65,6 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbLTIwMzAwODUxMDAsLTE4NTY2MzI4MzQsNDU5MTUwMTE0LDM4
-ODIxMzEyMV19
+pbMzUxNDIyMjg2LC0yMDMwMDg1MTAwLC0xODU2NjMyODM0LDQ1
+OTE1MDExNCwzODgyMTMxMjFdfQ==
 -->
