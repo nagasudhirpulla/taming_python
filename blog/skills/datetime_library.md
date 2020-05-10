@@ -10,75 +10,16 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-A Dictionary contains a set of key-value pairs encapsulated in it
+datetime library in python is very useful in handling datetimes
 
 ### Main Code
-#### Create a dictionary
-```python
-# create a dictionary
-x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
-```
-### Access value using key
-```python
-# create a dictionary
-x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
 
-# access firstname value
-print(x['firstname'])
-# prints Nagasudhir
-
-# access lastname value
-print(x['lastname'])
-# prints Pulla
-```
-
-### Check if dictionary has a key using "in" operator
-```python
-# create a dictionary
-x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
-
-print('firstname' in x)
-# prints True
-
-print('somethingElse' in x)
-# prints False
-```
-
-### List out all the keys and values of a dictionary
-```python
-# create a dictionary
-x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
-
-# print all the keys
-print(list(x.keys()))
-# prints ['firstname', 'lastname']
-
-# print all the values
-print(list(x.values()))
-# prints ['Nagasudhir', 'Pulla']
-```
-
-### Create / Edit values in a dictionary
-```python
-# create a dictionary
-x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
-
-# change firstname
-x['firstname'] = 'Sudhir'
-
-# create a new property with key as 'age'
-x['age'] = 28
-
-# print the dictionary
-print(x)
-# prints {'firstname': 'Sudhir', 'lastname': 'Pulla', 'age': 28}
-```
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
 ### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/PaleTealFact?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 
 <hr/>
 
@@ -89,5 +30,5 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbLTU0Mzc1MDI4OF19
+pbMTUxODA2OTA4MF19
 -->
