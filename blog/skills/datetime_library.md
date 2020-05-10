@@ -46,7 +46,9 @@ As shown above it is really easy to create datetime objects
 ```python
 import datetime as dt
 
-dat
+dtStr1 = '2020-05-10'
+dt1 = dt.datetime.strptime('dtStr1', '%Y-%m-%d')
+print
 ```
 
 
@@ -70,6 +72,6 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbLTI5NDEyNjUwMiwtMTE0NTMwMDU1MSwtMjAzMDA4NTEwMCwt
+pbMTU5MTc0MTU0NCwtMTE0NTMwMDU1MSwtMjAzMDA4NTEwMCwt
 MTg1NjYzMjgzNCw0NTkxNTAxMTQsMzg4MjEzMTIxXX0=
 -->
