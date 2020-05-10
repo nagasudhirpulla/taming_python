@@ -80,8 +80,9 @@ print('date component = {0}'.format(t1.date))
 print('day = {0}'.format(t1.day))
 print('month = {0}'.format(t1.month))
 print('year = {0}'.format(t1.year))
-print('Hours = {0}'.format(t1.hour))
-
+print('hours = {0}'.format(t1.hour))
+print('minutes = {0}'.format(t1.minute))
+print('seconds = {0}'.format(t1.second))
 ```
 
 
@@ -104,7 +105,7 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbLTI1NDA5MTA3NSwtNzcwMDEyNzc0LDE2MTQ0MjQzNjIsLTEx
-NDUzMDA1NTEsLTIwMzAwODUxMDAsLTE4NTY2MzI4MzQsNDU5MT
-UwMTE0LDM4ODIxMzEyMV19
+pbODc4Mjk5NzQ5LC03NzAwMTI3NzQsMTYxNDQyNDM2MiwtMTE0
+NTMwMDU1MSwtMjAzMDA4NTEwMCwtMTg1NjYzMjgzNCw0NTkxNT
+AxMTQsMzg4MjEzMTIxXX0=
 -->
