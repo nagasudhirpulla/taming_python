@@ -66,7 +66,9 @@ Format codes for string conversion can be seen below
 import datetime as dt
 
 dt1 = dt.datetime.now()
-dt.datetime
+# convert datetime object to string using strftim
+dtStr = dt.datetime.strftime(dt1, '%d %b %Y %H:%M:%S')
+print(dtStr)
 ```
 
 
@@ -89,7 +91,7 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbLTU2MTkzMzY0NSwtNzcwMDEyNzc0LDE2MTQ0MjQzNjIsLTEx
+pbMTQzNjIzMjY2NiwtNzcwMDEyNzc0LDE2MTQ0MjQzNjIsLTEx
 NDUzMDA1NTEsLTIwMzAwODUxMDAsLTE4NTY2MzI4MzQsNDU5MT
 UwMTE0LDM4ODIxMzEyMV19
 -->
