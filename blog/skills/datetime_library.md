@@ -37,11 +37,12 @@ print(t2)
 t3 = dt.datetime.fromtimestamp(1589068800)
 print(t3)
 
-# get timesta
+# get timestamp from datetime
+print(dt.datetime.timestamp(t3))
 ```
 As shown above it is really easy to create datetime objects
 
-### convert string to datetime using 'strptime'
+### get datetime from string using 'strptime'
 
 
 
@@ -65,6 +66,6 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbMzUxNDIyMjg2LC0yMDMwMDg1MTAwLC0xODU2NjMyODM0LDQ1
-OTE1MDExNCwzODgyMTMxMjFdfQ==
+pbLTExNDUzMDA1NTEsLTIwMzAwODUxMDAsLTE4NTY2MzI4MzQs
+NDU5MTUwMTE0LDM4ODIxMzEyMV19
 -->
