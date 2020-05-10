@@ -72,6 +72,14 @@ dtStr = dt.datetime.strftime(dt1, '%d %b %Y %H:%M:%S')
 print(dtStr)
 ```
 
+### access datetime components
+```python
+t1 = dt.datetime.now()
+
+print('date = {}')
+
+```
+
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -92,7 +100,7 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbNjE2MDg0NTYxLC03NzAwMTI3NzQsMTYxNDQyNDM2MiwtMTE0
+pbODQ1OTA1MTU2LC03NzAwMTI3NzQsMTYxNDQyNDM2MiwtMTE0
 NTMwMDU1MSwtMjAzMDA4NTEwMCwtMTg1NjYzMjgzNCw0NTkxNT
 AxMTQsMzg4MjEzMTIxXX0=
 -->
