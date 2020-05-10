@@ -48,7 +48,11 @@ import datetime as dt
 
 dtStr1 = '2020-05-10'
 dt1 = dt.datetime.strptime('dtStr1', '%Y-%m-%d')
-print
+print(dt1)
+
+dtStr2 = '2020-05-10 15:21:32'
+dt2 = dt.datetime.strptime('dtStr1', '%Y-%m-%d %H:%m:%S')
+print(dt1)
 ```
 
 
@@ -72,6 +76,6 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbMTU5MTc0MTU0NCwtMTE0NTMwMDU1MSwtMjAzMDA4NTEwMCwt
+pbMTQ2NjEwNDkzMiwtMTE0NTMwMDU1MSwtMjAzMDA4NTEwMCwt
 MTg1NjYzMjgzNCw0NTkxNTAxMTQsMzg4MjEzMTIxXX0=
 -->
