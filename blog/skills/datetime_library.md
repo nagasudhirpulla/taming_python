@@ -22,6 +22,10 @@ import datetime as dt
 
 # get current time
 curTime = dt.datetime.now()
+print(curTime)
+
+# create a datetime from a specific date, say 10th May 2020 15 Hrs, 22 mins, 40 secs
+t1 = dt.datetime(2020, 5, 10, 15, 22, 40)
 
 ```
 
@@ -45,6 +49,6 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbLTQwMDIwOTE4NCwtMTg1NjYzMjgzNCw0NTkxNTAxMTQsMzg4
+pbMTEwODI5ODU5NiwtMTg1NjYzMjgzNCw0NTkxNTAxMTQsMzg4
 MjEzMTIxXX0=
 -->
