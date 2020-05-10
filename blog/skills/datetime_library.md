@@ -59,8 +59,15 @@ dtStr3 = '05 May 2020 16:58:14'
 dt3 = dt.datetime.strptime(dtStr3, '%d %b %Y %H:%M:%S')
 print(dt3)
 ```
-format codes for string conversion can be seen below
+Format codes for string conversion can be seen below
 ![datetime  format codes](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/datetime_format_codes.png)
+### Format datetime as string using 'strftime' function
+```python
+import datetime as dt
+
+dt1 = dt.datetime.now()
+dt.datetime
+```
 
 
 ### Online Interpreter
@@ -82,7 +89,7 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbLTE2MDQ2OTk3ODIsLTc3MDAxMjc3NCwxNjE0NDI0MzYyLC0x
-MTQ1MzAwNTUxLC0yMDMwMDg1MTAwLC0xODU2NjMyODM0LDQ1OT
-E1MDExNCwzODgyMTMxMjFdfQ==
+pbLTU2MTkzMzY0NSwtNzcwMDEyNzc0LDE2MTQ0MjQzNjIsLTEx
+NDUzMDA1NTEsLTIwMzAwODUxMDAsLTE4NTY2MzI4MzQsNDU5MT
+UwMTE0LDM4ODIxMzEyMV19
 -->
