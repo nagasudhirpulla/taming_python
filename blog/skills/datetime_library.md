@@ -43,7 +43,11 @@ print(dt.datetime.timestamp(t3))
 As shown above it is really easy to create datetime objects
 
 ### get datetime from string using 'strptime'
+```python
+import datetime as dt
 
+dat
+```
 
 
 
@@ -66,6 +70,6 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbLTExNDUzMDA1NTEsLTIwMzAwODUxMDAsLTE4NTY2MzI4MzQs
-NDU5MTUwMTE0LDM4ODIxMzEyMV19
+pbLTI5NDEyNjUwMiwtMTE0NTMwMDU1MSwtMjAzMDA4NTEwMCwt
+MTg1NjYzMjgzNCw0NTkxNTAxMTQsMzg4MjEzMTIxXX0=
 -->
