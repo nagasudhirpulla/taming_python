@@ -29,7 +29,7 @@ timedelta can also be created as a difference between datetime objects
 ```python
 
 ```
-### Format datetime as string using 'strftime' function
+### add / subtract timeperiods tp 
 ```python
 import datetime as dt
 
@@ -63,8 +63,8 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 <hr/>
 
 ### References
-* Detailed examples - https://www.programiz.com/python-programming/datetime
-* Official documentation - https://docs.python.org/3/library/datetime.html
+* Official documentation - https://docs.python.org/3/library/datetime.html#timedelta-objects
+* 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -73,6 +73,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRpbWVkZWx0YXMgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ3N1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMTEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls5MDYzNz
-kxODcsMTczMTYxNzAxOV19
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTc4Nz
+Q1MTMxMyw5MDYzNzkxODcsMTczMTYxNzAxOV19
 -->
