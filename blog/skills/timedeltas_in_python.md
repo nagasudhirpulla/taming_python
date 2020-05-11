@@ -86,9 +86,14 @@ print('seconds = {0}'.format(tp.seconds))
 print('microseconds = {0}'.format(tp.microseconds))
 ```
 
-### get the total timeperiod span in seconds
+### get the total timeperiod span in seconds using 'total_seconds' function
 ```python
+import datetime as dt
 
+# create a timedelta object
+tp = dt.datetime.now() - dt.datetime(2020,1,1)
+print('timedelta object = {0}'.format(tp))
+print('total timespan in seconds from 1st May 2020 = {0}'.format(tp.total_seconds()))
 ```
 
 ### Online Interpreter
@@ -110,7 +115,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRpbWVkZWx0YXMgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ3N1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMTEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls2MTM0OT
-k1NjUsLTIxNDQwMjA2NjYsMTY4OTk3MzI3NSw5MDYzNzkxODcs
-MTczMTYxNzAxOV19
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxNDg5Nz
+IwODAyLC0yMTQ0MDIwNjY2LDE2ODk5NzMyNzUsOTA2Mzc5MTg3
+LDE3MzE2MTcwMTldfQ==
 -->
