@@ -106,7 +106,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 ### References
 * Official documentation - https://docs.python.org/3/library/datetime.html#timedelta-objects
-* 
+* another post - https://www.geeksforgeeks.org/python-datetime-timedelta-function/
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -115,7 +115,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRpbWVkZWx0YXMgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ3N1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMTEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMjA0OD
-YzNjQwLC0yMTQ0MDIwNjY2LDE2ODk5NzMyNzUsOTA2Mzc5MTg3
-LDE3MzE2MTcwMTldfQ==
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTUzNT
+k1MDc1NiwtMjE0NDAyMDY2NiwxNjg5OTczMjc1LDkwNjM3OTE4
+NywxNzMxNjE3MDE5XX0=
 -->
