@@ -29,14 +29,10 @@ timedelta can also be created as a difference between datetime objects
 ```python
 
 ```
-### add / subtract timeperiods tp 
+### add / subtract timeperiods to datetime using timedelta
+time periods can be added/subtracted to datetime object using timedelta
 ```python
-import datetime as dt
 
-dt1 = dt.datetime.now()
-# convert datetime object to string using strftime
-dtStr = dt.datetime.strftime(dt1, '%d %b %Y %H:%M:%S')
-print(dtStr)
 ```
 
 ### access datetime components
@@ -73,6 +69,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRpbWVkZWx0YXMgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ3N1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMTEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTc4Nz
-Q1MTMxMyw5MDYzNzkxODcsMTczMTYxNzAxOV19
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxNjg5OT
+czMjc1LDkwNjM3OTE4NywxNzMxNjE3MDE5XX0=
 -->
