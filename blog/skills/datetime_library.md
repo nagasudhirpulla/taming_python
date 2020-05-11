@@ -1,5 +1,4 @@
-
-## Skill - Dictionaries in Python
+## Skill - Python datetime library
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -106,7 +105,7 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbLTk3NjAwNjU1NSwtNzcwMDEyNzc0LDE2MTQ0MjQzNjIsLTEx
-NDUzMDA1NTEsLTIwMzAwODUxMDAsLTE4NTY2MzI4MzQsNDU5MT
-UwMTE0LDM4ODIxMzEyMV19
+pbLTExNTU0MDU0MjAsLTk3NjAwNjU1NSwtNzcwMDEyNzc0LDE2
+MTQ0MjQzNjIsLTExNDUzMDA1NTEsLTIwMzAwODUxMDAsLTE4NT
+Y2MzI4MzQsNDU5MTUwMTE0LDM4ODIxMzEyMV19
 -->
