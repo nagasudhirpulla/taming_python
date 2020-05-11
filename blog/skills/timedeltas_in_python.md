@@ -48,7 +48,12 @@ print('time1 = {0}'.format(t1.strftime('%d %b %Y %H:%M:%S')))
 t2 = dt.datetime(2018, 6, 15)
 print('time2 = {0}'.format(t2.strftime('%d %b %Y %H:%M:%S')))
 
-# get the difference between the tim
+# get the difference between the times as a timedelta object
+tDiff = t1-t2
+print('time1-time2={0}'.format(tDiff))
+
+# print the type of tDiff
+print('type of tDiff = {0}'.format(type(tDiff)))
 ```
 ### add / subtract timeperiods to datetime using timedelta
 time periods can be added/subtracted to datetime object using timedelta
@@ -85,7 +90,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRpbWVkZWx0YXMgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ3N1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMTEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTcyOD
-QyODE3NCwxNjg5OTczMjc1LDkwNjM3OTE4NywxNzMxNjE3MDE5
-XX0=
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls2MDY5MD
+ExMTUsMTY4OTk3MzI3NSw5MDYzNzkxODcsMTczMTYxNzAxOV19
+
 -->
