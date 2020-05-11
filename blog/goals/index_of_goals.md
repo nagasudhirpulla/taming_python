@@ -22,6 +22,7 @@ Here are the goals and skills in this tutorial series
 * [Create sequences with range function in python](https://nagasudhir.blogspot.com/2020/05/create-sequences-with-range-function.html)
 * ['for' loop in python](https://nagasudhir.blogspot.com/2020/05/for-loop-in-python.html)
 * ['while' loop in python](https://nagasudhir.blogspot.com/2020/05/while-loop-in-python.html)
+* [Datetime library in python](https://nagasudhir.blogspot.com/2020/05/datetime-library-in-python.html)
 * [pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
 * [Working with excel files and pandas DataFrames](https://nagasudhir.blogspot.com/2020/05/working-with-excel-and-pandas-dataframes.html)
 * [Getting the shape / dimension of a DataFrame](https://nagasudhir.blogspot.com/2020/05/dimension-of-dataframe.html)
@@ -41,9 +42,10 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbNDQwMjc4MTcxLDcwODYxMT
-I2LDMyNDc5Nzc0NiwxNDYwMTA4NzU1LDI0MzQ1NzY1NiwtMTQw
-NDM5NzM1MywtNjE3NDkxOTAyLDEyNDM1MDY3MDgsLTE0MTkzMT
-E2NzIsNjI4NDEyODcwLC04MTUxNDQ5NzAsMTE2NjE3Nzc2Nyw5
-MjIyMDk5ODAsNTcwODQwMDc3LC0zOTg2NDUyNTJdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTQyODk3ODg1NCw0NDAyNz
+gxNzEsNzA4NjExMjYsMzI0Nzk3NzQ2LDE0NjAxMDg3NTUsMjQz
+NDU3NjU2LC0xNDA0Mzk3MzUzLC02MTc0OTE5MDIsMTI0MzUwNj
+cwOCwtMTQxOTMxMTY3Miw2Mjg0MTI4NzAsLTgxNTE0NDk3MCwx
+MTY2MTc3NzY3LDkyMjIwOTk4MCw1NzA4NDAwNzcsLTM5ODY0NT
+I1Ml19
 -->
