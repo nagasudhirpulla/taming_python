@@ -25,25 +25,10 @@ In command prompt type `pip install datetime` and press Enter
 As shown above it is really easy to create variable that can store time period using `timedelta` objects
 
 ### timedelta from difference of datetimes
-The difference between two datetimes is a timedelta can also be cre
+timedelta can also be created as a difference between datetime objects
 ```python
-import datetime as dt
 
-dtStr1 = '2020-05-10'
-# create datetime object from string using strptime
-dt1 = dt.datetime.strptime(dtStr1, '%Y-%m-%d')
-print(dt1)
-
-dtStr2 = '2020-05-10 15:21:32'
-dt2 = dt.datetime.strptime(dtStr2, '%Y-%m-%d %H:%M:%S')
-print(dt2)
-
-dtStr3 = '05 May 2020 16:58:14'
-dt3 = dt.datetime.strptime(dtStr3, '%d %b %Y %H:%M:%S')
-print(dt3)
 ```
-Format codes for string conversion can be seen below
-![datetime  format codes](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/datetime_format_codes.png)
 ### Format datetime as string using 'strftime' function
 ```python
 import datetime as dt
@@ -88,6 +73,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRpbWVkZWx0YXMgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ3N1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMTEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTAwNj
-U3NDQ0MiwxNzMxNjE3MDE5XX0=
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls5MDYzNz
+kxODcsMTczMTYxNzAxOV19
 -->
