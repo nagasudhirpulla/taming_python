@@ -62,6 +62,7 @@ import datetime as dt
 
 # get the current time
 tNow = dt.datetime.now()
+print('now = {0}'.format(tNow.strftime('%d %b %Y %H:%M:%S')))
 
 # get datetime object after 15 hrs
 tAfter15Hrs = tNow + dt.timedelta(hours = 15)
@@ -74,7 +75,10 @@ print('now - 1 day, 3 weeks = {0}'.format(tBefore.strftime('%d %b %Y %H:%M:%S'))
 
 ### access timedelta components
 ```python
+import datetime as dt
 
+# create a timedelta object
+tDelta = 
 ```
 
 ### get the total timeperiod span in seconds
@@ -101,7 +105,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRpbWVkZWx0YXMgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ3N1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMTEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMjY3OT
-YwODU5LC0yMTQ0MDIwNjY2LDE2ODk5NzMyNzUsOTA2Mzc5MTg3
-LDE3MzE2MTcwMTldfQ==
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTE0MT
+EzNDU3OSwtMjE0NDAyMDY2NiwxNjg5OTczMjc1LDkwNjM3OTE4
+NywxNzMxNjE3MDE5XX0=
 -->
