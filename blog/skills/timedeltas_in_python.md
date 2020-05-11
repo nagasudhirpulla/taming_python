@@ -40,7 +40,12 @@ timedelta can also be created as a difference between datetime objects
 ```python
 import datetime as dt
 
+# t1 would be 1st May 2020
+t1 = dt.datetime(2020, 5, 1)
+print('time1 = {}')
 
+# t2 would be 15th June 2018
+t2 = dt.datetime(2018, 6, 15)
 ```
 ### add / subtract timeperiods to datetime using timedelta
 time periods can be added/subtracted to datetime object using timedelta
@@ -77,7 +82,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRpbWVkZWx0YXMgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ3N1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMTEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls5NjY3Nj
-k2MDksMTY4OTk3MzI3NSw5MDYzNzkxODcsMTczMTYxNzAxOV19
-
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNTc3Nz
+AzODgzLDE2ODk5NzMyNzUsOTA2Mzc5MTg3LDE3MzE2MTcwMTld
+fQ==
 -->
