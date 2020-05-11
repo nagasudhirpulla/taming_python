@@ -12,39 +12,19 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 `datetime` library in python is very useful in manipulating date-times.
-timedelta module s
+`timedelta` module is present in datetime library itself
 
 ### Installation
 In command prompt type `pip install datetime` and press Enter
 
 ![pip install datetime image](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pip_install_datetime.png)
-### Create a datetime
+### Create a time period object using timedelta
 ```python
-import datetime as dt
 
-# get current time
-curTime = dt.datetime.now()
-print(curTime)
-
-# create a datetime from a specific date time, say 10th May 2020 15 Hrs, 22 mins, 40 secs
-t1 = dt.datetime(2020, 5, 10, 15, 22, 40)
-print(t1)
-
-# create a datetime from a specific date only, say 10th May 2020
-t2 = dt.datetime(2020, 5, 10)
-print(t2)
-
-# create datetime from UNIX timestamp
-# UNIX timestamp = number seconds from 01 Jan 1970 00:00:00 UTC (also called UNIX epoch)
-t3 = dt.datetime.fromtimestamp(1589068800)
-print(t3)
-
-# get timestamp from datetime
-print(dt.datetime.timestamp(t3))
 ```
-As shown above it is really easy to create datetime objects
+As shown above it is really easy to create variable that can store time period using `timedelta` objects
 
-### get datetime from string using 'strptime'
+### timedelta as a differ
 By using appropriate format string, we can convert string to datetime objects using `strptime` function
 ```python
 import datetime as dt
@@ -108,6 +88,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRpbWVkZWx0YXMgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ3N1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMTEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTE4Nz
-QxNTE2OSwxNzMxNjE3MDE5XX0=
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNDg1NT
+IyODg1LDE3MzE2MTcwMTldfQ==
 -->
