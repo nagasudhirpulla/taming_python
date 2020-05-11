@@ -19,6 +19,10 @@ In command prompt type `pip install datetime` and press Enter
 
 ![pip install datetime image](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pip_install_datetime.png)
 ### Create a time period object using timedelta
+As shown below the 
+```
+dt.timedelta(days=0, seconds=0, microseconds=0, milliseconds=0, minutes=0, hours=0, weeks=0)
+```
 ```python
 
 ```
@@ -69,6 +73,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRpbWVkZWx0YXMgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ3N1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMTEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxNjg5OT
-czMjc1LDkwNjM3OTE4NywxNzMxNjE3MDE5XX0=
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsyNTA1OT
+M1MzcsMTY4OTk3MzI3NSw5MDYzNzkxODcsMTczMTYxNzAxOV19
+
 -->
