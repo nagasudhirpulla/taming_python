@@ -84,8 +84,6 @@ print('timedelta object = {0}'.format(tp))
 print('days = {0}'.format(tp.days))
 print('seconds = {0}'.format(tp.seconds))
 print('microseconds = {0}'.format(tp.microseconds))
-print('milliseconds = {0}'.format(tp.milliseconds))
-
 ```
 
 ### get the total timeperiod span in seconds
@@ -112,7 +110,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRpbWVkZWx0YXMgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ3N1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMTEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMTc0MT
-k0OTU4LC0yMTQ0MDIwNjY2LDE2ODk5NzMyNzUsOTA2Mzc5MTg3
-LDE3MzE2MTcwMTldfQ==
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls2MTM0OT
+k1NjUsLTIxNDQwMjA2NjYsMTY4OTk3MzI3NSw5MDYzNzkxODcs
+MTczMTYxNzAxOV19
 -->
