@@ -100,7 +100,7 @@ print('total timespan in seconds from 1st May 2020 = {0}'.format(tDiff1May.total
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
 ### You can practice here
-
+<iframe height="800px" width="100%" src="https://repl.it/repls/GraciousCourageousFirewall?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <hr/>
 
@@ -115,7 +115,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRpbWVkZWx0YXMgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ3N1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMTEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMjAyMz
-A3ODMwOSwtMjE0NDAyMDY2NiwxNjg5OTczMjc1LDkwNjM3OTE4
-NywxNzMxNjE3MDE5XX0=
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMjA0OD
+YzNjQwLC0yMTQ0MDIwNjY2LDE2ODk5NzMyNzUsOTA2Mzc5MTg3
+LDE3MzE2MTcwMTldfQ==
 -->
