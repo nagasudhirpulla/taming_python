@@ -6,6 +6,7 @@
 * [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
+* [strings in python](https://nagasudhir.blogspot.com/2020/04/strings-in-python.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
@@ -105,7 +106,7 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbLTExNTU0MDU0MjAsLTk3NjAwNjU1NSwtNzcwMDEyNzc0LDE2
-MTQ0MjQzNjIsLTExNDUzMDA1NTEsLTIwMzAwODUxMDAsLTE4NT
-Y2MzI4MzQsNDU5MTUwMTE0LDM4ODIxMzEyMV19
+pbNjUxNzE2MzI1LC05NzYwMDY1NTUsLTc3MDAxMjc3NCwxNjE0
+NDI0MzYyLC0xMTQ1MzAwNTUxLC0yMDMwMDg1MTAwLC0xODU2Nj
+MyODM0LDQ1OTE1MDExNCwzODgyMTMxMjFdfQ==
 -->
