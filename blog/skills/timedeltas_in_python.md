@@ -67,9 +67,9 @@ tNow = dt.datetime.now()
 tAfter15Hrs = tNow + dt.timedelta(hours = 15)
 print('now + 15 hrs = {0}'.format(tAfter15Hrs.strftime('%d %b %Y %H:%M:%S')))
 
-# get datetime object before 1year, 3 weeks
-tAfter15Hrs = tNow + dt.timedelta(weeks = 15, years = 1)
-print('now + 15 hrs = {0}'.format(tAfter15Hrs.strftime('%d %b %Y %H:%M:%S')))
+# get datetime object before 1 day, 3 weeks
+tBefore = tNow - dt.timedelta(weeks = 3, days = 1)
+print('now - 1 day, 3 weeks = {0}'.format(tBefore.strftime('%d %b %Y %H:%M:%S')))
 ```
 
 ### access timedelta components
@@ -101,7 +101,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRpbWVkZWx0YXMgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ3N1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMTEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMjE0ND
-AyMDY2NiwxNjg5OTczMjc1LDkwNjM3OTE4NywxNzMxNjE3MDE5
-XX0=
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMjY3OT
+YwODU5LC0yMTQ0MDIwNjY2LDE2ODk5NzMyNzUsOTA2Mzc5MTg3
+LDE3MzE2MTcwMTldfQ==
 -->
