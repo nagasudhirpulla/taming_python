@@ -78,10 +78,13 @@ print('now - 1 day, 3 weeks = {0}'.format(tBefore.strftime('%d %b %Y %H:%M:%S'))
 import datetime as dt
 
 # create a timedelta object
-tDelta = dt.datetime.now() - dt.datetime(2020,1,1)
-print('timedelta object = {0}'.format(tDelta))
+tp = dt.datetime.now() - dt.datetime(2020,1,1)
+print('timedelta object = {0}'.format(tp))
 # print its compoenents
-
+print('days = {0}'.format(tp.days))
+print('seconds = {0}'.format(tp.seconds))
+print('microseconds = {0}'.format(tp.microseconds))
+print('milliseconds = {0}'.format(tp.milliseconds))
 
 ```
 
@@ -109,7 +112,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRpbWVkZWx0YXMgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ3N1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMTEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTA0Mj
-Q1MjM3NCwtMjE0NDAyMDY2NiwxNjg5OTczMjc1LDkwNjM3OTE4
-NywxNzMxNjE3MDE5XX0=
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMTc0MT
+k0OTU4LC0yMTQ0MDIwNjY2LDE2ODk5NzMyNzUsOTA2Mzc5MTg3
+LDE3MzE2MTcwMTldfQ==
 -->
