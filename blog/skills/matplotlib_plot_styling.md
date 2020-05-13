@@ -21,7 +21,7 @@ Please make sure that you covered the [post on basics](https://nagasudhir.blogsp
 Sometimes we may like to control the size of matplotlib figure instead of default figure size. This requirement may arise for saving figure as image etc
 
 ### Setting figure size using the 'figsize' parameter
-Here we can see that  are providing `figsize` input to `subplots` function as tuple in the form ()
+Here we can see that  are providing `figsize` input to `subplots` function as tuple in the form `figsize=(width_inches, height_inches)`
 ```python
 import matplotlib.pyplot as plt
 
@@ -145,7 +145,7 @@ xpYiBQbG90c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5k
 YXRlOiAnMjAyMC0wNS0wOCdcbnRhZ3M6ICdweXRob24sIGxlYX
 JuaW5nLCB0dXRvcmlhbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOlsyMTA2MDU4NTc1LDQ4NjkxNzI2Myw1NzY2OTI4
+hpc3RvcnkiOlsxODgzNTAwNjMyLDQ4NjkxNzI2Myw1NzY2OTI4
 OTQsLTMyODg1NzEwOSwzMjE0MDA2MTAsLTEzODAwNTM3MTEsLT
 E4NjM4NjIxMjZdfQ==
 -->
