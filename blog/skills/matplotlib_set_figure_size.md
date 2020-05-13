@@ -45,8 +45,8 @@ plt.show()
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
-### Color example
-
+### You can practice here
+<iframe height="800px" width="100%" src="https://repl.it/repls/FortunateAlarmedEllipses?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 * plot function API - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
@@ -59,6 +59,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjk1OTUzNTcsLTE1NjA0MDIwMjMsLT
+eyJoaXN0b3J5IjpbLTIxNDYyNTgxODYsLTE1NjA0MDIwMjMsLT
 EzNzYyOTE3MjNdfQ==
 -->
