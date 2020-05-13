@@ -29,8 +29,8 @@ x = [1, 2, 3, 4]
 y = [1, 4, 2, 3]
 
 # create a new figure and get figure, axes handle in return
-# here we are setting width = 10 inches, height = 8 inches
-fig, ax = plt.subplots(figsize=(10,8))
+# here we are setting width = 3 inches, height = 2 inches
+fig, ax = plt.subplots(figsize=(3,2))
 
 # using color eyworE itn plo] function to control color
 ax.plot(x,y)
@@ -59,6 +59,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzQ4Nzg0NywtMTU2MDQwMjAyMywtMT
-M3NjI5MTcyM119
+eyJoaXN0b3J5IjpbLTIwNjk1OTUzNTcsLTE1NjA0MDIwMjMsLT
+EzNzYyOTE3MjNdfQ==
 -->
