@@ -36,6 +36,7 @@ Here are the goals and skills in this tutorial series
 * [Styling Matplotlib plots](https://nagasudhir.blogspot.com/2020/05/styling-matplotlib-plots.html)
 * [Multiple Plots in a same subplot using Matplotlib](https://nagasudhir.blogspot.com/2020/05/multiple-plots-in-same-subplot-using.html)
 * [Multiple subplots in a figure using Matplotlib](https://nagasudhir.blogspot.com/2020/05/multiple-subplots-in-figure-using.html)
+* [Setting Figure size of matplotlib plots](https://nagasudhir.blogspot.com/2020/05/setting-figure-size-of-matplotlib-plots.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -43,7 +44,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTc3OTczNDk1NSw0NDAyNz
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTEzMTg4MzA3Miw0NDAyNz
 gxNzEsNzA4NjExMjYsMzI0Nzk3NzQ2LDE0NjAxMDg3NTUsMjQz
 NDU3NjU2LC0xNDA0Mzk3MzUzLC02MTc0OTE5MDIsMTI0MzUwNj
 cwOCwtMTQxOTMxMTY3Miw2Mjg0MTI4NzAsLTgxNTE0NDk3MCwx
