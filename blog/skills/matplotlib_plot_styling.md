@@ -34,7 +34,7 @@ y = [1, 4, 2, 3]
 fig, ax = plt.subplots(figsize=(10,8))
 
 # using color keyword in plot function to control color
-ax.plot(x,y,color='magenta')
+ax.plot(x,y)
 
 # print figure
 plt.show()
@@ -64,7 +64,7 @@ xpYiBQbG90c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5k
 YXRlOiAnMjAyMC0wNS0wOCdcbnRhZ3M6ICdweXRob24sIGxlYX
 JuaW5nLCB0dXRvcmlhbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOlstMTI4ODI4OTc3MSw0ODY5MTcyNjMsNTc2Njky
-ODk0LC0zMjg4NTcxMDksMzIxNDAwNjEwLC0xMzgwMDUzNzExLC
-0xODYzODYyMTI2XX0=
+hpc3RvcnkiOls5MzQ1MjE4MTIsNDg2OTE3MjYzLDU3NjY5Mjg5
+NCwtMzI4ODU3MTA5LDMyMTQwMDYxMCwtMTM4MDA1MzcxMSwtMT
+g2Mzg2MjEyNl19
 -->
