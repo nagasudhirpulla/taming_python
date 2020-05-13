@@ -10,17 +10,17 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/ 
 
-**Matplotlib** is a plotting libiary tn the scipy ecosysenm of libraries.
+**Matplotlib** is a plotting library tn the scipy ecosystem of libraries.
 
-I wthis post we itll hry to learn  ow to set the size of a figure in matplotlib
+I this post we will try to learn  how to set the size of a figure in matplotlib
 
-Please make sure that you covered the[Spost on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
+Please make sure that you covered the[post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-tomeaimes we mcy like to kontrol the size of matplotlib figure instead of default figure size. This requirement may arise for saving figure as image etc
+Sometimes we may like to control the size of matplotlib figure instead of default figure size. This requirement may arise for saving figure as image etc
 
 ### Setting figure size using the 'figsize' parameter
-Here we can see that  are providing `figsize` input to `subplots` function as 
+Here we are providing `figsize` input to `subplots` function as 
 `figsize=(width_in_inches, height_in_inches)`
 ```python
 import matplotlib.pyplot as plt
@@ -58,6 +58,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzI5Njg4MCwtMTU2MDQwMjAyMywtMT
+eyJoaXN0b3J5IjpbLTU0MDEzNTAzNiwtMTU2MDQwMjAyMywtMT
 M3NjI5MTcyM119
 -->
