@@ -38,7 +38,7 @@ ax.plot(x,y)
 # print figure
 plt.show()
 ```
-![plot_python_output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_matplotlib_plot.png)
+
 <hr/>
 
 ### Online Interpreter
@@ -58,6 +58,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA5MjE3MDAsLTE1NjA0MDIwMjMsLT
-EzNzYyOTE3MjNdfQ==
+eyJoaXN0b3J5IjpbMjY3ODc2NTM3LC0yMTAwOTIxNzAwLC0xNT
+YwNDAyMDIzLC0xMzc2MjkxNzIzXX0=
 -->
