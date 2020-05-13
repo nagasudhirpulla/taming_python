@@ -1,4 +1,4 @@
-## Skill - Styling Matplotlib plots
+## Skill - Setting the Figure size of Matplotlib plots
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -142,7 +142,7 @@ xpYiBQbG90c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5k
 YXRlOiAnMjAyMC0wNS0wOCdcbnRhZ3M6ICdweXRob24sIGxlYX
 JuaW5nLCB0dXRvcmlhbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOlstMjQwNDk5MzQsNDg2OTE3MjYzLDU3NjY5Mjg5
-NCwtMzI4ODU3MTA5LDMyMTQwMDYxMCwtMTM4MDA1MzcxMSwtMT
-g2Mzg2MjEyNl19
+hpc3RvcnkiOlstNTkwNjU4Nzk1LDQ4NjkxNzI2Myw1NzY2OTI4
+OTQsLTMyODg1NzEwOSwzMjE0MDA2MTAsLTEzODAwNTM3MTEsLT
+E4NjM4NjIxMjZdfQ==
 -->
