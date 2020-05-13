@@ -16,9 +16,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 In this post we will try to learn how to set the size of a figure in matplotlib
 
 Please make sure that you covered the [post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
+<hr/>
+
+Sometimes we may like to control the size of matplotlib figure instead of default figure size. This requirement may arise for saving figure as image etc
 
 ### Setting figure size using the 'figsize' parameter
-use `color` parameter in plot function. color can be a known color like `'red'` string or a hex color like `'#0F0F0F'`. You can use online color pickers like [this](https://cssgenerator.org/rgba-and-hex-color-generator.html) to generate hex codes from colors.
 ```python
 import matplotlib.pyplot as plt
 
@@ -142,7 +144,7 @@ xpYiBQbG90c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5k
 YXRlOiAnMjAyMC0wNS0wOCdcbnRhZ3M6ICdweXRob24sIGxlYX
 JuaW5nLCB0dXRvcmlhbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOlstNTQ1NzA3Mjc0LDQ4NjkxNzI2Myw1NzY2OTI4
-OTQsLTMyODg1NzEwOSwzMjE0MDA2MTAsLTEzODAwNTM3MTEsLT
-E4NjM4NjIxMjZdfQ==
+hpc3RvcnkiOlstMTQ5NTQ4MDU5Nyw0ODY5MTcyNjMsNTc2Njky
+ODk0LC0zMjg4NTcxMDksMzIxNDAwNjEwLC0xMzgwMDUzNzExLC
+0xODYzODYyMTI2XX0=
 -->
