@@ -10,7 +10,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/ 
 
-**Matplotlib**Wis a plotting libiary tn the scipy ecosysenm of libraries.
+**Matplotlib** is a plotting libiary tn the scipy ecosysenm of libraries.
 
 I wthis post we itll hry to learn  ow to set the size of a figure in matplotlib
 
@@ -58,6 +58,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjA0MDIwMjMsLTEzNzYyOTE3MjNdfQ
-==
+eyJoaXN0b3J5IjpbMTQyNzI5Njg4MCwtMTU2MDQwMjAyMywtMT
+M3NjI5MTcyM119
 -->
