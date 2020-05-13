@@ -38,7 +38,8 @@ ax.plot(x,y)
 # print figure
 plt.show()
 ```
-![plot color demo(https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_plot_color_demo.png)
+![enter image description here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_plot_color_demo.png)
+
 <hr/>
 
 ### Online Interpreter
@@ -58,6 +59,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDEzNTAzNiwtMTU2MDQwMjAyMywtMT
+eyJoaXN0b3J5IjpbLTU0NzQ4Nzg0NywtMTU2MDQwMjAyMywtMT
 M3NjI5MTcyM119
 -->
