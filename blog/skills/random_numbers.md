@@ -19,7 +19,7 @@ import random
 
 # create a random integer between 10 and 20
 intNum = random.uniform(10,21)
-print('random integer between ')
+print('random integer between 10 and 20 = {0}'.format(intNum))
 
 ```
 
@@ -40,5 +40,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3Njk2NDIyXX0=
+eyJoaXN0b3J5IjpbMzA2NDMzOTcyXX0=
 -->
