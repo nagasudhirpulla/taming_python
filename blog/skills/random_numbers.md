@@ -41,9 +41,9 @@ realNums = []
 
 # run a loop for 15 times
 for p in range(15):
-	realNums.append(random.randrange(10,21))
+	realNums.append(random.randrange(200,501))
 
-print('random integers list between 10 and 20 = {0}'.format(realNums))
+print('15 random integers between 200 and 500 = {0}'.format(realNums))
 ```
 
 ### Online Interpreter
@@ -63,5 +63,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTM3OTI1ODJdfQ==
+eyJoaXN0b3J5IjpbLTIzODc4MzBdfQ==
 -->
