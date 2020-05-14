@@ -132,8 +132,10 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 ### References
 * https://www.tutorialspoint.com/generating-random-number-list-in-python
 
+<hr/>
+
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTUxMjFdfQ==
+eyJoaXN0b3J5IjpbLTE4NjcwMTkyNjZdfQ==
 -->
