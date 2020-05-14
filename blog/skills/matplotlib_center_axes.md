@@ -6,6 +6,7 @@
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Introduction to Matplotlib plotting library](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
+* [Styling Matplotlib plots](https://nagasudhir.blogspot.com/2020/05/styling-matplotlib-plots.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/ 
@@ -17,7 +18,7 @@ I this post we will try to learn  how to set the size of a figure in matplotlib
 Please make sure that you covered the[post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-Sometimes we may like to control the size of matplotlib figure instead of default figure size. This requirement may arise for saving figure as image etc
+Sometimes we may require to have the main axis lines to
 
 ### Setting figure size using the 'figsize' parameter
 Here we are providing `figsize` input to `subplots` function as 
@@ -59,5 +60,10 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDkwOTQ3NV19
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IENlbnRlcmluZyB0aGUgcG
+xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
+ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
+AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
+eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTc1NjI3MjY0NF19
 -->
