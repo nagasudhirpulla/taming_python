@@ -47,7 +47,7 @@ plt.show()
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
 ### You can practice here
-
+<iframe height="800px" width="100%" src="https://repl.it/repls/DeepSnoopyMatrix?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 * Solution from stackoverflow post - https://stackoverflow.com/questions/31556446/how-to-draw-axis-in-the-middle-of-the-figure
@@ -65,7 +65,7 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE0NzI2MDc3NzQsLTk2
-NjAzMzM4NywtMTkzNzQyNTk2NywtMTExMzgxOTIzOCwzNjQzMj
-YwNTJdfQ==
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNjE2NjY5MzM0LC05NjYw
+MzMzODcsLTE5Mzc0MjU5NjcsLTExMTM4MTkyMzgsMzY0MzI2MD
+UyXX0=
 -->
