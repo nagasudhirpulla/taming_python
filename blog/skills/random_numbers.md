@@ -13,21 +13,23 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will try to learn how to generate random numbers using `random` module in python
 
-### Create a random integer
+### Create a random integer using 'randrange'
 ```python
 import random
 
 # create a random integer between 10 and 20
 intNum = random.randrange(10,21)
+
 print('random integer between 10 and 20 = {0}'.format(intNum))
 ```
 
-### Create a random decimal value
+### Create a random decimal value using 'uniform'
 ```python
 import random
 
 # create a random real value such that 10<=realNum<20
 realNum = random.uniform(10,20)
+
 print('random real number between 10 and 20 = {0}'.format(realNum))
 ```
 
@@ -40,13 +42,13 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 <hr/>
 
 ### References
-* https://www.tutorialspoint.com/generating-random-number-list-in-python
 * https://docs.python.org/3/library/random.html#examples-and-recipes
+* https://www.tutorialspoint.com/generating-random-number-list-in-python
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODMwOTkyODZdfQ==
+eyJoaXN0b3J5IjpbLTE5OTQ5Mjk3NF19
 -->
