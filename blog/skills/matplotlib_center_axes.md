@@ -17,7 +17,7 @@ Please make sure that you covered the[post on basics](https://nagasudhir.blogspo
 <hr/>
 
 Sometimes we may require to have the main axis lines to be in the center of the subplot. We will control the positioning of `spines` to achieve this.
-The spines of an axes handle can be accessed by `ax.spines`
+
 
 ```python
 import matplotlib.pyplot as plt
@@ -42,6 +42,7 @@ ax.spines['top'].set_color('none')
 plt.show()
 ```
 
+As shown above the spines/axis lines of an axes handle `ax` can be controlled by `ax.spines`
 <hr/>
 
 ### Online Interpreter
@@ -66,7 +67,7 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbODkyOTI1NTUwLC05NjYw
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE5OTAzODQ1LC05NjYw
 MzMzODcsLTE5Mzc0MjU5NjcsLTExMTM4MTkyMzgsMzY0MzI2MD
 UyXX0=
 -->
