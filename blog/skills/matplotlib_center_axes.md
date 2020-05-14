@@ -18,7 +18,7 @@ I this post we will try to learn  how to set the size of a figure in matplotlib
 Please make sure that you covered the[post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-Sometimes we may require to have the main axis lines to
+Sometimes we may require to have the main axis lines to be in the center of the subplot. We will the positioning of `spines` to acheive this
 
 ### Setting figure size using the 'figsize' parameter
 Here we are providing `figsize` input to `subplots` function as 
@@ -65,5 +65,5 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTc1NjI3MjY0NF19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE1NDkzOTE4MF19
 -->
