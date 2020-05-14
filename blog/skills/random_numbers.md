@@ -15,7 +15,10 @@ In this post we will try to learn how to generate random numbers using `random` 
 
 ### Create a random integer
 ```python
+import random
 
+# create a random number between 10 and 20
+num = random.uniform(10,20)
 ```
 
 ### Online Interpreter
@@ -35,5 +38,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDQyNDExNF19
+eyJoaXN0b3J5IjpbMTUzMTU3MjYyNl19
 -->
