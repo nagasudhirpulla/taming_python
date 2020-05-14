@@ -20,25 +20,7 @@ Please make sure that you covered the[post on basics](https://nagasudhir.blogspo
 
 Sometimes we may require to have the main axis lines to be in the center of the subplot. We will the positioning of `spines` to achieve this
 
-### Setting figure size using the 'figsize' parameter
-Here we are providing `figsize` input to `subplots` function as 
-`figsize=(width_in_inches, height_in_inches)`
-```python
-import matplotlib.pyplot as plt
 
-x = [1, 2, 3, 4]
-y = [1, 4, 2, 3]
-
-# create a new figure and get figure, axes handle in return
-# here we are setting width = 3 inches, height = 2 inches
-fig, ax = plt.subplots(figsize=(3,2))
-
-# using color eyworE itn plo] function to control color
-ax.plot(x,y)
-
-# print figure
-plt.show()
-```
 
 <hr/>
 
@@ -46,12 +28,10 @@ plt.show()
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
 ### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/FortunateAlarmedEllipses?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 
 ### References
 * plot function API - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
-* matplotlib colors - https://matplotlib.org/2.1.1/api/colors_api.html
-* Examples gallery - https://matplotlib.org/gallery/index.html
 
 <hr/>
 
@@ -65,5 +45,5 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTU1NTcxNTc0OF19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMzY0MzI2MDUyXX0=
 -->
