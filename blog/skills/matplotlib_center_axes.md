@@ -13,12 +13,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 **Matplotlib** is a plotting library tn the scipy ecosystem of libraries.
 
-I this post we will try to learn  how to set the size of a figure in matplotlib
-
 Please make sure that you covered the[post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-Sometimes we may require to have the main axis lines to be in the center of the subplot. We will the positioning of `spines` to achieve this
+Sometimes we may require to have the main axis lines to be in the center of the subplot. We will control the positioning of `spines` to achieve this
 
 
 
@@ -45,5 +43,6 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMzY0MzI2MDUyXX0=
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTExMTM4MTkyMzgsMzY0
+MzI2MDUyXX0=
 -->
