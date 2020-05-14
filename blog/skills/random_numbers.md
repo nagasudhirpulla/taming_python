@@ -37,8 +37,11 @@ print('random real number between 10 and 20 = {0}'.format(realNum))
 ```python
 import random
 
-# create a random real value such that 10<=realNum<20
-realNums = random.uniform(10,20)
+realNums = []
+
+# run a loop for 10 times
+for p in range(10):
+	realNUm
 
 print('random real number between 10 and 20 = {0}'.format(realNum))
 ```
@@ -60,5 +63,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MDU3Mjg2NV19
+eyJoaXN0b3J5IjpbLTExMDIyODExNzhdfQ==
 -->
