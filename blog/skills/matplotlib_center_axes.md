@@ -29,7 +29,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 ### References
-* plot function API - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
+* Solution from stackoverflow post - https://stackoverflow.com/questions/31556446/how-to-draw-axis-in-the-middle-of-the-figure
 
 <hr/>
 
@@ -43,6 +43,6 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTExMTM4MTkyMzgsMzY0
-MzI2MDUyXX0=
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE5Mzc0MjU5NjcsLTEx
+MTM4MTkyMzgsMzY0MzI2MDUyXX0=
 -->
