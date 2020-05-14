@@ -30,6 +30,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 ### References
 * Solution from stackoverflow post - https://stackoverflow.com/questions/31556446/how-to-draw-axis-in-the-middle-of-the-figure
+* Spine placement demo - https://matplotlib.org/3.1.0/gallery/ticks_and_spines/spine_placement_demo.html
 
 <hr/>
 
@@ -43,6 +44,6 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE5Mzc0MjU5NjcsLTEx
-MTM4MTkyMzgsMzY0MzI2MDUyXX0=
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTk2NjAzMzM4NywtMTkz
+NzQyNTk2NywtMTExMzgxOTIzOCwzNjQzMjYwNTJdfQ==
 -->
