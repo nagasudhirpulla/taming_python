@@ -37,7 +37,8 @@ ax.spines['bottom'].set_position('center')
 ax.spines['right'].set_color('none')
 ax.spines['top'].set_color('none')
 
-
+# print the plot
+plt.show()
 ```
 
 <hr/>
@@ -64,7 +65,7 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTk5NDg2NDM5MiwtOTY2
-MDMzMzg3LC0xOTM3NDI1OTY3LC0xMTEzODE5MjM4LDM2NDMyNj
-A1Ml19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE0NzI2MDc3NzQsLTk2
+NjAzMzM4NywtMTkzNzQyNTk2NywtMTExMzgxOTIzOCwzNjQzMj
+YwNTJdfQ==
 -->
