@@ -26,6 +26,18 @@ y = []
 # create a plotting area and get the figure, axes handle in return
 fig, ax = plt.subplots()
 
+# plot data on the axes handle
+ax.plot(x, y)
+
+# Move left y-axis and bottim x-axis to centre
+ax.spines['left'].set_position('center')
+ax.spines['bottom'].set_position('center')
+
+# Eliminate top and right axes by se
+ax.spines['right'].set_color('none')
+ax.spines['top'].set_color('none')
+
+
 ```
 
 <hr/>
@@ -52,7 +64,7 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE0NTE0MTQ3NTQsLTk2
-NjAzMzM4NywtMTkzNzQyNTk2NywtMTExMzgxOTIzOCwzNjQzMj
-YwNTJdfQ==
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTUxNjQyMDAxMSwtOTY2
+MDMzMzg3LC0xOTM3NDI1OTY3LC0xMTEzODE5MjM4LDM2NDMyNj
+A1Ml19
 -->
