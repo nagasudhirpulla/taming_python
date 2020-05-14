@@ -1,4 +1,4 @@
-## Skill - Lists in Python
+## Skill - Generate random numbers in python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -63,5 +63,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTI4NDYwMl19
+eyJoaXN0b3J5IjpbMTA2MDYwMDAwOV19
 -->
