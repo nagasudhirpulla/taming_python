@@ -13,7 +13,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will try to learn how to generate random numbers using `random` module in python
 
-### Ea
+### Create a random integer
 ```python
 ```
 
@@ -27,11 +27,12 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 ### References
 * https://www.tutorialspoint.com/generating-random-number-list-in-python
+* https://docs.python.org/3/library/random.html#examples-and-recipes
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwMjA1NzI5XX0=
+eyJoaXN0b3J5IjpbMjA0NzUxNzg1Nl19
 -->
