@@ -46,13 +46,13 @@ for p in range(15):
 print('fifteen random integers between 200 and 500 = {0}'.format(realNums))
 ```
 
+<hr/>
+
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
 ### You can practice here
 <iframe height="800px" width="100%" src="https://repl.it/repls/MistyroseFelineUsers?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
-<hr/>
 
 ### References
 * https://docs.python.org/3/library/random.html#examples-and-recipes
@@ -63,5 +63,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODUzNjUzMF19
+eyJoaXN0b3J5IjpbLTM3OTI4NDYwMl19
 -->
