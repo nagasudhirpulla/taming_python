@@ -33,17 +33,17 @@ realNum = random.uniform(10,20)
 print('random real number between 10 and 20 = {0}'.format(realNum))
 ```
 
-### Example: create a list of 10 random numbers
+### Example: create a list of 15 random numbers
 ```python
 import random
 
 realNums = []
 
-# run a loop for 10 times
-for p in range(10):
-	realNUm
+# run a loop for 15 times
+for p in range(15):
+	realNums.append(random.randrange(10,21))
 
-print('random real number between 10 and 20 = {0}'.format(realNum))
+print('random integers list between 10 and 20 = {0}'.format(realNums))
 ```
 
 ### Online Interpreter
@@ -63,5 +63,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDIyODExNzhdfQ==
+eyJoaXN0b3J5IjpbLTE0NTM3OTI1ODJdfQ==
 -->
