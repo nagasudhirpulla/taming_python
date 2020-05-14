@@ -18,7 +18,15 @@ Please make sure that you covered the[post on basics](https://nagasudhir.blogspo
 
 Sometimes we may require to have the main axis lines to be in the center of the subplot. We will control the positioning of `spines` to achieve this
 
-``
+```python
+import matplotlib.pyplot as plt
+x = []
+y = []
+
+
+fig, ax = plt.subplots()
+
+```
 
 <hr/>
 
@@ -44,7 +52,7 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE3Mjk4NDg5MzksLTk2
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE5Mjg0Mjc3MDIsLTk2
 NjAzMzM4NywtMTkzNzQyNTk2NywtMTExMzgxOTIzOCwzNjQzMj
 YwNTJdfQ==
 -->
