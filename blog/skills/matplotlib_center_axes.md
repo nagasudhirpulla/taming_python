@@ -23,7 +23,7 @@ import matplotlib.pyplot as plt
 x = []
 y = []
 
-
+# create a plotting area and get the figure, axes handle in return
 fig, ax = plt.subplots()
 
 ```
@@ -52,7 +52,7 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE5Mjg0Mjc3MDIsLTk2
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE0NTE0MTQ3NTQsLTk2
 NjAzMzM4NywtMTkzNzQyNTk2NywtMTExMzgxOTIzOCwzNjQzMj
 YwNTJdfQ==
 -->
