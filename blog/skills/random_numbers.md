@@ -20,8 +20,10 @@ import random
 # create a random integer between 10 and 20
 intNum = random.uniform(10,21)
 print('random integer between 10 and 20 = {0}'.format(intNum))
-
 ```
+
+### Create a random decimal value
+
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -40,5 +42,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2NDMzOTcyXX0=
+eyJoaXN0b3J5IjpbNjYyNDk1OTM5XX0=
 -->
