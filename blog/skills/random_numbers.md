@@ -15,6 +15,7 @@ In this post we will try to learn how to generate random numbers using `random` 
 
 ### Create a random integer
 ```python
+
 ```
 
 ### Online Interpreter
@@ -34,5 +35,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzUxNzg1Nl19
+eyJoaXN0b3J5IjpbLTYwNDQyNDExNF19
 -->
