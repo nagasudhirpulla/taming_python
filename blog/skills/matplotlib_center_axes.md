@@ -16,7 +16,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 Please make sure that you covered the[post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-Sometimes we may require to have the main axis lines to be in the center of the subplot. We will control the positioning of `spines` to achieve this
+Sometimes we may require to have the main axis lines to be in the center of the subplot. We will control the positioning of `spines` to achieve this.
+The spines of an axes handle can be accessed by `ax.spines`
 
 ```python
 import matplotlib.pyplot as plt
@@ -65,7 +66,7 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNjE2NjY5MzM0LC05NjYw
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbODkyOTI1NTUwLC05NjYw
 MzMzODcsLTE5Mzc0MjU5NjcsLTExMTM4MTkyMzgsMzY0MzI2MD
 UyXX0=
 -->
