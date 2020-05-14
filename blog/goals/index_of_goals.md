@@ -24,6 +24,7 @@ Here are the goals and skills in this tutorial series
 * ['while' loop in python](https://nagasudhir.blogspot.com/2020/05/while-loop-in-python.html)
 * [Datetime library in python](https://nagasudhir.blogspot.com/2020/05/datetime-library-in-python.html)
 * [Managing time periods using ‘timedelta’ in python](https://nagasudhir.blogspot.com/2020/05/timedeltas-in-python.html)
+* [Create random numbers in python](https://nagasudhir.blogspot.com/2020/05/create-random-numbers-in-python.html)
 * [pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
 * [Working with excel files and pandas DataFrames](https://nagasudhir.blogspot.com/2020/05/working-with-excel-and-pandas-dataframes.html)
 * [Getting the shape / dimension of a DataFrame](https://nagasudhir.blogspot.com/2020/05/dimension-of-dataframe.html)
@@ -44,10 +45,10 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTEzMTg4MzA3Miw0NDAyNz
-gxNzEsNzA4NjExMjYsMzI0Nzk3NzQ2LDE0NjAxMDg3NTUsMjQz
-NDU3NjU2LC0xNDA0Mzk3MzUzLC02MTc0OTE5MDIsMTI0MzUwNj
-cwOCwtMTQxOTMxMTY3Miw2Mjg0MTI4NzAsLTgxNTE0NDk3MCwx
-MTY2MTc3NzY3LDkyMjIwOTk4MCw1NzA4NDAwNzcsLTM5ODY0NT
-I1Ml19
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTQyNzYwMzI0NiwxMTMxOD
+gzMDcyLDQ0MDI3ODE3MSw3MDg2MTEyNiwzMjQ3OTc3NDYsMTQ2
+MDEwODc1NSwyNDM0NTc2NTYsLTE0MDQzOTczNTMsLTYxNzQ5MT
+kwMiwxMjQzNTA2NzA4LC0xNDE5MzExNjcyLDYyODQxMjg3MCwt
+ODE1MTQ0OTcwLDExNjYxNzc3NjcsOTIyMjA5OTgwLDU3MDg0MD
+A3NywtMzk4NjQ1MjUyXX0=
 -->
