@@ -32,7 +32,7 @@ y = [1, 4, 2, 3]
 # here we are setting width = 3 inches, height = 2 inches
 fig, ax = plt.subplots(figsize=(3,2))
 
-# using color eyworE itn plo] function to control color
+# using color keyword itn plot function to control color
 ax.plot(x,y)
 
 # print figure
@@ -63,6 +63,7 @@ NpemUgb2YgbWF0cGxvdGxpYiBwbG90c1xuYXV0aG9yOiBOYWdh
 c3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNS0xMydcbnRhZ3
 M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwgdGFtaW5n
 X3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weX
-Rob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMjEzOTYyMTI5NCwt
-MjEwMDkyMTcwMCwtMTU2MDQwMjAyMywtMTM3NjI5MTcyM119
+Rob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxNzgzMzkyNzc1LC0y
+MTM5NjIxMjk0LC0yMTAwOTIxNzAwLC0xNTYwNDAyMDIzLC0xMz
+c2MjkxNzIzXX0=
 -->
