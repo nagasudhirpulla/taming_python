@@ -20,8 +20,8 @@ Please make sure that you covered the[post on basics](https://nagasudhir.blogspo
 
 Sometimes we may like to control the limits of x, y axes of matplotlib figure instead of automatic limits. 
 
-### Setting x and y axis limits
-We can use the `set_xlim` and `set_xlim` functions of the axes handle
+### Setting x and y axis limits using 'set_xlim', 'set_ylim'
+We can use the `set_xlim` and `set_ylim` functions of the axes handle
 ```python
 import matplotlib.pyplot as plt
 
@@ -45,12 +45,10 @@ plt.show()
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
 ### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/FortunateAlarmedEllipses?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 
 ### References
-* plot function API - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
-* matplotlib colors - https://matplotlib.org/2.1.1/api/colors_api.html
-* Examples gallery - https://matplotlib.org/gallery/index.html
+* http://www.learningaboutelectronics.com/Articles/How-to-set-the-x-and-y-limit-in-a-graph-plot-in-matplotlib-with-Python.php
 
 <hr/>
 
@@ -63,6 +61,6 @@ BhbmQgeSBheGlzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbm
 csIHR1dG9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0
 ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJz
-IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbLTEzNTIxNDkxNTIs
-LTc0MDMzMDEzOF19
+IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbNTIwMTU2NDU1LC03
+NDAzMzAxMzhdfQ==
 -->
