@@ -8,7 +8,7 @@
 * [Introduction to Matplotlib plotting library](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
-<hr/ 
+<hr/>
 
 **Matplotlib** is a plotting library tn the scipy ecosystem of libraries.
 
@@ -63,7 +63,7 @@ NpemUgb2YgbWF0cGxvdGxpYiBwbG90c1xuYXV0aG9yOiBOYWdh
 c3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNS0xMydcbnRhZ3
 M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwgdGFtaW5n
 X3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weX
-Rob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTk5OTU5NjkyNSwt
-MjEzOTYyMTI5NCwtMjEwMDkyMTcwMCwtMTU2MDQwMjAyMywtMT
-M3NjI5MTcyM119
+Rob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTQzNzkwNTQ5OSwt
+MTk5OTU5NjkyNSwtMjEzOTYyMTI5NCwtMjEwMDkyMTcwMCwtMT
+U2MDQwMjAyMywtMTM3NjI5MTcyM119
 -->
