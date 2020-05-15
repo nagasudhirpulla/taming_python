@@ -1,6 +1,6 @@
 ## Skill - Setting the Figure size of Matplotlib plots
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
->#### Skills Required
+#### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
@@ -63,7 +63,7 @@ NpemUgb2YgbWF0cGxvdGxpYiBwbG90c1xuYXV0aG9yOiBOYWdh
 c3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNS0xMydcbnRhZ3
 M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwgdGFtaW5n
 X3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weX
-Rob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxNzgzMzkyNzc1LC0y
-MTM5NjIxMjk0LC0yMTAwOTIxNzAwLC0xNTYwNDAyMDIzLC0xMz
-c2MjkxNzIzXX0=
+Rob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTk5OTU5NjkyNSwt
+MjEzOTYyMTI5NCwtMjEwMDkyMTcwMCwtMTU2MDQwMjAyMywtMT
+M3NjI5MTcyM119
 -->
