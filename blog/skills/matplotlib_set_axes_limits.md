@@ -18,7 +18,7 @@ I this post we will try to learn how to set the axis limits of a figure in matpl
 Please make sure that you covered the[post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-Sometimes we may like to control the size of matplotlib figure instead of default figure size. This requirement may arise for saving figure as image etc
+Sometimes we may like to control the limits of x, y axes of matplotlib figure instead of automatic limits. 
 
 ### Setting figure size using the 'figsize' parameter
 Here we are providing `figsize` input to `subplots` function as 
@@ -64,6 +64,6 @@ BhbmQgeSBheGlzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbm
 csIHR1dG9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0
 ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJz
-IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbLTIwMzYzMTQzNTUs
-LTc0MDMzMDEzOF19
+IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbLTc2MDE4MjU4NCwt
+NzQwMzMwMTM4XX0=
 -->
