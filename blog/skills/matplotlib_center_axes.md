@@ -42,6 +42,8 @@ ax.spines['top'].set_color('none')
 plt.show()
 ```
 
+![matplotlib_center_axes_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_center_axes_demo.PNG)
+
 As shown above the spines/axis lines of an axes handle `ax` can be controlled by `ax.spines`
 <hr/>
 
@@ -67,7 +69,7 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE5OTAzODQ1LC05NjYw
-MzMzODcsLTE5Mzc0MjU5NjcsLTExMTM4MTkyMzgsMzY0MzI2MD
-UyXX0=
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTk3NDQwNTgxMywtMTk5
+MDM4NDUsLTk2NjAzMzM4NywtMTkzNzQyNTk2NywtMTExMzgxOT
+IzOCwzNjQzMjYwNTJdfQ==
 -->
