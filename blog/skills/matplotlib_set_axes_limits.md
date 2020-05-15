@@ -21,8 +21,7 @@ Please make sure that you covered the[post on basics](https://nagasudhir.blogspo
 Sometimes we may like to control the limits of x, y axes of matplotlib figure instead of automatic limits. 
 
 ### Setting figure size using the 'figsize' parameter
-Here we are providing `figsize` input to `subplots` function as 
-`figsize=(width_in_inches, height_in_inches)`
+We can use the `set_xlim`
 ```python
 import matplotlib.pyplot as plt
 
@@ -64,6 +63,6 @@ BhbmQgeSBheGlzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbm
 csIHR1dG9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0
 ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJz
-IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbLTc2MDE4MjU4NCwt
-NzQwMzMwMTM4XX0=
+IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbLTEyODM3MTkzOTMs
+LTc0MDMzMDEzOF19
 -->
