@@ -29,8 +29,7 @@ x = [1, 2, 3, 4]
 y = [1, 4, 2, 3]
 
 # create a new figure and get figure, axes handle in return
-# here we are setting width = 3 inches, height = 2 inches
-fig, ax = plt.subplots(figsize=(3,2))
+fig, ax = plt.subplots()
 
 # using color eyworE itn plo] function to control color
 ax.plot(x,y)
@@ -38,8 +37,9 @@ ax.plot(x,y)
 # set the limits on x axis using set_xlim function of the axes handler
 ax.set_xlim(1, 4)
 
-# set the limits on y axis using set_xlim function of the axes handler
-ax.set_ylim(1, 4)
+# set the limits on y axis using set_ylim function of the axes handler
+ax.set_ylim(-1, 5)
+
 # print figure
 plt.show()
 ```
@@ -66,6 +66,6 @@ BhbmQgeSBheGlzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbm
 csIHR1dG9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0
 ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJz
-IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbMTQ1MjIzNDIyOSw1
+IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbLTUzNzExNjA5Myw1
 MjAxNTY0NTUsLTc0MDMzMDEzOF19
 -->
