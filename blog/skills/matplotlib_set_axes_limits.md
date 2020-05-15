@@ -32,7 +32,7 @@ y = [1, 4, 2, 3]
 fig, ax = plt.subplots()
 
 # using color eyworE itn plo] function to control color
-ax.plot(x,y, marker='.')
+ax.plot(x,y, marker='o')
 
 # set the limits on x axis using set_xlim function of the axes handler
 ax.set_xlim(1, 4)
@@ -43,7 +43,7 @@ ax.set_ylim(-1, 5)
 # print figure
 plt.show()
 ```
-
+![matplotlib_axis_limits_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_axis_limits_demo.PNG)
 <hr/>
 
 ### Online Interpreter
@@ -66,6 +66,6 @@ BhbmQgeSBheGlzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbm
 csIHR1dG9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0
 ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJz
-IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbNTk1OTEzMTA0LDUy
-MDE1NjQ1NSwtNzQwMzMwMTM4XX0=
+IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbMjA1NzQxMDMzNyw1
+MjAxNTY0NTUsLTc0MDMzMDEzOF19
 -->
