@@ -20,8 +20,8 @@ Please make sure that you covered the[post on basics](https://nagasudhir.blogspo
 
 Sometimes we may like to control the limits of x, y axes of matplotlib figure instead of automatic limits. 
 
-### Setting figure size using the 'figsize' parameter
-We can use the `set_xlim`
+### Setting x and y axis limits
+We can use the `set_xlim` and `set_xlim` functions of the axes handle
 ```python
 import matplotlib.pyplot as plt
 
@@ -63,6 +63,6 @@ BhbmQgeSBheGlzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbm
 csIHR1dG9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0
 ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJz
-IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbLTEyODM3MTkzOTMs
+IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbLTEzNTIxNDkxNTIs
 LTc0MDMzMDEzOF19
 -->
