@@ -68,7 +68,7 @@ ax.set_yticks([0,3,6,9])
 plt.show()
 ```
 
-### Example - avoid axis ticks `set_xticks` and `set_yticks`
+### Example - avoid axis ticks by specifying empty array
 ```python
 import matplotlib.pyplot as plt
 x = [0,1,2,3,4,5,6,7,8]
@@ -110,6 +110,6 @@ FiZWxzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG
 9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMD
-UtMTUnXG4iLCJoaXN0b3J5IjpbOTE4ODY3NTg3LC00OTAwMzcx
-OTFdfQ==
+UtMTUnXG4iLCJoaXN0b3J5IjpbLTU1ODU4NTg1OSwtNDkwMDM3
+MTkxXX0=
 -->
