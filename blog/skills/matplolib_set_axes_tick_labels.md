@@ -51,11 +51,11 @@ As shown above the spines/axis lines of an axes handle `ax` can be controlled by
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
 ### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/DeepSnoopyMatrix?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 
 ### References
-* Solution from stackoverflow post - https://stackoverflow.com/questions/31556446/how-to-draw-axis-in-the-middle-of-the-figure
-* Spine placement demo - https://matplotlib.org/3.1.0/gallery/ticks_and_spines/spine_placement_demo.html
+* official documentation on set axis ticks - https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.axes.Axes.set_xticks.html#matplotlib.axes.Axes.set_xticks
+* another post - https://www.tutorialspoint.com/matplotlib/matplotlib_setting_ticks_and_tick_labels.htm
 
 <hr/>
 
@@ -69,6 +69,6 @@ FiZWxzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG
 9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMD
-UtMTUnXG4iLCJoaXN0b3J5IjpbLTE5MDc2MzU4MDIsLTQ5MDAz
-NzE5MV19
+UtMTUnXG4iLCJoaXN0b3J5IjpbMTI2OTc1NzMxNiwtNDkwMDM3
+MTkxXX0=
 -->
