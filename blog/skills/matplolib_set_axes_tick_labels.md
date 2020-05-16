@@ -102,6 +102,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 ### References
 * official documentation on set axis ticks - https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.axes.Axes.set_xticks.html#matplotlib.axes.Axes.set_xticks
 * another post - https://www.tutorialspoint.com/matplotlib/matplotlib_setting_ticks_and_tick_labels.htm
+* another post - https://jakevdp.github.io/PythonDataScienceHandbook/04.10-customizing-ticks.html
 
 <hr/>
 
@@ -115,6 +116,6 @@ FiZWxzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG
 9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMD
-UtMTUnXG4iLCJoaXN0b3J5IjpbMTY3NjI2Nzg5NiwtNDkwMDM3
-MTkxXX0=
+UtMTUnXG4iLCJoaXN0b3J5IjpbMTc0ODMyMTE3OSwxNjc2MjY3
+ODk2LC00OTAwMzcxOTFdfQ==
 -->
