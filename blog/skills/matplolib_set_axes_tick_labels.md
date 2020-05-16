@@ -1,4 +1,4 @@
-## Skill - Set axes tick labels in matplotlib
+## Skill - Set axes ticks and tick labels in matplotlib
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
@@ -17,9 +17,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 Please make sure that you covered the[post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-Sometimes we may require to control the axis tick labels of our subplots. This can be achieved by using the `set_xticks` and `set_yticks` functions of the axes handle
+Sometimes we may require to control the position of axis ticks of our subplots. This can be achieved by using the `set_xticks` and `set_yticks` functions of the axes handle.
 
-### Example - set the ticks of axis using `set_xticks` and `set_yticks`
+### Example - specify the position of axis ticks using `set_xticks` and `set_yticks`
 ```python
 import matplotlib.pyplot as plt
 x = [0,1,2,3,4,5,6,7,8]
@@ -68,6 +68,6 @@ FiZWxzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG
 9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMD
-UtMTUnXG4iLCJoaXN0b3J5IjpbLTE0NjgyNDUzNDIsLTQ5MDAz
-NzE5MV19
+UtMTUnXG4iLCJoaXN0b3J5IjpbMTI1Mjk4ODQ5NSwtNDkwMDM3
+MTkxXX0=
 -->
