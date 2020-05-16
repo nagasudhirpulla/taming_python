@@ -31,10 +31,10 @@ fig, ax = plt.subplots()
 # plot data on the axes handle
 ax.plot(x, y)
 
-# specify the ticks of x axis
+# specify the position of x axis ticks
 ax.set_xticks([0,2,4,6,8])
 
-# specify the ticks of y axis
+# specify the position of y axis ticks
 ax.set_yticks([0,3,6,9])
 
 # print the plot
@@ -42,7 +42,30 @@ plt.show()
 ```
 
 In order to use custom tick labels instead of default tick labels, we can use `set_xticklabels` and `set_yticklabels` functions of the axes handle
+### Example - specify the axis labels using `set_xticklabels` and `set_yticklabels`
+```python
+import matplotlib.pyplot as plt
+x = [0,1,2,3,4,5,6,7,8]
+y = [8,6,4,2,9,7,6,3,1]
 
+# create a plotting area and get the figure, axes handle in return
+fig, ax = plt.subplots()
+
+# plot data on the axes handle
+ax.plot(x, y)
+
+# specify the position of x axis ticks
+ax.set_xticks([0,2,4,6,8])
+
+# specify the tick labels of x axis
+ax.set_xticklabels(['zero','two','four','six'])
+
+# specify the position of y axis ticks
+ax.set_yticks([0,3,6,9])
+
+# print the plot
+plt.show()
+```
 
 As shown above the spines/axis lines of an axes handle `ax` can be controlled by `ax.spines`
 <hr/>
@@ -69,6 +92,6 @@ FiZWxzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG
 9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMD
-UtMTUnXG4iLCJoaXN0b3J5IjpbMjEzMTA3NTY3OSwtNDkwMDM3
-MTkxXX0=
+UtMTUnXG4iLCJoaXN0b3J5IjpbLTIxNDY4MjYxNjksLTQ5MDAz
+NzE5MV19
 -->
