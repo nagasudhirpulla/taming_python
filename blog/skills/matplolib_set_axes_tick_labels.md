@@ -31,8 +31,11 @@ fig, ax = plt.subplots()
 # plot data on the axes handle
 ax.plot(x, y)
 
-#s 
-ax.set_xticks([0,2,4,6, 8])
+# specify the ticks of x axis
+ax.set_xticks([0,2,4,6,8])
+
+# specify the ticks of y axis
+ax.set_yticks([0,3,6,9])
 
 # print the plot
 plt.show()
@@ -65,6 +68,6 @@ FiZWxzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG
 9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMD
-UtMTUnXG4iLCJoaXN0b3J5IjpbMTI2NTMwMjQyMSwtNDkwMDM3
-MTkxXX0=
+UtMTUnXG4iLCJoaXN0b3J5IjpbLTExMTUyMTUwNzIsLTQ5MDAz
+NzE5MV19
 -->
