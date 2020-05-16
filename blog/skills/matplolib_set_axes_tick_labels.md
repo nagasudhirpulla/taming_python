@@ -43,6 +43,7 @@ plt.show()
 
 
 In order to use custom tick labels instead of default tick labels, we can use `set_xticklabels` and `set_yticklabels` functions of the axes handle
+
 ### Example - specify the axis labels using `set_xticklabels` and `set_yticklabels`
 ```python
 import matplotlib.pyplot as plt
@@ -67,6 +68,7 @@ ax.set_yticks([0,3,6,9])
 # print the plot
 plt.show()
 ```
+![matlpotlib_axis_tick_labels_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matlpotlib_axis_tick_labels_demo.png)
 
 ### Example - avoid axis ticks by specifying empty array
 ```python
@@ -110,6 +112,6 @@ FiZWxzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG
 9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMD
-UtMTUnXG4iLCJoaXN0b3J5IjpbLTU1ODU4NTg1OSwtNDkwMDM3
+UtMTUnXG4iLCJoaXN0b3J5IjpbLTMwMTU1OTA2MSwtNDkwMDM3
 MTkxXX0=
 -->
