@@ -1,10 +1,14 @@
 https://jakevdp.github.io/PythonDataScienceHandbook/04.10-customizing-ticks.html
+
+https://stackoverflow.com/questions/29188757/matplotlib-specify-format-of-floats-for-tick-labels/29188910#29188910
+
+
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZvcm1hdCBheGlzIHRpY2
 tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTE5MjQ5MTA1OTQsMjA1ODc4NjUw
-OV19
+xsXG4iLCJoaXN0b3J5IjpbNDQ2MTkwMzg5LDIwNTg3ODY1MDld
+fQ==
 -->
