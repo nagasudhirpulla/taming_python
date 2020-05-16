@@ -22,8 +22,8 @@ Sometimes we may require to control the axis tick labels of our subplots. This c
 ### Example - set the ticks of axis using `set_xticks` and `set_yticks`
 ```python
 import matplotlib.pyplot as plt
-x = []
-y = []
+x = [0,1,2,3,4,5,6,7,8]
+y = [8,6,4,2,9,7,6,3,1]
 
 # create a plotting area and get the figure, axes handle in return
 fig, ax = plt.subplots()
@@ -31,13 +31,8 @@ fig, ax = plt.subplots()
 # plot data on the axes handle
 ax.plot(x, y)
 
-# Move left y-axis and bottim x-axis to centre by setting position as 'center'
-ax.spines['left'].set_position('center')
-ax.spines['bottom'].set_position('center')
-
-# Eliminate top and right axes by setting spline color as 'none'
-ax.spines['right'].set_color('none')
-ax.spines['top'].set_color('none')
+#s 
+ax.set_xticks([0,2,4,6, 8])
 
 # print the plot
 plt.show()
@@ -70,6 +65,6 @@ FiZWxzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG
 9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMD
-UtMTUnXG4iLCJoaXN0b3J5IjpbLTQxMzA0NDA5LC00OTAwMzcx
-OTFdfQ==
+UtMTUnXG4iLCJoaXN0b3J5IjpbMTI2NTMwMjQyMSwtNDkwMDM3
+MTkxXX0=
 -->
