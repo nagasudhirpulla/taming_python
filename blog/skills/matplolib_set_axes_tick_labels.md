@@ -41,7 +41,7 @@ ax.set_yticks([0,3,6,9])
 plt.show()
 ```
 
-![matplotlib_center_axes_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_center_axes_demo.PNG)
+
 
 As shown above the spines/axis lines of an axes handle `ax` can be controlled by `ax.spines`
 <hr/>
@@ -68,6 +68,6 @@ FiZWxzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG
 9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMD
-UtMTUnXG4iLCJoaXN0b3J5IjpbLTExMTUyMTUwNzIsLTQ5MDAz
+UtMTUnXG4iLCJoaXN0b3J5IjpbLTE0NjgyNDUzNDIsLTQ5MDAz
 NzE5MV19
 -->
