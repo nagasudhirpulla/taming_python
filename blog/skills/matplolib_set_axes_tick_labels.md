@@ -88,7 +88,9 @@ ax.set_xticks([])
 # print the plot
 plt.show()
 ```
-![matlpotlib_blank_axis_tick_labels_demo](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/matlpotlib_blank_axis_tick_labels_demo.png)
+
+![matlpotlib_blank_axis_tick_labels_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matlpotlib_blank_axis_tick_labels_demo.png)
+
 <hr/>
 
 ### Online Interpreter
@@ -113,6 +115,6 @@ FiZWxzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG
 9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMD
-UtMTUnXG4iLCJoaXN0b3J5IjpbNjgxMTA1MjEsLTQ5MDAzNzE5
-MV19
+UtMTUnXG4iLCJoaXN0b3J5IjpbMTY3NjI2Nzg5NiwtNDkwMDM3
+MTkxXX0=
 -->
