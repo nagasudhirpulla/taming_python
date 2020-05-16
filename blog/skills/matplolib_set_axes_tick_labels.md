@@ -17,7 +17,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 Please make sure that you covered the[post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-Sometimes we may require to control the axis tick labels of our subplots. This ca
+Sometimes we may require to control the axis tick labels of our subplots. This can be achieved by using the set
 
 ```python
 import matplotlib.pyplot as plt
@@ -69,6 +69,6 @@ FiZWxzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG
 9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMD
-UtMTUnXG4iLCJoaXN0b3J5IjpbMTc3MDQxMTkyNiwtNDkwMDM3
-MTkxXX0=
+UtMTUnXG4iLCJoaXN0b3J5IjpbLTE5MDc2MzU4MDIsLTQ5MDAz
+NzE5MV19
 -->
