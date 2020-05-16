@@ -40,6 +40,7 @@ Here are the goals and skills in this tutorial series
 * [Setting Figure size of matplotlib plots](https://nagasudhir.blogspot.com/2020/05/setting-figure-size-of-matplotlib-plots.html)
 * [Centering the plot axes in matplotlib](https://nagasudhir.blogspot.com/2020/05/centering-plot-axes-in-matplotlib.html)
 * [Set limits of x and y axis in matplotlib](https://nagasudhir.blogspot.com/2020/05/set-limits-of-x-and-y-axis-in-matplotlib.html)
+* [Set axes ticks and tick labels in matplotlib](https://nagasudhir.blogspot.com/2020/05/set-axes-tick-labels-in-matplotlib.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -47,10 +48,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTczMzA0MjkzMSwtMjA3Nj
-c5Mzg3NywxMTMxODgzMDcyLDQ0MDI3ODE3MSw3MDg2MTEyNiwz
-MjQ3OTc3NDYsMTQ2MDEwODc1NSwyNDM0NTc2NTYsLTE0MDQzOT
-czNTMsLTYxNzQ5MTkwMiwxMjQzNTA2NzA4LC0xNDE5MzExNjcy
-LDYyODQxMjg3MCwtODE1MTQ0OTcwLDExNjYxNzc3NjcsOTIyMj
-A5OTgwLDU3MDg0MDA3NywtMzk4NjQ1MjUyXX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEzMjYzNTk0NDUsLTczMz
+A0MjkzMSwtMjA3Njc5Mzg3NywxMTMxODgzMDcyLDQ0MDI3ODE3
+MSw3MDg2MTEyNiwzMjQ3OTc3NDYsMTQ2MDEwODc1NSwyNDM0NT
+c2NTYsLTE0MDQzOTczNTMsLTYxNzQ5MTkwMiwxMjQzNTA2NzA4
+LC0xNDE5MzExNjcyLDYyODQxMjg3MCwtODE1MTQ0OTcwLDExNj
+YxNzc3NjcsOTIyMjA5OTgwLDU3MDg0MDA3NywtMzk4NjQ1MjUy
+XX0=
 -->
