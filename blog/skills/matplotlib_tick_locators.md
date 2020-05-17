@@ -17,7 +17,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 Please make sure that you covered the[post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-Sometimes we may desire to control the location of axis ticks of our subplots. This can be achieved by using the TickLocators in matplotlib
+Sometimes we may desire to control the location of axis ticks of our subplots. This can be achieved by using the TickLocators in matplotlib.
+
+TickLocators help matplotlib to determine the location of ticks
 
 ### Hiding ticks using 'NullLocator'
 ```python
@@ -31,16 +33,16 @@ fig, ax = plt.subplots()
 # plot data on the axes handle
 ax.plot(x, y)
 
-# use null locator to hide 
+# use null locator to hide major and minor ticks
 ax.yaxis.set_major_locator(plt.NullLocator())
+ax.yaxis.set_minor_locator(plt.NullLocator())
+ax.xaxis.set_minor_locator(plt.NullLocator())
 ax.xaxis.set_major_formatter(plt.NullFormatter())
 
 # print the plot
 plt.show()
 ```
-![matlpotlib_axis_ticks_demo](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/matlpotlib_axis_ticks_demo.png)
 
-In order to use custom tick labels instead of default tick labels, we can use `set_xticklabels` and `set_yticklabels` functions of the axes handle
 
 ### Example - specify the axis labels using `set_xticklabels` and `set_yticklabels`
 ```python
@@ -113,5 +115,5 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbNTc1MTQwMTc2LDIwNjUyMDY1MjEsMTM2MTA4ODc0MF19
+IjpbMzg1NzI1NzE2LDIwNjUyMDY1MjEsMTM2MTA4ODc0MF19
 -->
