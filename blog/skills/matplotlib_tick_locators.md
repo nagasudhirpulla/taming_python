@@ -133,7 +133,7 @@ Check out [this post](https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
 ### You can practice here
-
+<iframe height="800px" width="100%" src="https://repl.it/repls/GrossCreativeApplicationprogrammer?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 * Official guide - https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html
@@ -153,7 +153,7 @@ YXRwbG90bGliXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbn
 RhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwgdGFt
 aW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ1
 9weXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA1LTE3J1xuIiwi
-aGlzdG9yeSI6WzYxMTQ3NjcxOCw2NzU5NDM4MTgsLTUxMzE0ND
-IzNCwyNDc3NDMzNDIsMjA2NTIwNjUyMSwxMzYxMDg4NzQwXX0=
+aGlzdG9yeSI6WzE5NTk0MTIwNjYsNjc1OTQzODE4LC01MTMxND
+QyMzQsMjQ3NzQzMzQyLDIwNjUyMDY1MjEsMTM2MTA4ODc0MF19
 
 -->
