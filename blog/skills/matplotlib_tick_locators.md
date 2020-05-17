@@ -59,7 +59,7 @@ fig, ax = plt.subplots()
 ax.plot(x, y)
 
 # use null locator to hide major and minor ticks
-ax.xaxis.set_minor_locator(plt.Fixed())
+ax.xaxis.set_minor_locator(plt.LinearLocator(numticks=))
 ax.xaxis.set_major_locator(plt.NullLocator())
 
 # print the plot
@@ -129,6 +129,6 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbLTE5MjQ4Njk5MDMsLTUxMzE0NDIzNCwyNDc3NDMzNDIsMj
-A2NTIwNjUyMSwxMzYxMDg4NzQwXX0=
+IjpbMTc2MDcyMTQyMywtNTEzMTQ0MjM0LDI0Nzc0MzM0MiwyMD
+Y1MjA2NTIxLDEzNjEwODg3NDBdfQ==
 -->
