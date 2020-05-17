@@ -17,9 +17,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 Please make sure that you covered the[post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-Sometimes we may desire to control the location of axis ticks of our subplots. This can be achieved by using the TickLocators in matplotlib.
+Sometimes we may desire to control the location of axis ticks of our subplots. This can be achieved by using `TickLocators` in matplotlib.
 
 TickLocators help matplotlib to determine the location of ticks
+
+### Control spacing of ticks using 'MultipleLocator'
 
 ### Hiding ticks using 'NullLocator'
 ```python
@@ -115,5 +117,6 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbMjE1Njk4NiwyMDY1MjA2NTIxLDEzNjEwODg3NDBdfQ==
+IjpbLTEwODIzODU1OTcsMjA2NTIwNjUyMSwxMzYxMDg4NzQwXX
+0=
 -->
