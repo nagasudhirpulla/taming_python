@@ -41,6 +41,7 @@ Here are the goals and skills in this tutorial series
 * [Centering the plot axes in matplotlib](https://nagasudhir.blogspot.com/2020/05/centering-plot-axes-in-matplotlib.html)
 * [Set limits of x and y axis in matplotlib](https://nagasudhir.blogspot.com/2020/05/set-limits-of-x-and-y-axis-in-matplotlib.html)
 * [Set axes ticks and tick labels in matplotlib](https://nagasudhir.blogspot.com/2020/05/set-axes-tick-labels-in-matplotlib.html)
+* [Control axis ticks locations using tick locators in matplotlib]()
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -48,11 +49,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEzMjYzNTk0NDUsLTczMz
-A0MjkzMSwtMjA3Njc5Mzg3NywxMTMxODgzMDcyLDQ0MDI3ODE3
-MSw3MDg2MTEyNiwzMjQ3OTc3NDYsMTQ2MDEwODc1NSwyNDM0NT
-c2NTYsLTE0MDQzOTczNTMsLTYxNzQ5MTkwMiwxMjQzNTA2NzA4
-LC0xNDE5MzExNjcyLDYyODQxMjg3MCwtODE1MTQ0OTcwLDExNj
-YxNzc3NjcsOTIyMjA5OTgwLDU3MDg0MDA3NywtMzk4NjQ1MjUy
-XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTk2OTYwNzM2NSwtMTMyNj
+M1OTQ0NSwtNzMzMDQyOTMxLC0yMDc2NzkzODc3LDExMzE4ODMw
+NzIsNDQwMjc4MTcxLDcwODYxMTI2LDMyNDc5Nzc0NiwxNDYwMT
+A4NzU1LDI0MzQ1NzY1NiwtMTQwNDM5NzM1MywtNjE3NDkxOTAy
+LDEyNDM1MDY3MDgsLTE0MTkzMTE2NzIsNjI4NDEyODcwLC04MT
+UxNDQ5NzAsMTE2NjE3Nzc2Nyw5MjIyMDk5ODAsNTcwODQwMDc3
+LC0zOTg2NDUyNTJdfQ==
 -->
