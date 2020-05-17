@@ -37,7 +37,7 @@ ax.plot(x, y)
 ax.yaxis.set_major_locator(plt.NullLocator())
 ax.yaxis.set_minor_locator(plt.NullLocator())
 ax.xaxis.set_minor_locator(plt.NullLocator())
-ax.xaxis.set_major_locator(plt.NullFormatter())
+ax.xaxis.set_major_locator(plt.NullLocator())
 
 # print the plot
 plt.show()
@@ -115,6 +115,6 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbMTE3ODQ2NzkxMiwyMDY1MjA2NTIxLDEzNjEwODg3NDBdfQ
+IjpbMTMwNDIyNDgyOCwyMDY1MjA2NTIxLDEzNjEwODg3NDBdfQ
 ==
 -->
