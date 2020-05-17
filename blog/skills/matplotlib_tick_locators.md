@@ -19,7 +19,7 @@ Please make sure that you covered the[post on basics](https://nagasudhir.blogspo
 
 Sometimes we may desire to control the location of axis ticks of our subplots. This can be achieved by using the TickLocators in matplotlib
 
-### Example - specify the position of axis ticks using `set_xticks` and `set_yticks`
+### Hiding ticks using 'NullLocator'
 ```python
 import matplotlib.pyplot as plt
 x = [0,1,2,3,4,5,6,7,8]
@@ -31,11 +31,9 @@ fig, ax = plt.subplots()
 # plot data on the axes handle
 ax.plot(x, y)
 
-# specify the position of x axis ticks
-ax.set_xticks([0,2,4,6,8])
-
-# specify the position of y axis ticks
-ax.set_yticks([0,3,6,9])
+# use null locator to hide 
+ax.yaxis.set_major_locator(plt.NullLocator())
+ax.xaxis.set_major_formatter(plt.NullFormatter())
 
 # print the plot
 plt.show()
@@ -115,5 +113,5 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbMjA2NTIwNjUyMSwxMzYxMDg4NzQwXX0=
+IjpbNTc1MTQwMTc2LDIwNjUyMDY1MjEsMTM2MTA4ODc0MF19
 -->
