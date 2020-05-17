@@ -90,7 +90,9 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 ### References
-* 
+* Official guide - https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html
+* Official documentation - https://matplotlib.org/3.1.1/api/ticker_api.html#tick-locating
+* another post - https://jakevdp.github.io/PythonDataScienceHandbook/04.10-customizing-ticks.html
 
 <hr/>
 
@@ -105,6 +107,6 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbODM1Nzg3MDI5LDI0Nzc0MzM0MiwyMDY1MjA2NTIxLDEzNj
-EwODg3NDBdfQ==
+IjpbLTUxMzE0NDIzNCwyNDc3NDMzNDIsMjA2NTIwNjUyMSwxMz
+YxMDg4NzQwXX0=
 -->
