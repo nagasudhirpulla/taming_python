@@ -17,7 +17,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 Please make sure that you covered the[post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-Sometimes we may desire to control the position of axis ticks of our subplots. This can be achieved by using the `set_xticks` and `set_yticks` functions of the axes handle.
+Sometimes we may desire to control the location of axis ticks of our subplots. This can be achieved by using the TickLocators
 
 ### Example - specify the position of axis ticks using `set_xticks` and `set_yticks`
 ```python
@@ -115,5 +115,5 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbLTE3MTA5NzI2MzYsMTM2MTA4ODc0MF19
+IjpbMTY2OTg1NDE3MCwxMzYxMDg4NzQwXX0=
 -->
