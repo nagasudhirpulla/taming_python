@@ -68,7 +68,7 @@ plt.show()
 ### Using 'LogLocator' for logarithmic scaling of axis
 ```python
 import matplotlib.pyplot as plt
-x = [0,1,2,3,4,5,6,7,8]
+x = [0,50,800,3000,40000,500000,600000,7000000,80000000]
 y = [8,6,4,2,9,7,6,3,1]
 
 # create a plotting area and get the figure, axes handle in return
@@ -77,9 +77,7 @@ fig, ax = plt.subplots()
 # plot data on the axes handle
 ax.plot(x, y)
 
-# use null locator to hide major and minor ticks
-ax.yaxis.set_major_locator(plt.NullLocator())
-ax.yaxis.set_minor_locator(plt.NullLocator())
+# use log locator of major and minor x axis ticks
 ax.xaxis.set_minor_locator(plt.NullLocator())
 ax.xaxis.set_major_locator(plt.NullLocator())
 
@@ -151,6 +149,6 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbNDA0NTMzNTY4LC01MTMxNDQyMzQsMjQ3NzQzMzQyLDIwNj
-UyMDY1MjEsMTM2MTA4ODc0MF19
+IjpbLTMxOTM5NDUyMCwtNTEzMTQ0MjM0LDI0Nzc0MzM0MiwyMD
+Y1MjA2NTIxLDEzNjEwODg3NDBdfQ==
 -->
