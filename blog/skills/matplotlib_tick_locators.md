@@ -68,16 +68,18 @@ plt.show()
 ![matplotlib_nulllocator_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_nulllocator_demo.PNG)
 
 ### Summary of Locators
-Locator class 	Description
-NullLocator 	No ticks
-FixedLocator 	Tick locations are fixed
-IndexLocator 	Locator for index plots (e.g., where x = range(len(y)))
-LinearLocator 	Evenly spaced ticks from min to max
-LogLocator 	Logarithmically ticks from min to max
-MultipleLocator 	Ticks and range are a multiple of base
-MaxNLocator 	Finds up to a max number of ticks at nice locations
-AutoLocator 	(Default.) MaxNLocator with simple defaults.
-AutoMinorLocator 	Locator for minor ticks
+| Locator class     | Description                                             |
+|-------------------|---------------------------------------------------------|
+| NullLocator       | No ticks                                                |
+| FixedLocator      | Tick locations are fixed                                |
+| IndexLocator      | Locator for index plots (e.g., where x = range(len(y))) |
+| LinearLocator     | Evenly spaced ticks from min to max                     |
+| LogLocator        | Logarithmically ticks from min to max                   |
+| MultipleLocator   | Ticks and range are a multiple of base                  |
+| MaxNLocator       | Finds up to a max number of ticks at nice locations     |
+| AutoLocator       | (Default.) MaxNLocator with simple defaults.            |
+| AutoMinorLocator  | Locator for minor ticks                                 |
+
 
 <hr/>
 
@@ -103,6 +105,6 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbLTQwOTg1ODQ0NywyNDc3NDMzNDIsMjA2NTIwNjUyMSwxMz
-YxMDg4NzQwXX0=
+IjpbODM1Nzg3MDI5LDI0Nzc0MzM0MiwyMDY1MjA2NTIxLDEzNj
+EwODg3NDBdfQ==
 -->
