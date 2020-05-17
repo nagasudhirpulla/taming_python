@@ -64,7 +64,7 @@ ax.xaxis.set_major_locator(plt.LinearLocator(numticks=6))
 # print the plot
 plt.show()
 ```
-
+![matplotlib_linearlocator_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_linearlocator_demo.PNG)
 
 ### Using 'LogLocator' for logarithmic scaling of axis
 ```python
@@ -125,6 +125,7 @@ plt.show()
 | AutoMinorLocator  | Locator for minor ticks                                 |
 
 ![tick_locators_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/tick_locators_illustration.png)
+Check out [this post](https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html) for all locators example code
 
 <hr/>
 
@@ -152,6 +153,6 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbMjAyNTcwNTk5NCw2NzU5NDM4MTgsLTUxMzE0NDIzNCwyND
-c3NDMzNDIsMjA2NTIwNjUyMSwxMzYxMDg4NzQwXX0=
+IjpbNTczMTAzNDIsNjc1OTQzODE4LC01MTMxNDQyMzQsMjQ3Nz
+QzMzQyLDIwNjUyMDY1MjEsMTM2MTA4ODc0MF19
 -->
