@@ -42,7 +42,7 @@ ax.xaxis.set_major_locator(plt.NullLocator())
 # print the plot
 plt.show()
 ```
-
+![enter image description here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_nulllocator_demo.PNG)
 
 ### Example - specify the axis labels using `set_xticklabels` and `set_yticklabels`
 ```python
@@ -115,6 +115,6 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbMTMwNDIyNDgyOCwyMDY1MjA2NTIxLDEzNjEwODg3NDBdfQ
+IjpbLTYxMTEwNzExMywyMDY1MjA2NTIxLDEzNjEwODg3NDBdfQ
 ==
 -->
