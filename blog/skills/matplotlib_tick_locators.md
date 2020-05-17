@@ -1,4 +1,4 @@
-## Skill - Control axis ticks location
+## Skill - Control axis ticks locations using tick locators in matplotlib
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
@@ -115,5 +115,5 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbNzMzODQxOTY0LDEzNjEwODg3NDBdfQ==
+IjpbLTE3MTA5NzI2MzYsMTM2MTA4ODc0MF19
 -->
