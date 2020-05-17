@@ -67,52 +67,17 @@ plt.show()
 ```
 ![matplotlib_nulllocator_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_nulllocator_demo.PNG)
 
-### Example - specify the axis labels using `set_xticklabels` and `set_yticklabels`
-```python
-import matplotlib.pyplot as plt
-x = [0,1,2,3,4,5,6,7,8]
-y = [8,6,4,2,9,7,6,3,1]
-
-# create a plotting area and get the figure, axes handle in return
-fig, ax = plt.subplots()
-
-# plot data on the axes handle
-ax.plot(x, y)
-
-# specify the position of x axis ticks
-ax.set_xticks([0,2,4,6,8])
-
-# specify the tick labels of x axis
-ax.set_xticklabels(['zero','two','four','six','eight'])
-
-# specify the position of y axis ticks
-ax.set_yticks([0,3,6,9])
-
-# print the plot
-plt.show()
-```
-![matlpotlib_axis_tick_labels_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matlpotlib_axis_tick_labels_demo.png)
-
-### Example - avoid axis ticks by specifying empty array
-```python
-import matplotlib.pyplot as plt
-x = [0,1,2,3,4,5,6,7,8]
-y = [8,6,4,2,9,7,6,3,1]
-
-# create a plotting area and get the figure, axes handle in return
-fig, ax = plt.subplots()
-
-# plot data on the axes handle
-ax.plot(x, y)
-
-# provide empty array to specify that x axis ticks not required
-ax.set_xticks([])
-
-# print the plot
-plt.show()
-```
-
-![matlpotlib_blank_axis_tick_labels_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matlpotlib_blank_axis_tick_labels_demo.png)
+### Summary of Locators
+Locator class 	Description
+NullLocator 	No ticks
+FixedLocator 	Tick locations are fixed
+IndexLocator 	Locator for index plots (e.g., where x = range(len(y)))
+LinearLocator 	Evenly spaced ticks from min to max
+LogLocator 	Logarithmically ticks from min to max
+MultipleLocator 	Ticks and range are a multiple of base
+MaxNLocator 	Finds up to a max number of ticks at nice locations
+AutoLocator 	(Default.) MaxNLocator with simple defaults.
+AutoMinorLocator 	Locator for minor ticks
 
 <hr/>
 
@@ -138,5 +103,6 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbMjQ3NzQzMzQyLDIwNjUyMDY1MjEsMTM2MTA4ODc0MF19
+IjpbLTQwOTg1ODQ0NywyNDc3NDMzNDIsMjA2NTIwNjUyMSwxMz
+YxMDg4NzQwXX0=
 -->
