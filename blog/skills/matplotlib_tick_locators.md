@@ -78,8 +78,8 @@ fig, ax = plt.subplots()
 ax.plot(x, y)
 
 # use log locator of major and minor x axis ticks
-ax.xaxis.set_minor_locator(plt.NullLocator())
-ax.xaxis.set_major_locator(plt.NullLocator())
+ax.xaxis.set_minor_locator(plt.LogLocator())
+ax.xaxis.set_major_locator(plt.LogLocator())
 
 # print the plot
 plt.show()
@@ -149,6 +149,6 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbLTMxOTM5NDUyMCwtNTEzMTQ0MjM0LDI0Nzc0MzM0MiwyMD
-Y1MjA2NTIxLDEzNjEwODg3NDBdfQ==
+IjpbNjc1OTQzODE4LC01MTMxNDQyMzQsMjQ3NzQzMzQyLDIwNj
+UyMDY1MjEsMTM2MTA4ODc0MF19
 -->
