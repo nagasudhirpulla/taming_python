@@ -35,6 +35,7 @@ ax.plot(x, y)
 
 # set x axis major ticks for multiples of 3 like 0,3,6,9 etc
 ax.xaxis.set_major_locator(plt.MultipleLocator(3))
+
 # set x axis minor ticks for multiples of 1 like 0,1,2,3,4 etc
 ax.xaxis.set_minor_locator(plt.MultipleLocator(1))
 
@@ -136,6 +137,5 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbLTY3Mjg0ODYxMCwyMDY1MjA2NTIxLDEzNjEwODg3NDBdfQ
-==
+IjpbODE5MTQ3MjQ4LDIwNjUyMDY1MjEsMTM2MTA4ODc0MF19
 -->
