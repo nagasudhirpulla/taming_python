@@ -21,8 +21,6 @@ Sometimes we may desire to control the location of axis ticks of our subplots. T
 
 TickLocators help matplotlib to determine the location of ticks
 
-![tick_locators_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/tick_locators_illustration.png)
-
 ### Control spacing between ticks using 'MultipleLocator'
 ```python
 import matplotlib.pyplot as plt
@@ -67,6 +65,8 @@ ax.xaxis.set_major_locator(plt.LinearLocator(numticks=6))
 plt.show()
 ```
 
+### Using 'LogLocator' for logarithmic scaling of axis
+
 ### Hiding ticks using 'NullLocator'
 ```python
 import matplotlib.pyplot as plt
@@ -103,6 +103,7 @@ plt.show()
 | AutoLocator       | (Default.) MaxNLocator with simple defaults.            |
 | AutoMinorLocator  | Locator for minor ticks                                 |
 
+![tick_locators_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/tick_locators_illustration.png)
 
 <hr/>
 
@@ -130,6 +131,6 @@ b3JcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMTcnXG4iLCJoaXN0b3J5
-IjpbLTQxMjgxMTcwNywtNTEzMTQ0MjM0LDI0Nzc0MzM0MiwyMD
+IjpbLTMyMDY4ODUzNywtNTEzMTQ0MjM0LDI0Nzc0MzM0MiwyMD
 Y1MjA2NTIxLDEzNjEwODg3NDBdfQ==
 -->
