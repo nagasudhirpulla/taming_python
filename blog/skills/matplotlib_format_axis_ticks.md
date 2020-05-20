@@ -117,7 +117,7 @@ plt.show()
 | FixedFormatter     | Set the strings manually for the labels |
 | FuncFormatter      | User-defined function sets the labels   |
 | FormatStrFormatter | Use a format string for each value      |
-| ScalarFormatter    | (Default.) Formatter for scalar values  |
+| ScalarFormatter    | Default formatter for scalars: autopick the format string  |
 | LogFormatter       | Default formatter for log axes          |
 
 ![tick_locators_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/tick_locators_illustration.png)
@@ -155,6 +155,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMjA1MTc5NzU4LC05MjQzOTI5MTUs
-MTY5MjQyMzU1NSw0NDYxOTAzODksMjA1ODc4NjUwOV19
+xsXG4iLCJoaXN0b3J5IjpbLTU5MDU3MDczLDIwNTE3OTc1OCwt
+OTI0MzkyOTE1LDE2OTI0MjM1NTUsNDQ2MTkwMzg5LDIwNTg3OD
+Y1MDldfQ==
 -->
