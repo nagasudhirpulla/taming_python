@@ -50,7 +50,7 @@ y = [8,6,4,2,9,7,6,3,1]
 # define the formatter function
 # first input is the tick value, second input is the tick position
 # returns the tick label string
-def xFormatter(x,pos):
+def thousandsFormatter(x,pos):
 	return '{0}K'.format(x/10000)
 
 # create a plotting area and get the figure, axes handle in return
@@ -60,7 +60,7 @@ fig, ax = plt.subplots()
 ax.plot(x, y)
 
 # set x axis major ticks format as 2 decimal places
-ax.xaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('{x:0.2f}'))
+ax.xaxis.set_major_formatter(plt.FuncFormatter(thousandsFormatter))
 
 # print the plot
 plt.show()
@@ -162,7 +162,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTc2ODA4ODA2MywtODc1MjY2ODM0
+xsXG4iLCJoaXN0b3J5IjpbLTM2MzUxMzAwNCwtODc1MjY2ODM0
 LC0xMjMyOTA2MzczLC02NTI5NzE3MTUsMTY5NjA3MDI1NCwtMT
 UwODgzNDI0NywxNTE5MzA0OTQ5LDIwNTE3OTc1OCwtOTI0Mzky
 OTE1LDE2OTI0MjM1NTUsNDQ2MTkwMzg5LDIwNTg3ODY1MDldfQ
