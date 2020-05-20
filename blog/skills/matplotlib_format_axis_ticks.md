@@ -113,7 +113,17 @@ ax.xaxis.set_major_formatter(plt.NullFormatter())
 plt.show()
 ```
 ![matplotlib_null_formatter_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_null_formatter_demo.PNG)
-### FuncFormat
+### FuncFormatter for formatting date labels
+```python
+import datetime as dt
+
+# get today date
+today = dt.datetime.today()
+
+numDays = 8
+
+dates = [today-dt]
+```
 
 ### Summary of Locators
 | FormatterClass     | Description                             |
@@ -164,9 +174,9 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMTgxNjI4MDIyOCwtMzYzNTEzMDA0
-LC04NzUyNjY4MzQsLTEyMzI5MDYzNzMsLTY1Mjk3MTcxNSwxNj
-k2MDcwMjU0LC0xNTA4ODM0MjQ3LDE1MTkzMDQ5NDksMjA1MTc5
-NzU4LC05MjQzOTI5MTUsMTY5MjQyMzU1NSw0NDYxOTAzODksMj
-A1ODc4NjUwOV19
+xsXG4iLCJoaXN0b3J5IjpbLTE5MjcyNzM4OTUsLTM2MzUxMzAw
+NCwtODc1MjY2ODM0LC0xMjMyOTA2MzczLC02NTI5NzE3MTUsMT
+Y5NjA3MDI1NCwtMTUwODgzNDI0NywxNTE5MzA0OTQ5LDIwNTE3
+OTc1OCwtOTI0MzkyOTE1LDE2OTI0MjM1NTUsNDQ2MTkwMzg5LD
+IwNTg3ODY1MDldfQ==
 -->
