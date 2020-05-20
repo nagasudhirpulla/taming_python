@@ -110,17 +110,15 @@ plt.show()
 ![matplotlib_nulllocator_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_nulllocator_demo.PNG)
 
 ### Summary of Locators
-| Locator class     | Description                                             |
-|-------------------|---------------------------------------------------------|
-| NullLocator       | No ticks                                                |
-| FixedLocator      | Tick locations are fixed                                |
-| IndexLocator      | Locator for index plots (e.g., where x = range(len(y))) |
-| LinearLocator     | Evenly spaced ticks from min to max                     |
-| LogLocator        | Logarithmically ticks from min to max                   |
-| MultipleLocator   | Ticks and range are a multiple of base                  |
-| MaxNLocator       | Finds up to a max number of ticks at nice locations     |
-| AutoLocator       | (Default.) MaxNLocator with simple defaults.            |
-| AutoMinorLocator  | Locator for minor ticks                                 |
+| FormatterClass     | Description                             |
+|--------------------|-----------------------------------------|
+| NullFormatter      | No labels on the ticks                  |
+| IndexFormatter     | Set the strings from a list of labels   |
+| FixedFormatter     | Set the strings manually for the labels |
+| FuncFormatter      | User-defined function sets the labels   |
+| FormatStrFormatter | Use a format string for each value      |
+| ScalarFormatter    | (Default.) Formatter for scalar values  |
+| LogFormatter       | Default formatter for log axes          |
 
 ![tick_locators_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/tick_locators_illustration.png)
 Check out [this post](https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html) for all locators example code
@@ -157,6 +155,6 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMTY5MjQyMzU1NSw0NDYxOTAzODks
-MjA1ODc4NjUwOV19
+xsXG4iLCJoaXN0b3J5IjpbLTkyNDM5MjkxNSwxNjkyNDIzNTU1
+LDQ0NjE5MDM4OSwyMDU4Nzg2NTA5XX0=
 -->
