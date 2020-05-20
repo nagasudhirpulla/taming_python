@@ -19,7 +19,7 @@ Please make sure that you covered the[post on basics](https://nagasudhir.blogspo
 
 Sometimes we want to explicitly control the formatting of ticks like number of decimal places, date formats etc. This can be done through `TickFormatters`
 
-### Control axis ticks with format string using 'StrMethodFormatter'
+### Control axis tick labels with format string using 'StrMethodFormatter'
 ```python
 import matplotlib.pyplot as plt
 import matplotlib as mpl
@@ -39,6 +39,25 @@ ax.xaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('{x:0.2f}'))
 plt.show()
 ```
 ![matplotlib_strmethod_formatter_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_strmethod_formatter_demo.PNG)
+### Control axis tick labels text with user defined function using 'FuncFormatter'
+```python
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+x = [0,1,2,3,4,5,6,7,8]
+y = [8,6,4,2,9,7,6,3,1]
+
+# create a plotting area and get the figure, axes handle in return
+fig, ax = plt.subplots()
+
+# plot data on the axes handle
+ax.plot(x, y)
+
+# set x axis major ticks format as 2 decimal places
+ax.xaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('{x:0.2f}'))
+
+# print the plot
+plt.show()
+```
 
 ### Setting axis tick labels manually using 'FixedFormatter'
 `FixedFormatter` should be generally used along with `FixedLocator`. Otherwise the labels and ticks may not match most of the times.
@@ -136,8 +155,8 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbNjc5MTIzMzAsLTY1Mjk3MTcxNSwx
-Njk2MDcwMjU0LC0xNTA4ODM0MjQ3LDE1MTkzMDQ5NDksMjA1MT
-c5NzU4LC05MjQzOTI5MTUsMTY5MjQyMzU1NSw0NDYxOTAzODks
-MjA1ODc4NjUwOV19
+xsXG4iLCJoaXN0b3J5IjpbLTEyMzI5MDYzNzMsLTY1Mjk3MTcx
+NSwxNjk2MDcwMjU0LC0xNTA4ODM0MjQ3LDE1MTkzMDQ5NDksMj
+A1MTc5NzU4LC05MjQzOTI5MTUsMTY5MjQyMzU1NSw0NDYxOTAz
+ODksMjA1ODc4NjUwOV19
 -->
