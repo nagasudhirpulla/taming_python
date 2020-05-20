@@ -120,9 +120,18 @@ import datetime as dt
 # get today date
 today = dt.datetime.today()
 
-numDays = 8
+numDays = 9
+x = [today-dt.timedelta(days=x) for x in range(numDays)]
+y = [8,6,4,2,9,7,6,3,1]
 
-dates = [today-dt]
+# create a plotting area and get the figure, axes handle in return
+fig, ax = plt.subplots()
+
+# plot data on the axes handle
+ax.plot(x, y)
+
+# print the plot
+plt.show()
 ```
 
 ### Summary of Locators
@@ -174,7 +183,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTE5MjcyNzM4OTUsLTM2MzUxMzAw
+xsXG4iLCJoaXN0b3J5IjpbLTE5MjA3NDUxMzQsLTM2MzUxMzAw
 NCwtODc1MjY2ODM0LC0xMjMyOTA2MzczLC02NTI5NzE3MTUsMT
 Y5NjA3MDI1NCwtMTUwODgzNDI0NywxNTE5MzA0OTQ5LDIwNTE3
 OTc1OCwtOTI0MzkyOTE1LDE2OTI0MjM1NTUsNDQ2MTkwMzg5LD
