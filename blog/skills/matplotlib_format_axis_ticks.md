@@ -1,4 +1,4 @@
-## Skill - format axis ticks using TickFormatters in matplotlib
+## Skill - Format axis ticks using TickFormatters in matplotlib
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
@@ -181,7 +181,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbNjY3Nzc2NzY5LC0xOTU3MzY0Niw0
+xsXG4iLCJoaXN0b3J5IjpbMjA5MjcyNTQ1LC0xOTU3MzY0Niw0
 NjQ4NDY5NDgsLTEwMDc2OTIyOSwtMzYzNTEzMDA0LC04NzUyNj
 Y4MzQsLTEyMzI5MDYzNzMsLTY1Mjk3MTcxNSwxNjk2MDcwMjU0
 LC0xNTA4ODM0MjQ3LDE1MTkzMDQ5NDksMjA1MTc5NzU4LC05Mj
