@@ -117,6 +117,7 @@ plt.show()
 | FixedFormatter     | Set the strings manually for the labels |
 | FuncFormatter      | User-defined function sets the labels   |
 | FormatStrFormatter | Use an old-style sprintf format string      |
+| StrMethodFormatter | Use an old-style sprintf format string      |
 | ScalarFormatter    | Default formatter for scalars: autopick the format string  |
 | LogFormatter       | Default formatter for log axes          |
 | PercentFormatter       | Format labels as a percentage          |
@@ -157,7 +158,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMzA0MzA3MzgxLDE1MTkzMDQ5NDks
-MjA1MTc5NzU4LC05MjQzOTI5MTUsMTY5MjQyMzU1NSw0NDYxOT
-AzODksMjA1ODc4NjUwOV19
+xsXG4iLCJoaXN0b3J5IjpbMTQxOTY2MjM0MiwxNTE5MzA0OTQ5
+LDIwNTE3OTc1OCwtOTI0MzkyOTE1LDE2OTI0MjM1NTUsNDQ2MT
+kwMzg5LDIwNTg3ODY1MDldfQ==
 -->
