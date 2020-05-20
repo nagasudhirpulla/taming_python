@@ -124,7 +124,7 @@ plt.show()
 
 ![matplotlib_tick_formatters_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_tick_formatters_illustration.png)
 
-Check out [this post](https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html) for all locators example code
+Check out [this post](https://matplotlib.org/3.2.1/gallery/ticks_and_spines/tick-formatters.html) for all locators example code
 
 <hr/>
 
@@ -158,7 +158,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMTU5MTYzMDM0NiwxNTE5MzA0OTQ5
+xsXG4iLCJoaXN0b3J5IjpbLTgwNTI5NjAxMSwxNTE5MzA0OTQ5
 LDIwNTE3OTc1OCwtOTI0MzkyOTE1LDE2OTI0MjM1NTUsNDQ2MT
 kwMzg5LDIwNTg3ODY1MDldfQ==
 -->
