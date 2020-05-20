@@ -133,7 +133,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 ### References
 * Official guide - https://matplotlib.org/3.2.1/gallery/ticks_and_spines/tick-formatters.html
-* Official documentation - https://matplotlib.org/3.1.1/api/ticker_api.html#tick-locating
+* Official documentation - https://matplotlib.org/3.1.1/api/ticker_api.html#tick-formatting
 * another post - https://jakevdp.github.io/PythonDataScienceHandbook/04.10-customizing-ticks.html
 
 <hr/>
@@ -155,6 +155,6 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMTEwNDcxNjQ0MCwtOTI0MzkyOTE1
-LDE2OTI0MjM1NTUsNDQ2MTkwMzg5LDIwNTg3ODY1MDldfQ==
+xsXG4iLCJoaXN0b3J5IjpbMjA1MTc5NzU4LC05MjQzOTI5MTUs
+MTY5MjQyMzU1NSw0NDYxOTAzODksMjA1ODc4NjUwOV19
 -->
