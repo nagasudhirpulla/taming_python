@@ -55,10 +55,11 @@ fig, ax = plt.subplots()
 # plot data on the axes handle
 ax.plot(x, y)
 
-# set number of minor ticks on the axis as 16
-ax.xaxis.set_minor_locator(plt.LinearLocator(numticks=16))
-# set number of major ticks on the axis as 6
-ax.xaxis.set_major_locator(plt.LinearLocator(numticks=6))
+# set number of major x tick locations manually using FixedLocator
+ax.xaxis.set_major_locator(plt.FixedLocator(x))
+
+# set x axis ticks labels manually using FixedFormatter
+ax.xaxis.set_major_tick
 
 # print the plot
 plt.show()
@@ -136,7 +137,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTE0ODYxMDIyNzYsLTE1MDg4MzQy
-NDcsMTUxOTMwNDk0OSwyMDUxNzk3NTgsLTkyNDM5MjkxNSwxNj
-kyNDIzNTU1LDQ0NjE5MDM4OSwyMDU4Nzg2NTA5XX0=
+xsXG4iLCJoaXN0b3J5IjpbNTg0MDg3OTA3LC0xNTA4ODM0MjQ3
+LDE1MTkzMDQ5NDksMjA1MTc5NzU4LC05MjQzOTI5MTUsMTY5Mj
+QyMzU1NSw0NDYxOTAzODksMjA1ODc4NjUwOV19
 -->
