@@ -113,27 +113,24 @@ ax.xaxis.set_major_formatter(plt.NullFormatter())
 plt.show()
 ```
 ![matplotlib_null_formatter_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_null_formatter_demo.PNG)
-### FuncFormatter for formatting date labels
+### DateFormatter for formatting date labels
 ```python
 import datetime as dt
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 
 # get today date
 today = dt.datetime.today()
-
 numDays = 9
+
 x = [today-dt.timedelta(days=p) for p in range(numDays)]
 y = [8,6,4,2,9,7,6,3,1]
 
 # create a plotting area and get the figure, axes handle in return
 fig, ax = plt.subplots()
 
-def datesFormatter(x, pos):
-	return dt.datetime.strftime(x, '%d-%b')
-
 # set x axis major ticks date format using funcFormatter
-ax.xaxis.set_major_formatter(plt.FuncFormatter(datesFormatter))
-
+ax.xaxis.set_major_formatter(plt.FuncFormatter(mdates.DateFormatter('%d-%b')))
 
 # plot data on the axes handle
 ax.plot(x, y)
@@ -191,9 +188,9 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTEwMDc2OTIyOSwtMzYzNTEzMDA0
-LC04NzUyNjY4MzQsLTEyMzI5MDYzNzMsLTY1Mjk3MTcxNSwxNj
-k2MDcwMjU0LC0xNTA4ODM0MjQ3LDE1MTkzMDQ5NDksMjA1MTc5
-NzU4LC05MjQzOTI5MTUsMTY5MjQyMzU1NSw0NDYxOTAzODksMj
-A1ODc4NjUwOV19
+xsXG4iLCJoaXN0b3J5IjpbMjEzODU0NDc4MCwtMTAwNzY5MjI5
+LC0zNjM1MTMwMDQsLTg3NTI2NjgzNCwtMTIzMjkwNjM3MywtNj
+UyOTcxNzE1LDE2OTYwNzAyNTQsLTE1MDg4MzQyNDcsMTUxOTMw
+NDk0OSwyMDUxNzk3NTgsLTkyNDM5MjkxNSwxNjkyNDIzNTU1LD
+Q0NjE5MDM4OSwyMDU4Nzg2NTA5XX0=
 -->
