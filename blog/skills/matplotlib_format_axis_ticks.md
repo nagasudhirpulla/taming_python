@@ -42,7 +42,8 @@ plt.show()
 ```
 ![matplotlib_multiplelocator_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_multiplelocator_demo.PNG)
 
-### Fixing the number of ticks on the axis using 'LinearLocator'
+### Setting axis tick labels manually using 'FixedFormatter'
+`FixedFormatter` should be generally used aln
 ```python
 import matplotlib.pyplot as plt
 x = [0,1,2,3,4,5,6,7,8]
@@ -135,7 +136,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTE2NjA0MDExOCwtMTUwODgzNDI0
-NywxNTE5MzA0OTQ5LDIwNTE3OTc1OCwtOTI0MzkyOTE1LDE2OT
-I0MjM1NTUsNDQ2MTkwMzg5LDIwNTg3ODY1MDldfQ==
+xsXG4iLCJoaXN0b3J5IjpbLTIxMjEzMDE4NjksLTE1MDg4MzQy
+NDcsMTUxOTMwNDk0OSwyMDUxNzk3NTgsLTkyNDM5MjkxNSwxNj
+kyNDIzNTU1LDQ0NjE5MDM4OSwyMDU4Nzg2NTA5XX0=
 -->
