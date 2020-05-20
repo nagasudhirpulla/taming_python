@@ -46,6 +46,10 @@ import matplotlib.pyplot as plt
 
 x = [0,10000,20000,30000,40000,50000,60000,70000,80000]
 y = [8,6,4,2,9,7,6,3,1]
+
+# define the formatter function
+# first input is the tick value, second input is the tick position
+# returns the tick label string
 def xFormatter(x,pos):
 	return '{0}K'.format(x/10000)
 
@@ -158,8 +162,9 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTg3NTI2NjgzNCwtMTIzMjkwNjM3
-MywtNjUyOTcxNzE1LDE2OTYwNzAyNTQsLTE1MDg4MzQyNDcsMT
-UxOTMwNDk0OSwyMDUxNzk3NTgsLTkyNDM5MjkxNSwxNjkyNDIz
-NTU1LDQ0NjE5MDM4OSwyMDU4Nzg2NTA5XX0=
+xsXG4iLCJoaXN0b3J5IjpbLTc2ODA4ODA2MywtODc1MjY2ODM0
+LC0xMjMyOTA2MzczLC02NTI5NzE3MTUsMTY5NjA3MDI1NCwtMT
+UwODgzNDI0NywxNTE5MzA0OTQ5LDIwNTE3OTc1OCwtOTI0Mzky
+OTE1LDE2OTI0MjM1NTUsNDQ2MTkwMzg5LDIwNTg3ODY1MDldfQ
+==
 -->
