@@ -44,7 +44,7 @@ plt.show()
 ```python
 import matplotlib.pyplot as plt
 
-x = [0,1,2,3,4,5,6,7,8]
+x = [0,1000,2,3,4,5,6,7,8]
 y = [8,6,4,2,9,7,6,3,1]
 
 # create a plotting area and get the figure, axes handle in return
@@ -156,7 +156,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMTUxNjcwNDcyNywtMTIzMjkwNjM3
+xsXG4iLCJoaXN0b3J5IjpbMTM4NDE3OTYwMSwtMTIzMjkwNjM3
 MywtNjUyOTcxNzE1LDE2OTYwNzAyNTQsLTE1MDg4MzQyNDcsMT
 UxOTMwNDk0OSwyMDUxNzk3NTgsLTkyNDM5MjkxNSwxNjkyNDIz
 NTU1LDQ0NjE5MDM4OSwyMDU4Nzg2NTA5XX0=
