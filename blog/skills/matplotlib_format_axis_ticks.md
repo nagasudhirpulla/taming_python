@@ -107,7 +107,7 @@ ax.xaxis.set_major_formatter(plt.NullFormatter())
 # print the plot
 plt.show()
 ```
-![matplotlib_nulllocator_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_nulllocator_demo.PNG)
+![matplotlib_null_formatter_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_null_formatter_demo.PNG)
 
 ### Summary of Locators
 | FormatterClass     | Description                             |
@@ -158,7 +158,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTE1MDg4MzQyNDcsMTUxOTMwNDk0
-OSwyMDUxNzk3NTgsLTkyNDM5MjkxNSwxNjkyNDIzNTU1LDQ0Nj
-E5MDM4OSwyMDU4Nzg2NTA5XX0=
+xsXG4iLCJoaXN0b3J5IjpbLTkyMTA0NDA3LC0xNTA4ODM0MjQ3
+LDE1MTkzMDQ5NDksMjA1MTc5NzU4LC05MjQzOTI5MTUsMTY5Mj
+QyMzU1NSw0NDYxOTAzODksMjA1ODc4NjUwOV19
 -->
