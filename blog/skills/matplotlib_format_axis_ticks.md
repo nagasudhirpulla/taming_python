@@ -138,7 +138,7 @@ ax.plot(x, y)
 # print the plot
 plt.show()
 ```
-
+![matplotlib_date_formatter_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_date_formatter_demo.PNG)
 
 ### Summary of Locators
 | FormatterClass     | Description                             |
@@ -189,9 +189,9 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbNDY0ODQ2OTQ4LC0xMDA3NjkyMjks
-LTM2MzUxMzAwNCwtODc1MjY2ODM0LC0xMjMyOTA2MzczLC02NT
-I5NzE3MTUsMTY5NjA3MDI1NCwtMTUwODgzNDI0NywxNTE5MzA0
-OTQ5LDIwNTE3OTc1OCwtOTI0MzkyOTE1LDE2OTI0MjM1NTUsND
-Q2MTkwMzg5LDIwNTg3ODY1MDldfQ==
+xsXG4iLCJoaXN0b3J5IjpbLTE5NTczNjQ2LDQ2NDg0Njk0OCwt
+MTAwNzY5MjI5LC0zNjM1MTMwMDQsLTg3NTI2NjgzNCwtMTIzMj
+kwNjM3MywtNjUyOTcxNzE1LDE2OTYwNzAyNTQsLTE1MDg4MzQy
+NDcsMTUxOTMwNDk0OSwyMDUxNzk3NTgsLTkyNDM5MjkxNSwxNj
+kyNDIzNTU1LDQ0NjE5MDM4OSwyMDU4Nzg2NTA5XX0=
 -->
