@@ -51,7 +51,7 @@ y = [8,6,4,2,9,7,6,3,1]
 # first input is the tick value, second input is the tick position
 # returns the tick label string
 def thousandsFormatter(x,pos):
-	return '{0}K'.format(x/10000)
+	return '{0:.0f}K'.format(x/10000)
 
 # create a plotting area and get the figure, axes handle in return
 fig, ax = plt.subplots()
@@ -162,9 +162,9 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTM2MzUxMzAwNCwtODc1MjY2ODM0
-LC0xMjMyOTA2MzczLC02NTI5NzE3MTUsMTY5NjA3MDI1NCwtMT
-UwODgzNDI0NywxNTE5MzA0OTQ5LDIwNTE3OTc1OCwtOTI0Mzky
-OTE1LDE2OTI0MjM1NTUsNDQ2MTkwMzg5LDIwNTg3ODY1MDldfQ
-==
+xsXG4iLCJoaXN0b3J5IjpbLTE4MzUyMjc0NzgsLTM2MzUxMzAw
+NCwtODc1MjY2ODM0LC0xMjMyOTA2MzczLC02NTI5NzE3MTUsMT
+Y5NjA3MDI1NCwtMTUwODgzNDI0NywxNTE5MzA0OTQ5LDIwNTE3
+OTc1OCwtOTI0MzkyOTE1LDE2OTI0MjM1NTUsNDQ2MTkwMzg5LD
+IwNTg3ODY1MDldfQ==
 -->
