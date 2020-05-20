@@ -19,7 +19,7 @@ Please make sure that you covered the[post on basics](https://nagasudhir.blogspo
 
 Sometimes we want to explicitly control the formatting of ticks like number of decimal places, date formats etc. This can be done through `TickFormatters`
 
-### Control axis tick with format string using 'StrMethodFo'
+### Control axis tick with format string using 'StrMethodFormatter'
 ```python
 import matplotlib.pyplot as plt
 x = [0,1,2,3,4,5,6,7,8]
@@ -31,11 +31,8 @@ fig, ax = plt.subplots()
 # plot data on the axes handle
 ax.plot(x, y)
 
-# set x axis major ticks for multiples of 3 like 0,3,6,9 etc
+# set x axis major ticks format as 2 decimal places
 ax.xaxis.set_major_locator(plt.MultipleLocator(3))
-
-# set x axis minor ticks for multiples of 1 like 0,1,2,3,4 etc
-ax.xaxis.set_minor_locator(plt.MultipleLocator(1))
 
 # print the plot
 plt.show()
@@ -138,7 +135,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMTA2ODEwNjcyNSwtMTUwODgzNDI0
+xsXG4iLCJoaXN0b3J5IjpbMTQ1MDEzNTI5NSwtMTUwODgzNDI0
 NywxNTE5MzA0OTQ5LDIwNTE3OTc1OCwtOTI0MzkyOTE1LDE2OT
 I0MjM1NTUsNDQ2MTkwMzg5LDIwNTg3ODY1MDldfQ==
 -->
