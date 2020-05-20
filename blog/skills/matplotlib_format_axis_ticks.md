@@ -65,7 +65,7 @@ ax.xaxis.set_major_formatter(plt.FixedFormatter(labels))
 # print the plot
 plt.show()
 ```
-![matplotlib_linearlocator_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_linearlocator_demo.PNG)
+![matplotlib_linearlocator_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_fixed_formatter_demo.PNG)
 ### Hiding tick labels using 'NullFormatter'
 ```python
 import matplotlib.pyplot as plt
@@ -138,7 +138,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMTc3MjkwNDE3OSwtMTUwODgzNDI0
+xsXG4iLCJoaXN0b3J5IjpbMTQ2NTA4MDgzNywtMTUwODgzNDI0
 NywxNTE5MzA0OTQ5LDIwNTE3OTc1OCwtOTI0MzkyOTE1LDE2OT
 I0MjM1NTUsNDQ2MTkwMzg5LDIwNTg3ODY1MDldfQ==
 -->
