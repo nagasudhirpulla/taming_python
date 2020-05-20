@@ -44,8 +44,10 @@ plt.show()
 ```python
 import matplotlib.pyplot as plt
 
-x = [0,1000,2,3,4,5,6,7,8]
+x = [0,10000,20000,30000,40000,50000,60000,70000,80000]
 y = [8,6,4,2,9,7,6,3,1]
+def xFormatter(x,pos):
+	return '{0}K'.format(x/10000)
 
 # create a plotting area and get the figure, axes handle in return
 fig, ax = plt.subplots()
@@ -156,7 +158,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMTM4NDE3OTYwMSwtMTIzMjkwNjM3
+xsXG4iLCJoaXN0b3J5IjpbLTg3NTI2NjgzNCwtMTIzMjkwNjM3
 MywtNjUyOTcxNzE1LDE2OTYwNzAyNTQsLTE1MDg4MzQyNDcsMT
 UxOTMwNDk0OSwyMDUxNzk3NTgsLTkyNDM5MjkxNSwxNjkyNDIz
 NTU1LDQ0NjE5MDM4OSwyMDU4Nzg2NTA5XX0=
