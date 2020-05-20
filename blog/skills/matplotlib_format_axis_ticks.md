@@ -18,8 +18,6 @@ Please make sure that you covered the[post on basics](https://nagasudhir.blogspo
 <hr/>
 
 Sometimes we want to explicitly control the formatting of ticks like number of decimal places, date formats etc. This can be done through `TickFormatters`
- 
-TickLocators help matplotlib to determine the location of ticks
 
 ### Control spacing between ticks using 'MultipleLocator'
 ```python
@@ -159,6 +157,6 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTcxMzM2MzUyMyw0NDYxOTAzODks
+xsXG4iLCJoaXN0b3J5IjpbMTY5MjQyMzU1NSw0NDYxOTAzODks
 MjA1ODc4NjUwOV19
 -->
