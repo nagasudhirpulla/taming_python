@@ -19,7 +19,7 @@ Please make sure that you covered the[post on basics](https://nagasudhir.blogspo
 
 Sometimes we want to explicitly control the formatting of ticks like number of decimal places, date formats etc. This can be done through `TickFormatters`
 
-### Control axis tick with format string using 'StrMethodFormatter'
+### Control axis ticks with format string using 'StrMethodFormatter'
 ```python
 import matplotlib.pyplot as plt
 import matplotlib as mpl
@@ -136,8 +136,8 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTY1Mjk3MTcxNSwxNjk2MDcwMjU0
-LC0xNTA4ODM0MjQ3LDE1MTkzMDQ5NDksMjA1MTc5NzU4LC05Mj
-QzOTI5MTUsMTY5MjQyMzU1NSw0NDYxOTAzODksMjA1ODc4NjUw
-OV19
+xsXG4iLCJoaXN0b3J5IjpbNjc5MTIzMzAsLTY1Mjk3MTcxNSwx
+Njk2MDcwMjU0LC0xNTA4ODM0MjQ3LDE1MTkzMDQ5NDksMjA1MT
+c5NzU4LC05MjQzOTI5MTUsMTY5MjQyMzU1NSw0NDYxOTAzODks
+MjA1ODc4NjUwOV19
 -->
