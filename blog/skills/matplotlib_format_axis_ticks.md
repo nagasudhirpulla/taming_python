@@ -122,16 +122,17 @@ import matplotlib.pyplot as plt
 today = dt.datetime.today()
 
 numDays = 9
-x = [today-dt.timedelta(days=x) for x in range(numDays)]
+x = [today-dt.timedelta(days=p) for p in range(numDays)]
 y = [8,6,4,2,9,7,6,3,1]
 
 # create a plotting area and get the figure, axes handle in return
 fig, ax = plt.subplots()
 
-def dateFormatter(x, pos):
-	
+def datesFormatter(x, pos):
+	return dt.datetime.strftime(x, '%d-%b')
+
 # set x axis major ticks date format using funcFormatter
-ax.xaxis.set_major_formatter(plt.FuncFormatter(thousandsFormatter))
+ax.xaxis.set_major_formatter(plt.FuncFormatter(datesFormatter))
 
 
 # plot data on the axes handle
@@ -190,7 +191,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMTE5MzM3NDUxNywtMzYzNTEzMDA0
+xsXG4iLCJoaXN0b3J5IjpbLTEwMDc2OTIyOSwtMzYzNTEzMDA0
 LC04NzUyNjY4MzQsLTEyMzI5MDYzNzMsLTY1Mjk3MTcxNSwxNj
 k2MDcwMjU0LC0xNTA4ODM0MjQ3LDE1MTkzMDQ5NDksMjA1MTc5
 NzU4LC05MjQzOTI5MTUsMTY5MjQyMzU1NSw0NDYxOTAzODksMj
