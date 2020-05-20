@@ -40,6 +40,7 @@ plt.show()
 ```
 ![matplotlib_strmethod_formatter_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_strmethod_formatter_demo.PNG)
 ### Control axis tick labels text with user defined function using 'FuncFormatter'
+`FuncFormatter` should be supplied with a function that takes in tick value and tick position and outputs the tick label string
 ```python
 import matplotlib.pyplot as plt
 import matplotlib as mpl
@@ -155,8 +156,8 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTEyMzI5MDYzNzMsLTY1Mjk3MTcx
-NSwxNjk2MDcwMjU0LC0xNTA4ODM0MjQ3LDE1MTkzMDQ5NDksMj
-A1MTc5NzU4LC05MjQzOTI5MTUsMTY5MjQyMzU1NSw0NDYxOTAz
-ODksMjA1ODc4NjUwOV19
+xsXG4iLCJoaXN0b3J5IjpbLTIxNDMwMjI2MzcsLTEyMzI5MDYz
+NzMsLTY1Mjk3MTcxNSwxNjk2MDcwMjU0LC0xNTA4ODM0MjQ3LD
+E1MTkzMDQ5NDksMjA1MTc5NzU4LC05MjQzOTI5MTUsMTY5MjQy
+MzU1NSw0NDYxOTAzODksMjA1ODc4NjUwOV19
 -->
