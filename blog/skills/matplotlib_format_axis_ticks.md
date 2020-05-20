@@ -65,6 +65,7 @@ ax.xaxis.set_major_formatter(plt.FuncFormatter(thousandsFormatter))
 # print the plot
 plt.show()
 ```
+![matplotlib_func_formatter_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_func_formatter_demo.PNG)
 
 ### Setting axis tick labels manually using 'FixedFormatter'
 `FixedFormatter` should be generally used along with `FixedLocator`. Otherwise the labels and ticks may not match most of the times.
@@ -162,9 +163,9 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTE4MzUyMjc0NzgsLTM2MzUxMzAw
-NCwtODc1MjY2ODM0LC0xMjMyOTA2MzczLC02NTI5NzE3MTUsMT
-Y5NjA3MDI1NCwtMTUwODgzNDI0NywxNTE5MzA0OTQ5LDIwNTE3
-OTc1OCwtOTI0MzkyOTE1LDE2OTI0MjM1NTUsNDQ2MTkwMzg5LD
-IwNTg3ODY1MDldfQ==
+xsXG4iLCJoaXN0b3J5IjpbMjA2MjY4MTQyLC0zNjM1MTMwMDQs
+LTg3NTI2NjgzNCwtMTIzMjkwNjM3MywtNjUyOTcxNzE1LDE2OT
+YwNzAyNTQsLTE1MDg4MzQyNDcsMTUxOTMwNDk0OSwyMDUxNzk3
+NTgsLTkyNDM5MjkxNSwxNjkyNDIzNTU1LDQ0NjE5MDM4OSwyMD
+U4Nzg2NTA5XX0=
 -->
