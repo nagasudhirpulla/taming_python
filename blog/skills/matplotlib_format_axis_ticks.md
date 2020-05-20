@@ -19,7 +19,7 @@ Please make sure that you covered the[post on basics](https://nagasudhir.blogspo
 
 Sometimes we want to explicitly control the formatting of ticks like number of decimal places, date formats etc. This can be done through `TickFormatters`
 
-### Control spacing between ticks using 'MultipleLocator'
+### Control axis tick with format string using 'StrMethodFo'
 ```python
 import matplotlib.pyplot as plt
 x = [0,1,2,3,4,5,6,7,8]
@@ -138,7 +138,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMTQ2NTA4MDgzNywtMTUwODgzNDI0
+xsXG4iLCJoaXN0b3J5IjpbMTA2ODEwNjcyNSwtMTUwODgzNDI0
 NywxNTE5MzA0OTQ5LDIwNTE3OTc1OCwtOTI0MzkyOTE1LDE2OT
 I0MjM1NTUsNDQ2MTkwMzg5LDIwNTg3ODY1MDldfQ==
 -->
