@@ -113,6 +113,7 @@ ax.xaxis.set_major_formatter(plt.NullFormatter())
 plt.show()
 ```
 ![matplotlib_null_formatter_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_null_formatter_demo.PNG)
+### FuncFormat
 
 ### Summary of Locators
 | FormatterClass     | Description                             |
@@ -163,9 +164,9 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMjA2MjY4MTQyLC0zNjM1MTMwMDQs
-LTg3NTI2NjgzNCwtMTIzMjkwNjM3MywtNjUyOTcxNzE1LDE2OT
-YwNzAyNTQsLTE1MDg4MzQyNDcsMTUxOTMwNDk0OSwyMDUxNzk3
-NTgsLTkyNDM5MjkxNSwxNjkyNDIzNTU1LDQ0NjE5MDM4OSwyMD
-U4Nzg2NTA5XX0=
+xsXG4iLCJoaXN0b3J5IjpbMTgxNjI4MDIyOCwtMzYzNTEzMDA0
+LC04NzUyNjY4MzQsLTEyMzI5MDYzNzMsLTY1Mjk3MTcxNSwxNj
+k2MDcwMjU0LC0xNTA4ODM0MjQ3LDE1MTkzMDQ5NDksMjA1MTc5
+NzU4LC05MjQzOTI5MTUsMTY5MjQyMzU1NSw0NDYxOTAzODksMj
+A1ODc4NjUwOV19
 -->
