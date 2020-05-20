@@ -59,7 +59,8 @@ ax.plot(x, y)
 ax.xaxis.set_major_locator(plt.FixedLocator(x))
 
 # set x axis ticks labels manually using FixedFormatter
-ax.xaxis.set_major_tick
+labels = ['zero, 'one', 'two']
+ax.xaxis.set_major_formatter(plt.FixedFormatter())
 
 # print the plot
 plt.show()
@@ -137,7 +138,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbNTg0MDg3OTA3LC0xNTA4ODM0MjQ3
+xsXG4iLCJoaXN0b3J5IjpbMzA4ODgyMDc1LC0xNTA4ODM0MjQ3
 LDE1MTkzMDQ5NDksMjA1MTc5NzU4LC05MjQzOTI5MTUsMTY5Mj
 QyMzU1NSw0NDYxOTAzODksMjA1ODc4NjUwOV19
 -->
