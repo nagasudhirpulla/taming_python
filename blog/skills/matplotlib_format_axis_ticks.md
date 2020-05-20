@@ -38,7 +38,7 @@ ax.xaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('{x:0.2f}'))
 # print the plot
 plt.show()
 ```
-![matplotlib_multiplelocator_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_multiplelocator_demo.PNG)
+![matplotlib_strmethod_formatter_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_strmethod_formatter_demo.PNG)
 
 ### Setting axis tick labels manually using 'FixedFormatter'
 `FixedFormatter` should be generally used along with `FixedLocator`. Otherwise the labels and ticks may not match most of the times.
@@ -136,8 +136,8 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTEyNzM1MjkzMjksMTY5NjA3MDI1
-NCwtMTUwODgzNDI0NywxNTE5MzA0OTQ5LDIwNTE3OTc1OCwtOT
-I0MzkyOTE1LDE2OTI0MjM1NTUsNDQ2MTkwMzg5LDIwNTg3ODY1
-MDldfQ==
+xsXG4iLCJoaXN0b3J5IjpbLTY1Mjk3MTcxNSwxNjk2MDcwMjU0
+LC0xNTA4ODM0MjQ3LDE1MTkzMDQ5NDksMjA1MTc5NzU4LC05Mj
+QzOTI5MTUsMTY5MjQyMzU1NSw0NDYxOTAzODksMjA1ODc4NjUw
+OV19
 -->
