@@ -86,7 +86,7 @@ plt.show()
 ```
 ![matplotlib_loglocator_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_loglocator_demo.PNG)
 
-### Hiding ticks using 'NullLocator'
+### Hiding tick labels using 'NullFormatter'
 ```python
 import matplotlib.pyplot as plt
 x = [0,1,2,3,4,5,6,7,8]
@@ -99,10 +99,10 @@ fig, ax = plt.subplots()
 ax.plot(x, y)
 
 # use null locator to hide major and minor ticks
-ax.yaxis.set_major_locator(plt.NullLocator())
-ax.yaxis.set_minor_locator(plt.NullLocator())
-ax.xaxis.set_minor_locator(plt.NullLocator())
-ax.xaxis.set_major_locator(plt.NullLocator())
+ax.yaxis.set_major_formatter(plt.NullFormatter())
+ax.yaxis.set_minor_formatter(plt.NullFormatter())
+ax.xaxis.set_minor_formatter(plt.NullFormatter())
+ax.xaxis.set_major_formatter(plt.NullFormatter())
 
 # print the plot
 plt.show()
@@ -132,7 +132,7 @@ Check out [this post](https://matplotlib.org/3.2.1/gallery/ticks_and_spines/tick
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
 ### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/GrossCreativeApplicationprogrammer?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 
 ### References
 * Official guide - https://matplotlib.org/3.2.1/gallery/ticks_and_spines/tick-formatters.html
@@ -158,7 +158,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTgwNTI5NjAxMSwxNTE5MzA0OTQ5
-LDIwNTE3OTc1OCwtOTI0MzkyOTE1LDE2OTI0MjM1NTUsNDQ2MT
-kwMzg5LDIwNTg3ODY1MDldfQ==
+xsXG4iLCJoaXN0b3J5IjpbLTE1MDg4MzQyNDcsMTUxOTMwNDk0
+OSwyMDUxNzk3NTgsLTkyNDM5MjkxNSwxNjkyNDIzNTU1LDQ0Nj
+E5MDM4OSwyMDU4Nzg2NTA5XX0=
 -->
