@@ -163,7 +163,7 @@ Check out [this post](https://matplotlib.org/3.2.1/gallery/ticks_and_spines/tick
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
 ### You can practice here
-
+<iframe height="800px" width="100%" src="https://repl.it/repls/HeartfeltActiveWireframes?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 * Official guide - https://matplotlib.org/3.2.1/gallery/ticks_and_spines/tick-formatters.html
@@ -175,23 +175,16 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 
-
-
-
-https://jakevdp.github.io/PythonDataScienceHandbook/04.10-customizing-ticks.html
-
-https://stackoverflow.com/questions/29188757/matplotlib-specify-format-of-floats-for-tick-labels/29188910#29188910
-
-
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZvcm1hdCBheGlzIHRpY2
 tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTE5NTczNjQ2LDQ2NDg0Njk0OCwt
-MTAwNzY5MjI5LC0zNjM1MTMwMDQsLTg3NTI2NjgzNCwtMTIzMj
-kwNjM3MywtNjUyOTcxNzE1LDE2OTYwNzAyNTQsLTE1MDg4MzQy
-NDcsMTUxOTMwNDk0OSwyMDUxNzk3NTgsLTkyNDM5MjkxNSwxNj
-kyNDIzNTU1LDQ0NjE5MDM4OSwyMDU4Nzg2NTA5XX0=
+xsXG4iLCJoaXN0b3J5IjpbNjY3Nzc2NzY5LC0xOTU3MzY0Niw0
+NjQ4NDY5NDgsLTEwMDc2OTIyOSwtMzYzNTEzMDA0LC04NzUyNj
+Y4MzQsLTEyMzI5MDYzNzMsLTY1Mjk3MTcxNSwxNjk2MDcwMjU0
+LC0xNTA4ODM0MjQ3LDE1MTkzMDQ5NDksMjA1MTc5NzU4LC05Mj
+QzOTI5MTUsMTY5MjQyMzU1NSw0NDYxOTAzODksMjA1ODc4NjUw
+OV19
 -->
