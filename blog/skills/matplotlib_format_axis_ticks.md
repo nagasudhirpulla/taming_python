@@ -32,7 +32,7 @@ fig, ax = plt.subplots()
 ax.plot(x, y)
 
 # set x axis major ticks format as 2 decimal places
-ax.xaxis.set_major_locator(plt.MultipleLocator(3))
+ax.xaxis.set_major_locator(plt.StrMethodFormatter('{x:0.2f}'))
 
 # print the plot
 plt.show()
@@ -135,7 +135,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMTQ1MDEzNTI5NSwtMTUwODgzNDI0
+xsXG4iLCJoaXN0b3J5IjpbMTY5NjA3MDI1NCwtMTUwODgzNDI0
 NywxNTE5MzA0OTQ5LDIwNTE3OTc1OCwtOTI0MzkyOTE1LDE2OT
 I0MjM1NTUsNDQ2MTkwMzg5LDIwNTg3ODY1MDldfQ==
 -->
