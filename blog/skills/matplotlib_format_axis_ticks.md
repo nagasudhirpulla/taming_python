@@ -119,7 +119,7 @@ plt.show()
 | FormatStrFormatter | Use an old-style sprintf format string      |
 | ScalarFormatter    | Default formatter for scalars: autopick the format string  |
 | LogFormatter       | Default formatter for log axes          |
-| PercentFormatter       | Default formatter for log axes          |
+| PercentFormatter       | Format labels as a percentage          |
 
 ![tick_locators_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/tick_locators_illustration.png)
 Check out [this post](https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html) for all locators example code
@@ -156,7 +156,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMTQ4NzU3NjQ0MSwyMDUxNzk3NTgs
+xsXG4iLCJoaXN0b3J5IjpbMTUxOTMwNDk0OSwyMDUxNzk3NTgs
 LTkyNDM5MjkxNSwxNjkyNDIzNTU1LDQ0NjE5MDM4OSwyMDU4Nz
 g2NTA5XX0=
 -->
