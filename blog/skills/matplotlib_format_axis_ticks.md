@@ -132,7 +132,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 <iframe height="800px" width="100%" src="https://repl.it/repls/GrossCreativeApplicationprogrammer?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
-* Official guide - https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html
+* Official guide - https://matplotlib.org/3.2.1/gallery/ticks_and_spines/tick-formatters.html
 * Official documentation - https://matplotlib.org/3.1.1/api/ticker_api.html#tick-locating
 * another post - https://jakevdp.github.io/PythonDataScienceHandbook/04.10-customizing-ticks.html
 
@@ -155,6 +155,6 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTkyNDM5MjkxNSwxNjkyNDIzNTU1
-LDQ0NjE5MDM4OSwyMDU4Nzg2NTA5XX0=
+xsXG4iLCJoaXN0b3J5IjpbMTEwNDcxNjQ0MCwtOTI0MzkyOTE1
+LDE2OTI0MjM1NTUsNDQ2MTkwMzg5LDIwNTg3ODY1MDldfQ==
 -->
