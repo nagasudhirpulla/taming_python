@@ -128,6 +128,12 @@ y = [8,6,4,2,9,7,6,3,1]
 # create a plotting area and get the figure, axes handle in return
 fig, ax = plt.subplots()
 
+def dateFormatter(x, pos):
+	
+# set x axis major ticks date format using funcFormatter
+ax.xaxis.set_major_formatter(plt.FuncFormatter(thousandsFormatter))
+
+
 # plot data on the axes handle
 ax.plot(x, y)
 
@@ -184,7 +190,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbMTMxNzgyNTAyMywtMzYzNTEzMDA0
+xsXG4iLCJoaXN0b3J5IjpbMTE5MzM3NDUxNywtMzYzNTEzMDA0
 LC04NzUyNjY4MzQsLTEyMzI5MDYzNzMsLTY1Mjk3MTcxNSwxNj
 k2MDcwMjU0LC0xNTA4ODM0MjQ3LDE1MTkzMDQ5NDksMjA1MTc5
 NzU4LC05MjQzOTI5MTUsMTY5MjQyMzU1NSw0NDYxOTAzODksMj
