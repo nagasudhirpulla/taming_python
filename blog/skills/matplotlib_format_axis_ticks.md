@@ -22,6 +22,7 @@ Sometimes we want to explicitly control the formatting of ticks like number of d
 ### Control axis tick with format string using 'StrMethodFormatter'
 ```python
 import matplotlib.pyplot as plt
+import matplotlib as mpl
 x = [0,1,2,3,4,5,6,7,8]
 y = [8,6,4,2,9,7,6,3,1]
 
@@ -32,7 +33,7 @@ fig, ax = plt.subplots()
 ax.plot(x, y)
 
 # set x axis major ticks format as 2 decimal places
-ax.xaxis.set_major_formatter(plt.StrMethodFormatter('{x:0.2f}'))
+ax.xaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('{x:0.2f}'))
 
 # print the plot
 plt.show()
@@ -135,8 +136,8 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTUyNzY5NjkwMiwxNjk2MDcwMjU0
-LC0xNTA4ODM0MjQ3LDE1MTkzMDQ5NDksMjA1MTc5NzU4LC05Mj
-QzOTI5MTUsMTY5MjQyMzU1NSw0NDYxOTAzODksMjA1ODc4NjUw
-OV19
+xsXG4iLCJoaXN0b3J5IjpbLTEyNzM1MjkzMjksMTY5NjA3MDI1
+NCwtMTUwODgzNDI0NywxNTE5MzA0OTQ5LDIwNTE3OTc1OCwtOT
+I0MzkyOTE1LDE2OTI0MjM1NTUsNDQ2MTkwMzg5LDIwNTg3ODY1
+MDldfQ==
 -->
