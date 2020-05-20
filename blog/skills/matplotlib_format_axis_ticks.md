@@ -63,29 +63,6 @@ ax.xaxis.set_major_locator(plt.LinearLocator(numticks=6))
 plt.show()
 ```
 ![matplotlib_linearlocator_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_linearlocator_demo.PNG)
-
-### Using 'LogLocator' for logarithmic scaling of axis
-```python
-import matplotlib.pyplot as plt
-x = [0,20,300,50000,600000,7000000]
-y = [8,7,6,3,5,9]
-
-# create a plotting area and get the figure, axes handle in return
-fig, ax = plt.subplots()
-
-# plot data on the axes handle
-ax.plot(x, y)
-
-# make axis scale as 'log'
-ax.set_xscale('log')
-# use log locator of major and minor x axis ticks
-ax.xaxis.set_major_locator(plt.LogLocator(base = 10.0))
-
-# print the plot
-plt.show()
-```
-![matplotlib_loglocator_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_loglocator_demo.PNG)
-
 ### Hiding tick labels using 'NullFormatter'
 ```python
 import matplotlib.pyplot as plt
@@ -158,7 +135,7 @@ tzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMTYnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTkyMTA0NDA3LC0xNTA4ODM0MjQ3
-LDE1MTkzMDQ5NDksMjA1MTc5NzU4LC05MjQzOTI5MTUsMTY5Mj
-QyMzU1NSw0NDYxOTAzODksMjA1ODc4NjUwOV19
+xsXG4iLCJoaXN0b3J5IjpbLTE2NjA0MDExOCwtMTUwODgzNDI0
+NywxNTE5MzA0OTQ5LDIwNTE3OTc1OCwtOTI0MzkyOTE1LDE2OT
+I0MjM1NTUsNDQ2MTkwMzg5LDIwNTg3ODY1MDldfQ==
 -->
