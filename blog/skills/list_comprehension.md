@@ -18,6 +18,9 @@ But all `for` loops can't be replaced by List comprehensions.
 
 ### Creating list from another sequence/list using list comprehension
 ![list_comprehension_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/list_comprehension_illustration.png)
+* As shown in the above image, for creating a new list we require the input list, operation on each list item, condition for including the list item if any.
+* The 
+
 ### Creating a list of 15 numbers using 'List Comprehension'
 ```python
 lst = [t for t in range(15)]
@@ -72,6 +75,6 @@ lvbnMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbmRhdGU6ICcyMDIwLTA1LTIyJ1xudGFnczogJ2xlYXJuaW
 5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbLTU0NjI1MzY2NCw1OTExMTYxNTMsLTMzNDQ3OTY5NV19
-
+J5IjpbODI0MzkxOTczLC01NDYyNTM2NjQsNTkxMTE2MTUzLC0z
+MzQ0Nzk2OTVdfQ==
 -->
