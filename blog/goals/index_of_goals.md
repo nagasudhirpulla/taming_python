@@ -22,6 +22,7 @@ Here are the goals and skills in this tutorial series
 * [Create sequences with range function in python](https://nagasudhir.blogspot.com/2020/05/create-sequences-with-range-function.html)
 * ['for' loop in python](https://nagasudhir.blogspot.com/2020/05/for-loop-in-python.html)
 * ['while' loop in python](https://nagasudhir.blogspot.com/2020/05/while-loop-in-python.html)
+* [List comprehensions in python](https://nagasudhir.blogspot.com/2020/05/list-comprehensions-in-python.html)
 * [Datetime library in python](https://nagasudhir.blogspot.com/2020/05/datetime-library-in-python.html)
 * [Managing time periods using ‘timedelta’ in python](https://nagasudhir.blogspot.com/2020/05/timedeltas-in-python.html)
 * [Create random numbers in python](https://nagasudhir.blogspot.com/2020/05/create-random-numbers-in-python.html)
@@ -50,11 +51,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTM2NTIxMzkyNSwtMTI1ND
-E0MjU2OCwtMTMyNjM1OTQ0NSwtNzMzMDQyOTMxLC0yMDc2Nzkz
-ODc3LDExMzE4ODMwNzIsNDQwMjc4MTcxLDcwODYxMTI2LDMyND
-c5Nzc0NiwxNDYwMTA4NzU1LDI0MzQ1NzY1NiwtMTQwNDM5NzM1
-MywtNjE3NDkxOTAyLDEyNDM1MDY3MDgsLTE0MTkzMTE2NzIsNj
-I4NDEyODcwLC04MTUxNDQ5NzAsMTE2NjE3Nzc2Nyw5MjIyMDk5
-ODAsNTcwODQwMDc3XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTA0NDAxMzQ1MiwxMzY1Mj
+EzOTI1LC0xMjU0MTQyNTY4LC0xMzI2MzU5NDQ1LC03MzMwNDI5
+MzEsLTIwNzY3OTM4NzcsMTEzMTg4MzA3Miw0NDAyNzgxNzEsNz
+A4NjExMjYsMzI0Nzk3NzQ2LDE0NjAxMDg3NTUsMjQzNDU3NjU2
+LC0xNDA0Mzk3MzUzLC02MTc0OTE5MDIsMTI0MzUwNjcwOCwtMT
+QxOTMxMTY3Miw2Mjg0MTI4NzAsLTgxNTE0NDk3MCwxMTY2MTc3
+NzY3LDkyMjIwOTk4MF19
 -->
