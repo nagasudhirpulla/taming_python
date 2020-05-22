@@ -16,6 +16,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 All List comprehension can be replaced by a `for` loop.
 But all `for` loops can't be replaced by List comprehensions.
 
+### Creating list from another sequence/list using list comprehension
 
 
 ### Creating a list of 15 numbers using 'List Comprehension'
@@ -72,6 +73,6 @@ lvbnMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbmRhdGU6ICcyMDIwLTA1LTIyJ1xudGFnczogJ2xlYXJuaW
 5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbLTEzMTc5NjMwNjEsNTkxMTE2MTUzLC0zMzQ0Nzk2OTVd
-fQ==
+J5IjpbLTExNjM4MTg3Niw1OTExMTYxNTMsLTMzNDQ3OTY5NV19
+
 -->
