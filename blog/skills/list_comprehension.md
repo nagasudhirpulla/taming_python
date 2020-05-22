@@ -16,6 +16,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 All List comprehension can be replaced by a `for` loop.
 But all `for` loops can't be replaced by List comprehensions.
 
+
+
 ### Creating a list of 15 numbers using 'List Comprehension'
 ```python
 lst = [t for t in range(15)]
@@ -36,7 +38,7 @@ print(lst)
 # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 ```
 
-You can see from the above two examples taht 
+You can see from the above two examples that list comprehension is more user friendly to write and uses less lines of code
 
 ### For loop on a sequence
 In this example we are generating a sequence using range function
@@ -70,6 +72,6 @@ lvbnMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbmRhdGU6ICcyMDIwLTA1LTIyJ1xudGFnczogJ2xlYXJuaW
 5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbMTI1OTI3ODUwNyw1OTExMTYxNTMsLTMzNDQ3OTY5NV19
-
+J5IjpbLTEzMTc5NjMwNjEsNTkxMTE2MTUzLC0zMzQ0Nzk2OTVd
+fQ==
 -->
