@@ -18,8 +18,8 @@ But all `for` loops can't be replaced by List comprehensions.
 
 ### Creating list from another sequence/list using list comprehension
 ![list_comprehension_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/list_comprehension_illustration.png)
-* As shown in the above image, for creating a new list we require the input list, operation on each list item, condition for including the list item if any.
-* The 
+* As shown in the above image, for creating a new list we require the input list, operation on each list item, conditional statement for including the list item if any.
+* The conditional statement can be used as a `filter` to exclude undesired list items from the output list 
 
 ### Creating a list of 15 numbers using 'List Comprehension'
 ```python
@@ -40,11 +40,10 @@ print(lst)
 # This will print
 # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 ```
-
 You can see from the above two examples that list comprehension is more user friendly to write and uses less lines of code
 
-### For loop on a sequence
-In this example we are generating a sequence using range function
+### Using the conditional statement as filter in list comprehension
+In this example we will gener
 ```python
 for n in range(1,10,2):
 	print('The number is {0}'.format(n))
@@ -75,6 +74,6 @@ lvbnMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbmRhdGU6ICcyMDIwLTA1LTIyJ1xudGFnczogJ2xlYXJuaW
 5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbODI0MzkxOTczLC01NDYyNTM2NjQsNTkxMTE2MTUzLC0z
-MzQ0Nzk2OTVdfQ==
+J5IjpbLTE0NzU0NDIzMjgsLTU0NjI1MzY2NCw1OTExMTYxNTMs
+LTMzNDQ3OTY5NV19
 -->
