@@ -43,17 +43,13 @@ print(lst)
 You can see from the above two examples that list comprehension is more user friendly to write and uses less lines of code
 
 ### Using the conditional statement as filter in list comprehension
-In this example we will gener
+In this example we will generate even numbers using list comprehension
 ```python
-for n in range(1,10,2):
-	print('The number is {0}'.format(n))
+lst = [x for x in range(0,17) if x%2==0]
 
+print(lst)
 # this will print
-# The number is 1
-# The number is 3
-# The number is 5
-# The number is 7
-# The number is 9
+# [0, 2, 4, 6, 8, 10, 12, 14, 16]
 ```
 
 ### Online Interpreter
@@ -74,6 +70,6 @@ lvbnMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbmRhdGU6ICcyMDIwLTA1LTIyJ1xudGFnczogJ2xlYXJuaW
 5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbLTE0NzU0NDIzMjgsLTU0NjI1MzY2NCw1OTExMTYxNTMs
-LTMzNDQ3OTY5NV19
+J5IjpbMTUwNjYwOTc1MCwtNTQ2MjUzNjY0LDU5MTExNjE1Mywt
+MzM0NDc5Njk1XX0=
 -->
