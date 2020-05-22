@@ -14,9 +14,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 **List Comprehension** can be used to create a list from another list/sequence in a user-friendly way and with less lines of code. 
 All List comprehension can be replaced by a `for` loop.
-But all `for` loops can't be replaced by List comprehensions
+But all `for` loops can't be replaced by List comprehensions.
 
-### For loop on an array
+### Creating a list of 15 numbers using 'List Comprehension'
 ```python
 x = [1,8,6,5]
 for n in x:
@@ -69,5 +69,5 @@ lvbnMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbmRhdGU6ICcyMDIwLTA1LTIyJ1xudGFnczogJ2xlYXJuaW
 5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbMjM0MTE4MzU4XX0=
+J5IjpbLTMzNDQ3OTY5NV19
 -->
