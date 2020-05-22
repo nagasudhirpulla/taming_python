@@ -56,7 +56,7 @@ print(lst)
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
 ### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/LimeWiltedRouter?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="800px" width="100%" src="https://repl.it/repls/PortlyDetailedPetabyte?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <hr/>
 
@@ -70,6 +70,6 @@ lvbnMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbmRhdGU6ICcyMDIwLTA1LTIyJ1xudGFnczogJ2xlYXJuaW
 5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbMTUwNjYwOTc1MCwtNTQ2MjUzNjY0LDU5MTExNjE1Mywt
+J5IjpbLTIzOTg3MTg5NywtNTQ2MjUzNjY0LDU5MTExNjE1Mywt
 MzM0NDc5Njk1XX0=
 -->
