@@ -12,7 +12,7 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-List Comprehensions can be used to create a list from  
+**List Comprehension** can be used to create a list from another list/sequence in a user-friendly way and with less lines of code. Any List com
 
 ### For loop on an array
 ```python
@@ -67,5 +67,5 @@ lvbnMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbmRhdGU6ICcyMDIwLTA1LTIyJ1xudGFnczogJ2xlYXJuaW
 5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbODE4Mzk1ODE0XX0=
+J5IjpbMTUwNzM1NjBdfQ==
 -->
