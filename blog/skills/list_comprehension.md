@@ -28,10 +28,15 @@ print(lst)
 ```python
 lst = []
 
+for t in range(15):
+	lst.append(t)
+
 print(lst)
 # This will print
 # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 ```
+
+You can see from the above two examples taht 
 
 ### For loop on a sequence
 In this example we are generating a sequence using range function
@@ -65,6 +70,6 @@ lvbnMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbmRhdGU6ICcyMDIwLTA1LTIyJ1xudGFnczogJ2xlYXJuaW
 5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbLTE2OTcxOTc1MSw1OTExMTYxNTMsLTMzNDQ3OTY5NV19
+J5IjpbMTI1OTI3ODUwNyw1OTExMTYxNTMsLTMzNDQ3OTY5NV19
 
 -->
