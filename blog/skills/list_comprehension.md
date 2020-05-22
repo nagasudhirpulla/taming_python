@@ -21,7 +21,16 @@ But all `for` loops can't be replaced by List comprehensions.
 lst = [t for t in range(15)]
 
 print(lst)
-# This will print 
+# This will print
+# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+```
+### Creating a list of 15 numbers using 'for' loop
+```python
+lst = []
+
+print(lst)
+# This will print
+# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 ```
 
 ### For loop on a sequence
@@ -56,5 +65,6 @@ lvbnMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbmRhdGU6ICcyMDIwLTA1LTIyJ1xudGFnczogJ2xlYXJuaW
 5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbNTkxMTE2MTUzLC0zMzQ0Nzk2OTVdfQ==
+J5IjpbLTE2OTcxOTc1MSw1OTExMTYxNTMsLTMzNDQ3OTY5NV19
+
 -->
