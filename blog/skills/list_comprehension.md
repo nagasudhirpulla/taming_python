@@ -18,23 +18,10 @@ But all `for` loops can't be replaced by List comprehensions.
 
 ### Creating a list of 15 numbers using 'List Comprehension'
 ```python
-x = [1,8,6,5]
-for n in x:
-	print('The number is {0}'.format(n))
+lst = [t for t in range(15)]
 
-# this will print
-# The number is 1
-# The number is 8
-# The number is 6
-# The number is 5
-
-y = ['Nagasudhir', 'Lakshmi', 'Kishore']
-for n in y:
-	print('Hi {0}!'.format(n))
-# this will print
-# Hi Nagasudhir!
-# Hi Lakshmi!
-# Hi Kishore!
+print(lst)
+# This will print 
 ```
 
 ### For loop on a sequence
@@ -69,5 +56,5 @@ lvbnMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbmRhdGU6ICcyMDIwLTA1LTIyJ1xudGFnczogJ2xlYXJuaW
 5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbLTMzNDQ3OTY5NV19
+J5IjpbNTkxMTE2MTUzLC0zMzQ0Nzk2OTVdfQ==
 -->
