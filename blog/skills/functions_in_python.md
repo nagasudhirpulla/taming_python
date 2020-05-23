@@ -14,11 +14,12 @@ Please make sure to have all the skills mentioned above to understand and execut
 Functions can be used to encapsulate logic so that we can get an output for a given input based on the function's logic
 The  pictorial representation can be as shown below
 
+![function_illustration](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/function_illustration.png)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZ1Y250aW9ucyBpbiBweX
 Rob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMjMnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls0ODYzND
-EyOTNdfQ==
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMzcyNT
+Y5Mjg0XX0=
 -->
