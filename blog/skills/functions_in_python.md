@@ -1,4 +1,4 @@
-## Skill - Functions in python
+## Skill - functions in python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -71,6 +71,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZ1Y250aW9ucyBpbiBweX
 Rob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMjMnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxNTAyNT
-k2NDIyLDE0NTEwODI4NTZdfQ==
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTIxND
+kzMTYxMCwxNDUxMDgyODU2XX0=
 -->
