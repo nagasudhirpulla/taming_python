@@ -17,16 +17,20 @@ The  pictorial representation can be as shown below
 ![function_illustration](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/function_illustration.png)
 ### Function example in python
 ```python
-# define a function that takes in radius as
-def compute_surface(radius):
+# define a function that takes in radius as input and returns surface area
+def compute_surface_area(radius):
     return 3.14 * radius * radius
 
+# call the function
+sa = compute_surface_area(5)
+print(sa)
+# this prints 78.5
 ```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZ1Y250aW9ucyBpbiBweX
 Rob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMjMnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsyMDM3Mj
-kyNDA0XX0=
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTkwMj
+c2NDg5OV19
 -->
