@@ -46,6 +46,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 <iframe height="800px" width="100%" src="https://repl.it/repls/BurlywoodLeftSection?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <hr/>
+
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
@@ -54,6 +55,6 @@ b25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5
-IjpbMzMwNzIzNDY4LC0zNzk3MTc1NzYsNTQ2OTc4NTE3LDYxND
-ExNDQ0MiwxMjg2MjI1MTk2XX0=
+IjpbMTQ1MjAwODE1OCwtMzc5NzE3NTc2LDU0Njk3ODUxNyw2MT
+QxMTQ0NDIsMTI4NjIyNTE5Nl19
 -->
