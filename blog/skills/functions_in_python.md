@@ -34,19 +34,24 @@ print(sum)
 ### Function with optional parameters
 ```python
 # define a function that adds 2 numbers
-def add(x,y=4):
-    return x+y
+def multiply(x,y=1):
+    return x*y
 
-# use the function by passing the required parameter
-sum = add(15)
-print(sum)
-# this prints 11
+# use the function, since we did'nt 
+a = multiply(15)
+print(a)
+# this prints 15
+
+# use the function
+b = multiply(15, 2)
+print(b)
+# this prints 30
 ```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZ1Y250aW9ucyBpbiBweX
 Rob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMjMnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxNDUxMD
-gyODU2XX0=
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMzU2OD
+cwODAwLDE0NTEwODI4NTZdfQ==
 -->
