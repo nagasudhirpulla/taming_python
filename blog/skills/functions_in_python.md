@@ -31,13 +31,14 @@ print(sum)
 # this prints 11
 ```
 
-### Function with optional parameters
+### Function with optional and named parameters
 ```python
 # define a function that adds 2 numbers
 def multiply(x,y=1):
     return x*y
 
-# since we didn't give second input, it is considered as the default value, i.e., 1
+# since we didn't give second input, it is considered 
+# as the default value, i.e., 1
 a = multiply(15)
 print(a)
 # this prints 15
@@ -52,11 +53,26 @@ c = multiply(x=12, y=4)
 print(c)
 # this prints 48
 ```
+
+### Online Interpreter
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
+
+### You can practice here
+<iframe height="800px" width="100%" src="https://repl.it/repls/RelievedParallelAnalysts?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+### References
+* plot function API - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
+* matplotlib colors - https://matplotlib.org/2.1.1/api/colors_api.html
+* Examples gallery - https://matplotlib.org/gallery/index.html
+
+<hr/>
+
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZ1Y250aW9ucyBpbiBweX
 Rob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMjMnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNTExMz
-Y4NTYxLDE0NTEwODI4NTZdfQ==
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNDkxMz
+EzODM3LDE0NTEwODI4NTZdfQ==
 -->
