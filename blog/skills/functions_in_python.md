@@ -15,11 +15,12 @@ Functions can be used to encapsulate logic so that we can get an output for a gi
 The  pictorial representation can be as shown below
 
 ![function_illustration](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/function_illustration.png)
+
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZ1Y250aW9ucyBpbiBweX
 Rob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMjMnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMzcyNT
-Y5Mjg0XX0=
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTc3Nz
+I1OTUzNF19
 -->
