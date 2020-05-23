@@ -37,22 +37,26 @@ print(sum)
 def multiply(x,y=1):
     return x*y
 
-# use the function, since we didn't give second input, 
-# it is considered as the default value, i.e., 1
+# since we didn't give second input, it is considered as the default value, i.e., 1
 a = multiply(15)
 print(a)
 # this prints 15
 
-# use the function, here we are giving both the inputs
+# here we are giving both the inputs
 b = multiply(15, 2)
 print(b)
 # this prints 30
+
+# we can also give inputs through input variable names
+c = multiply(x=12, y=4)
+print(c)
+# this prints 48
 ```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZ1Y250aW9ucyBpbiBweX
 Rob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMjMnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTM4OD
-M0NjgwOCwxNDUxMDgyODU2XX0=
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNTExMz
+Y4NTYxLDE0NTEwODI4NTZdfQ==
 -->
