@@ -21,20 +21,20 @@ The  pictorial representation can be as shown below
 
 ### Function example in python
 ```python
-# define a function that takes in radius as input and returns surface area
-def compute_surface_area(radius):
-    return 3.14 * radius * radius
+# define a function that adds 2 numbers
+def add(x,y):
+    return x+y
 
 # use the function by passing the required parameter
-sa = compute_surface_area(5)
+sum = add(5, 6)
 print(sa)
-# this prints 78.5
+# this prints 11
 ```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZ1Y250aW9ucyBpbiBweX
 Rob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMjMnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMDYwOD
-M0NThdfQ==
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMTc1ND
+Y1ODg3XX0=
 -->
