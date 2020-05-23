@@ -1,12 +1,18 @@
+## Skill - Functions in python
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
+#### Skills Required
+* [Setup Python Development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
+* [Commenting in python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
+* [Basic printing in python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
+* [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 
-
-> Written with [StackEdit](https://stackedit.io/).
+Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZ1Y250aW9ucyBpbiBweX
 Rob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMjMnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTgxND
-cxMDYzMF19
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNjI2Nj
+czMjBdfQ==
 -->
