@@ -61,9 +61,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 <iframe height="800px" width="100%" src="https://repl.it/repls/RelievedParallelAnalysts?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
-* plot function API - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
-* matplotlib colors - https://matplotlib.org/2.1.1/api/colors_api.html
-* Examples gallery - https://matplotlib.org/gallery/index.html
+* http://thomas-cokelaer.info/tutorials/python/functions.html
 
 <hr/>
 
@@ -73,6 +71,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZ1Y250aW9ucyBpbiBweX
 Rob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMjMnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNDkxMz
-EzODM3LDE0NTEwODI4NTZdfQ==
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxNTAyNT
+k2NDIyLDE0NTEwODI4NTZdfQ==
 -->
