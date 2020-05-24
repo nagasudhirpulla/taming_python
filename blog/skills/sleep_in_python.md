@@ -25,14 +25,14 @@ import time
 print("Hello ")
 time.sleep(2)
 print("World!")
-# this prints Hello first waits 2 seconds and then 
+# this prints 'Hello ' first waits 2 seconds and then prints 'World!'
 ```
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
 ### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/RelievedParallelAnalysts?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="800px" width="100%" src="https://repl.it/repls/AcclaimedIndigoSet?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 * image credits - https://realpython.com/python-sleep/
@@ -47,6 +47,6 @@ VsYXlzIGluIHB5dGhvbiB1c2luZyBzbGVlcCBmdW5jdGlvblxu
 YXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC
 0wNS0yNCdcbnRhZ3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1p
 bmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3
-B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6WzIxMzQ4MDU1OTEs
+B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0zNjMyNjU3NTks
 LTM0MTQ4NTg1MF19
 -->
