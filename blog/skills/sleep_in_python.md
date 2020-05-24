@@ -15,18 +15,12 @@ Using the `sleep` function in python, we can make the code execution delayed by 
 
 ![sleep_illustration](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/sleep_illustration.png)
 
-### Structure of a function in python
-![python_function](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/python_function.png)
+### Function Usage
+To induce a delay of say 5 seconds in your code, just call `time.delay(5)`
 
-### Function example in python
+### Example
 ```python
-# define a function that adds 2 numbers
-def add(x,y):
-    return x+y
-
-# use the function by passing the required parameter
-sum = add(5, 6)
-print(sum)
+print("Hello ")
 # this prints 11
 ```
 
@@ -72,6 +66,6 @@ VsYXlzIGluIHB5dGhvbiB1c2luZyBzbGVlcCBmdW5jdGlvblxu
 YXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC
 0wNS0yNCdcbnRhZ3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1p
 bmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3
-B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0xNDc2NjYxODgs
-LTM0MTQ4NTg1MF19
+B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0xNzY4MzUyNTE2
+LC0zNDE0ODU4NTBdfQ==
 -->
