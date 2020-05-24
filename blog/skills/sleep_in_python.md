@@ -13,7 +13,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 Using the `sleep` function in python, we can make the code execution delayed by a desired time interval
 
-![function_illustration](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/function_illustration.png)
+![sleep_illustration](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/sleep_illustration.png)
 
 ### Structure of a function in python
 ![python_function](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/python_function.png)
@@ -72,6 +72,6 @@ VsYXlzIGluIHB5dGhvbiB1c2luZyBzbGVlcCBmdW5jdGlvblxu
 YXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC
 0wNS0yNCdcbnRhZ3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1p
 bmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3
-B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0zNDE0ODU4NTBd
-fQ==
+B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0xNDc2NjYxODgs
+LTM0MTQ4NTg1MF19
 -->
