@@ -16,11 +16,15 @@ Using the `sleep` function in python, we can make the code execution delayed by 
 ![sleep_illustration](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/sleep_illustration.png)
 
 ### Function Usage
+First import the `time` module
 To induce a delay of say 5 seconds in your code, just call `time.delay(5)`
 
 ### Example
 ```python
+import time
 print("Hello ")
+time.sleep(2)
+print("World!")
 # this prints 11
 ```
 
@@ -66,6 +70,6 @@ VsYXlzIGluIHB5dGhvbiB1c2luZyBzbGVlcCBmdW5jdGlvblxu
 YXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC
 0wNS0yNCdcbnRhZ3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1p
 bmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3
-B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0xNzY4MzUyNTE2
+B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0yMDI3ODczNTcx
 LC0zNDE0ODU4NTBdfQ==
 -->
