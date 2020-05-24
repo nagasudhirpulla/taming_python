@@ -1,4 +1,4 @@
-## Skill - Inducing time delays in python using sleep function
+## Skill - Inducing time delays in python using 'sleep' function
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -47,6 +47,6 @@ VsYXlzIGluIHB5dGhvbiB1c2luZyBzbGVlcCBmdW5jdGlvblxu
 YXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC
 0wNS0yNCdcbnRhZ3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1p
 bmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3
-B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0zNjMyNjU3NTks
+B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0xNzA5NDA4MzEs
 LTM0MTQ4NTg1MF19
 -->
