@@ -29,7 +29,7 @@ Here are the goals and skills in this tutorial series
 #### Date and Time Skills
 * [Datetime library in python](https://nagasudhir.blogspot.com/2020/05/datetime-library-in-python.html)
 * [Managing time periods using ‘timedelta’ in python](https://nagasudhir.blogspot.com/2020/05/timedeltas-in-python.html)
-* [Inducing time delays in python using sleep function](https://nagasudhir.blogspot.com/2020/05/inducing-time-delays-in-python-using.html)
+* [Inducing time delays in python using 'sleep' function](https://nagasudhir.blogspot.com/2020/05/inducing-time-delays-in-python-using.html)
 #### Pandas DataFrame Skills
 * [pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
 * [Working with excel files and pandas DataFrames](https://nagasudhir.blogspot.com/2020/05/working-with-excel-and-pandas-dataframes.html)
@@ -57,7 +57,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMjA3MzMzMzA5NSwtMTI5OT
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTU5ODI0NTA4MSwtMTI5OT
 gzNTE4NSwxMzY1MjEzOTI1LC0xMjU0MTQyNTY4LC0xMzI2MzU5
 NDQ1LC03MzMwNDI5MzEsLTIwNzY3OTM4NzcsMTEzMTg4MzA3Mi
 w0NDAyNzgxNzEsNzA4NjExMjYsMzI0Nzk3NzQ2LDE0NjAxMDg3
