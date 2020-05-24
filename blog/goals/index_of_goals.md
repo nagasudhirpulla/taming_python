@@ -9,6 +9,7 @@ Here are the goals and skills in this tutorial series
 * [Print "Hello World!"](https://nagasudhir.blogspot.com/2020/04/print-hello-world_54.html)
 
 ### Skills
+#### Language Skills
 * [Setup Python Development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Commenting in python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Basic printing in python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
@@ -24,9 +25,11 @@ Here are the goals and skills in this tutorial series
 * ['while' loop in python](https://nagasudhir.blogspot.com/2020/05/while-loop-in-python.html)
 * [functions in python](https://nagasudhir.blogspot.com/2020/05/fucntions-in-python.html)
 * [List comprehensions in python](https://nagasudhir.blogspot.com/2020/05/list-comprehensions-in-python.html)
+* [Create random numbers in python](https://nagasudhir.blogspot.com/2020/05/create-random-numbers-in-python.html)
+
+#### Date and Time Skills
 * [Datetime library in python](https://nagasudhir.blogspot.com/2020/05/datetime-library-in-python.html)
 * [Managing time periods using ‘timedelta’ in python](https://nagasudhir.blogspot.com/2020/05/timedeltas-in-python.html)
-* [Create random numbers in python](https://nagasudhir.blogspot.com/2020/05/create-random-numbers-in-python.html)
 * [pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
 * [Working with excel files and pandas DataFrames](https://nagasudhir.blogspot.com/2020/05/working-with-excel-and-pandas-dataframes.html)
 * [Getting the shape / dimension of a DataFrame](https://nagasudhir.blogspot.com/2020/05/dimension-of-dataframe.html)
@@ -52,7 +55,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEwNDU1NzQyMDAsMTM2NT
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTExMDA1ODc4NTgsMTM2NT
 IxMzkyNSwtMTI1NDE0MjU2OCwtMTMyNjM1OTQ0NSwtNzMzMDQy
 OTMxLC0yMDc2NzkzODc3LDExMzE4ODMwNzIsNDQwMjc4MTcxLD
 cwODYxMTI2LDMyNDc5Nzc0NiwxNDYwMTA4NzU1LDI0MzQ1NzY1
