@@ -1,10 +1,77 @@
+## Skill - Inducing time delays in python using sleep function
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
+
+#### Skills Required
+* [Setup Python Development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
+* [Commenting in python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
+* [Basic printing in python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
+* [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
+
+Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
+
+<hr/>
+
+Using the sleep function in python, we can make the code execution delayed by a desired time interval
+
+![function_illustration](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/function_illustration.png)
+
+### Structure of a function in python
+![python_function](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/python_function.png)
+
+### Function example in python
+```python
+# define a function that adds 2 numbers
+def add(x,y):
+    return x+y
+
+# use the function by passing the required parameter
+sum = add(5, 6)
+print(sum)
+# this prints 11
+```
+
+### Function with optional and named parameters
+```python
+# define a function that adds 2 numbers
+def multiply(x,y=1):
+    return x*y
+
+# since we didn't give second input, it is considered 
+# as the default value, i.e., 1
+a = multiply(15)
+print(a)
+# this prints 15
+
+# here we are giving both the inputs
+b = multiply(15, 2)
+print(b)
+# this prints 30
+
+# we can also give inputs through input variable names
+c = multiply(x=12, y=4)
+print(c)
+# this prints 48
+```
+
+### Online Interpreter
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
+
+### You can practice here
+<iframe height="800px" width="100%" src="https://repl.it/repls/RelievedParallelAnalysts?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+### References
+* http://thomas-cokelaer.info/tutorials/python/functions.html
+
+<hr/>
+
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEludHJvZHVjaW5nIHRpbW
-UgZGVsYXlzIGluIHB5dGhvbiBzbGVlcCBmdW5jdGlvblxuYXV0
-aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNS
-0yNCdcbnRhZ3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdf
-cHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dG
-hvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0zMjU5MTgzMzBdfQ==
-
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEluZHVjaW5nIHRpbWUgZG
+VsYXlzIGluIHB5dGhvbiB1c2luZyBzbGVlcCBmdW5jdGlvblxu
+YXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC
+0wNS0yNCdcbnRhZ3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1p
+bmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3
+B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0xNDg0MzExNzIw
+XX0=
 -->
