@@ -7,12 +7,15 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
+### Install a python package
+* Open command prompt
+* Use command `pip install <package_>`
 
 
 
 
 ### Further Reading
-* https://docs.python.org/3.8/tutorial/controlflow.html#if-statements
+* https://www.shellhacks.com/pip-install-specific-version-of-package/
 
 <hr/>
 
@@ -24,6 +27,6 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTQxMjc2MDA1NCwyMTAz
-OTAyNDEsNzMwOTk4MTE2XX0=
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTI5MDIxODQyMSwxNDEy
+NzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgxMTZdfQ==
 -->
