@@ -26,7 +26,8 @@ MySQL-python==1.2.3
 WebOb==1.2.3
 numpy==1.11.1
 ```
-* We can install all the packages from the file like the one file shown above using the
+* We can install all the packages from the file like the one file shown above using the following command
+`pip install -r requirements.txt`
 
 ### Further Reading
 * https://www.shellhacks.com/pip-install-specific-version-of-package/
@@ -41,6 +42,6 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTM2MDcwODgwMywxNDEy
-NzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgxMTZdfQ==
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEwMTU1ODUwMTYsMTQx
+Mjc2MDA1NCwyMTAzOTAyNDEsNzMwOTk4MTE2XX0=
 -->
