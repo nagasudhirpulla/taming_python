@@ -19,7 +19,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * For example, to install a package named numpy with version 1.11.1, you need to run 
 `pip install numpy==1.11.1`
 
-### restore / install packages from a file using '-r' flag
+### install packages from a file using '-r' flag
 * If we have a text file named `requirements.txt` with packages information as shown below
 ```
 MySQL-python==1.2.3
@@ -28,6 +28,8 @@ numpy==1.11.1
 ```
 * We can install all the packages from the file like the one file shown above using the following command
 `pip install -r requirements.txt`
+* To install from a file located at a specific path, use
+`pip install -r C:\Users\Nagasudhir\Documents\requirements.txt`
 
 ### Further Reading
 * https://www.shellhacks.com/pip-install-specific-version-of-package/
@@ -42,6 +44,6 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEwMTU1ODUwMTYsMTQx
-Mjc2MDA1NCwyMTAzOTAyNDEsNzMwOTk4MTE2XX0=
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTY5NTQwNTQ4MiwxNDEy
+NzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgxMTZdfQ==
 -->
