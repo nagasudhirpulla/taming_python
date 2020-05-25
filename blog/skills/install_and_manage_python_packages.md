@@ -9,7 +9,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ### Install a python package
 * Open command prompt
-* Use command `pip install <package_>`
+* Use command `pip install <package_name>`
 
 
 
@@ -27,6 +27,6 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTI5MDIxODQyMSwxNDEy
-NzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgxMTZdfQ==
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE0Nzk0MjIxMTIsMTQx
+Mjc2MDA1NCwyMTAzOTAyNDEsNzMwOTk4MTE2XX0=
 -->
