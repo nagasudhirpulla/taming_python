@@ -20,8 +20,13 @@ Please make sure to have all the skills mentioned above to understand and execut
 `pip install numpy==1.11.1`
 
 ### restore / install packages from a file using '-r' flag
-If we have a text file named `requirements.txt` with packages information in the 
-
+* If we have a text file named `requirements.txt` with packages information as shown below
+```
+MySQL-python==1.2.3
+WebOb==1.2.3
+numpy==1.11.1
+```
+* We can install all the packages from the file like the one file shown above using the
 
 ### Further Reading
 * https://www.shellhacks.com/pip-install-specific-version-of-package/
@@ -36,6 +41,6 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNTU0NzEzMDE4LDE0MTI3
-NjAwNTQsMjEwMzkwMjQxLDczMDk5ODExNl19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTM2MDcwODgwMywxNDEy
+NzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgxMTZdfQ==
 -->
