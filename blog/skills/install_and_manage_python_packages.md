@@ -10,6 +10,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 ### Install a python package
 * Open command prompt
 * Use command `pip install <package_name>`
+* For example, to install a package named pandas, you need to run `pip install pandas`
+
+### Install specific version of a python package
+
 
 
 
@@ -27,6 +31,6 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE0Nzk0MjIxMTIsMTQx
-Mjc2MDA1NCwyMTAzOTAyNDEsNzMwOTk4MTE2XX0=
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMzM2ODkyNDM0LDE0MTI3
+NjAwNTQsMjEwMzkwMjQxLDczMDk5ODExNl19
 -->
