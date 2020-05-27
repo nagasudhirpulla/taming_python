@@ -15,7 +15,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ### Introduction
 * A virtual environment has its own python packages isolated from the default system python environment and its installed packages
-* This way we can manage the packages installed and 
+* This way we can manage the packages installed and their version numbers and use it in our projects
 
 
 ### Further Reading
@@ -31,7 +31,7 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTkyNTc4NDkxNSw3MjY2
-NzQ1NjgsMTQxMjc2MDA1NCwyMTAzOTAyNDEsNzMwOTk4MTE2XX
-0=
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEyNTAyNDIwMjMsMTky
+NTc4NDkxNSw3MjY2NzQ1NjgsMTQxMjc2MDA1NCwyMTAzOTAyND
+EsNzMwOTk4MTE2XX0=
 -->
