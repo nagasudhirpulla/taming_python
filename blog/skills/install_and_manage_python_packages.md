@@ -39,6 +39,8 @@ In order to use a virtual environment in Visual Studio Code, follow the below st
 
 ### Further Reading
 * https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
+* Then create a key value pair `"python.pythonPath" : "path\\to\\env_folder\\Scripts\\python.exe"`
+* This will make VS Code to use the created virtual environment
 
 <hr/>
 
@@ -50,7 +52,8 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNTk1NjU3NDI2LDE2NDY1
-ODc4NCwxMDk2Njk5MTU3LDE5MjU3ODQ5MTUsNzI2Njc0NTY4LD
-E0MTI3NjAwNTQsMjEwMzkwMjQxLDczMDk5ODExNl19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTQ4NTM0MzA4LDU5NTY1
+NzQyNiwxNjQ2NTg3ODQsMTA5NjY5OTE1NywxOTI1Nzg0OTE1LD
+cyNjY3NDU2OCwxNDEyNzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgx
+MTZdfQ==
 -->
