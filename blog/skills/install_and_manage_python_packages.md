@@ -26,7 +26,14 @@ you can use any name instead of `env_name`
 ### Activate a virtual environment
 * Goto 'Scripts' folder of the created virtual environment
 * Open command prompt inside that folder
-* Enter command `activate.bat`
+* Enter command `.\activate.bat`
+
+### De-activate a virtual environment
+* Goto 'Scripts' folder of the created virtual environment
+* Open command prompt inside that folder
+* Enter command `.\deactivate.bat`
+
+### Usin a
 
 ### Further Reading
 * https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
@@ -41,7 +48,7 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTY0NjU4Nzg0LDEwOTY2
-OTkxNTcsMTkyNTc4NDkxNSw3MjY2NzQ1NjgsMTQxMjc2MDA1NC
-wyMTAzOTAyNDEsNzMwOTk4MTE2XX0=
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTg1OTM5NjU2NywxNjQ2
+NTg3ODQsMTA5NjY5OTE1NywxOTI1Nzg0OTE1LDcyNjY3NDU2OC
+wxNDEyNzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgxMTZdfQ==
 -->
