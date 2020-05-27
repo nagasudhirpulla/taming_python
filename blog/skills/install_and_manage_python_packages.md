@@ -14,11 +14,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 * This can be solved by creating a virtual environment and using it in our project
 
 ### Introduction
-* A virtual environment has its 
+* A virtual environment has its own packages isolated from the default system python environe
 
 
 ### Further Reading
-* https://www.shellhacks.com/pip-install-specific-version-of-package/
+* https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
 
 <hr/>
 
@@ -30,7 +30,7 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTIxMTc2ODE4NTgsNzI2
-Njc0NTY4LDE0MTI3NjAwNTQsMjEwMzkwMjQxLDczMDk5ODExNl
-19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTc5MDc1OTU3OSw3MjY2
+NzQ1NjgsMTQxMjc2MDA1NCwyMTAzOTAyNDEsNzMwOTk4MTE2XX
+0=
 -->
