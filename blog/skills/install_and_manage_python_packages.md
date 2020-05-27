@@ -14,7 +14,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 * This can be solved by creating a virtual environment and using it in our project
 
 ### Introduction
-* A virtual environment has its own packages isolated from the default system python environe
+* A virtual environment has its own python packages isolated from the default system python environment and its installed packages
+* This way we can manage the packages installed and 
 
 
 ### Further Reading
@@ -30,7 +31,7 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTc5MDc1OTU3OSw3MjY2
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTkyNTc4NDkxNSw3MjY2
 NzQ1NjgsMTQxMjc2MDA1NCwyMTAzOTAyNDEsNzMwOTk4MTE2XX
 0=
 -->
