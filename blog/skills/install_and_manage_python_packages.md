@@ -28,16 +28,16 @@ you can use any name instead of `env_name`
 * Open command prompt inside that folder using Shift + right click
 * Enter command `.\activate.bat`
 
-### Managing packages in a virtual environment
-* Once the virtual environment is activated, you can manage the environment packages as usual using `pip`. Go through this post on managing python packages
+### Managing packages inside a virtual environment
+* Once the virtual environment is activated, you can manage the environment packages as usual using `pip`. For more information, go through [this post](https://nagasudhir.blogspot.com/2020/05/install-and-manage-packages-in-python.html) on managing python packages
 
 ### Leaving a virtual environment
 * Goto 'Scripts' folder of the created virtual environment
 * Open command prompt inside that folder using Shift + right click
 * Enter command `.\deactivate.bat`
 
-### Using a virtual environment in Visual Studio Code
-In order to use a virtual environment in Visual Studio Code, follow the below steps
+### Using a created virtual environment in Visual Studio Code
+In order to use a created virtual environment in Visual Studio Code, follow these steps.
 * Press *Ctrl+Shift+P*, select *Open Workspace Settings* as shown below.
 ![vs_code_open_workspace_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/vs_code_open_workspace_settings.png)
 * Click open settings button (page like icon on the top right). 
@@ -60,8 +60,8 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTExOTc0NTkyMTcsLTM4
-ODU1ODQzMCwxNTc5NjU0NDE0LDU5NTY1NzQyNiwxNjQ2NTg3OD
-QsMTA5NjY5OTE1NywxOTI1Nzg0OTE1LDcyNjY3NDU2OCwxNDEy
-NzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgxMTZdfQ==
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTMwODE1MDY4MSwtMzg4
+NTU4NDMwLDE1Nzk2NTQ0MTQsNTk1NjU3NDI2LDE2NDY1ODc4NC
+wxMDk2Njk5MTU3LDE5MjU3ODQ5MTUsNzI2Njc0NTY4LDE0MTI3
+NjAwNTQsMjEwMzkwMjQxLDczMDk5ODExNl19
 -->
