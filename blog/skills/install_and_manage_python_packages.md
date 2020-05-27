@@ -28,7 +28,10 @@ you can use any name instead of `env_name`
 * Open command prompt inside that folder using Shift + right click
 * Enter command `.\activate.bat`
 
-### De-activate a virtual environment
+### Managing packages in a virtual environment
+* Once the virtual environment is ac
+
+### Leaving a virtual environment
 * Goto 'Scripts' folder of the created virtual environment
 * Open command prompt inside that folder using Shift + right click
 * Enter command `.\deactivate.bat`
@@ -57,7 +60,7 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTQzODc4NTMxNiwtMzg4
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTU1NTM0NzExMSwtMzg4
 NTU4NDMwLDE1Nzk2NTQ0MTQsNTk1NjU3NDI2LDE2NDY1ODc4NC
 wxMDk2Njk5MTU3LDE5MjU3ODQ5MTUsNzI2Njc0NTY4LDE0MTI3
 NjAwNTQsMjEwMzkwMjQxLDczMDk5ODExNl19
