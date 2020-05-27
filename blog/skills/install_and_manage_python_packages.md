@@ -30,7 +30,7 @@ you can use any name instead of `env_name`
 
 ### De-activate a virtual environment
 * Goto 'Scripts' folder of the created virtual environment
-* Open command prompt inside that folder
+* Open command prompt inside that folder using Shift+
 * Enter command `.\deactivate.bat`
 
 ### Using a virtual environment in Visual Studio Code
@@ -52,8 +52,8 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTQ4NTM0MzA4LDU5NTY1
-NzQyNiwxNjQ2NTg3ODQsMTA5NjY5OTE1NywxOTI1Nzg0OTE1LD
-cyNjY3NDU2OCwxNDEyNzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgx
-MTZdfQ==
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE5NDk4MDkyMTksNTk1
+NjU3NDI2LDE2NDY1ODc4NCwxMDk2Njk5MTU3LDE5MjU3ODQ5MT
+UsNzI2Njc0NTY4LDE0MTI3NjAwNTQsMjEwMzkwMjQxLDczMDk5
+ODExNl19
 -->
