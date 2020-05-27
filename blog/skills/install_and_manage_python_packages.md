@@ -8,6 +8,9 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
+### Introduction
+Each installed python package has a particular version number to it
+Sometimes we may desire to have different version numbers of the same package for different pytho
 
 
 ### Further Reading
@@ -23,7 +26,7 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbODY4Njc3MDUwLDcyNjY3
-NDU2OCwxNDEyNzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgxMTZdfQ
-==
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTk5Mjc4NTY3NCw3MjY2
+NzQ1NjgsMTQxMjc2MDA1NCwyMTAzOTAyNDEsNzMwOTk4MTE2XX
+0=
 -->
