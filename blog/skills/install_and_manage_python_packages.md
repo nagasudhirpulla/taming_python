@@ -38,11 +38,12 @@ In order to use a virtual environment in Visual Studio Code, follow the below st
 * Press *Ctrl+Shift+P*, select *Open Workspace Settings* as shown below.
 ![vs_code_open_workspace_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/vs_code_open_workspace_settings.png)
 * Click open settings button (page like icon on the top right). 
-![vs_code_open_settings_json](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/vs_code_open_settings_json.png)* This opens the .vscode > settings.json file as shown below. Then create a key value pair `"python.pythonPath" : "path\\to\\env_folder\\Scripts\\python.exe"` in *settings.json* file as shown below.
-
+![vs_code_open_settings_json](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/vs_code_open_settings_json.png)
+* This opens the .vscode > settings.json file as shown below. Then create a key value pair `"python.pythonPath" : "path\\to\\env_folder\\Scripts\\python.exe"` in *settings.json* file as shown below.
+![vs_code_python_path_in_settings_json](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/vs_code_python_path_in_settings_json.png)
 * This will make VS Code to use the created virtual environment.
 * You can verify this by keeping your mouse at the bottom-left as shown below.
-
+![vs_code_active_python_env_check](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/vs_code_active_python_env_check.png)
 ### Further Reading
 * https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
 
@@ -56,7 +57,7 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTgxNDAyNDczMCwtMzg4
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTQzODc4NTMxNiwtMzg4
 NTU4NDMwLDE1Nzk2NTQ0MTQsNTk1NjU3NDI2LDE2NDY1ODc4NC
 wxMDk2Njk5MTU3LDE5MjU3ODQ5MTUsNzI2Njc0NTY4LDE0MTI3
 NjAwNTQsMjEwMzkwMjQxLDczMDk5ODExNl19
