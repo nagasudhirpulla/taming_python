@@ -17,6 +17,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 * A virtual environment has its own python packages isolated from the default system python environment and its installed packages
 * This way we can manage the packages installed and their version numbers and use it in our projects
 
+### Create a virtual environment using 'venv'
+* Create a folder
+* Open command prompt inside that folder
+* Enter command `python venv -m <env_name>`
+
 
 ### Further Reading
 * https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
@@ -31,7 +36,7 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEyNTAyNDIwMjMsMTky
-NTc4NDkxNSw3MjY2NzQ1NjgsMTQxMjc2MDA1NCwyMTAzOTAyND
-EsNzMwOTk4MTE2XX0=
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMjA5NTAyODI0OCwxOTI1
+Nzg0OTE1LDcyNjY3NDU2OCwxNDEyNzYwMDU0LDIxMDM5MDI0MS
+w3MzA5OTgxMTZdfQ==
 -->
