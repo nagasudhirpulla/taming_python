@@ -36,10 +36,10 @@ you can use any name instead of `env_name`
 ### Using a virtual environment in Visual Studio Code
 In order to use a virtual environment in Visual Studio Code, follow the below steps
 * Press *Ctrl+Shift+P*, select *Open Workspace Settings* as shown below.
-
+![vs_code_open_workspace_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/vs_code_open_workspace_settings.png)
 * Click open settings button (page like icon on the top right). 
 This opens the .vscode > settings.json file as shown below.
-* Then create a key value pair `"python.pythonPath" : "path\\to\\env_folder\\Scripts\\python.exe"` in *settings.json* file as shown below.
+![vs_code_open_workspace_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/vs_code_open_settings_json.png)* Then create a key value pair `"python.pythonPath" : "path\\to\\env_folder\\Scripts\\python.exe"` in *settings.json* file as shown below.
 * This will make VS Code to use the created virtual environment.
 * You can verify this by keeping your mouse at the bottom-left as shown below.
 
@@ -56,8 +56,8 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE3ODcyNjQxODAsLTM4
-ODU1ODQzMCwxNTc5NjU0NDE0LDU5NTY1NzQyNiwxNjQ2NTg3OD
-QsMTA5NjY5OTE1NywxOTI1Nzg0OTE1LDcyNjY3NDU2OCwxNDEy
-NzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgxMTZdfQ==
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTY5NDE2MzU3MywtMzg4
+NTU4NDMwLDE1Nzk2NTQ0MTQsNTk1NjU3NDI2LDE2NDY1ODc4NC
+wxMDk2Njk5MTU3LDE5MjU3ODQ5MTUsNzI2Njc0NTY4LDE0MTI3
+NjAwNTQsMjEwMzkwMjQxLDczMDk5ODExNl19
 -->
