@@ -34,7 +34,7 @@ you can use any name instead of `env_name`
 * Enter command `.\deactivate.bat`
 
 ### Using a virtual environment in Visual Studio Code
-
+* I
 
 ### Further Reading
 * https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
@@ -49,7 +49,7 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTU2NjcyMTkyLDE2NDY1
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTMxMjUxNzQ1LDE2NDY1
 ODc4NCwxMDk2Njk5MTU3LDE5MjU3ODQ5MTUsNzI2Njc0NTY4LD
 E0MTI3NjAwNTQsMjEwMzkwMjQxLDczMDk5ODExNl19
 -->
