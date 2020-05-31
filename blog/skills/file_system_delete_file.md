@@ -36,12 +36,13 @@ We checked if the file exists at first because, `remove` function will raise an 
 ```python
 # import the os module in order to use mkdir function
 import shutil
+import os
 
-# specify the file we desire to delete
+# specify the folder we desire to delete
 fPath = r'C:\Users\Nagasudhir\UnwantedFolder'
 
-# check if the file exists first
-fileExists = os.path.exists(fPath)
+# check if folder is present using isdir function
+isFolderPresent = os.path.isdir(fPath)
 
 if fileExists:
     # use remove function to delete the file if it exists
@@ -63,5 +64,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MDYzNDkxOSw5NDc0NDc2NTZdfQ==
+eyJoaXN0b3J5IjpbLTEwNTE4NTY3MzMsOTQ3NDQ3NjU2XX0=
 -->
