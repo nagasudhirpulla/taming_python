@@ -10,7 +10,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post, we will learn to create a folder using `mkdir` and `mkdirs` function
+In this post, we will learn to create a folder using `mkdir` and `makedirs` function
 
 ### Create a folder using 'mkdir' function
 ```python
@@ -28,8 +28,8 @@ except Exception as e:
 ```
 We used try catch to catch exception which can occur if the folder we are trying to create already exists
 
-### Create a folder with intermediate folders using 'mkdirs' function
-If we want to create intermediate folders also while creating a folder, use `mkdirs` function
+### Create a folder with intermediate folders using 'makedirs' function
+If we want to create intermediate folders also while creating a folder, use `makedirs` function
 ```python
 
 ```
@@ -46,6 +46,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjA0NTkwMTQsMTE1Njc5ODYxNCwxNj
-I3MDYyMTg0XX0=
+eyJoaXN0b3J5IjpbMTkxNjk2NTk5NCwtMjA2MDQ1OTAxNCwxMT
+U2Nzk4NjE0LDE2MjcwNjIxODRdfQ==
 -->
