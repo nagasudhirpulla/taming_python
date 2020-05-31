@@ -11,7 +11,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post, we will learn to create a folder using `mkdir` and `makedirs` function
+In this post, we will learn to delete a file or folder in python using `` an 
 
 ### Create a folder using 'mkdir' function
 ```python
@@ -47,7 +47,7 @@ by using `exist_ok=True`, exception will not be thrown if folder already exists
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
-* https://www.geeksforgeeks.org/create-a-directory-in-python/#makedirs
+* https://thispointer.com/python-how-to-remove-a-file-if-exists-and-handle-errors-os-remove-os-ulink/
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -55,5 +55,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODE5NjYyMV19
+eyJoaXN0b3J5IjpbMTczNjQ4MDY3OV19
 -->
