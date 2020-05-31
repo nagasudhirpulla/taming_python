@@ -66,10 +66,10 @@ with open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r') as f:
       # this the line, end='' will avoid extra line in console
 ```
 
-### load all the lines of a file in an array using 'readlines' function
+### load all the lines of a file into an array using 'readlines' function
 ```python
 with open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r') as f:
-   # read all the lines of the file to an array
+   # load all the lines of the file into an array
    textLines = f.readlines()
    
    print(textLines)
@@ -82,9 +82,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 ### References
 * https://www.programiz.com/python-programming/file-operation
-* https://www.geeksforgeeks.org/file-handling-python/
-* https://www.tutorialspoint.com/python/python_files_io.htm
 * Official docs on `open` function - https://docs.python.org/3/library/functions.html#open
+* https://www.geeksforgeeks.org/file-handling-python/
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -94,6 +93,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbLTQxMTYyMTUyLDg5MzM3MzgwMSwxNjIzNjIw
-MDgwLC0xNjMwNjY2MTc1XX0=
+JoaXN0b3J5IjpbLTE3ODAxODY5MzgsODkzMzczODAxLDE2MjM2
+MjAwODAsLTE2MzA2NjYxNzVdfQ==
 -->
