@@ -49,7 +49,8 @@ finally:
    # close the file using 'close' function
    f.close()
 ```
-
+T
+It is also worth noting that `mode='w'` or `mode = 'w+'` will create the file if it does not exist.
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -68,5 +69,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbMTk4MTQ3NjE4NywtMTYzMDY2NjE3NV19
+JoaXN0b3J5IjpbLTIwNTE4NzI0NzEsLTE2MzA2NjYxNzVdfQ==
+
 -->
