@@ -10,7 +10,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post, we will learn to check if a file or folder exists
+In this post, we will learn to create a folder using `mkdir` and `mkdir` function
 
 ### Check if a file exists using 'isfile' function
 ```python
@@ -56,5 +56,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzA2MjE4NF19
+eyJoaXN0b3J5IjpbLTExMTkyODkwNzksMTYyNzA2MjE4NF19
 -->
