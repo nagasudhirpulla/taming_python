@@ -38,10 +38,13 @@ The mode of file opening can be specified using the `mode` input of the function
 -   '**r+**' , for both reading and writing
 
 ### writing to file using 'w' mode
-```
+```python
 try:
-   f = open("test.txt")
-   # perform operations on the file
+   # open the file in write mode using mode='w'
+   f = open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='w')
+   
+   f.write("The first line\n")
+   f.write("This is the second line\n")
 finally:
    # close the file using 'close' function
    f.close()
@@ -65,5 +68,5 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbMTEzMzcwNDI4OSwtMTYzMDY2NjE3NV19
+JoaXN0b3J5IjpbOTgyNDYwNjE1LC0xNjMwNjY2MTc1XX0=
 -->
