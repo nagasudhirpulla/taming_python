@@ -12,7 +12,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post, we will learn to handle errors in our python programs
 
-### Handling any error using 'except'
+### Catching error using 'except'
 ```python
 try:  
     # use mkdir function to create the folder
@@ -22,17 +22,15 @@ except:
 ```
 In the above example, we used try except to catch the error
 
-### Create a folder with intermediate folders using 'makedirs' function
-If we want to create intermediate folders also while creating a folder, use `makedirs` function
+### Catching error using 'except' along with error information
 ```python
-import os
-
-# specify the file we desire to check
-fPath = r'C:\Users\Nagasudhir\Documents\Python Projects'
-
-# use makedirs function to create the folder along
-# with intermediate folders if required
-os.makedirs(fPath, exist_ok=True)
+try:  
+    # use mkdir function to create the folder
+    print(int('a2'))  
+except Exception as e:  
+    print(e)
+    # this prints
+    # invalid literal for int() with base 10: 'a2'
 ```
 by using `exist_ok=True`, exception will not be thrown if folder already exists
 
@@ -48,5 +46,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDU1MzM4MDQsMTIyOTMwMzM0Ml19
+eyJoaXN0b3J5IjpbLTE3NDA3OTY0NDMsMTIyOTMwMzM0Ml19
 -->
