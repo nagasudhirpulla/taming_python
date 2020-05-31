@@ -13,10 +13,15 @@ Please make sure to have all the skills mentioned above to understand and execut
 In this post, we will learn to read and write files in python
 
 ### Open a file using 'open' function
-In 
+Opening a file is required for reading or writing to a file
 ```python
-
+try:
+   f = open("test.txt")
+   # perform file operations like read write
+finally:
+   f.close()
 ```
+
 
 
 ### Online Interpreter
@@ -35,5 +40,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbNzg4MTMwMjgwLC0xNjMwNjY2MTc1XX0=
+JoaXN0b3J5IjpbLTE0MzU5NTMzMTQsLTE2MzA2NjYxNzVdfQ==
+
 -->
