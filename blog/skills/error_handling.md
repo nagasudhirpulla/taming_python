@@ -61,7 +61,12 @@ try:
 except Exception as e:
   print("Error info: {0}".format(e))
 finally:
+  # using finally to run code regardless of errors in 'try' section
   print("This code runs regardless of errors")
+
+# The above code prints
+# Error info: name 'x' is not defined
+# This code runs regardless of errors
 ```
 
 ### Online Interpreter
@@ -76,5 +81,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDYxNTQyNiwxMjI5MzAzMzQyXX0=
+eyJoaXN0b3J5IjpbNzY5NDE3MzAwLDEyMjkzMDMzNDJdfQ==
 -->
