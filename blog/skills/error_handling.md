@@ -18,9 +18,9 @@ try:
     # use mkdir function to create the folder
     print(int('a2'))  
 except:  
-    print('An error occured..')
+    print('An error occured...')
 ```
-We used try except to catch the error
+In the above example, we used try except to catch the error
 
 ### Create a folder with intermediate folders using 'makedirs' function
 If we want to create intermediate folders also while creating a folder, use `makedirs` function
@@ -48,5 +48,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyODUyNjEsMTIyOTMwMzM0Ml19
+eyJoaXN0b3J5IjpbLTE3MDU1MzM4MDQsMTIyOTMwMzM0Ml19
 -->
