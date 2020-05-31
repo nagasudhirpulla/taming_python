@@ -50,7 +50,18 @@ except:
 
 # the above program prints "Name error occured, which means that, a variable name is not defined"
 ```
-In the above example, first we check if the error type is `NameError` and it. Otherwise we check if the error is of type `OsError` and handle it. After that  we catch any other types of errors.
+In the above example, first we check if the error type is `NameError` and it.
+Otherwise we check if the error is of type `OsError` and handle it.
+After that  we catch any other types of errors.
+
+### Using 'finally' keyword for must run code
+```python
+try:
+  print(x)
+except:
+  # handle any other error types
+  print("Something else went wrong")
+```
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -64,5 +75,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzAxNTkzMDQsMTIyOTMwMzM0Ml19
+eyJoaXN0b3J5IjpbLTM0MzYwMjIyMywxMjI5MzAzMzQyXX0=
 -->
