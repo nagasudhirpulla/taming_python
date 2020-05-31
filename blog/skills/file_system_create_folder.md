@@ -31,8 +31,16 @@ We used try catch to catch exception which can occur if the folder we are trying
 ### Create a folder with intermediate folders using 'makedirs' function
 If we want to create intermediate folders also while creating a folder, use `makedirs` function
 ```python
+import os
 
+# specify the file we desire to check
+fPath = r'C:\Users\Nagasudhir\Documents\Python Projects'
+
+# use makedirs function to create the folder along
+# with intermediate folders if required
+os.makedirs(fPath, exist_ok=True)
 ```
+We can see that we used `exist_ok=True`, by using this exception will not be thrown if folder already exists
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -46,6 +54,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjk2NTk5NCwtMjA2MDQ1OTAxNCwxMT
-U2Nzk4NjE0LDE2MjcwNjIxODRdfQ==
+eyJoaXN0b3J5IjpbLTE4MjM2ODgyODAsLTIwNjA0NTkwMTQsMT
+E1Njc5ODYxNCwxNjI3MDYyMTg0XX0=
 -->
