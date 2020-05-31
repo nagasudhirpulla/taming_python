@@ -33,7 +33,6 @@ Here are the goals and skills in this tutorial series
 * [Datetime library in python](https://nagasudhir.blogspot.com/2020/05/datetime-library-in-python.html)
 * [Managing time periods using ‘timedelta’ in python](https://nagasudhir.blogspot.com/2020/05/timedeltas-in-python.html)
 * [Inducing time delays in python using 'sleep' function](https://nagasudhir.blogspot.com/2020/05/inducing-time-delays-in-python-using.html)
-
 #### File Handling Skills
 * [Check if file or folder is present](https://nagasudhir.blogspot.com/2020/05/check-if-file-or-folder-is-present.html)
 #### Pandas DataFrame Skills
@@ -63,11 +62,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTIwNDQxNzUxMCwyODQ3Mj
-E1NzMsLTE5NjM5MTU2NzAsLTEyOTk4MzUxODUsMTM2NTIxMzky
-NSwtMTI1NDE0MjU2OCwtMTMyNjM1OTQ0NSwtNzMzMDQyOTMxLC
-0yMDc2NzkzODc3LDExMzE4ODMwNzIsNDQwMjc4MTcxLDcwODYx
-MTI2LDMyNDc5Nzc0NiwxNDYwMTA4NzU1LDI0MzQ1NzY1NiwtMT
-QwNDM5NzM1MywtNjE3NDkxOTAyLDEyNDM1MDY3MDgsLTE0MTkz
-MTE2NzIsNjI4NDEyODcwXX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE5MTI0NDk1NTYsMjg0Nz
+IxNTczLC0xOTYzOTE1NjcwLC0xMjk5ODM1MTg1LDEzNjUyMTM5
+MjUsLTEyNTQxNDI1NjgsLTEzMjYzNTk0NDUsLTczMzA0MjkzMS
+wtMjA3Njc5Mzg3NywxMTMxODgzMDcyLDQ0MDI3ODE3MSw3MDg2
+MTEyNiwzMjQ3OTc3NDYsMTQ2MDEwODc1NSwyNDM0NTc2NTYsLT
+E0MDQzOTczNTMsLTYxNzQ5MTkwMiwxMjQzNTA2NzA4LC0xNDE5
+MzExNjcyLDYyODQxMjg3MF19
 -->
