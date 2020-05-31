@@ -11,15 +11,17 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post, we will learn to delete a file or folder in python using `` an 
+In this post, we will learn to delete a file or folder in python using `remove` and `rmdir` functions
 
-### Create a folder using 'mkdir' function
+### Delete a file using 'remove' function
 ```python
 # import the os module in order to use mkdir function
 import os
 
-# specify the file we desire to check
-fPath = r'C:\Users\Nagasudhir\Documents\Python Projects'
+# specify the file we desire to delete
+fPath = r'C:\Users\Nagasudhir\Documents\test.txt'
+
+fileExists = os.path.exists(fPath)
 
 try:  
     # use mkdir function to create the folder
@@ -55,5 +57,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjQ4MDY3OV19
+eyJoaXN0b3J5IjpbMTE3NTM3MjM1N119
 -->
