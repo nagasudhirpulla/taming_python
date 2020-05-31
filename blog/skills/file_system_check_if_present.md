@@ -48,7 +48,7 @@ else:
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
-* Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
+* https://www.geeksforgeeks.org/python-check-if-a-file-or-directory-exists-2/
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -60,6 +60,6 @@ IgZm9sZGVyIGlzIHByZXNlbnRcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMzEnXG50YWdzOiAnbG
 Vhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOlsyMDQzMzQ2ODc3LC0xNDkxMTU4ODY5LC0zNTM2
+hpc3RvcnkiOlstNTYwNTY3MTcyLC0xNDkxMTU4ODY5LC0zNTM2
 NDYwMTAsNDMwMDAyOTY2XX0=
 -->
