@@ -37,7 +37,15 @@ The mode of file opening can be specified using the `mode` input of the function
 -   '**a**' , for appending (adding new data at the end of file).
 -   '**r+**' , for both reading and writing
 
-
+### writing to file using 'w' mode
+```
+try:
+   f = open("test.txt")
+   # perform operations on the file
+finally:
+   # close the file using 'close' function
+   f.close()
+```
 
 
 ### Online Interpreter
@@ -57,5 +65,5 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbMTg2MjQyMDgzMiwtMTYzMDY2NjE3NV19
+JoaXN0b3J5IjpbMTEzMzcwNDI4OSwtMTYzMDY2NjE3NV19
 -->
