@@ -60,12 +60,9 @@ with open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r') as f:
 ### read each line file content using a for loop
 ```python
 # open the file for reading
-with f = open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r') as f:
+with open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r') as f:
    for ln in f:
       print(ln, end='')
-finally:
-   # close the file using 'close' function
-   f.close()
 ```
 
 ### Online Interpreter
@@ -85,6 +82,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbLTE5NzAwMTEyMzEsODkzMzczODAxLDE2MjM2
-MjAwODAsLTE2MzA2NjYxNzVdfQ==
+JoaXN0b3J5IjpbLTIzMTc4NDQ2LDg5MzM3MzgwMSwxNjIzNjIw
+MDgwLC0xNjMwNjY2MTc1XX0=
 -->
