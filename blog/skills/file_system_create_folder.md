@@ -20,8 +20,11 @@ import os
 # specify the file we desire to check
 fPath = r'C:\Users\Nagasudhir\Documents\Python Projects'
 
-# use mkdir function to create the folder
-
+try:  
+    # use mkdir function to create the folder
+    os.mkdir(fPath)  
+except Exception as e:  
+    print(e)
 ```
 
 ### Check if a folder exists using 'isdir' function
@@ -52,5 +55,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1Njc5ODYxNCwxNjI3MDYyMTg0XX0=
+eyJoaXN0b3J5IjpbLTEwNDY4MzY3MzgsMTE1Njc5ODYxNCwxNj
+I3MDYyMTg0XX0=
 -->
