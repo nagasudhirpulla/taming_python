@@ -12,6 +12,22 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post, we will learn to check if a file or folder exists
 
+### Check if a file exists using 'isfile' function
+```python
+# import the os.path module in order to use isdir function
+import os.path
+
+# specify the folder we desire to check
+fPath = r'C:\Users\Nagasudhir\Documents\Python Projects\substation_pmu_dict_synthesis\index.py'
+
+# use isdir function
+isFolderPresent = os.path.isFile(fPath)
+if isFolderPresent:
+	print('Folder is present!!!')
+else:
+	print('Folder does not exist...')
+```
+
 ### Check if a folder exists using 'isdir' function
 ```python
 # import the os.path module in order to use isdir function
@@ -42,5 +58,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzY0NjAxMCw0MzAwMDI5NjZdfQ==
+eyJoaXN0b3J5IjpbMTY2NTY2OTM2NiwtMzUzNjQ2MDEwLDQzMD
+AwMjk2Nl19
 -->
