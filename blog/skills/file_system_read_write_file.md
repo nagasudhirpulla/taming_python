@@ -16,7 +16,7 @@ In this post, we will learn to read and write files in python
 ### Open a file using 'open' function
 Opening a file is required for reading or writing to a file
 ```python
-try:
+with open("test.txt", encoding = 'utf-8') as f:
    f = open("test.txt")
    # perform operations on the file
 finally:
@@ -101,6 +101,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbLTEyNDkxNjM4NDAsODkzMzczODAxLDE2MjM2
-MjAwODAsLTE2MzA2NjYxNzVdfQ==
+JoaXN0b3J5IjpbMTExMzA5MTY2Miw4OTMzNzM4MDEsMTYyMzYy
+MDA4MCwtMTYzMDY2NjE3NV19
 -->
