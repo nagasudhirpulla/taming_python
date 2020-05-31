@@ -54,7 +54,7 @@ finally:
 The `\n` character will create a new line in the file as shown above.
 It is also worth noting that `mode='w'` or `mode = 'w+'` will create the file if it does not exist.
 
-### read file content
+### read the whole file content using 'read' function
 ```python
 try:
    # open the file for reading
@@ -62,6 +62,24 @@ try:
    
    # read all the file content   
    fStr = f.read()
+   # please note that once again calling f.read() will return empty string
+   
+   print(fStr)
+   # this will print the whole file contents
+finally:
+   # close the file using 'close' function
+   f.close()
+```
+
+### read each line file content using 'read' function
+```python
+try:
+   # open the file for reading
+   f = open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r')
+   
+   # read all the file content   
+   fStr = f.read()
+   # please note that once again calling f.read() will return empty string
    
    print(fStr)
    # this will print the whole file contents
@@ -87,6 +105,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbNDkzMjc2ODYwLDg5MzM3MzgwMSwxNjIzNjIw
-MDgwLC0xNjMwNjY2MTc1XX0=
+JoaXN0b3J5IjpbLTM0ODExMjE3Miw4OTMzNzM4MDEsMTYyMzYy
+MDA4MCwtMTYzMDY2NjE3NV19
 -->
