@@ -30,7 +30,7 @@ if fileExists:
 else:  
     print("File does not exist")
 ```
-We checked if the file exists at first because, `remove` function will raise an error if the desired file does not exist
+We checked if the file exists at first because, `remove` function will raise an `OSError` if the desired file does not exist.
 
 ### Create a folder with intermediate folders using 'makedirs' function
 If we want to create intermediate folders also while creating a folder, use `makedirs` function
@@ -58,5 +58,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjA4MDg0Nl19
+eyJoaXN0b3J5IjpbOTQ3NDQ3NjU2XX0=
 -->
