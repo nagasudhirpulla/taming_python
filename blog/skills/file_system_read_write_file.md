@@ -23,7 +23,7 @@ In the above example we use the filename input of `open` function as 'test.txt',
 
 We can also give **absolute file path**s like the example below
 ```python
-open(r"C:\Users\Nagasudhir\Documents\test.txt")
+with open(r"C:\Users\Nagasudhir\Documents\test.txt") as t:
 ```
 ### file mode in 'open' function
 By default, the `open` function opens the file only for reading, i.e., read mode.
@@ -69,7 +69,7 @@ with open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r') as f:
 ### load all the lines of a file in an array using 'readlines' function
 ```python
 with open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r') as f:
-   # read all the lines of the file to 
+   # read all the lines of the file to an array
    textLines = f.readlines()
    
    print(textLines)
@@ -94,6 +94,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbLTEyNDAwMzEyMjQsODkzMzczODAxLDE2MjM2
-MjAwODAsLTE2MzA2NjYxNzVdfQ==
+JoaXN0b3J5IjpbLTQxMTYyMTUyLDg5MzM3MzgwMSwxNjIzNjIw
+MDgwLC0xNjMwNjY2MTc1XX0=
 -->
