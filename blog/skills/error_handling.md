@@ -34,6 +34,15 @@ except Exception as e:
 ```
 In the above example, we catch the error in a variable `e` and print it
 
+### Catch error based on the error type
+```python
+try:
+  print(x)
+except NameError:
+  print("Name error occured, which means that, a variable name is not defined")
+except:
+  print("Something else went wrong")
+```
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -46,5 +55,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU5OTQ3MDAwLDEyMjkzMDMzNDJdfQ==
+eyJoaXN0b3J5IjpbMTc0NTAxMTE2MSwxMjI5MzAzMzQyXX0=
 -->
