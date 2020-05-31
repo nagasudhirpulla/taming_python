@@ -10,7 +10,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post, we will learn to create a folder using `mkdir` and `makedirs` function
+In this post, we will learn to read and write files in python
 
 ### Create a folder using 'mkdir' function
 ```python
@@ -51,5 +51,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0ODQ2Nzc3XX0=
+eyJoaXN0b3J5IjpbMjg0OTg2MzI2XX0=
 -->
