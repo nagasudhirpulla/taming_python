@@ -28,20 +28,10 @@ except Exception as e:
 ```
 We used try catch to catch exception which can occur if the folder we are trying to create already exists
 
-### Check if a folder exists using 'isdir' function
+### Create a folder with intermediate folders using 'mkdirs' function
+If we want to create intermediate folders also while creating a folder, use `mkdirs` function
 ```python
-# import the os.path module in order to use isdir function
-import os.path
 
-# specify the folder we desire to check
-fPath = r'C:\Users\Nagasudhir\Documents\Python Projects'
-
-# use isdir function
-isFolderPresent = os.path.isdir(fPath)
-if isFolderPresent:
-	print('Folder is present!!!')
-else:
-	print('Folder does not exist...')
 ```
 
 ### Online Interpreter
@@ -56,6 +46,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njk2OTI2NzMsMTE1Njc5ODYxNCwxNj
+eyJoaXN0b3J5IjpbLTIwNjA0NTkwMTQsMTE1Njc5ODYxNCwxNj
 I3MDYyMTg0XX0=
 -->
