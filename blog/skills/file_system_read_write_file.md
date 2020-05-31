@@ -21,6 +21,7 @@ try:
 finally:
    f.close()
 ```
+In the above example we use the fike
 
 
 
@@ -41,6 +42,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbLTE3ODk2Mjc2NzAsLTE2MzA2NjYxNzVdfQ==
+JoaXN0b3J5IjpbLTEwOTM1OTc1OTYsLTE2MzA2NjYxNzVdfQ==
 
 -->
