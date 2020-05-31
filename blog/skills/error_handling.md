@@ -69,10 +69,12 @@ finally:
 # This code runs regardless of errors
 ```
 
-### Create custom exception using 'throw'
-```
+### Create custom exception using 'raise'
+```python
 x = -2
-
+if x < 0:
+  raise Exception("Numbers less than zero are not allowed")
+# the above code creae
 ```
 
 ### Online Interpreter
@@ -88,5 +90,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTYwODk4MywxMjI5MzAzMzQyXX0=
+eyJoaXN0b3J5IjpbMTExNDI3MzM3NSwxMjI5MzAzMzQyXX0=
 -->
