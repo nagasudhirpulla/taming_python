@@ -12,7 +12,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post, we will learn to handle errors in our python programs
 
-### Create a folder using 'mkdir' function
+### Handling any error using 'except'
 ```python
 # import the os module in order to use mkdir function
 import os
@@ -46,7 +46,7 @@ by using `exist_ok=True`, exception will not be thrown if folder already exists
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
-* https://www.geeksforgeeks.org/create-a-directory-in-python/#makedirs
+* https://stackoverflow.com/questions/4990718/about-catching-any-exception
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -54,5 +54,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTU4MTM5OV19
+eyJoaXN0b3J5IjpbMTIyOTMwMzM0Ml19
 -->
