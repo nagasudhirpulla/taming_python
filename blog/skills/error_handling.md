@@ -39,11 +39,13 @@ In the above example, we catch the error in a variable `e` and print it
 try:
   print(x)
 except NameError:
-  # handle if the err
+  # handle if the error is of type `NameError`
   print("Name error occured, which means that, a variable name is not defined")
 except OSError as err:
+    # handle if the error is of type `OSError`
     print("OS error: {0}".format(err))
 except:
+  # handle any other error types
   print("Something else went wrong")
 
 # the above program prints "Name error occured, which means that, a variable name is not defined"
@@ -62,5 +64,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk4MTcyMDMsMTIyOTMwMzM0Ml19
+eyJoaXN0b3J5IjpbLTE3NzAxNTkzMDQsMTIyOTMwMzM0Ml19
 -->
