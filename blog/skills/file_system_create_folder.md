@@ -1,4 +1,4 @@
-## Skill - Creating a folder
+## Skill - Creating a folder in python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -56,5 +56,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTc3MTkzN119
+eyJoaXN0b3J5IjpbMTYyNzA2MjE4NF19
 -->
