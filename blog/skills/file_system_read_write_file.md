@@ -16,12 +16,8 @@ In this post, we will learn to read and write files in python
 ### Open a file using 'open' function
 Opening a file is required for reading or writing to a file
 ```python
-with open("test.txt", encoding = 'utf-8') as f:
-   f = open("test.txt")
+with open("test.txt",'w',encoding = 'utf-8') as f:
    # perform operations on the file
-finally:
-   # close the file using 'close' function
-   f.close()
 ```
 In the above example we use the filename input of `open` function as 'test.txt', means that the file should be in the same folder of python script file
 
@@ -101,6 +97,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbMTExMzA5MTY2Miw4OTMzNzM4MDEsMTYyMzYy
-MDA4MCwtMTYzMDY2NjE3NV19
+JoaXN0b3J5IjpbMTk1NDI2MTU3LDg5MzM3MzgwMSwxNjIzNjIw
+MDgwLC0xNjMwNjY2MTc1XX0=
 -->
