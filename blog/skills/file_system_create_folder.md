@@ -40,13 +40,13 @@ fPath = r'C:\Users\Nagasudhir\Documents\Python Projects'
 # with intermediate folders if required
 os.makedirs(fPath, exist_ok=True)
 ```
-We can see that we used `exist_ok=True`, by using this exception will not be thrown if folder already exists
+by using `exist_ok=True`, exception will not be thrown if folder already exists
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
-* https://www.geeksforgeeks.org/python-check-if-a-file-or-directory-exists-2/
+* https://www.geeksforgeeks.org/create-a-directory-in-python/#makedirs
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -54,6 +54,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM2ODgyODAsLTIwNjA0NTkwMTQsMT
+eyJoaXN0b3J5IjpbLTIwMTkyMjEzMDUsLTIwNjA0NTkwMTQsMT
 E1Njc5ODYxNCwxNjI3MDYyMTg0XX0=
 -->
