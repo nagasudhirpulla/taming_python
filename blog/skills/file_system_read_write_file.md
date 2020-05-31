@@ -54,6 +54,19 @@ finally:
 The `\n` character will create a new line in the file as shown above.
 It is also worth noting that `mode='w'` or `mode = 'w+'` will create the file if it does not exist.
 
+### read file content
+```python
+try:
+   # open the file for reading
+   f = open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r')
+   
+   # read all the file content   
+   fStr = f.r
+finally:
+   # close the file using 'close' function
+   f.close()
+```
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -71,6 +84,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbODkzMzczODAxLDE2MjM2MjAwODAsLTE2MzA2
-NjYxNzVdfQ==
+JoaXN0b3J5IjpbLTg1Mzc2NjkzOCw4OTMzNzM4MDEsMTYyMzYy
+MDA4MCwtMTYzMDY2NjE3NV19
 -->
