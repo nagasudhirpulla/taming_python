@@ -12,7 +12,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post, we will learn to check if a file or folder exists
 
+### Check if a folder exists using 'isdir' function
 ```python
+# import 
+import os.path
 
 ```
 
@@ -30,5 +33,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwMDAyOTY2XX0=
+eyJoaXN0b3J5IjpbMjEzMDAwODkzOCw0MzAwMDI5NjZdfQ==
 -->
