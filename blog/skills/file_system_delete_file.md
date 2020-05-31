@@ -32,8 +32,23 @@ else:
 ```
 We checked if the file exists at first because, `remove` function will raise an `OSError` if the desired file does not exist.
 
-### Delete a folder along sub folders and files using ''
+### Delete a folder along with sub-folders and files using 'shutil.rmtree' function
+```python
+# import the os module in order to use mkdir function
+import shutil
 
+# specify the file we desire to delete
+fPath = r'C:\Users\Nagasudhir\UnwantedFolder'
+
+# check if the file exists first
+fileExists = os.path.exists(fPath)
+
+if fileExists:
+    # use remove function to delete the file if it exists
+    os.remove(fPath)  
+else:  
+    print("File does not exist")
+```
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -48,5 +63,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDAyMTkwMCw5NDc0NDc2NTZdfQ==
+eyJoaXN0b3J5IjpbMTc5MDYzNDkxOSw5NDc0NDc2NTZdfQ==
 -->
