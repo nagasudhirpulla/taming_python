@@ -61,7 +61,10 @@ try:
    f = open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r')
    
    # read all the file content   
-   fStr = f.r
+   fStr = f.read()
+   
+   print(fStr)
+   # this will print the whole file contents
 finally:
    # close the file using 'close' function
    f.close()
@@ -84,6 +87,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbLTg1Mzc2NjkzOCw4OTMzNzM4MDEsMTYyMzYy
-MDA4MCwtMTYzMDY2NjE3NV19
+JoaXN0b3J5IjpbNDkzMjc2ODYwLDg5MzM3MzgwMSwxNjIzNjIw
+MDgwLC0xNjMwNjY2MTc1XX0=
 -->
