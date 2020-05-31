@@ -32,25 +32,15 @@ else:
 ```
 We checked if the file exists at first because, `remove` function will raise an `OSError` if the desired file does not exist.
 
-### delete a folder alo
-If we want to create intermediate folders also while creating a folder, use `makedirs` function
-```python
-import os
+### Delete a folder along sub folders and files using ''
 
-# specify the file we desire to check
-fPath = r'C:\Users\Nagasudhir\Documents\Python Projects'
-
-# use makedirs function to create the folder along
-# with intermediate folders if required
-os.makedirs(fPath, exist_ok=True)
-```
-by using `exist_ok=True`, exception will not be thrown if folder already exists
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
 * https://thispointer.com/python-how-to-remove-a-file-if-exists-and-handle-errors-os-remove-os-ulink/
+* https://stackoverflow.com/questions/6996603/how-to-delete-a-file-or-folder
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -58,5 +48,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTcxMjMyMzcsOTQ3NDQ3NjU2XX0=
+eyJoaXN0b3J5IjpbMTU5MDAyMTkwMCw5NDc0NDc2NTZdfQ==
 -->
