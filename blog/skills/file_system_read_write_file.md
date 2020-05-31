@@ -21,9 +21,12 @@ try:
 finally:
    f.close()
 ```
-In the above example we use the filename input of `open` function as 'test.txt', this means that the 'test.txt' file should be in the same folder of python script file
+In the above example we use the filename input of `open` function as 'test.txt', means that the file should be in the same folder of python script file
 
-We can also give ab
+We can also give absolute file paths like the example below
+```python
+f = open(r"C:\Users\Nagasudhir\Documents\test.txt")
+```
 
 
 ### Online Interpreter
@@ -43,5 +46,5 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbMjEyMTM4MTA1MiwtMTYzMDY2NjE3NV19
+JoaXN0b3J5IjpbMTc3ODkzMTgxOCwtMTYzMDY2NjE3NV19
 -->
