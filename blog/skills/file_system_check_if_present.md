@@ -20,8 +20,8 @@ import os.path
 # specify the folder we desire to check
 fPath = r'C:\Users\Nagasudhir\Documents\Python Projects\substation_pmu_dict_synthesis\index.py'
 
-# use isdir function
-isFilePresent = os.path.isFile(fPath)
+# use isfile function
+isFilePresent = os.path.isfile(fPath)
 if isFilePresent:
 	print('File is present!!!')
 else:
@@ -58,6 +58,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDEyOTcxOCwtMzUzNjQ2MDEwLDQzMD
+eyJoaXN0b3J5IjpbMTQ5MDMxNDk2NywtMzUzNjQ2MDEwLDQzMD
 AwMjk2Nl19
 -->
