@@ -35,7 +35,8 @@ The mode of file opening can be specified using the `mode` input of the function
 -   '**r**' , for reading.
 -   '**w**' , for writing (clears any previous file data).
 -   '**a**' , for appending (adding new data at the end of file).
--   '**r+**' , for both reading and writing
+-   '**r+**' , for both reading and writing while preserving the old data
+-   '**w+**' , for both reading and writing while erasing the old data
 
 ### writing to file using 'w' mode
 ```python
@@ -69,6 +70,5 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbLTE1ODUzMjA2NTQsLTE2MzA2NjYxNzVdfQ==
-
+JoaXN0b3J5IjpbMTYyMzYyMDA4MCwtMTYzMDY2NjE3NV19
 -->
