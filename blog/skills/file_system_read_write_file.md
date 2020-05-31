@@ -69,8 +69,12 @@ with open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r') as f:
 ### load all the lines of a file in an array using 'readlines' function
 ```python
 with open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r') as f:
+   # read all the lines of the file to 
    textLines = f.readlines()
-   # this the line, end='' will avoid extra line in console
+   
+   print(textLines)
+   # this will print 
+   # ['The first line\n', 'This is the second line\n', 'This the third line']
 ```
 
 ### Online Interpreter
@@ -90,6 +94,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbMjAxNjIxOTk1OSw4OTMzNzM4MDEsMTYyMzYy
-MDA4MCwtMTYzMDY2NjE3NV19
+JoaXN0b3J5IjpbLTEyNDAwMzEyMjQsODkzMzczODAxLDE2MjM2
+MjAwODAsLTE2MzA2NjYxNzVdfQ==
 -->
