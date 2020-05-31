@@ -19,7 +19,7 @@ try:
    f = open("test.txt")
    # perform operations on the file
 finally:
-   # close the file
+   # close the file using 'close' function
    f.close()
 ```
 In the above example we use the filename input of `open` function as 'test.txt', means that the file should be in the same folder of python script file
@@ -47,5 +47,5 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbMjU2NDE2MDkyLC0xNjMwNjY2MTc1XX0=
+JoaXN0b3J5IjpbMTQxNjc3ODE1NCwtMTYzMDY2NjE3NV19
 -->
