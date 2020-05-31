@@ -26,7 +26,7 @@ try:
 except Exception as e:  
     print(e)
 ```
-We used try catch to catch exception which can occur if the folder we are trying to create already exists
+We used try except to catch exception which can occur if the folder we are trying to create already exists
 
 ### Create a folder with intermediate folders using 'makedirs' function
 If we want to create intermediate folders also while creating a folder, use `makedirs` function
@@ -54,6 +54,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTkyMjEzMDUsLTIwNjA0NTkwMTQsMT
-E1Njc5ODYxNCwxNjI3MDYyMTg0XX0=
+eyJoaXN0b3J5IjpbMTQwMzY4NjQ2OSwtMjA2MDQ1OTAxNCwxMT
+U2Nzk4NjE0LDE2MjcwNjIxODRdfQ==
 -->
