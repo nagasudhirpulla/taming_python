@@ -15,7 +15,7 @@ In this post, we will learn to delete a file or folder in python using `remove` 
 
 ### Delete a file using 'remove' function
 ```python
-# import the os module in order to use mkdir function
+# import the os module
 import os
 
 # specify the file we desire to delete
@@ -34,7 +34,7 @@ We checked if the file exists at first because, `remove` function will raise an 
 
 ### Delete a folder along with sub-folders and files using 'shutil.rmtree' function
 ```python
-# import the os module in order to use mkdir function
+# import the os module and shutil module
 import shutil
 import os
 
@@ -64,5 +64,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTExODU2Miw5NDc0NDc2NTZdfQ==
+eyJoaXN0b3J5IjpbMTExMjE2NzcwNCw5NDc0NDc2NTZdfQ==
 -->
