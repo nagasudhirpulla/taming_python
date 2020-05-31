@@ -14,7 +14,7 @@ In this post, we will learn to check if a file or folder exists
 
 ### Check if a file exists using 'isfile' function
 ```python
-# import the os.path module in order to use isdir function
+# import the os.path module in order to use isfile function
 import os.path
 
 # specify the file we desire to check
@@ -60,6 +60,6 @@ IgZm9sZGVyIGlzIHByZXNlbnRcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMzEnXG50YWdzOiAnbG
 Vhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOlstNTYwNTY3MTcyLC0xNDkxMTU4ODY5LC0zNTM2
-NDYwMTAsNDMwMDAyOTY2XX0=
+hpc3RvcnkiOlsxNTQzODY1Mjc5LC01NjA1NjcxNzIsLTE0OTEx
+NTg4NjksLTM1MzY0NjAxMCw0MzAwMDI5NjZdfQ==
 -->
