@@ -18,10 +18,10 @@ In this post, we will learn to check if a file or folder exists
 import os.path
 
 # specify the folder we desire to check
-fPath = 'C:\Users\Nagasudhir\Documents\Python Projects'
+fPath = r'C:\Users\Nagasudhir\Documents\Python Projects'
 
 # use isdir function
-isFolderPresent = os.path.isdir(path)
+isFolderPresent = os.path.isdir(fPath)
 if isFolderPresent:
 	print('Folder is present!!!')
 else:
@@ -42,5 +42,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1NTI0NzM0LDQzMDAwMjk2Nl19
+eyJoaXN0b3J5IjpbLTM1MzY0NjAxMCw0MzAwMDI5NjZdfQ==
 -->
