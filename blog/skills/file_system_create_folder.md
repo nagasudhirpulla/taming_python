@@ -14,8 +14,8 @@ In this post, we will learn to create a folder using `mkdir` and `mkdirs` functi
 
 ### Create a folder using 'mkdir' function
 ```python
-# import the os.path module in order to use isdir function
-import os.path
+# import the os module in order to use mkdir function
+import os
 
 # specify the file we desire to check
 fPath = r'C:\Users\Nagasudhir\Documents\Python Projects'
@@ -52,5 +52,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzEzMTU0MTQsMTYyNzA2MjE4NF19
+eyJoaXN0b3J5IjpbMTE1Njc5ODYxNCwxNjI3MDYyMTg0XX0=
 -->
