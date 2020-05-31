@@ -49,7 +49,7 @@ finally:
    # close the file using 'close' function
    f.close()
 ```
-T
+The `\n` character will create a new line in the file as shown above.
 It is also worth noting that `mode='w'` or `mode = 'w+'` will create the file if it does not exist.
 
 ### Online Interpreter
@@ -69,6 +69,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbLTIwNTE4NzI0NzEsLTE2MzA2NjYxNzVdfQ==
+JoaXN0b3J5IjpbLTE1ODUzMjA2NTQsLTE2MzA2NjYxNzVdfQ==
 
 -->
