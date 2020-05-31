@@ -21,13 +21,14 @@ import os
 # specify the file we desire to delete
 fPath = r'C:\Users\Nagasudhir\Documents\test.txt'
 
+# check if the file exists first
 fileExists = os.path.exists(fPath)
 
-try:  
-    # use mkdir function to create the folder
-    os.mkdir(fPath)  
-except Exception as e:  
-    print(e)
+if fileExists:
+    # use remove function to delete the file if it exists
+    os.remove(fPath)  
+else:  
+    print("File does not exist")
 ```
 We used try except to catch exception which can occur if the folder we are trying to create already exists
 
@@ -57,5 +58,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTM3MjM1N119
+eyJoaXN0b3J5IjpbMjY0MTQzOTk3XX0=
 -->
