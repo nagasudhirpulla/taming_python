@@ -30,11 +30,11 @@ f = open(r"C:\Users\Nagasudhir\Documents\test.txt")
 ```
 ### file mode in 'open' function
 By default, the `open` function opens the file only for reading, i.e., read mode.
-The mode of file opening can be specified using the `mode` input of the function. The main fil mode 
+The mode of file opening can be specified using the `mode` input of the function. The main file open mode options are as shown below
 
 -   '**r**' , for reading.
--   '**w**' , for writing.
--   '**a**' , for appending.
+-   '**w**' , for writing (clears any previous file data).
+-   '**a**' , for appending (adding new data at the end of file).
 -   '**r+**' , for both reading and writing
 
 The following are the options for `mode` input of the `open` function
@@ -65,5 +65,5 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbLTg0MDg4NTU5NiwtMTYzMDY2NjE3NV19
+JoaXN0b3J5IjpbMTExODQwNDY1MSwtMTYzMDY2NjE3NV19
 -->
