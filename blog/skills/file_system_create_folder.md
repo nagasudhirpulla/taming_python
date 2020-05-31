@@ -26,6 +26,7 @@ try:
 except Exception as e:  
     print(e)
 ```
+We used try catch to catch exception which can occur if the folder we are trying to create already exists
 
 ### Check if a folder exists using 'isdir' function
 ```python
@@ -55,6 +56,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY4MzY3MzgsMTE1Njc5ODYxNCwxNj
+eyJoaXN0b3J5IjpbLTE2Njk2OTI2NzMsMTE1Njc5ODYxNCwxNj
 I3MDYyMTg0XX0=
 -->
