@@ -35,6 +35,7 @@ Here are the goals and skills in this tutorial series
 * [Inducing time delays in python using 'sleep' function](https://nagasudhir.blogspot.com/2020/05/inducing-time-delays-in-python-using.html)
 #### File Handling Skills
 * [Check if file or folder is present](https://nagasudhir.blogspot.com/2020/05/check-if-file-or-folder-is-present.html)
+* [Creating a folder in python](https://nagasudhir.blogspot.com/2020/05/creating-folder-in-python.html)
 #### Pandas DataFrame Skills
 * [pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
 * [Working with excel files and pandas DataFrames](https://nagasudhir.blogspot.com/2020/05/working-with-excel-and-pandas-dataframes.html)
@@ -62,11 +63,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE5MTI0NDk1NTYsMjg0Nz
-IxNTczLC0xOTYzOTE1NjcwLC0xMjk5ODM1MTg1LDEzNjUyMTM5
-MjUsLTEyNTQxNDI1NjgsLTEzMjYzNTk0NDUsLTczMzA0MjkzMS
-wtMjA3Njc5Mzg3NywxMTMxODgzMDcyLDQ0MDI3ODE3MSw3MDg2
-MTEyNiwzMjQ3OTc3NDYsMTQ2MDEwODc1NSwyNDM0NTc2NTYsLT
-E0MDQzOTczNTMsLTYxNzQ5MTkwMiwxMjQzNTA2NzA4LC0xNDE5
-MzExNjcyLDYyODQxMjg3MF19
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTIxMjMzOTg3NTIsLTE5MT
+I0NDk1NTYsMjg0NzIxNTczLC0xOTYzOTE1NjcwLC0xMjk5ODM1
+MTg1LDEzNjUyMTM5MjUsLTEyNTQxNDI1NjgsLTEzMjYzNTk0ND
+UsLTczMzA0MjkzMSwtMjA3Njc5Mzg3NywxMTMxODgzMDcyLDQ0
+MDI3ODE3MSw3MDg2MTEyNiwzMjQ3OTc3NDYsMTQ2MDEwODc1NS
+wyNDM0NTc2NTYsLTE0MDQzOTczNTMsLTYxNzQ5MTkwMiwxMjQz
+NTA2NzA4LC0xNDE5MzExNjcyXX0=
 -->
