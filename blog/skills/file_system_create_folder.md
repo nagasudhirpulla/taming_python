@@ -12,7 +12,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post, we will learn to create a folder using `mkdir` and `mkdirs` function
 
-### Check if a file exists using 'isfile' function
+### Create a folder using 'mkdir' function
 ```python
 # import the os.path module in order to use isdir function
 import os.path
@@ -56,5 +56,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxOTI4MjkwLDE2MjcwNjIxODRdfQ==
+eyJoaXN0b3J5IjpbNjg4OTAwOTE4LDE2MjcwNjIxODRdfQ==
 -->
