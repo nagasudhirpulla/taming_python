@@ -51,7 +51,7 @@ except:
 # the above program prints "Name error occured, which means that, a variable name is not defined"
 ```
 In the above example, first we check if the error type is `NameError` and it.
-Otherwise we check if the error is of type `OsError` and handle it.
+Otherwise we check if the error is of type `OSError` and handle it.
 After that  we catch any other types of errors.
 
 ### Using 'finally' keyword for must run code
@@ -69,11 +69,18 @@ finally:
 # This code runs regardless of errors
 ```
 
+### Create custom exception using 'throw'
+```
+x = -2
+
+```
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
 * https://stackoverflow.com/questions/4990718/about-catching-any-exception
+* https://www.w3schools.com/python/python_try_except.asp
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -81,5 +88,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5NDE3MzAwLDEyMjkzMDMzNDJdfQ==
+eyJoaXN0b3J5IjpbLTE1OTYwODk4MywxMjI5MzAzMzQyXX0=
 -->
