@@ -40,12 +40,14 @@ try:
   print(x)
 except NameError:
   print("Name error occured, which means that, a variable name is not defined")
+except OSError as err:
+    print("OS error: {0}".format(err))
 except:
   print("Something else went wrong")
 
 # the above program prints "Name error occured, which means that, a variable name is not defined"
 ```
-In the above example, first we check if the error type is `NameError`
+In the above example, first we check if the error type is `NameError` and try to handle it. Then we check if the error is of type `OsError`
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -59,5 +61,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ2NTIyMjYsMTIyOTMwMzM0Ml19
+eyJoaXN0b3J5IjpbLTMwMzE1NDAxLDEyMjkzMDMzNDJdfQ==
 -->
