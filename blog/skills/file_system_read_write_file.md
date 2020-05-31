@@ -71,18 +71,14 @@ finally:
    f.close()
 ```
 
-### read each line file content using 'read' function
+### read each line file content using a for loop
 ```python
 try:
    # open the file for reading
    f = open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r')
    
-   # read all the file content   
-   fStr = f.read()
-   # please note that once again calling f.read() will return empty string
-   
-   print(fStr)
-   # this will print the whole file contents
+   for ln in f:
+      
 finally:
    # close the file using 'close' function
    f.close()
@@ -105,6 +101,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbLTM0ODExMjE3Miw4OTMzNzM4MDEsMTYyMzYy
-MDA4MCwtMTYzMDY2NjE3NV19
+JoaXN0b3J5IjpbLTEyNDkxNjM4NDAsODkzMzczODAxLDE2MjM2
+MjAwODAsLTE2MzA2NjYxNzVdfQ==
 -->
