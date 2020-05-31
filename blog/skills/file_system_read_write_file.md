@@ -23,7 +23,7 @@ In the above example we use the filename input of `open` function as 'test.txt',
 
 We can also give **absolute file path**s like the example below
 ```python
-f = open(r"C:\Users\Nagasudhir\Documents\test.txt")
+open(r"C:\Users\Nagasudhir\Documents\test.txt")
 ```
 ### file mode in 'open' function
 By default, the `open` function opens the file only for reading, i.e., read mode.
@@ -37,41 +37,32 @@ The mode of file opening can be specified using the `mode` input of the function
 
 ### writing to file using 'w' mode
 ```python
-try:
-   # open the file in write mode using mode='w'
-   f = open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='w')
-   
+# open the file in write mode using mode='w'
+with open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='w') as f:   
    f.write("The first line\n")
    f.write("This is the second line\nThis the third line")
-finally:
-   # close the file using 'close' function
-   f.close()
 ```
 The `\n` character will create a new line in the file as shown above.
 It is also worth noting that `mode='w'` or `mode = 'w+'` will create the file if it does not exist.
 
 ### read the whole file content using 'read' function
 ```python
-try:
-   # open the file for reading
-   f = open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r')
-   
+# open the file for reading
+with open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r') as f:
    # read all the file content   
    fStr = f.read()
    # please note that once again calling f.read() will return empty string
    
    print(fStr)
    # this will print the whole file contents
-finally:
-   # close the file using 'close' function
-   f.close()
 ```
 
 ### read each line file content using a for loop
 ```python
-try:
-   # open the file for reading
-   f = open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r')
+# open the file for reading
+with f = open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r') as f:
+   
+   
    
    for ln in f:
       
@@ -97,6 +88,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbMTk1NDI2MTU3LDg5MzM3MzgwMSwxNjIzNjIw
-MDgwLC0xNjMwNjY2MTc1XX0=
+JoaXN0b3J5IjpbMTg5ODU3MzU4MSw4OTMzNzM4MDEsMTYyMzYy
+MDA4MCwtMTYzMDY2NjE3NV19
 -->
