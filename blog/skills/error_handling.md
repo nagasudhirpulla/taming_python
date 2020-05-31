@@ -58,9 +58,10 @@ After that  we catch any other types of errors.
 ```python
 try:
   print(x)
-except:
-  # handle any other error types
-  print("Something else went wrong")
+except Exception as e:
+  print("Error info: {0}".format(e))
+finally:
+  print("This code runs regardless of errors")
 ```
 
 ### Online Interpreter
@@ -75,5 +76,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzYwMjIyMywxMjI5MzAzMzQyXX0=
+eyJoaXN0b3J5IjpbLTg5NDYxNTQyNiwxMjI5MzAzMzQyXX0=
 -->
