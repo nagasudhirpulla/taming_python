@@ -17,7 +17,7 @@ In this post, we will learn to check if a file or folder exists
 # import the os.path module in order to use isdir function
 import os.path
 
-# specify the folder we desire to check
+# specify the file we desire to check
 fPath = r'C:\Users\Nagasudhir\Documents\Python Projects\substation_pmu_dict_synthesis\index.py'
 
 # use isfile function
@@ -58,6 +58,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDMxNDk2NywtMzUzNjQ2MDEwLDQzMD
+eyJoaXN0b3J5IjpbLTQyNTEzNjM0NywtMzUzNjQ2MDEwLDQzMD
 AwMjk2Nl19
 -->
