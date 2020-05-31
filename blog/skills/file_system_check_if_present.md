@@ -20,8 +20,12 @@ import os.path
 # specify the folder we desire to check
 fPath = 'C:\Users\Nagasudhir\Documents\Python Projects'
 
-# use isdir 
+# use isdir function
 isFolderPresent = os.path.isdir(path)
+if isFolderPresent:
+	print('Folder is present!!!')
+else:
+	print('Folder does not exist...')
 ```
 
 ### Online Interpreter
@@ -38,5 +42,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODE2NDg2Niw0MzAwMDI5NjZdfQ==
+eyJoaXN0b3J5IjpbODI1NTI0NzM0LDQzMDAwMjk2Nl19
 -->
