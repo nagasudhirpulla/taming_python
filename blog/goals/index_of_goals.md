@@ -37,6 +37,7 @@ Here are the goals and skills in this tutorial series
 #### File Handling Skills
 * [Check if file or folder is present](https://nagasudhir.blogspot.com/2020/05/check-if-file-or-folder-is-present.html)
 * [Creating a folder in python](https://nagasudhir.blogspot.com/2020/05/creating-folder-in-python.html)
+* [Reading and writing files in python](https://nagasudhir.blogspot.com/2020/05/reading-and-writing-files-in-python.html)
 #### Pandas DataFrame Skills
 * [pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
 * [Working with excel files and pandas DataFrames](https://nagasudhir.blogspot.com/2020/05/working-with-excel-and-pandas-dataframes.html)
@@ -64,11 +65,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEzMTk3MDAwODcsLTIxMj
-MzOTg3NTIsLTE5MTI0NDk1NTYsMjg0NzIxNTczLC0xOTYzOTE1
-NjcwLC0xMjk5ODM1MTg1LDEzNjUyMTM5MjUsLTEyNTQxNDI1Nj
-gsLTEzMjYzNTk0NDUsLTczMzA0MjkzMSwtMjA3Njc5Mzg3Nywx
-MTMxODgzMDcyLDQ0MDI3ODE3MSw3MDg2MTEyNiwzMjQ3OTc3ND
-YsMTQ2MDEwODc1NSwyNDM0NTc2NTYsLTE0MDQzOTczNTMsLTYx
-NzQ5MTkwMiwxMjQzNTA2NzA4XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTM2MTMzMTUyOCwtMTMxOT
+cwMDA4NywtMjEyMzM5ODc1MiwtMTkxMjQ0OTU1NiwyODQ3MjE1
+NzMsLTE5NjM5MTU2NzAsLTEyOTk4MzUxODUsMTM2NTIxMzkyNS
+wtMTI1NDE0MjU2OCwtMTMyNjM1OTQ0NSwtNzMzMDQyOTMxLC0y
+MDc2NzkzODc3LDExMzE4ODMwNzIsNDQwMjc4MTcxLDcwODYxMT
+I2LDMyNDc5Nzc0NiwxNDYwMTA4NzU1LDI0MzQ1NzY1NiwtMTQw
+NDM5NzM1MywtNjE3NDkxOTAyXX0=
 -->
