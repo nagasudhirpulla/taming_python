@@ -32,7 +32,7 @@ except Exception as e:
     # this prints
     # invalid literal for int() with base 10: 'a2'
 ```
-by using `exist_ok=True`, exception will not be thrown if folder already exists
+In the above example, we catch the error in a variable `e` and print it
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -46,5 +46,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDA3OTY0NDMsMTIyOTMwMzM0Ml19
+eyJoaXN0b3J5IjpbODU5OTQ3MDAwLDEyMjkzMDMzNDJdfQ==
 -->
