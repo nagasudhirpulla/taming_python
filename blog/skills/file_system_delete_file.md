@@ -42,13 +42,13 @@ import os
 fPath = r'C:\Users\Nagasudhir\UnwantedFolder'
 
 # check if folder is present using isdir function
-isFolderPresent = os.path.isdir(fPath)
+folderExists = os.path.isdir(fPath)
 
-if fileExists:
+if folderExists:
     # use remove function to delete the file if it exists
-    os.remove(fPath)  
+    shutil.rmtree(fPath)  
 else:  
-    print("File does not exist")
+    print("Folder does not exist")
 ```
 
 ### Online Interpreter
@@ -64,5 +64,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTE4NTY3MzMsOTQ3NDQ3NjU2XX0=
+eyJoaXN0b3J5IjpbLTMwOTExODU2Miw5NDc0NDc2NTZdfQ==
 -->
