@@ -17,7 +17,7 @@ Opening a file is required for reading or writing to a file
 ```python
 try:
    f = open("test.txt")
-   # perform file operations like read write
+   # perform operations on the file
 finally:
    f.close()
 ```
@@ -31,6 +31,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 * https://www.programiz.com/python-programming/file-operation
 * https://www.geeksforgeeks.org/file-handling-python/
 * https://www.tutorialspoint.com/python/python_files_io.htm
+* Official docs on `open` function - https://docs.python.org/3/library/functions.html#open
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -40,6 +41,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbLTE0MzU5NTMzMTQsLTE2MzA2NjYxNzVdfQ==
+JoaXN0b3J5IjpbLTE3ODk2Mjc2NzAsLTE2MzA2NjYxNzVdfQ==
 
 -->
