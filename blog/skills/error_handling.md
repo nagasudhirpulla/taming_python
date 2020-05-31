@@ -14,19 +14,13 @@ In this post, we will learn to handle errors in our python programs
 
 ### Handling any error using 'except'
 ```python
-# import the os module in order to use mkdir function
-import os
-
-# specify the file we desire to check
-fPath = r'C:\Users\Nagasudhir\Documents\Python Projects'
-
 try:  
     # use mkdir function to create the folder
-    os.mkdir(fPath)  
-except Exception as e:  
-    print(e)
+    print(int('a2'))  
+except:  
+    print('An error occured..')
 ```
-We used try except to catch exception which can occur if the folder we are trying to create already exists
+We used try except to catch the error
 
 ### Create a folder with intermediate folders using 'makedirs' function
 If we want to create intermediate folders also while creating a folder, use `makedirs` function
@@ -54,5 +48,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTMwMzM0Ml19
+eyJoaXN0b3J5IjpbOTIyODUyNjEsMTIyOTMwMzM0Ml19
 -->
