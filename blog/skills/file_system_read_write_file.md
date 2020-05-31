@@ -29,7 +29,8 @@ We can also give **absolute file path**s like the example below
 f = open(r"C:\Users\Nagasudhir\Documents\test.txt")
 ```
 ### file mode in 'open' function
-By default, the `open` function opens the file only for reading, i.e., read mode. The mode of file opening can be specified using the `mode`
+By default, the `open` function opens the file only for reading, i.e., read mode. The mode of file opening can be specified using the `mode` input of the function.
+
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -48,5 +49,5 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbMTQxMzYzNTA3NiwtMTYzMDY2NjE3NV19
+JoaXN0b3J5IjpbMjA1ODI4MTMwNCwtMTYzMDY2NjE3NV19
 -->
