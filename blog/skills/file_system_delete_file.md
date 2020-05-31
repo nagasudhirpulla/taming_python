@@ -32,7 +32,7 @@ else:
 ```
 We checked if the file exists at first because, `remove` function will raise an `OSError` if the desired file does not exist.
 
-### Create a folder with intermediate folders using 'makedirs' function
+### delete a folder alo
 If we want to create intermediate folders also while creating a folder, use `makedirs` function
 ```python
 import os
@@ -58,5 +58,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3NDQ3NjU2XX0=
+eyJoaXN0b3J5IjpbLTEyNTcxMjMyMzcsOTQ3NDQ3NjU2XX0=
 -->
