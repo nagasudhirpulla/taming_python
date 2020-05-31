@@ -7,6 +7,7 @@
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Handling errors in python](https://nagasudhir.blogspot.com/2020/05/hnadling-errors-in-python.html)
+* [Check if file or folder is present](https://nagasudhir.blogspot.com/2020/05/check-if-file-or-folder-is-present.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
@@ -69,5 +70,5 @@ IgZm9sZGVyIGluIHB5dGhvblxuYXV0aG9yOiBOYWdzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbNjA5MTAxMTk0LDk0NzQ0NzY1Nl19
+N0b3J5IjpbLTkxMzA4NjEyLDk0NzQ0NzY1Nl19
 -->
