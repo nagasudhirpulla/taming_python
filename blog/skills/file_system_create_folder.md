@@ -18,14 +18,10 @@ In this post, we will learn to create a folder using `mkdir` and `mkdirs` functi
 import os.path
 
 # specify the file we desire to check
-fPath = r'C:\Users\Nagasudhir\Documents\Python Projects\substation_pmu_dict_synthesis\index.py'
+fPath = r'C:\Users\Nagasudhir\Documents\Python Projects'
 
-# use isfile function
-isFilePresent = os.path.isfile(fPath)
-if isFilePresent:
-	print('File is present!!!')
-else:
-	print('File does not exist...')
+# use mkdir function to create the folder
+
 ```
 
 ### Check if a folder exists using 'isdir' function
@@ -56,5 +52,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4OTAwOTE4LDE2MjcwNjIxODRdfQ==
+eyJoaXN0b3J5IjpbLTIwNzEzMTU0MTQsMTYyNzA2MjE4NF19
 -->
