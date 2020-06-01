@@ -33,8 +33,7 @@ this will print
 'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.js']
 '''
 ```
-
-### Iterate through all files in a folder
+### Iterate through all files with a desired extension using pattern matching
 ```python
 # import the glob module
 import glob
@@ -42,17 +41,17 @@ import glob
 # specify the file we desire to delete
 fPath = r'C:\Users\Nagasudhir\Documents\Static_Web_Projects\WRLDC Apps Dashboard'
 
-# use glob to get the filenames of files in the folder
-print(glob.glob(r'{0}\*'.format(fPath)))
+# use glob to get the filenames of html files in the folder using pattern matching
+print(glob.glob(r'{0}\*.html'.format(fPath)))
 
 '''
 this will print
-['C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\assets', 
-'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\cards.css', 
-'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\cards.html', 
-'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.css', 
-'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.html', 
-'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.js']
+  
+
+import glob...
+
+['C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\cards.html', 
+'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.html']
 '''
 ```
 
@@ -69,5 +68,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3MTk2OTUzXX0=
+eyJoaXN0b3J5IjpbMjA4MDg2NTY1Nyw4NTcxOTY5NTNdfQ==
 -->
