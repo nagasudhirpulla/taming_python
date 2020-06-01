@@ -37,7 +37,7 @@ this will print
 As seen above, the full path of filenames will be returned.
 
 ### get all filenames with a desired extension using pattern matching
-here we are using pattern matching to filter only html files within a folder
+here we are using pattern matching to filter only HTML files within a folder
 ```python
 # import the glob module
 import glob
@@ -69,5 +69,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDY1OTM1MCw4NTcxOTY5NTNdfQ==
+eyJoaXN0b3J5IjpbOTQxNDM4MTAyLDg1NzE5Njk1M119
 -->
