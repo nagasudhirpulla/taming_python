@@ -138,39 +138,33 @@ To avoid this we can use raw strings as shown below
 
 ```python
 # without using raw strings
-x = 'Hi\nSudhir'
+x = 'Hi\nSudhir\n'
 print(x)
-'''
-This will print
-
-'''
+# This will print
+# Hi
+# Sudhir
 
 # using raw strings
-y = r'Hi\nSudhir'
+y = r'Hi\nSudhir\n'
 print(y)
-'''
-This will print
-Hi\nSudhir
-Notice that \n is used as it is, since we used 'r' before string declaration
-'''
+# This will print
+# Hi\nSudhir\n
+# Notice that \n is used as it is, since we used 'r' before string declaration
 
 # without using raw strings
 z = 'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard'
 print(z)
-'''
-This will print
-'C:\Users\Nagasudhir\Documents\Static_Web_Projects\WRLDC Apps Dashboard'
-Notice that we had to use \\ in order to print \
-'''
+# This will print
+# 'C:\Users\Nagasudhir\Documents\Static_Web_Projects\WRLDC Apps Dashboard'
+# Notice that we had to use \\ in order to print \
 
 # using raw strings
 k = r'C:\Users\Nagasudhir\Documents\Static_Web_Projects\WRLDC Apps Dashboard'
 print(k)
-'''
-This will print
-'C:\Users\Nagasudhir\Documents\Static_Web_Projects\WRLDC Apps Dashboard'
-Notice that we need not use \\ since we used 'r' before string declaration
-'''
+# This will print
+# 'C:\Users\Nagasudhir\Documents\Static_Web_Projects\WRLDC Apps Dashboard'
+# Notice that we need not use \\ since we used 'r' before string declaration
+
 ```
 
 ### Online Interpreter
@@ -187,8 +181,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFN0cmluZ3MgaW4gcHl0aG
 9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICds
 ZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1
 xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0
-ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbLTE3MzI4Nz
-EwMDksLTE1NDczMTgxMDgsNTUyODMwODM1LDExOTMxNjMxMjgs
-LTUxMzA5NTcyOCwxODE4MDU0MjQ1LDEyNjQ0ODA4ODIsMTQ2OT
-k4MDI0MSwtNDEyNDIwMDI2LDExODMyOTEzMjFdfQ==
+ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbMjE0NTUzMz
+cxOSwtMTczMjg3MTAwOSwtMTU0NzMxODEwOCw1NTI4MzA4MzUs
+MTE5MzE2MzEyOCwtNTEzMDk1NzI4LDE4MTgwNTQyNDUsMTI2ND
+Q4MDg4MiwxNDY5OTgwMjQxLC00MTI0MjAwMjYsMTE4MzI5MTMy
+MV19
 -->
