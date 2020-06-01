@@ -25,28 +25,35 @@ print(glob.glob(r'{0}\*'.format(fPath)))
 
 '''
 this will print
-['C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\assets', 'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\cards.css', 'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\cards.html', 'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.css', 'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.html', 'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.js']
+['C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\assets', 
+'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\cards.css', 
+'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\cards.html', 
+'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.css', 
+'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.html', 
+'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.js']
 '''
 ```
 
-
-### Delete a folder along with sub-folders and files using 'shutil.rmtree' function
+### Iterate through all files in a folder
 ```python
-# import the os module and shutil module
-import shutil
-import os
+# import the glob module
+import glob
 
-# specify the folder we desire to delete
-fPath = r'C:\Users\Nagasudhir\UnwantedFolder'
+# specify the file we desire to delete
+fPath = r'C:\Users\Nagasudhir\Documents\Static_Web_Projects\WRLDC Apps Dashboard'
 
-# check if folder is present using isdir function
-folderExists = os.path.isdir(fPath)
+# use glob to get the filenames of files in the folder
+print(glob.glob(r'{0}\*'.format(fPath)))
 
-if folderExists:
-    # use remove function to delete the file if it exists
-    shutil.rmtree(fPath)  
-else:  
-    print("Folder does not exist")
+'''
+this will print
+['C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\assets', 
+'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\cards.css', 
+'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\cards.html', 
+'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.css', 
+'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.html', 
+'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.js']
+'''
 ```
 
 ### Online Interpreter
@@ -62,5 +69,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4NTgwODUxXX0=
+eyJoaXN0b3J5IjpbODU3MTk2OTUzXX0=
 -->
