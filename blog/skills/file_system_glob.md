@@ -63,7 +63,7 @@ this will print
 import glob
 
 # specify the file we desire to delete
-fPath = r'C:\Users\Nagasudhir\Documents\CSharp_Projects\EdnaMonitoring\src\EdnaMonitoring.App'
+fPath = r'C:\Users\Nagasudhir\Documents\CSharp_Projects\EdnaMonitoring\src\EdnaMonitoring.App\Data'
 
 # use glob to get the filenames of all .cs files in the folder using pattern matching
 # notice that even sub-folders files are also included
@@ -72,8 +72,10 @@ fNames = glob.glob(r'{0}\**\*.cs'.format(fPath), recursive=True)
 print(fNames)
 '''
 this will print
-['C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\cards.html', 
-'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.html']
+['C:\\Users\\Nagasudhir\\Documents\\CSharp_Projects\\EdnaMonitoring\\src\\EdnaMonitoring.App\\Data\\AppIdentityDbContext.cs', 
+'C:\\Users\\Nagasudhir\\Documents\\CSharp_Projects\\EdnaMonitoring\\src\\EdnaMonitoring.App\\Data\\Configurations\\IctConfiguration.cs', 
+'C:\\Users\\Nagasudhir\\Documents\\CSharp_Projects\\EdnaMonitoring\\src\\EdnaMonitoring.App\\Data\\Configurations\\MonitoringEntityConfiguration.cs', 
+'C:\\Users\\Nagasudhir\\Documents\\CSharp_Projects\\EdnaMonitoring\\src\\EdnaMonitoring.App\\Data\\Configurations\\TransLineConfiguration.cs']
 '''
 ```
 
@@ -90,5 +92,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzMjM3NTgzLDg1NzE5Njk1M119
+eyJoaXN0b3J5IjpbLTQzMDY0OTc0NCw0NDMyMzc1ODMsODU3MT
+k2OTUzXX0=
 -->
