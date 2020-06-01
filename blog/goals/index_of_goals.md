@@ -18,7 +18,7 @@ Here are the goals and skills in this tutorial series
 * [Operations on variables in python](https://nagasudhir.blogspot.com/2020/04/operations-on-variables-in-python.html)
 * ['if' condition](https://nagasudhir.blogspot.com/2020/04/if-condition-in-python_14.html)
 * [strings in python](https://nagasudhir.blogspot.com/2020/04/strings-in-python.html)
-* [Raw strings in python](https://nagasudhir.blogspot.com/2020/05/raw-strings-in-python.html)
+* [raw strings in python](https://nagasudhir.blogspot.com/2020/05/raw-strings-in-python.html)
 * [lists in python](https://nagasudhir.blogspot.com/2020/04/lists-in-python.html)
 * [dictionaries in python](https://nagasudhir.blogspot.com/2020/04/dictionaries-in-python.html)
 * [Create sequences with range function in python](https://nagasudhir.blogspot.com/2020/05/create-sequences-with-range-function.html)
@@ -67,11 +67,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbNDA2NDIxMzA3LC05NTkxMD
-k5OTYsLTEzMTk3MDAwODcsLTIxMjMzOTg3NTIsLTE5MTI0NDk1
-NTYsMjg0NzIxNTczLC0xOTYzOTE1NjcwLC0xMjk5ODM1MTg1LD
-EzNjUyMTM5MjUsLTEyNTQxNDI1NjgsLTEzMjYzNTk0NDUsLTcz
-MzA0MjkzMSwtMjA3Njc5Mzg3NywxMTMxODgzMDcyLDQ0MDI3OD
-E3MSw3MDg2MTEyNiwzMjQ3OTc3NDYsMTQ2MDEwODc1NSwyNDM0
-NTc2NTYsLTE0MDQzOTczNTNdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTI3NjY0MjA3NSwtOTU5MT
+A5OTk2LC0xMzE5NzAwMDg3LC0yMTIzMzk4NzUyLC0xOTEyNDQ5
+NTU2LDI4NDcyMTU3MywtMTk2MzkxNTY3MCwtMTI5OTgzNTE4NS
+wxMzY1MjEzOTI1LC0xMjU0MTQyNTY4LC0xMzI2MzU5NDQ1LC03
+MzMwNDI5MzEsLTIwNzY3OTM4NzcsMTEzMTg4MzA3Miw0NDAyNz
+gxNzEsNzA4NjExMjYsMzI0Nzk3NzQ2LDE0NjAxMDg3NTUsMjQz
+NDU3NjU2LC0xNDA0Mzk3MzUzXX0=
 -->
