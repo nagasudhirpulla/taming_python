@@ -1,5 +1,4 @@
-
-## Skill - Strings in Python
+## Skill - Raw Strings in Python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -57,5 +56,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzM3NzMxNDZdfQ==
+eyJoaXN0b3J5IjpbOTE2NjAyMTA4XX0=
 -->
