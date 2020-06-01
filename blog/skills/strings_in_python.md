@@ -137,7 +137,30 @@ while declaring a string, `\` character is treated as an escape character, hence
 To avoid this we can use raw strings as shown below
 
 ```python
-x = 'Hi\n'
+x = 'Hi\nSudhir'
+print(x)
+'''
+This will print
+
+'''
+
+# using raw strings
+y = r'Hi\nSudhir'
+print(y)
+'''
+This will print
+Hi\nSudhir
+Notice that \n is used as it is
+'''
+
+# using raw strings
+z = r'Hi\nSudhir'
+print(z)
+'''
+This will print
+Hi\nSudhir
+Notice that \n is used as it is
+'''
 ```
 
 ### Online Interpreter
@@ -154,8 +177,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFN0cmluZ3MgaW4gcHl0aG
 9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICds
 ZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1
 xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0
-ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbMTc0NDE3OT
-kwMiwtMTU0NzMxODEwOCw1NTI4MzA4MzUsMTE5MzE2MzEyOCwt
-NTEzMDk1NzI4LDE4MTgwNTQyNDUsMTI2NDQ4MDg4MiwxNDY5OT
-gwMjQxLC00MTI0MjAwMjYsMTE4MzI5MTMyMV19
+ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbLTE0NzMwOT
+gxMjYsLTE1NDczMTgxMDgsNTUyODMwODM1LDExOTMxNjMxMjgs
+LTUxMzA5NTcyOCwxODE4MDU0MjQ1LDEyNjQ0ODA4ODIsMTQ2OT
+k4MDI0MSwtNDEyNDIwMDI2LDExODMyOTEzMjFdfQ==
 -->
