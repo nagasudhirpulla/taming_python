@@ -133,7 +133,7 @@ print(x.rfind(' is'))
 ```
 
 ### raw strings
-while decalaring a string
+while declaring a string, `\` character is treated as an escape character, hence to incorporate `\`
 ```
 ```
 
@@ -151,8 +151,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFN0cmluZ3MgaW4gcHl0aG
 9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICds
 ZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1
 xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0
-ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbLTIwMjQ5OT
-g0MTYsLTE1NDczMTgxMDgsNTUyODMwODM1LDExOTMxNjMxMjgs
-LTUxMzA5NTcyOCwxODE4MDU0MjQ1LDEyNjQ0ODA4ODIsMTQ2OT
-k4MDI0MSwtNDEyNDIwMDI2LDExODMyOTEzMjFdfQ==
+ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbMTM1NTMyMD
+c0LC0xNTQ3MzE4MTA4LDU1MjgzMDgzNSwxMTkzMTYzMTI4LC01
+MTMwOTU3MjgsMTgxODA1NDI0NSwxMjY0NDgwODgyLDE0Njk5OD
+AyNDEsLTQxMjQyMDAyNiwxMTgzMjkxMzIxXX0=
 -->
