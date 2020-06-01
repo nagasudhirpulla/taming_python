@@ -6,6 +6,7 @@
 * [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
+* [raw strings in python](https://nagasudhir.blogspot.com/2020/05/raw-strings-in-python.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
@@ -69,5 +70,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxNDM4MTAyLDg1NzE5Njk1M119
+eyJoaXN0b3J5IjpbODczNDk4MjgzLDg1NzE5Njk1M119
 -->
