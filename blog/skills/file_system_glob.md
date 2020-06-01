@@ -18,16 +18,10 @@ In this post, we will learn to iterate through files in a folder using `glob` mo
 import glob
 
 # specify the file we desire to delete
-fPath = r'C:\Users\Nagasudhir\Documents\'
+fPath = r'C:\Users\Nagasudhir\Documents\Static_Web_Projects\WRLDC Apps Dashboard'
 
-# check if the file exists first
-fileExists = os.path.exists(fPath)
-
-if fileExists:
-    # use remove function to delete the file if it exists
-    os.remove(fPath)  
-else:  
-    print("File does not exist")
+# use glob to get the filenames of files in the folder
+fo 
 ```
 We checked if the file exists at first because, `remove` function will raise an `OSError` if the desired file does not exist.
 
@@ -63,5 +57,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzg5MTkxMV19
+eyJoaXN0b3J5IjpbLTEzNzI0NzMxMzVdfQ==
 -->
