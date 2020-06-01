@@ -6,6 +6,7 @@
 * [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
+* [strings in python](https://nagasudhir.blogspot.com/2020/04/strings-in-python.html)
 * [raw strings in python](https://nagasudhir.blogspot.com/2020/05/raw-strings-in-python.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
@@ -98,6 +99,6 @@ BmaWxlcyBpbnNpZGUgZm9sZGVyXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LTAxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbMTU1NjAyOTUwMyw0NDMyMzc1ODMsODU3MTk2
-OTUzXX0=
+JoaXN0b3J5IjpbLTMxMTk1NTAsNDQzMjM3NTgzLDg1NzE5Njk1
+M119
 -->
