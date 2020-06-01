@@ -84,8 +84,8 @@ this will print
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
-* https://thispointer.com/python-how-to-remove-a-file-if-exists-and-handle-errors-os-remove-os-ulink/
-* https://stackoverflow.com/questions/6996603/how-to-delete-a-file-or-folder
+* https://www.geeksforgeeks.org/how-to-use-glob-function-to-find-files-recursively-in-python/
+* https://docs.python.org/3.8/library/glob.html
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -93,6 +93,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTk0Mzc3LDQ0MzIzNzU4Myw4NTcxOT
-Y5NTNdfQ==
+eyJoaXN0b3J5IjpbLTE5ODE2NDcxOSw0NDMyMzc1ODMsODU3MT
+k2OTUzXX0=
 -->
