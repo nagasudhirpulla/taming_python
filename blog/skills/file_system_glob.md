@@ -10,15 +10,15 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post, we will learn to iterate through files 
+In this post, we will learn to iterate through files in a folder using `glob` module
 
-### Delete a file using 'remove' function
+### Iterate through all files in a folder
 ```python
-# import the os module
-import os
+# import the glob module
+import glob
 
 # specify the file we desire to delete
-fPath = r'C:\Users\Nagasudhir\Documents\test.txt'
+fPath = r'C:\Users\Nagasudhir\Documents\'
 
 # check if the file exists first
 fileExists = os.path.exists(fPath)
@@ -63,5 +63,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDk5NzM4OF19
+eyJoaXN0b3J5IjpbLTcwNzg5MTkxMV19
 -->
