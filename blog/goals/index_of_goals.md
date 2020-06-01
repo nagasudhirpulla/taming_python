@@ -40,6 +40,7 @@ Here are the goals and skills in this tutorial series
 * [Creating a folder in python](https://nagasudhir.blogspot.com/2020/05/creating-folder-in-python.html)
 * [Reading and writing files in python](https://nagasudhir.blogspot.com/2020/05/reading-and-writing-files-in-python.html)
 * [Delete a file or folder in python](https://nagasudhir.blogspot.com/2020/05/delete-file-or-folder-in-python.html)
+* [Iterate through files inside folder](https://nagasudhir.blogspot.com/2020/05/iterate-through-files-inside-folder.html)
 #### Pandas DataFrame Skills
 * [pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
 * [Working with excel files and pandas DataFrames](https://nagasudhir.blogspot.com/2020/05/working-with-excel-and-pandas-dataframes.html)
@@ -67,11 +68,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTI3NjY0MjA3NSwtOTU5MT
-A5OTk2LC0xMzE5NzAwMDg3LC0yMTIzMzk4NzUyLC0xOTEyNDQ5
-NTU2LDI4NDcyMTU3MywtMTk2MzkxNTY3MCwtMTI5OTgzNTE4NS
-wxMzY1MjEzOTI1LC0xMjU0MTQyNTY4LC0xMzI2MzU5NDQ1LC03
-MzMwNDI5MzEsLTIwNzY3OTM4NzcsMTEzMTg4MzA3Miw0NDAyNz
-gxNzEsNzA4NjExMjYsMzI0Nzk3NzQ2LDE0NjAxMDg3NTUsMjQz
-NDU3NjU2LC0xNDA0Mzk3MzUzXX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTIxNjQ4Mjg3MywxMjc2Nj
+QyMDc1LC05NTkxMDk5OTYsLTEzMTk3MDAwODcsLTIxMjMzOTg3
+NTIsLTE5MTI0NDk1NTYsMjg0NzIxNTczLC0xOTYzOTE1NjcwLC
+0xMjk5ODM1MTg1LDEzNjUyMTM5MjUsLTEyNTQxNDI1NjgsLTEz
+MjYzNTk0NDUsLTczMzA0MjkzMSwtMjA3Njc5Mzg3NywxMTMxOD
+gzMDcyLDQ0MDI3ODE3MSw3MDg2MTEyNiwzMjQ3OTc3NDYsMTQ2
+MDEwODc1NSwyNDM0NTc2NTZdfQ==
 -->
