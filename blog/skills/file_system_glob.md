@@ -21,9 +21,12 @@ import glob
 fPath = r'C:\Users\Nagasudhir\Documents\Static_Web_Projects\WRLDC Apps Dashboard'
 
 # use glob to get the filenames of files in the folder
-fo 
+print(glob.glob(r'{0}\*'.format(fPath)))
+
+# this will print
+# 
 ```
-We checked if the file exists at first because, `remove` function will raise an `OSError` if the desired file does not exist.
+
 
 ### Delete a folder along with sub-folders and files using 'shutil.rmtree' function
 ```python
@@ -57,5 +60,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzI0NzMxMzVdfQ==
+eyJoaXN0b3J5IjpbLTQ2MjA0ODY5OV19
 -->
