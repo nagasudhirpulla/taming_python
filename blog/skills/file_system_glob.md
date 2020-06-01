@@ -57,6 +57,25 @@ this will print
 '''
 ```
 
+### get all filenames including inner folders with recursive option
+```python
+# import the glob module
+import glob
+
+# specify the file we desire to delete
+fPath = r'C:\Users\Nagasudhir\Documents\Static_Web_Projects\WRLDC Apps Dashboard'
+
+# use glob to get the filenames of html files in the folder using pattern matching
+fNames = glob.glob(r'{0}\*.html'.format(fPath))
+
+print(fNames)
+'''
+this will print
+['C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\cards.html', 
+'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.html']
+'''
+```
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -70,5 +89,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczNDk4MjgzLDg1NzE5Njk1M119
+eyJoaXN0b3J5IjpbLTExMTYzNjU3NTgsODU3MTk2OTUzXX0=
 -->
