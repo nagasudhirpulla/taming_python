@@ -1,4 +1,4 @@
-## Skill - iterate through files in python
+## Skill - iterate through files inside folder
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -93,6 +93,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODE2NDcxOSw0NDMyMzc1ODMsODU3MT
+eyJoaXN0b3J5IjpbMTA0MTc1ODk5OCw0NDMyMzc1ODMsODU3MT
 k2OTUzXX0=
 -->
