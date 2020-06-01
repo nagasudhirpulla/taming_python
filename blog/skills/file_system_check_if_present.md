@@ -5,6 +5,8 @@
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
+* [strings in python](https://nagasudhir.blogspot.com/2020/04/strings-in-python.html)
+* [raw strings in python](https://nagasudhir.blogspot.com/2020/05/raw-strings-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
@@ -60,6 +62,6 @@ IgZm9sZGVyIGlzIHByZXNlbnRcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMzEnXG50YWdzOiAnbG
 Vhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOlsxNTQzODY1Mjc5LC01NjA1NjcxNzIsLTE0OTEx
+hpc3RvcnkiOlsxOTU1MjQ4Mzk1LC01NjA1NjcxNzIsLTE0OTEx
 NTg4NjksLTM1MzY0NjAxMCw0MzAwMDI5NjZdfQ==
 -->
