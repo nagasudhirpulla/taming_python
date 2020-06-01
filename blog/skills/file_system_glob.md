@@ -58,6 +58,7 @@ this will print
 ```
 
 ### get all filenames including sub-folders files with 'recursive' option
+As shown below, using `recursive = True` and in `\**\` the search pattern we can get filenames from sub-folders also
 ```python
 # import the glob module
 import glob
@@ -92,6 +93,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMDY0OTc0NCw0NDMyMzc1ODMsODU3MT
-k2OTUzXX0=
+eyJoaXN0b3J5IjpbMTgzMTk0Mzc3LDQ0MzIzNzU4Myw4NTcxOT
+Y5NTNdfQ==
 -->
