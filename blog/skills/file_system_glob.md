@@ -21,8 +21,9 @@ import glob
 fPath = r'C:\Users\Nagasudhir\Documents\Static_Web_Projects\WRLDC Apps Dashboard'
 
 # use glob to get the filenames of files in the folder
-print(glob.glob(r'{0}\*'.format(fPath)))
+fNames = glob.glob(r'{0}\*'.format(fPath))
 
+print(fNames)
 '''
 this will print
 ['C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\assets', 
@@ -34,6 +35,7 @@ this will print
 '''
 ```
 ### Iterate through all files with a desired extension using pattern matching
+here we are using pattern matching to filter only html files within a folder
 ```python
 # import the glob module
 import glob
@@ -42,14 +44,12 @@ import glob
 fPath = r'C:\Users\Nagasudhir\Documents\Static_Web_Projects\WRLDC Apps Dashboard'
 
 # use glob to get the filenames of html files in the folder using pattern matching
-print(glob.glob(r'{0}\*.html'.format(fPath)))
+fNames = glob.glob(r'{0}\*.html'.format(fPath))
+
+print(fNames)
 
 '''
 this will print
-  
-
-import glob...
-
 ['C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\cards.html', 
 'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.html']
 '''
@@ -68,5 +68,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDg2NTY1Nyw4NTcxOTY5NTNdfQ==
+eyJoaXN0b3J5IjpbLTU2MTY4NDE4Niw4NTcxOTY5NTNdfQ==
 -->
