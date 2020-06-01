@@ -12,7 +12,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post, we will learn to iterate through files in a folder using `glob` module
 
-### Iterate through all files in a folder
+### get all filenames in a folder
 ```python
 # import the glob module
 import glob
@@ -34,7 +34,9 @@ this will print
 'C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\index.js']
 '''
 ```
-### Iterate through all files with a desired extension using pattern matching
+As seen above, the full path of filenames will be returned.
+
+### get all filenames with a desired extension using pattern matching
 here we are using pattern matching to filter only html files within a folder
 ```python
 # import the glob module
@@ -47,7 +49,6 @@ fPath = r'C:\Users\Nagasudhir\Documents\Static_Web_Projects\WRLDC Apps Dashboard
 fNames = glob.glob(r'{0}\*.html'.format(fPath))
 
 print(fNames)
-
 '''
 this will print
 ['C:\\Users\\Nagasudhir\\Documents\\Static_Web_Projects\\WRLDC Apps Dashboard\\cards.html', 
@@ -68,5 +69,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTY4NDE4Niw4NTcxOTY5NTNdfQ==
+eyJoaXN0b3J5IjpbMTA0NDY1OTM1MCw4NTcxOTY5NTNdfQ==
 -->
