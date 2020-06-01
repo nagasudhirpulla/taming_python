@@ -6,6 +6,8 @@
 * [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
+* [strings in python](https://nagasudhir.blogspot.com/2020/04/strings-in-python.html)
+* [raw strings in python](https://nagasudhir.blogspot.com/2020/05/raw-strings-in-python.html)
 * [Handling errors in python](https://nagasudhir.blogspot.com/2020/05/hnadling-errors-in-python.html)
 * [Check if file or folder is present](https://nagasudhir.blogspot.com/2020/05/check-if-file-or-folder-is-present.html)
 
@@ -70,5 +72,6 @@ IgZm9sZGVyIGluIHB5dGhvblxuYXV0aG9yOiBOYWdzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTkxMzA4NjEyLDk0NzQ0NzY1Nl19
+N0b3J5IjpbLTE3MTI1NDkyMDAsLTkxMzA4NjEyLDk0NzQ0NzY1
+Nl19
 -->
