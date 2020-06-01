@@ -151,7 +151,7 @@ print(y)
 '''
 This will print
 Hi\nSudhir
-Notice that \n is used as it is
+Notice that \n is used as it is, since we used 'r' before string declaration
 '''
 
 # without using raw strings
@@ -160,7 +160,7 @@ print(z)
 '''
 This will print
 'C:\Users\Nagasudhir\Documents\Static_Web_Projects\WRLDC Apps Dashboard'
-Notice that we have to \\ in order to print \
+Notice that we had to use \\ in order to print \
 '''
 
 # using raw strings
@@ -169,7 +169,7 @@ print(k)
 '''
 This will print
 'C:\Users\Nagasudhir\Documents\Static_Web_Projects\WRLDC Apps Dashboard'
-Notice that we need not use \\ since we 
+Notice that we need not use \\ since we used 'r' before string declaration
 '''
 ```
 
@@ -187,8 +187,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFN0cmluZ3MgaW4gcHl0aG
 9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICds
 ZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1
 xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0
-ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbMTk1Nzg0MD
-E5NywtMTU0NzMxODEwOCw1NTI4MzA4MzUsMTE5MzE2MzEyOCwt
-NTEzMDk1NzI4LDE4MTgwNTQyNDUsMTI2NDQ4MDg4MiwxNDY5OT
-gwMjQxLC00MTI0MjAwMjYsMTE4MzI5MTMyMV19
+ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbLTE3MzI4Nz
+EwMDksLTE1NDczMTgxMDgsNTUyODMwODM1LDExOTMxNjMxMjgs
+LTUxMzA5NTcyOCwxODE4MDU0MjQ1LDEyNjQ0ODA4ODIsMTQ2OT
+k4MDI0MSwtNDEyNDIwMDI2LDExODMyOTEzMjFdfQ==
 -->
