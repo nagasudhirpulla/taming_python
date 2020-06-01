@@ -57,16 +57,17 @@ this will print
 '''
 ```
 
-### get all filenames including inner folders with 'recursive' option
+### get all filenames including sub-folders files with 'recursive' option
 ```python
 # import the glob module
 import glob
 
 # specify the file we desire to delete
-fPath = r'C:\Users\Nagasudhir\Documents\CSharp_Projects\EdnaMonitoring\src\EdnaMonitoring.Infra'
+fPath = r'C:\Users\Nagasudhir\Documents\CSharp_Projects\EdnaMonitoring\src\EdnaMonitoring.App'
 
 # use glob to get the filenames of all .cs files in the folder using pattern matching
-fNames = glob.glob(r'{0}\*.html'.format(fPath))
+# notice that even sub-folders files are also included
+fNames = glob.glob(r'{0}\**\*.cs'.format(fPath), recursive=True)
 
 print(fNames)
 '''
@@ -89,5 +90,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTgzNDk1MzYsODU3MTk2OTUzXX0=
+eyJoaXN0b3J5IjpbNDQzMjM3NTgzLDg1NzE5Njk1M119
 -->
