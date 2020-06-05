@@ -78,7 +78,7 @@ this prints
 ```
 We can see that `merge` function adds suffixes (which are also configurable) to overlapping columns in the output DataFrame
 
-### Merge on column names
+### Merge on column names or a common column name
 ```python
 # import pandas module
 import pandas as pd
@@ -128,7 +128,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTg4MjMwNDQsLTEyMzg3MDMzNTYsMj
-A5MzcyMDcxMiwtNDc4NjA4MzUzLC01ODA2MTMxNDEsLTc3MDA4
-NzQ3NywtMTY0NDI1ODAxOSwtMTE4NjE1MDk3OF19
+eyJoaXN0b3J5IjpbNTg5NDQ2NjQ4LC0xMjM4NzAzMzU2LDIwOT
+M3MjA3MTIsLTQ3ODYwODM1MywtNTgwNjEzMTQxLC03NzAwODc0
+NzcsLTE2NDQyNTgwMTksLTExODYxNTA5NzhdfQ==
 -->
