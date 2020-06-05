@@ -50,6 +50,7 @@ Here are the goals and skills in this tutorial series
 * [Filter DataFrame rows](https://nagasudhir.blogspot.com/2020/05/filter-dataframe-rows.html)
 * [Selecting a subset of DataFrame using 'iloc' function](https://nagasudhir.blogspot.com/2020/05/using-iloc-function-of-dataframe.html)
 * [Selecting a subset of DataFrame using 'loc' function](https://nagasudhir.blogspot.com/2020/05/using-loc-function-of-dataframe.html)
+* [Join two DataFrames on a column](https://nagasudhir.blogspot.com/2020/06/join-two-dataframes-on-column.html)
 #### Matplotlib plotting Skills
 * [Introduction to Matplotlib plotting library](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 * [Styling Matplotlib plots](https://nagasudhir.blogspot.com/2020/05/styling-matplotlib-plots.html)
@@ -68,11 +69,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTIxNjQ4Mjg3MywxMjc2Nj
-QyMDc1LC05NTkxMDk5OTYsLTEzMTk3MDAwODcsLTIxMjMzOTg3
-NTIsLTE5MTI0NDk1NTYsMjg0NzIxNTczLC0xOTYzOTE1NjcwLC
-0xMjk5ODM1MTg1LDEzNjUyMTM5MjUsLTEyNTQxNDI1NjgsLTEz
-MjYzNTk0NDUsLTczMzA0MjkzMSwtMjA3Njc5Mzg3NywxMTMxOD
-gzMDcyLDQ0MDI3ODE3MSw3MDg2MTEyNiwzMjQ3OTc3NDYsMTQ2
-MDEwODc1NSwyNDM0NTc2NTZdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTgzMDMyOTQ0NywxMjE2ND
+gyODczLDEyNzY2NDIwNzUsLTk1OTEwOTk5NiwtMTMxOTcwMDA4
+NywtMjEyMzM5ODc1MiwtMTkxMjQ0OTU1NiwyODQ3MjE1NzMsLT
+E5NjM5MTU2NzAsLTEyOTk4MzUxODUsMTM2NTIxMzkyNSwtMTI1
+NDE0MjU2OCwtMTMyNjM1OTQ0NSwtNzMzMDQyOTMxLC0yMDc2Nz
+kzODc3LDExMzE4ODMwNzIsNDQwMjc4MTcxLDcwODYxMTI2LDMy
+NDc5Nzc0NiwxNDYwMTA4NzU1XX0=
 -->
