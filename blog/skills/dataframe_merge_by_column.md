@@ -21,6 +21,8 @@ In this post, we will learn how to join two DataFrames using `merge` function
 
 In order to merge a DataFrame with another either it's index or column can be used
 
+
+
 <hr/>
 
 ### Example: Getting values
@@ -28,6 +30,8 @@ In order to merge a DataFrame with another either it's index or column can be us
 
 ```
 <hr/>
+
+Please read this [official documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html) for getting know about more options and examples
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -42,6 +46,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDYxMzE0MSwtNzcwMDg3NDc3LC0xNj
-Q0MjU4MDE5LC0xMTg2MTUwOTc4XX0=
+eyJoaXN0b3J5IjpbMTc4NTA0ODQ0MSwtNTgwNjEzMTQxLC03Nz
+AwODc0NzcsLTE2NDQyNTgwMTksLTExODYxNTA5NzhdfQ==
 -->
