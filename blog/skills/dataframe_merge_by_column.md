@@ -107,6 +107,7 @@ this prints
 df3 = df1.merge(df2, on='value')
 print(df3)
 """
+this prints
   cleft value cright
 0 foo 5 foo
 """
@@ -140,7 +141,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2Njk3NzkwNiwtMTIzODcwMzM1NiwyMD
-kzNzIwNzEyLC00Nzg2MDgzNTMsLTU4MDYxMzE0MSwtNzcwMDg3
-NDc3LC0xNjQ0MjU4MDE5LC0xMTg2MTUwOTc4XX0=
+eyJoaXN0b3J5IjpbNzExODA4OTUwLDE3NjY5Nzc5MDYsLTEyMz
+g3MDMzNTYsMjA5MzcyMDcxMiwtNDc4NjA4MzUzLC01ODA2MTMx
+NDEsLTc3MDA4NzQ3NywtMTY0NDI1ODAxOSwtMTE4NjE1MDk3OF
+19
 -->
