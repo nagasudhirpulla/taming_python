@@ -118,7 +118,11 @@ This is called an **inner join** in which only rows with common values of the me
 * If `how = 'inner'`, then only rows with same values in the joining columns of both DataFrames are considered in output.
 * If `how = 'outer'`, then all the rows will be considered in the output
 * If `how = 'left'`, then all the rows of the left DataFrame will be considered in the output. If the values in right DataFrame will be `NaN` if corresponding column value is not present
-* If `how = 'right'`, then all the rows of the right DataFrame will be considered in the output. If the values in right DataFrame will be `NaN` if corresponding column value is not present
+* If `how = 'right'`, then all the rows of the right DataFrame will be considered in the output. If the values in left DataFrame will be `NaN` if corresponding column value is not present
+
+```python
+
+```
 <hr/>
 
 Please read this [official documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html) for getting know about more options and examples
@@ -136,7 +140,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODI0ODE4NjEsLTEyMzg3MDMzNTYsMj
-A5MzcyMDcxMiwtNDc4NjA4MzUzLC01ODA2MTMxNDEsLTc3MDA4
-NzQ3NywtMTY0NDI1ODAxOSwtMTE4NjE1MDk3OF19
+eyJoaXN0b3J5IjpbMTc2Njk3NzkwNiwtMTIzODcwMzM1NiwyMD
+kzNzIwNzEyLC00Nzg2MDgzNTMsLTU4MDYxMzE0MSwtNzcwMDg3
+NDc3LC0xNjQ0MjU4MDE5LC0xMTg2MTUwOTc4XX0=
 -->
