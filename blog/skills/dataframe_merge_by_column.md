@@ -23,7 +23,7 @@ In order to merge a DataFrame with another either it's index or column can be us
 
 <hr/>
 
-### Merge on index column
+### Merge on index
 ```python
 # import pandas module
 import pandas as pd
@@ -132,7 +132,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NzM4MDAyMSwtMTIzODcwMzM1NiwyMD
-kzNzIwNzEyLC00Nzg2MDgzNTMsLTU4MDYxMzE0MSwtNzcwMDg3
-NDc3LC0xNjQ0MjU4MDE5LC0xMTg2MTUwOTc4XX0=
+eyJoaXN0b3J5IjpbLTE2NTYyODExODcsLTEyMzg3MDMzNTYsMj
+A5MzcyMDcxMiwtNDc4NjA4MzUzLC01ODA2MTMxNDEsLTc3MDA4
+NzQ3NywtMTY0NDI1ODAxOSwtMTE4NjE1MDk3OF19
 -->
