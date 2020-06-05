@@ -111,6 +111,7 @@ print(df3)
 0 foo 5 foo
 """
 ```
+In the above example, only one row is present, since only one row has came 'value' column 
 <hr/>
 
 Please read this [official documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html) for getting know about more options and examples
@@ -128,7 +129,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5NDQ2NjQ4LC0xMjM4NzAzMzU2LDIwOT
-M3MjA3MTIsLTQ3ODYwODM1MywtNTgwNjEzMTQxLC03NzAwODc0
-NzcsLTE2NDQyNTgwMTksLTExODYxNTA5NzhdfQ==
+eyJoaXN0b3J5IjpbLTYyMTk1NTEwNSwtMTIzODcwMzM1NiwyMD
+kzNzIwNzEyLC00Nzg2MDgzNTMsLTU4MDYxMzE0MSwtNzcwMDg3
+NDc3LC0xNjQ0MjU4MDE5LC0xMTg2MTUwOTc4XX0=
 -->
