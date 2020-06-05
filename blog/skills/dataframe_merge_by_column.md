@@ -1,4 +1,4 @@
-## Skill - Join two DataFrames on column
+## Skill - Join two DataFrames on a column
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -163,5 +163,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODYxNTA5NzhdfQ==
+eyJoaXN0b3J5IjpbLTgzNTA5MTI5OSwtMTE4NjE1MDk3OF19
 -->
