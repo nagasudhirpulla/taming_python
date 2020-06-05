@@ -18,6 +18,8 @@ Pandas is a python library.
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
 In this post, we will learn how to join two DataFrames using `merge` function
+
+In order to merge a DataFrame with another the following can be us
 <hr/>
 
 
@@ -41,6 +43,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDA4NzQ3NywtMTY0NDI1ODAxOSwtMT
-E4NjE1MDk3OF19
+eyJoaXN0b3J5IjpbMTE5OTAzNTc0NSwtNzcwMDg3NDc3LC0xNj
+Q0MjU4MDE5LC0xMTg2MTUwOTc4XX0=
 -->
