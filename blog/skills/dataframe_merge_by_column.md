@@ -57,7 +57,7 @@ df3 = df1.merge(df2, left_index=True, right_index=True)
 print(df3)
 """
 this prints
-    cleft  value_x cright  value_y
+   cleft  value_x cright  value_y
 0   foo        1    foo        5
 1   bar        2    bar        6
 2   baz        3    baz        7
@@ -128,7 +128,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDAwMzg1OCwtMTIzODcwMzM1NiwyMD
-kzNzIwNzEyLC00Nzg2MDgzNTMsLTU4MDYxMzE0MSwtNzcwMDg3
-NDc3LC0xNjQ0MjU4MDE5LC0xMTg2MTUwOTc4XX0=
+eyJoaXN0b3J5IjpbLTE2NTg4MjMwNDQsLTEyMzg3MDMzNTYsMj
+A5MzcyMDcxMiwtNDc4NjA4MzUzLC01ODA2MTMxNDEsLTc3MDA4
+NzQ3NywtMTY0NDI1ODAxOSwtMTE4NjE1MDk3OF19
 -->
