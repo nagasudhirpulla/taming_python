@@ -80,7 +80,18 @@ We can see that `merge` function adds suffixes (which are also configurable) to 
 
 ### Merge on column names
 ```python
+# import pandas module
+import pandas as pd
 
+# create a dataframe
+df1 = pd.DataFrame({'cleft': ['foo', 'bar', 'baz', 'foo'],'value': [1, 2, 3, 5]})
+
+# create another dataframe
+df2 = pd.DataFrame({'cright': ['foo', 'bar', 'baz', 'foo'],'value': [5, 6, 7, 8]})
+
+# merge dataframes on column names
+df3 = df1.merge(df2, left_index=True, right_index=True)
+print(df3)
 ```
 <hr/>
 
@@ -99,7 +110,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MzcyMDcxMiwtNDc4NjA4MzUzLC01OD
-A2MTMxNDEsLTc3MDA4NzQ3NywtMTY0NDI1ODAxOSwtMTE4NjE1
-MDk3OF19
+eyJoaXN0b3J5IjpbMTYwMDk5MDIzNiwyMDkzNzIwNzEyLC00Nz
+g2MDgzNTMsLTU4MDYxMzE0MSwtNzcwMDg3NDc3LC0xNjQ0MjU4
+MDE5LC0xMTg2MTUwOTc4XX0=
 -->
