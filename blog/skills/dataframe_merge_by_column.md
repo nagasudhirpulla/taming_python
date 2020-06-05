@@ -93,7 +93,14 @@ df2 = pd.DataFrame({'cright': ['foo', 'bar', 'baz', 'foo'],'value': [5, 6, 7, 8]
 df3 = df1.merge(df2, left_on='cleft', right_on='cright')
 print(df3)
 """
-cleft value_x cright value_y 0 foo 1 foo 5 1 foo 1 foo 8 2 foo 5 foo 5 3 foo 5 foo 8 4 bar 2 bar 6 5 baz 3 baz 7
+this prints
+cleft  value_x cright  value_y
+0   foo        1    foo        5
+1   foo        1    foo        8
+2   foo        5    foo        5
+3   foo        5    foo        8
+4   bar        2    bar        6
+5   baz        3    baz        7
 """
 ```
 <hr/>
@@ -113,7 +120,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTU2MDE0MCwyMDkzNzIwNzEyLC00Nz
-g2MDgzNTMsLTU4MDYxMzE0MSwtNzcwMDg3NDc3LC0xNjQ0MjU4
-MDE5LC0xMTg2MTUwOTc4XX0=
+eyJoaXN0b3J5IjpbLTEyMzg3MDMzNTYsMjA5MzcyMDcxMiwtND
+c4NjA4MzUzLC01ODA2MTMxNDEsLTc3MDA4NzQ3NywtMTY0NDI1
+ODAxOSwtMTE4NjE1MDk3OF19
 -->
