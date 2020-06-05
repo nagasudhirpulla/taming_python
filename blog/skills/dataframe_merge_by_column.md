@@ -1,4 +1,4 @@
-## Skill - Selecting a subset of DataFrame using 'loc' function
+## Skill - Join two DataFrames on column
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -148,8 +148,6 @@ viper               0       0
 sidewinder          0       0
 '''
 ```
-
-A similar function is [iloc](https://nagasudhir.blogspot.com/2020/05/using-iloc-function-of-dataframe.html), but it uses row and column positions to get a subset of DataFrame
 <hr/>
 
 ### Online Interpreter
@@ -165,5 +163,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Mjg0ODI1M119
+eyJoaXN0b3J5IjpbLTExODYxNTA5NzhdfQ==
 -->
