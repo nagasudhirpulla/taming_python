@@ -19,10 +19,9 @@ Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020
 
 In this post, we will learn how to join two DataFrames using `merge` function
 
-In order to merge a DataFrame with another the following can be us
+In order to merge a DataFrame with another either it's index or column can be used
+
 <hr/>
-
-
 
 ### Example: Getting values
 ```python
@@ -43,6 +42,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTAzNTc0NSwtNzcwMDg3NDc3LC0xNj
+eyJoaXN0b3J5IjpbLTU4MDYxMzE0MSwtNzcwMDg3NDc3LC0xNj
 Q0MjU4MDE5LC0xMTg2MTUwOTc4XX0=
 -->
