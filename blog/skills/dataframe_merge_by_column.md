@@ -27,9 +27,56 @@ In order to merge a DataFrame with another either it's index or column can be us
 ```python
 # import pandas module
 import pandas as pd
-df1 = pd.DataFrame({'lkey': ['foo', 'bar', 'baz', 'foo'],
-'value': [1, 2, 3, 5]})
+
+# create a dataframe
+df1 = pd.DataFrame({'cleft': ['foo', 'bar', 'baz', 'foo'],'value': [1, 2, 3, 5]})
+print(df1)
+"""
+prints
+cleft  value
+0   foo      1
+1   bar      2
+2   baz      3
+3   foo      5
+"""
+
+# create another dataframe
+df2 = pd.DataFrame({'cright': ['foo', 'bar', 'baz', 'foo'],'value': [5, 6, 7, 8]})
+print(df2)
+"""
+prints
+  cright  value
+0    foo      5
+1    bar      6
+2    baz      7
+3    foo      8
+"""
+
+# merge dataframes on index
+df3 = df1.merge(df2, left_index=True, right_index=True)
+print(df3)
+"""
+this prints
+cleft  value_x cright  value_y
+0   foo        1    foo        5
+1   bar        2    bar        6
+2   baz        3    baz        7
+3   foo        5    foo        8
+"""
+
+# merge dataframes on index and use custom suffix for overlapping columns
+df3 = df1.merge(df2, left_index=True, right_index=True, suffixes=('_lft', '_rgt'))
+print(df3)
+"""
+this prints
+cleft  value_lft cright  value_rgt
+0   foo          1    foo          5
+1   bar          2    bar          6
+2   baz          3    baz          7
+3   foo          5    foo          8
+"""
 ```
+In the above example, we can see that `merge` function adds suffixes to overlapping columns (which are also configurable)
 <hr/>
 
 Please read this [official documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html) for getting know about more options and examples
@@ -47,6 +94,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODYwODM1MywtNTgwNjEzMTQxLC03Nz
-AwODc0NzcsLTE2NDQyNTgwMTksLTExODYxNTA5NzhdfQ==
+eyJoaXN0b3J5IjpbLTE2MjE0MTM1MCwtNDc4NjA4MzUzLC01OD
+A2MTMxNDEsLTc3MDA4NzQ3NywtMTY0NDI1ODAxOSwtMTE4NjE1
+MDk3OF19
 -->
