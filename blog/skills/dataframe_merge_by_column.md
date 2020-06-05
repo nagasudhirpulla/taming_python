@@ -17,6 +17,8 @@ Pandas is a python library.
 
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
+![merge dataframes](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/merge_dataframes_cartoon_lakshmi.jpg)
+
 In this post, we will learn how to join two DataFrames using `merge` function
 
 In order to merge a DataFrame with another either it's index or column can be used
@@ -201,8 +203,8 @@ FtZXMgb24gYSBjb2x1bW5cbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDYtMDUnXG50YWdzOiAnbGVhcm
 5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNh
 dGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3
-RvcnkiOlsxNzg3NjI1OTY5LDQ4MTk2NjAwNiwyMTM2NTQwMzc5
-LDE3NjY5Nzc5MDYsLTEyMzg3MDMzNTYsMjA5MzcyMDcxMiwtND
-c4NjA4MzUzLC01ODA2MTMxNDEsLTc3MDA4NzQ3NywtMTY0NDI1
-ODAxOSwtMTE4NjE1MDk3OF19
+RvcnkiOlstMTUxMDMyMjc1OSwxNzg3NjI1OTY5LDQ4MTk2NjAw
+NiwyMTM2NTQwMzc5LDE3NjY5Nzc5MDYsLTEyMzg3MDMzNTYsMj
+A5MzcyMDcxMiwtNDc4NjA4MzUzLC01ODA2MTMxNDEsLTc3MDA4
+NzQ3NywtMTY0NDI1ODAxOSwtMTE4NjE1MDk3OF19
 -->
