@@ -187,7 +187,7 @@ Please read this [official documentation](https://pandas.pydata.org/pandas-docs/
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### You can practice here
-
+<iframe height="800px" width="100%" src="https://repl.it/repls/AngelicWrithingBotany?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 * Official docs - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html
@@ -201,8 +201,8 @@ FtZXMgb24gYSBjb2x1bW5cbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDYtMDUnXG50YWdzOiAnbGVhcm
 5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNh
 dGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3
-RvcnkiOls0ODE5NjYwMDYsMjEzNjU0MDM3OSwxNzY2OTc3OTA2
-LC0xMjM4NzAzMzU2LDIwOTM3MjA3MTIsLTQ3ODYwODM1MywtNT
-gwNjEzMTQxLC03NzAwODc0NzcsLTE2NDQyNTgwMTksLTExODYx
-NTA5NzhdfQ==
+RvcnkiOlsxNzg3NjI1OTY5LDQ4MTk2NjAwNiwyMTM2NTQwMzc5
+LDE3NjY5Nzc5MDYsLTEyMzg3MDMzNTYsMjA5MzcyMDcxMiwtND
+c4NjA4MzUzLC01ODA2MTMxNDEsLTc3MDA4NzQ3NywtMTY0NDI1
+ODAxOSwtMTE4NjE1MDk3OF19
 -->
