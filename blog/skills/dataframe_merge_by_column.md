@@ -114,7 +114,7 @@ print(df3)
 In the above example, only one row is present, since only one row has came 'value' column in both DataFrames. 
 This is called an **inner join** in which only rows with common values of the merging columns are present in the output DataFrame
 
-### Types of merge 
+### Type of join in merge function using 'how' input
 <hr/>
 
 Please read this [official documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html) for getting know about more options and examples
@@ -132,7 +132,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzQxMDEyOSwtMTIzODcwMzM1NiwyMD
+eyJoaXN0b3J5IjpbLTk0NzM4MDAyMSwtMTIzODcwMzM1NiwyMD
 kzNzIwNzEyLC00Nzg2MDgzNTMsLTU4MDYxMzE0MSwtNzcwMDg3
 NDc3LC0xNjQ0MjU4MDE5LC0xMTg2MTUwOTc4XX0=
 -->
