@@ -26,7 +26,6 @@ In this post, we will learn how to join two DataFrames using `merge` function
 ```python
 
 ```
-
 <hr/>
 
 ### Online Interpreter
@@ -42,6 +41,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQyNTgwMTksLTExODYxNTA5NzhdfQ
-==
+eyJoaXN0b3J5IjpbLTc3MDA4NzQ3NywtMTY0NDI1ODAxOSwtMT
+E4NjE1MDk3OF19
 -->
