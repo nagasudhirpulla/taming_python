@@ -115,7 +115,8 @@ In the above example, only one row is present, since only one row has came 'valu
 This is called an **inner join** in which only rows with common values of the merging columns are present in the output DataFrame
 
 ### Type of join in merge function using 'how' input
-* If how = 'inner', then only rows with common values in the join columns are considereto 
+* If `how = 'inner'`, then only rows with same values in the joining columns are considered in output.
+* If `how = 'inner'`, then only rows with same values in the joining columns are considered in output.
 <hr/>
 
 Please read this [official documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html) for getting know about more options and examples
@@ -133,7 +134,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDA5MDEwOCwtMTIzODcwMzM1NiwyMD
-kzNzIwNzEyLC00Nzg2MDgzNTMsLTU4MDYxMzE0MSwtNzcwMDg3
-NDc3LC0xNjQ0MjU4MDE5LC0xMTg2MTUwOTc4XX0=
+eyJoaXN0b3J5IjpbLTIwMzA1NzA0ODksLTEyMzg3MDMzNTYsMj
+A5MzcyMDcxMiwtNDc4NjA4MzUzLC01ODA2MTMxNDEsLTc3MDA4
+NzQ3NywtMTY0NDI1ODAxOSwtMTE4NjE1MDk3OF19
 -->
