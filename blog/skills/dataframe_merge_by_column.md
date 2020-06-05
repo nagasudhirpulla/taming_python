@@ -21,13 +21,14 @@ In this post, we will learn how to join two DataFrames using `merge` function
 
 In order to merge a DataFrame with another either it's index or column can be used
 
-
-
 <hr/>
 
-### Example: Getting values
+### Example: Merging on index column
 ```python
-
+# import pandas module
+import pandas as pd
+df1 = pd.DataFrame({'lkey': ['foo', 'bar', 'baz', 'foo'],
+'value': [1, 2, 3, 5]})
 ```
 <hr/>
 
@@ -46,6 +47,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NTA0ODQ0MSwtNTgwNjEzMTQxLC03Nz
+eyJoaXN0b3J5IjpbLTQ3ODYwODM1MywtNTgwNjEzMTQxLC03Nz
 AwODc0NzcsLTE2NDQyNTgwMTksLTExODYxNTA5NzhdfQ==
 -->
