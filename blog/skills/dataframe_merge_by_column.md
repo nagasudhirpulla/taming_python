@@ -122,7 +122,62 @@ This is called an **inner join** in which only rows with common values of the me
 * If `how = 'right'`, then all the rows of the right DataFrame will be considered in the output. If the values in left DataFrame will be `NaN` if corresponding column value is not present
 
 ```python
+# import pandas
+import pandas as pd
 
+# create a dataframe
+df1 = pd.DataFrame({'cleft': ['foo', 'bar', 'baz', 'foo'],'value': [1, 2, 3, 5]})
+
+# create another dataframe
+df2 = pd.DataFrame({'cright': ['foo', 'bar', 'baz', 'foo'],'value': [5, 6, 7, 8]})
+
+# merge on a column name with join type as 'inner'
+df3 = df1.merge(df2, on='value')
+print(df3)
+"""
+this prints
+  cleft value cright
+0 foo 5 foo
+"""
+
+# merge on a column name with join type as 'outer'
+df3 = df1.merge(df2, on='value', how='outer')
+print(df3)
+"""
+this prints
+  cleft  value cright
+0   foo      1    NaN
+1   bar      2    NaN
+2   baz      3    NaN
+3   foo      5    foo
+4   NaN      6    bar
+5   NaN      7    baz
+6   NaN      8    foo
+"""
+
+# merge on a column name with join type as 'outer'
+df3 = df1.merge(df2, on='value', how='left')
+print(df3)
+"""
+this prints
+  cleft  value cright
+0   foo      1    NaN
+1   bar      2    NaN
+2   baz      3    NaN
+3   foo      5    foo
+"""
+
+# merge on a column name with join type as 'outer'
+df3 = df1.merge(df2, on='value', how='right')
+print(df3)
+"""
+this prints
+  cleft  value cright
+0   foo      5    foo
+1   NaN      6    bar
+2   NaN      7    baz
+3   NaN      8    foo
+"""
 ```
 <hr/>
 
@@ -141,8 +196,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzExODA4OTUwLDE3NjY5Nzc5MDYsLTEyMz
-g3MDMzNTYsMjA5MzcyMDcxMiwtNDc4NjA4MzUzLC01ODA2MTMx
-NDEsLTc3MDA4NzQ3NywtMTY0NDI1ODAxOSwtMTE4NjE1MDk3OF
-19
+eyJoaXN0b3J5IjpbMjEzNjU0MDM3OSwxNzY2OTc3OTA2LC0xMj
+M4NzAzMzU2LDIwOTM3MjA3MTIsLTQ3ODYwODM1MywtNTgwNjEz
+MTQxLC03NzAwODc0NzcsLTE2NDQyNTgwMTksLTExODYxNTA5Nz
+hdfQ==
 -->
