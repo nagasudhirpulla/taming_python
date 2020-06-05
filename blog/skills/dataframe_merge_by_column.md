@@ -196,8 +196,13 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjU0MDM3OSwxNzY2OTc3OTA2LC0xMj
-M4NzAzMzU2LDIwOTM3MjA3MTIsLTQ3ODYwODM1MywtNTgwNjEz
-MTQxLC03NzAwODc0NzcsLTE2NDQyNTgwMTksLTExODYxNTA5Nz
-hdfQ==
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEpvaW4gdHdvIERhdGFGcm
+FtZXMgb24gYSBjb2x1bW5cbmF1dGhvcjogTmFnYXN1ZGhpciBQ
+dWxsYVxuZGF0ZTogJzIwMjAtMDYtMDUnXG50YWdzOiAnbGVhcm
+5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNh
+dGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3
+RvcnkiOls0ODE5NjYwMDYsMjEzNjU0MDM3OSwxNzY2OTc3OTA2
+LC0xMjM4NzAzMzU2LDIwOTM3MjA3MTIsLTQ3ODYwODM1MywtNT
+gwNjEzMTQxLC03NzAwODc0NzcsLTE2NDQyNTgwMTksLTExODYx
+NTA5NzhdfQ==
 -->
