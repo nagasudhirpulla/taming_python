@@ -29,7 +29,7 @@ In this post, we will learn how to append rows or DataFrames to a pandas DataFra
 import pandas as pd
 
 # create a dataframe
-df1 = pd.DataFrame({'cleft': ['foo', 'bar', 'baz', 'foo'],'value': [1, 2, 3, 5]})
+df1 = pd.DataFrame([[1,2],[3,4]], columns=['A', 'B'])
 print(df1)
 """
 prints
@@ -203,5 +203,5 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTc2MjcxOTY1NV19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTA2MjA0ODQ2MF19
 -->
