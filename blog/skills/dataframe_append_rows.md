@@ -58,7 +58,7 @@ print(df3)
 """
 this prints
    
-notice the 
+notice the index is reset due to ignore_index option
 """
 ```
 We can see that `merge` function adds suffixes (which are also configurable) to overlapping columns in the output DataFrame
@@ -188,5 +188,5 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTM0NDEwMzY5NV19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEwMjIzNjE5XX0=
 -->
