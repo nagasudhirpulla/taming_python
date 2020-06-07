@@ -92,7 +92,14 @@ this prints
 
 # add a new row using loc
 df.loc[2] = [5,6]
-print()
+print(df)
+"""
+this prints
+   A  B
+0  1  2
+1  3  4
+2  5  6
+"""
 ```
 
 <hr/>
@@ -119,6 +126,6 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTg1NTM5OTIyNSwtMTM4
-NzI1ODE2OCwtMTAyMjM2MTldfQ==
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTkzOTMzMzg2LC0xMzg3
+MjU4MTY4LC0xMDIyMzYxOV19
 -->
