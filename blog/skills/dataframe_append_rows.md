@@ -81,7 +81,18 @@ But use this method if are aware of the existing index of the DataFrame, otherwi
 import pandas as pd
 
 # create a DataFrame
-df = pd.DataFrame([[1,2], [3,4]], columns=[])
+df = pd.DataFrame([[1,2], [3,4]], columns=['A', 'B'])
+print(df)
+"""
+this prints
+   A  B
+0  1  2
+1  3  4
+"""
+
+# add a new row using loc
+df.loc[2] = [5,6]
+print()
 ```
 
 <hr/>
@@ -108,6 +119,6 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTM1NjM3MzI2MSwtMTM4
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTg1NTM5OTIyNSwtMTM4
 NzI1ODE2OCwtMTAyMjM2MTldfQ==
 -->
