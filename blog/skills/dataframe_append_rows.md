@@ -33,35 +33,23 @@ df1 = pd.DataFrame([[1,2],[3,4]], columns=['A', 'B'])
 print(df1)
 """
 prints
-   cleft  value
-0   foo      1
-1   bar      2
-2   baz      3
-3   foo      5
+   
 """
 
 # create another dataframe
-df2 = pd.DataFrame({'cright': ['foo', 'bar', 'baz', 'foo'],'value': [5, 6, 7, 8]})
+df2 = pd.DataFrame([[5,6],[7,8]], columns=['A', 'B'])
 print(df2)
 """
 prints
-    cright  value
-0    foo      5
-1    bar      6
-2    baz      7
-3    foo      8
+    
 """
 
 # merge dataframes on index
-df3 = df1.merge(df2, left_index=True, right_index=True)
+df3 = df1.append(df2)
 print(df3)
 """
 this prints
-   cleft  value_x cright  value_y
-0   foo        1    foo        5
-1   bar        2    bar        6
-2   baz        3    baz        7
-3   foo        5    foo        8
+   
 """
 
 # merge dataframes on index and use custom suffix for overlapping columns
@@ -203,5 +191,5 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTA2MjA0ODQ2MF19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNzA4MDU1NDYxXX0=
 -->
