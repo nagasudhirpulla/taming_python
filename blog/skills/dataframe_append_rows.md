@@ -73,7 +73,8 @@ notice the index is reset due to ignore_index option
 """
 ```
 
-### Using 'loc' to append a single row (if confident )
+### Using 'loc' to append a single row (if confident about the index)
+Another way to append row to a DataFrame is to use [loc](https://nagasudhir.blogspot.com/2020/05/using-loc-function-of-dataframe.html) function. But use this method if are aware of the exu
 
 <hr/>
 
@@ -99,6 +100,6 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTIyNDgzMDU3NSwtMTM4
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTQzOTgzMjcyOSwtMTM4
 NzI1ODE2OCwtMTAyMjM2MTldfQ==
 -->
