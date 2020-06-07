@@ -1,4 +1,4 @@
-## Skill - Join two DataFrames on a column
+## Skill - Append rows or DataFrames to a pandas DataFrame
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -17,9 +17,8 @@ Pandas is a python library.
 
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
-![merge dataframes](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/merge_dataframes_cartoon_lakshmi.jpg)
 
-In this post, we will learn how to join two DataFrames using `merge` function
+In this post, we will learn how to append rows or DataFrames to a pandas DataFrame
 
 In order to merge a DataFrame with another either it's index or column can be used
 
@@ -192,7 +191,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 <iframe height="800px" width="100%" src="https://repl.it/repls/AngelicWrithingBotany?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
-* Official docs - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html
+* Official docs - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.append.html
+* append rows - https://stackoverflow.com/questions/10715965/add-one-row-to-pandas-dataframe
 
 <hr/>
 
@@ -204,6 +204,5 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEwMDc2NDMwNzFdfQ==
-
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTIxMzg4NjUwNF19
 -->
