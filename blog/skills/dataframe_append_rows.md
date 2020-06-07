@@ -20,11 +20,10 @@ Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020
 
 In this post, we will learn how to append rows or DataFrames to a pandas DataFrame using the `append` function
 
-In order to merge a DataFrame with another either it's index or column can be used
 
 <hr/>
 
-### Merge on index
+### Using the 'append' function
 ```python
 # import pandas module
 import pandas as pd
@@ -204,5 +203,5 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbOTgwMjk3NTM1XX0=
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTc2MjcxOTY1NV19
 -->
