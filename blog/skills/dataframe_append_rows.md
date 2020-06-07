@@ -32,24 +32,31 @@ import pandas as pd
 df1 = pd.DataFrame([[1,2],[3,4]], columns=['A', 'B'])
 print(df1)
 """
-prints
-   
+this prints
+   A  B
+0  1  2
+1  3  4
 """
-
 # create another dataframe
 df2 = pd.DataFrame([[5,6],[7,8]], columns=['A', 'B'])
 print(df2)
 """
-prints
-    
+this prints
+    A  B
+0  5  6
+1  7  8
 """
 
-# append df2 to df1
+# append df2 to df1 using 'append' function
 df3 = df1.append(df2)
 print(df3)
 """
 this prints
-   
+   A  B
+0  1  2
+1  3  4
+0  5  6
+1  7  8
 """
 
 # append df2 to df1 and create a fresh index
@@ -57,7 +64,11 @@ df3 = df1.append(df2, ignore_index=True)
 print(df3)
 """
 this prints
-   
+   A  B
+0  1  2
+1  3  4
+2  5  6
+3  7  8
 notice the index is reset due to ignore_index option
 """
 ```
@@ -188,5 +199,6 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEwMjIzNjE5XX0=
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE1ODUzMzQxNDMsLTEw
+MjIzNjE5XX0=
 -->
