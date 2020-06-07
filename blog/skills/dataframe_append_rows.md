@@ -44,7 +44,7 @@ prints
     
 """
 
-# merge dataframes on index
+# append df2 to df1
 df3 = df1.append(df2)
 print(df3)
 """
@@ -52,16 +52,12 @@ this prints
    
 """
 
-# merge dataframes on index and use custom suffix for overlapping columns
-df3 = df1.merge(df2, left_index=True, right_index=True, suffixes=('_lft', '_rgt'))
+# append df2 to df1 and create a fresh index
+df3 = df1.append(df2, ignore_index=True)
 print(df3)
 """
 this prints
-    cleft  value_lft cright  value_rgt
-0   foo          1    foo          5
-1   bar          2    bar          6
-2   baz          3    baz          7
-3   foo          5    foo          8
+   
 """
 ```
 We can see that `merge` function adds suffixes (which are also configurable) to overlapping columns in the output DataFrame
@@ -191,5 +187,5 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNzA4MDU1NDYxXX0=
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbODE4ODkzMjM0XX0=
 -->
