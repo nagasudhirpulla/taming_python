@@ -1,4 +1,4 @@
-## Skill - Export DataFrame to excel or csv
+## Skill - Export DataFrame as excel or csv
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -99,5 +99,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTQwNjA1OCwtMTMyMzc2NTMyNF19
+eyJoaXN0b3J5IjpbLTE0MjEzNTQ1NDcsLTEzMjM3NjUzMjRdfQ
+==
 -->
