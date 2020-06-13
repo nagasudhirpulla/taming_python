@@ -17,7 +17,7 @@ Pandas is a python library.
 
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
-In this post, we will learn how to filter the rows of a DataFrame based on our desired criteria
+In this post, we will learn how to export a pandas DataFrame to an excel or csv file
 
 <hr/>
 
@@ -73,5 +73,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDYxNDc5MzddfQ==
+eyJoaXN0b3J5IjpbLTEwODUxNjAwNjhdfQ==
 -->
