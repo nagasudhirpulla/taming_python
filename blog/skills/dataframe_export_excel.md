@@ -21,13 +21,15 @@ In this post, we will learn how to export a pandas DataFrame to an excel or csv 
 
 <hr/>
 
-Suppose in a DataFrame `df` 
-
-### Example
+### export to csv using 'to_csv'
 ```python
 import pandas as pd
 # create dataframe from excel
-df = pd.read_csv('gen_schedules.csv')
+df1 = pd.DataFrame([['a', 'b'], ['c', 'd']],
+
+                   index=['row 1', 'row 2'],
+
+                   columns=['col 1', 'col 2'])
 
 print('Number of rows in df = {0}'.format(df.shape[0]))
 # this prints Number of rows in df = 100
@@ -66,5 +68,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ3OTUxMjY4XX0=
+eyJoaXN0b3J5IjpbLTE4NDI2OTM0Ml19
 -->
