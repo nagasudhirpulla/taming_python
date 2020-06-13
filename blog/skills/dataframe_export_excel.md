@@ -121,7 +121,8 @@ with pd.ExcelWriter('out.xlsx') as writer:
 ```
 
 ### export multiple DataFrames to multiple sheets of an existing excel file
-As shown below, we use an excel writer to export the dataframe
+As shown below, we use an excel writer in append mode to export the dataframe to an existing excel file. 
+For using append mode, make sure to install `openpyxl` module using the `pip install openpyxl` command
 ```python
 import pandas as pd
 
@@ -172,6 +173,6 @@ UgYXMgZXhjZWwgb3IgY3N2XG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA2LTEzJ1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbMzM4MjMzMTAzLC0xODY5MTk2Nzk4LDEwMzYwMTg2
-MzAsLTEzMjM3NjUzMjRdfQ==
+N0b3J5IjpbMTUyODEyMjE2MiwtMTg2OTE5Njc5OCwxMDM2MDE4
+NjMwLC0xMzIzNzY1MzI0XX0=
 -->
