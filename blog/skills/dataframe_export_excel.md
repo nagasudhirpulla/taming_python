@@ -25,25 +25,12 @@ In this post, we will learn how to export a pandas DataFrame to an excel or csv 
 ```python
 import pandas as pd
 # create dataframe from excel
-df1 = pd.DataFrame([['a', 'b'], ['c', 'd']],
-
+df = pd.DataFrame([['a', 'b'], ['c', 'd']],
                    index=['row 1', 'row 2'],
-
                    columns=['col 1', 'col 2'])
 
-print('Number of rows in df = {0}'.format(df.shape[0]))
-# this prints Number of rows in df = 100
-
-# filter the rows with CGPL values greater than 2200
-filteredDf = df[df['CGPL']>2200]
-
-print('Number of rows in filteredDf = {0}'.format(filteredDf.shape[0]))
-# this prints Number of rows in filteredDf = 65
-
-# filter the rows with CGPL values greater than 2200 and KSTPS7 less than 450
-# we can achieve this via the logical operator '&'
-filteredDf2 = df[(df['CGPL']>2200) & (df['KSTPS7']<450)]
-
+# export dataframe as oucsv to_csv function
+df.to_csv('out.csv')
 print('Number of rows in filteredDf2 = {0}'.format(filteredDf2.shape[0]))
 # this prints Number of rows in filteredDf2 = 10
 ```
@@ -68,5 +55,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI2OTM0Ml19
+eyJoaXN0b3J5IjpbLTg3MTM5NTk1Ml19
 -->
