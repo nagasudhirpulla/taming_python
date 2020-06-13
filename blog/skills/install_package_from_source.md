@@ -9,9 +9,9 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post we
+In this post we will learn how to install python packages from source code. This scenario can occur where the computer does not have internet access.
 
-### Install specific version of a python package
+### Steps t 
 
 
 ### Further Reading
@@ -24,5 +24,5 @@ In this post we
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODA1NzEzMF19
+eyJoaXN0b3J5IjpbLTE4NjQ0Njk5ODFdfQ==
 -->
