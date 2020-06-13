@@ -98,7 +98,7 @@ df = pd.DataFrame([['a', 'b'], ['c', 'd']],
 df.to_excel('out.xlsx', sheet_name='hello')
 ```
 
-### export multiple DataFrames to multiple sheets of a new excel file
+### export multiple DataFrames to multiple sheets of an existing excel file
 ```python
 # import pandas module
 import pandas as pd
@@ -107,7 +107,7 @@ df = pd.DataFrame([['a', 'b'], ['c', 'd']],
                    index=['row 1', 'row 2'],
                    columns=['col 1', 'col 2'])
 
-# export dataframe as 'out.xlsx' but with sheet name as 'hello' 
+# export dataframe as 'output.xlsx' but with sheet name as 'hello' 
 df.to_excel('out.xlsx', sheet_name='hello')
 ```
 
@@ -136,5 +136,6 @@ UgYXMgZXhjZWwgb3IgY3N2XG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA2LTEzJ1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbMTAzNjAxODYzMCwtMTMyMzc2NTMyNF19
+N0b3J5IjpbLTE4NjkxOTY3OTgsMTAzNjAxODYzMCwtMTMyMzc2
+NTMyNF19
 -->
