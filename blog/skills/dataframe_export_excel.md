@@ -134,12 +134,17 @@ df2 = pd.DataFrame([['e', 'f'], ['g', 'h']],
                    index=['r1', 'r2'],
                    columns=['c1', 'c2'])
 
-# get the excel writer an exisiting excel file named 'output.xlsx'
-with pd.ExcelWriter('out.xlsx') as writer:  
-    # export df in a sheet named 'Sheet_name_1'
-    df.to_excel(writer, sheet_name='Sheet_name_1')
-    # export df2 in a sheet named 'Sheet_name_2'
-    df2.to_excel(writer, sheet_name='Sheet_name_2')
+# get the excel writer in append mode for an exisiting excel file named 'output.xlsx'
+writer = pd.ExcelWriter('output.xlsx', mode='a')
+
+# export df to a sheet named 'hello' of output.xlsx
+df.to_excel(writer, sheet_name='hello')
+
+# export df2 to a sheet named 'world' of output.xlsx
+df2.to_excel(writer, sheet_name='world')
+
+# close the writer
+writer.close()
 ```
 
 <hr/>
@@ -167,6 +172,6 @@ UgYXMgZXhjZWwgb3IgY3N2XG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA2LTEzJ1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbMjIyMjEyNjQ0LC0xODY5MTk2Nzk4LDEwMzYwMTg2
+N0b3J5IjpbMzM4MjMzMTAzLC0xODY5MTk2Nzk4LDEwMzYwMTg2
 MzAsLTEzMjM3NjUzMjRdfQ==
 -->
