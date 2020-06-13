@@ -74,11 +74,11 @@ df.to_excel('out.xlsx', header=False)
 # import pandas module
 import pandas as pd
 # create dataframe
-df = pd.DataFrame([['a', 'b'], ['c', 'd']],
+df = pd.DataFrame([['a', 'b', 'c'], ['d', 'e', 'f']],
                    index=['row 1', 'row 2'],
-                   columns=['col 1', 'col 2'])
+                   columns=['col 1', 'col 2', 'col3'])
 
-# export dataframe as 'out.csv' but ignore column names row in exported file
+# export dataframe as 'out.csv' but only export 'col1', 'col2' columns
 df.to_csv('out.csv', header=False)
 
 # export dataframe as 'out.xlsx' but ignore column names row in exported file
@@ -136,5 +136,5 @@ UgYXMgZXhjZWwgb3IgY3N2XG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA2LTEzJ1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbMTU4MDQ0MTY1NywtMTMyMzc2NTMyNF19
+N0b3J5IjpbMzM1Nzg3NTU3LC0xMzIzNzY1MzI0XX0=
 -->
