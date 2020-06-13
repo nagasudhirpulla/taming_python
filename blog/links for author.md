@@ -8,9 +8,12 @@ python subprocess communication - https://eli.thegreenplace.net/2017/interacting
 
 pandas export to existing excel with out deleting existing sheets - https://github.com/pandas-dev/pandas/issues/3441#issuecomment-601776814
 
+install python packages from source files - https://www.youtube.com/watch?v=5hq0Edi2Ou8, https://packaging.python.org/tutorials/installing-packages/#installing-from-local-archives
+
+
 ### TODOS
 write about glob in file handling skills
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTMzMzIxNywtMzUyOTIxNjAsMTE5MD
-Q4MDk1MCwtMTQ2OTc5NjgzN119
+eyJoaXN0b3J5IjpbMTkyMTAwODIyLC0zNTI5MjE2MCwxMTkwND
+gwOTUwLC0xNDY5Nzk2ODM3XX0=
 -->
