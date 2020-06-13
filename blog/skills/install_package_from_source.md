@@ -17,7 +17,9 @@ In this post we will learn how to install python packages from source code. This
 * run cd command to make the source code folder as the working directory. For example `cd C:\Users\Nagasudhir\Downloads\mypackage`
 * run the command `python setup.py install`
 
-Please note that the above method works for most of the cases. Sometimes the creator of the packge
+Please note that the above method works for most of the cases. Sometimes the creator of the package will give specific instructions in the GitHub page on how to install the package from source.
+
+In most of the cases, the p
 
 
 ### Further Reading
@@ -30,5 +32,5 @@ Please note that the above method works for most of the cases. Sometimes the cre
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3OTg1NzU5LDEwMDIzNjQ1MTNdfQ==
+eyJoaXN0b3J5IjpbLTE3MzE1Mjk4NzMsMTAwMjM2NDUxM119
 -->
