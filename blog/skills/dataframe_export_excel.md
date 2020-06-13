@@ -98,17 +98,25 @@ df = pd.DataFrame([['a', 'b'], ['c', 'd']],
 df.to_excel('out.xlsx', sheet_name='hello')
 ```
 
-### export multiple DataFrames to multiple sheets of an existing excel file
+### export multiple DataFrames to multiple sheets of a new excel file
 ```python
-# import pandas module
 import pandas as pd
+
 # create dataframe
 df = pd.DataFrame([['a', 'b'], ['c', 'd']],
-                   index=['row 1', 'row 2'],
-                   columns=['col 1', 'col 2'])
+                  index=['row 1', 'row 2'],
+                  columns=['col 1', 'col 2'])
+# create another dataframe
+df2 = pd.DataFrame([['e', 'f'], ['g', 'h']],
+                   index=['r1', 'r2'],
+                   columns=['c1', 'c2'])
 
-# export dataframe as 'output.xlsx' but with sheet name as 'hello' 
-df.to_excel('out.xlsx', sheet_name='hello')
+# get the excel writer an exisiting excel file named 'output.xlsx'
+with pd.ExcelWriter('out.xlsx') as writer:  
+    # export df in a sheet named 'Sheet_name_1'
+    df.to_excel(writer, sheet_name='Sheet_name_1')
+    # export df2 in a sheet named 'Sheet_name_2'
+    df2.to_excel(writer, sheet_name='Sheet_name_2')
 ```
 
 <hr/>
@@ -136,6 +144,6 @@ UgYXMgZXhjZWwgb3IgY3N2XG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA2LTEzJ1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTE4NjkxOTY3OTgsMTAzNjAxODYzMCwtMTMyMzc2
-NTMyNF19
+N0b3J5IjpbMTM1NTkzMDMyOSwtMTg2OTE5Njc5OCwxMDM2MDE4
+NjMwLC0xMzIzNzY1MzI0XX0=
 -->
