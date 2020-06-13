@@ -79,10 +79,10 @@ df = pd.DataFrame([['a', 'b', 'c'], ['d', 'e', 'f']],
                    columns=['col 1', 'col 2', 'col3'])
 
 # export dataframe as 'out.csv' but only export 'col1', 'col2' columns
-df.to_csv('out.csv', header=False)
+df.to_csv('out.csv', columns=['col1', 'col2'])
 
 # export dataframe as 'out.xlsx' but only export 'col1', 'col2' columns
-df.to_excel('out.xlsx', header=False)
+df.to_excel('out.xlsx', columns=['col1', 'col2'])
 ```
 
 ### export to excel with a sheet name with 'sheet_name' input
@@ -136,5 +136,5 @@ UgYXMgZXhjZWwgb3IgY3N2XG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA2LTEzJ1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTY2NzExODEzNywtMTMyMzc2NTMyNF19
+N0b3J5IjpbNzU4NzcxOTc5LC0xMzIzNzY1MzI0XX0=
 -->
