@@ -55,8 +55,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 <iframe height="800px" width="100%" src="https://repl.it/repls/RevolvingAngryFrontend?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
-* `to_excel` function - https://pandas.pydata.org/pandas-docs/version/0.15.0/generated/pandas.DataFrame.to_excel.html
-* `to_csv` funct
+* `to_excel` function - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_excel.html#pandas.DataFrame.to_excel
+* `to_csv` function - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html
 
 <hr/>
 
@@ -66,5 +66,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTgyMDcwNF19
+eyJoaXN0b3J5IjpbMzQ3OTUxMjY4XX0=
 -->
