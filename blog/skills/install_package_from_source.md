@@ -19,7 +19,7 @@ In this post we will learn how to install python packages from source code. This
 
 Please note that the above method works for most of the cases. Sometimes the creator of the package will give specific instructions in the GitHub page on how to install the package from source.
 
-In most of the cases, the p
+In most of the cases, the package may require some other packages to be installed as dependencies. Make sure those dependencies are installed before installing from source code.
 
 
 ### Further Reading
@@ -32,5 +32,5 @@ In most of the cases, the p
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE1Mjk4NzMsMTAwMjM2NDUxM119
+eyJoaXN0b3J5IjpbLTEwODY1MTY0ODAsMTAwMjM2NDUxM119
 -->
