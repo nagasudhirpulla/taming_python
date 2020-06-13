@@ -21,7 +21,7 @@ In this post, we will learn how to export a pandas DataFrame to an excel or csv 
 
 <hr/>
 
-### export to csv using 'to_csv'
+### export using 'to_csv' and 'to_excel' functions
 ```python
 import pandas as pd
 # create dataframe from excel
@@ -31,6 +31,8 @@ df = pd.DataFrame([['a', 'b'], ['c', 'd']],
 
 # export dataframe as 'out.csv' file using 'to_csv' function
 df.to_csv('out.csv')
+# export dataframe as 'out.xlsx' file using 'to_excel' function
+df.to_excel('out.xlsx')
 ```
 
 <hr/>
@@ -53,5 +55,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjM3NjUzMjRdfQ==
+eyJoaXN0b3J5IjpbMTMwMjA2NjA4OSwtMTMyMzc2NTMyNF19
 -->
