@@ -44,11 +44,11 @@ df = pd.DataFrame([['a', 'b'], ['c', 'd']],
                    index=['row 1', 'row 2'],
                    columns=['col 1', 'col 2'])
 
-# export dataframe as 'out.csv' file using 'to_csv' function
+# export dataframe as 'out.csv' but ignore index column in exported file
 df.to_csv('out.csv', index=False)
 
-# export dataframe as 'out.xlsx' file using 'to_excel' function
-df.to_excel('out.xlsx')
+# export dataframe as 'out.xlsx' but ignore index column in exported file
+df.to_excel('out.xlsx', index=False)
 ```
 
 <hr/>
@@ -71,6 +71,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQ1Njc5ODEsLTEzMjM3NjUzMjRdfQ
+eyJoaXN0b3J5IjpbLTE4Njc0NTM5ODIsLTEzMjM3NjUzMjRdfQ
 ==
 -->
