@@ -32,5 +32,11 @@ In most of the cases, the package may require some other packages to be installe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODY1MTY0ODAsMTAwMjM2NDUxM119
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEluc3RhbGwgYSBweXRob2
+4gcGFja2FnZSBmcm9tIHNvdXJjZSBjb2RlXG5hdXRob3I6IE5h
+Z2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LTEzJ1xudG
+FnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1p
+bmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3
+B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6WzE5OTQxMjM0NDIs
+MTAwMjM2NDUxM119
 -->
