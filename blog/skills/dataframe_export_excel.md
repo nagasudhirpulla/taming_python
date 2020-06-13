@@ -31,8 +31,6 @@ df = pd.DataFrame([['a', 'b'], ['c', 'd']],
 
 # export dataframe as 'out.csv' file using 'to_csv' function
 df.to_csv('out.csv')
-print('Number of rows in filteredDf2 = {0}'.format(filteredDf2.shape[0]))
-# this prints Number of rows in filteredDf2 = 10
 ```
 
 <hr/>
@@ -55,5 +53,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MzMxODMzNl19
+eyJoaXN0b3J5IjpbLTEzMjM3NjUzMjRdfQ==
 -->
