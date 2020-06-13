@@ -23,6 +23,7 @@ In this post, we will learn how to export a pandas DataFrame to an excel or csv 
 
 ### export using 'to_csv' and 'to_excel' functions
 ```python
+# import pandas module
 import pandas as pd
 # create dataframe from excel
 df = pd.DataFrame([['a', 'b'], ['c', 'd']],
@@ -38,6 +39,7 @@ df.to_excel(r'C:\Users\Nagasudhir\Desktop\out.xlsx')
 
 ### omit index column in export file
 ```python
+# import pandas module
 import pandas as pd
 # create dataframe from excel
 df = pd.DataFrame([['a', 'b'], ['c', 'd']],
@@ -71,6 +73,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njc0NTM5ODIsLTEzMjM3NjUzMjRdfQ
+eyJoaXN0b3J5IjpbLTE1NjYzNDMzNTgsLTEzMjM3NjUzMjRdfQ
 ==
 -->
