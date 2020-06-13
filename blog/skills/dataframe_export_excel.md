@@ -37,7 +37,7 @@ df.to_csv(r'C:\Users\Nagasudhir\Desktop\out.csv')
 df.to_excel(r'C:\Users\Nagasudhir\Desktop\out.xlsx')
 ```
 
-### omit index column in export file
+### omit index column in export file using 'index = False'
 ```python
 # import pandas module
 import pandas as pd
@@ -51,6 +51,19 @@ df.to_csv('out.csv', index=False)
 
 # export dataframe as 'out.xlsx' but ignore index column in exported file
 df.to_excel('out.xlsx', index=False)
+```
+
+### export to excel with a sheet name with 'sheet_name' input
+```python
+# import pandas module
+import pandas as pd
+# create dataframe from excel
+df = pd.DataFrame([['a', 'b'], ['c', 'd']],
+                   index=['row 1', 'row 2'],
+                   columns=['col 1', 'col 2'])
+
+# export dataframe as 'out.xlsx' but the sheet name in exported 
+df.to_excel('out.xlsx', sheet_name='sudhir')
 ```
 
 <hr/>
@@ -73,6 +86,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjYzNDMzNTgsLTEzMjM3NjUzMjRdfQ
+eyJoaXN0b3J5IjpbLTIxMTYyODI3NzIsLTEzMjM3NjUzMjRdfQ
 ==
 -->
