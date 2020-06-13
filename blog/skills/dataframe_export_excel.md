@@ -17,17 +17,11 @@ Pandas is a python library.
 
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
-In this post, we will learn how to export a pandas DataFrame to an excel or csv file
+In this post, we will learn how to export a pandas DataFrame to an excel or csv file using to_ex
 
 <hr/>
 
-#### Instructions to run the codes below
-* Create a folder and place the csv file used in this post from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/gen_schedules.csv)
-* Open the folder in Visual Studio Code
-* Create and work on python files in this folder
 
-The excel files should look like the image below 
-![excel_file_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/all_gen_data.png)
 
 Suppose in a DataFrame `df` we want to get rows with values in column 'A' greater than 20, then we use `df[df['A']>20]`
 
@@ -73,5 +67,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODUxNjAwNjhdfQ==
+eyJoaXN0b3J5IjpbLTE0OTA2MzEwMzFdfQ==
 -->
