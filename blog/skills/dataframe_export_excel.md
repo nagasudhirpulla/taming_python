@@ -37,7 +37,23 @@ df.to_csv(r'C:\Users\Nagasudhir\Desktop\out.csv')
 df.to_excel(r'C:\Users\Nagasudhir\Desktop\out.xlsx')
 ```
 
-### omit index column in export file using 'index = False'
+### ignore index column in export file using 'index = False'
+```python
+# import pandas module
+import pandas as pd
+# create dataframe
+df = pd.DataFrame([['a', 'b'], ['c', 'd']],
+                   index=['row 1', 'row 2'],
+                   columns=['col 1', 'col 2'])
+
+# export dataframe as 'out.csv' but ignore index column in exported file
+df.to_csv('out.csv', index=False)
+
+# export dataframe as 'out.xlsx' but ignore index column in exported file
+df.to_excel('out.xlsx', index=False)
+```
+
+### ignore index column in export file using 'index = False'
 ```python
 # import pandas module
 import pandas as pd
@@ -104,5 +120,5 @@ UgYXMgZXhjZWwgb3IgY3N2XG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA2LTEzJ1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbODkwMDE0NjI1LC0xMzIzNzY1MzI0XX0=
+N0b3J5IjpbLTE3MTIwMjEzMjIsLTEzMjM3NjUzMjRdfQ==
 -->
