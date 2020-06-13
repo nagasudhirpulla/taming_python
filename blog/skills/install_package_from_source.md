@@ -15,7 +15,7 @@ In this post we
 
 
 ### Further Reading
-* https://www.shellhacks.com/pip-install-specific-version-of-package/
+* official documentation - https://pip.pypa.io/en/stable/reference/pip_install/#examples
 
 <hr/>
 
@@ -24,5 +24,5 @@ In this post we
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTcwNDc4Nl19
+eyJoaXN0b3J5IjpbMTM3ODA1NzEzMF19
 -->
