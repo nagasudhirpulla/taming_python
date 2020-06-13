@@ -70,7 +70,7 @@ df.to_excel('out.xlsx', sheet_name='hello')
 ```python
 # import pandas module
 import pandas as pd
-# create dataframe from excel
+# create dataframe
 df = pd.DataFrame([['a', 'b'], ['c', 'd']],
                    index=['row 1', 'row 2'],
                    columns=['col 1', 'col 2'])
@@ -85,7 +85,7 @@ df.to_excel('out.xlsx', sheet_name='hello')
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/RevolvingAngryFrontend?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 
 ### References
 * `to_excel` function - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_excel.html#pandas.DataFrame.to_excel
@@ -99,6 +99,10 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjEzNTQ1NDcsLTEzMjM3NjUzMjRdfQ
-==
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEV4cG9ydCBEYXRhRnJhbW
+UgYXMgZXhjZWwgb3IgY3N2XG5hdXRob3I6IE5hZ2FzdWRoaXIg
+UHVsbGFcbmRhdGU6ICcyMDIwLTA2LTEzJ1xudGFnczogJ2xlYX
+JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
+YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
+N0b3J5IjpbODkwMDE0NjI1LC0xMzIzNzY1MzI0XX0=
 -->
