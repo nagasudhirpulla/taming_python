@@ -69,6 +69,22 @@ df.to_csv('out.csv', header=False)
 df.to_excel('out.xlsx', header=False)
 ```
 
+### export only specific columns using 'columns' input
+```python
+# import pandas module
+import pandas as pd
+# create dataframe
+df = pd.DataFrame([['a', 'b'], ['c', 'd']],
+                   index=['row 1', 'row 2'],
+                   columns=['col 1', 'col 2'])
+
+# export dataframe as 'out.csv' but ignore column names row in exported file
+df.to_csv('out.csv', header=False)
+
+# export dataframe as 'out.xlsx' but ignore column names row in exported file
+df.to_excel('out.xlsx', header=False)
+```
+
 ### export to excel with a sheet name with 'sheet_name' input
 ```python
 # import pandas module
@@ -120,5 +136,5 @@ UgYXMgZXhjZWwgb3IgY3N2XG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA2LTEzJ1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTYzOTUyMTI5NCwtMTMyMzc2NTMyNF19
+N0b3J5IjpbMTU4MDQ0MTY1NywtMTMyMzc2NTMyNF19
 -->
