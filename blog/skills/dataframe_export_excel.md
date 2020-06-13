@@ -62,8 +62,8 @@ df = pd.DataFrame([['a', 'b'], ['c', 'd']],
                    index=['row 1', 'row 2'],
                    columns=['col 1', 'col 2'])
 
-# export dataframe as 'out.xlsx' but the sheet name in exported 
-df.to_excel('out.xlsx', sheet_name='sudhir')
+# export dataframe as 'out.xlsx' but with sheet name as 'hello' 
+df.to_excel('out.xlsx', sheet_name='hello')
 ```
 
 <hr/>
@@ -86,6 +86,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTYyODI3NzIsLTEzMjM3NjUzMjRdfQ
-==
+eyJoaXN0b3J5IjpbNzQwMjE5OTE4LC0xMzIzNzY1MzI0XX0=
 -->
