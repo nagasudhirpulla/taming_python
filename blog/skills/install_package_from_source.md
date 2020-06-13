@@ -12,7 +12,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 In this post we will learn how to install python packages from source code. This scenario can occur where the computer does not have internet access.
 
 ### Steps to install package from source code
-* Download or copy the source code to a folder. For example
+* Download or copy the source code to a folder. For example the source code folder may be like `C:\Users\Nagasudhir\Downloads\mypackage`
+* open command prompt
+* run command
 
 
 ### Further Reading
@@ -25,5 +27,5 @@ In this post we will learn how to install python packages from source code. This
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjM2NDUxM119
+eyJoaXN0b3J5IjpbODc1Mjc2MzA2LDEwMDIzNjQ1MTNdfQ==
 -->
