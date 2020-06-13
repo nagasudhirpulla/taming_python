@@ -50,6 +50,7 @@ Here are the goals and skills in this tutorial series
 * [Filter DataFrame rows](https://nagasudhir.blogspot.com/2020/05/filter-dataframe-rows.html)
 * [Selecting a subset of DataFrame using 'iloc' function](https://nagasudhir.blogspot.com/2020/05/using-iloc-function-of-dataframe.html)
 * [Selecting a subset of DataFrame using 'loc' function](https://nagasudhir.blogspot.com/2020/05/using-loc-function-of-dataframe.html)
+* [Export DataFrame as excel or csv](https://nagasudhir.blogspot.com/2020/06/export-dataframe-as-excel-or-csv.html)
 * [Join two DataFrames on a column](https://nagasudhir.blogspot.com/2020/06/join-two-dataframes-on-column.html)
 * [Append rows or DataFrames to a pandas DataFrame](https://nagasudhir.blogspot.com/2020/06/append-rows-or-dataframes-to-pandas.html)
 #### Matplotlib plotting Skills
@@ -70,11 +71,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTQ3ODc2OTgzLDE4MzAzMj
-k0NDcsMTIxNjQ4Mjg3MywxMjc2NjQyMDc1LC05NTkxMDk5OTYs
-LTEzMTk3MDAwODcsLTIxMjMzOTg3NTIsLTE5MTI0NDk1NTYsMj
-g0NzIxNTczLC0xOTYzOTE1NjcwLC0xMjk5ODM1MTg1LDEzNjUy
-MTM5MjUsLTEyNTQxNDI1NjgsLTEzMjYzNTk0NDUsLTczMzA0Mj
-kzMSwtMjA3Njc5Mzg3NywxMTMxODgzMDcyLDQ0MDI3ODE3MSw3
-MDg2MTEyNiwzMjQ3OTc3NDZdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEzNzU0MzU0MTksLTQ3OD
+c2OTgzLDE4MzAzMjk0NDcsMTIxNjQ4Mjg3MywxMjc2NjQyMDc1
+LC05NTkxMDk5OTYsLTEzMTk3MDAwODcsLTIxMjMzOTg3NTIsLT
+E5MTI0NDk1NTYsMjg0NzIxNTczLC0xOTYzOTE1NjcwLC0xMjk5
+ODM1MTg1LDEzNjUyMTM5MjUsLTEyNTQxNDI1NjgsLTEzMjYzNT
+k0NDUsLTczMzA0MjkzMSwtMjA3Njc5Mzg3NywxMTMxODgzMDcy
+LDQ0MDI3ODE3MSw3MDg2MTEyNl19
 -->
