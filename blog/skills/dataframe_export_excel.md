@@ -53,7 +53,7 @@ df.to_csv('out.csv', index=False)
 df.to_excel('out.xlsx', index=False)
 ```
 
-### ignore index column in export file using 'index = False'
+### ignore column names header in export file using 'header = False'
 ```python
 # import pandas module
 import pandas as pd
@@ -62,11 +62,11 @@ df = pd.DataFrame([['a', 'b'], ['c', 'd']],
                    index=['row 1', 'row 2'],
                    columns=['col 1', 'col 2'])
 
-# export dataframe as 'out.csv' but ignore index column in exported file
-df.to_csv('out.csv', index=False)
+# export dataframe as 'out.csv' but ignore column names row in exported file
+df.to_csv('out.csv', header=False)
 
-# export dataframe as 'out.xlsx' but ignore index column in exported file
-df.to_excel('out.xlsx', index=False)
+# export dataframe as 'out.xlsx' but ignore column names row in exported file
+df.to_excel('out.xlsx', header=False)
 ```
 
 ### export to excel with a sheet name with 'sheet_name' input
@@ -120,5 +120,5 @@ UgYXMgZXhjZWwgb3IgY3N2XG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA2LTEzJ1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTE3MTIwMjEzMjIsLTEzMjM3NjUzMjRdfQ==
+N0b3J5IjpbLTYzOTUyMTI5NCwtMTMyMzc2NTMyNF19
 -->
