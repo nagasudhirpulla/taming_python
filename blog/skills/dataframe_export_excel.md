@@ -66,6 +66,19 @@ df = pd.DataFrame([['a', 'b'], ['c', 'd']],
 df.to_excel('out.xlsx', sheet_name='hello')
 ```
 
+### export multiple DataFrames to a new excel file
+```python
+# import pandas module
+import pandas as pd
+# create dataframe from excel
+df = pd.DataFrame([['a', 'b'], ['c', 'd']],
+                   index=['row 1', 'row 2'],
+                   columns=['col 1', 'col 2'])
+
+# export dataframe as 'out.xlsx' but with sheet name as 'hello' 
+df.to_excel('out.xlsx', sheet_name='hello')
+```
+
 <hr/>
 
 ### Online Interpreter
@@ -86,5 +99,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwMjE5OTE4LC0xMzIzNzY1MzI0XX0=
+eyJoaXN0b3J5IjpbLTczODk4OTIwNywtMTMyMzc2NTMyNF19
 -->
