@@ -153,9 +153,6 @@ writer.close()
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
-### You can practice here
-
-
 ### References
 * `to_excel` function - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_excel.html#pandas.DataFrame.to_excel
 * `to_csv` function - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html
@@ -173,6 +170,6 @@ UgYXMgZXhjZWwgb3IgY3N2XG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA2LTEzJ1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbMTUyODEyMjE2MiwtMTg2OTE5Njc5OCwxMDM2MDE4
-NjMwLC0xMzIzNzY1MzI0XX0=
+N0b3J5IjpbLTE4NTgzMzU2MjEsLTE4NjkxOTY3OTgsMTAzNjAx
+ODYzMCwtMTMyMzc2NTMyNF19
 -->
