@@ -13,8 +13,10 @@ In this post, we will learn how to distribute our python program as an `exe` fil
 Sometimes the computer in which the python code has to run 
 * may not have python installed in it
 * may not have  internet to install python
-* may not have additional e
+* may not have additional package dependencies
+* may have conflicting versions of python libraries
 
+All the above issues in python code deployment can be solved by distributing all our python code 
 
 
 ### Online Interpreter
@@ -35,5 +37,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIFB5SW5zdGFsbG
 VyIGZvciBkaXN0cmlidXRpbmcgcHl0aG9uIHByb2dyYW1cbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
-YtMTgnXG4iLCJoaXN0b3J5IjpbLTE0ODM2Nzk3MDhdfQ==
+YtMTgnXG4iLCJoaXN0b3J5IjpbMTQzMTYyMTYzMV19
 -->
