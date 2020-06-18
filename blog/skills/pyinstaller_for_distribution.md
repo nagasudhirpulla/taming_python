@@ -7,7 +7,7 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-In this post, we will learn how to distribute our python program as an exe file
+In this post, we will learn how to distribute our python program as an `exe` file
 
 The shape attribute returns the shape of DataFrame as  (nRows, nColumns)
 ```python
@@ -50,5 +50,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIFB5SW5zdGFsbG
 VyIGZvciBkaXN0cmlidXRpbmcgcHl0aG9uIHByb2dyYW1cbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
-YtMTgnXG4iLCJoaXN0b3J5IjpbLTYwNTMwMTk2Ml19
+YtMTgnXG4iLCJoaXN0b3J5IjpbNjQxODQ5NzU0XX0=
 -->
