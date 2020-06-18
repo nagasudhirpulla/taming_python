@@ -10,8 +10,9 @@ using pyinstaller for software distribution
 
 
 ### TODOS
-write about glob in file handling skills
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzkwNDc2ODcsMTkyMTAwODIyLC0zNT
-I5MjE2MCwxMTkwNDgwOTUwLC0xNDY5Nzk2ODM3XX0=
+eyJoaXN0b3J5IjpbMTQzNjM0NjQyNSwtMTkzOTA0NzY4NywxOT
+IxMDA4MjIsLTM1MjkyMTYwLDExOTA0ODA5NTAsLTE0Njk3OTY4
+MzddfQ==
 -->
