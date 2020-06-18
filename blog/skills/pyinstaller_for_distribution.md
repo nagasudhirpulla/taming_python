@@ -10,28 +10,12 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 In this post, we will learn how to distribute our python program as an `exe` file
 
+Sometimes the computer in which the python code has to run 
+* may not have python installed in it
+* may not have  internet to install python
+* may not have additional e
 
-```python
-import pandas as pd
-# create a dataframe
-x = {
-	"Name": ["Harris", "Miss. Elizabeth"],
-	"Age": [22, 58],
-	"Sex": ["male", "female"]
-	}
-df = pd.DataFrame(x)
 
-print(df.shape)
-# this will print (2,3)
-
-print('Number of rows = {0}'.format(df.shape[0]))
-print('Number of columns = {0}'.format(df.shape[1]))
-'''
-this will print
-Number of rows = 2
-Number of columns = 3
-'''
-```
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -51,5 +35,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIFB5SW5zdGFsbG
 VyIGZvciBkaXN0cmlidXRpbmcgcHl0aG9uIHByb2dyYW1cbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
-YtMTgnXG4iLCJoaXN0b3J5IjpbMjA5NDg3OTg1M119
+YtMTgnXG4iLCJoaXN0b3J5IjpbLTE0ODM2Nzk3MDhdfQ==
 -->
