@@ -38,9 +38,10 @@ import pandas as pd
 # import Dbf5 module from simpledbf module
 from simpledbf import Dbf5
 
+# path of dbf file
+dbfPath = r'C:\Users\Nagasudhir\Documents\test.dbf'
 
-
-df = dbf.to_dataframe()
+df = dbf.to_dataframe(dbfPath)
 ```
 
 <hr/>
@@ -64,5 +65,5 @@ F0YUZyYW1lIGZyb20gREJGIGZpbGVcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMTgnXG50YWdzOi
 AnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2ls
 bCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbi
-IsImhpc3RvcnkiOls5MzU4MDg3MTFdfQ==
+IsImhpc3RvcnkiOlstNjI0NTQ1MjU0XX0=
 -->
