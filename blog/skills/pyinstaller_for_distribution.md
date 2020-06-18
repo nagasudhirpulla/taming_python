@@ -30,6 +30,7 @@ To install it, run the command `pip install pyinstaller` in command prompt.
 * Now the `index` folder can be deployed in any windows machine
 
 One drawback of using pyinstaller is that all the packages and python itself is packaged inside the deployment folder. This increases the size of deployment.
+
 ### References
 * Official docs - https://www.pyinstaller.org/
 <hr/>
@@ -42,5 +43,5 @@ One drawback of using pyinstaller is that all the packages and python itself is 
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIFB5SW5zdGFsbG
 VyIGZvciBkaXN0cmlidXRpbmcgcHl0aG9uIHByb2dyYW1cbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
-YtMTgnXG4iLCJoaXN0b3J5IjpbLTE3OTkzMjQxNjNdfQ==
+YtMTgnXG4iLCJoaXN0b3J5IjpbLTc5OTA4ODE0OV19
 -->
