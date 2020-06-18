@@ -18,7 +18,10 @@ Sometimes the computer in which the python code has to run
 
 All the above issues in python code deployment can be solved by distributing our python code along with python and its dependencies as an independent folder with `.exe` file to run the code.
 
-This can be done using the `pa`
+This can be done using the `pyinstaller` package
+
+To install it, run the command `pip install pyinstaller` in command prompt.
+
 
 
 ### Online Interpreter
@@ -39,5 +42,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIFB5SW5zdGFsbG
 VyIGZvciBkaXN0cmlidXRpbmcgcHl0aG9uIHByb2dyYW1cbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
-YtMTgnXG4iLCJoaXN0b3J5IjpbOTE4NTgzNDM0XX0=
+YtMTgnXG4iLCJoaXN0b3J5IjpbLTE4MjY3Nzc0MzVdfQ==
 -->
