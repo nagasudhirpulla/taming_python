@@ -1,5 +1,4 @@
-
-## Skill - Getting the shape/dimension of DataFrame
+## Skill - PyInstaller
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -8,12 +7,7 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-Pandas is a python library.
-**DataFrame** is a data structure provided by the pandas library.
-
-Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
-
-In this post, we will learn how to get the shape of a pandas dataframe using **shape** attribute
+In this post, we will learn how to distribute our python program as an exe file
 
 The shape attribute returns the shape of DataFrame as  (nRows, nColumns)
 ```python
@@ -53,8 +47,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIHB5aW5zdGFsbG
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIFB5SW5zdGFsbG
 VyIGZvciBkaXN0cmlidXRpbmcgcHl0aG9uIHByb2dyYW1cbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
-YtMTgnXG4iLCJoaXN0b3J5IjpbLTE0NDUzMjk5OTldfQ==
+YtMTgnXG4iLCJoaXN0b3J5IjpbLTYwNTMwMTk2Ml19
 -->
