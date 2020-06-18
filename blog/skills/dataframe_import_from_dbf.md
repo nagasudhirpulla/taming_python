@@ -59,9 +59,6 @@ print('Number of rows in filteredDf2 = {0}'.format(filteredDf2.shape[0]))
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/RevolvingAngryFrontend?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### References
 * https://stackoverflow.com/questions/41898561/pandas-transform-a-dbf-table-into-a-dataframe
 
@@ -78,5 +75,5 @@ F0YUZyYW1lIGZyb20gREJGIGZpbGVcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMTgnXG50YWdzOi
 AnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2ls
 bCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbi
-IsImhpc3RvcnkiOls0MjkwNzIwNDRdfQ==
+IsImhpc3RvcnkiOlstNzkwMzI2MTU3XX0=
 -->
