@@ -32,6 +32,7 @@ Here are the goals and skills in this tutorial series
 * [Install and manage python packages](https://nagasudhir.blogspot.com/2020/05/install-and-manage-packages-in-python.html)
 * [Virtual environments using 'venv'](https://nagasudhir.blogspot.com/2020/05/virtual-environments-using-venv.html)
 * [Install a python package from source code](https://nagasudhir.blogspot.com/2020/06/install-python-package-from-source-code.html)
+* [Using PyInstaller for distributing python program](https://nagasudhir.blogspot.com/2020/06/using-pyinstaller-for-distributing.html)
 #### Date and Time Skills
 * [Datetime library in python](https://nagasudhir.blogspot.com/2020/05/datetime-library-in-python.html)
 * [Managing time periods using ‘timedelta’ in python](https://nagasudhir.blogspot.com/2020/05/timedeltas-in-python.html)
@@ -72,11 +73,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTY3NDY1MDIyNiwtMTM3NT
-QzNTQxOSwtNDc4NzY5ODMsMTgzMDMyOTQ0NywxMjE2NDgyODcz
-LDEyNzY2NDIwNzUsLTk1OTEwOTk5NiwtMTMxOTcwMDA4NywtMj
-EyMzM5ODc1MiwtMTkxMjQ0OTU1NiwyODQ3MjE1NzMsLTE5NjM5
-MTU2NzAsLTEyOTk4MzUxODUsMTM2NTIxMzkyNSwtMTI1NDE0Mj
-U2OCwtMTMyNjM1OTQ0NSwtNzMzMDQyOTMxLC0yMDc2NzkzODc3
-LDExMzE4ODMwNzIsNDQwMjc4MTcxXX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbNzgxMzA3MTgwLDE2NzQ2NT
+AyMjYsLTEzNzU0MzU0MTksLTQ3ODc2OTgzLDE4MzAzMjk0NDcs
+MTIxNjQ4Mjg3MywxMjc2NjQyMDc1LC05NTkxMDk5OTYsLTEzMT
+k3MDAwODcsLTIxMjMzOTg3NTIsLTE5MTI0NDk1NTYsMjg0NzIx
+NTczLC0xOTYzOTE1NjcwLC0xMjk5ODM1MTg1LDEzNjUyMTM5Mj
+UsLTEyNTQxNDI1NjgsLTEzMjYzNTk0NDUsLTczMzA0MjkzMSwt
+MjA3Njc5Mzg3NywxMTMxODgzMDcyXX0=
 -->
