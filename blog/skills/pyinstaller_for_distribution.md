@@ -26,7 +26,7 @@ To install it, run the command `pip install pyinstaller` in command prompt.
 * Go to the program folder
 * Right click and select 'open command window here'
 * In command prompt type `pyinstaller index.py`. Here `index.py` is the python code entry point. You can replace `index.py` with your filename
-* pyinstaller now creates a packaged folder of the python script inside `dist` folder. Since our python file is index.py, you should see a folder named `index` with a file `index.exe` inside it.
+* pyinstaller now creates a packaged folder of the python script inside `dist` folder. Since our python file is `index.py`, you should see a folder named `index` with a file `index.exe` inside it.
 * Now the `index` folder can be deployed in any windows machine
 
 ### References
@@ -41,5 +41,5 @@ To install it, run the command `pip install pyinstaller` in command prompt.
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIFB5SW5zdGFsbG
 VyIGZvciBkaXN0cmlidXRpbmcgcHl0aG9uIHByb2dyYW1cbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
-YtMTgnXG4iLCJoaXN0b3J5IjpbLTEyMzIzMjY3NDFdfQ==
+YtMTgnXG4iLCJoaXN0b3J5IjpbLTUxMTEyMDEyN119
 -->
