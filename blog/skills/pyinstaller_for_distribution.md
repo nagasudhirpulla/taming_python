@@ -24,7 +24,8 @@ To install it, run the command `pip install pyinstaller` in command prompt.
 
 ### Packaging our code with pyinstaller command
 * Go to the program folder
-* Right click on the white scre
+* Right click and select 'open command window here'
+* In command prompt type `pyinstaller index.py`. Here `index.py` is the python code entry point. You can replace
 
 ### References
 * Official docs - https://www.pyinstaller.org/
@@ -38,5 +39,5 @@ To install it, run the command `pip install pyinstaller` in command prompt.
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIFB5SW5zdGFsbG
 VyIGZvciBkaXN0cmlidXRpbmcgcHl0aG9uIHByb2dyYW1cbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
-YtMTgnXG4iLCJoaXN0b3J5IjpbLTE1MTcwNzA4OTFdfQ==
+YtMTgnXG4iLCJoaXN0b3J5IjpbNzY3MzA0NTIxXX0=
 -->
