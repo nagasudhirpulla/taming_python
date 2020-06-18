@@ -41,6 +41,7 @@ from simpledbf import Dbf5
 # path of dbf file
 dbfPath = r'C:\Users\Nagasudhir\Documents\test.dbf'
 
+# import dataframe from file path
 df = dbf.to_dataframe(dbfPath)
 ```
 
@@ -65,5 +66,5 @@ F0YUZyYW1lIGZyb20gREJGIGZpbGVcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMTgnXG50YWdzOi
 AnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2ls
 bCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbi
-IsImhpc3RvcnkiOlstNjI0NTQ1MjU0XX0=
+IsImhpc3RvcnkiOlsyMDE3NDQ2MjQ0XX0=
 -->
