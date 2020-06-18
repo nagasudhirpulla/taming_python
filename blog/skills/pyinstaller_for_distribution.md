@@ -24,14 +24,8 @@ To install it, run the command `pip install pyinstaller` in command prompt.
 
 
 
-### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
-
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/DaringFastUser?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### References
-* Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
+* Official docs - https://www.pyinstaller.org/
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -42,5 +36,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIFB5SW5zdGFsbG
 VyIGZvciBkaXN0cmlidXRpbmcgcHl0aG9uIHByb2dyYW1cbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
-YtMTgnXG4iLCJoaXN0b3J5IjpbLTE4MjY3Nzc0MzVdfQ==
+YtMTgnXG4iLCJoaXN0b3J5IjpbLTE4OTMxMDI5MjBdfQ==
 -->
