@@ -11,9 +11,10 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 <hr/>
+In this post, we will learn how to import dataframe from a `dbf` file
 
-
-In this post, we will learn how to filter the rows of a DataFrame based on our desired criteria
+In order to import dataframe from dbf file, we require simpledbf module
+Install simpledbf 
 
 ### Example
 ```python
@@ -50,5 +51,5 @@ F0YUZyYW1lIGZyb20gREJGIGZpbGVcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMTgnXG50YWdzOi
 AnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2ls
 bCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbi
-IsImhpc3RvcnkiOls1MjM3NDgxOTNdfQ==
+IsImhpc3RvcnkiOlstMTQ3OTAzMjY2Ml19
 -->
