@@ -33,25 +33,14 @@ Suppose in a DataFrame `df` we want to get rows with values in column 'A' greate
 
 ### Example
 ```python
+# import pandas module
 import pandas as pd
-# create dataframe from excel
-df = pd.read_csv('gen_schedules.csv')
+# import Dbf5 module from simpledbf module
+from simpledbf import Dbf5
 
-print('Number of rows in df = {0}'.format(df.shape[0]))
-# this prints Number of rows in df = 100
 
-# filter the rows with CGPL values greater than 2200
-filteredDf = df[df['CGPL']>2200]
 
-print('Number of rows in filteredDf = {0}'.format(filteredDf.shape[0]))
-# this prints Number of rows in filteredDf = 65
-
-# filter the rows with CGPL values greater than 2200 and KSTPS7 less than 450
-# we can achieve this via the logical operator '&'
-filteredDf2 = df[(df['CGPL']>2200) & (df['KSTPS7']<450)]
-
-print('Number of rows in filteredDf2 = {0}'.format(filteredDf2.shape[0]))
-# this prints Number of rows in filteredDf2 = 10
+df = dbf.to_dataframe()
 ```
 
 <hr/>
@@ -75,5 +64,5 @@ F0YUZyYW1lIGZyb20gREJGIGZpbGVcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMTgnXG50YWdzOi
 AnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2ls
 bCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbi
-IsImhpc3RvcnkiOlstNzkwMzI2MTU3XX0=
+IsImhpc3RvcnkiOls5MzU4MDg3MTFdfQ==
 -->
