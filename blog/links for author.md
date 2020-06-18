@@ -6,13 +6,11 @@ anatomy of matplotlib figure - https://matplotlib.org/3.2.1/gallery/showcase/ana
 
 python subprocess communication - https://eli.thegreenplace.net/2017/interacting-with-a-long-running-child-process-in-python/
 
-using pyinstaller for software distribution
-
 
 ### TODOS
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjM0NjQyNSwtMTkzOTA0NzY4NywxOT
-IxMDA4MjIsLTM1MjkyMTYwLDExOTA0ODA5NTAsLTE0Njk3OTY4
-MzddfQ==
+eyJoaXN0b3J5IjpbLTE0MDA0MTc1MjgsLTE5MzkwNDc2ODcsMT
+kyMTAwODIyLC0zNTI5MjE2MCwxMTkwNDgwOTUwLC0xNDY5Nzk2
+ODM3XX0=
 -->
