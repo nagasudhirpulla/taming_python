@@ -8,7 +8,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 <hr/>
-In this post, we will learn how to distribute our python program as an `exe` file
+In this post, we will learn how to distribute our python program as `.exe` file
 
 Sometimes the computer in which the python code has to run 
 * may not have python installed in it
@@ -16,7 +16,9 @@ Sometimes the computer in which the python code has to run
 * may not have additional package dependencies
 * may have conflicting versions of python libraries
 
-All the above issues in python code deployment can be solved by distributing all our python code 
+All the above issues in python code deployment can be solved by distributing our python code along with python and its dependencies as an independent folder with `.exe` file to run the code.
+
+This can be done using the `pa`
 
 
 ### Online Interpreter
@@ -37,5 +39,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIFB5SW5zdGFsbG
 VyIGZvciBkaXN0cmlidXRpbmcgcHl0aG9uIHByb2dyYW1cbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
-YtMTgnXG4iLCJoaXN0b3J5IjpbMTQzMTYyMTYzMV19
+YtMTgnXG4iLCJoaXN0b3J5IjpbOTE4NTgzNDM0XX0=
 -->
