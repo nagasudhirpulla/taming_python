@@ -13,7 +13,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 In this post, we will learn how to import dataframe from a `dbf` file
 
-In order to import dataframe from dbf file, we require simpledbf module
+In order to import dataframe from dbf file, we require simpledbf module.
 Install simpledbf using the command `pip install simpledbf`
 
 ### Example
@@ -51,5 +51,6 @@ F0YUZyYW1lIGZyb20gREJGIGZpbGVcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMTgnXG50YWdzOi
 AnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2ls
 bCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbi
-IsImhpc3RvcnkiOlstMTI1MzM0MTQ0Ml19
+IsImhpc3RvcnkiOlsxNjYzOTc5OTcwLC0xMjUzMzQxNDQyXX0=
+
 -->
