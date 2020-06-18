@@ -45,6 +45,8 @@ One drawback of using pyinstaller is that all the packages and python itself is 
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIFB5SW5zdGFsbG
 VyIGZvciBkaXN0cmlidXRpbmcgcHl0aG9uIHByb2dyYW1cbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
-YtMTgnXG4iLCJoaXN0b3J5IjpbNzEwNTk3OTk1LC03OTkwODgx
-NDldfQ==
+YtMTgnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5n
+X3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weX
+Rob25fc2tpbGxcbiIsImhpc3RvcnkiOlstOTg4MTAwMzEyLDcx
+MDU5Nzk5NSwtNzk5MDg4MTQ5XX0=
 -->
