@@ -24,6 +24,7 @@
 
 #### Video
 The video tutorial for this post can be found [here](https://www.youtube.com/watch?v=R0ybkd2DapU)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R0ybkd2DapU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Further Reading
@@ -42,9 +43,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFNldHVwIFB5dGhvbiBEZX
 ZlbG9wbWVudCBFbnZpcm9ubWVudFxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAncHl0aG9uLGxlYXJuaW5nLHR1dG
 9yaWFsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
-bFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbMj
-AzNDA4NTkxNCwtMTAzMjQ3OTkwMSwyMDgwMDI4MDM5LDgyOTMx
-MzIxMSwxNjU5MjQ5MjU0LDE5MjU2MjM2NDYsLTMxMDUxMzUwMC
-w4MDU0MzYyNzUsLTc2NTU3NjI5NSwxMDg3Mzk2NTAzLC0xOTQw
-NzIwNjQ2LDkzMzY1NDcxMF19
+bFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbOT
+Q1MTc5ODQ4LC0xMDMyNDc5OTAxLDIwODAwMjgwMzksODI5MzEz
+MjExLDE2NTkyNDkyNTQsMTkyNTYyMzY0NiwtMzEwNTEzNTAwLD
+gwNTQzNjI3NSwtNzY1NTc2Mjk1LDEwODczOTY1MDMsLTE5NDA3
+MjA2NDYsOTMzNjU0NzEwXX0=
 -->
