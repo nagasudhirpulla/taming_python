@@ -22,6 +22,9 @@
 ![Using the run python file in terminal button](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/run-python-file-in-terminal-button.png)
 * You can Debug python files using menu *Run->Start Debugging*
 
+#### Video
+The video tutorial for this post can be found []()
+
 #### Further Reading
 * For more beginner tutorial on VS Code visit https://code.visualstudio.com/docs/python/python-tutorial
 
@@ -39,8 +42,8 @@ ZlbG9wbWVudCBFbnZpcm9ubWVudFxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAncHl0aG9uLGxlYXJuaW5nLHR1dG
 9yaWFsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2ls
 bFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbLT
-EwMzI0Nzk5MDEsMjA4MDAyODAzOSw4MjkzMTMyMTEsMTY1OTI0
-OTI1NCwxOTI1NjIzNjQ2LC0zMTA1MTM1MDAsODA1NDM2Mjc1LC
-03NjU1NzYyOTUsMTA4NzM5NjUwMywtMTk0MDcyMDY0Niw5MzM2
-NTQ3MTBdfQ==
+Y4MzI5Njc5MywtMTAzMjQ3OTkwMSwyMDgwMDI4MDM5LDgyOTMx
+MzIxMSwxNjU5MjQ5MjU0LDE5MjU2MjM2NDYsLTMxMDUxMzUwMC
+w4MDU0MzYyNzUsLTc2NTU3NjI5NSwxMDg3Mzk2NTAzLC0xOTQw
+NzIwNjQ2LDkzMzY1NDcxMF19
 -->
