@@ -44,6 +44,9 @@ print("Hello world!")
 * You should see __Hello world!__ printed in the terminal
 * Notice the the first 2 lines are not executed since they are comments
 
+### Video
+Watch video on this post [here]()
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m1DMHx8Yxj4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -62,6 +65,6 @@ hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 cHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weX
 Rob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9u
 X3NraWxsXG5kYXRlOiAnMjAyMC0wNC0xNSdcbiIsImhpc3Rvcn
-kiOls4MTU1MTAwNCw4MTUxNzcxMjMsLTIxMTM1MTg4NzNdfQ==
+kiOls5OTA3ODExNDcsODE1MTc3MTIzLC0yMTEzNTE4ODczXX0=
 
 -->
