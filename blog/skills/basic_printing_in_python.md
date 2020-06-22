@@ -30,6 +30,9 @@ from colored import fg, bg, attr
 
 # print Hello World !!! with red foreground and blue background
 print ('{0}{1}Hello World !!!{2}'.format(fg('red'), bg('blue'), attr('reset')))
+
+# print Hello World !!! with green color
+print ('{0}Hello World !!!{1}'.format(fg('green'), attr('reset')))
 ```
 
 #### Run this in Visual Studio Code
@@ -64,7 +67,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlsxOTE1MDU1Mzk3LD
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlsxOTIxMjMwNTA4LD
 EzOTcwMDU1MzIsLTE2NzQyODkyNTEsMTgwNDM2OTE1MCwzOTYy
 NDE4NTAsLTIwNzAxNDEyODAsNDIxNjA3OTc3LC0xMjYzMjQ1NT
 gwLDEzNTkyNDI5NjIsNzc2NzMzMjg0XX0=
