@@ -46,9 +46,6 @@ If you run `hello.py --name Sudhir` then you should see `Hello Sudhir !!!` in th
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/UnfitUnsteadyExpertise?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### References
 * Official tutorial - https://docs.python.org/3/library/argparse.html
 
@@ -59,5 +56,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTMzMDg0ODJdfQ==
+eyJoaXN0b3J5IjpbLTMwMDA4ODA5OF19
 -->
