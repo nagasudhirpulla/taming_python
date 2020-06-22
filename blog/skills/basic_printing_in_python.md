@@ -34,6 +34,7 @@ print ('{0}{1}Hello World !!!{2}'.format(fg('red'), bg('blue'), attr('reset')))
 # print Hello World !!! with green color
 print ('{0}Hello World !!!{1}'.format(fg('green'), attr('reset')))
 ```
+For more information on colors in `colored` module click [here](https://pypi.org/project/colored/)
 
 #### Run this in Visual Studio Code
 * Create a folder in your PC
@@ -57,6 +58,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 ### References
 * Official documentation - https://docs.python.org/3/library/functions.html#print
+* `colored` module - https://pypi.org/project/colored/
 * Colored printing guide - https://www.geeksforgeeks.org/print-colors-python-terminal/
 
 <hr/>
@@ -67,8 +69,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlsxOTIxMjMwNTA4LD
-EzOTcwMDU1MzIsLTE2NzQyODkyNTEsMTgwNDM2OTE1MCwzOTYy
-NDE4NTAsLTIwNzAxNDEyODAsNDIxNjA3OTc3LC0xMjYzMjQ1NT
-gwLDEzNTkyNDI5NjIsNzc2NzMzMjg0XX0=
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlstMTA4OTk2MzY4Mi
+wxMzk3MDA1NTMyLC0xNjc0Mjg5MjUxLDE4MDQzNjkxNTAsMzk2
+MjQxODUwLC0yMDcwMTQxMjgwLDQyMTYwNzk3NywtMTI2MzI0NT
+U4MCwxMzU5MjQyOTYyLDc3NjczMzI4NF19
 -->
