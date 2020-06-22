@@ -24,7 +24,10 @@ print('!!!')
 
 ### colored printing using the 'colored' module
 Use ```pip install colored``` in command prompt to install `colored` module
-
+```python
+# 
+print ('{0}{1} Hello World !!! {2}'.format(fg('white'), bg('yellow'), attr('reset')))
+```
 
 #### Run this in Visual Studio Code
 * Create a folder in your PC
@@ -58,8 +61,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlstMTY3NDI4OTI1MS
-wxODA0MzY5MTUwLDM5NjI0MTg1MCwtMjA3MDE0MTI4MCw0MjE2
-MDc5NzcsLTEyNjMyNDU1ODAsMTM1OTI0Mjk2Miw3NzY3MzMyOD
-RdfQ==
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlsxMDg2NzE0NDI0LC
+0xNjc0Mjg5MjUxLDE4MDQzNjkxNTAsMzk2MjQxODUwLC0yMDcw
+MTQxMjgwLDQyMTYwNzk3NywtMTI2MzI0NTU4MCwxMzU5MjQyOT
+YyLDc3NjczMzI4NF19
 -->
