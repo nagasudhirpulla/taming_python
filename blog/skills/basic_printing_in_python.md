@@ -12,6 +12,10 @@ In order to print the _Hello world!_ string, use the [print()](http://docs.pytho
 print("Hello world!")
 ```
 
+### 'end' input to suppress new line
+```
+```
+
 #### Run this in Visual Studio Code
 * Create a folder in your PC
 * Open this folder in Visual Studio Code using menu _File->Open Folder_
@@ -40,7 +44,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlsxODExMjQ4MDYwLD
-M5NjI0MTg1MCwtMjA3MDE0MTI4MCw0MjE2MDc5NzcsLTEyNjMy
-NDU1ODAsMTM1OTI0Mjk2Miw3NzY3MzMyODRdfQ==
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOls0MTQzOTcyNDYsMz
+k2MjQxODUwLC0yMDcwMTQxMjgwLDQyMTYwNzk3NywtMTI2MzI0
+NTU4MCwxMzU5MjQyOTYyLDc3NjczMzI4NF19
 -->
