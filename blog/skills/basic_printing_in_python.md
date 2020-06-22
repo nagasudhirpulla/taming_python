@@ -28,8 +28,8 @@ Use ```pip install colored``` in command prompt to install `colored` module
 # import fg, bg, attr sub modules from colored module
 from colored import fg, bg, attr
 
-# print Hello World with red foreground and blue background
-print ('{0}{1} Hello World !!! {2}'.format(fg('red'), bg('blue'), attr('reset')))
+# print Hello World !!! with red foreground and blue background
+print ('{0}{1}Hello World !!!{2}'.format(fg('red'), bg('blue'), attr('reset')))
 ```
 
 #### Run this in Visual Studio Code
@@ -64,8 +64,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOls0Mzg0NDQwOTIsMT
-M5NzAwNTUzMiwtMTY3NDI4OTI1MSwxODA0MzY5MTUwLDM5NjI0
-MTg1MCwtMjA3MDE0MTI4MCw0MjE2MDc5NzcsLTEyNjMyNDU1OD
-AsMTM1OTI0Mjk2Miw3NzY3MzMyODRdfQ==
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlsxOTE1MDU1Mzk3LD
+EzOTcwMDU1MzIsLTE2NzQyODkyNTEsMTgwNDM2OTE1MCwzOTYy
+NDE4NTAsLTIwNzAxNDEyODAsNDIxNjA3OTc3LC0xMjYzMjQ1NT
+gwLDEzNTkyNDI5NjIsNzc2NzMzMjg0XX0=
 -->
