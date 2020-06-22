@@ -15,6 +15,7 @@ pip install argparse
 ```
 
 We can take named inputs from command line using `argparse` module
+Suppose we want to read a named argument say name, then user should type `--name <username>`
 
 #### Example
 Create a new file named `hello.py` with the following code
@@ -54,5 +55,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2MjEyODg4XX0=
+eyJoaXN0b3J5IjpbNTA3MTYxNDg5XX0=
 -->
