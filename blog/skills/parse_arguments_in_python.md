@@ -3,27 +3,11 @@
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
-* [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
-* [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
-* [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
-* [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
+<hr/>
 
-Pandas is a python library.
-**DataFrame** is a data structure provided by the pandas library.
-
-Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
-
-In this post, we will learn common excel input output scenarios with pandas DataFrames
-
-#### Instructions to run the codes below
-* Create a folder and place the csv file used in this post from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/gen_schedules.csv) and excel file used in this post from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/gen_schedules.xlsx)
-* Open the folder in Visual Studio Code
-* Create and work on python files in this folder
-
-The excel files should look like the image below 
-![excel_file_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/all_gen_data.png)
+In this post we will understand how to read command line arguments
 
 #### Creating a DataFrame from excel files using 'read_csv' or 'read_excel'
 read the documentation of `read_csv` [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
@@ -147,5 +131,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTMyNDY2ODRdfQ==
+eyJoaXN0b3J5IjpbNTgxNzM1MzYzXX0=
 -->
