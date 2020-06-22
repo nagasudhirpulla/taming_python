@@ -29,10 +29,11 @@ args = parser.parse_args()
 name = args.name
 
 if name!=None:
-    print('name = {0}'.format(name))
+    print('Hello {0} !!!'.format(name))
 else:
     print('name not provided...')
 ```
+If you run `hello.py --name Sudhir` then you should see `Hello Sudhir !!!` in the output
 
 
 ### Online Interpreter
@@ -51,5 +52,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTE3NjI1OV19
+eyJoaXN0b3J5IjpbLTE2MTU4ODYyMzldfQ==
 -->
