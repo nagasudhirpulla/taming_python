@@ -42,10 +42,6 @@ else:
 ```
 If you run `hello.py --name Sudhir` then you should see `Hello Sudhir !!!` in the output
 
-
-### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
-
 ### References
 * Official tutorial - https://docs.python.org/3/library/argparse.html
 
@@ -56,5 +52,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDA4ODA5OF19
+eyJoaXN0b3J5IjpbMTc4MzQ2NTk0Ml19
 -->
