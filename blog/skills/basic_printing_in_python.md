@@ -22,6 +22,10 @@ print('World', end=' ')
 print('!!!')
 ```
 
+### colored printing using the 'colored' module
+Use ```pip install colored``` in command prompt to install `colored` module
+
+
 #### Run this in Visual Studio Code
 * Create a folder in your PC
 * Open this folder in Visual Studio Code using menu _File->Open Folder_
@@ -44,6 +48,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 ### References
 * Official documentation - https://docs.python.org/3/library/functions.html#print
+* Colored printing guide - https://www.geeksforgeeks.org/print-colors-python-terminal/
 
 <hr/>
 
@@ -53,7 +58,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlsxODA0MzY5MTUwLD
-M5NjI0MTg1MCwtMjA3MDE0MTI4MCw0MjE2MDc5NzcsLTEyNjMy
-NDU1ODAsMTM1OTI0Mjk2Miw3NzY3MzMyODRdfQ==
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlstMTY3NDI4OTI1MS
+wxODA0MzY5MTUwLDM5NjI0MTg1MCwtMjA3MDE0MTI4MCw0MjE2
+MDc5NzcsLTEyNjMyNDU1ODAsMTM1OTI0Mjk2Miw3NzY3MzMyOD
+RdfQ==
 -->
