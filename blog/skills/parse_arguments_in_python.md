@@ -1,4 +1,4 @@
-## Skill - parse named command line arguments with argparse module in python
+## Skill - parse named command line arguments with argparse module
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -52,5 +52,5 @@ If you run `hello.py --name Sudhir` then you should see `Hello Sudhir !!!` in th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTg1NzcxMTZdfQ==
+eyJoaXN0b3J5IjpbODc2ODkwODkzXX0=
 -->
