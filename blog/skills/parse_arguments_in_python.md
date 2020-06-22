@@ -16,13 +16,21 @@ pip install argparse
 
 #### Example
 ```python
-import pandas as pd
+# hello.py
+import argparse
+parser = argparse.ArgumentParser()
 
-dfCsv = pd.read_csv('gen_schedules.csv')
-print(dfCsv)
+# add argument with flag --name
+parser.add_argument('--name', help='Persons name')
+args = parser.parse_args()
 
-dfExcel = pd.read_excel('gen_schedules.xlsx')
-print(dfExcel)
+# read name from arguments
+name = args.name
+
+if name!=None:
+    print('name = {0}'.format(name))
+else:
+    print('name not provided...')
 ```
 
 ### read data from a specific excel sheet using "sheet_name" option
@@ -130,5 +138,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDg3NTQxOV19
+eyJoaXN0b3J5IjpbMTMyNDQwNTgyMF19
 -->
