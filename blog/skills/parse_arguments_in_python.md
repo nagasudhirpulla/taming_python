@@ -9,7 +9,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will understand how to read command line arguments using `argparse` module
 
-Install argparse module using `pip install argparse` 
+Install argparse module by entering `pip install argparse` in command prompt
 
 #### Creating a DataFrame from excel files using 'read_csv' or 'read_excel'
 read the documentation of `read_csv` [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
@@ -129,5 +129,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxODM3MTM5XX0=
+eyJoaXN0b3J5IjpbLTE4Mzk0MzM0ODBdfQ==
 -->
