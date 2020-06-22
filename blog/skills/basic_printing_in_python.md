@@ -14,8 +14,12 @@ print("Hello world!")
 
 ### 'end' input to suppress new line
 use 'end' input to print function to suppress new line for each print function call
-```
-
+```python
+# space printed at the end instead of new line
+print('Hello', end=' ')
+# space printed at the end instead of new line
+print('World', end=' ')
+print('!!!')
 ```
 
 #### Run this in Visual Studio Code
@@ -46,7 +50,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlstNDc4NTg2Mzk1LD
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlsxMDgyMTUyNDA4LD
 M5NjI0MTg1MCwtMjA3MDE0MTI4MCw0MjE2MDc5NzcsLTEyNjMy
 NDU1ODAsMTM1OTI0Mjk2Miw3NzY3MzMyODRdfQ==
 -->
