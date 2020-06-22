@@ -7,7 +7,9 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post we will understand how to read command line arguments
+In this post we will understand how to read command line arguments using `argparse` module
+
+Install argparse module using `pip install argparse` 
 
 #### Creating a DataFrame from excel files using 'read_csv' or 'read_excel'
 read the documentation of `read_csv` [here](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
@@ -118,11 +120,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 <iframe height="800px" width="100%" src="https://repl.it/repls/UnfitUnsteadyExpertise?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
-* Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
-* *read_excel* documentation - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html
-*  *read_csv* documentation - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html#pandas.read_csv
-* *to_csv* documentation - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html
-* *to_excel* documentation - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_excel.html#pandas.DataFrame.to_excel
+* Official tutorial - https://docs.python.org/3/library/argparse.html
 
 <hr/>
 
@@ -131,5 +129,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxNzM1MzYzXX0=
+eyJoaXN0b3J5IjpbNTgxODM3MTM5XX0=
 -->
