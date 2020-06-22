@@ -28,6 +28,7 @@ Here are the goals and skills in this tutorial series
 * [List comprehensions in python](https://nagasudhir.blogspot.com/2020/05/list-comprehensions-in-python.html)
 * [Create random numbers in python](https://nagasudhir.blogspot.com/2020/05/create-random-numbers-in-python.html)
 * [Handling errors in python](https://nagasudhir.blogspot.com/2020/05/hnadling-errors-in-python.html)
+* [Named command line arguments using argparse](https://nagasudhir.blogspot.com/2020/06/named-command-line-arguments-using.html)
 #### Package management skills
 * [Install and manage python packages](https://nagasudhir.blogspot.com/2020/05/install-and-manage-packages-in-python.html)
 * [Virtual environments using 'venv'](https://nagasudhir.blogspot.com/2020/05/virtual-environments-using-venv.html)
@@ -74,11 +75,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEyNzIyNTUyODAsNzgxMz
-A3MTgwLDE2NzQ2NTAyMjYsLTEzNzU0MzU0MTksLTQ3ODc2OTgz
-LDE4MzAzMjk0NDcsMTIxNjQ4Mjg3MywxMjc2NjQyMDc1LC05NT
-kxMDk5OTYsLTEzMTk3MDAwODcsLTIxMjMzOTg3NTIsLTE5MTI0
-NDk1NTYsMjg0NzIxNTczLC0xOTYzOTE1NjcwLC0xMjk5ODM1MT
-g1LDEzNjUyMTM5MjUsLTEyNTQxNDI1NjgsLTEzMjYzNTk0NDUs
-LTczMzA0MjkzMSwtMjA3Njc5Mzg3N119
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE3NTQ1MzAwODAsLTEyNz
+IyNTUyODAsNzgxMzA3MTgwLDE2NzQ2NTAyMjYsLTEzNzU0MzU0
+MTksLTQ3ODc2OTgzLDE4MzAzMjk0NDcsMTIxNjQ4Mjg3MywxMj
+c2NjQyMDc1LC05NTkxMDk5OTYsLTEzMTk3MDAwODcsLTIxMjMz
+OTg3NTIsLTE5MTI0NDk1NTYsMjg0NzIxNTczLC0xOTYzOTE1Nj
+cwLC0xMjk5ODM1MTg1LDEzNjUyMTM5MjUsLTEyNTQxNDI1Njgs
+LTEzMjYzNTk0NDUsLTczMzA0MjkzMV19
 -->
