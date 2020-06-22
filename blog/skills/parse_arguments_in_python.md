@@ -1,4 +1,4 @@
-## Skill - parse named command line arguments with argparse module
+## Skill - Read Named command line inputs with argparse module
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -57,6 +57,6 @@ luZSBhcmd1bWVudHMgdXNpbmcgYXJncGFyc2VcbmF1dGhvcjog
 TmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjInXG
 50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhv
 bl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2
-tpbGxcbiIsImhpc3RvcnkiOlstMTg1Nzk3MDYwOCw4NzY4OTA4
-OTNdfQ==
+tpbGxcbiIsImhpc3RvcnkiOlstNzA1NDQwNDYwLDg3Njg5MDg5
+M119
 -->
