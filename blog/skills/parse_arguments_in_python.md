@@ -21,7 +21,7 @@ We can take named inputs from command line using `argparse` module
 
 If named argument is not provided, then argparse will return `None`
 
-#### Example
+### Example
 Create a new file named `hello.py` with the following code
 ```python
 # import argparse module and get parser
@@ -57,6 +57,6 @@ luZSBhcmd1bWVudHMgdXNpbmcgYXJncGFyc2VcbmF1dGhvcjog
 TmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjInXG
 50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhv
 bl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2
-tpbGxcbiIsImhpc3RvcnkiOlsyMTc0Nzk0NDQsODc2ODkwODkz
+tpbGxcbiIsImhpc3RvcnkiOlsxNTA2NzE1NTEsODc2ODkwODkz
 XX0=
 -->
