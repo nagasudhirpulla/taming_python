@@ -13,7 +13,7 @@ print("Hello world!")
 ```
 
 ### 'end' input to suppress new line
-use 'end' input to print function to suppress new line at the end of 
+use 'end' input to print function to suppress new line for each print function call
 ```
 
 ```
@@ -46,7 +46,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlsxMzI2MDI5NTIsMz
-k2MjQxODUwLC0yMDcwMTQxMjgwLDQyMTYwNzk3NywtMTI2MzI0
-NTU4MCwxMzU5MjQyOTYyLDc3NjczMzI4NF19
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlstNDc4NTg2Mzk1LD
+M5NjI0MTg1MCwtMjA3MDE0MTI4MCw0MjE2MDc5NzcsLTEyNjMy
+NDU1ODAsMTM1OTI0Mjk2Miw3NzY3MzMyODRdfQ==
 -->
