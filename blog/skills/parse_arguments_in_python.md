@@ -14,7 +14,7 @@ Install **argparse** module by entering the following in command prompt
 pip install argparse
 ```
 
-We can take 
+We can take named inputs from command line using `argparse` module
 
 #### Example
 Create a new file named `hello.py` with the following code
@@ -54,5 +54,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzA3NTcwOF19
+eyJoaXN0b3J5IjpbNzA2MjEyODg4XX0=
 -->
