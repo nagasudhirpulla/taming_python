@@ -31,6 +31,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 <iframe height="800px" width="100%" src="https://repl.it/repls/SeriousFoolhardyApplicationserver?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <hr/>
+
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEdldHRpbmcgdHlwZSBvZi
@@ -38,5 +39,5 @@ BweXRob24gdmFyaWFibGVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaW
 FsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
 dGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMD
-YnXG4iLCJoaXN0b3J5IjpbLTE5NjY5NjA0NjNdfQ==
+YnXG4iLCJoaXN0b3J5IjpbOTkwOTQwNjExXX0=
 -->
