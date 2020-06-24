@@ -40,6 +40,10 @@ y = 2*x
 z = x + y
 ```
 
+
+### Further Reading
+* http://thomas-cokelaer.info/tutorials/python/boolean.html#booleans
+
 ### Video
 You can see the video for this post [here](https://youtu.be/FMKUJ9Q605A)
 
@@ -61,6 +65,6 @@ b25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5
-IjpbLTEyMjIxNzY0MTYsLTM3OTcxNzU3Niw1NDY5Nzg1MTcsNj
-E0MTE0NDQyLDEyODYyMjUxOTZdfQ==
+IjpbMTkwNDQwMTA4MSwtMTIyMjE3NjQxNiwtMzc5NzE3NTc2LD
+U0Njk3ODUxNyw2MTQxMTQ0NDIsMTI4NjIyNTE5Nl19
 -->
