@@ -64,8 +64,8 @@ calendar.monthrange(yr, mnth)[1]
 
 You can use this function in your own projects directly from the algorithm implementation code written above
 
-#### Points to remember
-* If we 
+#### Points to notice
+* If we subtract 1 month from 29 Mar or 30 March or 31 March 2020, we will get 29 Feb 2020 as per our algorithm.
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ or https://repl.it/
@@ -87,8 +87,8 @@ Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG50YW
 dzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9z
 a2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbG
-xcbiIsImhpc3RvcnkiOlstMTY1MDEwMTA5MSwxMTE4OTQxMjE2
-LDY5NDEwOTA5Nyw2OTQxMDkwOTcsLTI2OTQ5MDcwMywxMzA2Nz
-c4ODIxLC0yMTQzODI4NzE2LDEwNjgzNDEwMDAsNzMwOTk4MTE2
-XX0=
+xcbiIsImhpc3RvcnkiOlsxMjA0OTQzMTU5LDExMTg5NDEyMTYs
+Njk0MTA5MDk3LDY5NDEwOTA5NywtMjY5NDkwNzAzLDEzMDY3Nz
+g4MjEsLTIxNDM4Mjg3MTYsMTA2ODM0MTAwMCw3MzA5OTgxMTZd
+fQ==
 -->
