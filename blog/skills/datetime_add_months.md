@@ -38,7 +38,7 @@ def addMonths(inpDt, mnths):
   # Result month component would be (input month - 1 + k)%12 + 1
   resMnth = tmpMnth % 12 + 1
 
-  # Result day component would be minimum of input date component and max date of that result month (For example we cant have day component as 30 in February month)
+  # Result day component would be minimum of input date component and max date of the result month (For example we cant have day component as 30 in February month)
   # Maximum date in a month can be found using the calendar module monthrange function as shown below
   resDay = min(inpDt.day, calendar.monthrange(resYr,resMnth)[1])
 
@@ -78,7 +78,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbMTIxNjIwNDE1MywtMjY5NDkwNzAzLDEzMDY3
+JoaXN0b3J5IjpbMTI1MTQ4MTIzNSwtMjY5NDkwNzAzLDEzMDY3
 Nzg4MjEsLTIxNDM4Mjg3MTYsMTA2ODM0MTAwMCw3MzA5OTgxMT
 ZdfQ==
 -->
