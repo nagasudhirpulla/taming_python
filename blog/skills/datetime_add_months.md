@@ -21,7 +21,7 @@ The algorithm we are using is as follows
 * Add floor(input month - 1 + k) to input year component to get result year component
 * Result month component would be (input month -1 + k)%12 + 1
 * Result day component would be minimum of input date component and max date of that result month (For example we cant have day component as 30 in February month)
-* hour, minute, seconds and microseconds component will be the same as input datetime
+* hour, minute, seconds and microsecond components of result time will be the same as input datetime
 
 If implementation of above algorithm as a function in python would be
 ```python
@@ -80,7 +80,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbLTE4MDUzMzAyMTcsLTI2OTQ5MDcwMywxMzA2
-Nzc4ODIxLC0yMTQzODI4NzE2LDEwNjgzNDEwMDAsNzMwOTk4MT
-E2XX0=
+JoaXN0b3J5IjpbNjYzMzcyMzg4LC0yNjk0OTA3MDMsMTMwNjc3
+ODgyMSwtMjE0MzgyODcxNiwxMDY4MzQxMDAwLDczMDk5ODExNl
+19
 -->
