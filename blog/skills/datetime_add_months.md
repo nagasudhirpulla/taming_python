@@ -71,7 +71,7 @@ You can use this function in your own projects directly from the algorithm imple
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ or https://repl.it/
 
 ### You can practice here
-
+<iframe height="800px" width="100%" src="https://repl.it/repls/UnconsciousSmoggyPassword?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 <hr/>
 
@@ -85,7 +85,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbNjk0MTA5MDk3LDY5NDEwOTA5NywtMjY5NDkw
-NzAzLDEzMDY3Nzg4MjEsLTIxNDM4Mjg3MTYsMTA2ODM0MTAwMC
-w3MzA5OTgxMTZdfQ==
+JoaXN0b3J5IjpbMTExODk0MTIxNiw2OTQxMDkwOTcsNjk0MTA5
+MDk3LC0yNjk0OTA3MDMsMTMwNjc3ODgyMSwtMjE0MzgyODcxNi
+wxMDY4MzQxMDAwLDczMDk5ODExNl19
 -->
