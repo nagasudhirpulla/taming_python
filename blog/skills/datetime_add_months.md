@@ -53,7 +53,6 @@ nowDt = dt.datetime.now()
 print('Now =', end=' ')
 print(nowDt)
 
-# this should print the date 2 months later than current time
 print('Now + 2 months =', end=' ')
 print(addMonths(nowDt, 2))
 ```
@@ -76,7 +75,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbMzU5ODEwMjI4LC0yNjk0OTA3MDMsMTMwNjc3
-ODgyMSwtMjE0MzgyODcxNiwxMDY4MzQxMDAwLDczMDk5ODExNl
-19
+JoaXN0b3J5IjpbLTE1OTU0MDg4NjAsLTI2OTQ5MDcwMywxMzA2
+Nzc4ODIxLC0yMTQzODI4NzE2LDEwNjgzNDEwMDAsNzMwOTk4MT
+E2XX0=
 -->
