@@ -23,6 +23,12 @@ The algorithm we are using is as follows
 * Result day component would be minimum of input date component and max date of that result month (For example we cant have day component as 30 in February month)
 * hour, minute, seconds and microseconds component will be the same as input datetime
 
+If implementation of above algorithm as a function in python would be
+```python
+import calendar
+import datetime
+
+```
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ or https://repl.it/
@@ -42,6 +48,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbOTA3MTA1MDE0LDEzMDY3Nzg4MjEsLTIxNDM4
-Mjg3MTYsMTA2ODM0MTAwMCw3MzA5OTgxMTZdfQ==
+JoaXN0b3J5IjpbLTE4NjAzNjc5NTUsMTMwNjc3ODgyMSwtMjE0
+MzgyODcxNiwxMDY4MzQxMDAwLDczMDk5ODExNl19
 -->
