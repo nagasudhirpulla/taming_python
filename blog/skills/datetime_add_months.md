@@ -62,7 +62,7 @@ In the above code, in order to get the maximum date for a given month (mnth) of 
 calendar.monthrange(yr, mnth)[1]
 ```
 
-You can use the function in the algorithm implementation code in your own projects directly
+You can use this function in your own projects directly from the algorithm implementation code written above
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ or https://repl.it/
@@ -82,7 +82,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbMTI4MDg5ODcxMywtMjY5NDkwNzAzLDEzMDY3
-Nzg4MjEsLTIxNDM4Mjg3MTYsMTA2ODM0MTAwMCw3MzA5OTgxMT
-ZdfQ==
+JoaXN0b3J5IjpbLTE0NjY3NzIzOTEsLTI2OTQ5MDcwMywxMzA2
+Nzc4ODIxLC0yMTQzODI4NzE2LDEwNjgzNDEwMDAsNzMwOTk4MT
+E2XX0=
 -->
