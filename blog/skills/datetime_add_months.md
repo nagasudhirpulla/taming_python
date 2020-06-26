@@ -89,7 +89,7 @@ print('microseconds = {0}'.format(t1.microsecond))
 
 
 ### Online Interpreter
-You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
+You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ or https://repl.it/
 
 ### You can practice here
 
@@ -105,5 +105,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbLTIxMjUzNTk2MDQsNzMwOTk4MTE2XX0=
+JoaXN0b3J5IjpbMjExNDkyNjk3Myw3MzA5OTgxMTZdfQ==
 -->
