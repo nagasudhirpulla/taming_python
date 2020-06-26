@@ -57,6 +57,9 @@ print('Now + 2 months =', end=' ')
 print(addMonths(nowDt, 2))
 ```
 
+In the above code, in order to get the maximum date for a given month of a year, we use the following function from calendar module
+calendar.monthrange(yr, mnth)[1]
+
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ or https://repl.it/
 
@@ -75,7 +78,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbLTE1OTU0MDg4NjAsLTI2OTQ5MDcwMywxMzA2
-Nzc4ODIxLC0yMTQzODI4NzE2LDEwNjgzNDEwMDAsNzMwOTk4MT
-E2XX0=
+JoaXN0b3J5IjpbMTIxNjIwNDE1MywtMjY5NDkwNzAzLDEzMDY3
+Nzg4MjEsLTIxNDM4Mjg3MTYsMTA2ODM0MTAwMCw3MzA5OTgxMT
+ZdfQ==
 -->
