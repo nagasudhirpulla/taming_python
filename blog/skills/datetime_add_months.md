@@ -25,12 +25,37 @@ The algorithm we are using is as follows
 
 If implementation of above algorithm as a function in python would be
 ```python
+# import datetime and calendar modules
+import datetime as dt
 import calendar
-import datetime
 
-# function to add months (mnths) to an input datetime (inpDt)
 def addMonths(inpDt, mnths):
-	
+  tmpMnth = inpDt.month - 1 + mnths
+
+  # Add floor((input month - 1 + k)/12) to input year component to get result year component
+  resYr = inpDt.year + tmpMnth // 12
+
+  # Result month component would be (input month - 1 + k)%12 + 1
+  resMnth = tmpMnth % 12 + 1
+
+  # Result day component would be minimum of input date component and max date of that result month (For example we cant have day component as 30 in February month)
+  # Maximum date in a month can be found using the calendar module monthrange function as shown below
+  resDay = min(inpDt.day, calendar.monthrange(resYr,resMnth)[1])
+
+  # construct result datetime with the components derived above
+  resDt = dt.datetime(resYr, resMnth, resDay, inpDt.hour, inpDt.minute, inpDt.second, inpDt.microsecond)
+
+  return resDt
+
+# let's test our function
+nowDt = dt.datetime.now()
+
+print('Now =', end=' ')
+print(nowDt)
+
+# this should print the date 2 months later than current time
+print('Now + 2 months =', end=' ')
+print(addMonths(nowDt, 2))
 ```
 
 ### Online Interpreter
@@ -51,6 +76,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbLTI2OTQ5MDcwMywxMzA2Nzc4ODIxLC0yMTQz
-ODI4NzE2LDEwNjgzNDEwMDAsNzMwOTk4MTE2XX0=
+JoaXN0b3J5IjpbMzU5ODEwMjI4LC0yNjk0OTA3MDMsMTMwNjc3
+ODgyMSwtMjE0MzgyODcxNiwxMDY4MzQxMDAwLDczMDk5ODExNl
+19
 -->
