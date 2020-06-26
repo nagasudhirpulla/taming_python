@@ -17,7 +17,7 @@ In this post we will learn how to add months to a datetime in python
 
 The algorithm we are using is as follows
 
-
+Add a months
 
 
 ### Online Interpreter
@@ -37,5 +37,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbMTA2ODM0MTAwMCw3MzA5OTgxMTZdfQ==
+JoaXN0b3J5IjpbLTg1NDc4NjMzLDEwNjgzNDEwMDAsNzMwOTk4
+MTE2XX0=
 -->
