@@ -67,6 +67,7 @@ You can use this function in your own projects directly from the algorithm imple
 #### Points to notice
 * If we subtract 1 month from 30 Mar or 31 Mar 2020, we will get 29 Feb 2020 as per our algorithm.
 * This might not not be the desired behavior in some cases. For example, some people may want the result to be `none` instead of 29 Mar 2020
+* You can modify the function in our algorithm implementation code to suit your requirements
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ or https://repl.it/
@@ -88,8 +89,8 @@ Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG50YW
 dzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9z
 a2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbG
-xcbiIsImhpc3RvcnkiOlstMjAwOTkwMDIwMSwxMTE4OTQxMjE2
-LDY5NDEwOTA5Nyw2OTQxMDkwOTcsLTI2OTQ5MDcwMywxMzA2Nz
-c4ODIxLC0yMTQzODI4NzE2LDEwNjgzNDEwMDAsNzMwOTk4MTE2
-XX0=
+xcbiIsImhpc3RvcnkiOlstODg4MzE2MTUsMTExODk0MTIxNiw2
+OTQxMDkwOTcsNjk0MTA5MDk3LC0yNjk0OTA3MDMsMTMwNjc3OD
+gyMSwtMjE0MzgyODcxNiwxMDY4MzQxMDAwLDczMDk5ODExNl19
+
 -->
