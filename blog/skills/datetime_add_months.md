@@ -47,7 +47,7 @@ def addMonths(inpDt, mnths):
 
   return resDt
 
-# let's test our function
+# let's test our function with current time
 nowDt = dt.datetime.now()
 
 print('Now =', end=' ')
@@ -61,6 +61,8 @@ In the above code, in order to get the maximum date for a given month (mnth) of 
 ```python
 calendar.monthrange(yr, mnth)[1]
 ```
+
+You can use the function in the algorithm implementation code in your own projects directly
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ or https://repl.it/
@@ -80,7 +82,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbNjYzMzcyMzg4LC0yNjk0OTA3MDMsMTMwNjc3
-ODgyMSwtMjE0MzgyODcxNiwxMDY4MzQxMDAwLDczMDk5ODExNl
-19
+JoaXN0b3J5IjpbMTI4MDg5ODcxMywtMjY5NDkwNzAzLDEzMDY3
+Nzg4MjEsLTIxNDM4Mjg3MTYsMTA2ODM0MTAwMCw3MzA5OTgxMT
+ZdfQ==
 -->
