@@ -20,7 +20,7 @@ Let number of months to add to a particular date be k
 The algorithm we are using is as follows
 
 * Add a input floored month - 1 + k to input year to get result year
-* Result date month component would be (input month -1 + k)%12
+* Result date month component would be (input month -1 + k)%12 + 1
 
 
 ### Online Interpreter
@@ -40,6 +40,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbMzM3ODUzODI4LDEwNjgzNDEwMDAsNzMwOTk4
-MTE2XX0=
+JoaXN0b3J5IjpbLTE5OTcxOTM4MTYsMTA2ODM0MTAwMCw3MzA5
+OTgxMTZdfQ==
 -->
