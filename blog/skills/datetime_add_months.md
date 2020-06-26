@@ -10,7 +10,8 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-`datetime` library in python is very useful in manipulating date-times.
+`datetime` module in python is very useful in manipulating date-times.
+`calendar` module in python is very useful in performing general calendar related functions
 
 ### Installation
 In command prompt type `pip install datetime` and press Enter
@@ -105,5 +106,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbODU4NTMyNzMyLDczMDk5ODExNl19
+JoaXN0b3J5IjpbLTQ3MTUyMjcxMiw3MzA5OTgxMTZdfQ==
 -->
