@@ -28,6 +28,9 @@ If implementation of above algorithm as a function in python would be
 import calendar
 import datetime
 
+# function to add months (mnths) to an input datetime (inpDt)
+def addMonths(inpDt, mnths):
+	
 ```
 
 ### Online Interpreter
@@ -48,6 +51,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbLTE4NjAzNjc5NTUsMTMwNjc3ODgyMSwtMjE0
-MzgyODcxNiwxMDY4MzQxMDAwLDczMDk5ODExNl19
+JoaXN0b3J5IjpbNjkxODY2NDQ4LDEzMDY3Nzg4MjEsLTIxNDM4
+Mjg3MTYsMTA2ODM0MTAwMCw3MzA5OTgxMTZdfQ==
 -->
