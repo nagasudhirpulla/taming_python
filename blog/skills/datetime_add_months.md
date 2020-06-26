@@ -12,80 +12,12 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 `datetime` module in python is very useful in manipulating date-times.
 `calendar` module in python is very useful in performing general calendar related functions
+<hr/>
+In this post we will learn how to add months to a datetime in python
 
-### Installation
-In command prompt type `pip install datetime` and press Enter
+The algorithm we are using is as follows
 
-![pip install datetime image](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pip_install_datetime.png)
-### Create a datetime
-```python
-import datetime as dt
 
-# get current time
-curTime = dt.datetime.now()
-print(curTime)
-
-# create a datetime from a specific date time, say 10th May 2020 15 Hrs, 22 mins, 40 secs
-t1 = dt.datetime(2020, 5, 10, 15, 22, 40)
-print(t1)
-
-# create a datetime from a specific date only, say 10th May 2020
-t2 = dt.datetime(2020, 5, 10)
-print(t2)
-
-# create datetime from UNIX timestamp
-# UNIX timestamp = number seconds from 01 Jan 1970 00:00:00 UTC (also called UNIX epoch)
-t3 = dt.datetime.fromtimestamp(1589068800)
-print(t3)
-
-# get timestamp from datetime
-print(dt.datetime.timestamp(t3))
-```
-As shown above it is really easy to create datetime objects
-
-### get datetime from string using 'strptime'
-By using appropriate format string, we can convert string to datetime objects using `strptime` function
-```python
-import datetime as dt
-
-dtStr1 = '2020-05-10'
-# create datetime object from string using strptime
-dt1 = dt.datetime.strptime(dtStr1, '%Y-%m-%d')
-print(dt1)
-
-dtStr2 = '2020-05-10 15:21:32'
-dt2 = dt.datetime.strptime(dtStr2, '%Y-%m-%d %H:%M:%S')
-print(dt2)
-
-dtStr3 = '05 May 2020 16:58:14'
-dt3 = dt.datetime.strptime(dtStr3, '%d %b %Y %H:%M:%S')
-print(dt3)
-```
-Format codes for string conversion can be seen below
-![datetime  format codes](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/datetime_format_codes.png)
-### Format datetime as string using 'strftime' function
-```python
-import datetime as dt
-
-dt1 = dt.datetime.now()
-# convert datetime object to string using strftime
-dtStr = dt.datetime.strftime(dt1, '%d %b %Y %H:%M:%S')
-print(dtStr)
-```
-
-### access datetime components
-```python
-t1 = dt.datetime.now()
-
-print('original object = {0}'.format(t1))
-print('day = {0}'.format(t1.day))
-print('month = {0}'.format(t1.month))
-print('year = {0}'.format(t1.year))
-print('hours = {0}'.format(t1.hour))
-print('minutes = {0}'.format(t1.minute))
-print('seconds = {0}'.format(t1.second))
-print('microseconds = {0}'.format(t1.microsecond))
-```
 
 
 ### Online Interpreter
@@ -105,5 +37,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbMjExNDkyNjk3Myw3MzA5OTgxMTZdfQ==
+JoaXN0b3J5IjpbMTA2ODM0MTAwMCw3MzA5OTgxMTZdfQ==
 -->
