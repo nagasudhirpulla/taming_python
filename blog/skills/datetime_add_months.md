@@ -92,7 +92,7 @@ print('microseconds = {0}'.format(t1.microsecond))
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
 ### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/VisibleLimitedKeyboardmacro?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 
 <hr/>
 
@@ -105,5 +105,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbNDc0OTg3NzgwLDczMDk5ODExNl19
+JoaXN0b3J5IjpbLTIxMjUzNTk2MDQsNzMwOTk4MTE2XX0=
 -->
