@@ -97,8 +97,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 <hr/>
 
 ### References
-* Detailed examples - https://www.programiz.com/python-programming/datetime
-* Official documentation - https://docs.python.org/3/library/datetime.html
+* Official documentation - https://docs.python.org/3/library/calendar.html
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -106,5 +105,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkZCBvciBzdWJ0cmFjdC
 Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG4iLC
-JoaXN0b3J5IjpbLTQ3MTUyMjcxMiw3MzA5OTgxMTZdfQ==
+JoaXN0b3J5IjpbNDc0OTg3NzgwLDczMDk5ODExNl19
 -->
