@@ -32,7 +32,8 @@ This is particularly useful if you load huge data into your variables
 * Variable Explorer is very handy if you want to examine the variables in the middle of complete code execution, just like debugging
 
 ### Using jupyter notebooks in Visual Studio Code
-
+* Jupyter Notebooks are saved with `.ipynb` extension
+* To create a new ipynb file, open command pallete using Ctrl+
 
 <hr/>
 
@@ -49,7 +50,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls4NTQ4NDY5
-NjYsNDQwNzUwNTc0LC0xNTc0MjIyNDUwLC01NDA1MTMyOTJdfQ
-==
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxOTExNzI4
+Mzg3LDQ0MDc1MDU3NCwtMTU3NDIyMjQ1MCwtNTQwNTEzMjkyXX
+0=
 -->
