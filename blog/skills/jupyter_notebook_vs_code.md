@@ -16,7 +16,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ### References
 * Official tutorial page - https://code.visualstudio.com/docs/python/jupyter-support?ocid=AID2463683&wt.mc_id=ai-c9-sejuare
 * Video by Microsoft - https://youtu.be/_C0vbLV6WdA 
-* 
+
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 
@@ -26,6 +26,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMTcxMDQ5
-MjYzLC01NDA1MTMyOTJdfQ==
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMjY3NTQx
+NjI1LC01NDA1MTMyOTJdfQ==
 -->
