@@ -27,7 +27,7 @@ This is particularly useful if you load huge data into your variables
 ![jupyter_notebook_kernel_output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_kernel_output.png)
 ### Variable Explorer to examine the variables graphically 
 * Once the code cells are executed, the variables will be persisted
-* These can bes
+* These can be seen graphically using the variable explorer button as shown below
 
 
 <hr/>
@@ -45,7 +45,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTAwODM0
-MzA0Myw0NDA3NTA1NzQsLTE1NzQyMjI0NTAsLTU0MDUxMzI5Ml
-19
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstODMxMDA3
+MDUsNDQwNzUwNTc0LC0xNTc0MjIyNDUwLC01NDA1MTMyOTJdfQ
+==
 -->
