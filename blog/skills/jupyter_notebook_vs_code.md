@@ -9,7 +9,7 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
-In this post we are going to learn about how to use jupyter notebooks in Visual Studio Code
+In this post we are going to learn about how to use jupyter notebooks and add jupyter notebook features to python files in Visual Studio Code
 
 ![jupyter_notebook_in_vs_code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_in_vs_code.png)
 ## Why the Jupyter Notebooks approach
@@ -56,7 +56,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxNDYyMDgx
-MDY1LC04MzUxMjIyODQsNDQwNzUwNTc0LC0xNTc0MjIyNDUwLC
-01NDA1MTMyOTJdfQ==
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTk0Mzk1
+MTk5MCwtODM1MTIyMjg0LDQ0MDc1MDU3NCwtMTU3NDIyMjQ1MC
+wtNTQwNTEzMjkyXX0=
 -->
