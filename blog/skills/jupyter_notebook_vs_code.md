@@ -45,6 +45,11 @@ This is particularly useful if you load huge data into your variables
 ![jupyter_notebook_convert_to_python](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_convert_to_python.PNG)
 <hr/>
 
+### Video
+Video on this post can be seen at https://youtu.be/9rLyDk6Gp9M
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9rLyDk6Gp9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 * Official tutorial page - https://code.visualstudio.com/docs/python/jupyter-support?ocid=AID2463683&wt.mc_id=ai-c9-sejuare
 * Video by Microsoft - https://youtu.be/_C0vbLV6WdA 
@@ -58,7 +63,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTEzMTU3
-NTU1MSwtMTk0Mzk1MTk5MCwtODM1MTIyMjg0LDQ0MDc1MDU3NC
-wtMTU3NDIyMjQ1MCwtNTQwNTEzMjkyXX0=
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTQyMzUw
+MjY3NCwtMTEzMTU3NTU1MSwtMTk0Mzk1MTk5MCwtODM1MTIyMj
+g0LDQ0MDc1MDU3NCwtMTU3NDIyMjQ1MCwtNTQwNTEzMjkyXX0=
+
 -->
