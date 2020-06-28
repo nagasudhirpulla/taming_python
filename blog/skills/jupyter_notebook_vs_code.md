@@ -19,7 +19,7 @@ In this post we are going to learn about how to use jupyter notebooks in Visual 
 * One more use case of jupyter notebooks is that you can load data into variables and then play with them as many times as you wish by changing the code. 
 This is particularly useful if you load huge data into your variables
 
-### Add Jupyter notebooks feature to existing python code
+### Add Jupyter notebook features to existing python code
 ![jupyter_notebook_py_file](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_py_file.png)
 * As shown in the image above, just add `# %%` in the line above  your code to make it a jupyter notebook cell
 * The cell controls like Run Cell, Run Above will automatically displayed by Visual Studio Code
@@ -30,6 +30,8 @@ This is particularly useful if you load huge data into your variables
 * These can be seen graphically using the variable explorer button as shown in the below image
 ![jupyter_notebook_variable_explorer](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_variable_explorer.PNG)
 * Variable Explorer is very handy if you want to examine the variables in the middle of complete code execution, just like debugging
+
+### Using jupyter notebooks in Visual Studio Code
 
 
 <hr/>
@@ -47,7 +49,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTc3OTMw
-ODQ1Miw0NDA3NTA1NzQsLTE1NzQyMjI0NTAsLTU0MDUxMzI5Ml
-19
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls4NTQ4NDY5
+NjYsNDQwNzUwNTc0LC0xNTc0MjIyNDUwLC01NDA1MTMyOTJdfQ
+==
 -->
