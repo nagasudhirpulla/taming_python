@@ -4,10 +4,10 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 
 ### TODOS
-create pandas dataframe from dbf - https://stackoverflow.com/questions/41898561/pandas-transform-a-dbf-table-into-a-dataframe
+using jupyter notebooks in vs code - https://youtu.be/_C0vbLV6WdA , https://code.visualstudio.com/docs/python/jupyter-support?ocid=AID2463683&wt.mc_id=ai-c9-sejuare
 python subprocess communication - https://eli.thegreenplace.net/2017/interacting-with-a-long-running-child-process-in-python/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTI0MTQ3NjksMTYzNTAwMTg2OSwtMT
-kzOTA0NzY4NywxOTIxMDA4MjIsLTM1MjkyMTYwLDExOTA0ODA5
-NTAsLTE0Njk3OTY4MzddfQ==
+eyJoaXN0b3J5IjpbMTg4MDIwMjgxMSwtMTI5MjQxNDc2OSwxNj
+M1MDAxODY5LC0xOTM5MDQ3Njg3LDE5MjEwMDgyMiwtMzUyOTIx
+NjAsMTE5MDQ4MDk1MCwtMTQ2OTc5NjgzN119
 -->
