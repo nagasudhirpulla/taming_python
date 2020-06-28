@@ -37,7 +37,9 @@ This is particularly useful if you load huge data into your variables
 ![jupyter_notebook_create_new](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_create_new.PNG)* The cell user interface controls of ipynb file are shown in the below image
 ![jupyter_notebook_ipynb_file](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_ipynb_file.png)* Even plotting outputs are displayed in the cell output section. An example cell output with plots can be seen in the image below
 ![jupyter_notebook_inline_output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_inline_output.png)
-
+## Convert a jupyter notebook to a python file
+* Open a jupyter notebook ipynb file in Visual Studio Code
+* Click the 
 
 <hr/>
 
@@ -54,7 +56,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstOTgwNDI1
-NTUyLC04MzUxMjIyODQsNDQwNzUwNTc0LC0xNTc0MjIyNDUwLC
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsyMDY3NTA0
+Njg2LC04MzUxMjIyODQsNDQwNzUwNTc0LC0xNTc0MjIyNDUwLC
 01NDA1MTMyOTJdfQ==
 -->
