@@ -35,7 +35,8 @@ This is particularly useful if you load huge data into your variables
 * Jupyter Notebooks are saved with `.ipynb` extension
 * To create a new ipynb file, open command pallete using `Ctrl+Shift+P` and select the command `Create New Blank Jupyter Notebook`
 ![jupyter_notebook_create_new](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_create_new.PNG)* The cell user interface controls of ipynb file are shown in the below image
-![jupyter_notebook_ipynb_file](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_ipynb_file.png)* Even plotting outputs are displayed in the cell output section. An example cell can be seen in the
+![jupyter_notebook_ipynb_file](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_ipynb_file.png)* Even plotting outputs are displayed in the cell output section. An example cell can be seen in the image below
+
 
 <hr/>
 
@@ -52,7 +53,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMTAyNjIz
-NTA1LC04MzUxMjIyODQsNDQwNzUwNTc0LC0xNTc0MjIyNDUwLC
-01NDA1MTMyOTJdfQ==
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTE3ODc0
+MjI4OSwtODM1MTIyMjg0LDQ0MDc1MDU3NCwtMTU3NDIyMjQ1MC
+wtNTQwNTEzMjkyXX0=
 -->
