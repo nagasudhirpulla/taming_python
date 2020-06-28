@@ -14,10 +14,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 
 ### References
-* Examples gallery - https://matplotlib.org/gallery/index.html
-* medium post - https://towardsdatascience.com/data-visualization-using-matplotlib-16f1aae5ce70
-* anatomy of a figure - https://matplotlib.org/3.2.1/gallery/showcase/anatomy.html
-<hr/>
+* Video by Microsoft - https://youtu.be/_C0vbLV6WdA 
+* https://code.visualstudio.com/docs/python/jupyter-support?ocid=AID2463683&wt.mc_id=ai-c9-sejuare
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -28,6 +26,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTg0NDgw
-MTc1XX0=
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNTQwNTEz
+MjkyXX0=
 -->
