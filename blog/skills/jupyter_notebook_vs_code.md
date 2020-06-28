@@ -13,10 +13,6 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it
-
-
 ### References
 * Examples gallery - https://matplotlib.org/gallery/index.html
 * medium post - https://towardsdatascience.com/data-visualization-using-matplotlib-16f1aae5ce70
@@ -30,5 +26,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 90ZWJvb2tzIGluIFZpc3VhbCBTdHVkaW8gQ29kZVxuYXV0aG9y
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
-dcbiIsImhpc3RvcnkiOlstMjA2NDAwNDE0XX0=
+dcbiIsImhpc3RvcnkiOlsyMDM4NzAwODBdfQ==
 -->
