@@ -24,6 +24,8 @@ This is particularly useful if you load huge data into your variables
 * As shown in the image above, just add `# %%` in the line above  your code to make it a jupyter notebook cell
 * The cell controls like Run Cell, Run Above will automatically displayed by Visual Studio Code
 
+![jupyter_notebook_kernel_output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_kernel_output.png)
+
 <hr/>
 
 ### References
@@ -39,7 +41,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMjAxMTYy
-NDczNyw0NDA3NTA1NzQsLTE1NzQyMjI0NTAsLTU0MDUxMzI5Ml
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTQzMjg1
+ODM3OSw0NDA3NTA1NzQsLTE1NzQyMjI0NTAsLTU0MDUxMzI5Ml
 19
 -->
