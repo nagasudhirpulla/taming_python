@@ -21,7 +21,8 @@ This is particularly useful if you load huge data into your variables
 
 ### Add Jupyter notebooks feature to existing python code
 ![jupyter_notebook_py_file](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_py_file.png)
-As shown in the image above, just add `# %%` in the line above  your code to make it a jupyter notebook cell
+* As shown in the image above, just add `# %%` in the line above  your code to make it a jupyter notebook cell
+* The cell controls like Run Cell, Run Above will automatically displayed by Visual Studio Code
 
 <hr/>
 
@@ -38,7 +39,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxNjg4MDEz
-MDAyLDQ0MDc1MDU3NCwtMTU3NDIyMjQ1MCwtNTQwNTEzMjkyXX
-0=
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMjAxMTYy
+NDczNyw0NDA3NTA1NzQsLTE1NzQyMjI0NTAsLTU0MDUxMzI5Ml
+19
 -->
