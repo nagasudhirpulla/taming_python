@@ -39,9 +39,8 @@ This is particularly useful if you load huge data into your variables
 ![jupyter_notebook_inline_output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_inline_output.png)
 ## Convert a jupyter notebook to a python file
 * Open a jupyter notebook ipynb file in Visual Studio Code
-* Click the 'convert and save to python' button as shown in below
+* Click the 'convert and save to python' button as shown in the image below
 ![jupyter_notebook_convert_to_python](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_convert_to_python.PNG)
-
 <hr/>
 
 ### References
@@ -57,7 +56,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTYyMzc2
-OTU1MywtODM1MTIyMjg0LDQ0MDc1MDU3NCwtMTU3NDIyMjQ1MC
-wtNTQwNTEzMjkyXX0=
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxNDYyMDgx
+MDY1LC04MzUxMjIyODQsNDQwNzUwNTc0LC0xNTc0MjIyNDUwLC
+01NDA1MTMyOTJdfQ==
 -->
