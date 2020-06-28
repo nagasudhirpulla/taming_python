@@ -9,7 +9,7 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
-
+![jupyter_notebook_in_vs_code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_in_vs_code.png)
 
 <hr/>
 
@@ -26,6 +26,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMjY3NTQx
-NjI1LC01NDA1MTMyOTJdfQ==
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTcxMDU0
+NTM2NywtNTQwNTEzMjkyXX0=
 -->
