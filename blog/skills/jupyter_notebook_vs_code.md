@@ -34,6 +34,7 @@ This is particularly useful if you load huge data into your variables
 ### Using jupyter notebooks in Visual Studio Code
 * Jupyter Notebooks are saved with `.ipynb` extension
 * To create a new ipynb file, open command pallete using `Ctrl+Shift+P` and select the command ``
+![jupyter_notebook_create_new](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/jupyter_notebook_create_new.PNG)
 
 <hr/>
 
@@ -50,7 +51,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMzk0MTU3
-MjMsNDQwNzUwNTc0LC0xNTc0MjIyNDUwLC01NDA1MTMyOTJdfQ
-==
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNTEyMDg1
+MDgyLDQ0MDc1MDU3NCwtMTU3NDIyMjQ1MCwtNTQwNTEzMjkyXX
+0=
 -->
