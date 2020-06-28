@@ -13,7 +13,8 @@ In this post we are going to learn about how to use jupyter notebooks in Visual 
 
 ![jupyter_notebook_in_vs_code](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/jupyter_notebook_in_vs_code.png)
 ### Why the Jupyter Notebooks approach
-* Jupyter notebooks is the way to go approach for experimenting and debugging with python code or execute code in small parts while developing it
+* Jupyter notebooks is the way to go approach for experimenting and debugging with python code or execute code in small parts while developing it.
+* Each part of a code is called a **cell** in a Jupyter notebook
 * Jupyter notebooks can also be used to graphically visualize the variables using the variable explorer.
 * One more use case of jupyter notebooks is that you can load data into variables and then play with them as many times as you wish by changing the code. 
 This is particularly useful if you load huge data into your variables
@@ -36,6 +37,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMzA5Njgz
-Miw0NDA3NTA1NzQsLTE1NzQyMjI0NTAsLTU0MDUxMzI5Ml19
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTU3MDYy
+ODk5MSw0NDA3NTA1NzQsLTE1NzQyMjI0NTAsLTU0MDUxMzI5Ml
+19
 -->
