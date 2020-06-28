@@ -29,7 +29,6 @@ Here are the goals and skills in this tutorial series
 * [Create random numbers in python](https://nagasudhir.blogspot.com/2020/05/create-random-numbers-in-python.html)
 * [Handling errors in python](https://nagasudhir.blogspot.com/2020/05/hnadling-errors-in-python.html)
 * [Read named command line inputs with argparse module](https://nagasudhir.blogspot.com/2020/06/named-command-line-arguments-using.html)
-#### 
 
 #### Package management skills
 * [Install and manage python packages](https://nagasudhir.blogspot.com/2020/05/install-and-manage-packages-in-python.html)
@@ -79,7 +78,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTcwNDcxNDk4MywtMTI3Mj
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMjA0NzM3NDA3MywtMTI3Mj
 I1NTI4MCw3ODEzMDcxODAsMTY3NDY1MDIyNiwtMTM3NTQzNTQx
 OSwtNDc4NzY5ODMsMTgzMDMyOTQ0NywxMjE2NDgyODczLDEyNz
 Y2NDIwNzUsLTk1OTEwOTk5NiwtMTMxOTcwMDA4NywtMjEyMzM5
