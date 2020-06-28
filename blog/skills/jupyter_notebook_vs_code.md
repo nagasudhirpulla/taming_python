@@ -16,7 +16,7 @@ In this post we are going to learn about how to use jupyter notebooks and add ju
 * Jupyter notebooks is the way to go approach for experimenting and debugging with python code or execute code in small parts while developing it.
 * Each part of a code is called a **cell** in a Jupyter notebook
 * Jupyter notebooks can also be used to graphically visualize the variables using the variable explorer.
-* One more use case of jupyter notebooks is that you can load data into variables and then play with them as many times as you wish by changing the code. 
+* One more use case of jupyter notebooks is that you can load data into variables once, and then play with them as many times as you wish by changing the code. 
 This is particularly useful if you load huge data into your variables
 
 ## Add Jupyter notebook features to existing python code
@@ -56,7 +56,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTk0Mzk1
-MTk5MCwtODM1MTIyMjg0LDQ0MDc1MDU3NCwtMTU3NDIyMjQ1MC
-wtNTQwNTEzMjkyXX0=
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxOTU2Njkx
+MDA3LC0xOTQzOTUxOTkwLC04MzUxMjIyODQsNDQwNzUwNTc0LC
+0xNTc0MjIyNDUwLC01NDA1MTMyOTJdfQ==
 -->
