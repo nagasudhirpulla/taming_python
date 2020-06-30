@@ -30,7 +30,7 @@ The advantages of storing sensitive application data in system environment varia
 
 You can also edit or delete a system environment variable in the same manner
 
-### accessing system environment variable in python code  
+### accessing system environment variables in python code  
 
 
 ### Online Interpreter
@@ -45,6 +45,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTAyNjY3NCwtMTE5NjU3OTg4MCwtOT
-U5ODg2MzU5LDIwNTM2OTA0MjldfQ==
+eyJoaXN0b3J5IjpbLTEyMjg3ODAzNjcsLTEyMTAyNjY3NCwtMT
+E5NjU3OTg4MCwtOTU5ODg2MzU5LDIwNTM2OTA0MjldfQ==
 -->
