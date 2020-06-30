@@ -16,7 +16,9 @@ In is not advisable to keep sensitive application data like usernames , password
 * You have to change and re-deploy the code once the usernames, passwords change
 * We can accidentally commit our code to open source repositories like GitHub etc., where our sensitive data will be exposed
 
-One of the easy ways to maintain sensitive data is using system environment variables
+One of the easy ways to maintain sensitive data is using `system environment` variables. 
+The advantages of storing sensitive application data in system environment variables is 
+* Data is not hardcoded in the application code. Hence no need to change code when 
 
 ### Create a time period object using timedelta
 As shown below the `timedelta` function from datetime module can be used to create timedelta objects
@@ -111,5 +113,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTUzMjYyMCwyMDUzNjkwNDI5XX0=
+eyJoaXN0b3J5IjpbLTE1OTA0NjQ0MzYsMjA1MzY5MDQyOV19
 -->
