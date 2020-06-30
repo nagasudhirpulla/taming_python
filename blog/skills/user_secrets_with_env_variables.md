@@ -1,4 +1,4 @@
-## Skill - Maintaining application secrets with environment variables
+## Skill - Accessing application secrets with environment variables
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -62,7 +62,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODI5MDE2NCwxNjAyNjc1MDkxLDIwOD
-gyNzgzNzMsLTM0NjcwODkxOSwtMTIxMDI2Njc0LC0xMTk2NTc5
-ODgwLC05NTk4ODYzNTksMjA1MzY5MDQyOV19
+eyJoaXN0b3J5IjpbNTY2ODA2NzMzLDE2MDI2NzUwOTEsMjA4OD
+I3ODM3MywtMzQ2NzA4OTE5LC0xMjEwMjY2NzQsLTExOTY1Nzk4
+ODAsLTk1OTg4NjM1OSwyMDUzNjkwNDI5XX0=
 -->
