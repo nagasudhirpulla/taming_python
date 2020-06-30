@@ -24,10 +24,13 @@ The advantages of storing sensitive application data in system environment varia
 
 ### Creating environment variables in a windows machine
 * Open 'Edit system environment variables' from windows search bar 
+
 ![edit_sys_env_variables_in_start_menu](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/edit_sys_env_variables_in_start_menu.png)
 * Click on 'Environment Variables' button
 * Click on 'New' button in 'System Variables' section
 * Enter environment variable name and value and click ''OK'
+
+![creating_system_env_variable](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/creating_system_env_variable.png)
 
 You can also edit or delete a system environment variable in the same manner
 
@@ -59,7 +62,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTgwNDcyOTEsLTM0NjcwODkxOSwtMT
-IxMDI2Njc0LC0xMTk2NTc5ODgwLC05NTk4ODYzNTksMjA1MzY5
-MDQyOV19
+eyJoaXN0b3J5IjpbMjA0NDM1ODY5NywtMzQ2NzA4OTE5LC0xMj
+EwMjY2NzQsLTExOTY1Nzk4ODAsLTk1OTg4NjM1OSwyMDUzNjkw
+NDI5XX0=
 -->
