@@ -32,13 +32,13 @@ You can also edit or delete a system environment variable in the same manner
 
 In our example shown in the figure, we created an environment variable named `app_password` and its value is `mysupersecret`
 
-### accessing system environment variables in python code  
+### accessing system environment variables using 
 ```python
 # import os module
 import os
 
 # access the environment variable named 'app_password'
-
+# The value returned when environment variable is not present in the stystem is given as the second input
 val = os.getenv('app_password', 'default_value')
 ```
 
@@ -54,6 +54,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxNjI2OTYyLC0xMjEwMjY2NzQsLTExOT
-Y1Nzk4ODAsLTk1OTg4NjM1OSwyMDUzNjkwNDI5XX0=
+eyJoaXN0b3J5IjpbMTU2NjE0MTA1MCwtMTIxMDI2Njc0LC0xMT
+k2NTc5ODgwLC05NTk4ODYzNTksMjA1MzY5MDQyOV19
 -->
