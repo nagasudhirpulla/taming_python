@@ -62,7 +62,13 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY2ODA2NzMzLDE2MDI2NzUwOTEsMjA4OD
-I3ODM3MywtMzQ2NzA4OTE5LC0xMjEwMjY2NzQsLTExOTY1Nzk4
-ODAsLTk1OTg4NjM1OSwyMDUzNjkwNDI5XX0=
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFjY2Vzc2luZyBhcHBsaW
+NhdGlvbiBzZWNyZXRzIHdpdGggZW52aXJvbm1lbnQgdmFyaWFi
+bGVzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6IC
+dsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxs
+J1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZG
+F0ZTogJzIwMjAtMDYtMzAnXG4iLCJoaXN0b3J5IjpbLTY4MTQ0
+ODM3MSwxNjAyNjc1MDkxLDIwODgyNzgzNzMsLTM0NjcwODkxOS
+wtMTIxMDI2Njc0LC0xMTk2NTc5ODgwLC05NTk4ODYzNTksMjA1
+MzY5MDQyOV19
 -->
