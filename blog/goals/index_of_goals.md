@@ -32,7 +32,6 @@ Here are the goals and skills in this tutorial series
 * [Create random numbers in python](https://nagasudhir.blogspot.com/2020/05/create-random-numbers-in-python.html)
 * [Handling errors in python](https://nagasudhir.blogspot.com/2020/05/hnadling-errors-in-python.html)
 * [Read named command line inputs with argparse module](https://nagasudhir.blogspot.com/2020/06/named-command-line-arguments-using.html)
-* [Accessing application secrets with environment variables](https://nagasudhir.blogspot.com/2020/06/accessing-application-secrets-with.html)
 
 #### Package management skills
 * [Install and manage python packages](https://nagasudhir.blogspot.com/2020/05/install-and-manage-packages-in-python.html)
@@ -52,6 +51,9 @@ Here are the goals and skills in this tutorial series
 * [Reading and writing files in python](https://nagasudhir.blogspot.com/2020/05/reading-and-writing-files-in-python.html)
 * [Delete a file or folder in python](https://nagasudhir.blogspot.com/2020/05/delete-file-or-folder-in-python.html)
 * [Iterate through files inside folder](https://nagasudhir.blogspot.com/2020/05/iterate-through-files-inside-folder.html)
+
+#### Application best practices
+* [Accessing application secrets with environment variables](https://nagasudhir.blogspot.com/2020/06/accessing-application-secrets-with.html)
 
 #### Pandas DataFrame Skills
 * [pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
@@ -85,7 +87,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTM0NDk5Nzg3NSwxMDMyMz
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTk1Nzg5OTQ5OSwxMDMyMz
 MzMjExLC0xMjcyMjU1MjgwLDc4MTMwNzE4MCwxNjc0NjUwMjI2
 LC0xMzc1NDM1NDE5LC00Nzg3Njk4MywxODMwMzI5NDQ3LDEyMT
 Y0ODI4NzMsMTI3NjY0MjA3NSwtOTU5MTA5OTk2LC0xMzE5NzAw
