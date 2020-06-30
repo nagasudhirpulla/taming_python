@@ -32,8 +32,10 @@ You can also edit or delete a system environment variable in the same manner
 
 ### accessing system environment variables in python code  
 ```python
-import os 
+# import os module
 import os
+
+
 ```
 
 ### Online Interpreter
@@ -48,6 +50,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTk5MDQ2OSwtMTIxMDI2Njc0LC0xMT
+eyJoaXN0b3J5IjpbMTkzODM3MDg3MCwtMTIxMDI2Njc0LC0xMT
 k2NTc5ODgwLC05NTk4ODYzNTksMjA1MzY5MDQyOV19
 -->
