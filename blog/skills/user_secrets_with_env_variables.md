@@ -22,9 +22,16 @@ The advantages of storing sensitive application data in system environment varia
 * Environment variables are not present in the application code folder. Hence sensitive data will not be pushed to source control like git and sensitive data cannot be taken just by copy pasting the application code folder.
 * Environment variables can be edited only if a person enters the credentials of the machine/computer.
 
-### Managing environment variables in a windows machine
+### Creating environment variables in a windows machine
 * Open 'Edit system environment variables' from windows search bar 
-* 
+* Click on 'Environment Variables' button
+* Click on 'New' button in 'System Variables' section
+* Enter environment variable name and value and click ''OK'
+
+You can also edit or delete a system environment variable in the same manner
+
+### accessing system environment variable in python code  
+
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ , https://repl.it/
@@ -38,6 +45,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTY1Nzk4ODAsLTk1OTg4NjM1OSwyMD
-UzNjkwNDI5XX0=
+eyJoaXN0b3J5IjpbLTEyMTAyNjY3NCwtMTE5NjU3OTg4MCwtOT
+U5ODg2MzU5LDIwNTM2OTA0MjldfQ==
 -->
