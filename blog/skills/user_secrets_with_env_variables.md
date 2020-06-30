@@ -23,7 +23,8 @@ The advantages of storing sensitive application data in system environment varia
 * Environment variables can be edited only if a person enters the credentials of the machine/computer.
 
 ### Managing environment variables in a windows machine
-Search for 'Edit system environment variables' in windows search bar 
+* Open 'Edit system environment variables' from windows search bar 
+* 
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ , https://repl.it/
@@ -37,6 +38,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTc0ODc3OCwtOTU5ODg2MzU5LDIwNT
-M2OTA0MjldfQ==
+eyJoaXN0b3J5IjpbLTExOTY1Nzk4ODAsLTk1OTg4NjM1OSwyMD
+UzNjkwNDI5XX0=
 -->
