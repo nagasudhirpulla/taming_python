@@ -7,7 +7,6 @@
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [strings in python](https://nagasudhir.blogspot.com/2020/04/strings-in-python.html)
-* [Datetime library in python](https://nagasudhir.blogspot.com/2020/05/datetime-library-in-python.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
@@ -107,5 +106,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzMyNDgzXX0=
+eyJoaXN0b3J5IjpbOTc1MjE4MTEyXX0=
 -->
