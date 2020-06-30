@@ -55,12 +55,13 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 <hr/>
 
 ### References
-* 
+* https://www.geeksforgeeks.org/python-os-getenv-method/
+https://stackoverflow.com/questions/16924471/difference-between-os-getenv-and-os-environ-get
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjY3NTA5MSwyMDg4Mjc4MzczLC0zND
-Y3MDg5MTksLTEyMTAyNjY3NCwtMTE5NjU3OTg4MCwtOTU5ODg2
-MzU5LDIwNTM2OTA0MjldfQ==
+eyJoaXN0b3J5IjpbLTg5MzU5NzEyOCwxNjAyNjc1MDkxLDIwOD
+gyNzgzNzMsLTM0NjcwODkxOSwtMTIxMDI2Njc0LC0xMTk2NTc5
+ODgwLC05NTk4ODYzNTksMjA1MzY5MDQyOV19
 -->
