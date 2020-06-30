@@ -26,10 +26,7 @@ The advantages of storing sensitive application data in system environment varia
 
 
 ### Online Interpreter
-You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
-
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/GraciousCourageousFirewall?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ , https://repl.it/
 
 <hr/>
 
@@ -40,5 +37,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjMzNTI0NywyMDUzNjkwNDI5XX0=
+eyJoaXN0b3J5IjpbLTk1OTg4NjM1OSwyMDUzNjkwNDI5XX0=
 -->
