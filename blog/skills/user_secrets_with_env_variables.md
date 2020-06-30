@@ -55,13 +55,12 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 <hr/>
 
 ### References
-* Official documentation - https://docs.python.org/3/library/datetime.html#timedelta-objects
-* another post - https://www.geeksforgeeks.org/python-datetime-timedelta-function/
+* 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODI3ODM3MywtMzQ2NzA4OTE5LC0xMj
-EwMjY2NzQsLTExOTY1Nzk4ODAsLTk1OTg4NjM1OSwyMDUzNjkw
-NDI5XX0=
+eyJoaXN0b3J5IjpbMTYwMjY3NTA5MSwyMDg4Mjc4MzczLC0zND
+Y3MDg5MTksLTEyMTAyNjY3NCwtMTE5NjU3OTg4MCwtOTU5ODg2
+MzU5LDIwNTM2OTA0MjldfQ==
 -->
