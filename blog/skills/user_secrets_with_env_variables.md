@@ -37,6 +37,7 @@ In our example shown in the figure, we created an environment variable named `ap
 # import os module
 import os
 
+# access the environment variable named 'app_password'
 
 ```
 
@@ -52,6 +53,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDAxMTg1ODcsLTEyMTAyNjY3NCwtMT
-E5NjU3OTg4MCwtOTU5ODg2MzU5LDIwNTM2OTA0MjldfQ==
+eyJoaXN0b3J5IjpbLTUyMTI3ODkwLC0xMjEwMjY2NzQsLTExOT
+Y1Nzk4ODAsLTk1OTg4NjM1OSwyMDUzNjkwNDI5XX0=
 -->
