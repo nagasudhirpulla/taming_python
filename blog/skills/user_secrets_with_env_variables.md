@@ -12,7 +12,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-In is not advisable to keep sensitive application data like usernames , passwords, api keys in the source code or hardcode them on
+In is not advisable to keep sensitive application data like usernames , passwords, api keys in the source code or hard-code them in our code. The reasons not to do so is
+* You have to change and re-deploy the code once the usernames, passwords change
+* We can acci in source controls like github etc.,
+
 
 ### Create a time period object using timedelta
 As shown below the `timedelta` function from datetime module can be used to create timedelta objects
@@ -107,5 +110,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTA2NjA3MiwyMDUzNjkwNDI5XX0=
+eyJoaXN0b3J5IjpbLTEwNjEyMzE2NTQsMjA1MzY5MDQyOV19
 -->
