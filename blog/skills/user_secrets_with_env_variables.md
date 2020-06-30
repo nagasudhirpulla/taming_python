@@ -42,7 +42,8 @@ import os
 val = os.getenv('app_password', 'default_value')
 
 print('The value of app_password is {0}'.format(val))
-
+# this should print
+# The value of app_password is mysupersecret
 ```
 
 ### Online Interpreter
@@ -57,6 +58,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NzY3MTUyLC0xMjEwMjY2NzQsLTExOT
-Y1Nzk4ODAsLTk1OTg4NjM1OSwyMDUzNjkwNDI5XX0=
+eyJoaXN0b3J5IjpbLTM0NjcwODkxOSwtMTIxMDI2Njc0LC0xMT
+k2NTc5ODgwLC05NTk4ODYzNTksMjA1MzY5MDQyOV19
 -->
