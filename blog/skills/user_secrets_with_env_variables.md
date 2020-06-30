@@ -40,6 +40,9 @@ import os
 # access the environment variable named 'app_password'
 # The value returned when environment variable is not present in the stystem is given as the second input
 val = os.getenv('app_password', 'default_value')
+
+print('The value of app_password is {0}'.format(val))
+
 ```
 
 ### Online Interpreter
@@ -54,6 +57,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxNjI0MDE1LC0xMjEwMjY2NzQsLTExOT
+eyJoaXN0b3J5IjpbMTM3NzY3MTUyLC0xMjEwMjY2NzQsLTExOT
 Y1Nzk4ODAsLTk1OTg4NjM1OSwyMDUzNjkwNDI5XX0=
 -->
