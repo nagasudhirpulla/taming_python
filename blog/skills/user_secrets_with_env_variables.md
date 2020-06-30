@@ -30,7 +30,7 @@ The advantages of storing sensitive application data in system environment varia
 
 You can also edit or delete a system environment variable in the same manner
 
-In our example shown in the figure, we created an environment variable named `app_password` and its value is `mysuper`
+In our example shown in the figure, we created an environment variable named `app_password` and its value is `mysupersecret`
 
 ### accessing system environment variables in python code  
 ```python
@@ -52,6 +52,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTE4MjM1NywtMTIxMDI2Njc0LC0xMT
-k2NTc5ODgwLC05NTk4ODYzNTksMjA1MzY5MDQyOV19
+eyJoaXN0b3J5IjpbLTEzNDAxMTg1ODcsLTEyMTAyNjY3NCwtMT
+E5NjU3OTg4MCwtOTU5ODg2MzU5LDIwNTM2OTA0MjldfQ==
 -->
