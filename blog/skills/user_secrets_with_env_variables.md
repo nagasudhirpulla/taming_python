@@ -31,7 +31,6 @@ The advantages of storing sensitive application data in system environment varia
 * Enter environment variable name and value and click ''OK'
 
 ![creating_system_env_variable](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/creating_system_env_variable.png)
-
 You can also edit or delete a system environment variable in the same manner
 
 In our example shown in the figure, we created an environment variable named `app_password` and its value is `mysupersecret`
@@ -49,7 +48,7 @@ print('The value of app_password is {0}'.format(val))
 # this should print
 # The value of app_password is mysupersecret
 ```
-
+![env_var_output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/env_var_output.png)
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ , https://repl.it/
 
@@ -62,7 +61,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDM1ODY5NywtMzQ2NzA4OTE5LC0xMj
+eyJoaXN0b3J5IjpbMjA4ODI3ODM3MywtMzQ2NzA4OTE5LC0xMj
 EwMjY2NzQsLTExOTY1Nzk4ODAsLTk1OTg4NjM1OSwyMDUzNjkw
 NDI5XX0=
 -->
