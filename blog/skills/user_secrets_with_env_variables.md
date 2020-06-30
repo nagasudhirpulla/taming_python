@@ -22,7 +22,7 @@ The advantages of storing sensitive application data in system environment varia
 * Environment variables are not present in the application code folder. Hence sensitive data will not be pushed to source control like git and sensitive data cannot be taken just by copy pasting the application code folder.
 * Environment variables can be edited only if a person enters the credentials of the machine/computer.
 
-### Create a time period object using timedelta
+### Managing environment variables in a windows machine
 As shown below the `timedelta` function from datetime module can be used to create timedelta objects
 ```
 dt.timedelta(days=0, seconds=0, microseconds=0, milliseconds=0,
@@ -115,5 +115,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwNTk0ODU1LDIwNTM2OTA0MjldfQ==
+eyJoaXN0b3J5IjpbMTQ5NDc4NzAyMiwyMDUzNjkwNDI5XX0=
 -->
