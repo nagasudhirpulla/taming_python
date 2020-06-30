@@ -39,6 +39,7 @@ import os
 
 # access the environment variable named 'app_password'
 
+val = os.getenv('app_password', 'default_value')
 ```
 
 ### Online Interpreter
@@ -53,6 +54,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTI3ODkwLC0xMjEwMjY2NzQsLTExOT
+eyJoaXN0b3J5IjpbODgxNjI2OTYyLC0xMjEwMjY2NzQsLTExOT
 Y1Nzk4ODAsLTk1OTg4NjM1OSwyMDUzNjkwNDI5XX0=
 -->
