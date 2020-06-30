@@ -12,6 +12,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
+
+
 ### Create a time period object using timedelta
 As shown below the `timedelta` function from datetime module can be used to create timedelta objects
 ```
@@ -105,5 +107,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MTE4MzcxM119
+eyJoaXN0b3J5IjpbMjA1MzY5MDQyOV19
 -->
