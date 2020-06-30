@@ -52,7 +52,7 @@ Here are the goals and skills in this tutorial series
 * [Delete a file or folder in python](https://nagasudhir.blogspot.com/2020/05/delete-file-or-folder-in-python.html)
 * [Iterate through files inside folder](https://nagasudhir.blogspot.com/2020/05/iterate-through-files-inside-folder.html)
 
-#### Application best practices
+#### Application Code best practices
 * [Accessing application secrets with environment variables](https://nagasudhir.blogspot.com/2020/06/accessing-application-secrets-with.html)
 
 #### Pandas DataFrame Skills
@@ -87,7 +87,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTk1Nzg5OTQ5OSwxMDMyMz
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTY1NjAzMzAxMCwxMDMyMz
 MzMjExLC0xMjcyMjU1MjgwLDc4MTMwNzE4MCwxNjc0NjUwMjI2
 LC0xMzc1NDM1NDE5LC00Nzg3Njk4MywxODMwMzI5NDQ3LDEyMT
 Y0ODI4NzMsMTI3NjY0MjA3NSwtOTU5MTA5OTk2LC0xMzE5NzAw
