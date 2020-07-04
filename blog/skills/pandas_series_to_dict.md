@@ -1,8 +1,11 @@
-
+### Convert pandas Series to dictionary in python
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IENvbnZlcnQgcGFuZGFzIF
 NlcmllcyB0byBkaWN0aW9uYXJ5IGluIHB5dGhvblxuYXV0aG9y
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNy0wNC
-dcbiIsImhpc3RvcnkiOlsxNzgwNjcyMzgzLDE3ODA2NzIzODMs
-MTc4MDY3MjM4M119
+dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
+dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMzM2Njc2
+NjQwLDE3ODA2NzIzODMsMTc4MDY3MjM4MywxNzgwNjcyMzgzXX
+0=
 -->
