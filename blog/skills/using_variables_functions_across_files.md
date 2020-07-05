@@ -13,7 +13,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 Sharing variables and functions defined in one file with other files can be very useful to
 * reduce the size and duplication of the application code by defining variables and function only in one file
-* Increase the readability and maintainability of the application code, since we can split the code across different files and folders
+* increase the readability and maintainability of the application code, since we can split the code across different files and folders
 * implement coding practices like separation of concerns, single responsibility principle etc.,
 
 ### Creating environment variables in a windows machine
@@ -57,5 +57,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjMwODEyMTRdfQ==
+eyJoaXN0b3J5IjpbMTY4NzEwNjg1MF19
 -->
