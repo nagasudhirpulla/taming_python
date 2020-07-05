@@ -26,7 +26,7 @@ In this post we are going to learn how to convert a pandas series into a diction
 }
 ```
 
-### converting pandas series to dictionary using toseries function
+### converting pandas series to dictionary using to_dict function
 
 
 ### Online Interpreter
@@ -36,10 +36,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 <iframe height="800px" width="100%" src="https://repl.it/repls/WeirdUnknownDribbleware?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
-* Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
-* https://www.geeksforgeeks.org/python-pandas-dataframe/
-* installing pandas YouTube video - https://www.youtube.com/watch?v=nZVolpD_Nl4
-* Image credits - ```https://www.geeksforgeeks.org```, ```https://pandas.pydata.org```
+* Official docs- https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.to_dict.html
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -51,7 +48,8 @@ NlcmllcyB0byBkaWN0aW9uYXJ5IGluIHB5dGhvblxuYXV0aG9y
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNy0wNC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls0MzI3OTI4
-NzQsMTIxOTM0NjY4OSwtNzA5Nzg0MDM2LC02MTM5MDE5MzYsMT
-c4MDY3MjM4MywxNzgwNjcyMzgzLDE3ODA2NzIzODNdfQ==
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNzA3OTU1
+Njc1LDQzMjc5Mjg3NCwxMjE5MzQ2Njg5LC03MDk3ODQwMzYsLT
+YxMzkwMTkzNiwxNzgwNjcyMzgzLDE3ODA2NzIzODMsMTc4MDY3
+MjM4M119
 -->
