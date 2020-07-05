@@ -54,6 +54,7 @@ Here are the goals and skills in this tutorial series
 
 #### Application Code best practices
 * [Accessing application secrets with environment variables](https://nagasudhir.blogspot.com/2020/06/accessing-application-secrets-with.html)
+* [Sharing functions and variables across files in python](https://nagasudhir.blogspot.com/2020/07/sharing-functions-and-variables-across.html)
 
 #### Pandas DataFrame Skills
 * [pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
@@ -88,11 +89,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTgwMjczNzY1NSwxNjU2MD
-MzMDEwLDEwMzIzMzMyMTEsLTEyNzIyNTUyODAsNzgxMzA3MTgw
-LDE2NzQ2NTAyMjYsLTEzNzU0MzU0MTksLTQ3ODc2OTgzLDE4Mz
-AzMjk0NDcsMTIxNjQ4Mjg3MywxMjc2NjQyMDc1LC05NTkxMDk5
-OTYsLTEzMTk3MDAwODcsLTIxMjMzOTg3NTIsLTE5MTI0NDk1NT
-YsMjg0NzIxNTczLC0xOTYzOTE1NjcwLC0xMjk5ODM1MTg1LDEz
-NjUyMTM5MjUsLTEyNTQxNDI1NjhdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTM5ODg3MTQ1NSwxODAyNz
+M3NjU1LDE2NTYwMzMwMTAsMTAzMjMzMzIxMSwtMTI3MjI1NTI4
+MCw3ODEzMDcxODAsMTY3NDY1MDIyNiwtMTM3NTQzNTQxOSwtND
+c4NzY5ODMsMTgzMDMyOTQ0NywxMjE2NDgyODczLDEyNzY2NDIw
+NzUsLTk1OTEwOTk5NiwtMTMxOTcwMDA4NywtMjEyMzM5ODc1Mi
+wtMTkxMjQ0OTU1NiwyODQ3MjE1NzMsLTE5NjM5MTU2NzAsLTEy
+OTk4MzUxODUsMTM2NTIxMzkyNV19
 -->
