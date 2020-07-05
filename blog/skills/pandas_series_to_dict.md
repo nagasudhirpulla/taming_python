@@ -28,6 +28,7 @@ In this post we are going to learn how to convert a pandas series into a diction
 
 ### converting pandas series to dictionary using to_dict function
 ```python
+
 ```
 
 ### Online Interpreter
@@ -49,8 +50,8 @@ NlcmllcyB0byBkaWN0aW9uYXJ5IGluIHB5dGhvblxuYXV0aG9y
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNy0wNC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNTg5MDM3
-MjQzLDQzMjc5Mjg3NCwxMjE5MzQ2Njg5LC03MDk3ODQwMzYsLT
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMjA3OTQy
+ODA3LDQzMjc5Mjg3NCwxMjE5MzQ2Njg5LC03MDk3ODQwMzYsLT
 YxMzkwMTkzNiwxNzgwNjcyMzgzLDE3ODA2NzIzODMsMTc4MDY3
 MjM4M119
 -->
