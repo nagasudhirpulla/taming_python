@@ -26,6 +26,8 @@ In this post we are going to learn how to convert a pandas series into a diction
 }
 ```
 
+### converting pandas series to dictionary using toseries function
+
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -49,7 +51,7 @@ NlcmllcyB0byBkaWN0aW9uYXJ5IGluIHB5dGhvblxuYXV0aG9y
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNy0wNC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstOTc3NDk5
-NDU5LDEyMTkzNDY2ODksLTcwOTc4NDAzNiwtNjEzOTAxOTM2LD
-E3ODA2NzIzODMsMTc4MDY3MjM4MywxNzgwNjcyMzgzXX0=
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls0MzI3OTI4
+NzQsMTIxOTM0NjY4OSwtNzA5Nzg0MDM2LC02MTM5MDE5MzYsMT
+c4MDY3MjM4MywxNzgwNjcyMzgzLDE3ODA2NzIzODNdfQ==
 -->
