@@ -70,7 +70,7 @@ print('\n'.join(personsInfoList))
 <hr/>
 
 ### File paths in the 'from' statement while importing
-* In `get_all_persons_Info.py` file statement used to import the function `createInfoForPerson` is
+* In `get_all_persons_Info.py` file statement used to import the function `createInfoForPerson` was
 ``` python
 from utils.info_creator import createInfoForPerson
 ```
@@ -97,5 +97,11 @@ Many people get confused with this concept
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjUzNTIxNiwxMDE0ODQxOTQ3XX0=
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFNoYXJpbmcgZnVuY3Rpb2
+5zIGFuZCB2YXJpYWJsZXMgYWNyb3NzIGZpbGVzIGluIHB5dGhv
+blxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMj
+AyMC0wNy0wNSdcbnRhZ3M6ICdsZWFybmluZywgcHl0aG9uLCB0
+YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW
+5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0xOTYzODcy
+NjMsMTk2MjUzNTIxNiwxMDE0ODQxOTQ3XX0=
 -->
