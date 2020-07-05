@@ -20,6 +20,7 @@ Sharing variables and functions defined in one file with other files can be very
 
 ### Folder structure for this example
 ![sharing_variables_demo_file_structure](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sharing_variables_demo_file_structure.png)
+As shown in the above figure the code of our example will be distributed in the folders as shown in the above image
 
 ### Points to remember
 * file-paths used in the import statements are to be written as per the entry python file, not as per the python file in which the import statement.
@@ -67,5 +68,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjI4ODc5NiwxMDE0ODQxOTQ3XX0=
+eyJoaXN0b3J5IjpbMTI4NTY2MTgxMywxMDE0ODQxOTQ3XX0=
 -->
