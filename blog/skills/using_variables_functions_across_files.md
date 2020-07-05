@@ -1,5 +1,3 @@
-## 
-
 ## Skill - Sharing functions and variables across files in python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -65,5 +63,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTg2NzkwNzZdfQ==
+eyJoaXN0b3J5IjpbMTM4NTMwODgwNF19
 -->
