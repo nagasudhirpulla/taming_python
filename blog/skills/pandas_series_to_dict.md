@@ -13,6 +13,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 Pandas is a python library.
 **DataFrame** is a data structure provided by the pandas library
+**Series** is like a c 
 The image shown below tries to describe the anatomy of a DataFrame
 
 ![Pandas DataFrame anatomy](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pandas_dataframe_anatomy.png)
@@ -151,7 +152,7 @@ NlcmllcyB0byBkaWN0aW9uYXJ5IGluIHB5dGhvblxuYXV0aG9y
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNy0wNC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNjEzOTAx
-OTM2LDE3ODA2NzIzODMsMTc4MDY3MjM4MywxNzgwNjcyMzgzXX
-0=
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls5OTI1MDQ0
+MiwtNjEzOTAxOTM2LDE3ODA2NzIzODMsMTc4MDY3MjM4MywxNz
+gwNjcyMzgzXX0=
 -->
