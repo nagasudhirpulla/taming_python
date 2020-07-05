@@ -25,9 +25,27 @@ Sharing variables and functions defined in one file with other files can be very
 * Notice that each folder has `__init__.py` file inside it. This is required for sharing the code inside the folder.
 Hence ensure each folder has `__init__.py` file inside it
 
-### Code
+### Code in each file
+#### persons_store.py
 ```python
+persons = [
+    {'name': 'Sudhir', 'age': '28'},
+    {'name': 'Lakshmi', 'age': '27'},
+    {'name': 'Aditya', 'age': '27'},
+    {'name': 'Kishore', 'age': '24'},
+]
+```
 
+#### info_creator.py
+```python
+def createInfoForPerson(p):
+    return 'Name - {0}, Age - {1}'.format(p['name'], p['age'])
+```
+
+#### info_creator.py
+```python
+def createInfoForPerson(p):
+    return 'Name - {0}, Age - {1}'.format(p['name'], p['age'])
 ```
 
 ### Points to remember
@@ -76,5 +94,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTAyNDIwMCwxMDE0ODQxOTQ3XX0=
+eyJoaXN0b3J5IjpbLTkzNTY4MjU4NywxMDE0ODQxOTQ3XX0=
 -->
