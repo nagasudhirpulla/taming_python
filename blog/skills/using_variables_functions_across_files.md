@@ -18,7 +18,10 @@ Sharing variables and functions defined in one file with other files can be very
 
 <hr/>
 
-### Important Note
+### Folder structure for this example
+![sharing_variables_demo_file_structure](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sharing_variables_demo_file_structure.png)
+
+### Points to remember
 * file-paths used in the import statements are to be written as per the entry python file, not as per the python file in which the import statement.
 Many people get confused with this concept
 * ensure `__init__.py` file is in all folders in which the variables of python files are to be shared
@@ -64,5 +67,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMzQzNzQ1MCwxMDE0ODQxOTQ3XX0=
+eyJoaXN0b3J5IjpbMTc4NjI4ODc5NiwxMDE0ODQxOTQ3XX0=
 -->
