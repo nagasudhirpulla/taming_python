@@ -80,42 +80,12 @@ from utils.info_creator import createInfoForPerson
 ### Executing the example application code
 * The code should be executed by running `index.py`
 * If we run other files in the folders, we will get errors at the import statements because the imports are all defined at the folder level of `index.py`
-* Hence all the code that is to be executed needs to be in the same folder as that of entry file (`index.py`) in order to avoid import errors. This is a constraint to be considered in the application code design in order to use the shared variables and functions.
+* Hence all the code that is to be executed needs to be in the same folder as that of entry file (`index.py`) in order to avoid import errors. This is a constraint to be considered in the application code design in order to use shared variables and functions.
 
 ### Points to remember
 * file-paths used in the import statements are to be written as per the entry python file, not as per the python file in which the import statement.
 Many people get confused with this concept
 * ensure `__init__.py` file is in all folders in which the variables of python files are to be shared
-
-### Creating environment variables in a windows machine
-* Open 'Edit system environment variables' from windows search bar 
-
-![edit_sys_env_variables_in_start_menu](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/edit_sys_env_variables_in_start_menu.png)
-* Click on 'Environment Variables' button
-* Click on 'New' button in 'System Variables' section
-* Enter environment variable name and value and click ''OK'
-
-![creating_system_env_variable](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/creating_system_env_variable.png)
-You can also edit or delete a system environment variable in the same manner
-
-In our example shown in the figure, we created an environment variable named `app_password` and its value is `mysupersecret`
-
-### accessing system environment variables using 'os.getenv' function
-```python
-# import os module
-import os
-
-# access the environment variable named 'app_password'
-# The value returned when environment variable is not present in the stystem is given as the second input
-val = os.getenv('app_password', 'default_value')
-
-print('The value of app_password is {0}'.format(val))
-# this should print
-# The value of app_password is mysupersecret
-```
-![env_var_output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/env_var_output.png)
-### Online Interpreter
-You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ , https://repl.it/
 
 <hr/>
 
@@ -128,5 +98,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwODg5NDAyMSwxMDE0ODQxOTQ3XX0=
+eyJoaXN0b3J5IjpbLTgyNDgyNTk3NiwxMDE0ODQxOTQ3XX0=
 -->
