@@ -75,7 +75,9 @@ print('\n'.join(personsInfoList))
 from utils.info_creator import createInfoForPerson
 ```
 * Even though `info_creator.py` file is in the same folder as that of `get_all_persons_Info.py`, we used `utils.info_creator`
-* this is because, the file-path during import should be based on the entry python file. In our case the entry file was `index.py` and the im
+* this is because, the file-path during import should be based on the entry python file. In our case the entry file was `index.py` and hence the import path is with respect to index.py as `utils.info_creator`
+
+### Executing the 
 
 ### Points to remember
 * file-paths used in the import statements are to be written as per the entry python file, not as per the python file in which the import statement.
@@ -123,5 +125,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjEzODQ4NywxMDE0ODQxOTQ3XX0=
+eyJoaXN0b3J5IjpbLTE2ODQwMTEyMDIsMTAxNDg0MTk0N119
 -->
