@@ -42,10 +42,17 @@ def createInfoForPerson(p):
     return 'Name - {0}, Age - {1}'.format(p['name'], p['age'])
 ```
 
-#### info_creator.py
+#### get_all_persons_Info.py
 ```python
-def createInfoForPerson(p):
-    return 'Name - {0}, Age - {1}'.format(p['name'], p['age'])
+from stores.persons_store import persons
+from utils.info_creator import createInfoForPerson
+
+def getAllPersonsInfo():
+    infoArray = []
+    for p in persons:
+        personInfo = createInfoForPerson(p)
+        infoArray.append(personInfo)
+    return infoArray
 ```
 
 ### Points to remember
@@ -94,5 +101,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTY4MjU4NywxMDE0ODQxOTQ3XX0=
+eyJoaXN0b3J5IjpbNzEyMTM0MzQ3LDEwMTQ4NDE5NDddfQ==
 -->
