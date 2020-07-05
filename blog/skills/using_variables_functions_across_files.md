@@ -16,6 +16,11 @@ Sharing variables and functions defined in one file with other files can be very
 * increase the readability and maintainability of the application code, since we can split the code across different files and folders
 * implement coding practices like separation of concerns, single responsibility principle etc.,
 
+<hr/>
+
+### Important Note
+The file-paths used in the imp
+
 ### Creating environment variables in a windows machine
 * Open 'Edit system environment variables' from windows search bar 
 
@@ -57,5 +62,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzEwNjg1MF19
+eyJoaXN0b3J5IjpbMTE2MjM3MTcxOV19
 -->
