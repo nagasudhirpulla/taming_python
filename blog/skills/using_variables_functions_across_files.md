@@ -19,7 +19,7 @@ Sharing variables and functions defined in one file with other files can be very
 <hr/>
 
 ### Important Note
-The file-paths used in the imp
+The file-paths used in the import statements are to be written as per the entry python file
 
 ### Creating environment variables in a windows machine
 * Open 'Edit system environment variables' from windows search bar 
@@ -62,5 +62,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MjM3MTcxOV19
+eyJoaXN0b3J5IjpbLTc0NDY3MzY1NV19
 -->
