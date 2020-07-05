@@ -12,7 +12,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-In is not advisable to keep sensitive application data like usernames , passwords, api keys in the source code or hard-code them in our code. The reasons not to do so is
+It is not advisable to keep sensitive application data like usernames , passwords, api keys in the source code or hard-code them in our code. The reasons not to do so is
 * You have to change and re-deploy the code once the usernames, passwords change
 * We can accidentally commit our code to open source repositories like GitHub etc., where our sensitive data will be exposed
 
@@ -67,8 +67,8 @@ NhdGlvbiBzZWNyZXRzIHdpdGggZW52aXJvbm1lbnQgdmFyaWFi
 bGVzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6IC
 dsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxs
 J1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZG
-F0ZTogJzIwMjAtMDYtMzAnXG4iLCJoaXN0b3J5IjpbLTY4MTQ0
-ODM3MSwxNjAyNjc1MDkxLDIwODgyNzgzNzMsLTM0NjcwODkxOS
+F0ZTogJzIwMjAtMDYtMzAnXG4iLCJoaXN0b3J5IjpbMTczMTkx
+ODI5MSwxNjAyNjc1MDkxLDIwODgyNzgzNzMsLTM0NjcwODkxOS
 wtMTIxMDI2Njc0LC0xMTk2NTc5ODgwLC05NTk4ODYzNTksMjA1
 MzY5MDQyOV19
 -->
