@@ -79,7 +79,7 @@ from utils.info_creator import createInfoForPerson
 
 ### Executing the example application code
 * The code should be executed by running `index.py`
-* If we run other files in the folders, we will get errors at the import statements because the imports are all defined at the folder level of `index.py`
+* If we run other files in the folders, we will get errors at the import statements because the imports are all defined relative to the folder level of `index.py`
 * Hence all the code that is to be executed needs to be in the same folder as that of entry file (`index.py`) in order to avoid import errors. This is a constraint to be considered in the application code design in order to use shared variables and functions concept.
 
 ### Points to remember
@@ -102,7 +102,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFNoYXJpbmcgZnVuY3Rpb2
 blxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMj
 AyMC0wNy0wNSdcbnRhZ3M6ICdsZWFybmluZywgcHl0aG9uLCB0
 YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW
-5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0zOTAzOTEw
-NDUsLTE5NjM4NzI2MywxOTYyNTM1MjE2LDEwMTQ4NDE5NDddfQ
+5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0xNjkxNzIy
+MjcsLTE5NjM4NzI2MywxOTYyNTM1MjE2LDEwMTQ4NDE5NDddfQ
 ==
 -->
