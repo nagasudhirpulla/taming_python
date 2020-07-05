@@ -70,7 +70,11 @@ print('\n'.join(personsInfoList))
 <hr/>
 
 ### File paths in the 'from' statement while importing
-* In `get_all_persons_Info.py` file 
+* In `get_all_persons_Info.py` file statement used to import the function `createInfoForPerson` is
+``` python
+from utils.info_creator import createInfoForPerson
+```
+* Even though `info_creator.py` file is in the same folder as that of `get_all_persons_Info.py`
 
 ### Points to remember
 * file-paths used in the import statements are to be written as per the entry python file, not as per the python file in which the import statement.
@@ -118,5 +122,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDE5OTUwMCwxMDE0ODQxOTQ3XX0=
+eyJoaXN0b3J5IjpbLTEzMjA0MTI0MjIsMTAxNDg0MTk0N119
 -->
