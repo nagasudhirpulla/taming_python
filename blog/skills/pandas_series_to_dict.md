@@ -17,7 +17,7 @@ Pandas is a python library.
 **Series** is like a column of a pandas dataframe. It has index, values and a series name
 The image shown below tries to describe the anatomy of a DataFrame
 <hr/>
-In this post we are going to learn how to convert a pandas series into a dictionary. Dictionary is a set of key value pairs. An example can be seen below
+In this post we are going to learn how to convert a pandas series into a dictionary using the `to_dict` function on the series. Dictionary is a set of key value pairs. An example can be seen below
 
 ```json
 {
@@ -49,8 +49,8 @@ NlcmllcyB0byBkaWN0aW9uYXJ5IGluIHB5dGhvblxuYXV0aG9y
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNy0wNC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTE4NTM5
-MjE3Myw0MzI3OTI4NzQsMTIxOTM0NjY4OSwtNzA5Nzg0MDM2LC
-02MTM5MDE5MzYsMTc4MDY3MjM4MywxNzgwNjcyMzgzLDE3ODA2
-NzIzODNdfQ==
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNTg5MDM3
+MjQzLDQzMjc5Mjg3NCwxMjE5MzQ2Njg5LC03MDk3ODQwMzYsLT
+YxMzkwMTkzNiwxNzgwNjcyMzgzLDE3ODA2NzIzODMsMTc4MDY3
+MjM4M119
 -->
