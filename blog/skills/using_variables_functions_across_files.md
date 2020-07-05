@@ -21,8 +21,8 @@ Sharing variables and functions defined in one file with other files can be very
 ### Folder structure for this example
 ![sharing_variables_demo_file_structure](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sharing_variables_demo_file_structure.png)
 * Entry file for executing this application is `index.py`
-* As shown in the above figure, the code of our example python application will be distributed in the folders as shown in the above image
-* 
+* The code of our example python application will be distributed across the folders as shown in the above image
+* Notice that each folder has `__init__.py` file in it. This is required for sharing the code inside the folder
 
 ### Points to remember
 * file-paths used in the import statements are to be written as per the entry python file, not as per the python file in which the import statement.
@@ -70,5 +70,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0NTUyNDc5LDEwMTQ4NDE5NDddfQ==
+eyJoaXN0b3J5IjpbMTE2OTc2MTk5OSwxMDE0ODQxOTQ3XX0=
 -->
