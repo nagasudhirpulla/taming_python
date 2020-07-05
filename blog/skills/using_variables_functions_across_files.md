@@ -26,7 +26,6 @@ Sharing variables and functions defined in one file with other files can be very
 Hence ensure each folder has `__init__.py` file inside it
 
 ### Code in each file
-#### `persons_store.py`
 ```python
 # stores/persons_store.py
 persons = [
@@ -36,19 +35,15 @@ persons = [
     {'name': 'Kishore', 'age': '24'},
 ]
 ```
-
 <hr/>
 
-#### `info_creator.py`
 ```python
 # utils/info_creator.py
 def createInfoForPerson(p):
     return 'Name - {0}, Age - {1}'.format(p['name'], p['age'])
 ```
-
 <hr/>
 
-#### `get_all_persons_Info.py`
 ```python
 # utils/get_all_persons_Info.py
 from stores.persons_store import persons
@@ -61,10 +56,8 @@ def getAllPersonsInfo():
         infoArray.append(personInfo)
     return infoArray
 ```
-
 <hr/>
 
-#### `index.py`
 ```python
 # index.py
 from utils.get_all_persons_Info import getAllPersonsInfo
@@ -74,8 +67,8 @@ personsInfoList = getAllPersonsInfo()
 print('All persons in the store are ...')
 print('\n'.join(personsInfoList))
 ```
-
 <hr/>
+
 
 ### Points to remember
 * file-paths used in the import statements are to be written as per the entry python file, not as per the python file in which the import statement.
@@ -123,5 +116,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjgzNDUxMzUsMTAxNDg0MTk0N119
+eyJoaXN0b3J5IjpbMTA4ODIwMDEyMiwxMDE0ODQxOTQ3XX0=
 -->
