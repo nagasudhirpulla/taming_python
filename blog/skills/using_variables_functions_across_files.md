@@ -21,7 +21,7 @@ Sharing variables and functions defined in one file with other files can be very
 ### Important Note
 * file-paths used in the import statements are to be written as per the entry python file, not as per the python file in which the import statement.
 Many people get confused with this concept
-* ensure `__init__.py` file in all folders in which the files variables are to be shared
+* ensure `__init__.py` file is in all folders in which the variables of python files are to be shared
 
 ### Creating environment variables in a windows machine
 * Open 'Edit system environment variables' from windows search bar 
@@ -64,5 +64,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDYwNzc5MywxMDE0ODQxOTQ3XX0=
+eyJoaXN0b3J5IjpbMTAwMzQzNzQ1MCwxMDE0ODQxOTQ3XX0=
 -->
