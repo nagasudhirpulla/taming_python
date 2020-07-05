@@ -80,7 +80,7 @@ from utils.info_creator import createInfoForPerson
 ### Executing the example application code
 * The code should be executed by running `index.py`
 * If we run other files in the folders, we will get errors at the import statements because the imports are all defined at the folder level of `index.py`
-* Hence all the code that is to be executed needs to be in the same folder as that of entry file (`index.py`) in order to 
+* Hence all the code that is to be executed needs to be in the same folder as that of entry file (`index.py`) in order to avoid import errors. This is a constraint to be considered in the application code design in order to use the shared variables and functions.
 
 ### Points to remember
 * file-paths used in the import statements are to be written as per the entry python file, not as per the python file in which the import statement.
@@ -128,5 +128,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDk1OTQyNywxMDE0ODQxOTQ3XX0=
+eyJoaXN0b3J5IjpbMTAwODg5NDAyMSwxMDE0ODQxOTQ3XX0=
 -->
