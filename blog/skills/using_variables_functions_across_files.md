@@ -55,6 +55,16 @@ def getAllPersonsInfo():
     return infoArray
 ```
 
+#### index.py
+```python
+from utils.get_all_persons_Info import getAllPersonsInfo
+
+personsInfoList = getAllPersonsInfo()
+
+print('All persons in the store are ...')
+print('\n'.join(personsInfoList))
+```
+
 ### Points to remember
 * file-paths used in the import statements are to be written as per the entry python file, not as per the python file in which the import statement.
 Many people get confused with this concept
@@ -101,5 +111,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyMTM0MzQ3LDEwMTQ4NDE5NDddfQ==
+eyJoaXN0b3J5IjpbMTQ1NTkyNjU0NSwxMDE0ODQxOTQ3XX0=
 -->
