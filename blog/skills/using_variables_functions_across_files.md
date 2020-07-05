@@ -90,13 +90,12 @@ Many people get confused with this concept
 <hr/>
 
 ### References
-* https://www.geeksforgeeks.org/python-os-getenv-method/
-* https://docs.python.org/3/library/os.html#os.getenv
-* https://stackoverflow.com/questions/16924471/difference-between-os-getenv-and-os-environ-get
+* https://codeburst.io/importing-variables-from-other-files-in-python-96a200f410da
+* https://en.wikibooks.org/wiki/A_Beginner%27s_Python_Tutorial/Importing_Modules
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDgyNTk3NiwxMDE0ODQxOTQ3XX0=
+eyJoaXN0b3J5IjpbMTk2MjUzNTIxNiwxMDE0ODQxOTQ3XX0=
 -->
