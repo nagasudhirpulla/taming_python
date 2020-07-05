@@ -28,6 +28,7 @@ Hence ensure each folder has `__init__.py` file inside it
 ### Code in each file
 #### `persons_store.py`
 ```python
+# stores/persons_store.py
 persons = [
     {'name': 'Sudhir', 'age': '28'},
     {'name': 'Lakshmi', 'age': '27'},
@@ -40,6 +41,7 @@ persons = [
 
 #### `info_creator.py`
 ```python
+# utils/info_creator.py
 def createInfoForPerson(p):
     return 'Name - {0}, Age - {1}'.format(p['name'], p['age'])
 ```
@@ -48,6 +50,7 @@ def createInfoForPerson(p):
 
 #### `get_all_persons_Info.py`
 ```python
+# utils/get_all_persons_Info.py
 from stores.persons_store import persons
 from utils.info_creator import createInfoForPerson
 
@@ -63,6 +66,7 @@ def getAllPersonsInfo():
 
 #### `index.py`
 ```python
+# index.py
 from utils.get_all_persons_Info import getAllPersonsInfo
 
 personsInfoList = getAllPersonsInfo()
@@ -119,5 +123,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODY4NTU0MDcsMTAxNDg0MTk0N119
+eyJoaXN0b3J5IjpbLTE1NjgzNDUxMzUsMTAxNDg0MTk0N119
 -->
