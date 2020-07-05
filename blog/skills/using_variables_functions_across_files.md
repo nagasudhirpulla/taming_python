@@ -11,15 +11,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-In is not advisable to keep sensitive application data like usernames , passwords, api keys in the source code or hard-code them in our code. The reasons not to do so is
-* You have to change and re-deploy the code once the usernames, passwords change
-* We can accidentally commit our code to open source repositories like GitHub etc., where our sensitive data will be exposed
-
-One of the easy ways to maintain sensitive data is using `system environment` variables. 
-The advantages of storing sensitive application data in system environment variables is 
-* Data is not hard-coded in the application code. Hence no need to change code when usernames, passwords change
-* Environment variables are not present in the application code folder. Hence sensitive data will not be pushed to source control like git and sensitive data cannot be taken just by copy pasting the application code folder.
-* Environment variables can be edited only if a person enters the credentials of the machine/computer.
+Sharing variables and functions defined in one file with other files can be very useful to
+* Reduce the size of the application code by 
 
 ### Creating environment variables in a windows machine
 * Open 'Edit system environment variables' from windows search bar 
@@ -62,5 +55,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4Mzg5NzU5XX0=
+eyJoaXN0b3J5IjpbNzg5NTM0MTQ5XX0=
 -->
