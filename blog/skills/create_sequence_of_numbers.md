@@ -41,6 +41,7 @@ x = range(2,13,2)
 
 # create a list from range using the * operator inside square brackets
 y = [*x]
+# Now y is a list which is derived from a range x
 ```
 
 ### Creating a list from sequence
@@ -77,5 +78,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2NTIzOTVdfQ==
+eyJoaXN0b3J5IjpbLTUzNzYxNjIwOF19
 -->
