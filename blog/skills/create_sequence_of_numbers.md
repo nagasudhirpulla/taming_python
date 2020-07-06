@@ -72,9 +72,13 @@ pip install numpy
 
 #### arrange function code example
 Use `arrange` function for creating a sequence with fixed interval between numbers (also called 'step')
-The syntax is ```np.arrange(start, stop, step)``` , start and step are option
+The syntax is ```np.arrange(start, stop, step)``` , `start` and `step` are optional
 ```python
+import numpy as np
 
+s = np.arrange(5)
+print(s)
+# []
 ```
 
 ### Online Interpreter
@@ -89,6 +93,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMTUyMzA5MiwtMTk1MzQ5MTE2MSwtMT
-IyOTYwNjg1NF19
+eyJoaXN0b3J5IjpbLTE2MTc3ODc2ODUsLTE5NTM0OTExNjEsLT
+EyMjk2MDY4NTRdfQ==
 -->
