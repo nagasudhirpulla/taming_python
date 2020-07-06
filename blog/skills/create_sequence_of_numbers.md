@@ -11,6 +11,12 @@
 * [List Comprehensions in python](https://nagasudhir.blogspot.com/2020/05/list-comprehensions-in-python.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
+<hr/>
+
+In this post we will learn how to create sequence of numbers in python using three approaches
+
+* using `range` function with syntax range(start, stop, step)
+* 
 
 Range is a python built-in **sequence generator** function in python through which we can generate sequences
 
@@ -71,5 +77,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDQ5ODEwXX0=
+eyJoaXN0b3J5IjpbMTA5NDAxNDgwMl19
 -->
