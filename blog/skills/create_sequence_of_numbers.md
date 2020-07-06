@@ -45,7 +45,7 @@ y = [*x]
 # Now y is a list which is derived from a range x
 ```
 
-
+### Approach 2 - using list comprehensions
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -56,5 +56,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODE5MzkyMzFdfQ==
+eyJoaXN0b3J5IjpbLTEyMjk2MDY4NTRdfQ==
 -->
