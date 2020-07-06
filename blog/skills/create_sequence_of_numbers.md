@@ -49,7 +49,7 @@ y = [*x]
 **List Comprehension** can be used to create a list from another list/sequence in a user-friendly way and with less lines of code.
 The post on how to use list comprehensions can be seen [here](https://nagasudhir.blogspot.com/2020/05/list-comprehensions-in-python.html)
 
-#### Create a sequence of numbers using list comprehension
+#### list comprehension code example
 ```python
 lst = [t for t in range(15)]
 
@@ -68,5 +68,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MDAzMTQxLC0xMjI5NjA2ODU0XX0=
+eyJoaXN0b3J5IjpbNzY5NzExMjQ5LC0xMjI5NjA2ODU0XX0=
 -->
