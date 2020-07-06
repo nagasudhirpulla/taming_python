@@ -74,12 +74,24 @@ pip install numpy
 Use `arange` function for creating a sequence with fixed interval between numbers (also called 'step')
 The syntax is ```np.arange(start, stop, step)``` , `start` and `step` are optional
 ```python
+# import the numpy module
 import numpy as np
 
 # only 'stop' input given to arange function
-s = np.arange(5)
+s = np.arange(5).tolist()
+
 print(s)
 # [0 1 2 3 4]
+
+# 'start' and 'stop' input given to arange function
+s = np.arange(1,6).tolist()
+print(s)
+# [1 2 3 4 5]
+
+# 'start', 'stop', 'step' input given to arange function
+s = np.arange(1,6, 0.5).tolist()
+print(s)
+# [1 2 3 4 5]
 ```
 
 ### Online Interpreter
@@ -94,6 +106,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MjY0MTE5MCwtMTk1MzQ5MTE2MSwtMT
-IyOTYwNjg1NF19
+eyJoaXN0b3J5IjpbMTYxODI2NTUwLC0zODI2NDExOTAsLTE5NT
+M0OTExNjEsLTEyMjk2MDY4NTRdfQ==
 -->
