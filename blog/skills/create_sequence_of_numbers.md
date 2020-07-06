@@ -28,7 +28,7 @@ These sequences can be used in for loops and many other situations
 range(start, stop, step)
 ```
 The post on how to use range function can be seen [here](https://nagasudhir.blogspot.com/2020/05/create-sequences-with-range-function.html)
-### 'range function example
+### 'range' function example
 ```python
 # create a sequence from 0 to 4, i.e., 0,1,2,3,4
 x = range(5)
@@ -74,5 +74,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NzU1NTM2XX0=
+eyJoaXN0b3J5IjpbLTEwMjE1OTU0MTVdfQ==
 -->
