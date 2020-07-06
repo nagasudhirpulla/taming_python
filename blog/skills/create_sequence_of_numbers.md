@@ -70,7 +70,8 @@ Make sure you have numpy module installed by typing the following in the command
 pip install numpy
 ```
 #### arrange function
-Use arrange function for creating a sequence with fixed interval between numbers
+Use `arrange` function for creating a sequence with fixed interval between numbers (also called 'step')
+###Example
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -84,6 +85,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjI5NTE1NywtMTk1MzQ5MTE2MSwtMT
+eyJoaXN0b3J5IjpbMTM5MzI2OTc0NSwtMTk1MzQ5MTE2MSwtMT
 IyOTYwNjg1NF19
 -->
