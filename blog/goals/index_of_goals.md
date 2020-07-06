@@ -29,6 +29,7 @@ Here are the goals and skills in this tutorial series
 * ['while' loop in python](https://nagasudhir.blogspot.com/2020/05/while-loop-in-python.html)
 * [functions in python](https://nagasudhir.blogspot.com/2020/05/fucntions-in-python.html)
 * [List comprehensions in python](https://nagasudhir.blogspot.com/2020/05/list-comprehensions-in-python.html)
+* [Create a sequence of numbers in python](https://nagasudhir.blogspot.com/2020/07/create-sequence-of-numbers-in-python.html)
 * [Create random numbers in python](https://nagasudhir.blogspot.com/2020/05/create-random-numbers-in-python.html)
 * [Handling errors in python](https://nagasudhir.blogspot.com/2020/05/hnadling-errors-in-python.html)
 * [Read named command line inputs with argparse module](https://nagasudhir.blogspot.com/2020/06/named-command-line-arguments-using.html)
@@ -89,11 +90,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTM5ODg3MTQ1NSwxODAyNz
-M3NjU1LDE2NTYwMzMwMTAsMTAzMjMzMzIxMSwtMTI3MjI1NTI4
-MCw3ODEzMDcxODAsMTY3NDY1MDIyNiwtMTM3NTQzNTQxOSwtND
-c4NzY5ODMsMTgzMDMyOTQ0NywxMjE2NDgyODczLDEyNzY2NDIw
-NzUsLTk1OTEwOTk5NiwtMTMxOTcwMDA4NywtMjEyMzM5ODc1Mi
-wtMTkxMjQ0OTU1NiwyODQ3MjE1NzMsLTE5NjM5MTU2NzAsLTEy
-OTk4MzUxODUsMTM2NTIxMzkyNV19
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMjU1NjM3NTM1LDEzOTg4Nz
+E0NTUsMTgwMjczNzY1NSwxNjU2MDMzMDEwLDEwMzIzMzMyMTEs
+LTEyNzIyNTUyODAsNzgxMzA3MTgwLDE2NzQ2NTAyMjYsLTEzNz
+U0MzU0MTksLTQ3ODc2OTgzLDE4MzAzMjk0NDcsMTIxNjQ4Mjg3
+MywxMjc2NjQyMDc1LC05NTkxMDk5OTYsLTEzMTk3MDAwODcsLT
+IxMjMzOTg3NTIsLTE5MTI0NDk1NTYsMjg0NzIxNTczLC0xOTYz
+OTE1NjcwLC0xMjk5ODM1MTg1XX0=
 -->
