@@ -54,17 +54,16 @@ The post on how to use list comprehensions can be seen [here](https://nagasudhir
 lst = [t for t in range(15)]
 
 print(lst)
-# This will print
 # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 
 # using filter in list comprehension to create a sequence of even numbers
 lst = [x for x in range(0,17) if x%2==0]
 
 print(lst)
-# this will print
 # [0, 2, 4, 6, 8, 10, 12, 14, 16]
 ```
 
+### Approach 2 - using list comprehensions
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -75,6 +74,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTg5ODg5NDMsLTEyMjk2MDY4NTRdfQ
+eyJoaXN0b3J5IjpbLTEzOTYxNjI1MDAsLTEyMjk2MDY4NTRdfQ
 ==
 -->
