@@ -20,9 +20,10 @@ In this post we will learn how to create sequence of numbers in python using thr
 * using list comprehensions (which are one basically liners of a for loop)
 * using `arrange` and `linspace` functions of numpy
 
+These sequences can be used in for loops and many other situations
+
 ### Approach 1 - using range function
 Range is a python built-in **sequence generator** function in python through which we can generate sequences
-These sequences can be used in for loops and many other situations
 #### Syntax
 ```
 range(start, stop, step)
@@ -44,30 +45,7 @@ y = [*x]
 # Now y is a list which is derived from a range x
 ```
 
-### Creating a list from sequence
-we can create list from sequence using `*` operator
-```python
-# create sequence from 2 to 12 with steps of 2, i.e., 2,4,6,8,10,12
-x = range(2,13,2)
 
-# create a list from sequence using * operator
-y = [*x]
-
-print(y)
-# this code should print [2,4,6,8,10,12]
-```
-
-### Iterating over a sequence
-Using `in` operator with `for` loop, we can iterate over each item of a sequence
-```python
-# create sequence from 2 to 12 with steps of 2, i.e., 2,4,6,8,10,12
-x = range(2,13,2)
-
-# iterate over the sequence using for loop and in operator
-for n in x:
-	print(n)
-# this code should print 2,4,6,8,10,12 in each line of the console
-```
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -78,5 +56,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzYxNjIwOF19
+eyJoaXN0b3J5IjpbLTg5Mzc0MTgwOV19
 -->
