@@ -95,7 +95,7 @@ print(s)
 ```
 
 #### linspace function code example
-Use `linspace` function for creating a sequence with fixed number of samples from start to end
+Use `linspace` function for creating a sequence with `fixed number of samples` from start to end
 The syntax is ```np.arange(start, stop, step)``` , `start` and `step` are optional
 ```python
 # import the numpy module
@@ -130,6 +130,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODAxODYxOTQsMTYxODI2NTUwLC0zOD
-I2NDExOTAsLTE5NTM0OTExNjEsLTEyMjk2MDY4NTRdfQ==
+eyJoaXN0b3J5IjpbMTkwMDg1NzM4MCwxNjE4MjY1NTAsLTM4Mj
+Y0MTE5MCwtMTk1MzQ5MTE2MSwtMTIyOTYwNjg1NF19
 -->
