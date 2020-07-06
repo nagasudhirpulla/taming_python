@@ -63,7 +63,7 @@ print(lst)
 # [0, 2, 4, 6, 8, 10, 12, 14, 16]
 ```
 
-### Approach 2 - using list comprehensions
+### Approach 3 - using numpy arrange and linspace functions
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -74,6 +74,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTYxNjI1MDAsLTEyMjk2MDY4NTRdfQ
-==
+eyJoaXN0b3J5IjpbMzM0NTYxMjU2LC0xMjI5NjA2ODU0XX0=
 -->
