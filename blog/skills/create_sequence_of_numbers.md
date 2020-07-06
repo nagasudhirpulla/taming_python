@@ -46,7 +46,7 @@ y = [*x]
 ```
 
 ### Approach 2 - using list comprehensions
-**List Comprehension** can be used to create a list from another list/sequence in a user-friendly way and with less lines of code.
+List Comprehensions can be used to create a list from another list/sequence in a user-friendly way and with less lines of code.
 The post on how to use list comprehensions can be seen [here](https://nagasudhir.blogspot.com/2020/05/list-comprehensions-in-python.html)
 
 #### list comprehension code example
@@ -70,7 +70,7 @@ Make sure you have numpy module installed by typing the following in the command
 pip install numpy
 ```
 
-#### arange function code example
+#### numpy arange code example
 Use `arange` function for creating a sequence with **fixed interval** between numbers (also called 'step')
 The syntax is ```np.arange(start, stop, step)``` , `start` and `step` are optional
 ```python
@@ -94,7 +94,7 @@ print(s)
 # [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5]
 ```
 
-#### linspace function code example
+#### numpy linspace functio code example
 Use `linspace` function for creating a sequence with `fixed number of samples` from start to end
 The syntax is ```np.linspace(start, stop, num)``` 
 ```python
@@ -128,7 +128,8 @@ xhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5
 dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob2
 5fc2tpbGxcbmRhdGU6ICcyMDIwLTA3LTA2J1xudGl0bGU6IENy
 ZWF0ZSBhIHNlcXVlbmNlIG9mIG51bWJlcnMgaW4gcHl0aG9uXG
-4iLCJoaXN0b3J5IjpbNjg4Mjg2MzU2LC04MjU4NzcyNTMsMjAx
-NDQ5NTY1NSwxOTAwODU3MzgwLDE2MTgyNjU1MCwtMzgyNjQxMT
-kwLC0xOTUzNDkxMTYxLC0xMjI5NjA2ODU0XX0=
+4iLCJoaXN0b3J5IjpbLTE1NjQ0NDYyNzMsNjg4Mjg2MzU2LC04
+MjU4NzcyNTMsMjAxNDQ5NTY1NSwxOTAwODU3MzgwLDE2MTgyNj
+U1MCwtMzgyNjQxMTkwLC0xOTUzNDkxMTYxLC0xMjI5NjA2ODU0
+XX0=
 -->
