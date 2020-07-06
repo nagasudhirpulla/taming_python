@@ -10,7 +10,7 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-Range is a python built-in **sequence generator** function in python through which we can generate sequences
+Range is a python built-in **sequence generator** function through which we can generate sequences
 
 These sequences can be used in for loops and many other situations
 
@@ -73,5 +73,5 @@ Mgd2l0aCByYW5nZSBmdW5jdGlvblxuYXV0aG9yOiBOYWdhc3Vk
 aGlyIFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdG
 FtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWlu
 Z19weXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA1LTAyJ1xuIi
-wiaGlzdG9yeSI6WzEyNTcxMDQ5NDgsMTkxNDI4NTc1MF19
+wiaGlzdG9yeSI6WzE1ODcxOTM4ODUsMTkxNDI4NTc1MF19
 -->
