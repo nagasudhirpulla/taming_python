@@ -56,6 +56,13 @@ lst = [t for t in range(15)]
 print(lst)
 # This will print
 # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+# using filter in list comprehension to create a sequence of even numbers
+lst = [x for x in range(0,17) if x%2==0]
+
+print(lst)
+# this will print
+# [0, 2, 4, 6, 8, 10, 12, 14, 16]
 ```
 
 
@@ -68,5 +75,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5NzExMjQ5LC0xMjI5NjA2ODU0XX0=
+eyJoaXN0b3J5IjpbLTIxMTg5ODg5NDMsLTEyMjk2MDY4NTRdfQ
+==
 -->
