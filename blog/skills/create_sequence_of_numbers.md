@@ -20,19 +20,14 @@ In this post we will learn how to create sequence of numbers in python using thr
 * using list comprehensions (which are one basically liners of a for loop)
 * using `arrange` and `linspace` functions of numpy
 
+### Approach 1 - using range function
 Range is a python built-in **sequence generator** function in python through which we can generate sequences
-
 These sequences can be used in for loops and many other situations
-
-### Syntax
+#### Syntax
 ```
 range(start, stop, step)
 ```
-here ```start``` and ```step``` are optional parameters
-* start = optional input that specifies the number from which the sequence should start, default value is 0
-* stop = input that specifies the number at which the sequence should end
-* step = optional input that specifies the incrementation of sequence. default value is 1
-
+Be sure to read this post in 
 ### Generating a sequence
 ```python
 # create a sequence from 0 to 4, i.e., 0,1,2,3,4
@@ -79,5 +74,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjMyNDIzMV19
+eyJoaXN0b3J5IjpbMjAwOTg3NDA1MF19
 -->
