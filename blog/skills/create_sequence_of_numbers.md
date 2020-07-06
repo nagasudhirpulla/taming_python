@@ -23,7 +23,7 @@ In this post we will learn how to create sequence of numbers in python using thr
 These sequences of number can be used in for loops and many other situations
 
 ### Approach 1 - using range function
-'range' is a python built-in **sequence generator** function in python through which we can generate sequences
+'range' is a python built-in **sequence generator** function through which we can generate sequences
 #### Syntax
 ```
 range(start, stop, step)
@@ -128,7 +128,7 @@ xhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5
 dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob2
 5fc2tpbGxcbmRhdGU6ICcyMDIwLTA3LTA2J1xudGl0bGU6IENy
 ZWF0ZSBhIHNlcXVlbmNlIG9mIG51bWJlcnMgaW4gcHl0aG9uXG
-4iLCJoaXN0b3J5IjpbMTE2NjIyOTA4Myw0OTg4NzE1NTksNjg4
+4iLCJoaXN0b3J5IjpbMjEyNDE0MDU2Miw0OTg4NzE1NTksNjg4
 Mjg2MzU2LC04MjU4NzcyNTMsMjAxNDQ5NTY1NSwxOTAwODU3Mz
 gwLDE2MTgyNjU1MCwtMzgyNjQxMTkwLC0xOTUzNDkxMTYxLC0x
 MjI5NjA2ODU0XX0=
