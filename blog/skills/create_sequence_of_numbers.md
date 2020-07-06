@@ -96,26 +96,16 @@ print(s)
 
 #### linspace function code example
 Use `linspace` function for creating a sequence with `fixed number of samples` from start to end
-The syntax is ```np.arange(start, stop, step)``` , `start` and `step` are optional
+The syntax is ```np.linspace(start, stop, num)``` 
 ```python
 # import the numpy module
 import numpy as np
 
-# only 'stop' input given to arange function
-s = np.arange(5).tolist()
+# get 15 evenly spaced numbers from 1 to 8 using linspace function
+s = np.linspace(1,8,num=15).tolist()
 
 print(s)
-# [0 1 2 3 4]
-
-# 'start' and 'stop' input given to arange function
-s = np.arange(1,6).tolist()
-print(s)
-# [1 2 3 4 5]
-
-# 'start', 'stop', 'step' input given to arange function
-s = np.arange(1,6, 0.5).tolist()
-print(s)
-# [1 2 3 4 5]
+# [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0]
 ```
 
 ### Online Interpreter
@@ -130,6 +120,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDg1NzM4MCwxNjE4MjY1NTAsLTM4Mj
-Y0MTE5MCwtMTk1MzQ5MTE2MSwtMTIyOTYwNjg1NF19
+eyJoaXN0b3J5IjpbMjAxNDQ5NTY1NSwxOTAwODU3MzgwLDE2MT
+gyNjU1MCwtMzgyNjQxMTkwLC0xOTUzNDkxMTYxLC0xMjI5NjA2
+ODU0XX0=
 -->
