@@ -46,6 +46,8 @@ y = [*x]
 ```
 
 ### Approach 2 - using list comprehensions
+**List Comprehension** can be used to create a list from another list/sequence in a user-friendly way and with less lines of code.
+The post on how to use list comprehensions can be seen [here](https://nagasudhir.blogspot.com/2020/05/list-comprehensions-in-python.html)
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -56,5 +58,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjk2MDY4NTRdfQ==
+eyJoaXN0b3J5IjpbMjQwMTc4MjgsLTEyMjk2MDY4NTRdfQ==
 -->
