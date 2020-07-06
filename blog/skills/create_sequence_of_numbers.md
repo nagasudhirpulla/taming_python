@@ -1,4 +1,4 @@
-## Create a sequence of numbers in python
+## Skill - Create a sequence of numbers in python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -123,7 +123,12 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTg3NzI1MywyMDE0NDk1NjU1LDE5MD
-A4NTczODAsMTYxODI2NTUwLC0zODI2NDExOTAsLTE5NTM0OTEx
-NjEsLTEyMjk2MDY4NTRdfQ==
+eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBOYWdhc3VkaGlyIFB1bG
+xhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5
+dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob2
+5fc2tpbGxcbmRhdGU6ICcyMDIwLTA3LTA2J1xudGl0bGU6IENy
+ZWF0ZSBhIHNlcXVlbmNlIG9mIG51bWJlcnMgaW4gcHl0aG9uXG
+4iLCJoaXN0b3J5IjpbNjg4Mjg2MzU2LC04MjU4NzcyNTMsMjAx
+NDQ5NTY1NSwxOTAwODU3MzgwLDE2MTgyNjU1MCwtMzgyNjQxMT
+kwLC0xOTUzNDkxMTYxLC0xMjI5NjA2ODU0XX0=
 -->
