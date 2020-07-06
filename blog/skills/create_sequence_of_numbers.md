@@ -64,6 +64,12 @@ print(lst)
 ```
 
 ### Approach 3 - using numpy 'arrange' and 'linspace' functions
+This approach is very useful if you want to create sequence of decimal numbers
+Make sure you have numpy module installed by typing the following in the command line
+```
+pip install numpy
+```
+
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -74,6 +80,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDA1Mzc0MDAsLTEyMjk2MDY4NTRdfQ
+eyJoaXN0b3J5IjpbLTE5NTM0OTExNjEsLTEyMjk2MDY4NTRdfQ
 ==
 -->
