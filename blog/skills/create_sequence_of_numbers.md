@@ -81,17 +81,17 @@ import numpy as np
 s = np.arange(5).tolist()
 
 print(s)
-# [0 1 2 3 4]
+# [0, 1, 2, 3, 4]
 
 # 'start' and 'stop' input given to arange function
 s = np.arange(1,6).tolist()
 print(s)
-# [1 2 3 4 5]
+# [1, 2, 3, 4, 5]
 
 # 'start', 'stop', 'step' input given to arange function
 s = np.arange(1,6, 0.5).tolist()
 print(s)
-# [1 2 3 4 5]
+# [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5]
 ```
 
 #### linspace function code example
@@ -120,7 +120,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDQ5NTY1NSwxOTAwODU3MzgwLDE2MT
-gyNjU1MCwtMzgyNjQxMTkwLC0xOTUzNDkxMTYxLC0xMjI5NjA2
-ODU0XX0=
+eyJoaXN0b3J5IjpbMTA5MDY4NTI5NSwyMDE0NDk1NjU1LDE5MD
+A4NTczODAsMTYxODI2NTUwLC0zODI2NDExOTAsLTE5NTM0OTEx
+NjEsLTEyMjk2MDY4NTRdfQ==
 -->
