@@ -18,7 +18,7 @@ In this post we will learn how to create sequence of numbers in python using thr
 
 * using `range` function with syntax `range(start, stop, step)`
 * using list comprehensions (which are one basically liners of a for loop)
-* using arrange and linspace functions of numpy
+* using `arrange` and `linspace` functions of numpy
 
 Range is a python built-in **sequence generator** function in python through which we can generate sequences
 
@@ -79,5 +79,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjM5NTc5N119
+eyJoaXN0b3J5IjpbMTE3NjMyNDIzMV19
 -->
