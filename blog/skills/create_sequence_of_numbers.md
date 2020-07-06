@@ -20,7 +20,7 @@ In this post we will learn how to create sequence of numbers in python using thr
 * using list comprehensions (which are one basically liners of a for loop)
 * using `arrange` and `linspace` functions of numpy
 
-These sequences can be used in for loops and many other situations
+These sequences of number can be used in for loops and many other situations
 
 ### Approach 1 - using range function
 Range is a python built-in **sequence generator** function in python through which we can generate sequences
@@ -56,5 +56,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5Mzc0MTgwOV19
+eyJoaXN0b3J5IjpbLTIwODE5MzkyMzFdfQ==
 -->
