@@ -76,7 +76,7 @@ The syntax is ```np.arange(start, stop, step)``` , `start` and `step` are option
 ```python
 import numpy as np
 
-# only stop input given to arange function
+# only 'stop' input given to arange function
 s = np.arange(5)
 print(s)
 # [0 1 2 3 4]
@@ -94,6 +94,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzI3Njc0NiwtMTk1MzQ5MTE2MSwtMT
+eyJoaXN0b3J5IjpbLTM4MjY0MTE5MCwtMTk1MzQ5MTE2MSwtMT
 IyOTYwNjg1NF19
 -->
