@@ -69,20 +69,21 @@ Make sure you have numpy module installed by typing the following in the command
 ```
 pip install numpy
 ```
-
+#### arrange function
+Use arrange function for creating a sequence with fixed interval between numbers
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
 ### References
 * numpy linspace function - https://numpy.org/doc/stable/reference/generated/numpy.linspace.html#numpy.linspace
-* numpy arrange
+* numpy arrange function - https://numpy.org/doc/stable/reference/generated/numpy.arange.html
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTY2MzcyMzQsLTE5NTM0OTExNjEsLT
-EyMjk2MDY4NTRdfQ==
+eyJoaXN0b3J5IjpbMjAzNjI5NTE1NywtMTk1MzQ5MTE2MSwtMT
+IyOTYwNjg1NF19
 -->
