@@ -13,7 +13,8 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 **List Comprehension** can be used to create a list from another list/sequence in a user-friendly way and with less lines of code. 
-All List comprehension can be replaced by a `for` loop.
+Generally list comprehensions are used to write simple for loops in a single line
+All List comprehensions can be replaced by a `for` loop.
 But all `for` loops can't be replaced by List comprehensions.
 
 ### Creating list from another sequence/list using list comprehension
@@ -70,6 +71,6 @@ lvbnMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbmRhdGU6ICcyMDIwLTA1LTIyJ1xudGFnczogJ2xlYXJuaW
 5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbLTIzOTg3MTg5NywtNTQ2MjUzNjY0LDU5MTExNjE1Mywt
-MzM0NDc5Njk1XX0=
+J5IjpbMTQ2MTk0MTEyNywtMjM5ODcxODk3LC01NDYyNTM2NjQs
+NTkxMTE2MTUzLC0zMzQ0Nzk2OTVdfQ==
 -->
