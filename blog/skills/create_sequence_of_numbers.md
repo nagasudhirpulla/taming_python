@@ -94,7 +94,7 @@ print(s)
 # [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5]
 ```
 
-#### numpy linspace functio code example
+#### numpy linspace code example
 Use `linspace` function for creating a sequence with `fixed number of samples` from start to end
 The syntax is ```np.linspace(start, stop, num)``` 
 ```python
@@ -128,8 +128,8 @@ xhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5
 dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob2
 5fc2tpbGxcbmRhdGU6ICcyMDIwLTA3LTA2J1xudGl0bGU6IENy
 ZWF0ZSBhIHNlcXVlbmNlIG9mIG51bWJlcnMgaW4gcHl0aG9uXG
-4iLCJoaXN0b3J5IjpbLTE1NjQ0NDYyNzMsNjg4Mjg2MzU2LC04
-MjU4NzcyNTMsMjAxNDQ5NTY1NSwxOTAwODU3MzgwLDE2MTgyNj
-U1MCwtMzgyNjQxMTkwLC0xOTUzNDkxMTYxLC0xMjI5NjA2ODU0
-XX0=
+4iLCJoaXN0b3J5IjpbMjEyMDQxODA1Nyw2ODgyODYzNTYsLTgy
+NTg3NzI1MywyMDE0NDk1NjU1LDE5MDA4NTczODAsMTYxODI2NT
+UwLC0zODI2NDExOTAsLTE5NTM0OTExNjEsLTEyMjk2MDY4NTRd
+fQ==
 -->
