@@ -111,6 +111,9 @@ print(s)
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
+### You can practice here
+<iframe height="800px" width="100%" src="https://repl.it/repls/WorthwhileScholarlyDonateware?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
 ### References
 * numpy linspace function - https://numpy.org/doc/stable/reference/generated/numpy.linspace.html#numpy.linspace
 * numpy arrange function - https://numpy.org/doc/stable/reference/generated/numpy.arange.html
@@ -120,7 +123,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDY4NTI5NSwyMDE0NDk1NjU1LDE5MD
+eyJoaXN0b3J5IjpbLTgyNTg3NzI1MywyMDE0NDk1NjU1LDE5MD
 A4NTczODAsMTYxODI2NTUwLC0zODI2NDExOTAsLTE5NTM0OTEx
 NjEsLTEyMjk2MDY4NTRdfQ==
 -->
