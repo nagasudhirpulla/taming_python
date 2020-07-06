@@ -71,7 +71,7 @@ pip install numpy
 ```
 
 #### numpy arange code example
-Use `arange` function for creating a sequence with **fixed interval** between numbers (also called 'step')
+Use arange function for creating a sequence with **fixed interval** between numbers (also called 'step')
 The syntax is ```np.arange(start, stop, step)``` , `start` and `step` are optional
 ```python
 # import the numpy module
@@ -128,8 +128,8 @@ xhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5
 dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob2
 5fc2tpbGxcbmRhdGU6ICcyMDIwLTA3LTA2J1xudGl0bGU6IENy
 ZWF0ZSBhIHNlcXVlbmNlIG9mIG51bWJlcnMgaW4gcHl0aG9uXG
-4iLCJoaXN0b3J5IjpbMTEwNDA0NzI5NSw2ODgyODYzNTYsLTgy
-NTg3NzI1MywyMDE0NDk1NjU1LDE5MDA4NTczODAsMTYxODI2NT
-UwLC0zODI2NDExOTAsLTE5NTM0OTExNjEsLTEyMjk2MDY4NTRd
-fQ==
+4iLCJoaXN0b3J5IjpbNDk4ODcxNTU5LDY4ODI4NjM1NiwtODI1
+ODc3MjUzLDIwMTQ0OTU2NTUsMTkwMDg1NzM4MCwxNjE4MjY1NT
+AsLTM4MjY0MTE5MCwtMTk1MzQ5MTE2MSwtMTIyOTYwNjg1NF19
+
 -->
