@@ -38,6 +38,9 @@ x = range(1,8)
 
 # sequence from 2 to 12 with steps of 2, i.e., 2,4,6,8,10,12
 x = range(2,13,2)
+
+# create a list from range using the * operator inside square brackets
+y = [*x]
 ```
 
 ### Creating a list from sequence
@@ -74,5 +77,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTUzMDMyOV19
+eyJoaXN0b3J5IjpbMzg2NTIzOTVdfQ==
 -->
