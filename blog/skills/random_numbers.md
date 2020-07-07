@@ -41,9 +41,11 @@ realNums = []
 
 # run a loop for 15 times
 for p in range(15):
-	realNums.append(random.randrange(200,501))
+	realNums.append(random.randint(200,500))
 
 print('fifteen random integers between 200 and 500 = {0}'.format(realNums))
+
+lst = [random.uniform(10,60) for k in range(15)]
 ```
 
 <hr/>
@@ -70,5 +72,6 @@ VtYmVycyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaW
 FsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
 dGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMT
-QnXG4iLCJoaXN0b3J5IjpbNDYxMzk3NTc2XX0=
+QnXG4iLCJoaXN0b3J5IjpbMjA0ODI0OTY3LDQ2MTM5NzU3Nl19
+
 -->
