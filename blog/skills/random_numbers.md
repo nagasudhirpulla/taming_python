@@ -33,7 +33,7 @@ realNum = random.uniform(10,20)
 print('random real number between 10 and 20 = {0}'.format(realNum))
 ```
 
-### Example: create a list of 15 random numbers
+### Example: create a list of random numbers
 ```python
 import random
 
@@ -45,7 +45,8 @@ for p in range(15):
 
 print('fifteen random integers between 200 and 500 = {0}'.format(realNums))
 
-lst = [random.uniform(10,60) for k in range(15)]
+lst = [random.uniform(10,60) for k in range(4)]
+print('10 random decimal numbers between 10 and 60 are {0}'.format(lst))
 ```
 
 <hr/>
@@ -72,6 +73,6 @@ VtYmVycyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaW
 FsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
 dGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMT
-QnXG4iLCJoaXN0b3J5IjpbMjA0ODI0OTY3LDQ2MTM5NzU3Nl19
-
+QnXG4iLCJoaXN0b3J5IjpbLTIwMDM3MjUyOTksNDYxMzk3NTc2
+XX0=
 -->
