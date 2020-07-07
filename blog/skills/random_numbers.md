@@ -49,6 +49,11 @@ lst = [random.uniform(10,60) for k in range(4)]
 print('10 random decimal numbers between 10 and 60 are {0}'.format(lst))
 ```
 
+### Video
+
+You can the video on this post [here](https://youtu.be/Tm5bRKhy93c)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tm5bRKhy93c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr/>
 
 ### Online Interpreter
@@ -73,6 +78,6 @@ VtYmVycyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaW
 FsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
 dGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMT
-QnXG4iLCJoaXN0b3J5IjpbLTIwMDM3MjUyOTksNDYxMzk3NTc2
-XX0=
+QnXG4iLCJoaXN0b3J5IjpbLTk3MTIxNTQxNiw0NjEzOTc1NzZd
+fQ==
 -->
