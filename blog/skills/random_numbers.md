@@ -46,7 +46,7 @@ for p in range(15):
 print('fifteen random integers between 200 and 500 = {0}'.format(realNums))
 
 lst = [random.uniform(10,60) for k in range(4)]
-print('10 random decimal numbers between 10 and 60 are {0}'.format(lst))
+print('4 random decimal numbers between 10 and 60 are {0}'.format(lst))
 ```
 
 ### Video
@@ -78,6 +78,6 @@ VtYmVycyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaW
 FsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
 dGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMT
-QnXG4iLCJoaXN0b3J5IjpbLTk3MTIxNTQxNiw0NjEzOTc1NzZd
-fQ==
+QnXG4iLCJoaXN0b3J5IjpbMTQyNTI3MTYzMywtOTcxMjE1NDE2
+LDQ2MTM5NzU3Nl19
 -->
