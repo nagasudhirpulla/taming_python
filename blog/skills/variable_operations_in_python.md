@@ -113,8 +113,8 @@ z = x / y
 # compute y power 3 and then assign to z
 z = y**3
 
-# floored division
-z = 
+# floored division, It will return the integer part of the division. Example: 10 // 3 = 3
+z = x // y
 
 # some other equation
 z = 2*x + x**2 + 3*y
@@ -138,8 +138,8 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzE3MzIxNzk2ODMsLTIwNjEwODk4ODMsOTMwMzQy
-Njk5LDE1NDc5MDA1MDUsLTE0NzcxOTkyNDQsLTE1NjQ2NDA2OD
-QsLTIwMDU0Mzk1NDYsLTc4Mzg3NzE2MSwtMTg5MjA5Mjc4NCwy
-MTQ0NTI2NDMxXX0=
+lzdG9yeSI6WzU5MDc3MjA3OCwxNzMyMTc5NjgzLC0yMDYxMDg5
+ODgzLDkzMDM0MjY5OSwxNTQ3OTAwNTA1LC0xNDc3MTk5MjQ0LC
+0xNTY0NjQwNjg0LC0yMDA1NDM5NTQ2LC03ODM4NzcxNjEsLTE4
+OTIwOTI3ODQsMjE0NDUyNjQzMV19
 -->
