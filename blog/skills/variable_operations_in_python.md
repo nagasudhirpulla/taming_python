@@ -116,7 +116,7 @@ z = y**3
 # floored division, It will return the integer part of the division operation. Example: 10 // 4 = 2 , 15 // 6 = 2
 z = x // y
 
-# modulo operation, it will return the remainder of the division operation
+# modulo operation, it will return the remainder of the division operation. Example 18 % 4 = 2, 13 % 3 = 1
 z = x % y
 
 # some other equation
@@ -141,8 +141,8 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzE0ODIyMjM1ODgsMTczMjE3OTY4MywtMjA2MTA4
-OTg4Myw5MzAzNDI2OTksMTU0NzkwMDUwNSwtMTQ3NzE5OTI0NC
-wtMTU2NDY0MDY4NCwtMjAwNTQzOTU0NiwtNzgzODc3MTYxLC0x
-ODkyMDkyNzg0LDIxNDQ1MjY0MzFdfQ==
+lzdG9yeSI6Wzc5MjcyMjY3MywxNzMyMTc5NjgzLC0yMDYxMDg5
+ODgzLDkzMDM0MjY5OSwxNTQ3OTAwNTA1LC0xNDc3MTk5MjQ0LC
+0xNTY0NjQwNjg0LC0yMDA1NDM5NTQ2LC03ODM4NzcxNjEsLTE4
+OTIwOTI3ODQsMjE0NDUyNjQzMV19
 -->
