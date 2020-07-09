@@ -62,10 +62,10 @@ x = 10
 y = 20
 
 # this will print True
-print(x==10 and y == 20)
+print((x==10) and (y == 20))
 
 # this will print False, since the left condition is False
-print(x==300 and y == 20)
+print((x==300) and (y == 20))
 ```
 
 #### or Operator
@@ -84,13 +84,13 @@ x = 10
 y = 20
 
 # this will print True
-print(x==10 or y == 30)
+print((x==10) or (y == 30))
 
 """
 this will print False, 
 since both left and right conditions are False
 """
-print(x == 40 or y == 50)
+print((x == 40) or (y == 50))
 ```
 
 #### Logical Operations
@@ -141,8 +141,8 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wzc5MjcyMjY3MywxNzMyMTc5NjgzLC0yMDYxMDg5
-ODgzLDkzMDM0MjY5OSwxNTQ3OTAwNTA1LC0xNDc3MTk5MjQ0LC
-0xNTY0NjQwNjg0LC0yMDA1NDM5NTQ2LC03ODM4NzcxNjEsLTE4
-OTIwOTI3ODQsMjE0NDUyNjQzMV19
+lzdG9yeSI6Wy0xMjE4NzU4MDEsNzkyNzIyNjczLDE3MzIxNzk2
+ODMsLTIwNjEwODk4ODMsOTMwMzQyNjk5LDE1NDc5MDA1MDUsLT
+E0NzcxOTkyNDQsLTE1NjQ2NDA2ODQsLTIwMDU0Mzk1NDYsLTc4
+Mzg3NzE2MSwtMTg5MjA5Mjc4NCwyMTQ0NTI2NDMxXX0=
 -->
