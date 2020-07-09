@@ -111,7 +111,7 @@ z = x * y
 z = x / y
 
 # some other equation
-z = 2*x + x^2 + 3*y
+z = 2*x + x**2 + 3*y
 ```
 
 ### Online Interpreter
@@ -132,7 +132,7 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzE1NDc5MDA1MDUsLTE0NzcxOTkyNDQsLTE1NjQ2
-NDA2ODQsLTIwMDU0Mzk1NDYsLTc4Mzg3NzE2MSwtMTg5MjA5Mj
-c4NCwyMTQ0NTI2NDMxXX0=
+lzdG9yeSI6WzkzMDM0MjY5OSwxNTQ3OTAwNTA1LC0xNDc3MTk5
+MjQ0LC0xNTY0NjQwNjg0LC0yMDA1NDM5NTQ2LC03ODM4NzcxNj
+EsLTE4OTIwOTI3ODQsMjE0NDUyNjQzMV19
 -->
