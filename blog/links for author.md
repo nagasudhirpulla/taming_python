@@ -5,6 +5,9 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 ### TODOS
 * Duration curve in python  
+```
+
+```
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
 * global variables and using them inside functions- https://instructobit.com/tutorial/108/How-to-share-global-variables-between-files-in-Python
@@ -14,8 +17,9 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5MDczNzc5LC05NjE1ODM3ODMsLTE2OD
-M5NjEzNiwtMzQ5NDQ4MzczLDE4ODAyMDI4MTEsLTEyOTI0MTQ3
-NjksMTYzNTAwMTg2OSwtMTkzOTA0NzY4NywxOTIxMDA4MjIsLT
-M1MjkyMTYwLDExOTA0ODA5NTAsLTE0Njk3OTY4MzddfQ==
+eyJoaXN0b3J5IjpbLTExNTQ1ODg4MzEsNzM5MDczNzc5LC05Nj
+E1ODM3ODMsLTE2ODM5NjEzNiwtMzQ5NDQ4MzczLDE4ODAyMDI4
+MTEsLTEyOTI0MTQ3NjksMTYzNTAwMTg2OSwtMTkzOTA0NzY4Ny
+wxOTIxMDA4MjIsLTM1MjkyMTYwLDExOTA0ODA5NTAsLTE0Njk3
+OTY4MzddfQ==
 -->
