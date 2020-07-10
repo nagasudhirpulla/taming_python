@@ -5,8 +5,27 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 ### TODOS
 * Duration curve in python  
-```
+```python
+'''
+Function inputs – list of values
+Resolution of duration plot
+Output – bin values, percentage exceeded
+'''
+import numpy as np
 
+def deriveDurationVals(vals, resol):
+    min_value = vals.min()
+    max_value = vals.max()
+    binVals = []
+    perc_time_exceeded = []
+    numVals = len(vals)   
+    
+    for val in np.arange(min_value, max_value, resol):
+        binVals.append(val)
+        perc_exceeded = len(vals[vals>val])*100/numVals
+        perc_time_exceeded.append(perc_exceeded)
+
+    return {'bins': binVals, 'perc_exceeded': perc_time_exceeded}
 ```
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
@@ -17,9 +36,9 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQ1ODg4MzEsNzM5MDczNzc5LC05Nj
-E1ODM3ODMsLTE2ODM5NjEzNiwtMzQ5NDQ4MzczLDE4ODAyMDI4
-MTEsLTEyOTI0MTQ3NjksMTYzNTAwMTg2OSwtMTkzOTA0NzY4Ny
-wxOTIxMDA4MjIsLTM1MjkyMTYwLDExOTA0ODA5NTAsLTE0Njk3
-OTY4MzddfQ==
+eyJoaXN0b3J5IjpbLTUyMDQ3MTkzOCw3MzkwNzM3NzksLTk2MT
+U4Mzc4MywtMTY4Mzk2MTM2LC0zNDk0NDgzNzMsMTg4MDIwMjgx
+MSwtMTI5MjQxNDc2OSwxNjM1MDAxODY5LC0xOTM5MDQ3Njg3LD
+E5MjEwMDgyMiwtMzUyOTIxNjAsMTE5MDQ4MDk1MCwtMTQ2OTc5
+NjgzN119
 -->
