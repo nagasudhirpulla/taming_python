@@ -4,7 +4,6 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 
 ### TODOS
-* create sequence of floats with numpy.arrange and numpy.linspace functions - https://stackoverflow.com/questions/477486/how-to-use-a-decimal-range-step-value
 * Duration curve in python  
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
@@ -15,8 +14,8 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MTU4Mzc4MywtMTY4Mzk2MTM2LC0zND
-k0NDgzNzMsMTg4MDIwMjgxMSwtMTI5MjQxNDc2OSwxNjM1MDAx
-ODY5LC0xOTM5MDQ3Njg3LDE5MjEwMDgyMiwtMzUyOTIxNjAsMT
-E5MDQ4MDk1MCwtMTQ2OTc5NjgzN119
+eyJoaXN0b3J5IjpbNzM5MDczNzc5LC05NjE1ODM3ODMsLTE2OD
+M5NjEzNiwtMzQ5NDQ4MzczLDE4ODAyMDI4MTEsLTEyOTI0MTQ3
+NjksMTYzNTAwMTg2OSwtMTkzOTA0NzY4NywxOTIxMDA4MjIsLT
+M1MjkyMTYwLDExOTA0ODA5NTAsLTE0Njk3OTY4MzddfQ==
 -->
