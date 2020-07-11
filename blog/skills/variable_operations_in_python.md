@@ -9,7 +9,8 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-### Main Code
+<hr>
+
 Boolean means ```True``` or ```False```. For example
 ```python
 x = False
@@ -197,9 +198,9 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzE2MTc4MzUwMDksMzI4MjU0NTcyLC0xMjE4NzU4
-MDEsNzkyNzIyNjczLDE3MzIxNzk2ODMsLTIwNjEwODk4ODMsOT
-MwMzQyNjk5LDE1NDc5MDA1MDUsLTE0NzcxOTkyNDQsLTE1NjQ2
-NDA2ODQsLTIwMDU0Mzk1NDYsLTc4Mzg3NzE2MSwtMTg5MjA5Mj
-c4NCwyMTQ0NTI2NDMxXX0=
+lzdG9yeSI6WzEyNjUyNTYwODgsMTYxNzgzNTAwOSwzMjgyNTQ1
+NzIsLTEyMTg3NTgwMSw3OTI3MjI2NzMsMTczMjE3OTY4MywtMj
+A2MTA4OTg4Myw5MzAzNDI2OTksMTU0NzkwMDUwNSwtMTQ3NzE5
+OTI0NCwtMTU2NDY0MDY4NCwtMjAwNTQzOTU0NiwtNzgzODc3MT
+YxLC0xODkyMDkyNzg0LDIxNDQ1MjY0MzFdfQ==
 -->
