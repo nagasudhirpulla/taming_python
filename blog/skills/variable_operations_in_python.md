@@ -69,8 +69,11 @@ print((x==300) and (y == 20))
 ```
 
 #### <, <=, >, >= Operators
+The following are some important comparison operators for inequality equations
 * `>` is 'greater than' operator
 * `>=` is 'greater than or equal to' operator
+* `<` is 'less than' operator
+* `<=` is 'less than or equal to' operator
 ```python
 # this will print False
 print(True and False)
@@ -166,9 +169,9 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wy01NDc5MDg4NDksLTEyMTg3NTgwMSw3OTI3MjI2
-NzMsMTczMjE3OTY4MywtMjA2MTA4OTg4Myw5MzAzNDI2OTksMT
-U0NzkwMDUwNSwtMTQ3NzE5OTI0NCwtMTU2NDY0MDY4NCwtMjAw
-NTQzOTU0NiwtNzgzODc3MTYxLC0xODkyMDkyNzg0LDIxNDQ1Mj
-Y0MzFdfQ==
+lzdG9yeSI6Wy0xOTAxMTU1MjYxLC0xMjE4NzU4MDEsNzkyNzIy
+NjczLDE3MzIxNzk2ODMsLTIwNjEwODk4ODMsOTMwMzQyNjk5LD
+E1NDc5MDA1MDUsLTE0NzcxOTkyNDQsLTE1NjQ2NDA2ODQsLTIw
+MDU0Mzk1NDYsLTc4Mzg3NzE2MSwtMTg5MjA5Mjc4NCwyMTQ0NT
+I2NDMxXX0=
 -->
