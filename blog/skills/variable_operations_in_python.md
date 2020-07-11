@@ -179,6 +179,7 @@ print(z)
 The video on this post can be found [here](https://youtu.be/77gtXKlUh00)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/77gtXKlUh00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<hr/>
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -198,9 +199,9 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzEyNjUyNTYwODgsMTYxNzgzNTAwOSwzMjgyNTQ1
-NzIsLTEyMTg3NTgwMSw3OTI3MjI2NzMsMTczMjE3OTY4MywtMj
-A2MTA4OTg4Myw5MzAzNDI2OTksMTU0NzkwMDUwNSwtMTQ3NzE5
-OTI0NCwtMTU2NDY0MDY4NCwtMjAwNTQzOTU0NiwtNzgzODc3MT
-YxLC0xODkyMDkyNzg0LDIxNDQ1MjY0MzFdfQ==
+lzdG9yeSI6Wzk4NDQ5MTAyNywxNjE3ODM1MDA5LDMyODI1NDU3
+MiwtMTIxODc1ODAxLDc5MjcyMjY3MywxNzMyMTc5NjgzLC0yMD
+YxMDg5ODgzLDkzMDM0MjY5OSwxNTQ3OTAwNTA1LC0xNDc3MTk5
+MjQ0LC0xNTY0NjQwNjg0LC0yMDA1NDM5NTQ2LC03ODM4NzcxNj
+EsLTE4OTIwOTI3ODQsMjE0NDUyNjQzMV19
 -->
