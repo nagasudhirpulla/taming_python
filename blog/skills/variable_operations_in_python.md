@@ -160,6 +160,20 @@ print(z)
 # this will print 180
 ```
 
+#### Combining both comparison and arithmetic operators
+```python
+# calculating an arithmetic equation and storing in a variable
+x = 10
+y = 20
+z = 30
+
+k = ( (2*x + x**2 + 3*y) > 4*z )
+
+print('The value of z =', end=' ')
+print(z)
+# this will print 180
+```
+
 ### Video
 The video on this post can be found [here](https://youtu.be/77gtXKlUh00)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/77gtXKlUh00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -183,9 +197,9 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wy01ODA5NTMwNjgsLTEyMTg3NTgwMSw3OTI3MjI2
-NzMsMTczMjE3OTY4MywtMjA2MTA4OTg4Myw5MzAzNDI2OTksMT
-U0NzkwMDUwNSwtMTQ3NzE5OTI0NCwtMTU2NDY0MDY4NCwtMjAw
-NTQzOTU0NiwtNzgzODc3MTYxLC0xODkyMDkyNzg0LDIxNDQ1Mj
-Y0MzFdfQ==
+lzdG9yeSI6Wy0xNTE2MTEzMjU1LC0xMjE4NzU4MDEsNzkyNzIy
+NjczLDE3MzIxNzk2ODMsLTIwNjEwODk4ODMsOTMwMzQyNjk5LD
+E1NDc5MDA1MDUsLTE0NzcxOTkyNDQsLTE1NjQ2NDA2ODQsLTIw
+MDU0Mzk1NDYsLTc4Mzg3NzE2MSwtMTg5MjA5Mjc4NCwyMTQ0NT
+I2NDMxXX0=
 -->
