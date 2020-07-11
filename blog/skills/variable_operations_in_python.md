@@ -147,6 +147,18 @@ z = x % y
 z = 2*x + x**2 + 3*y
 ```
 
+#### Calculating an arithmetic equation
+```python
+# calculating an arithmetic equation and storing in a variable
+x = 10
+y=
+z = 2*x + x**2 + 3*y
+
+print('The value of z =', end=' ')
+print(z)
+# this will print 
+```
+
 ### Video
 The video on this post can be found [here](https://youtu.be/77gtXKlUh00)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/77gtXKlUh00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -170,9 +182,9 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzYxODU1NzY3OCwtMTIxODc1ODAxLDc5MjcyMjY3
-MywxNzMyMTc5NjgzLC0yMDYxMDg5ODgzLDkzMDM0MjY5OSwxNT
-Q3OTAwNTA1LC0xNDc3MTk5MjQ0LC0xNTY0NjQwNjg0LC0yMDA1
-NDM5NTQ2LC03ODM4NzcxNjEsLTE4OTIwOTI3ODQsMjE0NDUyNj
-QzMV19
+lzdG9yeSI6Wy00ODM3NDE5NDcsLTEyMTg3NTgwMSw3OTI3MjI2
+NzMsMTczMjE3OTY4MywtMjA2MTA4OTg4Myw5MzAzNDI2OTksMT
+U0NzkwMDUwNSwtMTQ3NzE5OTI0NCwtMTU2NDY0MDY4NCwtMjAw
+NTQzOTU0NiwtNzgzODc3MTYxLC0xODkyMDkyNzg0LDIxNDQ1Mj
+Y0MzFdfQ==
 -->
