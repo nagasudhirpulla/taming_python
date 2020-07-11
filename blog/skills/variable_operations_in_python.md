@@ -1,4 +1,4 @@
-## Skill - Boolean and Logical Operations on variables in Python
+## Skill - Boolean and Arithmetic Operations on variables in Python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -197,9 +197,9 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzMyODI1NDU3MiwtMTIxODc1ODAxLDc5MjcyMjY3
-MywxNzMyMTc5NjgzLC0yMDYxMDg5ODgzLDkzMDM0MjY5OSwxNT
-Q3OTAwNTA1LC0xNDc3MTk5MjQ0LC0xNTY0NjQwNjg0LC0yMDA1
-NDM5NTQ2LC03ODM4NzcxNjEsLTE4OTIwOTI3ODQsMjE0NDUyNj
-QzMV19
+lzdG9yeSI6WzE2MTc4MzUwMDksMzI4MjU0NTcyLC0xMjE4NzU4
+MDEsNzkyNzIyNjczLDE3MzIxNzk2ODMsLTIwNjEwODk4ODMsOT
+MwMzQyNjk5LDE1NDc5MDA1MDUsLTE0NzcxOTkyNDQsLTE1NjQ2
+NDA2ODQsLTIwMDU0Mzk1NDYsLTc4Mzg3NzE2MSwtMTg5MjA5Mj
+c4NCwyMTQ0NTI2NDMxXX0=
 -->
