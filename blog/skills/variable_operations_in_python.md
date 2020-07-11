@@ -169,9 +169,9 @@ z = 30
 
 k = ( (2*x + x**2 + 3*y) > 4*z )
 
-print('The value of z =', end=' ')
+print('The value of k is', end=' ')
 print(z)
-# this will print 180
+# this will print True
 ```
 
 ### Video
@@ -197,9 +197,9 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wy0xNTE2MTEzMjU1LC0xMjE4NzU4MDEsNzkyNzIy
-NjczLDE3MzIxNzk2ODMsLTIwNjEwODk4ODMsOTMwMzQyNjk5LD
-E1NDc5MDA1MDUsLTE0NzcxOTkyNDQsLTE1NjQ2NDA2ODQsLTIw
-MDU0Mzk1NDYsLTc4Mzg3NzE2MSwtMTg5MjA5Mjc4NCwyMTQ0NT
-I2NDMxXX0=
+lzdG9yeSI6WzMyODI1NDU3MiwtMTIxODc1ODAxLDc5MjcyMjY3
+MywxNzMyMTc5NjgzLC0yMDYxMDg5ODgzLDkzMDM0MjY5OSwxNT
+Q3OTAwNTA1LC0xNDc3MTk5MjQ0LC0xNTY0NjQwNjg0LC0yMDA1
+NDM5NTQ2LC03ODM4NzcxNjEsLTE4OTIwOTI3ODQsMjE0NDUyNj
+QzMV19
 -->
