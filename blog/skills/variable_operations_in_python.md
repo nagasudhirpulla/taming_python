@@ -85,11 +85,11 @@ print((x > y))
 # this will print True
 print((x < y))
 
-# this will print True, since both sides are 
+# this will print True
 print((x <= y-10))
 
-# this will print False, since the left condition is False
-print((x==300) and (y == 20))
+# this will print True
+print((x+10 >= y))
 ```
 
 #### or Operator
@@ -143,7 +143,7 @@ z = x // y
 # modulo operation, it will return the remainder of the division operation. Example 18 % 4 = 2, 13 % 3 = 1
 z = x % y
 
-# some other equation
+# calculating an arithmetic equation and storing in a variable
 z = 2*x + x**2 + 3*y
 ```
 
@@ -170,9 +170,9 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzE5OTM4NDc0MzUsLTEyMTg3NTgwMSw3OTI3MjI2
-NzMsMTczMjE3OTY4MywtMjA2MTA4OTg4Myw5MzAzNDI2OTksMT
-U0NzkwMDUwNSwtMTQ3NzE5OTI0NCwtMTU2NDY0MDY4NCwtMjAw
-NTQzOTU0NiwtNzgzODc3MTYxLC0xODkyMDkyNzg0LDIxNDQ1Mj
-Y0MzFdfQ==
+lzdG9yeSI6WzYxODU1NzY3OCwtMTIxODc1ODAxLDc5MjcyMjY3
+MywxNzMyMTc5NjgzLC0yMDYxMDg5ODgzLDkzMDM0MjY5OSwxNT
+Q3OTAwNTA1LC0xNDc3MTk5MjQ0LC0xNTY0NjQwNjg0LC0yMDA1
+NDM5NTQ2LC03ODM4NzcxNjEsLTE4OTIwOTI3ODQsMjE0NDUyNj
+QzMV19
 -->
