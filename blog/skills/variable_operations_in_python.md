@@ -123,6 +123,11 @@ z = x % y
 z = 2*x + x**2 + 3*y
 ```
 
+### Video
+The video on this post can be found [here](https://youtu.be/77gtXKlUh00)
+
+
+
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
@@ -141,8 +146,9 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wy0xMjE4NzU4MDEsNzkyNzIyNjczLDE3MzIxNzk2
-ODMsLTIwNjEwODk4ODMsOTMwMzQyNjk5LDE1NDc5MDA1MDUsLT
-E0NzcxOTkyNDQsLTE1NjQ2NDA2ODQsLTIwMDU0Mzk1NDYsLTc4
-Mzg3NzE2MSwtMTg5MjA5Mjc4NCwyMTQ0NTI2NDMxXX0=
+lzdG9yeSI6Wy0xMzE5ODYxNTYsLTEyMTg3NTgwMSw3OTI3MjI2
+NzMsMTczMjE3OTY4MywtMjA2MTA4OTg4Myw5MzAzNDI2OTksMT
+U0NzkwMDUwNSwtMTQ3NzE5OTI0NCwtMTU2NDY0MDY4NCwtMjAw
+NTQzOTU0NiwtNzgzODc3MTYxLC0xODkyMDkyNzg0LDIxNDQ1Mj
+Y0MzFdfQ==
 -->
