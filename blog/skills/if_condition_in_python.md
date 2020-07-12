@@ -48,6 +48,8 @@ else:
 ```
 * if, else, elif can be nested with in each of them to suit our requirements, for example
 ```python
+age = 28
+country = 'India'
 
 ```
 
@@ -69,6 +71,6 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbMTA3OTY4MzQ5OSw0ODgwNzI4MjQsNzI0MTg3MDY5
+N0b3J5IjpbLTcyNjkyMDAwMSw0ODgwNzI4MjQsNzI0MTg3MDY5
 XX0=
 -->
