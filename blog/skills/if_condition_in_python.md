@@ -31,7 +31,15 @@ if x==5:
 else:
 	print('The value of x is not 5')
 ```
-* **elif** keyword is used to implement else-if in python
+* **elif** keyword is used to implement else-if in python. For example
+```python
+x = 9
+
+if x==2:
+	print('The value of x is 2')
+elif x==3:
+	print('The val')
+```
 
 
 ### Online Interpreter
@@ -52,6 +60,6 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbOTQ1NzU0MTYyLDQ4ODA3MjgyNCw3MjQxODcwNjld
-fQ==
+N0b3J5IjpbMTkyNzQwOTg0Niw0ODgwNzI4MjQsNzI0MTg3MDY5
+XX0=
 -->
