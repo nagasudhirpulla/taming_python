@@ -19,7 +19,7 @@ Here are the goals and skills in this tutorial series
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Getting type of variable in python](https://nagasudhir.blogspot.com/2020/05/getting-type-of-python-variable.html)
 * [Operations on variables in python](https://nagasudhir.blogspot.com/2020/04/operations-on-variables-in-python.html)
-* ['if' condition](https://nagasudhir.blogspot.com/2020/04/if-condition-in-python_14.html)
+* ['if', 'else', 'elif' condition in python](https://nagasudhir.blogspot.com/2020/04/if-condition-in-python_14.html)
 * [strings in python](https://nagasudhir.blogspot.com/2020/04/strings-in-python.html)
 * [raw strings in python](https://nagasudhir.blogspot.com/2020/05/raw-strings-in-python.html)
 * [lists in python](https://nagasudhir.blogspot.com/2020/04/lists-in-python.html)
@@ -90,11 +90,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMjU1NjM3NTM1LDEzOTg4Nz
-E0NTUsMTgwMjczNzY1NSwxNjU2MDMzMDEwLDEwMzIzMzMyMTEs
-LTEyNzIyNTUyODAsNzgxMzA3MTgwLDE2NzQ2NTAyMjYsLTEzNz
-U0MzU0MTksLTQ3ODc2OTgzLDE4MzAzMjk0NDcsMTIxNjQ4Mjg3
-MywxMjc2NjQyMDc1LC05NTkxMDk5OTYsLTEzMTk3MDAwODcsLT
-IxMjMzOTg3NTIsLTE5MTI0NDk1NTYsMjg0NzIxNTczLC0xOTYz
-OTE1NjcwLC0xMjk5ODM1MTg1XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTI1OTIzMTM1NywyNTU2Mz
+c1MzUsMTM5ODg3MTQ1NSwxODAyNzM3NjU1LDE2NTYwMzMwMTAs
+MTAzMjMzMzIxMSwtMTI3MjI1NTI4MCw3ODEzMDcxODAsMTY3ND
+Y1MDIyNiwtMTM3NTQzNTQxOSwtNDc4NzY5ODMsMTgzMDMyOTQ0
+NywxMjE2NDgyODczLDEyNzY2NDIwNzUsLTk1OTEwOTk5NiwtMT
+MxOTcwMDA4NywtMjEyMzM5ODc1MiwtMTkxMjQ0OTU1NiwyODQ3
+MjE1NzMsLTE5NjM5MTU2NzBdfQ==
 -->
