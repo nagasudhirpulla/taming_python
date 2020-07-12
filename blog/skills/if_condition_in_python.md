@@ -57,8 +57,10 @@ if country=='India':
 		print('Executing some application logic...')
 	elif age<60:
 		print('logic for country as India and age more than 25 and age less than 60')
+		print('Executing some application logic...')
 	else:
 		print('logic for country as India and age greater than or equal to 60')
+		print('Executing some application logic...')
 ```
 
 ### Online Interpreter
@@ -79,6 +81,6 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbNjQ2ODU5MjAyLC0xMTUzMzMzODEyLDQ4ODA3Mjgy
+N0b3J5IjpbOTQ5NjMxNzAyLC0xMTUzMzMzODEyLDQ4ODA3Mjgy
 NCw3MjQxODcwNjldfQ==
 -->
