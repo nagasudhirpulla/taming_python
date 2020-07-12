@@ -52,18 +52,17 @@ age = 28
 country = 'India'
 
 if country=='India':
-	if age<25:
-		print('logic for country as India and age less than 25')
+	if age<=25:
+		print('logic for country as India and age less than or equal to 25')
+	elif age<60:
+		print('logic for country as India and age more than 25 and age less than 60')
 	else:
-		print('logic for country as India and age more than 25')
+		print('logic for country as India and age less than or equal to 25')
 
-if (country=='India') and (age>=60):
+if (country=='USA') and (age>=60):
 	print('logic for country as India and age greater than or equal to 60')
 
-if country=='USA':
-	print('logic for country as USA')
-else:
-	
+
 ```
 
 ### Online Interpreter
@@ -84,6 +83,6 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTMzMDQ3NzQ0NCw0ODgwNzI4MjQsNzI0MTg3MDY5
-XX0=
+N0b3J5IjpbOTUxNjU1NTQ4LDQ4ODA3MjgyNCw3MjQxODcwNjld
+fQ==
 -->
