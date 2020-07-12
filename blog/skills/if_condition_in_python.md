@@ -41,8 +41,10 @@ elif x==3:
 	print('The value of x is 3')
 elif x==4:
 	print('The value of x is 4')
-elif (x>4 and x<10):
+elif (x>4) and (x<10):
 	print('x is greater than 4 and less than 10')
+else:
+	print('x is greater than 10')
 ```
 
 
@@ -64,6 +66,6 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbNjQxNzQ1ODM3LDQ4ODA3MjgyNCw3MjQxODcwNjld
+N0b3J5IjpbNTYwOTUyNDkzLDQ4ODA3MjgyNCw3MjQxODcwNjld
 fQ==
 -->
