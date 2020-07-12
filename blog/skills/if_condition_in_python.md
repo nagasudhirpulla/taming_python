@@ -1,4 +1,4 @@
-## Skill - 'if', 'else', 'elif' in python
+## Skill - 'if', 'else' and 'elif' in python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -10,7 +10,8 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-### Main Code
+<hr/>
+
 * **if** condition runs a code only if the supplied expression evaluates to ```True```. For Example
 ```python
 x = 5
@@ -30,6 +31,7 @@ if x==5:
 else:
 	print('The value of x is not 5')
 ```
+* **elif** keyword is used to implement else-if in python
 
 
 ### Online Interpreter
@@ -50,6 +52,6 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTU1MTQwMzQzLDQ4ODA3MjgyNCw3MjQxODcwNjld
+N0b3J5IjpbOTQ1NzU0MTYyLDQ4ODA3MjgyNCw3MjQxODcwNjld
 fQ==
 -->
