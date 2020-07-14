@@ -63,6 +63,10 @@ if country=='India':
 		print('Executing some application logic...')
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/7kHpwT_3ONw)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7kHpwT_3ONw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
@@ -81,6 +85,6 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTE5MjE0NzQ4MTQsOTQ5NjMxNzAyLC0xMTUzMzMz
-ODEyLDQ4ODA3MjgyNCw3MjQxODcwNjldfQ==
+N0b3J5IjpbLTk0MjU0NjUwNCwtMTkyMTQ3NDgxNCw5NDk2MzE3
+MDIsLTExNTMzMzM4MTIsNDg4MDcyODI0LDcyNDE4NzA2OV19
 -->
