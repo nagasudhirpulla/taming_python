@@ -11,6 +11,10 @@
 
 Please make sure to go through all the skills mentioned above to understand and execute the steps mentioned below
 
+<hr/>
+
+### Truth table of RS flip-flop
+
 #### Steps
 * Create a folder in your PC
 * Open this folder in Visual Studio Code using menu _File->Open Folder_
@@ -28,5 +32,5 @@ print("Hello world!")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3Nzc1MTUwLC01MzY4NzI5MzddfQ==
+eyJoaXN0b3J5IjpbLTE3OTYwNDU2NTgsLTUzNjg3MjkzN119
 -->
