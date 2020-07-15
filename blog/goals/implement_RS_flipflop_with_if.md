@@ -3,8 +3,11 @@
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
-* [Basic printing in python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
-* [Comments in python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
+* [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
+* [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
+* [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
+* [Boolean and Logical Operations on variables in Python](https://nagasudhir.blogspot.com/2020/04/operations-on-variables-in-python.html)
+* ['if', 'else', 'elif' condition in python](https://nagasudhir.blogspot.com/2020/04/if-condition-in-python_14.html)
 
 Please make sure to go through all the skills mentioned above to understand and execute the steps mentioned below
 
@@ -25,5 +28,5 @@ print("Hello world!")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjg3MjkzN119
+eyJoaXN0b3J5IjpbMzg3Nzc1MTUwLC01MzY4NzI5MzddfQ==
 -->
