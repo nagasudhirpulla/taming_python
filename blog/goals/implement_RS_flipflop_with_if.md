@@ -1,4 +1,4 @@
-## Challenge - Implement RS flip-flop logic with if statement
+## Challenge - Implement RS flip-flop logic using if statement and variables
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -56,7 +56,10 @@ You can also change the variable values and execute to see different outputs pri
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDEyNDY0MSwtOTE0ODM4MjAsLTMyMD
-c1MjQwLC01NTkwOTE2NjYsLTE3OTYwNDU2NTgsLTUzNjg3Mjkz
-N119
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEltcGxlbWVudCBSUyBmbG
+lwLWZsb3AgbG9naWMgdXNpbmcgaWYgc3RhdGVtZW50IGFuZCB2
+YXJpYWJsZXNcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZG
+F0ZTogJzIwMjAtMDctMTUnXG4iLCJoaXN0b3J5IjpbLTExMDQx
+NjQwNjIsLTkxNDgzODIwLC0zMjA3NTI0MCwtNTU5MDkxNjY2LC
+0xNzk2MDQ1NjU4LC01MzY4NzI5MzddfQ==
 -->
