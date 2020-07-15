@@ -44,18 +44,19 @@ else:
 print("Execution complete...")
 ```
 * Run the code using menu _Run -> Run Without Debugging_
-* You should see 
+* You should see the following output
 ```
-
+The nextstate is 0
+Execution complete...
 ```
-printed in the terminal
+You can also change the variable values and execute to see different outputs printed in the console
 
 ### You can practice here
 <iframe height="800px" width="100%" src="https://repl.it/repls/FondNutritiousParticle?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3MzQzNTkzLC05MTQ4MzgyMCwtMzIwNz
-UyNDAsLTU1OTA5MTY2NiwtMTc5NjA0NTY1OCwtNTM2ODcyOTM3
-XX0=
+eyJoaXN0b3J5IjpbLTE4Njk5Njg1MDUsLTkxNDgzODIwLC0zMj
+A3NTI0MCwtNTU5MDkxNjY2LC0xNzk2MDQ1NjU4LC01MzY4NzI5
+MzddfQ==
 -->
