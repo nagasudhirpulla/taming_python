@@ -23,7 +23,12 @@ inp1 = 0
 inp2 = 1
 prevState = 1
 nextState = None
-
+if inp1==0 and inp2==0:
+	nextState = prevState
+elif inp1==0 and inp2==1:
+	nextState = 0
+elif inp1==1 and inp2==0:
+	nextState = 
 print("Hello world!")
 ```
 * Run the code using menu _Run -> Run Without Debugging_
@@ -34,6 +39,7 @@ print("Hello world!")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDgzODIwLC0zMjA3NTI0MCwtNTU5MD
-kxNjY2LC0xNzk2MDQ1NjU4LC01MzY4NzI5MzddfQ==
+eyJoaXN0b3J5IjpbLTU5ODY1MzQ1NiwtOTE0ODM4MjAsLTMyMD
+c1MjQwLC01NTkwOTE2NjYsLTE3OTYwNDU2NTgsLTUzNjg3Mjkz
+N119
 -->
