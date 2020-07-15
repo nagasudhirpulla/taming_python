@@ -19,7 +19,7 @@ In order to implement an RS flip-flop, we need to implement its truth table
 ### Python implementation of RS flip-flop
 * We will use 4 variables to store and manipulate the values of 2 inputs, current state and next state
 ```python
-# storing 
+# storing initial states and inputs in variables
 inp1 = 0
 inp2 = 1
 prevState = 1
@@ -46,7 +46,7 @@ print("Hello world!")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY0Njc3MDEwLC05MTQ4MzgyMCwtMzIwNz
-UyNDAsLTU1OTA5MTY2NiwtMTc5NjA0NTY1OCwtNTM2ODcyOTM3
-XX0=
+eyJoaXN0b3J5IjpbLTE0MzA4OTI1MzQsLTkxNDgzODIwLC0zMj
+A3NTI0MCwtNTU5MDkxNjY2LC0xNzk2MDQ1NjU4LC01MzY4NzI5
+MzddfQ==
 -->
