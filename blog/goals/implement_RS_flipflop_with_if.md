@@ -39,18 +39,23 @@ else:
 if nextState != None:
 	print("The nextstate is {0}".format(nextState))
 else:
-	print("Unable to produce next state, please check is {0}".format(nextState))
+	print("Unable to produce next state, please provide valid inputs and states...")
+
 print("Execution complete...")
 ```
 * Run the code using menu _Run -> Run Without Debugging_
-* You should see __Hello world!__ printed in the terminal
+* You should see 
+```
+
+```
+printed in the terminal
 
 ### You can practice here
 <iframe height="800px" width="100%" src="https://repl.it/repls/FondNutritiousParticle?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTU5MjMxMSwtOTE0ODM4MjAsLTMyMD
-c1MjQwLC01NTkwOTE2NjYsLTE3OTYwNDU2NTgsLTUzNjg3Mjkz
-N119
+eyJoaXN0b3J5IjpbOTI3MzQzNTkzLC05MTQ4MzgyMCwtMzIwNz
+UyNDAsLTU1OTA5MTY2NiwtMTc5NjA0NTY1OCwtNTM2ODcyOTM3
+XX0=
 -->
