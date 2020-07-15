@@ -36,7 +36,7 @@ else:
 	print('Invalid input provided')
 	nextState = None
 
-print("Hello world!")
+print("Execution complete...")
 ```
 * Run the code using menu _Run -> Run Without Debugging_
 * You should see __Hello world!__ printed in the terminal
@@ -46,7 +46,7 @@ print("Hello world!")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzA4OTI1MzQsLTkxNDgzODIwLC0zMj
+eyJoaXN0b3J5IjpbLTE3MzUxNjg5NDAsLTkxNDgzODIwLC0zMj
 A3NTI0MCwtNTU5MDkxNjY2LC0xNzk2MDQ1NjU4LC01MzY4NzI5
 MzddfQ==
 -->
