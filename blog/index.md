@@ -3,16 +3,16 @@
 
 Hey Guys,
 
-I just wanted to create a tutorial series that helps people develop skill sets in python to achieve their data manipulation / visualization goals
+I just wanted to create a tutorial series that helps people develop skill sets in python to achieve their data manipulation / visualization challenges
 
-The approach is to create precise skills to understand all the steps in achieving a specific goal. 
+The approach is to create precise skills to understand all the steps in achieving a specific challenge. 
 
-This approach helps the user to acquire only the skills required for achieving a specific goal, not more not less. 
-This saves a lot of time to achieve each goal with out pondering on unnecessary skills.
+This approach helps the user to acquire only the skills required for achieving a specific challenge, not more not less. 
+This saves a lot of time to achieve each challenge with out pondering on unnecessary skills.
 
 For example, if 
 
-Goal = Read csv file, plot all columns data one below the other, save plot as a PNG image, 
+Challenge = Read csv file, plot all columns data one below the other, save plot as a PNG image, 
 
 User story = Create a summary image of voltage time-series from a csv file 
 
@@ -96,7 +96,7 @@ AnJ1xudGl0bGU6IEludHJvIHRvIFRhbWluZyBQeXRob24gc2Vy
 aWVzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6IC
 dweXRob24sIHR1dG9yaWFsJ1xuY2F0ZWdvcmllczogJ2xlYXJu
 aW5nLCBweXRob24sIHR1dG9yaWFsJ1xuZGF0ZTogJzIwMjAtMD
-QtMTQnXG4iLCJoaXN0b3J5IjpbMTExOTIyMTI0NCw2OTkzODAy
-OTUsMTEyMjQ2OTU3LC0xMDUxODk3MjMwLC02MzYwODg5OTIsNz
-MwOTk4MTE2XX0=
+QtMTQnXG4iLCJoaXN0b3J5IjpbLTE3MTQ3MzE5NiwxMTE5MjIx
+MjQ0LDY5OTM4MDI5NSwxMTIyNDY5NTcsLTEwNTE4OTcyMzAsLT
+YzNjA4ODk5Miw3MzA5OTgxMTZdfQ==
 -->
