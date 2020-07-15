@@ -52,11 +52,11 @@ Execution complete...
 You can also change the variable values and execute to see different outputs printed in the console
 
 ### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/FondNutritiousParticle?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="800px" width="100%" src="https://repl.it/repls/BowedUnusualWheel?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzU4NzcxNjEsLTkxNDgzODIwLC0zMj
-A3NTI0MCwtNTU5MDkxNjY2LC0xNzk2MDQ1NjU4LC01MzY4NzI5
-MzddfQ==
+eyJoaXN0b3J5IjpbLTIxMDEyNDY0MSwtOTE0ODM4MjAsLTMyMD
+c1MjQwLC01NTkwOTE2NjYsLTE3OTYwNDU2NTgsLTUzNjg3Mjkz
+N119
 -->
