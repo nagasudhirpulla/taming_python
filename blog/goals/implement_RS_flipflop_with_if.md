@@ -14,13 +14,10 @@ Please make sure to go through all the skills mentioned above to understand and 
 <hr/>
 
 ### Truth table of RS flip-flop
-In order 
+In order to implement an RS flip-flop, we need to implement its truth table
 ![rs_flipflop_truth_table](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/goals/assets/img/rs_flipflop_truth_table.jpg)
-#### Steps
-* Create a folder in your PC
-* Open this folder in Visual Studio Code using menu _File->Open Folder_
-* Open _File Explorer_
-* Create a python file by any name, say ```hello.py``` and write the following
+### Python implementation of RS flip-flop
+* We will use 4 variables to store and manipulate the values of 2 inputs,
 ```python
 # filename - hello.py
 print("Hello world!")
@@ -33,6 +30,6 @@ print("Hello world!")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTEzMjcwMywtNTU5MDkxNjY2LC0xNz
+eyJoaXN0b3J5IjpbMjAxMTc4MTc4MCwtNTU5MDkxNjY2LC0xNz
 k2MDQ1NjU4LC01MzY4NzI5MzddfQ==
 -->
