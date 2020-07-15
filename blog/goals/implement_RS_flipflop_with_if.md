@@ -14,7 +14,7 @@ Please make sure to go through all the skills mentioned above to understand and 
 <hr/>
 
 ### Truth table of RS flip-flop
-
+![rs_flipflop_truth_table](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/goals/assets/img/rs_flipflop_truth_table.jpg)
 #### Steps
 * Create a folder in your PC
 * Open this folder in Visual Studio Code using menu _File->Open Folder_
@@ -32,5 +32,6 @@ print("Hello world!")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTYwNDU2NTgsLTUzNjg3MjkzN119
+eyJoaXN0b3J5IjpbLTU1OTA5MTY2NiwtMTc5NjA0NTY1OCwtNT
+M2ODcyOTM3XX0=
 -->
