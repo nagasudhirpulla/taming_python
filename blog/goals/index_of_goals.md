@@ -7,6 +7,7 @@ Here are the goals and skills in this tutorial series
 
 ### Challenges
 * [Print "Hello World!"](https://nagasudhir.blogspot.com/2020/04/print-hello-world_54.html)
+* [Implement RS flip-flop logic using if statement and variables](https://nagasudhir.blogspot.com/2020/07/implement-rs-flip-flop-logic-using-if.html)
 
 ### Skills
 #### Setup for working with python files
@@ -90,7 +91,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEyODAxOTU2MSwxMjU5Mj
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTY1NjY5NDAwMSwxMjU5Mj
 MxMzU3LDI1NTYzNzUzNSwxMzk4ODcxNDU1LDE4MDI3Mzc2NTUs
 MTY1NjAzMzAxMCwxMDMyMzMzMjExLC0xMjcyMjU1MjgwLDc4MT
 MwNzE4MCwxNjc0NjUwMjI2LC0xMzc1NDM1NDE5LC00Nzg3Njk4
