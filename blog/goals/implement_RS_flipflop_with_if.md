@@ -36,6 +36,10 @@ else:
 	print('Invalid input provided')
 	nextState = None
 
+if nextState != None:
+	print("The nextstate is {0}".format(nextState))
+else:
+	print("Unable to produce next state, please check is {0}".format(nextState))
 print("Execution complete...")
 ```
 * Run the code using menu _Run -> Run Without Debugging_
@@ -46,7 +50,7 @@ print("Execution complete...")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzUxNjg5NDAsLTkxNDgzODIwLC0zMj
-A3NTI0MCwtNTU5MDkxNjY2LC0xNzk2MDQ1NjU4LC01MzY4NzI5
-MzddfQ==
+eyJoaXN0b3J5IjpbLTM0OTU5MjMxMSwtOTE0ODM4MjAsLTMyMD
+c1MjQwLC01NTkwOTE2NjYsLTE3OTYwNDU2NTgsLTUzNjg3Mjkz
+N119
 -->
