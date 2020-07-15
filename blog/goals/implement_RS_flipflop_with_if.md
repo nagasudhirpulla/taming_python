@@ -37,7 +37,7 @@ else:
 	nextState = None
 
 if nextState != None:
-	print("The nextstate is {0}".format(nextState))
+	print("The next state is {0}".format(nextState))
 else:
 	print("Unable to produce next state, please provide valid inputs and states...")
 
@@ -46,7 +46,7 @@ print("Execution complete...")
 * Run the code using menu _Run -> Run Without Debugging_
 * You should see the following output
 ```
-The nextstate is 0
+The next state is 0
 Execution complete...
 ```
 You can also change the variable values and execute to see different outputs printed in the console
@@ -56,7 +56,7 @@ You can also change the variable values and execute to see different outputs pri
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk5Njg1MDUsLTkxNDgzODIwLC0zMj
+eyJoaXN0b3J5IjpbLTE2MzU4NzcxNjEsLTkxNDgzODIwLC0zMj
 A3NTI0MCwtNTU5MDkxNjY2LC0xNzk2MDQ1NjU4LC01MzY4NzI5
 MzddfQ==
 -->
