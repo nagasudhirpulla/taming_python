@@ -1,4 +1,4 @@
-## Goal - Print "Hello World!"
+## Challenge - Print "Hello World!"
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -29,7 +29,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFByaW50IFwiSGVsbG8gV2
 9ybGQhXCJcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFn
 czogJ3B5dGhvbiwgbGVhcm5pbmcsIHRhbWluZ19weXRob25fZ2
 9hbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fZ29hbFxu
-ZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbMTQ4OT
-E0MTYxMCwtMTY1ODgyODQ0MywtMTg0MTA3MzQyNiwtMTAwNTg1
-NzYxNF19
+ZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5IjpbLTEwND
+MxNTM4NjYsMTQ4OTE0MTYxMCwtMTY1ODgyODQ0MywtMTg0MTA3
+MzQyNiwtMTAwNTg1NzYxNF19
 -->
