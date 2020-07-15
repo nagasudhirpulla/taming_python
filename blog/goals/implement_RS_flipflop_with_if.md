@@ -20,6 +20,10 @@ In order to implement an RS flip-flop, we need to implement its truth table
 * We will use 4 variables to store and manipulate the values of 2 inputs, current state and next state
 ```python
 inp1 = 0
+inp2 = 1
+prevState = 1
+nextState = None
+
 print("Hello world!")
 ```
 * Run the code using menu _Run -> Run Without Debugging_
@@ -30,6 +34,6 @@ print("Hello world!")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjYwMjc1MiwtMzIwNzUyNDAsLTU1OT
-A5MTY2NiwtMTc5NjA0NTY1OCwtNTM2ODcyOTM3XX0=
+eyJoaXN0b3J5IjpbLTkxNDgzODIwLC0zMjA3NTI0MCwtNTU5MD
+kxNjY2LC0xNzk2MDQ1NjU4LC01MzY4NzI5MzddfQ==
 -->
