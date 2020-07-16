@@ -5,6 +5,7 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 ### TODOS
 * in keyword in python
+* bubble map geographic plots using folium 
 * Duration curve in python  
 ```python
 '''
@@ -37,9 +38,9 @@ def deriveDurationVals(vals, resol):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDg2MDE0MywtNTIwNDcxOTM4LDczOT
-A3Mzc3OSwtOTYxNTgzNzgzLC0xNjgzOTYxMzYsLTM0OTQ0ODM3
-MywxODgwMjAyODExLC0xMjkyNDE0NzY5LDE2MzUwMDE4NjksLT
-E5MzkwNDc2ODcsMTkyMTAwODIyLC0zNTI5MjE2MCwxMTkwNDgw
-OTUwLC0xNDY5Nzk2ODM3XX0=
+eyJoaXN0b3J5IjpbMjEyMTU3NzE0LC03NzQ4NjAxNDMsLTUyMD
+Q3MTkzOCw3MzkwNzM3NzksLTk2MTU4Mzc4MywtMTY4Mzk2MTM2
+LC0zNDk0NDgzNzMsMTg4MDIwMjgxMSwtMTI5MjQxNDc2OSwxNj
+M1MDAxODY5LC0xOTM5MDQ3Njg3LDE5MjEwMDgyMiwtMzUyOTIx
+NjAsMTE5MDQ4MDk1MCwtMTQ2OTc5NjgzN119
 -->
