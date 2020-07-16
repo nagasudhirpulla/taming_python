@@ -21,7 +21,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ### Create a virtual environment using 'venv'
 * Create a folder
 * Open command prompt inside that folder
-* Enter command `python venv -m env_name` 
+* Enter command `python -m venv env_name` 
 you can use any name instead of `env_name` 
 
 ### Activate a virtual environment
@@ -60,6 +60,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFZpcnR1YWwgRW52aXJvbm
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMjcnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTY4MTMwOTk1MCwtMTQxNDA4MzM5
-N119
+xsXG4iLCJoaXN0b3J5IjpbNzc2MDA5NDg4LC02ODEzMDk5NTAs
+LTE0MTQwODMzOTddfQ==
 -->
