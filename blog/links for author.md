@@ -4,6 +4,7 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 
 ### TODOS
+* in keyword in python
 * Duration curve in python  
 ```python
 '''
@@ -36,9 +37,9 @@ def deriveDurationVals(vals, resol):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDQ3MTkzOCw3MzkwNzM3NzksLTk2MT
-U4Mzc4MywtMTY4Mzk2MTM2LC0zNDk0NDgzNzMsMTg4MDIwMjgx
-MSwtMTI5MjQxNDc2OSwxNjM1MDAxODY5LC0xOTM5MDQ3Njg3LD
-E5MjEwMDgyMiwtMzUyOTIxNjAsMTE5MDQ4MDk1MCwtMTQ2OTc5
-NjgzN119
+eyJoaXN0b3J5IjpbLTc3NDg2MDE0MywtNTIwNDcxOTM4LDczOT
+A3Mzc3OSwtOTYxNTgzNzgzLC0xNjgzOTYxMzYsLTM0OTQ0ODM3
+MywxODgwMjAyODExLC0xMjkyNDE0NzY5LDE2MzUwMDE4NjksLT
+E5MzkwNDc2ODcsMTkyMTAwODIyLC0zNTI5MjE2MCwxMTkwNDgw
+OTUwLC0xNDY5Nzk2ODM3XX0=
 -->
