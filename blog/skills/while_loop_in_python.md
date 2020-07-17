@@ -9,9 +9,9 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-`while` loop is used to run code again and again until a specified condition is satisfied. 
+`while` statement is used to run code again and again until a specified condition is satisfied. 
 
-### Using while loop to print 10 times
+### Using while statement to print 10 times
 ```python
 x = 1
 while x<=10:
@@ -36,9 +36,27 @@ In the example below, we can see that the loop is broken using the `break` keywo
 ```python
 x = 1
 while x<=10:
-	print('{0} - Hello World!'.format(x))
 	if x==4:
 		break
+	print('{0} - Hello World!'.format(x))
+	x = x + 1
+# this prints
+'''
+1 - Hello World!
+2 - Hello World!
+3 - Hello World!
+4 - Hello World!
+'''
+```
+
+### Using 'continue' to skip iteration
+In the example below, we can see that the loop is broken using the `break` keyword
+```python
+x = 1
+while x<=10:
+	if x==4:
+		skip
+	print('{0} - Hello World!'.format(x))
 	x = x + 1
 # this prints
 '''
@@ -65,6 +83,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFdoaWxlIGxvb3AgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6
 ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraW
 xsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxu
-ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMjk5Mz
-M1NDU1LDEzMTQ4MDkwMzZdfQ==
+ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLTgxMz
+I1ODUzMSwxMzE0ODA5MDM2XX0=
 -->
