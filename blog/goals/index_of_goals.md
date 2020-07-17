@@ -27,7 +27,7 @@ Here are the goals and skills in this tutorial series
 * [dictionaries in python](https://nagasudhir.blogspot.com/2020/04/dictionaries-in-python.html)
 * [Create sequences with range function in python](https://nagasudhir.blogspot.com/2020/05/create-sequences-with-range-function.html)
 * ['for' loop in python](https://nagasudhir.blogspot.com/2020/05/for-loop-in-python.html)
-* ['while' loop in python](https://nagasudhir.blogspot.com/2020/05/while-loop-in-python.html)
+* ['while' statement for looping in python](https://nagasudhir.blogspot.com/2020/05/while-loop-in-python.html)
 * [functions in python](https://nagasudhir.blogspot.com/2020/05/fucntions-in-python.html)
 * [List comprehensions in python](https://nagasudhir.blogspot.com/2020/05/list-comprehensions-in-python.html)
 * [Create a sequence of numbers in python](https://nagasudhir.blogspot.com/2020/07/create-sequence-of-numbers-in-python.html)
@@ -91,11 +91,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTY1NjY5NDAwMSwxMjU5Mj
-MxMzU3LDI1NTYzNzUzNSwxMzk4ODcxNDU1LDE4MDI3Mzc2NTUs
-MTY1NjAzMzAxMCwxMDMyMzMzMjExLC0xMjcyMjU1MjgwLDc4MT
-MwNzE4MCwxNjc0NjUwMjI2LC0xMzc1NDM1NDE5LC00Nzg3Njk4
-MywxODMwMzI5NDQ3LDEyMTY0ODI4NzMsMTI3NjY0MjA3NSwtOT
-U5MTA5OTk2LC0xMzE5NzAwMDg3LC0yMTIzMzk4NzUyLC0xOTEy
-NDQ5NTU2LDI4NDcyMTU3M119
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTExNDYzMDQ2MTksMTY1Nj
+Y5NDAwMSwxMjU5MjMxMzU3LDI1NTYzNzUzNSwxMzk4ODcxNDU1
+LDE4MDI3Mzc2NTUsMTY1NjAzMzAxMCwxMDMyMzMzMjExLC0xMj
+cyMjU1MjgwLDc4MTMwNzE4MCwxNjc0NjUwMjI2LC0xMzc1NDM1
+NDE5LC00Nzg3Njk4MywxODMwMzI5NDQ3LDEyMTY0ODI4NzMsMT
+I3NjY0MjA3NSwtOTU5MTA5OTk2LC0xMzE5NzAwMDg3LC0yMTIz
+Mzk4NzUyLC0xOTEyNDQ5NTU2XX0=
 -->
