@@ -74,6 +74,12 @@ while x<10:
 10 - Hello World!
 '''
 ```
+
+### Video
+The video for this post can be found [here](https://youtu.be/rrVDfJESqm4)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rrVDfJESqm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### Online Interpreter
@@ -92,6 +98,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFdoaWxlIGxvb3AgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6
 ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraW
 xsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxu
-ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMjAzMD
-UxMzYwNyw5NzE2NjAyNjksMTMxNDgwOTAzNl19
+ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMTM0NT
+AwMzcxMiwyMDMwNTEzNjA3LDk3MTY2MDI2OSwxMzE0ODA5MDM2
+XX0=
 -->
