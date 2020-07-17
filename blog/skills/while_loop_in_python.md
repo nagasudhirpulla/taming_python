@@ -52,13 +52,13 @@ while x<=10:
 ### Using 'continue' to skip iteration
 In the example below, we can see that the loop is skipped using the `continue` keyword at 4th iteration
 ```python
-x = 1
+x = 0
 while x<=10:
+	x = x + 1
 	if x==4:
 		continue
 	else:
 		print('{0} - Hello World!'.format(x))
-	x = x + 1
 # this prints
 '''
 1 - Hello World!
@@ -84,6 +84,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFdoaWxlIGxvb3AgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6
 ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraW
 xsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxu
-ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLTMxNj
-gzMTA5NywxMzE0ODA5MDM2XX0=
+ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLTQzMj
+gwNjkyMCwxMzE0ODA5MDM2XX0=
 -->
