@@ -1,4 +1,4 @@
-## Skill - while statement for looping in python
+## Skill - 'while' statement for looping in python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -11,7 +11,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 `while` statement is used to run code again and again until a specified condition is satisfied. 
 
-### Using while statement to print 10 times
+### Using 'while' statement to print 10 times
 ```python
 x = 1
 while x<=10:
@@ -32,7 +32,7 @@ while x<=10:
 '''
 ```
 ### Using 'break' to abort while loop
-In the example below, we can see that the loop is broken using the `break` keyword
+In the example below, we can see that the loop is broken using the `break` keyword at 4th iteration
 ```python
 x = 1
 while x<=10:
@@ -50,7 +50,7 @@ while x<=10:
 ```
 
 ### Using 'continue' to skip iteration
-In the example below, we can see that the loop is broken using the `break` keyword
+In the example below, we can see that the loop is skip using the `continue` keyword
 ```python
 x = 1
 while x<=10:
@@ -83,6 +83,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFdoaWxlIGxvb3AgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6
 ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraW
 xsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxu
-ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLTkxMz
-I3OTA1MSwxMzE0ODA5MDM2XX0=
+ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLTQzMD
+c4NTIwMSwxMzE0ODA5MDM2XX0=
 -->
