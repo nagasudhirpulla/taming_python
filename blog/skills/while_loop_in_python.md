@@ -74,6 +74,7 @@ while x<10:
 10 - Hello World!
 '''
 ```
+<hr/>
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -91,6 +92,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFdoaWxlIGxvb3AgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6
 ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraW
 xsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxu
-ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLTg0ND
-U5OTgzOCw5NzE2NjAyNjksMTMxNDgwOTAzNl19
+ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMjAzMD
+UxMzYwNyw5NzE2NjAyNjksMTMxNDgwOTAzNl19
 -->
