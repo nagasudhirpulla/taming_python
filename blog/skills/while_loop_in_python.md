@@ -1,4 +1,4 @@
-## Skill - while loop in python
+## Skill - while statement for looping in python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -65,6 +65,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFdoaWxlIGxvb3AgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6
 ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraW
 xsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxu
-ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLTg1MT
-A1OTk4MSwxMzE0ODA5MDM2XX0=
+ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbMjk5Mz
+M1NDU1LDEzMTQ4MDkwMzZdfQ==
 -->
