@@ -53,7 +53,7 @@ while x<=10:
 In the example below, we can see that the loop is skipped using the `continue` keyword at 4th iteration
 ```python
 x = 0
-while x<=10:
+while x<10:
 	x = x + 1
 	if x==4:
 		continue
@@ -64,7 +64,12 @@ while x<=10:
 1 - Hello World!
 2 - Hello World!
 3 - Hello World!
-4 - Hello World!
+5 - Hello World!
+6 - Hello World!
+7 - Hello World!
+8 - Hello World!
+9 - Hello World!
+10 - Hello World!
 '''
 ```
 
@@ -84,6 +89,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFdoaWxlIGxvb3AgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6
 ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraW
 xsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxu
-ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLTQzMj
-gwNjkyMCwxMzE0ODA5MDM2XX0=
+ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLTEwMT
+Q2MDI2NzksMTMxNDgwOTAzNl19
 -->
