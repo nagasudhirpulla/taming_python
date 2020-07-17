@@ -9,6 +9,8 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
+
+
 `while` statement is used to run code again and again until a specified condition is satisfied. 
 
 ### Using 'while' statement to print 10 times
@@ -89,6 +91,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFdoaWxlIGxvb3AgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6
 ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraW
 xsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxu
-ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbLTEwMT
-Q2MDI2NzksMTMxNDgwOTAzNl19
+ZGF0ZTogJzIwMjAtMDUtMDMnXG4iLCJoaXN0b3J5IjpbOTcxNj
+YwMjY5LDEzMTQ4MDkwMzZdfQ==
 -->
