@@ -9,7 +9,7 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-**string** means a group of characters
+**string** means a group of characters or letters
 
 ### Main Code
 #### Creating a string
@@ -146,9 +146,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFN0cmluZ3MgaW4gcHl0aG
 9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICds
 ZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1
 xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0
-ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbMTkzNjQxND
-I5MCwtMTczMjg3MTAwOSwtMTU0NzMxODEwOCw1NTI4MzA4MzUs
-MTE5MzE2MzEyOCwtNTEzMDk1NzI4LDE4MTgwNTQyNDUsMTI2ND
-Q4MDg4MiwxNDY5OTgwMjQxLC00MTI0MjAwMjYsMTE4MzI5MTMy
-MV19
+ZTogJzIwMjAtMDQtMjUnXG4iLCJoaXN0b3J5IjpbMTQwNjQxMj
+Q4NCwxOTM2NDE0MjkwLC0xNzMyODcxMDA5LC0xNTQ3MzE4MTA4
+LDU1MjgzMDgzNSwxMTkzMTYzMTI4LC01MTMwOTU3MjgsMTgxOD
+A1NDI0NSwxMjY0NDgwODgyLDE0Njk5ODAyNDEsLTQxMjQyMDAy
+NiwxMTgzMjkxMzIxXX0=
 -->
