@@ -128,6 +128,7 @@ print(x[2:-1])
 ### Video
 Video for this post can be found [here]()
 
+<hr/>
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -143,9 +144,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0xMjY3NzA0ND
-kwLDM4Njk1NzY2Miw5Mjg0OTgxMzIsMjA5MTY5Mjg1OSw2NTE2
-Njk1MDEsLTI5MTE2NDg0MywtMjA2MDU3Mjc2MiwtMjAxNTc2ND
-A3MiwtNTcwNzEwOTc5LC0xNTc3NTgyNzkwLC0xMTUzODY4OTY5
-XX0=
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzEwMzM0MzY2My
+wzODY5NTc2NjIsOTI4NDk4MTMyLDIwOTE2OTI4NTksNjUxNjY5
+NTAxLC0yOTExNjQ4NDMsLTIwNjA1NzI3NjIsLTIwMTU3NjQwNz
+IsLTU3MDcxMDk3OSwtMTU3NzU4Mjc5MCwtMTE1Mzg2ODk2OV19
+
 -->
