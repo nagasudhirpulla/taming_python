@@ -83,15 +83,18 @@ print(x.index('b'))
 print(x.index('b', 2))
 # prints 3
 ```
-#### "sort" function to sort a list
+#### "sorted" function to sort a list
 ```python
 x = [5,1,2,9,4,6]
-x.sort()
+x = x.sorted()
+print(x)
+# prints [1, 2, 4, 5, 6, 9]
+x = sorted(reverse=True)
 print(x)
 # prints [1, 2, 4, 5, 6, 9]
 
 x = ['z','w','p','a']
-x.sort()
+x = x.sorted()
 print(x)
 # prints ['a', 'p', 'w', 'z']
 ```
@@ -135,8 +138,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzkyODQ5ODEzMi
-wyMDkxNjkyODU5LDY1MTY2OTUwMSwtMjkxMTY0ODQzLC0yMDYw
-NTcyNzYyLC0yMDE1NzY0MDcyLC01NzA3MTA5NzksLTE1Nzc1OD
-I3OTAsLTExNTM4Njg5NjldfQ==
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0xNjUzOTA0ND
+kzLDkyODQ5ODEzMiwyMDkxNjkyODU5LDY1MTY2OTUwMSwtMjkx
+MTY0ODQzLC0yMDYwNTcyNzYyLC0yMDE1NzY0MDcyLC01NzA3MT
+A5NzksLTE1Nzc1ODI3OTAsLTExNTM4Njg5NjldfQ==
 -->
