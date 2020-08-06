@@ -125,6 +125,9 @@ print(x[:2])
 print(x[2:-1])
 # prints [2, 3, 4]
 ```
+### Video
+Video for this post can be found [here]()
+
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -140,8 +143,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzM4Njk1NzY2Mi
-w5Mjg0OTgxMzIsMjA5MTY5Mjg1OSw2NTE2Njk1MDEsLTI5MTE2
-NDg0MywtMjA2MDU3Mjc2MiwtMjAxNTc2NDA3MiwtNTcwNzEwOT
-c5LC0xNTc3NTgyNzkwLC0xMTUzODY4OTY5XX0=
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy0xMjY3NzA0ND
+kwLDM4Njk1NzY2Miw5Mjg0OTgxMzIsMjA5MTY5Mjg1OSw2NTE2
+Njk1MDEsLTI5MTE2NDg0MywtMjA2MDU3Mjc2MiwtMjAxNTc2ND
+A3MiwtNTcwNzEwOTc5LC0xNTc3NTgyNzkwLC0xMTUzODY4OTY5
+XX0=
 -->
