@@ -126,7 +126,9 @@ print(x[2:-1])
 # prints [2, 3, 4]
 ```
 ### Video
-Video for this post can be found [here]()
+Video for this post can be found [here](https://youtu.be/LiqcTbXGPO4)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LiqcTbXGPO4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
 
@@ -144,9 +146,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IExpc3RzIGluIFB5dGhvbl
 xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAnbGVh
 cm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbm
 NhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRhdGU6
-ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6WzEwMzM0MzY2My
-wzODY5NTc2NjIsOTI4NDk4MTMyLDIwOTE2OTI4NTksNjUxNjY5
-NTAxLC0yOTExNjQ4NDMsLTIwNjA1NzI3NjIsLTIwMTU3NjQwNz
-IsLTU3MDcxMDk3OSwtMTU3NzU4Mjc5MCwtMTE1Mzg2ODk2OV19
-
+ICcyMDIwLTA1LTAxJ1xuIiwiaGlzdG9yeSI6Wy02NDU1MjUwMD
+csMTAzMzQzNjYzLDM4Njk1NzY2Miw5Mjg0OTgxMzIsMjA5MTY5
+Mjg1OSw2NTE2Njk1MDEsLTI5MTE2NDg0MywtMjA2MDU3Mjc2Mi
+wtMjAxNTc2NDA3MiwtNTcwNzEwOTc5LC0xNTc3NTgyNzkwLC0x
+MTUzODY4OTY5XX0=
 -->
