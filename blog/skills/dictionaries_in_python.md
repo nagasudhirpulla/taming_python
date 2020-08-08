@@ -43,7 +43,7 @@ print(x['lastname'])
 # prints Pulla
 
 outputStatement = 'The person name is {0} {1}.\nHe lives at {2}, his hobbies are {3}.\nHe knows {4}'\
-    .format(xDict['firstName'], xDict['lastname'], xDict['location'],
+    .format(x['firstName'], x['lastname'], xDict['location'],
             ', '.join(xDict['hobbies']), ', '.join(xDict['metaData']['languages']))
 print(outputStatement)
 ```
@@ -104,7 +104,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpY3Rpb25hcmllcyBpbi
 BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
-IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNT
-MxNzAxNTI1LDY2NDE1NzExNCwtODE3OTYyMTAxLC0xNDI0Mzgx
-OTY2LC00NTQxMDg4MzgsLTExNzEwMzgxOTBdfQ==
+IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNj
+AzOTUyNDQ5LC01MzE3MDE1MjUsNjY0MTU3MTE0LC04MTc5NjIx
+MDEsLTE0MjQzODE5NjYsLTQ1NDEwODgzOCwtMTE3MTAzODE5MF
+19
 -->
