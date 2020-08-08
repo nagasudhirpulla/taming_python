@@ -17,7 +17,7 @@ A Dictionary contains a set of key-value pairs encapsulated in it
 # create a dictionary
 x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
 ```
-### Access value using it's key
+### Access a value using it's key
 ```python
 # create a dictionary
 xDict = {
@@ -109,8 +109,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpY3Rpb25hcmllcyBpbi
 BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
-IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls1Mz
-k4MTgwMjMsLTUzMTcwMTUyNSw2NjQxNTcxMTQsLTgxNzk2MjEw
+IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlszOT
+EwNjkwNjIsLTUzMTcwMTUyNSw2NjQxNTcxMTQsLTgxNzk2MjEw
 MSwtMTQyNDM4MTk2NiwtNDU0MTA4ODM4LC0xMTcxMDM4MTkwXX
 0=
 -->
