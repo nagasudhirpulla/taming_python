@@ -20,7 +20,18 @@ x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
 ### Access value using key
 ```python
 # create a dictionary
-x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
+x = {
+    'firstName': 'Nagasudhir',
+    'lastname': 'Pulla',
+    'age': 28,
+    'hobbies': ['tv', 'playing', 'youtube'],
+    'metaData': {
+        'proficiency': 'level 1',
+        'designation': 'Deputy Manager',
+        'department': 'IT',
+        'languages': ['C#', 'Javascript', 'HTML', 'CSS', 'typescript', 'python']
+    }
+}
 
 # access firstname value
 print(x['firstname'])
@@ -87,7 +98,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpY3Rpb25hcmllcyBpbi
 BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
-IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls2Nj
-QxNTcxMTQsNjY0MTU3MTE0LC04MTc5NjIxMDEsLTE0MjQzODE5
-NjYsLTQ1NDEwODgzOCwtMTE3MTAzODE5MF19
+IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMT
+A4MzMwMDI0MCw2NjQxNTcxMTQsLTgxNzk2MjEwMSwtMTQyNDM4
+MTk2NiwtNDU0MTA4ODM4LC0xMTcxMDM4MTkwXX0=
 -->
