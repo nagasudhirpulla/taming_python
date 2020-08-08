@@ -46,6 +46,11 @@ outputStatement = 'The person name is {0} {1}.\nHe lives at {2}, his hobbies are
     .format(xDict['firstName'], xDict['lastname'], xDict['location'],
             ', '.join(xDict['hobbies']), ', '.join(xDict['metaData']['languages']))
 print(outputStatement)
+''' This should print
+The person name is Nagasudhir Pulla.
+He lives at Mumbai, his hobbies are tv, playing, youtube.
+He knows C#, Javascript, HTML, CSS, typescript, python
+'''
 ```
 
 ### Check if dictionary has a key using "in" operator
@@ -105,7 +110,7 @@ BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
 IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMT
-Y3NDAxNTY3OSwtNTMxNzAxNTI1LDY2NDE1NzExNCwtODE3OTYy
+UzNDEyMzk2NCwtNTMxNzAxNTI1LDY2NDE1NzExNCwtODE3OTYy
 MTAxLC0xNDI0MzgxOTY2LC00NTQxMDg4MzgsLTExNzEwMzgxOT
 BdfQ==
 -->
