@@ -94,6 +94,8 @@ x['age'] = 28
 print(x)
 # prints {'firstname': 'Sudhir', 'lastname': 'Pulla', 'age': 28}
 ```
+### Video
+Video for this post can be found [here]()
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -109,8 +111,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpY3Rpb25hcmllcyBpbi
 BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
-IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlszOT
-EwNjkwNjIsLTUzMTcwMTUyNSw2NjQxNTcxMTQsLTgxNzk2MjEw
-MSwtMTQyNDM4MTk2NiwtNDU0MTA4ODM4LC0xMTcxMDM4MTkwXX
-0=
+IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMD
+EzNTI2MDYwLDM5MTA2OTA2MiwtNTMxNzAxNTI1LDY2NDE1NzEx
+NCwtODE3OTYyMTAxLC0xNDI0MzgxOTY2LC00NTQxMDg4MzgsLT
+ExNzEwMzgxOTBdfQ==
 -->
