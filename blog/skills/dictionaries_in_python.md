@@ -15,7 +15,18 @@ A Dictionary contains a set of key-value pairs encapsulated in it
 #### Create a dictionary
 ```python
 # create a dictionary
-x = {'firstname': 'Nagasudhir', 'lastname': 'Pulla'}
+x = {
+    'firstName': 'Nagasudhir',
+    'lastname': 'Pulla',
+    'age': 28,
+    'hobbies': ['tv', 'playing', 'youtube'],
+    'metaData': {
+        'proficiency': 'level 1',
+        'designation': 'Deputy Manager',
+        'department': 'IT',
+        'languages': ['C#', 'Javascript', 'HTML', 'CSS', 'typescript', 'python']
+    }
+}
 ```
 ### Access value using key
 ```python
@@ -87,7 +98,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpY3Rpb25hcmllcyBpbi
 BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
-IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls2Nj
-QxNTcxMTQsLTgxNzk2MjEwMSwtMTQyNDM4MTk2NiwtNDU0MTA4
-ODM4LC0xMTcxMDM4MTkwXX0=
+IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstND
+YwOTgzODY4LDY2NDE1NzExNCwtODE3OTYyMTAxLC0xNDI0Mzgx
+OTY2LC00NTQxMDg4MzgsLTExNzEwMzgxOTBdfQ==
 -->
