@@ -108,6 +108,13 @@ print(s)
 # [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0]
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/SKlf1DJUl0w)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SKlf1DJUl0w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr/>
+
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
@@ -128,7 +135,7 @@ xhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5
 dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob2
 5fc2tpbGxcbmRhdGU6ICcyMDIwLTA3LTA2J1xudGl0bGU6IENy
 ZWF0ZSBhIHNlcXVlbmNlIG9mIG51bWJlcnMgaW4gcHl0aG9uXG
-4iLCJoaXN0b3J5IjpbMjEyNDE0MDU2Miw0OTg4NzE1NTksNjg4
+4iLCJoaXN0b3J5IjpbMTA3NTIyMzE3Myw0OTg4NzE1NTksNjg4
 Mjg2MzU2LC04MjU4NzcyNTMsMjAxNDQ5NTY1NSwxOTAwODU3Mz
 gwLDE2MTgyNjU1MCwtMzgyNjQxMTkwLC0xOTUzNDkxMTYxLC0x
 MjI5NjA2ODU0XX0=
