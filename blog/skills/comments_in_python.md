@@ -45,9 +45,9 @@ print("Hello world!")
 * Notice the the first 2 lines are not executed since they are comments
 
 ### Video
-Watch video on this post [here](https://www.youtube.com/watch?v=m1DMHx8Yxj4)
+Watch video on this post [here](https://youtu.be/nOUrjZNhh2U)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m1DMHx8Yxj4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nOUrjZNhh2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -66,6 +66,6 @@ hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 cHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weX
 Rob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9u
 X3NraWxsXG5kYXRlOiAnMjAyMC0wNC0xNSdcbiIsImhpc3Rvcn
-kiOlsxOTk4Mzg2OTE3LDgxNTE3NzEyMywtMjExMzUxODg3M119
-
+kiOlsxMzE5MzM4MjY0LDE5OTgzODY5MTcsODE1MTc3MTIzLC0y
+MTEzNTE4ODczXX0=
 -->
