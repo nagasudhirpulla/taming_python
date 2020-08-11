@@ -51,6 +51,13 @@ for n in range(1,10,2):
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
+### Video
+The video for this post can be found [here](https://youtu.be/JqQPgGKzp9I)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JqQPgGKzp9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr/>
+
+
 ### You can practice here
 <iframe height="800px" width="100%" src="https://repl.it/repls/LimeWiltedRouter?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
@@ -64,7 +71,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZvciBsb29wIGluIHB5dG
 hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 bGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbC
 dcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRh
-dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6WzE2MTAxND
-U3NjAsMTg2MjQ3MTMxOSwtOTY4MzYwNDAxLDE1MjQwNjA5NzEs
-MTM0NzQ4MTQ4LC0xNDU5NzQ4OTQ3XX0=
+dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6WzM3MDYxNz
+Y5NiwxODYyNDcxMzE5LC05NjgzNjA0MDEsMTUyNDA2MDk3MSwx
+MzQ3NDgxNDgsLTE0NTk3NDg5NDddfQ==
 -->
