@@ -54,6 +54,13 @@ print(c)
 # this prints 48
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/KpEaEoaUDWE)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KpEaEoaUDWE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr/>
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
@@ -71,6 +78,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZ1Y250aW9ucyBpbiBweX
 Rob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMjMnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTIxND
-kzMTYxMCwxNDUxMDgyODU2XX0=
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTIyOD
+AxMDg0OSwtMTIxNDkzMTYxMCwxNDUxMDgyODU2XX0=
 -->
