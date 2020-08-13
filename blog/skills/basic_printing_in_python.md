@@ -50,9 +50,11 @@ print("Hello world!")
 ```SKILL ID = SBASF```
 
 ### Video
-The video for this post can be seen [here](https://www.youtube.com/watch?v=vfWGAA8pEX4)
+The video for this post can be seen [here](https://youtu.be/VJhA5mhM9dw)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vfWGAA8pEX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VJhA5mhM9dw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr/>
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -73,9 +75,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOls4NjI0MzEzMjEsLT
-EwODk5NjM2ODIsMTM5NzAwNTUzMiwtMTY3NDI4OTI1MSwxODA0
-MzY5MTUwLDM5NjI0MTg1MCwtMjA3MDE0MTI4MCw0MjE2MDc5Nz
-csLTEyNjMyNDU1ODAsMTM1OTI0Mjk2Miw3NzY3MzMyODRdfQ==
-
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlstMTgwOTg3Mjg2Ny
+w4NjI0MzEzMjEsLTEwODk5NjM2ODIsMTM5NzAwNTUzMiwtMTY3
+NDI4OTI1MSwxODA0MzY5MTUwLDM5NjI0MTg1MCwtMjA3MDE0MT
+I4MCw0MjE2MDc5NzcsLTEyNjMyNDU1ODAsMTM1OTI0Mjk2Miw3
+NzY3MzMyODRdfQ==
 -->
