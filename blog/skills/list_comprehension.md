@@ -43,6 +43,17 @@ print(lst)
 ```
 You can see from the above two examples that list comprehension is more user friendly to write and uses less lines of code
 
+### converting all strings in list to uppercase
+```python
+cities = ['Mumbai', 'Delhi', 'Bangalore ', 'Hyderabad',
+          'Ahmedabad', 'Chennai', 'Kolkata',
+          'Surat', 'Pune']
+
+lst = [x.upper() for x in cities]
+
+print(lst)
+```
+
 ### Using the conditional statement as filter in list comprehension
 In this example we will generate even numbers using list comprehension
 ```python
@@ -78,6 +89,6 @@ lvbnMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbmRhdGU6ICcyMDIwLTA1LTIyJ1xudGFnczogJ2xlYXJuaW
 5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbLTE1MTE5Njc2MTYsLTIzOTg3MTg5NywtNTQ2MjUzNjY0
-LDU5MTExNjE1MywtMzM0NDc5Njk1XX0=
+J5IjpbODE0Mjc3MTMxLC0yMzk4NzE4OTcsLTU0NjI1MzY2NCw1
+OTExMTYxNTMsLTMzNDQ3OTY5NV19
 -->
