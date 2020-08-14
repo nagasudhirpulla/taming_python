@@ -43,7 +43,7 @@ print(lst)
 ```
 You can see from the above two examples that list comprehension is more user friendly to write and uses less lines of code
 
-### converting all strings in list to uppercase
+### Converting all strings in list to uppercase
 ```python
 cities = ['Mumbai', 'Delhi', 'Bangalore ', 'Hyderabad',
           'Ahmedabad', 'Chennai', 'Kolkata',
@@ -89,6 +89,6 @@ lvbnMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbmRhdGU6ICcyMDIwLTA1LTIyJ1xudGFnczogJ2xlYXJuaW
 5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbODE0Mjc3MTMxLC0yMzk4NzE4OTcsLTU0NjI1MzY2NCw1
-OTExMTYxNTMsLTMzNDQ3OTY5NV19
+J5IjpbLTE1MzUyMTkyMjEsLTIzOTg3MTg5NywtNTQ2MjUzNjY0
+LDU5MTExNjE1MywtMzM0NDc5Njk1XX0=
 -->
