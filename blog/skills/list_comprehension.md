@@ -53,6 +53,13 @@ print(lst)
 # [0, 2, 4, 6, 8, 10, 12, 14, 16]
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/8pkY377lVqE)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8pkY377lVqE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr/>
+
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
@@ -71,6 +78,6 @@ lvbnMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbmRhdGU6ICcyMDIwLTA1LTIyJ1xudGFnczogJ2xlYXJuaW
 5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbLTEzNTEyMTQ3NTEsLTIzOTg3MTg5NywtNTQ2MjUzNjY0
+J5IjpbLTE1MTE5Njc2MTYsLTIzOTg3MTg5NywtNTQ2MjUzNjY0
 LDU5MTExNjE1MywtMzM0NDc5Njk1XX0=
 -->
