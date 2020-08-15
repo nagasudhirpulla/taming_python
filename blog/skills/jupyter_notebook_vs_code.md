@@ -46,9 +46,11 @@ This is particularly useful if you load huge data into your variables
 <hr/>
 
 ### Video
-Video on this post can be seen at https://youtu.be/9rLyDk6Gp9M
+Video on this post can be seen [here](https://youtu.be/hD3n_RiRPfo)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9rLyDk6Gp9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hD3n_RiRPfo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr/>
 
 ### References
 * Official tutorial page - https://code.visualstudio.com/docs/python/jupyter-support?ocid=AID2463683&wt.mc_id=ai-c9-sejuare
@@ -63,8 +65,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFVzaW5nIEp1cHl0ZXIgTm
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNi0yOC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTQyMzUw
-MjY3NCwtMTEzMTU3NTU1MSwtMTk0Mzk1MTk5MCwtODM1MTIyMj
-g0LDQ0MDc1MDU3NCwtMTU3NDIyMjQ1MCwtNTQwNTEzMjkyXX0=
-
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNDM4NTk5
+NjQxLC0xNDIzNTAyNjc0LC0xMTMxNTc1NTUxLC0xOTQzOTUxOT
+kwLC04MzUxMjIyODQsNDQwNzUwNTc0LC0xNTc0MjIyNDUwLC01
+NDA1MTMyOTJdfQ==
 -->
