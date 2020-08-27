@@ -42,6 +42,13 @@ else:
 ```
 If you run `hello.py --name Sudhir` then you should see `Hello Sudhir !!!` in the output
 
+### Video
+Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nsVkTslyBcE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr/>
+
 ### References
 * Official tutorial - https://docs.python.org/3/library/argparse.html
 
@@ -57,6 +64,6 @@ luZSBhcmd1bWVudHMgdXNpbmcgYXJncGFyc2VcbmF1dGhvcjog
 TmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjInXG
 50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhv
 bl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2
-tpbGxcbiIsImhpc3RvcnkiOlsxNTA2NzE1NTEsODc2ODkwODkz
-XX0=
+tpbGxcbiIsImhpc3RvcnkiOlstMTgxNzYzOTY2NCwxNTA2NzE1
+NTEsODc2ODkwODkzXX0=
 -->
