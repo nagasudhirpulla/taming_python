@@ -35,11 +35,13 @@ def deriveDurationVals(vals, resol):
 * global variables and using them inside functions- https://instructobit.com/tutorial/108/How-to-share-global-variables-between-files-in-Python
 * python subprocess communication - https://eli.thegreenplace.net/2017/interacting-with-a-long-running-child-process-in-python/
 * rounding of decimals while printing and rounding the number itself
+* flask server basics
+* virtual environments concept and practical use
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MzI1OTM1NCwyMTIxNTc3MTQsLTc3ND
+eyJoaXN0b3J5IjpbMTg1MjAwNjAyNSwyMTIxNTc3MTQsLTc3ND
 g2MDE0MywtNTIwNDcxOTM4LDczOTA3Mzc3OSwtOTYxNTgzNzgz
 LC0xNjgzOTYxMzYsLTM0OTQ0ODM3MywxODgwMjAyODExLC0xMj
 kyNDE0NzY5LDE2MzUwMDE4NjksLTE5MzkwNDc2ODcsMTkyMTAw
