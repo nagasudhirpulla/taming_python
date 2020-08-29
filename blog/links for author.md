@@ -37,14 +37,15 @@ def deriveDurationVals(vals, resol):
 * rounding of decimals while printing and rounding the number itself
 * flask server basics
 * virtual environments concept and practical use
+* naming conventions for 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjAwNjAyNSwyMTIxNTc3MTQsLTc3ND
-g2MDE0MywtNTIwNDcxOTM4LDczOTA3Mzc3OSwtOTYxNTgzNzgz
-LC0xNjgzOTYxMzYsLTM0OTQ0ODM3MywxODgwMjAyODExLC0xMj
-kyNDE0NzY5LDE2MzUwMDE4NjksLTE5MzkwNDc2ODcsMTkyMTAw
-ODIyLC0zNTI5MjE2MCwxMTkwNDgwOTUwLC0xNDY5Nzk2ODM3XX
-0=
+eyJoaXN0b3J5IjpbLTY0NDMzMjU4MiwxODUyMDA2MDI1LDIxMj
+E1NzcxNCwtNzc0ODYwMTQzLC01MjA0NzE5MzgsNzM5MDczNzc5
+LC05NjE1ODM3ODMsLTE2ODM5NjEzNiwtMzQ5NDQ4MzczLDE4OD
+AyMDI4MTEsLTEyOTI0MTQ3NjksMTYzNTAwMTg2OSwtMTkzOTA0
+NzY4NywxOTIxMDA4MjIsLTM1MjkyMTYwLDExOTA0ODA5NTAsLT
+E0Njk3OTY4MzddfQ==
 -->
