@@ -178,7 +178,7 @@ print(z)
 ### Video
 The video on this post can be found [here](https://youtu.be/kwsLop-mW3M)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/77gtXKlUh00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kwsLop-mW3M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
 
@@ -200,10 +200,10 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6WzEyNzM0ODM5MTcsOTg0NDkxMDI3LDE2MTc4MzUw
-MDksMzI4MjU0NTcyLC0xMjE4NzU4MDEsNzkyNzIyNjczLDE3Mz
-IxNzk2ODMsLTIwNjEwODk4ODMsOTMwMzQyNjk5LDE1NDc5MDA1
-MDUsLTE0NzcxOTkyNDQsLTE1NjQ2NDA2ODQsLTIwMDU0Mzk1ND
-YsLTc4Mzg3NzE2MSwtMTg5MjA5Mjc4NCwyMTQ0NTI2NDMxXX0=
+lzdG9yeSI6Wy0xNjQ1OTI3NjE1LDk4NDQ5MTAyNywxNjE3ODM1
+MDA5LDMyODI1NDU3MiwtMTIxODc1ODAxLDc5MjcyMjY3MywxNz
+MyMTc5NjgzLC0yMDYxMDg5ODgzLDkzMDM0MjY5OSwxNTQ3OTAw
+NTA1LC0xNDc3MTk5MjQ0LC0xNTY0NjQwNjg0LC0yMDA1NDM5NT
+Q2LC03ODM4NzcxNjEsLTE4OTIwOTI3ODQsMjE0NDUyNjQzMV19
 
 -->
