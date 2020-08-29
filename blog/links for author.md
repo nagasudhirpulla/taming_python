@@ -37,12 +37,12 @@ def deriveDurationVals(vals, resol):
 * rounding of decimals while printing and rounding the number itself
 * flask server basics
 * virtual environments concept and practical use
-* naming conventions for 
+* naming conventions for classes (nouns), variables (nouns), functions (verbs), using camel case, avoid obvious names and use contextual names for better readability
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDMzMjU4MiwxODUyMDA2MDI1LDIxMj
+eyJoaXN0b3J5IjpbMTE3MjIzNjI4MywxODUyMDA2MDI1LDIxMj
 E1NzcxNCwtNzc0ODYwMTQzLC01MjA0NzE5MzgsNzM5MDczNzc5
 LC05NjE1ODM3ODMsLTE2ODM5NjEzNiwtMzQ5NDQ4MzczLDE4OD
 AyMDI4MTEsLTEyOTI0MTQ3NjksMTYzNTAwMTg2OSwtMTkzOTA0
