@@ -64,14 +64,14 @@ if country=='India':
 ```
 
 ### Video
-The video for this post can be seen [here](https://youtu.be/7kHpwT_3ONw)
+The video for this post can be seen [here](https://youtu.be/KC3CwsEtmag)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7kHpwT_3ONw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
 ### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/GregariousInexperiencedLinuxpc?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KC3CwsEtmag" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Further Reading
 * https://docs.python.org/3.8/tutorial/controlflow.html#if-statements
@@ -85,6 +85,7 @@ BweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG9uLCBsZWFybm
 luZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTk0MjU0NjUwNCwtMTkyMTQ3NDgxNCw5NDk2MzE3
-MDIsLTExNTMzMzM4MTIsNDg4MDcyODI0LDcyNDE4NzA2OV19
+N0b3J5IjpbMjk2NDk5MDUxLC05NDI1NDY1MDQsLTE5MjE0NzQ4
+MTQsOTQ5NjMxNzAyLC0xMTUzMzMzODEyLDQ4ODA3MjgyNCw3Mj
+QxODcwNjldfQ==
 -->
