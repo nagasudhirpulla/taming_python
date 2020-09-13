@@ -52,9 +52,9 @@ Execution complete...
 You can also change the variable values and execute to see different outputs printed in the console
 
 ### Video
-The video for this post can be found [here](https://youtu.be/juPQTh5UWiY)
+The video for this post can be found [here](https://youtu.be/Os7ppbJh4To)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/juPQTh5UWiY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Os7ppbJh4To" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### You can practice here
 <iframe height="800px" width="100%" src="https://repl.it/repls/BowedUnusualWheel?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
@@ -66,7 +66,7 @@ lwLWZsb3AgbG9naWMgdXNpbmcgaWYgc3RhdGVtZW50IGFuZCB2
 YXJpYWJsZXNcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZG
 F0ZTogJzIwMjAtMDctMTUnXG50YWdzOiAncHl0aG9uLCBsZWFy
 bmluZywgdGFtaW5nX3B5dGhvbl9nb2FsJ1xuY2F0ZWdvcmllcz
-ogdGFtaW5nX3B5dGhvbl9nb2FsXG4iLCJoaXN0b3J5IjpbLTcz
-MzUxNTAxMCwtOTE0ODM4MjAsLTMyMDc1MjQwLC01NTkwOTE2Nj
+ogdGFtaW5nX3B5dGhvbl9nb2FsXG4iLCJoaXN0b3J5IjpbMTQ3
+NTE4ODM4MiwtOTE0ODM4MjAsLTMyMDc1MjQwLC01NTkwOTE2Nj
 YsLTE3OTYwNDU2NTgsLTUzNjg3MjkzN119
 -->
