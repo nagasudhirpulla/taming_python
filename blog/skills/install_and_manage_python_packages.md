@@ -8,6 +8,8 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
+In this post we will learn how to use the ```pip``` command to manage python packages
+
 ### Install a python package
 * Open command prompt
 * Use command `pip install <package_name>`
@@ -55,8 +57,9 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMzkxMTUzNjczLDk4MTY1
-NDE1MiwtMzg4NTU4NDMwLDE1Nzk2NTQ0MTQsNTk1NjU3NDI2LD
-E2NDY1ODc4NCwxMDk2Njk5MTU3LDE5MjU3ODQ5MTUsNzI2Njc0
-NTY4LDE0MTI3NjAwNTQsMjEwMzkwMjQxLDczMDk5ODExNl19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTc4NTE0ODU4MCw5ODE2
+NTQxNTIsLTM4ODU1ODQzMCwxNTc5NjU0NDE0LDU5NTY1NzQyNi
+wxNjQ2NTg3ODQsMTA5NjY5OTE1NywxOTI1Nzg0OTE1LDcyNjY3
+NDU2OCwxNDEyNzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgxMTZdfQ
+==
 -->
