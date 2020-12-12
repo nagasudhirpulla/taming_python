@@ -23,8 +23,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ### list out all the packages in a python environment
 * Open command prompt
 * Use command `pip list`
-* For example, to install a package named numpy with version 1.11.1, you need to run 
-`pip install numpy==1.11.1`
+* All the installed python packages along with their version numbers will be displayed
 
 ### install packages from a file using '-r' flag
 * If we have a text file named `requirements.txt` with packages information as shown below
@@ -56,9 +55,8 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTcxMjg5Mzc1MSw5ODE2
-NTQxNTIsLTM4ODU1ODQzMCwxNTc5NjU0NDE0LDU5NTY1NzQyNi
-wxNjQ2NTg3ODQsMTA5NjY5OTE1NywxOTI1Nzg0OTE1LDcyNjY3
-NDU2OCwxNDEyNzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgxMTZdfQ
-==
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMzkxMTUzNjczLDk4MTY1
+NDE1MiwtMzg4NTU4NDMwLDE1Nzk2NTQ0MTQsNTk1NjU3NDI2LD
+E2NDY1ODc4NCwxMDk2Njk5MTU3LDE5MjU3ODQ5MTUsNzI2Njc0
+NTY4LDE0MTI3NjAwNTQsMjEwMzkwMjQxLDczMDk5ODExNl19
 -->
