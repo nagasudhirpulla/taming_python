@@ -46,6 +46,10 @@ numpy==1.11.1
 ### Further Reading
 * https://www.shellhacks.com/pip-install-specific-version-of-package/
 
+### Video
+The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3eItCqPqGF8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -57,9 +61,9 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTkwMjI2NTEzNCwtNzg1
-MTQ4NTgwLDk4MTY1NDE1MiwtMzg4NTU4NDMwLDE1Nzk2NTQ0MT
-QsNTk1NjU3NDI2LDE2NDY1ODc4NCwxMDk2Njk5MTU3LDE5MjU3
-ODQ5MTUsNzI2Njc0NTY4LDE0MTI3NjAwNTQsMjEwMzkwMjQxLD
-czMDk5ODExNl19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEyODgwNjY0NTEsMTkw
+MjI2NTEzNCwtNzg1MTQ4NTgwLDk4MTY1NDE1MiwtMzg4NTU4ND
+MwLDE1Nzk2NTQ0MTQsNTk1NjU3NDI2LDE2NDY1ODc4NCwxMDk2
+Njk5MTU3LDE5MjU3ODQ5MTUsNzI2Njc0NTY4LDE0MTI3NjAwNT
+QsMjEwMzkwMjQxLDczMDk5ODExNl19
 -->
