@@ -20,7 +20,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * For example, to install a package named numpy with version 1.11.1, you need to run 
 `pip install numpy==1.11.1`
 
-### Install specific version of a python package
+### list out all the packages in a python environment
 * Open command prompt
 * Use command `pip install <package_name>==<version_number>`
 * For example, to install a package named numpy with version 1.11.1, you need to run 
@@ -56,9 +56,9 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE4OTA5MTU5ODMsOTgx
-NjU0MTUyLC0zODg1NTg0MzAsMTU3OTY1NDQxNCw1OTU2NTc0Mj
-YsMTY0NjU4Nzg0LDEwOTY2OTkxNTcsMTkyNTc4NDkxNSw3MjY2
-NzQ1NjgsMTQxMjc2MDA1NCwyMTAzOTAyNDEsNzMwOTk4MTE2XX
-0=
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTkxMzU3NjI0Miw5ODE2
+NTQxNTIsLTM4ODU1ODQzMCwxNTc5NjU0NDE0LDU5NTY1NzQyNi
+wxNjQ2NTg3ODQsMTA5NjY5OTE1NywxOTI1Nzg0OTE1LDcyNjY3
+NDU2OCwxNDEyNzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgxMTZdfQ
+==
 -->
