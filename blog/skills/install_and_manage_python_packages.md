@@ -22,7 +22,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ### list out all the packages in a python environment
 * Open command prompt
-* Use command `pip install <package_name>==<version_number>`
+* Use command `pip list`
 * For example, to install a package named numpy with version 1.11.1, you need to run 
 `pip install numpy==1.11.1`
 
@@ -56,7 +56,7 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTkxMzU3NjI0Miw5ODE2
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTcxMjg5Mzc1MSw5ODE2
 NTQxNTIsLTM4ODU1ODQzMCwxNTc5NjU0NDE0LDU5NTY1NzQyNi
 wxNjQ2NTg3ODQsMTA5NjY5OTE1NywxOTI1Nzg0OTE1LDcyNjY3
 NDU2OCwxNDEyNzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgxMTZdfQ
