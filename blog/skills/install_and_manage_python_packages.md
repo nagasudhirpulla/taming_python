@@ -22,7 +22,7 @@ In this post we will learn how to use the ```pip``` command to manage python pac
 * For example, to install a package named numpy with version 1.11.1, you need to run 
 `pip install numpy==1.11.1`
 
-### list out all the packages in a python environment
+### list all the packages in a python environment
 * Open command prompt
 * Use command `pip list`
 * All the installed python packages along with their version numbers will be displayed
@@ -57,9 +57,9 @@ FnZSBwYWNrYWdlcyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMjUnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTc4NTE0ODU4MCw5ODE2
-NTQxNTIsLTM4ODU1ODQzMCwxNTc5NjU0NDE0LDU5NTY1NzQyNi
-wxNjQ2NTg3ODQsMTA5NjY5OTE1NywxOTI1Nzg0OTE1LDcyNjY3
-NDU2OCwxNDEyNzYwMDU0LDIxMDM5MDI0MSw3MzA5OTgxMTZdfQ
-==
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTkwMjI2NTEzNCwtNzg1
+MTQ4NTgwLDk4MTY1NDE1MiwtMzg4NTU4NDMwLDE1Nzk2NTQ0MT
+QsNTk1NjU3NDI2LDE2NDY1ODc4NCwxMDk2Njk5MTU3LDE5MjU3
+ODQ5MTUsNzI2Njc0NTY4LDE0MTI3NjAwNTQsMjEwMzkwMjQxLD
+czMDk5ODExNl19
 -->
