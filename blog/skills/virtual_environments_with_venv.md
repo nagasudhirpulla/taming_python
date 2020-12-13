@@ -33,7 +33,7 @@ you can use any name instead of `env_name`
 
 ### Leaving a virtual environment
 * Open a command prompt inside the project folder using Shift + right click
-* If the virtual environment name is ```project_env```, Enter command `project_env\Scripts\activate.bat`
+* If the virtual environment name is ```project_env```, Enter command `project_env\Scripts\deactivate.bat`
 
 ### Using a created virtual environment in Visual Studio Code
 In order to use a created virtual environment in Visual Studio Code, follow these steps.
@@ -58,6 +58,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFZpcnR1YWwgRW52aXJvbm
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMjcnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTE2MDgxMzY2NTUsNzc2MDA5NDg4
+xsXG4iLCJoaXN0b3J5IjpbLTExMDk1NTUwNTYsNzc2MDA5NDg4
 LC02ODEzMDk5NTAsLTE0MTQwODMzOTddfQ==
 -->
