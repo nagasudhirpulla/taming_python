@@ -32,9 +32,8 @@ you can use any name instead of `env_name`
 * Once the virtual environment is activated, you can manage the environment packages as usual using `pip`. For more information, go through [this post](https://nagasudhir.blogspot.com/2020/05/install-and-manage-packages-in-python.html) on managing python packages
 
 ### Leaving a virtual environment
-* Goto 'Scripts' folder of the created virtual environment
-* Open command prompt inside that folder using Shift + right click
-* Enter command `.\deactivate.bat`
+* Open a command prompt inside the project folder using Shift + right click
+* If the virtual environment name is ```project_env```, Enter command `project_env\Scripts\activate.bat`
 
 ### Using a created virtual environment in Visual Studio Code
 In order to use a created virtual environment in Visual Studio Code, follow these steps.
@@ -59,6 +58,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFZpcnR1YWwgRW52aXJvbm
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMjcnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbNTc1MDEyOTg4LDc3NjAwOTQ4OCwt
-NjgxMzA5OTUwLC0xNDE0MDgzMzk3XX0=
+xsXG4iLCJoaXN0b3J5IjpbLTE2MDgxMzY2NTUsNzc2MDA5NDg4
+LC02ODEzMDk5NTAsLTE0MTQwODMzOTddfQ==
 -->
