@@ -49,6 +49,12 @@ In order to use a created virtual environment in Visual Studio Code, follow thes
 ### Further Reading
 * https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
 
+### Video
+
+You can the video on this post [here](https://youtu.be/Gp7Eb4D1qnI)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gp7Eb4D1qnI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -58,6 +64,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFZpcnR1YWwgRW52aXJvbm
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMjcnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbLTExMDk1NTUwNTYsNzc2MDA5NDg4
-LC02ODEzMDk5NTAsLTE0MTQwODMzOTddfQ==
+xsXG4iLCJoaXN0b3J5IjpbNjYwOTU4MDY0LC0xMTA5NTU1MDU2
+LDc3NjAwOTQ4OCwtNjgxMzA5OTUwLC0xNDE0MDgzMzk3XX0=
 -->
