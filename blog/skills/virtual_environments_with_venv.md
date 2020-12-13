@@ -25,9 +25,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 you can use any name instead of `env_name` 
 
 ### Activate a virtual environment
-* Goto 'Scripts' folder of the created virtual environment
-* Open command prompt inside that folder using Shift + right click
-* Enter command `.\activate.bat`
+* Open a command prompt inside the project folder using Shift + right click
+* If the virtual environment name is ```project_env```, Enter command `.\activate.bat`
 
 ### Managing packages inside a virtual environment
 * Once the virtual environment is activated, you can manage the environment packages as usual using `pip`. For more information, go through [this post](https://nagasudhir.blogspot.com/2020/05/install-and-manage-packages-in-python.html) on managing python packages
@@ -60,6 +59,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFZpcnR1YWwgRW52aXJvbm
 dWxsYVxuZGF0ZTogJzIwMjAtMDUtMjcnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 c2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraW
-xsXG4iLCJoaXN0b3J5IjpbNzc2MDA5NDg4LC02ODEzMDk5NTAs
-LTE0MTQwODMzOTddfQ==
+xsXG4iLCJoaXN0b3J5IjpbLTg1MzU2ODU0OSw3NzYwMDk0ODgs
+LTY4MTMwOTk1MCwtMTQxNDA4MzM5N119
 -->
