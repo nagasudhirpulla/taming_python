@@ -32,7 +32,7 @@ To install it, run the command `pip install pyinstaller` in command prompt.
 * Now the `index` folder can be deployed in any windows machine
 
 ### --onefile flag to create just a single exe file
-running the command ```pyinstaller inde```
+running the command ```pyinstaller index.py --onefile``` will
 
 One drawback of using pyinstaller is that all the packages and python itself is packaged inside the deployment folder. This increases the size of deployment.
 
@@ -56,6 +56,6 @@ VyIGZvciBkaXN0cmlidXRpbmcgcHl0aG9uIHByb2dyYW1cbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 YtMTgnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5n
 X3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weX
-Rob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTk5NTA4NTU0Mywt
+Rob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTUwMDgxMDY0OCwt
 OTg4MTAwMzEyLDcxMDU5Nzk5NSwtNzk5MDg4MTQ5XX0=
 -->
