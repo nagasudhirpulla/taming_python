@@ -31,6 +31,9 @@ To install it, run the command `pip install pyinstaller` in command prompt.
 ![pyinstaller_folders](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pyinstaller_folders.png)
 * Now the `index` folder can be deployed in any windows machine
 
+### --onefile flag to create just a single exe file
+running the command ```pyinstaller inde```
+
 One drawback of using pyinstaller is that all the packages and python itself is packaged inside the deployment folder. This increases the size of deployment.
 
 ### Video
@@ -53,6 +56,6 @@ VyIGZvciBkaXN0cmlidXRpbmcgcHl0aG9uIHByb2dyYW1cbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 YtMTgnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5n
 X3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weX
-Rob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxOTU2MjUxOTIsLTk4
-ODEwMDMxMiw3MTA1OTc5OTUsLTc5OTA4ODE0OV19
+Rob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTk5NTA4NTU0Mywt
+OTg4MTAwMzEyLDcxMDU5Nzk5NSwtNzk5MDg4MTQ5XX0=
 -->
