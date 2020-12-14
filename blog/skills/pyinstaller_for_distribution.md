@@ -33,6 +33,12 @@ To install it, run the command `pip install pyinstaller` in command prompt.
 
 One drawback of using pyinstaller is that all the packages and python itself is packaged inside the deployment folder. This increases the size of deployment.
 
+### Video
+
+You can the video on this post [here](https://youtu.be/kxGXvpg0Zno)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kxGXvpg0Zno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 * Official docs - https://www.pyinstaller.org/
 <hr/>
@@ -47,6 +53,6 @@ VyIGZvciBkaXN0cmlidXRpbmcgcHl0aG9uIHByb2dyYW1cbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 YtMTgnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5n
 X3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weX
-Rob25fc2tpbGxcbiIsImhpc3RvcnkiOlstOTg4MTAwMzEyLDcx
-MDU5Nzk5NSwtNzk5MDg4MTQ5XX0=
+Rob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxOTU2MjUxOTIsLTk4
+ODEwMDMxMiw3MTA1OTc5OTUsLTc5OTA4ODE0OV19
 -->
