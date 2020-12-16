@@ -10,12 +10,8 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-`datetime` module in python is very useful in manipulating date-times.
+`datetime` is an in-built module in python and is very useful for manipulating date-times.
 
-### Installation
-In command prompt type `pip install datetime` and press Enter
-
-![pip install datetime image](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pip_install_datetime.png)
 ### Create a datetime
 ```python
 import datetime as dt
@@ -106,8 +102,8 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbNjI4MjAzMzM4LDY1MTcxNjMyNSwtOTc2MDA2NTU1LC03NzAw
-MTI3NzQsMTYxNDQyNDM2MiwtMTE0NTMwMDU1MSwtMjAzMDA4NT
-EwMCwtMTg1NjYzMjgzNCw0NTkxNTAxMTQsMzg4MjEzMTIxXX0=
-
+pbLTE3ODgyNjE3MjUsNjUxNzE2MzI1LC05NzYwMDY1NTUsLTc3
+MDAxMjc3NCwxNjE0NDI0MzYyLC0xMTQ1MzAwNTUxLC0yMDMwMD
+g1MTAwLC0xODU2NjMyODM0LDQ1OTE1MDExNCwzODgyMTMxMjFd
+fQ==
 -->
