@@ -1,4 +1,4 @@
-## Skill - Python datetime library
+## Skill - datetime module in Python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -10,7 +10,7 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-`datetime` library in python is very useful in manipulating date-times.
+`datetime` module in python is very useful in manipulating date-times.
 
 ### Installation
 In command prompt type `pip install datetime` and press Enter
@@ -106,7 +106,8 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbNjUxNzE2MzI1LC05NzYwMDY1NTUsLTc3MDAxMjc3NCwxNjE0
-NDI0MzYyLC0xMTQ1MzAwNTUxLC0yMDMwMDg1MTAwLC0xODU2Nj
-MyODM0LDQ1OTE1MDExNCwzODgyMTMxMjFdfQ==
+pbNjI4MjAzMzM4LDY1MTcxNjMyNSwtOTc2MDA2NTU1LC03NzAw
+MTI3NzQsMTYxNDQyNDM2MiwtMTE0NTMwMDU1MSwtMjAzMDA4NT
+EwMCwtMTg1NjYzMjgzNCw0NTkxNTAxMTQsMzg4MjEzMTIxXX0=
+
 -->
