@@ -1,4 +1,4 @@
-## Skill - Inducing time delays in python using 'sleep' function
+## Skill - Inducing time delays in python scripts using 'sleep' function in time module
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -11,7 +11,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-Using the `sleep` function in python, we can make the code execution delayed by a desired time interval
+Using the `sleep` function in time module, we can make the code execution delayed by a desired time interval
 
 ![sleep_illustration](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/sleep_illustration.png)
 
@@ -47,6 +47,6 @@ VsYXlzIGluIHB5dGhvbiB1c2luZyBzbGVlcCBmdW5jdGlvblxu
 YXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC
 0wNS0yNCdcbnRhZ3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1p
 bmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3
-B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0xNzA5NDA4MzEs
-LTM0MTQ4NTg1MF19
+B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6WzE3MDYxNDkyNjQs
+LTE3MDk0MDgzMSwtMzQxNDg1ODUwXX0=
 -->
