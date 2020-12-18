@@ -82,17 +82,16 @@ print('seconds = {0}'.format(t1.second))
 print('microseconds = {0}'.format(t1.microsecond))
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/dqSnSeKLyKo)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dqSnSeKLyKo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
 ### You can practice here
 <iframe height="800px" width="100%" src="https://repl.it/repls/VisibleLimitedKeyboardmacro?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
-### Video
-Video for this post can be found [here](https://youtu.be/dqSnSeKLyKo)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dqSnSeKLyKo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
 
@@ -107,8 +106,8 @@ kgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFc
 bmRhdGU6ICcyMDIwLTA1LTEwJ1xudGFnczogJ2xlYXJuaW5nLC
 BweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29y
 aWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ij
-pbLTE4OTY4ODcwMzAsLTE3ODgyNjE3MjUsNjUxNzE2MzI1LC05
-NzYwMDY1NTUsLTc3MDAxMjc3NCwxNjE0NDI0MzYyLC0xMTQ1Mz
-AwNTUxLC0yMDMwMDg1MTAwLC0xODU2NjMyODM0LDQ1OTE1MDEx
-NCwzODgyMTMxMjFdfQ==
+pbNjQ1MzgwNDAwLC0xNzg4MjYxNzI1LDY1MTcxNjMyNSwtOTc2
+MDA2NTU1LC03NzAwMTI3NzQsMTYxNDQyNDM2MiwtMTE0NTMwMD
+U1MSwtMjAzMDA4NTEwMCwtMTg1NjYzMjgzNCw0NTkxNTAxMTQs
+Mzg4MjEzMTIxXX0=
 -->
