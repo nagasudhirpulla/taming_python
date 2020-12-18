@@ -47,8 +47,6 @@ print("Hello world!")
 * Run the code using menu _Run -> Run Without Debugging_
 * You should see __Hello world!__ printed in the terminal
 
-```SKILL ID = SBASF```
-
 ### Video
 The video for this post can be seen [here](https://youtu.be/VJhA5mhM9dw)
 
@@ -75,9 +73,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOlstMTgwOTg3Mjg2Ny
-w4NjI0MzEzMjEsLTEwODk5NjM2ODIsMTM5NzAwNTUzMiwtMTY3
-NDI4OTI1MSwxODA0MzY5MTUwLDM5NjI0MTg1MCwtMjA3MDE0MT
-I4MCw0MjE2MDc5NzcsLTEyNjMyNDU1ODAsMTM1OTI0Mjk2Miw3
-NzY3MzMyODRdfQ==
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOls0OTgyOTE4MjksLT
+E4MDk4NzI4NjcsODYyNDMxMzIxLC0xMDg5OTYzNjgyLDEzOTcw
+MDU1MzIsLTE2NzQyODkyNTEsMTgwNDM2OTE1MCwzOTYyNDE4NT
+AsLTIwNzAxNDEyODAsNDIxNjA3OTc3LC0xMjYzMjQ1NTgwLDEz
+NTkyNDI5NjIsNzc2NzMzMjg0XX0=
 -->
