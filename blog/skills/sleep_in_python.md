@@ -28,6 +28,11 @@ print("World!")
 # this prints 'Hello ' first waits 2 seconds and then prints 'World!'
 ```
 
+### Video
+The video tutorial for this post can be found [here](https://youtu.be/IZBrA4Sn40k)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IZBrA4Sn40k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
@@ -47,6 +52,6 @@ VsYXlzIGluIHB5dGhvbiB1c2luZyBzbGVlcCBmdW5jdGlvblxu
 YXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC
 0wNS0yNCdcbnRhZ3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1p
 bmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3
-B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6WzE3MDYxNDkyNjQs
-LTE3MDk0MDgzMSwtMzQxNDg1ODUwXX0=
+B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6WzE3MDM1MDE4ODQs
+MTcwNjE0OTI2NCwtMTcwOTQwODMxLC0zNDE0ODU4NTBdfQ==
 -->
