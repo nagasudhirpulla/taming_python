@@ -64,7 +64,11 @@ calendar.monthrange(yr, mnth)[1]
 
 You can use this function in your own projects directly from the algorithm implementation code written above
 
-If you want to add years, just multiply years with 12 and use this function.
+If you want to add years, just multiply years with 12 and use this function
+```python
+def addYears(inpDt, yrs):
+  return addMonths(inpDt, yrs*12)
+```
 
 #### Points to notice
 * If we subtract 1 month from 30 Mar or 31 Mar 2020, we will get 29 Feb 2020 as per our algorithm.
@@ -91,7 +95,7 @@ Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG50YW
 dzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9z
 a2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbG
-xcbiIsImhpc3RvcnkiOlstMzM0MDU5NjQsLTg4ODMxNjE1LDEx
+xcbiIsImhpc3RvcnkiOls4NTIzMzE4NjEsLTg4ODMxNjE1LDEx
 MTg5NDEyMTYsNjk0MTA5MDk3LDY5NDEwOTA5NywtMjY5NDkwNz
 AzLDEzMDY3Nzg4MjEsLTIxNDM4Mjg3MTYsMTA2ODM0MTAwMCw3
 MzA5OTgxMTZdfQ==
