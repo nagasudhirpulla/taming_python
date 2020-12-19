@@ -18,7 +18,7 @@ In this post we will learn how to add months to a datetime in python
 Let number of months to add to a particular datetime be k
 
 The algorithm we are using is as follows
-* Add floor(input month - 1 + k) to input year component to get result year component
+* Add floor((input month - 1 + k)/12) to input year component to get result year component
 * Result month component would be (input month -1 + k)%12 + 1
 * Result day component would be minimum of input date component and max date of that result month (For example we cant have day component as 30 in February month)
 * hour, minute, seconds and microsecond components of result time will be the same as input datetime
@@ -89,8 +89,8 @@ Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG50YW
 dzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9z
 a2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbG
-xcbiIsImhpc3RvcnkiOlstODg4MzE2MTUsMTExODk0MTIxNiw2
-OTQxMDkwOTcsNjk0MTA5MDk3LC0yNjk0OTA3MDMsMTMwNjc3OD
-gyMSwtMjE0MzgyODcxNiwxMDY4MzQxMDAwLDczMDk5ODExNl19
-
+xcbiIsImhpc3RvcnkiOlsxNDc1MDYzMDEyLC04ODgzMTYxNSwx
+MTE4OTQxMjE2LDY5NDEwOTA5Nyw2OTQxMDkwOTcsLTI2OTQ5MD
+cwMywxMzA2Nzc4ODIxLC0yMTQzODI4NzE2LDEwNjgzNDEwMDAs
+NzMwOTk4MTE2XX0=
 -->
