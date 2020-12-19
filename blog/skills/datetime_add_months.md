@@ -1,4 +1,4 @@
-## Skill - Add or subtract months or years to date in python
+## Skill - Add or subtract months or years to datetime object in python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -91,7 +91,7 @@ Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG50YW
 dzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9z
 a2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbG
-xcbiIsImhpc3RvcnkiOlsxMzk5MTIwNzgsLTg4ODMxNjE1LDEx
+xcbiIsImhpc3RvcnkiOlstMzM0MDU5NjQsLTg4ODMxNjE1LDEx
 MTg5NDEyMTYsNjk0MTA5MDk3LDY5NDEwOTA5NywtMjY5NDkwNz
 AzLDEzMDY3Nzg4MjEsLTIxNDM4Mjg3MTYsMTA2ODM0MTAwMCw3
 MzA5OTgxMTZdfQ==
