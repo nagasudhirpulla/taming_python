@@ -79,6 +79,11 @@ with open(r"C:\Users\Nagasudhir\Documents\test.txt", mode='r') as f:
    # ['The first line\n', 'This is the second line\n', 'This the third line']
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/s3KUZBK1gSI)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s3KUZBK1gSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -95,6 +100,6 @@ RpbmcgZmlsZXMgaW4gcHl0aG9uXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbMTUwNDk4Njc3MCw4OTMzNzM4MDEsMTYyMzYy
-MDA4MCwtMTYzMDY2NjE3NV19
+JoaXN0b3J5IjpbNTMzMzk2Njc3LDE1MDQ5ODY3NzAsODkzMzcz
+ODAxLDE2MjM2MjAwODAsLTE2MzA2NjYxNzVdfQ==
 -->
