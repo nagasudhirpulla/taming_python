@@ -45,6 +45,10 @@ if isFolderPresent:
 else:
 	print('Folder does not exist...')
 ```
+### Video
+The video for this post can be seen [here](https://youtu.be/_HhobaIr3fY)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_HhobaIr3fY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -62,6 +66,7 @@ IgZm9sZGVyIGlzIHByZXNlbnRcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMzEnXG50YWdzOiAnbG
 Vhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOlsxOTU1MjQ4Mzk1LC01NjA1NjcxNzIsLTE0OTEx
-NTg4NjksLTM1MzY0NjAxMCw0MzAwMDI5NjZdfQ==
+hpc3RvcnkiOls2OTA0NDczMzgsMTk1NTI0ODM5NSwtNTYwNTY3
+MTcyLC0xNDkxMTU4ODY5LC0zNTM2NDYwMTAsNDMwMDAyOTY2XX
+0=
 -->
