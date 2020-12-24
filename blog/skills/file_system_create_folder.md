@@ -45,7 +45,6 @@ os.makedirs(fPath, exist_ok=True)
 ```
 by using `exist_ok=True`, exception will not be thrown if folder already exists
 
-
 ### Video
 The video for this post can be seen [here](https://youtu.be/g3LJeQxpDao)
 
@@ -68,6 +67,6 @@ VyIGluIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxh
 XG5kYXRlOiAnMjAyMC0wNS0zMSdcbnRhZ3M6ICdsZWFybmluZy
 wgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdv
 cmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeS
-I6WzE4NDQyOTgxMTMsLTE3NjM4MTE1NTYsLTIwNjA0NTkwMTQs
+I6Wy0zOTMwMjgxMTMsLTE3NjM4MTE1NTYsLTIwNjA0NTkwMTQs
 MTE1Njc5ODYxNCwxNjI3MDYyMTg0XX0=
 -->
