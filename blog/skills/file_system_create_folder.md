@@ -45,6 +45,12 @@ os.makedirs(fPath, exist_ok=True)
 ```
 by using `exist_ok=True`, exception will not be thrown if folder already exists
 
+
+### Video
+The video for this post can be seen [here](https://youtu.be/g3LJeQxpDao)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g3LJeQxpDao" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -62,6 +68,6 @@ VyIGluIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxh
 XG5kYXRlOiAnMjAyMC0wNS0zMSdcbnRhZ3M6ICdsZWFybmluZy
 wgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdv
 cmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeS
-I6Wy0xNzYzODExNTU2LC0yMDYwNDU5MDE0LDExNTY3OTg2MTQs
-MTYyNzA2MjE4NF19
+I6WzE4NDQyOTgxMTMsLTE3NjM4MTE1NTYsLTIwNjA0NTkwMTQs
+MTE1Njc5ODYxNCwxNjI3MDYyMTg0XX0=
 -->
