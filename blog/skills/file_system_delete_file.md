@@ -54,6 +54,12 @@ else:
     print("Folder does not exist")
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/UAIUT_67LiA)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UAIUT_67LiA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -72,6 +78,6 @@ IgZm9sZGVyIGluIHB5dGhvblxuYXV0aG9yOiBOYWdzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA1LTMxJ1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTE3MTI1NDkyMDAsLTkxMzA4NjEyLDk0NzQ0NzY1
-Nl19
+N0b3J5IjpbLTE4Mjk2NTI2OSwtMTcxMjU0OTIwMCwtOTEzMDg2
+MTIsOTQ3NDQ3NjU2XX0=
 -->
