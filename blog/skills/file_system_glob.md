@@ -81,6 +81,22 @@ this will print
 '''
 ```
 
+### Example - get the size of each file in a folder using glob
+```python
+import glob
+import os
+
+folPath = r'C:\Users\Nagasudhir\Documents\Python Projects\ping_status_dump_creation'
+
+for fPath in glob.glob("{0}\**\*.bat".format(folPath), recursive=True):
+
+	# get file size
+
+	fSize = os.stat(fPath).st_size/1024
+
+	print('size of {0} is {1}'.format(fPath, fSize))
+```
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -99,6 +115,6 @@ BmaWxlcyBpbnNpZGUgZm9sZGVyXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LTAxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbLTMxMTk1NTAsNDQzMjM3NTgzLDg1NzE5Njk1
-M119
+JoaXN0b3J5IjpbLTE5NTkxNTU2MzYsLTMxMTk1NTAsNDQzMjM3
+NTgzLDg1NzE5Njk1M119
 -->
