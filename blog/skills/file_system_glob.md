@@ -81,14 +81,14 @@ this will print
 '''
 ```
 
-### Example - get the size of each file in a folder using glob
+### Example - get the size of each file in a folder recursively using glob module
 ```python
 import glob
 import os
 
 folPath = r'C:\Users\Nagasudhir\Documents\Python Projects\ping_status_dump_creation'
 
-for fPath in glob.glob("{0}\**\*.bat".format(folPath), recursive=True):
+for fPath in glob.glob("{0}\**\*".format(folPath), recursive=True):
 
 	# get file size
 
@@ -96,6 +96,11 @@ for fPath in glob.glob("{0}\**\*.bat".format(folPath), recursive=True):
 
 	print('size of {0} is {1}'.format(fPath, fSize))
 ```
+
+### Video
+The video for this post can be seen [here](https://youtu.be/Nmt2GqP45nM)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nmt2GqP45nM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -115,6 +120,6 @@ BmaWxlcyBpbnNpZGUgZm9sZGVyXG5hdXRob3I6IE5hZ2FzdWRo
 aXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LTAxJ1xudGFnczogJ2
 xlYXJuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwn
 XG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLC
-JoaXN0b3J5IjpbLTE5NTkxNTU2MzYsLTMxMTk1NTAsNDQzMjM3
-NTgzLDg1NzE5Njk1M119
+JoaXN0b3J5IjpbMTI0NDc0MzAzMSwtMzExOTU1MCw0NDMyMzc1
+ODMsODU3MTk2OTUzXX0=
 -->
