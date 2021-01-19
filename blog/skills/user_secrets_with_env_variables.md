@@ -52,7 +52,7 @@ print('The value of app_password is {0}'.format(val))
 ### Video
 The video tutorial for this post can be found [here](https://youtu.be/9cJN9D_OqTI)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IZBrA4Sn40k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9cJN9D_OqTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ , https://repl.it/
@@ -72,8 +72,8 @@ NhdGlvbiBzZWNyZXRzIHdpdGggZW52aXJvbm1lbnQgdmFyaWFi
 bGVzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6IC
 dsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxs
 J1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZG
-F0ZTogJzIwMjAtMDYtMzAnXG4iLCJoaXN0b3J5IjpbLTU2NjE1
-NjU4MCwxNzMxOTE4MjkxLDE2MDI2NzUwOTEsMjA4ODI3ODM3My
-wtMzQ2NzA4OTE5LC0xMjEwMjY2NzQsLTExOTY1Nzk4ODAsLTk1
-OTg4NjM1OSwyMDUzNjkwNDI5XX0=
+F0ZTogJzIwMjAtMDYtMzAnXG4iLCJoaXN0b3J5IjpbMjQ2MTMy
+MTkxLDE3MzE5MTgyOTEsMTYwMjY3NTA5MSwyMDg4Mjc4MzczLC
+0zNDY3MDg5MTksLTEyMTAyNjY3NCwtMTE5NjU3OTg4MCwtOTU5
+ODg2MzU5LDIwNTM2OTA0MjldfQ==
 -->
