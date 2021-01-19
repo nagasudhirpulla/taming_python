@@ -49,6 +49,11 @@ print('The value of app_password is {0}'.format(val))
 # The value of app_password is mysupersecret
 ```
 ![env_var_output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/env_var_output.png)
+### Video
+The video tutorial for this post can be found [here](https://youtu.be/9cJN9D_OqTI)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IZBrA4Sn40k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ , https://repl.it/
 
@@ -67,8 +72,8 @@ NhdGlvbiBzZWNyZXRzIHdpdGggZW52aXJvbm1lbnQgdmFyaWFi
 bGVzXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6IC
 dsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxs
 J1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZG
-F0ZTogJzIwMjAtMDYtMzAnXG4iLCJoaXN0b3J5IjpbMTczMTkx
-ODI5MSwxNjAyNjc1MDkxLDIwODgyNzgzNzMsLTM0NjcwODkxOS
-wtMTIxMDI2Njc0LC0xMTk2NTc5ODgwLC05NTk4ODYzNTksMjA1
-MzY5MDQyOV19
+F0ZTogJzIwMjAtMDYtMzAnXG4iLCJoaXN0b3J5IjpbLTU2NjE1
+NjU4MCwxNzMxOTE4MjkxLDE2MDI2NzUwOTEsMjA4ODI3ODM3My
+wtMzQ2NzA4OTE5LC0xMjEwMjY2NzQsLTExOTY1Nzk4ODAsLTk1
+OTg4NjM1OSwyMDUzNjkwNDI5XX0=
 -->
