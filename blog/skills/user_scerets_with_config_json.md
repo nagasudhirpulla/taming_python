@@ -55,15 +55,17 @@ def getAppConfig():
 ```
 
 ### Using app config data in the script
-```
+```python
+# import the required functions from appConfig.py file
 from appConfig import getAppConfig, loadAppConfig
 
+# load app config data from json
 configDict = loadAppConfig()
-
 print(configDict)
 
 print("******************")
 
+# another way to access config data after it is loaded once
 print(getAppConfig())
 ```
 
@@ -90,6 +92,6 @@ lvbiBjb25maWd1cmF0aW9uIHdpdGgganNvbiBmaWxlXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW1pbmdfcH
 l0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjEtMD
-EtMjAnXG4iLCJoaXN0b3J5IjpbMTI4OTg1OTk1NCwtMTYxNjg5
+EtMjAnXG4iLCJoaXN0b3J5IjpbMTY0ODkyNTM5OCwtMTYxNjg5
 Njc3OSwxOTAwMTM3MDAyXX0=
 -->
