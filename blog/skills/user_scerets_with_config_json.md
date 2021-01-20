@@ -51,7 +51,8 @@ print('username is {0}'.format(appConf['username']))
 print('password is {0}'.format(appConf['password']))
 ```
 
-### isolate the config file data access 
+### caching config file data to prevent multiple JSON file reads
+create a python file by name appConfig.py
 ```python
 # appConfig.py
 
@@ -113,6 +114,6 @@ lvbiBjb25maWd1cmF0aW9uIHdpdGgganNvbiBmaWxlXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW1pbmdfcH
 l0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjEtMD
-EtMjAnXG4iLCJoaXN0b3J5IjpbLTEwMTYwNDk0OCwtMTYxNjg5
-Njc3OSwxOTAwMTM3MDAyXX0=
+EtMjAnXG4iLCJoaXN0b3J5IjpbLTExMTMwOTg2MzgsLTE2MTY4
+OTY3NzksMTkwMDEzNzAwMl19
 -->
