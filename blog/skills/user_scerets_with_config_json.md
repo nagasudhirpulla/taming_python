@@ -1,5 +1,5 @@
 
-## Skill - Managing application configuration and sensitive data using a json file
+## Skill - Managing application configuration and sensitive data using a JSON file
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -17,10 +17,10 @@ It is not advisable to keep application configuration or sensitive data like use
 * You have to change and re-deploy the code once the usernames, passwords change
 * We can accidentally commit our code to open source repositories like GitHub etc., where our sensitive data will be exposed
 
-One of the easy ways to maintain sensitive data is using `json file` as configuration . 
-The advantages of storing sensitive application data in system environment variables is 
-* Data is not hard-coded in the application code. Hence no need to change code when usernames, passwords change
-* Environment variables are not present in the application code folder. Hence sensitive data will not be pushed to source control like git and sensitive data cannot be taken just by copy pasting the application code folder.
+One of the easy ways to maintain sensitive data is using `JSON file` as application configuration file. 
+The advantages of storing application configuration in a JSON file is 
+* Data is not hard-coded in the application code. Hence no need to change code when usernames, passwords, port numbers change
+* If mentioned in .gitignore file, sensitive data will not be pushed to source control like git.
 * Environment variables can be edited only if a person enters the credentials of the machine/computer.
 
 ### Creating environment variables in a windows machine
@@ -73,5 +73,5 @@ lvbiBjb25maWd1cmF0aW9uIHdpdGgganNvbiBmaWxlXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW1pbmdfcH
 l0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjEtMD
-EtMjAnXG4iLCJoaXN0b3J5IjpbMTQ0MjE4Mjk1MV19
+EtMjAnXG4iLCJoaXN0b3J5IjpbLTIyMzQ0MjI2N119
 -->
