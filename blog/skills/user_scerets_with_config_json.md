@@ -80,9 +80,14 @@ def loadAppConfig(fName="config.json"):
         appConf = json.load(f)
         return appConf
 
-# load config data from json file and store in a 
+# load config data from json file
+# and store in a variable
 appConf = loadAppConfig()
 
+# use this appConf object in your script
+print(appConf)
+print('username is {0}'.format(appConf['username']))
+print('password is {0}'.format(appConf['password']))
 ```
 
 ### Video
@@ -108,6 +113,6 @@ lvbiBjb25maWd1cmF0aW9uIHdpdGgganNvbiBmaWxlXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW1pbmdfcH
 l0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjEtMD
-EtMjAnXG4iLCJoaXN0b3J5IjpbLTIwNjM0NDY1ODEsLTE2MTY4
-OTY3NzksMTkwMDEzNzAwMl19
+EtMjAnXG4iLCJoaXN0b3J5IjpbMTU3Nzk3NDYwNCwtMTYxNjg5
+Njc3OSwxOTAwMTM3MDAyXX0=
 -->
