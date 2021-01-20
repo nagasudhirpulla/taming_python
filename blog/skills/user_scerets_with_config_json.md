@@ -103,9 +103,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 <hr/>
 
 ### References
-* https://www.geeksforgeeks.org/python-os-getenv-method/
-* https://docs.python.org/3/library/os.html#os.getenv
-* https://stackoverflow.com/questions/16924471/difference-between-os-getenv-and-os-environ-get
+* python json module official documentation - https://docs.python.org/3/library/json.html
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -115,6 +113,7 @@ lvbiBjb25maWd1cmF0aW9uIHdpdGgganNvbiBmaWxlXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW1pbmdfcH
 l0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjEtMD
-EtMjAnXG4iLCJoaXN0b3J5IjpbLTYxNzY1ODc3OCwtMTc0ODEw
-OTg5OCwtMTYxNjg5Njc3OSwxOTAwMTM3MDAyXX0=
+EtMjAnXG4iLCJoaXN0b3J5IjpbLTEwNDkyNDk2NDEsLTYxNzY1
+ODc3OCwtMTc0ODEwOTg5OCwtMTYxNjg5Njc3OSwxOTAwMTM3MD
+AyXX0=
 -->
