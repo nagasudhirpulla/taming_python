@@ -52,7 +52,7 @@ print('password is {0}'.format(appConf['password']))
 ```
 
 ### caching config file data to prevent multiple JSON file reads
-create a python file by name appConfig.py in that same folder as that of config.json
+create a python file by name ```appConfig.py``` in that same folder as that of ```config.json```
 ```python
 # appConfig.py
 
@@ -114,6 +114,6 @@ lvbiBjb25maWd1cmF0aW9uIHdpdGgganNvbiBmaWxlXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW1pbmdfcH
 l0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjEtMD
-EtMjAnXG4iLCJoaXN0b3J5IjpbMTQ2NTU3ODIzMCwtMTYxNjg5
-Njc3OSwxOTAwMTM3MDAyXX0=
+EtMjAnXG4iLCJoaXN0b3J5IjpbLTE3NDgxMDk4OTgsLTE2MTY4
+OTY3NzksMTkwMDEzNzAwMl19
 -->
