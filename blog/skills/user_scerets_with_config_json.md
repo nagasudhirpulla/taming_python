@@ -54,6 +54,19 @@ def getAppConfig():
     return appConf
 ```
 
+### Using app config data in the script
+```
+from appConfig import getAppConfig, loadAppConfig
+
+configDict = loadAppConfig()
+
+print(configDict)
+
+print("******************")
+
+print(getAppConfig())
+```
+
 ### Video
 The video tutorial for this post can be found [here](https://youtu.be/9cJN9D_OqTI)
 
@@ -77,6 +90,6 @@ lvbiBjb25maWd1cmF0aW9uIHdpdGgganNvbiBmaWxlXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW1pbmdfcH
 l0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjEtMD
-EtMjAnXG4iLCJoaXN0b3J5IjpbMTg3ODE2NjU5OCwtMTYxNjg5
+EtMjAnXG4iLCJoaXN0b3J5IjpbMTI4OTg1OTk1NCwtMTYxNjg5
 Njc3OSwxOTAwMTM3MDAyXX0=
 -->
