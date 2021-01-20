@@ -22,7 +22,7 @@ The advantages of storing application configuration in a JSON file is
 * Data is not hard-coded in the application code. Hence no need to change code when usernames, passwords, port numbers change
 * If mentioned in .gitignore file, sensitive data will not be pushed to source control like git
 
-### Sample config.json file for demo
+### Sample config.json file
 ```json
 {
 "username": "john",
@@ -31,7 +31,7 @@ The advantages of storing application configuration in a JSON file is
 }
 ```
 
-### accessing configuration data from the json file
+### accessing configuration data from the JSON file
 ```python
 # appConfig.py
 
@@ -113,6 +113,6 @@ lvbiBjb25maWd1cmF0aW9uIHdpdGgganNvbiBmaWxlXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW1pbmdfcH
 l0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjEtMD
-EtMjAnXG4iLCJoaXN0b3J5IjpbMTU3Nzk3NDYwNCwtMTYxNjg5
-Njc3OSwxOTAwMTM3MDAyXX0=
+EtMjAnXG4iLCJoaXN0b3J5IjpbNDI1MTI2NDQ2LC0xNjE2ODk2
+Nzc5LDE5MDAxMzcwMDJdfQ==
 -->
