@@ -20,21 +20,16 @@ It is not advisable to keep application configuration or sensitive data like use
 One of the easy ways to maintain sensitive data is using `JSON file` as application configuration file. 
 The advantages of storing application configuration in a JSON file is 
 * Data is not hard-coded in the application code. Hence no need to change code when usernames, passwords, port numbers change
-* If mentioned in .gitignore file, sensitive data will not be pushed to source control like git.
-* Environment variables can be edited only if a person enters the credentials of the machine/computer.
+* If mentioned in .gitignore file, sensitive data will not be pushed to source control like git
 
-### Creating environment variables in a windows machine
-* Open 'Edit system environment variables' from windows search bar 
-
-![edit_sys_env_variables_in_start_menu](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/edit_sys_env_variables_in_start_menu.png)
-* Click on 'Environment Variables' button
-* Click on 'New' button in 'System Variables' section
-* Enter environment variable name and value and click ''OK'
-
-![creating_system_env_variable](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/creating_system_env_variable.png)
-You can also edit or delete a system environment variable in the same manner
-
-In our example shown in the figure, we created an environment variable named `app_password` and its value is `mysupersecret`
+### Sample config.json file for demo
+```json
+{
+"username": "john",
+"password": "superSecret",
+"port": 24
+}
+```
 
 ### accessing system environment variables using 'os.getenv' function
 ```python
@@ -73,5 +68,5 @@ lvbiBjb25maWd1cmF0aW9uIHdpdGgganNvbiBmaWxlXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW1pbmdfcH
 l0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjEtMD
-EtMjAnXG4iLCJoaXN0b3J5IjpbLTIyMzQ0MjI2N119
+EtMjAnXG4iLCJoaXN0b3J5IjpbNTUxMTA1NjcyXX0=
 -->
