@@ -70,6 +70,21 @@ print("******************")
 print(getAppConfig())
 ```
 
+### simple scenario with only one script file
+```python
+# import json module
+import json
+def loadAppConfig(fName="config.json"):
+    with open(fName) as f:
+        global appConf
+        appConf = json.load(f)
+        return appConf
+
+# load config data from json file and store in a 
+appConf = loadAppConfig()
+
+```
+
 ### Video
 The video tutorial for this post can be found [here](https://youtu.be/9cJN9D_OqTI)
 
@@ -93,6 +108,6 @@ lvbiBjb25maWd1cmF0aW9uIHdpdGgganNvbiBmaWxlXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW1pbmdfcH
 l0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjEtMD
-EtMjAnXG4iLCJoaXN0b3J5IjpbLTg0MDkwOTI1NCwtMTYxNjg5
-Njc3OSwxOTAwMTM3MDAyXX0=
+EtMjAnXG4iLCJoaXN0b3J5IjpbLTIwNjM0NDY1ODEsLTE2MTY4
+OTY3NzksMTkwMDEzNzAwMl19
 -->
