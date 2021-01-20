@@ -20,7 +20,7 @@ It is not advisable to keep application configuration or sensitive data like use
 One of the easy ways to maintain sensitive data is using `JSON file` as application configuration file. 
 The advantages of storing application configuration in a JSON file is 
 * Data is not hard-coded in the application code. Hence no need to change code when usernames, passwords, port numbers change
-* If mentioned in .gitignore file, sensitive data will not be pushed to source control like git
+* If mentioned in .gitignore file, the config JSON file will not be pushed to source control like git
 
 ### Sample config.json file
 ```json
@@ -31,7 +31,27 @@ The advantages of storing application configuration in a JSON file is
 }
 ```
 
-### accessing configuration data from the JSON file
+### simple scenario with only one script file
+```python
+# import json module
+import json
+def loadAppConfig(fName="config.json"):
+    with open(fName) as f:
+        global appConf
+        appConf = json.load(f)
+        return appConf
+
+# load config data from json file
+# and store in a variable
+appConf = loadAppConfig()
+
+# use this appConf object in your script
+print(appConf)
+print('username is {0}'.format(appConf['username']))
+print('password is {0}'.format(appConf['password']))
+```
+
+### isolate the config file data access 
 ```python
 # appConfig.py
 
@@ -70,26 +90,6 @@ print("******************")
 print(getAppConfig())
 ```
 
-### simple scenario with only one script file
-```python
-# import json module
-import json
-def loadAppConfig(fName="config.json"):
-    with open(fName) as f:
-        global appConf
-        appConf = json.load(f)
-        return appConf
-
-# load config data from json file
-# and store in a variable
-appConf = loadAppConfig()
-
-# use this appConf object in your script
-print(appConf)
-print('username is {0}'.format(appConf['username']))
-print('password is {0}'.format(appConf['password']))
-```
-
 ### Video
 The video tutorial for this post can be found [here](https://youtu.be/9cJN9D_OqTI)
 
@@ -113,6 +113,6 @@ lvbiBjb25maWd1cmF0aW9uIHdpdGgganNvbiBmaWxlXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW1pbmdfcH
 l0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjEtMD
-EtMjAnXG4iLCJoaXN0b3J5IjpbNDI1MTI2NDQ2LC0xNjE2ODk2
-Nzc5LDE5MDAxMzcwMDJdfQ==
+EtMjAnXG4iLCJoaXN0b3J5IjpbLTEwMTYwNDk0OCwtMTYxNjg5
+Njc3OSwxOTAwMTM3MDAyXX0=
 -->
