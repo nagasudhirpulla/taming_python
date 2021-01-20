@@ -34,8 +34,10 @@ The advantages of storing application configuration in a JSON file is
 ### accessing configuration data from the json file
 ```python
 # appConfig.py
+
 # import json module
 import json
+
 # initialize the app config global variable
 appConf = {}
 
@@ -75,6 +77,6 @@ lvbiBjb25maWd1cmF0aW9uIHdpdGgganNvbiBmaWxlXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW1pbmdfcH
 l0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjEtMD
-EtMjAnXG4iLCJoaXN0b3J5IjpbMTQwODI2NTY3MCwtMTYxNjg5
+EtMjAnXG4iLCJoaXN0b3J5IjpbMTg3ODE2NjU5OCwtMTYxNjg5
 Njc3OSwxOTAwMTM3MDAyXX0=
 -->
