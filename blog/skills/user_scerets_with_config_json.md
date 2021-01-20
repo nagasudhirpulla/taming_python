@@ -36,9 +36,12 @@ The advantages of storing application configuration in a JSON file is
 # import the json module
 import json
 
-def getAppConfigFromJson(fName) -> dict:
+appConf = {}
+
+def initAppConfig(fName="config.json") -> dict:
     with open(fName) as f:
-        data = json.load(f)
+        global appConf
+        appConf = json.load(f)
         return data
 ```
 ![env_var_output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/env_var_output.png)
@@ -65,5 +68,5 @@ lvbiBjb25maWd1cmF0aW9uIHdpdGgganNvbiBmaWxlXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW1pbmdfcH
 l0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjEtMD
-EtMjAnXG4iLCJoaXN0b3J5IjpbLTE2NjAyNTg5ODRdfQ==
+EtMjAnXG4iLCJoaXN0b3J5IjpbMTkwMDEzNzAwMl19
 -->
