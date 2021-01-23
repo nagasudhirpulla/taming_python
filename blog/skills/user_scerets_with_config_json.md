@@ -93,9 +93,9 @@ print(getAppConfig())
 ```
 
 ### Video
-The video tutorial for this post can be found [here](https://youtu.be/9cJN9D_OqTI)
+The video tutorial for this post can be found [here](https://youtu.be/sPl6H9_3ZKI)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9cJN9D_OqTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sPl6H9_3ZKI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ , https://repl.it/
@@ -113,7 +113,7 @@ lvbiBjb25maWd1cmF0aW9uIHdpdGgganNvbiBmaWxlXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW1pbmdfcH
 l0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjEtMD
-EtMjAnXG4iLCJoaXN0b3J5IjpbMTM4ODE2OTI2LC0xMDQ5MjQ5
-NjQxLC02MTc2NTg3NzgsLTE3NDgxMDk4OTgsLTE2MTY4OTY3Nz
-ksMTkwMDEzNzAwMl19
+EtMjAnXG4iLCJoaXN0b3J5IjpbLTE2NTA0NDM1ODYsMTM4ODE2
+OTI2LC0xMDQ5MjQ5NjQxLC02MTc2NTg3NzgsLTE3NDgxMDk4OT
+gsLTE2MTY4OTY3NzksMTkwMDEzNzAwMl19
 -->
