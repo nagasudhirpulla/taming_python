@@ -120,7 +120,7 @@ x = [
 x.to_csv('out.csv')
 
 # export DataFrame to a file named output.xlsx
-x.to_excel('output.csv')
+x.to_excel('output.xlsx')
 
 # export DataFrame to  C:\Users\Nagasudhir\Documents\Python Projects\taming_python\data.xlsx
 x.to_excel(r'C:\Users\Nagasudhir\Documents\Python Projects\taming_python\data.xlsx')
@@ -151,8 +151,8 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlstMTcwODE3NjU5MSw0NzM4NTgwOTMs
-MTMzOTU2NDU0MywtMTE0ODU3OTMwMSwtMjAxMjE1OTczMywxNT
-k5NzY0NTAzLC04ODc4MjkzOTUsMTc1OTQ1MTU4MSw2MTI5Mzcx
-MjksMTI2Mjg0NTUwNl19
+dcbiIsImhpc3RvcnkiOlstNzg1OTA3NTk4LC0xNzA4MTc2NTkx
+LDQ3Mzg1ODA5MywxMzM5NTY0NTQzLC0xMTQ4NTc5MzAxLC0yMD
+EyMTU5NzMzLDE1OTk3NjQ1MDMsLTg4NzgyOTM5NSwxNzU5NDUx
+NTgxLDYxMjkzNzEyOSwxMjYyODQ1NTA2XX0=
 -->
