@@ -27,7 +27,7 @@ from simpledbf import Dbf5
 dbfPath = r'C:\Users\Nagasudhir\Documents\test.dbf'
 
 # load the dataframe from dbf file path
-df = dbf5.to_dataframe(dbfPath)
+df = Dbf5.to_dataframe(dbfPath)
 ```
 
 <hr/>
@@ -51,6 +51,6 @@ F0YUZyYW1lIGZyb20gREJGIGZpbGVcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMTgnXG50YWdzOi
 AnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2ls
 bCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbi
-IsImhpc3RvcnkiOls0NTIzNTA2MDUsLTE4NjA4ODI5NTIsLTEy
-NTMzNDE0NDJdfQ==
+IsImhpc3RvcnkiOlstNTU1NjY1NzQ3LC0xODYwODgyOTUyLC0x
+MjUzMzQxNDQyXX0=
 -->
