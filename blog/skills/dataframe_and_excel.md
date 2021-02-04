@@ -71,7 +71,7 @@ dfCsv = pd.read_csv('gen_schedules.csv', usecols=[2,6,8])
 print(dfExcel)
 
 # read only columns A,C,E:H
-dfExcel = pd.read_excel('gen_schedules.xlsx', usecols=['A,C,E:H'])
+dfExcel = pd.read_excel('gen_schedules.xlsx', usecols='A,C,E:H')
 print(dfExcel)
 ```
 #### skip rows at the top during import using "skiprows" option
@@ -151,8 +151,9 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlstNzg1OTA3NTk4LC0xNzA4MTc2NTkx
-LDQ3Mzg1ODA5MywxMzM5NTY0NTQzLC0xMTQ4NTc5MzAxLC0yMD
-EyMTU5NzMzLDE1OTk3NjQ1MDMsLTg4NzgyOTM5NSwxNzU5NDUx
-NTgxLDYxMjkzNzEyOSwxMjYyODQ1NTA2XX0=
+dcbiIsImhpc3RvcnkiOlsxNDU0MDkzNTYwLC03ODU5MDc1OTgs
+LTE3MDgxNzY1OTEsNDczODU4MDkzLDEzMzk1NjQ1NDMsLTExND
+g1NzkzMDEsLTIwMTIxNTk3MzMsMTU5OTc2NDUwMywtODg3ODI5
+Mzk1LDE3NTk0NTE1ODEsNjEyOTM3MTI5LDEyNjI4NDU1MDZdfQ
+==
 -->
