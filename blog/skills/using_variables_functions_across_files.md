@@ -89,9 +89,8 @@ Many people get confused with this concept
 
 
 ### Video
-The video tutorial for this post can be found [here](https://youtu.be/9cJN9D_OqTI)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9cJN9D_OqTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The video tutorial for this post can be found [here](https://youtu.be/e5aA0-pCCtA)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e5aA0-pCCtA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
 
@@ -108,7 +107,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFNoYXJpbmcgZnVuY3Rpb2
 blxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMj
 AyMC0wNy0wNSdcbnRhZ3M6ICdsZWFybmluZywgcHl0aG9uLCB0
 YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW
-5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0xNzQ2ODc3
-OTMzLC05ODAzMTA2NzEsLTE5NjM4NzI2MywxOTYyNTM1MjE2LD
-EwMTQ4NDE5NDddfQ==
+5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6WzUyMTU1OTk2
+OSwtOTgwMzEwNjcxLC0xOTYzODcyNjMsMTk2MjUzNTIxNiwxMD
+E0ODQxOTQ3XX0=
 -->
