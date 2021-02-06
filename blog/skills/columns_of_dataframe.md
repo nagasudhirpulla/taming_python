@@ -36,6 +36,11 @@ print(list(df.columns))
 # ['Age', 'Name', 'Sex']
 ```
 
+### Video
+Watch video on this post [here](https://youtu.be/XtcYVbJ-e7k)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nOUrjZNhh2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -52,5 +57,6 @@ VtbiBuYW1lcyBvZiBhIERhdGFGcmFtZVxuYXV0aG9yOiBOYWdh
 c3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNS0wNCdcbnRhZ3
 M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1pbmdfcHl0aG9uX3Nr
 aWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbF
-xuIiwiaGlzdG9yeSI6Wy04MzQ2NjIwMjhdfQ==
+xuIiwiaGlzdG9yeSI6Wy0xNzg1ODE1ODc3LC04MzQ2NjIwMjhd
+fQ==
 -->
