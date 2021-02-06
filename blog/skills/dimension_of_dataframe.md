@@ -40,6 +40,11 @@ Number of rows = 2
 Number of columns = 3
 '''
 ```
+### Video
+Video for this post can be found [here](https://youtu.be/xVPX-Y7f-eE)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xVPX-Y7f-eE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -60,5 +65,5 @@ RhdGFGcmFtZVxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl
 9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tp
 bGxcbmRhdGU6ICcyMDIwLTA1LTA0J1xuIiwiaGlzdG9yeSI6Wz
-M5MzI4NTQwNywtMTE2MjYzNTE1XX0=
+kyODY3MzU4OCwzOTMyODU0MDcsLTExNjI2MzUxNV19
 -->
