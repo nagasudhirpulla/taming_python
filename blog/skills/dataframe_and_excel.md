@@ -126,6 +126,11 @@ x.to_excel('output.xlsx')
 x.to_excel(r'C:\Users\Nagasudhir\Documents\Python Projects\taming_python\data.xlsx')
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/uwVkySCgA3o)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uwVkySCgA3o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -151,9 +156,8 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlsxNDU0MDkzNTYwLC03ODU5MDc1OTgs
-LTE3MDgxNzY1OTEsNDczODU4MDkzLDEzMzk1NjQ1NDMsLTExND
-g1NzkzMDEsLTIwMTIxNTk3MzMsMTU5OTc2NDUwMywtODg3ODI5
-Mzk1LDE3NTk0NTE1ODEsNjEyOTM3MTI5LDEyNjI4NDU1MDZdfQ
-==
+dcbiIsImhpc3RvcnkiOlstODEwMjkyNDUsLTc4NTkwNzU5OCwt
+MTcwODE3NjU5MSw0NzM4NTgwOTMsMTMzOTU2NDU0MywtMTE0OD
+U3OTMwMSwtMjAxMjE1OTczMywxNTk5NzY0NTAzLC04ODc4Mjkz
+OTUsMTc1OTQ1MTU4MSw2MTI5MzcxMjksMTI2Mjg0NTUwNl19
 -->
