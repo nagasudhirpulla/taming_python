@@ -1,4 +1,4 @@
-## Skill - Vertically slicing a DataFrame using column names
+## Skill - Vertically slicing a DataFrame by column names
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -82,6 +82,6 @@ JhbWUgY29sdW1uc1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxh
 XG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dG
 hvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25f
 c2tpbGxcbmRhdGU6ICcyMDIwLTA1LTA2J1xuIiwiaGlzdG9yeS
-I6Wy0xNjcxOTIxNjkyLC00NzM5Njc2NzgsMjA5Nzc2NTk2OSw5
-OTA1NTUxMiwtNjUzMjEyNzc5XX0=
+I6WzIwMDAyNDM2NDksLTE2NzE5MjE2OTIsLTQ3Mzk2NzY3OCwy
+MDk3NzY1OTY5LDk5MDU1NTEyLC02NTMyMTI3NzldfQ==
 -->
