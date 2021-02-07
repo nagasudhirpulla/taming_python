@@ -65,7 +65,7 @@ Here are the goals and skills in this tutorial series
 * [Import pandas DataFrame from DBF file](https://nagasudhir.blogspot.com/2020/06/import-pandas-dataframe-from-dbf-file.html)
 * [Getting the shape / dimension of a DataFrame](https://nagasudhir.blogspot.com/2020/05/dimension-of-dataframe.html)
 * [Getting the column names of DataFrame](https://nagasudhir.blogspot.com/2020/05/getting-column-names-of-dataframe.html)
-* [Selecting DataFrame columns](https://nagasudhir.blogspot.com/2020/05/selecting-dataframe-columns.html)
+* [Vertically slicing a DataFrame by column names](https://nagasudhir.blogspot.com/2020/05/selecting-dataframe-columns.html)
 * [Filter DataFrame rows](https://nagasudhir.blogspot.com/2020/05/filter-dataframe-rows.html)
 * [Selecting a subset of DataFrame using 'iloc' function](https://nagasudhir.blogspot.com/2020/05/using-iloc-function-of-dataframe.html)
 * [Selecting a subset of DataFrame using 'loc' function](https://nagasudhir.blogspot.com/2020/05/using-loc-function-of-dataframe.html)
@@ -92,11 +92,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbNzk2NTc1MTA1LC0xMTQ2Mz
-A0NjE5LDE2NTY2OTQwMDEsMTI1OTIzMTM1NywyNTU2Mzc1MzUs
-MTM5ODg3MTQ1NSwxODAyNzM3NjU1LDE2NTYwMzMwMTAsMTAzMj
-MzMzIxMSwtMTI3MjI1NTI4MCw3ODEzMDcxODAsMTY3NDY1MDIy
-NiwtMTM3NTQzNTQxOSwtNDc4NzY5ODMsMTgzMDMyOTQ0NywxMj
-E2NDgyODczLDEyNzY2NDIwNzUsLTk1OTEwOTk5NiwtMTMxOTcw
-MDA4NywtMjEyMzM5ODc1Ml19
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTExNzU2ODU2MjIsLTExND
+YzMDQ2MTksMTY1NjY5NDAwMSwxMjU5MjMxMzU3LDI1NTYzNzUz
+NSwxMzk4ODcxNDU1LDE4MDI3Mzc2NTUsMTY1NjAzMzAxMCwxMD
+MyMzMzMjExLC0xMjcyMjU1MjgwLDc4MTMwNzE4MCwxNjc0NjUw
+MjI2LC0xMzc1NDM1NDE5LC00Nzg3Njk4MywxODMwMzI5NDQ3LD
+EyMTY0ODI4NzMsMTI3NjY0MjA3NSwtOTU5MTA5OTk2LC0xMzE5
+NzAwMDg3LC0yMTIzMzk4NzUyXX0=
 -->
