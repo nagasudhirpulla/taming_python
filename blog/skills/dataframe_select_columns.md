@@ -58,6 +58,11 @@ print(type(kharData))
 ```
 Notice that the type of `kharData` is Series and the type of `filteredDf` is DataFrame. This is because `kharData` variable is obtained by getting only a single column of the main dataframe `df`
 
+### Video
+Video for this post can be found [here](https://youtu.be/VMvsDTpofBc)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VMvsDTpofBc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### Online Interpreter
@@ -82,6 +87,6 @@ JhbWUgY29sdW1uc1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxh
 XG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dG
 hvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25f
 c2tpbGxcbmRhdGU6ICcyMDIwLTA1LTA2J1xuIiwiaGlzdG9yeS
-I6WzIwMDAyNDM2NDksLTE2NzE5MjE2OTIsLTQ3Mzk2NzY3OCwy
+I6WzE0OTA5OTE0OTgsLTE2NzE5MjE2OTIsLTQ3Mzk2NzY3OCwy
 MDk3NzY1OTY5LDk5MDU1NTEyLC02NTMyMTI3NzldfQ==
 -->
