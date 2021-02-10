@@ -1,4 +1,4 @@
-## Skill - Filter DataFrame rows
+## Skill - Filter DataFrame rows with conditional statements
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -76,7 +76,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZpbHRlciBEYXRhRnJhbW
 Ugcm93c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRl
 OiAnMjAyMC0wNS0wNidcbnRhZ3M6ICdsZWFybmluZywgcHl0aG
 9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
-dGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0xMD
-AyOTU1MzI2LC0xNTgzNjQ0ODU1LDQwODAxODM0MSw2MzgzNzc3
-OTcsLTE3NjUwNzUxMjIsLTEwMjI5NTUxMjFdfQ==
+dGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6WzE5Mz
+EyNDQyOTgsLTEwMDI5NTUzMjYsLTE1ODM2NDQ4NTUsNDA4MDE4
+MzQxLDYzODM3Nzc5NywtMTc2NTA3NTEyMiwtMTAyMjk1NTEyMV
+19
 -->
