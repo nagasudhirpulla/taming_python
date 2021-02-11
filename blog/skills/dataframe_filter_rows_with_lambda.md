@@ -39,11 +39,11 @@ df = pd.read_csv('gen_schedules.csv')
 print('Number of rows in df = {0}'.format(df.shape[0]))
 # this prints Number of rows in df = 100
 
-# filter the rows with CGPL values greater than KSTPS7
-filteredDf = df[df.apply(lambda x: x["CGPL"]>x["KSTPS7"], axis=1)]
+# filter the rows with VSTPS_III values greater than VSTPS_IV
+filteredDf = df[df.apply(lambda x: x["VSTPS_III"]>x["VSTPS_IV"], axis=1)]
 
 print('Number of rows in filteredDf = {0}'.format(filteredDf.shape[0]))
-# this prints Number of rows in filteredDf = 10
+# this prints Number of rows in filteredDf = 34
 ```
 
 <hr/>
@@ -58,5 +58,5 @@ print('Number of rows in filteredDf = {0}'.format(filteredDf.shape[0]))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxMjIwM119
+eyJoaXN0b3J5IjpbLTE2NTk2MTU1OTEsMzcxMjIwM119
 -->
