@@ -40,32 +40,16 @@ print('Number of rows in df = {0}'.format(df.shape[0]))
 # this prints Number of rows in df = 100
 
 # filter the rows with CGPL values greater than KSTPS7
-filteredDf = df[(df['CGPL']>2200) & (df['KSTPS7']<450)]
+filteredDf = df[df.apply(x)]
 
 print('Number of rows in filteredDf = {0}'.format(filteredDf.shape[0]))
 # this prints Number of rows in filteredDf = 10
 ```
-### Filter DataFrame rows based on null / Nan values
-```python
-import pandas as pd
-df = pd.read_csv("gen_schdules.csv")
-# filter rows which have only null values in "Time Block" column
-dfWithNa = df[df["Time Block"].isna()]
-# filter rows which have only non null values in "Time Block" column
-dfWithoutNa = df[~df["Time Block"].isna()]
-print(dfWithoutNa)
-```
 
 <hr/>
 
-### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
-
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/RevolvingAngryFrontend?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### References
-* Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/03_subset_data.html#min-tut-03-subset
+* stack overflow post - https://stackoverflow.com/questions/11418192/pandas-complex-filter-on-rows-of-dataframe
 
 <hr/>
 
@@ -74,5 +58,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MjgyMzU1MF19
+eyJoaXN0b3J5IjpbMzk2MDgxOTYxXX0=
 -->
