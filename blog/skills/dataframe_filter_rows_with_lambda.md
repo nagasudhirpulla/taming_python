@@ -40,7 +40,7 @@ print('Number of rows in df = {0}'.format(df.shape[0]))
 # this prints Number of rows in df = 100
 
 # filter the rows with CGPL values greater than KSTPS7
-filteredDf = df[df.apply(x)]
+filteredDf = df[df.apply(lambda x: x["CGPL"]>x["KSTPS7"], axis=1)]
 
 print('Number of rows in filteredDf = {0}'.format(filteredDf.shape[0]))
 # this prints Number of rows in filteredDf = 10
@@ -58,5 +58,5 @@ print('Number of rows in filteredDf = {0}'.format(filteredDf.shape[0]))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2MDgxOTYxXX0=
+eyJoaXN0b3J5IjpbMzcxMjIwM119
 -->
