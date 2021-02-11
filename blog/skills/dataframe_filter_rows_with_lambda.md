@@ -18,7 +18,7 @@ Pandas is a python library.
 
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
-In this post, we will learn how to filter the rows of a DataFrame based on our desired criteria using lambda functions. This approach can accommodate complex filtering criteria since we will define the filtering criteria as a lambda function. The filt
+In this post, we will learn how to filter the rows of a DataFrame based on our desired criteria using lambda functions. This approach can accommodate complex filtering criteria since we will define the filtering criteria as a lambda function. The lambda function can access all the columns of each row while filtering the rows
 
 <hr/>
 
@@ -83,5 +83,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2NTEzODYxXX0=
+eyJoaXN0b3J5IjpbNDgxNTQ0NDE1XX0=
 -->
