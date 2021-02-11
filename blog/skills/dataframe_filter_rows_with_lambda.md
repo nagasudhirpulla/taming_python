@@ -30,8 +30,6 @@ In this post, we will learn how to filter the rows of a DataFrame based on our d
 The excel files should look like the image below 
 ![excel_file_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/all_gen_data.png)
 
-Suppose in a DataFrame `df` we want to get rows with values in column 'A' greater than 20, then we use `df[df['A']>20]`
-
 ### Example
 ```python
 import pandas as pd
@@ -41,18 +39,11 @@ df = pd.read_csv('gen_schedules.csv')
 print('Number of rows in df = {0}'.format(df.shape[0]))
 # this prints Number of rows in df = 100
 
-# filter the rows with CGPL values greater than 2200
-filteredDf = df[df['CGPL']>2200]
+# filter the rows with CGPL values greater than KSTPS7
+filteredDf = df[(df['CGPL']>2200) & (df['KSTPS7']<450)]
 
 print('Number of rows in filteredDf = {0}'.format(filteredDf.shape[0]))
-# this prints Number of rows in filteredDf = 65
-
-# filter the rows with CGPL values greater than 2200 and KSTPS7 less than 450
-# we can achieve this via the logical operator '&'
-filteredDf2 = df[(df['CGPL']>2200) & (df['KSTPS7']<450)]
-
-print('Number of rows in filteredDf2 = {0}'.format(filteredDf2.shape[0]))
-# this prints Number of rows in filteredDf2 = 10
+# this prints Number of rows in filteredDf = 10
 ```
 ### Filter DataFrame rows based on null / Nan values
 ```python
@@ -83,5 +74,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzMTAxMTg2XX0=
+eyJoaXN0b3J5IjpbMTI0MjgyMzU1MF19
 -->
