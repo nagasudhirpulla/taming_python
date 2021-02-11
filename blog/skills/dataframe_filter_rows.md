@@ -54,7 +54,9 @@ print('Number of rows in filteredDf2 = {0}'.format(filteredDf2.shape[0]))
 # this prints Number of rows in filteredDf2 = 10
 ```
 ### Filter DataFrame rows based on null / Nan values
- 
+```python
+d
+```
 
 <hr/>
 
@@ -78,8 +80,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZpbHRlciBEYXRhRnJhbW
 Ugcm93c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRl
 OiAnMjAyMC0wNS0wNidcbnRhZ3M6ICdsZWFybmluZywgcHl0aG
 9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
-dGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0xNj
-A4NDAwNTMyLDE5MzEyNDQyOTgsLTEwMDI5NTUzMjYsLTE1ODM2
-NDQ4NTUsNDA4MDE4MzQxLDYzODM3Nzc5NywtMTc2NTA3NTEyMi
-wtMTAyMjk1NTEyMV19
+dGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6WzIxMD
+UzNTQxMzIsLTE2MDg0MDA1MzIsMTkzMTI0NDI5OCwtMTAwMjk1
+NTMyNiwtMTU4MzY0NDg1NSw0MDgwMTgzNDEsNjM4Mzc3Nzk3LC
+0xNzY1MDc1MTIyLC0xMDIyOTU1MTIxXX0=
 -->
