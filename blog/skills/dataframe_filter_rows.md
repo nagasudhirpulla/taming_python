@@ -57,7 +57,9 @@ print('Number of rows in filteredDf2 = {0}'.format(filteredDf2.shape[0]))
 ```python
 import pandas as pd
 df = pd.read_csv("gen_schdules.csv")
-df2 = df[df["Time Block"].isna()]
+dfWithNa = df[df["Time Block"].isna()]
+dfWithoutNa = df[~df["Time Block"].isna()]
+print(dfWithoutNa)
 ```
 
 <hr/>
@@ -82,8 +84,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZpbHRlciBEYXRhRnJhbW
 Ugcm93c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRl
 OiAnMjAyMC0wNS0wNidcbnRhZ3M6ICdsZWFybmluZywgcHl0aG
 9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
-dGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wzg3Nz
-U2NTEzOCwtMTYwODQwMDUzMiwxOTMxMjQ0Mjk4LC0xMDAyOTU1
+dGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wzc1MT
+Y3NTM3MCwtMTYwODQwMDUzMiwxOTMxMjQ0Mjk4LC0xMDAyOTU1
 MzI2LC0xNTgzNjQ0ODU1LDQwODAxODM0MSw2MzgzNzc3OTcsLT
 E3NjUwNzUxMjIsLTEwMjI5NTUxMjFdfQ==
 -->
