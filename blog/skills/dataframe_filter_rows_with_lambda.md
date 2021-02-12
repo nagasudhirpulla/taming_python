@@ -50,6 +50,7 @@ print('Number of rows in filteredDf = {0}'.format(filteredDf.shape[0]))
 
 ### References
 * stack overflow post - https://stackoverflow.com/questions/11418192/pandas-complex-filter-on-rows-of-dataframe
+* DataFrame apply function documentation - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.apply.html
 
 <hr/>
 
@@ -63,5 +64,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkdmFuY2UgRGF0YUZyYW
 XG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW
 1pbmdfcHl0aG9uX3NraWxsLCB0YW1pbmdfcHl0aG9uLCBweXRo
 b24nXG5kYXRlOiAnMjAyMC0wMi0xMSdcbiIsImhpc3RvcnkiOl
-stMTQzNjc1NjEwNiwtMTY1OTYxNTU5MSwzNzEyMjAzXX0=
+stMTk5ODgwODU4MiwtMTQzNjc1NjEwNiwtMTY1OTYxNTU5MSwz
+NzEyMjAzXX0=
 -->
