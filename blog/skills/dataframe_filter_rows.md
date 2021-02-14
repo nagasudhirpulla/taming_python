@@ -64,6 +64,11 @@ dfWithoutNa = df[~df["Time Block"].isna()]
 print(dfWithoutNa)
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/fRpszf0yrMM)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fRpszf0yrMM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### Online Interpreter
@@ -86,8 +91,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZpbHRlciBEYXRhRnJhbW
 Ugcm93c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRl
 OiAnMjAyMC0wNS0wNidcbnRhZ3M6ICdsZWFybmluZywgcHl0aG
 9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
-dGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6WzE4OD
-k5NjY1MSwtMTYwODQwMDUzMiwxOTMxMjQ0Mjk4LC0xMDAyOTU1
-MzI2LC0xNTgzNjQ0ODU1LDQwODAxODM0MSw2MzgzNzc3OTcsLT
-E3NjUwNzUxMjIsLTEwMjI5NTUxMjFdfQ==
+dGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy05Mz
+QzMDg0MzIsMTg4OTk2NjUxLC0xNjA4NDAwNTMyLDE5MzEyNDQy
+OTgsLTEwMDI5NTUzMjYsLTE1ODM2NDQ4NTUsNDA4MDE4MzQxLD
+YzODM3Nzc5NywtMTc2NTA3NTEyMiwtMTAyMjk1NTEyMV19
 -->
