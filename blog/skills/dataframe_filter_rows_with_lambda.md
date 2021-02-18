@@ -46,6 +46,11 @@ print('Number of rows in filteredDf = {0}'.format(filteredDf.shape[0]))
 # this prints Number of rows in filteredDf = 34
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/KVcJH6F25uE)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KVcJH6F25uE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### References
@@ -64,6 +69,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFkdmFuY2UgRGF0YUZyYW
 XG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW
 1pbmdfcHl0aG9uX3NraWxsLCB0YW1pbmdfcHl0aG9uLCBweXRo
 b24nXG5kYXRlOiAnMjAyMC0wMi0xMSdcbiIsImhpc3RvcnkiOl
-stMTk5ODgwODU4MiwtMTQzNjc1NjEwNiwtMTY1OTYxNTU5MSwz
-NzEyMjAzXX0=
+sxMzE0NzY0OTQ3LC0xOTk4ODA4NTgyLC0xNDM2NzU2MTA2LC0x
+NjU5NjE1NTkxLDM3MTIyMDNdfQ==
 -->
