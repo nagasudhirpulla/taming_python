@@ -32,7 +32,7 @@ The excel files should look like the image below
 
 * If we want all rows but only 5th to 9th columns then we can use `df.iloc[:, 4:9]`
 
-* If we want all columns but only 45th to 64th rows then we can use `df.iloc[44:63, :]`
+* If we want all columns but only 45th to 64th rows then we can use `df.iloc[44:64, :]`
 
 * If we want all rows but only 1,5,8 columns then we can use `df.iloc[:, [1,5,8]]` 
 
@@ -84,6 +84,6 @@ Rpb24gb2YgRGF0YUZyYW1lXG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA1LTA2J1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTE0ODY4Njc4ODcsMTc4NDk5Mjg4MCwxNDYxMjk2
-NDk3XX0=
+N0b3J5IjpbNjg0NDg0NTYyLDE3ODQ5OTI4ODAsMTQ2MTI5NjQ5
+N119
 -->
