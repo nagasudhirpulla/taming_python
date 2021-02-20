@@ -5,7 +5,7 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 ### TODOS
 * change dataframe dimensions using pivot and melt
-* matplotlib bottom legend and multiple lines in figure title - 
+* matplotlib bottom legend and multiple lines in figure title - https://github.com/dheerajgupta0001/wrldc_mis_monthly_report_generator/blob/ed3ddd19bd2e71a956e0880b222cf5eb4f6a8cf3/src/app/section_1_4/section_1_4_2.py#L76
 * python data structures lists and dictionaries
 * in keyword in python
 * bubble map geographic plots using folium 
@@ -44,10 +44,10 @@ def deriveDurationVals(vals, resol):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODU0MjYwMCwxMTcyMjM2MjgzLDE4NT
-IwMDYwMjUsMjEyMTU3NzE0LC03NzQ4NjAxNDMsLTUyMDQ3MTkz
-OCw3MzkwNzM3NzksLTk2MTU4Mzc4MywtMTY4Mzk2MTM2LC0zND
-k0NDgzNzMsMTg4MDIwMjgxMSwtMTI5MjQxNDc2OSwxNjM1MDAx
-ODY5LC0xOTM5MDQ3Njg3LDE5MjEwMDgyMiwtMzUyOTIxNjAsMT
-E5MDQ4MDk1MCwtMTQ2OTc5NjgzN119
+eyJoaXN0b3J5IjpbOTI2Nzk1MzA0LC0zOTg1NDI2MDAsMTE3Mj
+IzNjI4MywxODUyMDA2MDI1LDIxMjE1NzcxNCwtNzc0ODYwMTQz
+LC01MjA0NzE5MzgsNzM5MDczNzc5LC05NjE1ODM3ODMsLTE2OD
+M5NjEzNiwtMzQ5NDQ4MzczLDE4ODAyMDI4MTEsLTEyOTI0MTQ3
+NjksMTYzNTAwMTg2OSwtMTkzOTA0NzY4NywxOTIxMDA4MjIsLT
+M1MjkyMTYwLDExOTA0ODA5NTAsLTE0Njk3OTY4MzddfQ==
 -->
