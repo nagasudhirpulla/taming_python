@@ -61,6 +61,11 @@ print(df4)
 ```
 
 A similar function is [loc](https://nagasudhir.blogspot.com/2020/05/using-loc-function-of-dataframe.html), but it uses indexes and column names to get a subset of DataFrame.
+
+### Video
+Video for this post can be found [here](https://youtu.be/hxF6pdQc5ZU)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hxF6pdQc5ZU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr/>
 
 ### Online Interpreter
@@ -84,6 +89,6 @@ Rpb24gb2YgRGF0YUZyYW1lXG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA1LTA2J1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbMTM5MTAwNDAzMiw5NzA2MDE1NDMsNjg0NDg0NTYy
-LDE3ODQ5OTI4ODAsMTQ2MTI5NjQ5N119
+N0b3J5IjpbLTE3NjU5MDExNTksMTM5MTAwNDAzMiw5NzA2MDE1
+NDMsNjg0NDg0NTYyLDE3ODQ5OTI4ODAsMTQ2MTI5NjQ5N119
 -->
