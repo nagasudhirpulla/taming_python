@@ -1,4 +1,4 @@
-## Skill - Selecting a subset of DataFrame using 'iloc' function
+## Skill - Selecting a subset of DataFrame based on index positions using 'iloc' function
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -84,6 +84,6 @@ Rpb24gb2YgRGF0YUZyYW1lXG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA1LTA2J1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbMTY1NzEzNjE3Myw2ODQ0ODQ1NjIsMTc4NDk5Mjg4
-MCwxNDYxMjk2NDk3XX0=
+N0b3J5IjpbOTcwNjAxNTQzLDY4NDQ4NDU2MiwxNzg0OTkyODgw
+LDE0NjEyOTY0OTddfQ==
 -->
