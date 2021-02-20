@@ -1,4 +1,4 @@
-## Skill - Advanced DataFrame rows filtering with lambda functions
+## Skill - Advanced DataFrame rows filtering with lambda function
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -66,6 +66,7 @@ Video for this post can be found [here](https://youtu.be/KVcJH6F25uE)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
 AnJ1xuZGF0ZTogJzIwMjAtMDItMjAnXG4iLCJoaXN0b3J5Ijpb
-LTY2NDY1ODYwNSwxMzE0NzY0OTQ3LC0xOTk4ODA4NTgyLC0xND
-M2NzU2MTA2LC0xNjU5NjE1NTkxLDM3MTIyMDNdfQ==
+LTI2NTQwMzc0NCwtNjY0NjU4NjA1LDEzMTQ3NjQ5NDcsLTE5OT
+g4MDg1ODIsLTE0MzY3NTYxMDYsLTE2NTk2MTU1OTEsMzcxMjIw
+M119
 -->
