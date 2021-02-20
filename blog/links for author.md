@@ -4,7 +4,8 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 
 ### TODOS
-* dataframe pivimelt
+* change dataframe dimensions using pivot and melt
+* matplotlib bottom legend and multiple lines in figure title - 
 * python data structures lists and dictionaries
 * in keyword in python
 * bubble map geographic plots using folium 
@@ -43,7 +44,7 @@ def deriveDurationVals(vals, resol):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTM1MjcxNCwxMTcyMjM2MjgzLDE4NT
+eyJoaXN0b3J5IjpbLTM5ODU0MjYwMCwxMTcyMjM2MjgzLDE4NT
 IwMDYwMjUsMjEyMTU3NzE0LC03NzQ4NjAxNDMsLTUyMDQ3MTkz
 OCw3MzkwNzM3NzksLTk2MTU4Mzc4MywtMTY4Mzk2MTM2LC0zND
 k0NDgzNzMsMTg4MDIwMjgxMSwtMTI5MjQxNDc2OSwxNjM1MDAx
