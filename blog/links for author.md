@@ -4,6 +4,7 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 
 ### TODOS
+* dataframe pivimelt
 * python data structures lists and dictionaries
 * in keyword in python
 * bubble map geographic plots using folium 
@@ -42,10 +43,10 @@ def deriveDurationVals(vals, resol):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MjIzNjI4MywxODUyMDA2MDI1LDIxMj
-E1NzcxNCwtNzc0ODYwMTQzLC01MjA0NzE5MzgsNzM5MDczNzc5
-LC05NjE1ODM3ODMsLTE2ODM5NjEzNiwtMzQ5NDQ4MzczLDE4OD
-AyMDI4MTEsLTEyOTI0MTQ3NjksMTYzNTAwMTg2OSwtMTkzOTA0
-NzY4NywxOTIxMDA4MjIsLTM1MjkyMTYwLDExOTA0ODA5NTAsLT
-E0Njk3OTY4MzddfQ==
+eyJoaXN0b3J5IjpbMTE4MTM1MjcxNCwxMTcyMjM2MjgzLDE4NT
+IwMDYwMjUsMjEyMTU3NzE0LC03NzQ4NjAxNDMsLTUyMDQ3MTkz
+OCw3MzkwNzM3NzksLTk2MTU4Mzc4MywtMTY4Mzk2MTM2LC0zND
+k0NDgzNzMsMTg4MDIwMjgxMSwtMTI5MjQxNDc2OSwxNjM1MDAx
+ODY5LC0xOTM5MDQ3Njg3LDE5MjEwMDgyMiwtMzUyOTIxNjAsMT
+E5MDQ4MDk1MCwtMTQ2OTc5NjgzN119
 -->
