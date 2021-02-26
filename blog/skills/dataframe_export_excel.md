@@ -147,6 +147,10 @@ df2.to_excel(writer, sheet_name='world')
 # close the writer
 writer.close()
 ```
+### Video
+Video for this post can be found [here](https://youtu.be/c8Vp_ZqMcFA)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c8Vp_ZqMcFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
 
@@ -170,6 +174,6 @@ UgYXMgZXhjZWwgb3IgY3N2XG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA2LTEzJ1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTE4NTgzMzU2MjEsLTE4NjkxOTY3OTgsMTAzNjAx
-ODYzMCwtMTMyMzc2NTMyNF19
+N0b3J5IjpbLTE5NjM2Mzg3MjgsLTE4NTgzMzU2MjEsLTE4Njkx
+OTY3OTgsMTAzNjAxODYzMCwtMTMyMzc2NTMyNF19
 -->
