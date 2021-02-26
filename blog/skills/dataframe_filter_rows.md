@@ -74,9 +74,6 @@ Video for this post can be found [here](https://youtu.be/fRpszf0yrMM)
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/RevolvingAngryFrontend?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/03_subset_data.html#min-tut-03-subset
 
@@ -91,8 +88,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZpbHRlciBEYXRhRnJhbW
 Ugcm93c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRl
 OiAnMjAyMC0wNS0wNidcbnRhZ3M6ICdsZWFybmluZywgcHl0aG
 9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
-dGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy05Mz
-QzMDg0MzIsMTg4OTk2NjUxLC0xNjA4NDAwNTMyLDE5MzEyNDQy
-OTgsLTEwMDI5NTUzMjYsLTE1ODM2NDQ4NTUsNDA4MDE4MzQxLD
-YzODM3Nzc5NywtMTc2NTA3NTEyMiwtMTAyMjk1NTEyMV19
+dGFtaW5nX3B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6WzMwMT
+gwMDUwMywtOTM0MzA4NDMyLDE4ODk5NjY1MSwtMTYwODQwMDUz
+MiwxOTMxMjQ0Mjk4LC0xMDAyOTU1MzI2LC0xNTgzNjQ0ODU1LD
+QwODAxODM0MSw2MzgzNzc3OTcsLTE3NjUwNzUxMjIsLTEwMjI5
+NTUxMjFdfQ==
 -->
