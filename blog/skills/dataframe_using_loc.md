@@ -150,6 +150,12 @@ sidewinder          0       0
 ```
 
 A similar function is [iloc](https://nagasudhir.blogspot.com/2020/05/using-iloc-function-of-dataframe.html), but it uses row and column positions to get a subset of DataFrame
+
+### Video
+Video for this post can be found [here](https://youtu.be/e7wKqI7feRI)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e7wKqI7feRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### Online Interpreter
@@ -171,7 +177,7 @@ lvbiBvZiBEYXRhRnJhbWVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ1
 9weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0
 aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNydcbiIsImhpc3
-RvcnkiOlsxMzg2Mzk2ODYwLDIxMTAxNDM1ODQsLTIxMDQxMjk2
-MDUsMTM4NjM5Njg2MCwtMTg0NzI4Njk2NSwtMTcwNTY2ODUwNS
+RvcnkiOlstMjkzOTEwNTg3LDEzODYzOTY4NjAsMjExMDE0MzU4
+NCwtMjEwNDEyOTYwNSwtMTg0NzI4Njk2NSwtMTcwNTY2ODUwNS
 wtNjcxNjQwMzc5LC04ODI0MTI0MCw4MDU0ODQ4MTNdfQ==
 -->
