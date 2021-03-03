@@ -181,15 +181,18 @@ this prints
 3   NaN      8    foo
 """
 ```
-<hr/>
 
 Please read this [official documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html) for getting know about more options and examples
 
+<hr/>
+
+### Video
+Video for this post can be found [here](https://youtu.be/_5PZMnHdrbY)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_5PZMnHdrbY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
-
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/AngelicWrithingBotany?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 * Official docs - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.merge.html
@@ -203,8 +206,9 @@ FtZXMgb24gYSBjb2x1bW5cbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxuZGF0ZTogJzIwMjAtMDYtMDUnXG50YWdzOiAnbGVhcm
 5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNh
 dGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3
-RvcnkiOlstMTUxMDMyMjc1OSwxNzg3NjI1OTY5LDQ4MTk2NjAw
-NiwyMTM2NTQwMzc5LDE3NjY5Nzc5MDYsLTEyMzg3MDMzNTYsMj
-A5MzcyMDcxMiwtNDc4NjA4MzUzLC01ODA2MTMxNDEsLTc3MDA4
-NzQ3NywtMTY0NDI1ODAxOSwtMTE4NjE1MDk3OF19
+RvcnkiOlstMjAwNzE2ODQ3MiwtMTUxMDMyMjc1OSwxNzg3NjI1
+OTY5LDQ4MTk2NjAwNiwyMTM2NTQwMzc5LDE3NjY5Nzc5MDYsLT
+EyMzg3MDMzNTYsMjA5MzcyMDcxMiwtNDc4NjA4MzUzLC01ODA2
+MTMxNDEsLTc3MDA4NzQ3NywtMTY0NDI1ODAxOSwtMTE4NjE1MD
+k3OF19
 -->
