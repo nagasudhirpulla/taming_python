@@ -106,6 +106,17 @@ df.loc[3] = pd.Series({"A":7, "B":9})
 
 # we need not specify all column values while using pandas Series
 df.loc[3] = pd.Series({"A":10})
+
+print(df)
+"""
+this prints
+   A  B
+0  1  2
+1  3  4
+2  5  6
+3  7  9
+2  10  Nan
+"""
 ```
 
 <hr/>
@@ -132,6 +143,6 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTcxNjI4NTc3OSwxOTM5
-MzMzODYsLTEzODcyNTgxNjgsLTEwMjIzNjE5XX0=
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMjExMDg4MzUsMTkzOTMz
+Mzg2LC0xMzg3MjU4MTY4LC0xMDIyMzYxOV19
 -->
