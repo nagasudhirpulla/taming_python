@@ -103,7 +103,8 @@ this prints
 
 # intsead of list you can append row using a pandas Series
 df.loc[3] = pd.Series({"A":7, "B":9})
-# 
+# you need not specify all columns values while using pandas Series
+df.loc[3] = pd.Series({"A":7, "B":9})
 ```
 
 <hr/>
@@ -130,6 +131,6 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE3NTcxNzI4NTQsMTkz
-OTMzMzg2LC0xMzg3MjU4MTY4LC0xMDIyMzYxOV19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTExNDg2Njc0NSwxOTM5
+MzMzODYsLTEzODcyNTgxNjgsLTEwMjIzNjE5XX0=
 -->
