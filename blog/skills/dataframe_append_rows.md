@@ -105,7 +105,8 @@ this prints
 df.loc[3] = pd.Series({"A":7, "B":9})
 
 # we need not specify all column values while using pandas Series
-df.loc[3] = pd.Series({"A":10})
+# NaN will be used for unspecfied columns
+df.loc[4] = pd.Series({"A":10})
 
 print(df)
 """
@@ -115,7 +116,7 @@ this prints
 1  3  4
 2  5  6
 3  7  9
-2  10  NaN
+4  10  NaN
 """
 ```
 
@@ -143,6 +144,6 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE5NzMyMTcyMTMsMTkz
-OTMzMzg2LC0xMzg3MjU4MTY4LC0xMDIyMzYxOV19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNjUwODU2Mjc4LDE5Mzkz
+MzM4NiwtMTM4NzI1ODE2OCwtMTAyMjM2MTldfQ==
 -->
