@@ -101,10 +101,11 @@ this prints
 2  5  6
 """
 
-# intsead of list you can append row using a pandas Series
+# instead of list we can append row using a pandas Series
 df.loc[3] = pd.Series({"A":7, "B":9})
-# you need not specify all columns values while using pandas Series
-df.loc[3] = pd.Series({"A":7, "B":9})
+
+# we need not specify all column values while using pandas Series
+df.loc[3] = pd.Series({"A":10})
 ```
 
 <hr/>
@@ -131,6 +132,6 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTExNDg2Njc0NSwxOTM5
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTcxNjI4NTc3OSwxOTM5
 MzMzODYsLTEzODcyNTgxNjgsLTEwMjIzNjE5XX0=
 -->
