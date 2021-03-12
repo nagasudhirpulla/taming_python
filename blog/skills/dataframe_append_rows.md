@@ -100,6 +100,10 @@ this prints
 1  3  4
 2  5  6
 """
+
+# intsead of list you can append row using a pandas Series
+df.loc[3] = pd.Series({"A":7, "B":9})
+# 
 ```
 
 <hr/>
@@ -126,6 +130,6 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTkzOTMzMzg2LC0xMzg3
-MjU4MTY4LC0xMDIyMzYxOV19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTE3NTcxNzI4NTQsMTkz
+OTMzMzg2LC0xMzg3MjU4MTY4LC0xMDIyMzYxOV19
 -->
