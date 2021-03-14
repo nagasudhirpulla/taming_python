@@ -120,6 +120,11 @@ this prints
 """
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/FX2RVHtA0WM)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FX2RVHtA0WM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 Please read this [official documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.append.html) for getting know about more options and examples
@@ -144,6 +149,7 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNjUwODU2Mjc4LDE5Mzkz
-MzM4NiwtMTM4NzI1ODE2OCwtMTAyMjM2MTldfQ==
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTUwMzU4ODQ5OSw2NTA4
+NTYyNzgsMTkzOTMzMzg2LC0xMzg3MjU4MTY4LC0xMDIyMzYxOV
+19
 -->
