@@ -73,7 +73,7 @@ Here are the goals and skills in this tutorial series
 * [Export DataFrame as excel or csv](https://nagasudhir.blogspot.com/2020/06/export-dataframe-as-excel-or-csv.html)
 * [Join two DataFrames on a column](https://nagasudhir.blogspot.com/2020/06/join-two-dataframes-on-column.html)
 * [Append rows or DataFrames to a pandas DataFrame](https://nagasudhir.blogspot.com/2020/06/append-rows-or-dataframes-to-pandas.html)
-* [Convert pandas Series to dictionary in python](https://nagasudhir.blogspot.com/2020/07/convert-pandas-series-to-dictionary-in.html)
+* [Convert pandas Series to dictionary and vice-versa in python](https://nagasudhir.blogspot.com/2020/07/convert-pandas-series-to-dictionary-in.html)
 
 #### Matplotlib plotting Skills
 * [Introduction to Matplotlib plotting library](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
@@ -93,7 +93,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTM4MDA5NjU4NSwtMTg1NT
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTgzNzM1MDU1MywtMTg1NT
 MwNTg2MywtMTE0NjMwNDYxOSwxNjU2Njk0MDAxLDEyNTkyMzEz
 NTcsMjU1NjM3NTM1LDEzOTg4NzE0NTUsMTgwMjczNzY1NSwxNj
 U2MDMzMDEwLDEwMzIzMzMyMTEsLTEyNzIyNTUyODAsNzgxMzA3
