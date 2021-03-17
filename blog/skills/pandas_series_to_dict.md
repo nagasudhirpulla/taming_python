@@ -47,7 +47,21 @@ print(sDict)
 ```
 
 ### converting dictionary to a pandas series using pd.Series
+```python
+import pandas as pd
 
+d = {"firstName":"John", "lastName": "Doe"}
+
+s = pd.Series(d)
+
+print(s)
+# this will print
+"""
+firstName    John
+lastName      Doe
+dtype: object
+"""
+```
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -68,8 +82,8 @@ NlcmllcyB0byBkaWN0aW9uYXJ5IGluIHB5dGhvblxuYXV0aG9y
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNy0wNC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls2ODY0NTMy
-NDcsMTExMzk1MzI4NCwxMTY2NDA3NTE5LDEyMDc5NDI4MDcsND
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls4ODk5MDI2
+NjgsMTExMzk1MzI4NCwxMTY2NDA3NTE5LDEyMDc5NDI4MDcsND
 MyNzkyODc0LDEyMTkzNDY2ODksLTcwOTc4NDAzNiwtNjEzOTAx
 OTM2LDE3ODA2NzIzODMsMTc4MDY3MjM4MywxNzgwNjcyMzgzXX
 0=
