@@ -66,8 +66,10 @@ dtype: object
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/WorthwhileGoldenrodFolders?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+### Video
+You can the video on this post [here](https://youtu.be/N_gx9mxl4lo)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N_gx9mxl4lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
 * Official docs- https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.to_dict.html
@@ -82,9 +84,9 @@ NlcmllcyB0byBkaWN0aW9uYXJ5IGluIHB5dGhvblxuYXV0aG9y
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNy0wNC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxNjAxMDY5
-NzE4LDg4OTkwMjY2OCwxMTEzOTUzMjg0LDExNjY0MDc1MTksMT
-IwNzk0MjgwNyw0MzI3OTI4NzQsMTIxOTM0NjY4OSwtNzA5Nzg0
-MDM2LC02MTM5MDE5MzYsMTc4MDY3MjM4MywxNzgwNjcyMzgzLD
-E3ODA2NzIzODNdfQ==
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNjUwOTU5
+MDQ0LDE2MDEwNjk3MTgsODg5OTAyNjY4LDExMTM5NTMyODQsMT
+E2NjQwNzUxOSwxMjA3OTQyODA3LDQzMjc5Mjg3NCwxMjE5MzQ2
+Njg5LC03MDk3ODQwMzYsLTYxMzkwMTkzNiwxNzgwNjcyMzgzLD
+E3ODA2NzIzODMsMTc4MDY3MjM4M119
 -->
