@@ -1,4 +1,4 @@
-## Skill - Convert pandas Series to dictionary in python
+## Skill - Convert pandas Series to dictionary and vice-versa in python
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -82,9 +82,9 @@ NlcmllcyB0byBkaWN0aW9uYXJ5IGluIHB5dGhvblxuYXV0aG9y
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNy0wNC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls4ODk5MDI2
-NjgsMTExMzk1MzI4NCwxMTY2NDA3NTE5LDEyMDc5NDI4MDcsND
-MyNzkyODc0LDEyMTkzNDY2ODksLTcwOTc4NDAzNiwtNjEzOTAx
-OTM2LDE3ODA2NzIzODMsMTc4MDY3MjM4MywxNzgwNjcyMzgzXX
-0=
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxNjAxMDY5
+NzE4LDg4OTkwMjY2OCwxMTEzOTUzMjg0LDExNjY0MDc1MTksMT
+IwNzk0MjgwNyw0MzI3OTI4NzQsMTIxOTM0NjY4OSwtNzA5Nzg0
+MDM2LC02MTM5MDE5MzYsMTc4MDY3MjM4MywxNzgwNjcyMzgzLD
+E3ODA2NzIzODNdfQ==
 -->
