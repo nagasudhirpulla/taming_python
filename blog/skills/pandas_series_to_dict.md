@@ -46,7 +46,8 @@ print(sDict)
 # {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'f': 6}
 ```
 
-### converting pandas series to dictionary using to_dict function
+### converting dictionary to a pandas series using pd.Series
+
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -67,9 +68,9 @@ NlcmllcyB0byBkaWN0aW9uYXJ5IGluIHB5dGhvblxuYXV0aG9y
 OiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNy0wNC
 dcbnRhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwg
 dGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbW
-luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNTQzMTAx
-MTExLDExMTM5NTMyODQsMTE2NjQwNzUxOSwxMjA3OTQyODA3LD
-QzMjc5Mjg3NCwxMjE5MzQ2Njg5LC03MDk3ODQwMzYsLTYxMzkw
-MTkzNiwxNzgwNjcyMzgzLDE3ODA2NzIzODMsMTc4MDY3MjM4M1
-19
+luZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls2ODY0NTMy
+NDcsMTExMzk1MzI4NCwxMTY2NDA3NTE5LDEyMDc5NDI4MDcsND
+MyNzkyODc0LDEyMTkzNDY2ODksLTcwOTc4NDAzNiwtNjEzOTAx
+OTM2LDE3ODA2NzIzODMsMTc4MDY3MjM4MywxNzgwNjcyMzgzXX
+0=
 -->
