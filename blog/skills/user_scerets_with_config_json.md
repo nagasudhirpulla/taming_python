@@ -1,4 +1,3 @@
-
 ## Skill - Managing application configuration and sensitive data using a JSON file in a python script / project
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -113,7 +112,8 @@ lvbiBjb25maWd1cmF0aW9uIHdpdGgganNvbiBmaWxlXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbnRhZ3M6ICd0YW1pbmdfcH
 l0aG9uLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjEtMD
-EtMjAnXG4iLCJoaXN0b3J5IjpbLTE2NTA0NDM1ODYsMTM4ODE2
-OTI2LC0xMDQ5MjQ5NjQxLC02MTc2NTg3NzgsLTE3NDgxMDk4OT
-gsLTE2MTY4OTY3NzksMTkwMDEzNzAwMl19
+EtMjAnXG4iLCJoaXN0b3J5IjpbNzkxNjQ5ODM2LC0xNjUwNDQz
+NTg2LDEzODgxNjkyNiwtMTA0OTI0OTY0MSwtNjE3NjU4Nzc4LC
+0xNzQ4MTA5ODk4LC0xNjE2ODk2Nzc5LDE5MDAxMzcwMDJdfQ==
+
 -->
