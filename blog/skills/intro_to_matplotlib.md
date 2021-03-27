@@ -62,6 +62,11 @@ Congrats!, we just covered the intro, installation and very basic plotting skill
 
 I would also like to point out that in the [anatomy of figure](https://matplotlib.org/3.2.1/gallery/showcase/anatomy.html) page, the code with which the diagram is created is mentioned below it. That code is a very useful as a reference for beginners on how to create plots, titles, legends etc
 
+### Video
+You can the video on this post [here](https://youtu.be/Cy789_J-RWY)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cy789_J-RWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### Online Interpreter
@@ -84,10 +89,10 @@ RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMDgnXG50YWdzOiAncHl0aG9uLCBsZWFybmluZy
 wgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbNTk1OTc1Mjg3LC0yMTE0ODQ3NTIzLDMyNDMzODgzOCwt
-MTcxMjYwNDQyLDEyMjA2OTM2MjcsMjE0NDMxNDk3NiwtNzEzMz
-g0MTE3LDc2NTE0NjA4NywzMzIyODc0NDUsMTQ2NjkwNTU5MCwx
-OTc1ODc2OTY0LC0xMDkwMDIzOTkwLC0yNzg1NDQwMzUsLTIwNT
-UzMDU2NDUsLTE4MjM0MTY3NTUsNTEwNTA5NzY5LDEyMjI4NjAy
-OTBdfQ==
+J5IjpbOTcwMDczMzMxLDU5NTk3NTI4NywtMjExNDg0NzUyMywz
+MjQzMzg4MzgsLTE3MTI2MDQ0MiwxMjIwNjkzNjI3LDIxNDQzMT
+Q5NzYsLTcxMzM4NDExNyw3NjUxNDYwODcsMzMyMjg3NDQ1LDE0
+NjY5MDU1OTAsMTk3NTg3Njk2NCwtMTA5MDAyMzk5MCwtMjc4NT
+Q0MDM1LC0yMDU1MzA1NjQ1LC0xODIzNDE2NzU1LDUxMDUwOTc2
+OSwxMjIyODYwMjkwXX0=
 -->
