@@ -118,6 +118,11 @@ plt.show()
 ![plot with format string](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_matplotlib_plot_with_line_format_string.png)
 For more styling options an in depth understanding of styling please check out the [api documentation page](https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html)
 
+### Video
+You can the video on this post [here](https://youtu.be/CijoqFJGRu0)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CijoqFJGRu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### Online Interpreter
@@ -152,7 +157,7 @@ xpYiBQbG90c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5k
 YXRlOiAnMjAyMC0wNS0wOCdcbnRhZ3M6ICdweXRob24sIGxlYX
 JuaW5nLCB0dXRvcmlhbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOls0ODY5MTcyNjMsOTM0NTIxODEyLDQ4NjkxNzI2
-Myw1NzY2OTI4OTQsLTMyODg1NzEwOSwzMjE0MDA2MTAsLTEzOD
-AwNTM3MTEsLTE4NjM4NjIxMjZdfQ==
+hpc3RvcnkiOlstMTI0MzExODYxLDQ4NjkxNzI2Myw5MzQ1MjE4
+MTIsNDg2OTE3MjYzLDU3NjY5Mjg5NCwtMzI4ODU3MTA5LDMyMT
+QwMDYxMCwtMTM4MDA1MzcxMSwtMTg2Mzg2MjEyNl19
 -->
