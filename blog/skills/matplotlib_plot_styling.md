@@ -1,4 +1,4 @@
-## Skill - Styling Matplotlib plots
+## Skill - Basic styling of  Matplotlib plots
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -157,7 +157,8 @@ xpYiBQbG90c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5k
 YXRlOiAnMjAyMC0wNS0wOCdcbnRhZ3M6ICdweXRob24sIGxlYX
 JuaW5nLCB0dXRvcmlhbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOlstMTI0MzExODYxLDQ4NjkxNzI2Myw5MzQ1MjE4
-MTIsNDg2OTE3MjYzLDU3NjY5Mjg5NCwtMzI4ODU3MTA5LDMyMT
-QwMDYxMCwtMTM4MDA1MzcxMSwtMTg2Mzg2MjEyNl19
+hpc3RvcnkiOlstMTkzOTg4Mzk0OCwtMTI0MzExODYxLDQ4Njkx
+NzI2Myw5MzQ1MjE4MTIsNDg2OTE3MjYzLDU3NjY5Mjg5NCwtMz
+I4ODU3MTA5LDMyMTQwMDYxMCwtMTM4MDA1MzcxMSwtMTg2Mzg2
+MjEyNl19
 -->
