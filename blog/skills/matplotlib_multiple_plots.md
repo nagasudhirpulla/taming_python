@@ -76,7 +76,10 @@ ax.legend()
 plt.show()
 ```
 ![styled basic multiple plots output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_multiple_plots_styled.png)
+### Video
+You can the video on this post [here](https://youtu.be/2AOZx14y8Xk)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2AOZx14y8Xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr/>
 
 ### Online Interpreter
@@ -103,7 +106,7 @@ luIGEgc2FtZSBzdWJwbG90IHVzaW5nIE1hdHBsb3RsaWJcbmF1
 dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMD
 UtMDknXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3Jp
 YWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOi
-B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTY4
-Njk1MDUxMSwtNTAwMDU5MzEsLTczMTMxMTUwLC0xNjkzODc3Mj
-kyXX0=
+B0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTIw
+NDIwNzExNzcsMTY4Njk1MDUxMSwtNTAwMDU5MzEsLTczMTMxMT
+UwLC0xNjkzODc3MjkyXX0=
 -->
