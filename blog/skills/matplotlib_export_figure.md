@@ -41,46 +41,9 @@ fig.savefig(r"C:\figure.jpg")
 fig.savefig(r"C:\testFile.pdf")
 ```
 ![basic multiple plots output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_multiple_plots.png)
-As shown in the above code, just by using the ```savefig``` method on a matplotlib figure, we can export the figure as a pdf or image file
+As shown in the above code, just by using the ```savefig``` method on a matplotlib figure, we can export the figure as a pdf or image file. 
+We can also provide absolute file path like ```C:\testFile.pdf``` so that the file can be stored in any desired locat
 
-### More styled example
-This example is the same as above, but adds some extra styling.
-Please make sure you covered the [styling plots](https://nagasudhir.blogspot.com/2020/05/styling-matplotlib-plots.html) post in order to understand this code.
-```python
-import matplotlib.pyplot as plt
-
-# create a plotting area and get the figure, axes handle in return
-fig, ax = plt.subplots()
-
-# set plot title
-ax.set_title('Multiple plots example')
-
-# set x and y labels
-ax.set_xlabel('this is X-axis')
-ax.set_ylabel('this is Y-axis')
-
-# plot some data and get the line artist object in return
-la1, = ax.plot([0,4,8,12], [6,8,4,2], color='#de689f')
-
-# set label to line artist object for legend
-la1.set_label('First Plot')
-
-# plot again and get the line artist object in return
-la2, = ax.plot([0,3,9,12,15,18], [2,1,9,6,4,3], color='#a155b9')
-
-# set label to line artist object for legend
-la2.set_label('Second Plot')
-
-# set a marker style
-la2.set_marker('o')
-
-# enable legends
-ax.legend()
-
-# print plot
-plt.show()
-```
-![styled basic multiple plots output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_multiple_plots_styled.png)
 ### Video
 You can the video on this post [here](https://youtu.be/2AOZx14y8Xk)
 
@@ -107,5 +70,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTE5Mzk5MDZdfQ==
+eyJoaXN0b3J5IjpbLTE0MDkzOTkzOTddfQ==
 -->
