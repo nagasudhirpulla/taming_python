@@ -41,9 +41,9 @@ As shown in the above code, just by using the ```savefig``` method on a matplotl
 Note that we can also provide an absolute file path like ```C:\testFile.pdf``` so that the file can be stored in any desired location of the computer
 
 ### Video
-You can the video on this post [here](https://youtu.be/2AOZx14y8Xk)
+You can the video on this post [here](https://youtu.be/qpVhubsBcdk)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2AOZx14y8Xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qpVhubsBcdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr/>
 
 ### References
@@ -56,6 +56,6 @@ You can the video on this post [here](https://youtu.be/2AOZx14y8Xk)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjMzMjU4MjMsLTE1ODU2ODcwOTMsLT
-g5ODI3NzA0MiwtMTYwODA4NTA3NF19
+eyJoaXN0b3J5IjpbMTc1NDAyMDY3MywtMTU4NTY4NzA5MywtOD
+k4Mjc3MDQyLC0xNjA4MDg1MDc0XX0=
 -->
