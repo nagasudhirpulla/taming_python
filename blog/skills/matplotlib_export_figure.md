@@ -32,9 +32,6 @@ ax.plot([0,4,8,12], [6,8,4,2])
 # plot again
 ax.plot([0,3,9,12,15,18], [2,1,9,6,4,3])
 
-# print plot
-plt.show()
-
 # save figure as a png file
 fig.savefig("output.png")
 fig.savefig(r"C:\figure.jpg")
@@ -57,5 +54,6 @@ Note that we can also provide an absolute file path like ```C:\testFile.pdf``` s
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5ODI3NzA0MiwtMTYwODA4NTA3NF19
+eyJoaXN0b3J5IjpbLTEwOTI2ODI3NzUsLTg5ODI3NzA0MiwtMT
+YwODA4NTA3NF19
 -->
