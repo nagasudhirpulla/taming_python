@@ -19,7 +19,7 @@ Please make sure that you covered the [post on basics](https://nagasudhir.blogsp
 
 <hr/>
 
-### Using savefig 
+### Using "savefig" method to save the figure as a file
 ```python
 import matplotlib.pyplot as plt
 
@@ -37,10 +37,11 @@ plt.show()
 
 # save figure as a png file
 fig.savefig("output.png")
+fig.savefig(r"C:\figure.jpg")
 fig.savefig(r"C:\testFile.pdf")
 ```
 ![basic multiple plots output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_multiple_plots.png)
-As shown in the above code
+As shown in the above code, just by using the ```savefig``` method on a matplotlib figure, we can export the figure as a pdf or image
 
 ### More styled example
 This example is the same as above, but adds some extra styling.
@@ -106,5 +107,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzU1OTMzMV19
+eyJoaXN0b3J5IjpbMTAwOTY3NTk4Nl19
 -->
