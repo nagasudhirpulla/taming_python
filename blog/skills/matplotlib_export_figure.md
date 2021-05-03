@@ -41,7 +41,7 @@ fig.savefig(r"C:\figure.jpg")
 fig.savefig(r"C:\testFile.pdf")
 ```
 ![basic multiple plots output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_multiple_plots.png)
-As shown in the above code, just by using the ```savefig``` method on a matplotlib figure, we can export the figure as a pdf or image
+As shown in the above code, just by using the ```savefig``` method on a matplotlib figure, we can export the figure as a pdf or image file
 
 ### More styled example
 This example is the same as above, but adds some extra styling.
@@ -107,5 +107,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTY3NTk4Nl19
+eyJoaXN0b3J5IjpbLTE0OTE5Mzk5MDZdfQ==
 -->
