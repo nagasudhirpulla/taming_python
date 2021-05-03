@@ -42,22 +42,10 @@ fig.savefig(r"C:\testFile.pdf")
 ```
 ![basic multiple plots output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_multiple_plots.png)
 As shown in the above code, just by using the ```savefig``` method on a matplotlib figure, we can export the figure as a pdf or image file. 
-We can also provide absolute file path like ```C:\testFile.pdf``` so that the file can be stored in any desired locat
 
-### Video
-You can the video on this post [here](https://youtu.be/2AOZx14y8Xk)
+Note that we can also provide an absolute file path like ```C:\testFile.pdf``` so that the file can be stored in any desired location of the computer
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2AOZx14y8Xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr/>
-
-### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
-
-### Multiple plots example
-<iframe src="https://trinket.io/embed/python3/3bc5748621" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
-### Styled multiple plots example
-<iframe src="https://trinket.io/embed/python3/93046401c2" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### References
 *  plot function API - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
@@ -70,5 +58,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDkzOTkzOTddfQ==
+eyJoaXN0b3J5IjpbLTE2MDgwODUwNzRdfQ==
 -->
