@@ -5,6 +5,7 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 ### TODOS
 * change dataframe dimensions using pivot and melt
+* matplotlib export figure as pdf or image
 * matplotlib bottom legend and multiple lines in figure title - https://github.com/dheerajgupta0001/wrldc_mis_monthly_report_generator/blob/ed3ddd19bd2e71a956e0880b222cf5eb4f6a8cf3/src/app/section_1_4/section_1_4_2.py#L76
 * python data structures lists and dictionaries
 * in keyword in python
@@ -44,10 +45,11 @@ def deriveDurationVals(vals, resol):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2Nzk1MzA0LC0zOTg1NDI2MDAsMTE3Mj
-IzNjI4MywxODUyMDA2MDI1LDIxMjE1NzcxNCwtNzc0ODYwMTQz
-LC01MjA0NzE5MzgsNzM5MDczNzc5LC05NjE1ODM3ODMsLTE2OD
-M5NjEzNiwtMzQ5NDQ4MzczLDE4ODAyMDI4MTEsLTEyOTI0MTQ3
-NjksMTYzNTAwMTg2OSwtMTkzOTA0NzY4NywxOTIxMDA4MjIsLT
-M1MjkyMTYwLDExOTA0ODA5NTAsLTE0Njk3OTY4MzddfQ==
+eyJoaXN0b3J5IjpbNjYxNjc0MDE0LDkyNjc5NTMwNCwtMzk4NT
+QyNjAwLDExNzIyMzYyODMsMTg1MjAwNjAyNSwyMTIxNTc3MTQs
+LTc3NDg2MDE0MywtNTIwNDcxOTM4LDczOTA3Mzc3OSwtOTYxNT
+gzNzgzLC0xNjgzOTYxMzYsLTM0OTQ0ODM3MywxODgwMjAyODEx
+LC0xMjkyNDE0NzY5LDE2MzUwMDE4NjksLTE5MzkwNDc2ODcsMT
+kyMTAwODIyLC0zNTI5MjE2MCwxMTkwNDgwOTUwLC0xNDY5Nzk2
+ODM3XX0=
 -->
