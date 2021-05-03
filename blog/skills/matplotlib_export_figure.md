@@ -48,8 +48,7 @@ Note that we can also provide an absolute file path like ```C:\testFile.pdf``` s
 <hr/>
 
 ### References
-*  plot function API - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
-* Examples gallery - https://matplotlib.org/gallery/index.html
+*  savefig documentation - https://matplotlib.org/stable/api/figure_api.html#matplotlib.figure.Figure.savefig
 
 <hr/>
 
@@ -58,5 +57,5 @@ Note that we can also provide an absolute file path like ```C:\testFile.pdf``` s
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDgwODUwNzRdfQ==
+eyJoaXN0b3J5IjpbLTg5ODI3NzA0MiwtMTYwODA4NTA3NF19
 -->
