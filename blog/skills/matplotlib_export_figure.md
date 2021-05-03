@@ -19,7 +19,7 @@ Please make sure that you covered the [post on basics](https://nagasudhir.blogsp
 
 <hr/>
 
-### Example
+### Using savefig 
 ```python
 import matplotlib.pyplot as plt
 
@@ -35,10 +35,12 @@ ax.plot([0,3,9,12,15,18], [2,1,9,6,4,3])
 # print plot
 plt.show()
 
-# save [
+# save figure as a png file
+fig.savefig("output.png")
+fig.savefig(r"C:\testFile.pdf")
 ```
 ![basic multiple plots output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_multiple_plots.png)
-So just by calling `plot` function on a single axes handle, we can add any number of plots to a single subplot.
+As shown in the above code
 
 ### More styled example
 This example is the same as above, but adds some extra styling.
@@ -104,5 +106,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzEwNzU1MDhdfQ==
+eyJoaXN0b3J5IjpbMTEzMzU1OTMzMV19
 -->
