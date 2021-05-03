@@ -80,6 +80,7 @@ Here are the goals and skills in this tutorial series
 * [Styling Matplotlib plots](https://nagasudhir.blogspot.com/2020/05/styling-matplotlib-plots.html)
 * [Multiple Plots in a same subplot using Matplotlib](https://nagasudhir.blogspot.com/2020/05/multiple-plots-in-same-subplot-using.html)
 * [Multiple subplots in a figure using Matplotlib](https://nagasudhir.blogspot.com/2020/05/multiple-subplots-in-figure-using.html)
+* [Export a Matplotlib figure as an image or a pdf file](http://nagasudhir.blogspot.com/2021/05/export-matplotlib-figure-as-image-or.html)
 * [Setting Figure size of matplotlib plots](https://nagasudhir.blogspot.com/2020/05/setting-figure-size-of-matplotlib-plots.html)
 * [Centering the plot axes in matplotlib](https://nagasudhir.blogspot.com/2020/05/centering-plot-axes-in-matplotlib.html)
 * [Set limits of x and y axis in matplotlib](https://nagasudhir.blogspot.com/2020/05/set-limits-of-x-and-y-axis-in-matplotlib.html)
@@ -93,7 +94,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTgzNzM1MDU1MywtMTg1NT
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTkzODUwMDY4OSwtMTg1NT
 MwNTg2MywtMTE0NjMwNDYxOSwxNjU2Njk0MDAxLDEyNTkyMzEz
 NTcsMjU1NjM3NTM1LDEzOTg4NzE0NTUsMTgwMjczNzY1NSwxNj
 U2MDMzMDEwLDEwMzIzMzMyMTEsLTEyNzIyNTUyODAsNzgxMzA3
