@@ -39,13 +39,15 @@ ax.plot(x,y)
 plt.show()
 ```
 
+### Video
+You can the video on this post [here](https://youtu.be/DeLQNy-jiwE)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DeLQNy-jiwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
-
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/FortunateAlarmedEllipses?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 * plot function API - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
@@ -63,7 +65,7 @@ NpemUgb2YgbWF0cGxvdGxpYiBwbG90c1xuYXV0aG9yOiBOYWdh
 c3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNS0xMydcbnRhZ3
 M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwgdGFtaW5n
 X3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weX
-Rob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTQzNzkwNTQ5OSwt
-MTk5OTU5NjkyNSwtMjEzOTYyMTI5NCwtMjEwMDkyMTcwMCwtMT
-U2MDQwMjAyMywtMTM3NjI5MTcyM119
+Rob25fc2tpbGxcbiIsImhpc3RvcnkiOls0NTIxMDI5MTIsLTE0
+Mzc5MDU0OTksLTE5OTk1OTY5MjUsLTIxMzk2MjEyOTQsLTIxMD
+A5MjE3MDAsLTE1NjA0MDIwMjMsLTEzNzYyOTE3MjNdfQ==
 -->
