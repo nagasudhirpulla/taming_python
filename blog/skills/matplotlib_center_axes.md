@@ -21,8 +21,8 @@ Sometimes we may require to have the main axis lines to be in the center of the 
 
 ```python
 import matplotlib.pyplot as plt
-x = [-4,3,7]
-y = []
+x = [-5, 3, 7, 8]
+y = [-6, 5, 8,-10]
 
 # create a plotting area and get the figure, axes handle in return
 fig, ax = plt.subplots()
@@ -69,7 +69,8 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTk1MjU3MTMwNCwxNTEw
-Mjg1ODA3LC0xOTkwMzg0NSwtOTY2MDMzMzg3LC0xOTM3NDI1OT
-Y3LC0xMTEzODE5MjM4LDM2NDMyNjA1Ml19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNjIyNTQ1NjA1LDE5NTI1
+NzEzMDQsMTUxMDI4NTgwNywtMTk5MDM4NDUsLTk2NjAzMzM4Ny
+wtMTkzNzQyNTk2NywtMTExMzgxOTIzOCwzNjQzMjYwNTJdfQ==
+
 -->
