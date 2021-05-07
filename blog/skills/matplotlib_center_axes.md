@@ -21,7 +21,7 @@ Sometimes we may require to have the main axis lines to be in the center of the 
 
 ```python
 import matplotlib.pyplot as plt
-x = []
+x = [-4,3,7]
 y = []
 
 # create a plotting area and get the figure, axes handle in return
@@ -69,7 +69,7 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTUxMDI4NTgwNywtMTk5
-MDM4NDUsLTk2NjAzMzM4NywtMTkzNzQyNTk2NywtMTExMzgxOT
-IzOCwzNjQzMjYwNTJdfQ==
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTk1MjU3MTMwNCwxNTEw
+Mjg1ODA3LC0xOTkwMzg0NSwtOTY2MDMzMzg3LC0xOTM3NDI1OT
+Y3LC0xMTEzODE5MjM4LDM2NDMyNjA1Ml19
 -->
