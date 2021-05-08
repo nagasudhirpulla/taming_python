@@ -21,7 +21,7 @@ Sometimes we may require to have the main axis lines to be in the center of the 
 
 ```python
 import matplotlib.pyplot as plt
-x = [-5, 3, 7, 8]
+x = [-5, -4, 5, 8]
 y = [-6, 5, 8,-10]
 
 # create a plotting area and get the figure, axes handle in return
@@ -31,8 +31,8 @@ fig, ax = plt.subplots()
 ax.plot(x, y)
 
 # Move left y-axis and bottim x-axis to centre by setting position as 'center'
-ax.spines['left'].set_position('center')
-ax.spines['bottom'].set_position('center')
+ax.spines['left'].set_position('zero')
+ax.spines['bottom'].set_position('zero')
 
 # Eliminate top and right axes by setting spline color as 'none'
 ax.spines['right'].set_color('none')
@@ -69,8 +69,8 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNjIyNTQ1NjA1LDE5NTI1
-NzEzMDQsMTUxMDI4NTgwNywtMTk5MDM4NDUsLTk2NjAzMzM4Ny
-wtMTkzNzQyNTk2NywtMTExMzgxOTIzOCwzNjQzMjYwNTJdfQ==
-
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEyMjAyMjIxMDUsNjIy
+NTQ1NjA1LDE5NTI1NzEzMDQsMTUxMDI4NTgwNywtMTk5MDM4ND
+UsLTk2NjAzMzM4NywtMTkzNzQyNTk2NywtMTExMzgxOTIzOCwz
+NjQzMjYwNTJdfQ==
 -->
