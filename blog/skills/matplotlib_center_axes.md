@@ -14,7 +14,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 **Matplotlib** is a plotting library tn the scipy ecosystem of libraries.
 
-Please make sure that you covered the[post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
+Please make sure that you covered the [post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
 Sometimes we may require to have the main axis lines to be intersecting at (0,0) of the subplot. We will control the positioning of `spines` to achieve this.
@@ -52,6 +52,7 @@ ax.spines['left'].set_position('center')
 ax.spines['bottom'].set_position('center')
 ```
 
+
 ### Video
 You can the video on this post [here](https://youtu.be/qzFOFP1hxvg)
 
@@ -77,8 +78,8 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTIyMjEwOTQ5NCwtMTIy
-MDIyMjEwNSw2MjI1NDU2MDUsMTk1MjU3MTMwNCwxNTEwMjg1OD
-A3LC0xOTkwMzg0NSwtOTY2MDMzMzg3LC0xOTM3NDI1OTY3LC0x
-MTEzODE5MjM4LDM2NDMyNjA1Ml19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEwODI5OTQxNTQsLTEy
+MjAyMjIxMDUsNjIyNTQ1NjA1LDE5NTI1NzEzMDQsMTUxMDI4NT
+gwNywtMTk5MDM4NDUsLTk2NjAzMzM4NywtMTkzNzQyNTk2Nywt
+MTExMzgxOTIzOCwzNjQzMjYwNTJdfQ==
 -->
