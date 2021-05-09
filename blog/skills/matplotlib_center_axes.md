@@ -46,12 +46,15 @@ plt.show()
 
 As shown above the spines/axis lines of an axes handle `ax` can be controlled by `ax.spines`
 
-If we want the axis lines to be intersecting at center of the subplot instead of (0,0). In that case we have to use the following 
+If we want the axis lines to be intersecting at center of the subplot instead of (0,0). 
+
+In such case we can use the following 
 ```python
 ax.spines['left'].set_position('center')
 ax.spines['bottom'].set_position('center')
 ```
-
+The output would be like the image below
+![matplotlib_center_axes_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_center_axes_demo.PNG)
 
 ### Video
 You can the video on this post [here](https://youtu.be/qzFOFP1hxvg)
@@ -78,7 +81,7 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTQzNTc5OTYyOCwtMTA4
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTY4NjI0MDk2MywtMTA4
 Mjk5NDE1NCwtMTIyMDIyMjEwNSw2MjI1NDU2MDUsMTk1MjU3MT
 MwNCwxNTEwMjg1ODA3LC0xOTkwMzg0NSwtOTY2MDMzMzg3LC0x
 OTM3NDI1OTY3LC0xMTEzODE5MjM4LDM2NDMyNjA1Ml19
