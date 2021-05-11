@@ -44,13 +44,14 @@ ax.set_ylim(-1, 5)
 plt.show()
 ```
 ![matplotlib_axis_limits_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_axis_limits_demo.PNG)
+### Video
+You can the video on this post [here](https://youtu.be/9m4o3Ezp4dU)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9m4o3Ezp4dU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr/>
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
-
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/FormalUntrueNumber?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 * http://www.learningaboutelectronics.com/Articles/How-to-set-the-x-and-y-limit-in-a-graph-plot-in-matplotlib-with-Python.php
@@ -66,6 +67,6 @@ BhbmQgeSBheGlzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbm
 csIHR1dG9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0
 ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJz
-IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbMTI3NTE0MjEzMCw1
-MjAxNTY0NTUsLTc0MDMzMDEzOF19
+IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbMTAyNDY0MzM0MSwx
+Mjc1MTQyMTMwLDUyMDE1NjQ1NSwtNzQwMzMwMTM4XX0=
 -->
