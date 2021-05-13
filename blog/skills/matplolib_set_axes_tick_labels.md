@@ -41,7 +41,7 @@ ax.set_yticks([0,3,6,9])
 plt.show()
 ```
 
-![enter image description here](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/matlpotlib_axis_ticks_demo.png)
+![## **matlpotlib_axis_ticks_demo**](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matlpotlib_axis_ticks_demo.png)
 
 In order to use custom tick labels instead of default tick labels, we can use `set_xticklabels` and `set_yticklabels` functions of the axes handle
 
@@ -117,6 +117,7 @@ FiZWxzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG
 9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMD
-UtMTUnXG4iLCJoaXN0b3J5IjpbLTkwMzQzMTQ2MSw3MTA2MjY3
-MSwxNzQ4MzIxMTc5LDE2NzYyNjc4OTYsLTQ5MDAzNzE5MV19
+UtMTUnXG4iLCJoaXN0b3J5IjpbLTE3NzMwNDY1NzYsNzEwNjI2
+NzEsMTc0ODMyMTE3OSwxNjc2MjY3ODk2LC00OTAwMzcxOTFdfQ
+==
 -->
