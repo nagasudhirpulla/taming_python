@@ -40,7 +40,6 @@ ax.set_yticks([0,3,6,9])
 # print the plot
 plt.show()
 ```
-
 ![matlpotlib_axis_ticks_demo**](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matlpotlib_axis_ticks_demo.png)
 
 In order to use custom tick labels instead of default tick labels, we can use `set_xticklabels` and `set_yticklabels` functions of the axes handle
@@ -91,14 +90,14 @@ plt.show()
 ```
 
 ![matlpotlib_blank_axis_tick_labels_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matlpotlib_blank_axis_tick_labels_demo.png)
+### Video
+You can the video on this post [here](https://youtu.be/qaUrn5sdEH0)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qaUrn5sdEH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr/>
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
-
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/HumiliatingUnderstatedCores?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 * official documentation on set axis ticks - https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.axes.Axes.set_xticks.html#matplotlib.axes.Axes.set_xticks
@@ -117,6 +116,6 @@ FiZWxzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG
 9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMD
-UtMTUnXG4iLCJoaXN0b3J5IjpbMTk0MDM2MjE2LDcxMDYyNjcx
+UtMTUnXG4iLCJoaXN0b3J5IjpbMzg1MTYxNDY2LDcxMDYyNjcx
 LDE3NDgzMjExNzksMTY3NjI2Nzg5NiwtNDkwMDM3MTkxXX0=
 -->
