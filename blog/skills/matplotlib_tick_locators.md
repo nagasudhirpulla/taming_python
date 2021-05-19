@@ -127,13 +127,15 @@ plt.show()
 ![tick_locators_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/tick_locators_illustration.png)
 Check out [this post](https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html) for all locators example code
 
+### Video
+You can the video on this post [here](https://youtu.be/oazc83ZZgpg)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oazc83ZZgpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
-
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/GrossCreativeApplicationprogrammer?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 * Official guide - https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html
@@ -153,7 +155,7 @@ YXRwbG90bGliXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVsbGFcbn
 RhZ3M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwgdGFt
 aW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ1
 9weXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA1LTE3J1xuIiwi
-aGlzdG9yeSI6WzE5NTk0MTIwNjYsNjc1OTQzODE4LC01MTMxND
-QyMzQsMjQ3NzQzMzQyLDIwNjUyMDY1MjEsMTM2MTA4ODc0MF19
-
+aGlzdG9yeSI6Wy0yMTE5MTI0NzMzLDE5NTk0MTIwNjYsNjc1OT
+QzODE4LC01MTMxNDQyMzQsMjQ3NzQzMzQyLDIwNjUyMDY1MjEs
+MTM2MTA4ODc0MF19
 -->
