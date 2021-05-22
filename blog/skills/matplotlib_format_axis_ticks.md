@@ -157,13 +157,15 @@ plt.show()
 
 Check out [this post](https://matplotlib.org/3.2.1/gallery/ticks_and_spines/tick-formatters.html) for all locators example code
 
+### Video
+You can the video on this post [here](https://youtu.be/QYBAP0YxSZU)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2AOZx14y8Xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
-
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/HeartfeltActiveWireframes?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### References
 * Official guide - https://matplotlib.org/3.2.1/gallery/ticks_and_spines/tick-formatters.html
@@ -182,9 +184,9 @@ bmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMj
 AtMDUtMTYnXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0
 b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaW
 VzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ijpb
-OTI1NzM3OTM3LC0xOTU3MzY0Niw0NjQ4NDY5NDgsLTEwMDc2OT
-IyOSwtMzYzNTEzMDA0LC04NzUyNjY4MzQsLTEyMzI5MDYzNzMs
-LTY1Mjk3MTcxNSwxNjk2MDcwMjU0LC0xNTA4ODM0MjQ3LDE1MT
-kzMDQ5NDksMjA1MTc5NzU4LC05MjQzOTI5MTUsMTY5MjQyMzU1
-NSw0NDYxOTAzODksMjA1ODc4NjUwOV19
+LTEyMzgxNDIwMjQsOTI1NzM3OTM3LC0xOTU3MzY0Niw0NjQ4ND
+Y5NDgsLTEwMDc2OTIyOSwtMzYzNTEzMDA0LC04NzUyNjY4MzQs
+LTEyMzI5MDYzNzMsLTY1Mjk3MTcxNSwxNjk2MDcwMjU0LC0xNT
+A4ODM0MjQ3LDE1MTkzMDQ5NDksMjA1MTc5NzU4LC05MjQzOTI5
+MTUsMTY5MjQyMzU1NSw0NDYxOTAzODksMjA1ODc4NjUwOV19
 -->
