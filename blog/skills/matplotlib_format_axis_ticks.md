@@ -160,7 +160,7 @@ Check out [this post](https://matplotlib.org/3.2.1/gallery/ticks_and_spines/tick
 ### Video
 You can the video on this post [here](https://youtu.be/QYBAP0YxSZU)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2AOZx14y8Xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QYBAP0YxSZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
 
@@ -184,9 +184,9 @@ bmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMj
 AtMDUtMTYnXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0
 b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaW
 VzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ijpb
-LTEyMzgxNDIwMjQsOTI1NzM3OTM3LC0xOTU3MzY0Niw0NjQ4ND
-Y5NDgsLTEwMDc2OTIyOSwtMzYzNTEzMDA0LC04NzUyNjY4MzQs
-LTEyMzI5MDYzNzMsLTY1Mjk3MTcxNSwxNjk2MDcwMjU0LC0xNT
-A4ODM0MjQ3LDE1MTkzMDQ5NDksMjA1MTc5NzU4LC05MjQzOTI5
-MTUsMTY5MjQyMzU1NSw0NDYxOTAzODksMjA1ODc4NjUwOV19
+LTYxMjY5NjAxOSw5MjU3Mzc5MzcsLTE5NTczNjQ2LDQ2NDg0Nj
+k0OCwtMTAwNzY5MjI5LC0zNjM1MTMwMDQsLTg3NTI2NjgzNCwt
+MTIzMjkwNjM3MywtNjUyOTcxNzE1LDE2OTYwNzAyNTQsLTE1MD
+g4MzQyNDcsMTUxOTMwNDk0OSwyMDUxNzk3NTgsLTkyNDM5Mjkx
+NSwxNjkyNDIzNTU1LDQ0NjE5MDM4OSwyMDU4Nzg2NTA5XX0=
 -->
