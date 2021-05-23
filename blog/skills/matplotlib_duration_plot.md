@@ -44,6 +44,8 @@ def deriveDurationVals(vals, valBinResol):
 In the sample  folder containing the example script, create a file named ```duration_plot.py``` and write the function shown above and use the function in the example as shown below
 ```python
 import matplotlib.pyplot as plt
+from duration_plot import deriveDurationVals
+
 sampls = [50.061,50.055,50.043,50.050,...]
 durPltData = deriveDurationVals(sampls, 0.01)
 fig, ax = plt.subplots()
@@ -66,6 +68,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDAxNDU0NCwtMTU2OTYxODY1MSwtMT
-c2NjM1MTE5M119
+eyJoaXN0b3J5IjpbLTE5ODE5NTI0MzAsMTA1MDAxNDU0NCwtMT
+U2OTYxODY1MSwtMTc2NjM1MTE5M119
 -->
