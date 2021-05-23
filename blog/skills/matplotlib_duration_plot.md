@@ -21,7 +21,7 @@ Duration Plot helps us visualize the sample frequency distribution in a single p
 
 ### Duration Plot values derivation function
 ```python
-import pandasa 
+import pandas as pd
 def deriveDurationVals(vals, valBinResol):
     samplVals = []
     percExceeded = []
@@ -181,5 +181,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTY5Njc2NiwtMTc2NjM1MTE5M119
+eyJoaXN0b3J5IjpbLTE1Njk2MTg2NTEsLTE3NjYzNTExOTNdfQ
+==
 -->
