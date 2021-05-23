@@ -59,9 +59,9 @@ plt.show()
 ![matplotlib_duration_plot_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_duration_plot.png)
 
 ### Video
-You can the video on this post [here](https://youtu.be/QYBAP0YxSZU)
+You can the video on this post [here](https://youtu.be/IYid4grFhA0)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QYBAP0YxSZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IYid4grFhA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
 
@@ -72,6 +72,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ4MzQ3NDUsMTQ2NjA5NzcxNiwxMD
-UwMDE0NTQ0LC0xNTY5NjE4NjUxLC0xNzY2MzUxMTkzXX0=
+eyJoaXN0b3J5IjpbNTYwMTg0OTk5LC0xNjI0ODM0NzQ1LDE0Nj
+YwOTc3MTYsMTA1MDAxNDU0NCwtMTU2OTYxODY1MSwtMTc2NjM1
+MTE5M119
 -->
