@@ -45,9 +45,11 @@ In the sample  folder containing the example script, create a file named ```dura
 ```python
 import matplotlib.pyplot as plt
 from duration_plot import deriveDurationVals
-
+# data samples
 sampls = [50.061,50.055,50.043,50.050,...]
+# derive duration plot values using the function 
 durPltData = deriveDurationVals(sampls, 0.01)
+# plot the duration curve
 fig, ax = plt.subplots()
 ax.plot(durPltData["perc_exceeded"], durPltData["sampl_vals"])
 plt.show()
@@ -68,6 +70,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODE5NTI0MzAsMTA1MDAxNDU0NCwtMT
-U2OTYxODY1MSwtMTc2NjM1MTE5M119
+eyJoaXN0b3J5IjpbMTEzMTEzMDE1NCwxMDUwMDE0NTQ0LC0xNT
+Y5NjE4NjUxLC0xNzY2MzUxMTkzXX0=
 -->
