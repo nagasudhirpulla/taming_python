@@ -39,9 +39,9 @@ def deriveDurationVals(vals, valBinResol):
 
     return {'sampl_vals': samplVals, 'perc_exceeded': percExceeded}
 ```
-![matplotlib_duration_plot_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_duration_plot.png)
+
 ### Example of duration plot
-In a file named ```duration_plot.py``` write the function shown above and use the function in the example as shown below
+In the sample  folder containing the example script, create a file named ```duration_plot.py``` and write the function shown above and use the function in the example as shown below
 ```python
 import matplotlib.pyplot as plt
 sampls = [50.061,50.055,50.043,50.050,...]
@@ -167,6 +167,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzMwMTQ0NywtMTU2OTYxODY1MSwtMT
+eyJoaXN0b3J5IjpbLTI0MTkwMzY4NywtMTU2OTYxODY1MSwtMT
 c2NjM1MTE5M119
 -->
