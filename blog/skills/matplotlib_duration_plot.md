@@ -65,13 +65,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
-
-
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMjc4NTQ1OCwtMTU2OTYxODY1MSwtMT
+eyJoaXN0b3J5IjpbMTA1MDAxNDU0NCwtMTU2OTYxODY1MSwtMT
 c2NjM1MTE5M119
 -->
