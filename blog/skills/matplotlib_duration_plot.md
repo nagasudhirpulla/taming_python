@@ -1,4 +1,4 @@
-## Skill - Duration Curve in Matplotlib
+## Skill - Duration Curve using Matplotlib
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
@@ -72,6 +72,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjA5NzcxNiwxMDUwMDE0NTQ0LC0xNT
-Y5NjE4NjUxLC0xNzY2MzUxMTkzXX0=
+eyJoaXN0b3J5IjpbLTE2MjQ4MzQ3NDUsMTQ2NjA5NzcxNiwxMD
+UwMDE0NTQ0LC0xNTY5NjE4NjUxLC0xNzY2MzUxMTkzXX0=
 -->
