@@ -50,97 +50,7 @@ fig, ax = plt.subplots()
 ax.plot(durPltData["perc_exceeded"], durPltData["sampl_vals"])
 plt.show()
 ```
-![matplotlib_func_formatter_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_func_formatter_demo.PNG)
-
-### Setting axis tick labels manually using 'FixedFormatter'
-`FixedFormatter` should be generally used along with `FixedLocator`. Otherwise the labels and ticks may not match most of the times.
-```python
-import matplotlib.pyplot as plt
-x = [0,1,2,3,4,5,6,7,8]
-y = [8,6,4,2,9,7,6,3,1]
-
-# create a plotting area and get the figure, axes handle in return
-fig, ax = plt.subplots()
-
-# plot data on the axes handle
-ax.plot(x, y)
-
-# set number of major x tick locations manually using FixedLocator
-ax.xaxis.set_major_locator(plt.FixedLocator(x))
-
-# set x axis ticks labels manually using FixedFormatter
-labels = ['zero','one','two','three','four','five','six','seven','eight']
-ax.xaxis.set_major_formatter(plt.FixedFormatter(labels))
-
-# print the plot
-plt.show()
-```
-![matplotlib_linearlocator_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_fixed_formatter_demo.PNG)
-### Hiding tick labels using 'NullFormatter'
-```python
-import matplotlib.pyplot as plt
-x = [0,1,2,3,4,5,6,7,8]
-y = [8,6,4,2,9,7,6,3,1]
-
-# create a plotting area and get the figure, axes handle in return
-fig, ax = plt.subplots()
-
-# plot data on the axes handle
-ax.plot(x, y)
-
-# use null locator to hide major and minor ticks
-ax.yaxis.set_major_formatter(plt.NullFormatter())
-ax.yaxis.set_minor_formatter(plt.NullFormatter())
-ax.xaxis.set_minor_formatter(plt.NullFormatter())
-ax.xaxis.set_major_formatter(plt.NullFormatter())
-
-# print the plot
-plt.show()
-```
-![matplotlib_null_formatter_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_null_formatter_demo.PNG)
-### 'DateFormatter' for formatting date labels
-```python
-import datetime as dt
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
-
-# get today date
-today = dt.datetime.today()
-numDays = 9
-
-x = [today-dt.timedelta(days=p) for p in range(numDays)]
-y = [8,6,4,2,9,7,6,3,1]
-
-# create a plotting area and get the figure, axes handle in return
-fig, ax = plt.subplots()
-
-# set x axis major ticks date format using funcFormatter
-ax.xaxis.set_major_formatter(plt.FuncFormatter(mdates.DateFormatter('%d-%b')))
-
-# plot data on the axes handle
-ax.plot(x, y)
-
-# print the plot
-plt.show()
-```
-![matplotlib_date_formatter_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_date_formatter_demo.PNG)
-
-### Summary of Locators
-| FormatterClass     | Description                             |
-|--------------------|-----------------------------------------|
-| NullFormatter      | No labels on the ticks                  |
-| IndexFormatter     | Set the strings from a list of labels   |
-| FixedFormatter     | Set the strings manually for the labels |
-| FuncFormatter      | User-defined function sets the labels   |
-| FormatStrFormatter | Use an old-style sprintf format string      |
-| StrMethodFormatter | Use string [`format`](https://docs.python.org/3/library/functions.html#format "(in Python v3.8)") method      |
-| ScalarFormatter    | Default formatter for scalars: autopick the format string  |
-| LogFormatter       | Default formatter for log axes          |
-| PercentFormatter       | Format labels as a percentage          |
-
-![matplotlib_tick_formatters_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_tick_formatters_illustration.png)
-
-Check out [this post](https://matplotlib.org/3.2.1/gallery/ticks_and_spines/tick-formatters.html) for all locators example code
+![matplotlib_duration_plot_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_duration_plot.png)
 
 ### Video
 You can the video on this post [here](https://youtu.be/QYBAP0YxSZU)
@@ -167,6 +77,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTkwMzY4NywtMTU2OTYxODY1MSwtMT
+eyJoaXN0b3J5IjpbMTIzMzUzNjUzOSwtMTU2OTYxODY1MSwtMT
 c2NjM1MTE5M119
 -->
