@@ -19,24 +19,23 @@ Please make sure that you covered the[post on basics](https://nagasudhir.blogspo
 <hr/>
 Duration Plot helps us visualize the sample frequency distribution in a single plot.
 
-### Control axis tick labels with format string using 'StrMethodFormatter'
+### Duration Plot values derivation function
 ```python
-import matplotlib.pyplot as plt
-import matplotlib as mpl
-x = [0,1,2,3,4,5,6,7,8]
-y = [8,6,4,2,9,7,6,3,1]
+import pandasa 
+def deriveDurationVals(vals, valBinResol):
+    samplVals = []
+    percExceeded = []
+    vals = pd.Series(vals)
+    numVals = len(vals)
+    min_value = vals.min()
+    max_value = vals.max()
 
-# create a plotting area and get the figure, axes handle in return
-fig, ax = plt.subplots()
+    for val in np.arange(min_value, max_value, valBinResol):
+        samplVals.append(val)
+        binExceededPerc = len(vals[vals > val])*100/numVals
+        percExceeded.append(binExceededPerc)
 
-# plot data on the axes handle
-ax.plot(x, y)
-
-# set x axis major ticks format as 2 decimal places
-ax.xaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('{x:0.2f}'))
-
-# print the plot
-plt.show()
+    return {'sampl_vals': samplVals, 'perc_exceeded': percExceeded}
 ```
 ![matplotlib_strmethod_formatter_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_strmethod_formatter_demo.PNG)
 ### Control axis tick labels text with user defined function using 'FuncFormatter'
@@ -182,5 +181,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MzQ4NDEyMCwtMTc2NjM1MTE5M119
+eyJoaXN0b3J5IjpbLTY3NTY5Njc2NiwtMTc2NjM1MTE5M119
 -->
