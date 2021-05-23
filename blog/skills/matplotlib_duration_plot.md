@@ -40,7 +40,7 @@ def deriveDurationVals(vals, valBinResol):
     return {'sampl_vals': samplVals, 'perc_exceeded': percExceeded}
 ```
 ![matplotlib_duration_plot_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_duration_plot.png)
-### Control axis tick labels text with user defined function using 'FuncFormatter'
+### Example of duration plot
 `FuncFormatter` should be supplied with a **function** that takes in tick value and tick position and outputs the tick label string
 ```python
 import matplotlib.pyplot as plt
@@ -183,6 +183,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTMxNzg4NjEsLTE1Njk2MTg2NTEsLT
-E3NjYzNTExOTNdfQ==
+eyJoaXN0b3J5IjpbLTgwOTkzOTI2NiwtMTU2OTYxODY1MSwtMT
+c2NjM1MTE5M119
 -->
