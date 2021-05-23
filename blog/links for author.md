@@ -18,20 +18,30 @@ Resolution of duration plot
 Output – bin values, percentage exceeded
 '''
 import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+from data import sampls
 
-def deriveDurationVals(vals, resol):
+def deriveDurationVals(vals, valBinResol):
+    samplVals = []
+    percExceeded = []
+    vals = pd.Series(vals)
+    numVals = len(vals)
     min_value = vals.min()
     max_value = vals.max()
-    binVals = []
-    perc_time_exceeded = []
-    numVals = len(vals)   
-    
-    for val in np.arange(min_value, max_value, resol):
-        binVals.append(val)
-        perc_exceeded = len(vals[vals>val])*100/numVals
-        perc_time_exceeded.append(perc_exceeded)
 
-    return {'bins': binVals, 'perc_exceeded': perc_time_exceeded}
+    for val in np.arange(min_value, max_value, valBinResol):
+        samplVals.append(val)
+        binExceededPerc = len(vals[vals > val])*100/numVals
+        percExceeded.append(binExceededPerc)
+
+    return {'sampl_vals': samplVals, 'perc_exceeded': percExceeded}
+
+durPltData = deriveDurationVals(sampls, 0.01)
+
+fig, ax = plt.subplots()
+ax.plot(durPltData["perc_exceeded"], durPltData["sampl_vals"])
+plt.show()
 ```
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
@@ -45,11 +55,11 @@ def deriveDurationVals(vals, resol):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxNjc0MDE0LDkyNjc5NTMwNCwtMzk4NT
-QyNjAwLDExNzIyMzYyODMsMTg1MjAwNjAyNSwyMTIxNTc3MTQs
-LTc3NDg2MDE0MywtNTIwNDcxOTM4LDczOTA3Mzc3OSwtOTYxNT
-gzNzgzLC0xNjgzOTYxMzYsLTM0OTQ0ODM3MywxODgwMjAyODEx
-LC0xMjkyNDE0NzY5LDE2MzUwMDE4NjksLTE5MzkwNDc2ODcsMT
-kyMTAwODIyLC0zNTI5MjE2MCwxMTkwNDgwOTUwLC0xNDY5Nzk2
-ODM3XX0=
+eyJoaXN0b3J5IjpbLTIyMTg4OTk3NSw2NjE2NzQwMTQsOTI2Nz
+k1MzA0LC0zOTg1NDI2MDAsMTE3MjIzNjI4MywxODUyMDA2MDI1
+LDIxMjE1NzcxNCwtNzc0ODYwMTQzLC01MjA0NzE5MzgsNzM5MD
+czNzc5LC05NjE1ODM3ODMsLTE2ODM5NjEzNiwtMzQ5NDQ4Mzcz
+LDE4ODAyMDI4MTEsLTEyOTI0MTQ3NjksMTYzNTAwMTg2OSwtMT
+kzOTA0NzY4NywxOTIxMDA4MjIsLTM1MjkyMTYwLDExOTA0ODA5
+NTBdfQ==
 -->
