@@ -18,7 +18,6 @@ Please make sure to have all the skills mentioned above to understand and execut
 Please make sure that you covered the[post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 Duration Plot helps us visualize the sample frequency distribution in a single plot.
-The Duration plot shows how many 
 
 ### Control axis tick labels with format string using 'StrMethodFormatter'
 ```python
@@ -183,5 +182,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1ODM1NTI3LC0xNzY2MzUxMTkzXX0=
+eyJoaXN0b3J5IjpbLTg5MzQ4NDEyMCwtMTc2NjM1MTE5M119
 -->
