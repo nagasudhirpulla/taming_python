@@ -1,4 +1,4 @@
-## Skill - Format axis ticks using TickFormatters in matplotlib
+## Skill - Duration Plot in Matplotlib
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
@@ -183,5 +183,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTg3MDg5MF19
+eyJoaXN0b3J5IjpbLTE3NjYzNTExOTNdfQ==
 -->
