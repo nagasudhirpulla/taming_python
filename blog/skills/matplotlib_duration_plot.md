@@ -5,7 +5,7 @@
 * [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
-* Functions in python [https://nagasudhir.blogspot.com/2020/05/fucntions-in-python.html]
+* [Functions in python](https://nagasudhir.blogspot.com/2020/05/fucntions-in-python.html)
 * [Introduction to Matplotlib plotting library](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 * [Styling Matplotlib plots](https://nagasudhir.blogspot.com/2020/05/styling-matplotlib-plots.html)
 
@@ -183,5 +183,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzI4MjY3OV19
+eyJoaXN0b3J5IjpbMjA5MTg3MDg5MF19
 -->
