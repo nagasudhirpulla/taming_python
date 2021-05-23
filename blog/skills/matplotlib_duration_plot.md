@@ -62,11 +62,6 @@ You can the video on this post [here](https://youtu.be/QYBAP0YxSZU)
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
-### References
-* Official guide - https://matplotlib.org/3.2.1/gallery/ticks_and_spines/tick-formatters.html
-* Official documentation - https://matplotlib.org/3.1.1/api/ticker_api.html#tick-formatting
-* another post - https://jakevdp.github.io/PythonDataScienceHandbook/04.10-customizing-ticks.html
-
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -77,6 +72,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzUzNjUzOSwtMTU2OTYxODY1MSwtMT
+eyJoaXN0b3J5IjpbMTgxMjc4NTQ1OCwtMTU2OTYxODY1MSwtMT
 c2NjM1MTE5M119
 -->
