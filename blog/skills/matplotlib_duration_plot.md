@@ -41,29 +41,12 @@ def deriveDurationVals(vals, valBinResol):
 ```
 ![matplotlib_duration_plot_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_duration_plot.png)
 ### Example of duration plot
-`FuncFormatter` should be supplied with a **function** that takes in tick value and tick position and outputs the tick label string
 ```python
 import matplotlib.pyplot as plt
-
-x = [0,10000,20000,30000,40000,50000,60000,70000,80000]
-y = [8,6,4,2,9,7,6,3,1]
-
-# define the formatter function
-# first input is the tick value, second input is the tick position
-# returns the tick label string
-def thousandsFormatter(x,pos):
-	return '{0:.0f}K'.format(x/10000)
-
-# create a plotting area and get the figure, axes handle in return
+from  data  import  sampls
+durPltData = deriveDurationVals(sampls, 0.01)
 fig, ax = plt.subplots()
-
-# plot data on the axes handle
-ax.plot(x, y)
-
-# set x axis major ticks format as 2 decimal places
-ax.xaxis.set_major_formatter(plt.FuncFormatter(thousandsFormatter))
-
-# print the plot
+ax.plot(durPltData["perc_exceeded"], durPltData["sampl_vals"])
 plt.show()
 ```
 ![matplotlib_func_formatter_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_func_formatter_demo.PNG)
@@ -183,6 +166,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTkzOTI2NiwtMTU2OTYxODY1MSwtMT
+eyJoaXN0b3J5IjpbMTI1NDM3NjUzOSwtMTU2OTYxODY1MSwtMT
 c2NjM1MTE5M119
 -->
