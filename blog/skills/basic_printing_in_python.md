@@ -57,9 +57,6 @@ The video for this post can be seen [here](https://youtu.be/VJhA5mhM9dw)
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/SeriousBriefFrontend?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### References
 * Official documentation - https://docs.python.org/3/library/functions.html#print
 * `colored` module - https://pypi.org/project/colored/
@@ -73,9 +70,9 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEJhc2ljIHByaW50aW5nIG
 luIHB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwnXG5jYX
 RlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAn
-MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOls0OTgyOTE4MjksLT
-E4MDk4NzI4NjcsODYyNDMxMzIxLC0xMDg5OTYzNjgyLDEzOTcw
-MDU1MzIsLTE2NzQyODkyNTEsMTgwNDM2OTE1MCwzOTYyNDE4NT
-AsLTIwNzAxNDEyODAsNDIxNjA3OTc3LC0xMjYzMjQ1NTgwLDEz
-NTkyNDI5NjIsNzc2NzMzMjg0XX0=
+MjAyMC0wNC0xNSdcbiIsImhpc3RvcnkiOls0MDQ5NzMyNjMsND
+k4MjkxODI5LC0xODA5ODcyODY3LDg2MjQzMTMyMSwtMTA4OTk2
+MzY4MiwxMzk3MDA1NTMyLC0xNjc0Mjg5MjUxLDE4MDQzNjkxNT
+AsMzk2MjQxODUwLC0yMDcwMTQxMjgwLDQyMTYwNzk3NywtMTI2
+MzI0NTU4MCwxMzU5MjQyOTYyLDc3NjczMzI4NF19
 -->
