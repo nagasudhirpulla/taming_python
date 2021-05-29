@@ -60,15 +60,15 @@ nums = [5,21,54,96,71]
 # check if any one number is less than 10
 k = [x<10 for x in nums]
 print(k) # [True,False,False,False,False]
-
-if any(k):
+isAnyLt10 = any(k)
+if isAnyLt10:
 	print("Atleast one number is less than 10 in the list")
 
 # check if all numbers are greater than 50
 k = [x>50 for x in nums]
 print(k) # [False, False, True, True, True]
 
-if any(k):
+if all(k):
 	print("Atleast one number is less than 10 in the list")
 ```
 
@@ -79,6 +79,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5NjQ2NTE3LC05NzkyODgzODcsLTE5Mj
-UzNTQ5NDRdfQ==
+eyJoaXN0b3J5IjpbLTk5OTQyNDE3NywtOTc5Mjg4Mzg3LC0xOT
+I1MzU0OTQ0XX0=
 -->
