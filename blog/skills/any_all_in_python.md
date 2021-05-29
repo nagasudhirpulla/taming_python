@@ -25,7 +25,7 @@ print(k) # True
 k = any([False, False, False]) # False
 print(k)
 
-k = any([0,0,0]) # False
+k = any([0,0,1]) # True
 print(k)
 
 k = any([0<5, 20>50, 40*2==80]) # True
@@ -41,6 +41,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjI0NjU2ODYsLTE5MjUzNTQ5NDRdfQ
+eyJoaXN0b3J5IjpbLTE0MzU0MTE5MzYsLTE5MjUzNTQ5NDRdfQ
 ==
 -->
