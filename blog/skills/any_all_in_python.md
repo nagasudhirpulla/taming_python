@@ -58,8 +58,9 @@ print(k) # False
 nums = [5,21,54,96,71]
 
 # check if any one number is less than 10
-isAnyLt10 = any([True if x<10 for x in nums])
-if isAnyLt10:
+k = [True if x<10 for x in nums]
+
+if any(k):
 	print("Atleast one number is less than 10 in the list")
 
 ```
@@ -71,5 +72,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTk2NTgzMCwtMTkyNTM1NDk0NF19
+eyJoaXN0b3J5IjpbMTIyMjQxOTA3NiwtMTkyNTM1NDk0NF19
 -->
