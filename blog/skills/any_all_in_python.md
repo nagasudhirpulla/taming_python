@@ -23,14 +23,14 @@ z = False
 k = any([x,y,z])
 print(k) # True
 
-k = any([False, False, False]) # False
-print(k)
+k = any([False, False, False])
+print(k) # False
 
-k = any([0,0,1]) # True
-print(k)
+k = any([0,0,1])
+print(k) # True
 
-k = any([0<5, 20>50, 40*2==80]) # True
-print(k)
+k = any([0<5, 20>50, 40*2==80])
+print(k) # True
 ```
 
 **all** keyword evaluates to True only if all items in the supplied list is True or 1. 
@@ -40,17 +40,17 @@ x = True
 y = False
 z = False
 
-k = all([x,y,z])
+k = all([x,y,z]) 
 print(k) # False
 
-k = all([True, True, True]) # True
-print(k)
+k = all([True, True, True]) 
+print(k) # True
 
-k = all([0,0,1]) # False
-print(k)
+k = all([0,0,1])
+print(k) # False
 
-k = all([0<5, 20>50, 40*2==80]) # False
-print(k)
+k = all([0<5, 20>50, 40*2==80])
+print(k) # False
 ```
 
 
@@ -62,5 +62,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjk1NDgyOCwtMTkyNTM1NDk0NF19
+eyJoaXN0b3J5IjpbMTE0OTIxMjQzNiwtMTkyNTM1NDk0NF19
 -->
