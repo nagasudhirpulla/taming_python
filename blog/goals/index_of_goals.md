@@ -32,6 +32,7 @@ Here are the goals and skills in this tutorial series
 * [List comprehensions in python](https://nagasudhir.blogspot.com/2020/05/list-comprehensions-in-python.html)
 * [Create a sequence of numbers in python](https://nagasudhir.blogspot.com/2020/07/create-sequence-of-numbers-in-python.html)
 * [Create random numbers in python](https://nagasudhir.blogspot.com/2020/05/create-random-numbers-in-python.html)
+* ['any', 'all' keywords in python](https://nagasudhir.blogspot.com/2021/05/any-all-keywords-in-python.html)
 * [Handling errors in python](https://nagasudhir.blogspot.com/2020/05/hnadling-errors-in-python.html)
 * [Read named command line inputs with argparse module](https://nagasudhir.blogspot.com/2020/06/named-command-line-arguments-using.html)
 
@@ -95,11 +96,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE2Mjc3NDU4MDIsLTkzOD
-UwMDY4OSwtMTg1NTMwNTg2MywtMTE0NjMwNDYxOSwxNjU2Njk0
-MDAxLDEyNTkyMzEzNTcsMjU1NjM3NTM1LDEzOTg4NzE0NTUsMT
-gwMjczNzY1NSwxNjU2MDMzMDEwLDEwMzIzMzMyMTEsLTEyNzIy
-NTUyODAsNzgxMzA3MTgwLDE2NzQ2NTAyMjYsLTEzNzU0MzU0MT
-ksLTQ3ODc2OTgzLDE4MzAzMjk0NDcsMTIxNjQ4Mjg3MywxMjc2
-NjQyMDc1LC05NTkxMDk5OTZdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE5NDkyOTAyMzEsLTE2Mj
+c3NDU4MDIsLTkzODUwMDY4OSwtMTg1NTMwNTg2MywtMTE0NjMw
+NDYxOSwxNjU2Njk0MDAxLDEyNTkyMzEzNTcsMjU1NjM3NTM1LD
+EzOTg4NzE0NTUsMTgwMjczNzY1NSwxNjU2MDMzMDEwLDEwMzIz
+MzMyMTEsLTEyNzIyNTUyODAsNzgxMzA3MTgwLDE2NzQ2NTAyMj
+YsLTEzNzU0MzU0MTksLTQ3ODc2OTgzLDE4MzAzMjk0NDcsMTIx
+NjQ4Mjg3MywxMjc2NjQyMDc1XX0=
 -->
