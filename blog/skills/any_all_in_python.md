@@ -66,7 +66,7 @@ if any(k):
 
 # check if all numbers are greater than 50
 k = [x>50 for x in nums]
-print(k) # [True,False,False,False,False]
+print(k) # [False, False, True, True, True]
 
 if any(k):
 	print("Atleast one number is less than 10 in the list")
@@ -79,5 +79,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTI4ODM4NywtMTkyNTM1NDk0NF19
+eyJoaXN0b3J5IjpbOTE5NjQ2NTE3LC05NzkyODgzODcsLTE5Mj
+UzNTQ5NDRdfQ==
 -->
