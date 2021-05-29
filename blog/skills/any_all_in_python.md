@@ -49,7 +49,7 @@ print(k)
 k = all([0,0,1]) # False
 print(k)
 
-k = any([0<5, 20>50, 40*2==80]) # True
+k = all([0<5, 20>50, 40*2==80]) # False
 print(k)
 ```
 
@@ -62,5 +62,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjI3MTEwLC0xOTI1MzU0OTQ0XX0=
+eyJoaXN0b3J5IjpbMTMyNjk1NDgyOCwtMTkyNTM1NDk0NF19
 -->
