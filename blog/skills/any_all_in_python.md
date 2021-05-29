@@ -14,7 +14,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 
 **any** keyword evaluates to True if any one item in the supplied list is True or 1. 
-It is like applying an **or** statement over a list of items 
+**any** is like applying an **or** statement over a list of items 
 ```python
 x = True
 y = False
@@ -33,7 +33,8 @@ k = any([0<5, 20>50, 40*2==80]) # True
 print(k)
 ```
 
-**any** keyword evaluates to True if any one item in the supplied list is True or 1. For Example
+**all** keyword evaluates to True only if all items in the supplied list is True or 1. 
+**all** is like applying an **and** statement over a list of items 
 ```python
 x = True
 y = False
@@ -61,5 +62,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTQzNzY2MywtMTkyNTM1NDk0NF19
+eyJoaXN0b3J5IjpbLTY2Nzc4MDU3OSwtMTkyNTM1NDk0NF19
 -->
