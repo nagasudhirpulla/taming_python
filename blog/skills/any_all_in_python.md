@@ -53,7 +53,13 @@ k = all([0<5, 20>50, 40*2==80])
 print(k) # False
 ```
 
+### Practical Example
+```python
+nums = [5,21,54,96,71]
 
+# check if any one number is less than 10
+isAnyL10 = 
+```
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -62,5 +68,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTIxMjQzNiwtMTkyNTM1NDk0NF19
+eyJoaXN0b3J5IjpbLTEyNjM3Mjk2NDQsLTE5MjUzNTQ5NDRdfQ
+==
 -->
