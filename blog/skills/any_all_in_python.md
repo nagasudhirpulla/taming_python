@@ -13,7 +13,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* **if** condition runs a code only if the supplied expression evaluates to ```True```. For Example
+* **any** keyword evaluates to True if any one of the supplied inputs is True or 1. For Example
 ```python
 x = 5
 # the print statement will execute since x is 5
@@ -82,5 +82,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTUyMjIwN119
+eyJoaXN0b3J5IjpbLTE5MjUzNTQ5NDRdfQ==
 -->
