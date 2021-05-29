@@ -72,9 +72,9 @@ if not isAllGt50:
 ```
 
 ### Video
-The video for this post can be seen [here](https://youtu.be/VJhA5mhM9dw)
+The video for this post can be seen [here](https://youtu.be/H762fUmfk7U)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VJhA5mhM9dw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H762fUmfk7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
 
@@ -87,6 +87,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6ICdhbnksIGFsbCBrZXl3b3
 JkcyBpbiBweXRob24nXG5hdXRob3I6IE5hZ2FzdWRoaXIgUHVs
 bGFcbnRhZ3M6ICd0YW1pbmdfcHl0aG9uLCB0YW1pbmdfcHl0aG
 9uX3NraWxsJ1xuZGF0ZTogJzIwMjEtMDUtMjknXG4iLCJoaXN0
-b3J5IjpbMTQ3MDM1ODI0MiwtMTIxMjE5NzkxNywtOTc5Mjg4Mz
+b3J5IjpbMTM4NzM1MTAwNywtMTIxMjE5NzkxNywtOTc5Mjg4Mz
 g3LC0xOTI1MzU0OTQ0XX0=
 -->
