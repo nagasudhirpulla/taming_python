@@ -1,5 +1,5 @@
 
-## Skill - 'if', 'else' and 'elif' statements in python
+## Skill - 'any', 'all' keywords in python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -82,5 +82,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQzMTY5NDddfQ==
+eyJoaXN0b3J5IjpbMjA0OTUyMjIwN119
 -->
