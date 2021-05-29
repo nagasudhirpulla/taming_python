@@ -40,10 +40,10 @@ x = True
 y = False
 z = False
 
-k = any([x,y,z])
-print(k) # True
+k = all([x,y,z])
+print(k) # False
 
-k = any([False, False, False]) # False
+k = all([True, True, True]) # True
 print(k)
 
 k = any([0,0,1]) # True
@@ -62,5 +62,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2Nzc4MDU3OSwtMTkyNTM1NDk0NF19
+eyJoaXN0b3J5IjpbMTI4MzMyMjY5MiwtMTkyNTM1NDk0NF19
 -->
