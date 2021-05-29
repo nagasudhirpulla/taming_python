@@ -15,14 +15,14 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 * **any** keyword evaluates to True if any one of the supplied inputs is True or 1. For Example
 ```python
-x = 5
-# the print statement will execute since x is 5
-if x==5:	
-	print('The value of x is 5')
+x = True
+y = False
+z = False
 
-# the print statement will not execute since x is not 10
-if x==10:
-	print('The value of x is 10')
+k = any([x,y,z])
+print(k) # True
+
+k = any([])
 ```
 * **else** can be used to execute when if condition is supplied with value that evaluates to false. For example
 ```python
@@ -82,5 +82,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjUzNTQ5NDRdfQ==
+eyJoaXN0b3J5IjpbLTE0ODQwMzgxMTEsLTE5MjUzNTQ5NDRdfQ
+==
 -->
