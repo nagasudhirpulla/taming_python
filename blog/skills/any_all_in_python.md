@@ -1,4 +1,3 @@
-
 ## Skill - 'any', 'all' keywords in python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -79,6 +78,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTQ3NDMyMSwtOTc5Mjg4Mzg3LC0xOT
-I1MzU0OTQ0XX0=
+eyJoaXN0b3J5IjpbLTEyMTIxOTc5MTcsLTk3OTI4ODM4NywtMT
+kyNTM1NDk0NF19
 -->
