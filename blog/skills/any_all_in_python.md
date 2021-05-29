@@ -67,9 +67,9 @@ if isAnyLt10:
 # check if all numbers are greater than 50
 k = [x>50 for x in nums]
 print(k) # [False, False, True, True, True]
-
-if all(k):
-	print("Atleast one number is less than 10 in the list")
+isAllGt50 = all(k)
+if not isAllGt50:
+	print("All numbers are not greater than 50 in the list")
 ```
 
 ### Online Interpreter
@@ -79,6 +79,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTQyNDE3NywtOTc5Mjg4Mzg3LC0xOT
+eyJoaXN0b3J5IjpbMTg0MTQ3NDMyMSwtOTc5Mjg4Mzg3LC0xOT
 I1MzU0OTQ0XX0=
 -->
