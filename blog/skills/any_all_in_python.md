@@ -23,8 +23,10 @@ k = any([x,y,z])
 print(k) # True
 
 k = any([False, False, False]) # False
+print(k)
 
 k = any([0<5, 20>50, 40*2==80]) # True
+print(k)
 ```
 * **else** can be used to execute when if condition is supplied with value that evaluates to false. For example
 ```python
@@ -84,6 +86,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njg2NTI4MTYsLTE5MjUzNTQ5NDRdfQ
-==
+eyJoaXN0b3J5IjpbLTI1Njg0OTkxNCwtMTkyNTM1NDk0NF19
 -->
