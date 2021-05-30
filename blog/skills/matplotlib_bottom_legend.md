@@ -67,7 +67,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 ### References
 * Awesome blog post on legend placement - https://jdhao.github.io/2018/01/23/matplotlib-legend-outside-of-axes/
-* 
+* Official legend function documentation - https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.legend.html#matplotlib.axes.Axes.legend
 
 <hr/>
 
@@ -77,5 +77,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTk4MTE4MF19
+eyJoaXN0b3J5IjpbNDUxNjYwMDQ3LDEwNjk5ODExODBdfQ==
 -->
