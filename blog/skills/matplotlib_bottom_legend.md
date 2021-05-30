@@ -26,12 +26,14 @@ In order to place the legend at the bottom using `ax.legend` , we can use the fo
 
 ```python
 import matplotlib.pyplot as plt
+import random
 
 fig, ax = plt.subplots()
 numLines = 5
 
 for k in range(numLines):
-    la,  = ax.plot([1, 2, 3, 4], [1, 9, 6, 4])
+    vals = [random.randint(0, 10) for x in range(4)]
+    la,  = ax.plot([1, 2, 3, 4], vals)
     la.set_label("Another line {0}".format(k+1))
 
 ax.legend(bbox_to_anchor=(0, -.1), loc='upper left',
@@ -77,7 +79,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ3ODQwODc5LC0yMTQ3MTY5MTM1LDc4Mz
-k3MDM0NiwxMDU2MTc0NzcyLDE4MDgxMTc1MjksNDUxNjYwMDQ3
-LDEwNjk5ODExODBdfQ==
+eyJoaXN0b3J5IjpbLTE5NjI1MzI5NDcsODQ3ODQwODc5LC0yMT
+Q3MTY5MTM1LDc4Mzk3MDM0NiwxMDU2MTc0NzcyLDE4MDgxMTc1
+MjksNDUxNjYwMDQ3LDEwNjk5ODExODBdfQ==
 -->
