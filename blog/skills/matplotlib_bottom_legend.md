@@ -17,7 +17,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 Please make sure that you covered the [post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-In order to place the legend at the bottom using `ax.legend` , we can use the following options
+In order to place the legend at the bottom using `ax.legend` function, we can use the following options
 
 * `bbox_to_anchor` - location of the legend anchor w.r.t the plot bounding box. Anchor location is specified as (x,y)
 * `loc` - Location of the legend anchor w.r.t legend box
@@ -62,7 +62,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTUwOTc1NjMsODQ3ODQwODc5LC0yMT
-Q3MTY5MTM1LDc4Mzk3MDM0NiwxMDU2MTc0NzcyLDE4MDgxMTc1
-MjksNDUxNjYwMDQ3LDEwNjk5ODExODBdfQ==
+eyJoaXN0b3J5IjpbLTg4MTI1NzM5NSwtMTQ1NTA5NzU2Myw4ND
+c4NDA4NzksLTIxNDcxNjkxMzUsNzgzOTcwMzQ2LDEwNTYxNzQ3
+NzIsMTgwODExNzUyOSw0NTE2NjAwNDcsMTA2OTk4MTE4MF19
 -->
