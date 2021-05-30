@@ -17,7 +17,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 Please make sure that you covered the [post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-Sometimes we may require to have the main axis lines to be intersecting at (0,0) of the subplot. We will control the positioning of `spines` to achieve this.
+
 
 ```python
 import matplotlib.pyplot as plt
@@ -66,8 +66,8 @@ You can the video on this post [here](https://youtu.be/qzFOFP1hxvg)
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
 ### References
-* Solution from stackoverflow post - https://stackoverflow.com/questions/31556446/how-to-draw-axis-in-the-middle-of-the-figure
-* Spine placement demo - https://matplotlib.org/3.1.0/gallery/ticks_and_spines/spine_placement_demo.html
+* Awesome blog post on legend placement - https://jdhao.github.io/2018/01/23/matplotlib-legend-outside-of-axes/
+* 
 
 <hr/>
 
@@ -77,5 +77,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDMxMTY3Nl19
+eyJoaXN0b3J5IjpbMTA2OTk4MTE4MF19
 -->
