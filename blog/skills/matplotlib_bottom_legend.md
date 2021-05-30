@@ -46,18 +46,6 @@ plt.show()
 
 ![matplotlib_bottom_legend_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_bottom_legend_demo.png)
 
-As shown above the spines/axis lines of an axes handle `ax` can be controlled by `ax.spines`
-
-If we want the axis lines to be intersecting at center of the subplot instead of (0,0). 
-
-In such case we can use the following 
-```python
-ax.spines['left'].set_position('center')
-ax.spines['bottom'].set_position('center')
-```
-The output would be like the image below
-![matplotlib_center_axes_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_center_axes_demo.PNG)
-
 ### Video
 You can the video on this post [here](https://youtu.be/qzFOFP1hxvg)
 
@@ -79,7 +67,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI1MzI5NDcsODQ3ODQwODc5LC0yMT
+eyJoaXN0b3J5IjpbLTIwNjA5ODYwMDcsODQ3ODQwODc5LC0yMT
 Q3MTY5MTM1LDc4Mzk3MDM0NiwxMDU2MTc0NzcyLDE4MDgxMTc1
 MjksNDUxNjYwMDQ3LDEwNjk5ODExODBdfQ==
 -->
