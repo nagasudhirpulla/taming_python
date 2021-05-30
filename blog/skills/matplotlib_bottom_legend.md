@@ -28,9 +28,9 @@ In order to place the legend at the bottom using `ax.legend` , we can use the fo
 import matplotlib.pyplot as plt
 
 fig, ax = plt.subplots()
-numPlts = 5
+numLines = 5
 
-for k in range(numPlts):
+for k in range(numLines):
     la,  = ax.plot([1, 2, 3, 4], [1, 9, 6, 4])
     la.set_label("Another line {0}".format(k+1))
 
@@ -77,6 +77,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzOTcwMzQ2LDEwNTYxNzQ3NzIsMTgwOD
-ExNzUyOSw0NTE2NjAwNDcsMTA2OTk4MTE4MF19
+eyJoaXN0b3J5IjpbMjk5NjYwMDQ4LDc4Mzk3MDM0NiwxMDU2MT
+c0NzcyLDE4MDgxMTc1MjksNDUxNjYwMDQ3LDEwNjk5ODExODBd
+fQ==
 -->
