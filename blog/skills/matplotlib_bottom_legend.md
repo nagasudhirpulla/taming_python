@@ -42,7 +42,7 @@ ax.set_title("Figure Title")
 plt.show()
 ```
 
-![matplotlib_center_axes_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_bottom_legend_demo.png)
+![matplotlib_bottom_legend_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_bottom_legend_demo.png)
 
 As shown above the spines/axis lines of an axes handle `ax` can be controlled by `ax.spines`
 
@@ -77,7 +77,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODMwNjU1OSwtMjE0NzE2OTEzNSw3OD
-M5NzAzNDYsMTA1NjE3NDc3MiwxODA4MTE3NTI5LDQ1MTY2MDA0
-NywxMDY5OTgxMTgwXX0=
+eyJoaXN0b3J5IjpbODQ3ODQwODc5LC0yMTQ3MTY5MTM1LDc4Mz
+k3MDM0NiwxMDU2MTc0NzcyLDE4MDgxMTc1MjksNDUxNjYwMDQ3
+LDEwNjk5ODExODBdfQ==
 -->
