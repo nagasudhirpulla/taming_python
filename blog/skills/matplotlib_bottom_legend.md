@@ -17,28 +17,33 @@ Please make sure to have all the skills mentioned above to understand and execut
 Please make sure that you covered the [post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-
-
 ```python
-import matplotlib.pyplot as plt
-x = [-5, -4, 5, 8]
-y = [-6, 5, 8,-10]
+import  matplotlib.pyplot  as  plt
 
-# create a plotting area and get the figure, axes handle in return
+import  matplotlib.patches  as  patches
+
+  
+
 fig, ax = plt.subplots()
 
-# plot data on the axes handle
-ax.plot(x, y)
+  
 
-# Move left y-axis and bottim x-axis to centre by setting position as 'center'
-ax.spines['left'].set_position('zero')
-ax.spines['bottom'].set_position('zero')
+for  k  in  range(2):
 
-# Eliminate top and right axes by setting spline color as 'none'
-ax.spines['right'].set_color('none')
-ax.spines['top'].set_color('none')
+la, = ax.plot([1, 2, 3, 4], [1, 9, 6, 4])
 
-# print the plot
+la.set_label("Another line {0}".format(k+1))
+
+  
+
+ax.legend(bbox_to_anchor=(0, -.1), loc='upper left',
+
+ncol=2, borderaxespad=0)
+
+ax.set_title("Figure Title")
+
+  
+
 plt.show()
 ```
 
@@ -77,5 +82,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUxNjYwMDQ3LDEwNjk5ODExODBdfQ==
+eyJoaXN0b3J5IjpbOTcxMzgyNDEzLDQ1MTY2MDA0NywxMDY5OT
+gxMTgwXX0=
 -->
