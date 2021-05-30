@@ -18,16 +18,18 @@ Please make sure that you covered the [post on basics](https://nagasudhir.blogsp
 <hr/>
 
 ```python
-import  matplotlib.pyplot  as  plt
-import  matplotlib.patches  as  patches
+import matplotlib.pyplot as plt
 
 fig, ax = plt.subplots()
-for  k  in  range(2):
-	la, = ax.plot([1, 2, 3, 4], [1, 9, 6, 4])
-	la.set_label("Another line {0}".format(k+1))
+numPlts = 5
+
+for k in range(numPlts):
+    la,  = ax.plot([1, 2, 3, 4], [1, 9, 6, 4])
+    la.set_label("Another line {0}".format(k+1))
 
 ax.legend(bbox_to_anchor=(0, -.1), loc='upper left',
-ncol=2, borderaxespad=0)
+          ncol=2, borderaxespad=0)
+
 ax.set_title("Figure Title")
 
 plt.show()
@@ -68,6 +70,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODExNzUyOSw0NTE2NjAwNDcsMTA2OT
-k4MTE4MF19
+eyJoaXN0b3J5IjpbLTIxMTUwNjY0MTYsMTgwODExNzUyOSw0NT
+E2NjAwNDcsMTA2OTk4MTE4MF19
 -->
