@@ -35,7 +35,7 @@ for k in range(numLines):
     la.set_label("Another line {0}".format(k+1))
 
 ax.legend(bbox_to_anchor=(0, -.1), loc='upper left',
-          ncol=2, borderaxespad=0)
+          ncol=3, borderaxespad=0)
 
 ax.set_title("Figure Title")
 
@@ -77,7 +77,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5NjYwMDQ4LDc4Mzk3MDM0NiwxMDU2MT
-c0NzcyLDE4MDgxMTc1MjksNDUxNjYwMDQ3LDEwNjk5ODExODBd
-fQ==
+eyJoaXN0b3J5IjpbLTIxNDcxNjkxMzUsNzgzOTcwMzQ2LDEwNT
+YxNzQ3NzIsMTgwODExNzUyOSw0NTE2NjAwNDcsMTA2OTk4MTE4
+MF19
 -->
