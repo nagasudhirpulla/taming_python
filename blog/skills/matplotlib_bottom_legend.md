@@ -21,7 +21,8 @@ In order to place the legend at the bottom using `ax.legend` , we can use the fo
 
 * `bbox_to_anchor` - location of the legend anchor w.r.t the plot bounding box. Anchor location is specified as (x,y)
 * `loc` - Location of the anchor w.r.t legend box
-* `ncol` - Number of max columns in the legend box
+* `ncol` - Max number of columns in the legend box
+* 
 
 ```python
 import matplotlib.pyplot as plt
@@ -76,6 +77,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NzAxODY5NiwxMDU2MTc0NzcyLDE4MD
+eyJoaXN0b3J5IjpbMTA2OTIxNzY0OCwxMDU2MTc0NzcyLDE4MD
 gxMTc1MjksNDUxNjYwMDQ3LDEwNjk5ODExODBdfQ==
 -->
