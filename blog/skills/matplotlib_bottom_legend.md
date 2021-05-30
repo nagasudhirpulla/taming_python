@@ -45,11 +45,6 @@ plt.show()
 ```
 
 ![matplotlib_bottom_legend_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_bottom_legend_demo.png)
-
-### Video
-You can the video on this post [here](https://youtu.be/qzFOFP1hxvg)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qzFOFP1hxvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr/>
 
 ### Online Interpreter
@@ -67,7 +62,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjA5ODYwMDcsODQ3ODQwODc5LC0yMT
+eyJoaXN0b3J5IjpbLTE0NTUwOTc1NjMsODQ3ODQwODc5LC0yMT
 Q3MTY5MTM1LDc4Mzk3MDM0NiwxMDU2MTc0NzcyLDE4MDgxMTc1
 MjksNDUxNjYwMDQ3LDEwNjk5ODExODBdfQ==
 -->
