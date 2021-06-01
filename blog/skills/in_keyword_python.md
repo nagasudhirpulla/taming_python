@@ -61,8 +61,9 @@ The video for this post can be found [here](https://youtu.be/JqQPgGKzp9I)
 <hr/>
 
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/LimeWiltedRouter?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+### References
+* https://www.geeksforgeeks.org/python-in-keyword/
+
 
 <hr/>
 
@@ -70,5 +71,5 @@ The video for this post can be found [here](https://youtu.be/JqQPgGKzp9I)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2Njg0NTAwLDE1NzIyNzM3OTZdfQ==
+eyJoaXN0b3J5IjpbMTUwOTM5NzQ3MywxNTcyMjczNzk2XX0=
 -->
