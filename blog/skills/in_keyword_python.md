@@ -16,9 +16,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 * check if an item is present in a collection like list, tuple, range, string
 * iterate over a sequence like list, tuple, range etc using a for loop
 
-### For loop on an array
+### 'in' with for loop
 ```python
-x = [1,8,6,5]
+x = ['john', 'smith', 'tom']
 for n in x:
 	print('The number is {0}'.format(n))
 
@@ -38,16 +38,13 @@ for n in y:
 ```
 
 
+<hr/>
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
-<hr/>
-
-
 ### References
 * https://www.geeksforgeeks.org/python-in-keyword/
-
 
 <hr/>
 
@@ -55,5 +52,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTU4MDk4MSwxNTcyMjczNzk2XX0=
+eyJoaXN0b3J5IjpbOTU0OTAyNjQ3LDExMTE1ODA5ODEsMTU3Mj
+I3Mzc5Nl19
 -->
