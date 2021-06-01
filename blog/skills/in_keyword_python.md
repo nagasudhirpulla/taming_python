@@ -23,10 +23,10 @@ for k in names:
 	print('The name is {0}'.format(k))
 
 # this will print
-# The number is 1
-# The number is 8
-# The number is 6
-# The number is 5
+# The name is john
+# The name is smith
+# The name is tom
+# The name is Harry
 
 y = ['Nagasudhir', 'Lakshmi', 'Kishore']
 for n in y:
@@ -52,6 +52,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzNjc3MzcsMTExMTU4MDk4MSwxNTcyMj
-czNzk2XX0=
+eyJoaXN0b3J5IjpbNTYzOTUwMjIxLDExMTE1ODA5ODEsMTU3Mj
+I3Mzc5Nl19
 -->
