@@ -33,6 +33,10 @@ names = ['john', 'smith', 'tom', 'Harry']
 if 'smith' in names:
 	print('smith is in the list!')
 
+isTomPresent = 'tom' in names
+print(isTomPresent) # True
+
+
 for n in range(5):
 	print(n)
 ```
@@ -52,6 +56,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2NzUxMjE1LDExMTE1ODA5ODEsMTU3Mj
+eyJoaXN0b3J5IjpbNjkzNDQ1NTcyLDExMTE1ODA5ODEsMTU3Mj
 I3Mzc5Nl19
 -->
