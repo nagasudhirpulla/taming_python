@@ -12,7 +12,9 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-`for` loop is used to iterate over a sequence of items and perform a task on each item one after the other. 
+`in` keyword in python can be used for  
+* iterating over an iterable collection like list, tuple, range etc
+* checking if an item is present in 
 
 ### For loop on an array
 ```python
@@ -68,5 +70,5 @@ The video for this post can be found [here](https://youtu.be/JqQPgGKzp9I)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzI1MDU5MV19
+eyJoaXN0b3J5IjpbLTE1ODM0MTA1NzZdfQ==
 -->
