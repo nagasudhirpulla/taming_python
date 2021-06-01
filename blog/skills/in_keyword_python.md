@@ -36,9 +36,8 @@ if 'smith' in names:
 isTomPresent = 'tom' in names
 print(isTomPresent) # True
 
-
-for n in range(5):
-	print(n)
+isHPresent = 'H' in 'Harry'
+print(isTomPresent) # True
 ```
 
 
@@ -56,6 +55,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkzNDQ1NTcyLDExMTE1ODA5ODEsMTU3Mj
-I3Mzc5Nl19
+eyJoaXN0b3J5IjpbLTEzMzM3ODY5ODgsMTExMTU4MDk4MSwxNT
+cyMjczNzk2XX0=
 -->
