@@ -22,21 +22,8 @@ names = ['john', 'smith', 'tom', 'Harry']
 for k in names:
 	print('The name is {0}'.format(k))
 
-# this will print
-# The name is john
-# The name is smith
-# The name is tom
-# The name is Harry
-
 for n in range(5):
 	print(n)
-# this will print
-# 1
-# 2
-# 3
-# 4
-# 5
-
 ```
 
 
@@ -54,6 +41,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDYyODYzMzAsMTExMTU4MDk4MSwxNT
-cyMjczNzk2XX0=
+eyJoaXN0b3J5IjpbLTY0NDAwMjk1MCwxMTExNTgwOTgxLDE1Nz
+IyNzM3OTZdfQ==
 -->
