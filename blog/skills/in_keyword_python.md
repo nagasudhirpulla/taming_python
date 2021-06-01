@@ -29,8 +29,9 @@ for n in range(5):
 ### 'in' with for loop
 ```python
 names = ['john', 'smith', 'tom', 'Harry']
-for k in names:
-	print('The name is {0}'.format(k))
+
+if 'smith' in names:
+	print('smith is in the list!')
 
 for n in range(5):
 	print(n)
@@ -51,6 +52,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDMwMDQ1MDgsMTExMTU4MDk4MSwxNT
-cyMjczNzk2XX0=
+eyJoaXN0b3J5IjpbMjM2NzUxMjE1LDExMTE1ODA5ODEsMTU3Mj
+I3Mzc5Nl19
 -->
