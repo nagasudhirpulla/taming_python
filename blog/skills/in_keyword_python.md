@@ -18,9 +18,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ### 'in' with for loop
 ```python
-x = ['john', 'smith', 'tom']
-for n in x:
-	print('The number is {0}'.format(n))
+names = ['john', 'smith', 'tom', 'Harry']
+for k in names:
+	print('The name is {0}'.format(k))
 
 # this will print
 # The number is 1
@@ -52,6 +52,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0OTAyNjQ3LDExMTE1ODA5ODEsMTU3Mj
-I3Mzc5Nl19
+eyJoaXN0b3J5IjpbNDQzNjc3MzcsMTExMTU4MDk4MSwxNTcyMj
+czNzk2XX0=
 -->
