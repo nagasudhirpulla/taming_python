@@ -54,10 +54,6 @@ for n in range(1,10,2):
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
-### Video
-The video for this post can be found [here](https://youtu.be/JqQPgGKzp9I)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JqQPgGKzp9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <hr/>
 
 
@@ -71,5 +67,5 @@ The video for this post can be found [here](https://youtu.be/JqQPgGKzp9I)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTM5NzQ3MywxNTcyMjczNzk2XX0=
+eyJoaXN0b3J5IjpbLTI5MTk2NTk3MiwxNTcyMjczNzk2XX0=
 -->
