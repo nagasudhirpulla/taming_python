@@ -13,7 +13,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 `in` keyword in python can be used to 
-* iterate over an iterable sequence like list, tuple, range etc using a for loop
+* iterate over a sequence like list, tuple, range etc using a for loop
 * check if an item is present in a collection like list, tuple, range, string
 
 ### For loop on an array
@@ -70,5 +70,5 @@ The video for this post can be found [here](https://youtu.be/JqQPgGKzp9I)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1NDM0NTkyXX0=
+eyJoaXN0b3J5IjpbMTU3MjI3Mzc5Nl19
 -->
