@@ -16,6 +16,16 @@ Please make sure to have all the skills mentioned above to understand and execut
 * check if an item is present in a collection like list, tuple, range, string
 * iterate over a sequence like list, tuple, range etc using a for loop
 
+### 'in' with if condition
+```python
+names = ['john', 'smith', 'tom', 'Harry']
+for k in names:
+	print('The name is {0}'.format(k))
+
+for n in range(5):
+	print(n)
+```
+
 ### 'in' with for loop
 ```python
 names = ['john', 'smith', 'tom', 'Harry']
@@ -41,6 +51,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDAwMjk1MCwxMTExNTgwOTgxLDE1Nz
-IyNzM3OTZdfQ==
+eyJoaXN0b3J5IjpbLTE0MDMwMDQ1MDgsMTExMTU4MDk4MSwxNT
+cyMjczNzk2XX0=
 -->
