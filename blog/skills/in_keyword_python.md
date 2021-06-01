@@ -37,19 +37,7 @@ for n in y:
 # Hi Kishore!
 ```
 
-### For loop on a sequence
-In this example we are generating a sequence using range function
-```python
-for n in range(1,10,2):
-	print('The number is {0}'.format(n))
 
-# this will print
-# The number is 1
-# The number is 3
-# The number is 5
-# The number is 7
-# The number is 9
-```
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -67,5 +55,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTk2NTk3MiwxNTcyMjczNzk2XX0=
+eyJoaXN0b3J5IjpbMTExMTU4MDk4MSwxNTcyMjczNzk2XX0=
 -->
