@@ -28,13 +28,15 @@ for k in names:
 # The name is tom
 # The name is Harry
 
-y = ['Nagasudhir', 'Lakshmi', 'Kishore']
-for n in y:
-	print('Hi {0}!'.format(n))
+for n in range(5):
+	print(n)
 # this will print
-# Hi Nagasudhir!
-# Hi Lakshmi!
-# Hi Kishore!
+# 1
+# 2
+# 3
+# 4
+# 5
+
 ```
 
 
@@ -52,6 +54,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzOTUwMjIxLDExMTE1ODA5ODEsMTU3Mj
-I3Mzc5Nl19
+eyJoaXN0b3J5IjpbLTEwMDYyODYzMzAsMTExMTU4MDk4MSwxNT
+cyMjczNzk2XX0=
 -->
