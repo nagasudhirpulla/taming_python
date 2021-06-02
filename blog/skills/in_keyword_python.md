@@ -19,16 +19,6 @@ Please make sure to have all the skills mentioned above to understand and execut
 ### 'in' with if condition
 ```python
 names = ['john', 'smith', 'tom', 'Harry']
-for k in names:
-	print('The name is {0}'.format(k))
-
-for n in range(5):
-	print(n)
-```
-
-### 'in' with for loop
-```python
-names = ['john', 'smith', 'tom', 'Harry']
 
 if 'smith' in names:
 	print('smith is in the list!')
@@ -38,6 +28,16 @@ print(isTomPresent) # True
 
 isHPresent = 'H' in 'Harry'
 print(isTomPresent) # True
+```
+
+### 'in' with for loop
+```python
+names = ['john', 'smith', 'tom', 'Harry']
+for k in names:
+	print('The name is {0}'.format(k))
+
+for n in range(5):
+	print(n)
 ```
 
 
@@ -55,6 +55,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM3ODY5ODgsMTExMTU4MDk4MSwxNT
-cyMjczNzk2XX0=
+eyJoaXN0b3J5IjpbLTIxMzgwNDcxNjYsLTEzMzM3ODY5ODgsMT
+ExMTU4MDk4MSwxNTcyMjczNzk2XX0=
 -->
