@@ -40,6 +40,10 @@ for n in range(5):
 	print(n)
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/n2uriv0-xyA)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n2uriv0-xyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
 
@@ -55,6 +59,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzgwNDcxNjYsLTEzMzM3ODY5ODgsMT
-ExMTU4MDk4MSwxNTcyMjczNzk2XX0=
+eyJoaXN0b3J5IjpbLTE2MjA0ODM1MjcsLTIxMzgwNDcxNjYsLT
+EzMzM3ODY5ODgsMTExMTU4MDk4MSwxNTcyMjczNzk2XX0=
 -->
