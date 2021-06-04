@@ -28,9 +28,16 @@ Dataframe `pivot_table` function is similar to the pivot in Excel Tables
 	* [https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/pivot_data_1.xlsx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/pivot_data_1.xlsx)
 	* 
 
-### Example: Getting values
+### pivot example
 ```python
+import  pandas  as  pd
+import  datetime  as  dt
 
+df = pd.read_excel('pivot_data_1.xlsx')
+print(df)
+
+df1 = df.pivot(index="id", columns="attribute", values="value")
+print(df1)
 ```
 
 
@@ -50,6 +57,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTEzNzY1OSwtMTEyNjI4NjE4MSwtMT
-M1NjA1Mjc2Ml19
+eyJoaXN0b3J5IjpbODU4MDU4NzQzLDEwMDkxMzc2NTksLTExMj
+YyODYxODEsLTEzNTYwNTI3NjJdfQ==
 -->
