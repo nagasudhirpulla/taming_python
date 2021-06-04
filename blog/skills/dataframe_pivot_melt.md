@@ -45,6 +45,7 @@ print(df)
 df1 = df.pivot(index="id", columns="attribute", values="value")
 print(df1)
 ```
+* Pivot function will throw error if the combination of index and attribute columns have duplicate values. If the values column values are all numeric values, then [pivot_table](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot_table.html) can pivot the dataframe along with aggregating the values with duplicate index-attribute values
 
 ### melt example
 ```python
@@ -57,10 +58,6 @@ print(df)
 df1 = df.melt(id_vars=["id"])
 print(df1)
 ```
-
-### Note
-* Pivot function will throw error if the combination of index and attribute columns have duplicate values. If the values column values are all numeric values, then [pivot_table](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot_table.html) can pivot the dataframe along with aggregating the values with duplicate index-attribute values
-
 
 <hr/>
 
@@ -79,8 +76,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjU0NDQ2NywtMjc0NDU5Nzk1LDEyMT
-ExMzg4NTAsMTgyOTMxOTgwMSw2NDg2MjcxODIsMTIxNDIxMzcx
-LDg1ODA1ODc0MywxMDA5MTM3NjU5LC0xMTI2Mjg2MTgxLC0xMz
-U2MDUyNzYyXX0=
+eyJoaXN0b3J5IjpbNjc3ODU2NDEwLC0yNzQ0NTk3OTUsMTIxMT
+EzODg1MCwxODI5MzE5ODAxLDY0ODYyNzE4MiwxMjE0MjEzNzEs
+ODU4MDU4NzQzLDEwMDkxMzc2NTksLTExMjYyODYxODEsLTEzNT
+YwNTI3NjJdfQ==
 -->
