@@ -59,7 +59,7 @@ print(df1)
 ```
 
 ### Note
-* Pivot function will throw error if the combination of index and attribute columns have duplicate values. If the values column values are all numeric values, then [pivot_table](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot_table.html) can pivot the dataframe along with aggregating the values with 
+* Pivot function will throw error if the combination of index and attribute columns have duplicate values. If the values column values are all numeric values, then [pivot_table](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot_table.html) can pivot the dataframe along with aggregating the values with duplicate index-attribute values
 
 
 <hr/>
@@ -79,7 +79,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzEwODc3MSwtMjc0NDU5Nzk1LDEyMT
+eyJoaXN0b3J5IjpbMTcxMjU0NDQ2NywtMjc0NDU5Nzk1LDEyMT
 ExMzg4NTAsMTgyOTMxOTgwMSw2NDg2MjcxODIsMTIxNDIxMzcx
 LDg1ODA1ODc0MywxMDA5MTM3NjU5LC0xMTI2Mjg2MTgxLC0xMz
 U2MDUyNzYyXX0=
