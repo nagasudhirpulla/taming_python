@@ -58,15 +58,15 @@ df1 = df.melt(id_vars=["id"])
 print(df1)
 ```
 
-
 <hr/>
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
 * pivot - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.pivot.html
-* pivot_table  - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot_table.html
 * melt - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.melt.html#pandas.DataFrame.melt
+* pivot_table  - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot_table.html
 
 <hr/>
 
@@ -75,8 +75,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NTEzNzM4OCwtMjc0NDU5Nzk1LDEyMT
-ExMzg4NTAsMTgyOTMxOTgwMSw2NDg2MjcxODIsMTIxNDIxMzcx
-LDg1ODA1ODc0MywxMDA5MTM3NjU5LC0xMTI2Mjg2MTgxLC0xMz
-U2MDUyNzYyXX0=
+eyJoaXN0b3J5IjpbLTExMzYyOTcxODQsLTI3NDQ1OTc5NSwxMj
+ExMTM4ODUwLDE4MjkzMTk4MDEsNjQ4NjI3MTgyLDEyMTQyMTM3
+MSw4NTgwNTg3NDMsMTAwOTEzNzY1OSwtMTEyNjI4NjE4MSwtMT
+M1NjA1Mjc2Ml19
 -->
