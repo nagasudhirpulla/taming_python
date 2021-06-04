@@ -1,5 +1,5 @@
 
-## Skill - Reshaping Pandas Dataframe using pivot, pivot_table and melt functions
+## Skill - Reshaping Pandas Dataframe using pivot and melt functions
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -57,6 +57,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4MDU4NzQzLDEwMDkxMzc2NTksLTExMj
-YyODYxODEsLTEzNTYwNTI3NjJdfQ==
+eyJoaXN0b3J5IjpbOTcwOTAyNTQwLDg1ODA1ODc0MywxMDA5MT
+M3NjU5LC0xMTI2Mjg2MTgxLC0xMzU2MDUyNzYyXX0=
 -->
