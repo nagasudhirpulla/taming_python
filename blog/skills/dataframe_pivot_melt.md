@@ -18,7 +18,7 @@ Pandas is a python library.
 
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
-In this post, we will learn how to select a subset of DataFrame using `iloc` function
+In this post, we will learn how to change the dimension of  DataFrame using `pivot` and `melt` functions
 <hr/>
 
 The `loc` function of DataFrame can get a subset of DataFrame using the index values (for filtering rows) and column names (for filtering columns).
@@ -173,5 +173,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDU4MTQwMF19
+eyJoaXN0b3J5IjpbOTEyODQ5NDc1XX0=
 -->
