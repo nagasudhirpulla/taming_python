@@ -28,6 +28,8 @@ Dataframe `pivot` function is similar to the pivot in Excel Tables
 	* [pivot_data_1.xlsx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/pivot_data_1.xlsx)
 	* [melt_data_1.xlsx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/melt_data_1.xlsx)
 
+![pivot_melt_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pivot_melt_illustration.png)
+
 ### pivot example
 ```python
 import  pandas  as  pd
@@ -69,7 +71,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTMxOTgwMSw2NDg2MjcxODIsMTIxND
-IxMzcxLDg1ODA1ODc0MywxMDA5MTM3NjU5LC0xMTI2Mjg2MTgx
-LC0xMzU2MDUyNzYyXX0=
+eyJoaXN0b3J5IjpbLTExOTc0OTI2ODEsMTgyOTMxOTgwMSw2ND
+g2MjcxODIsMTIxNDIxMzcxLDg1ODA1ODc0MywxMDA5MTM3NjU5
+LC0xMTI2Mjg2MTgxLC0xMzU2MDUyNzYyXX0=
 -->
