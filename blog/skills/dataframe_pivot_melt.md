@@ -59,7 +59,7 @@ print(df1)
 ```
 
 ### Note
-Pivot function will throw error if the combination of index and attribute columns have duplicate values
+* Pivot function will throw error if the combination of index and attribute columns have duplicate values. If the value column
 
 
 <hr/>
@@ -79,8 +79,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyMTM2NDQsLTI3NDQ1OTc5NSwxMjExMT
-M4ODUwLDE4MjkzMTk4MDEsNjQ4NjI3MTgyLDEyMTQyMTM3MSw4
-NTgwNTg3NDMsMTAwOTEzNzY1OSwtMTEyNjI4NjE4MSwtMTM1Nj
-A1Mjc2Ml19
+eyJoaXN0b3J5IjpbMTE0OTc2MjY1MywtMjc0NDU5Nzk1LDEyMT
+ExMzg4NTAsMTgyOTMxOTgwMSw2NDg2MjcxODIsMTIxNDIxMzcx
+LDg1ODA1ODc0MywxMDA5MTM3NjU5LC0xMTI2Mjg2MTgxLC0xMz
+U2MDUyNzYyXX0=
 -->
