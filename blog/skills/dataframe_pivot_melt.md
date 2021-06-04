@@ -58,6 +58,10 @@ df1 = df.melt(id_vars=["id"])
 print(df1)
 ```
 
+### Note
+Pivot function will throw error if the combination of index and attribute columns have duplicate values
+
+
 <hr/>
 
 ### Online Interpreter
@@ -75,8 +79,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzYyOTcxODQsLTI3NDQ1OTc5NSwxMj
-ExMTM4ODUwLDE4MjkzMTk4MDEsNjQ4NjI3MTgyLDEyMTQyMTM3
-MSw4NTgwNTg3NDMsMTAwOTEzNzY1OSwtMTEyNjI4NjE4MSwtMT
-M1NjA1Mjc2Ml19
+eyJoaXN0b3J5IjpbMjQyMTM2NDQsLTI3NDQ1OTc5NSwxMjExMT
+M4ODUwLDE4MjkzMTk4MDEsNjQ4NjI3MTgyLDEyMTQyMTM3MSw4
+NTgwNTg3NDMsMTAwOTEzNzY1OSwtMTEyNjI4NjE4MSwtMTM1Nj
+A1Mjc2Ml19
 -->
