@@ -21,14 +21,7 @@ Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020
 In this post, we will learn how to change the dimension of  DataFrame using `pivot` and `melt` functions
 <hr/>
 
-The `loc` function of DataFrame can get a subset of DataFrame using the index values (for filtering rows) and column names (for filtering columns).
 
-Suppose for a DataFrame df,
-* ```df.loc[[<index_list>], [<columns_list>]]``` returns a subset DataFrame
-* ```df.loc[[<True/False_list>], [<columns_list>]]``` returns a subset DataFrame
-* ```df.loc['<index>', '<column_name>']``` returns a single value of the cell
-* ```df.loc['<index>', [<columns_list>]]``` will return the row data as a *Series*.
-* ```df.loc[[<index_list>], '<column_name>']``` will return the column data as a *Series*.
 
 ### Example: Getting values
 ```python
@@ -173,5 +166,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyODQ5NDc1XX0=
+eyJoaXN0b3J5IjpbMTcwNzI1ODY2MV19
 -->
