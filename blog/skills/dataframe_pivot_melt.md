@@ -21,7 +21,7 @@ Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020
 In this post, we will learn how to reshape a pandas DataFrame using `pivot`, `pivot_table` and `melt` functions
 <hr/>
 
-Dataframe `pivot_table` function is similar to the pivot in Excel Tables
+Dataframe `pivot` function is similar to the pivot in Excel Tables
 
 #### Excel files used in this post
 * Excel files used in this post can be found at
@@ -57,6 +57,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwOTAyNTQwLDg1ODA1ODc0MywxMDA5MT
+eyJoaXN0b3J5IjpbMTIxNDIxMzcxLDg1ODA1ODc0MywxMDA5MT
 M3NjU5LC0xMTI2Mjg2MTgxLC0xMzU2MDUyNzYyXX0=
 -->
