@@ -45,7 +45,6 @@ df1 = df.pivot(index="id", columns="attribute", values="value")
 print(df1)
 ```
 
-
 As shown in the above image, using `melt`, we can convert header data into a column data.
 ### melt example
 ```python
@@ -76,8 +75,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTEyNDE4OTMsMTIxMTEzODg1MCwxOD
-I5MzE5ODAxLDY0ODYyNzE4MiwxMjE0MjEzNzEsODU4MDU4NzQz
-LDEwMDkxMzc2NTksLTExMjYyODYxODEsLTEzNTYwNTI3NjJdfQ
-==
+eyJoaXN0b3J5IjpbLTI3NDQ1OTc5NSwxMjExMTM4ODUwLDE4Mj
+kzMTk4MDEsNjQ4NjI3MTgyLDEyMTQyMTM3MSw4NTgwNTg3NDMs
+MTAwOTEzNzY1OSwtMTEyNjI4NjE4MSwtMTM1NjA1Mjc2Ml19
 -->
