@@ -31,7 +31,7 @@ Dataframe `pivot` function is similar to the pivot in Excel Tables
 pivot and 
 
 ![pivot_melt_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pivot_melt_illustration.png)
-
+As shown in the above image, using pivot, we can add convert column(s) data into 
 ### pivot example
 ```python
 import  pandas  as  pd
@@ -73,7 +73,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTEzODg1MCwxODI5MzE5ODAxLDY0OD
-YyNzE4MiwxMjE0MjEzNzEsODU4MDU4NzQzLDEwMDkxMzc2NTks
-LTExMjYyODYxODEsLTEzNTYwNTI3NjJdfQ==
+eyJoaXN0b3J5IjpbLTExODA5NjM0MywxMjExMTM4ODUwLDE4Mj
+kzMTk4MDEsNjQ4NjI3MTgyLDEyMTQyMTM3MSw4NTgwNTg3NDMs
+MTAwOTEzNzY1OSwtMTEyNjI4NjE4MSwtMTM1NjA1Mjc2Ml19
 -->
