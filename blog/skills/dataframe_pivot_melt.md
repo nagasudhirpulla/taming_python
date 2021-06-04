@@ -23,6 +23,14 @@ In this post, we will learn how to reshape a pandas DataFrame using `pivot`, `pi
 
 Dataframe `pivot_table` function is similar to the pivot in Excel Tables
 
+#### Instructions to run the codes below
+* Create a folder and place the csv file used in this post from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/gen_schedules.csv)
+* Open the folder in Visual Studio Code
+* Create and work on python files in this folder
+
+The excel files should look like the image below 
+![excel_file_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/all_gen_data.png)
+
 ### Example: Getting values
 ```python
 
@@ -45,6 +53,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTc5MTk0NiwtMTEyNjI4NjE4MSwtMT
+eyJoaXN0b3J5IjpbMTU0OTYxMTczMiwtMTEyNjI4NjE4MSwtMT
 M1NjA1Mjc2Ml19
 -->
