@@ -87,10 +87,13 @@ sidewinder          8
 
 
 <hr/>
+### Online Interpreter
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
-* Official tutorial - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html
-* https://www.w3resource.com/pandas/dataframe/dataframe-iloc.php
+* pivot - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.pivot.html
+* pivot_table  - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot_table.html
+* melt - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.melt.html#pandas.DataFrame.melt
 
 <hr/>
 
@@ -99,6 +102,6 @@ sidewinder          8
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk1MzEyOTksLTExMjYyODYxODEsLT
-EzNTYwNTI3NjJdfQ==
+eyJoaXN0b3J5IjpbLTYyNzc1MzIzMywtMTEyNjI4NjE4MSwtMT
+M1NjA1Mjc2Ml19
 -->
