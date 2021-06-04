@@ -26,11 +26,7 @@ Dataframe `pivot_table` function is similar to the pivot in Excel Tables
 #### Excel files used in this post
 * Excel files used in this post can be found at
 	* [https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/pivot_data_1.xlsx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/pivot_data_1.xlsx)
-* Open the folder in Visual Studio Code
-* Create and work on python files in this folder
-
-The excel files should look like the image below 
-![excel_file_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/all_gen_data.png)
+	* 
 
 ### Example: Getting values
 ```python
@@ -54,6 +50,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODI0MTcyOCwtMTEyNjI4NjE4MSwtMT
+eyJoaXN0b3J5IjpbMTAwOTEzNzY1OSwtMTEyNjI4NjE4MSwtMT
 M1NjA1Mjc2Ml19
 -->
