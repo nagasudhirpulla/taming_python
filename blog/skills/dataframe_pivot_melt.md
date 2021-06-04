@@ -1,5 +1,5 @@
 
-## Skill - Change Pandas Dataframe dimensions using pivot and melt
+## Skill - Reshaping Pandas Dataframe using pivot and melt
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -18,7 +18,7 @@ Pandas is a python library.
 
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
-In this post, we will learn how to change the dimension of  DataFrame using `pivot` and `melt` functions
+In this post, we will learn how to reshape a pandas DataFrame using `pivot` and `melt` functions
 <hr/>
 
 Dataframe Pivot function is similar to the pivot in Excel Tables
@@ -166,5 +166,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MzEyNTEzNl19
+eyJoaXN0b3J5IjpbLTEzNTYwNTI3NjJdfQ==
 -->
