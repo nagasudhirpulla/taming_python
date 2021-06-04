@@ -65,9 +65,8 @@ Video for this post can be found [here](https://youtu.be/VMvsDTpofBc)
 
 <hr/>
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/WrongTechnicalMemory?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
+### Online Interpreter
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/03_subset_data.html#min-tut-03-subset
@@ -84,7 +83,7 @@ JhbWUgY29sdW1uc1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxh
 XG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dG
 hvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25f
 c2tpbGxcbmRhdGU6ICcyMDIwLTA1LTA2J1xuIiwiaGlzdG9yeS
-I6Wzc1MDE1ODUwOCwxNDkwOTkxNDk4LC0xNjcxOTIxNjkyLC00
+I6WzYxMTg0MDAyNSwxNDkwOTkxNDk4LC0xNjcxOTIxNjkyLC00
 NzM5Njc2NzgsMjA5Nzc2NTk2OSw5OTA1NTUxMiwtNjUzMjEyNz
 c5XX0=
 -->
