@@ -18,7 +18,7 @@ Pandas is a python library.
 
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
-In this post, we will learn how to reshape a pandas DataFrame using `pivot`, `pivot_table` and `melt` functions
+In this post, we will learn how to reshape a pandas DataFrame using `pivot` and `melt` functions
 <hr/>
 
 Dataframe `pivot` function is similar to the pivot in Excel Tables
@@ -75,8 +75,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTU3NDI3LC0yNzQ0NTk3OTUsMTIxMT
-EzODg1MCwxODI5MzE5ODAxLDY0ODYyNzE4MiwxMjE0MjEzNzEs
-ODU4MDU4NzQzLDEwMDkxMzc2NTksLTExMjYyODYxODEsLTEzNT
-YwNTI3NjJdfQ==
+eyJoaXN0b3J5IjpbLTQ0NTEzNzM4OCwtMjc0NDU5Nzk1LDEyMT
+ExMzg4NTAsMTgyOTMxOTgwMSw2NDg2MjcxODIsMTIxNDIxMzcx
+LDg1ODA1ODc0MywxMDA5MTM3NjU5LC0xMTI2Mjg2MTgxLC0xMz
+U2MDUyNzYyXX0=
 -->
