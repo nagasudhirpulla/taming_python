@@ -30,8 +30,8 @@ Dataframe `pivot` function is similar to the pivot in Excel Tables
 
 
 ![pivot_melt_illustration](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pivot_melt_illustration.png)
-* As shown in the above image, using `pivot`, we can convert column data into header.
-* As shown in the above image, using `melt`, we can convert header data into a column data.
+* Using `pivot` function, we can convert column data into header.
+* Using `melt` function, we can convert header data into a column data.
 
 ### pivot example
 ```python
@@ -75,7 +75,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU5MDg5Myw2Nzc4NTY0MTAsLTI3ND
+eyJoaXN0b3J5IjpbLTE4NjA0NzkzNyw2Nzc4NTY0MTAsLTI3ND
 Q1OTc5NSwxMjExMTM4ODUwLDE4MjkzMTk4MDEsNjQ4NjI3MTgy
 LDEyMTQyMTM3MSw4NTgwNTg3NDMsMTAwOTEzNzY1OSwtMTEyNj
 I4NjE4MSwtMTM1NjA1Mjc2Ml19
