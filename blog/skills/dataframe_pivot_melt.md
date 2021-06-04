@@ -85,75 +85,8 @@ sidewinder          8
 '''
 ```
 
-### Example: Setting values
-```python
-import pandas as pd
-
-# create a dataframe with column names and row indexes
-df = pd.DataFrame([[2, 3], [5, 6], [8, 9]],
-     index=['cobra', 'viper', 'sidewinder'],
-     columns=['max_speed', 'shield'])
-print(df)
-'''
-            max_speed  shield
-cobra               2       3
-viper               5       6
-sidewinder          8       9
-'''
-
-# set a single value for rows with indexes 'viper', 'sidewinder' 
-# and column 'shield'
-df.loc[['viper', 'sidewinder'], ['shield']] = 30
-print(df)
-'''
-            max_speed  shield
-cobra               2       3
-viper               5      30
-sidewinder          8      30
-'''
-
-# set a single value of all columns of a row with index 'cobra'
-df.loc['cobra'] = 10
-print(df)
-'''
-            max_speed  shield
-cobra              10      10
-viper               5      30
-sidewinder          8      30
-'''
-
-# set a single value of all the rows with column name 'max_speed'
-df.loc[:, 'max_speed'] = 30
-print(df)
-'''
-            max_speed  shield
-cobra              30      10
-viper              30      30
-sidewinder         30      30
-'''
-
-# set a single for all columns of rows that satisfy a condition
-df.loc[df['shield'] > 25] = 0
-print(df)
-'''
-            max_speed  shield
-cobra              30      10
-viper               0       0
-sidewinder          0       0
-'''
-```
-
-A similar function is [iloc](https://nagasudhir.blogspot.com/2020/05/using-iloc-function-of-dataframe.html), but it uses row and column positions to get a subset of DataFrame
-
-### Video
-Video for this post can be found [here](https://youtu.be/e7wKqI7feRI)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e7wKqI7feRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
-
-### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html
@@ -166,6 +99,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2NjE1ODMyLC0xMTI2Mjg2MTgxLC0xMz
-U2MDUyNzYyXX0=
+eyJoaXN0b3J5IjpbLTE5Mjk1MzEyOTksLTExMjYyODYxODEsLT
+EzNTYwNTI3NjJdfQ==
 -->
