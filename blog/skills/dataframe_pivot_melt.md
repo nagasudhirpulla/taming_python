@@ -25,64 +25,7 @@ Dataframe `pivot_table` function is similar to the pivot in Excel Tables
 
 ### Example: Getting values
 ```python
-import pandas as pd
 
-# create a dataframe with column names and row indexes
-df = pd.DataFrame([[2, 3], [5, 6], [8, 9]],
-     index=['cobra', 'viper', 'sidewinder'],
-     columns=['max_speed', 'shield'])
-print(df)
-'''
-            max_speed  shield
-cobra               2       3
-viper               5       6
-sidewinder          8       9
-'''
-
-# get a single row with index 'viper'
-print(df.loc['viper'])
-# we can see that it returns the row as a series
-'''
-max_speed    5
-shield       6
-Name: viper, dtype: int64
-'''
-
-# get two rows with index 'viper' and 'sidewinder'
-print(df.loc[['viper', 'sidewinder']])
-# we can see that it returns the the subset DataFrame
-'''
-            max_speed  shield
-viper               5       6
-sidewinder          8       9
-'''
-
-# get cell value with row index 'cobra' and column name 'shield'
-print(df.loc['cobra', 'shield'])
-# this should print 3
-
-# get rows starting from 'cobra' till 'viper' and column 'max_speed'
-print(df.loc['cobra':'viper', 'max_speed'])
-# since we asked for only one column we got a series
-'''
-cobra    2
-viper    5
-Name: max_speed, dtype: int64
-'''
-
-# get rows with values in 'shield' column greater than 6
-print(df.loc[df['shield'] > 6])
-'''
-            max_speed  shield
-sidewinder          8       9
-'''
-
-# get rows with values in 'shield' column greater than 6, but return only 'max_speed' column
-print(df.loc[df['shield'] > 6, ['max_speed']])
-'''
-            max_speed
-sidewinder          8
-'''
 ```
 
 
@@ -102,6 +45,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzc1MzIzMywtMTEyNjI4NjE4MSwtMT
+eyJoaXN0b3J5IjpbMTI5NTc5MTk0NiwtMTEyNjI4NjE4MSwtMT
 M1NjA1Mjc2Ml19
 -->
