@@ -46,15 +46,9 @@ import  pandas  as  pd
 import  datetime  as  dt
 
 df = pd.read_excel('melt_data_1.xlsx')
-
 print(df)
 
-  
-
-#%%
-
 df1 = df.melt(id_vars=["id"])
-
 print(df1)
 ```
 
@@ -75,7 +69,7 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjUxMTA0NzcsMTIxNDIxMzcxLDg1OD
-A1ODc0MywxMDA5MTM3NjU5LC0xMTI2Mjg2MTgxLC0xMzU2MDUy
-NzYyXX0=
+eyJoaXN0b3J5IjpbNjQ4NjI3MTgyLDEyMTQyMTM3MSw4NTgwNT
+g3NDMsMTAwOTEzNzY1OSwtMTEyNjI4NjE4MSwtMTM1NjA1Mjc2
+Ml19
 -->
