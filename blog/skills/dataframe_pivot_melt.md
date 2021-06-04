@@ -23,9 +23,9 @@ In this post, we will learn how to reshape a pandas DataFrame using `pivot`, `pi
 
 Dataframe `pivot_table` function is similar to the pivot in Excel Tables
 
-#### excel files used in this post
-* csv files used in this post can be found at
-	* [https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/gen_schedules.csv](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/gen_schedules.csv)
+#### Excel files used in this post
+* Excel files used in this post can be found at
+	* [https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/pivot_data_1.xlsx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/pivot_data_1.xlsx)
 * Open the folder in Visual Studio Code
 * Create and work on python files in this folder
 
@@ -54,6 +54,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzM5NTY2MjUsLTExMjYyODYxODEsLT
-EzNTYwNTI3NjJdfQ==
+eyJoaXN0b3J5IjpbLTM4ODI0MTcyOCwtMTEyNjI4NjE4MSwtMT
+M1NjA1Mjc2Ml19
 -->
