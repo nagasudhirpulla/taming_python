@@ -21,7 +21,7 @@ Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020
 In this post, we will learn how to change the dimension of  DataFrame using `pivot` and `melt` functions
 <hr/>
 
-
+Dataframe Pivot function is similar to the pivot in Excel Tables
 
 ### Example: Getting values
 ```python
@@ -166,5 +166,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzI1ODY2MV19
+eyJoaXN0b3J5IjpbMTg1MzEyNTEzNl19
 -->
