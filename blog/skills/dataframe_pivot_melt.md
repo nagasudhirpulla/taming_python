@@ -41,7 +41,7 @@ import  datetime  as  dt
 df = pd.read_excel('pivot_data_1.xlsx')
 print(df)
 
-df1 = df.pivot(index="id", columns="attribute", values="value")
+df1 = df.pivot(index="name", columns="date", values="sales")
 print(df1)
 ```
 * Pivot function will throw error if the combination of index and attribute columns have duplicate values. If the values column values are all numeric values, then [pivot_table](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.pivot_table.html) can pivot the dataframe along with aggregating the values with duplicate index-attribute values
@@ -54,7 +54,7 @@ import  datetime  as  dt
 df = pd.read_excel('melt_data_1.xlsx')
 print(df)
 
-df1 = df.melt(id_vars=["id"])
+df1 = df.melt(id_vars=["name"])
 print(df1)
 ```
 
@@ -75,8 +75,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjA0NzkzNyw2Nzc4NTY0MTAsLTI3ND
-Q1OTc5NSwxMjExMTM4ODUwLDE4MjkzMTk4MDEsNjQ4NjI3MTgy
-LDEyMTQyMTM3MSw4NTgwNTg3NDMsMTAwOTEzNzY1OSwtMTEyNj
-I4NjE4MSwtMTM1NjA1Mjc2Ml19
+eyJoaXN0b3J5IjpbOTQ2MDUyODY4LC0xODYwNDc5MzcsNjc3OD
+U2NDEwLC0yNzQ0NTk3OTUsMTIxMTEzODg1MCwxODI5MzE5ODAx
+LDY0ODYyNzE4MiwxMjE0MjEzNzEsODU4MDU4NzQzLDEwMDkxMz
+c2NTksLTExMjYyODYxODEsLTEzNTYwNTI3NjJdfQ==
 -->
