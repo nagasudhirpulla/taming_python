@@ -58,6 +58,10 @@ df1 = df.melt(id_vars=["name"])
 print(df1)
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/uCx0soWPj9E)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uCx0soWPj9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr/>
 
 ### Online Interpreter
@@ -75,8 +79,9 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2MDUyODY4LC0xODYwNDc5MzcsNjc3OD
-U2NDEwLC0yNzQ0NTk3OTUsMTIxMTEzODg1MCwxODI5MzE5ODAx
-LDY0ODYyNzE4MiwxMjE0MjEzNzEsODU4MDU4NzQzLDEwMDkxMz
-c2NTksLTExMjYyODYxODEsLTEzNTYwNTI3NjJdfQ==
+eyJoaXN0b3J5IjpbODc1NTI3NDYxLDk0NjA1Mjg2OCwtMTg2MD
+Q3OTM3LDY3Nzg1NjQxMCwtMjc0NDU5Nzk1LDEyMTExMzg4NTAs
+MTgyOTMxOTgwMSw2NDg2MjcxODIsMTIxNDIxMzcxLDg1ODA1OD
+c0MywxMDA5MTM3NjU5LC0xMTI2Mjg2MTgxLC0xMzU2MDUyNzYy
+XX0=
 -->
