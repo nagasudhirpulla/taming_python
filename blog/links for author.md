@@ -4,8 +4,6 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 
 ### TODOS
-* change dataframe dimensions using pivot and melt
-* in keyword in python - https://www.geeksforgeeks.org/python-in-keyword/
 * bubble map geographic plots using folium 
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
@@ -19,11 +17,11 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjM3NjM5NDcsMzk0NTM3ODY5LC0xMz
-kxNDk1NjA1LC0yMjE4ODk5NzUsNjYxNjc0MDE0LDkyNjc5NTMw
-NCwtMzk4NTQyNjAwLDExNzIyMzYyODMsMTg1MjAwNjAyNSwyMT
-IxNTc3MTQsLTc3NDg2MDE0MywtNTIwNDcxOTM4LDczOTA3Mzc3
-OSwtOTYxNTgzNzgzLC0xNjgzOTYxMzYsLTM0OTQ0ODM3MywxOD
-gwMjAyODExLC0xMjkyNDE0NzY5LDE2MzUwMDE4NjksLTE5Mzkw
-NDc2ODddfQ==
+eyJoaXN0b3J5IjpbLTMyMzk4ODE0OSwtMTkyMzc2Mzk0NywzOT
+Q1Mzc4NjksLTEzOTE0OTU2MDUsLTIyMTg4OTk3NSw2NjE2NzQw
+MTQsOTI2Nzk1MzA0LC0zOTg1NDI2MDAsMTE3MjIzNjI4MywxOD
+UyMDA2MDI1LDIxMjE1NzcxNCwtNzc0ODYwMTQzLC01MjA0NzE5
+MzgsNzM5MDczNzc5LC05NjE1ODM3ODMsLTE2ODM5NjEzNiwtMz
+Q5NDQ4MzczLDE4ODAyMDI4MTEsLTEyOTI0MTQ3NjksMTYzNTAw
+MTg2OV19
 -->
