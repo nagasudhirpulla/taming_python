@@ -15,13 +15,15 @@ A sample python demo project with virtual environment is hosted at https://githu
 
 You can download the project files [here](https://github.com/nagasudhirpulla/sample_python_script_template.git)
 
-### Scenario - You are trying to rebuild virtual environment from existing requirements.txt
-
+### Scenario - You are trying to create a virtual environment from existing requirements.txt
+Run / Double click the following batch files in the below sequence
+* create_env.bat
+* install_env.bat
 
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjExNTU2OCwtMTc2ODE3NzYwN119
+eyJoaXN0b3J5IjpbMTY2Njk5NzMxMSwtMTc2ODE3NzYwN119
 -->
