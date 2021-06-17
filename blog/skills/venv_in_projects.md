@@ -24,12 +24,19 @@ Run / Double click the following batch files in the below sequence
 Run / Double click the following batch file
 * freeze_env.bat
 
-### Run the 
+### Scenario - Run the python project with the created virtual environment
+Run / Double click the following batch file
+* run.bat
+ 
+### Each batch file explained
+* create_env.bat - creates a new virtual environment
+* install_env.bat - installs packages from ```requirements.txt``` in the virtual environment
+* activate_env.bat - activates the created virtual environment
+* freeze_env.bat - writes all the virtual environment packages into ```requirements.txt``` file 
  
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzM1OTI1MjksLTE3NjgxNzc2MDddfQ
-==
+eyJoaXN0b3J5IjpbMTcwNTI4OTQ1OSwtMTc2ODE3NzYwN119
 -->
