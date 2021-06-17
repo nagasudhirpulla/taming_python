@@ -15,11 +15,13 @@ A sample python demo project with virtual environment is hosted at https://githu
 
 You can download the project files [here](https://github.com/nagasudhirpulla/sample_python_script_template.git)
 
+### Scenario - You are trying to rebuild virtual environment from existing requirements.txt
+
 
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjgxNzc2MDddfQ==
+eyJoaXN0b3J5IjpbLTQzMjExNTU2OCwtMTc2ODE3NzYwN119
 -->
