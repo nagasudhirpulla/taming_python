@@ -15,6 +15,8 @@ A sample python demo project with virtual environment is hosted at https://githu
 
 You can download the project files [here](https://github.com/nagasudhirpulla/sample_python_script_template.git)
 
+![vs_code_open_settings_json](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sample_python_project_virtual_env_folder.PNG)
+
 ### Scenario - Create a virtual environment from existing requirements.txt
 Run / Double click the following batch files in the below sequence
 * create_env.bat
@@ -38,5 +40,6 @@ Run / Double click the following batch file
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTI4OTQ1OSwtMTc2ODE3NzYwN119
+eyJoaXN0b3J5IjpbMjEzMDUyMDg2NCwxNzA1Mjg5NDU5LC0xNz
+Y4MTc3NjA3XX0=
 -->
