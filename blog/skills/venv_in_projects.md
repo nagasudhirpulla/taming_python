@@ -10,10 +10,12 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-### Demo Project w
-* Each installed python package has a particular version number.
-* Sometimes we may desire to have different version numbers of the same package for different python projects (may be due to compatibility issues).
-* This can be solved by creating a virtual environment and using it in our project
+### Demo Project with virtual environment
+A sample python demo project with virtual environment is hosted at https://github.com/nagasudhirpulla/sample_python_script_template
+
+You can download the project files [here](https://github.com/nagasudhirpulla/sample_python_script_template.git)
+
+
 
 ### Introduction
 * A virtual environment has its own python packages isolated from the default system python environment and its installed packages
@@ -64,5 +66,5 @@ You can the video on this post [here](https://youtu.be/Gp7Eb4D1qnI)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODc1NDM0OV19
+eyJoaXN0b3J5IjpbLTM4NzEzOTc5Nl19
 -->
