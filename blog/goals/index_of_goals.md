@@ -39,6 +39,7 @@ Here are the goals and skills in this tutorial series
 #### Package management skills
 * [Install and manage python packages](https://nagasudhir.blogspot.com/2020/05/install-and-manage-packages-in-python.html)
 * [Virtual environments using 'venv'](https://nagasudhir.blogspot.com/2020/05/virtual-environments-using-venv.html)
+* [Using virtual environments in python projects with venv](https://nagasudhir.blogspot.com/2021/06/using-virtual-environments-in-python.html)
 * [Install a python package from source code](https://nagasudhir.blogspot.com/2020/06/install-python-package-from-source-code.html)
 * [Using PyInstaller for distributing python program](https://nagasudhir.blogspot.com/2020/06/using-pyinstaller-for-distributing.html)
 
@@ -96,11 +97,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE5NDkyOTAyMzEsLTE2Mj
-c3NDU4MDIsLTkzODUwMDY4OSwtMTg1NTMwNTg2MywtMTE0NjMw
-NDYxOSwxNjU2Njk0MDAxLDEyNTkyMzEzNTcsMjU1NjM3NTM1LD
-EzOTg4NzE0NTUsMTgwMjczNzY1NSwxNjU2MDMzMDEwLDEwMzIz
-MzMyMTEsLTEyNzIyNTUyODAsNzgxMzA3MTgwLDE2NzQ2NTAyMj
-YsLTEzNzU0MzU0MTksLTQ3ODc2OTgzLDE4MzAzMjk0NDcsMTIx
-NjQ4Mjg3MywxMjc2NjQyMDc1XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTk4NzcxNjE0NCwtMTk0OT
+I5MDIzMSwtMTYyNzc0NTgwMiwtOTM4NTAwNjg5LC0xODU1MzA1
+ODYzLC0xMTQ2MzA0NjE5LDE2NTY2OTQwMDEsMTI1OTIzMTM1Ny
+wyNTU2Mzc1MzUsMTM5ODg3MTQ1NSwxODAyNzM3NjU1LDE2NTYw
+MzMwMTAsMTAzMjMzMzIxMSwtMTI3MjI1NTI4MCw3ODEzMDcxOD
+AsMTY3NDY1MDIyNiwtMTM3NTQzNTQxOSwtNDc4NzY5ODMsMTgz
+MDMyOTQ0NywxMjE2NDgyODczXX0=
 -->
