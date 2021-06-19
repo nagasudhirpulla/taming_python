@@ -38,8 +38,17 @@ Run / Double click the following batch file
  
 <hr/>
 
+### Further Reading
+* https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
+
+### Video
+
+You can the video on this post [here](https://youtu.be/1FA83Ut5LL0)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1FA83Ut5LL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDcyNDU2MiwxODY3MjM2ODczLDE3MD
-UyODk0NTksLTE3NjgxNzc2MDddfQ==
+eyJoaXN0b3J5IjpbLTE0MDc2NzU5ODIsMTY0NDcyNDU2MiwxOD
+Y3MjM2ODczLDE3MDUyODk0NTksLTE3NjgxNzc2MDddfQ==
 -->
