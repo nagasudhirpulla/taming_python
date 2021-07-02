@@ -33,7 +33,18 @@ splitDates = pd.date_range(startDt, endDt, freq=dt.timedelta(days=3)).tolist()
 print(splitDates)
 ```
 
+### split time interval into a fixed number of intervals
+```python
+# import pandas module
+import pandas as pd
+import datetime as dt
 
+startDt = dt.datetime(2020,1,1)
+endDt = dt.datetime(2020,1,20)
+
+splitDates = pd.date_range(startDt, endDt, periods=15)
+print(splitDates)
+```
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -44,5 +55,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzUyOTE5MDAsMTU4NTMzNDcwNF19
+eyJoaXN0b3J5IjpbMTU4MDI2NTQ1NywxNTg1MzM0NzA0XX0=
 -->
