@@ -23,9 +23,10 @@ pandas ```date_range``` function can be used to split a time range based on a va
 import pandas as pd
 
 startDt = dt.datetime(2020,1,1)
-endDt = dt.datetime(2020,2,1)
+endDt = dt.datetime(2020,1,20)
 
-splitDates = pd.date_range(startDt, endDt, freq=)
+splitDates = pd.date_range(startDt, endDt, freq='D')
+print()
 
 print('The series is')
 print(s)
@@ -65,5 +66,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA3NTg0MTBdfQ==
+eyJoaXN0b3J5IjpbMTU4NTMzNDcwNF19
 -->
