@@ -1,4 +1,4 @@
-## Skill - split a time interval using pandas date_range
+## Skill - Split a time interval using pandas date_range
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -53,5 +53,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjA0ODE5NSwxNTg1MzM0NzA0XX0=
+eyJoaXN0b3J5IjpbLTE4Mzg4MzUxMDEsMTE5MjA0ODE5NSwxNT
+g1MzM0NzA0XX0=
 -->
