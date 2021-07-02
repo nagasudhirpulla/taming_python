@@ -13,13 +13,8 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 <hr/>
-pandas date_range function can be used to split a time range based on a variety of frequency op
-```json
-{
-"firstname":"John",
-"lastname": "Smith"
-}
-```
+pandas date_range function can be used to split a time range based on a variety of frequency options
+
 
 ### converting pandas series to dictionary using to_dict function
 ```python
@@ -61,16 +56,11 @@ dtype: object
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
-### Video
-You can the video on this post [here](https://youtu.be/N_gx9mxl4lo)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/N_gx9mxl4lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### References
-* Official docs- https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.to_dict.html
+* Official docs- https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.date_range.html
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4NTc2OV19
+eyJoaXN0b3J5IjpbLTE1NjU2MDk3N119
 -->
