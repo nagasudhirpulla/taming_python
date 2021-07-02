@@ -1,4 +1,4 @@
-## Skill - stime interval using pandas date_range
+## Skill - split a time interval using pandas date_range
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -21,41 +21,19 @@ pandas ```date_range``` function can be used to split a time range based on a va
 ```python
 # import pandas module
 import pandas as pd
+import datetime as dt
 
 startDt = dt.datetime(2020,1,1)
 endDt = dt.datetime(2020,1,20)
 
 splitDates = pd.date_range(startDt, endDt, freq='D')
-print()
+print(splitDates)
 
-print('The series is')
-print(s)
-
-# convert series to dictionary using to_dict() function on series
-sDict = s.to_dict()
-
-print('The dictionary derived from series is ')
-print(sDict)
-# This should print
-# {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'f': 6}
+splitDates = pd.date_range(startDt, endDt, freq=dt.timedelta(days=3)).tolist()
+print(splitDates)
 ```
 
-### converting dictionary to a pandas series using pd.Series
-```python
-import pandas as pd
 
-d = {"firstName":"John", "lastName": "Doe"}
-
-s = pd.Series(d)
-
-print(s)
-# this will print
-"""
-firstName    John
-lastName      Doe
-dtype: object
-"""
-```
 
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
@@ -66,5 +44,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3NjQxNDA2LDE1ODUzMzQ3MDRdfQ==
+eyJoaXN0b3J5IjpbLTEyMzUyOTE5MDAsMTU4NTMzNDcwNF19
 -->
