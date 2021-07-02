@@ -1,4 +1,4 @@
-## Skill - Convert pandas Series to dictionary and vice-versa in python
+## Skill - Iterate over a time interval using pandas date_range
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -8,6 +8,7 @@
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
+* [datetime module in Python]()
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
@@ -76,12 +77,6 @@ You can the video on this post [here](https://youtu.be/N_gx9mxl4lo)
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
-
-
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3NzMxNjQ4XX0=
+eyJoaXN0b3J5IjpbODIwMjIwNTE4XX0=
 -->
