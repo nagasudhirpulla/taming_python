@@ -8,7 +8,7 @@
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
-* [datetime module in Python]()
+* [datetime module in Python](https://nagasudhir.blogspot.com/2020/05/datetime-library-in-python.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
@@ -78,5 +78,5 @@ You can the video on this post [here](https://youtu.be/N_gx9mxl4lo)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwMjIwNTE4XX0=
+eyJoaXN0b3J5IjpbLTQxNTY4ODc2OV19
 -->
