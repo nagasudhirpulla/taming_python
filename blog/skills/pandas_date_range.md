@@ -13,7 +13,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 <hr/>
-pandas date_range function can be used to split a time range based on a variety of frequency options
+pandas ```date_range``` function can be used to split a time range based on a variety of frequency options
 
 
 ### converting pandas series to dictionary using to_dict function
@@ -62,5 +62,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjU2MDk3N119
+eyJoaXN0b3J5IjpbMjcxOTcwNjQ3XX0=
 -->
