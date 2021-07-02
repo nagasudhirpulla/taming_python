@@ -1,4 +1,4 @@
-## Skill - Iterate over a time interval using pandas date_range
+## Skill - stime interval using pandas date_range
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -66,5 +66,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTMzNDcwNF19
+eyJoaXN0b3J5IjpbMjg3NjQxNDA2LDE1ODUzMzQ3MDRdfQ==
 -->
