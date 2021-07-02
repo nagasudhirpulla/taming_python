@@ -25,6 +25,8 @@ import pandas as pd
 startDt = dt.datetime(2020,1,1)
 endDt = dt.datetime(2020,2,1)
 
+splitDates = pd.date_range(startDt, endDt, freq=)
+
 print('The series is')
 print(s)
 
@@ -63,5 +65,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDE2MjI4M119
+eyJoaXN0b3J5IjpbLTIxMDA3NTg0MTBdfQ==
 -->
