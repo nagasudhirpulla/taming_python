@@ -19,14 +19,13 @@ pandas ```date_range``` function can be used to split a time range based on a va
 
 ### split time interval by a specified time period
 ```python
-# import pandas module
 import pandas as pd
 import datetime as dt
 
 startDt = dt.datetime(2020,1,1)
 endDt = dt.datetime(2020,1,20)
 
-splitDates = pd.date_range(startDt, endDt, freq='D')
+splitDates = pd.date_range(startDt, endDt, freq='D').tolist()
 print(splitDates)
 
 splitDates = pd.date_range(startDt, endDt, freq=dt.timedelta(days=3)).tolist()
@@ -35,14 +34,13 @@ print(splitDates)
 
 ### split time interval into a fixed number of intervals
 ```python
-# import pandas module
 import pandas as pd
 import datetime as dt
 
 startDt = dt.datetime(2020,1,1)
 endDt = dt.datetime(2020,1,20)
 
-splitDates = pd.date_range(startDt, endDt, periods=15)
+splitDates = pd.date_range(startDt, endDt, periods=15).tolist()
 print(splitDates)
 ```
 
@@ -55,5 +53,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDI2NTQ1NywxNTg1MzM0NzA0XX0=
+eyJoaXN0b3J5IjpbMTE5MjA0ODE5NSwxNTg1MzM0NzA0XX0=
 -->
