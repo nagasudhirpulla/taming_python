@@ -12,14 +12,8 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-Pandas is a python library.
-**DataFrame** is a data structure provided by the pandas library
-
-**Series** is like a column of a pandas dataframe. It has index, values and a series name
-The image shown below tries to describe the anatomy of a DataFrame
 <hr/>
-In this post we are going to learn how to convert a pandas series into a dictionary using the `to_dict` function on the series. Dictionary is a set of key value pairs. An example can be seen below
-
+pandas date_range function can be used to split a time range based on a variety of frequency op
 ```json
 {
 "firstname":"John",
@@ -78,5 +72,5 @@ You can the video on this post [here](https://youtu.be/N_gx9mxl4lo)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTY4ODc2OV19
+eyJoaXN0b3J5IjpbNDk4NTc2OV19
 -->
