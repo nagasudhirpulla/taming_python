@@ -13,16 +13,17 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 <hr/>
+
 pandas ```date_range``` function can be used to split a time range based on a variety of frequency options
 
 
-### converting pandas series to dictionary using to_dict function
+### split time interval by a specified time period
 ```python
 # import pandas module
 import pandas as pd
 
-# create a series for demonstration
-s = pd.Series([1,2,3,4,5,6], index=['a', 'b', 'c', 'd', 'e', 'f'])
+startDt = dt.datetime(2020,1,1)
+endDt = dt.datetime(2020,2,1)
 
 print('The series is')
 print(s)
@@ -62,5 +63,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxOTcwNjQ3XX0=
+eyJoaXN0b3J5IjpbLTE4NDE2MjI4M119
 -->
