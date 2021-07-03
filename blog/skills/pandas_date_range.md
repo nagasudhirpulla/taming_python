@@ -46,6 +46,11 @@ splitDates = pd.date_range(startDt, endDt, periods=15).tolist()
 print(splitDates)
 ```
 
+### Video
+You can the video on this post [here](https://youtu.be/tYKlLzAyv0Y)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tYKlLzAyv0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
@@ -55,6 +60,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM1MjM1MTAzLDExOTIwNDgxOTUsMTU4NT
-MzNDcwNF19
+eyJoaXN0b3J5IjpbOTkxNTk0NTU1LDUzNTIzNTEwMywxMTkyMD
+Q4MTk1LDE1ODUzMzQ3MDRdfQ==
 -->
