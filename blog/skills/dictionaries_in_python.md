@@ -104,9 +104,6 @@ Video for this post can be found [here](https://youtu.be/nJWeekaXXUU)
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/PaleTealFact?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -115,8 +112,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpY3Rpb25hcmllcyBpbi
 BQeXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0
 ZTogJzIwMjAtMDUtMDEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dG
 hvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6
-IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOls2Mz
-kyNTUzNzMsMzkxMDY5MDYyLC01MzE3MDE1MjUsNjY0MTU3MTE0
-LC04MTc5NjIxMDEsLTE0MjQzODE5NjYsLTQ1NDEwODgzOCwtMT
-E3MTAzODE5MF19
+IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxNT
+QxODA2NzYxLDYzOTI1NTM3MywzOTEwNjkwNjIsLTUzMTcwMTUy
+NSw2NjQxNTcxMTQsLTgxNzk2MjEwMSwtMTQyNDM4MTk2NiwtND
+U0MTA4ODM4LC0xMTcxMDM4MTkwXX0=
 -->
