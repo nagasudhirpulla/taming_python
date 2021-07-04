@@ -57,12 +57,6 @@ The video for this post can be found [here](https://youtu.be/JqQPgGKzp9I)
 
 <hr/>
 
-
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/LimeWiltedRouter?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
-<hr/>
-
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 
@@ -71,7 +65,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZvciBsb29wIGluIHB5dG
 hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 bGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbC
 dcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRh
-dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6WzM3MDYxNz
-Y5NiwxODYyNDcxMzE5LC05NjgzNjA0MDEsMTUyNDA2MDk3MSwx
-MzQ3NDgxNDgsLTE0NTk3NDg5NDddfQ==
+dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6WzEwNDE2Mz
+Y4MDIsMzcwNjE3Njk2LDE4NjI0NzEzMTksLTk2ODM2MDQwMSwx
+NTI0MDYwOTcxLDEzNDc0ODE0OCwtMTQ1OTc0ODk0N119
 -->
