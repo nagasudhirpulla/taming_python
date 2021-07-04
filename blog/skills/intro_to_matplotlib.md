@@ -70,7 +70,7 @@ You can the video on this post [here](https://youtu.be/Cy789_J-RWY)
 <hr/>
 
 ### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/
 
 ### Basic Plot Example
 <iframe src="https://trinket.io/embed/python3/b3c8e34720" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -89,10 +89,10 @@ RsaWJcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMDgnXG50YWdzOiAncHl0aG9uLCBsZWFybmluZy
 wgdHV0b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRl
 Z29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3
-J5IjpbOTcwMDczMzMxLDU5NTk3NTI4NywtMjExNDg0NzUyMywz
-MjQzMzg4MzgsLTE3MTI2MDQ0MiwxMjIwNjkzNjI3LDIxNDQzMT
-Q5NzYsLTcxMzM4NDExNyw3NjUxNDYwODcsMzMyMjg3NDQ1LDE0
-NjY5MDU1OTAsMTk3NTg3Njk2NCwtMTA5MDAyMzk5MCwtMjc4NT
-Q0MDM1LC0yMDU1MzA1NjQ1LC0xODIzNDE2NzU1LDUxMDUwOTc2
-OSwxMjIyODYwMjkwXX0=
+J5IjpbMTk0NTQzOTg5LDk3MDA3MzMzMSw1OTU5NzUyODcsLTIx
+MTQ4NDc1MjMsMzI0MzM4ODM4LC0xNzEyNjA0NDIsMTIyMDY5Mz
+YyNywyMTQ0MzE0OTc2LC03MTMzODQxMTcsNzY1MTQ2MDg3LDMz
+MjI4NzQ0NSwxNDY2OTA1NTkwLDE5NzU4NzY5NjQsLTEwOTAwMj
+M5OTAsLTI3ODU0NDAzNSwtMjA1NTMwNTY0NSwtMTgyMzQxNjc1
+NSw1MTA1MDk3NjksMTIyMjg2MDI5MF19
 -->
