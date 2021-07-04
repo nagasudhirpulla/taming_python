@@ -51,7 +51,7 @@ You can the video on this post [here](https://youtu.be/CjLShBVPRbw)
 <hr/>
 
 ### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/
 
 ### References
 * Awesome blog post on legend placement - https://jdhao.github.io/2018/01/23/matplotlib-legend-outside-of-axes/
@@ -65,8 +65,8 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE5MDMzMzksLTg4MTI1NzM5NSwtMT
-Q1NTA5NzU2Myw4NDc4NDA4NzksLTIxNDcxNjkxMzUsNzgzOTcw
-MzQ2LDEwNTYxNzQ3NzIsMTgwODExNzUyOSw0NTE2NjAwNDcsMT
-A2OTk4MTE4MF19
+eyJoaXN0b3J5IjpbLTE1MzM5NDMwODUsLTE3NjE5MDMzMzksLT
+g4MTI1NzM5NSwtMTQ1NTA5NzU2Myw4NDc4NDA4NzksLTIxNDcx
+NjkxMzUsNzgzOTcwMzQ2LDEwNTYxNzQ3NzIsMTgwODExNzUyOS
+w0NTE2NjAwNDcsMTA2OTk4MTE4MF19
 -->
