@@ -122,15 +122,6 @@ Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
-### grid of subplots example
-<iframe height="800px" width="100%" src="https://repl.it/repls/WryGummyMemwatch?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
-### uneven subplots grid example
-<iframe height="800px" width="100%" src="https://repl.it/repls/OutlandishSilentPoints?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
-### inset plot example
-<iframe height="800px" width="100%" src="https://repl.it/repls/DarkturquoiseFractalSpreadsheets?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### References
 *  subplot layouts official guide - https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html
 * another post - https://towardsdatascience.com/data-visualization-using-matplotlib-16f1aae5ce70
@@ -148,9 +139,10 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbNjA2MTU0
-ODQ5LC0zOTQxNTk0MjIsLTk3MDMwMTk0MiwtMTQzMTk4NjU1MC
-wtMTI2ODM3MjM5NywtNTA2NTEzODU1LC04MTA4MTQ4MDIsLTU2
-MDE3MzI4MCwtNzY1ODA0NTAxLDE0NjE5MTc1NDYsLTczNTE0Nj
-Y2MiwxMzIzNDMzMjQ3LDMwNzkwNDU3Ml19
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbODAyMTk0
+OTkyLDYwNjE1NDg0OSwtMzk0MTU5NDIyLC05NzAzMDE5NDIsLT
+E0MzE5ODY1NTAsLTEyNjgzNzIzOTcsLTUwNjUxMzg1NSwtODEw
+ODE0ODAyLC01NjAxNzMyODAsLTc2NTgwNDUwMSwxNDYxOTE3NT
+Q2LC03MzUxNDY2NjIsMTMyMzQzMzI0NywzMDc5MDQ1NzJdfQ==
+
 -->
