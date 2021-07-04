@@ -52,9 +52,6 @@ You can see the video for this post [here](https://youtu.be/8rwfxb7LHrI)
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/BurlywoodLeftSection?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -65,7 +62,7 @@ b25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5
-IjpbLTk1NTA1NzkzMCwxOTA0NDAxMDgxLC0xMjIyMTc2NDE2LC
+IjpbMTQ5ODA4NjE3NSwxOTA0NDAxMDgxLC0xMjIyMTc2NDE2LC
 0zNzk3MTc1NzYsNTQ2OTc4NTE3LDYxNDExNDQ0MiwxMjg2MjI1
 MTk2XX0=
 -->
