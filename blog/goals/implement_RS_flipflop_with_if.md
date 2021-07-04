@@ -56,9 +56,6 @@ The video for this post can be found [here](https://youtu.be/Os7ppbJh4To)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Os7ppbJh4To" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/BowedUnusualWheel?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEltcGxlbWVudCBSUyBmbG
@@ -66,7 +63,8 @@ lwLWZsb3AgbG9naWMgdXNpbmcgaWYgc3RhdGVtZW50IGFuZCB2
 YXJpYWJsZXNcbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZG
 F0ZTogJzIwMjAtMDctMTUnXG50YWdzOiAncHl0aG9uLCBsZWFy
 bmluZywgdGFtaW5nX3B5dGhvbl9nb2FsJ1xuY2F0ZWdvcmllcz
-ogdGFtaW5nX3B5dGhvbl9nb2FsXG4iLCJoaXN0b3J5IjpbMTQ3
-NTE4ODM4MiwtOTE0ODM4MjAsLTMyMDc1MjQwLC01NTkwOTE2Nj
-YsLTE3OTYwNDU2NTgsLTUzNjg3MjkzN119
+ogdGFtaW5nX3B5dGhvbl9nb2FsXG4iLCJoaXN0b3J5IjpbLTIx
+Mjg1MzIyMjEsMTQ3NTE4ODM4MiwtOTE0ODM4MjAsLTMyMDc1Mj
+QwLC01NTkwOTE2NjYsLTE3OTYwNDU2NTgsLTUzNjg3MjkzN119
+
 -->
