@@ -62,7 +62,7 @@ Video for this post can be found [here](https://youtu.be/KpEaEoaUDWE)
 <hr/>
 
 ### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/
 
 ### References
 * http://thomas-cokelaer.info/tutorials/python/functions.html
@@ -75,7 +75,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZ1Y250aW9ucyBpbiBweX
 Rob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMjMnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMzI1MT
-MwOTUzLC0xMjI4MDEwODQ5LC0xMjE0OTMxNjEwLDE0NTEwODI4
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstNjkxMT
+EyNzU3LC0xMjI4MDEwODQ5LC0xMjE0OTMxNjEwLDE0NTEwODI4
 NTZdfQ==
 -->
