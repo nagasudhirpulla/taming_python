@@ -83,9 +83,6 @@ Video for this post can be found [here](https://youtu.be/HIAlMVbiMjI)
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ or https://repl.it/
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/UnconsciousSmoggyPassword?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 <hr/>
 
 ### References
@@ -100,8 +97,8 @@ Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG50YW
 dzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9z
 a2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbG
-xcbiIsImhpc3RvcnkiOlsxNjU1NzQwNzc2LC04ODgzMTYxNSwx
-MTE4OTQxMjE2LDY5NDEwOTA5Nyw2OTQxMDkwOTcsLTI2OTQ5MD
-cwMywxMzA2Nzc4ODIxLC0yMTQzODI4NzE2LDEwNjgzNDEwMDAs
-NzMwOTk4MTE2XX0=
+xcbiIsImhpc3RvcnkiOlstMTU2MTExNjEyMiwxNjU1NzQwNzc2
+LC04ODgzMTYxNSwxMTE4OTQxMjE2LDY5NDEwOTA5Nyw2OTQxMD
+kwOTcsLTI2OTQ5MDcwMywxMzA2Nzc4ODIxLC0yMTQzODI4NzE2
+LDEwNjgzNDEwMDAsNzMwOTk4MTE2XX0=
 -->
