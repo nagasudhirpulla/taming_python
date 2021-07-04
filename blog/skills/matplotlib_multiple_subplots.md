@@ -120,7 +120,7 @@ Please take time to refer to this [official guide](https://matplotlib.org/3.1.0/
 <hr/>
 
 ### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/
 
 ### References
 *  subplot layouts official guide - https://matplotlib.org/3.1.0/tutorials/intermediate/gridspec.html
@@ -139,8 +139,8 @@ RzIGluIGEgZmlndXJlIHVzaW5nIE1hdHBsb3RsaWJcbmF1dGhv
 cjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMD
 knXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWws
 IHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW
-1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbODAyMTk0
-OTkyLDYwNjE1NDg0OSwtMzk0MTU5NDIyLC05NzAzMDE5NDIsLT
+1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTY1NjQz
+ODU0LDYwNjE1NDg0OSwtMzk0MTU5NDIyLC05NzAzMDE5NDIsLT
 E0MzE5ODY1NTAsLTEyNjgzNzIzOTcsLTUwNjUxMzg1NSwtODEw
 ODE0ODAyLC01NjAxNzMyODAsLTc2NTgwNDUwMSwxNDYxOTE3NT
 Q2LC03MzUxNDY2NjIsMTMyMzQzMzI0NywzMDc5MDQ1NzJdfQ==
