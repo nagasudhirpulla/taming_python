@@ -63,7 +63,7 @@ You can the video on this post [here](https://youtu.be/qzFOFP1hxvg)
 <hr/>
 
 ### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/
 
 ### References
 * Solution from stackoverflow post - https://stackoverflow.com/questions/31556446/how-to-draw-axis-in-the-middle-of-the-figure
@@ -81,8 +81,9 @@ xvdCBheGVzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1
 ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDUtMTQnXG50YWdzOi
 AncHl0aG9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTY4NjI0MDk2MywtMTA4
-Mjk5NDE1NCwtMTIyMDIyMjEwNSw2MjI1NDU2MDUsMTk1MjU3MT
-MwNCwxNTEwMjg1ODA3LC0xOTkwMzg0NSwtOTY2MDMzMzg3LC0x
-OTM3NDI1OTY3LC0xMTEzODE5MjM4LDM2NDMyNjA1Ml19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbLTEzNjU4NDQ2MDcsMTY4
+NjI0MDk2MywtMTA4Mjk5NDE1NCwtMTIyMDIyMjEwNSw2MjI1ND
+U2MDUsMTk1MjU3MTMwNCwxNTEwMjg1ODA3LC0xOTkwMzg0NSwt
+OTY2MDMzMzg3LC0xOTM3NDI1OTY3LC0xMTEzODE5MjM4LDM2ND
+MyNjA1Ml19
 -->
