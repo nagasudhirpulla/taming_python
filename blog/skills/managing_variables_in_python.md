@@ -45,9 +45,9 @@ z = x + y
 * http://thomas-cokelaer.info/tutorials/python/boolean.html#booleans
 
 ### Video
-You can see the video for this post [here](https://youtu.be/FMKUJ9Q605A)
+You can see the video for this post [here](https://youtu.be/8rwfxb7LHrI)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FMKUJ9Q605A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8rwfxb7LHrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
@@ -65,6 +65,7 @@ b25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxudGFnczogJ3
 B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaWFsLCB0YW1pbmdfcHl0
 aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3B5dGhvbl
 9za2lsbFxuZGF0ZTogJzIwMjAtMDQtMTUnXG4iLCJoaXN0b3J5
-IjpbMTkwNDQwMTA4MSwtMTIyMjE3NjQxNiwtMzc5NzE3NTc2LD
-U0Njk3ODUxNyw2MTQxMTQ0NDIsMTI4NjIyNTE5Nl19
+IjpbLTk1NTA1NzkzMCwxOTA0NDAxMDgxLC0xMjIyMTc2NDE2LC
+0zNzk3MTc1NzYsNTQ2OTc4NTE3LDYxNDExNDQ0MiwxMjg2MjI1
+MTk2XX0=
 -->
