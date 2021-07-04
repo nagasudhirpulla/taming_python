@@ -66,13 +66,13 @@ You can the video on this post [here](https://youtu.be/IYid4grFhA0)
 <hr/>
 
 ### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYwMTg0OTk5LC0xNjI0ODM0NzQ1LDE0Nj
-YwOTc3MTYsMTA1MDAxNDU0NCwtMTU2OTYxODY1MSwtMTc2NjM1
-MTE5M119
+eyJoaXN0b3J5IjpbLTc5MzE0MzMxLDU2MDE4NDk5OSwtMTYyND
+gzNDc0NSwxNDY2MDk3NzE2LDEwNTAwMTQ1NDQsLTE1Njk2MTg2
+NTEsLTE3NjYzNTExOTNdfQ==
 -->
