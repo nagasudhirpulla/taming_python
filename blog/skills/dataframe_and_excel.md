@@ -134,10 +134,6 @@ Video for this post can be found [here](https://youtu.be/uwVkySCgA3o)
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
-### You can practice here
-
-<iframe height="800px" width="100%" src="https://repl.it/repls/UnfitUnsteadyExpertise?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
 * *read_excel* documentation - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html
@@ -156,8 +152,9 @@ NlbCBhbmQgcGFuZGFzIERhdGFGcmFtZXNcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ2xlYXJuaW5nLCBweXRob2
 4sIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0
 YW1pbmdfcHl0aG9uX3NraWxsXG5kYXRlOiAnMjAyMC0wNS0wNC
-dcbiIsImhpc3RvcnkiOlstODEwMjkyNDUsLTc4NTkwNzU5OCwt
-MTcwODE3NjU5MSw0NzM4NTgwOTMsMTMzOTU2NDU0MywtMTE0OD
-U3OTMwMSwtMjAxMjE1OTczMywxNTk5NzY0NTAzLC04ODc4Mjkz
-OTUsMTc1OTQ1MTU4MSw2MTI5MzcxMjksMTI2Mjg0NTUwNl19
+dcbiIsImhpc3RvcnkiOlstMTEwODk3ODIyMywtODEwMjkyNDUs
+LTc4NTkwNzU5OCwtMTcwODE3NjU5MSw0NzM4NTgwOTMsMTMzOT
+U2NDU0MywtMTE0ODU3OTMwMSwtMjAxMjE1OTczMywxNTk5NzY0
+NTAzLC04ODc4MjkzOTUsMTc1OTQ1MTU4MSw2MTI5MzcxMjksMT
+I2Mjg0NTUwNl19
 -->
