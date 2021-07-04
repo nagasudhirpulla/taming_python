@@ -71,9 +71,6 @@ Video for this post can be found [here](https://youtu.be/hxF6pdQc5ZU)
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/DelectableSquareBuckets?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/03_subset_data.html#min-tut-03-subset
 
@@ -89,6 +86,6 @@ Rpb24gb2YgRGF0YUZyYW1lXG5hdXRob3I6IE5hZ2FzdWRoaXIg
 UHVsbGFcbmRhdGU6ICcyMDIwLTA1LTA2J1xudGFnczogJ2xlYX
 JuaW5nLCBweXRob24sIHRhbWluZ19weXRob25fc2tpbGwnXG5j
 YXRlZ29yaWVzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaX
-N0b3J5IjpbLTE3NjU5MDExNTksMTM5MTAwNDAzMiw5NzA2MDE1
-NDMsNjg0NDg0NTYyLDE3ODQ5OTI4ODAsMTQ2MTI5NjQ5N119
+N0b3J5IjpbMzg1NTM3NzIyLDEzOTEwMDQwMzIsOTcwNjAxNTQz
+LDY4NDQ4NDU2MiwxNzg0OTkyODgwLDE0NjEyOTY0OTddfQ==
 -->
