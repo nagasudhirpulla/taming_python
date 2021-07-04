@@ -47,7 +47,7 @@ You can the video on this post [here](https://youtu.be/DeLQNy-jiwE)
 <hr/>
 
 ### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/
 
 ### References
 * plot function API - https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html
@@ -65,7 +65,8 @@ NpemUgb2YgbWF0cGxvdGxpYiBwbG90c1xuYXV0aG9yOiBOYWdh
 c3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC0wNS0xMydcbnRhZ3
 M6ICdweXRob24sIGxlYXJuaW5nLCB0dXRvcmlhbCwgdGFtaW5n
 X3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weX
-Rob25fc2tpbGxcbiIsImhpc3RvcnkiOls0NTIxMDI5MTIsLTE0
-Mzc5MDU0OTksLTE5OTk1OTY5MjUsLTIxMzk2MjEyOTQsLTIxMD
-A5MjE3MDAsLTE1NjA0MDIwMjMsLTEzNzYyOTE3MjNdfQ==
+Rob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxNDUwNTc5Nzc0LDQ1
+MjEwMjkxMiwtMTQzNzkwNTQ5OSwtMTk5OTU5NjkyNSwtMjEzOT
+YyMTI5NCwtMjEwMDkyMTcwMCwtMTU2MDQwMjAyMywtMTM3NjI5
+MTcyM119
 -->
