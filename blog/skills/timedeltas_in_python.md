@@ -100,9 +100,6 @@ The video for this post can be seen [here](https://youtu.be/z-bUpe_FEt8)
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/GraciousCourageousFirewall?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 <hr/>
 
 ### References
@@ -116,7 +113,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRpbWVkZWx0YXMgaW4gcH
 l0aG9uXG5hdXRob3I6IE5hZ3N1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMTEnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMjEzNz
-QxMzg0MiwtMzc3Nzk1ODQ1LC0yMTQ0MDIwNjY2LDE2ODk5NzMy
-NzUsOTA2Mzc5MTg3LDE3MzE2MTcwMTldfQ==
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMTQwMj
+cyMTgwLC0yMTM3NDEzODQyLC0zNzc3OTU4NDUsLTIxNDQwMjA2
+NjYsMTY4OTk3MzI3NSw5MDYzNzkxODcsMTczMTYxNzAxOV19
 -->
