@@ -49,9 +49,6 @@ print(k)
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/DifficultBowedOrigin?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -60,6 +57,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFJhdyBzdHJpbmdzIGluIH
 B5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdz
 OiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2
 lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxc
-bmRhdGU6ICcyMDIwLTA2LTAxJ1xuIiwiaGlzdG9yeSI6Wy01NT
-U4OTM3MTZdfQ==
+bmRhdGU6ICcyMDIwLTA2LTAxJ1xuIiwiaGlzdG9yeSI6WzE1OD
+c3MTQzMywtNTU1ODkzNzE2XX0=
 -->
