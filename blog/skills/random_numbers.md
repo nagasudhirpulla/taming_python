@@ -59,9 +59,6 @@ You can the video on this post [here](https://youtu.be/Tm5bRKhy93c)
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/MistyroseFelineUsers?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### References
 * https://docs.python.org/3/library/random.html#examples-and-recipes
 * random.randint documentation- https://docs.python.org/3/library/random.html#random.randint
@@ -78,6 +75,6 @@ VtYmVycyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaW
 FsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
 dGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMT
-QnXG4iLCJoaXN0b3J5IjpbMTQyNTI3MTYzMywtOTcxMjE1NDE2
-LDQ2MTM5NzU3Nl19
+QnXG4iLCJoaXN0b3J5IjpbLTg3MjExMzM2MywxNDI1MjcxNjMz
+LC05NzEyMTU0MTYsNDYxMzk3NTc2XX0=
 -->
