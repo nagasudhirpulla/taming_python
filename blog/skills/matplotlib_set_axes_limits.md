@@ -51,7 +51,7 @@ You can the video on this post [here](https://youtu.be/9m4o3Ezp4dU)
 <hr/>
 
 ### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/
 
 ### References
 * http://www.learningaboutelectronics.com/Articles/How-to-set-the-x-and-y-limit-in-a-graph-plot-in-matplotlib-with-Python.php
@@ -67,6 +67,7 @@ BhbmQgeSBheGlzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbm
 csIHR1dG9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0
 ZWdvcmllczogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJz
-IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbMTAyNDY0MzM0MSwx
-Mjc1MTQyMTMwLDUyMDE1NjQ1NSwtNzQwMzMwMTM4XX0=
+IwMjAtMDUtMTUnXG4iLCJoaXN0b3J5IjpbMTQ2OTU4MTMyNywx
+MDI0NjQzMzQxLDEyNzUxNDIxMzAsNTIwMTU2NDU1LC03NDAzMz
+AxMzhdfQ==
 -->
