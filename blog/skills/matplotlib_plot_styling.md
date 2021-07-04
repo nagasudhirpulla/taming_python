@@ -126,7 +126,7 @@ You can the video on this post [here](https://youtu.be/CijoqFJGRu0)
 <hr/>
 
 ### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/
 
 ### Color example
 <iframe src="https://trinket.io/embed/python3/026c5476b1" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -157,8 +157,8 @@ xpYiBQbG90c1xuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5k
 YXRlOiAnMjAyMC0wNS0wOCdcbnRhZ3M6ICdweXRob24sIGxlYX
 JuaW5nLCB0dXRvcmlhbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdc
 bmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsIm
-hpc3RvcnkiOlstMTkzOTg4Mzk0OCwtMTI0MzExODYxLDQ4Njkx
-NzI2Myw5MzQ1MjE4MTIsNDg2OTE3MjYzLDU3NjY5Mjg5NCwtMz
-I4ODU3MTA5LDMyMTQwMDYxMCwtMTM4MDA1MzcxMSwtMTg2Mzg2
-MjEyNl19
+hpc3RvcnkiOlsyMTQ2MzM3ODc4LC0xOTM5ODgzOTQ4LC0xMjQz
+MTE4NjEsNDg2OTE3MjYzLDkzNDUyMTgxMiw0ODY5MTcyNjMsNT
+c2NjkyODk0LC0zMjg4NTcxMDksMzIxNDAwNjEwLC0xMzgwMDUz
+NzExLC0xODYzODYyMTI2XX0=
 -->
