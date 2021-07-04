@@ -34,10 +34,7 @@ The video tutorial for this post can be found [here](https://youtu.be/IZBrA4Sn40
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IZBrA4Sn40k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
-
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/AcclaimedIndigoSet?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ 
 
 ### References
 * image credits - https://realpython.com/python-sleep/
@@ -52,6 +49,7 @@ VsYXlzIGluIHB5dGhvbiB1c2luZyBzbGVlcCBmdW5jdGlvblxu
 YXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG5kYXRlOiAnMjAyMC
 0wNS0yNCdcbnRhZ3M6ICdsZWFybmluZywgcHl0aG9uLCB0YW1p
 bmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczogdGFtaW5nX3
-B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6WzE3MDM1MDE4ODQs
-MTcwNjE0OTI2NCwtMTcwOTQwODMxLC0zNDE0ODU4NTBdfQ==
+B5dGhvbl9za2lsbFxuIiwiaGlzdG9yeSI6Wy0yMDUyMjMwMTM5
+LDE3MDM1MDE4ODQsMTcwNjE0OTI2NCwtMTcwOTQwODMxLC0zND
+E0ODU4NTBdfQ==
 -->
