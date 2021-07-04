@@ -80,9 +80,6 @@ if x < 0:
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/FrenchEffectiveBash?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### References
 * https://stackoverflow.com/questions/4990718/about-catching-any-exception
 * https://www.w3schools.com/python/python_try_except.asp
@@ -98,5 +95,5 @@ BpbiBweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxu
 ZGF0ZTogJzIwMjAtMDUtMzEnXG50YWdzOiAnbGVhcm5pbmcsIH
 B5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3Jp
 ZXM6IHRhbWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOl
-stMTM3ODY4NDU2NCwxMjI5MzAzMzQyXX0=
+s0MDk4NTkyMjksLTEzNzg2ODQ1NjQsMTIyOTMwMzM0Ml19
 -->
