@@ -49,9 +49,6 @@ Video for this post can be found [here](https://youtu.be/xVPX-Y7f-eE)
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/DaringFastUser?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
 <hr/>
@@ -64,6 +61,6 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IERpbWVuc2lvbiBvZiBhIE
 RhdGFGcmFtZVxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50
 YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl
 9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tp
-bGxcbmRhdGU6ICcyMDIwLTA1LTA0J1xuIiwiaGlzdG9yeSI6Wz
-kyODY3MzU4OCwzOTMyODU0MDcsLTExNjI2MzUxNV19
+bGxcbmRhdGU6ICcyMDIwLTA1LTA0J1xuIiwiaGlzdG9yeSI6Wy
+0xMzI4Nzc5MjA2LDM5MzI4NTQwNywtMTE2MjYzNTE1XX0=
 -->
