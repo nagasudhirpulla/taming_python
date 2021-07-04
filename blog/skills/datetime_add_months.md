@@ -81,7 +81,7 @@ Video for this post can be found [here](https://youtu.be/HIAlMVbiMjI)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HIAlMVbiMjI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Online Interpreter
-You can run these codes online at https://www.programiz.com/python-programming/online-compiler/ or https://repl.it/
+You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
 <hr/>
 
@@ -97,8 +97,8 @@ Btb250aHMgdG8gZGF0ZSBpbiBweXRob25cbmF1dGhvcjogTmFn
 YXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMjAtMDYtMjYnXG50YW
 dzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9z
 a2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbG
-xcbiIsImhpc3RvcnkiOlstMTU2MTExNjEyMiwxNjU1NzQwNzc2
-LC04ODgzMTYxNSwxMTE4OTQxMjE2LDY5NDEwOTA5Nyw2OTQxMD
-kwOTcsLTI2OTQ5MDcwMywxMzA2Nzc4ODIxLC0yMTQzODI4NzE2
-LDEwNjgzNDEwMDAsNzMwOTk4MTE2XX0=
+xcbiIsImhpc3RvcnkiOlsxNzMxODg5MzM1LC0xNTYxMTE2MTIy
+LDE2NTU3NDA3NzYsLTg4ODMxNjE1LDExMTg5NDEyMTYsNjk0MT
+A5MDk3LDY5NDEwOTA5NywtMjY5NDkwNzAzLDEzMDY3Nzg4MjEs
+LTIxNDM4Mjg3MTYsMTA2ODM0MTAwMCw3MzA5OTgxMTZdfQ==
 -->
