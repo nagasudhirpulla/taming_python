@@ -64,9 +64,6 @@ Video for this post can be found [here](https://youtu.be/KpEaEoaUDWE)
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/RelievedParallelAnalysts?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### References
 * http://thomas-cokelaer.info/tutorials/python/functions.html
 
@@ -78,6 +75,7 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZ1Y250aW9ucyBpbiBweX
 Rob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTog
 JzIwMjAtMDUtMjMnXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbi
 wgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRh
-bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlstMTIyOD
-AxMDg0OSwtMTIxNDkzMTYxMCwxNDUxMDgyODU2XX0=
+bWluZ19weXRob25fc2tpbGxcbiIsImhpc3RvcnkiOlsxMzI1MT
+MwOTUzLC0xMjI4MDEwODQ5LC0xMjE0OTMxNjEwLDE0NTEwODI4
+NTZdfQ==
 -->
