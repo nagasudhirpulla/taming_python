@@ -165,7 +165,7 @@ You can the video on this post [here](https://youtu.be/QYBAP0YxSZU)
 <hr/>
 
 ### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/
 
 ### References
 * Official guide - https://matplotlib.org/3.2.1/gallery/ticks_and_spines/tick-formatters.html
@@ -184,9 +184,10 @@ bmF1dGhvcjogTmFnYXN1ZGhpciBQdWxsYVxuZGF0ZTogJzIwMj
 AtMDUtMTYnXG50YWdzOiAncHl0aG9uLCBsZWFybmluZywgdHV0
 b3JpYWwsIHRhbWluZ19weXRob25fc2tpbGwnXG5jYXRlZ29yaW
 VzOiB0YW1pbmdfcHl0aG9uX3NraWxsXG4iLCJoaXN0b3J5Ijpb
-LTYxMjY5NjAxOSw5MjU3Mzc5MzcsLTE5NTczNjQ2LDQ2NDg0Nj
-k0OCwtMTAwNzY5MjI5LC0zNjM1MTMwMDQsLTg3NTI2NjgzNCwt
-MTIzMjkwNjM3MywtNjUyOTcxNzE1LDE2OTYwNzAyNTQsLTE1MD
-g4MzQyNDcsMTUxOTMwNDk0OSwyMDUxNzk3NTgsLTkyNDM5Mjkx
-NSwxNjkyNDIzNTU1LDQ0NjE5MDM4OSwyMDU4Nzg2NTA5XX0=
+MTA0ODIzNjIwNywtNjEyNjk2MDE5LDkyNTczNzkzNywtMTk1Nz
+M2NDYsNDY0ODQ2OTQ4LC0xMDA3NjkyMjksLTM2MzUxMzAwNCwt
+ODc1MjY2ODM0LC0xMjMyOTA2MzczLC02NTI5NzE3MTUsMTY5Nj
+A3MDI1NCwtMTUwODgzNDI0NywxNTE5MzA0OTQ5LDIwNTE3OTc1
+OCwtOTI0MzkyOTE1LDE2OTI0MjM1NTUsNDQ2MTkwMzg5LDIwNT
+g3ODY1MDldfQ==
 -->
