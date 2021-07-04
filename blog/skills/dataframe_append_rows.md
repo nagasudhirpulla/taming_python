@@ -132,9 +132,6 @@ Please read this [official documentation](https://pandas.pydata.org/pandas-docs/
 ### Online Interpreter
 Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/ShabbyBetterSpreadsheets?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### References
 * Official docs - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.append.html
 * append rows - https://stackoverflow.com/questions/10715965/add-one-row-to-pandas-dataframe
@@ -149,7 +146,7 @@ RhdGFGcmFtZXMgdG8gYSBwYW5kYXMgRGF0YUZyYW1lXG5hdXRo
 b3I6IE5hZ2FzdWRoaXIgUHVsbGFcbmRhdGU6ICcyMDIwLTA2LT
 A3J1xudGFnczogJ2xlYXJuaW5nLCBweXRob24sIHRhbWluZ19w
 eXRob25fc2tpbGwnXG5jYXRlZ29yaWVzOiB0YW1pbmdfcHl0aG
-9uX3NraWxsXG4iLCJoaXN0b3J5IjpbMTUwMzU4ODQ5OSw2NTA4
-NTYyNzgsMTkzOTMzMzg2LC0xMzg3MjU4MTY4LC0xMDIyMzYxOV
-19
+9uX3NraWxsXG4iLCJoaXN0b3J5IjpbOTc4MTk5OTc3LDE1MDM1
+ODg0OTksNjUwODU2Mjc4LDE5MzkzMzM4NiwtMTM4NzI1ODE2OC
+wtMTAyMjM2MTldfQ==
 -->
