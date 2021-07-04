@@ -51,9 +51,9 @@ print('4 random decimal numbers between 10 and 60 are {0}'.format(lst))
 
 ### Video
 
-You can the video on this post [here](https://youtu.be/Tm5bRKhy93c)
+You can the video on this post [here](https://youtu.be/DzUk8Je92Cg)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Tm5bRKhy93c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DzUk8Je92Cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr/>
 
 ### Online Interpreter
@@ -75,6 +75,6 @@ VtYmVycyBpbiBweXRob25cbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaW
 FsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
 dGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMT
-QnXG4iLCJoaXN0b3J5IjpbLTg3MjExMzM2MywxNDI1MjcxNjMz
+QnXG4iLCJoaXN0b3J5IjpbMTA1MDA0MzY1OCwxNDI1MjcxNjMz
 LC05NzEyMTU0MTYsNDYxMzk3NTc2XX0=
 -->
