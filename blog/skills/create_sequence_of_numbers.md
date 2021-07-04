@@ -118,9 +118,6 @@ Video for this post can be found [here](https://youtu.be/SKlf1DJUl0w)
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/WorthwhileScholarlyDonateware?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### References
 * numpy linspace function - https://numpy.org/doc/stable/reference/generated/numpy.linspace.html#numpy.linspace
 * numpy arrange function - https://numpy.org/doc/stable/reference/generated/numpy.arange.html
@@ -135,8 +132,8 @@ xhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5
 dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob2
 5fc2tpbGxcbmRhdGU6ICcyMDIwLTA3LTA2J1xudGl0bGU6IENy
 ZWF0ZSBhIHNlcXVlbmNlIG9mIG51bWJlcnMgaW4gcHl0aG9uXG
-4iLCJoaXN0b3J5IjpbMTA3NTIyMzE3Myw0OTg4NzE1NTksNjg4
-Mjg2MzU2LC04MjU4NzcyNTMsMjAxNDQ5NTY1NSwxOTAwODU3Mz
-gwLDE2MTgyNjU1MCwtMzgyNjQxMTkwLC0xOTUzNDkxMTYxLC0x
-MjI5NjA2ODU0XX0=
+4iLCJoaXN0b3J5IjpbODA0MjM0Mjc3LDEwNzUyMjMxNzMsNDk4
+ODcxNTU5LDY4ODI4NjM1NiwtODI1ODc3MjUzLDIwMTQ0OTU2NT
+UsMTkwMDg1NzM4MCwxNjE4MjY1NTAsLTM4MjY0MTE5MCwtMTk1
+MzQ5MTE2MSwtMTIyOTYwNjg1NF19
 -->
