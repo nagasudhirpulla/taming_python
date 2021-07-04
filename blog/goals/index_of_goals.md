@@ -48,6 +48,7 @@ Here are the goals and skills in this tutorial series
 * [Managing time periods using ‘timedelta’ in python](https://nagasudhir.blogspot.com/2020/05/timedeltas-in-python.html)
 * [Inducing time delays in python using 'sleep' function](https://nagasudhir.blogspot.com/2020/05/inducing-time-delays-in-python-using.html)
 * [Add or subtract months to date in python](https://nagasudhir.blogspot.com/2020/06/add-or-subtract-months-to-date-in-python.html)
+* [Split a time interval using pandas date_range](https://nagasudhir.blogspot.com/2021/07/split-time-interval-using-pandas.html)
 
 #### File Handling Skills
 * [Check if file or folder is present](https://nagasudhir.blogspot.com/2020/05/check-if-file-or-folder-is-present.html)
@@ -97,11 +98,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTk4NzcxNjE0NCwtMTk0OT
-I5MDIzMSwtMTYyNzc0NTgwMiwtOTM4NTAwNjg5LC0xODU1MzA1
-ODYzLC0xMTQ2MzA0NjE5LDE2NTY2OTQwMDEsMTI1OTIzMTM1Ny
-wyNTU2Mzc1MzUsMTM5ODg3MTQ1NSwxODAyNzM3NjU1LDE2NTYw
-MzMwMTAsMTAzMjMzMzIxMSwtMTI3MjI1NTI4MCw3ODEzMDcxOD
-AsMTY3NDY1MDIyNiwtMTM3NTQzNTQxOSwtNDc4NzY5ODMsMTgz
-MDMyOTQ0NywxMjE2NDgyODczXX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMjAwNDM2MzM4MiwxOTg3Nz
+E2MTQ0LC0xOTQ5MjkwMjMxLC0xNjI3NzQ1ODAyLC05Mzg1MDA2
+ODksLTE4NTUzMDU4NjMsLTExNDYzMDQ2MTksMTY1NjY5NDAwMS
+wxMjU5MjMxMzU3LDI1NTYzNzUzNSwxMzk4ODcxNDU1LDE4MDI3
+Mzc2NTUsMTY1NjAzMzAxMCwxMDMyMzMzMjExLC0xMjcyMjU1Mj
+gwLDc4MTMwNzE4MCwxNjc0NjUwMjI2LC0xMzc1NDM1NDE5LC00
+Nzg3Njk4MywxODMwMzI5NDQ3XX0=
 -->
