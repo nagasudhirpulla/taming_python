@@ -97,7 +97,7 @@ You can the video on this post [here](https://youtu.be/qaUrn5sdEH0)
 <hr/>
 
 ### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/ or https://repl.it/repls/MountainousWhirlwindRatios
+Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/
 
 ### References
 * official documentation on set axis ticks - https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.axes.Axes.set_xticks.html#matplotlib.axes.Axes.set_xticks
@@ -116,6 +116,7 @@ FiZWxzIGluIG1hdHBsb3RsaWJcbmF1dGhvcjogTmFnYXN1ZGhp
 ciBQdWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG
 9yaWFsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmll
 czogdGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMD
-UtMTUnXG4iLCJoaXN0b3J5IjpbMzg1MTYxNDY2LDcxMDYyNjcx
-LDE3NDgzMjExNzksMTY3NjI2Nzg5NiwtNDkwMDM3MTkxXX0=
+UtMTUnXG4iLCJoaXN0b3J5IjpbMTYxNDk1MjUwNCwzODUxNjE0
+NjYsNzEwNjI2NzEsMTc0ODMyMTE3OSwxNjc2MjY3ODk2LC00OT
+AwMzcxOTFdfQ==
 -->
