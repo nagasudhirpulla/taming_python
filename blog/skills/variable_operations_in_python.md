@@ -185,9 +185,6 @@ The video on this post can be found [here](https://youtu.be/kwsLop-mW3M)
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
-### You can practice here
-<iframe height="800px" width="100%" src="https://repl.it/repls/PlainLeftAttributes?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 ### Further Reading
 * http://thomas-cokelaer.info/tutorials/python/boolean.html#booleans
 
@@ -200,10 +197,10 @@ FyaWFibGVzIGluIFB5dGhvblxuYXV0aG9yOiBOYWdhc3VkaGly
 IFB1bGxhXG50YWdzOiAnbGVhcm5pbmcsIHB5dGhvbiwgdGFtaW
 5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZXM6IHRhbWluZ19w
 eXRob25fc2tpbGxcbmRhdGU6ICcyMDIwLTA0LTE1J1xuIiwiaG
-lzdG9yeSI6Wy0xNjQ1OTI3NjE1LDk4NDQ5MTAyNywxNjE3ODM1
-MDA5LDMyODI1NDU3MiwtMTIxODc1ODAxLDc5MjcyMjY3MywxNz
-MyMTc5NjgzLC0yMDYxMDg5ODgzLDkzMDM0MjY5OSwxNTQ3OTAw
-NTA1LC0xNDc3MTk5MjQ0LC0xNTY0NjQwNjg0LC0yMDA1NDM5NT
-Q2LC03ODM4NzcxNjEsLTE4OTIwOTI3ODQsMjE0NDUyNjQzMV19
-
+lzdG9yeSI6WzEyMTkyOTkxOTUsLTE2NDU5Mjc2MTUsOTg0NDkx
+MDI3LDE2MTc4MzUwMDksMzI4MjU0NTcyLC0xMjE4NzU4MDEsNz
+kyNzIyNjczLDE3MzIxNzk2ODMsLTIwNjEwODk4ODMsOTMwMzQy
+Njk5LDE1NDc5MDA1MDUsLTE0NzcxOTkyNDQsLTE1NjQ2NDA2OD
+QsLTIwMDU0Mzk1NDYsLTc4Mzg3NzE2MSwtMTg5MjA5Mjc4NCwy
+MTQ0NTI2NDMxXX0=
 -->
