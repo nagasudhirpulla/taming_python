@@ -43,6 +43,7 @@ folium.LayerControl().add_to(mapObj)
 ```
 
 ### Create tile layers from built-in sources
+The options for built-in tile sources in folium can be found [here](http://python-visualization.github.io/folium/modules.html#folium.raster_layers.TileLayer)
 ```python
 import folium
 mapObj = folium.Map()
@@ -68,6 +69,6 @@ folium.LayerControl().add_to(mapObj)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzcxMTk3NSwxODkyOTIwNDksLTE4Mj
-czNDE4NjZdfQ==
+eyJoaXN0b3J5IjpbLTExMDY2NjIxMDAsMTg5MjkyMDQ5LC0xOD
+I3MzQxODY2XX0=
 -->
