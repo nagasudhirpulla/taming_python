@@ -17,7 +17,7 @@ In this post we will get a beginner level introduction to Folium library which i
 * Create tile layers from in-built sources
 * Set the tile layers from other sources
 * Layer controls button to show/hide layers
-* Save a map object as html
+* Save a map object as html file
 
 ### Installing folium
 * Open command prompt and type ```python -m pip install folium```
@@ -47,6 +47,6 @@ zoom_start=2, tiles='OpenStreetMap')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDcwODU1NiwxODkyOTIwNDksLTE4Mj
+eyJoaXN0b3J5IjpbLTgwNDQ1NDg1MCwxODkyOTIwNDksLTE4Mj
 czNDE4NjZdfQ==
 -->
