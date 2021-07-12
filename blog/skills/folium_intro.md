@@ -21,10 +21,10 @@ In this post we will get a beginner level introduction to Folium library which i
 * Layer controls button to show/hide layers
 * Save a map object as html
 
-### Creating a basic line plot with lists of x and y coordinates
-Lets create a simple line plot with x and y lists
+### Initialize a folium map object with map center and zoom
+Lets create a simple folium map object
 ```python
-import matplotlib.pyplot as plt
+import folium
 
 # the lists of x and y coordinates
 x = [1, 2, 3, 4]
@@ -80,5 +80,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzY0NjMxNywtMTgyNzM0MTg2Nl19
+eyJoaXN0b3J5IjpbLTc3NjU0NzY5NSwtMTgyNzM0MTg2Nl19
 -->
