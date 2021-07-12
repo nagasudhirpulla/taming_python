@@ -37,6 +37,9 @@ zoom_start=2, tiles='OpenStreetMap')
 ```python
 import folium
 mapObj = folium.Map()
+# add layers control over the map
+
+folium.LayerControl().add_to(mapObj)
 ```
 
 <hr/>
@@ -51,6 +54,6 @@ mapObj = folium.Map()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzQzNzIwOCwxODkyOTIwNDksLTE4Mj
-czNDE4NjZdfQ==
+eyJoaXN0b3J5IjpbLTE1MzY3MDE4NDgsMTg5MjkyMDQ5LC0xOD
+I3MzQxODY2XX0=
 -->
