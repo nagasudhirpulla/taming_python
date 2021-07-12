@@ -104,15 +104,14 @@ mapObj.save('folium_intro.html')
 <hr/>
 
 ### References
-* Examples gallery - https://matplotlib.org/gallery/index.html
-* medium post - https://towardsdatascience.com/data-visualization-using-matplotlib-16f1aae5ce70
-* anatomy of a figure - https://matplotlib.org/3.2.1/gallery/showcase/anatomy.html
+* folium quickstart - https://python-visualization.github.io/folium/quickstart.html
+* folium docs - http://python-visualization.github.io/folium/modules.html#
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzEwNDEwMiw0MjQxOTA1ODksNDc0OT
+eyJoaXN0b3J5IjpbMTE1ODQ2MzYwOCw0MjQxOTA1ODksNDc0OT
 MwMjI1LDE4OTI5MjA0OSwtMTgyNzM0MTg2Nl19
 -->
