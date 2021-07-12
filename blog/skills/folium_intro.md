@@ -105,13 +105,14 @@ mapObj.save('folium_intro.html')
 
 ### References
 * folium quickstart - https://python-visualization.github.io/folium/quickstart.html
-* folium docs - http://python-visualization.github.io/folium/modules.html#
+* folium officialdocs - http://python-visualization.github.io/folium/modules.html#
+
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODQ2MzYwOCw0MjQxOTA1ODksNDc0OT
+eyJoaXN0b3J5IjpbMTMwNTc1NDM4NSw0MjQxOTA1ODksNDc0OT
 MwMjI1LDE4OTI5MjA0OSwtMTgyNzM0MTg2Nl19
 -->
