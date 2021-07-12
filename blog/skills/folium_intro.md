@@ -15,10 +15,11 @@ In this post we will get a beginner level introduction to Folium library which i
 * Open command prompt and type ```python -m pip install folium```
 ![pip install folium](https://github.com/nagasudhirpulla/taming_python/raw/0aadac449b8f8e1b0a8659c79f32b3798aef991b/blog/skills/assets/img/folium_pip_install.png)
 ### Topics covered
-* Initializing a map with folium with map center and zoom
+* Initialize a folium map object with map center and zoom
 * Set the tile layers from in-built sources
 * Set the tile layers from other sources
-* Adding layer controls to 
+* Layer controls button to show/hide layers
+* Save a map object 
 
 ### Creating a basic line plot with lists of x and y coordinates
 Lets create a simple line plot with x and y lists
@@ -79,6 +80,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk1ODg5MzIsLTE4MjczNDE4NjZdfQ
-==
+eyJoaXN0b3J5IjpbMTI5OTk3MjU0NiwtMTgyNzM0MTg2Nl19
 -->
