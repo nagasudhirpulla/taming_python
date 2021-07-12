@@ -77,7 +77,7 @@ import folium
 mapObj = folium.Map()
 
 # save the map object as a html file
-
+mapObj.save('folium_intro.html')
 ```
 
 <hr/>
@@ -92,6 +92,6 @@ mapObj = folium.Map()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTYxODA3Niw0NzQ5MzAyMjUsMTg5Mj
-kyMDQ5LC0xODI3MzQxODY2XX0=
+eyJoaXN0b3J5IjpbNDI0MTkwNTg5LDQ3NDkzMDIyNSwxODkyOT
+IwNDksLTE4MjczNDE4NjZdfQ==
 -->
