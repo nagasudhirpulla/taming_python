@@ -64,9 +64,7 @@ import folium
 mapObj = folium.Map()
 
 # add new tile layers
-folium.TileLayer('openstreetmap').add_to(mapObj)
-folium.TileLayer('stamenterrain', attr="stamenterrain").add_to(mapObj)
-folium.TileLayer('stamenwatercolor', attr="stamenwatercolor").add_to(mapObj)
+folium.TileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', name='CartoDB.DarkMatter', attr="CartoDB.DarkMatter").add_to(mapObj)
 
 # add layers control over the map
 folium.LayerControl().add_to(mapObj)
@@ -84,6 +82,6 @@ folium.LayerControl().add_to(mapObj)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzE0MDc4MSwxODkyOTIwNDksLTE4Mj
-czNDE4NjZdfQ==
+eyJoaXN0b3J5IjpbNDc0OTMwMjI1LDE4OTI5MjA0OSwtMTgyNz
+M0MTg2Nl19
 -->
