@@ -47,13 +47,13 @@ folium.LayerControl().add_to(mapObj)
 import folium
 mapObj = folium.Map()
 
-# add layers control over the map
-folium.LayerControl().add_to(mapObj)
-
 # add new tile layers
 folium.TileLayer('openstreetmap').add_to(mapObj)
 folium.TileLayer('stamenterrain', attr="stamenterrain").add_to(mapObj)
 folium.TileLayer('stamenwatercolor', attr="stamenwatercolor").add_to(mapObj)
+
+# add layers control over the map
+folium.LayerControl().add_to(mapObj)
 ```
 
 <hr/>
@@ -68,6 +68,6 @@ folium.TileLayer('stamenwatercolor', attr="stamenwatercolor").add_to(mapObj)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MTIxODU1MywxODkyOTIwNDksLTE4Mj
+eyJoaXN0b3J5IjpbLTIxMzcxMTk3NSwxODkyOTIwNDksLTE4Mj
 czNDE4NjZdfQ==
 -->
