@@ -33,7 +33,7 @@ zoom_start=2, tiles='OpenStreetMap')
 * Keep ```tiles=None``` to create a map without tiles
 * The options for tile sources in folium can be found [here](http://python-visualization.github.io/folium/modules.html#folium.raster_layers.TileLayer)
 
-### Create tile layers from built-in sources
+### Layer controls button to show/hide layers
 ```python
 import folium
 mapObj = folium.Map()
@@ -51,6 +51,6 @@ mapObj = folium.Map()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDk2NjY5MTgsMTg5MjkyMDQ5LC0xOD
-I3MzQxODY2XX0=
+eyJoaXN0b3J5IjpbMTMwNzQzNzIwOCwxODkyOTIwNDksLTE4Mj
+czNDE4NjZdfQ==
 -->
