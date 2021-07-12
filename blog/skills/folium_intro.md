@@ -12,9 +12,6 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will get a beginner level introduction to Folium library which is extensively **used for creating interactive maps** in python
 
-### Installing folium
-* Open command prompt and type ```python -m pip install folium```
-![pip install folium](https://github.com/nagasudhirpulla/taming_python/raw/0aadac449b8f8e1b0a8659c79f32b3798aef991b/blog/skills/assets/img/folium_pip_install.png)
 ### Topics covered
 * Initialize a folium map object with map center and zoom
 * Set the tile layers from in-built sources
@@ -22,36 +19,15 @@ In this post we will get a beginner level introduction to Folium library which i
 * Layer controls button to show/hide layers
 * Save a map object as html
 
+### Installing folium
+* Open command prompt and type ```python -m pip install folium```
+![pip install folium](https://github.com/nagasudhirpulla/taming_python/raw/0aadac449b8f8e1b0a8659c79f32b3798aef991b/blog/skills/assets/img/folium_pip_install.png)
 ### Initialize a folium map object with map center and zoom
 Lets create a simple folium map object
 ```python
 import folium
-
-# the lists of x and y coordinates
-x = [1, 2, 3, 4]
-y = [1, 4, 2, 3]
-
-# create a figure and axes handle using 'subplots' function
-fig, ax = plt.subplots()
-
-# use axes handle to plot xy data and get the plot artist in return
-la, = ax.plot(x, y)
-
-# set the title for our plot using axes handle
-ax.set_title('Basic Matplotlib plot')
-
-# set x and y axis titles using axes handle
-ax.set_xlabel("X Data")
-ax.set_ylabel("Y Data")
-
-# set label to the plot for the sake of legend using the plot artist
-la.set_label('basic_plot')
-
-# enable legends for the axes handle
-ax.legend()
-
-# print the plot
-plt.show()
+mapObj = folium.Map(location=[21.437730075416685, 77.255859375],
+zoom_start=2, tiles='openstreetmap')
 ```
 ![plot_python_output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_matplotlib_plot.png)
 Congrats!, we just covered the intro, installation and very basic plotting skills of *Matplotlib*
@@ -81,5 +57,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwNzY3Mzk1LC0xODI3MzQxODY2XX0=
+eyJoaXN0b3J5IjpbMTg5MjkyMDQ5LC0xODI3MzQxODY2XX0=
 -->
