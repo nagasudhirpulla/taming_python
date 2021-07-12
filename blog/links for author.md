@@ -8,7 +8,7 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 ```python
 """
 folium docs - http://python-visualization.github.io/folium/modules.html#
-options reference - https://leafletjs.com/reference-1.6.0.html#circle
+circle options reference - https://leafletjs.com/reference-1.6.0.html#circle
 """
 
 import pandas as pd
@@ -19,8 +19,21 @@ dataDf = pd.read_excel('down_streams_info.xlsx')
 
 # initialize a map with center and zoom
 dataMap = folium.Map(location=[21.437730075416685, 77.255859375],
-                  zoom_start=7)
+                     zoom_start=7, tiles=None)
+# folium.TileLayer('openstreetmap').add_to(dataMap)
+# folium.TileLayer('stamenterrain', attr="stamenterrain").add_to(dataMap)
 
+# show borders
+# style options - https://leafletjs.com/reference-1.7.1.html#path
+bordersStyle = {"fillColor": 'green',
+                'color': 'gray', 'weight': 2, 'fillOpacity': 0}
+bordersLayer = folium.GeoJson(
+    data=(open("states_india.geojson", 'r').read()),
+    name="Borders",
+    style_function=lambda x: bordersStyle)
+bordersLayer.add_to(dataMap)
+
+powerPlantsLayer = folium.FeatureGroup("Power Plants")
 # iterate through each dataframe row
 for i in range(len(dataDf)):
     areaStr = dataDf.iloc[i]['area']
@@ -39,7 +52,12 @@ for i in range(len(dataDf)):
         fill=False,
         fill_color=None,
         fill_opacity=0.5
-    ).add_to(dataMap)
+    ).add_to(powerPlantsLayer)
+
+powerPlantsLayer.add_to(dataMap)
+
+# add layer control over the map
+folium.LayerControl().add_to(dataMap)
 
 # html to be injected for displaying legend
 legendHtml = '''
@@ -72,11 +90,11 @@ dataMap.save('wind_locations.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY0MDU1NTAsLTk3ODY3MzQxLC0zMj
-M5ODgxNDksLTE5MjM3NjM5NDcsMzk0NTM3ODY5LC0xMzkxNDk1
-NjA1LC0yMjE4ODk5NzUsNjYxNjc0MDE0LDkyNjc5NTMwNCwtMz
-k4NTQyNjAwLDExNzIyMzYyODMsMTg1MjAwNjAyNSwyMTIxNTc3
-MTQsLTc3NDg2MDE0MywtNTIwNDcxOTM4LDczOTA3Mzc3OSwtOT
-YxNTgzNzgzLC0xNjgzOTYxMzYsLTM0OTQ0ODM3MywxODgwMjAy
-ODExXX0=
+eyJoaXN0b3J5IjpbLTk4OTQ3NzI2MSwtMjA1NjQwNTU1MCwtOT
+c4NjczNDEsLTMyMzk4ODE0OSwtMTkyMzc2Mzk0NywzOTQ1Mzc4
+NjksLTEzOTE0OTU2MDUsLTIyMTg4OTk3NSw2NjE2NzQwMTQsOT
+I2Nzk1MzA0LC0zOTg1NDI2MDAsMTE3MjIzNjI4MywxODUyMDA2
+MDI1LDIxMjE1NzcxNCwtNzc0ODYwMTQzLC01MjA0NzE5MzgsNz
+M5MDczNzc5LC05NjE1ODM3ODMsLTE2ODM5NjEzNiwtMzQ5NDQ4
+MzczXX0=
 -->
