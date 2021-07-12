@@ -36,8 +36,7 @@ zoom_start=2, tiles='OpenStreetMap')
 ### Create tile layers from built-in sources
 ```python
 import folium
-mapObj = folium.Map(location=[21.437730075416685, 77.255859375],
-zoom_start=2, tiles=None)
+mapObj = folium.Map()
 ```
 
 <hr/>
@@ -52,6 +51,6 @@ zoom_start=2, tiles=None)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTQyNTk3MSwxODkyOTIwNDksLTE4Mj
-czNDE4NjZdfQ==
+eyJoaXN0b3J5IjpbLTE0MDk2NjY5MTgsMTg5MjkyMDQ5LC0xOD
+I3MzQxODY2XX0=
 -->
