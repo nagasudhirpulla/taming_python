@@ -42,6 +42,9 @@ mapObj = folium.Map()
 folium.LayerControl().add_to(mapObj)
 ```
 
+### Create tile layers from built-in sources
+
+
 <hr/>
 
 ### References
@@ -54,6 +57,6 @@ folium.LayerControl().add_to(mapObj)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MzI5ODMwOCwxODkyOTIwNDksLTE4Mj
-czNDE4NjZdfQ==
+eyJoaXN0b3J5IjpbOTU0MzY4MTI3LDE4OTI5MjA0OSwtMTgyNz
+M0MTg2Nl19
 -->
