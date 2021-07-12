@@ -13,7 +13,7 @@ In this post we will get a beginner level introduction to Folium library which i
 
 ### Installing folium
 * Open command prompt and type ```python -m pip install folium```
-![pip install matplotlib](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/install_matplotlib.png)
+![pip install folium](https://github.com/nagasudhirpulla/taming_python/raw/0aadac449b8f8e1b0a8659c79f32b3798aef991b/blog/skills/assets/img/folium_pip_install.png)
 ### Anatomy of a matplotlib figure
 * A graph in matplotlib is called a **figure**. It is like a canvas on which we draw figures.
 * A matplotlib figure can have **plot, axis, title, legend, grid, ticks, tick labels, spines**
@@ -83,5 +83,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTMwNzUxNV19
+eyJoaXN0b3J5IjpbLTU3NDk0NTA4OV19
 -->
