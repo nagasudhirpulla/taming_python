@@ -27,12 +27,9 @@ Lets create a simple folium map object
 ```python
 import folium
 mapObj = folium.Map(location=[21.437730075416685, 77.255859375],
-zoom_start=2, tiles='openstreetmap')
+zoom_start=2, tiles='OpenStreetMap')
 ```
-![plot_python_output](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/basic_matplotlib_plot.png)
-Congrats!, we just covered the intro, installation and very basic plotting skills of *Matplotlib*
 
-I would also like to point out that in the [anatomy of figure](https://matplotlib.org/3.2.1/gallery/showcase/anatomy.html) page, the code with which the diagram is created is mentioned below it. That code is a very useful as a reference for beginners on how to create plots, titles, legends etc
 
 ### Video
 You can the video on this post [here](https://youtu.be/Cy789_J-RWY)
@@ -57,5 +54,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjkyMDQ5LC0xODI3MzQxODY2XX0=
+eyJoaXN0b3J5IjpbLTE0NTMyNDE4NjQsMTg5MjkyMDQ5LC0xOD
+I3MzQxODY2XX0=
 -->
