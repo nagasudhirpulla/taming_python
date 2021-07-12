@@ -29,7 +29,8 @@ import folium
 mapObj = folium.Map(location=[21.437730075416685, 77.255859375],
 zoom_start=2, tiles='OpenStreetMap')
 ```
-The options for tile sources in folium can be found [here](http://python-visualization.github.io/folium/modules.html#folium.raster_layers.TileLayer)
+* Keep ```tiles=None``` to create a map without tiles
+* The options for tile sources in folium can be found [here](http://python-visualization.github.io/folium/modules.html#folium.raster_layers.TileLayer)
 
 
 
@@ -46,6 +47,6 @@ The options for tile sources in folium can be found [here](http://python-visuali
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQ4Njc0MzcsMTg5MjkyMDQ5LC0xOD
-I3MzQxODY2XX0=
+eyJoaXN0b3J5IjpbMTQzOTQ1NDkxNSwxODkyOTIwNDksLTE4Mj
+czNDE4NjZdfQ==
 -->
