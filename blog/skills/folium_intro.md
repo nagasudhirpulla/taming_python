@@ -63,13 +63,21 @@ The options for built-in tile sources in folium can be found [here](http://pytho
 import folium
 mapObj = folium.Map()
 
-# add new tile layers
+# add new tile layer from external source
 folium.TileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', name='CartoDB.DarkMatter', attr="CartoDB.DarkMatter").add_to(mapObj)
 
 # add layers control over the map
 folium.LayerControl().add_to(mapObj)
 ```
 The options for external tile sources can be explored [here](http://leaflet-extras.github.io/leaflet-providers/preview/)
+
+### Save a map object as html file
+```python
+import folium
+mapObj = folium.Map()
+
+# 
+```
 
 <hr/>
 
@@ -83,6 +91,6 @@ The options for external tile sources can be explored [here](http://leaflet-extr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA1NTU1NzYsNDc0OTMwMjI1LDE4OT
+eyJoaXN0b3J5IjpbLTE4MTc5MjQ0MjEsNDc0OTMwMjI1LDE4OT
 I5MjA0OSwtMTgyNzM0MTg2Nl19
 -->
