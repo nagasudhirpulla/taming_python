@@ -14,9 +14,9 @@ In this post we will get a beginner level introduction to Folium library which i
 
 ### Topics covered
 * Initialize a folium map object with map center and zoom
+* Layer controls button to show/hide layers
 * Create tile layers from built-in sources
 * Create tile layers from other sources
-* Layer controls button to show/hide layers
 * Save a map object as html file
 
 ### Installing folium
@@ -29,12 +29,16 @@ import folium
 mapObj = folium.Map(location=[21.437730075416685, 77.255859375],
 zoom_start=2, tiles='OpenStreetMap')
 ```
+
 * Keep ```tiles=None``` to create a map without tiles
 * The options for tile sources in folium can be found [here](http://python-visualization.github.io/folium/modules.html#folium.raster_layers.TileLayer)
 
 ### Create tile layers from built-in sources
-
-
+```python
+import folium
+mapObj = folium.Map(location=[21.437730075416685, 77.255859375],
+zoom_start=2, tiles=None)
+```
 
 <hr/>
 
@@ -48,6 +52,6 @@ zoom_start=2, tiles='OpenStreetMap')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTcyNDcyNjgsMTg5MjkyMDQ5LC0xOD
-I3MzQxODY2XX0=
+eyJoaXN0b3J5IjpbLTgzOTQyNTk3MSwxODkyOTIwNDksLTE4Mj
+czNDE4NjZdfQ==
 -->
