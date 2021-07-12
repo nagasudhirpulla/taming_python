@@ -11,10 +11,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 In this post we will get a beginner level introduction to Folium library which is extensively **used for creating interactive maps** in python
 
-**Matplotlib** is a plotting library in the scipy ecosystem of libraries.
-
-### Installing Matplotlib
-* Open command prompt and type ```pip install matplotlib```
+### Installing folium
+* Open command prompt and type ```python -m pip install folium```
 ![pip install matplotlib](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/install_matplotlib.png)
 ### Anatomy of a matplotlib figure
 * A graph in matplotlib is called a **figure**. It is like a canvas on which we draw figures.
@@ -85,5 +83,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTg3MDE5MF19
+eyJoaXN0b3J5IjpbLTUwMTMwNzUxNV19
 -->
