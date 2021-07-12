@@ -93,7 +93,7 @@ Here are the goals and skills in this tutorial series
 * [Duration Curve using Matplotlib](http://nagasudhir.blogspot.com/2021/05/duration-curve-using-matplotlib.html)
 
 #### Interactive Maps with folium
-* [Introduction to Folium for interactive maps in python]()
+* [Introduction to Folium for interactive maps](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -101,7 +101,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbNzIzNzc1ODI4LDE5ODc3MT
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbNzkxMjAwNTQ5LDE5ODc3MT
 YxNDQsLTE5NDkyOTAyMzEsLTE2Mjc3NDU4MDIsLTkzODUwMDY4
 OSwtMTg1NTMwNTg2MywtMTE0NjMwNDYxOSwxNjU2Njk0MDAxLD
 EyNTkyMzEzNTcsMjU1NjM3NTM1LDEzOTg4NzE0NTUsMTgwMjcz
