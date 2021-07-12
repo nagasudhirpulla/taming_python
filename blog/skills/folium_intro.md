@@ -19,7 +19,7 @@ In this post we will get a beginner level introduction to Folium library which i
 * Set the tile layers from in-built sources
 * Set the tile layers from other sources
 * Layer controls button to show/hide layers
-* Save a map object 
+* Save a map object as html
 
 ### Creating a basic line plot with lists of x and y coordinates
 Lets create a simple line plot with x and y lists
@@ -80,5 +80,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTk3MjU0NiwtMTgyNzM0MTg2Nl19
+eyJoaXN0b3J5IjpbMTgyNzY0NjMxNywtMTgyNzM0MTg2Nl19
 -->
