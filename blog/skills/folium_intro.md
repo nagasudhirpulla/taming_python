@@ -32,18 +32,9 @@ zoom_start=2, tiles='OpenStreetMap')
 The options for tile sources in folium can be found [here](http://python-visualization.github.io/folium/modules.html#folium.raster_layers.TileLayer)
 
 
-### Video
-You can the video on this post [here](https://youtu.be/Cy789_J-RWY)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Cy789_J-RWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
-
-### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/
-
-### Basic Plot Example
-<iframe src="https://trinket.io/embed/python3/b3c8e34720" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### References
 * Examples gallery - https://matplotlib.org/gallery/index.html
@@ -55,6 +46,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTU1OTkzNSwxODkyOTIwNDksLTE4Mj
-czNDE4NjZdfQ==
+eyJoaXN0b3J5IjpbLTE0MzQ4Njc0MzcsMTg5MjkyMDQ5LC0xOD
+I3MzQxODY2XX0=
 -->
