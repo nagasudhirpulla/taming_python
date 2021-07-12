@@ -1,4 +1,4 @@
-## Skill - Interactive maps in python with Folium
+## Skill - Intro to Interactive maps in python with Folium
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -9,7 +9,7 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
-In this post we will get a beginner level introduction to Matplotlib library which is extensively **used for plotting** in python
+In this post we will get a beginner level introduction to Folium library which is extensively **used for creating interactive maps** in python
 
 **Matplotlib** is a plotting library in the scipy ecosystem of libraries.
 
@@ -85,5 +85,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTI5MjQyMDhdfQ==
+eyJoaXN0b3J5IjpbLTY1MTg3MDE5MF19
 -->
