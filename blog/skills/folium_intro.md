@@ -29,7 +29,8 @@ import folium
 mapObj = folium.Map(location=[21.437730075416685, 77.255859375],
 zoom_start=2, tiles='OpenStreetMap')
 ```
-The options for tile sources can be found at http://python-visualization.github.io/folium/modules.html#folium.raster_layers.TileLayer
+The options for tile sources in folium can be found [here](http://python-visualization.github.io/folium/modules.html#folium.raster_layers.TileLayer)
+
 
 ### Video
 You can the video on this post [here](https://youtu.be/Cy789_J-RWY)
@@ -54,6 +55,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzgwOTUwOCwxODkyOTIwNDksLTE4Mj
+eyJoaXN0b3J5IjpbMTgxNTU1OTkzNSwxODkyOTIwNDksLTE4Mj
 czNDE4NjZdfQ==
 -->
