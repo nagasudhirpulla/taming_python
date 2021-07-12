@@ -105,7 +105,8 @@ mapObj.save('folium_intro.html')
 
 ### References
 * folium quickstart - https://python-visualization.github.io/folium/quickstart.html
-* folium officialdocs - http://python-visualization.github.io/folium/modules.html#
+* folium official docs - http://python-visualization.github.io/folium/modules.html#
+* leaflet js - https://leafletjs.com/index.html
 
 <hr/>
 
@@ -113,6 +114,6 @@ mapObj.save('folium_intro.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTc1NDM4NSw0MjQxOTA1ODksNDc0OT
-MwMjI1LDE4OTI5MjA0OSwtMTgyNzM0MTg2Nl19
+eyJoaXN0b3J5IjpbODQ2MjYyNDY4LDQyNDE5MDU4OSw0NzQ5Mz
+AyMjUsMTg5MjkyMDQ5LC0xODI3MzQxODY2XX0=
 -->
