@@ -14,15 +14,8 @@ In this post we will get a beginner level introduction to Folium library which i
 ### Installing folium
 * Open command prompt and type ```python -m pip install folium```
 ![pip install folium](https://github.com/nagasudhirpulla/taming_python/raw/0aadac449b8f8e1b0a8659c79f32b3798aef991b/blog/skills/assets/img/folium_pip_install.png)
-### Anatomy of a matplotlib figure
-* A graph in matplotlib is called a **figure**. It is like a canvas on which we draw figures.
-* A matplotlib figure can have **plot, axis, title, legend, grid, ticks, tick labels, spines**
-* The figure below describes all the components of a matplotlib figure. 
-* Please take your time to understand the **terminology** used in matplotlib figure, since these terms will be used in matplotlib functions to **control the appearance of a figure**.
-* You can refer to this figure any time to recollect the terminology used in matplotlib functions
-
-![anatomy of a matplotlib figure](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/anatomy_of_matplotlib_figure.PNG)
-* As shown above, in order to create a plot with matplotlib, we need to create a figure with axes
+### Topics covered
+* Creating a map with folium
 
 ### Creating a basic line plot with lists of x and y coordinates
 Lets create a simple line plot with x and y lists
@@ -83,5 +76,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NDk0NTA4OV19
+eyJoaXN0b3J5IjpbMTA1NTg2MzU0Nl19
 -->
