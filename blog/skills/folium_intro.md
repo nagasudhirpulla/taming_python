@@ -43,7 +43,18 @@ folium.LayerControl().add_to(mapObj)
 ```
 
 ### Create tile layers from built-in sources
+```python
+import folium
+mapObj = folium.Map()
 
+# add layers control over the map
+folium.LayerControl().add_to(mapObj)
+
+# add new tile layers
+folium.TileLayer('openstreetmap').add_to(mapObj)
+folium.TileLayer('stamenterrain', attr="stamenterrain").add_to(mapObj)
+folium.TileLayer('stamenwatercolor', attr="stamenwatercolor").add_to(mapObj)
+```
 
 <hr/>
 
@@ -57,6 +68,6 @@ folium.LayerControl().add_to(mapObj)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0MzY4MTI3LDE4OTI5MjA0OSwtMTgyNz
-M0MTg2Nl19
+eyJoaXN0b3J5IjpbMTg4MTIxODU1MywxODkyOTIwNDksLTE4Mj
+czNDE4NjZdfQ==
 -->
