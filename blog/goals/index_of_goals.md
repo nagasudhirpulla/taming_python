@@ -91,6 +91,9 @@ Here are the goals and skills in this tutorial series
 * [Control axis ticks locations using tick locators in matplotlib](https://nagasudhir.blogspot.com/2020/05/control-axis-ticks-locations-using-tick.html)
 * [Format axis ticks using TickFormatters in matplotlib](https://nagasudhir.blogspot.com/2020/05/format-axis-ticks-using-tickformatters.html)
 * [Duration Curve using Matplotlib](http://nagasudhir.blogspot.com/2021/05/duration-curve-using-matplotlib.html)
+
+#### Interactive Maps with folium
+* [Introduction to Folium for interactive maps in python]()
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -98,11 +101,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMjAwNDM2MzM4MiwxOTg3Nz
-E2MTQ0LC0xOTQ5MjkwMjMxLC0xNjI3NzQ1ODAyLC05Mzg1MDA2
-ODksLTE4NTUzMDU4NjMsLTExNDYzMDQ2MTksMTY1NjY5NDAwMS
-wxMjU5MjMxMzU3LDI1NTYzNzUzNSwxMzk4ODcxNDU1LDE4MDI3
-Mzc2NTUsMTY1NjAzMzAxMCwxMDMyMzMzMjExLC0xMjcyMjU1Mj
-gwLDc4MTMwNzE4MCwxNjc0NjUwMjI2LC0xMzc1NDM1NDE5LC00
-Nzg3Njk4MywxODMwMzI5NDQ3XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbNzIzNzc1ODI4LDE5ODc3MT
+YxNDQsLTE5NDkyOTAyMzEsLTE2Mjc3NDU4MDIsLTkzODUwMDY4
+OSwtMTg1NTMwNTg2MywtMTE0NjMwNDYxOSwxNjU2Njk0MDAxLD
+EyNTkyMzEzNTcsMjU1NjM3NTM1LDEzOTg4NzE0NTUsMTgwMjcz
+NzY1NSwxNjU2MDMzMDEwLDEwMzIzMzMyMTEsLTEyNzIyNTUyOD
+AsNzgxMzA3MTgwLDE2NzQ2NTAyMjYsLTEzNzU0MzU0MTksLTQ3
+ODc2OTgzLDE4MzAzMjk0NDddfQ==
 -->
