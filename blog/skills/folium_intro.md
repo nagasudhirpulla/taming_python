@@ -1,4 +1,4 @@
-## Skill - Intro to Interactive maps in python with Folium
+## Skill - Introduction to Folium for interactive maps in python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -114,6 +114,7 @@ mapObj.save('folium_intro.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ2MjYyNDY4LDQyNDE5MDU4OSw0NzQ5Mz
-AyMjUsMTg5MjkyMDQ5LC0xODI3MzQxODY2XX0=
+eyJoaXN0b3J5IjpbMTk2NTA0MDQ2Nyw4NDYyNjI0NjgsNDI0MT
+kwNTg5LDQ3NDkzMDIyNSwxODkyOTIwNDksLTE4MjczNDE4NjZd
+fQ==
 -->
