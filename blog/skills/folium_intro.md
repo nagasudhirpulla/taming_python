@@ -69,6 +69,7 @@ folium.TileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
 # add layers control over the map
 folium.LayerControl().add_to(mapObj)
 ```
+The options for external tile sources can be explored [here](http://leaflet-extras.github.io/leaflet-providers/preview/)
 
 <hr/>
 
@@ -82,6 +83,6 @@ folium.LayerControl().add_to(mapObj)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0OTMwMjI1LDE4OTI5MjA0OSwtMTgyNz
-M0MTg2Nl19
+eyJoaXN0b3J5IjpbLTExNTA1NTU1NzYsNDc0OTMwMjI1LDE4OT
+I5MjA0OSwtMTgyNzM0MTg2Nl19
 -->
