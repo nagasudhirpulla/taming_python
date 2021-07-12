@@ -76,7 +76,8 @@ The options for external tile sources can be explored [here](http://leaflet-extr
 import folium
 mapObj = folium.Map()
 
-# 
+# save the map object as a html file
+
 ```
 
 <hr/>
@@ -91,6 +92,6 @@ mapObj = folium.Map()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTc5MjQ0MjEsNDc0OTMwMjI1LDE4OT
-I5MjA0OSwtMTgyNzM0MTg2Nl19
+eyJoaXN0b3J5IjpbMTA2OTYxODA3Niw0NzQ5MzAyMjUsMTg5Mj
+kyMDQ5LC0xODI3MzQxODY2XX0=
 -->
