@@ -14,7 +14,7 @@ In this post we will get a beginner level introduction to Folium library which i
 
 ### Topics covered
 * Initialize a folium map object with map center and zoom
-* Set the tile layers from in-built sources
+* Create tile layers from in-built sources
 * Set the tile layers from other sources
 * Layer controls button to show/hide layers
 * Save a map object as html
@@ -47,6 +47,6 @@ zoom_start=2, tiles='OpenStreetMap')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTQ1NDkxNSwxODkyOTIwNDksLTE4Mj
+eyJoaXN0b3J5IjpbMTk1NDcwODU1NiwxODkyOTIwNDksLTE4Mj
 czNDE4NjZdfQ==
 -->
