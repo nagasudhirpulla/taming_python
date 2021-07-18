@@ -12,14 +12,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post we will get a beginner level introduction to Folium library which is extensively **used for creating interactive maps** in python
-
-### Topics covered
-* Initialize a folium map object with map center and zoom
-* Layer controls button to show/hide layers
-* Create tile layers from built-in sources
-* Create tile layers from other sources
-* Save a map object as html file
+In this post we will learn how to draw GeoJSON paths in **folium** maps. See [this]() post to learn about folium libary basics
 
 ### Installing folium
 * Open command prompt and type ```python -m pip install folium```
@@ -117,5 +110,5 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTkzMjEzNSw1MTIzODIzNzRdfQ==
+eyJoaXN0b3J5IjpbLTUxNzIyODg5Miw1MTIzODIzNzRdfQ==
 -->
