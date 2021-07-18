@@ -25,11 +25,11 @@ Lets create a simple folium map object
 import folium
 mapObj = folium.Map()
 
-indiaLayer= folium.GeoJson(
+layer1 = folium.GeoJson(
 data=(open("states_india.geojson", 'r').read()),
 name="India",
 style_function=lambda  x: bordersStyle)
-indiaLayer.add_to(mapObj)
+layer1.add_to(mapObj)
 
 ```
 
@@ -118,5 +118,5 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MjAzODA1NCw1MTIzODIzNzRdfQ==
+eyJoaXN0b3J5IjpbMTU2NDE0MzM1Miw1MTIzODIzNzRdfQ==
 -->
