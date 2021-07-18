@@ -35,6 +35,9 @@ mapObj.save('output.html')
 
 ### Control border and fill style of GeoJSON objects
 
+* use the ```style_function``` input of ```folium.GeoJSON``` function to control the styling of the paths.
+* ```style_function``` ss
+
 ```python
 import folium
 
@@ -146,6 +149,7 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1OTM1OTE3LC0xODkyOTY4NTkzLDEwMT
-EzOTI5NzIsLTE4NjU3ODU2MjcsNTEyMzgyMzc0XX0=
+eyJoaXN0b3J5IjpbMTY5Nzk1NzkzMiwyNzU5MzU5MTcsLTE4OT
+I5Njg1OTMsMTAxMTM5Mjk3MiwtMTg2NTc4NTYyNyw1MTIzODIz
+NzRdfQ==
 -->
