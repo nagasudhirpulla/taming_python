@@ -84,17 +84,15 @@ bordersStyle = {
     'fillOpacity': 0.2
 }
 
-indiaLayer = folium.GeoJson(
+folium.GeoJson(
     data=(open("states_india.geojson", 'r').read()),
     name="India",
-    style_function=lambda x: bordersStyle)
-indiaLayer.add_to(mapObj)
+    style_function=lambda x: bordersStyle).add_to(mapObj)
 
-srilankaLayer = folium.GeoJson(
+folium.GeoJson(
     data=(open("srilanka.geojson", 'r').read()),
     name="Srilanka",
-    style_function=lambda x: bordersStyle)
-srilankaLayer.add_to(mapObj)
+    style_function=lambda x: bordersStyle).add_to(mapObj)
 
 # add layer control over the map
 folium.LayerControl().add_to(mapObj)
@@ -115,8 +113,8 @@ mapObj.save('output.html')
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5NDE0NTI3LC0xMjAyNjU1MjMsLTEwNT
-A4NTgzMDYsMTIyMjExODg1OSwyMTAxNTM2NTcxLDk1NzEyMTE0
-NywyNzU5MzU5MTcsLTE4OTI5Njg1OTMsMTAxMTM5Mjk3MiwtMT
-g2NTc4NTYyNyw1MTIzODIzNzRdfQ==
+eyJoaXN0b3J5IjpbLTQ0NTE1ODcyMSw3NDk0MTQ1MjcsLTEyMD
+I2NTUyMywtMTA1MDg1ODMwNiwxMjIyMTE4ODU5LDIxMDE1MzY1
+NzEsOTU3MTIxMTQ3LDI3NTkzNTkxNywtMTg5Mjk2ODU5MywxMD
+ExMzkyOTcyLC0xODY1Nzg1NjI3LDUxMjM4MjM3NF19
 -->
