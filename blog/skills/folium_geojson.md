@@ -72,7 +72,7 @@ mapObj.save('output.html')
 import folium
 
 # initialize a map with center and zoom
-mapObj = folium.Map(location=[21.437730075416685, 77.255859375],
+mapObj = folium.Map(location=[22.167057857886153, 82.44140625000001],
                     zoom_start=7,
                     tiles=None)
 # folium.TileLayer('stamenterrain', attr="stamenterrain").add_to(mapObj)
@@ -118,7 +118,7 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3MTIxMTQ3LDI3NTkzNTkxNywtMTg5Mj
-k2ODU5MywxMDExMzkyOTcyLC0xODY1Nzg1NjI3LDUxMjM4MjM3
-NF19
+eyJoaXN0b3J5IjpbMjEwMTUzNjU3MSw5NTcxMjExNDcsMjc1OT
+M1OTE3LC0xODkyOTY4NTkzLDEwMTEzOTI5NzIsLTE4NjU3ODU2
+MjcsNTEyMzgyMzc0XX0=
 -->
