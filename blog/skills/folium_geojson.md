@@ -23,8 +23,14 @@ Place the following files in the same folder of the python file to run this code
 Lets create a simple folium map object
 ```python
 import folium
-mapObj = folium.Map(location=[21.437730075416685, 77.255859375],
-zoom_start=2, tiles='OpenStreetMap')
+mapObj = folium.Map()
+
+indiaLayer= folium.GeoJson(
+data=(open("states_india.geojson", 'r').read()),
+name="India",
+style_function=lambda  x: bordersStyle)
+indiaLayer.add_to(mapObj)
+
 ```
 
 * Keep ```tiles=None``` to create a map without tiles
@@ -112,5 +118,5 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDI5MzAxOCw1MTIzODIzNzRdfQ==
+eyJoaXN0b3J5IjpbMTI5MjAzODA1NCw1MTIzODIzNzRdfQ==
 -->
