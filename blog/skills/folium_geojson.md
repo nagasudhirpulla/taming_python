@@ -73,18 +73,17 @@ import folium
 
 # initialize a map with center and zoom
 mapObj = folium.Map(location=[22.167057857886153, 82.44140625000001],
-                    zoom_start=7,
-                    tiles=None)
-# folium.TileLayer('stamenterrain', attr="stamenterrain").add_to(mapObj)
+                    zoom_start=5)
 
-# show borders
-# style options - https://leafletjs.com/reference-1.7.1.html#path
+# https://leafletjs.com/reference-1.7.1.html#path
+# border styles dictionary
 bordersStyle = {
     'color': 'green',
     'weight': 2,
     'fillColor': 'blue',
     'fillOpacity': 0.2
 }
+
 indiaLayer = folium.GeoJson(
     data=(open("states_india.geojson", 'r').read()),
     name="India",
@@ -118,7 +117,7 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTUzNjU3MSw5NTcxMjExNDcsMjc1OT
-M1OTE3LC0xODkyOTY4NTkzLDEwMTEzOTI5NzIsLTE4NjU3ODU2
-MjcsNTEyMzgyMzc0XX0=
+eyJoaXN0b3J5IjpbMTIyMjExODg1OSwyMTAxNTM2NTcxLDk1Nz
+EyMTE0NywyNzU5MzU5MTcsLTE4OTI5Njg1OTMsMTAxMTM5Mjk3
+MiwtMTg2NTc4NTYyNyw1MTIzODIzNzRdfQ==
 -->
