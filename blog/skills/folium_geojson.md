@@ -58,11 +58,10 @@ bordersStyle = {
     'fillOpacity': 0.2
 }
 
-layer1 = folium.GeoJson(
+folium.GeoJson(
     data=(open("states_india.geojson", 'r').read()),
     name="India",
-    style_function=lambda x: bordersStyle)
-layer1.add_to(mapObj)
+    style_function=lambda x: bordersStyle).add_to(mapObj)
 
 mapObj.save('output.html')
 ```
@@ -107,13 +106,14 @@ mapObj.save('output.html')
 
 ### References
 * what is GeoJSON - https://en.wikipedia.org/wiki/GeoJSON
+* GeoJSON styling options - https://leafletjs.com/reference-1.7.1.html#path
 * official docs - https://python-visualization.github.io/folium/modules.html#folium.features.GeoJson
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NTE1ODcyMSw3NDk0MTQ1MjcsLTEyMD
+eyJoaXN0b3J5IjpbLTQ4NjE3MTE2NSw3NDk0MTQ1MjcsLTEyMD
 I2NTUyMywtMTA1MDg1ODMwNiwxMjIyMTE4ODU5LDIxMDE1MzY1
 NzEsOTU3MTIxMTQ3LDI3NTkzNTkxNywtMTg5Mjk2ODU5MywxMD
 ExMzkyOTcyLC0xODY1Nzg1NjI3LDUxMjM4MjM3NF19
