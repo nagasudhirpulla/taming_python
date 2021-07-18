@@ -32,8 +32,8 @@ layer1.add_to(mapObj)
 
 mapObj.save('output.html')
 ```
-You can add multiple geojson layers
 
+You can add multiple GeoJSON layers to a map
 
 ### Control border and fill style of GeoJSON objects
 
@@ -118,7 +118,7 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDgwNjU3OTUsMjc1OTM1OTE3LC0xOD
-kyOTY4NTkzLDEwMTEzOTI5NzIsLTE4NjU3ODU2MjcsNTEyMzgy
-Mzc0XX0=
+eyJoaXN0b3J5IjpbOTU3MTIxMTQ3LDI3NTkzNTkxNywtMTg5Mj
+k2ODU5MywxMDExMzkyOTcyLC0xODY1Nzg1NjI3LDUxMjM4MjM3
+NF19
 -->
