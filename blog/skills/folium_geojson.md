@@ -109,13 +109,11 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 <hr/>
 
 ### References
-* folium quickstart - https://python-visualization.github.io/folium/quickstart.html
-* folium official docs - http://python-visualization.github.io/folium/modules.html#
-* leaflet js - https://leafletjs.com/index.html
+* what is GeoJSON - https://en.wikipedia.org/wiki/GeoJSON
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyMzgyMzc0XX0=
+eyJoaXN0b3J5IjpbNTQzODY0NDgsNTEyMzgyMzc0XX0=
 -->
