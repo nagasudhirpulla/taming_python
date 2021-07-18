@@ -107,12 +107,14 @@ mapObj.save('output.html')
 
 ### References
 * what is GeoJSON - https://en.wikipedia.org/wiki/GeoJSON
+* 
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjA0MTU5NCwxMjIyMTE4ODU5LDIxMD
-E1MzY1NzEsOTU3MTIxMTQ3LDI3NTkzNTkxNywtMTg5Mjk2ODU5
-MywxMDExMzkyOTcyLC0xODY1Nzg1NjI3LDUxMjM4MjM3NF19
+eyJoaXN0b3J5IjpbLTEwNTA4NTgzMDYsMTIyMjExODg1OSwyMT
+AxNTM2NTcxLDk1NzEyMTE0NywyNzU5MzU5MTcsLTE4OTI5Njg1
+OTMsMTAxMTM5Mjk3MiwtMTg2NTc4NTYyNyw1MTIzODIzNzRdfQ
+==
 -->
