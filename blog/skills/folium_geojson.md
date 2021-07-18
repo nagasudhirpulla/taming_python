@@ -103,6 +103,8 @@ folium.LayerControl().add_to(mapObj)
 mapObj.save('output.html')
 ```
 
+![folium_geojson_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_geojson_demo.png)
+
 <hr/>
 
 ### References
@@ -113,8 +115,8 @@ mapObj.save('output.html')
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDI2NTUyMywtMTA1MDg1ODMwNiwxMj
-IyMTE4ODU5LDIxMDE1MzY1NzEsOTU3MTIxMTQ3LDI3NTkzNTkx
-NywtMTg5Mjk2ODU5MywxMDExMzkyOTcyLC0xODY1Nzg1NjI3LD
-UxMjM4MjM3NF19
+eyJoaXN0b3J5IjpbNzQ5NDE0NTI3LC0xMjAyNjU1MjMsLTEwNT
+A4NTgzMDYsMTIyMjExODg1OSwyMTAxNTM2NTcxLDk1NzEyMTE0
+NywyNzU5MzU5MTcsLTE4OTI5Njg1OTMsMTAxMTM5Mjk3MiwtMT
+g2NTc4NTYyNyw1MTIzODIzNzRdfQ==
 -->
