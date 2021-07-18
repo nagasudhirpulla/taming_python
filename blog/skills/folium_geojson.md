@@ -33,7 +33,8 @@ layer1.add_to(mapObj)
 mapObj.save('output.html')
 ```
 
-### Layer controls button to show/hide layers
+### Control border and fill style of GeoJSON objects
+
 ```python
 import folium
 mapObj = folium.Map()
@@ -131,6 +132,6 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDM4OTAyNTUsMTAxMTM5Mjk3MiwtMT
+eyJoaXN0b3J5IjpbLTE4OTI5Njg1OTMsMTAxMTM5Mjk3MiwtMT
 g2NTc4NTYyNyw1MTIzODIzNzRdfQ==
 -->
