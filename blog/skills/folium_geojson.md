@@ -36,8 +36,12 @@ mapObj.save('output.html')
 ### Control border and fill style of GeoJSON objects
 
 * use the ```style_function``` input of ```folium.GeoJSON``` function to control the styling of the paths.
-* ```style_function``` should be a function that returns a dictin with properties specified [here](https://leafletjs.com/reference-1.7.1.html#path)
-
+* ```style_function``` should be a function that returns a dictionary with properties specified [here](https://leafletjs.com/reference-1.7.1.html#path)
+* Some of the important styling properties are
+	* color - line color
+	* weight - line weight
+	* fillColor
+	* fillOpaci
 ```python
 import folium
 
@@ -149,7 +153,7 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE0ODkwOTQsMjc1OTM1OTE3LC0xOD
+eyJoaXN0b3J5IjpbLTE5MjU0NTAwNDcsMjc1OTM1OTE3LC0xOD
 kyOTY4NTkzLDEwMTEzOTI5NzIsLTE4NjU3ODU2MjcsNTEyMzgy
 Mzc0XX0=
 -->
