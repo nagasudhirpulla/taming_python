@@ -37,10 +37,24 @@ mapObj.save('output.html')
 
 ```python
 import folium
-mapObj = folium.Map()
 
-# add layers control over the map
-folium.LayerControl().add_to(mapObj)
+mapObj = folium.Map(location=[22.167057857886153, 82.44140625000001], zoom_start=5)
+
+# style options - https://leafletjs.com/reference-1.7.1.html#path
+bordersStyle = {
+    'color': 'green',
+    'weight': 2,
+    'fillColor': 'blue',
+    'fillOpacity': 0.2
+}
+
+layer1 = folium.GeoJson(
+    data=(open("states_india.geojson", 'r').read()),
+    name="India",
+    style_function=lambda x: bordersStyle)
+layer1.add_to(mapObj)
+
+mapObj.save('output.html')
 ```
 
 ### Create tile layers from built-in sources
@@ -132,6 +146,6 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTI5Njg1OTMsMTAxMTM5Mjk3MiwtMT
-g2NTc4NTYyNyw1MTIzODIzNzRdfQ==
+eyJoaXN0b3J5IjpbMjc1OTM1OTE3LC0xODkyOTY4NTkzLDEwMT
+EzOTI5NzIsLTE4NjU3ODU2MjcsNTEyMzgyMzc0XX0=
 -->
