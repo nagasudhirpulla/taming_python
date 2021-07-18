@@ -94,6 +94,7 @@ Here are the goals and skills in this tutorial series
 
 #### Interactive Maps with folium
 * [Introduction to Folium for interactive maps](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html)
+* [Draw borders from GeoJSON paths in python folium maps](https://nagasudhir.blogspot.com/2021/07/draw-borders-from-geojson-paths-in.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -101,11 +102,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbNzkxMjAwNTQ5LDE5ODc3MT
-YxNDQsLTE5NDkyOTAyMzEsLTE2Mjc3NDU4MDIsLTkzODUwMDY4
-OSwtMTg1NTMwNTg2MywtMTE0NjMwNDYxOSwxNjU2Njk0MDAxLD
-EyNTkyMzEzNTcsMjU1NjM3NTM1LDEzOTg4NzE0NTUsMTgwMjcz
-NzY1NSwxNjU2MDMzMDEwLDEwMzIzMzMyMTEsLTEyNzIyNTUyOD
-AsNzgxMzA3MTgwLDE2NzQ2NTAyMjYsLTEzNzU0MzU0MTksLTQ3
-ODc2OTgzLDE4MzAzMjk0NDddfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTIxMTM4NzY0OTYsNzkxMj
+AwNTQ5LDE5ODc3MTYxNDQsLTE5NDkyOTAyMzEsLTE2Mjc3NDU4
+MDIsLTkzODUwMDY4OSwtMTg1NTMwNTg2MywtMTE0NjMwNDYxOS
+wxNjU2Njk0MDAxLDEyNTkyMzEzNTcsMjU1NjM3NTM1LDEzOTg4
+NzE0NTUsMTgwMjczNzY1NSwxNjU2MDMzMDEwLDEwMzIzMzMyMT
+EsLTEyNzIyNTUyODAsNzgxMzA3MTgwLDE2NzQ2NTAyMjYsLTEz
+NzU0MzU0MTksLTQ3ODc2OTgzXX0=
 -->
