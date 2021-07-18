@@ -101,6 +101,10 @@ mapObj.save('output.html')
 ```
 
 ![folium_geojson_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_geojson_demo.png)
+### Video
+The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h16O4xt6yBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
 
@@ -113,8 +117,9 @@ mapObj.save('output.html')
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NjE3MTE2NSw3NDk0MTQ1MjcsLTEyMD
-I2NTUyMywtMTA1MDg1ODMwNiwxMjIyMTE4ODU5LDIxMDE1MzY1
-NzEsOTU3MTIxMTQ3LDI3NTkzNTkxNywtMTg5Mjk2ODU5MywxMD
-ExMzkyOTcyLC0xODY1Nzg1NjI3LDUxMjM4MjM3NF19
+eyJoaXN0b3J5IjpbMTAwNjg5NzI3MCwtNDg2MTcxMTY1LDc0OT
+QxNDUyNywtMTIwMjY1NTIzLC0xMDUwODU4MzA2LDEyMjIxMTg4
+NTksMjEwMTUzNjU3MSw5NTcxMjExNDcsMjc1OTM1OTE3LC0xOD
+kyOTY4NTkzLDEwMTEzOTI5NzIsLTE4NjU3ODU2MjcsNTEyMzgy
+Mzc0XX0=
 -->
