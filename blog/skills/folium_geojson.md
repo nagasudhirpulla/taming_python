@@ -32,6 +32,8 @@ layer1.add_to(mapObj)
 
 mapObj.save('output.html')
 ```
+You can add multiple geojson layers
+
 
 ### Control border and fill style of GeoJSON objects
 
@@ -63,44 +65,6 @@ layer1 = folium.GeoJson(
 layer1.add_to(mapObj)
 
 mapObj.save('output.html')
-```
-
-### Create tile layers from built-in sources
-```python
-import folium
-mapObj = folium.Map()
-
-# add new tile layers
-folium.TileLayer('openstreetmap').add_to(mapObj)
-folium.TileLayer('stamenterrain', attr="stamenterrain").add_to(mapObj)
-folium.TileLayer('stamenwatercolor', attr="stamenwatercolor").add_to(mapObj)
-
-# add layers control over the map
-folium.LayerControl().add_to(mapObj)
-```
-
-The options for built-in tile sources in folium can be found [here](http://python-visualization.github.io/folium/modules.html#folium.raster_layers.TileLayer)
-
-### Create tile layers from other sources
-```python
-import folium
-mapObj = folium.Map()
-
-# add new tile layer from external source
-folium.TileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', name='CartoDB.DarkMatter', attr="CartoDB.DarkMatter").add_to(mapObj)
-
-# add layers control over the map
-folium.LayerControl().add_to(mapObj)
-```
-The options for external tile sources can be explored [here](http://leaflet-extras.github.io/leaflet-providers/preview/)
-
-### Save a map object as html file
-```python
-import folium
-mapObj = folium.Map()
-
-# save the map object as a html file
-mapObj.save('folium_intro.html')
 ```
 
 ### Complete example
@@ -154,7 +118,7 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwNTIyOTEzLDI3NTkzNTkxNywtMTg5Mj
-k2ODU5MywxMDExMzkyOTcyLC0xODY1Nzg1NjI3LDUxMjM4MjM3
-NF19
+eyJoaXN0b3J5IjpbLTE0MDgwNjU3OTUsMjc1OTM1OTE3LC0xOD
+kyOTY4NTkzLDEwMTEzOTI5NzIsLTE4NjU3ODU2MjcsNTEyMzgy
+Mzc0XX0=
 -->
