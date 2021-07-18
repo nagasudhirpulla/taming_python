@@ -107,14 +107,14 @@ mapObj.save('output.html')
 
 ### References
 * what is GeoJSON - https://en.wikipedia.org/wiki/GeoJSON
-* 
+* official docs - https://python-visualization.github.io/folium/modules.html#folium.features.GeoJson
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTA4NTgzMDYsMTIyMjExODg1OSwyMT
-AxNTM2NTcxLDk1NzEyMTE0NywyNzU5MzU5MTcsLTE4OTI5Njg1
-OTMsMTAxMTM5Mjk3MiwtMTg2NTc4NTYyNyw1MTIzODIzNzRdfQ
-==
+eyJoaXN0b3J5IjpbLTEyMDI2NTUyMywtMTA1MDg1ODMwNiwxMj
+IyMTE4ODU5LDIxMDE1MzY1NzEsOTU3MTIxMTQ3LDI3NTkzNTkx
+NywtMTg5Mjk2ODU5MywxMDExMzkyOTcyLC0xODY1Nzg1NjI3LD
+UxMjM4MjM3NF19
 -->
