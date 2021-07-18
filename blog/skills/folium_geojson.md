@@ -84,19 +84,35 @@ import folium
 
 # initialize a map with center and zoom
 mapObj = folium.Map(location=[21.437730075416685, 77.255859375],
-                     zoom_start=4, tiles=None)
+                    zoom_start=7,
+                    tiles=None)
+# folium.TileLayer('stamenterrain', attr="stamenterrain").add_to(mapObj)
 
-# add tile layers
-folium.TileLayer('openstreetmap').add_to(mapObj)
-folium.TileLayer('stamenterrain', attr="stamenterrain").add_to(mapObj)
-folium.TileLayer('stamenwatercolor', attr="stamenwatercolor").add_to(mapObj)
-folium.TileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', name='CartoDB.DarkMatter', attr="CartoDB.DarkMatter").add_to(mapObj)
+# show borders
+# style options - https://leafletjs.com/reference-1.7.1.html#path
+bordersStyle = {
+    'color': 'green',
+    'weight': 2,
+    'fillColor': 'blue',
+    'fillOpacity': 0.2
+}
+indiaLayer = folium.GeoJson(
+    data=(open("states_india.geojson", 'r').read()),
+    name="India",
+    style_function=lambda x: bordersStyle)
+indiaLayer.add_to(mapObj)
 
-# add layers control over the map
+srilankaLayer = folium.GeoJson(
+    data=(open("srilanka.geojson", 'r').read()),
+    name="Srilanka",
+    style_function=lambda x: bordersStyle)
+srilankaLayer.add_to(mapObj)
+
+# add layer control over the map
 folium.LayerControl().add_to(mapObj)
 
 # save the map as html file
-mapObj.save('folium_intro.html')
+mapObj.save('output.html')
 ```
 
 ### Video
@@ -113,5 +129,6 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjU3ODU2MjcsNTEyMzgyMzc0XX0=
+eyJoaXN0b3J5IjpbMTAxMTM5Mjk3MiwtMTg2NTc4NTYyNyw1MT
+IzODIzNzRdfQ==
 -->
