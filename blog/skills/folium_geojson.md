@@ -15,8 +15,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 In this post we will learn how to draw GeoJSON paths in **folium** maps. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
 ### Files used in this example
-* Open command prompt and type ```python -m pip install folium```
-![pip install folium](https://github.com/nagasudhirpulla/taming_python/raw/0aadac449b8f8e1b0a8659c79f32b3798aef991b/blog/skills/assets/img/folium_pip_install.png)
+* [states_india.geojson](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/states_india.geojson)
+* [srilanka.geojson](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/srilanka.geojson)
+
 ### Initialize a folium map object with map center and zoom
 Lets create a simple folium map object
 ```python
@@ -110,5 +111,5 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzE5OTQzMCw1MTIzODIzNzRdfQ==
+eyJoaXN0b3J5IjpbLTEwNzQ1NjY5MjYsNTEyMzgyMzc0XX0=
 -->
