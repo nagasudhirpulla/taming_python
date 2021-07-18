@@ -103,11 +103,6 @@ folium.LayerControl().add_to(mapObj)
 mapObj.save('output.html')
 ```
 
-### Video
-The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2Mn6IvzUKvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <hr/>
 
 ### References
@@ -117,7 +112,7 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjExODg1OSwyMTAxNTM2NTcxLDk1Nz
-EyMTE0NywyNzU5MzU5MTcsLTE4OTI5Njg1OTMsMTAxMTM5Mjk3
-MiwtMTg2NTc4NTYyNyw1MTIzODIzNzRdfQ==
+eyJoaXN0b3J5IjpbLTI2MjA0MTU5NCwxMjIyMTE4ODU5LDIxMD
+E1MzY1NzEsOTU3MTIxMTQ3LDI3NTkzNTkxNywtMTg5Mjk2ODU5
+MywxMDExMzkyOTcyLC0xODY1Nzg1NjI3LDUxMjM4MjM3NF19
 -->
