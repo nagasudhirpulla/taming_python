@@ -38,10 +38,11 @@ mapObj.save('output.html')
 * use the ```style_function``` input of ```folium.GeoJSON``` function to control the styling of the paths.
 * ```style_function``` should be a function that returns a dictionary with properties specified [here](https://leafletjs.com/reference-1.7.1.html#path)
 * Some of the important styling properties are
-	* color - line color
-	* weight - line weight
-	* fillColor
-	* fillOpaci
+	* color - line stroke color
+	* weight - line stroke width in pixels
+	* opacity - line stroke opacity
+	* fillColor - fill Color
+	* fillOpacity - fill Opacity
 ```python
 import folium
 
@@ -153,7 +154,7 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU0NTAwNDcsMjc1OTM1OTE3LC0xOD
-kyOTY4NTkzLDEwMTEzOTI5NzIsLTE4NjU3ODU2MjcsNTEyMzgy
-Mzc0XX0=
+eyJoaXN0b3J5IjpbOTAwMjM0MTcsMjc1OTM1OTE3LC0xODkyOT
+Y4NTkzLDEwMTEzOTI5NzIsLTE4NjU3ODU2MjcsNTEyMzgyMzc0
+XX0=
 -->
