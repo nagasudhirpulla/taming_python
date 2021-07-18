@@ -20,21 +20,16 @@ Place the following files in the same folder of the python file to run this code
 * [srilanka.geojson](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/srilanka.geojson)
 
 ### Create map layer with geojson data
-Lets create a simple folium map object
 ```python
 import folium
+
 mapObj = folium.Map()
 
 layer1 = folium.GeoJson(
 data=(open("states_india.geojson", 'r').read()),
-name="India",
-style_function=lambda  x: bordersStyle)
+name="India")
 layer1.add_to(mapObj)
-
 ```
-
-* Keep ```tiles=None``` to create a map without tiles
-* The options for tile sources in folium can be found [here](http://python-visualization.github.io/folium/modules.html#folium.raster_layers.TileLayer)
 
 ### Layer controls button to show/hide layers
 ```python
@@ -118,5 +113,5 @@ The video for this post can be seen [here](https://youtu.be/2Mn6IvzUKvY)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NDE0MzM1Miw1MTIzODIzNzRdfQ==
+eyJoaXN0b3J5IjpbLTE4NjU3ODU2MjcsNTEyMzgyMzc0XX0=
 -->
