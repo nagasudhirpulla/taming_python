@@ -20,7 +20,7 @@ In this post we will learn how to draw circles in **folium** maps. See [this](ht
 ```python
 import folium
 
-mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=5)
+mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=6)
 
 folium.Circle(location=[23.294059708387206, 78.26660156250001],
               radius=50000
@@ -42,7 +42,7 @@ mapObj.save('output.html')
 ```python
 import folium
 
-mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=5)
+mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=6)
 
 folium.Circle(location=[23.294059708387206, 78.26660156250001],
               radius=50000,
@@ -59,7 +59,7 @@ mapObj.save('output.html')
 ```python
 import folium
 
-mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=5)
+mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=6)
 
 folium.Circle(location=[23.294059708387206, 78.26660156250001],
               radius=50000,
@@ -78,8 +78,7 @@ mapObj.save('output.html')
 from os import name
 import folium
 
-mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001],
-                    zoom_start=5)
+mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=6)
 
 # create a layer on the map object
 shapesLayer = folium.FeatureGroup(name="circles").add_to(mapObj)
@@ -93,6 +92,8 @@ folium.LayerControl().add_to(mapObj)
 
 mapObj.save('output.html')
 ```
+
+### Compl
 
 ![folium_geojson_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_geojson_demo.png)
 ### Video
@@ -112,6 +113,6 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTM2NDg2MSwtMTcxOTYyNDAzOSwzNz
-QxODk4NzUsMTY2OTkxODU2OF19
+eyJoaXN0b3J5IjpbMjU3NzAwMzY1LC0xNzE5NjI0MDM5LDM3ND
+E4OTg3NSwxNjY5OTE4NTY4XX0=
 -->
