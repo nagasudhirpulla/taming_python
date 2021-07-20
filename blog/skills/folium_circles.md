@@ -15,6 +15,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 In this post we will learn how to draw circles in **folium** maps. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
 ### Draw a simple circle with location and radius
+* location - latitude, longitude location of the center of the circle
+* radius - radius of the circle in **meters**
 ```python
 import folium
 
@@ -110,5 +112,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNTcwMDM0OV19
+eyJoaXN0b3J5IjpbMTg3ODE5NTI0Ml19
 -->
