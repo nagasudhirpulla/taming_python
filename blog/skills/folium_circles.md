@@ -97,8 +97,7 @@ mapObj.save('output.html')
 ```python
 import folium
 
-mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001],
-                    zoom_start=5)
+mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=6)
 
 shapesLayer = folium.FeatureGroup(name="circles").add_to(mapObj)
 
@@ -135,6 +134,6 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzczODM2NCwtMTcxOTYyNDAzOSwzNz
+eyJoaXN0b3J5IjpbLTQ2MjYyMjYxMywtMTcxOTYyNDAzOSwzNz
 QxODk4NzUsMTY2OTkxODU2OF19
 -->
