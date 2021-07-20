@@ -94,8 +94,17 @@ mapObj.save('output.html')
 ```
 
 ### Difference between Circle and CircleMarker
-The radius in Circle is defined as meters, where as the radius in CircleMarker is defined in pixels
+The radius in Circle is defined in **meters**, where as the radius in CircleMarker is defined in **pixels**
 ```python
+import folium
+
+mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=6)
+
+folium.CircleMarker(location=[23.294059708387206, 78.26660156250001],
+              radius=50000
+              ).add_to(mapObj)
+
+mapObj.save('output.html')
 ```
 
 ### Complete example
@@ -143,7 +152,7 @@ mapObj.save('output.html')
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3ODY1ODAwLDExNzc5OTA3MTIsMTg1ND
-czNjIwMywtMjAwMDI1OTE1NiwxODQxNjE1NDQsLTE3MTk2MjQw
-MzksMzc0MTg5ODc1LDE2Njk5MTg1NjhdfQ==
+eyJoaXN0b3J5IjpbLTI2NTczNzgzMywxMTc3OTkwNzEyLDE4NT
+Q3MzYyMDMsLTIwMDAyNTkxNTYsMTg0MTYxNTQ0LC0xNzE5NjI0
+MDM5LDM3NDE4OTg3NSwxNjY5OTE4NTY4XX0=
 -->
