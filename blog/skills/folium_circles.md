@@ -48,7 +48,8 @@ folium.Circle(location=[23.294059708387206, 78.26660156250001],
               radius=50000,
               color='green',
               weight=6,
-              fill_color='red'
+              fill_color='red',
+              fill_opacity = 0.5
               ).add_to(mapObj)
 
 mapObj.save('output.html')
@@ -106,5 +107,6 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0MTg5ODc1LDE2Njk5MTg1NjhdfQ==
+eyJoaXN0b3J5IjpbMTQ2MzAzMzM5NiwzNzQxODk4NzUsMTY2OT
+kxODU2OF19
 -->
