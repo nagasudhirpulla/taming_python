@@ -119,11 +119,6 @@ mapObj.save('output.html')
 ```
 
 ![folium_circles_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_circles_demo.png)
-### Video
-The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h16O4xt6yBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <hr/>
 
 ### References
@@ -136,7 +131,7 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0OTIzMTIsLTIwMDAyNTkxNTYsMTg0MT
-YxNTQ0LC0xNzE5NjI0MDM5LDM3NDE4OTg3NSwxNjY5OTE4NTY4
-XX0=
+eyJoaXN0b3J5IjpbMTg1NDczNjIwMywtMjAwMDI1OTE1NiwxOD
+QxNjE1NDQsLTE3MTk2MjQwMzksMzc0MTg5ODc1LDE2Njk5MTg1
+NjhdfQ==
 -->
