@@ -64,7 +64,7 @@ mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start
 folium.Circle(location=[23.294059708387206, 78.26660156250001],
               radius=50000,
               fill=True,
-              tooltip="center of map",
+              tooltip="This is a tooltip text",
               popup=folium.Popup("""<h2>This is a popup</h2><br/>
               This is a <b>new line</b><br/>
               <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli" style="max-width:100%;max-height:100%">""", max_width=500)
@@ -75,7 +75,23 @@ mapObj.save('output.html')
 
 ### Keep shapes in different layer
 ```python
+from os import name
+import folium
 
+mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001],
+                    zoom_start=5)
+
+# create a layer on the map object
+shapesLayer = folium.FeatureGroup(name="circles").add_to(mapObj)
+
+folium.Circle(location=[23.294059708387206, 78.26660156250001],
+              radius=50000,
+              fill=True
+              ).add_to(shapesLayer)
+
+folium.LayerControl().add_to(mapObj)
+
+mapObj.save('output.html')
 ```
 
 ![folium_geojson_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_geojson_demo.png)
@@ -96,6 +112,6 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDY0NDQ3OSwtMTcxOTYyNDAzOSwzNz
+eyJoaXN0b3J5IjpbLTQ5NTM2NDg2MSwtMTcxOTYyNDAzOSwzNz
 QxODk4NzUsMTY2OTkxODU2OF19
 -->
