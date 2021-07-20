@@ -1,4 +1,4 @@
-## Skill - Draw borders from GeoJSON paths in python folium maps
+## Skill - Draw circles and circle markers in python folium
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -12,7 +12,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post we will learn how to draw GeoJSON paths in **folium** maps. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
+In this post we will learn how to draw circles in **folium** maps. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
 ### Files used in this example
 Place the following files in the same folder of the python file to run this code example
@@ -118,5 +118,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDA3NDY3MTZdfQ==
+eyJoaXN0b3J5IjpbLTIyOTUzMTE0Nl19
 -->
