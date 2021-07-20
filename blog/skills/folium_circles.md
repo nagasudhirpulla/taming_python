@@ -59,33 +59,16 @@ mapObj.save('output.html')
 ```python
 import folium
 
-# initialize a map with center and zoom
-mapObj = folium.Map(location=[22.167057857886153, 82.44140625000001],
-                    zoom_start=5)
+mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=5)
 
-# https://leafletjs.com/reference-1.7.1.html#path
-# border styles dictionary
-bordersStyle = {
-    'color': 'green',
-    'weight': 2,
-    'fillColor': 'blue',
-    'fillOpacity': 0.2
-}
+folium.Circle(location=[23.294059708387206, 78.26660156250001],
+              radius=50000,
+              tooltip="center of map",
+              popup=folium.Popup("""<h2>This is a popup</h2><br/>
+              This is a <b>new line</b><br/>
+              <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli" style="max-width:100%;max-height:100%">""", max_width=500)
+              ).add_to(mapObj)
 
-folium.GeoJson(
-    data=(open("states_india.geojson", 'r').read()),
-    name="India",
-    style_function=lambda x: bordersStyle).add_to(mapObj)
-
-folium.GeoJson(
-    data=(open("srilanka.geojson", 'r').read()),
-    name="Srilanka",
-    style_function=lambda x: bordersStyle).add_to(mapObj)
-
-# add layer control over the map
-folium.LayerControl().add_to(mapObj)
-
-# save the map as html file
 mapObj.save('output.html')
 ```
 
@@ -107,6 +90,6 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTk2MjQwMzksMzc0MTg5ODc1LDE2Nj
-k5MTg1NjhdfQ==
+eyJoaXN0b3J5IjpbMTA1NjM4MjU3MiwtMTcxOTYyNDAzOSwzNz
+QxODk4NzUsMTY2OTkxODU2OF19
 -->
