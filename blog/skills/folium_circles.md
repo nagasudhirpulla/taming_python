@@ -14,12 +14,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will learn how to draw circles in **folium** maps. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
-### Files used in this example
-Place the following files in the same folder of the python file to run this code example
-* [states_india.geojson](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/states_india.geojson)
-* [srilanka.geojson](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/srilanka.geojson)
-
-### Create map layer with geojson data
+### Draw a simple circle
 ```python
 import folium
 
@@ -118,5 +113,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTUzMTE0Nl19
+eyJoaXN0b3J5IjpbLTE3MDYzMTg2MTZdfQ==
 -->
