@@ -24,13 +24,13 @@ mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start
 
 folium.Circle(location=[23.294059708387206, 78.26660156250001],
               radius=50000
-              ).add_to(shapesLayer)
+              ).add_to(mapObj)
 
 mapObj.save('output.html')
 ```
 
 ### Circle stroke and fill options
-* all the styling options can be found at https://leafletjs.com/reference-1.6.0.html#path . Use snake case instead of camelCase for specifying options in python
+* all the styling options can be found at https://leafletjs.com/reference-1.6.0.html#path . Use snake_case instead of camelCase for specifying options in python
 * Some of the important styling options are
 	* stroke - set to True to enable line stroke, default is True 
 	* weight - line stroke width in pixels, default is 5
@@ -50,7 +50,7 @@ folium.Circle(location=[23.294059708387206, 78.26660156250001],
               weight=1,
               fill_color='red',
               tooltip="center of map"
-              ).add_to(shapesLayer)
+              ).add_to(mapObj)
 
 mapObj.save('output.html')
 ```
@@ -107,5 +107,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTcwMTUwMSwxNjY5OTE4NTY4XX0=
+eyJoaXN0b3J5IjpbMTI5NzgxOTQ3NCwxNjY5OTE4NTY4XX0=
 -->
