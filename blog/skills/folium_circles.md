@@ -102,7 +102,7 @@ mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start
 shapesLayer = folium.FeatureGroup(name="circles").add_to(mapObj)
 
 folium.Circle(location=[23.294059708387206, 78.26660156250001],
-              weight=1,
+              weight=4,
               radius=50000,
               fill_color='pink',
               tooltip="Tooltip text",
@@ -134,6 +134,6 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MjYyMjYxMywtMTcxOTYyNDAzOSwzNz
-QxODk4NzUsMTY2OTkxODU2OF19
+eyJoaXN0b3J5IjpbMTg0MTYxNTQ0LC0xNzE5NjI0MDM5LDM3ND
+E4OTg3NSwxNjY5OTE4NTY4XX0=
 -->
