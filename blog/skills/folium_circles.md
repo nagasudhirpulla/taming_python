@@ -102,16 +102,23 @@ mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001],
 
 shapesLayer = folium.FeatureGroup(name="circles").add_to(mapObj)
 
-folium.Circle(location=[23.294059708387206, 78.26660156250001],
-              radius=80000,
-              weight=5,
-              color='green',
-              fill_color='red',
-              tooltip="Tooltip text",
-              popup=folium.Popup("""<h2>This is a popup</h2><br/>
-              This is a <b>new line</b><br/>
-              <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli" style="max-width:100%;max-height:100%">""", max_width=500)
-              ).add_to(shapesLayer)
+circlesData = [
+    [25, 74, 80000],
+    [22, 79, 60000],
+    [26, 82, 90000]
+]
+
+for cData in circlesData:
+    folium.Circle(location=[cData[0], cData[1]],
+                  radius=cData[2],
+                  weight=5,
+                  color='green',
+                  fill_color='red',
+                  tooltip="Tooltip text",
+                  popup=folium.Popup("""<h2>This is a popup</h2><br/>
+                    This is a <b>new line</b><br/>
+                    <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli" style="max-width:100%;max-height:100%">""", max_width=500)
+                  ).add_to(shapesLayer)
 
 folium.LayerControl().add_to(mapObj)
 
@@ -131,7 +138,7 @@ mapObj.save('output.html')
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDczNjIwMywtMjAwMDI1OTE1NiwxOD
-QxNjE1NDQsLTE3MTk2MjQwMzksMzc0MTg5ODc1LDE2Njk5MTg1
-NjhdfQ==
+eyJoaXN0b3J5IjpbMTE3Nzk5MDcxMiwxODU0NzM2MjAzLC0yMD
+AwMjU5MTU2LDE4NDE2MTU0NCwtMTcxOTYyNDAzOSwzNzQxODk4
+NzUsMTY2OTkxODU2OF19
 -->
