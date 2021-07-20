@@ -55,7 +55,7 @@ folium.Circle(location=[23.294059708387206, 78.26660156250001],
 mapObj.save('output.html')
 ```
 
-### Complete example
+### Circle with tooltip and popup
 ```python
 import folium
 
@@ -107,6 +107,6 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzAzMzM5NiwzNzQxODk4NzUsMTY2OT
-kxODU2OF19
+eyJoaXN0b3J5IjpbLTE3MTk2MjQwMzksMzc0MTg5ODc1LDE2Nj
+k5MTg1NjhdfQ==
 -->
