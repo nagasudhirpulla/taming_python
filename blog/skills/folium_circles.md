@@ -30,12 +30,10 @@ mapObj.save('output.html')
 ```
 
 ### Circle stroke and fill options
-
-* use the ```style_function``` input of ```folium.GeoJSON``` function to control the styling of the paths.
-* ```style_function``` should be a function that returns a dictionary with styling properties specified in the documentation [here](https://leafletjs.com/reference-1.7.1.html#path)
-* Some of the important styling properties are
-	* color - line stroke color
+https://leafletjs.com/reference-1.6.0.html#path
+* Some of the important styling options are
 	* weight - line stroke width in pixels
+	* color - line stroke color
 	* opacity - line stroke opacity
 	* fillColor - fill Color
 	* fillOpacity - ranges between 0 to 1. 0 means transparent, 1 means opaque
@@ -112,5 +110,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTEyNjA1NTRdfQ==
+eyJoaXN0b3J5IjpbLTE4OTQ0MDcwNThdfQ==
 -->
