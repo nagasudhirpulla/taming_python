@@ -47,7 +47,7 @@ mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start
 folium.Circle(location=[23.294059708387206, 78.26660156250001],
               radius=50000,
               color='green',
-              weight=1,
+              weight=6,
               fill_color='red'
               ).add_to(mapObj)
 
@@ -106,5 +106,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTcyMzUyODIsMTY2OTkxODU2OF19
+eyJoaXN0b3J5IjpbMzc0MTg5ODc1LDE2Njk5MTg1NjhdfQ==
 -->
