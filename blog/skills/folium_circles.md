@@ -35,8 +35,8 @@ mapObj.save('output.html')
 	* weight - line stroke width in pixels
 	* color - line stroke color
 	* opacity - line stroke opacity
-	* fillColor - fill Color
-	* fillOpacity - ranges between 0 to 1. 0 means transparent, 1 means opaque
+	* fill_color - fill Color
+	* fill_opacity - ranges between 0 to 1. 0 means transparent, 1 means opaque
 ```python
 import folium
 
@@ -110,5 +110,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTkxODU2OF19
+eyJoaXN0b3J5IjpbMTUzOTA2NzUxMCwxNjY5OTE4NTY4XX0=
 -->
