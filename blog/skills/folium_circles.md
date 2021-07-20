@@ -93,6 +93,11 @@ folium.LayerControl().add_to(mapObj)
 mapObj.save('output.html')
 ```
 
+### Difference between Circle and CircleMarker
+The radius in Circle is defined as meters, where as the radius in CircleMarker is defined in pixels
+```python
+```
+
 ### Complete example
 ```python
 import folium
@@ -138,7 +143,7 @@ mapObj.save('output.html')
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Nzk5MDcxMiwxODU0NzM2MjAzLC0yMD
-AwMjU5MTU2LDE4NDE2MTU0NCwtMTcxOTYyNDAzOSwzNzQxODk4
-NzUsMTY2OTkxODU2OF19
+eyJoaXN0b3J5IjpbNTY3ODY1ODAwLDExNzc5OTA3MTIsMTg1ND
+czNjIwMywtMjAwMDI1OTE1NiwxODQxNjE1NDQsLTE3MTk2MjQw
+MzksMzc0MTg5ODc1LDE2Njk5MTg1NjhdfQ==
 -->
