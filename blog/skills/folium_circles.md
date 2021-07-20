@@ -73,6 +73,11 @@ folium.Circle(location=[23.294059708387206, 78.26660156250001],
 mapObj.save('output.html')
 ```
 
+### Keep shapes in different layer
+```python
+
+```
+
 ![folium_geojson_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_geojson_demo.png)
 ### Video
 The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
@@ -91,6 +96,6 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzMjk0NjQ2LC0xNzE5NjI0MDM5LDM3ND
-E4OTg3NSwxNjY5OTE4NTY4XX0=
+eyJoaXN0b3J5IjpbLTE4MDY0NDQ3OSwtMTcxOTYyNDAzOSwzNz
+QxODk4NzUsMTY2OTkxODU2OF19
 -->
