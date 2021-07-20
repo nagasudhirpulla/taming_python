@@ -30,7 +30,7 @@ mapObj.save('output.html')
 ```
 
 ### Circle stroke and fill options
-* all the styling options can be found at https://leafletjs.com/reference-1.6.0.html#path . Use snake case for 
+* all the styling options can be found at https://leafletjs.com/reference-1.6.0.html#path . Use snake case in python instead of camelCase for spec
 * Some of the important styling options are
 	* weight - line stroke width in pixels
 	* color - line stroke color
@@ -110,5 +110,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTY5MDExOCwxNjY5OTE4NTY4XX0=
+eyJoaXN0b3J5IjpbLTE1NTg1MjY5NjEsMTY2OTkxODU2OF19
 -->
