@@ -93,7 +93,29 @@ folium.LayerControl().add_to(mapObj)
 mapObj.save('output.html')
 ```
 
-### Compl
+### Complete example
+```python
+import folium
+
+mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001],
+                    zoom_start=5)
+
+shapesLayer = folium.FeatureGroup(name="circles").add_to(mapObj)
+
+folium.Circle(location=[23.294059708387206, 78.26660156250001],
+              weight=1,
+              radius=50000,
+              fill_color='pink',
+              tooltip="Tooltip text",
+              popup=folium.Popup("""<h2>This is a popup</h2><br/>
+              This is a <b>new line</b><br/>
+              <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli" style="max-width:100%;max-height:100%">""", max_width=500)
+              ).add_to(shapesLayer)
+
+folium.LayerControl().add_to(mapObj)
+
+mapObj.save('output.html')
+```
 
 ![folium_geojson_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_geojson_demo.png)
 ### Video
@@ -113,6 +135,6 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3NzAwMzY1LC0xNzE5NjI0MDM5LDM3ND
-E4OTg3NSwxNjY5OTE4NTY4XX0=
+eyJoaXN0b3J5IjpbMTgwMzczODM2NCwtMTcxOTYyNDAzOSwzNz
+QxODk4NzUsMTY2OTkxODU2OF19
 -->
