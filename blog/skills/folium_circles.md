@@ -29,7 +29,7 @@ folium.Circle(location=[23.294059708387206, 78.26660156250001],
 mapObj.save('output.html')
 ```
 
-### Control border and fill style of GeoJSON objects
+### Circle stroke and fill options
 
 * use the ```style_function``` input of ```folium.GeoJSON``` function to control the styling of the paths.
 * ```style_function``` should be a function that returns a dictionary with styling properties specified in the documentation [here](https://leafletjs.com/reference-1.7.1.html#path)
@@ -112,5 +112,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3ODE5NTI0Ml19
+eyJoaXN0b3J5IjpbLTE3OTEyNjA1NTRdfQ==
 -->
