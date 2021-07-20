@@ -118,7 +118,7 @@ folium.LayerControl().add_to(mapObj)
 mapObj.save('output.html')
 ```
 
-![folium_geojson_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_geojson_demo.png)
+![folium_circles_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_circles_demo.png)
 ### Video
 The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 
@@ -136,6 +136,7 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDAyNTkxNTYsMTg0MTYxNTQ0LC0xNz
-E5NjI0MDM5LDM3NDE4OTg3NSwxNjY5OTE4NTY4XX0=
+eyJoaXN0b3J5IjpbMjE0OTIzMTIsLTIwMDAyNTkxNTYsMTg0MT
+YxNTQ0LC0xNzE5NjI0MDM5LDM3NDE4OTg3NSwxNjY5OTE4NTY4
+XX0=
 -->
