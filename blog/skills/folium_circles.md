@@ -143,16 +143,17 @@ mapObj.save('output.html')
 <hr/>
 
 ### References
-* what is GeoJSON - https://en.wikipedia.org/wiki/GeoJSON
-* GeoJSON styling options - https://leafletjs.com/reference-1.7.1.html#path
-* official docs - https://python-visualization.github.io/folium/modules.html#folium.features.GeoJson
+* circle styling options - https://leafletjs.com/reference-1.7.1.html#path
+* circle docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.Circle
+* circle marker docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.CircleMarker
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTkyMDIwMSwxMTc3OTkwNzEyLDE4NT
-Q3MzYyMDMsLTIwMDAyNTkxNTYsMTg0MTYxNTQ0LC0xNzE5NjI0
-MDM5LDM3NDE4OTg3NSwxNjY5OTE4NTY4XX0=
+eyJoaXN0b3J5IjpbLTgxMzAyMTEyOSwyMTE5OTIwMjAxLDExNz
+c5OTA3MTIsMTg1NDczNjIwMywtMjAwMDI1OTE1NiwxODQxNjE1
+NDQsLTE3MTk2MjQwMzksMzc0MTg5ODc1LDE2Njk5MTg1NjhdfQ
+==
 -->
