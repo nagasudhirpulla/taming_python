@@ -14,7 +14,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will learn how to draw circles in **folium** maps. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
-### Draw a simple circle
+### Draw a simple circle with location and radius
 ```python
 import folium
 
@@ -26,8 +26,6 @@ folium.Circle(location=[23.294059708387206, 78.26660156250001],
 
 mapObj.save('output.html')
 ```
-
-You can add multiple GeoJSON layers to a map
 
 ### Control border and fill style of GeoJSON objects
 
@@ -112,5 +110,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkxMTkwODI4XX0=
+eyJoaXN0b3J5IjpbLTUxNTcwMDM0OV19
 -->
