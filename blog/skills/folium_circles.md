@@ -44,18 +44,13 @@ import folium
 
 mapObj = folium.Map(location=[22.167057857886153, 82.44140625000001], zoom_start=5)
 
-# style options - https://leafletjs.com/reference-1.7.1.html#path
-bordersStyle = {
-    'color': 'green',
-    'weight': 2,
-    'fillColor': 'blue',
-    'fillOpacity': 0.2
-}
-
-folium.GeoJson(
-    data=(open("states_india.geojson", 'r').read()),
-    name="India",
-    style_function=lambda x: bordersStyle).add_to(mapObj)
+folium.Circle(location=[23.294059708387206, 78.26660156250001],
+              radius=50000,
+              color='green'
+              weight=1,
+              fill_color='red',
+              tooltip="center of map"
+              ).add_to(shapesLayer)
 
 mapObj.save('output.html')
 ```
@@ -112,5 +107,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTQ5MDQ2MjUsMTY2OTkxODU2OF19
+eyJoaXN0b3J5IjpbMzg4NDgxMzg1LDE2Njk5MTg1NjhdfQ==
 -->
