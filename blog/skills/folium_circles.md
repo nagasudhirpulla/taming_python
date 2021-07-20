@@ -35,6 +35,7 @@ mapObj.save('output.html')
 	* weight - line stroke width in pixels, default is 5
 	* color - line stroke color
 	* opacity - line stroke opacity
+	* fill - set to True to enable filling with color, default is False
 	* fill_color - fill Color
 	* fill_opacity - ranges between 0 to 1. 0 means transparent, 1 means opaque
 ```python
@@ -110,5 +111,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDIxNTA1NjMsMTY2OTkxODU2OF19
+eyJoaXN0b3J5IjpbMTY2NjY0NzQ5MiwxNjY5OTE4NTY4XX0=
 -->
