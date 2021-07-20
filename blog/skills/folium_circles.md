@@ -20,7 +20,7 @@ In this post we will learn how to draw circles in **folium** maps. See [this](ht
 ```python
 import folium
 
-mapObj = folium.Map(location=[22.167057857886153, 82.44140625000001], zoom_start=5)
+mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=5)
 
 folium.Circle(location=[23.294059708387206, 78.26660156250001],
               radius=50000
@@ -42,7 +42,7 @@ mapObj.save('output.html')
 ```python
 import folium
 
-mapObj = folium.Map(location=[22.167057857886153, 82.44140625000001], zoom_start=5)
+mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=5)
 
 folium.Circle(location=[23.294059708387206, 78.26660156250001],
               radius=50000,
@@ -107,5 +107,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4NDgxMzg1LDE2Njk5MTg1NjhdfQ==
+eyJoaXN0b3J5IjpbMTQzNTcwMTUwMSwxNjY5OTE4NTY4XX0=
 -->
