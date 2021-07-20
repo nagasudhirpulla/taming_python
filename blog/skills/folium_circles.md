@@ -101,7 +101,7 @@ import folium
 mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=6)
 
 folium.CircleMarker(location=[23.294059708387206, 78.26660156250001],
-              radius=50000
+              radius=50
               ).add_to(mapObj)
 
 mapObj.save('output.html')
@@ -152,7 +152,7 @@ mapObj.save('output.html')
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTczNzgzMywxMTc3OTkwNzEyLDE4NT
-Q3MzYyMDMsLTIwMDAyNTkxNTYsMTg0MTYxNTQ0LC0xNzE5NjI0
-MDM5LDM3NDE4OTg3NSwxNjY5OTE4NTY4XX0=
+eyJoaXN0b3J5IjpbLTEyMTQ5Mzk1NjksMTE3Nzk5MDcxMiwxOD
+U0NzM2MjAzLC0yMDAwMjU5MTU2LDE4NDE2MTU0NCwtMTcxOTYy
+NDAzOSwzNzQxODk4NzUsMTY2OTkxODU2OF19
 -->
