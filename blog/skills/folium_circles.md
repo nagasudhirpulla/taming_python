@@ -63,6 +63,7 @@ mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start
 
 folium.Circle(location=[23.294059708387206, 78.26660156250001],
               radius=50000,
+              fill=True,
               tooltip="center of map",
               popup=folium.Popup("""<h2>This is a popup</h2><br/>
               This is a <b>new line</b><br/>
@@ -90,6 +91,6 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjM4MjU3MiwtMTcxOTYyNDAzOSwzNz
-QxODk4NzUsMTY2OTkxODU2OF19
+eyJoaXN0b3J5IjpbMjQzMjk0NjQ2LC0xNzE5NjI0MDM5LDM3ND
+E4OTg3NSwxNjY5OTE4NTY4XX0=
 -->
