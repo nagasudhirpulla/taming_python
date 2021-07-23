@@ -25,9 +25,17 @@ Alternatively, you can place the exe file at some folder location and add that f
 
 
 ### Code to save the html file as png using selenium
-Place the following files in the same folder of the python file to run this code example
-* [states_india.geojson](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/states_india.geojson)
-* [srilanka.geojson](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/srilanka.geojson)
+```python
+mapFname = 'output.html'
+# use selenium to save the html as png image
+driver = webdriver.Firefox()
+mapUrl = 'file://{path}/{mapfile}'.format(path=os.getcwd(), mapfile=mapFname)
+driver.get(mapUrl)
+# wait for 5 seconds for the maps and other assets to be loaded in the browser
+time.sleep(5)
+driver.save_screenshot('output.png')
+driver.quit()
+```
 
 ### Create map layer with geojson data
 ```python
@@ -128,5 +136,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3ODA1MjgzNSw4ODUwNDczNDhdfQ==
+eyJoaXN0b3J5IjpbMTk0NDI1NTk3NCw4ODUwNDczNDhdfQ==
 -->
