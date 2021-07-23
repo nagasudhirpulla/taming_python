@@ -28,6 +28,7 @@ Alternatively, you can place the exe file at some folder location and add that f
 ```python
 mapFname = 'output.html'
 mapUrl = 'file://{0}/{1}'.format(os.getcwd(), mapFname)
+# download gecko driver for firefox from here - https://github.com/mozilla/geckodriver/releases
 # use selenium to save the html as png image
 driver = webdriver.Firefox()
 driver.get(mapUrl)
@@ -136,5 +137,6 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1MjIwNTU3LDg4NTA0NzM0OF19
+eyJoaXN0b3J5IjpbLTQyODQ1NzM1OSw5MzUyMjA1NTcsODg1MD
+Q3MzQ4XX0=
 -->
