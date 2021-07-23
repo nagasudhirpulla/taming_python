@@ -16,7 +16,10 @@ In this post we will learn how to save folium map as a pang image using selenium
 
  See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
-### Prereq
+### Prerequisites - Selenium setup
+In order to perform browser automation for this task we need the following components
+* **selenium** python module. This can be installed 
+
 
 ### Files used in this example
 Place the following files in the same folder of the python file to run this code example
@@ -122,5 +125,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODE0MjQxNCw4ODUwNDczNDhdfQ==
+eyJoaXN0b3J5IjpbLTE3MDUxNDAxMDMsODg1MDQ3MzQ4XX0=
 -->
