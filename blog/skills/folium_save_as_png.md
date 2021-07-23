@@ -90,11 +90,12 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 ### References
 * GeckoDriver for firefox - https://github.com/mozilla/geckodriver/releases
 * Selenium Docs - https://selenium-python.readthedocs.io/getting-started.html
+
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzE5NjM3Miw5MzUyMjA1NTcsODg1MD
+eyJoaXN0b3J5IjpbLTQxNDc5NDY2Miw5MzUyMjA1NTcsODg1MD
 Q3MzQ4XX0=
 -->
