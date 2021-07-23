@@ -1,4 +1,4 @@
-## Skill - Save folium map as png
+## Skill - Save folium map as png using selenium browser automation
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -12,7 +12,11 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post we will learn how to draw GeoJSON paths in **folium** maps. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
+In this post we will learn how to save folium map as a pang image using selenium browser automation.
+
+ See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
+
+### Prereq
 
 ### Files used in this example
 Place the following files in the same folder of the python file to run this code example
@@ -118,5 +122,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1MDQ3MzQ4XX0=
+eyJoaXN0b3J5IjpbLTcwODE0MjQxNCw4ODUwNDczNDhdfQ==
 -->
