@@ -1,4 +1,4 @@
-## Skill - Save folium map as png using selenium browser automation
+## Skill - Save folium map as a png image using selenium browser automation
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -96,6 +96,6 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDc5NDY2Miw5MzUyMjA1NTcsODg1MD
-Q3MzQ4XX0=
+eyJoaXN0b3J5IjpbLTE1NTg3NzI4OTgsLTQxNDc5NDY2Miw5Mz
+UyMjA1NTcsODg1MDQ3MzQ4XX0=
 -->
