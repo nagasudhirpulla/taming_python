@@ -29,7 +29,7 @@ Alternatively, you can place the exe file at some folder location and add that f
 mapFname = 'output.html'
 # use selenium to save the html as png image
 driver = webdriver.Firefox()
-mapUrl = 'file://{path}/{mapfile}'.format(path=os.getcwd(), mapfile=mapFname)
+mapUrl = 'file://{0}/{1}'.format(os.getcwd(), mapFname)
 driver.get(mapUrl)
 # wait for 5 seconds for the maps and other assets to be loaded in the browser
 time.sleep(5)
@@ -136,5 +136,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDI1NTk3NCw4ODUwNDczNDhdfQ==
+eyJoaXN0b3J5IjpbLTEzNzg4MjUyMjksODg1MDQ3MzQ4XX0=
 -->
