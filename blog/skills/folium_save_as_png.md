@@ -18,7 +18,7 @@ In this post we will learn how to save folium map as a pang image using selenium
 
 ### Prerequisites - Selenium setup
 In order to perform browser automation for this task we need the following components
-* **selenium** python module. This can be installed 
+* **selenium** python module. This can be installed using the command ```python -m pip install selenium```
 
 
 ### Files used in this example
@@ -125,5 +125,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDUxNDAxMDMsODg1MDQ3MzQ4XX0=
+eyJoaXN0b3J5IjpbNTg1NjY0MzY5LDg4NTA0NzM0OF19
 -->
