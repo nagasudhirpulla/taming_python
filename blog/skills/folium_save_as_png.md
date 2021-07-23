@@ -88,15 +88,13 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 <hr/>
 
 ### References
-* what is GeoJSON - https://en.wikipedia.org/wiki/GeoJSON
-* GeoJSON styling options - https://leafletjs.com/reference-1.7.1.html#path
-* official docs - https://python-visualization.github.io/folium/modules.html#folium.features.GeoJson
-
+* GeckoDriver for firefox - https://github.com/mozilla/geckodriver/releases
+* Selenium Docs - https://selenium-python.readthedocs.io/getting-started.html
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NzM5NDIzLDkzNTIyMDU1Nyw4ODUwND
-czNDhdfQ==
+eyJoaXN0b3J5IjpbLTczMzE5NjM3Miw5MzUyMjA1NTcsODg1MD
+Q3MzQ4XX0=
 -->
