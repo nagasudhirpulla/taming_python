@@ -40,22 +40,50 @@ driver.save_screenshot('output.png')
 driver.quit()
 ```
 
-### Create map layer with geojson data
+### Example code
 ```python
 import folium
+from selenium import webdriver
+import os
+import time
 
-mapObj = folium.Map(location=[22.167057857886153, 82.44140625000001], zoom_start=5)
+# create a map object with a desired initial map center and initial map zoom
+mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
+                    zoom_start=5)
 
-layer1 = folium.GeoJson(
-    data=(open("states_india.geojson", 'r').read()),
-    name="India")
-layer1.add_to(mapObj)
+# draw some circles
+circlesData = [
+    [25, 74, 80000],
+    [22, 79, 60000],
+    [26, 82, 90000]
+]
 
-mapObj.save('output.html')
+for d in circlesData:
+    folium.Circle(radius=d[2],
+                  location=[d[0], d[1]],
+                  fill=True,
+                  stroke=False,
+                  fill_opacity=0.6,
+                  ).add_to(mapObj)
+
+# save the map as html
+mapFname = 'output.html'
+mapObj.save(mapFname)
+
+mapUrl = 'file://{0}/{1}'.format(os.getcwd(), mapFname)
+
+# download gecko driver for firefox from here - https://github.com/mozilla/geckodriver/releases
+
+# use selenium to save the html as png image
+driver = webdriver.Firefox()
+driver.get(mapUrl)
+# wait for 5 seconds for the maps and other assets to be loaded in the browser
+time.sleep(5)
+driver.save_screenshot('output.png')
+driver.quit()
 ```
 
-You can add multiple GeoJSON layers to a map
-
+if you prefer selenium with chrome, download Chrome WebDriver from here - https://sites.google.com/a/chromium.org/chromedriver/downloads
 ### Control border and fill style of GeoJSON objects
 
 * use the ```style_function``` input of ```folium.GeoJSON``` function to control the styling of the paths.
@@ -139,6 +167,6 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDEwNDYwOTUsOTM1MjIwNTU3LDg4NT
+eyJoaXN0b3J5IjpbLTEzODM2MjM4OTksOTM1MjIwNTU3LDg4NT
 A0NzM0OF19
 -->
