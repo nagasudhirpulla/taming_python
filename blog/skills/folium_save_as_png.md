@@ -83,7 +83,7 @@ driver.save_screenshot('output.png')
 driver.quit()
 ```
 
-if you prefer selenium with chrome, download Chrome WebDriver from here - https://sites.google.com/a/chromium.org/chromedriver/downloads
+if you prefer to use selenium with chrome, download Chrome WebDriver from here - https://sites.google.com/a/chromium.org/chromedriver/downloads
 ### Control border and fill style of GeoJSON objects
 
 * use the ```style_function``` input of ```folium.GeoJSON``` function to control the styling of the paths.
@@ -167,6 +167,6 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODM2MjM4OTksOTM1MjIwNTU3LDg4NT
-A0NzM0OF19
+eyJoaXN0b3J5IjpbNTkzNjEyMDQ3LDkzNTIyMDU1Nyw4ODUwND
+czNDhdfQ==
 -->
