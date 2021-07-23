@@ -18,12 +18,13 @@ In this post we will learn how to save folium map as a pang image using selenium
 
 ### Prerequisites - Selenium setup
 In order to perform browser automation for this task we need the following components
-* selenium python module - This can be installed using the command ```python -m pip install selenium```
+* selenium python module - This can be installed using the command 
+```python -m pip install selenium```
 * Gecko driver - This is used by selenium library to open firefox browser. Download the executable from [here](https://github.com/mozilla/geckodriver/releases) and keep the exe file in the same location as the python file. 
 Alternatively, you can place the exe file at some folder location and add that folder location to the **PATH** variable of the system.
 
 
-### Files used in this example
+### Code to save the html file as png using selenium
 Place the following files in the same folder of the python file to run this code example
 * [states_india.geojson](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/states_india.geojson)
 * [srilanka.geojson](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/srilanka.geojson)
@@ -127,5 +128,5 @@ The video for this post can be seen [here](https://youtu.be/h16O4xt6yBU)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzMDQ1NjE0LDg4NTA0NzM0OF19
+eyJoaXN0b3J5IjpbMTc3ODA1MjgzNSw4ODUwNDczNDhdfQ==
 -->
