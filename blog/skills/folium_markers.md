@@ -17,6 +17,7 @@ In this post we will learn how to draw markers on a folium map in python
  See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
 ### Create a simple marker
+You can create a marker on a folium map using ```folium.Marker``` function. You can specify the marker 
 ```python
 # import folium library
 import folium
@@ -92,5 +93,5 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDU2MTQwNiwtMTI4MDM5MTIxOV19
+eyJoaXN0b3J5IjpbMjA3NzcwMzM2NSwtMTI4MDM5MTIxOV19
 -->
