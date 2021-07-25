@@ -55,6 +55,13 @@ folium.Marker(location=[20, 79],
               ).add_to(mapObj)
 ```
 
+For using icons by fontaweosme specify the icon name from [here](https://lab.artlung.com/font-awesome-sample/) and add ```prefix='fa'```
+```python
+folium.Marker(location=[22, 80],
+              icon=folium.Icon(icon='magnet', prefix='fa', color='red')
+              ).add_to(mapObj)
+```
+
 if you prefer to use selenium with chrome, download Chrome WebDriver from https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 <hr/>
@@ -69,6 +76,6 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyMTQ2MTc2LC0xMjk4MDg5MDAyLC0xMj
-gwMzkxMjE5XX0=
+eyJoaXN0b3J5IjpbLTE0NTU3MzU4MjYsLTEyOTgwODkwMDIsLT
+EyODAzOTEyMTldfQ==
 -->
