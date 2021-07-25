@@ -48,9 +48,11 @@ folium.Marker(location=[24.2170111233401, 81.0791015625000],
 ### Change icon of the marker with fontawesome and bootstrap markers
 Use the ```icon``` input of ```folium.Marker``` function to change icon of the marker
 
-For using font awesome 
+For using glyphicons by bootstrap specify the icon name from [here](https://getbootstrap.com/docs/3.3/components/)
 ```python
-
+folium.Marker(location=[20, 79],
+              icon=folium.Icon(icon='glyphicon-plane', color='green')
+              ).add_to(mapObj)
 ```
 
 if you prefer to use selenium with chrome, download Chrome WebDriver from https://sites.google.com/a/chromium.org/chromedriver/downloads
@@ -67,6 +69,6 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTgwODkwMDIsLTEyODAzOTEyMTldfQ
-==
+eyJoaXN0b3J5IjpbNjIyMTQ2MTc2LC0xMjk4MDg5MDAyLC0xMj
+gwMzkxMjE5XX0=
 -->
