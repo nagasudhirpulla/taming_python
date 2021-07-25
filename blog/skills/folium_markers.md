@@ -16,14 +16,6 @@ In this post we will learn how to draw markers on a folium map in python
 
  See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
-### Prerequisites - Selenium setup
-In order to perform browser automation for this task we need the following components
-* selenium python module - This can be installed using the command 
-```python -m pip install selenium```
-* Gecko driver - This is used by selenium library to open firefox browser. Download the executable from [here](https://github.com/mozilla/geckodriver/releases) and keep the exe file in the same location as the python file. 
-Alternatively, you can place the exe file at some folder location and add that folder location to the **PATH** variable of the system.
-
-
 ### Code to save the html file as png using selenium
 ```python
 mapFname = 'output.html'
@@ -97,5 +89,5 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzc2NzMyNjJdfQ==
+eyJoaXN0b3J5IjpbMzg3NjY3MDAwXX0=
 -->
