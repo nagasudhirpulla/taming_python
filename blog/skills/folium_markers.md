@@ -16,7 +16,7 @@ In this post we will learn how to draw markers on a folium map in python
 
  See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
-### Code to save the html file as png using selenium
+### Create a simple marker
 ```python
 mapFname = 'output.html'
 mapUrl = 'file://{0}/{1}'.format(os.getcwd(), mapFname)
@@ -89,5 +89,5 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3NjY3MDAwXX0=
+eyJoaXN0b3J5IjpbLTEyODAzOTEyMTldfQ==
 -->
