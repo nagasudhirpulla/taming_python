@@ -106,9 +106,9 @@ mapObj.save('output.html')
 <hr/>
 
 ### References
-* Bootstrap Glyphicons - 
-* Fontawesome icons - 
-* folium marker reference - 
+* Bootstrap Glyphicons - https://getbootstrap.com/docs/3.3/components/
+* Fontawesome icons - https://lab.artlung.com/font-awesome-sample/
+* folium marker reference - https://python-visualization.github.io/folium/modules.html#folium.map.Marker
 
 <hr/>
 
@@ -116,6 +116,6 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODUwMjMyNjMsLTkxNDMyMTE2NSwtMT
-I5ODA4OTAwMiwtMTI4MDM5MTIxOV19
+eyJoaXN0b3J5IjpbMjc1MjcxMDQwLC0xMDg1MDIzMjYzLC05MT
+QzMjExNjUsLTEyOTgwODkwMDIsLTEyODAzOTEyMTldfQ==
 -->
