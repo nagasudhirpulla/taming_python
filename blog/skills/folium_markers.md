@@ -46,7 +46,9 @@ folium.Marker(location=[24.2170111233401, 81.0791015625000],
 ```
 
 ### Change icon of the marker with fontawesome and bootstrap markers
-To use fo
+Use the ```icon``` input of ```folium.Marker``` function to change icon of the marker
+
+For using font awesome 
 ```python
 
 ```
@@ -65,5 +67,6 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzU4MTAwMiwtMTI4MDM5MTIxOV19
+eyJoaXN0b3J5IjpbLTEyOTgwODkwMDIsLTEyODAzOTEyMTldfQ
+==
 -->
