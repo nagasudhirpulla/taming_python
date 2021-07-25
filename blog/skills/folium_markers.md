@@ -18,18 +18,21 @@ In this post we will learn how to draw markers on a folium map in python
 
 ### Create a simple marker
 ```python
-mapFname = 'output.html'
-mapUrl = 'file://{0}/{1}'.format(os.getcwd(), mapFname)
+# import folium library
+import folium
 
-# download gecko driver for firefox from here - https://github.com/mozilla/geckodriver/releases
+# create a map object
+mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
+                    zoom_start=5)
 
-# use selenium to save the html as png image
-driver = webdriver.Firefox()
-driver.get(mapUrl)
-# wait for 5 seconds for the maps and other assets to be loaded in the browser
-time.sleep(5)
-driver.save_screenshot('output.png')
-driver.quit()
+# add a marker object to the map
+folium.Marker(location=[24.2170111233401, 81.0791015625000],
+              popup='<i>The center of map</i>',
+              tooltip='Center'
+              ).add_to(mapObj)
+
+# save the map to a html file
+mapObj.save('output.html')
 ```
 
 ### Example code
@@ -89,5 +92,5 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODAzOTEyMTldfQ==
+eyJoaXN0b3J5IjpbLTYyNTk4ODEzMywtMTI4MDM5MTIxOV19
 -->
