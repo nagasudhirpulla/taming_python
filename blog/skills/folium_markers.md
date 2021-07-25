@@ -62,7 +62,10 @@ folium.Marker(location=[22, 80],
               ).add_to(mapObj)
 ```
 
-if you prefer to use selenium with chrome, download Chrome WebDriver from https://sites.google.com/a/chromium.org/chromedriver/downloads
+### Complete Example
+```python
+
+```
 
 <hr/>
 
@@ -76,6 +79,6 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU3MzU4MjYsLTEyOTgwODkwMDIsLT
-EyODAzOTEyMTldfQ==
+eyJoaXN0b3J5IjpbLTkxNDMyMTE2NSwtMTI5ODA4OTAwMiwtMT
+I4MDM5MTIxOV19
 -->
