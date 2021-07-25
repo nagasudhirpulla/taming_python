@@ -1,4 +1,4 @@
-## Skill - Save folium map as a png image using selenium browser automation
+## Skill - Draw markers in python folium maps
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -97,5 +97,5 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg1NTAyNjBdfQ==
+eyJoaXN0b3J5IjpbLTE2NzU3MjgzMDZdfQ==
 -->
