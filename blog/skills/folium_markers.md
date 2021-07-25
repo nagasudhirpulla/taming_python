@@ -102,7 +102,7 @@ folium.Marker(location=[20, 79],
 
 mapObj.save('output.html')
 ```
-![folium_geojson_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_markers_demo.png)
+![folium_markers_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_markers_demo.png)
 <hr/>
 
 ### References
@@ -116,7 +116,7 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjMxMjI5OCwyNzUyNzEwNDAsLTEwOD
-UwMjMyNjMsLTkxNDMyMTE2NSwtMTI5ODA4OTAwMiwtMTI4MDM5
-MTIxOV19
+eyJoaXN0b3J5IjpbLTExNzIyMTM5NzQsMjc1MjcxMDQwLC0xMD
+g1MDIzMjYzLC05MTQzMjExNjUsLTEyOTgwODkwMDIsLTEyODAz
+OTEyMTldfQ==
 -->
