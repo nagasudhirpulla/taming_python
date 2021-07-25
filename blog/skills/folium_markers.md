@@ -27,8 +27,8 @@ mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
 
 # add a marker object to the map
 folium.Marker(location=[24.2170111233401, 81.0791015625000],
-              popup='<i>The center of map</i>',
-              tooltip='Center'
+              popup=folium.Popup('<i>The center of map</i>'),
+              tooltip='Some Text'
               ).add_to(mapObj)
 
 # save the map to a html file
@@ -92,5 +92,5 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTk4ODEzMywtMTI4MDM5MTIxOV19
+eyJoaXN0b3J5IjpbMTk5NDU2MTQwNiwtMTI4MDM5MTIxOV19
 -->
