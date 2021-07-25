@@ -64,14 +64,51 @@ folium.Marker(location=[22, 80],
 
 ### Complete Example
 ```python
+# import folium library
+import folium
 
+mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
+                    zoom_start=5)
+
+folium.Marker(location=[24.2170111233401, 81.0791015625000],
+              popup=folium.Popup('<i>The center of map</i>'),
+              tooltip='Center'
+              ).add_to(mapObj)
+
+# https://lab.artlung.com/font-awesome-sample/
+# remember to use prefix='fa'
+folium.Marker(location=[22, 80],
+              icon=folium.Icon(icon='magnet', prefix='fa', color='red'),
+              popup=folium.Popup(
+                  """Using the magnet icon from font-awesome.<br/>
+                  Check out more <a href="https://lab.artlung.com/font-awesome-sample/" target="_blank">here</a><br/>
+                  """, max_width=500),
+              tooltip='Font awesome example'
+              ).add_to(mapObj)
+
+# https://getbootstrap.com/docs/3.3/components/
+folium.Marker(location=[20, 79],
+              icon=folium.Icon(icon='glyphicon-plane', color='green'),
+              popup=folium.Popup(
+                  """
+                  <img src="https://avatars.githubusercontent.com/u/2918581?v=4" alt="Bootstrap" style="max-width:100%;max-height:100%"><br/>
+                  <h4>
+                  glyphicon-plane icon from bootstrap.<br/>
+                  </h4>
+                  <h5>Check out more <a href="https://getbootstrap.com/docs/3.3/components/" target="_blank">here</a></h5>
+                  """, max_width=300),
+              tooltip='Bootstrap example'
+              ).add_to(mapObj)
+
+mapObj.save('output.html')
 ```
 
 <hr/>
 
 ### References
-* GeckoDriver for firefox - https://github.com/mozilla/geckodriver/releases
-* Selenium Docs - https://selenium-python.readthedocs.io/getting-started.html
+* Bootstrap Glyphicons - 
+* Fontawesome icons - 
+* folium marker reference - 
 
 <hr/>
 
@@ -79,6 +116,6 @@ folium.Marker(location=[22, 80],
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDMyMTE2NSwtMTI5ODA4OTAwMiwtMT
-I4MDM5MTIxOV19
+eyJoaXN0b3J5IjpbLTEwODUwMjMyNjMsLTkxNDMyMTE2NSwtMT
+I5ODA4OTAwMiwtMTI4MDM5MTIxOV19
 -->
