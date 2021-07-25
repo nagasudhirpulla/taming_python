@@ -28,7 +28,8 @@ mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
                     zoom_start=5)
 
 # add a marker object to the map
-folium.Marker(location=[24.2170111233401, 81.0791015625000]).add_to(mapObj)
+folium.Marker(location=[24.2170111233401, 81.0791015625000]
+              ).add_to(mapObj)
 
 # save the map to a html file
 mapObj.save('output.html')
@@ -110,6 +111,5 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDYwNDcwMzgsLTEyODAzOTEyMTldfQ
-==
+eyJoaXN0b3J5IjpbMjA0MzM5MjM2OCwtMTI4MDM5MTIxOV19
 -->
