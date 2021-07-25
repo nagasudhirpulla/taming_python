@@ -12,7 +12,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post we will learn how to save folium map as a pang image using selenium browser automation.
+In this post we will learn how to draw markers on a folium map in python
 
  See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
@@ -97,5 +97,5 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzU3MjgzMDZdfQ==
+eyJoaXN0b3J5IjpbLTEwMzc2NzMyNjJdfQ==
 -->
