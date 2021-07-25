@@ -37,7 +37,7 @@ mapObj.save('output.html')
 
 ### Adding a Pop up content and tool-tip text to a marker
 * Use the ```popup``` input of ```folium.Marker``` function add pop-up HTML content
-* Use the ```tooltip``` input of ```folium.Marker``` function add pop-up HTML content
+* Use the ```tooltip``` input of ```folium.Marker``` function add tool-tip text
 ```python
 folium.Marker(location=[24.2170111233401, 81.0791015625000],
               popup=folium.Popup('<i>The center of map</i>'),
@@ -102,6 +102,6 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU4ODE4OTQsLTEyODAzOTEyMTldfQ
+eyJoaXN0b3J5IjpbLTE4MzYwNjIzMTYsLTEyODAzOTEyMTldfQ
 ==
 -->
