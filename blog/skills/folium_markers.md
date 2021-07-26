@@ -103,6 +103,9 @@ folium.Marker(location=[20, 79],
 mapObj.save('output.html')
 ```
 ![folium_markers_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_markers_demo.png)
+### Video
+The video for this post can be found [here](https://youtu.be/NAkbAeuqQqA)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NAkbAeuqQqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr/>
 
 ### References
@@ -116,7 +119,7 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzIyMTM5NzQsMjc1MjcxMDQwLC0xMD
-g1MDIzMjYzLC05MTQzMjExNjUsLTEyOTgwODkwMDIsLTEyODAz
-OTEyMTldfQ==
+eyJoaXN0b3J5IjpbLTcxMzE0MDQwNiwtMTE3MjIxMzk3NCwyNz
+UyNzEwNDAsLTEwODUwMjMyNjMsLTkxNDMyMTE2NSwtMTI5ODA4
+OTAwMiwtMTI4MDM5MTIxOV19
 -->
