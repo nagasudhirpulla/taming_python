@@ -96,7 +96,8 @@ Here are the goals and skills in this tutorial series
 * [Introduction to Folium for interactive maps](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html)
 * [Draw borders from GeoJSON paths in python folium maps](https://nagasudhir.blogspot.com/2021/07/draw-borders-from-geojson-paths-in.html)
 * [Draw circles and circle markers in python folium](https://nagasudhir.blogspot.com/2021/07/draw-circles-and-circle-markers-in.html)
-* []()
+* [Save folium map as a png image using selenium browser automation](https://nagasudhir.blogspot.com/2021/07/save-folium-map-as-png-image-using.html)
+* [Draw markers in python folium maps](https://nagasudhir.blogspot.com/2021/07/draw-markers-in-python-folium-maps.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -104,7 +105,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMzM1ODcyNDM5LC0yMTEzOD
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMzcwNjkwNzI3LC0yMTEzOD
 c2NDk2LDc5MTIwMDU0OSwxOTg3NzE2MTQ0LC0xOTQ5MjkwMjMx
 LC0xNjI3NzQ1ODAyLC05Mzg1MDA2ODksLTE4NTUzMDU4NjMsLT
 ExNDYzMDQ2MTksMTY1NjY5NDAwMSwxMjU5MjMxMzU3LDI1NTYz
