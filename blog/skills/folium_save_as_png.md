@@ -85,6 +85,10 @@ driver.quit()
 
 if you prefer to use selenium with chrome, download Chrome WebDriver from https://sites.google.com/a/chromium.org/chromedriver/downloads
 
+### Video
+The video for this post can be found [here](https://youtu.be/JqQPgGKzp9I)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JqQPgGKzp9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### References
@@ -96,6 +100,6 @@ if you prefer to use selenium with chrome, download Chrome WebDriver from https:
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTg3NzI4OTgsLTQxNDc5NDY2Miw5Mz
-UyMjA1NTcsODg1MDQ3MzQ4XX0=
+eyJoaXN0b3J5IjpbLTE5MjQ2NTczODksLTE1NTg3NzI4OTgsLT
+QxNDc5NDY2Miw5MzUyMjA1NTcsODg1MDQ3MzQ4XX0=
 -->
