@@ -24,6 +24,11 @@ print(type(z))
 # <class 'list'>
 ```
 
+### Check the type of variable using isinstance function
+```python
+
+```
+
 ### Online Interpreter
 You can run these codes online at https://www.programiz.com/python-programming/online-compiler/
 
@@ -36,6 +41,6 @@ BweXRob24gdmFyaWFibGVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaW
 FsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
 dGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMD
-YnXG4iLCJoaXN0b3J5IjpbMzYwODU2OTUwLDk5MDk0MDYxMV19
-
+YnXG4iLCJoaXN0b3J5IjpbLTMzMTc5NDYxMiwzNjA4NTY5NTAs
+OTkwOTQwNjExXX0=
 -->
