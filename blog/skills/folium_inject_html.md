@@ -39,8 +39,8 @@ mapObj.save('output.html')
 ```
 
 ### Points to remember
-* Similar to the above example, we can also inject CSS by injecting the ```style``` tag into the HTML body of the map 
-* Set the ```z-index``` CSS attribute of the injected HTML elements to a higher value. Otherwise, the inejcted html elements will be hidden behind the map
+* Similar to the above example, we can also inject CSS by injecting the ```style``` tag into the HTML body of the map. 
+* Set the ```z-index``` CSS attribute of the injected HTML elements to a higher value. Otherwise, the injected HTML elements will be hidden behind the map.
 
 ### References
 * Bootstrap Glyphicons - https://getbootstrap.com/docs/3.3/components/
@@ -54,5 +54,5 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4NTU0MDU4LDE3NDYyMzI1NzBdfQ==
+eyJoaXN0b3J5IjpbMjA1ODAyODc4NCwxNzQ2MjMyNTcwXX0=
 -->
