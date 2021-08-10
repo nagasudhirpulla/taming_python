@@ -38,6 +38,8 @@ Hello World!!!
 mapObj.save('output.html')
 ```
 
+
+
 ### Points to remember
 * Similar to the above example, we can also inject CSS by injecting the ```style``` tag into the HTML body of the map. 
 * Set the ```z-index``` CSS attribute of the injected HTML elements to a higher value. Otherwise, the injected HTML elements will be hidden behind the map.
@@ -49,5 +51,6 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1NTk3NzY4LDE3NDYyMzI1NzBdfQ==
+eyJoaXN0b3J5IjpbMTIwMDE4ODMyNCw4MjU1OTc3NjgsMTc0Nj
+IzMjU3MF19
 -->
