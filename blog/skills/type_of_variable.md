@@ -39,6 +39,7 @@ print(isinstance(z, list))
 # prints True
 
 k = 5.5
+# check if variable is one of the type
 print(isinstance(k, (int, float)))
 # prints True
 ```
@@ -55,6 +56,6 @@ BweXRob24gdmFyaWFibGVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaW
 FsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
 dGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMD
-YnXG4iLCJoaXN0b3J5IjpbLTczOTEyMjg5NywzNjA4NTY5NTAs
-OTkwOTQwNjExXX0=
+YnXG4iLCJoaXN0b3J5IjpbLTExOTI5MzM1NDMsMzYwODU2OTUw
+LDk5MDk0MDYxMV19
 -->
