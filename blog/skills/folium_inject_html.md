@@ -42,11 +42,6 @@ mapObj.save('output.html')
 * Similar to the above example, we can also inject CSS by injecting the ```style``` tag into the HTML body of the map. 
 * Set the ```z-index``` CSS attribute of the injected HTML elements to a higher value. Otherwise, the injected HTML elements will be hidden behind the map.
 
-### References
-* Bootstrap Glyphicons - https://getbootstrap.com/docs/3.3/components/
-* Fontawesome icons - https://lab.artlung.com/font-awesome-sample/
-* folium marker reference - https://python-visualization.github.io/folium/modules.html#folium.map.Marker
-
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -54,5 +49,5 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODAyODc4NCwxNzQ2MjMyNTcwXX0=
+eyJoaXN0b3J5IjpbODI1NTk3NzY4LDE3NDYyMzI1NzBdfQ==
 -->
