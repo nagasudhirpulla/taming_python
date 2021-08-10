@@ -98,6 +98,7 @@ Here are the goals and skills in this tutorial series
 * [Draw circles and circle markers in python folium](https://nagasudhir.blogspot.com/2021/07/draw-circles-and-circle-markers-in.html)
 * [Save folium map as a png image using selenium browser automation](https://nagasudhir.blogspot.com/2021/07/save-folium-map-as-png-image-using.html)
 * [Draw markers in python folium maps](https://nagasudhir.blogspot.com/2021/07/draw-markers-in-python-folium-maps.html)
+* [Inject HTML into python folium maps](https://nagasudhir.blogspot.com/2021/08/inject-html-into-python-folium-maps.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -105,11 +106,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMzcwNjkwNzI3LC0yMTEzOD
-c2NDk2LDc5MTIwMDU0OSwxOTg3NzE2MTQ0LC0xOTQ5MjkwMjMx
-LC0xNjI3NzQ1ODAyLC05Mzg1MDA2ODksLTE4NTUzMDU4NjMsLT
-ExNDYzMDQ2MTksMTY1NjY5NDAwMSwxMjU5MjMxMzU3LDI1NTYz
-NzUzNSwxMzk4ODcxNDU1LDE4MDI3Mzc2NTUsMTY1NjAzMzAxMC
-wxMDMyMzMzMjExLC0xMjcyMjU1MjgwLDc4MTMwNzE4MCwxNjc0
-NjUwMjI2LC0xMzc1NDM1NDE5XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbNTA1NzA3NzMwLDM3MDY5MD
+cyNywtMjExMzg3NjQ5Niw3OTEyMDA1NDksMTk4NzcxNjE0NCwt
+MTk0OTI5MDIzMSwtMTYyNzc0NTgwMiwtOTM4NTAwNjg5LC0xOD
+U1MzA1ODYzLC0xMTQ2MzA0NjE5LDE2NTY2OTQwMDEsMTI1OTIz
+MTM1NywyNTU2Mzc1MzUsMTM5ODg3MTQ1NSwxODAyNzM3NjU1LD
+E2NTYwMzMwMTAsMTAzMjMzMzIxMSwtMTI3MjI1NTI4MCw3ODEz
+MDcxODAsMTY3NDY1MDIyNl19
 -->
