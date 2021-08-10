@@ -34,6 +34,9 @@ y = 3.2
 print(isinstance(y, float))
 # prints True
 
+z = ['abc', 23, 7.6]
+print(isinstance(z, list))
+# prints True
 
 ```
 
@@ -49,6 +52,6 @@ BweXRob24gdmFyaWFibGVcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
 dWxsYVxudGFnczogJ3B5dGhvbiwgbGVhcm5pbmcsIHR1dG9yaW
 FsLCB0YW1pbmdfcHl0aG9uX3NraWxsJ1xuY2F0ZWdvcmllczog
 dGFtaW5nX3B5dGhvbl9za2lsbFxuZGF0ZTogJzIwMjAtMDUtMD
-YnXG4iLCJoaXN0b3J5IjpbLTYyNjMxMTMwNywzNjA4NTY5NTAs
+YnXG4iLCJoaXN0b3J5IjpbMjA3ODE4Mjg1OSwzNjA4NTY5NTAs
 OTkwOTQwNjExXX0=
 -->
