@@ -38,7 +38,7 @@ Hello World!!!
 mapObj.save('output.html')
 ```
 
-Similar to the above example, we can also inject css by injecting the ```style``` tag into the HTML body of the map 
+Similar to the above example, we can also inject CSS by injecting the ```style``` tag into the HTML body of the map 
 
 ### References
 * Bootstrap Glyphicons - https://getbootstrap.com/docs/3.3/components/
@@ -52,5 +52,5 @@ Similar to the above example, we can also inject css by injecting the ```style``
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQzMjU5MjZdfQ==
+eyJoaXN0b3J5IjpbMTc0NjIzMjU3MF19
 -->
