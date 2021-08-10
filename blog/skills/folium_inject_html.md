@@ -17,95 +17,28 @@ In this post we will learn how to inject HTML into a folium map in python
  See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
 ### Example
-In this example code below, we are injecting a ```div``` element into the html body output map.
+In this example code below, we are injecting a ```div``` element into the HTML body output map.
 ```python
 # import folium library
 import folium
 
-# create a map object
+# create a map object with initial zoom and map center
 mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
                     zoom_start=5)
 
-# add a marker object to the map
-folium.Marker(location=[24.2170111233401, 81.0791015625000]
-              ).add_to(mapObj)
-
-# save the map to a html file
-mapObj.save('output.html')
-```
-
-### Adding a Pop up content and tool-tip text to a marker
-* Use the ```popup``` input of ```folium.Marker``` function add pop-up HTML content
-* Use the ```tooltip``` input of ```folium.Marker``` function add tool-tip text
-```python
-folium.Marker(location=[24.2170111233401, 81.0791015625000],
-              popup=folium.Popup('<i>The center of map</i>'),
-              tooltip='Some Text'
-              ).add_to(mapObj)
-```
-
-### Change icon of the marker with fontawesome and bootstrap markers
-Use the ```icon``` input of ```folium.Marker``` function to change icon of the marker
-
-For using glyphicons by bootstrap specify the icon name from [here](https://getbootstrap.com/docs/3.3/components/)
-```python
-folium.Marker(location=[20, 79],
-              icon=folium.Icon(icon='glyphicon-plane', color='green')
-              ).add_to(mapObj)
-```
-
-For using icons by fontaweosme specify the icon name from [here](https://lab.artlung.com/font-awesome-sample/) and add ```prefix='fa'```
-```python
-folium.Marker(location=[22, 80],
-              icon=folium.Icon(icon='magnet', prefix='fa', color='red')
-              ).add_to(mapObj)
-```
-
-### Complete Example
-```python
-# import folium library
-import folium
-
-mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
-                    zoom_start=5)
-
-folium.Marker(location=[24.2170111233401, 81.0791015625000],
-              popup=folium.Popup('<i>The center of map</i>'),
-              tooltip='Center'
-              ).add_to(mapObj)
-
-# https://lab.artlung.com/font-awesome-sample/
-# remember to use prefix='fa'
-folium.Marker(location=[22, 80],
-              icon=folium.Icon(icon='magnet', prefix='fa', color='red'),
-              popup=folium.Popup(
-                  """Using the magnet icon from font-awesome.<br/>
-                  Check out more <a href="https://lab.artlung.com/font-awesome-sample/" target="_blank">here</a><br/>
-                  """, max_width=500),
-              tooltip='Font awesome example'
-              ).add_to(mapObj)
-
-# https://getbootstrap.com/docs/3.3/components/
-folium.Marker(location=[20, 79],
-              icon=folium.Icon(icon='glyphicon-plane', color='green'),
-              popup=folium.Popup(
-                  """
-                  <img src="https://avatars.githubusercontent.com/u/2918581?v=4" alt="Bootstrap" style="max-width:100%;max-height:100%"><br/>
-                  <h4>
-                  glyphicon-plane icon from bootstrap.<br/>
-                  </h4>
-                  <h5>Check out more <a href="https://getbootstrap.com/docs/3.3/components/" target="_blank">here</a></h5>
-                  """, max_width=300),
-              tooltip='Bootstrap example'
-              ).add_to(mapObj)
+# inject html into the map html
+mapObj.get_root().html.add_child(folium.Element("""
+<div style="position: fixed; 
+     bottom: 50px; left: 50px; width: 150px; height: 70px; 
+     border:2px solid grey;z-index: 900;">
+Hello World!!!
+</div>
+"""))
 
 mapObj.save('output.html')
 ```
-![folium_markers_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_markers_demo.png)
-### Video
-The video for this post can be found [here](https://youtu.be/NAkbAeuqQqA)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NAkbAeuqQqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<hr/>
+
+Similar to the above example, we can also inject css by injecting the styl
 
 ### References
 * Bootstrap Glyphicons - https://getbootstrap.com/docs/3.3/components/
@@ -119,5 +52,5 @@ The video for this post can be found [here](https://youtu.be/NAkbAeuqQqA)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2NTEyODkyXX0=
+eyJoaXN0b3J5IjpbOTI5OTg5MjQ5XX0=
 -->
