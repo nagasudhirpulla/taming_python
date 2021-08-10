@@ -38,7 +38,7 @@ Hello World!!!
 mapObj.save('output.html')
 ```
 
-![folium_inject_html_demo](![https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/folium_inject_html_demo.PNG](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/folium_inject_html_demo.PNG))
+![folium_inject_html_demo]([https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/folium_inject_html_demo.PNG](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/folium_inject_html_demo.PNG))
 
 ### Points to remember
 * Similar to the above example, we can also inject CSS by injecting the ```style``` tag into the HTML body of the map. 
@@ -51,6 +51,6 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDIzMzExNiw4MjU1OTc3NjgsMTc0Nj
-IzMjU3MF19
+eyJoaXN0b3J5IjpbLTczODMwNDUyOSwxODYwMjMzMTE2LDgyNT
+U5Nzc2OCwxNzQ2MjMyNTcwXX0=
 -->
