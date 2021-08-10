@@ -16,9 +16,8 @@ In this post we will learn how to inject HTML into a folium map in python
 
  See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
-### Create a simple marker
-* You can create a marker on a folium map using ```folium.Marker``` function. 
-* You can specify the marker location using the ```location``` input of the function
+### Example
+In this example code below, we are injecting a ```div``` element into the html body output map.
 ```python
 # import folium library
 import folium
@@ -120,5 +119,5 @@ The video for this post can be found [here](https://youtu.be/NAkbAeuqQqA)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDAzOTkzNjBdfQ==
+eyJoaXN0b3J5IjpbNDM2NTEyODkyXX0=
 -->
