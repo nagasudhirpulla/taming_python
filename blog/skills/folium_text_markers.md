@@ -19,7 +19,7 @@ In this post we will learn how to inject HTML into a folium map in python
 
 <hr/>
 
-Text can be drawn on the map using markers. While creating a marker, use ``````DivIcon
+Text can be drawn on the map using markers. While creating a marker, use ```DivIcon``` as the mar
 
 ### Example
 In this example code below, we are injecting a ```div``` element into the HTML body output map.
@@ -57,5 +57,5 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY1OTA3MiwxMjg2Mjk2NTAwXX0=
+eyJoaXN0b3J5IjpbMTM1MTkxNjczMywxMjg2Mjk2NTAwXX0=
 -->
