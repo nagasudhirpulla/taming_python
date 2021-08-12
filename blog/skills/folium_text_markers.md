@@ -1,4 +1,4 @@
-## Skill - Draw text on python folium maps
+## Skill - Draw text on python folium maps using DivIcon
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -29,17 +29,27 @@ In this post we will learn how to inject HTML into a folium map in python
 # import folium library
 import folium
 
-# create a map object with initial zoom and map center
 mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
                     zoom_start=5)
 
+folium.Marker(location=[24.2170111233401, 81.0791015625000],
+              popup=folium.Popup('<i>The center of map</i>'),
+              tooltip='Center',
+              icon=folium.DivIcon(html="""Hello World <b>ABCDEFG</b>""",
+                                  class_name="oneline",
+                                  ),
+              ).add_to(mapObj)
+
+folium.Marker(location=[24.2170111233401, 81.0791015625000],
+              ).add_to(mapObj)
+
 # inject html into the map html
 mapObj.get_root().html.add_child(folium.Element("""
-<div style="position: fixed; 
-     bottom: 50px; left: 50px; width: 150px; height: 70px; 
-     border:2px solid grey;z-index: 900;">
-Hello World!!!
-</div>
+<style>
+.oneline {
+    white-space: nowrap;
+}
+</style>
 """))
 
 mapObj.save('output.html')
@@ -59,6 +69,6 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDYxODgwNSwxMzUxOTE2NzMzLDEyOD
+eyJoaXN0b3J5IjpbMTU3NzE4MTAyNiwxMzUxOTE2NzMzLDEyOD
 YyOTY1MDBdfQ==
 -->
