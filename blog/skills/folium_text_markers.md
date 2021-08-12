@@ -11,9 +11,6 @@
 * [Inject HTML into python folium maps](https://nagasudhir.blogspot.com/2021/08/inject-html-into-python-folium-maps.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
-<hr/>
-
-In this post we will learn how to inject HTML into a folium map in python
 
  See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
@@ -62,6 +59,6 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Njk3MjIyMCwtMTk0NjM5ODg0NiwxNT
-c3MTgxMDI2LDEzNTE5MTY3MzMsMTI4NjI5NjUwMF19
+eyJoaXN0b3J5IjpbLTIwNDM2MjE1NjUsLTE5NDYzOTg4NDYsMT
+U3NzE4MTAyNiwxMzUxOTE2NzMzLDEyODYyOTY1MDBdfQ==
 -->
