@@ -55,7 +55,7 @@ mapObj.get_root().html.add_child(folium.Element("""
 mapObj.save('output.html')
 ```
 
-![folium_inject_html_demo](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/folium_inject_html_demo.PNG)
+![folium_divicon_demo](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/folium_divicon_demo.PNG)
 
 ### Points to remember
 * Similar to the above example, we can also inject CSS by injecting the ```style``` tag into the HTML body of the map. 
@@ -69,6 +69,6 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzE4MTAyNiwxMzUxOTE2NzMzLDEyOD
-YyOTY1MDBdfQ==
+eyJoaXN0b3J5IjpbLTE5NDYzOTg4NDYsMTU3NzE4MTAyNiwxMz
+UxOTE2NzMzLDEyODYyOTY1MDBdfQ==
 -->
