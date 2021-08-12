@@ -54,10 +54,6 @@ mapObj.save('output.html')
 
 ![folium_divicon_demo](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/folium_divicon_demo.PNG)
 
-### Points to remember
-* Similar to the above example, we can also inject CSS by injecting the ```style``` tag into the HTML body of the map. 
-* Set the ```z-index``` CSS attribute of the injected HTML elements to a higher value. Otherwise, the injected HTML elements will be hidden behind the map.
-
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -66,6 +62,6 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODUyMjgzNSwtMTk0NjM5ODg0NiwxNT
+eyJoaXN0b3J5IjpbLTc3Njk3MjIyMCwtMTk0NjM5ODg0NiwxNT
 c3MTgxMDI2LDEzNTE5MTY3MzMsMTI4NjI5NjUwMF19
 -->
