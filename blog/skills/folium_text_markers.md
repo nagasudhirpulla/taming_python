@@ -40,9 +40,6 @@ folium.Marker(location=[24.2170111233401, 81.0791015625000],
                                   ),
               ).add_to(mapObj)
 
-folium.Marker(location=[24.2170111233401, 81.0791015625000],
-              ).add_to(mapObj)
-
 # inject html into the map html
 mapObj.get_root().html.add_child(folium.Element("""
 <style>
@@ -69,6 +66,6 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDYzOTg4NDYsMTU3NzE4MTAyNiwxMz
-UxOTE2NzMzLDEyODYyOTY1MDBdfQ==
+eyJoaXN0b3J5IjpbLTM1ODUyMjgzNSwtMTk0NjM5ODg0NiwxNT
+c3MTgxMDI2LDEzNTE5MTY3MzMsMTI4NjI5NjUwMF19
 -->
