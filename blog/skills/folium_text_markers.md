@@ -17,6 +17,7 @@ In this post we will learn how to inject HTML into a folium map in python
 
  See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
+
 ### Example
 In this example code below, we are injecting a ```div``` element into the HTML body output map.
 ```python
@@ -53,5 +54,5 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjI5NjUwMF19
+eyJoaXN0b3J5IjpbODQ4ODAzNTI2LDEyODYyOTY1MDBdfQ==
 -->
