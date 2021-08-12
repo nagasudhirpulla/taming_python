@@ -25,7 +25,6 @@ In this post we will learn how to inject HTML into a folium map in python
 * Since the content of a DivIcon is HTML, we can even style the text using injected CSS. Injecting CSS into folium maps can be seen [here](https://nagasudhir.blogspot.com/2021/08/inject-html-into-python-folium-maps.html) 
 
 ### Example
-In this example code below, we are injecting a ```div``` element into the HTML body output map.
 ```python
 # import folium library
 import folium
@@ -60,6 +59,6 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzNzIyMTM0LDEzNTE5MTY3MzMsMTI4Nj
-I5NjUwMF19
+eyJoaXN0b3J5IjpbLTM5MDYxODgwNSwxMzUxOTE2NzMzLDEyOD
+YyOTY1MDBdfQ==
 -->
