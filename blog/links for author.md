@@ -79,34 +79,6 @@ dataMap.get_root().html.add_child(folium.Element(legendHtml))
 dataMap.save('wind_locations.html')
 ```
 
-* markers and div-icons in folium
-```python
-import folium
-
-# https://getbootstrap.com/docs/3.3/components/
-# https://lab.artlung.com/font-awesome-sample/
-
-mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
-                    zoom_start=5)
-
-
-folium.Marker(location=[24.2170111233401, 81.0791015625000],
-              popup='<i>The center of map</i>',
-              tooltip='Center'
-              ).add_to(mapObj)
-
-folium.Marker(location=[22, 80],
-              icon=folium.Icon(icon='magnet', prefix='fa', color='red')
-              ).add_to(mapObj)
-
-folium.Marker(location=[23, 83],
-              icon=folium.DivIcon(
-    html='<div style="font-size: 18pt; color: black">1</div>',
-)).add_to(mapObj)
-
-mapObj.save('output.html')
-```
-
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
 * global variables and using them inside functions- https://instructobit.com/tutorial/108/How-to-share-global-variables-between-files-in-Python
@@ -118,11 +90,11 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTEzODM4MSwtOTg5NDc3MjYxLC0yMD
-U2NDA1NTUwLC05Nzg2NzM0MSwtMzIzOTg4MTQ5LC0xOTIzNzYz
-OTQ3LDM5NDUzNzg2OSwtMTM5MTQ5NTYwNSwtMjIxODg5OTc1LD
-Y2MTY3NDAxNCw5MjY3OTUzMDQsLTM5ODU0MjYwMCwxMTcyMjM2
-MjgzLDE4NTIwMDYwMjUsMjEyMTU3NzE0LC03NzQ4NjAxNDMsLT
-UyMDQ3MTkzOCw3MzkwNzM3NzksLTk2MTU4Mzc4MywtMTY4Mzk2
-MTM2XX0=
+eyJoaXN0b3J5IjpbOTkwNTEzMTExLC04ODExMzgzODEsLTk4OT
+Q3NzI2MSwtMjA1NjQwNTU1MCwtOTc4NjczNDEsLTMyMzk4ODE0
+OSwtMTkyMzc2Mzk0NywzOTQ1Mzc4NjksLTEzOTE0OTU2MDUsLT
+IyMTg4OTk3NSw2NjE2NzQwMTQsOTI2Nzk1MzA0LC0zOTg1NDI2
+MDAsMTE3MjIzNjI4MywxODUyMDA2MDI1LDIxMjE1NzcxNCwtNz
+c0ODYwMTQzLC01MjA0NzE5MzgsNzM5MDczNzc5LC05NjE1ODM3
+ODNdfQ==
 -->
