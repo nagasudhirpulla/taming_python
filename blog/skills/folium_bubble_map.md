@@ -8,6 +8,8 @@
 * [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
+* [pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html)
+* [Working with excel files and pandas DataFrames](https://nagasudhir.blogspot.com/2020/05/working-with-excel-and-pandas-dataframes.html)
 * [Introduction to Folium for interactive maps in python](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html)
 * [Draw borders from GeoJSON paths in python folium maps](https://nagasudhir.blogspot.com/2021/07/draw-borders-from-geojson-paths-in.html)
 * [Draw circles and circle markers in python folium](https://nagasudhir.blogspot.com/2021/07/draw-circles-and-circle-markers-in.html)
@@ -162,5 +164,5 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU5NDE0NDRdfQ==
+eyJoaXN0b3J5IjpbLTgzNzg5MjMwNl19
 -->
