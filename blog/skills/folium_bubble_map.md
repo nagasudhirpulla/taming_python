@@ -23,7 +23,8 @@ In this post we will learn how to draw a bubble map from excel data using **pand
 ## Challenge
 * Plot the capacities of power plants provided in an excel file on a geographical bubble map
 * The bubbles of wind plants will be blue and bubbles of solar plants will be red
-* When user clicks on a bubble, the information should be shown on a popup
+* When user clicks on a bubble, it's information should be shown on a popup
+* There should be legend at the bottom left of the map for explaning the colors
 
 The whole program can be broken down into the following tasks
 * Read the data from excel
@@ -172,5 +173,5 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjA1MTQyOTcsLTgzNzg5MjMwNl19
+eyJoaXN0b3J5IjpbLTE5MzE3MzM4MjgsLTgzNzg5MjMwNl19
 -->
