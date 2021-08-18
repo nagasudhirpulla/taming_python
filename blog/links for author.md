@@ -7,8 +7,10 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 * bubble map geographic plots using folium 
 ```python
 """
+folium quickstart - https://python-visualization.github.io/folium/quickstart.html
 folium docs - http://python-visualization.github.io/folium/modules.html#
 circle options reference - https://leafletjs.com/reference-1.6.0.html#circle
+leaflet js - https://leafletjs.com/index.html
 """
 
 import pandas as pd
@@ -18,20 +20,19 @@ import folium
 dataDf = pd.read_excel('down_streams_info.xlsx')
 
 # initialize a map with center and zoom
-dataMap = folium.Map(location=[21.437730075416685, 77.255859375],
-                     zoom_start=7, tiles=None)
-# folium.TileLayer('openstreetmap').add_to(dataMap)
-# folium.TileLayer('stamenterrain', attr="stamenterrain").add_to(dataMap)
+mapObj = folium.Map(location=[21.437730075416685, 77.255859375],
+                     zoom_start=7, tiles='openstreetmap')
+# folium.TileLayer('stamenterrain', attr="stamenterrain").add_to(mapObj)
 
 # show borders
 # style options - https://leafletjs.com/reference-1.7.1.html#path
 bordersStyle = {"fillColor": 'green',
-                'color': 'gray', 'weight': 2, 'fillOpacity': 0}
+                'color': 'green', 'weight': 2, 'fillOpacity': 0}
 bordersLayer = folium.GeoJson(
     data=(open("states_india.geojson", 'r').read()),
     name="Borders",
     style_function=lambda x: bordersStyle)
-bordersLayer.add_to(dataMap)
+bordersLayer.add_to(mapObj)
 
 powerPlantsLayer = folium.FeatureGroup("Power Plants")
 # iterate through each dataframe row
@@ -48,16 +49,16 @@ for i in range(len(dataDf)):
         popup=folium.Popup(popUpStr, min_width=100, max_width=700),
         radius=radius,
         color=clr,
-        weight=3,
-        fill=False,
-        fill_color=None,
-        fill_opacity=0.5
+        weight=2,
+        fill=True,
+        fill_color=clr,
+        fill_opacity=0.1
     ).add_to(powerPlantsLayer)
 
-powerPlantsLayer.add_to(dataMap)
+powerPlantsLayer.add_to(mapObj)
 
 # add layer control over the map
-folium.LayerControl().add_to(dataMap)
+folium.LayerControl().add_to(mapObj)
 
 # html to be injected for displaying legend
 legendHtml = '''
@@ -73,10 +74,10 @@ legendHtml = '''
      '''
 
 # inject html into the map html
-dataMap.get_root().html.add_child(folium.Element(legendHtml))
+mapObj.get_root().html.add_child(folium.Element(legendHtml))
 
 # save the map as html file
-dataMap.save('wind_locations.html')
+mapObj.save('wind_locations.html')
 ```
 
 * Histogram in python
@@ -90,11 +91,11 @@ dataMap.save('wind_locations.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwNTEzMTExLC04ODExMzgzODEsLTk4OT
-Q3NzI2MSwtMjA1NjQwNTU1MCwtOTc4NjczNDEsLTMyMzk4ODE0
-OSwtMTkyMzc2Mzk0NywzOTQ1Mzc4NjksLTEzOTE0OTU2MDUsLT
-IyMTg4OTk3NSw2NjE2NzQwMTQsOTI2Nzk1MzA0LC0zOTg1NDI2
-MDAsMTE3MjIzNjI4MywxODUyMDA2MDI1LDIxMjE1NzcxNCwtNz
-c0ODYwMTQzLC01MjA0NzE5MzgsNzM5MDczNzc5LC05NjE1ODM3
-ODNdfQ==
+eyJoaXN0b3J5IjpbLTEwNzkxNjA5NDQsOTkwNTEzMTExLC04OD
+ExMzgzODEsLTk4OTQ3NzI2MSwtMjA1NjQwNTU1MCwtOTc4Njcz
+NDEsLTMyMzk4ODE0OSwtMTkyMzc2Mzk0NywzOTQ1Mzc4NjksLT
+EzOTE0OTU2MDUsLTIyMTg4OTk3NSw2NjE2NzQwMTQsOTI2Nzk1
+MzA0LC0zOTg1NDI2MDAsMTE3MjIzNjI4MywxODUyMDA2MDI1LD
+IxMjE1NzcxNCwtNzc0ODYwMTQzLC01MjA0NzE5MzgsNzM5MDcz
+Nzc5XX0=
 -->
