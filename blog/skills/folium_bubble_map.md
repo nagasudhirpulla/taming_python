@@ -27,7 +27,8 @@ In this post we will learn how to draw a bubble map from excel data using **pand
 * There should be legend at the bottom left of the map for explaining the bubble colors
 
 The whole program can be broken down into the following tasks
-* Read the data from excel
+* Read all the power plants information from excel file using pandas
+*  
 * 
 
 ### Draw a simple circle with location and radius
@@ -173,5 +174,5 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxNzY0MjU5LC04Mzc4OTIzMDZdfQ==
+eyJoaXN0b3J5IjpbMTcyMDUyOTg3MiwtODM3ODkyMzA2XX0=
 -->
