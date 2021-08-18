@@ -16,7 +16,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post we will learn how to draw a bubble map from excel data using **pandas** and **folium** python library 
+In this post we will learn how to draw a bubble map from excel data using **pandas** and **folium** python libraries
 See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
 ### Draw a simple circle with location and radius
@@ -162,5 +162,5 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTM5MzUwNF19
+eyJoaXN0b3J5IjpbLTE1MzU5NDE0NDRdfQ==
 -->
