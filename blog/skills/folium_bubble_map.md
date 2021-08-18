@@ -1,5 +1,5 @@
 
-## Challenge - Create a bubble map from excel data using python foli
+## Challenge - Create a bubble map from excel data using python folium and pandas
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -158,5 +158,5 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NTc5OTIwNF19
+eyJoaXN0b3J5IjpbMTI3NzU0NDkyNl19
 -->
