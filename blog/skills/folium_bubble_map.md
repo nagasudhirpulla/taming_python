@@ -19,7 +19,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 
 In this post we will learn how to draw a bubble map from excel data using **pandas** and **folium** python libraries
-See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
+
+The whole process can be breaked down into the follo
 
 ### Draw a simple circle with location and radius
 * location - latitude, longitude location of the center of the circle
@@ -164,5 +165,5 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzg5MjMwNl19
+eyJoaXN0b3J5IjpbOTAzNDY4MzIxLC04Mzc4OTIzMDZdfQ==
 -->
