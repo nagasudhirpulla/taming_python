@@ -21,7 +21,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 In this post we will learn how to draw a bubble map from excel data using **pandas** and **folium** python libraries
 
 ## Challenge
-Plot the capacities of imaginary power plants on a folium map as a bubble map.
+* Plot the capacities of imaginary power plants on a bubble map
+* 
 
 The whole program can be broken down into the following tasks
 * Read the data from excel
@@ -170,5 +171,5 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyODE1NDk5LC04Mzc4OTIzMDZdfQ==
+eyJoaXN0b3J5IjpbLTkwNzE3NzExMiwtODM3ODkyMzA2XX0=
 -->
