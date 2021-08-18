@@ -25,7 +25,7 @@ In this post we will learn how to draw a bubble map from excel data using **pand
 * The bubbles of wind plants will be blue and bubbles of solar plants will be red
 * When user clicks on a bubble, it's information should be shown on a popup
 * There should be legend at the bottom left of the map for explaining the bubble colors
-
+![bubble_map_demo_data](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/bubble_map_demo_data.png)
 The whole program can be broken down into the following tasks
 * Read all the power plants information from excel file using pandas
 *  
@@ -156,7 +156,7 @@ folium.LayerControl().add_to(mapObj)
 mapObj.save('output.html')
 ```
 
-![folium_circles_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_circles_demo.png)
+![bubble_map_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/bubble_map_demo.png)
 ### Video
 The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
@@ -174,5 +174,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMDUyOTg3MiwtODM3ODkyMzA2XX0=
+eyJoaXN0b3J5IjpbMTAzMTA0NTkwMCwxNzIwNTI5ODcyLC04Mz
+c4OTIzMDZdfQ==
 -->
