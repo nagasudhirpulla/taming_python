@@ -107,7 +107,7 @@ legendHtml = '''
 mapObj.get_root().html.add_child(folium.Element(legendHtml))
 
 # save the map as html file
-mapObj.save('wind_locations.html')
+mapObj.save('output.html')
 ```
 
 
@@ -130,7 +130,7 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDY1NjkzMTMsMTY4MjAwOTAyMywtMT
+eyJoaXN0b3J5IjpbLTIxMzQxNzY1ODMsMTY4MjAwOTAyMywtMT
 I2Njk1OTg2NiwtMTQ0MTI5NjYyMSwzMDg5NTI3NzQsMTAzMTA0
 NTkwMCwxNzIwNTI5ODcyLC04Mzc4OTIzMDZdfQ==
 -->
