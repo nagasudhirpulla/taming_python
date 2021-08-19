@@ -58,6 +58,7 @@ bordersLayer = folium.GeoJson(
     style_function=lambda x: bordersStyle)
 bordersLayer.add_to(mapObj)
 
+# create a layer for bubble map using FeatureGroup
 powerPlantsLayer = folium.FeatureGroup("Power Plants")
 # iterate through each dataframe row
 for i in range(len(dataDf)):
@@ -124,7 +125,7 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MjAwOTAyMywtMTI2Njk1OTg2NiwtMT
-Q0MTI5NjYyMSwzMDg5NTI3NzQsMTAzMTA0NTkwMCwxNzIwNTI5
-ODcyLC04Mzc4OTIzMDZdfQ==
+eyJoaXN0b3J5IjpbMjE1MjMzNjIsMTY4MjAwOTAyMywtMTI2Nj
+k1OTg2NiwtMTQ0MTI5NjYyMSwzMDg5NTI3NzQsMTAzMTA0NTkw
+MCwxNzIwNTI5ODcyLC04Mzc4OTIzMDZdfQ==
 -->
