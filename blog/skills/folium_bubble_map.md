@@ -38,15 +38,70 @@ The whole program can be broken down into the following tasks
 
 ### Code
 ```python
+import pandas as pd
 import folium
 
-mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=6)
+# read excel data as dataframe
+dataDf = pd.read_excel('power_plants.xlsx')
 
-folium.Circle(location=[23.294059708387206, 78.26660156250001],
-              radius=50000
-              ).add_to(mapObj)
+# initialize a map with center and zoom
+mapObj = folium.Map(location=[21.437730075416685, 77.255859375],
+                     zoom_start=7, tiles='openstreetmap')
+# folium.TileLayer('stamenterrain', attr="stamenterrain").add_to(mapObj)
 
-mapObj.save('output.html')
+# create GeoJson layer to draw country borders
+# style options - https://leafletjs.com/reference-1.7.1.html#path
+bordersStyle = {"color": 'green', 'weight': 2, 'fillOpacity': 0}
+bordersLayer = folium.GeoJson(
+    data=(open("states_india.geojson", 'r').read()),
+    name="Borders",
+    style_function=lambda x: bordersStyle)
+bordersLayer.add_to(mapObj)
+
+powerPlantsLayer = folium.FeatureGroup("Power Plants")
+# iterate through each dataframe row
+for i in range(len(dataDf)):
+    areaStr = dataDf.iloc[i]['area']
+    fuelStr = dataDf.iloc[i]['fuel']
+    capStr = dataDf.iloc[i]['capacity']
+    clr = "blue" if fuelStr.lower() == 'wind' else "red"
+    radius = capStr*100
+    popUpStr = 'Area - {0}<br>Fuel - {1}<br>Capacity - {2} MW'.format(
+        areaStr, fuelStr, capStr)
+    folium.Circle(
+        location=[dataDf.iloc[i]['lat'], dataDf.iloc[i]['lng']],
+        popup=folium.Popup(popUpStr, min_width=100, max_width=700),
+        radius=radius,
+        color=clr,
+        weight=2,
+        fill=True,
+        fill_color=clr,
+        fill_opacity=0.1
+    ).add_to(powerPlantsLayer)
+
+powerPlantsLayer.add_to(mapObj)
+
+# add layer control over the map
+folium.LayerControl().add_to(mapObj)
+
+# html to be injected for displaying legend
+legendHtml = '''
+     <div style="position: fixed; 
+     bottom: 50px; left: 50px; width: 150px; height: 70px; 
+     border:2px solid grey; z-index:9999; font-size:14px;
+     ">&nbsp; Fuel Types <br>
+     &nbsp; <i class="fa fa-circle"
+                  style="color:blue"></i> &nbsp; Wind<br>
+     &nbsp; <i class="fa fa-circle"
+                  style="color:red"></i> &nbsp; Solar<br>
+      </div>
+     '''
+
+# inject html into the map html
+mapObj.get_root().html.add_child(folium.Element(legendHtml))
+
+# save the map as html file
+mapObj.save('wind_locations.html')
 ```
 
 
@@ -69,7 +124,7 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDcyNDQwOCwtMTI2Njk1OTg2NiwtMT
+eyJoaXN0b3J5IjpbMTY4MjAwOTAyMywtMTI2Njk1OTg2NiwtMT
 Q0MTI5NjYyMSwzMDg5NTI3NzQsMTAzMTA0NTkwMCwxNzIwNTI5
 ODcyLC04Mzc4OTIzMDZdfQ==
 -->
