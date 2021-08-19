@@ -60,15 +60,19 @@ bordersLayer.add_to(mapObj)
 
 # create a layer for bubble map using FeatureGroup
 powerPlantsLayer = folium.FeatureGroup("Power Plants")
+
 # iterate through each dataframe row
 for i in range(len(dataDf)):
     areaStr = dataDf.iloc[i]['area']
     fuelStr = dataDf.iloc[i]['fuel']
     capStr = dataDf.iloc[i]['capacity']
+    # derive the circle color
     clr = "blue" if fuelStr.lower() == 'wind' else "red"
+    # derive the circle radius
     radius = capStr*100
     popUpStr = 'Area - {0}<br>Fuel - {1}<br>Capacity - {2} MW'.format(
         areaStr, fuelStr, capStr)
+    # draw circle for the power plant
     folium.Circle(
         location=[dataDf.iloc[i]['lat'], dataDf.iloc[i]['lng']],
         popup=folium.Popup(popUpStr, min_width=100, max_width=700),
@@ -125,7 +129,7 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1MjMzNjIsMTY4MjAwOTAyMywtMTI2Nj
-k1OTg2NiwtMTQ0MTI5NjYyMSwzMDg5NTI3NzQsMTAzMTA0NTkw
-MCwxNzIwNTI5ODcyLC04Mzc4OTIzMDZdfQ==
+eyJoaXN0b3J5IjpbNzM5MDI0MDkwLDE2ODIwMDkwMjMsLTEyNj
+Y5NTk4NjYsLTE0NDEyOTY2MjEsMzA4OTUyNzc0LDEwMzEwNDU5
+MDAsMTcyMDUyOTg3MiwtODM3ODkyMzA2XX0=
 -->
