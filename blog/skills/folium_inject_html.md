@@ -23,15 +23,15 @@ In this example code below, we are injecting a ```div``` element into the HTML b
 import folium
 
 # create a map object with initial zoom and map center
-mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
-                    zoom_start=5)
+mapObj = folium.Map(location=[20.658486188041294, 82.65014648437501], zoom_start=7)
 
 # inject html into the map html
 mapObj.get_root().html.add_child(folium.Element("""
 <div style="position: fixed; 
-     bottom: 50px; left: 50px; width: 150px; height: 70px; 
-     border:2px solid grey;z-index: 900;">
-Hello World!!!
+     top: 50px; left: 70px; width: 150px; height: 70px; 
+     background-color:orange; border:2px solid grey;z-index: 900;">
+    <h5>Hello World!!!</h5>
+    <button>Test Button</button>
 </div>
 """))
 
@@ -51,6 +51,6 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MzU2Nzc5MywxODYwMjMzMTE2LDgyNT
-U5Nzc2OCwxNzQ2MjMyNTcwXX0=
+eyJoaXN0b3J5IjpbLTE5Mjk0MzYzMDMsMTY2MzU2Nzc5MywxOD
+YwMjMzMTE2LDgyNTU5Nzc2OCwxNzQ2MjMyNTcwXX0=
 -->
