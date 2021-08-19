@@ -60,19 +60,21 @@ bordersLayer.add_to(mapObj)
 
 # create a layer for bubble map using FeatureGroup
 powerPlantsLayer = folium.FeatureGroup("Power Plants")
+# add the created layer to the map
+powerPlantsLayer.add_to(mapObj)
 
 # iterate through each dataframe row
 for i in range(len(dataDf)):
     areaStr = dataDf.iloc[i]['area']
     fuelStr = dataDf.iloc[i]['fuel']
-    capStr = dataDf.iloc[i]['capacity']
+    capVal = dataDf.iloc[i]['capacity']
     # derive the circle color
     clr = "blue" if fuelStr.lower() == 'wind' else "red"
     # derive the circle radius
-    radius = capStr*100
+    radius = capVal*100
     # derive the circle pop up html content 
     popUpStr = 'Area - {0}<br>Fuel - {1}<br>Capacity - {2} MW'.format(
-        areaStr, fuelStr, capStr)
+        areaStr, fuelStr, capVal)
     # draw a circle for the power plant on the layer
     folium.Circle(
         location=[dataDf.iloc[i]['lat'], dataDf.iloc[i]['lng']],
@@ -85,7 +87,6 @@ for i in range(len(dataDf)):
         fill_opacity=0.1
     ).add_to(powerPlantsLayer)
 
-powerPlantsLayer.add_to(mapObj)
 
 # add layer control over the map
 folium.LayerControl().add_to(mapObj)
@@ -103,7 +104,7 @@ legendHtml = '''
       </div>
      '''
 
-# inject html into the map html
+# inject html corresponding to the legend into the map
 mapObj.get_root().html.add_child(folium.Element(legendHtml))
 
 # save the map as html file
@@ -130,7 +131,8 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzQxNzY1ODMsMTY4MjAwOTAyMywtMT
-I2Njk1OTg2NiwtMTQ0MTI5NjYyMSwzMDg5NTI3NzQsMTAzMTA0
-NTkwMCwxNzIwNTI5ODcyLC04Mzc4OTIzMDZdfQ==
+eyJoaXN0b3J5IjpbMTMxNjM4OTAyMiwtMjEzNDE3NjU4MywxNj
+gyMDA5MDIzLC0xMjY2OTU5ODY2LC0xNDQxMjk2NjIxLDMwODk1
+Mjc3NCwxMDMxMDQ1OTAwLDE3MjA1Mjk4NzIsLTgzNzg5MjMwNl
+19
 -->
