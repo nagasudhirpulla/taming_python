@@ -70,6 +70,7 @@ for i in range(len(dataDf)):
     clr = "blue" if fuelStr.lower() == 'wind' else "red"
     # derive the circle radius
     radius = capStr*100
+    # derive the circle pop up html content 
     popUpStr = 'Area - {0}<br>Fuel - {1}<br>Capacity - {2} MW'.format(
         areaStr, fuelStr, capStr)
     # draw circle for the power plant
@@ -129,7 +130,7 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5MDI0MDkwLDE2ODIwMDkwMjMsLTEyNj
-Y5NTk4NjYsLTE0NDEyOTY2MjEsMzA4OTUyNzc0LDEwMzEwNDU5
-MDAsMTcyMDUyOTg3MiwtODM3ODkyMzA2XX0=
+eyJoaXN0b3J5IjpbMTE1MjkzNTUxNywxNjgyMDA5MDIzLC0xMj
+Y2OTU5ODY2LC0xNDQxMjk2NjIxLDMwODk1Mjc3NCwxMDMxMDQ1
+OTAwLDE3MjA1Mjk4NzIsLTgzNzg5MjMwNl19
 -->
