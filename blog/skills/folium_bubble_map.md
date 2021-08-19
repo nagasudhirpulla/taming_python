@@ -28,8 +28,8 @@ In this post we will learn how to draw a bubble map from excel data using **pand
 ![bubble_map_demo_data](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/bubble_map_demo_data.png)
 The whole program can be broken down into the following tasks
 * Read all the power plants information from excel file using pandas
-* 
-* 
+* Create a simple map with a desired map center and map zoom 
+* Iterate through each power plant and draw a circle on the map. The co
 
 ### Draw a simple circle with location and radius
 * location - latitude, longitude location of the center of the circle
@@ -174,6 +174,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4OTUyNzc0LDEwMzEwNDU5MDAsMTcyMD
-UyOTg3MiwtODM3ODkyMzA2XX0=
+eyJoaXN0b3J5IjpbLTY4NDc4ODkzNCwzMDg5NTI3NzQsMTAzMT
+A0NTkwMCwxNzIwNTI5ODcyLC04Mzc4OTIzMDZdfQ==
 -->
