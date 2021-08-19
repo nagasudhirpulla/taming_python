@@ -1,4 +1,3 @@
-
 ## Challenge - Create a bubble map from excel data using python folium and pandas
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -130,8 +129,8 @@ mapObj.save('output.html')
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDAxMDA1NiwtMjEzNDE3NjU4MywxNj
-gyMDA5MDIzLC0xMjY2OTU5ODY2LC0xNDQxMjk2NjIxLDMwODk1
-Mjc3NCwxMDMxMDQ1OTAwLDE3MjA1Mjk4NzIsLTgzNzg5MjMwNl
-19
+eyJoaXN0b3J5IjpbLTE3NDg2Mzk5NDYsMjAwMDAxMDA1NiwtMj
+EzNDE3NjU4MywxNjgyMDA5MDIzLC0xMjY2OTU5ODY2LC0xNDQx
+Mjk2NjIxLDMwODk1Mjc3NCwxMDMxMDQ1OTAwLDE3MjA1Mjk4Nz
+IsLTgzNzg5MjMwNl19
 -->
