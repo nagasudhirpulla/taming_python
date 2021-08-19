@@ -44,6 +44,11 @@ mapObj.save('output.html')
 * Similar to the above example, we can also inject CSS by injecting the ```style``` tag into the HTML body of the map. 
 * Set the ```z-index``` CSS attribute of the injected HTML elements to a higher value. Otherwise, the injected HTML elements will be hidden behind the map.
 
+### Video
+The video for this post can be seen [here](https://youtu.be/Cvh-iSRRFJQ)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cvh-iSRRFJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -51,6 +56,7 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk0MzYzMDMsMTY2MzU2Nzc5MywxOD
-YwMjMzMTE2LDgyNTU5Nzc2OCwxNzQ2MjMyNTcwXX0=
+eyJoaXN0b3J5IjpbMTY1ODQ2MDgxMiwtMTkyOTQzNjMwMywxNj
+YzNTY3NzkzLDE4NjAyMzMxMTYsODI1NTk3NzY4LDE3NDYyMzI1
+NzBdfQ==
 -->
