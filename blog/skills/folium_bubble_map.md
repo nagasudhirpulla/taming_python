@@ -29,7 +29,10 @@ In this post we will learn how to draw a bubble map from excel data using **pand
 The whole program can be broken down into the following tasks
 * Read all the power plants information from excel file using pandas
 * Create a simple map with a desired map center and map zoom 
-* Iterate through each power plant and draw a circle on the map. The co
+* Create a map layer on which 
+* Iterate through each power plant and draw a circle on the map. The color of the circle will be based on the fuel type of the power plant (Solar-red, Wind-blue)
+* Inject HTML into the map to create a legend at the bottom left
+* 
 
 ### Draw a simple circle with location and radius
 * location - latitude, longitude location of the center of the circle
@@ -174,6 +177,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDc4ODkzNCwzMDg5NTI3NzQsMTAzMT
-A0NTkwMCwxNzIwNTI5ODcyLC04Mzc4OTIzMDZdfQ==
+eyJoaXN0b3J5IjpbLTExNDUwMDE3NjQsMzA4OTUyNzc0LDEwMz
+EwNDU5MDAsMTcyMDUyOTg3MiwtODM3ODkyMzA2XX0=
 -->
