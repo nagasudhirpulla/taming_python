@@ -126,17 +126,16 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 <hr/>
 
 ### References
-* circle styling options - https://leafletjs.com/reference-1.7.1.html#path
+* Circle and GeoJson styling options - https://leafletjs.com/reference-1.7.1.html#path
 * circle docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.Circle
-* 
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDk3NTA3NCwtMjEzNDE3NjU4MywxNj
-gyMDA5MDIzLC0xMjY2OTU5ODY2LC0xNDQxMjk2NjIxLDMwODk1
-Mjc3NCwxMDMxMDQ1OTAwLDE3MjA1Mjk4NzIsLTgzNzg5MjMwNl
-19
+eyJoaXN0b3J5IjpbLTEzNTM4NjY1NjYsLTIxMzQxNzY1ODMsMT
+Y4MjAwOTAyMywtMTI2Njk1OTg2NiwtMTQ0MTI5NjYyMSwzMDg5
+NTI3NzQsMTAzMTA0NTkwMCwxNzIwNTI5ODcyLC04Mzc4OTIzMD
+ZdfQ==
 -->
