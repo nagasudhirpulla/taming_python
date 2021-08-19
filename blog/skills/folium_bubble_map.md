@@ -27,8 +27,8 @@ In this post we will learn how to draw a bubble map from excel data using **pand
 * There should be legend at the bottom left of the map for explaining the bubble colors
 ![bubble_map_demo_data](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/bubble_map_demo_data.png)
 ### Files
-* Power plants excel file can be found [here]()
-* Country borders GeoJson file can be found [here]()
+* Power plants excel file can be found [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/power_plants.xlsx)
+* Country borders GeoJson file can be found [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/states_india.geojson)
 
 ## Solution
 The whole program can be broken down into the following tasks
@@ -128,15 +128,15 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 ### References
 * circle styling options - https://leafletjs.com/reference-1.7.1.html#path
 * circle docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.Circle
-* circle marker docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.CircleMarker
+* 
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2OTU0NDAsLTIxMzQxNzY1ODMsMTY4Mj
-AwOTAyMywtMTI2Njk1OTg2NiwtMTQ0MTI5NjYyMSwzMDg5NTI3
-NzQsMTAzMTA0NTkwMCwxNzIwNTI5ODcyLC04Mzc4OTIzMDZdfQ
-==
+eyJoaXN0b3J5IjpbMTg4NDk3NTA3NCwtMjEzNDE3NjU4MywxNj
+gyMDA5MDIzLC0xMjY2OTU5ODY2LC0xNDQxMjk2NjIxLDMwODk1
+Mjc3NCwxMDMxMDQ1OTAwLDE3MjA1Mjk4NzIsLTgzNzg5MjMwNl
+19
 -->
