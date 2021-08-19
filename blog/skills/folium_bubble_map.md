@@ -118,11 +118,6 @@ mapObj.save('output.html')
 
 
 ![bubble_map_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/bubble_map_demo.png)
-### Video
-The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jFaa2vwU4-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <hr/>
 
 ### References
@@ -135,7 +130,7 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDk3NzI4MywtMjEzNDE3NjU4MywxNj
+eyJoaXN0b3J5IjpbMjAwMDAxMDA1NiwtMjEzNDE3NjU4MywxNj
 gyMDA5MDIzLC0xMjY2OTU5ODY2LC0xNDQxMjk2NjIxLDMwODk1
 Mjc3NCwxMDMxMDQ1OTAwLDE3MjA1Mjk4NzIsLTgzNzg5MjMwNl
 19
