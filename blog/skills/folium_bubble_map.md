@@ -26,6 +26,7 @@ In this post we will learn how to draw a bubble map from excel data using **pand
 * When user clicks on a bubble, it's information should be shown on a popup
 * There should be legend at the bottom left of the map for explaining the bubble colors
 ![bubble_map_demo_data](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/bubble_map_demo_data.png)
+## Solution
 The whole program can be broken down into the following tasks
 * Read all the power plants information from excel file using pandas
 * Create a simple map with a desired map center and map zoom 
@@ -178,6 +179,7 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDEyOTY2MjEsMzA4OTUyNzc0LDEwMz
-EwNDU5MDAsMTcyMDUyOTg3MiwtODM3ODkyMzA2XX0=
+eyJoaXN0b3J5IjpbLTEyNjY5NTk4NjYsLTE0NDEyOTY2MjEsMz
+A4OTUyNzc0LDEwMzEwNDU5MDAsMTcyMDUyOTg3MiwtODM3ODky
+MzA2XX0=
 -->
