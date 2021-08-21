@@ -51,12 +51,15 @@ mapObj.save('output.html')
 ```
 
 ![folium_divicon_demo](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/folium_divicon_demo.PNG)
+### Video
+The video for this post can be found [here](https://youtu.be/JqQPgGKzp9I)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JqQPgGKzp9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjI3NDQxMDYsMTM1ODA0MjI1NCwtMj
-A0MzYyMTU2NSwtMTk0NjM5ODg0NiwxNTc3MTgxMDI2LDEzNTE5
-MTY3MzMsMTI4NjI5NjUwMF19
+eyJoaXN0b3J5IjpbLTQxMTA2MjYzNywtMTMyMjc0NDEwNiwxMz
+U4MDQyMjU0LC0yMDQzNjIxNTY1LC0xOTQ2Mzk4ODQ2LDE1Nzcx
+ODEwMjYsMTM1MTkxNjczMywxMjg2Mjk2NTAwXX0=
 -->
