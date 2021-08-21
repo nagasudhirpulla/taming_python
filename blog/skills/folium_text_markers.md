@@ -33,15 +33,17 @@ folium.Marker(location=[24.2170111233401, 81.0791015625000],
               popup=folium.Popup('<i>The center of map</i>'),
               tooltip='Center',
               icon=folium.DivIcon(html="""Hello World <b>ABCDEFG</b>""",
-                                  class_name="oneline",
+                                  class_name="mapText",
                                   ),
               ).add_to(mapObj)
 
 # inject html into the map html
 mapObj.get_root().html.add_child(folium.Element("""
 <style>
-.oneline {
+.mapText {
     white-space: nowrap;
+    color:red;
+    font-size:large
 }
 </style>
 """))
@@ -59,6 +61,7 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDM2MjE1NjUsLTE5NDYzOTg4NDYsMT
-U3NzE4MTAyNiwxMzUxOTE2NzMzLDEyODYyOTY1MDBdfQ==
+eyJoaXN0b3J5IjpbLTEyMzI0Njk4ODIsLTIwNDM2MjE1NjUsLT
+E5NDYzOTg4NDYsMTU3NzE4MTAyNiwxMzUxOTE2NzMzLDEyODYy
+OTY1MDBdfQ==
 -->
