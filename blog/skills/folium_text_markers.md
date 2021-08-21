@@ -56,11 +56,8 @@ mapObj.save('output.html')
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
-
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODA0MjI1NCwtMjA0MzYyMTU2NSwtMT
-k0NjM5ODg0NiwxNTc3MTgxMDI2LDEzNTE5MTY3MzMsMTI4NjI5
-NjUwMF19
+eyJoaXN0b3J5IjpbLTIxMDgxNDc4MzYsMTM1ODA0MjI1NCwtMj
+A0MzYyMTU2NSwtMTk0NjM5ODg0NiwxNTc3MTgxMDI2LDEzNTE5
+MTY3MzMsMTI4NjI5NjUwMF19
 -->
