@@ -53,6 +53,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 ### Video
 The video for this post can be found [here](https://youtu.be/JqQPgGKzp9I)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JqQPgGKzp9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
@@ -65,7 +66,8 @@ eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEZvciBsb29wIGluIHB5dG
 hvblxuYXV0aG9yOiBOYWdhc3VkaGlyIFB1bGxhXG50YWdzOiAn
 bGVhcm5pbmcsIHB5dGhvbiwgdGFtaW5nX3B5dGhvbl9za2lsbC
 dcbmNhdGVnb3JpZXM6IHRhbWluZ19weXRob25fc2tpbGxcbmRh
-dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6WzEwNDE2Mz
-Y4MDIsMzcwNjE3Njk2LDE4NjI0NzEzMTksLTk2ODM2MDQwMSwx
-NTI0MDYwOTcxLDEzNDc0ODE0OCwtMTQ1OTc0ODk0N119
+dGU6ICcyMDIwLTA1LTAyJ1xuIiwiaGlzdG9yeSI6WzUzMTI2Nj
+Y3MiwxMDQxNjM2ODAyLDM3MDYxNzY5NiwxODYyNDcxMzE5LC05
+NjgzNjA0MDEsMTUyNDA2MDk3MSwxMzQ3NDgxNDgsLTE0NTk3ND
+g5NDddfQ==
 -->
