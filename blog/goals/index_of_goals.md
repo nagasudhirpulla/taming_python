@@ -101,6 +101,7 @@ Here are the goals and skills in this tutorial series
 * [Inject HTML into python folium maps](https://nagasudhir.blogspot.com/2021/08/inject-html-into-python-folium-maps.html)
 * [Draw text on python folium maps using DivIcon](https://nagasudhir.blogspot.com/2021/08/draw-text-on-python-folium-maps-using.html)
 * [Create a bubble map from excel data using python folium and pandas](https://nagasudhir.blogspot.com/2021/08/create-bubble-map-from-excel-data-using.html)
+* [Draw Rectangle, Polyline, Polygon in python folium](https://nagasudhir.blogspot.com/2021/08/draw-rectangle-polyline-polygon-in.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -108,11 +109,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbNTM4ODE0ODg1LDg3Njg0OD
-I1NCw1MDU3MDc3MzAsMzcwNjkwNzI3LC0yMTEzODc2NDk2LDc5
-MTIwMDU0OSwxOTg3NzE2MTQ0LC0xOTQ5MjkwMjMxLC0xNjI3Nz
-Q1ODAyLC05Mzg1MDA2ODksLTE4NTUzMDU4NjMsLTExNDYzMDQ2
-MTksMTY1NjY5NDAwMSwxMjU5MjMxMzU3LDI1NTYzNzUzNSwxMz
-k4ODcxNDU1LDE4MDI3Mzc2NTUsMTY1NjAzMzAxMCwxMDMyMzMz
-MjExLC0xMjcyMjU1MjgwXX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTYxNjcyMTQ1NSw1Mzg4MT
+Q4ODUsODc2ODQ4MjU0LDUwNTcwNzczMCwzNzA2OTA3MjcsLTIx
+MTM4NzY0OTYsNzkxMjAwNTQ5LDE5ODc3MTYxNDQsLTE5NDkyOT
+AyMzEsLTE2Mjc3NDU4MDIsLTkzODUwMDY4OSwtMTg1NTMwNTg2
+MywtMTE0NjMwNDYxOSwxNjU2Njk0MDAxLDEyNTkyMzEzNTcsMj
+U1NjM3NTM1LDEzOTg4NzE0NTUsMTgwMjczNzY1NSwxNjU2MDMz
+MDEwLDEwMzIzMzMyMTFdfQ==
 -->
