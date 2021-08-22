@@ -56,7 +56,7 @@ mapObj = folium.Map(location=[21.437730075416685, 77.255859375],
 # style options - https://leafletjs.com/reference-1.7.1.html#path
 bordersStyle = {"color": 'green', 'weight': 2, 'fillOpacity': 0}
 bordersLayer = folium.GeoJson(
-    data=(open("states_india.geojson", 'r').read()),
+    data="states_india.geojson",
     name="Borders",
     style_function=lambda x: bordersStyle)
 bordersLayer.add_to(mapObj)
@@ -129,8 +129,8 @@ mapObj.save('output.html')
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDg2Mzk5NDYsMjAwMDAxMDA1NiwtMj
-EzNDE3NjU4MywxNjgyMDA5MDIzLC0xMjY2OTU5ODY2LC0xNDQx
-Mjk2NjIxLDMwODk1Mjc3NCwxMDMxMDQ1OTAwLDE3MjA1Mjk4Nz
-IsLTgzNzg5MjMwNl19
+eyJoaXN0b3J5IjpbMTE3Mjk3OTI1OSwtMTc0ODYzOTk0NiwyMD
+AwMDEwMDU2LC0yMTM0MTc2NTgzLDE2ODIwMDkwMjMsLTEyNjY5
+NTk4NjYsLTE0NDEyOTY2MjEsMzA4OTUyNzc0LDEwMzEwNDU5MD
+AsMTcyMDUyOTg3MiwtODM3ODkyMzA2XX0=
 -->
