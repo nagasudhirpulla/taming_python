@@ -14,7 +14,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will learn how to draw circles in **folium** maps. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
-### Draw a rectangle with diagonal coordinates
+### Draw a Rectangle with diagonal coordinates
 ```python
 # import folium library
 import folium
@@ -60,7 +60,7 @@ folium.Rectangle([(28.6471948,76.9531796), (19.0821978,72.7411)],
 mapObj.save('output.html')
 ```
 
-### Draw a polyline
+### Draw a Polyline
 ```python
 # import folium library
 import folium
@@ -165,5 +165,5 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Njg3OTg2MywtMTIyMTEzMzc2MF19
+eyJoaXN0b3J5IjpbNTAxODA3MjIzLC0xMjIxMTMzNzYwXX0=
 -->
