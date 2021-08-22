@@ -107,7 +107,7 @@ import folium
 mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=6)
 
 # create a layer on the map object
-shapesLayer = folium.FeatureGroup(name="circles").add_to(mapObj)
+shapesLayer = folium.FeatureGroup(name="rectangle").add_to(mapObj)
 
 folium.Circle(location=[23.294059708387206, 78.26660156250001],
               radius=50000,
@@ -169,6 +169,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQyODkzNDEsMTA4MDMxNDI5MSwtMT
-IyMTEzMzc2MF19
+eyJoaXN0b3J5IjpbLTE4OTUwMzkwODksLTE5NzQyODkzNDEsMT
+A4MDMxNDI5MSwtMTIyMTEzMzc2MF19
 -->
