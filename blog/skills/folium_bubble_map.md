@@ -117,6 +117,11 @@ mapObj.save('output.html')
 
 
 ![bubble_map_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/bubble_map_demo.png)
+### Video
+The video for this post can be seen [here](https://youtu.be/lHuHrm8awbw)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lHuHrm8awbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### References
@@ -129,8 +134,8 @@ mapObj.save('output.html')
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Mjk3OTI1OSwtMTc0ODYzOTk0NiwyMD
-AwMDEwMDU2LC0yMTM0MTc2NTgzLDE2ODIwMDkwMjMsLTEyNjY5
-NTk4NjYsLTE0NDEyOTY2MjEsMzA4OTUyNzc0LDEwMzEwNDU5MD
-AsMTcyMDUyOTg3MiwtODM3ODkyMzA2XX0=
+eyJoaXN0b3J5IjpbLTkxNTExMjE2LDExNzI5NzkyNTksLTE3ND
+g2Mzk5NDYsMjAwMDAxMDA1NiwtMjEzNDE3NjU4MywxNjgyMDA5
+MDIzLC0xMjY2OTU5ODY2LC0xNDQxMjk2NjIxLDMwODk1Mjc3NC
+wxMDMxMDQ1OTAwLDE3MjA1Mjk4NzIsLTgzNzg5MjMwNl19
 -->
