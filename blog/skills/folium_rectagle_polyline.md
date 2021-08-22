@@ -99,6 +99,10 @@ folium.Polygon([(19.0821978, 72.7411), (28.6471948, 76.9531796), (24.21701112334
 mapObj.save('output.html')
 ```
 
+### Difference between a Polygon and a Polyline
+The only difference is that the plygon
+
+
 ### Keep shapes in a different layer
 ```python
 # import folium library
@@ -171,6 +175,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTQwNzY5MSwtMTk3NDI4OTM0MSwxMD
+eyJoaXN0b3J5IjpbLTI3NDgyODQxNSwtMTk3NDI4OTM0MSwxMD
 gwMzE0MjkxLC0xMjIxMTMzNzYwXX0=
 -->
