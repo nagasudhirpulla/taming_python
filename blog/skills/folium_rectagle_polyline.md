@@ -14,16 +14,24 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will learn how to draw circles in **folium** maps. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
-### Draw a simple rectangle with diagonal coordinates
+### Draw a rectangle with diagonal coordinates
 ```python
+# import folium library
 import folium
 
-mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=6)
+# create a map object
+mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
+                    zoom_start=5)
 
-folium.Circle(location=[23.294059708387206, 78.26660156250001],
-              radius=50000
-              ).add_to(mapObj)
+# create a rectangle object and add to map
+folium.Rectangle([(28.6471948,76.9531796), (19.0821978,72.7411)],
+                    color="green",
+                    weight=2,
+                    fill=True,
+                    fill_color="pink",
+                    fill_opacity=0.5).add_to(mapObj)
 
+# save the map object
 mapObj.save('output.html')
 ```
 
@@ -155,6 +163,5 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTI4MzU1NDYsLTEyMjExMzM3NjBdfQ
-==
+eyJoaXN0b3J5IjpbNTYyMDYzMDcyLC0xMjIxMTMzNzYwXX0=
 -->
