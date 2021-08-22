@@ -80,19 +80,22 @@ mapObj.save('output.html')
 
 ### Draw a Polygon
 ```python
+# import folium library
 import folium
 
-mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=6)
+# create a map object
+mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
+                    zoom_start=5)
 
-folium.Circle(location=[23.294059708387206, 78.26660156250001],
-              radius=50000,
-              fill=True,
-              tooltip="This is a tooltip text",
-              popup=folium.Popup("""<h2>This is a popup</h2><br/>
-              This is a <b>new line</b><br/>
-              <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli" style="max-width:100%;max-height:100%">""", max_width=500)
-              ).add_to(mapObj)
+# create a polygon with the coordinates
+folium.Polygon([(19.0821978, 72.7411), (28.6471948, 76.9531796), (24.2170111233401, 81.0791015625000), (20.7021709, 76.9905048), (12.9542946, 77.490855)],
+               color="blue",
+               weight=2,
+               fill=True,
+               fill_color="orange",
+               fill_opacity=0.4).add_to(mapObj)
 
+# save the map object as a html
 mapObj.save('output.html')
 ```
 
@@ -166,5 +169,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDMxNDI5MSwtMTIyMTEzMzc2MF19
+eyJoaXN0b3J5IjpbLTE5NzQyODkzNDEsMTA4MDMxNDI5MSwtMT
+IyMTEzMzc2MF19
 -->
