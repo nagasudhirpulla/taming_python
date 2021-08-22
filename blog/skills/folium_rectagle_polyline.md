@@ -26,7 +26,7 @@ mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
 # create a rectangle object and add to map
 folium.Rectangle([(28.6471948,76.9531796), (19.0821978,72.7411)]).add_to(mapObj)
 
-# save the map object
+# save the map object as
 mapObj.save('output.html')
 ```
 
@@ -61,16 +61,19 @@ mapObj.save('output.html')
 ```
 
 ### Draw a polyline
-The radius in Circle is defined in **meters**, where as the radius in CircleMarker is defined in **pixels**
 ```python
+# import folium library
 import folium
 
-mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=6)
+# create a map object
+mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
+                    zoom_start=5)
 
-folium.CircleMarker(location=[23.294059708387206, 78.26660156250001],
-              radius=50
-              ).add_to(mapObj)
+# create a polyline with the coordinates
+folium.PolyLine([(19.0821978,72.7411), (28.6471948,76.9531796), (24.2170111233401, 81.0791015625000)],
+                color="green").add_to(mapObj)
 
+# save the map object as a html
 mapObj.save('output.html')
 ```
 
@@ -162,5 +165,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjcwNTA1OSwtMTIyMTEzMzc2MF19
+eyJoaXN0b3J5IjpbLTE1NjQwNDMwNjcsLTEyMjExMzM3NjBdfQ
+==
 -->
