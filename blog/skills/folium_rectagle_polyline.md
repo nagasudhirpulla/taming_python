@@ -27,7 +27,7 @@ folium.Circle(location=[23.294059708387206, 78.26660156250001],
 mapObj.save('output.html')
 ```
 
-### Circle stroke and fill options
+### stroke and fill options for rectangle, polyline, polygon
 * all the styling options can be found at https://leafletjs.com/reference-1.6.0.html#path . Use snake_case instead of camelCase for specifying options in python
 * Some of the important styling options are
 	* stroke - set to True to enable line stroke, default is True 
@@ -155,5 +155,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjExMzM3NjBdfQ==
+eyJoaXN0b3J5IjpbLTE1NTI4MzU1NDYsLTEyMjExMzM3NjBdfQ
+==
 -->
