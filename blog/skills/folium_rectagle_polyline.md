@@ -127,38 +127,6 @@ folium.LayerControl().add_to(mapObj)
 mapObj.save('output.html')
 ```
 
-### Complete example
-```python
-import folium
-
-mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001],
-                    zoom_start=6)
-
-shapesLayer = folium.FeatureGroup(name="circles").add_to(mapObj)
-
-circlesData = [
-    [25, 74, 80000],
-    [22, 79, 60000],
-    [26, 82, 90000]
-]
-
-for cData in circlesData:
-    folium.Circle(location=[cData[0], cData[1]],
-                  radius=cData[2],
-                  weight=5,
-                  color='green',
-                  fill_color='red',
-                  tooltip="Tooltip text",
-                  popup=folium.Popup("""<h2>This is a popup</h2><br/>
-                    This is a <b>new line</b><br/>
-                    <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli" style="max-width:100%;max-height:100%">""", max_width=500)
-                  ).add_to(shapesLayer)
-
-folium.LayerControl().add_to(mapObj)
-
-mapObj.save('output.html')
-```
-
 ![folium_circles_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_circles_demo.png)
 ### Video
 The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
@@ -177,6 +145,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzYwNzA5OSwtMTk3NDI4OTM0MSwxMD
-gwMzE0MjkxLC0xMjIxMTMzNzYwXX0=
+eyJoaXN0b3J5IjpbLTEwNTk0MTEzMDMsLTE5NzQyODkzNDEsMT
+A4MDMxNDI5MSwtMTIyMTEzMzc2MF19
 -->
