@@ -175,6 +175,8 @@ mapObj.save('output.html')
 ### References
 * circle styling options - https://leafletjs.com/reference-1.7.1.html#path
 * Rectangle docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.Rectangle
+* Polygon docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.Polygon
+* Polyline docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.PolyLine
 
 <hr/>
 
@@ -182,6 +184,6 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2OTc2MzY3LC0xMDU5NDExMzAzLC0xOT
-c0Mjg5MzQxLDEwODAzMTQyOTEsLTEyMjExMzM3NjBdfQ==
+eyJoaXN0b3J5IjpbLTU5NDcwNjc1MywtMTA1OTQxMTMwMywtMT
+k3NDI4OTM0MSwxMDgwMzE0MjkxLC0xMjIxMTMzNzYwXX0=
 -->
