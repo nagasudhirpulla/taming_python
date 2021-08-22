@@ -70,8 +70,9 @@ mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
                     zoom_start=5)
 
 # create a polyline with the coordinates
-folium.PolyLine([(19.0821978,72.7411), (28.6471948,76.9531796), (24.2170111233401, 81.0791015625000)],
-                color="green").add_to(mapObj)
+folium.PolyLine([(19.0821978, 72.7411), (28.6471948, 76.9531796), (24.2170111233401, 81.0791015625000)],
+                color="red",
+                weight=2).add_to(mapObj)
 
 # save the map object as a html
 mapObj.save('output.html')
@@ -165,5 +166,5 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAxODA3MjIzLC0xMjIxMTMzNzYwXX0=
+eyJoaXN0b3J5IjpbOTAyNzEyOTU0LC0xMjIxMTMzNzYwXX0=
 -->
