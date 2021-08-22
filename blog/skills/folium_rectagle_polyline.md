@@ -101,21 +101,23 @@ mapObj.save('output.html')
 
 ### Keep shapes in different layer
 ```python
-from os import name
+# import folium library
 import folium
 
-mapObj = folium.Map(location=[23.294059708387206, 78.26660156250001], zoom_start=6)
+# create a map object
+mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
+                    zoom_start=5)
 
 # create a layer on the map object
 shapesLayer = folium.FeatureGroup(name="rectangle").add_to(mapObj)
 
-folium.Circle(location=[23.294059708387206, 78.26660156250001],
-              radius=50000,
-              fill=True
-              ).add_to(shapesLayer)
+# create a rectangle object and add to map
+folium.Rectangle([(28.6471948,76.9531796), (19.0821978,72.7411)]).add_to(shapesLayer)
 
+# display t
 folium.LayerControl().add_to(mapObj)
 
+# save the map object as a html
 mapObj.save('output.html')
 ```
 
@@ -169,6 +171,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTUwMzkwODksLTE5NzQyODkzNDEsMT
+eyJoaXN0b3J5IjpbLTE0ODQ3NzA3ODksLTE5NzQyODkzNDEsMT
 A4MDMxNDI5MSwtMTIyMTEzMzc2MF19
 -->
