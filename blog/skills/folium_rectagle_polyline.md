@@ -117,6 +117,9 @@ shapesLayer = folium.FeatureGroup(name="rectangle").add_to(mapObj)
 # create a rectangle object and add to map
 folium.Rectangle([(28.6471948,76.9531796), (19.0821978,72.7411)]).add_to(shapesLayer)
 
+# create a polyline with the coordinates
+folium.Polyline([(17.4126274,78.2679611), (25.6081756,85.073003), (26.4473103,80.2683428)]).add_to(shapesLayer)
+
 # display the layer switcher widget
 folium.LayerControl().add_to(mapObj)
 
@@ -174,6 +177,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDczODM5MiwtMTk3NDI4OTM0MSwxMD
+eyJoaXN0b3J5IjpbMTk4OTk1NTczOSwtMTk3NDI4OTM0MSwxMD
 gwMzE0MjkxLC0xMjIxMTMzNzYwXX0=
 -->
