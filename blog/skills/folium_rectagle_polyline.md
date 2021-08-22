@@ -167,7 +167,7 @@ folium.LayerControl().add_to(mapObj)
 mapObj.save('output.html')
 ```
 
-![folium_circles_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_circles_demo.png)
+![folium_rectangle_polygon_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_rectangle_polygon_demo.png)
 
 <hr/>
 
@@ -183,7 +183,7 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODY2MDYxMCw5OTk4NzQwNjYsLTEwNT
-k0MTEzMDMsLTE5NzQyODkzNDEsMTA4MDMxNDI5MSwtMTIyMTEz
-Mzc2MF19
+eyJoaXN0b3J5IjpbMTM3NTc0MzM0OCwxODg4NjYwNjEwLDk5OT
+g3NDA2NiwtMTA1OTQxMTMwMywtMTk3NDI4OTM0MSwxMDgwMzE0
+MjkxLC0xMjIxMTMzNzYwXX0=
 -->
