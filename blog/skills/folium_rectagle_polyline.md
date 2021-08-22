@@ -102,7 +102,6 @@ mapObj.save('output.html')
 ### Difference between a Polygon and a Polyline
 The only difference is that the polygon will be a closed shape even if the (lat, long) of last mentioned coordinate is not the same as the first one.
 
-
 ### Keep shapes in a different layer
 ```python
 # import folium library
@@ -175,6 +174,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDk5NTM5OCwtMTk3NDI4OTM0MSwxMD
+eyJoaXN0b3J5IjpbLTY0MDczODM5MiwtMTk3NDI4OTM0MSwxMD
 gwMzE0MjkxLC0xMjIxMTMzNzYwXX0=
 -->
