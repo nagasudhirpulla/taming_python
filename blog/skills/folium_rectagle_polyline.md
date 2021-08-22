@@ -112,7 +112,7 @@ mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
                     zoom_start=5)
 
 # create a layer on the map object
-shapesLayer = folium.FeatureGroup(name="rectangle").add_to(mapObj)
+shapesLayer = folium.FeatureGroup(name="Vector Shapes").add_to(mapObj)
 
 # create a rectangle object and add to map
 folium.Rectangle([(28.6471948,76.9531796), (19.0821978,72.7411)]).add_to(shapesLayer)
@@ -177,6 +177,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDkzNTYxMSwtMTk3NDI4OTM0MSwxMD
+eyJoaXN0b3J5IjpbMTQ5NzYwNzA5OSwtMTk3NDI4OTM0MSwxMD
 gwMzE0MjkxLC0xMjIxMTMzNzYwXX0=
 -->
