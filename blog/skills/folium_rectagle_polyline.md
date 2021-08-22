@@ -169,10 +169,6 @@ mapObj.save('output.html')
 ```
 
 ![folium_circles_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_circles_demo.png)
-### Video
-The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jFaa2vwU4-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
 
@@ -186,6 +182,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5MjQyOTE4LC0xMDU5NDExMzAzLC0xOT
+eyJoaXN0b3J5IjpbOTc2OTc2MzY3LC0xMDU5NDExMzAzLC0xOT
 c0Mjg5MzQxLDEwODAzMTQyOTEsLTEyMjExMzM3NjBdfQ==
 -->
