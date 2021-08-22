@@ -133,8 +133,8 @@ mapObj.save('output.html')
 import folium
 
 # create a map object
-mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
-                    zoom_start=5)
+mapObj = folium.Map(location=[19.425153718960143, 80.04638671875001],
+                    zoom_start=6)
 
 # create a layer on the map object
 shapesLayer = folium.FeatureGroup(name="Vector Shapes").add_to(mapObj)
@@ -165,7 +165,6 @@ folium.LayerControl().add_to(mapObj)
 
 # save the map object as a html
 mapObj.save('output.html')
-
 ```
 
 ![folium_circles_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_circles_demo.png)
@@ -173,7 +172,7 @@ mapObj.save('output.html')
 <hr/>
 
 ### References
-* circle styling options - https://leafletjs.com/reference-1.7.1.html#path
+* styling options - https://leafletjs.com/reference-1.7.1.html#path
 * Rectangle docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.Rectangle
 * Polygon docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.Polygon
 * Polyline docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.PolyLine
@@ -184,6 +183,6 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDcwNjc1MywtMTA1OTQxMTMwMywtMT
-k3NDI4OTM0MSwxMDgwMzE0MjkxLC0xMjIxMTMzNzYwXX0=
+eyJoaXN0b3J5IjpbOTk5ODc0MDY2LC0xMDU5NDExMzAzLC0xOT
+c0Mjg5MzQxLDEwODAzMTQyOTEsLTEyMjExMzM3NjBdfQ==
 -->
