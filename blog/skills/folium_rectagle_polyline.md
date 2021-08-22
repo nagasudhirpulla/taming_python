@@ -14,7 +14,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will learn how to draw circles in **folium** maps. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
-### Draw a simple circle with location and radius
+### Draw a simple rectangle with location and radius
 * location - latitude, longitude location of the center of the circle
 * radius - radius of the circle in **meters**
 ```python
@@ -149,8 +149,7 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 ### References
 * circle styling options - https://leafletjs.com/reference-1.7.1.html#path
-* circle docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.Circle
-* circle marker docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.CircleMarker
+* Rectangle docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.Rectangle
 
 <hr/>
 
@@ -158,5 +157,5 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDE2MDYwMF19
+eyJoaXN0b3J5IjpbLTEyMzkwNDQwNjldfQ==
 -->
