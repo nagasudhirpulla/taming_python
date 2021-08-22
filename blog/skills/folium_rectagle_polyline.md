@@ -26,7 +26,7 @@ mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
 # create a rectangle object and add to map
 folium.Rectangle([(28.6471948,76.9531796), (19.0821978,72.7411)]).add_to(mapObj)
 
-# save the map object as
+# save the map object as a html
 mapObj.save('output.html')
 ```
 
@@ -56,7 +56,7 @@ folium.Rectangle([(28.6471948,76.9531796), (19.0821978,72.7411)],
                     fill_color="pink",
                     fill_opacity=0.5).add_to(mapObj)
 
-# save the map object
+# save the map object as a html
 mapObj.save('output.html')
 ```
 
@@ -165,6 +165,5 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQwNDMwNjcsLTEyMjExMzM3NjBdfQ
-==
+eyJoaXN0b3J5IjpbMTQ4Njg3OTg2MywtMTIyMTEzMzc2MF19
 -->
