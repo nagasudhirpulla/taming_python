@@ -133,7 +133,7 @@ mapObj.save('output.html')
 import folium
 
 # create a map object
-mapObj = folium.Map(location=[19.425153718960143, 80.04638671875001],
+mapObj = folium.Map(location=[22.64443248121717, 79.80468750000001],
                     zoom_start=6)
 
 # create a layer on the map object
@@ -183,6 +183,7 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk5ODc0MDY2LC0xMDU5NDExMzAzLC0xOT
-c0Mjg5MzQxLDEwODAzMTQyOTEsLTEyMjExMzM3NjBdfQ==
+eyJoaXN0b3J5IjpbMTg4ODY2MDYxMCw5OTk4NzQwNjYsLTEwNT
+k0MTEzMDMsLTE5NzQyODkzNDEsMTA4MDMxNDI5MSwtMTIyMTEz
+Mzc2MF19
 -->
