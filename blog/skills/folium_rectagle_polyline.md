@@ -127,6 +127,11 @@ folium.LayerControl().add_to(mapObj)
 mapObj.save('output.html')
 ```
 
+### Complte Example
+```python
+
+```
+
 ![folium_circles_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_circles_demo.png)
 ### Video
 The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
@@ -145,6 +150,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTk0MTEzMDMsLTE5NzQyODkzNDEsMT
-A4MDMxNDI5MSwtMTIyMTEzMzc2MF19
+eyJoaXN0b3J5IjpbMjAzNzgxNzg4NCwtMTA1OTQxMTMwMywtMT
+k3NDI4OTM0MSwxMDgwMzE0MjkxLC0xMjIxMTMzNzYwXX0=
 -->
