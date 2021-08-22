@@ -114,7 +114,7 @@ shapesLayer = folium.FeatureGroup(name="rectangle").add_to(mapObj)
 # create a rectangle object and add to map
 folium.Rectangle([(28.6471948,76.9531796), (19.0821978,72.7411)]).add_to(shapesLayer)
 
-# display t
+# display the layer switcher widget
 folium.LayerControl().add_to(mapObj)
 
 # save the map object as a html
@@ -171,6 +171,6 @@ The video for this post can be seen [here](https://youtu.be/jFaa2vwU4-M)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODQ3NzA3ODksLTE5NzQyODkzNDEsMT
-A4MDMxNDI5MSwtMTIyMTEzMzc2MF19
+eyJoaXN0b3J5IjpbMTk4Mzk4ODYxOCwtMTk3NDI4OTM0MSwxMD
+gwMzE0MjkxLC0xMjIxMTMzNzYwXX0=
 -->
