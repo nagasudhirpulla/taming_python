@@ -46,6 +46,9 @@ HeatMap(data).add_to(mapObj)
 mapObj.save("output.html")
 ```
 
+### Values provided to heatmap
+* While providing the values to heatmap, re-sca
+
 ### mapping values to colors using the gradient input
 By providing a dictionary to the ```gradient``` input of the heatmap, the values to color mapping can be configured
 ```python
@@ -192,6 +195,6 @@ mapObj.save('output.html')
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MTM5MTYzNSw5MTU2NDY0MjIsLTE4OT
-g0ODQ3MjQsOTg4NjY0MDFdfQ==
+eyJoaXN0b3J5IjpbLTE0OTc1NzU1NCwtNzkxMzkxNjM1LDkxNT
+Y0NjQyMiwtMTg5ODQ4NDcyNCw5ODg2NjQwMV19
 -->
