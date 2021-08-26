@@ -45,6 +45,7 @@ mapObj.save("output.html")
 ```
 
 ### mapping values to colors using the gradient input
+
 ```python
 import folium
 
@@ -189,6 +190,6 @@ mapObj.save('output.html')
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzk0MzEwMiw5MTU2NDY0MjIsLTE4OT
-g0ODQ3MjQsOTg4NjY0MDFdfQ==
+eyJoaXN0b3J5IjpbLTEyODA4MDYzNTYsOTE1NjQ2NDIyLC0xOD
+k4NDg0NzI0LDk4ODY2NDAxXX0=
 -->
