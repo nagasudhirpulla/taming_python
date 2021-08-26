@@ -44,7 +44,7 @@ HeatMap(data).add_to(mapObj)
 mapObj.save("output.html")
 ```
 
-
+### value scaling
 ```python
 import folium
 
@@ -189,6 +189,6 @@ mapObj.save('output.html')
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjY3MTUxNyw5MTU2NDY0MjIsLTE4OT
-g0ODQ3MjQsOTg4NjY0MDFdfQ==
+eyJoaXN0b3J5IjpbODgzMTk0NzIyLDkxNTY0NjQyMiwtMTg5OD
+Q4NDcyNCw5ODg2NjQwMV19
 -->
