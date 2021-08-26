@@ -14,7 +14,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will learn how to draw heatmap in **folium** maps using the heatmap plugin in the folium library. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics.
 
-### Draw a Rectangle with diagonal coordinates
+### Simple heatmap example
 ```python
 # import folium library
 import folium
@@ -185,5 +185,6 @@ mapObj.save('output.html')
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTg0ODQ3MjQsOTg4NjY0MDFdfQ==
+eyJoaXN0b3J5IjpbOTE1NjQ2NDIyLC0xODk4NDg0NzI0LDk4OD
+Y2NDAxXX0=
 -->
