@@ -45,7 +45,7 @@ mapObj.save("output.html")
 ```
 
 ### mapping values to colors using the gradient input
-Provide a dictionary as a ```gradient``` input to the heatmap function
+By providing a dictionary to the ```gradient``` input of the heatmap, the values to color mapping to the values can be configured
 ```python
 import folium
 
@@ -190,6 +190,6 @@ mapObj.save('output.html')
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYxMjY3OTksOTE1NjQ2NDIyLC0xOD
-k4NDg0NzI0LDk4ODY2NDAxXX0=
+eyJoaXN0b3J5IjpbLTQ5NDM5MjgyMCw5MTU2NDY0MjIsLTE4OT
+g0ODQ3MjQsOTg4NjY0MDFdfQ==
 -->
