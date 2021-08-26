@@ -12,7 +12,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post we will learn how to draw circles in **folium** maps. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
+In this post we will learn how to draw rectangles, polylines and polygons in **folium** maps. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics
 
 ### Draw a Rectangle with diagonal coordinates
 ```python
@@ -183,7 +183,7 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTc0MzM0OCwxODg4NjYwNjEwLDk5OT
-g3NDA2NiwtMTA1OTQxMTMwMywtMTk3NDI4OTM0MSwxMDgwMzE0
-MjkxLC0xMjIxMTMzNzYwXX0=
+eyJoaXN0b3J5IjpbMTc5MzA3MDA4MCwxMzc1NzQzMzQ4LDE4OD
+g2NjA2MTAsOTk5ODc0MDY2LC0xMDU5NDExMzAzLC0xOTc0Mjg5
+MzQxLDEwODAzMTQyOTEsLTEyMjExMzM3NjBdfQ==
 -->
