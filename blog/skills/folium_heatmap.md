@@ -16,18 +16,32 @@ In this post we will learn how to draw heatmap in **folium** maps using the heat
 
 ### Simple heatmap example
 ```python
-# import folium library
 import folium
+from folium.plugins import HeatMap
 
 # create a map object
-mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
-                    zoom_start=5)
+mapObj = folium.Map([24.2170111233401, 81.0791015625000], zoom_start=6)
 
-# create a rectangle object and add to map
-folium.Rectangle([(28.6471948,76.9531796), (19.0821978,72.7411)]).add_to(mapObj)
+# data for heatmap. 
+# each list item should be in the format [lat, long, value]
+data = [
+    [24.399, 80.142, 0.78],
+    [22.252, 80.885, 0.68],
+    [24.311, 80.543, 0.58],
+    [23.195, 82.994, 0.46],
+    [23.431, 80.427, 0.76],
+    [26.363, 81.791, 1.81],
+    [22.942, 83.257, 0.75],
+    [23.751, 79.995, 0.16],
+    [23.215, 81.004, 0.64],
+    [24.541, 79.889, 0.55]
+]
 
-# save the map object as a html
-mapObj.save('output.html')
+# create heatmap from the data and add to map
+HeatMap(data).add_to(mapObj)
+
+# save the map object as html
+mapObj.save("output.html")
 ```
 
 ### stroke and fill options for rectangle, polyline, polygon
@@ -185,6 +199,6 @@ mapObj.save('output.html')
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1NjQ2NDIyLC0xODk4NDg0NzI0LDk4OD
-Y2NDAxXX0=
+eyJoaXN0b3J5IjpbMzEzMzA0MDU4LDkxNTY0NjQyMiwtMTg5OD
+Q4NDcyNCw5ODg2NjQwMV19
 -->
