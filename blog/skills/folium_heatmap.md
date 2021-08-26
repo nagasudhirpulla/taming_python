@@ -1,4 +1,4 @@
-## Skill - Draw Rectangle, Polyline, Polygon in python folium
+## Skill - Draw heatmap in python folium map
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -187,5 +187,5 @@ mapObj.save('output.html')
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njk5NzM2MzhdfQ==
+eyJoaXN0b3J5IjpbMTc5ODQ5OTY0NV19
 -->
