@@ -44,17 +44,7 @@ HeatMap(data).add_to(mapObj)
 mapObj.save("output.html")
 ```
 
-### stroke and fill options for rectangle, polyline, polygon
-* all the styling options can be found at https://leafletjs.com/reference-1.6.0.html#path . Use snake_case instead of camelCase for specifying options in python
-* Some of the important styling options are
-	* stroke - set to True to enable line stroke, default is True 
-	* weight - line stroke width in pixels, default is 5
-	* color - line stroke color
-	* opacity - line stroke opacity
-	* fill - set to True to enable filling with color, default is False
-	* fill_color - fill Color
-	* fill_opacity - ranges between 0 to 1. 0 means transparent, 1 means opaque
-	* 
+
 ```python
 import folium
 
@@ -199,6 +189,6 @@ mapObj.save('output.html')
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzMzA0MDU4LDkxNTY0NjQyMiwtMTg5OD
-Q4NDcyNCw5ODg2NjQwMV19
+eyJoaXN0b3J5IjpbMTg2MjY3MTUxNyw5MTU2NDY0MjIsLTE4OT
+g0ODQ3MjQsOTg4NjY0MDFdfQ==
 -->
