@@ -172,10 +172,8 @@ mapObj.save('output.html')
 <hr/>
 
 ### References
-* styling options - https://leafletjs.com/reference-1.7.1.html#path
-* Rectangle docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.Rectangle
-* Polygon docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.Polygon
-* Polyline docs - https://python-visualization.github.io/folium/modules.html#folium.vector_layers.PolyLine
+* heatmap plugin documentation - http://python-visualization.github.io/folium/plugins.html#folium.plugins.HeatMap
+* default heatmap gradient colors dictionary - https://github.com/mourner/simpleheat/blob/c1998c36fa2f9a31350371fd42ee30eafcc78f9c/simpleheat.js#L22
 
 <hr/>
 
@@ -187,5 +185,5 @@ mapObj.save('output.html')
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4NjY0MDFdfQ==
+eyJoaXN0b3J5IjpbLTE4OTg0ODQ3MjQsOTg4NjY0MDFdfQ==
 -->
