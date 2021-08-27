@@ -40,7 +40,7 @@ mapObj.save('output.html')
 	* fill - set to True to enable filling with color, default is False
 	* fill_color - fill Color
 	* fill_opacity - ranges between 0 to 1. 0 means transparent, 1 means opaque
-	* 
+
 ```python
 import folium
 
@@ -183,5 +183,5 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzA3MDA4MF19
+eyJoaXN0b3J5IjpbLTg0NTY2NjQxOF19
 -->
