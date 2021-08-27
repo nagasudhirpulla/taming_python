@@ -50,7 +50,7 @@ mapObj.save("output.html")
 * While providing the values to heatmap, re-scale the input values so that they range between 0 and 1
 * 0 corresponds to least intensity, 1 corresponds to highest intensity
 
-### values to colors mapping using the gradient input
+### Values to colors mapping using the "gradient" input
 By providing a dictionary to the ```gradient``` input of the heatmap, the values to color mapping can be configured
 ```python
 import folium
@@ -97,7 +97,7 @@ mapObj.save("output.html")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTE1MTMxLDE5MTI3NzcxNDcsLTE3Mz
-YzMjc5NDMsLTc5MTM5MTYzNSw5MTU2NDY0MjIsLTE4OTg0ODQ3
-MjQsOTg4NjY0MDFdfQ==
+eyJoaXN0b3J5IjpbLTEyNTgwNTgyNjUsMTkxMjc3NzE0NywtMT
+czNjMyNzk0MywtNzkxMzkxNjM1LDkxNTY0NjQyMiwtMTg5ODQ4
+NDcyNCw5ODg2NjQwMV19
 -->
