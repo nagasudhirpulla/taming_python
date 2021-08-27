@@ -169,6 +169,10 @@ mapObj.save('output.html')
 
 ![folium_rectangle_polygon_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_rectangle_polygon_demo.png)
 
+### Video
+The video for this post can be found [here](https://youtu.be/NAkbAeuqQqA)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NAkbAeuqQqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### References
@@ -183,5 +187,5 @@ mapObj.save('output.html')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTY2NjQxOF19
+eyJoaXN0b3J5IjpbMTA4NTQ5NTQ1Ml19
 -->
