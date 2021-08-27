@@ -54,128 +54,35 @@ mapObj.save("output.html")
 By providing a dictionary to the ```gradient``` input of the heatmap, the values to color mapping can be configured
 ```python
 import folium
+from folium.plugins import HeatMap
 
 # create a map object
-mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
-                    zoom_start=5)
+mapObj = folium.Map([24.21, 81.08], zoom_start=6)
 
-# create a rectangle object and add to map
-folium.Rectangle([(28.6471948,76.9531796), (19.0821978,72.7411)],
-                    color="green",
-                    weight=2,
-                    fill=True,
-                    fill_color="pink",
-                    fill_opacity=0.5).add_to(mapObj)
+# data for heatmap.
+# each list item should be in the format [lat, long, value]
+data = [
+    [24.399, 80.142, 77],
+    [22.252, 80.885, 50],
+    [23.751, 79.995, 98],
+]
 
-# save the map object as a html
-mapObj.save('output.html')
-```
+# rescale each value between 0 and 1 using (val-minColorVal)/(maxColorVal-minColorVal)
+# here minColorVal = 50 and maxColorVal = 100
+mapData = [[x[0], x[1], (x[2]-50)/(100-50)] for x in data]
 
-### Draw a Polyline
-```python
-# import folium library
-import folium
+# custom color gradient
+colrGradient = {0.0: 'blue',
+                0.6: 'cyan',
+                0.7: 'lime',
+                0.8: 'yellow',
+                1.0: 'red'}
 
-# create a map object
-mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
-                    zoom_start=5)
+# create heatmap from the data and add to map
+HeatMap(mapData, gradient=colrGradient).add_to(mapObj)
 
-# create a polyline with the coordinates
-folium.PolyLine([(19.0821978, 72.7411), (28.6471948, 76.9531796), (24.2170111233401, 81.0791015625000)],
-                color="red",
-                weight=2).add_to(mapObj)
-
-# save the map object as a html
-mapObj.save('output.html')
-```
-
-### Draw a Polygon
-```python
-# import folium library
-import folium
-
-# create a map object
-mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
-                    zoom_start=5)
-
-# create a polygon with the coordinates
-folium.Polygon([(19.0821978, 72.7411), (28.6471948, 76.9531796), (24.2170111233401, 81.0791015625000), (20.7021709, 76.9905048), (12.9542946, 77.490855)],
-               color="blue",
-               weight=2,
-               fill=True,
-               fill_color="orange",
-               fill_opacity=0.4).add_to(mapObj)
-
-# save the map object as a html
-mapObj.save('output.html')
-```
-
-### Difference between a Polygon and a Polyline
-The only difference is that the polygon will be a closed shape even if the (lat, long) of last mentioned coordinate is not the same as the first one.
-
-### Keep shapes in a different layer
-```python
-# import folium library
-import folium
-
-# create a map object
-mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
-                    zoom_start=5)
-
-# create a layer on the map object
-shapesLayer = folium.FeatureGroup(name="Vector Shapes").add_to(mapObj)
-
-# create a rectangle object and add to map
-folium.Rectangle([(28.6471948,76.9531796), (19.0821978,72.7411)]).add_to(shapesLayer)
-
-# create a polyline with the coordinates
-folium.PolyLine([(17.4126274,78.2679611), (25.6081756,85.073003), (26.4473103,80.2683428)]).add_to(shapesLayer)
-
-# display the layer switcher widget
-folium.LayerControl().add_to(mapObj)
-
-# save the map object as a html
-mapObj.save('output.html')
-```
-
-### Complete Example
-```python
-# import folium library
-import folium
-
-# create a map object
-mapObj = folium.Map(location=[22.64443248121717, 79.80468750000001],
-                    zoom_start=6)
-
-# create a layer on the map object
-shapesLayer = folium.FeatureGroup(name="Vector Shapes").add_to(mapObj)
-
-# create a rectangle object and add to map
-folium.Rectangle(
-    [(28.0214793, 73.2845211), (22.7241158, 75.7938099)],
-    weight=2,
-    fill_color="orange",
-    fill_opacity=0.4).add_to(shapesLayer)
-
-# create a polyline with the coordinates
-folium.PolyLine([(28.5274851, 77.1389452), (27.1763098, 77.9099731), (23.199552, 77.3358515),
-                 (21.1612315, 79.0024702), (17.661548, 75.8835978)],
-                color="green",
-                weight=4).add_to(shapesLayer)
-
-# create a polygon with the coordinates
-folium.Polygon([(25.4024022, 81.7315446), (25.6081756, 85.073003), (20.4631843, 85.8327264),
-                (19.0860155, 82.0161332), (21.4692684, 80.1817197)],
-               weight=2,
-               color="red",
-               fill_color="yellow",
-               fill_opacity=0.3).add_to(shapesLayer)
-
-# display the layer switcher widget
-folium.LayerControl().add_to(mapObj)
-
-# save the map object as a html
-mapObj.save('output.html')
+# save the map object as html
+mapObj.save("output.html")
 ```
 
 ![folium_rectangle_polygon_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_rectangle_polygon_demo.png)
@@ -196,6 +103,7 @@ mapObj.save('output.html')
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzYzMjc5NDMsLTc5MTM5MTYzNSw5MT
-U2NDY0MjIsLTE4OTg0ODQ3MjQsOTg4NjY0MDFdfQ==
+eyJoaXN0b3J5IjpbMTkxMjc3NzE0NywtMTczNjMyNzk0MywtNz
+kxMzkxNjM1LDkxNTY0NjQyMiwtMTg5ODQ4NDcyNCw5ODg2NjQw
+MV19
 -->
