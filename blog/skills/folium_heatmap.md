@@ -85,7 +85,7 @@ HeatMap(mapData, gradient=colrGradient).add_to(mapObj)
 mapObj.save("output.html")
 ```
 
-![folium_rectangle_polygon_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_rectangle_polygon_demo.png)
+![folium_heatmap_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_heatmap_demo.png)
 
 <hr/>
 
@@ -103,7 +103,7 @@ mapObj.save("output.html")
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjc3NzE0NywtMTczNjMyNzk0MywtNz
-kxMzkxNjM1LDkxNTY0NjQyMiwtMTg5ODQ4NDcyNCw5ODg2NjQw
-MV19
+eyJoaXN0b3J5IjpbLTE3ODk3MjIyNDksMTkxMjc3NzE0NywtMT
+czNjMyNzk0MywtNzkxMzkxNjM1LDkxNTY0NjQyMiwtMTg5ODQ4
+NDcyNCw5ODg2NjQwMV19
 -->
