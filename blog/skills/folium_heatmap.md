@@ -1,4 +1,4 @@
-## Skill - Draw heatmap in python folium map
+## Skill - Draw heatmap on a python folium map
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -97,7 +97,7 @@ mapObj.save("output.html")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTgwNTgyNjUsMTkxMjc3NzE0NywtMT
-czNjMyNzk0MywtNzkxMzkxNjM1LDkxNTY0NjQyMiwtMTg5ODQ4
-NDcyNCw5ODg2NjQwMV19
+eyJoaXN0b3J5IjpbLTEyMTU0NDg1NDIsLTEyNTgwNTgyNjUsMT
+kxMjc3NzE0NywtMTczNjMyNzk0MywtNzkxMzkxNjM1LDkxNTY0
+NjQyMiwtMTg5ODQ4NDcyNCw5ODg2NjQwMV19
 -->
