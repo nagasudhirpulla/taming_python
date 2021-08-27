@@ -14,7 +14,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will learn how to draw heatmap in **folium** maps using the heatmap plugin in the folium library. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics.
 
-heatmap plugin documentation can be found [here](http://python-visualization.github.io/folium/plugins.html#folium.plugins.HeatMap)
+folium heatmap plugin documentation can be found [here](http://python-visualization.github.io/folium/plugins.html#folium.plugins.HeatMap)
 
 ### Simple heatmap example
 ```python
@@ -97,7 +97,7 @@ mapObj.save("output.html")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3NDE1MjUzLDE5MTI3NzcxNDcsLTE3Mz
+eyJoaXN0b3J5IjpbMTg5OTE1MTMxLDE5MTI3NzcxNDcsLTE3Mz
 YzMjc5NDMsLTc5MTM5MTYzNSw5MTU2NDY0MjIsLTE4OTg0ODQ3
 MjQsOTg4NjY0MDFdfQ==
 -->
