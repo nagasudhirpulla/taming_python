@@ -102,6 +102,7 @@ Here are the goals and skills in this tutorial series
 * [Draw text on python folium maps using DivIcon](https://nagasudhir.blogspot.com/2021/08/draw-text-on-python-folium-maps-using.html)
 * [Create a bubble map from excel data using python folium and pandas](https://nagasudhir.blogspot.com/2021/08/create-bubble-map-from-excel-data-using.html)
 * [Draw Rectangle, Polyline, Polygon in python folium](https://nagasudhir.blogspot.com/2021/08/draw-rectangle-polyline-polygon-in.html)
+* [Draw heatmap on a python folium map](https://nagasudhir.blogspot.com/2021/08/draw-heatmap-on-python-folium-map.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -109,11 +110,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTYxNjcyMTQ1NSw1Mzg4MT
-Q4ODUsODc2ODQ4MjU0LDUwNTcwNzczMCwzNzA2OTA3MjcsLTIx
-MTM4NzY0OTYsNzkxMjAwNTQ5LDE5ODc3MTYxNDQsLTE5NDkyOT
-AyMzEsLTE2Mjc3NDU4MDIsLTkzODUwMDY4OSwtMTg1NTMwNTg2
-MywtMTE0NjMwNDYxOSwxNjU2Njk0MDAxLDEyNTkyMzEzNTcsMj
-U1NjM3NTM1LDEzOTg4NzE0NTUsMTgwMjczNzY1NSwxNjU2MDMz
-MDEwLDEwMzIzMzMyMTFdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTI5NzQyMjg3MSwtNjE2Nz
+IxNDU1LDUzODgxNDg4NSw4NzY4NDgyNTQsNTA1NzA3NzMwLDM3
+MDY5MDcyNywtMjExMzg3NjQ5Niw3OTEyMDA1NDksMTk4NzcxNj
+E0NCwtMTk0OTI5MDIzMSwtMTYyNzc0NTgwMiwtOTM4NTAwNjg5
+LC0xODU1MzA1ODYzLC0xMTQ2MzA0NjE5LDE2NTY2OTQwMDEsMT
+I1OTIzMTM1NywyNTU2Mzc1MzUsMTM5ODg3MTQ1NSwxODAyNzM3
+NjU1LDE2NTYwMzMwMTBdfQ==
 -->
