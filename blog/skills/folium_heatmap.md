@@ -86,6 +86,10 @@ mapObj.save("output.html")
 ```
 
 ![folium_heatmap_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_heatmap_demo.png)
+### Video
+The video for this post can be seen [here](https://youtu.be/n6Ubiuo0UKA)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n6Ubiuo0UKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
 
@@ -97,7 +101,8 @@ mapObj.save("output.html")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU0NDg1NDIsLTEyNTgwNTgyNjUsMT
-kxMjc3NzE0NywtMTczNjMyNzk0MywtNzkxMzkxNjM1LDkxNTY0
-NjQyMiwtMTg5ODQ4NDcyNCw5ODg2NjQwMV19
+eyJoaXN0b3J5IjpbLTE2NTA5NzcyMTcsLTEyMTU0NDg1NDIsLT
+EyNTgwNTgyNjUsMTkxMjc3NzE0NywtMTczNjMyNzk0MywtNzkx
+MzkxNjM1LDkxNTY0NjQyMiwtMTg5ODQ4NDcyNCw5ODg2NjQwMV
+19
 -->
