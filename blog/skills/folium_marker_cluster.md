@@ -8,6 +8,7 @@
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Introduction to Folium for interactive maps in python](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html)
+* [Draw markers in python folium maps](https://nagasudhir.blogspot.com/2021/07/draw-markers-in-python-folium-maps.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
@@ -102,5 +103,5 @@ The video for this post can be seen [here](https://youtu.be/n6Ubiuo0UKA)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3NDEyMzk3XX0=
+eyJoaXN0b3J5IjpbMTAxMTk0NjY5M119
 -->
