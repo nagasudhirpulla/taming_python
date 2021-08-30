@@ -1,4 +1,4 @@
-## Skill - Draw heatmap on a python folium map
+## Skill - Marker Clusters on a python folium map
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -103,5 +103,5 @@ The video for this post can be seen [here](https://youtu.be/n6Ubiuo0UKA)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTk0NjY5M119
+eyJoaXN0b3J5IjpbLTY5MTYyNDM0XX0=
 -->
