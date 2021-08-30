@@ -21,66 +21,21 @@ folium Marker Cluster plugin documentation can be found [here](https://python-vi
 ```python
 import folium
 from folium.plugins import MarkerCluster
-
-# create a map object
-mapObj = folium.Map([24.2170111233401, 81.0791015625000], zoom_start=6)
-
-# data for heatmap. 
-# each list item should be in the format [lat, long, value]
-data = [
-    [24.399, 80.142, 0.78],
-    [22.252, 80.885, 0.68],
-    [24.311, 80.543, 0.58],
-    [23.195, 82.994, 0.46],
-    [23.431, 80.427, 0.76],
-    [26.363, 81.791, 1.81],
-    [22.942, 83.257, 0.75],
-    [23.751, 79.995, 0.16],
-    [23.215, 81.004, 0.64],
-    [24.541, 79.889, 0.55]
-]
-
-# create heatmap from the data and add to map
-HeatMap(data).add_to(mapObj)
-
-# save the map object as html
-mapObj.save("output.html")
-```
-
-### Values to be provided
-* While providing the values to heatmap, re-scale the input values so that they range between 0 and 1
-* 0 corresponds to least intensity, 1 corresponds to highest intensity
-
-### Values to colors mapping using the "gradient" input
-By providing a dictionary to the ```gradient``` input of the heatmap, the values to color mapping can be configured
-```python
-import folium
-from folium.plugins import HeatMap
+import random
 
 # create a map object
 mapObj = folium.Map([24.21, 81.08], zoom_start=6)
 
-# data for heatmap.
-# each list item should be in the format [lat, long, value]
-data = [
-    [24.399, 80.142, 77],
-    [22.252, 80.885, 50],
-    [23.751, 79.995, 98],
-]
+# creating random marker locations for Marker Cluster.
+# each list item should be in the format [lat, long]
+markerLocs = [[random.uniform(18, 29), random.uniform(73, 85)]
+              for x in range(100)]
 
-# rescale each value between 0 and 1 using (val-minColorVal)/(maxColorVal-minColorVal)
-# here minColorVal = 50 and maxColorVal = 100
-mapData = [[x[0], x[1], (x[2]-50)/(100-50)] for x in data]
+mCluster = MarkerCluster().add_to(mapObj)
 
-# custom color gradient
-colrGradient = {0.0: 'blue',
-                0.6: 'cyan',
-                0.7: 'lime',
-                0.8: 'yellow',
-                1.0: 'red'}
-
-# create heatmap from the data and add to map
-HeatMap(mapData, gradient=colrGradient).add_to(mapObj)
+for pnt in markerLocs:
+    folium.Marker(location=[pnt[0], pnt[1]],
+                  popup="pnt - {0}, {1}".format(pnt[0], pnt[1])).add_to(mCluster)
 
 # save the map object as html
 mapObj.save("output.html")
@@ -97,5 +52,6 @@ mapObj.save("output.html")
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNzAzMTIxNywtMTcxMjAzNjQ0NV19
+eyJoaXN0b3J5IjpbNDkyMDY4MzUzLDE5MDcwMzEyMTcsLTE3MT
+IwMzY0NDVdfQ==
 -->
