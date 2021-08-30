@@ -42,8 +42,8 @@ folium.LayerControl().add_to(mapObj)
 # save the map object as html
 mapObj.save("output.html")
 ```
-* By mentioning the name input to the MarkerCluster function, we can control the name of the Marker Cluster layer in Layer switcher
-* If we dont want to create a marker cluster as a separate layer, then mention 
+* By mentioning the ```name``` input to the ```MarkerCluster``` function, we can control the name of the Marker Cluster layer in Layer switcher
+* If we don't want to create a marker cluster as a separate layer, then mention ```overlay=False``` in ```MarkerCluster``` function
 
 
 ![marker_cluster_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/marker_cluster_demo.png)
@@ -57,6 +57,6 @@ mapObj.save("output.html")
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTk3MTIyMywxNjIwMDM1NDEzLDE5MD
-cwMzEyMTcsLTE3MTIwMzY0NDVdfQ==
+eyJoaXN0b3J5IjpbNDIyODExNTMzLDE2MjAwMzU0MTMsMTkwNz
+AzMTIxNywtMTcxMjAzNjQ0NV19
 -->
