@@ -31,11 +31,13 @@ mapObj = folium.Map([24.21, 81.08], zoom_start=6)
 markerLocs = [[random.uniform(18, 29), random.uniform(73, 85)]
               for x in range(100)]
 
-mCluster = MarkerCluster().add_to(mapObj)
+mCluster = MarkerCluster(name="Markers Demo").add_to(mapObj)
 
 for pnt in markerLocs:
     folium.Marker(location=[pnt[0], pnt[1]],
                   popup="pnt - {0}, {1}".format(pnt[0], pnt[1])).add_to(mCluster)
+
+folium.LayerControl().add_to(mapObj)
 
 # save the map object as html
 mapObj.save("output.html")
@@ -52,6 +54,6 @@ mapObj.save("output.html")
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDAzNTQxMywxOTA3MDMxMjE3LC0xNz
-EyMDM2NDQ1XX0=
+eyJoaXN0b3J5IjpbLTExNjAzMzM0MTUsMTYyMDAzNTQxMywxOT
+A3MDMxMjE3LC0xNzEyMDM2NDQ1XX0=
 -->
