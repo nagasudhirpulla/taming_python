@@ -41,7 +41,7 @@ for pnt in markerLocs:
 mapObj.save("output.html")
 ```
 
-![folium_heatmap_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/folium_heatmap_demo.png)
+![marker_cluster_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/marker_cluster_demo.png)
 <hr/>
 
 ### References
@@ -52,6 +52,6 @@ mapObj.save("output.html")
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyMDY4MzUzLDE5MDcwMzEyMTcsLTE3MT
-IwMzY0NDVdfQ==
+eyJoaXN0b3J5IjpbMTYyMDAzNTQxMywxOTA3MDMxMjE3LC0xNz
+EyMDM2NDQ1XX0=
 -->
