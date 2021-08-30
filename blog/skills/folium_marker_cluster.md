@@ -15,7 +15,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will learn how to draw heatmap in **folium** maps using the heatmap plugin in the folium library. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics.
 
-folium Marker Custer plugin documentation can be found [here](https://python-visualization.github.io/folium/plugins.html#folium.plugins.MarkerCluster)
+folium Marker Cluster plugin documentation can be found [here](https://python-visualization.github.io/folium/plugins.html#folium.plugins.MarkerCluster)
 
 ### Simple heatmap example
 ```python
@@ -103,5 +103,5 @@ The video for this post can be seen [here](https://youtu.be/n6Ubiuo0UKA)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzI0ODc4OTFdfQ==
+eyJoaXN0b3J5IjpbLTE3MTIwMzY0NDVdfQ==
 -->
