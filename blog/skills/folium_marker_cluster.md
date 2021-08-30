@@ -17,10 +17,10 @@ In this post we will learn how to draw heatmap in **folium** maps using the heat
 
 folium Marker Cluster plugin documentation can be found [here](https://python-visualization.github.io/folium/plugins.html#folium.plugins.MarkerCluster)
 
-### Simple heatmap example
+### Code
 ```python
 import folium
-from folium.plugins import HeatMap
+from folium.plugins import MarkerCluster
 
 # create a map object
 mapObj = folium.Map([24.2170111233401, 81.0791015625000], zoom_start=6)
@@ -103,5 +103,6 @@ The video for this post can be seen [here](https://youtu.be/n6Ubiuo0UKA)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTIwMzY0NDVdfQ==
+eyJoaXN0b3J5IjpbLTE0NzkwODY2OTIsLTE3MTIwMzY0NDVdfQ
+==
 -->
