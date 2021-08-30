@@ -95,14 +95,12 @@ The video for this post can be seen [here](https://youtu.be/n6Ubiuo0UKA)
 <hr/>
 
 ### References
-* heatmap plugin documentation - http://python-visualization.github.io/folium/plugins.html#folium.plugins.HeatMap
-* default heatmap gradient colors dictionary - https://github.com/mourner/simpleheat/blob/c1998c36fa2f9a31350371fd42ee30eafcc78f9c/simpleheat.js#L22
+* MarkerCluster plugin documentation - https://python-visualization.github.io/folium/plugins.html#folium.plugins.MarkerCluster
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzkwODY2OTIsLTE3MTIwMzY0NDVdfQ
-==
+eyJoaXN0b3J5IjpbMTgyNzQxMjA0MCwtMTcxMjAzNjQ0NV19
 -->
