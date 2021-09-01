@@ -48,8 +48,8 @@ mapObj.save("output.html")
 
 ![marker_cluster_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/marker_cluster_demo.png)
 ### Video
-The video for this post can be found [here](https://youtu.be/NAkbAeuqQqA)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NAkbAeuqQqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The video for this post can be found [here](https://youtu.be/n7HUBNmXB5Y)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n7HUBNmXB5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
 
@@ -61,6 +61,7 @@ The video for this post can be found [here](https://youtu.be/NAkbAeuqQqA)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTYyMTQ0MiwtNzg2OTU4ODMxLDE2Mj
-AwMzU0MTMsMTkwNzAzMTIxNywtMTcxMjAzNjQ0NV19
+eyJoaXN0b3J5IjpbLTE5NTQ4NDUwNTgsLTc3NTYyMTQ0MiwtNz
+g2OTU4ODMxLDE2MjAwMzU0MTMsMTkwNzAzMTIxNywtMTcxMjAz
+NjQ0NV19
 -->
