@@ -13,7 +13,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post we will learn how to draw heatmap in **folium** maps using the heatmap plugin in the folium library. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics.
+In this post we will learn how to create a marker cluster in **folium** maps using the MarkerCluster plugin in the folium library. See [this](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html) post to learn about folium libary basics.
 
 folium Marker Cluster plugin documentation can be found [here](https://python-visualization.github.io/folium/plugins.html#folium.plugins.MarkerCluster)
 
@@ -58,6 +58,6 @@ mapObj.save("output.html")
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4Njk1ODgzMSwxNjIwMDM1NDEzLDE5MD
-cwMzEyMTcsLTE3MTIwMzY0NDVdfQ==
+eyJoaXN0b3J5IjpbMTU1MjcwMjIzMCwtNzg2OTU4ODMxLDE2Mj
+AwMzU0MTMsMTkwNzAzMTIxNywtMTcxMjAzNjQ0NV19
 -->
