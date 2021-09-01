@@ -106,6 +106,7 @@ mapObj.save('output.html')
 ### Video
 The video for this post can be found [here](https://youtu.be/NAkbAeuqQqA)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NAkbAeuqQqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### References
@@ -119,7 +120,7 @@ The video for this post can be found [here](https://youtu.be/NAkbAeuqQqA)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzE0MDQwNiwtMTE3MjIxMzk3NCwyNz
-UyNzEwNDAsLTEwODUwMjMyNjMsLTkxNDMyMTE2NSwtMTI5ODA4
-OTAwMiwtMTI4MDM5MTIxOV19
+eyJoaXN0b3J5IjpbLTMzNDU1MzE4OCwtNzEzMTQwNDA2LC0xMT
+cyMjEzOTc0LDI3NTI3MTA0MCwtMTA4NTAyMzI2MywtOTE0MzIx
+MTY1LC0xMjk4MDg5MDAyLC0xMjgwMzkxMjE5XX0=
 -->
