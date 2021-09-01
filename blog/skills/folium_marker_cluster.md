@@ -44,7 +44,6 @@ mapObj.save("output.html")
 ```
 ### Points to remember
 * By mentioning the ```name``` input to the ```MarkerCluster``` function, we can control the name of the Marker Cluster layer in Layer switcher
-* If we don't want to create a marker cluster as a separate layer, then mention ```overlay=False``` in ```MarkerCluster``` function
 
 
 ![marker_cluster_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/marker_cluster_demo.png)
@@ -62,6 +61,6 @@ The video for this post can be found [here](https://youtu.be/NAkbAeuqQqA)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzY2MzQxMDQsLTc4Njk1ODgzMSwxNj
-IwMDM1NDEzLDE5MDcwMzEyMTcsLTE3MTIwMzY0NDVdfQ==
+eyJoaXN0b3J5IjpbLTc3NTYyMTQ0MiwtNzg2OTU4ODMxLDE2Mj
+AwMzU0MTMsMTkwNzAzMTIxNywtMTcxMjAzNjQ0NV19
 -->
