@@ -66,7 +66,7 @@ for targetGen in gens:
 pdf.close()
 # %%
 ```
-* docxtpl tutorial for p
+* docxtpl tutorial for plots, templ
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
 * global variables and using them inside functions- https://instructobit.com/tutorial/108/How-to-share-global-variables-between-files-in-Python
@@ -78,7 +78,7 @@ pdf.close()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDY2ODA3LC0xMTkzOTg5ODcwLDk5MD
+eyJoaXN0b3J5IjpbNjQ4MDg5NTI5LC0xMTkzOTg5ODcwLDk5MD
 UxMzExMSwtODgxMTM4MzgxLC05ODk0NzcyNjEsLTIwNTY0MDU1
 NTAsLTk3ODY3MzQxLC0zMjM5ODgxNDksLTE5MjM3NjM5NDcsMz
 k0NTM3ODY5LC0xMzkxNDk1NjA1LC0yMjE4ODk5NzUsNjYxNjc0
