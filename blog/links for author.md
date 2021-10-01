@@ -66,6 +66,7 @@ for targetGen in gens:
 pdf.close()
 # %%
 ```
+bbox_to_legend guide - 
 * docxtpl tutorial for templates, plots, images etc
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
@@ -78,11 +79,11 @@ pdf.close()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc1NTY0NjgsLTExOTM5ODk4NzAsOT
-kwNTEzMTExLC04ODExMzgzODEsLTk4OTQ3NzI2MSwtMjA1NjQw
-NTU1MCwtOTc4NjczNDEsLTMyMzk4ODE0OSwtMTkyMzc2Mzk0Ny
-wzOTQ1Mzc4NjksLTEzOTE0OTU2MDUsLTIyMTg4OTk3NSw2NjE2
-NzQwMTQsOTI2Nzk1MzA0LC0zOTg1NDI2MDAsMTE3MjIzNjI4My
-wxODUyMDA2MDI1LDIxMjE1NzcxNCwtNzc0ODYwMTQzLC01MjA0
-NzE5MzhdfQ==
+eyJoaXN0b3J5IjpbNjY3NTgzNDI4LC0xNjA3NTU2NDY4LC0xMT
+kzOTg5ODcwLDk5MDUxMzExMSwtODgxMTM4MzgxLC05ODk0Nzcy
+NjEsLTIwNTY0MDU1NTAsLTk3ODY3MzQxLC0zMjM5ODgxNDksLT
+E5MjM3NjM5NDcsMzk0NTM3ODY5LC0xMzkxNDk1NjA1LC0yMjE4
+ODk5NzUsNjYxNjc0MDE0LDkyNjc5NTMwNCwtMzk4NTQyNjAwLD
+ExNzIyMzYyODMsMTg1MjAwNjAyNSwyMTIxNTc3MTQsLTc3NDg2
+MDE0M119
 -->
