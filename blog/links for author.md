@@ -6,6 +6,7 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 ### TODOS
 * matplotlib save all plots in a pdf
 * matplotlib legend at the bottom of plot
+* 
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
 * global variables and using them inside functions- https://instructobit.com/tutorial/108/How-to-share-global-variables-between-files-in-Python
@@ -17,11 +18,11 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTM5ODk4NzAsOTkwNTEzMTExLC04OD
-ExMzgzODEsLTk4OTQ3NzI2MSwtMjA1NjQwNTU1MCwtOTc4Njcz
-NDEsLTMyMzk4ODE0OSwtMTkyMzc2Mzk0NywzOTQ1Mzc4NjksLT
-EzOTE0OTU2MDUsLTIyMTg4OTk3NSw2NjE2NzQwMTQsOTI2Nzk1
-MzA0LC0zOTg1NDI2MDAsMTE3MjIzNjI4MywxODUyMDA2MDI1LD
-IxMjE1NzcxNCwtNzc0ODYwMTQzLC01MjA0NzE5MzgsNzM5MDcz
-Nzc5XX0=
+eyJoaXN0b3J5IjpbMTE3Mjc2MzA5OCwtMTE5Mzk4OTg3MCw5OT
+A1MTMxMTEsLTg4MTEzODM4MSwtOTg5NDc3MjYxLC0yMDU2NDA1
+NTUwLC05Nzg2NzM0MSwtMzIzOTg4MTQ5LC0xOTIzNzYzOTQ3LD
+M5NDUzNzg2OSwtMTM5MTQ5NTYwNSwtMjIxODg5OTc1LDY2MTY3
+NDAxNCw5MjY3OTUzMDQsLTM5ODU0MjYwMCwxMTcyMjM2MjgzLD
+E4NTIwMDYwMjUsMjEyMTU3NzE0LC03NzQ4NjAxNDMsLTUyMDQ3
+MTkzOF19
 -->
