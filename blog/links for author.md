@@ -66,7 +66,7 @@ for targetGen in gens:
 pdf.close()
 # %%
 ```
-bbox_to_legend guide - 
+bbox_to_legend guide - https://jdhao.github.io/2018/01/23/matplotlib-legend-outside-of-axes/
 * docxtpl tutorial for templates, plots, images etc
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
@@ -79,11 +79,11 @@ bbox_to_legend guide -
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY3NTgzNDI4LC0xNjA3NTU2NDY4LC0xMT
-kzOTg5ODcwLDk5MDUxMzExMSwtODgxMTM4MzgxLC05ODk0Nzcy
-NjEsLTIwNTY0MDU1NTAsLTk3ODY3MzQxLC0zMjM5ODgxNDksLT
-E5MjM3NjM5NDcsMzk0NTM3ODY5LC0xMzkxNDk1NjA1LC0yMjE4
-ODk5NzUsNjYxNjc0MDE0LDkyNjc5NTMwNCwtMzk4NTQyNjAwLD
-ExNzIyMzYyODMsMTg1MjAwNjAyNSwyMTIxNTc3MTQsLTc3NDg2
-MDE0M119
+eyJoaXN0b3J5IjpbLTM2NDU4ODEzNiwtMTYwNzU1NjQ2OCwtMT
+E5Mzk4OTg3MCw5OTA1MTMxMTEsLTg4MTEzODM4MSwtOTg5NDc3
+MjYxLC0yMDU2NDA1NTUwLC05Nzg2NzM0MSwtMzIzOTg4MTQ5LC
+0xOTIzNzYzOTQ3LDM5NDUzNzg2OSwtMTM5MTQ5NTYwNSwtMjIx
+ODg5OTc1LDY2MTY3NDAxNCw5MjY3OTUzMDQsLTM5ODU0MjYwMC
+wxMTcyMjM2MjgzLDE4NTIwMDYwMjUsMjEyMTU3NzE0LC03NzQ4
+NjAxNDNdfQ==
 -->
