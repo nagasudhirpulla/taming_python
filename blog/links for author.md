@@ -66,6 +66,7 @@ for targetGen in gens:
 pdf.close()
 # %%
 ```
+* docxtpl tutorial for p
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
 * global variables and using them inside functions- https://instructobit.com/tutorial/108/How-to-share-global-variables-between-files-in-Python
@@ -77,11 +78,11 @@ pdf.close()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTg1NDYyMDAsLTExOTM5ODk4NzAsOT
-kwNTEzMTExLC04ODExMzgzODEsLTk4OTQ3NzI2MSwtMjA1NjQw
-NTU1MCwtOTc4NjczNDEsLTMyMzk4ODE0OSwtMTkyMzc2Mzk0Ny
-wzOTQ1Mzc4NjksLTEzOTE0OTU2MDUsLTIyMTg4OTk3NSw2NjE2
-NzQwMTQsOTI2Nzk1MzA0LC0zOTg1NDI2MDAsMTE3MjIzNjI4My
-wxODUyMDA2MDI1LDIxMjE1NzcxNCwtNzc0ODYwMTQzLC01MjA0
-NzE5MzhdfQ==
+eyJoaXN0b3J5IjpbMTQzNDY2ODA3LC0xMTkzOTg5ODcwLDk5MD
+UxMzExMSwtODgxMTM4MzgxLC05ODk0NzcyNjEsLTIwNTY0MDU1
+NTAsLTk3ODY3MzQxLC0zMjM5ODgxNDksLTE5MjM3NjM5NDcsMz
+k0NTM3ODY5LC0xMzkxNDk1NjA1LC0yMjE4ODk5NzUsNjYxNjc0
+MDE0LDkyNjc5NTMwNCwtMzk4NTQyNjAwLDExNzIyMzYyODMsMT
+g1MjAwNjAyNSwyMTIxNTc3MTQsLTc3NDg2MDE0MywtNTIwNDcx
+OTM4XX0=
 -->
