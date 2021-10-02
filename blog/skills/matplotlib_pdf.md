@@ -49,13 +49,8 @@ pdfFile.close()
 
 <hr/>
 
-### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/
-
-<hr/>
-
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0Mzk2MjFdfQ==
+eyJoaXN0b3J5IjpbLTEwNTkwMzIzNTBdfQ==
 -->
