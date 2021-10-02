@@ -5,6 +5,31 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 ### TODOS
 * matplotlib save all plots in a pdf
+```python
+from matplotlib.backends.backend_pdf import PdfPages
+import matplotlib.pyplot as plt
+import random
+
+pdfFile = PdfPages("output.pdf")
+
+for pltItr in range(10):
+    # data for plot
+    xVals = [x for x in range(1, 11)]
+    yVals = [random.randint(50, 100) for x in xVals]
+
+    # create a plot
+    fig, ax = plt.subplots()
+    la, = ax.plot(xVals, yVals)
+    ax.set_title("Plot number {0}".format(pltItr+1))
+    ax.set_xlabel("X Values")
+    ax.set_ylabel("Y Values")
+
+    # add figure to pdf file
+    pdfFile.savefig(fig, bbox_inches='tight')
+
+# close the pdf file
+pdfFile.close()
+```
 * matplotlib legend at the bottom of plot
 ```python
 # %%
@@ -79,11 +104,11 @@ bbox_to_legend guide - https://jdhao.github.io/2018/01/23/matplotlib-legend-outs
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDU4ODEzNiwtMTYwNzU1NjQ2OCwtMT
-E5Mzk4OTg3MCw5OTA1MTMxMTEsLTg4MTEzODM4MSwtOTg5NDc3
-MjYxLC0yMDU2NDA1NTUwLC05Nzg2NzM0MSwtMzIzOTg4MTQ5LC
-0xOTIzNzYzOTQ3LDM5NDUzNzg2OSwtMTM5MTQ5NTYwNSwtMjIx
-ODg5OTc1LDY2MTY3NDAxNCw5MjY3OTUzMDQsLTM5ODU0MjYwMC
-wxMTcyMjM2MjgzLDE4NTIwMDYwMjUsMjEyMTU3NzE0LC03NzQ4
-NjAxNDNdfQ==
+eyJoaXN0b3J5IjpbLTExNDQ5MTE0MzcsLTM2NDU4ODEzNiwtMT
+YwNzU1NjQ2OCwtMTE5Mzk4OTg3MCw5OTA1MTMxMTEsLTg4MTEz
+ODM4MSwtOTg5NDc3MjYxLC0yMDU2NDA1NTUwLC05Nzg2NzM0MS
+wtMzIzOTg4MTQ5LC0xOTIzNzYzOTQ3LDM5NDUzNzg2OSwtMTM5
+MTQ5NTYwNSwtMjIxODg5OTc1LDY2MTY3NDAxNCw5MjY3OTUzMD
+QsLTM5ODU0MjYwMCwxMTcyMjM2MjgzLDE4NTIwMDYwMjUsMjEy
+MTU3NzE0XX0=
 -->
