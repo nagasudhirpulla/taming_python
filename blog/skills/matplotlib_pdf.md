@@ -34,7 +34,7 @@ for pltItr in range(10):
     yVals = [random.randint(50, 100) for x in xVals]
 
     # create a plot
-    fig, ax = plt.subplots(figsize=(11.69,8.27))
+    fig, ax = plt.subplots(figsize=(11,6))
     la, = ax.plot(xVals, yVals)
     ax.set_title("Plot number {0}".format(pltItr+1))
     ax.set_xlabel("X Values")
@@ -52,5 +52,5 @@ pdfFile.close()
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI1MjgwOSw0Njc4NDQ4MjBdfQ==
+eyJoaXN0b3J5IjpbLTEzMzYyMjc1ODEsNDY3ODQ0ODIwXX0=
 -->
