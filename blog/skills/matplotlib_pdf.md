@@ -18,27 +18,33 @@ Please make sure that you covered the[post on basics](https://nagasudhir.blogspo
 <hr/>
 
 In some cases we might want to create a single document that contains all the plots so that it can be easy shared with our friends.
-Using ```PdfPages``` object of the ```matplotlib.backends.backend_pdf```
+Using ```PdfPages``` object of the ```matplotlib.backends.backend_pdf``` sub-module, mulitple figures can be inserted into a single pdf file
 
-### Duration Plot values derivation function
+### Example
 ```python
-import numpy as np
-import pandas as pd
+from matplotlib.backends.backend_pdf import PdfPages
+import matplotlib.pyplot as plt
+import random
 
-def deriveDurationVals(vals, valBinResol):
-    samplVals = []
-    percExceeded = []
-    vals = pd.Series(vals)
-    numVals = len(vals)
-    min_value = vals.min()
-    max_value = vals.max()
+pdfFile = PdfPages("output.pdf")
 
-    for val in np.arange(min_value, max_value, valBinResol):
-        samplVals.append(val)
-        binExceededPerc = len(vals[vals > val])*100/numVals
-        percExceeded.append(binExceededPerc)
+for pltItr in range(10):
+    # data for plot
+    xVals = [x for x in range(1, 11)]
+    yVals = [random.randint(50, 100) for x in xVals]
 
-    return {'sampl_vals': samplVals, 'perc_exceeded': percExceeded}
+    # create a plot
+    fig, ax = plt.subplots()
+    la, = ax.plot(xVals, yVals)
+    ax.set_title("Plot number {0}".format(pltItr+1))
+    ax.set_xlabel("X Values")
+    ax.set_ylabel("Y Values")
+
+    # add figure to pdf file
+    pdfFile.savefig(fig, bbox_inches='tight')
+
+# close the pdf file
+pdfFile.close()
 ```
 
 
@@ -58,5 +64,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODM2MDg5MF19
+eyJoaXN0b3J5IjpbLTEzNzM0NjQyN119
 -->
