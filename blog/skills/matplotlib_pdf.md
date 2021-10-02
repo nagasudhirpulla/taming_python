@@ -50,10 +50,11 @@ pdfFile.close()
 ```
 
 <hr/>
+### References
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI3ODYyODcsLTMwNTQyOTI3OCwtMT
-MzNjIyNzU4MSw0Njc4NDQ4MjBdfQ==
+eyJoaXN0b3J5IjpbMzMxNDczMzUyLC0xMzAyNzg2Mjg3LC0zMD
+U0MjkyNzgsLTEzMzYyMjc1ODEsNDY3ODQ0ODIwXX0=
 -->
