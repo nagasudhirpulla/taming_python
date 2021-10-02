@@ -18,7 +18,7 @@ Please make sure that you covered the[post on basics](https://nagasudhir.blogspo
 <hr/>
 
 In some cases we might want to create a single document that contains all the plots so that it can be easy shared with our friends.
-
+Using ```PdfPages``` object of the ```matplotlib.backends.backend_pdf```
 
 ### Duration Plot values derivation function
 ```python
@@ -58,5 +58,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDI1NDkzM119
+eyJoaXN0b3J5IjpbMTQ3ODM2MDg5MF19
 -->
