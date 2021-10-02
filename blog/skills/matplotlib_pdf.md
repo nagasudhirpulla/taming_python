@@ -47,8 +47,6 @@ for pltItr in range(10):
 pdfFile.close()
 ```
 
-
-
 ### Video
 You can the video on this post [here](https://youtu.be/IYid4grFhA0)
 
@@ -64,5 +62,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzM0NjQyN119
+eyJoaXN0b3J5IjpbOTUwNjQxODMzXX0=
 -->
