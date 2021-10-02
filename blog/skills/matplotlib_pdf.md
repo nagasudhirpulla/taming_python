@@ -16,7 +16,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 Please make sure that you covered the[post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
-Duration Curve helps us visualize the sample frequency distribution in a single plot.
+
+In some cases we might want to create a single document that contains all the plots so that it can be easy shared with our friends.
+
 
 ### Duration Plot values derivation function
 ```python
@@ -39,23 +41,7 @@ def deriveDurationVals(vals, valBinResol):
     return {'sampl_vals': samplVals, 'perc_exceeded': percExceeded}
 ```
 
-### Example of duration curve
-In the sample  folder containing the example script, create a file named ```duration_plot.py``` and write the function shown above and use the function in the example as shown below
-```python
-import matplotlib.pyplot as plt
-from duration_plot import deriveDurationVals
-# data samples
-sampls = [50.061,50.055,50.043,50.050,...]
 
-# derive duration plot values using the function 
-durPltData = deriveDurationVals(sampls, 0.01)
-
-# plot the duration curve
-fig, ax = plt.subplots()
-ax.plot(durPltData["perc_exceeded"], durPltData["sampl_vals"])
-plt.show()
-```
-![matplotlib_duration_plot_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_duration_plot.png)
 
 ### Video
 You can the video on this post [here](https://youtu.be/IYid4grFhA0)
@@ -72,5 +58,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4MTE3NzQxXX0=
+eyJoaXN0b3J5IjpbLTYxMDI1NDkzM119
 -->
