@@ -40,9 +40,10 @@ for pltItr in range(10):
     ax.set_title("Plot number {0}".format(pltItr+1))
     ax.set_xlabel("X Values")
     ax.set_ylabel("Y Values")
+    fig.tight_layout(pad=4)
 
     # add figure to pdf file
-    pdfFile.savefig(fig, bbox_inches='tight')
+    pdfFile.savefig(fig)
 
 # close the pdf file
 pdfFile.close()
@@ -53,6 +54,6 @@ pdfFile.close()
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTQyOTI3OCwtMTMzNjIyNzU4MSw0Nj
-c4NDQ4MjBdfQ==
+eyJoaXN0b3J5IjpbLTEzMDI3ODYyODcsLTMwNTQyOTI3OCwtMT
+MzNjIyNzU4MSw0Njc4NDQ4MjBdfQ==
 -->
