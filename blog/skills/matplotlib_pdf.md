@@ -52,12 +52,12 @@ pdfFile.close()
 <hr/>
 
 ## References
-* Matplotlib Tight Layout guide - https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.tight_layout.html#matplotlib.pyplot.tight_layout
+* Matplotlib tight layout guide - https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.tight_layout.html#matplotlib.pyplot.tight_layout
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyNzY2MCwtMTM4NTQyMDMyMywtMTMwMj
-c4NjI4NywtMzA1NDI5Mjc4LC0xMzM2MjI3NTgxLDQ2Nzg0NDgy
-MF19
+eyJoaXN0b3J5IjpbNzAwNjc5NDgsLTEzODU0MjAzMjMsLTEzMD
+I3ODYyODcsLTMwNTQyOTI3OCwtMTMzNjIyNzU4MSw0Njc4NDQ4
+MjBdfQ==
 -->
