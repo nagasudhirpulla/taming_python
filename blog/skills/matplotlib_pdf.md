@@ -1,4 +1,4 @@
-## Skill - Export multiple matplotlib plots into a pdf file
+## Skill - Save matplotlib plots into a pdf file
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
@@ -57,7 +57,7 @@ pdfFile.close()
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwNjc5NDgsLTEzODU0MjAzMjMsLTEzMD
-I3ODYyODcsLTMwNTQyOTI3OCwtMTMzNjIyNzU4MSw0Njc4NDQ4
-MjBdfQ==
+eyJoaXN0b3J5IjpbLTU5MTM1MTc1NSwtMTM4NTQyMDMyMywtMT
+MwMjc4NjI4NywtMzA1NDI5Mjc4LC0xMzM2MjI3NTgxLDQ2Nzg0
+NDgyMF19
 -->
