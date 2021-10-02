@@ -47,11 +47,6 @@ for pltItr in range(10):
 pdfFile.close()
 ```
 
-### Video
-You can the video on this post [here](https://youtu.be/IYid4grFhA0)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IYid4grFhA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <hr/>
 
 ### Online Interpreter
@@ -62,5 +57,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwNjQxODMzXX0=
+eyJoaXN0b3J5IjpbNjc0Mzk2MjFdfQ==
 -->
