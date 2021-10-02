@@ -29,7 +29,7 @@ import random
 pdfFile = PdfPages("output.pdf")
 
 for pltItr in range(10):
-    # data for plot
+    # create data for plot
     xVals = [x for x in range(1, 11)]
     yVals = [random.randint(50, 100) for x in xVals]
 
@@ -52,5 +52,5 @@ pdfFile.close()
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTkwMzIzNTBdfQ==
+eyJoaXN0b3J5IjpbNDY3ODQ0ODIwXX0=
 -->
