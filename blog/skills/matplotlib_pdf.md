@@ -26,6 +26,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.pyplot as plt
 import random
 
+# create a pdf file object
 pdfFile = PdfPages("output.pdf")
 
 for pltItr in range(10):
@@ -52,5 +53,6 @@ pdfFile.close()
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzYyMjc1ODEsNDY3ODQ0ODIwXX0=
+eyJoaXN0b3J5IjpbLTMwNTQyOTI3OCwtMTMzNjIyNzU4MSw0Nj
+c4NDQ4MjBdfQ==
 -->
