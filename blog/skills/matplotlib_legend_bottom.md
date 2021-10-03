@@ -16,7 +16,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 Please make sure that you covered the [post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-Sometimes we may require to have the main axis lines to be intersecting at (0,0) of the subplot. We will control the positioning of `spines` to achieve this.
+Sometimes we might want to place the legend at the bottom of a matplotlib plot
 
 ```python
 import matplotlib.pyplot as plt
@@ -76,5 +76,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1Mzc5NzI2LC0xNDg2ODMxNThdfQ==
+eyJoaXN0b3J5IjpbLTIwNjAxNDAxMjIsLTE0ODY4MzE1OF19
 -->
