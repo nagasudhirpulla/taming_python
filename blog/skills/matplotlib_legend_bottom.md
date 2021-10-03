@@ -1,4 +1,4 @@
-## Skill - Centering the plot axes in matplotlib
+## Skill - Place the legend at the bottom of a matplotlib plot
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
@@ -77,5 +77,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODY4MzE1OF19
+eyJoaXN0b3J5IjpbLTExNjg4OTUzNzQsLTE0ODY4MzE1OF19
 -->
