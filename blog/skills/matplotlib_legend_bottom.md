@@ -20,25 +20,36 @@ Sometimes we might want to place the legend at the bottom of a matplotlib plot. 
 
 ```python
 import matplotlib.pyplot as plt
-x = [-5, -4, 5, 8]
-y = [-6, 5, 8,-10]
+import random
 
-# create a plotting area and get the figure, axes handle in return
-fig, ax = plt.subplots()
+# create figure and axes
+fig, ax = plt.subplots(figsize=(11, 6))
 
-# plot data on the axes handle
-ax.plot(x, y)
+# set plot title ans axis labels
+ax.set_title("Bottom Legend Example")
+ax.set_xlabel("X axis values")
+ax.set_ylabel("Random numbers")
 
-# Move left y-axis and bottim x-axis to centre by setting position as 'center'
-ax.spines['left'].set_position('zero')
-ax.spines['bottom'].set_position('zero')
+# x axis values
+xVals = [x for x in range(20)]
 
-# Eliminate top and right axes by setting spline color as 'none'
-ax.spines['right'].set_color('none')
-ax.spines['top'].set_color('none')
+for pltItr in range(5):
+    # create random y axis values
+    yVals = [random.randint(50, 100) for x in xVals]
+    # create a line plot with x and y values
+    la, = ax.plot(xVals, yVals)
+    # set plot label for legend
+    la.set_label("Trace {0}".format(pltItr+1))
 
-# print the plot
-plt.show()
+# enable legend with bottom positioning
+ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.1),
+          shadow=True, ncol=5)
+
+# adjust layout elements along with adding outer padding as 1 inch
+fig.tight_layout(pad=1)
+
+# save the figure as a png file
+fig.savefig("output.png")
 ```
 
 ![matplotlib_center_axes_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_legend_bottom_demo.png)
@@ -76,6 +87,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDEzOTQwMSwtMzUwMjg2NzU4LC0yND
+eyJoaXN0b3J5IjpbLTI0ODMzMDcwNiwtMzUwMjg2NzU4LC0yND
 UxNzQ2NTMsMTA2NTU3ODY3MywtMTQ4NjgzMTU4XX0=
 -->
