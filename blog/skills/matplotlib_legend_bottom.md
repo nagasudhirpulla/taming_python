@@ -54,30 +54,8 @@ fig.savefig("output.png")
 
 ![matplotlib_center_axes_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_legend_bottom_demo.png)
 
-As shown above the spines/axis lines of an axes handle `ax` can be controlled by `ax.spines`
-
-If we want the axis lines to be intersecting at center of the subplot instead of (0,0). 
-
-In such case we can use the following 
-```python
-ax.spines['left'].set_position('center')
-ax.spines['bottom'].set_position('center')
-```
-The output would be like the image below
-![matplotlib_center_axes_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_center_axes_demo.PNG)
-
-### Video
-You can the video on this post [here](https://youtu.be/qzFOFP1hxvg)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qzFOFP1hxvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<hr/>
-
-### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/
-
 ### References
-* Solution from stackoverflow post - https://stackoverflow.com/questions/31556446/how-to-draw-axis-in-the-middle-of-the-figure
-* Spine placement demo - https://matplotlib.org/3.1.0/gallery/ticks_and_spines/spine_placement_demo.html
+* legend bbox guide - 
 
 <hr/>
 
@@ -87,6 +65,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODMzMDcwNiwtMzUwMjg2NzU4LC0yND
+eyJoaXN0b3J5IjpbLTc2Mzk3Mjk5NiwtMzUwMjg2NzU4LC0yND
 UxNzQ2NTMsMTA2NTU3ODY3MywtMTQ4NjgzMTU4XX0=
 -->
