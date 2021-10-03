@@ -91,7 +91,7 @@ Here are the goals and skills in this tutorial series
 * [Set axes ticks and tick labels in matplotlib](https://nagasudhir.blogspot.com/2020/05/set-axes-tick-labels-in-matplotlib.html)
 * [Control axis ticks locations using tick locators in matplotlib](https://nagasudhir.blogspot.com/2020/05/control-axis-ticks-locations-using-tick.html)
 * [Format axis ticks using TickFormatters in matplotlib](https://nagasudhir.blogspot.com/2020/05/format-axis-ticks-using-tickformatters.html)
-* [# Positioning the legend at the bottom of a Matplotlib plot in python]()
+* [Positioning the legend at the bottom of a Matplotlib plot in python](https://nagasudhir.blogspot.com/2021/05/matplotlib-legend-at-bottom-of-plot.html)
 * [Duration Curve using Matplotlib](http://nagasudhir.blogspot.com/2021/05/duration-curve-using-matplotlib.html)
 
 #### Interactive Maps with folium
@@ -112,11 +112,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEyNjk4NTIxMjIsODk2ND
-c3MzY2LC0yOTc0MjI4NzEsLTYxNjcyMTQ1NSw1Mzg4MTQ4ODUs
-ODc2ODQ4MjU0LDUwNTcwNzczMCwzNzA2OTA3MjcsLTIxMTM4Nz
-Y0OTYsNzkxMjAwNTQ5LDE5ODc3MTYxNDQsLTE5NDkyOTAyMzEs
-LTE2Mjc3NDU4MDIsLTkzODUwMDY4OSwtMTg1NTMwNTg2MywtMT
-E0NjMwNDYxOSwxNjU2Njk0MDAxLDEyNTkyMzEzNTcsMjU1NjM3
-NTM1LDEzOTg4NzE0NTVdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbODgxMDUyNTI5LDg5NjQ3Nz
+M2NiwtMjk3NDIyODcxLC02MTY3MjE0NTUsNTM4ODE0ODg1LDg3
+Njg0ODI1NCw1MDU3MDc3MzAsMzcwNjkwNzI3LC0yMTEzODc2ND
+k2LDc5MTIwMDU0OSwxOTg3NzE2MTQ0LC0xOTQ5MjkwMjMxLC0x
+NjI3NzQ1ODAyLC05Mzg1MDA2ODksLTE4NTUzMDU4NjMsLTExND
+YzMDQ2MTksMTY1NjY5NDAwMSwxMjU5MjMxMzU3LDI1NTYzNzUz
+NSwxMzk4ODcxNDU1XX0=
 -->
