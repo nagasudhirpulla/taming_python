@@ -49,6 +49,11 @@ for pltItr in range(10):
 pdfFile.close()
 ```
 
+### Video
+You can the video on this post [here](https://youtu.be/NVU669QpL-g)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NVU669QpL-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ## References
@@ -57,7 +62,7 @@ pdfFile.close()
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTM1MTc1NSwtMTM4NTQyMDMyMywtMT
-MwMjc4NjI4NywtMzA1NDI5Mjc4LC0xMzM2MjI3NTgxLDQ2Nzg0
-NDgyMF19
+eyJoaXN0b3J5IjpbMTgzMTc0MTAwOSwtNTkxMzUxNzU1LC0xMz
+g1NDIwMzIzLC0xMzAyNzg2Mjg3LC0zMDU0MjkyNzgsLTEzMzYy
+Mjc1ODEsNDY3ODQ0ODIwXX0=
 -->
