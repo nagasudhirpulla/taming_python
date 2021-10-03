@@ -40,7 +40,6 @@ fig.tight_layout(pad=1)
 fig.savefig("output.png")
 # %%
 ```
-bbox_to_legend guide - https://jdhao.github.io/2018/01/23/matplotlib-legend-outside-of-axes/
 * docxtpl tutorial for templates, plots, images etc
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
@@ -53,11 +52,11 @@ bbox_to_legend guide - https://jdhao.github.io/2018/01/23/matplotlib-legend-outs
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTM5NDA2MCwxMjU4Mjg2MjM3LC04OT
-AyMzkxMDAsLTExNDQ5MTE0MzcsLTM2NDU4ODEzNiwtMTYwNzU1
-NjQ2OCwtMTE5Mzk4OTg3MCw5OTA1MTMxMTEsLTg4MTEzODM4MS
-wtOTg5NDc3MjYxLC0yMDU2NDA1NTUwLC05Nzg2NzM0MSwtMzIz
-OTg4MTQ5LC0xOTIzNzYzOTQ3LDM5NDUzNzg2OSwtMTM5MTQ5NT
-YwNSwtMjIxODg5OTc1LDY2MTY3NDAxNCw5MjY3OTUzMDQsLTM5
-ODU0MjYwMF19
+eyJoaXN0b3J5IjpbLTE0NTExODQzODQsMTM5MTM5NDA2MCwxMj
+U4Mjg2MjM3LC04OTAyMzkxMDAsLTExNDQ5MTE0MzcsLTM2NDU4
+ODEzNiwtMTYwNzU1NjQ2OCwtMTE5Mzk4OTg3MCw5OTA1MTMxMT
+EsLTg4MTEzODM4MSwtOTg5NDc3MjYxLC0yMDU2NDA1NTUwLC05
+Nzg2NzM0MSwtMzIzOTg4MTQ5LC0xOTIzNzYzOTQ3LDM5NDUzNz
+g2OSwtMTM5MTQ5NTYwNSwtMjIxODg5OTc1LDY2MTY3NDAxNCw5
+MjY3OTUzMDRdfQ==
 -->
