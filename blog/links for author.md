@@ -30,7 +30,7 @@ for pltItr in range(5):
     la.set_label("Trace {0}".format(pltItr+1))
 
 # enable legend with bottom positioning
-ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.15),
+ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.1),
           shadow=True, ncol=5)
 
 # adjust layout elements along with adding outer padding as 1 inch
@@ -53,11 +53,11 @@ bbox_to_legend guide - https://jdhao.github.io/2018/01/23/matplotlib-legend-outs
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1ODI4NjIzNywtODkwMjM5MTAwLC0xMT
-Q0OTExNDM3LC0zNjQ1ODgxMzYsLTE2MDc1NTY0NjgsLTExOTM5
-ODk4NzAsOTkwNTEzMTExLC04ODExMzgzODEsLTk4OTQ3NzI2MS
-wtMjA1NjQwNTU1MCwtOTc4NjczNDEsLTMyMzk4ODE0OSwtMTky
-Mzc2Mzk0NywzOTQ1Mzc4NjksLTEzOTE0OTU2MDUsLTIyMTg4OT
-k3NSw2NjE2NzQwMTQsOTI2Nzk1MzA0LC0zOTg1NDI2MDAsMTE3
-MjIzNjI4M119
+eyJoaXN0b3J5IjpbMTM5MTM5NDA2MCwxMjU4Mjg2MjM3LC04OT
+AyMzkxMDAsLTExNDQ5MTE0MzcsLTM2NDU4ODEzNiwtMTYwNzU1
+NjQ2OCwtMTE5Mzk4OTg3MCw5OTA1MTMxMTEsLTg4MTEzODM4MS
+wtOTg5NDc3MjYxLC0yMDU2NDA1NTUwLC05Nzg2NzM0MSwtMzIz
+OTg4MTQ5LC0xOTIzNzYzOTQ3LDM5NDUzNzg2OSwtMTM5MTQ5NT
+YwNSwtMjIxODg5OTc1LDY2MTY3NDAxNCw5MjY3OTUzMDQsLTM5
+ODU0MjYwMF19
 -->
