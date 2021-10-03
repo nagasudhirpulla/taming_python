@@ -7,62 +7,37 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 * matplotlib legend at the bottom of plot
 ```python
 # %%
-import pandas as pd
 import matplotlib.pyplot as plt
-import matplotlib.backends.backend_pdf
-import matplotlib
-# %%
-dfOnbar = pd.read_excel("input.xlsx", sheet_name="DCOnbar", index_col=0)
-dfOnbar = dfOnbar[range(1, 97)]
+import random
 
-dfSch = pd.read_excel("input.xlsx", sheet_name="Schedule", index_col=0)
-dfSch = dfSch[range(1, 97)]
+# create figure and axes
+fig, ax = plt.subplots(figsize=(11, 6))
 
-dfTm = pd.read_excel("input.xlsx", sheet_name="TechMin", index_col=0)
-dfTm = dfTm[range(1, 97)]
+# set plot title ans axis labels
+ax.set_title("Bottom Legend Example")
+ax.set_xlabel("X axis values")
+ax.set_ylabel("Random numbers")
 
-dfOptSch = pd.read_excel("input.xlsx", sheet_name="Result Report", index_col=0)
-dfOptSch = dfOptSch[range(1, 97)]
-# %%
-# get the list of generators
-gens = dfOnbar.index.tolist()
+# x axis values
+xVals = [x for x in range(20)]
 
-# create a plot for each generator
-pdf = matplotlib.backends.backend_pdf.PdfPages(r"plots\output.pdf")
-for targetGen in gens:
-    fig, ax = plt.subplots()
-    # set plot title
-    ax.set_title(targetGen)
+for pltItr in range(5):
+    # create random y axis values
+    yVals = [random.randint(50, 100) for x in xVals]
+    # create a line plot with x and y values
+    la, = ax.plot(xVals, yVals)
+    # set plot label for legend
+    la.set_label("Trace {0}".format(pltItr+1))
 
-    # set x and y labels
-    ax.set_xlabel('Time Block')
-    ax.set_ylabel('MW')
+# enable legend with bottom positioning
+ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.15),
+          shadow=True, ncol=5)
 
-    # plot onbar DC
-    la1, = ax.plot(list(range(1, 97)), dfOnbar.loc[targetGen], color='orange')
-    la1.set_label('Onbar')
+# adjust layout elements along with adding outer padding as 1 inch
+fig.tight_layout(pad=1)
 
-    # plot Technical Minimum
-    la2, = ax.plot(list(range(1, 97)), dfTm.loc[targetGen], color='green')
-    la2.set_label('Tech. Min')
-
-    # plot Original Schedule
-    la3, = ax.plot(list(range(1, 97)), dfSch.loc[targetGen], color='blue')
-    la3.set_label('Original Schedule')
-
-    # plot Optimal Schedule
-    la4, = ax.plot(list(range(1, 97)),
-                   dfOptSch.loc[targetGen], color='magenta')
-    la4.set_label('Optimal Schedule')
-
-    # Put a legend below current axis
-    ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.15),
-                    fancybox=True, shadow=True, ncol=3)
-
-    fig.savefig(r"plots\{0}.png".format(targetGen), bbox_inches='tight')
-    pdf.savefig(fig, bbox_inches='tight')
-
-pdf.close()
+# save the figure as a png file
+fig.savefig("output.png")
 # %%
 ```
 bbox_to_legend guide - https://jdhao.github.io/2018/01/23/matplotlib-legend-outside-of-axes/
@@ -78,11 +53,11 @@ bbox_to_legend guide - https://jdhao.github.io/2018/01/23/matplotlib-legend-outs
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MDIzOTEwMCwtMTE0NDkxMTQzNywtMz
-Y0NTg4MTM2LC0xNjA3NTU2NDY4LC0xMTkzOTg5ODcwLDk5MDUx
-MzExMSwtODgxMTM4MzgxLC05ODk0NzcyNjEsLTIwNTY0MDU1NT
-AsLTk3ODY3MzQxLC0zMjM5ODgxNDksLTE5MjM3NjM5NDcsMzk0
-NTM3ODY5LC0xMzkxNDk1NjA1LC0yMjE4ODk5NzUsNjYxNjc0MD
-E0LDkyNjc5NTMwNCwtMzk4NTQyNjAwLDExNzIyMzYyODMsMTg1
-MjAwNjAyNV19
+eyJoaXN0b3J5IjpbMTI1ODI4NjIzNywtODkwMjM5MTAwLC0xMT
+Q0OTExNDM3LC0zNjQ1ODgxMzYsLTE2MDc1NTY0NjgsLTExOTM5
+ODk4NzAsOTkwNTEzMTExLC04ODExMzgzODEsLTk4OTQ3NzI2MS
+wtMjA1NjQwNTU1MCwtOTc4NjczNDEsLTMyMzk4ODE0OSwtMTky
+Mzc2Mzk0NywzOTQ1Mzc4NjksLTEzOTE0OTU2MDUsLTIyMTg4OT
+k3NSw2NjE2NzQwMTQsOTI2Nzk1MzA0LC0zOTg1NDI2MDAsMTE3
+MjIzNjI4M119
 -->
