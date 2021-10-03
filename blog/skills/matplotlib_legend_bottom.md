@@ -16,7 +16,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 Please make sure that you covered the [post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
 
-Sometimes we might want to place the legend at the bottom of a matplotlib plot
+Sometimes we might want to place the legend at the bottom of a matplotlib plot. This can be achieved using the ```bbox_to_anchor``` and ```loc``` inputs of the legend function.
 
 ```python
 import matplotlib.pyplot as plt
@@ -76,5 +76,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjAxNDAxMjIsLTE0ODY4MzE1OF19
+eyJoaXN0b3J5IjpbMTA2NTU3ODY3MywtMTQ4NjgzMTU4XX0=
 -->
