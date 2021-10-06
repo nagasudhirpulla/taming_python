@@ -4,42 +4,8 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 
 ### TODOS
-* matplotlib legend at the bottom of plot
-```python
-# %%
-import matplotlib.pyplot as plt
-import random
-
-# create figure and axes
-fig, ax = plt.subplots(figsize=(11, 6))
-
-# set plot title ans axis labels
-ax.set_title("Bottom Legend Example")
-ax.set_xlabel("X axis values")
-ax.set_ylabel("Random numbers")
-
-# x axis values
-xVals = [x for x in range(20)]
-
-for pltItr in range(5):
-    # create random y axis values
-    yVals = [random.randint(50, 100) for x in xVals]
-    # create a line plot with x and y values
-    la, = ax.plot(xVals, yVals)
-    # set plot label for legend
-    la.set_label("Trace {0}".format(pltItr+1))
-
-# enable legend with bottom positioning
-ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.1),
-          shadow=True, ncol=5)
-
-# adjust layout elements along with adding outer padding as 1 inch
-fig.tight_layout(pad=1)
-
-# save the figure as a png file
-fig.savefig("output.png")
-# %%
-```
+* dataframe rename columns using dict and lists
+* convert dataframe into list of dictionaries
 * docxtpl tutorial for templates, plots, images etc
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
@@ -52,11 +18,11 @@ fig.savefig("output.png")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTExODQzODQsMTM5MTM5NDA2MCwxMj
-U4Mjg2MjM3LC04OTAyMzkxMDAsLTExNDQ5MTE0MzcsLTM2NDU4
-ODEzNiwtMTYwNzU1NjQ2OCwtMTE5Mzk4OTg3MCw5OTA1MTMxMT
-EsLTg4MTEzODM4MSwtOTg5NDc3MjYxLC0yMDU2NDA1NTUwLC05
-Nzg2NzM0MSwtMzIzOTg4MTQ5LC0xOTIzNzYzOTQ3LDM5NDUzNz
-g2OSwtMTM5MTQ5NTYwNSwtMjIxODg5OTc1LDY2MTY3NDAxNCw5
-MjY3OTUzMDRdfQ==
+eyJoaXN0b3J5IjpbLTY4NDkwMDIwOSwxMzkxMzk0MDYwLDEyNT
+gyODYyMzcsLTg5MDIzOTEwMCwtMTE0NDkxMTQzNywtMzY0NTg4
+MTM2LC0xNjA3NTU2NDY4LC0xMTkzOTg5ODcwLDk5MDUxMzExMS
+wtODgxMTM4MzgxLC05ODk0NzcyNjEsLTIwNTY0MDU1NTAsLTk3
+ODY3MzQxLC0zMjM5ODgxNDksLTE5MjM3NjM5NDcsMzk0NTM3OD
+Y5LC0xMzkxNDk1NjA1LC0yMjE4ODk5NzUsNjYxNjc0MDE0LDky
+Njc5NTMwNF19
 -->
