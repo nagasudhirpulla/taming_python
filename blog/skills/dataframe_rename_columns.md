@@ -1,4 +1,4 @@
-## Skill - Getting the column names of DataFrame
+## Skill - Rename columns of a pandas DataFrame
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -53,5 +53,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTU5MDI4MF19
+eyJoaXN0b3J5IjpbLTEwNzkzNjMwNl19
 -->
