@@ -26,7 +26,7 @@ This method can be used if we want to rename very less number of targeted column
 import pandas as pd
 # read csv
 df = pd.read_csv('ramen-ratings.csv')
-
+# 
 
 ```
 
@@ -47,6 +47,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODYxMzExNSwtMTY1MDA5ODI1NiwtMT
-g0NTE2MjUzNF19
+eyJoaXN0b3J5IjpbLTE3OTI4Njk0OTYsLTE2NTAwOTgyNTYsLT
+E4NDUxNjI1MzRdfQ==
 -->
