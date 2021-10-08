@@ -5,6 +5,32 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 ### TODOS
 * dataframe rename columns using dict and lists
+```python
+#%%
+# import pandas module
+import pandas as pd
+
+# read the data
+df = pd.read_csv('ramen-ratings.csv')
+
+# %%
+# get the column names as a list
+colNames = df.columns.tolist()
+print(colNames)
+
+#%%
+# rename targeted column names via the rename method 
+df.rename(columns={"Review #": "review"}, inplace=True)
+print(df.columns)
+
+# %%
+# change all the columns by assigning a new list of columns
+newCols = [x.strip().replace(" ", "_").lower() for x in df.columns]
+df.columns = newCols
+
+newCols = ["revw", "brnd", "varty", "stl", "cntry", "strs", "tptn"]
+df.columns = newCols
+```
 * convert dataframe into list of dictionaries using df.to_dict('records')
 * process dataframes and dbf in chunks
 * docxtpl tutorial for templates, plots, images etc
@@ -19,11 +45,11 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTYyOTU1NywxOTI0MjYzOTg4LDEzOT
-EzOTQwNjAsMTI1ODI4NjIzNywtODkwMjM5MTAwLC0xMTQ0OTEx
-NDM3LC0zNjQ1ODgxMzYsLTE2MDc1NTY0NjgsLTExOTM5ODk4Nz
-AsOTkwNTEzMTExLC04ODExMzgzODEsLTk4OTQ3NzI2MSwtMjA1
-NjQwNTU1MCwtOTc4NjczNDEsLTMyMzk4ODE0OSwtMTkyMzc2Mz
-k0NywzOTQ1Mzc4NjksLTEzOTE0OTU2MDUsLTIyMTg4OTk3NSw2
-NjE2NzQwMTRdfQ==
+eyJoaXN0b3J5IjpbLTE2MzIzOTIwODcsLTIyOTYyOTU1NywxOT
+I0MjYzOTg4LDEzOTEzOTQwNjAsMTI1ODI4NjIzNywtODkwMjM5
+MTAwLC0xMTQ0OTExNDM3LC0zNjQ1ODgxMzYsLTE2MDc1NTY0Nj
+gsLTExOTM5ODk4NzAsOTkwNTEzMTExLC04ODExMzgzODEsLTk4
+OTQ3NzI2MSwtMjA1NjQwNTU1MCwtOTc4NjczNDEsLTMyMzk4OD
+E0OSwtMTkyMzc2Mzk0NywzOTQ1Mzc4NjksLTEzOTE0OTU2MDUs
+LTIyMTg4OTk3NV19
 -->
