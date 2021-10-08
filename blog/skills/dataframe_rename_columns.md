@@ -17,6 +17,9 @@ Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020
 
 In this post we will learn how to rename the columns of a Pandas Dataframe
 
+## call 'rename' method on a dataframe
+``
+
 ```python
 import pandas as pd
 # create a dataframe
@@ -53,5 +56,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMTM2MzA3NF19
+eyJoaXN0b3J5IjpbOTAzMTAzNTE0XX0=
 -->
