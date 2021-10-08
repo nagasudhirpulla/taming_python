@@ -23,26 +23,10 @@ The data file used in this post can be downloaded [here](https://github.com/naga
 This method can be used if we want to rename very less number of targeted columns
 ```python
 import pandas as pd
+# read csv
 df = pd.read_csv('ramen-ratings.csv')
-```
 
-```python
-import pandas as pd
-# create a dataframe
-x = {
-	"Name": ["Harris", "Miss. Elizabeth"],
-	"Age": [22, 58],
-	"Sex": ["male", "female"]
-	}
-df = pd.DataFrame(x)
 
-# print the columns of DataFrame. This will return an index object
-print(df.columns)
-# Index([u'Age', u'Name', u'Sex'], dtype='object')
-
-# print the list of columns of the DataFrame by passing it through 'list' function
-print(list(df.columns))
-# ['Age', 'Name', 'Sex']
 ```
 
 ### Video
@@ -62,6 +46,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODk5OTgzMCwtMTY1MDA5ODI1NiwtMT
+eyJoaXN0b3J5IjpbMTMyNjExMjg4NiwtMTY1MDA5ODI1NiwtMT
 g0NTE2MjUzNF19
 -->
