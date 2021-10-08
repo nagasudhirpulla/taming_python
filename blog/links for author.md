@@ -6,7 +6,7 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 ### TODOS
 * dataframe rename columns using dict and lists
 * convert dataframe into list of dictionaries using df.to_dict('records')
-* process dataframes and dbf in chunk
+* process dataframes and dbf in chunks
 * docxtpl tutorial for templates, plots, images etc
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
@@ -19,11 +19,11 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1NTA4NzYsMTkyNDI2Mzk4OCwxMzkxMz
-k0MDYwLDEyNTgyODYyMzcsLTg5MDIzOTEwMCwtMTE0NDkxMTQz
-NywtMzY0NTg4MTM2LC0xNjA3NTU2NDY4LC0xMTkzOTg5ODcwLD
-k5MDUxMzExMSwtODgxMTM4MzgxLC05ODk0NzcyNjEsLTIwNTY0
-MDU1NTAsLTk3ODY3MzQxLC0zMjM5ODgxNDksLTE5MjM3NjM5ND
-csMzk0NTM3ODY5LC0xMzkxNDk1NjA1LC0yMjE4ODk5NzUsNjYx
-Njc0MDE0XX0=
+eyJoaXN0b3J5IjpbLTIyOTYyOTU1NywxOTI0MjYzOTg4LDEzOT
+EzOTQwNjAsMTI1ODI4NjIzNywtODkwMjM5MTAwLC0xMTQ0OTEx
+NDM3LC0zNjQ1ODgxMzYsLTE2MDc1NTY0NjgsLTExOTM5ODk4Nz
+AsOTkwNTEzMTExLC04ODExMzgzODEsLTk4OTQ3NzI2MSwtMjA1
+NjQwNTU1MCwtOTc4NjczNDEsLTMyMzk4ODE0OSwtMTkyMzc2Mz
+k0NywzOTQ1Mzc4NjksLTEzOTE0OTU2MDUsLTIyMTg4OTk3NSw2
+NjE2NzQwMTRdfQ==
 -->
