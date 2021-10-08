@@ -22,6 +22,7 @@ The data file used in this post can be downloaded [here](https://github.com/naga
 ## call 'rename' method on a dataframe
 This method can be used if we want to rename very less number of targeted columns
 ```python
+# import pandas
 import pandas as pd
 # read csv
 df = pd.read_csv('ramen-ratings.csv')
@@ -46,6 +47,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjExMjg4NiwtMTY1MDA5ODI1NiwtMT
+eyJoaXN0b3J5IjpbLTQ0ODYxMzExNSwtMTY1MDA5ODI1NiwtMT
 g0NTE2MjUzNF19
 -->
