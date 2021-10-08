@@ -21,7 +21,7 @@ In this post we will learn how to rename the columns of a Pandas Dataframe
 This method can be used if we want to rename very less number of targeted columns
 ```python
 import pandas as pd
-df = 
+df = pd.read_csv('')
 ```
 
 ```python
@@ -60,6 +60,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTAwOTgyNTYsLTE4NDUxNjI1MzRdfQ
-==
+eyJoaXN0b3J5IjpbMTc1NTUyNzk4LC0xNjUwMDk4MjU2LC0xOD
+Q1MTYyNTM0XX0=
 -->
