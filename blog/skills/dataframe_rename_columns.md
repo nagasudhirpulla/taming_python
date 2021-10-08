@@ -18,8 +18,10 @@ Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020
 In this post we will learn how to rename the columns of a Pandas Dataframe
 
 ## call 'rename' method on a dataframe
+This method can be used if we want to rename very less number of targeted columns
 ```python
-
+import pandas as pd
+df = 
 ```
 
 ```python
@@ -58,5 +60,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDUxNjI1MzRdfQ==
+eyJoaXN0b3J5IjpbLTE2NTAwOTgyNTYsLTE4NDUxNjI1MzRdfQ
+==
 -->
