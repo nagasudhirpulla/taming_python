@@ -15,7 +15,7 @@ Pandas is a python library.
 
 Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020/05/pandas-dataframe-basics.html) to learn the basics of pandas DataFrame.
 
-In this post we will learn how to get the column names of a DataFrame using the **columns** attribute
+In this post we will learn how to rename the columns of a Pandas Dataframe
 
 ```python
 import pandas as pd
@@ -53,5 +53,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDYxNDQwMThdfQ==
+eyJoaXN0b3J5IjpbLTgwMTM2MzA3NF19
 -->
