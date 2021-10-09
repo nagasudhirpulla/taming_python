@@ -46,6 +46,12 @@ print(dfCols)
 # derive new column names from existing column names using a simple list comprehension
 # In this case we are stripping off border whitespaces and replacing spaces with _
 newCols = [str(x).strip().replace(" ", "_").lower() for  x  in  df.columns]
+df.columns = newCols
+
+# assign new column names as a list of strings
+# the new columns list should be of same length as original column names
+newCols = ["revw", "brnd", "varty", "stl", "cntry", "strs", "tptn"]
+df.columns = newCols
 
 ```
 
@@ -66,6 +72,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NzQwOTQzNiwtMTc5Mjg2OTQ5NiwtMT
-Y1MDA5ODI1NiwtMTg0NTE2MjUzNF19
+eyJoaXN0b3J5IjpbLTI4MzY5MTg3MiwxMTY3NDA5NDM2LC0xNz
+kyODY5NDk2LC0xNjUwMDk4MjU2LC0xODQ1MTYyNTM0XX0=
 -->
