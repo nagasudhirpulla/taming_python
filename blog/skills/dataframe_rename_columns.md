@@ -49,10 +49,9 @@ newCols = [str(x).strip().replace(" ", "_").lower() for  x  in  df.columns]
 df.columns = newCols
 
 # assign new column names as a list of strings
-# the new columns list should be of same length as original column names
+# length of new column names list should match the length of original columns list
 newCols = ["revw", "brnd", "varty", "stl", "cntry", "strs", "tptn"]
 df.columns = newCols
-
 ```
 
 ### Video
@@ -72,6 +71,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzY5MTg3MiwxMTY3NDA5NDM2LC0xNz
-kyODY5NDk2LC0xNjUwMDk4MjU2LC0xODQ1MTYyNTM0XX0=
+eyJoaXN0b3J5IjpbLTE0Nzc3OTE0NTMsMTE2NzQwOTQzNiwtMT
+c5Mjg2OTQ5NiwtMTY1MDA5ODI1NiwtMTg0NTE2MjUzNF19
 -->
