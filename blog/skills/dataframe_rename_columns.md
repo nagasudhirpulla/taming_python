@@ -54,6 +54,11 @@ newCols = ["revw", "brnd", "varty", "stl", "cntry", "strs", "tptn"]
 df.columns = newCols
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/iqy6IBxiL40)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iqy6IBxiL40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 * Official guide - https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rename.html
 
@@ -64,7 +69,7 @@ df.columns = newCols
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODc2MjI1ODEsLTE4Mzk4NjQ2ODIsMT
-gwNDQyOTIzNiwxMTY3NDA5NDM2LC0xNzkyODY5NDk2LC0xNjUw
-MDk4MjU2LC0xODQ1MTYyNTM0XX0=
+eyJoaXN0b3J5IjpbLTU2NTYxMjgwOCwtMTg4NzYyMjU4MSwtMT
+gzOTg2NDY4MiwxODA0NDI5MjM2LDExNjc0MDk0MzYsLTE3OTI4
+Njk0OTYsLTE2NTAwOTgyNTYsLTE4NDUxNjI1MzRdfQ==
 -->
