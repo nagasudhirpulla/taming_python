@@ -38,6 +38,8 @@ print(df.head())
 import pandas as pd
 # read csv
 df = pd.read_csv("ramen-ratings.csv")
+# get dataframe column names as a l
+
 ```
 
 ### Video
@@ -57,6 +59,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzE0MTcyNiwtMTc5Mjg2OTQ5NiwtMT
+eyJoaXN0b3J5IjpbLTI0OTk1NzgzNSwtMTc5Mjg2OTQ5NiwtMT
 Y1MDA5ODI1NiwtMTg0NTE2MjUzNF19
 -->
