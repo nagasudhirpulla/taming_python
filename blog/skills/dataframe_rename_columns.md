@@ -19,7 +19,7 @@ In this post we will learn how to rename the columns of a Pandas Dataframe
 
 The data file used in this post can be downloaded [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/ramen-ratings.csv)
 
-## 'rename' method for targeted columns
+## Method #1 - 'rename' method for targeted columns
 This method can be used if we want to rename less number of targeted columns
 ```python
 # import pandas
@@ -33,7 +33,7 @@ df.rename(columns={"Review #": "review", "Top Ten":"top_ten"}, inplace=True)
 print(df.head())
 ```
 
-## assign all column names at once
+## Method #2 - assign all column names at once
 ```python
 import pandas as pd
 # read csv
@@ -64,7 +64,7 @@ df.columns = newCols
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzk4NjQ2ODIsMTgwNDQyOTIzNiwxMT
-Y3NDA5NDM2LC0xNzkyODY5NDk2LC0xNjUwMDk4MjU2LC0xODQ1
-MTYyNTM0XX0=
+eyJoaXN0b3J5IjpbLTE4ODc2MjI1ODEsLTE4Mzk4NjQ2ODIsMT
+gwNDQyOTIzNiwxMTY3NDA5NDM2LC0xNzkyODY5NDk2LC0xNjUw
+MDk4MjU2LC0xODQ1MTYyNTM0XX0=
 -->
