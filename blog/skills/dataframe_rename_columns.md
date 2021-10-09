@@ -56,6 +56,7 @@ df.columns = newCols
 
 ### References
 * Official guide - https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.rename.html
+
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -63,7 +64,7 @@ df.columns = newCols
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzI3NTM2OCwxODA0NDI5MjM2LDExNj
-c0MDk0MzYsLTE3OTI4Njk0OTYsLTE2NTAwOTgyNTYsLTE4NDUx
-NjI1MzRdfQ==
+eyJoaXN0b3J5IjpbLTE4Mzk4NjQ2ODIsMTgwNDQyOTIzNiwxMT
+Y3NDA5NDM2LC0xNzkyODY5NDk2LC0xNjUwMDk4MjU2LC0xODQ1
+MTYyNTM0XX0=
 -->
