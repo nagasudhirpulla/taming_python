@@ -25,7 +25,7 @@ This method can be used if we want to rename less number of targeted columns
 # import pandas
 import pandas as pd
 # read csv
-df = pd.read_csv('ramen-ratings.csv')
+df = pd.read_csv("ramen-ratings.csv")
 
 # rename targeted columns using rename method
 df.rename(columns={"Review #": "review", "Top Ten":"top_ten"}, inplace=True) 
@@ -35,7 +35,9 @@ print(df.head())
 
 ## assign all column names at once
 ```python
-
+import pandas as pd
+# read csv
+df = pd.read_csv("ramen-ratings.csv")
 ```
 
 ### Video
@@ -55,6 +57,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzcxNTc4MCwtMTc5Mjg2OTQ5NiwtMT
+eyJoaXN0b3J5IjpbMTgyMzE0MTcyNiwtMTc5Mjg2OTQ5NiwtMT
 Y1MDA5ODI1NiwtMTg0NTE2MjUzNF19
 -->
