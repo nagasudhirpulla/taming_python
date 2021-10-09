@@ -33,7 +33,10 @@ df.rename(columns={"Review #": "review", "Top Ten":"top_ten"}, inplace=True)
 print(df.head())
 ```
 
+## assign all column names at once
+```python
 
+```
 
 ### Video
 Watch video on this post [here](https://youtu.be/XtcYVbJ-e7k)
@@ -52,6 +55,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjMzNjY2NDIsLTE3OTI4Njk0OTYsLT
-E2NTAwOTgyNTYsLTE4NDUxNjI1MzRdfQ==
+eyJoaXN0b3J5IjpbLTQyMzcxNTc4MCwtMTc5Mjg2OTQ5NiwtMT
+Y1MDA5ODI1NiwtMTg0NTE2MjUzNF19
 -->
