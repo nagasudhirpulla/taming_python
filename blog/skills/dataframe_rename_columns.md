@@ -54,14 +54,6 @@ newCols = ["revw", "brnd", "varty", "stl", "cntry", "strs", "tptn"]
 df.columns = newCols
 ```
 
-### Video
-Watch video on this post [here](https://youtu.be/XtcYVbJ-e7k)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XtcYVbJ-e7k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
-
 ### References
 * Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
 <hr/>
@@ -71,6 +63,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzc3OTE0NTMsMTE2NzQwOTQzNiwtMT
-c5Mjg2OTQ5NiwtMTY1MDA5ODI1NiwtMTg0NTE2MjUzNF19
+eyJoaXN0b3J5IjpbMTgwNDQyOTIzNiwxMTY3NDA5NDM2LC0xNz
+kyODY5NDk2LC0xNjUwMDk4MjU2LC0xODQ1MTYyNTM0XX0=
 -->
