@@ -43,6 +43,8 @@ df = pd.read_csv("ramen-ratings.csv")
 dfCols = df.columns.tolist()
 print(dfCols)
 
+# create new column names from existing column names using a simple list comprehension
+
 ```
 
 ### Video
@@ -62,6 +64,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzIyMzc3MjMsLTE3OTI4Njk0OTYsLT
-E2NTAwOTgyNTYsLTE4NDUxNjI1MzRdfQ==
+eyJoaXN0b3J5IjpbNzIwNDEyMzcyLC0xNzkyODY5NDk2LC0xNj
+UwMDk4MjU2LC0xODQ1MTYyNTM0XX0=
 -->
