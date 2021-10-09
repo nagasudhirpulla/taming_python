@@ -43,7 +43,9 @@ df = pd.read_csv("ramen-ratings.csv")
 dfCols = df.columns.tolist()
 print(dfCols)
 
-# create new column names from existing column names using a simple list comprehension
+# derive new column names from existing column names using a simple list comprehension
+# In this case we are stripping off replacing spaces with _
+newCols = [x.strip().replace(" ", "_").lower() for  x  in  df.columns]
 
 ```
 
@@ -64,6 +66,6 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIwNDEyMzcyLC0xNzkyODY5NDk2LC0xNj
-UwMDk4MjU2LC0xODQ1MTYyNTM0XX0=
+eyJoaXN0b3J5IjpbMTM1NTAwNzI1MSwtMTc5Mjg2OTQ5NiwtMT
+Y1MDA5ODI1NiwtMTg0NTE2MjUzNF19
 -->
