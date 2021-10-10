@@ -40,15 +40,7 @@ print(dfObjects)
 import pandas as pd
 
 dfObjects = [{'PassengerId': 1, 'Survived': 0, 'Pclass': 3, 'Name': 'Braund, Mr. Owen Harris', 'Sex': 'male'},
-                         {'PassengerId': 2, 'Survived': 1, 'Pclass': 1,  'Name': 'Cumings, Mrs. John Bradley (Florence Briggs Thayer)',
-                          'Sex': 'female',
-                          'Age': 38.0,
-                          'SibSp': 1,
-                          'Parch': 0,
-                          'Ticket': 'PC 17599',
-                          'Fare': 71.2833,
-                          'Cabin': 'C85',
-                          'Embarked': 'C'}]
+{'PassengerId': 2, 'Survived': 1, 'Pclass': 1, 'Name': 'Cumings, Mrs. John Bradley (Florence Briggs Thayer)', 'Sex': 'female'}]
 ```
 
 
@@ -64,5 +56,5 @@ dfObjects = [{'PassengerId': 1, 'Survived': 0, 'Pclass': 3, 'Name': 'Braund, Mr.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjAyODg1MSwxMjU3MTc5OTE1XX0=
+eyJoaXN0b3J5IjpbLTE4NDA3OTMwMzIsMTI1NzE3OTkxNV19
 -->
