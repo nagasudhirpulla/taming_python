@@ -20,6 +20,7 @@ Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020
 
 In this post, we will learn how to convert pandas dataframe into a list of dictionaries
 
+The csv file used in this blog post can be downloaded [here](https://github.com/datasciencedojo/datasets/raw/master/titanic.csv)
 <hr/>
 
 ### Dataframe to list of dictionaries using 'to_dict' method
@@ -46,5 +47,5 @@ df = pd.read_csv('ramen-ratings.csv')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzE3OTkxNV19
+eyJoaXN0b3J5IjpbMTM2ODg1NzU3NCwxMjU3MTc5OTE1XX0=
 -->
