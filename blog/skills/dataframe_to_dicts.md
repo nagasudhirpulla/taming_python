@@ -39,21 +39,8 @@ print(dfObjects)
 ```python
 import pandas as pd
 
-dfObjects = [{'PassengerId': 1, 'Survived': 0,
-                          'Pclass': 3,
-                          'Name': 'Braund, Mr. Owen Harris',
-                          'Sex': 'male',
-                          'Age': 22.0,
-                          'SibSp': 1,
-                          'Parch': 0,
-                          'Ticket': 'A/5 21171',
-                          'Fare': 7.25,
-                          'Cabin': None,
-                          'Embarked': 'S'},
-                         {'PassengerId': 2,
-                          'Survived': 1,
-                          'Pclass': 1,
-                          'Name': 'Cumings, Mrs. John Bradley (Florence Briggs Thayer)',
+dfObjects = [{'PassengerId': 1, 'Survived': 0, 'Pclass': 3, 'Name': 'Braund, Mr. Owen Harris', 'Sex': 'male'},
+                         {'PassengerId': 2, 'Survived': 1, 'Pclass': 1,  'Name': 'Cumings, Mrs. John Bradley (Florence Briggs Thayer)',
                           'Sex': 'female',
                           'Age': 38.0,
                           'SibSp': 1,
@@ -77,5 +64,5 @@ dfObjects = [{'PassengerId': 1, 'Survived': 0,
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTMxNDQxNCwxMjU3MTc5OTE1XX0=
+eyJoaXN0b3J5IjpbLTk2NjAyODg1MSwxMjU3MTc5OTE1XX0=
 -->
