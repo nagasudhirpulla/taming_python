@@ -39,8 +39,7 @@ print(dfObjects)
 ```python
 import pandas as pd
 
-dfObjects = [{'PassengerId': 1,
-                          'Survived': 0,
+dfObjects = [{'PassengerId': 1, 'Survived': 0,
                           'Pclass': 3,
                           'Name': 'Braund, Mr. Owen Harris',
                           'Sex': 'male',
@@ -78,5 +77,5 @@ dfObjects = [{'PassengerId': 1,
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjk5MjU4MCwxMjU3MTc5OTE1XX0=
+eyJoaXN0b3J5IjpbMTA4MTMxNDQxNCwxMjU3MTc5OTE1XX0=
 -->
