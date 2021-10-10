@@ -35,14 +35,15 @@ dfObjects = df.to_dict('records')
 print(dfObjects)
 ```
 
-### Create dataframe from a list of objects
+### Create a dataframe from a list of objects
 ```python
 import pandas as pd
 
 dfObjects = [{'PassengerId': 1, 'Survived': 0, 'Pclass': 3, 'Name': 'Braund, Mr. Owen Harris', 'Sex': 'male'},
 {'PassengerId': 2, 'Survived': 1, 'Pclass': 1, 'Name': 'Cumings, Mrs. John Bradley (Florence Briggs Thayer)', 'Sex': 'female'}]
-```
 
+df = pd.DataFrame(data=dfObjects)
+```
 
 <hr/>
 
@@ -56,5 +57,5 @@ dfObjects = [{'PassengerId': 1, 'Survived': 0, 'Pclass': 3, 'Name': 'Braund, Mr.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDA3OTMwMzIsMTI1NzE3OTkxNV19
+eyJoaXN0b3J5IjpbNTYyNTg5Nzg5LDEyNTcxNzk5MTVdfQ==
 -->
