@@ -22,7 +22,7 @@ In this post, we will learn how to convert pandas dataframe into a list of dicti
 
 <hr/>
 
-
+## 'to_dict' method
 
 ### Example
 ```python
@@ -67,5 +67,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk1MDU5MTYxXX0=
+eyJoaXN0b3J5IjpbMTI2MDUzMjAwMF19
 -->
