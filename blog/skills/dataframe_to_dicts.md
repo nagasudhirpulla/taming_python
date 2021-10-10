@@ -28,9 +28,10 @@ The csv file used in this blog post can be downloaded [here](https://github.com/
 import pandas as pd
 
 # read the csv file into a dataframe named df
-df = pd.read_csv('ramen-ratings.csv')
+df = pd.read_csv('titanic.csv')
 
-
+# convert the dataframe into list of dictionaries using the .to_dict('records') methos
+df.to_dict('records')
 
 ```
 
@@ -47,5 +48,5 @@ df = pd.read_csv('ramen-ratings.csv')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODg1NzU3NCwxMjU3MTc5OTE1XX0=
+eyJoaXN0b3J5IjpbLTEyMzkzMDUyMDQsMTI1NzE3OTkxNV19
 -->
