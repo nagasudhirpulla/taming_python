@@ -22,28 +22,15 @@ In this post, we will learn how to convert pandas dataframe into a list of dicti
 
 <hr/>
 
-## Dataframe to list of dictionaries using 'to_dict' method
-
-### Example
+### Dataframe to list of dictionaries using 'to_dict' method
 ```python
 import pandas as pd
 
 # read the csv file into a dataframe named df
-df = pd.read_csv('gen_schedules.csv')
+df = pd.read_csv('ramen-ratings.csv')
 
-# This dataframe contains many columns, but now we will select only KAPS, KHARGONE-I columns
-filteredDf = df[["KAPS", "KHARGONE-I"]]
-print(filteredDf)
 
-print(type(filteredDf))
-# this will print pandas.core.frame.DataFrame
 
-# select only KHARGONE-I data
-kharData = df["KHARGONE-I"]
-print(kharData)
-
-print(type(kharData))
-# this will print pandas.core.series.Series
 ```
 
 
@@ -59,5 +46,5 @@ print(type(kharData))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzkzMjg2OTFdfQ==
+eyJoaXN0b3J5IjpbMTI1NzE3OTkxNV19
 -->
