@@ -31,8 +31,38 @@ import pandas as pd
 df = pd.read_csv('titanic.csv')
 
 # convert the dataframe into list of dictionaries using the .to_dict('records') methos
-df.to_dict('records')
+dfObjects = df.to_dict('records')
+print(dfObjects)
+```
 
+### Create dataframe from a list of objects
+```python
+import pandas as pd
+
+dfObjects = [{'PassengerId': 1,
+                          'Survived': 0,
+                          'Pclass': 3,
+                          'Name': 'Braund, Mr. Owen Harris',
+                          'Sex': 'male',
+                          'Age': 22.0,
+                          'SibSp': 1,
+                          'Parch': 0,
+                          'Ticket': 'A/5 21171',
+                          'Fare': 7.25,
+                          'Cabin': None,
+                          'Embarked': 'S'},
+                         {'PassengerId': 2,
+                          'Survived': 1,
+                          'Pclass': 1,
+                          'Name': 'Cumings, Mrs. John Bradley (Florence Briggs Thayer)',
+                          'Sex': 'female',
+                          'Age': 38.0,
+                          'SibSp': 1,
+                          'Parch': 0,
+                          'Ticket': 'PC 17599',
+                          'Fare': 71.2833,
+                          'Cabin': 'C85',
+                          'Embarked': 'C'}]
 ```
 
 
@@ -48,5 +78,5 @@ df.to_dict('records')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzkzMDUyMDQsMTI1NzE3OTkxNV19
+eyJoaXN0b3J5IjpbMTkwMjk5MjU4MCwxMjU3MTc5OTE1XX0=
 -->
