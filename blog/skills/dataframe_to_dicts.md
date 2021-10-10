@@ -19,9 +19,10 @@ Please go through [Pandas DataFrame Basics](https://nagasudhir.blogspot.com/2020
 
 In this post, we will learn how to convert pandas dataframe into a list of dictionaries
 
-The csv file used in this blog post can be downloaded [here](https://github.com/datasciencedojo/datasets/raw/master/titanic.csv)
+We might want to convert dataframe to list of objects for scenarios like sending the dataframe content via JSON API, creating rows for database table insertion etc.
 
-We might want to convert dataframe to list of objects for scenarios like sending the dataframe content via json API,  
+The csv file used in this blog post can be downloaded [here](https://github.com/datasciencedojo/datasets/raw/master/titanic.csv)
+ 
 <hr/>
 
 ### Dataframe to list of dictionaries using 'to_dict' method
@@ -58,5 +59,5 @@ df = pd.DataFrame(data=dfObjects)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzE2MDk0LDEyNTcxNzk5MTVdfQ==
+eyJoaXN0b3J5IjpbMTcwMzQyODQ3NSwxMjU3MTc5OTE1XX0=
 -->
