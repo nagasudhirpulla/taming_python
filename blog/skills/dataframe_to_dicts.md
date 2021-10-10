@@ -22,7 +22,7 @@ In this post, we will learn how to convert pandas dataframe into a list of dicti
 
 <hr/>
 
-## 'to_dict' method
+## Dataframe to list of dictionaries using 'to_dict' method
 
 ### Example
 ```python
@@ -45,20 +45,12 @@ print(kharData)
 print(type(kharData))
 # this will print pandas.core.series.Series
 ```
-Notice that the type of `kharData` is Series and the type of `filteredDf` is DataFrame. This is because `kharData` variable is obtained by getting only a single column of the main dataframe `df`
 
-### Video
-Video for this post can be found [here](https://youtu.be/VMvsDTpofBc)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VMvsDTpofBc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
 
-### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
-
 ### References
-* Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/03_subset_data.html#min-tut-03-subset
+* Official Documentation - https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_dict.html
 
 <hr/>
 
@@ -67,5 +59,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDUzMjAwMF19
+eyJoaXN0b3J5IjpbLTIwMzkzMjg2OTFdfQ==
 -->
