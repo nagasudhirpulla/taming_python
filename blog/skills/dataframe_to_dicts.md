@@ -37,7 +37,7 @@ dfObjects = df.to_dict('records')
 print(dfObjects)
 ```
 
-### Create a dataframe from a list of objects
+### Create a dataframe from a list of dictionaries
 ```python
 import pandas as pd
 
@@ -59,5 +59,6 @@ df = pd.DataFrame(data=dfObjects)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzQyODQ3NSwxMjU3MTc5OTE1XX0=
+eyJoaXN0b3J5IjpbLTE3NTU2MzQ4NTcsMTcwMzQyODQ3NSwxMj
+U3MTc5OTE1XX0=
 -->
