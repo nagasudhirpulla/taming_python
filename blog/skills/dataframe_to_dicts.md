@@ -47,6 +47,11 @@ dfObjects = [{'PassengerId': 1, 'Survived': 0, 'Pclass': 3, 'Name': 'Braund, Mr.
 df = pd.DataFrame(data=dfObjects)
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/V9Gn95OAYHs)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V9Gn95OAYHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### References
@@ -59,6 +64,6 @@ df = pd.DataFrame(data=dfObjects)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTU2MzQ4NTcsMTcwMzQyODQ3NSwxMj
-U3MTc5OTE1XX0=
+eyJoaXN0b3J5IjpbLTE4NzQ5NTM3NTYsLTE3NTU2MzQ4NTcsMT
+cwMzQyODQ3NSwxMjU3MTc5OTE1XX0=
 -->
