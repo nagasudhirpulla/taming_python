@@ -107,6 +107,7 @@ print("execution complete...")
 ``` 
 
 ### for loop in docxtpl templates
+for loop can be used by using tables in word file templates
 
 
 ### Reports Automation example
@@ -169,7 +170,7 @@ convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTM0ODI5Niw3NzExMzMwMzcsLTYyOD
+eyJoaXN0b3J5IjpbLTMyMjg3MDcxOSw3NzExMzMwMzcsLTYyOD
 Q5NzU5MiwtOTYyOTIwMDQsMTcwNTUyNzAwNiwxOTc5MTU0Njk5
 LDE3MjAxNDY2NzAsNzU4NDMwNzA4LDE4MzgzMjQ5NTcsLTg5Mz
 k5NjE5NiwxODQwODc1Njc3XX0=
