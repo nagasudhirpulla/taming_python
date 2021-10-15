@@ -78,6 +78,7 @@ Here are the goals and skills in this tutorial series
 * [Join two DataFrames on a column](https://nagasudhir.blogspot.com/2020/06/join-two-dataframes-on-column.html)
 * [Append rows or DataFrames to a pandas DataFrame](https://nagasudhir.blogspot.com/2020/06/append-rows-or-dataframes-to-pandas.html)
 * [Convert pandas Series to dictionary and vice-versa in python](https://nagasudhir.blogspot.com/2020/07/convert-pandas-series-to-dictionary-in.html)
+* [Convert Pandas DataFrame to a list of dictionaries](https://nagasudhir.blogspot.com/2021/10/convert-pandas-dataframe-to-list-of.html)
 
 #### Matplotlib plotting Skills
 * [Introduction to Matplotlib plotting library](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
@@ -113,11 +114,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTg5NTAwMzQ1NSw4ODEwNT
-I1MjksODk2NDc3MzY2LC0yOTc0MjI4NzEsLTYxNjcyMTQ1NSw1
-Mzg4MTQ4ODUsODc2ODQ4MjU0LDUwNTcwNzczMCwzNzA2OTA3Mj
-csLTIxMTM4NzY0OTYsNzkxMjAwNTQ5LDE5ODc3MTYxNDQsLTE5
-NDkyOTAyMzEsLTE2Mjc3NDU4MDIsLTkzODUwMDY4OSwtMTg1NT
-MwNTg2MywtMTE0NjMwNDYxOSwxNjU2Njk0MDAxLDEyNTkyMzEz
-NTcsMjU1NjM3NTM1XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE3ODgxNzMwMTAsODgxMD
+UyNTI5LDg5NjQ3NzM2NiwtMjk3NDIyODcxLC02MTY3MjE0NTUs
+NTM4ODE0ODg1LDg3Njg0ODI1NCw1MDU3MDc3MzAsMzcwNjkwNz
+I3LC0yMTEzODc2NDk2LDc5MTIwMDU0OSwxOTg3NzE2MTQ0LC0x
+OTQ5MjkwMjMxLC0xNjI3NzQ1ODAyLC05Mzg1MDA2ODksLTE4NT
+UzMDU4NjMsLTExNDYzMDQ2MTksMTY1NjY5NDAwMSwxMjU5MjMx
+MzU3LDI1NTYzNzUzNV19
 -->
