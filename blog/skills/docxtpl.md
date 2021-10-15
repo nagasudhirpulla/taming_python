@@ -27,10 +27,12 @@ If can render a variable named ```xyz``` by writing ```{{ xyz }}``` in the templ
 ### Basic Example
 * This is a simple example using ```docxtpl``` for populating words and images into a birthday invitation template word file. 
 * We are using the ```DocxTemplate``` and ```InlineImage``` classes.
-* Output should be created as a file named ```invitation.docx```
+* Output should be created as a files named ```invitation.docx``` and ```invitation.pdf```
+* We are using
 ```python
 from docxtpl import DocxTemplate, InlineImage
 import datetime as dt
+from docx2pdf import convert
 
 # create a document object
 doc = DocxTemplate("inviteTmpl.docx")
@@ -52,6 +54,9 @@ doc.render(context)
 
 # save the document object as a word file
 doc.save('invitation.docx')
+
+# convert word file to a pdf file
+convert('invitation.docx', 'invitation.pdf')
 ```
 
 ### Creating multiple files from single template
@@ -109,7 +114,7 @@ print("execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4OTg2Mjk1OCwxNzIwMTQ2NjcwLDc1OD
-QzMDcwOCwxODM4MzI0OTU3LC04OTM5OTYxOTYsMTg0MDg3NTY3
-N119
+eyJoaXN0b3J5IjpbLTE2NzA4Mjc3MjUsMTcyMDE0NjY3MCw3NT
+g0MzA3MDgsMTgzODMyNDk1NywtODkzOTk2MTk2LDE4NDA4NzU2
+NzddfQ==
 -->
