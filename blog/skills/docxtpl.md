@@ -22,7 +22,7 @@ The following files are used in this blog post
 While running this scripts, create two folders named ```images```, ```invites```. Download the images and move them into the images folder placed in the same folder as the script file.
 
 ### Placeholder for variable in word file
-If can render a variable named ```xyz``` by writing ```{{ xyz }}``` in the template word file. The variable can be an image or  text
+If can render a variable named ```xyz``` by writing ```{{ xyz }}``` in the template word file. The variable can be text or image.
 
 ### Basic Example
 This is a simple example using ```docxtpl``` for populating words and images into a birthday invitation template word file. We are using the ```DocxTemplate``` and ```InlineImage``` classes in this example.
@@ -107,7 +107,7 @@ print("execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTUwMTE5NDAsMTcyMDE0NjY3MCw3NT
-g0MzA3MDgsMTgzODMyNDk1NywtODkzOTk2MTk2LDE4NDA4NzU2
-NzddfQ==
+eyJoaXN0b3J5IjpbNDA0MDEyOTI3LDE3MjAxNDY2NzAsNzU4ND
+MwNzA4LDE4MzgzMjQ5NTcsLTg5Mzk5NjE5NiwxODQwODc1Njc3
+XX0=
 -->
