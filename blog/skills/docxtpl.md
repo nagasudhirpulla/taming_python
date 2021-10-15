@@ -15,7 +15,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 The following files are used in this blog post
 * Template word file - [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx)
-* banner image - [party_banner_0.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_0.png)
+* banner images - [party_banner_0.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_0.png), [party_banner_1.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_1.png), [party_banner_2.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_2.png)
 
 While running this scripts, create two folders named ```images```, ```invites```
 
@@ -54,6 +54,6 @@ doc.save('invitation.docx')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTYwMDk4MSwxODM4MzI0OTU3LC04OT
-M5OTYxOTYsMTg0MDg3NTY3N119
+eyJoaXN0b3J5IjpbMTc3MTk0NDI0LDE4MzgzMjQ5NTcsLTg5Mz
+k5NjE5NiwxODQwODc1Njc3XX0=
 -->
