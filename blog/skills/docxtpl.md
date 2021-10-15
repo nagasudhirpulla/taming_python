@@ -13,9 +13,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 * This helps in automating reports very easily. 
 * Since we are using word file templates we can use rich text features like fonts, font sizes, colors etc without any programming.
 
-The following word files are used in this blog post
+The following files are used in this blog post
 * Template word file - [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx)
 * banner image - [party_banner_0.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_0.png)
+
+While running this scripts, create two folders named ```images```, ``````
 
 ```python
 from docxtpl import DocxTemplate, InlineImage
@@ -52,6 +54,6 @@ doc.save('invitation.docx')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODMyNDk1NywtODkzOTk2MTk2LDE4ND
-A4NzU2NzddfQ==
+eyJoaXN0b3J5IjpbMzE0ODc5OTEzLDE4MzgzMjQ5NTcsLTg5Mz
+k5NjE5NiwxODQwODc1Njc3XX0=
 -->
