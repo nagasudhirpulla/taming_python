@@ -96,6 +96,9 @@ Here are the goals and skills in this tutorial series
 * [Positioning the legend at the bottom of a Matplotlib plot in python](https://nagasudhir.blogspot.com/2021/05/matplotlib-legend-at-bottom-of-plot.html)
 * [Duration Curve using Matplotlib](http://nagasudhir.blogspot.com/2021/05/duration-curve-using-matplotlib.html)
 
+#### Reports Automation
+* [docxtpl python library for creating automated reports as word and pdf files from templates](https://nagasudhir.blogspot.com/2021/10/docxtpl-python-library-for-creating.html)
+
 #### Interactive Maps with folium
 * [Introduction to Folium for interactive maps](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html)
 * [Draw borders from GeoJSON paths in python folium maps](https://nagasudhir.blogspot.com/2021/07/draw-borders-from-geojson-paths-in.html)
@@ -114,11 +117,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE3ODgxNzMwMTAsODgxMD
-UyNTI5LDg5NjQ3NzM2NiwtMjk3NDIyODcxLC02MTY3MjE0NTUs
-NTM4ODE0ODg1LDg3Njg0ODI1NCw1MDU3MDc3MzAsMzcwNjkwNz
-I3LC0yMTEzODc2NDk2LDc5MTIwMDU0OSwxOTg3NzE2MTQ0LC0x
-OTQ5MjkwMjMxLC0xNjI3NzQ1ODAyLC05Mzg1MDA2ODksLTE4NT
-UzMDU4NjMsLTExNDYzMDQ2MTksMTY1NjY5NDAwMSwxMjU5MjMx
-MzU3LDI1NTYzNzUzNV19
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTIwOTQxODgyNDcsLTE3OD
+gxNzMwMTAsODgxMDUyNTI5LDg5NjQ3NzM2NiwtMjk3NDIyODcx
+LC02MTY3MjE0NTUsNTM4ODE0ODg1LDg3Njg0ODI1NCw1MDU3MD
+c3MzAsMzcwNjkwNzI3LC0yMTEzODc2NDk2LDc5MTIwMDU0OSwx
+OTg3NzE2MTQ0LC0xOTQ5MjkwMjMxLC0xNjI3NzQ1ODAyLC05Mz
+g1MDA2ODksLTE4NTUzMDU4NjMsLTExNDYzMDQ2MTksMTY1NjY5
+NDAwMSwxMjU5MjMxMzU3XX0=
 -->
