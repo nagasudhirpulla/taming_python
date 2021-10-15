@@ -77,7 +77,7 @@ for pItr, p in enumerate(personNames):
     }
 
     # inject image into the context
-    bannerImgPath = 'images/banner{0}.png'.format(pItr % 3)
+    bannerImgPath = 'images/party_banner_{0}.png'.format(pItr % 3)
     imgObj = InlineImage(doc, bannerImgPath)
     context['bannerImg'] = imgObj
 
@@ -104,6 +104,6 @@ print("execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4NDMwNzA4LDE4MzgzMjQ5NTcsLTg5Mz
-k5NjE5NiwxODQwODc1Njc3XX0=
+eyJoaXN0b3J5IjpbMTcyMDE0NjY3MCw3NTg0MzA3MDgsMTgzOD
+MyNDk1NywtODkzOTk2MTk2LDE4NDA4NzU2NzddfQ==
 -->
