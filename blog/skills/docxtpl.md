@@ -104,7 +104,7 @@ for pItr, p in enumerate(personNames):
 
 print("execution complete...")
 ``` 
-### Reports example
+### Reports Automation example
 ```python
 import datetime as dt
 import random
@@ -162,7 +162,7 @@ convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTc3ODc2LC02Mjg0OTc1OTIsLTk2Mj
+eyJoaXN0b3J5IjpbNzcxMTMzMDM3LC02Mjg0OTc1OTIsLTk2Mj
 kyMDA0LDE3MDU1MjcwMDYsMTk3OTE1NDY5OSwxNzIwMTQ2Njcw
 LDc1ODQzMDcwOCwxODM4MzI0OTU3LC04OTM5OTYxOTYsMTg0MD
 g3NTY3N119
