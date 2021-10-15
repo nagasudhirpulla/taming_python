@@ -15,7 +15,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 The following word files are used in this blog post
 * Template word file - [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx)
-* banner image - []()
+* banner image - [party_banner_0.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_0.png)
 
 ```python
 from docxtpl import DocxTemplate, InlineImage
@@ -52,5 +52,6 @@ doc.save('invitation.docx')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5Mzk5NjE5NiwxODQwODc1Njc3XX0=
+eyJoaXN0b3J5IjpbMTgzODMyNDk1NywtODkzOTk2MTk2LDE4ND
+A4NzU2NzddfQ==
 -->
