@@ -22,7 +22,7 @@ The following files are used in this blog post
 While running this scripts, create two folders named ```images```, ```invites```. Download the images and move them into the images folder placed in the same folder as the script file.
 
 ### Basic Example
-This is a simple example using ```docxtpl``` for populating words and images into a birthday invitation template word file 
+This is a simple example using ```docxtpl``` for populating words and images into a birthday invitation template word file. We are using the 
 ```python
 from docxtpl import DocxTemplate, InlineImage
 import datetime as dt
@@ -103,6 +103,6 @@ print("execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTYxMTY5NSwxODM4MzI0OTU3LC04OT
-M5OTYxOTYsMTg0MDg3NTY3N119
+eyJoaXN0b3J5IjpbLTE1NzkyOTcxNDYsMTgzODMyNDk1NywtOD
+kzOTk2MTk2LDE4NDA4NzU2NzddfQ==
 -->
