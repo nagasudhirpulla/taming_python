@@ -19,7 +19,7 @@ The following files are used in this blog post
 * Template word file - [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx)
 * images - [party_banner_0.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_0.png), [party_banner_1.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_1.png), [party_banner_2.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_2.png)
 
-While running this scripts, create two folders named ```images```, ```invites```. Download the images and move them into the images folder placed in the same folder as the script file
+While running this scripts, create two folders named ```images```, ```invites```. Download the images and move them into the images folder placed in the same folder as the script file.
 
 ### Basic Example
 ```python
@@ -48,6 +48,11 @@ doc.render(context)
 doc.save('invitation.docx')
 ```
 
+### Creating multiple files from single template
+```python
+
+``` 
+
 ### References
 * Official documentation - https://docxtpl.readthedocs.io/en/latest/
 
@@ -58,6 +63,6 @@ doc.save('invitation.docx')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzQ2NTk1NywxODM4MzI0OTU3LC04OT
-M5OTYxOTYsMTg0MDg3NTY3N119
+eyJoaXN0b3J5IjpbLTE4NzA3NzE2NzgsMTgzODMyNDk1NywtOD
+kzOTk2MTk2LDE4NDA4NzU2NzddfQ==
 -->
