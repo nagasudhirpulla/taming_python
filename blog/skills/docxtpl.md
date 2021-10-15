@@ -22,6 +22,7 @@ The following files are used in this blog post
 While running this scripts, create two folders named ```images```, ```invites```. Download the images and move them into the images folder placed in the same folder as the script file.
 
 ### Basic Example
+This is a simple example using docxtpl for populating words and images into a  
 ```python
 from docxtpl import DocxTemplate, InlineImage
 import datetime as dt
@@ -50,7 +51,46 @@ doc.save('invitation.docx')
 
 ### Creating multiple files from single template
 ```python
+from docxtpl import DocxTemplate, InlineImage
+import datetime as dt
+from docx2pdf import convert
 
+# template word file path
+tmplPath = "inviteTmpl.docx"
+
+personNames = ["Aakav", "Aakesh", "Aarav",
+               "Advik", "Chaitanya", "Chandran", "Darsh"]
+
+# run for each person in a for loop
+for pItr, p in enumerate(personNames):
+    # create a document object
+    doc = DocxTemplate(tmplPath)
+
+    # create context dictionary
+    context = {
+        "todayStr": dt.datetime.now().strftime("%d-%b-%Y"),
+        "recipientName": p,
+        "evntDtStr": "21-Oct-2021",
+        "venueStr": "the beach",
+        "senderName": "Sanket",
+    }
+
+    # inject image into the context
+    bannerImgPath = 'images/banner{0}.png'.format(pItr % 3)
+    imgObj = InlineImage(doc, bannerImgPath)
+    context['bannerImg'] = imgObj
+
+    # render context into the document object
+    doc.render(context)
+
+    # save the document object as a word file
+    resultFilePath = 'invites/invitation_{0}.docx'.format(pItr)
+    doc.save(resultFilePath)
+
+    # convert the word file into pdf
+    convert(resultFilePath, resultFilePath.replace('.docx', '.pdf'))
+
+print("execution complete...")
 ``` 
 
 ### References
@@ -63,6 +103,6 @@ doc.save('invitation.docx')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzA3NzE2NzgsMTgzODMyNDk1NywtOD
-kzOTk2MTk2LDE4NDA4NzU2NzddfQ==
+eyJoaXN0b3J5IjpbMTcyODg0MDcwMywxODM4MzI0OTU3LC04OT
+M5OTYxOTYsMTg0MDg3NTY3N119
 -->
