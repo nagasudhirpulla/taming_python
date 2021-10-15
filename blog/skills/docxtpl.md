@@ -25,7 +25,9 @@ While running this scripts, create two folders named ```images```, ```invites```
 If can render a variable named ```xyz``` by writing ```{{ xyz }}``` in the template word file. The variable can be text or image.
 
 ### Basic Example
-This is a simple example using ```docxtpl``` for populating words and images into a birthday invitation template word file. We are using the ```DocxTemplate``` and ```InlineImage``` classes.
+* This is a simple example using ```docxtpl``` for populating words and images into a birthday invitation template word file. 
+* We are using the ```DocxTemplate``` and ```InlineImage``` classes.
+* Output should be created as a file named ```invitation.docx```
 ```python
 from docxtpl import DocxTemplate, InlineImage
 import datetime as dt
@@ -107,7 +109,7 @@ print("execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODQ1MzEyMiwxNzIwMTQ2NjcwLDc1OD
+eyJoaXN0b3J5IjpbMTg4OTg2Mjk1OCwxNzIwMTQ2NjcwLDc1OD
 QzMDcwOCwxODM4MzI0OTU3LC04OTM5OTYxOTYsMTg0MDg3NTY3
 N119
 -->
