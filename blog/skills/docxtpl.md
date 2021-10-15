@@ -151,7 +151,6 @@ doc.save(reportWordPath)
 convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 ```
 
-
 ### References
 * Official documentation - https://docxtpl.readthedocs.io/en/latest/
 
@@ -162,7 +161,7 @@ convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODQxODg5MCwtOTYyOTIwMDQsMTcwNT
+eyJoaXN0b3J5IjpbLTYyODQ5NzU5MiwtOTYyOTIwMDQsMTcwNT
 UyNzAwNiwxOTc5MTU0Njk5LDE3MjAxNDY2NzAsNzU4NDMwNzA4
 LDE4MzgzMjQ5NTcsLTg5Mzk5NjE5NiwxODQwODc1Njc3XX0=
 -->
