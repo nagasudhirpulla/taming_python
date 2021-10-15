@@ -9,28 +9,12 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
+**docxtpl** is a python library for populating data into word file templates.
+This helps in automating reports 
 
 
 ```python
-import pandas as pd
-# create a dataframe
-x = {
-	"Name": ["Harris", "Miss. Elizabeth"],
-	"Age": [22, 58],
-	"Sex": ["male", "female"]
-	}
-df = pd.DataFrame(x)
 
-print(df.shape)
-# this will print (2,3)
-
-print('Number of rows = {0}'.format(df.shape[0]))
-print('Number of columns = {0}'.format(df.shape[1]))
-'''
-this will print
-Number of rows = 2
-Number of columns = 3
-'''
 ```
 
 ### References
@@ -42,5 +26,5 @@ Number of columns = 3
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTc4ODU5OV19
+eyJoaXN0b3J5IjpbMjA5MDI2ODU1M119
 -->
