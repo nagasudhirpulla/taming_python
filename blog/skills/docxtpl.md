@@ -16,7 +16,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Since we are using word file templates we can use rich text features like fonts, font sizes, colors etc without any programming.
 
 The following files are used in this blog post
-* Template word file - [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx)
+* Template word files - [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx), [reportTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/reportTmpl.docx)
 * images - [party_banner_0.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_0.png), [party_banner_1.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_1.png), [party_banner_2.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_2.png)
 
 While running this scripts, create folders named ```images```, ```invites``` and ```reports```. Download the images and move them into the images folder placed in the same folder as the script file.
@@ -118,7 +118,7 @@ print("execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM3NTM2MjAsMTcwNTUyNzAwNiwxOT
-c5MTU0Njk5LDE3MjAxNDY2NzAsNzU4NDMwNzA4LDE4MzgzMjQ5
-NTcsLTg5Mzk5NjE5NiwxODQwODc1Njc3XX0=
+eyJoaXN0b3J5IjpbLTk2MjkyMDA0LDE3MDU1MjcwMDYsMTk3OT
+E1NDY5OSwxNzIwMTQ2NjcwLDc1ODQzMDcwOCwxODM4MzI0OTU3
+LC04OTM5OTYxOTYsMTg0MDg3NTY3N119
 -->
