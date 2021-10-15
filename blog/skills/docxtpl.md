@@ -32,17 +32,9 @@ Number of rows = 2
 Number of columns = 3
 '''
 ```
-### Video
-Video for this post can be found [here](https://youtu.be/xVPX-Y7f-eE)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xVPX-Y7f-eE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
-* Official tutorial - https://pandas.pydata.org/pandas-docs/stable/getting_started/index.html
+* Official documentation - https://docxtpl.readthedocs.io/en/latest/
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -50,5 +42,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODcyMDg2XX0=
+eyJoaXN0b3J5IjpbLTY1OTc4ODU5OV19
 -->
