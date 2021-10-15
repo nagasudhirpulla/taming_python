@@ -111,7 +111,8 @@ for loop can be used by with tables in word file templates as shown below
 ![docxtpl_for_loop_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_for_loop_demo.png)
 ### Reports Automation example
 * In this example we will create a sales report based on a word template
-* An bar chart image file is created at the location ```images/trendImg.png``` using matplotlib plotting library and the image is rendered in the report 
+* An bar chart image file is created at the location ```images/trendImg.png``` using matplotlib plotting library and the image is rendered in the report using ```InlineImage``` Object
+
 ![docxtpl_reports_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_reports_demo.png)
 ```python
 import datetime as dt
@@ -170,8 +171,8 @@ convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTk1MDE5LDc3MTEzMzAzNywtNjI4ND
-k3NTkyLC05NjI5MjAwNCwxNzA1NTI3MDA2LDE5NzkxNTQ2OTks
-MTcyMDE0NjY3MCw3NTg0MzA3MDgsMTgzODMyNDk1NywtODkzOT
-k2MTk2LDE4NDA4NzU2NzddfQ==
+eyJoaXN0b3J5IjpbMTI3NDk1MjY2Niw3NzExMzMwMzcsLTYyOD
+Q5NzU5MiwtOTYyOTIwMDQsMTcwNTUyNzAwNiwxOTc5MTU0Njk5
+LDE3MjAxNDY2NzAsNzU4NDMwNzA4LDE4MzgzMjQ5NTcsLTg5Mz
+k5NjE5NiwxODQwODc1Njc3XX0=
 -->
