@@ -29,6 +29,7 @@ If can render a variable named ```xyz``` by writing ```{{ xyz }}``` in the templ
 * We are using the ```DocxTemplate``` and ```InlineImage``` classes.
 * Output should be created as a files named ```invitation.docx``` and ```invitation.pdf```.
 * We are using the ```convert``` function from ```docx2pdf``` library for converting word file to pdf file.
+![docxtpl_invitation_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_invitation_demo.png)
 ```python
 from docxtpl import DocxTemplate, InlineImage
 import datetime as dt
@@ -161,7 +162,8 @@ convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODQ5NzU5MiwtOTYyOTIwMDQsMTcwNT
-UyNzAwNiwxOTc5MTU0Njk5LDE3MjAxNDY2NzAsNzU4NDMwNzA4
-LDE4MzgzMjQ5NTcsLTg5Mzk5NjE5NiwxODQwODc1Njc3XX0=
+eyJoaXN0b3J5IjpbLTU1NTc3ODc2LC02Mjg0OTc1OTIsLTk2Mj
+kyMDA0LDE3MDU1MjcwMDYsMTk3OTE1NDY5OSwxNzIwMTQ2Njcw
+LDc1ODQzMDcwOCwxODM4MzI0OTU3LC04OTM5OTYxOTYsMTg0MD
+g3NTY3N119
 -->
