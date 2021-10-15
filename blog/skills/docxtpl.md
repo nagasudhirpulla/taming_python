@@ -10,7 +10,8 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 **docxtpl** is a python library for populating data into word file templates.
-This helps in automating reports 
+This helps in automating reports very easily. 
+Since we are using word file templates we can use rich text features like fonts, font sizes, colors etc without any programming.
 
 
 ```python
@@ -26,5 +27,5 @@ This helps in automating reports
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDI2ODU1M119
+eyJoaXN0b3J5IjpbLTEwNzU4NDE1XX0=
 -->
