@@ -15,10 +15,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 The following word files are used in this blog post
 * [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx)
-* 
 
 ```python
-
+from docx
 ```
 
 ### References
@@ -30,5 +29,5 @@ The following word files are used in this blog post
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTg1Mzc2MV19
+eyJoaXN0b3J5IjpbMTg0MDg3NTY3N119
 -->
