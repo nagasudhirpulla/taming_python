@@ -19,7 +19,7 @@ The following files are used in this blog post
 * Template word file - [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx)
 * images - [party_banner_0.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_0.png), [party_banner_1.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_1.png), [party_banner_2.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_2.png)
 
-While running this scripts, create two folders named ```images```, ```invites```. Download the images and move them into the images folder placed in the same folder as the script file.
+While running this scripts, create folders named ```images```, ```invites``` and ```reports```. Download the images and move them into the images folder placed in the same folder as the script file.
 
 ### Placeholder for variable in word file
 If can render a variable named ```xyz``` by writing ```{{ xyz }}``` in the template word file. The variable can be text or image.
@@ -103,6 +103,10 @@ for pItr, p in enumerate(personNames):
 
 print("execution complete...")
 ``` 
+### Reports example
+```python
+```
+
 
 ### References
 * Official documentation - https://docxtpl.readthedocs.io/en/latest/
@@ -114,7 +118,7 @@ print("execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTUyNzAwNiwxOTc5MTU0Njk5LDE3Mj
-AxNDY2NzAsNzU4NDMwNzA4LDE4MzgzMjQ5NTcsLTg5Mzk5NjE5
-NiwxODQwODc1Njc3XX0=
+eyJoaXN0b3J5IjpbLTEyMzM3NTM2MjAsMTcwNTUyNzAwNiwxOT
+c5MTU0Njk5LDE3MjAxNDY2NzAsNzU4NDMwNzA4LDE4MzgzMjQ5
+NTcsLTg5Mzk5NjE5NiwxODQwODc1Njc3XX0=
 -->
