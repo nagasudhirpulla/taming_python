@@ -105,6 +105,7 @@ for pItr, p in enumerate(personNames):
 print("execution complete...")
 ``` 
 ### Reports Automation example
+![docxtpl_reports_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_reports_demo.png)
 ```python
 import datetime as dt
 import random
@@ -162,8 +163,8 @@ convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxMTMzMDM3LC02Mjg0OTc1OTIsLTk2Mj
-kyMDA0LDE3MDU1MjcwMDYsMTk3OTE1NDY5OSwxNzIwMTQ2Njcw
-LDc1ODQzMDcwOCwxODM4MzI0OTU3LC04OTM5OTYxOTYsMTg0MD
-g3NTY3N119
+eyJoaXN0b3J5IjpbLTE0NjcwMzU4ODcsNzcxMTMzMDM3LC02Mj
+g0OTc1OTIsLTk2MjkyMDA0LDE3MDU1MjcwMDYsMTk3OTE1NDY5
+OSwxNzIwMTQ2NjcwLDc1ODQzMDcwOCwxODM4MzI0OTU3LC04OT
+M5OTYxOTYsMTg0MDg3NTY3N119
 -->
