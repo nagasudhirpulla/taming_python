@@ -107,8 +107,8 @@ print("execution complete...")
 ``` 
 
 ### for loop in docxtpl templates
-for loop can be used by using tables in word file templates
-
+for loop can be used by using tables in word file templates as shown below
+![docxtpl_for_loop_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_for_loop_demo.png)
 
 ### Reports Automation example
 In this example we will create a sales report based on a word template
@@ -170,7 +170,7 @@ convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjg3MDcxOSw3NzExMzMwMzcsLTYyOD
+eyJoaXN0b3J5IjpbLTc0Njk5MDY5NSw3NzExMzMwMzcsLTYyOD
 Q5NzU5MiwtOTYyOTIwMDQsMTcwNTUyNzAwNiwxOTc5MTU0Njk5
 LDE3MjAxNDY2NzAsNzU4NDMwNzA4LDE4MzgzMjQ5NTcsLTg5Mz
 k5NjE5NiwxODQwODc1Njc3XX0=
