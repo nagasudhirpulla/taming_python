@@ -107,7 +107,7 @@ for pItr, p in enumerate(personNames):
 print("execution complete...")
 ``` 
 
-### Render a list of variables using "for" loop in docxtpl templates
+### Render a list of items using "for" loop in docxtpl templates
 for loop can be used by with tables in word file templates as shown below
 ![docxtpl_for_loop_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_for_loop_demo.png)
 ### Reports Automation example
@@ -172,8 +172,8 @@ convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTU1MTAxNDMsMTI3NDk1MjY2Niw3Nz
-ExMzMwMzcsLTYyODQ5NzU5MiwtOTYyOTIwMDQsMTcwNTUyNzAw
-NiwxOTc5MTU0Njk5LDE3MjAxNDY2NzAsNzU4NDMwNzA4LDE4Mz
-gzMjQ5NTcsLTg5Mzk5NjE5NiwxODQwODc1Njc3XX0=
+eyJoaXN0b3J5IjpbMzQ2NDAyMDU4LDEyNzQ5NTI2NjYsNzcxMT
+MzMDM3LC02Mjg0OTc1OTIsLTk2MjkyMDA0LDE3MDU1MjcwMDYs
+MTk3OTE1NDY5OSwxNzIwMTQ2NjcwLDc1ODQzMDcwOCwxODM4Mz
+I0OTU3LC04OTM5OTYxOTYsMTg0MDg3NTY3N119
 -->
