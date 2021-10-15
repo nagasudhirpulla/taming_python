@@ -13,6 +13,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 * This helps in automating reports very easily. 
 * Since we are using word file templates we can use rich text features like fonts, font sizes, colors etc without any programming.
 
+The following word files are used in this blog post
+* [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx)
+* 
 
 ```python
 
@@ -27,5 +30,5 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTk0MTY5MV19
+eyJoaXN0b3J5IjpbLTMxNTg1Mzc2MV19
 -->
