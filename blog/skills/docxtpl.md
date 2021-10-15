@@ -27,8 +27,8 @@ If can render a variable named ```xyz``` by writing ```{{ xyz }}``` in the templ
 ### Basic Example
 * This is a simple example using ```docxtpl``` for populating words and images into a birthday invitation template word file. 
 * We are using the ```DocxTemplate``` and ```InlineImage``` classes.
-* Output should be created as a files named ```invitation.docx``` and ```invitation.pdf```
-* We are using
+* Output should be created as a files named ```invitation.docx``` and ```invitation.pdf```.
+* We are using docx2pdf library for converting word file to pdf file.
 ```python
 from docxtpl import DocxTemplate, InlineImage
 import datetime as dt
@@ -114,7 +114,7 @@ print("execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzA4Mjc3MjUsMTcyMDE0NjY3MCw3NT
-g0MzA3MDgsMTgzODMyNDk1NywtODkzOTk2MTk2LDE4NDA4NzU2
-NzddfQ==
+eyJoaXN0b3J5IjpbMTczMDY3MjIxOSwxNzIwMTQ2NjcwLDc1OD
+QzMDcwOCwxODM4MzI0OTU3LC04OTM5OTYxOTYsMTg0MDg3NTY3
+N119
 -->
