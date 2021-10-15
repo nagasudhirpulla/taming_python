@@ -50,7 +50,7 @@ doc.save('invitation.docx')
 ```
 
 ### Creating multiple files from single template
-* In this example, we are populating  
+* In this example, we are populating  data into a template word file multiple times for each person name to create an invitation file for each person name.
 ```python
 from docxtpl import DocxTemplate, InlineImage
 import datetime as dt
@@ -104,6 +104,6 @@ print("execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU0MTkwMiwxODM4MzI0OTU3LC04OT
-M5OTYxOTYsMTg0MDg3NTY3N119
+eyJoaXN0b3J5IjpbNzU4NDMwNzA4LDE4MzgzMjQ5NTcsLTg5Mz
+k5NjE5NiwxODQwODc1Njc3XX0=
 -->
