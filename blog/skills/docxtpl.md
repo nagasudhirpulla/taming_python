@@ -1,4 +1,5 @@
 ## Skill - python docxtpl for creating automated reports as word and pdf files from templates
+
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -171,7 +172,7 @@ convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTkyMTk4MywxMjc0OTUyNjY2LDc3MT
+eyJoaXN0b3J5IjpbMTI3OTk3ODA2NywxMjc0OTUyNjY2LDc3MT
 EzMzAzNywtNjI4NDk3NTkyLC05NjI5MjAwNCwxNzA1NTI3MDA2
 LDE5NzkxNTQ2OTksMTcyMDE0NjY3MCw3NTg0MzA3MDgsMTgzOD
 MyNDk1NywtODkzOTk2MTk2LDE4NDA4NzU2NzddfQ==
