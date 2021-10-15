@@ -14,10 +14,33 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Since we are using word file templates we can use rich text features like fonts, font sizes, colors etc without any programming.
 
 The following word files are used in this blog post
-* [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx)
+* Template word file - [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx)
+* 
 
 ```python
-from docx
+from docxtpl import DocxTemplate, InlineImage
+import datetime as dt
+
+# create a document object
+doc = DocxTemplate("inviteTmpl.docx")
+
+# create context dictionary
+context = {
+    "todayStr": dt.datetime.now().strftime("%d-%b-%Y"),
+    "recipientName": "Chaitanya",
+    "evntDtStr": "21-Oct-2021",
+    "venueStr": "the beach",
+    "senderName": "Sanket",
+}
+
+# inject image into the context
+context['bannerImg'] = InlineImage(doc, 'images/banner0.png')
+
+# render context into the document object
+doc.render(context)
+
+# save the document object as a word file
+doc.save('invitation.docx')
 ```
 
 ### References
@@ -29,5 +52,5 @@ from docx
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDg3NTY3N119
+eyJoaXN0b3J5IjpbLTc0MDQ4NjUwOSwxODQwODc1Njc3XX0=
 -->
