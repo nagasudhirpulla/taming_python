@@ -1,4 +1,4 @@
-## Skill - python docxtpl for automating reports templates
+## Skill - python docxtpl for automating report templates
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -114,7 +114,7 @@ print("execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzEzMjQ0NzcsMTk3OTE1NDY5OSwxNz
-IwMTQ2NjcwLDc1ODQzMDcwOCwxODM4MzI0OTU3LC04OTM5OTYx
-OTYsMTg0MDg3NTY3N119
+eyJoaXN0b3J5IjpbMTcwNTUyNzAwNiwxOTc5MTU0Njk5LDE3Mj
+AxNDY2NzAsNzU4NDMwNzA4LDE4MzgzMjQ5NTcsLTg5Mzk5NjE5
+NiwxODQwODc1Njc3XX0=
 -->
