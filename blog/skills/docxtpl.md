@@ -34,7 +34,7 @@ context = {
 }
 
 # inject image into the context
-context['bannerImg'] = InlineImage(doc, 'images/banner0.png')
+context['bannerImg'] = InlineImage(doc, 'images/party_banner_0.png')
 
 # render context into the document object
 doc.render(context)
@@ -52,5 +52,5 @@ doc.save('invitation.docx')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0OTY3MjUwLDE4NDA4NzU2NzddfQ==
+eyJoaXN0b3J5IjpbLTg5Mzk5NjE5NiwxODQwODc1Njc3XX0=
 -->
