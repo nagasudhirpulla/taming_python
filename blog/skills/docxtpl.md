@@ -9,6 +9,8 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
+<hr/>
+
 * **docxtpl** is a python library for populating data into word file templates.
 * This helps in automating reports very easily. 
 * Since we are using word file templates we can use rich text features like fonts, font sizes, colors etc without any programming.
@@ -19,6 +21,7 @@ The following files are used in this blog post
 
 While running this scripts, create two folders named ```images```, ```invites```. Download the images and move them into the images folder placed in the same folder as the script file
 
+### Basic Example
 ```python
 from docxtpl import DocxTemplate, InlineImage
 import datetime as dt
@@ -47,6 +50,7 @@ doc.save('invitation.docx')
 
 ### References
 * Official documentation - https://docxtpl.readthedocs.io/en/latest/
+
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -54,6 +58,6 @@ doc.save('invitation.docx')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTEyMzAzNywxODM4MzI0OTU3LC04OT
+eyJoaXN0b3J5IjpbLTkxMzQ2NTk1NywxODM4MzI0OTU3LC04OT
 M5OTYxOTYsMTg0MDg3NTY3N119
 -->
