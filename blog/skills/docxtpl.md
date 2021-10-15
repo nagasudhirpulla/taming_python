@@ -107,7 +107,6 @@ print("execution complete...")
 ```python
 import datetime as dt
 import random
-
 from docx2pdf import convert
 import matplotlib.pyplot as plt
 from docxtpl import DocxTemplate, InlineImage
@@ -163,7 +162,7 @@ convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzAyNzg2MjAsLTk2MjkyMDA0LDE3MD
-U1MjcwMDYsMTk3OTE1NDY5OSwxNzIwMTQ2NjcwLDc1ODQzMDcw
-OCwxODM4MzI0OTU3LC04OTM5OTYxOTYsMTg0MDg3NTY3N119
+eyJoaXN0b3J5IjpbLTQyODQxODg5MCwtOTYyOTIwMDQsMTcwNT
+UyNzAwNiwxOTc5MTU0Njk5LDE3MjAxNDY2NzAsNzU4NDMwNzA4
+LDE4MzgzMjQ5NTcsLTg5Mzk5NjE5NiwxODQwODc1Njc3XX0=
 -->
