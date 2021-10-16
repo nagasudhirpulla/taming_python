@@ -162,6 +162,11 @@ doc.save(reportWordPath)
 convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVHbDB5yBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 * Official documentation - https://docxtpl.readthedocs.io/en/latest/
 
@@ -172,8 +177,9 @@ convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2NDAyMDU4LDEyNzQ5NTI2NjYsNzcxMT
-MzMDM3LC02Mjg0OTc1OTIsLTk2MjkyMDA0LDE3MDU1MjcwMDYs
-MTk3OTE1NDY5OSwxNzIwMTQ2NjcwLDc1ODQzMDcwOCwxODM4Mz
-I0OTU3LC04OTM5OTYxOTYsMTg0MDg3NTY3N119
+eyJoaXN0b3J5IjpbMjMxMDgzNzUsMzQ2NDAyMDU4LDEyNzQ5NT
+I2NjYsNzcxMTMzMDM3LC02Mjg0OTc1OTIsLTk2MjkyMDA0LDE3
+MDU1MjcwMDYsMTk3OTE1NDY5OSwxNzIwMTQ2NjcwLDc1ODQzMD
+cwOCwxODM4MzI0OTU3LC04OTM5OTYxOTYsMTg0MDg3NTY3N119
+
 -->
