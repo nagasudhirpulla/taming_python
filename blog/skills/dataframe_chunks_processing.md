@@ -47,7 +47,7 @@ print("max volume was {0} at {1}".format(
 
 Thus by using a divide and rule approach, we can process a huge data file using the ```chunksize``` option while importing the file
 
-### .dbf file Example Code
+### .dbf file example code
 The file used in this example can be downloaded from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/marks.dbf)
 ```python
 import  pandas  as  pd
@@ -76,5 +76,5 @@ for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=1000):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDIyMTQzM119
+eyJoaXN0b3J5IjpbLTE3OTY1ODI3MjddfQ==
 -->
