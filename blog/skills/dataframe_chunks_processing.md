@@ -21,7 +21,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ### Example
 * The below example python script tries to read a huge csv file containing historical bitcoin data in chunks of 10,000 rows 
 * Each dataframe chunk is processed to update the maximum bitcoin volume value and the timestamp at maximum value
-* Thus by using a divide and rule approach, we can process a huge data file using the ```chunksize``` option while importing the file
+
 ```python
 import  pandas  as  pd
 import  datetime  as  dt
@@ -45,6 +45,8 @@ print("max volume was {0} at {1}".format(
     maxVolume, dt.datetime.fromtimestamp(maxVolTs)))
 ```
 
+Thus by using a divide and rule approach, we can process a huge data file using the ```chunksize``` option while importing the file
+
 ### Video
 Video for this post can be found [here](https://youtu.be/mRDpAQrb5cw)
 
@@ -66,5 +68,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyMDkzNDAwXX0=
+eyJoaXN0b3J5IjpbMTI4NDI4OTg2XX0=
 -->
