@@ -16,6 +16,8 @@ In this post, we will learn how to process dataframes from large csv and dbf fil
 If we desire to import dataframe from dbf file, we require simpledbf module.
 Install simpledbf using the command `pip install simpledbf`
 
+The file used in this example can be downloaded from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/marks.dbf)
+
 ### Example
 ```python
 # import pandas module
@@ -52,5 +54,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTg1NzUyNTFdfQ==
+eyJoaXN0b3J5IjpbMjE4MTE0NjgxXX0=
 -->
