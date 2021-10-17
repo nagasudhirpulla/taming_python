@@ -1,4 +1,4 @@
-## Skill - Read and process dataframes from large files usin 
+## Skill - Read and process pandas dataframes from large files using chunks
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -11,7 +11,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 <hr/>
-In this post, we will learn how to import dataframe from a `dbf` file
+In this post, we will learn how to process dataframes from large csv and dbf files
 
 In order to import dataframe from dbf file, we require simpledbf module.
 Install simpledbf using the command `pip install simpledbf`
@@ -52,5 +52,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NzIyNzkzNl19
+eyJoaXN0b3J5IjpbLTcwOTQzMzQzM119
 -->
