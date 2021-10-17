@@ -18,7 +18,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * If we desire to import dataframe from dbf file, we require simpledbf module. Install it using the command `pip install simpledbf`
 * The csv file used in this example can be downloaded from [here](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
 
-### Example
+### Example Code
 * The below example python script tries to read a huge csv file containing historical bitcoin data in chunks of 10,000 rows 
 * Each dataframe chunk is processed to update the maximum bitcoin volume value and the timestamp at maximum value
 
@@ -60,5 +60,5 @@ Thus by using a divide and rule approach, we can process a huge data file using 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTQxNTEwMl19
+eyJoaXN0b3J5IjpbMTg4MDQyODE1MV19
 -->
