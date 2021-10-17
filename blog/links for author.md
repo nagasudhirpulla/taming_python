@@ -24,6 +24,9 @@ for dfChunk in pd.read_csv("data.csv", chunksize=10000):
 print("max volume was {0} at {1}".format(
     maxVolume, dt.datetime.fromtimestamp(maxVolTs)))
 ```
+```python
+df = Dbf5(dbfPath).to_dataframe(chunksize=1000)
+```
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
 * global variables and using them inside functions- https://instructobit.com/tutorial/108/How-to-share-global-variables-between-files-in-Python
@@ -35,11 +38,11 @@ print("max volume was {0} at {1}".format(
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzU1NzE5NCwtOTI3NTMyNDkxLDc5NT
-c2MzMzNSwtNjU2NzM3OTk3LC0xNjMyMzkyMDg3LC0yMjk2Mjk1
-NTcsMTkyNDI2Mzk4OCwxMzkxMzk0MDYwLDEyNTgyODYyMzcsLT
-g5MDIzOTEwMCwtMTE0NDkxMTQzNywtMzY0NTg4MTM2LC0xNjA3
-NTU2NDY4LC0xMTkzOTg5ODcwLDk5MDUxMzExMSwtODgxMTM4Mz
-gxLC05ODk0NzcyNjEsLTIwNTY0MDU1NTAsLTk3ODY3MzQxLC0z
-MjM5ODgxNDldfQ==
+eyJoaXN0b3J5IjpbMTg3NTQ1ODQ4LC02MTM1NTcxOTQsLTkyNz
+UzMjQ5MSw3OTU3NjMzMzUsLTY1NjczNzk5NywtMTYzMjM5MjA4
+NywtMjI5NjI5NTU3LDE5MjQyNjM5ODgsMTM5MTM5NDA2MCwxMj
+U4Mjg2MjM3LC04OTAyMzkxMDAsLTExNDQ5MTE0MzcsLTM2NDU4
+ODEzNiwtMTYwNzU1NjQ2OCwtMTE5Mzk4OTg3MCw5OTA1MTMxMT
+EsLTg4MTEzODM4MSwtOTg5NDc3MjYxLC0yMDU2NDA1NTUwLC05
+Nzg2NzM0MV19
 -->
