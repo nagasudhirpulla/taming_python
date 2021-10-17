@@ -21,9 +21,14 @@ Please make sure to have all the skills mentioned above to understand and execut
 If we desire to just preview a very small subset of a large csv file, use ```nrows``` and ```skiprows``` options
 ```python
 import  pandas  as  pd
-import  datetime  as  dt
+
+# read only 10 rows from csv file
 df = pd.read_csv("data.csv", nrows=10)
 print(df.columns.tolist())
+
+# skip first 5 rows and read only 10 rows from csv file
+df = pd.read_csv("data.csv", nrows=10, skiprows=5)
+
 ```
 
 ### Example Code
@@ -85,5 +90,5 @@ for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=10):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTAwNzEyNF19
+eyJoaXN0b3J5IjpbLTEwMzk2NjM5NThdfQ==
 -->
