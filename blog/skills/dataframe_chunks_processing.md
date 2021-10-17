@@ -16,7 +16,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 * If we desire to import dataframe from dbf file, we require simpledbf module.
 Install simpledbf using the command `pip install simpledbf`
 
-The file used in this example can be downloaded from [here](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
+
+The csv file used in this example can be downloaded from [here](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
 
 ### Example
 ```python
@@ -54,5 +55,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTA4MTU2NDFdfQ==
+eyJoaXN0b3J5IjpbLTQ2MDgyOTQ4NV19
 -->
