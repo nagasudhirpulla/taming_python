@@ -13,7 +13,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 
 * If we try to import large a csv or dbf file into a single dataframe, we may run into memory issues resulting in crashing of the python script.
-* In this post we will process large dataframe from large data file using 
+* In this post we will process large dataframe from large data file using ```chunksize``` option while importing the data.
+*  Using ```chunksize``` option returns an iterator that reads adataframe  
 * If we desire to import dataframe from dbf file, we require simpledbf module. Install it using the command `pip install simpledbf`
 * The csv file used in this example can be downloaded from [here](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
 
@@ -55,5 +56,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMzMwODA1OV19
+eyJoaXN0b3J5IjpbLTQ1MTAwMjIxNl19
 -->
