@@ -47,15 +47,7 @@ print("max volume was {0} at {1}".format(
 
 Thus by using a divide and rule approach, we can process a huge data file using the ```chunksize``` option while importing the file
 
-### Video
-Video for this post can be found [here](https://youtu.be/mRDpAQrb5cw)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mRDpAQrb5cw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <hr/>
-
-### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://www.tutorialspoint.com/execute_python_online.php
 
 ### References
 * https://stackoverflow.com/questions/41898561/pandas-transform-a-dbf-table-into-a-dataframe
@@ -68,5 +60,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDI4OTg2XX0=
+eyJoaXN0b3J5IjpbMjUxOTQ5MzE3XX0=
 -->
