@@ -57,7 +57,7 @@ from simpledbf import Dbf5
 dbfPath = 'test.dbf'
 numRows = 0
 for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=1000):  
-	# process each dfChunk that contains 1000 rows in each dfChunk dataframe
+	# process each dataframe chunk
 	numRows += len(dfChunk)
 	print("processed {0} rows".format(numRows))
 ```
@@ -75,5 +75,5 @@ for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=1000):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzkzNjY1NjFdfQ==
+eyJoaXN0b3J5IjpbMTkwODc3NzgzMl19
 -->
