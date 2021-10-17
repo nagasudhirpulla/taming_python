@@ -50,7 +50,7 @@ Thus by using a divide and rule approach, we can process a huge data file using 
 <hr/>
 
 ### References
-* https://stackoverflow.com/questions/41898561/pandas-transform-a-dbf-table-into-a-dataframe
+* https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html
 
 <hr/>
 
@@ -60,5 +60,5 @@ Thus by using a divide and rule approach, we can process a huge data file using 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxOTQ5MzE3XX0=
+eyJoaXN0b3J5IjpbLTQzNTQxNTEwMl19
 -->
