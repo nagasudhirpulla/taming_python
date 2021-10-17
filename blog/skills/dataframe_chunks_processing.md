@@ -12,12 +12,12 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* In this post, we will learn how to process dataframes from large csv and dbf files
-* If we desire to import dataframe from dbf file, we require simpledbf module.
-Install simpledbf using the command `pip install simpledbf`
+* If we try to import large a csv or dbf file into a single dataframe, we may run into memory issues resulting in crashing of the python script.
+* In this post we will process large dataframe from large data file using 
+* If we desire to import dataframe from dbf file, we require simpledbf module. Install it using the command `pip install simpledbf`
 * The csv file used in this example can be downloaded from [here](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
 
-If we try to import large a csv or dbf file into a single dataframe, we may run into memry issues resulting in crashing of the python script.
+
 
 ### Example
 ```python
@@ -55,5 +55,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1NDc1MDRdfQ==
+eyJoaXN0b3J5IjpbLTMzMzMwODA1OV19
 -->
