@@ -19,6 +19,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * The csv file used in this example can be downloaded from [here](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
 
 ### Example
+The below example tries to read a huge csv file in chunks of 10,000 rows and process each chunks to update the maximum column value and the index of the maximimum
 ```python
 import  pandas  as  pd
 import  datetime  as  dt
@@ -41,7 +42,6 @@ for dfChunk in pd.read_csv("data.csv", chunksize=10000):
 print("max volume was {0} at {1}".format(
     maxVolume, dt.datetime.fromtimestamp(maxVolTs)))
 ```
-The file used in this example can be downloaded from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/marks.dbf)
 
 ### Video
 Video for this post can be found [here](https://youtu.be/mRDpAQrb5cw)
@@ -64,5 +64,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzOTUzMzgwXX0=
+eyJoaXN0b3J5IjpbMTY0NDIxMDcxNV19
 -->
