@@ -20,9 +20,26 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ### Example
 ```python
-# import pandas module
-for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=1000):  
-	# process each dfChunk that contains 1000 rows in each dfChunk dataframe
+import  pandas  as  pd
+import  datetime  as  dt
+df = pd.read_csv("data.csv", nrows=10)
+print(df.columns.tolist())
+
+maxVolume = 0
+maxVolTs = 0
+numRows = 0
+volColName = "Volume_(Currency)"
+for dfChunk in pd.read_csv("data.csv", chunksize=10000):
+    numRows += len(dfChunk)
+    tempMaxInd = dfChunk[volColName].idxmax()
+    if (not pd.isna(tempMaxInd)):
+        tempMax = dfChunk[volColName].loc[tempMaxInd]
+        if tempMax > maxVolume:
+            maxVolume = tempMax
+            maxVolTs = dfChunk["Timestamp"].loc[tempMaxInd]
+    print("{0} rows processed".format(numRows))
+print("max volume was {0} at {1}".format(
+    maxVolume, dt.datetime.fromtimestamp(maxVolTs)))
 ```
 The file used in this example can be downloaded from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/marks.dbf)
 
@@ -47,5 +64,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE1MTAxOTddfQ==
+eyJoaXN0b3J5IjpbNjQzOTUzMzgwXX0=
 -->
