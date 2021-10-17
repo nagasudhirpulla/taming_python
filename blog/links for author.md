@@ -6,8 +6,11 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 ### TODOS
 * process dataframes from csv, excel and dbf in chunks
 ```python
-import pandas as pd
-import datetime as dt
+import  pandas  as  pd
+import  datetime  as  dt
+df = pd.read_csv("data.csv", nrows=10)
+print(df.columns.tolist())
+
 maxVolume = 0
 maxVolTs = 0
 numRows = 0
@@ -39,11 +42,11 @@ for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=1000):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5NzczMjM1LC02MTM1NTcxOTQsLTkyNz
-UzMjQ5MSw3OTU3NjMzMzUsLTY1NjczNzk5NywtMTYzMjM5MjA4
-NywtMjI5NjI5NTU3LDE5MjQyNjM5ODgsMTM5MTM5NDA2MCwxMj
-U4Mjg2MjM3LC04OTAyMzkxMDAsLTExNDQ5MTE0MzcsLTM2NDU4
-ODEzNiwtMTYwNzU1NjQ2OCwtMTE5Mzk4OTg3MCw5OTA1MTMxMT
-EsLTg4MTEzODM4MSwtOTg5NDc3MjYxLC0yMDU2NDA1NTUwLC05
-Nzg2NzM0MV19
+eyJoaXN0b3J5IjpbLTk1MjgwOTU5OCw0Nzk3NzMyMzUsLTYxMz
+U1NzE5NCwtOTI3NTMyNDkxLDc5NTc2MzMzNSwtNjU2NzM3OTk3
+LC0xNjMyMzkyMDg3LC0yMjk2Mjk1NTcsMTkyNDI2Mzk4OCwxMz
+kxMzk0MDYwLDEyNTgyODYyMzcsLTg5MDIzOTEwMCwtMTE0NDkx
+MTQzNywtMzY0NTg4MTM2LC0xNjA3NTU2NDY4LC0xMTkzOTg5OD
+cwLDk5MDUxMzExMSwtODgxMTM4MzgxLC05ODk0NzcyNjEsLTIw
+NTY0MDU1NTBdfQ==
 -->
