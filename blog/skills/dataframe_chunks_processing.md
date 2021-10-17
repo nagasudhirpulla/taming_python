@@ -13,7 +13,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 In this post, we will learn how to process dataframes from large csv and dbf files
 
-In order to import dataframe from dbf file, we require simpledbf module.
+If we desire to import dataframe from dbf file, we require simpledbf module.
 Install simpledbf using the command `pip install simpledbf`
 
 ### Example
@@ -52,5 +52,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTQzMzQzM119
+eyJoaXN0b3J5IjpbLTE3OTg1NzUyNTFdfQ==
 -->
