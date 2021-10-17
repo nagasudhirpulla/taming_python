@@ -17,6 +17,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 *  Using ```chunksize``` option returns an iterator that reads a huge data file as chunks of dataframes with each dataframe chunk having number of rows equal to ```chunksize``` (For example chunksize can be 10,000 rows).
 * If we desire to import dataframe from dbf file, we require simpledbf module. Install it using the command `pip install simpledbf`
 
+### Read only first n rows of a large csv file
+If we dsto just preview a very small subset of a large csv file, ```nrows``` option
+```python
+```
+
 ### Example Code
 * The below example python script processes a huge csv file containing historical bitcoin data in chunks of 10,000 rows 
 * Each dataframe chunk is processed to update the maximum bitcoin volume and the timestamp at maximum volume
@@ -76,5 +81,5 @@ for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=10):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDkyNDQ1MjJdfQ==
+eyJoaXN0b3J5IjpbMzA1NDQ5Nzc1XX0=
 -->
