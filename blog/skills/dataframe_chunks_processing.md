@@ -19,7 +19,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 * The csv file used in this example can be downloaded from [here](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
 
 ### Example
-* The below example python script tries to read a huge csv file containing historical bitcoin data in chunks of 10,000 rows and process each chunks to update the maximum bitcoin volume value and the timestamp at maximum value
+* The below example python script tries to read a huge csv file containing historical bitcoin data in chunks of 10,000 rows 
+* Each dataframe chunk is processed to update the maximum bitcoin volume value and the timestamp at maximum value
+
 ```python
 import  pandas  as  pd
 import  datetime  as  dt
@@ -64,5 +66,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1NTg1MDY0XX0=
+eyJoaXN0b3J5IjpbLTc0OTMyMzEzNF19
 -->
