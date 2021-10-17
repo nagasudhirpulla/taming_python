@@ -19,7 +19,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ### Example Code
 * The below example python script processes a huge csv file containing historical bitcoin data in chunks of 10,000 rows 
-* Each dataframe chunk is processed to update the maximum bitcoin volume value and the timestamp at maximum value
+* Each dataframe chunk is processed to update the maximum bitcoin volume and the timestamp at maximum volume
 * The csv file used in this example can be downloaded from [here](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
 
 ```python
@@ -76,5 +76,5 @@ for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=10):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MjA1MTM2XX0=
+eyJoaXN0b3J5IjpbLTEyNDkyNDQ1MjJdfQ==
 -->
