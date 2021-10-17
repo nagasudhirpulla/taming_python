@@ -25,7 +25,8 @@ print("max volume was {0} at {1}".format(
     maxVolume, dt.datetime.fromtimestamp(maxVolTs)))
 ```
 ```python
-df = Dbf5(dbfPath).to_dataframe(chunksize=1000)
+for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=1000):  
+	# process each dfChunk that contains 1000 rows in each dfChunk dataframe
 ```
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
@@ -38,11 +39,11 @@ df = Dbf5(dbfPath).to_dataframe(chunksize=1000)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTQ1ODQ4LC02MTM1NTcxOTQsLTkyNz
-UzMjQ5MSw3OTU3NjMzMzUsLTY1NjczNzk5NywtMTYzMjM5MjA4
-NywtMjI5NjI5NTU3LDE5MjQyNjM5ODgsMTM5MTM5NDA2MCwxMj
-U4Mjg2MjM3LC04OTAyMzkxMDAsLTExNDQ5MTE0MzcsLTM2NDU4
-ODEzNiwtMTYwNzU1NjQ2OCwtMTE5Mzk4OTg3MCw5OTA1MTMxMT
-EsLTg4MTEzODM4MSwtOTg5NDc3MjYxLC0yMDU2NDA1NTUwLC05
-Nzg2NzM0MV19
+eyJoaXN0b3J5IjpbLTE4MTY5MTE3NzAsLTYxMzU1NzE5NCwtOT
+I3NTMyNDkxLDc5NTc2MzMzNSwtNjU2NzM3OTk3LC0xNjMyMzky
+MDg3LC0yMjk2Mjk1NTcsMTkyNDI2Mzk4OCwxMzkxMzk0MDYwLD
+EyNTgyODYyMzcsLTg5MDIzOTEwMCwtMTE0NDkxMTQzNywtMzY0
+NTg4MTM2LC0xNjA3NTU2NDY4LC0xMTkzOTg5ODcwLDk5MDUxMz
+ExMSwtODgxMTM4MzgxLC05ODk0NzcyNjEsLTIwNTY0MDU1NTAs
+LTk3ODY3MzQxXX0=
 -->
