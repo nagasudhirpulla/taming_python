@@ -18,8 +18,12 @@ Please make sure to have all the skills mentioned above to understand and execut
 * If we desire to import dataframe from dbf file, we require simpledbf module. Install it using the command `pip install simpledbf`
 
 ### Read only first n rows of a large csv file
-If we dsto just preview a very small subset of a large csv file, ```nrows``` option
+If we desire to just preview a very small subset of a large csv file, use ```nrows``` and ```skiprows``` options
 ```python
+import  pandas  as  pd
+import  datetime  as  dt
+df = pd.read_csv("data.csv", nrows=10)
+print(df.columns.tolist())
 ```
 
 ### Example Code
@@ -81,5 +85,5 @@ for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=10):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1NDQ5Nzc1XX0=
+eyJoaXN0b3J5IjpbMTUxNTAwNzEyNF19
 -->
