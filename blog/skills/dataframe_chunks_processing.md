@@ -47,8 +47,8 @@ print("max volume was {0} at {1}".format(
 
 Thus by using a divide and rule approach, we can process a huge data file using the ```chunksize``` option while importing the file
 
-### dbf example
-
+### dbf file example
+``
 
 <hr/>
 
@@ -63,5 +63,5 @@ Thus by using a divide and rule approach, we can process a huge data file using 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjE4NjAzOF19
+eyJoaXN0b3J5IjpbLTk4Mjg3NjYzNF19
 -->
