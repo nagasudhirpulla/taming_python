@@ -18,7 +18,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * If we desire to import dataframe from dbf file, we require simpledbf module. Install it using the command `pip install simpledbf`
 
 ### Example Code
-* The below example python script tries to read a huge csv file containing historical bitcoin data in chunks of 10,000 rows 
+* The below example python script processes a huge csv file containing historical bitcoin data in chunks of 10,000 rows 
 * Each dataframe chunk is processed to update the maximum bitcoin volume value and the timestamp at maximum value
 * The csv file used in this example can be downloaded from [here](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
 
@@ -76,5 +76,5 @@ for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=10):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODM4OTI0MV19
+eyJoaXN0b3J5IjpbMTM1MjA1MTM2XX0=
 -->
