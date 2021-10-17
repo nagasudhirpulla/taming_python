@@ -49,7 +49,12 @@ Thus by using a divide and rule approach, we can process a huge data file using 
 
 ### dbf file example
 ```python
+import  pandas  as  pd
+import  datetime  as  dt
+from simpledbf import Dbf5
 
+# path of dbf file
+dbfPath = 'test.dbf'
 for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=1000):  
 	# process each dfChunk that contains 1000 rows in each dfChunk dataframe
 ```
@@ -67,5 +72,5 @@ for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=1000):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDE1NDUyMl19
+eyJoaXN0b3J5IjpbLTE4NjMyMDg3NTddfQ==
 -->
