@@ -16,11 +16,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 * In this post we will process large dataframe from large data file using ```chunksize``` option while importing the data.
 *  Using ```chunksize``` option returns an iterator that reads a huge data file as chunks of dataframes with each dataframe chunk having number of rows equal to ```chunksize``` (For example chunksize can be 10,000 rows).
 * If we desire to import dataframe from dbf file, we require simpledbf module. Install it using the command `pip install simpledbf`
-* The csv file used in this example can be downloaded from [here](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
 
 ### Example Code
 * The below example python script tries to read a huge csv file containing historical bitcoin data in chunks of 10,000 rows 
 * Each dataframe chunk is processed to update the maximum bitcoin volume value and the timestamp at maximum value
+* The csv file used in this example can be downloaded from [here](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
 
 ```python
 import  pandas  as  pd
@@ -48,6 +48,7 @@ print("max volume was {0} at {1}".format(
 Thus by using a divide and rule approach, we can process a huge data file using the ```chunksize``` option while importing the file
 
 ### dbf file example
+The file used in this example can be downloaded from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/marks.dbf)
 ```python
 import  pandas  as  pd
 import  datetime  as  dt
@@ -75,5 +76,5 @@ for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=1000):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODc3NzgzMl19
+eyJoaXN0b3J5IjpbMzYxNzc5NDJdfQ==
 -->
