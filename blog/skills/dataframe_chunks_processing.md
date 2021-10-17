@@ -18,20 +18,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 * If we desire to import dataframe from dbf file, we require simpledbf module. Install it using the command `pip install simpledbf`
 * The csv file used in this example can be downloaded from [here](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
 
-
-
 ### Example
 ```python
 # import pandas module
-import pandas as pd
-# import Dbf5 module from simpledbf module
-from simpledbf import Dbf5
-
-# path of dbf file
-dbfPath = r'C:\Users\Nagasudhir\Documents\test.dbf'
-
-# load the dataframe from dbf file path
-df = Dbf5(dbfPath).to_dataframe()
+for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=1000):  
+	# process each dfChunk that contains 1000 rows in each dfChunk dataframe
 ```
 The file used in this example can be downloaded from [here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/marks.dbf)
 
@@ -56,5 +47,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjg1MDg3OF19
+eyJoaXN0b3J5IjpbLTEzMzE1MTAxOTddfQ==
 -->
