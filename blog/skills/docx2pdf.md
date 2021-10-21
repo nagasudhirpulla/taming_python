@@ -27,8 +27,10 @@ docx2pdf requires Microsoft Word to be installed in the computer
 ### Command line interface
 * Convert a single word file to pdf
 ```batch
-docx2pdf myfile.docx
-``` 
+docx2pdf file1.docx
+```
+The above command converts file1.docx to file1.pdf 
+
 
 ### Placeholder for variable in word file
 If can render a variable named ```xyz``` by writing ```{{ xyz }}``` in the template word file. The variable can be text or image.
@@ -186,5 +188,5 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NzU4NzA2NV19
+eyJoaXN0b3J5IjpbMTI4ODMxNjM3OF19
 -->
