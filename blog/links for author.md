@@ -31,6 +31,7 @@ print("max volume was {0} at {1}".format(
 for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=1000):  
 	# process each dfChunk that contains 1000 rows in each dfChunk dataframe
 ```
+* send emails from python
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
 * global variables and using them inside functions- https://instructobit.com/tutorial/108/How-to-share-global-variables-between-files-in-Python
@@ -42,11 +43,11 @@ for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=1000):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MjgwOTU5OCw0Nzk3NzMyMzUsLTYxMz
-U1NzE5NCwtOTI3NTMyNDkxLDc5NTc2MzMzNSwtNjU2NzM3OTk3
-LC0xNjMyMzkyMDg3LC0yMjk2Mjk1NTcsMTkyNDI2Mzk4OCwxMz
-kxMzk0MDYwLDEyNTgyODYyMzcsLTg5MDIzOTEwMCwtMTE0NDkx
-MTQzNywtMzY0NTg4MTM2LC0xNjA3NTU2NDY4LC0xMTkzOTg5OD
-cwLDk5MDUxMzExMSwtODgxMTM4MzgxLC05ODk0NzcyNjEsLTIw
-NTY0MDU1NTBdfQ==
+eyJoaXN0b3J5IjpbLTE1NDkxNjQ2MDMsLTk1MjgwOTU5OCw0Nz
+k3NzMyMzUsLTYxMzU1NzE5NCwtOTI3NTMyNDkxLDc5NTc2MzMz
+NSwtNjU2NzM3OTk3LC0xNjMyMzkyMDg3LC0yMjk2Mjk1NTcsMT
+kyNDI2Mzk4OCwxMzkxMzk0MDYwLDEyNTgyODYyMzcsLTg5MDIz
+OTEwMCwtMTE0NDkxMTQzNywtMzY0NTg4MTM2LC0xNjA3NTU2ND
+Y4LC0xMTkzOTg5ODcwLDk5MDUxMzExMSwtODgxMTM4MzgxLC05
+ODk0NzcyNjFdfQ==
 -->
