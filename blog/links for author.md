@@ -31,6 +31,7 @@ print("max volume was {0} at {1}".format(
 for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=1000):  
 	# process each dfChunk that contains 1000 rows in each dfChunk dataframe
 ```
+* convert word files to pdf using docx2pdf
 * send emails from python
 * Histogram in python
 * Manage application configuration or application secrets in Excel  
@@ -43,7 +44,7 @@ for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=1000):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDkxNjQ2MDMsLTk1MjgwOTU5OCw0Nz
+eyJoaXN0b3J5IjpbLTEyMjY3MjkxNTIsLTk1MjgwOTU5OCw0Nz
 k3NzMyMzUsLTYxMzU1NzE5NCwtOTI3NTMyNDkxLDc5NTc2MzMz
 NSwtNjU2NzM3OTk3LC0xNjMyMzkyMDg3LC0yMjk2Mjk1NTcsMT
 kyNDI2Mzk4OCwxMzkxMzk0MDYwLDEyNTgyODYyMzcsLTg5MDIz
