@@ -21,6 +21,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Run the command ```python -m pip install docx2pdf```
 * Now docx2pdf should be installed in your python environment
 
+### Prerequisites
+docxtpl
+
 ### Command line interface
 * 
 
@@ -180,5 +183,5 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODc2NjgxOV19
+eyJoaXN0b3J5IjpbMTU4NDgxMDUyM119
 -->
