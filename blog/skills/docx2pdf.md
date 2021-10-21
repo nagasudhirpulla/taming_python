@@ -16,9 +16,13 @@ Please make sure to have all the skills mentioned above to understand and execut
 * This helps in automating word files to pdf files in bulk and without manual intervention 
 * docx2pdf can be used as a command line tool and also in python program
 
-### Install docx2pdf python moduel
+### Install docx2pdf python module
+* Open command prompt
+* Run the command ```python -m pip install docx2pdf```
+* Now docx2pdf should be installed in your python environment
 
-While running this scripts, create folders named ```images```, ```invites``` and ```reports```. Download the images and move them into the images folder placed in the same folder as the script file.
+### Command line interface
+* 
 
 ### Placeholder for variable in word file
 If can render a variable named ```xyz``` by writing ```{{ xyz }}``` in the template word file. The variable can be text or image.
@@ -176,5 +180,5 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3NTc4MTk2XX0=
+eyJoaXN0b3J5IjpbLTU5ODc2NjgxOV19
 -->
