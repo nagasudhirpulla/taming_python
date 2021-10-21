@@ -22,10 +22,13 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Now docx2pdf should be installed in your python environment
 
 ### Prerequisites
-docxtpl
+docx2pdf requires Microsoft Word to be installed in the computer
 
 ### Command line interface
-* 
+* Convert a single word file to pdf
+```batch
+docx2pdf myfile.docx
+``` 
 
 ### Placeholder for variable in word file
 If can render a variable named ```xyz``` by writing ```{{ xyz }}``` in the template word file. The variable can be text or image.
@@ -183,5 +186,5 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDgxMDUyM119
+eyJoaXN0b3J5IjpbMTY1NzU4NzA2NV19
 -->
