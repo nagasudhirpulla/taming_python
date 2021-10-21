@@ -13,12 +13,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 
 * **docx2pdf** is a python library for converting word file to pdf file
-* This helps in automating reports very easily. 
-* Since we are using word file templates we can use rich text features like fonts, font sizes, colors etc without any programming.
+* This helps in automating word files to pdf files in bulk and without manual intervention 
+* docx2pdf can be used as a command line tool and also in python program
 
-The following files are used in this blog post
-* Template word files - [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx), [reportTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/reportTmpl.docx)
-* images - [party_banner_0.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_0.png), [party_banner_1.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_1.png), [party_banner_2.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_2.png)
+### Install docx2pdf python moduel
 
 While running this scripts, create folders named ```images```, ```invites``` and ```reports```. Download the images and move them into the images folder placed in the same folder as the script file.
 
@@ -178,5 +176,5 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkzODA1MDcwXX0=
+eyJoaXN0b3J5IjpbMzg3NTc4MTk2XX0=
 -->
