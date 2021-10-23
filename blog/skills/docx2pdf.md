@@ -33,6 +33,9 @@ docx2pdf.convert("abcd.docx")
 # convert "abcd.docx" file to pdf with custom name and folder location
 docx2pdf.convert("abcd.docx", "out/abc.pdf")
 
+# convert all the docx files in a folder. 
+# Output files will also be in the same folder
+docx2pdf.convert("inp/")
 ```
 
 ### Command line interface
@@ -66,6 +69,6 @@ docx2pdf inpFoldr/ outDir/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4ODg2Nzg3LC0xNjc2MzY2MTgzLC0xMD
-QyMzcxNTg1XX0=
+eyJoaXN0b3J5IjpbLTQ4MTg0NDU3OSwtMTY3NjM2NjE4MywtMT
+A0MjM3MTU4NV19
 -->
