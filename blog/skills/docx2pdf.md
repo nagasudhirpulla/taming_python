@@ -24,6 +24,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 ### Prerequisites
 docx2pdf requires Microsoft Word to be installed in the computer
 
+### Python code
+```python
+from docx2pdf in
+```
+
 ### Command line interface
 * Convert a single word file to pdf
 ```batch
@@ -55,6 +60,6 @@ docx2pdf inpFoldr/ outDir/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzYzNjYxODMsLTEwNDIzNzE1ODVdfQ
-==
+eyJoaXN0b3J5IjpbLTQ4NTg0MzQ4MCwtMTY3NjM2NjE4MywtMT
+A0MjM3MTU4NV19
 -->
