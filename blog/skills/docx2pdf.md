@@ -40,8 +40,9 @@ The above command converts all the word files in folder1 to pdf files
 docx2pdf input.docx output_dir/
 ```
 * Batch convert docx folder. Output PDFs will go to a different explicit folder:
-    docx2pdf input_dir/ output_dir/
-
+```batch
+docx2pdf input_dir/ output_dir/
+```
 
 ### References
 * Official documentation - https://github.com/AlJohri/docx2pdf
@@ -54,6 +55,5 @@ docx2pdf input.docx output_dir/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjIwMzk1ODcsLTEwNDIzNzE1ODVdfQ
-==
+eyJoaXN0b3J5IjpbODk4OTMxNzI5LC0xMDQyMzcxNTg1XX0=
 -->
