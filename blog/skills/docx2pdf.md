@@ -61,6 +61,11 @@ docx2pdf inputFile.docx outputFolder/
 docx2pdf inpFoldr/ outDir/
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RxBDJZhQ_D4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 * Official documentation - https://github.com/AlJohri/docx2pdf
 * Fix for docx2pdf pyinstaller issue - https://stackoverflow.com/a/67393186/2746323
@@ -73,6 +78,6 @@ docx2pdf inpFoldr/ outDir/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTQ0ODAwLC0xMTQ4NTUzNTUsLTExOT
-g4NDY1MTQsLTE2NzYzNjYxODMsLTEwNDIzNzE1ODVdfQ==
+eyJoaXN0b3J5IjpbMTc0MzIwNjg5OSwtMTE0ODU1MzU1LC0xMT
+k4ODQ2NTE0LC0xNjc2MzY2MTgzLC0xMDQyMzcxNTg1XX0=
 -->
