@@ -24,7 +24,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ### Prerequisites
 docx2pdf requires Microsoft Word to be installed in the computer
 
-### Python code
+### Python example
 ```python
 import docx2pdf
 # convert "abcd.docx" file to pdf in the same folder
@@ -72,6 +72,6 @@ docx2pdf inpFoldr/ outDir/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwNDQ4Mjk1LC0xNjc2MzY2MTgzLC0xMD
-QyMzcxNTg1XX0=
+eyJoaXN0b3J5IjpbLTExOTg4NDY1MTQsLTE2NzYzNjYxODMsLT
+EwNDIzNzE1ODVdfQ==
 -->
