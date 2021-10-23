@@ -63,6 +63,7 @@ docx2pdf inpFoldr/ outDir/
 
 ### References
 * Official documentation - https://github.com/AlJohri/docx2pdf
+* Fix for docx2pdf pyinstaller issue - https://stackoverflow.com/a/67393186/2746323
 
 <hr/>
 
@@ -72,6 +73,6 @@ docx2pdf inpFoldr/ outDir/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTg4NDY1MTQsLTE2NzYzNjYxODMsLT
-EwNDIzNzE1ODVdfQ==
+eyJoaXN0b3J5IjpbLTExNDg1NTM1NSwtMTE5ODg0NjUxNCwtMT
+Y3NjM2NjE4MywtMTA0MjM3MTU4NV19
 -->
