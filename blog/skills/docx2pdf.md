@@ -30,6 +30,9 @@ import docx2pdf
 # convert abcd.docx file to pdf in the same folder
 docx2pdf.convert("abcd.docx")
 
+# convert abcd.docx file to pdf into another folder
+docx2pdf.convert("abcd.docx", "out/abc.pdf")
+
 ```
 
 ### Command line interface
@@ -63,6 +66,6 @@ docx2pdf inpFoldr/ outDir/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNjYwMzk2OSwtMTY3NjM2NjE4MywtMT
-A0MjM3MTU4NV19
+eyJoaXN0b3J5IjpbLTEyNzY5Mjc0ODAsLTE2NzYzNjYxODMsLT
+EwNDIzNzE1ODVdfQ==
 -->
