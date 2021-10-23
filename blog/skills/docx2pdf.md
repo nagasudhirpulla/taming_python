@@ -34,6 +34,14 @@ The above command converts file1.docx to file1.pdf
 ```batch
 docx2pdf folder1/
 ```
+The above command converts all the word files in folder1 to pdf files
+* Convert single docx file and output to a different explicit folder:
+```batch
+docx2pdf input.docx output_dir/
+```
+* Batch convert docx folder. Output PDFs will go to a different explicit folder:
+    docx2pdf input_dir/ output_dir/
+
 
 ### References
 * Official documentation - https://github.com/AlJohri/docx2pdf
@@ -46,5 +54,6 @@ docx2pdf folder1/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MjcwNzg5MiwtMTA0MjM3MTU4NV19
+eyJoaXN0b3J5IjpbLTE5NjIwMzk1ODcsLTEwNDIzNzE1ODVdfQ
+==
 -->
