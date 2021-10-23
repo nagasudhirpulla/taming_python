@@ -27,10 +27,10 @@ docx2pdf requires Microsoft Word to be installed in the computer
 ### Python code
 ```python
 import docx2pdf
-# convert abcd.docx file to pdf in the same folder
+# convert "abcd.docx" file to pdf in the same folder
 docx2pdf.convert("abcd.docx")
 
-# convert abcd.docx file to pdf into another folder
+# convert "abcd.docx" file to pdf with custom name and folder location
 docx2pdf.convert("abcd.docx", "out/abc.pdf")
 
 ```
@@ -66,6 +66,6 @@ docx2pdf inpFoldr/ outDir/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY5Mjc0ODAsLTE2NzYzNjYxODMsLT
-EwNDIzNzE1ODVdfQ==
+eyJoaXN0b3J5IjpbNTY4ODg2Nzg3LC0xNjc2MzY2MTgzLC0xMD
+QyMzcxNTg1XX0=
 -->
