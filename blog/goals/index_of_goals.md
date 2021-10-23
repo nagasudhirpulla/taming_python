@@ -98,6 +98,7 @@ Here are the goals and skills in this tutorial series
 
 #### Reports Automation
 * [docxtpl python library for creating automated reports as word and pdf files from templates](https://nagasudhir.blogspot.com/2021/10/docxtpl-python-library-for-creating.html)
+* [](https://nagasudhir.blogspot.com/2021/10/automating-word-files-to-pdf-files.html)
 
 #### Interactive Maps with folium
 * [Introduction to Folium for interactive maps](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html)
@@ -117,11 +118,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTIwOTQxODgyNDcsLTE3OD
-gxNzMwMTAsODgxMDUyNTI5LDg5NjQ3NzM2NiwtMjk3NDIyODcx
-LC02MTY3MjE0NTUsNTM4ODE0ODg1LDg3Njg0ODI1NCw1MDU3MD
-c3MzAsMzcwNjkwNzI3LC0yMTEzODc2NDk2LDc5MTIwMDU0OSwx
-OTg3NzE2MTQ0LC0xOTQ5MjkwMjMxLC0xNjI3NzQ1ODAyLC05Mz
-g1MDA2ODksLTE4NTUzMDU4NjMsLTExNDYzMDQ2MTksMTY1NjY5
-NDAwMSwxMjU5MjMxMzU3XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTY5OTQ2NjgyNSwtMTc4OD
+E3MzAxMCw4ODEwNTI1MjksODk2NDc3MzY2LC0yOTc0MjI4NzEs
+LTYxNjcyMTQ1NSw1Mzg4MTQ4ODUsODc2ODQ4MjU0LDUwNTcwNz
+czMCwzNzA2OTA3MjcsLTIxMTM4NzY0OTYsNzkxMjAwNTQ5LDE5
+ODc3MTYxNDQsLTE5NDkyOTAyMzEsLTE2Mjc3NDU4MDIsLTkzOD
+UwMDY4OSwtMTg1NTMwNTg2MywtMTE0NjMwNDYxOSwxNjU2Njk0
+MDAxLDEyNTkyMzEzNTddfQ==
 -->
