@@ -30,6 +30,10 @@ docx2pdf requires Microsoft Word to be installed in the computer
 docx2pdf file1.docx
 ```
 The above command converts file1.docx to file1.pdf 
+* convert all word files in a folder to pdf files
+```batch
+docx2pdf folder1/
+```
 
 ### References
 * Official documentation - https://github.com/AlJohri/docx2pdf
@@ -42,5 +46,5 @@ The above command converts file1.docx to file1.pdf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDIzNzE1ODVdfQ==
+eyJoaXN0b3J5IjpbMTM2MjcwNzg5MiwtMTA0MjM3MTU4NV19
 -->
