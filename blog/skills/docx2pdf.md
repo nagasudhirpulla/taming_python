@@ -1,4 +1,4 @@
-## Skill - docx2pdf python library for automating word files to pdf files conversion
+## Skill - Automating word files to pdf files conversion using docx2pdf python library
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -73,6 +73,6 @@ docx2pdf inpFoldr/ outDir/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDg1NTM1NSwtMTE5ODg0NjUxNCwtMT
-Y3NjM2NjE4MywtMTA0MjM3MTU4NV19
+eyJoaXN0b3J5IjpbMTczNTQ0ODAwLC0xMTQ4NTUzNTUsLTExOT
+g4NDY1MTQsLTE2NzYzNjYxODMsLTEwNDIzNzE1ODVdfQ==
 -->
