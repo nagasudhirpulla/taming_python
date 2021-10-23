@@ -26,7 +26,10 @@ docx2pdf requires Microsoft Word to be installed in the computer
 
 ### Python code
 ```python
-from docx2pdf in
+import docx2pdf
+# convert abcd.docx file to pdf in the same folder
+docx2pdf.convert("abcd.docx")
+
 ```
 
 ### Command line interface
@@ -60,6 +63,6 @@ docx2pdf inpFoldr/ outDir/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTg0MzQ4MCwtMTY3NjM2NjE4MywtMT
+eyJoaXN0b3J5IjpbMjExNjYwMzk2OSwtMTY3NjM2NjE4MywtMT
 A0MjM3MTU4NV19
 -->
