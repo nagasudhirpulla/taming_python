@@ -79,6 +79,11 @@ for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=10):
 	print("processed {0} rows".format(numRows))
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/PN23NbzIwCs)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PN23NbzIwCs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ### References
@@ -92,5 +97,5 @@ for dfChunk in Dbf5(dbfPath).to_dataframe(chunksize=10):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTM1NjI1Ml19
+eyJoaXN0b3J5IjpbLTIwOTYxMDc1MDMsLTQ0OTM1NjI1Ml19
 -->
