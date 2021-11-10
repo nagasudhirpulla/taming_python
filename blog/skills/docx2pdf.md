@@ -61,6 +61,9 @@ docx2pdf inputFile.docx outputFolder/
 docx2pdf inpFoldr/ outDir/
 ```
 
+### Issues while packaging the code to exe with pyinstaller
+You might get errors like ```#[ImportError with cx_freeze and pywin32: Module 'pythoncom' isn't in frozen sys.path](https://stackoverflow.com/questions/17891071/importerror-with-cx-freeze-and-pywin32-module-pythoncom-isnt-in-frozen-sys-p)```
+
 ### Video
 Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
 
@@ -78,6 +81,7 @@ Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzIwNjg5OSwtMTE0ODU1MzU1LC0xMT
-k4ODQ2NTE0LC0xNjc2MzY2MTgzLC0xMDQyMzcxNTg1XX0=
+eyJoaXN0b3J5IjpbLTE1MTg1ODExNTUsMTc0MzIwNjg5OSwtMT
+E0ODU1MzU1LC0xMTk4ODQ2NTE0LC0xNjc2MzY2MTgzLC0xMDQy
+MzcxNTg1XX0=
 -->
