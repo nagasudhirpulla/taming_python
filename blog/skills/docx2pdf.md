@@ -62,8 +62,9 @@ docx2pdf inpFoldr/ outDir/
 ```
 
 ### Issues while packaging the code to exe with pyinstaller
-
-After you fixed the You might get errors like ```[ImportError with cx_freeze and pywin32: Module 'pythoncom' isn't in frozen sys.path](https://stackoverflow.com/questions/17891071/importerror-with-cx-freeze-and-pywin32-module-pythoncom-isnt-in-frozen-sys-p)```
+* After packaging the code with pyinstaller you can get errors like ```
+importlib.metadata.PackageNotFoundError: docx2pdf```
+* After you fixed the package not found error, you might get errors like ```[ImportError with cx_freeze and pywin32: Module 'pythoncom' isn't in frozen sys.path](https://stackoverflow.com/questions/17891071/importerror-with-cx-freeze-and-pywin32-module-pythoncom-isnt-in-frozen-sys-p)```
 Then this might be due to the packages incompatibility, in such case use the following versions of pyinstaller, pywin32 and docx2pdf in your python environment
 ```
 pyinstaller==4.3
@@ -88,7 +89,7 @@ Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzMTI4OTg4LDE3NDMyMDY4OTksLTExND
-g1NTM1NSwtMTE5ODg0NjUxNCwtMTY3NjM2NjE4MywtMTA0MjM3
-MTU4NV19
+eyJoaXN0b3J5IjpbLTExMjY5MzUwOTAsMTc0MzIwNjg5OSwtMT
+E0ODU1MzU1LC0xMTk4ODQ2NTE0LC0xNjc2MzY2MTgzLC0xMDQy
+MzcxNTg1XX0=
 -->
