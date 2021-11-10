@@ -85,7 +85,7 @@ pyinstaller==4.3
 pywin32==302
 docx2pdf==0.1.7
 ```
-
+After install the above package versions in your python environment, again convert your script to exe file using pyinstaller, then the Import error should  
 ### Video
 Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
 
@@ -103,7 +103,7 @@ Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzMjUzOTMwLDE3NDMyMDY4OTksLTExND
-g1NTM1NSwtMTE5ODg0NjUxNCwtMTY3NjM2NjE4MywtMTA0MjM3
-MTU4NV19
+eyJoaXN0b3J5IjpbLTE5MzU2Njk2NiwxNzQzMjA2ODk5LC0xMT
+Q4NTUzNTUsLTExOTg4NDY1MTQsLTE2NzYzNjYxODMsLTEwNDIz
+NzE1ODVdfQ==
 -->
