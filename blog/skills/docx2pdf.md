@@ -78,7 +78,7 @@ and remove line 119
         print(__version__)
 ```
 Now again convert your script to exe file in your virtual environment, then the issue of package not found error should be resolved. 
-* After you fixed the package not found error, you might get errors like ```[ImportError with cx_freeze and pywin32: Module 'pythoncom' isn't in frozen sys.path](https://stackoverflow.com/questions/17891071/importerror-with-cx-freeze-and-pywin32-module-pythoncom-isnt-in-frozen-sys-p)```
+* After you fixed the package not found error, you might get errors like ```ImportError with cx_freeze and pywin32: Module 'pythoncom' isn't in frozen sys.path```
 Then this might be due to the packages incompatibility, in such case use the following versions of pyinstaller, pywin32 and docx2pdf in your python environment
 ```
 pyinstaller==4.3
@@ -103,7 +103,7 @@ Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM5NTgzNDUsMTc0MzIwNjg5OSwtMTE0OD
-U1MzU1LC0xMTk4ODQ2NTE0LC0xNjc2MzY2MTgzLC0xMDQyMzcx
-NTg1XX0=
+eyJoaXN0b3J5IjpbLTE3Mjc4MjMwNzEsMjM5NTgzNDUsMTc0Mz
+IwNjg5OSwtMTE0ODU1MzU1LC0xMTk4ODQ2NTE0LC0xNjc2MzY2
+MTgzLC0xMDQyMzcxNTg1XX0=
 -->
