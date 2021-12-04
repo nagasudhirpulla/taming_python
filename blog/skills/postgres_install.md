@@ -45,11 +45,14 @@ sudo apt-get -y install postgresql
 ## Access postgreSQL database remotely using the DBeaver tool
 ![DBeaver_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/DBeaver_demo.png)
 * DBeaver is also a tool like pgAdmin to access postgreSQL or many other types of databases
-* If you manage multiple types of databases you can use DBeaver for managing all databases in one tool
+* If you manage multiple types of databases you can use DBeaver for managing all databases in one software
+* 
 
 ### References
-* Official docs - https://www.postgresql.org/docs/14/index.html
-* 
+* PostgreSQL Official docs - https://www.postgresql.org/docs/14/index.html
+* pgAdmin download - https://www.pgadmin.org/download/
+* DBeaver download - https://dbeaver.io/download/
+
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -57,8 +60,8 @@ sudo apt-get -y install postgresql
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjEzOTg4MSwxOTg1ODg5ODk4LC0xNT
-k5OTU3Mzg0LC0xNDE4ODY4NTM2LC05MTUxMjEwMTIsMTM1NDk4
-NTUzMyw5NjI5MjcwNzQsLTY0MDExMzczNSwtODUzNTg2MjM5XX
-0=
+eyJoaXN0b3J5IjpbLTE1Mjk3NDAyMDMsMTk4NTg4OTg5OCwtMT
+U5OTk1NzM4NCwtMTQxODg2ODUzNiwtOTE1MTIxMDEyLDEzNTQ5
+ODU1MzMsOTYyOTI3MDc0LC02NDAxMTM3MzUsLTg1MzU4NjIzOV
+19
 -->
