@@ -18,7 +18,13 @@ In this post we will try to install a PostgreSQL database.
 * Download the installer from https://www.postgresql.org/download/windows/
 * run the download installer and install the software
 ### Linux based systems
-
+#### Ubuntu
+```
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'  
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -  
+sudo apt-get update  
+sudo apt-get -y install postgresql
+```
 
 
 
@@ -63,6 +69,6 @@ You can the video on this post [here](https://youtu.be/kxGXvpg0Zno)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxNDEwMTEwLDk2MjkyNzA3NCwtNjQwMT
-EzNzM1LC04NTM1ODYyMzldfQ==
+eyJoaXN0b3J5IjpbMTU4MTA3MzY4NSw5NjI5MjcwNzQsLTY0MD
+ExMzczNSwtODUzNTg2MjM5XX0=
 -->
