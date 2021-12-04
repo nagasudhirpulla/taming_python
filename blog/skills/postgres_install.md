@@ -9,6 +9,9 @@ In this post we will try to install a PostgreSQL database.
 * Database makes some common tasks very easy and manageable like  data storage with encryption, querying the stored data, creating reports etc
 * Almost all practical software systems will require a database to persist the data
 
+## What is a PostgreSQL database
+* PostgreSQL database
+
 Sometimes the computer in which the python code has to run 
 * may not have python installed in it
 * may not have  internet to install python
@@ -50,5 +53,5 @@ You can the video on this post [here](https://youtu.be/kxGXvpg0Zno)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzczMTIyMiwtODUzNTg2MjM5XX0=
+eyJoaXN0b3J5IjpbLTY0MDExMzczNSwtODUzNTg2MjM5XX0=
 -->
