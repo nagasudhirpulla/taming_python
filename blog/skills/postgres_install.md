@@ -42,6 +42,8 @@ sudo apt-get -y install postgresql
 * You can easily create/view/update/delete the databases, tables, columns, rows, data, import/export data, run queries etc. using this tool
 * Also it facilitates observability for the database sessions, I/O, transactions, statistics etc via a dashboard screen
 ![pgAdmin_snap](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pgAdmin_snap.png)
+## Access postgreSQL database remotely using the DBeaver tool
+* pgAdmin by default will be accessible in the server itself
 
 ### References
 * Official docs - https://www.postgresql.org/docs/14/index.html
@@ -53,7 +55,7 @@ sudo apt-get -y install postgresql
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTUxMjkzNjMsLTE0MTg4Njg1MzYsLT
+eyJoaXN0b3J5IjpbLTE1OTk5NTczODQsLTE0MTg4Njg1MzYsLT
 kxNTEyMTAxMiwxMzU0OTg1NTMzLDk2MjkyNzA3NCwtNjQwMTEz
 NzM1LC04NTM1ODYyMzldfQ==
 -->
