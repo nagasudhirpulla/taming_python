@@ -43,7 +43,8 @@ sudo apt-get -y install postgresql
 * Also it facilitates observability for the database sessions, I/O, transactions, statistics etc via a dashboard screen
 ![pgAdmin_snap](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pgAdmin_snap.png)
 ## Access postgreSQL database remotely using the DBeaver tool
-* DBeaver is also a tool like pgAD
+* DBeaver is also a tool like pgAdmin to access postgreSQL or many other types of databases
+* 
 
 ### References
 * Official docs - https://www.postgresql.org/docs/14/index.html
@@ -55,7 +56,7 @@ sudo apt-get -y install postgresql
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA3ODY0MjUsLTE1OTk5NTczODQsLT
-E0MTg4Njg1MzYsLTkxNTEyMTAxMiwxMzU0OTg1NTMzLDk2Mjky
-NzA3NCwtNjQwMTEzNzM1LC04NTM1ODYyMzldfQ==
+eyJoaXN0b3J5IjpbMTk4NTg4OTg5OCwtMTU5OTk1NzM4NCwtMT
+QxODg2ODUzNiwtOTE1MTIxMDEyLDEzNTQ5ODU1MzMsOTYyOTI3
+MDc0LC02NDAxMTM3MzUsLTg1MzU4NjIzOV19
 -->
