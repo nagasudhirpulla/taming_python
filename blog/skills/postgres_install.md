@@ -15,8 +15,11 @@ In this post we will try to install a PostgreSQL database.
 
 ## Installing PostgreSQL database
 ### Windows
-* Download the exe file from https://www.postgresql.org/download/windows/
-* 
+* Download the installer from https://www.postgresql.org/download/windows/
+* run the download installer and install the software
+### Linux based systems
+
+
 
 
 Sometimes the computer in which the python code has to run 
@@ -60,6 +63,6 @@ You can the video on this post [here](https://youtu.be/kxGXvpg0Zno)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyOTI3MDc0LC02NDAxMTM3MzUsLTg1Mz
-U4NjIzOV19
+eyJoaXN0b3J5IjpbNTIxNDEwMTEwLDk2MjkyNzA3NCwtNjQwMT
+EzNzM1LC04NTM1ODYyMzldfQ==
 -->
