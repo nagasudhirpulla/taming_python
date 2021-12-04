@@ -10,8 +10,8 @@ In this post we will try to install a PostgreSQL database.
 * Almost all practical software systems will require a database to persist the data
 
 ## What is a PostgreSQL database
-* PostgreSQL database is a relational database where data can be stored in tables
-* We can achieve very robust data integrity with foreign keys, primary keys, uniqueness constraints, column data types, column data triggers
+* PostgreSQL database is an ope relational database where data can be stored in tables
+* We can achieve very robust data integrity with foreign keys, primary keys, uniqueness constraints, data types, enforcing data size limitations / value ranges, triggers etc
 
 Sometimes the computer in which the python code has to run 
 * may not have python installed in it
@@ -54,6 +54,6 @@ You can the video on this post [here](https://youtu.be/kxGXvpg0Zno)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTQyOTExMCwtNjQwMTEzNzM1LC04NT
-M1ODYyMzldfQ==
+eyJoaXN0b3J5IjpbLTE3NzUzNzk4OTEsLTY0MDExMzczNSwtOD
+UzNTg2MjM5XX0=
 -->
