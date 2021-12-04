@@ -1,4 +1,4 @@
-## Skill - Installing PostgreSQL database
+## Skill - Installing and managing a PostgreSQL database
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <hr/>
@@ -59,8 +59,8 @@ sudo apt-get -y install postgresql
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDI5MDM4LDU1MTE3NTgxLDE5ODU4OD
-k4OTgsLTE1OTk5NTczODQsLTE0MTg4Njg1MzYsLTkxNTEyMTAx
-MiwxMzU0OTg1NTMzLDk2MjkyNzA3NCwtNjQwMTEzNzM1LC04NT
-M1ODYyMzldfQ==
+eyJoaXN0b3J5IjpbMjM0Mjg5NTkyLDE2MjQyOTAzOCw1NTExNz
+U4MSwxOTg1ODg5ODk4LC0xNTk5OTU3Mzg0LC0xNDE4ODY4NTM2
+LC05MTUxMjEwMTIsMTM1NDk4NTUzMyw5NjI5MjcwNzQsLTY0MD
+ExMzczNSwtODUzNTg2MjM5XX0=
 -->
