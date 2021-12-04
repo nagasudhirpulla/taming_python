@@ -18,11 +18,21 @@ In this post we will try to install a PostgreSQL database.
 * Download the installer from https://www.postgresql.org/download/windows/
 * run the download installer and install the software
 ### Linux based systems
+* PostgreSQL is already shipped with many linux distributions like Ubuntu. 
+* To check the 
 #### Ubuntu
-```
-sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'  
-wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -  
-sudo apt-get update  
+```bash
+# Create the file repository configuration:
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+
+# Import the repository signing key:
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+
+# Update the package lists:
+sudo apt-get update
+
+# Install the latest version of PostgreSQL.
+# If you want a specific version, use 'postgresql-12' or similar instead of 'postgresql':
 sudo apt-get -y install postgresql
 ```
 
@@ -69,6 +79,6 @@ You can the video on this post [here](https://youtu.be/kxGXvpg0Zno)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTA3MzY4NSw5NjI5MjcwNzQsLTY0MD
-ExMzczNSwtODUzNTg2MjM5XX0=
+eyJoaXN0b3J5IjpbNDA2NDc2MjQyLDk2MjkyNzA3NCwtNjQwMT
+EzNzM1LC04NTM1ODYyMzldfQ==
 -->
