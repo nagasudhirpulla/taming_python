@@ -38,7 +38,9 @@ sudo apt-get -y install postgresql
 ```
 ## pgAdmin for database administration
 * The PostgreSQL database administration can be very easily done using the  pgAdmin tool
-* It is included with the postgreSQL da 
+* It is included with most of the postgreSQL database installations
+* You can easily create/view/update/delete the databases, tables, columns, rows, data, import/export data, run queries etc. using this tool
+
 ![pgAdmin_snap](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pgAdmin_snap.png)
 
 ### References
@@ -51,7 +53,7 @@ sudo apt-get -y install postgresql
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzUxOTU2MTQsLTkxNTEyMTAxMiwxMz
-U0OTg1NTMzLDk2MjkyNzA3NCwtNjQwMTEzNzM1LC04NTM1ODYy
-MzldfQ==
+eyJoaXN0b3J5IjpbLTc0Nzk2NzE5NiwtOTE1MTIxMDEyLDEzNT
+Q5ODU1MzMsOTYyOTI3MDc0LC02NDAxMTM3MzUsLTg1MzU4NjIz
+OV19
 -->
