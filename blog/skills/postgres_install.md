@@ -19,7 +19,7 @@ In this post we will try to install a PostgreSQL database.
 * run the download installer and install the software
 ### Linux based systems
 * PostgreSQL is already shipped with many linux distributions like Ubuntu. 
-* To check the 
+* To check the version of PostgreSQL, run the `````` command
 #### Ubuntu
 ```bash
 # Create the file repository configuration:
@@ -79,6 +79,6 @@ You can the video on this post [here](https://youtu.be/kxGXvpg0Zno)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2NDc2MjQyLDk2MjkyNzA3NCwtNjQwMT
-EzNzM1LC04NTM1ODYyMzldfQ==
+eyJoaXN0b3J5IjpbLTExNzYyMjc5ODYsOTYyOTI3MDc0LC02ND
+AxMTM3MzUsLTg1MzU4NjIzOV19
 -->
