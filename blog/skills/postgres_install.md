@@ -37,6 +37,7 @@ sudo apt-get update
 sudo apt-get -y install postgresql
 ```
 
+![pg](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/pgAdmin_snap.png)
 
 ### References
 * Official docs - https://www.postgresql.org/docs/14/index.html
@@ -48,6 +49,7 @@ sudo apt-get -y install postgresql
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTEyMTAxMiwxMzU0OTg1NTMzLDk2Mj
-kyNzA3NCwtNjQwMTEzNzM1LC04NTM1ODYyMzldfQ==
+eyJoaXN0b3J5IjpbMTQ3Mjg3NjcyNiwtOTE1MTIxMDEyLDEzNT
+Q5ODU1MzMsOTYyOTI3MDc0LC02NDAxMTM3MzUsLTg1MzU4NjIz
+OV19
 -->
