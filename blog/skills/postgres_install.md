@@ -13,7 +13,7 @@ In this post we will try to install a PostgreSQL database.
 * PostgreSQL database is a powerful opensource relational database where data can be stored in tables
 * We can achieve very robust data integrity with foreign keys, primary keys, uniqueness constraints, data types, enforcing data size limitations / value ranges, triggers etc
 
-## Downloading PostgreSQL database
+## Installing PostgreSQL database
 ### Windows
 
 
@@ -58,6 +58,6 @@ You can the video on this post [here](https://youtu.be/kxGXvpg0Zno)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzM2ODk2MCwtNjQwMTEzNzM1LC04NT
+eyJoaXN0b3J5IjpbMjE0NjMwMjYxMSwtNjQwMTEzNzM1LC04NT
 M1ODYyMzldfQ==
 -->
