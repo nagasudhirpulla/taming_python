@@ -4,7 +4,7 @@
 <hr/>
 In this post we will try to install a PostgreSQL database.
 
-## Why is database needed
+## Why is a database required
 * Database is needed to persist data/state of an application in the storage for analytics, business logic implementation etc
 * Database makes some common tasks very easy and manageable like  data storage with encryption, querying the stored data, creating reports etc
 * Almost all practical software systems will require a database to persist the data
@@ -12,6 +12,10 @@ In this post we will try to install a PostgreSQL database.
 ## What is a PostgreSQL database
 * PostgreSQL database is a powerful opensource relational database where data can be stored in tables
 * We can achieve very robust data integrity with foreign keys, primary keys, uniqueness constraints, data types, enforcing data size limitations / value ranges, triggers etc
+
+## Downloading PostgreSQL database
+### Windows
+
 
 Sometimes the computer in which the python code has to run 
 * may not have python installed in it
@@ -54,6 +58,6 @@ You can the video on this post [here](https://youtu.be/kxGXvpg0Zno)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODEwNDY3MCwtNjQwMTEzNzM1LC04NT
+eyJoaXN0b3J5IjpbMTE5NzM2ODk2MCwtNjQwMTEzNzM1LC04NT
 M1ODYyMzldfQ==
 -->
