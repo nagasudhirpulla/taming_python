@@ -5,7 +5,9 @@
 In this post we will try to install a PostgreSQL database.
 
 ## Why is database needed
-* Database is needed to persist data/state of an application in the storage for future 
+* Database is needed to persist data/state of an application in the storage for analytics, business logic implementation etc
+* Database make s 
+* Almost all practical software systems will require a database to persist the data
 
 Sometimes the computer in which the python code has to run 
 * may not have python installed in it
@@ -48,5 +50,5 @@ You can the video on this post [here](https://youtu.be/kxGXvpg0Zno)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzE2OTE4NzldfQ==
+eyJoaXN0b3J5IjpbLTgzMzYyOTU0NF19
 -->
