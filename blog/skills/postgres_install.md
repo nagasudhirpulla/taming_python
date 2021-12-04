@@ -1,14 +1,11 @@
 ## Skill - Installing PostgreSQL database
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
-#### Skills Required
-* [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
-
-
-Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
-
 <hr/>
-In this post, we will learn how to distribute our python program as `.exe` file
+In this post we will try to install a PostgreSQL database.
+
+## Why is database needed
+* Database is needed to persist data/state of an application in the storage for future 
 
 Sometimes the computer in which the python code has to run 
 * may not have python installed in it
@@ -51,5 +48,5 @@ You can the video on this post [here](https://youtu.be/kxGXvpg0Zno)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDYzMzU3M119
+eyJoaXN0b3J5IjpbLTE4NzE2OTE4NzldfQ==
 -->
