@@ -2,10 +2,10 @@
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <hr/>
-In this post we will try to install a PostgreSQL database.
+In this post we will try to install a PostgreSQL database and explore it's database administration tools.
 
 ## Why is a database required
-* Database is needed to persist data/state of an application in the storage for analytics, business logic implementation etc
+* Database is useful to persist the data/state of an application in the storage for analytics, business logic implementation etc
 * Database makes some common tasks very easy and manageable like  data storage with encryption, querying the stored data, creating reports etc
 * Almost all practical software systems will require a database to persist the data
 
@@ -59,7 +59,8 @@ sudo apt-get -y install postgresql
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxMTc1ODEsMTk4NTg4OTg5OCwtMTU5OT
-k1NzM4NCwtMTQxODg2ODUzNiwtOTE1MTIxMDEyLDEzNTQ5ODU1
-MzMsOTYyOTI3MDc0LC02NDAxMTM3MzUsLTg1MzU4NjIzOV19
+eyJoaXN0b3J5IjpbMTYyNDI5MDM4LDU1MTE3NTgxLDE5ODU4OD
+k4OTgsLTE1OTk5NTczODQsLTE0MTg4Njg1MzYsLTkxNTEyMTAx
+MiwxMzU0OTg1NTMzLDk2MjkyNzA3NCwtNjQwMTEzNzM1LC04NT
+M1ODYyMzldfQ==
 -->
