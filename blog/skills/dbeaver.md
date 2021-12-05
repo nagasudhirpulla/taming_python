@@ -3,16 +3,12 @@
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <hr/>
-In this post we will try to install and use a free universal database tool called DBeaver.
+In this post we will try to install and use a free universal database tool called [DBeaver](https://dbeaver.io/).
 
 ## Why use DBeaver
 * You can manage all popular databases (MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, MS Access, Teradata, Firebird, Apache Hive, Phoenix, Presto, etc) in one single tool. No need to download separate tool for each type of database
 * The community edition of DBeaver is free
 * This is tool is cross-platform, so it can be installed in Windows, Linux, Mac
-
-## What is a PostgreSQL database
-* PostgreSQL database is a powerful opensource relational database where data can be stored in tables
-* We can achieve very robust data integrity with foreign keys, primary keys, uniqueness constraints, data types, enforcing data size limitations / value ranges, triggers etc
 
 ## Installing PostgreSQL database
 ### Windows
@@ -54,9 +50,8 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ErUPLbqXiB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
-* PostgreSQL Official docs - https://www.postgresql.org/docs/14/index.html
-* pgAdmin download - https://www.pgadmin.org/download/
 * DBeaver download - https://dbeaver.io/download/
+* DBeaver site - https://dbeaver.io
 
 <hr/>
 
@@ -65,5 +60,5 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzUwNjAyNF19
+eyJoaXN0b3J5IjpbMjEwMTc3OTg4OV19
 -->
