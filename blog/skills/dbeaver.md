@@ -45,9 +45,9 @@ The DBeaver download page at https://dbeaver.io/download/ has the commands and i
 * Open Database -> Driver Manager Menu
 * Click "New" button and fill the input fields for the required database driver
 * Click the "Add File" button to import all the jar files required for this database driver
-* Now we have completed the offline installation of a database driver !
+* Now we have completed the offline installation of a database driver!
 
- The screenshots of the settings of common database drivers can be seen in the images below
+ The screenshots of the settings of common database drivers can be seen in the images below. You can take a snapshot of the driver settings from the computer that has the required driver already installed and working.
  
  ![dbeaver_postgres_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_postgres_driver_settings.png)
  ![dbeaver_mysql_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_mysql_driver_settings.png)
@@ -69,7 +69,8 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5ODg5ODIzLDExODk2NzcxNzUsLTQ3Nz
-g0MTkwNiwtMTc4MzczOTYwLC0xNDg5Njc1NzY3LDE4OTM0MzY1
-NzEsLTk5NTQ0MzIxOSwtNjMwMDUyNjMxLDEzNDU0OTEzMV19
+eyJoaXN0b3J5IjpbLTEwODk4MDUwMDQsMTE4OTY3NzE3NSwtND
+c3ODQxOTA2LC0xNzgzNzM5NjAsLTE0ODk2NzU3NjcsMTg5MzQz
+NjU3MSwtOTk1NDQzMjE5LC02MzAwNTI2MzEsMTM0NTQ5MTMxXX
+0=
 -->
