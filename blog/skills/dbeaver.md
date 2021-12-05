@@ -6,7 +6,7 @@
 In this post we will try to install and use a free universal database tool called DBeaver.
 
 ## Why use DBeaver
-* You can manage all popular databases (MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, MS Access, Teradata, Firebird, Apache Hive, Phoenix, Presto, etc) in one single tool. No need tod
+* You can manage all popular databases (MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, MS Access, Teradata, Firebird, Apache Hive, Phoenix, Presto, etc) in one single tool. No need to download separate tool for each type of database
 
 ## What is a PostgreSQL database
 * PostgreSQL database is a powerful opensource relational database where data can be stored in tables
@@ -63,5 +63,5 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDU0NTQ5ODRdfQ==
+eyJoaXN0b3J5IjpbLTE2ODUxMTU5NDVdfQ==
 -->
