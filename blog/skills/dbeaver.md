@@ -35,7 +35,8 @@ The DBeaver download page at https://dbeaver.io/download/ has the commands and i
 * First install the required drivers in a PC with internet
 * All the installed database plugins can be found in the folder
 ```C:\Users\<username>\AppData\Roaming\DBeaverData\drivers\maven\maven-central```
-* Goto the Datab
+* On the Top Menu bar goto Database -> DriverManager menu
+* Then select the database you would
 ### Video
 The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
@@ -50,7 +51,7 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Nzg0MTkwNiwtMTc4MzczOTYwLC0xND
-g5Njc1NzY3LDE4OTM0MzY1NzEsLTk5NTQ0MzIxOSwtNjMwMDUy
-NjMxLDEzNDU0OTEzMV19
+eyJoaXN0b3J5IjpbLTE1NzI0MjA3ODcsLTQ3Nzg0MTkwNiwtMT
+c4MzczOTYwLC0xNDg5Njc1NzY3LDE4OTM0MzY1NzEsLTk5NTQ0
+MzIxOSwtNjMwMDUyNjMxLDEzNDU0OTEzMV19
 -->
