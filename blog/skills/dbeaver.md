@@ -26,6 +26,8 @@ sudo apt-get install dbeaver-ce
 #### Other Linux Distributions
 The DBeaver download page at https://dbeaver.io/download/ has the commands and instructions required to install in other environments also like Debian, Mac OS, RPM etc
 
+### Using DBeaver
+* Each type of database requires its own plugin 
 
 ### Video
 The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
@@ -41,5 +43,5 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTE5NzcxNywxMzQ1NDkxMzFdfQ==
+eyJoaXN0b3J5IjpbMTA2OTIzMjE3LDEzNDU0OTEzMV19
 -->
