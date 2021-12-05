@@ -47,8 +47,6 @@ sudo apt-get -y install postgresql
 ### Video
 The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ErUPLbqXiB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### References
 * DBeaver download - https://dbeaver.io/download/
 * DBeaver site - https://dbeaver.io
@@ -60,5 +58,5 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTc3OTg4OV19
+eyJoaXN0b3J5IjpbLTE4NTMyMTAxODVdfQ==
 -->
