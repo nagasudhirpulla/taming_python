@@ -3,11 +3,12 @@
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <hr/>
-In this post we will try to install and use a free universal database tool called [DBeaver](https://dbeaver.io/).
+
+In this post we will try to install and use a free universal database tool called [DBeaver](https://dbeaver.io/)
 
 ![DBeaver_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/DBeaver_demo.png)
 
-## Why use DBeaver
+## Why use DBeaver?
 * You can manage all popular databases (MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, MS Access, Teradata, Firebird, Apache Hive, Phoenix, Presto, etc) in one single tool. No need to download separate tool for each type of database
 * The community edition of DBeaver is free
 * This is tool is cross-platform, so it can be installed in Windows, Linux, Mac
@@ -24,7 +25,7 @@ sudo apt-get update
 sudo apt-get install dbeaver-ce
 ```
 #### Other Linux Distributions
-The DBeaver download page at https://dbeaver.io/download/ has the commands and instructions required to install in other environments also like Debian, Mac OS, RPM etc
+The DBeaver download page at https://dbeaver.io/download/ has the commands and instructions required to install DBeaver in other environments also like Debian, Mac OS etc
 
 ### Using DBeaver
 ![dbeaver_new_connection_screen](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_new_connection_screen.png)
@@ -47,7 +48,7 @@ The DBeaver download page at https://dbeaver.io/download/ has the commands and i
 * Click the "Add File" button to import all the jar files required for this database driver
 * Now we have completed the offline installation of a database driver!
 
- The screenshots of the settings of common database drivers can be seen in the images below. You can take a snapshot of the driver settings from the computer that has the required driver already installed and working.
+ The screenshots of the settings of common database drivers can be seen in the images below. You can take a snapshot of the driver settings from the computer that has the required database driver already installed and working.
  
  ![dbeaver_postgres_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_postgres_driver_settings.png)
  ![dbeaver_mysql_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_mysql_driver_settings.png)
@@ -69,7 +70,7 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODk4MDUwMDQsMTE4OTY3NzE3NSwtND
+eyJoaXN0b3J5IjpbLTExNjQ4OTkxMDIsMTE4OTY3NzE3NSwtND
 c3ODQxOTA2LC0xNzgzNzM5NjAsLTE0ODk2NzU3NjcsMTg5MzQz
 NjU3MSwtOTk1NDQzMjE5LC02MzAwNTI2MzEsMTM0NTQ5MTMxXX
 0=
