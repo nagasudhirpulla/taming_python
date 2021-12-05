@@ -47,6 +47,11 @@ sudo apt-get -y install postgresql
 * DBeaver is also a tool like pgAdmin to access postgreSQL or many other types of databases
 * If you manage multiple types of databases you can use DBeaver for managing all databases in one software
 
+### Video
+The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ErUPLbqXiB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 * PostgreSQL Official docs - https://www.postgresql.org/docs/14/index.html
 * pgAdmin download - https://www.pgadmin.org/download/
@@ -59,8 +64,8 @@ sudo apt-get -y install postgresql
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM0Mjg5NTkyLDE2MjQyOTAzOCw1NTExNz
-U4MSwxOTg1ODg5ODk4LC0xNTk5OTU3Mzg0LC0xNDE4ODY4NTM2
-LC05MTUxMjEwMTIsMTM1NDk4NTUzMyw5NjI5MjcwNzQsLTY0MD
-ExMzczNSwtODUzNTg2MjM5XX0=
+eyJoaXN0b3J5IjpbNTg0NzUxMzg4LDIzNDI4OTU5MiwxNjI0Mj
+kwMzgsNTUxMTc1ODEsMTk4NTg4OTg5OCwtMTU5OTk1NzM4NCwt
+MTQxODg2ODUzNiwtOTE1MTIxMDEyLDEzNTQ5ODU1MzMsOTYyOT
+I3MDc0LC02NDAxMTM3MzUsLTg1MzU4NjIzOV19
 -->
