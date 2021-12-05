@@ -61,7 +61,7 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 ### References
 * DBeaver download - https://dbeaver.io/download/
 * DBeaver site - https://dbeaver.io
-* Installing a new jdbc database driver in DBeaver - https://dbeaver.com/docs/wiki/Database-drivers/
+* Installing a new JDBC database driver in DBeaver - https://dbeaver.com/docs/wiki/Database-drivers/
 
 <hr/>
 
@@ -70,8 +70,8 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyNTAyMzYsLTExNjQ4OTkxMDIsMTE4OT
-Y3NzE3NSwtNDc3ODQxOTA2LC0xNzgzNzM5NjAsLTE0ODk2NzU3
-NjcsMTg5MzQzNjU3MSwtOTk1NDQzMjE5LC02MzAwNTI2MzEsMT
-M0NTQ5MTMxXX0=
+eyJoaXN0b3J5IjpbMTYyNjA4NTE4MCwtMTE2NDg5OTEwMiwxMT
+g5Njc3MTc1LC00Nzc4NDE5MDYsLTE3ODM3Mzk2MCwtMTQ4OTY3
+NTc2NywxODkzNDM2NTcxLC05OTU0NDMyMTksLTYzMDA1MjYzMS
+wxMzQ1NDkxMzFdfQ==
 -->
