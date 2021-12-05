@@ -29,7 +29,7 @@ The DBeaver download page at https://dbeaver.io/download/ has the commands and i
 ### Using DBeaver
 ![dbeaver_new_connection_screen](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_new_connection_screen.png)
 * Each type of database connection requires its own plugin
-* If plugin is not present, DBeaver will prompt to install the plugins via downloading from the internet
+* If plugin is not present in the computer, DBeaver will prompt to install the plugins via downloading from the internet
 
 ### Video
 The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
@@ -45,6 +45,6 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTQ0MzIxOSwtNjMwMDUyNjMxLDEzND
-U0OTEzMV19
+eyJoaXN0b3J5IjpbLTExNDAxNzYyNCwtOTk1NDQzMjE5LC02Mz
+AwNTI2MzEsMTM0NTQ5MTMxXX0=
 -->
