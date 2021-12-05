@@ -32,15 +32,17 @@ The DBeaver download page at https://dbeaver.io/download/ has the commands and i
 * If plugin is not present in the computer, DBeaver will prompt to install the plugins via downloading from the internet
 
 ## Installing DBeaver plugins without internet
+### Step 1 - Downloading jar files in a computer with internet  
 * First install the required drivers in a PC with internet
 * All the installed database plugins can be found in the folder
 ```C:\Users\<username>\AppData\Roaming\DBeaverData\drivers\maven\maven-central```
 * On the Top Menu bar goto Database -> DriverManager menu
 * Then select the database you would like to connect and click edit
 * In the pop up window, click Download/Update button. Now all the driver jar files will be downloaded in the computer from the internet
-* After the drivers are downloaded, the location of jar file will be displayed on hovering the mouse over the library
-* Goto the database plugins folder and copy all the jar files corresponding to the required database driver 
-*   
+* After the drivers are downloaded, the folder location of jar file will be displayed on hovering the mouse over the library
+* Goto the database plugins folder and copy all the jar files corresponding to the required database driver to the PC without internet
+
+### Step 2 - Installing the jar files in the computer  
 
 ### Video
 The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
@@ -56,7 +58,7 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTk5NzQ3LC00Nzc4NDE5MDYsLTE3OD
-M3Mzk2MCwtMTQ4OTY3NTc2NywxODkzNDM2NTcxLC05OTU0NDMy
-MTksLTYzMDA1MjYzMSwxMzQ1NDkxMzFdfQ==
+eyJoaXN0b3J5IjpbLTE5NTI2MTYwNTksLTQ3Nzg0MTkwNiwtMT
+c4MzczOTYwLC0xNDg5Njc1NzY3LDE4OTM0MzY1NzEsLTk5NTQ0
+MzIxOSwtNjMwMDUyNjMxLDEzNDU0OTEzMV19
 -->
