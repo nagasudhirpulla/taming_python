@@ -23,6 +23,9 @@ sudo add-apt-repository ppa:serge-rider/dbeaver-ce
 sudo apt-get update
 sudo apt-get install dbeaver-ce
 ```
+#### Other Linux Distributions
+The DBeaver download page at https://dbeaver.io/download/ has the commands required to install in Debain based
+
 
 ### Video
 The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
@@ -38,5 +41,5 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMDcyNTM5NiwxMzQ1NDkxMzFdfQ==
+eyJoaXN0b3J5IjpbNzg0NDc2NTIsMTM0NTQ5MTMxXX0=
 -->
