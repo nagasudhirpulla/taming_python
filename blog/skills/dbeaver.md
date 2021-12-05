@@ -3,12 +3,10 @@
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <hr/>
-In this post we will try to install a PostgreSQL database and explore it's database administration tools.
+In this post we will try to install and use a free universal database tool called DBeaver.
 
-## Why is a database required
-* Database is useful to persist the data/state of an application in the storage for analytics, business logic implementation etc
-* Database makes some common tasks very easy and manageable like  data storage with encryption, querying the stored data, creating reports etc
-* Almost all practical software systems will require a database to persist the data
+## Why use DBeaver
+* D
 
 ## What is a PostgreSQL database
 * PostgreSQL database is a powerful opensource relational database where data can be stored in tables
@@ -65,5 +63,5 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Mjg4NzQ4XX0=
+eyJoaXN0b3J5IjpbLTIxNDczNjQxODRdfQ==
 -->
