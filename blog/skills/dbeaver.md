@@ -5,6 +5,8 @@
 <hr/>
 In this post we will try to install and use a free universal database tool called [DBeaver](https://dbeaver.io/).
 
+![DBeaver_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/DBeaver_demo.png)
+
 ## Why use DBeaver
 * You can manage all popular databases (MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, MS Access, Teradata, Firebird, Apache Hive, Phoenix, Presto, etc) in one single tool. No need to download separate tool for each type of database
 * The community edition of DBeaver is free
@@ -27,5 +29,5 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTQ5MTMxXX0=
+eyJoaXN0b3J5IjpbLTE5MzM4MDUzMjMsMTM0NTQ5MTMxXX0=
 -->
