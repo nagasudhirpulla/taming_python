@@ -47,8 +47,13 @@ The DBeaver download page at https://dbeaver.io/download/ has the commands and i
 * Click "New" button and fill the input fields for the required database driver
 * Click the "Add File" button to import all the jar files required for this database driver
 * Now we have completed the offline installation of a database driver !
+
  The screenshots of the settings of common database drivers can be seen in the images below
+ 
  ![dbeaver_postgres_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_postgres_driver_settings.png)
+ ![dbeaver_mysql_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_mysql_driver_settings.png)
+ ![dbeaver_oracle_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_oracle_driver_settings.png)
+ ![enter image description here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_sqlite_driver_settings.png)
 
 ### Video
 The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
@@ -56,6 +61,7 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 ### References
 * DBeaver download - https://dbeaver.io/download/
 * DBeaver site - https://dbeaver.io
+* Adding new jdbc driver in DBeaver - https://dbeaver.com/docs/wiki/Database-drivers/
 
 <hr/>
 
@@ -64,7 +70,7 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4OTY3NzE3NSwtNDc3ODQxOTA2LC0xNz
-gzNzM5NjAsLTE0ODk2NzU3NjcsMTg5MzQzNjU3MSwtOTk1NDQz
-MjE5LC02MzAwNTI2MzEsMTM0NTQ5MTMxXX0=
+eyJoaXN0b3J5IjpbODQ3NzQ2NzczLDExODk2NzcxNzUsLTQ3Nz
+g0MTkwNiwtMTc4MzczOTYwLC0xNDg5Njc1NzY3LDE4OTM0MzY1
+NzEsLTk5NTQ0MzIxOSwtNjMwMDUyNjMxLDEzNDU0OTEzMV19
 -->
