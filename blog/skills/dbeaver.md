@@ -53,7 +53,7 @@ The DBeaver download page at https://dbeaver.io/download/ has the commands and i
  ![dbeaver_postgres_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_postgres_driver_settings.png)
  ![dbeaver_mysql_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_mysql_driver_settings.png)
  ![dbeaver_oracle_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_oracle_driver_settings.png)
- ![enter image description here](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_sqlite_driver_settings.png)
+ ![dbeaver_sqlite_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_sqlite_driver_settings.png)
 
 ### Video
 The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
@@ -70,7 +70,8 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ3NzQ2NzczLDExODk2NzcxNzUsLTQ3Nz
-g0MTkwNiwtMTc4MzczOTYwLC0xNDg5Njc1NzY3LDE4OTM0MzY1
-NzEsLTk5NTQ0MzIxOSwtNjMwMDUyNjMxLDEzNDU0OTEzMV19
+eyJoaXN0b3J5IjpbLTU3MzM5NTM0MywxMTg5Njc3MTc1LC00Nz
+c4NDE5MDYsLTE3ODM3Mzk2MCwtMTQ4OTY3NTc2NywxODkzNDM2
+NTcxLC05OTU0NDMyMTksLTYzMDA1MjYzMSwxMzQ1NDkxMzFdfQ
+==
 -->
