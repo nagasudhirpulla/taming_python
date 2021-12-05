@@ -13,8 +13,16 @@ In this post we will try to install and use a free universal database tool calle
 * This is tool is cross-platform, so it can be installed in Windows, Linux, Mac
 
 ## Install DBeaver
+#### Windows
 * Download DBeaver at https://dbeaver.io/download/
 * Run the installer and complete the installation
+
+#### Ubuntu
+```bash
+sudo add-apt-repository ppa:serge-rider/dbeaver-ce
+sudo apt-get update
+sudo apt-get install dbeaver-ce
+```
 
 ### Video
 The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
@@ -30,5 +38,5 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODM4NzI0NzQsMTM0NTQ5MTMxXX0=
+eyJoaXN0b3J5IjpbMTAwMDcyNTM5NiwxMzQ1NDkxMzFdfQ==
 -->
