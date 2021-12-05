@@ -42,7 +42,7 @@ The DBeaver download page at https://dbeaver.io/download/ has the commands and i
 * Go to the database plugins folder and copy all the jar files corresponding to the required database driver and paste in the computer without internet
 
 ### Step 2 - Installing the jar files in the computer without internet
-* In the computer without internet, open the Database -> Driver Manager Menu
+* Open Database -> Driver Manager Menu
 * Click "New" button and fill the input fields for the required database driver
 * Click the "Add File" button to import all the jar files required for this database driver
 * Now we have completed the offline installation of a database driver !
@@ -69,8 +69,7 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDg2MTA4MiwxMTg5Njc3MTc1LC00Nz
-c4NDE5MDYsLTE3ODM3Mzk2MCwtMTQ4OTY3NTc2NywxODkzNDM2
-NTcxLC05OTU0NDMyMTksLTYzMDA1MjYzMSwxMzQ1NDkxMzFdfQ
-==
+eyJoaXN0b3J5IjpbMTA5ODg5ODIzLDExODk2NzcxNzUsLTQ3Nz
+g0MTkwNiwtMTc4MzczOTYwLC0xNDg5Njc1NzY3LDE4OTM0MzY1
+NzEsLTk5NTQ0MzIxOSwtNjMwMDUyNjMxLDEzNDU0OTEzMV19
 -->
