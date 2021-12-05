@@ -36,7 +36,12 @@ The DBeaver download page at https://dbeaver.io/download/ has the commands and i
 * All the installed database plugins can be found in the folder
 ```C:\Users\<username>\AppData\Roaming\DBeaverData\drivers\maven\maven-central```
 * On the Top Menu bar goto Database -> DriverManager menu
-* Then select the database you would
+* Then select the database you would like to connect and click edit
+* In the pop up window, click Download/Update button. Now all the driver jar files will be downloaded in the computer from the internet
+* After the drivers are downloaded, the location of jar file will be displayed on hovering the mouse over the library
+* Goto the database plugins folder and copy all the jar files corresponding to the required database driver 
+*   
+
 ### Video
 The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
@@ -51,7 +56,7 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzI0MjA3ODcsLTQ3Nzg0MTkwNiwtMT
-c4MzczOTYwLC0xNDg5Njc1NzY3LDE4OTM0MzY1NzEsLTk5NTQ0
-MzIxOSwtNjMwMDUyNjMxLDEzNDU0OTEzMV19
+eyJoaXN0b3J5IjpbLTIyOTk5NzQ3LC00Nzc4NDE5MDYsLTE3OD
+M3Mzk2MCwtMTQ4OTY3NTc2NywxODkzNDM2NTcxLC05OTU0NDMy
+MTksLTYzMDA1MjYzMSwxMzQ1NDkxMzFdfQ==
 -->
