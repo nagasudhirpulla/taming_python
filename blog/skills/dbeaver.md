@@ -31,6 +31,8 @@ The DBeaver download page at https://dbeaver.io/download/ has the commands and i
 * Each type of database connection requires its own plugin
 * If plugin is not present in the computer, DBeaver will prompt to install the plugins via downloading from the internet
 
+## Installing DBeaver plugins without internet
+
 ### Video
 The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
@@ -45,6 +47,6 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDAxNzYyNCwtOTk1NDQzMjE5LC02Mz
+eyJoaXN0b3J5IjpbMTg5MzQzNjU3MSwtOTk1NDQzMjE5LC02Mz
 AwNTI2MzEsMTM0NTQ5MTMxXX0=
 -->
