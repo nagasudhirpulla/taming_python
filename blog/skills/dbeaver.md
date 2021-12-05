@@ -54,10 +54,6 @@ The DBeaver download page at https://dbeaver.io/download/ has the commands and i
  ![dbeaver_mysql_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_mysql_driver_settings.png)
  ![dbeaver_oracle_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_oracle_driver_settings.png)
  ![dbeaver_sqlite_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_sqlite_driver_settings.png)
-
-### Video
-The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
-
 ### References
 * DBeaver download - https://dbeaver.io/download/
 * DBeaver site - https://dbeaver.io
@@ -70,8 +66,8 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjA4NTE4MCwtMTE2NDg5OTEwMiwxMT
-g5Njc3MTc1LC00Nzc4NDE5MDYsLTE3ODM3Mzk2MCwtMTQ4OTY3
-NTc2NywxODkzNDM2NTcxLC05OTU0NDMyMTksLTYzMDA1MjYzMS
-wxMzQ1NDkxMzFdfQ==
+eyJoaXN0b3J5IjpbMjI5OTczNTYsLTExNjQ4OTkxMDIsMTE4OT
+Y3NzE3NSwtNDc3ODQxOTA2LC0xNzgzNzM5NjAsLTE0ODk2NzU3
+NjcsMTg5MzQzNjU3MSwtOTk1NDQzMjE5LC02MzAwNTI2MzEsMT
+M0NTQ5MTMxXX0=
 -->
