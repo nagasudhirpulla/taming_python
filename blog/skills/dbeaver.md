@@ -33,6 +33,7 @@ The DBeaver download page at https://dbeaver.io/download/ has the commands and i
 
 ## Installing DBeaver plugins without internet
 
+
 ### Video
 The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
@@ -47,6 +48,6 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzQzNjU3MSwtOTk1NDQzMjE5LC02Mz
-AwNTI2MzEsMTM0NTQ5MTMxXX0=
+eyJoaXN0b3J5IjpbLTE0ODk2NzU3NjcsMTg5MzQzNjU3MSwtOT
+k1NDQzMjE5LC02MzAwNTI2MzEsMTM0NTQ5MTMxXX0=
 -->
