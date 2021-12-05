@@ -10,7 +10,8 @@ In this post we will try to install and use a free universal database tool calle
 * The community edition of DBeaver is free
 * This is tool is cross-platform, so it can be installed in Windows, Linux, Mac
 
-## Install
+## Install DBeaver
+
 
 ### Video
 The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
@@ -26,5 +27,5 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ1ODM3MDZdfQ==
+eyJoaXN0b3J5IjpbMTM0NTQ5MTMxXX0=
 -->
