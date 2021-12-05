@@ -32,7 +32,8 @@ The DBeaver download page at https://dbeaver.io/download/ has the commands and i
 * If plugin is not present in the computer, DBeaver will prompt to install the plugins via downloading from the internet
 
 ## Installing DBeaver plugins without internet
-C:\Users\Nagasudhir\AppData\Roaming\DBeaverData\drivers\maven\maven-central
+The plugin libraries can be found in the folder
+```C:\Users\<username>\AppData\Roaming\DBeaverData\drivers\maven\maven-central```
 
 ### Video
 The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
@@ -48,7 +49,7 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODc2NTk2NCwtMTQ4OTY3NTc2NywxOD
+eyJoaXN0b3J5IjpbLTE3ODM3Mzk2MCwtMTQ4OTY3NTc2NywxOD
 kzNDM2NTcxLC05OTU0NDMyMTksLTYzMDA1MjYzMSwxMzQ1NDkx
 MzFdfQ==
 -->
