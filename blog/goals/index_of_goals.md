@@ -114,7 +114,7 @@ Here are the goals and skills in this tutorial series
 
 #### Using Databases for data storage
 * [Installing and managing a PostgreSQL database](https://nagasudhir.blogspot.com/2021/12/installing-and-managing-postgresql.html)
-* []()
+* [Installing and using DBeaver for accessing and controlling different databases in one tool](https://nagasudhir.blogspot.com/2021/12/installing-and-using-dbeaver-for.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -122,11 +122,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE4NDU1MDYwNTMsOTk3Nj
-g4MTM0LC0xMjMzNzIxMTgsLTE3ODgxNzMwMTAsODgxMDUyNTI5
-LDg5NjQ3NzM2NiwtMjk3NDIyODcxLC02MTY3MjE0NTUsNTM4OD
-E0ODg1LDg3Njg0ODI1NCw1MDU3MDc3MzAsMzcwNjkwNzI3LC0y
-MTEzODc2NDk2LDc5MTIwMDU0OSwxOTg3NzE2MTQ0LC0xOTQ5Mj
-kwMjMxLC0xNjI3NzQ1ODAyLC05Mzg1MDA2ODksLTE4NTUzMDU4
-NjMsLTExNDYzMDQ2MTldfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTg0NjEwMTIwNSw5OTc2OD
+gxMzQsLTEyMzM3MjExOCwtMTc4ODE3MzAxMCw4ODEwNTI1Mjks
+ODk2NDc3MzY2LC0yOTc0MjI4NzEsLTYxNjcyMTQ1NSw1Mzg4MT
+Q4ODUsODc2ODQ4MjU0LDUwNTcwNzczMCwzNzA2OTA3MjcsLTIx
+MTM4NzY0OTYsNzkxMjAwNTQ5LDE5ODc3MTYxNDQsLTE5NDkyOT
+AyMzEsLTE2Mjc3NDU4MDIsLTkzODUwMDY4OSwtMTg1NTMwNTg2
+MywtMTE0NjMwNDYxOV19
 -->
