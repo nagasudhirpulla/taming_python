@@ -61,11 +61,10 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0NzUxMzg4LDIzNDI4OTU5MiwxNjI0Mj
-kwMzgsNTUxMTc1ODEsMTk4NTg4OTg5OCwtMTU5OTk1NzM4NCwt
-MTQxODg2ODUzNiwtOTE1MTIxMDEyLDEzNTQ5ODU1MzMsOTYyOT
-I3MDc0LC02NDAxMTM3MzUsLTg1MzU4NjIzOV19
+eyJoaXN0b3J5IjpbNjI3Nzk4MDgwLDU4NDc1MTM4OCwyMzQyOD
+k1OTIsMTYyNDI5MDM4LDU1MTE3NTgxLDE5ODU4ODk4OTgsLTE1
+OTk5NTczODQsLTE0MTg4Njg1MzYsLTkxNTEyMTAxMiwxMzU0OT
+g1NTMzLDk2MjkyNzA3NCwtNjQwMTEzNzM1LC04NTM1ODYyMzld
+fQ==
 -->
