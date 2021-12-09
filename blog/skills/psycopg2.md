@@ -4,7 +4,11 @@
 <hr/>
 In this post we will use psycopg2 python module for interfacing with PostgreSQL database.
 
-
+## Installing psycopg2 python module
+Run the following command in your python environment
+```
+python -m
+``` 
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -17,5 +21,5 @@ In this post we will use psycopg2 python module for interfacing with PostgreSQL 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzQ3NDYyNCwtMTE1MzY3MTU4Ml19
+eyJoaXN0b3J5IjpbLTY0MDk1NzU4NywtMTE1MzY3MTU4Ml19
 -->
