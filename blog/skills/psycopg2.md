@@ -1,8 +1,8 @@
-## Skill - Installing and managing a PostgreSQL database
+## Skill - Using psycopg2 python module for PostgreSQL interfacing
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <hr/>
-In this post we will try to install a PostgreSQL database and explore it's database administration tools.
+In this post we will use psycopg2 python module for interfacing with PostgreSQL database.
 
 ## Why is a database required
 * Database is useful to persist the data/state of an application in the storage for analytics, business logic implementation etc
@@ -63,5 +63,5 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTM2NzE1ODJdfQ==
+eyJoaXN0b3J5IjpbMTI3MzUwMDIxNCwtMTE1MzY3MTU4Ml19
 -->
