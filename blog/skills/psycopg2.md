@@ -53,7 +53,7 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ErUPLbqXiB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
-* 
+* psycopg2 documentation - https://www.psycopg.org/docs/usage.html
 * PostgreSQL Official docs - https://www.postgresql.org/docs/14/index.html
 * pgAdmin download - https://www.pgadmin.org/download/
 
@@ -63,5 +63,5 @@ The video for this post can be found [here](https://youtu.be/ErUPLbqXiB8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NzM1NDg4OF19
+eyJoaXN0b3J5IjpbLTExNTM2NzE1ODJdfQ==
 -->
