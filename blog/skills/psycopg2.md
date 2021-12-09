@@ -10,7 +10,11 @@ Run the following command in your python environment
 python -m pip install psycopg2
 ``` 
 
-## 
+## Connecting to a database
+The required parameters for connecting to a postgreSQL database are
+* database server host
+* database server port
+* database name
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -23,6 +27,6 @@ python -m pip install psycopg2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDcyMzczODAsLTExNTM2NzE1ODJdfQ
+eyJoaXN0b3J5IjpbLTEzMDkwNjAwNDAsLTExNTM2NzE1ODJdfQ
 ==
 -->
