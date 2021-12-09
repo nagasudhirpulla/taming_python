@@ -6,7 +6,7 @@ In this post we will use psycopg2 python module for interfacing with PostgreSQL 
 
 ## Installing psycopg2 python module
 Run the following command in your python environment
-```bat
+```
 python -m pip install psycopg2
 ``` 
 
@@ -22,5 +22,6 @@ python -m pip install psycopg2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTc2NDU3OSwtMTE1MzY3MTU4Ml19
+eyJoaXN0b3J5IjpbLTEyMjEzNjE2MjAsLTExNTM2NzE1ODJdfQ
+==
 -->
