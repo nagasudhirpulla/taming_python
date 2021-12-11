@@ -14,7 +14,7 @@ python -m pip install psycopg2
 The required parameters for connecting to a postgreSQL database are
 * database server host (example: localhost / 192.168.19.5)
 * database server listening port (example: 5432)
-* database name ()
+* database name (example: test_db)
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -27,5 +27,6 @@ The required parameters for connecting to a postgreSQL database are
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzEyMDIyNCwtMTE1MzY3MTU4Ml19
+eyJoaXN0b3J5IjpbLTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMT
+E1MzY3MTU4Ml19
 -->
