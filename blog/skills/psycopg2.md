@@ -172,7 +172,7 @@ print("data insertion example code execution complete...")
 ```
 * In the above program, we have used ```cur.mogrify``` function to convert python variables like strings, numnbers, datetime objects into SQL command strings. This is very important because SQL injection issue will be addresses by using the ```cur.mogrify``` function. Do not  convert variables to strings by yourself. Let psycopg2 handle the string conversion.
 * We have used ```ON CONFLICT DO UPDATE``` clause in the insert SQL statement. This helps in easily handling the situations without errors where duplicate rows are trying to get inserted.
-* The ```conn.commit()``` function is committing the database transaction. That means all the changes made to the database by the SQL commands executed by the cursor will be persisted in the database. Without calling this function, the changes to the database will not be permanent.
+* The ```conn.commit()``` function is committing all the uncommitted changes made to the database by the SQL commands executed by the cursor. Without calling this function, the changes to the database will not be permanent.
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -186,7 +186,7 @@ print("data insertion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTAwNDAxNSwxODYwNzE2MjY1LDY5OD
+eyJoaXN0b3J5IjpbMTU3MzMxODg2NiwxODYwNzE2MjY1LDY5OD
 A5NjQ3Myw3NTIzOTA3NDUsNDA4MTgwNzcsMTQ0ODQ2OTE0LC0x
 NTM2NzY3ODMyLC0yMTMxMjExMzcwLDIwNDQ4NTMxNywxOTc5OD
 gxMzYwLC0xMzY0MjUxNDI5LDEwMjcxMjAyMjQsLTExNTM2NzE1
