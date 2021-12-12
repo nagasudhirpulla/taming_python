@@ -28,13 +28,12 @@ uNameStr = 'postgres'
 dbPassStr = 'pass'
 
 try:
-    conn = psycopg2.connect(host=hostStr, port=dbPort, dbname=dbStr,
-                            user=uNameStr, password=dbPassStr)
+    conn = psycopg2.connect(host=hostStr, port=dbPort, dbname=dbStr, user=uNameStr, password=dbPassStr)
 
     # get a cursor object from the connection
     cur = conn.cursor()
 
-    # do something like fetch rows, insert rows, update rows, delete rows ...
+    # use the cursor object to run SQL commands to perform operations like fetch rows, insert rows, update rows, delete rows etc.
 except (Exception, psycopg2.Error) as error:
     print("Error while interacting with PostgreSQL", error)
     records = 0
@@ -46,8 +45,8 @@ finally:
         conn.close()
 ```
 * In the above program, we use 2 objects called connection object and cursor object
-* Connection object establishes connection with the database
-* Cursor object uses the connection object to execute SQL commands in the database to update data or fetch data from the database
+* Connection object establishes connection with the database.
+* Cursor object uses the connection object to execute SQL commands in the database to update data or fetch data from the database.
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -60,6 +59,6 @@ finally:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1NTE1NTUwLDE5Nzk4ODEzNjAsLTEzNj
-QyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3MTU4Ml19
+eyJoaXN0b3J5IjpbMjA5NTA3MzI3MCwxOTc5ODgxMzYwLC0xMz
+Y0MjUxNDI5LDEwMjcxMjAyMjQsLTExNTM2NzE1ODJdfQ==
 -->
