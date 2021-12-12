@@ -174,9 +174,46 @@ print("data insertion example code execution complete...")
 * We have used ```ON CONFLICT DO UPDATE``` clause in the insert SQL statement. This helps in easily handling the situations without errors where duplicate rows are trying to get inserted.
 * The ```conn.commit()``` function is committing all the uncommitted database changes made by the cursor object by executing SQL commands. Without calling this function, the database changes made by the cursor object will not be permanent. Hence do not forget to call ```conn.commit``` after executing a database modification command like INSERT, DELETE, UPDATE.
 
-## Delete data example
+## Delete rows example
 ```
+import psycopg2
+import datetime as dt
+import pandas as pd
 
+hostStr = 'localhost'
+dbPort = 5433
+dbStr = 'test1'
+uNameStr = 'postgres'
+dbPassStr = 'pass'
+
+try:
+    conn = psycopg2.connect(host=hostStr, port=dbPort, dbname=dbStr,
+                            user=uNameStr, password=dbPassStr)
+
+    # get a cursor object from the connection
+    cur = conn.cursor()
+
+    # create sql command for rows delete
+    sqlTxt = 'DELETE FROM public.students where name = %s'
+
+    # execute the sql to perform insertion
+    cur.execute(sqlTxt, ("xyz",))
+
+    rowCount = cur.rowcount
+    print("number of deleted rows =", rowCount)
+
+    # commit the changes
+    conn.commit()
+except (Exception, psycopg2.Error) as error:
+    print("Error while interacting with PostgreSQL", error)
+finally:
+    if(conn):
+        # close the cursor object to avoid memory leaks
+        cur.close()
+        # close the connection object also
+        conn.close()
+
+print("data deletion example code execution complete...")
 ```
 
 ### References
@@ -191,9 +228,10 @@ print("data insertion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyNTczNDYxLC00MTIxNTQzNjMsLTgxMz
-M5ODQ3OCwxODYwNzE2MjY1LDY5ODA5NjQ3Myw3NTIzOTA3NDUs
-NDA4MTgwNzcsMTQ0ODQ2OTE0LC0xNTM2NzY3ODMyLC0yMTMxMj
-ExMzcwLDIwNDQ4NTMxNywxOTc5ODgxMzYwLC0xMzY0MjUxNDI5
-LDEwMjcxMjAyMjQsLTExNTM2NzE1ODJdfQ==
+eyJoaXN0b3J5IjpbLTIwMjYyNzE4ODMsNTAyNTczNDYxLC00MT
+IxNTQzNjMsLTgxMzM5ODQ3OCwxODYwNzE2MjY1LDY5ODA5NjQ3
+Myw3NTIzOTA3NDUsNDA4MTgwNzcsMTQ0ODQ2OTE0LC0xNTM2Nz
+Y3ODMyLC0yMTMxMjExMzcwLDIwNDQ4NTMxNywxOTc5ODgxMzYw
+LC0xMzY0MjUxNDI5LDEwMjcxMjAyMjQsLTExNTM2NzE1ODJdfQ
+==
 -->
