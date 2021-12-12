@@ -15,6 +15,9 @@ The required parameters for connecting to a postgreSQL database are
 * database server host (example: localhost / 192.168.19.5)
 * database server listening port (example: 5432)
 * database name (example: test_db)
+* database username (example: postgres)
+* database password (example: p#ssw0rd)
+* 
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -27,6 +30,6 @@ The required parameters for connecting to a postgreSQL database are
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMT
-E1MzY3MTU4Ml19
+eyJoaXN0b3J5IjpbNDM0ODQ0MjExLC0xMzY0MjUxNDI5LDEwMj
+cxMjAyMjQsLTExNTM2NzE1ODJdfQ==
 -->
