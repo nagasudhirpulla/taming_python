@@ -116,7 +116,7 @@ order by name, studentid"
 
 * We have also given SQL input placeholders as ```%s``` to inject python variables into SQL statement while execution. This is a strongly recommended way of inserting variables in SQL commands since this avoids SQL injection attacks in our python programs.
 * Using ```cur.fetchall()``` will return the results of SQL fetch query as a list of tuples from our cursor variable.
-* 
+* Using ```[row[0] for row in cur.description]``` will return the column names of row 
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -129,8 +129,8 @@ order by name, studentid"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTUwMzkxNiw0MDgxODA3NywxNDQ4ND
-Y5MTQsLTE1MzY3Njc4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3
-LDE5Nzk4ODEzNjAsLTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMT
-E1MzY3MTU4Ml19
+eyJoaXN0b3J5IjpbNTAwNjY3Njc2LDQwODE4MDc3LDE0NDg0Nj
+kxNCwtMTUzNjc2NzgzMiwtMjEzMTIxMTM3MCwyMDQ0ODUzMTcs
+MTk3OTg4MTM2MCwtMTM2NDI1MTQyOSwxMDI3MTIwMjI0LC0xMT
+UzNjcxNTgyXX0=
 -->
