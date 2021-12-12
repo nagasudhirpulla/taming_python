@@ -262,6 +262,7 @@ print("data update example code execution complete...")
 ```
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
+* psycopg2 sql parameters d
 * cursor rowcount variable documentation - https://www.psycopg.org/docs/cursor.html#cursor.rowcount 
 * PostgreSQL Official docs - https://www.postgresql.org/docs/14/index.html
 * pgAdmin download - https://www.pgadmin.org/download/
@@ -272,10 +273,10 @@ print("data update example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjk5NjU1MjUsLTY5ODI5MDIwOCwxMj
-M2Mzk3MTk0LDUwMjU3MzQ2MSwtNDEyMTU0MzYzLC04MTMzOTg0
-NzgsMTg2MDcxNjI2NSw2OTgwOTY0NzMsNzUyMzkwNzQ1LDQwOD
-E4MDc3LDE0NDg0NjkxNCwtMTUzNjc2NzgzMiwtMjEzMTIxMTM3
-MCwyMDQ0ODUzMTcsMTk3OTg4MTM2MCwtMTM2NDI1MTQyOSwxMD
-I3MTIwMjI0LC0xMTUzNjcxNTgyXX0=
+eyJoaXN0b3J5IjpbMTU3NzUzMzA4OCwtMTgyOTk2NTUyNSwtNj
+k4MjkwMjA4LDEyMzYzOTcxOTQsNTAyNTczNDYxLC00MTIxNTQz
+NjMsLTgxMzM5ODQ3OCwxODYwNzE2MjY1LDY5ODA5NjQ3Myw3NT
+IzOTA3NDUsNDA4MTgwNzcsMTQ0ODQ2OTE0LC0xNTM2NzY3ODMy
+LC0yMTMxMjExMzcwLDIwNDQ4NTMxNywxOTc5ODgxMzYwLC0xMz
+Y0MjUxNDI5LDEwMjcxMjAyMjQsLTExNTM2NzE1ODJdfQ==
 -->
