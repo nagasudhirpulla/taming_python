@@ -120,6 +120,56 @@ order by name, studentid"
 
 ## Insert rows example
 ```python
+import psycopg2
+import datetime as dt
+import pandas as pd
+
+hostStr = 'localhost'
+dbPort = 5433
+dbStr = 'test1'
+uNameStr = 'postgres'
+dbPassStr = 'pass'
+
+try:
+    conn = psycopg2.connect(host=hostStr, port=dbPort, dbname=dbStr,
+                            user=uNameStr, password=dbPassStr)
+
+    # get a cursor object from the connection
+    cur = conn.cursor()
+
+    # prepare data insertion rows
+    dataInsertionTuples = [
+        ('xyz', dt.datetime(2021, 1, 1), 7654),
+        ('abc', dt.datetime(2020, 10, 12), 9724)
+    ]
+
+    # create sql command for rows insertion
+    dataText = ','.join(cur.mogrify('(%s,%s,%s)', row).decode(
+        "utf-8") for row in dataInsertionTuples)
+
+    sqlTxt = 'INSERT INTO public.students(\
+                name, dob, studentid)\
+                VALUES {0} on conflict (studentid) \
+                do update set name = excluded.name, dob=excluded.dob'.format(dataText)
+
+    # execute the sql to perform insertion
+    cur.execute(sqlTxt)
+
+    rowCount = cur.rowcount
+    print("inserted numner of rows =", rowCount)
+
+    # commit the changes
+    conn.commit()
+except (Exception, psycopg2.Error) as error:
+    print("Error while interacting with PostgreSQL", error)
+finally:
+    if(conn):
+        # close the cursor object to avoid memory leaks
+        cur.close()
+        # close the connection object also
+        conn.close()
+
+print("data insertion example code execution complete...")
 ```
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -133,9 +183,9 @@ order by name, studentid"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDEyNjU3MDAsMTg2MDcxNjI2NSw2OT
-gwOTY0NzMsNzUyMzkwNzQ1LDQwODE4MDc3LDE0NDg0NjkxNCwt
-MTUzNjc2NzgzMiwtMjEzMTIxMTM3MCwyMDQ0ODUzMTcsMTk3OT
-g4MTM2MCwtMTM2NDI1MTQyOSwxMDI3MTIwMjI0LC0xMTUzNjcx
-NTgyXX0=
+eyJoaXN0b3J5IjpbNDk3MDgzMTY4LDE4NjA3MTYyNjUsNjk4MD
+k2NDczLDc1MjM5MDc0NSw0MDgxODA3NywxNDQ4NDY5MTQsLTE1
+MzY3Njc4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3LDE5Nzk4OD
+EzNjAsLTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3MTU4
+Ml19
 -->
