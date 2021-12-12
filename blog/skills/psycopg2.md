@@ -95,7 +95,6 @@ try:
     recordsDf = pd.DataFrame.from_records(records, columns=colNames)
 except (Exception, psycopg2.Error) as error:
     print("Error while interacting with PostgreSQL", error)
-    records = 0
 finally:
     if(conn):
         # close the cursor object to avoid memory leaks
@@ -132,8 +131,8 @@ order by name, studentid"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4MDk2NDczLDc1MjM5MDc0NSw0MDgxOD
-A3NywxNDQ4NDY5MTQsLTE1MzY3Njc4MzIsLTIxMzEyMTEzNzAs
-MjA0NDg1MzE3LDE5Nzk4ODEzNjAsLTEzNjQyNTE0MjksMTAyNz
-EyMDIyNCwtMTE1MzY3MTU4Ml19
+eyJoaXN0b3J5IjpbLTE5NjA3MTQ1OTQsNjk4MDk2NDczLDc1Mj
+M5MDc0NSw0MDgxODA3NywxNDQ4NDY5MTQsLTE1MzY3Njc4MzIs
+LTIxMzEyMTEzNzAsMjA0NDg1MzE3LDE5Nzk4ODEzNjAsLTEzNj
+QyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3MTU4Ml19
 -->
