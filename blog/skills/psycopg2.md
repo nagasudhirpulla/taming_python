@@ -52,6 +52,7 @@ finally:
 
 ## Fetching data from database
 ```python
+
 ```
 
 ### References
@@ -65,7 +66,7 @@ finally:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNTA4MTg0MCwtMTUzNjc2NzgzMiwtMj
-EzMTIxMTM3MCwyMDQ0ODUzMTcsMTk3OTg4MTM2MCwtMTM2NDI1
-MTQyOSwxMDI3MTIwMjI0LC0xMTUzNjcxNTgyXX0=
+eyJoaXN0b3J5IjpbMTQ0ODQ2OTE0LC0xNTM2NzY3ODMyLC0yMT
+MxMjExMzcwLDIwNDQ4NTMxNywxOTc5ODgxMzYwLC0xMzY0MjUx
+NDI5LDEwMjcxMjAyMjQsLTExNTM2NzE1ODJdfQ==
 -->
