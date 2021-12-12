@@ -205,7 +205,7 @@ try:
     # commit the changes
     conn.commit()
 except (Exception, psycopg2.Error) as error:
-    print("Error while interacting with PostgreSQL\n", error)
+    print("Error while interacting with PostgreSQL...\n", error)
 finally:
     if(conn):
         # close the cursor object to avoid memory leaks
@@ -228,10 +228,10 @@ print("data deletion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNDAwNjI0LDEyMzYzOTcxOTQsNTAyNT
-czNDYxLC00MTIxNTQzNjMsLTgxMzM5ODQ3OCwxODYwNzE2MjY1
-LDY5ODA5NjQ3Myw3NTIzOTA3NDUsNDA4MTgwNzcsMTQ0ODQ2OT
-E0LC0xNTM2NzY3ODMyLC0yMTMxMjExMzcwLDIwNDQ4NTMxNywx
-OTc5ODgxMzYwLC0xMzY0MjUxNDI5LDEwMjcxMjAyMjQsLTExNT
-M2NzE1ODJdfQ==
+eyJoaXN0b3J5IjpbLTExNDg0NTA0ODYsMTIzNjM5NzE5NCw1MD
+I1NzM0NjEsLTQxMjE1NDM2MywtODEzMzk4NDc4LDE4NjA3MTYy
+NjUsNjk4MDk2NDczLDc1MjM5MDc0NSw0MDgxODA3NywxNDQ4ND
+Y5MTQsLTE1MzY3Njc4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3
+LDE5Nzk4ODEzNjAsLTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMT
+E1MzY3MTU4Ml19
 -->
