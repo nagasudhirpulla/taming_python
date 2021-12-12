@@ -74,7 +74,7 @@ try:
         where dob >= %s and studentid > %s \
         order by name, studentid"
 
-    # execute the data fetch command along with the SQL placeholder values
+    # execute the data fetch SQL command along with the SQL placeholder values
     cur.execute(sqlStr, (dt.datetime(2018, 1, 1, 0, 0, 0), 3000))
 
     # fetch all the records from cursor
@@ -173,7 +173,7 @@ print("data insertion example code execution complete...")
 * We have used ```ON CONFLICT DO UPDATE``` clause in the insert SQL statement. This helps in easily handling the situations without errors where duplicate rows are trying to get inserted.
 * The ```conn.commit()``` function is committing all the uncommitted database changes made by the cursor object by executing SQL commands. Without calling this function, the database changes made by the cursor object will not be permanent. Hence do not forget to call ```conn.commit``` after executing a database modification command like INSERT, DELETE, UPDATE.
 
-## Delete rows example
+## Delete data example
 
 ```python
 import psycopg2
@@ -196,7 +196,7 @@ try:
     # create sql command for rows delete
     sqlTxt = 'DELETE FROM public.students where name = %s'
 
-    # execute the SQL along with 
+    # execute the data delete SQL command along with the SQL placeholder values 
     cur.execute(sqlTxt, ("xyz",))
 
     rowCount = cur.rowcount
@@ -228,7 +228,7 @@ print("data deletion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTY0MjY1MSw1MDI1NzM0NjEsLTQxMj
+eyJoaXN0b3J5IjpbMTQ5MzYyNDM1Miw1MDI1NzM0NjEsLTQxMj
 E1NDM2MywtODEzMzk4NDc4LDE4NjA3MTYyNjUsNjk4MDk2NDcz
 LDc1MjM5MDc0NSw0MDgxODA3NywxNDQ4NDY5MTQsLTE1MzY3Nj
 c4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3LDE5Nzk4ODEzNjAs
