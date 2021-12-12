@@ -216,7 +216,7 @@ finally:
 print("data deletion example code execution complete...")
 ```
 
-## UPDATE rows example
+## Update rows example
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -230,7 +230,7 @@ print("data deletion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3ODExODUyLDEyMzYzOTcxOTQsNTAyNT
+eyJoaXN0b3J5IjpbNjcwMzY1MTAwLDEyMzYzOTcxOTQsNTAyNT
 czNDYxLC00MTIxNTQzNjMsLTgxMzM5ODQ3OCwxODYwNzE2MjY1
 LDY5ODA5NjQ3Myw3NTIzOTA3NDUsNDA4MTgwNzcsMTQ0ODQ2OT
 E0LC0xNTM2NzY3ODMyLC0yMTMxMjExMzcwLDIwNDQ4NTMxNywx
