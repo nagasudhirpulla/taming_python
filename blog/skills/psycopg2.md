@@ -45,10 +45,14 @@ finally:
         conn.close()
 ```
 
-* The above python program uses a **connection object** and a **cursor object**
-* Connection object establishes connection with the database.
-* Cursor object uses the connection object to execute SQL commands in the database to update data or fetch data from the database.
+* The above python program uses a connection object and a cursor object.
+* **Connection object** establishes connection with the database.
+* **Cursor object** uses the connection object to execute SQL commands in the database to update data or fetch data from the database.
 * Cursors can also perform transactions for atomic execution of multiple commands. That means either all SQL commands will be executed, or else all the SQL commands will be cancelled.
+
+## Fetching data from database
+```python
+```
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -61,7 +65,7 @@ finally:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3ODU3OTI5OSwtMTUzNjc2NzgzMiwtMj
+eyJoaXN0b3J5IjpbMjAwNTA4MTg0MCwtMTUzNjc2NzgzMiwtMj
 EzMTIxMTM3MCwyMDQ0ODUzMTcsMTk3OTg4MTM2MCwtMTM2NDI1
 MTQyOSwxMDI3MTIwMjI0LC0xMTUzNjcxNTgyXX0=
 -->
