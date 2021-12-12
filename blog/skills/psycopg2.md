@@ -20,10 +20,30 @@ The required parameters for connecting to a postgreSQL database are
 ```python
 import psycopg2
 
-hostStr = '192.168.19.5'
-dbStr = 'test_db'
+hostStr = 'localhost'
+dbPort = 5433
+dbStr = 'test1'
 uNameStr = 'postgres'
-dbPassStr = 'p#ssw0rd'
+dbPassStr = 'pass'
+
+try:
+    conn = psycopg2.connect(host=hostStr, port=dbPort, dbname=dbStr,
+                            user=uNameStr, password=dbPassStr)
+
+    # get a cursor object from the connection
+    cur = conn.cursor()
+
+    # do something like fetch rows, insert rows, update rows, delete rows ...
+except (Exception, psycopg2.Error) as error:
+    print("Error while interacting with PostgreSQL", error)
+    records = 0
+finally:
+    if(conn):
+        # close the cursor object to avoid memory leaks
+        cur.close()
+        # close the connection object also
+        conn.close()
+
 ```
 
 ### References
@@ -37,6 +57,6 @@ dbPassStr = 'p#ssw0rd'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTg4MTM2MCwtMTM2NDI1MTQyOSwxMD
-I3MTIwMjI0LC0xMTUzNjcxNTgyXX0=
+eyJoaXN0b3J5IjpbMzk3MDg3NDAxLDE5Nzk4ODEzNjAsLTEzNj
+QyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3MTU4Ml19
 -->
