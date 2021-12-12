@@ -155,7 +155,7 @@ try:
     cur.execute(sqlTxt)
 
     rowCount = cur.rowcount
-    print("inserted numner of rows =", rowCount)
+    print("number of inserted rows =", rowCount)
 
     # commit the changes
     conn.commit()
@@ -191,9 +191,9 @@ print("data insertion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjE1NDM2MywtODEzMzk4NDc4LDE4Nj
-A3MTYyNjUsNjk4MDk2NDczLDc1MjM5MDc0NSw0MDgxODA3Nywx
-NDQ4NDY5MTQsLTE1MzY3Njc4MzIsLTIxMzEyMTEzNzAsMjA0ND
-g1MzE3LDE5Nzk4ODEzNjAsLTEzNjQyNTE0MjksMTAyNzEyMDIy
-NCwtMTE1MzY3MTU4Ml19
+eyJoaXN0b3J5IjpbNTAyNTczNDYxLC00MTIxNTQzNjMsLTgxMz
+M5ODQ3OCwxODYwNzE2MjY1LDY5ODA5NjQ3Myw3NTIzOTA3NDUs
+NDA4MTgwNzcsMTQ0ODQ2OTE0LC0xNTM2NzY3ODMyLC0yMTMxMj
+ExMzcwLDIwNDQ4NTMxNywxOTc5ODgxMzYwLC0xMzY0MjUxNDI5
+LDEwMjcxMjAyMjQsLTExNTM2NzE1ODJdfQ==
 -->
