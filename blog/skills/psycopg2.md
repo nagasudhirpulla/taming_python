@@ -217,7 +217,9 @@ print("data deletion example code execution complete...")
 ```
 
 ## Update rows example
+```python
 
+```
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
 * cursor rowcount variable documentation - https://www.psycopg.org/docs/cursor.html#cursor.rowcount 
@@ -230,10 +232,10 @@ print("data deletion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwMzY1MTAwLDEyMzYzOTcxOTQsNTAyNT
-czNDYxLC00MTIxNTQzNjMsLTgxMzM5ODQ3OCwxODYwNzE2MjY1
-LDY5ODA5NjQ3Myw3NTIzOTA3NDUsNDA4MTgwNzcsMTQ0ODQ2OT
-E0LC0xNTM2NzY3ODMyLC0yMTMxMjExMzcwLDIwNDQ4NTMxNywx
-OTc5ODgxMzYwLC0xMzY0MjUxNDI5LDEwMjcxMjAyMjQsLTExNT
-M2NzE1ODJdfQ==
+eyJoaXN0b3J5IjpbLTMzMDIyNzkyNCwxMjM2Mzk3MTk0LDUwMj
+U3MzQ2MSwtNDEyMTU0MzYzLC04MTMzOTg0NzgsMTg2MDcxNjI2
+NSw2OTgwOTY0NzMsNzUyMzkwNzQ1LDQwODE4MDc3LDE0NDg0Nj
+kxNCwtMTUzNjc2NzgzMiwtMjEzMTIxMTM3MCwyMDQ0ODUzMTcs
+MTk3OTg4MTM2MCwtMTM2NDI1MTQyOSwxMDI3MTIwMjI0LC0xMT
+UzNjcxNTgyXX0=
 -->
