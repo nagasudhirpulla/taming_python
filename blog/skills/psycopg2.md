@@ -47,7 +47,7 @@ finally:
 ```
 * In the above program, we use 2 objects called connection object and cursor object
 * Connection object establishes connection with the database
-* Cursor object uses the connection object to execute sql commands in the database to update data or update data in the database
+* Cursor object uses the connection object to execute sql commands in the database to update data or fetch data from the database
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -60,6 +60,6 @@ finally:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzAyNjQzNCwxOTc5ODgxMzYwLC0xMz
-Y0MjUxNDI5LDEwMjcxMjAyMjQsLTExNTM2NzE1ODJdfQ==
+eyJoaXN0b3J5IjpbLTY2MzI3NjgyLDE5Nzk4ODEzNjAsLTEzNj
+QyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3MTU4Ml19
 -->
