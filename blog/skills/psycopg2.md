@@ -50,7 +50,7 @@ finally:
 * **Cursor object** uses the connection object to execute SQL commands in the database to update data or fetch data from the database.
 * Cursors can also perform transactions for atomic execution of multiple commands. That means either all SQL commands will be executed, or else all the SQL commands will be cancelled.
 
-## Fetching data from database
+## Fetching rows from database example
 
 ```python
 import psycopg2
@@ -228,9 +228,10 @@ print("data deletion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzYyNDM1Miw1MDI1NzM0NjEsLTQxMj
-E1NDM2MywtODEzMzk4NDc4LDE4NjA3MTYyNjUsNjk4MDk2NDcz
-LDc1MjM5MDc0NSw0MDgxODA3NywxNDQ4NDY5MTQsLTE1MzY3Nj
-c4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3LDE5Nzk4ODEzNjAs
-LTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3MTU4Ml19
+eyJoaXN0b3J5IjpbLTEzNzkyMzkyMDcsNTAyNTczNDYxLC00MT
+IxNTQzNjMsLTgxMzM5ODQ3OCwxODYwNzE2MjY1LDY5ODA5NjQ3
+Myw3NTIzOTA3NDUsNDA4MTgwNzcsMTQ0ODQ2OTE0LC0xNTM2Nz
+Y3ODMyLC0yMTMxMjExMzcwLDIwNDQ4NTMxNywxOTc5ODgxMzYw
+LC0xMzY0MjUxNDI5LDEwMjcxMjAyMjQsLTExNTM2NzE1ODJdfQ
+==
 -->
