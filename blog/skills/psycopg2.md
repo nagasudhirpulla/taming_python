@@ -131,8 +131,7 @@ uNameStr = 'postgres'
 dbPassStr = 'pass'
 
 try:
-    conn = psycopg2.connect(host=hostStr, port=dbPort, dbname=dbStr,
-                            user=uNameStr, password=dbPassStr)
+    conn = psycopg2.connect(host=hostStr, port=dbPort, dbname=dbStr, user=uNameStr, password=dbPassStr)
 
     # get a cursor object from the connection
     cur = conn.cursor()
@@ -171,6 +170,7 @@ finally:
 
 print("data insertion example code execution complete...")
 ```
+
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
 * cursor rowcount variable documentation - https://www.psycopg.org/docs/cursor.html#cursor.rowcount 
@@ -183,9 +183,9 @@ print("data insertion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3MDgzMTY4LDE4NjA3MTYyNjUsNjk4MD
-k2NDczLDc1MjM5MDc0NSw0MDgxODA3NywxNDQ4NDY5MTQsLTE1
-MzY3Njc4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3LDE5Nzk4OD
-EzNjAsLTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3MTU4
-Ml19
+eyJoaXN0b3J5IjpbLTE2OTAyMTE5MTAsMTg2MDcxNjI2NSw2OT
+gwOTY0NzMsNzUyMzkwNzQ1LDQwODE4MDc3LDE0NDg0NjkxNCwt
+MTUzNjc2NzgzMiwtMjEzMTIxMTM3MCwyMDQ0ODUzMTcsMTk3OT
+g4MTM2MCwtMTM2NDI1MTQyOSwxMDI3MTIwMjI0LC0xMTUzNjcx
+NTgyXX0=
 -->
