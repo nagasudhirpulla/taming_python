@@ -173,7 +173,7 @@ print("data insertion example code execution complete...")
 * We have used ```ON CONFLICT DO UPDATE``` clause in the insert SQL statement. This helps in easily handling the situations without errors where duplicate rows are trying to get inserted.
 * The ```conn.commit()``` function is committing all the uncommitted database changes made by the cursor object by executing SQL commands. Without calling this function, the database changes made by the cursor object will not be permanent. Hence do not forget to call ```conn.commit``` after executing a database modification command like INSERT, DELETE, UPDATE.
 
-## Delete data example
+## Delete rows example
 
 ```python
 import psycopg2
@@ -228,10 +228,9 @@ print("data deletion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzkyMzkyMDcsNTAyNTczNDYxLC00MT
-IxNTQzNjMsLTgxMzM5ODQ3OCwxODYwNzE2MjY1LDY5ODA5NjQ3
-Myw3NTIzOTA3NDUsNDA4MTgwNzcsMTQ0ODQ2OTE0LC0xNTM2Nz
-Y3ODMyLC0yMTMxMjExMzcwLDIwNDQ4NTMxNywxOTc5ODgxMzYw
-LC0xMzY0MjUxNDI5LDEwMjcxMjAyMjQsLTExNTM2NzE1ODJdfQ
-==
+eyJoaXN0b3J5IjpbMTIzNjM5NzE5NCw1MDI1NzM0NjEsLTQxMj
+E1NDM2MywtODEzMzk4NDc4LDE4NjA3MTYyNjUsNjk4MDk2NDcz
+LDc1MjM5MDc0NSw0MDgxODA3NywxNDQ4NDY5MTQsLTE1MzY3Nj
+c4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3LDE5Nzk4ODEzNjAs
+LTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3MTU4Ml19
 -->
