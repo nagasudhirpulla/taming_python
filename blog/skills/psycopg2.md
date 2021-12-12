@@ -45,7 +45,7 @@ finally:
         conn.close()
 ```
 
-* In the above program, we use 2 objects called connection object and cursor object
+* The above python program uses a **connection object** and a **cursor object**
 * Connection object establishes connection with the database.
 * Cursor object uses the connection object to execute SQL commands in the database to update data or fetch data from the database.
 * Cursors can also perform transactions for atomic execution of multiple commands. That means either all SQL commands will be executed, or else all the SQL commands will be cancelled.
@@ -61,7 +61,7 @@ finally:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzY3Njc4MzIsLTIxMzEyMTEzNzAsMj
-A0NDg1MzE3LDE5Nzk4ODEzNjAsLTEzNjQyNTE0MjksMTAyNzEy
-MDIyNCwtMTE1MzY3MTU4Ml19
+eyJoaXN0b3J5IjpbMTc3ODU3OTI5OSwtMTUzNjc2NzgzMiwtMj
+EzMTIxMTM3MCwyMDQ0ODUzMTcsMTk3OTg4MTM2MCwtMTM2NDI1
+MTQyOSwxMDI3MTIwMjI0LC0xMTUzNjcxNTgyXX0=
 -->
