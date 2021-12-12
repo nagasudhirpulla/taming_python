@@ -106,7 +106,14 @@ finally:
 print("data fetch example code execution complete...")
 ```
 
-* 
+* In the above code we have create an SQL fetch command to be executed as a string.
+```python
+
+"select name, dob, studentid from public.students \
+where dob >= %s and studentid > %s \
+order by name, studentid
+```
+* We have also given SQL placeholders
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -119,8 +126,8 @@ print("data fetch example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDIyOTUzMSwxNDQ4NDY5MTQsLTE1Mz
-Y3Njc4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3LDE5Nzk4ODEz
-NjAsLTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3MTU4Ml
-19
+eyJoaXN0b3J5IjpbLTEwNDczOTM1MzksMTQ0ODQ2OTE0LC0xNT
+M2NzY3ODMyLC0yMTMxMjExMzcwLDIwNDQ4NTMxNywxOTc5ODgx
+MzYwLC0xMzY0MjUxNDI5LDEwMjcxMjAyMjQsLTExNTM2NzE1OD
+JdfQ==
 -->
