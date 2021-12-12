@@ -17,6 +17,7 @@ The required parameters for connecting to a postgreSQL database are
 * database name (example: test_db)
 * database username (example: postgres)
 * database password (example: p#ssw0rd)
+
 ```python
 import psycopg2
 
@@ -43,8 +44,10 @@ finally:
         cur.close()
         # close the connection object also
         conn.close()
-
 ```
+* In the above program, we use 2 objects called connection object and cursor object
+* Connection object establishes connection with the database
+* Cursor object uses the connection object to fetch 
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -57,6 +60,6 @@ finally:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MDg3NDAxLDE5Nzk4ODEzNjAsLTEzNj
+eyJoaXN0b3J5IjpbLTU1NzQwNjUzLDE5Nzk4ODEzNjAsLTEzNj
 QyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3MTU4Ml19
 -->
