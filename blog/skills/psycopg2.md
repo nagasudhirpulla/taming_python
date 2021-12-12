@@ -44,6 +44,7 @@ finally:
         # close the connection object also
         conn.close()
 ```
+
 * In the above program, we use 2 objects called connection object and cursor object
 * Connection object establishes connection with the database.
 * Cursor object uses the connection object to execute SQL commands in the database to update data or fetch data from the database.
@@ -60,7 +61,7 @@ finally:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzEyMTEzNzAsMjA0NDg1MzE3LDE5Nz
-k4ODEzNjAsLTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3
-MTU4Ml19
+eyJoaXN0b3J5IjpbLTE1MzY3Njc4MzIsLTIxMzEyMTEzNzAsMj
+A0NDg1MzE3LDE5Nzk4ODEzNjAsLTEzNjQyNTE0MjksMTAyNzEy
+MDIyNCwtMTE1MzY3MTU4Ml19
 -->
