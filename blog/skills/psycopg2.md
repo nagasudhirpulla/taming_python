@@ -123,6 +123,7 @@ order by name, studentid"
 ```
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
+* cursor rowcount variable documentation - https://www.psycopg.org/docs/cursor.html#cursor.rowcount 
 * PostgreSQL Official docs - https://www.postgresql.org/docs/14/index.html
 * pgAdmin download - https://www.pgadmin.org/download/
 
@@ -132,8 +133,9 @@ order by name, studentid"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDcxNjI2NSw2OTgwOTY0NzMsNzUyMz
-kwNzQ1LDQwODE4MDc3LDE0NDg0NjkxNCwtMTUzNjc2NzgzMiwt
-MjEzMTIxMTM3MCwyMDQ0ODUzMTcsMTk3OTg4MTM2MCwtMTM2ND
-I1MTQyOSwxMDI3MTIwMjI0LC0xMTUzNjcxNTgyXX0=
+eyJoaXN0b3J5IjpbLTE1NDEyNjU3MDAsMTg2MDcxNjI2NSw2OT
+gwOTY0NzMsNzUyMzkwNzQ1LDQwODE4MDc3LDE0NDg0NjkxNCwt
+MTUzNjc2NzgzMiwtMjEzMTIxMTM3MCwyMDQ0ODUzMTcsMTk3OT
+g4MTM2MCwtMTM2NDI1MTQyOSwxMDI3MTIwMjI0LC0xMTUzNjcx
+NTgyXX0=
 -->
