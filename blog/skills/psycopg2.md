@@ -47,6 +47,7 @@ finally:
 * In the above program, we use 2 objects called connection object and cursor object
 * Connection object establishes connection with the database.
 * Cursor object uses the connection object to execute SQL commands in the database to update data or fetch data from the database.
+* Cursors can also perform transactions for atomic execution of 
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -59,6 +60,6 @@ finally:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTA3MzI3MCwxOTc5ODgxMzYwLC0xMz
-Y0MjUxNDI5LDEwMjcxMjAyMjQsLTExNTM2NzE1ODJdfQ==
+eyJoaXN0b3J5IjpbMjA0NDg1MzE3LDE5Nzk4ODEzNjAsLTEzNj
+QyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3MTU4Ml19
 -->
