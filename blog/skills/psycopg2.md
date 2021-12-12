@@ -170,6 +170,7 @@ finally:
 
 print("data insertion example code execution complete...")
 ```
+* In the above program, we have used ```cur.mogrify``` function to convert python variables like strings, numnbers, datetime objects into SQL command strings. This is very important beacu 
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -183,9 +184,9 @@ print("data insertion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTAyMTE5MTAsMTg2MDcxNjI2NSw2OT
-gwOTY0NzMsNzUyMzkwNzQ1LDQwODE4MDc3LDE0NDg0NjkxNCwt
-MTUzNjc2NzgzMiwtMjEzMTIxMTM3MCwyMDQ0ODUzMTcsMTk3OT
-g4MTM2MCwtMTM2NDI1MTQyOSwxMDI3MTIwMjI0LC0xMTUzNjcx
-NTgyXX0=
+eyJoaXN0b3J5IjpbLTk3NjgzMDI1LDE4NjA3MTYyNjUsNjk4MD
+k2NDczLDc1MjM5MDc0NSw0MDgxODA3NywxNDQ4NDY5MTQsLTE1
+MzY3Njc4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3LDE5Nzk4OD
+EzNjAsLTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3MTU4
+Ml19
 -->
