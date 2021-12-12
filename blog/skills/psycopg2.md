@@ -35,7 +35,7 @@ try:
 
     # use the cursor object to run SQL commands to perform operations like fetch rows, insert rows, update rows, delete rows etc.
 except (Exception, psycopg2.Error) as error:
-    print("Error while interacting with PostgreSQL", error)
+    print("Error while interacting with PostgreSQL...\n", error)
     records = 0
 finally:
     if(conn):
@@ -228,7 +228,7 @@ print("data deletion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNDY5OTQ2NiwxMjM2Mzk3MTk0LDUwMj
+eyJoaXN0b3J5IjpbMTU2NzcwOTc3MCwxMjM2Mzk3MTk0LDUwMj
 U3MzQ2MSwtNDEyMTU0MzYzLC04MTMzOTg0NzgsMTg2MDcxNjI2
 NSw2OTgwOTY0NzMsNzUyMzkwNzQ1LDQwODE4MDc3LDE0NDg0Nj
 kxNCwtMTUzNjc2NzgzMiwtMjEzMTIxMTM3MCwyMDQ0ODUzMTcs
