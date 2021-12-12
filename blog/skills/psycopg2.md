@@ -64,8 +64,7 @@ uNameStr = 'postgres'
 dbPassStr = 'pass'
 
 try:
-    conn = psycopg2.connect(host=hostStr, port=dbPort, dbname=dbStr,
-                            user=uNameStr, password=dbPassStr)
+    conn = psycopg2.connect(host=hostStr, port=dbPort, dbname=dbStr, user=uNameStr, password=dbPassStr)
 
     # get a cursor object from the connection
     cur = conn.cursor()
@@ -197,7 +196,7 @@ try:
     # create sql command for rows delete
     sqlTxt = 'DELETE FROM public.students where name = %s'
 
-    # execute the sql to perform insertion
+    # execute the SQL along with 
     cur.execute(sqlTxt, ("xyz",))
 
     rowCount = cur.rowcount
@@ -229,7 +228,7 @@ print("data deletion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzMzNTU1Myw1MDI1NzM0NjEsLTQxMj
+eyJoaXN0b3J5IjpbMTU0OTY0MjY1MSw1MDI1NzM0NjEsLTQxMj
 E1NDM2MywtODEzMzk4NDc4LDE4NjA3MTYyNjUsNjk4MDk2NDcz
 LDc1MjM5MDc0NSw0MDgxODA3NywxNDQ4NDY5MTQsLTE1MzY3Nj
 c4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3LDE5Nzk4ODEzNjAs
