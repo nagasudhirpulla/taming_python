@@ -218,7 +218,44 @@ print("data deletion example code execution complete...")
 
 ## Update rows example
 ```python
+import psycopg2
+import datetime as dt
+import pandas as pd
 
+hostStr = 'localhost'
+dbPort = 5433
+dbStr = 'test1'
+uNameStr = 'postgres'
+dbPassStr = 'pass'
+
+try:
+    conn = psycopg2.connect(host=hostStr, port=dbPort, dbname=dbStr,
+                            user=uNameStr, password=dbPassStr)
+
+    # get a cursor object from the connection
+    cur = conn.cursor()
+
+    # create sql command for rows update
+    sqlTxt = 'UPDATE public.students set name = %s where name = %s'
+
+    # execute the sql to perform insertion
+    cur.execute(sqlTxt, ("hgf", "abc"))
+
+    rowCount = cur.rowcount
+    print("number of updated rows =", rowCount)
+
+    # commit the changes
+    conn.commit()
+except (Exception, psycopg2.Error) as error:
+    print("Error while interacting with PostgreSQL", error)
+finally:
+    if(conn):
+        # close the cursor object to avoid memory leaks
+        cur.close()
+        # close the connection object also
+        conn.close()
+
+print("data update example code execution complete...")
 ```
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -232,7 +269,7 @@ print("data deletion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDIyNzkyNCwxMjM2Mzk3MTk0LDUwMj
+eyJoaXN0b3J5IjpbLTY5ODI5MDIwOCwxMjM2Mzk3MTk0LDUwMj
 U3MzQ2MSwtNDEyMTU0MzYzLC04MTMzOTg0NzgsMTg2MDcxNjI2
 NSw2OTgwOTY0NzMsNzUyMzkwNzQ1LDQwODE4MDc3LDE0NDg0Nj
 kxNCwtMTUzNjc2NzgzMiwtMjEzMTIxMTM3MCwyMDQ0ODUzMTcs
