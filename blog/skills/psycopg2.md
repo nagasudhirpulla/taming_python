@@ -1,4 +1,4 @@
-## Skill - Using psycopg2 python module for PostgreSQL interfacing
+## Skill - Using psycopg2 python module for PostgreSQL database interfacing
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <hr/>
@@ -262,7 +262,7 @@ print("data update example code execution complete...")
 ```
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
-* psycopg2 sql parameters d
+* psycopg2 sql parameters documentation - https://www.psycopg.org/docs/usage.html#passing-parameters-to-sql-queries
 * cursor rowcount variable documentation - https://www.psycopg.org/docs/cursor.html#cursor.rowcount 
 * PostgreSQL Official docs - https://www.postgresql.org/docs/14/index.html
 * pgAdmin download - https://www.pgadmin.org/download/
@@ -273,7 +273,7 @@ print("data update example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzUzMzA4OCwtMTgyOTk2NTUyNSwtNj
+eyJoaXN0b3J5IjpbLTUxODYzNjgxMSwtMTgyOTk2NTUyNSwtNj
 k4MjkwMjA4LDEyMzYzOTcxOTQsNTAyNTczNDYxLC00MTIxNTQz
 NjMsLTgxMzM5ODQ3OCwxODYwNzE2MjY1LDY5ODA5NjQ3Myw3NT
 IzOTA3NDUsNDA4MTgwNzcsMTQ0ODQ2OTE0LC0xNTM2NzY3ODMy
