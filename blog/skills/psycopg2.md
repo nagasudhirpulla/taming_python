@@ -115,7 +115,7 @@ order by name, studentid"
 ```
 
 * We have also given SQL input placeholders as ```%s``` to inject python variables into SQL statement while execution. This is a strongly recommended way of inserting variables in SQL commands since this avoids SQL injection attacks in our python programs.
-* Using ```cursor.fetchall()``` will return the results of SQL fetch query as a list of tuples.
+* Using ```cur.fetchall()``` will return the results of SQL fetch query as a list of tuples from our cursor variable.
 * 
 
 ### References
@@ -129,8 +129,8 @@ order by name, studentid"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODIzMzI0NzIsNDA4MTgwNzcsMTQ0OD
-Q2OTE0LC0xNTM2NzY3ODMyLC0yMTMxMjExMzcwLDIwNDQ4NTMx
-NywxOTc5ODgxMzYwLC0xMzY0MjUxNDI5LDEwMjcxMjAyMjQsLT
-ExNTM2NzE1ODJdfQ==
+eyJoaXN0b3J5IjpbMTIzMTUwMzkxNiw0MDgxODA3NywxNDQ4ND
+Y5MTQsLTE1MzY3Njc4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3
+LDE5Nzk4ODEzNjAsLTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMT
+E1MzY3MTU4Ml19
 -->
