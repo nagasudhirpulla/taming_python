@@ -114,7 +114,7 @@ where dob >= %s and studentid > %s \
 order by name, studentid"
 ```
 
-* We have also given SQL input placeholders as ```%s``` to inject python variables into SQL statement while execution. This avoids
+* We have also given SQL input placeholders as ```%s``` to inject python variables into SQL statement while execution. This is a strongly recommended way of inserting variables in SQL commands since this avoids SQL injection attacks in our python programs.
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -127,8 +127,8 @@ order by name, studentid"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTg1NjYzNiwxNDQ4NDY5MTQsLTE1Mz
-Y3Njc4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3LDE5Nzk4ODEz
-NjAsLTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3MTU4Ml
-19
+eyJoaXN0b3J5IjpbNDA4MTgwNzcsMTQ0ODQ2OTE0LC0xNTM2Nz
+Y3ODMyLC0yMTMxMjExMzcwLDIwNDQ4NTMxNywxOTc5ODgxMzYw
+LC0xMzY0MjUxNDI5LDEwMjcxMjAyMjQsLTExNTM2NzE1ODJdfQ
+==
 -->
