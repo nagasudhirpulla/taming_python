@@ -174,6 +174,11 @@ print("data insertion example code execution complete...")
 * We have used ```ON CONFLICT DO UPDATE``` clause in the insert SQL statement. This helps in easily handling the situations without errors where duplicate rows are trying to get inserted.
 * The ```conn.commit()``` function is committing all the uncommitted database changes made by the cursor object by executing SQL commands. Without calling this function, the database changes made by the cursor object will not be permanent. Hence do not forget to call ```conn.commit``` after executing a database modification command like INSERT, DELETE, UPDATE.
 
+## Delete data example
+```
+
+```
+
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
 * cursor rowcount variable documentation - https://www.psycopg.org/docs/cursor.html#cursor.rowcount 
@@ -186,9 +191,9 @@ print("data insertion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODI0MzUyLC04MTMzOTg0NzgsMTg2MD
-cxNjI2NSw2OTgwOTY0NzMsNzUyMzkwNzQ1LDQwODE4MDc3LDE0
-NDg0NjkxNCwtMTUzNjc2NzgzMiwtMjEzMTIxMTM3MCwyMDQ0OD
-UzMTcsMTk3OTg4MTM2MCwtMTM2NDI1MTQyOSwxMDI3MTIwMjI0
-LC0xMTUzNjcxNTgyXX0=
+eyJoaXN0b3J5IjpbLTQxMjE1NDM2MywtODEzMzk4NDc4LDE4Nj
+A3MTYyNjUsNjk4MDk2NDczLDc1MjM5MDc0NSw0MDgxODA3Nywx
+NDQ4NDY5MTQsLTE1MzY3Njc4MzIsLTIxMzEyMTEzNzAsMjA0ND
+g1MzE3LDE5Nzk4ODEzNjAsLTEzNjQyNTE0MjksMTAyNzEyMDIy
+NCwtMTE1MzY3MTU4Ml19
 -->
