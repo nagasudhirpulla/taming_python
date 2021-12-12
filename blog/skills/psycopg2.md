@@ -51,9 +51,62 @@ finally:
 * Cursors can also perform transactions for atomic execution of multiple commands. That means either all SQL commands will be executed, or else all the SQL commands will be cancelled.
 
 ## Fetching data from database
-```python
 
+```python
+import psycopg2
+import datetime as dt
+import pandas as pd
+
+hostStr = 'localhost'
+dbPort = 5433
+dbStr = 'test1'
+uNameStr = 'postgres'
+dbPassStr = 'pass'
+
+try:
+    conn = psycopg2.connect(host=hostStr, port=dbPort, dbname=dbStr,
+                            user=uNameStr, password=dbPassStr)
+
+    # get a cursor object from the connection
+    cur = conn.cursor()
+
+    # sql command to be executed for fetching the data
+    sqlStr = "select name, dob, studentid from public.students \
+        where dob >= %s and studentid > %s \
+        order by name, studentid"
+
+    # execute the data fetch command along with the SQL placeholder values
+    cur.execute(sqlStr, (dt.datetime(2018, 1, 1, 0, 0, 0), 3000))
+
+    # fetch all the records from cursor
+    records = cur.fetchall()
+    # get the column names of the fetched records
+    colNames = [row[0] for row in cur.description]
+
+    # iterate through all the fetched records
+    for rowIter in range(len(records)):
+        print("reading data from {0} row".format(rowIter))
+        rowTuple = records[rowIter]
+        print("name =", rowTuple[0])
+        print("dob =", rowTuple[1])
+        print("studentId =", rowTuple[2])
+
+    # create a dataframe from the fetched records (optional)
+    recordsDf = pd.DataFrame.from_records(records, columns=colNames)
+except (Exception, psycopg2.Error) as error:
+    print("Error while interacting with PostgreSQL", error)
+    records = 0
+finally:
+    if(conn):
+        # close the cursor object to avoid memory leaks
+        cur.close()
+        # close the connection object also
+        conn.close()
+
+print("data fetch example code execution complete...")
 ```
+
+* 
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -66,7 +119,8 @@ finally:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODQ2OTE0LC0xNTM2NzY3ODMyLC0yMT
-MxMjExMzcwLDIwNDQ4NTMxNywxOTc5ODgxMzYwLC0xMzY0MjUx
-NDI5LDEwMjcxMjAyMjQsLTExNTM2NzE1ODJdfQ==
+eyJoaXN0b3J5IjpbLTIxNDIyOTUzMSwxNDQ4NDY5MTQsLTE1Mz
+Y3Njc4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3LDE5Nzk4ODEz
+NjAsLTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3MTU4Ml
+19
 -->
