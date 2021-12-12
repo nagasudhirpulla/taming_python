@@ -1,4 +1,4 @@
-## Skill - Using psycopg2 python module for PostgreSQL database interfacing
+## Skill - psycopg2 python module for PostgreSQL database interfacing
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <hr/>
@@ -273,10 +273,10 @@ print("data update example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxODYzNjgxMSwtMTgyOTk2NTUyNSwtNj
-k4MjkwMjA4LDEyMzYzOTcxOTQsNTAyNTczNDYxLC00MTIxNTQz
-NjMsLTgxMzM5ODQ3OCwxODYwNzE2MjY1LDY5ODA5NjQ3Myw3NT
-IzOTA3NDUsNDA4MTgwNzcsMTQ0ODQ2OTE0LC0xNTM2NzY3ODMy
-LC0yMTMxMjExMzcwLDIwNDQ4NTMxNywxOTc5ODgxMzYwLC0xMz
-Y0MjUxNDI5LDEwMjcxMjAyMjQsLTExNTM2NzE1ODJdfQ==
+eyJoaXN0b3J5IjpbLTIwMTQxNjczNjcsLTE4Mjk5NjU1MjUsLT
+Y5ODI5MDIwOCwxMjM2Mzk3MTk0LDUwMjU3MzQ2MSwtNDEyMTU0
+MzYzLC04MTMzOTg0NzgsMTg2MDcxNjI2NSw2OTgwOTY0NzMsNz
+UyMzkwNzQ1LDQwODE4MDc3LDE0NDg0NjkxNCwtMTUzNjc2Nzgz
+MiwtMjEzMTIxMTM3MCwyMDQ0ODUzMTcsMTk3OTg4MTM2MCwtMT
+M2NDI1MTQyOSwxMDI3MTIwMjI0LC0xMTUzNjcxNTgyXX0=
 -->
