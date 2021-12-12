@@ -77,6 +77,9 @@ try:
     # execute the data fetch SQL command along with the SQL placeholder values
     cur.execute(sqlStr, (dt.datetime(2018, 1, 1, 0, 0, 0), 3000))
 
+    rowCount = cur.rowcount
+    print("number of fetched rows =", rowCount)
+
     # fetch all the records from cursor
     records = cur.fetchall()
     # get the column names of the fetched records
@@ -269,10 +272,10 @@ print("data update example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODI5MDIwOCwxMjM2Mzk3MTk0LDUwMj
-U3MzQ2MSwtNDEyMTU0MzYzLC04MTMzOTg0NzgsMTg2MDcxNjI2
-NSw2OTgwOTY0NzMsNzUyMzkwNzQ1LDQwODE4MDc3LDE0NDg0Nj
-kxNCwtMTUzNjc2NzgzMiwtMjEzMTIxMTM3MCwyMDQ0ODUzMTcs
-MTk3OTg4MTM2MCwtMTM2NDI1MTQyOSwxMDI3MTIwMjI0LC0xMT
-UzNjcxNTgyXX0=
+eyJoaXN0b3J5IjpbLTE4Mjk5NjU1MjUsLTY5ODI5MDIwOCwxMj
+M2Mzk3MTk0LDUwMjU3MzQ2MSwtNDEyMTU0MzYzLC04MTMzOTg0
+NzgsMTg2MDcxNjI2NSw2OTgwOTY0NzMsNzUyMzkwNzQ1LDQwOD
+E4MDc3LDE0NDg0NjkxNCwtMTUzNjc2NzgzMiwtMjEzMTIxMTM3
+MCwyMDQ0ODUzMTcsMTk3OTg4MTM2MCwtMTM2NDI1MTQyOSwxMD
+I3MTIwMjI0LC0xMTUzNjcxNTgyXX0=
 -->
