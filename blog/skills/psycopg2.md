@@ -17,7 +17,14 @@ The required parameters for connecting to a postgreSQL database are
 * database name (example: test_db)
 * database username (example: postgres)
 * database password (example: p#ssw0rd)
-* 
+```python
+import psycopg2
+
+hostStr = '192.168.19.5'
+dbStr = 'test_db'
+uNameStr = 'postgres'
+dbPassStr = 'p#ssw0rd'
+```
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -30,6 +37,6 @@ The required parameters for connecting to a postgreSQL database are
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0ODQ0MjExLC0xMzY0MjUxNDI5LDEwMj
-cxMjAyMjQsLTExNTM2NzE1ODJdfQ==
+eyJoaXN0b3J5IjpbMTk3OTg4MTM2MCwtMTM2NDI1MTQyOSwxMD
+I3MTIwMjI0LC0xMTUzNjcxNTgyXX0=
 -->
