@@ -93,7 +93,7 @@ try:
     # create a dataframe from the fetched records (optional)
     recordsDf = pd.DataFrame.from_records(records, columns=colNames)
 except (Exception, psycopg2.Error) as error:
-    print("Error while interacting with PostgreSQL", error)
+    print("Error while interacting with PostgreSQL...\n", error)
     records = []
 finally:
     if(conn):
@@ -159,7 +159,7 @@ try:
     # commit the changes
     conn.commit()
 except (Exception, psycopg2.Error) as error:
-    print("Error while interacting with PostgreSQL", error)
+    print("Error while interacting with PostgreSQL...\n", error)
 finally:
     if(conn):
         # close the cursor object to avoid memory leaks
@@ -228,10 +228,10 @@ print("data deletion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDg0NTA0ODYsMTIzNjM5NzE5NCw1MD
-I1NzM0NjEsLTQxMjE1NDM2MywtODEzMzk4NDc4LDE4NjA3MTYy
-NjUsNjk4MDk2NDczLDc1MjM5MDc0NSw0MDgxODA3NywxNDQ4ND
-Y5MTQsLTE1MzY3Njc4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3
-LDE5Nzk4ODEzNjAsLTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMT
-E1MzY3MTU4Ml19
+eyJoaXN0b3J5IjpbMTIwNDY5OTQ2NiwxMjM2Mzk3MTk0LDUwMj
+U3MzQ2MSwtNDEyMTU0MzYzLC04MTMzOTg0NzgsMTg2MDcxNjI2
+NSw2OTgwOTY0NzMsNzUyMzkwNzQ1LDQwODE4MDc3LDE0NDg0Nj
+kxNCwtMTUzNjc2NzgzMiwtMjEzMTIxMTM3MCwyMDQ0ODUzMTcs
+MTk3OTg4MTM2MCwtMTM2NDI1MTQyOSwxMDI3MTIwMjI0LC0xMT
+UzNjcxNTgyXX0=
 -->
