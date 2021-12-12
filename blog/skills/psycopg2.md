@@ -171,7 +171,8 @@ finally:
 print("data insertion example code execution complete...")
 ```
 * In the above program, we have used ```cur.mogrify``` function to convert python variables like strings, numnbers, datetime objects into SQL command strings. This is very important because SQL injection issue will be addresses by using the ```cur.mogrify``` function. Do not  convert variables to strings by yourself. Let psycopg2 handle the string conversion.
-* We have used ```ON CONFLICT DO UPDATE``` clause in the insert SQL statement. This helps in handling the situations where dupliocate 
+* We have used ```ON CONFLICT DO UPDATE``` clause in the insert SQL statement. This helps in easily handling the situations without errors where duplicate rows are trying to get inserted.
+* The ```conn.commit()``` function is committing the database transaction. Without calling this function, the 
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -185,9 +186,9 @@ print("data insertion example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM5MjM3NTMyLDE4NjA3MTYyNjUsNjk4MD
-k2NDczLDc1MjM5MDc0NSw0MDgxODA3NywxNDQ4NDY5MTQsLTE1
-MzY3Njc4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3LDE5Nzk4OD
-EzNjAsLTEzNjQyNTE0MjksMTAyNzEyMDIyNCwtMTE1MzY3MTU4
-Ml19
+eyJoaXN0b3J5IjpbLTEyNDgxODYzODEsMTg2MDcxNjI2NSw2OT
+gwOTY0NzMsNzUyMzkwNzQ1LDQwODE4MDc3LDE0NDg0NjkxNCwt
+MTUzNjc2NzgzMiwtMjEzMTIxMTM3MCwyMDQ0ODUzMTcsMTk3OT
+g4MTM2MCwtMTM2NDI1MTQyOSwxMDI3MTIwMjI0LC0xMTUzNjcx
+NTgyXX0=
 -->
