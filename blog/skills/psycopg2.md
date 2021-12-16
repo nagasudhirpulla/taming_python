@@ -260,6 +260,11 @@ finally:
 
 print("data update example code execution complete...")
 ```
+### Video
+The video for this post can be found [here](https://youtu.be/p33XTKbFeBE)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p33XTKbFeBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
 * psycopg2 sql parameters documentation - https://www.psycopg.org/docs/usage.html#passing-parameters-to-sql-queries
@@ -273,7 +278,7 @@ print("data update example code execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTQxNjczNjcsLTE4Mjk5NjU1MjUsLT
+eyJoaXN0b3J5IjpbLTEwOTc4MTMxMjMsLTE4Mjk5NjU1MjUsLT
 Y5ODI5MDIwOCwxMjM2Mzk3MTk0LDUwMjU3MzQ2MSwtNDEyMTU0
 MzYzLC04MTMzOTg0NzgsMTg2MDcxNjI2NSw2OTgwOTY0NzMsNz
 UyMzkwNzQ1LDQwODE4MDc3LDE0NDg0NjkxNCwtMTUzNjc2Nzgz
