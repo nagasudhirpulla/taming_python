@@ -261,9 +261,11 @@ finally:
 print("data update example code execution complete...")
 ```
 ### Video
-The video for this post can be found [here](https://youtu.be/p33XTKbFeBE)
+The videos for this post can be found [here](https://youtu.be/p33XTKbFeBE) and [here](https://youtu.be/_AO5uMEEjfo)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p33XTKbFeBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_AO5uMEEjfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
 * psycopg2 documentation - https://www.psycopg.org/docs/usage.html
@@ -278,10 +280,11 @@ The video for this post can be found [here](https://youtu.be/p33XTKbFeBE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTc4MTMxMjMsLTE4Mjk5NjU1MjUsLT
-Y5ODI5MDIwOCwxMjM2Mzk3MTk0LDUwMjU3MzQ2MSwtNDEyMTU0
-MzYzLC04MTMzOTg0NzgsMTg2MDcxNjI2NSw2OTgwOTY0NzMsNz
-UyMzkwNzQ1LDQwODE4MDc3LDE0NDg0NjkxNCwtMTUzNjc2Nzgz
-MiwtMjEzMTIxMTM3MCwyMDQ0ODUzMTcsMTk3OTg4MTM2MCwtMT
-M2NDI1MTQyOSwxMDI3MTIwMjI0LC0xMTUzNjcxNTgyXX0=
+eyJoaXN0b3J5IjpbLTUwMzA1MDAyMSwtMTA5NzgxMzEyMywtMT
+gyOTk2NTUyNSwtNjk4MjkwMjA4LDEyMzYzOTcxOTQsNTAyNTcz
+NDYxLC00MTIxNTQzNjMsLTgxMzM5ODQ3OCwxODYwNzE2MjY1LD
+Y5ODA5NjQ3Myw3NTIzOTA3NDUsNDA4MTgwNzcsMTQ0ODQ2OTE0
+LC0xNTM2NzY3ODMyLC0yMTMxMjExMzcwLDIwNDQ4NTMxNywxOT
+c5ODgxMzYwLC0xMzY0MjUxNDI5LDEwMjcxMjAyMjQsLTExNTM2
+NzE1ODJdfQ==
 -->
