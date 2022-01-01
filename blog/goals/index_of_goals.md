@@ -112,7 +112,7 @@ Here are the goals and skills in this tutorial series
 * [Draw Rectangle, Polyline, Polygon in python folium](https://nagasudhir.blogspot.com/2021/08/draw-rectangle-polyline-polygon-in.html)
 * [Draw heatmap on a python folium map](https://nagasudhir.blogspot.com/2021/08/draw-heatmap-on-python-folium-map.html)
 
-#### Using Databases for data storage
+#### Using Database for data storage
 * [Installing and managing a PostgreSQL database](https://nagasudhir.blogspot.com/2021/12/installing-and-managing-postgresql.html)
 * [Installing and using DBeaver for accessing and controlling different databases in one tool](https://nagasudhir.blogspot.com/2021/12/installing-and-using-dbeaver-for.html)
 * [psycopg2 python module for PostgreSQL database interfacing](https://nagasudhir.blogspot.com/2021/12/psycopg2-python-module-for-postgresql.html)
@@ -123,11 +123,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbODA2MTM3NjA3LDk5NzY4OD
-EzNCwtMTIzMzcyMTE4LC0xNzg4MTczMDEwLDg4MTA1MjUyOSw4
-OTY0NzczNjYsLTI5NzQyMjg3MSwtNjE2NzIxNDU1LDUzODgxND
-g4NSw4NzY4NDgyNTQsNTA1NzA3NzMwLDM3MDY5MDcyNywtMjEx
-Mzg3NjQ5Niw3OTEyMDA1NDksMTk4NzcxNjE0NCwtMTk0OTI5MD
-IzMSwtMTYyNzc0NTgwMiwtOTM4NTAwNjg5LC0xODU1MzA1ODYz
-LC0xMTQ2MzA0NjE5XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTcwNTE5MDYxMiw4MDYxMz
+c2MDcsOTk3Njg4MTM0LC0xMjMzNzIxMTgsLTE3ODgxNzMwMTAs
+ODgxMDUyNTI5LDg5NjQ3NzM2NiwtMjk3NDIyODcxLC02MTY3Mj
+E0NTUsNTM4ODE0ODg1LDg3Njg0ODI1NCw1MDU3MDc3MzAsMzcw
+NjkwNzI3LC0yMTEzODc2NDk2LDc5MTIwMDU0OSwxOTg3NzE2MT
+Q0LC0xOTQ5MjkwMjMxLC0xNjI3NzQ1ODAyLC05Mzg1MDA2ODks
+LTE4NTUzMDU4NjNdfQ==
 -->
