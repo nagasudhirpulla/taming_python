@@ -17,7 +17,7 @@ In this post we will install Oracle Instant Client that enables communication be
 * Download the basic package zip file
 
 ## Installing Instant Client in Windows machine
-
+* 
 
 
 ### References
@@ -31,5 +31,5 @@ In this post we will install Oracle Instant Client that enables communication be
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDA2NDg2Ml19
+eyJoaXN0b3J5IjpbLTE3MTg4NzE2NTZdfQ==
 -->
