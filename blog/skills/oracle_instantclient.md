@@ -1,7 +1,6 @@
-## Skill - Oracle Instant Client installation in windows
+## Skill - Oracle Instant Client installation in Windows
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
-
 <hr/>
 In this post we will install Oracle Instant Client that enables communication between python scripts and Oracle database.
 
@@ -46,5 +45,5 @@ python -m pip install cx_Oracle
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzUwMTMzXX0=
+eyJoaXN0b3J5IjpbLTQ5NjA1NzE0OV19
 -->
