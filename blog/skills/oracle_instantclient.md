@@ -27,16 +27,16 @@ In this post we will install Oracle Instant Client that enables communication be
 
 ## Interfacing with Oracle database in python scripts
 * Along with Oracle Instant client, we also need ```cx_Oracle``` python module to interface with Oracle database in python scripts
-* To install cx_Oracle python mod
+* To install cx_Oracle python module, run the following command in the python environment
 ```
-pip install cx_Oracle
+python -m pip install cx_Oracle
 ```
 
 
 
 ### References
 * Oracle Instant Client documentation - https://www.oracle.com/in/database/technologies/instant-client.html
-* 
+* Cx_Oracle documentation - https://oracle.github.io/python-cx_Oracle/
 
 <hr/>
 
@@ -45,5 +45,5 @@ pip install cx_Oracle
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0MTQyODMyXX0=
+eyJoaXN0b3J5IjpbLTU1OTIxNjEwOV19
 -->
