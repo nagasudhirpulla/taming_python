@@ -2,7 +2,7 @@
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <hr/>
-In this post we will install Oracle instantclient for .
+In this post we will install Oracle instantclient that enables communication between python scripts and oracle database.
 
 ## Installing psycopg2 python module
 Run the following command in your python environment
@@ -268,11 +268,7 @@ The videos for this post can be found [here](https://youtu.be/p33XTKbFeBE) and [
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_AO5uMEEjfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
-* psycopg2 documentation - https://www.psycopg.org/docs/usage.html
-* psycopg2 sql parameters documentation - https://www.psycopg.org/docs/usage.html#passing-parameters-to-sql-queries
-* cursor rowcount variable documentation - https://www.psycopg.org/docs/cursor.html#cursor.rowcount 
-* PostgreSQL Official docs - https://www.postgresql.org/docs/14/index.html
-* pgAdmin download - https://www.pgadmin.org/download/
+* Oracle instantcloen
 
 <hr/>
 
@@ -281,5 +277,5 @@ The videos for this post can be found [here](https://youtu.be/p33XTKbFeBE) and [
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTU2NDMyNTBdfQ==
+eyJoaXN0b3J5IjpbNzc4ODAwNDYyXX0=
 -->
