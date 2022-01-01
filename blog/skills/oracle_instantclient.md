@@ -5,7 +5,7 @@
 In this post we will install Oracle Instant Client that enables communication between python scripts and oracle database.
 
 ## Why use Oracle Instant Client
-* Without Oracle Instant Client configured properly, python scripts cannot communicate with the oracle database.
+* Without Oracle Instant Client, python scripts cannot communicate with the oracle database.
 
 ## When is Instant Client not required
 * If you computer that is running the python scripts already has Oracle database installed in it, Instant Client may not be required.
@@ -31,5 +31,5 @@ In this post we will install Oracle Instant Client that enables communication be
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTg4NzE2NTZdfQ==
+eyJoaXN0b3J5IjpbLTEzMDA0ODYwMjNdfQ==
 -->
