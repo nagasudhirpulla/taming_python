@@ -2,7 +2,7 @@
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <hr/>
-In this post we will use psycopg2 python module for interfacing with PostgreSQL database.
+In this post we will install Oracle instantclient for .
 
 ## Installing psycopg2 python module
 Run the following command in your python environment
@@ -281,5 +281,5 @@ The videos for this post can be found [here](https://youtu.be/p33XTKbFeBE) and [
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjU3MjU1OF19
+eyJoaXN0b3J5IjpbLTE4OTU2NDMyNTBdfQ==
 -->
