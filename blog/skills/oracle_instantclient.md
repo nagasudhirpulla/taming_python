@@ -20,8 +20,8 @@ In this post we will install Oracle Instant Client that enables communication be
 * Download Oracle Instant Client Package - zip file
 * Create an installation directory like ```C:\instantclient```
 * Copy the zip file to the installation directory and unzip the zip file there. 
-* Now all the instant client files will be in the folder ```c:\instantclient```
-* Include the above folder path in ```PATH``` and ```OCI_LIB64``` system environment variables
+* Now all the instant client files will be in the folder ```C:\instantclient```
+* Include the above folder path ```C:\instantclient\``` in ```PATH``` and ```OCI_LIB64``` system environment variables
 If we get an error in python something like "32 bit instant client not found", then remove the 64 bit files and folders and install a 32 bit version of instant client
 We also need cx_Oracle module to interface with Oracle in python - https://oracle.github.io/python-cx_Oracle/
 ```
@@ -41,5 +41,5 @@ pip install cx_Oracle
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQ5Mjg3MjBdfQ==
+eyJoaXN0b3J5IjpbMTMzMzg4Mzg5XX0=
 -->
