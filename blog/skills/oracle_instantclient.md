@@ -9,9 +9,10 @@ In this post we will install Oracle Instant Client that enables communication be
 
 ## When is Instant Client not required
 * If you computer that is running the python scripts already has Oracle database installed in it, Instant Client may not be required.
-* But there can be cases where the Oracle is 32 bit and python is 64 bit or viceversa    
+* But there can be cases where the Oracle is 32 bit and python is 64 bit or vice-versa, where Instant Client installation will be necessary even if Oracle Database is installed in the computer.
 
-## Connecting to a database
+## Downloading the Instant Client
+* Search for 
 
 
 
@@ -26,5 +27,5 @@ In this post we will install Oracle Instant Client that enables communication be
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODQzMDQ3Ml19
+eyJoaXN0b3J5IjpbMTA5OTU4NTY4XX0=
 -->
