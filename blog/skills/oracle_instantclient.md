@@ -36,7 +36,8 @@ python -m pip install cx_Oracle
 
 ### References
 * Oracle Instant Client documentation - https://www.oracle.com/in/database/technologies/instant-client.html
-* Cx_Oracle documentation - https://oracle.github.io/python-cx_Oracle/
+* cx_Oracle home page - https://oracle.github.io/python-cx_Oracle/
+* cx_Oracle documentation - https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html#quick-start-cx-oracle-installation
 
 <hr/>
 
@@ -45,5 +46,5 @@ python -m pip install cx_Oracle
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1OTIxNjEwOV19
+eyJoaXN0b3J5IjpbMTQ1MzUwMTMzXX0=
 -->
