@@ -13,7 +13,10 @@ In this post we will install Oracle Instant Client that enables communication be
 
 ## Downloading the Instant Client
 * Download Oracle Instant Client from https://www.oracle.com/database/technologies/instant-client/downloads.html or search for "Oracle Instant Client download" if this link does not work
-* Download the relevant zip file like "Instant Client for Microsoft Windows (x64)"
+* Download the relevant zip file by clicking on the link like "Instant Client for Microsoft Windows (x64)"
+* Download the basic package zip file
+
+## Installing Instant Client in Windows machine
 
 
 
@@ -28,5 +31,5 @@ In this post we will install Oracle Instant Client that enables communication be
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxODEyMDMzOV19
+eyJoaXN0b3J5IjpbLTk5NDA2NDg2Ml19
 -->
