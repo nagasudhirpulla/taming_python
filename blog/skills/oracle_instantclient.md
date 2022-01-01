@@ -4,11 +4,8 @@
 <hr/>
 In this post we will install Oracle Instant Client that enables communication between python scripts and oracle database.
 
-## Installing psycopg2 python module
-Run the following command in your python environment
-```
-python -m pip install psycopg2
-``` 
+## Why use instant client
+* Without Oracle Instant Client configured properly, python scripts ca 
 
 ## Connecting to a database
 
@@ -25,5 +22,5 @@ python -m pip install psycopg2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjcwODQ2M119
+eyJoaXN0b3J5IjpbMTAzNzI5NDQzM119
 -->
