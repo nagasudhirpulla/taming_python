@@ -17,7 +17,19 @@ In this post we will install Oracle Instant Client that enables communication be
 * Download the basic package zip file
 
 ## Installing Instant Client in Windows machine
-* 
+* Download Oracle Instant Client Package - zip file
+* Create an installation directory like ```C:\instantclient```
+* Copy the zip file to the installation directory like 
+```c:\oml4rclient_install_dir\instantclient-basic-windows.x64-12.1.0.2.0.zip```
+* Unzip the zip file there. Now all the instant client files may in a folder like
+```c:\oml4rclient_install_dir\instantclient_19_6```
+* Include the above folder path in ```PATH``` and ```OCI_LIB64``` system environment variables
+If we get an error in python something like "32 bit instant client not found", then remove the 64 bit files and folders and install a 32 bit version of instant client
+We also need cx_Oracle module to interface with Oracle in python - https://oracle.github.io/python-cx_Oracle/
+```
+pip install cx_Oracle
+```
+
 
 
 ### References
@@ -31,5 +43,5 @@ In this post we will install Oracle Instant Client that enables communication be
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDA0ODYwMjNdfQ==
+eyJoaXN0b3J5IjpbMTEyMjMzODg2OV19
 -->
