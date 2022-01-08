@@ -30,7 +30,9 @@ Detailed information about the limitations of Oracle Express database can be see
 
 
 ### References
-* Oracle Express (XE) database installation guide - 
+* Oracle Express (XE) database installation guide - https://docs.oracle.com/cd/E17781_01/install.112/e18803/toc.htm#XEINW123
+* Oracle Express (XE) database download - https://www.oracle.com/in/database/technologies/xe-downloads.html
+* Oracle Express (XE) database limitations - https://docs.oracle.com/cd/E17781_01/install.112/e18803/toc.htm#XEINW117
 
 <hr/>
 
@@ -40,6 +42,6 @@ Detailed information about the limitations of Oracle Express database can be see
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQ1ODQ0NjMsLTUxNzE5NzM4MywtMz
-c5OTI0OTZdfQ==
+eyJoaXN0b3J5IjpbMjAzMTQ5MTgzMiwtNTE3MTk3MzgzLC0zNz
+k5MjQ5Nl19
 -->
