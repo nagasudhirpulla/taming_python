@@ -1,4 +1,4 @@
-## Skill - Oracle Express Edition (XE) database installation in Windows and connect with DBeaver
+## Skill - Oracle Express Edition (XE) database installation in Windows
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <hr/>
@@ -50,6 +50,6 @@ Detailed information about the limitations of Oracle Express database can be see
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5Mzk3MjYwLC0xMzY0NjQ3NTE4LC0yMD
-AzODY1MTUxLC01MTcxOTczODMsLTM3OTkyNDk2XX0=
+eyJoaXN0b3J5IjpbLTE0ODIyMTkwMDAsLTEzNjQ2NDc1MTgsLT
+IwMDM4NjUxNTEsLTUxNzE5NzM4MywtMzc5OTI0OTZdfQ==
 -->
