@@ -47,6 +47,7 @@ Detailed information about the limitations of Oracle Express database can be see
 * Download DBeaver from [here](https://dbeaver.io/download)
 * Check my post on DBeaver setup [here](https://nagasudhir.blogspot.com/2021/12/installing-and-using-dbeaver-for.html)
 * For connecting to Oracle database 
+![oracle_conn_setup_dbeaver](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oracle_conn_setup_dbeaver.PNG)
 
 ### Video
 You can the video on this post [here](https://youtu.be/89h-pfIpNL8)
@@ -66,7 +67,7 @@ You can the video on this post [here](https://youtu.be/89h-pfIpNL8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDE2OTAxNiwtMTA5ODA5NjI3NiwtMT
-Q4MjIxOTAwMCwtMTM2NDY0NzUxOCwtMjAwMzg2NTE1MSwtNTE3
-MTk3MzgzLC0zNzk5MjQ5Nl19
+eyJoaXN0b3J5IjpbNzk1NzI3NjgyLC01ODQxNjkwMTYsLTEwOT
+gwOTYyNzYsLTE0ODIyMTkwMDAsLTEzNjQ2NDc1MTgsLTIwMDM4
+NjUxNTEsLTUxNzE5NzM4MywtMzc5OTI0OTZdfQ==
 -->
