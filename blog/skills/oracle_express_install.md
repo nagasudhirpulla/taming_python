@@ -12,7 +12,9 @@ Since Oracle Express database is free, there are some limitations
 * Maximum of 11 GB data storage is only supported, if you try to store more than that, the database will throw `ORA-12592` error
 * Not more than 1 GB RAM will be used by the database
 * HTTPS is not supported
-In a nutshell, don't use it for production, use it only for tes
+
+In a nutshell, don't use it for production, use it only for testing and development purposes.
+Detailed information about 
 
 ## When is Instant Client not required
 * If you computer that is running the python scripts already has Oracle database installed in it, Instant Client may not be required.
@@ -57,5 +59,5 @@ You can the video on this post [here](https://youtu.be/v0TkfVFGO5c)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTkxMDE0XX0=
+eyJoaXN0b3J5IjpbLTEwODgxNTg3NDJdfQ==
 -->
