@@ -37,6 +37,11 @@ Detailed information about the limitations of Oracle Express database can be see
 * run ```services.msc``` command to open the services window
 * Right click on the ```OracleServiceXE``` service and select properties. Then select Startup type to "Manual" if you want the database to not start automatically on system start.
 
+### Video
+You can the video on this post [here](https://youtu.be/89h-pfIpNL8)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/89h-pfIpNL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 * Oracle Express (XE) database installation guide - https://docs.oracle.com/cd/E17781_01/install.112/e18803/toc.htm#XEINW123
 * Oracle Express (XE) database download - https://www.oracle.com/in/database/technologies/xe-downloads.html
@@ -50,6 +55,7 @@ Detailed information about the limitations of Oracle Express database can be see
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODIyMTkwMDAsLTEzNjQ2NDc1MTgsLT
-IwMDM4NjUxNTEsLTUxNzE5NzM4MywtMzc5OTI0OTZdfQ==
+eyJoaXN0b3J5IjpbLTEwOTgwOTYyNzYsLTE0ODIyMTkwMDAsLT
+EzNjQ2NDc1MTgsLTIwMDM4NjUxNTEsLTUxNzE5NzM4MywtMzc5
+OTI0OTZdfQ==
 -->
