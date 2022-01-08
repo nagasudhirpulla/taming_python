@@ -37,8 +37,13 @@ Detailed information about the limitations of Oracle Express database can be see
 * run ```services.msc``` command to open the services window
 * Right click on the ```OracleServiceXE``` service and select properties. Then select Startup type to "Manual" if you want the database to not start automatically on system start.
 
-## Connecting to Oracle with sqldeveloper
-sqldeveloper is the database administration client tool by Oracle.
+## Connecting to Oracle database with sqldeveloper
+* sqldeveloper is the database administration client tool by Oracle.
+* Download the tool from [here](https://www.oracle.com/tools/downloads/sqldev-downloads.html)
+* 
+
+## Connecting to Oracle database with DBeaver 
+* DBeaver is 
 
 ### Video
 You can the video on this post [here](https://youtu.be/89h-pfIpNL8)
@@ -58,7 +63,7 @@ You can the video on this post [here](https://youtu.be/89h-pfIpNL8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDM0MTgyOSwtMTA5ODA5NjI3NiwtMT
-Q4MjIxOTAwMCwtMTM2NDY0NzUxOCwtMjAwMzg2NTE1MSwtNTE3
-MTk3MzgzLC0zNzk5MjQ5Nl19
+eyJoaXN0b3J5IjpbMzQxMzI5ODQwLC0xMDk4MDk2Mjc2LC0xND
+gyMjE5MDAwLC0xMzY0NjQ3NTE4LC0yMDAzODY1MTUxLC01MTcx
+OTczODMsLTM3OTkyNDk2XX0=
 -->
