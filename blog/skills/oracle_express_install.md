@@ -4,10 +4,11 @@
 <hr/>
 In this post we will install Oracle Express Edition (XE) database which is free and is meant for local and light weight database setup.
 
-Oracle local database is ideal for local development and testing without connecting to remote databases
+Oracle Express database is ideal for local development and testing without connecting to remote databases
 
-## Why use Oracle Instant Client
-* Without Oracle Instant Client, python scripts cannot communicate with the oracle database.
+## Limitations in Oracle express edition
+Since Oracle Express database is free, there are some limitations
+* 
 
 ## When is Instant Client not required
 * If you computer that is running the python scripts already has Oracle database installed in it, Instant Client may not be required.
@@ -52,5 +53,5 @@ You can the video on this post [here](https://youtu.be/v0TkfVFGO5c)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTMyODkxOF19
+eyJoaXN0b3J5IjpbLTYxNTM0MDk5Nl19
 -->
