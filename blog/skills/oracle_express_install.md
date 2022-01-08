@@ -18,13 +18,8 @@ In a nutshell, don't use it for production, use it only for testing and developm
 Detailed information about the limitations of Oracle Express database can be seen [here](https://docs.oracle.com/cd/E17781_01/install.112/e18803/toc.htm#XEINW117)
 
 ## Download Oracle Express Edition (XE) database
-* If you computer that is running the python scripts already has Oracle database installed in it, Instant Client may not be required.
-* But there can be cases where the Oracle is 32 bit and python is 64 bit or vice-versa, where Instant Client installation will be necessary even if Oracle Database is installed in the computer.
-
-## Downloading the Instant Client
-* Download Oracle Instant Client from https://www.oracle.com/database/technologies/instant-client/downloads.html or search for "Oracle Instant Client download" if this link does not work
-* Download the relevant zip file by clicking on the link like "Instant Client for Microsoft Windows (x64)"
-* Download the basic package zip file
+* Download Oracle Express Edition (XE) database from https://www.oracle.com/in/database/technologies/xe-downloads.html or search for "download oracle express edition" if this link does not work
+* Download the relevant zip file by clicking on the link like " Oracle Database 21c Express Edition for Windows x64"
 
 ## Installing Instant Client in Windows machine
 * Download Oracle Instant Client Package - zip file
@@ -60,5 +55,5 @@ You can the video on this post [here](https://youtu.be/v0TkfVFGO5c)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyMzY1MjUwXX0=
+eyJoaXN0b3J5IjpbLTM3OTkyNDk2XX0=
 -->
