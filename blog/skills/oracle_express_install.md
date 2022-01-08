@@ -46,8 +46,8 @@ Detailed information about the limitations of Oracle Express database can be see
 * DBeaver community edition is a free universal database management tool that supports many databases including Oracle
 * Download DBeaver from [here](https://dbeaver.io/download)
 * Check my post on DBeaver setup [here](https://nagasudhir.blogspot.com/2021/12/installing-and-using-dbeaver-for.html)
-* For connecting to Oracle database 
-![oracle_conn_setup_dbeaver](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oracle_conn_setup_dbeaver.PNG)
+* For connecting to Oracle database, click new connection button at the top-left, select the database as Oracle and fill up the connection settings as shown in the image below.
+![oracle_conn_setup_dbeaver](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oracle_conn_setup_dbeaver.PNG)* Clic
 
 ### Video
 You can the video on this post [here](https://youtu.be/89h-pfIpNL8)
@@ -67,7 +67,7 @@ You can the video on this post [here](https://youtu.be/89h-pfIpNL8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1NzI3NjgyLC01ODQxNjkwMTYsLTEwOT
-gwOTYyNzYsLTE0ODIyMTkwMDAsLTEzNjQ2NDc1MTgsLTIwMDM4
-NjUxNTEsLTUxNzE5NzM4MywtMzc5OTI0OTZdfQ==
+eyJoaXN0b3J5IjpbLTE2NDk4ODQzMTgsLTU4NDE2OTAxNiwtMT
+A5ODA5NjI3NiwtMTQ4MjIxOTAwMCwtMTM2NDY0NzUxOCwtMjAw
+Mzg2NTE1MSwtNTE3MTk3MzgzLC0zNzk5MjQ5Nl19
 -->
