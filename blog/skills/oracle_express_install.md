@@ -22,19 +22,15 @@ Detailed information about the limitations of Oracle Express database can be see
 * Download the relevant zip file by clicking on the link like " Oracle Database 21c Express Edition for Windows x64"
 
 ## Installing Oracle Express Edition in Windows
-* Download Oracle database zip file
 * If the `ORACLE_HOME` environment variable has been set, delete it.
+* Download Oracle database zip file
 * Unzip the files
 * Run the setup.exe to install the database
-
-## Using DBeaver to connect to the Oracle database
-* 
+ The official setup guide can be found [here](https://docs.oracle.com/cd/E17781_01/install.112/e18803/toc.htm#XEINW123)
 
 
 ### References
-* Oracle Instant Client documentation - https://www.oracle.com/in/database/technologies/instant-client.html
-* cx_Oracle home page - https://oracle.github.io/python-cx_Oracle/
-* cx_Oracle documentation - https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html#quick-start-cx-oracle-installation
+* Oracle Express (XE) database installation guide - 
 
 <hr/>
 
@@ -44,6 +40,6 @@ Detailed information about the limitations of Oracle Express database can be see
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4NjE5NDM2LC01MTcxOTczODMsLTM3OT
-kyNDk2XX0=
+eyJoaXN0b3J5IjpbLTEzNzQ1ODQ0NjMsLTUxNzE5NzM4MywtMz
+c5OTI0OTZdfQ==
 -->
