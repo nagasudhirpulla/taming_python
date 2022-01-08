@@ -28,9 +28,10 @@ Detailed information about the limitations of Oracle Express database can be see
 * Run the setup.exe to install the database
  The official setup guide can be found [here](https://docs.oracle.com/cd/E17781_01/install.112/e18803/toc.htm#XEINW123)
 
-## Start or Stop Oracle database
+## Start or Stop the Oracle database
 * run ```services.msc``` command to open the services window
 * Search for ```OracleServiceXE``` service and right click to either stop or start the oracle database
+* Right click on the ```OracleServiceXE``` service and select properties. Then select StartUp tyoe 
 
 ### References
 * Oracle Express (XE) database installation guide - https://docs.oracle.com/cd/E17781_01/install.112/e18803/toc.htm#XEINW123
@@ -45,6 +46,6 @@ Detailed information about the limitations of Oracle Express database can be see
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3NjA4MDkxLC01MTcxOTczODMsLTM3OT
+eyJoaXN0b3J5IjpbLTQ0OTMyNjUwLC01MTcxOTczODMsLTM3OT
 kyNDk2XX0=
 -->
