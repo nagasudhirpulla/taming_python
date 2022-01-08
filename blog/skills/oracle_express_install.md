@@ -21,7 +21,7 @@ Detailed information about the limitations of Oracle Express database can be see
 * Download Oracle Express Edition (XE) database from https://www.oracle.com/in/database/technologies/xe-downloads.html or search for "download oracle express edition" if this link does not work
 * Download the relevant zip file by clicking on the link like " Oracle Database 21c Express Edition for Windows x64"
 
-## Installing Instant Client in Windows machine
+## Installing Oracle Express Edition in Windows
 * Download Oracle Instant Client Package - zip file
 * Create an installation directory like ```C:\instantclient```
 * Copy the zip file to the installation directory and unzip the zip file there. 
@@ -55,5 +55,5 @@ You can the video on this post [here](https://youtu.be/v0TkfVFGO5c)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTkyNDk2XX0=
+eyJoaXN0b3J5IjpbLTUxNzE5NzM4MywtMzc5OTI0OTZdfQ==
 -->
