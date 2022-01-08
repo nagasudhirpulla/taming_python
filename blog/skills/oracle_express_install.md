@@ -8,7 +8,8 @@ Oracle Express database is ideal for local development and testing without conne
 
 ## Limitations in Oracle express edition
 Since Oracle Express database is free, there are some limitations
-* 
+* Only one CPU will be used even if the computer has multiple cores and CPUs
+* Maximum 11 GB data storage is only supported
 
 ## When is Instant Client not required
 * If you computer that is running the python scripts already has Oracle database installed in it, Instant Client may not be required.
@@ -53,5 +54,5 @@ You can the video on this post [here](https://youtu.be/v0TkfVFGO5c)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTM0MDk5Nl19
+eyJoaXN0b3J5IjpbLTE2NTk1MTI0MTldfQ==
 -->
