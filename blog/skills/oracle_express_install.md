@@ -39,8 +39,9 @@ Detailed information about the limitations of Oracle Express database can be see
 
 ## Connecting to Oracle database with sqldeveloper
 * sqldeveloper is the database administration client tool by Oracle.
-* Download the tool from [here](https://www.oracle.com/tools/downloads/sqldev-downloads.html)
-* 
+* Download the tool as a zipped folder from [here](https://www.oracle.com/tools/downloads/sqldev-downloads.html)
+* Unzip the file to get the sqldeveloper folder. Inside the folder run the "sqldeveloper.exe" to start the sqldeveloper tool
+* Cl
 
 ## Connecting to Oracle database with DBeaver 
 * DBeaver community edition is a free universal database management tool that supports many databases including Oracle
@@ -67,7 +68,8 @@ You can the video on this post [here](https://youtu.be/89h-pfIpNL8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQyNDYzMTQsLTU4NDE2OTAxNiwtMT
-A5ODA5NjI3NiwtMTQ4MjIxOTAwMCwtMTM2NDY0NzUxOCwtMjAw
-Mzg2NTE1MSwtNTE3MTk3MzgzLC0zNzk5MjQ5Nl19
+eyJoaXN0b3J5IjpbLTEyNjI0NzUwMDgsLTEwNTQyNDYzMTQsLT
+U4NDE2OTAxNiwtMTA5ODA5NjI3NiwtMTQ4MjIxOTAwMCwtMTM2
+NDY0NzUxOCwtMjAwMzg2NTE1MSwtNTE3MTk3MzgzLC0zNzk5Mj
+Q5Nl19
 -->
