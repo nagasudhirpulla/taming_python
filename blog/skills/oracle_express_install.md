@@ -43,7 +43,8 @@ Detailed information about the limitations of Oracle Express database can be see
 * 
 
 ## Connecting to Oracle database with DBeaver 
-* DBeaver is 
+* DBeaver community edition is a free universal database management tool that supports many databases including Oracle
+*  
 
 ### Video
 You can the video on this post [here](https://youtu.be/89h-pfIpNL8)
@@ -63,7 +64,7 @@ You can the video on this post [here](https://youtu.be/89h-pfIpNL8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxMzI5ODQwLC0xMDk4MDk2Mjc2LC0xND
-gyMjE5MDAwLC0xMzY0NjQ3NTE4LC0yMDAzODY1MTUxLC01MTcx
-OTczODMsLTM3OTkyNDk2XX0=
+eyJoaXN0b3J5IjpbLTEzMjU2Mzk0NDYsLTEwOTgwOTYyNzYsLT
+E0ODIyMTkwMDAsLTEzNjQ2NDc1MTgsLTIwMDM4NjUxNTEsLTUx
+NzE5NzM4MywtMzc5OTI0OTZdfQ==
 -->
