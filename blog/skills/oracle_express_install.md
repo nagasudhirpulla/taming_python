@@ -14,9 +14,10 @@ Since Oracle Express database is free, there are some limitations
 * HTTPS is not supported
 
 In a nutshell, don't use it for production, use it only for testing and development purposes.
-Detailed information about 
 
-## When is Instant Client not required
+Detailed information about the limitations of Oracle Express database can be seen [here](https://docs.oracle.com/cd/E17781_01/install.112/e18803/toc.htm#XEINW117)
+
+## Download Oracle Express Edition (XE) database
 * If you computer that is running the python scripts already has Oracle database installed in it, Instant Client may not be required.
 * But there can be cases where the Oracle is 32 bit and python is 64 bit or vice-versa, where Instant Client installation will be necessary even if Oracle Database is installed in the computer.
 
@@ -59,5 +60,5 @@ You can the video on this post [here](https://youtu.be/v0TkfVFGO5c)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODgxNTg3NDJdfQ==
+eyJoaXN0b3J5IjpbOTEyMzY1MjUwXX0=
 -->
