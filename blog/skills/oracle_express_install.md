@@ -26,6 +26,7 @@ Detailed information about the limitations of Oracle Express database can be see
 * Download Oracle database zip file
 * Unzip the files
 * Run the setup.exe to install the database
+* During the setup set the database password
  The official setup guide can be found [here](https://docs.oracle.com/cd/E17781_01/install.112/e18803/toc.htm#XEINW123)
 
 ## Start or Stop the Oracle database
@@ -49,6 +50,6 @@ Detailed information about the limitations of Oracle Express database can be see
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjQ2NDc1MTgsLTIwMDM4NjUxNTEsLT
-UxNzE5NzM4MywtMzc5OTI0OTZdfQ==
+eyJoaXN0b3J5IjpbNTU5Mzk3MjYwLC0xMzY0NjQ3NTE4LC0yMD
+AzODY1MTUxLC01MTcxOTczODMsLTM3OTkyNDk2XX0=
 -->
