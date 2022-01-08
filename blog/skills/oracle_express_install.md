@@ -23,20 +23,12 @@ Detailed information about the limitations of Oracle Express database can be see
 
 ## Installing Oracle Express Edition in Windows
 * Download Oracle database zip file
+* If the `ORACLE_HOME` environment variable has been set, then use System in the Control Panel to delete it.
 * Unzip the files
 * Run the setup.exe to install the database
 
-## U
-* Along with Oracle Instant client, we also need ```cx_Oracle``` python module to interface with Oracle database in python scripts
-* To install cx_Oracle python module, run the following command in the python environment
-```
-python -m pip install cx_Oracle
-```
-
-### Video
-You can the video on this post [here](https://youtu.be/v0TkfVFGO5c)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v0TkfVFGO5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Using DBeaver to connect to the Oracle database
+* 
 
 
 ### References
@@ -52,6 +44,6 @@ You can the video on this post [here](https://youtu.be/v0TkfVFGO5c)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2Mjk5NTA4NiwtNTE3MTk3MzgzLC0zNz
-k5MjQ5Nl19
+eyJoaXN0b3J5IjpbNjI5MTU3MTgxLC01MTcxOTczODMsLTM3OT
+kyNDk2XX0=
 -->
