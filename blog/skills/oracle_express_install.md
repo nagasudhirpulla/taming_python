@@ -23,7 +23,7 @@ Detailed information about the limitations of Oracle Express database can be see
 
 ## Installing Oracle Express Edition in Windows
 * Download Oracle database zip file
-* If the `ORACLE_HOME` environment variable has been set, then use System in the Control Panel to delete it.
+* If the `ORACLE_HOME` environment variable has been set, delete it.
 * Unzip the files
 * Run the setup.exe to install the database
 
@@ -44,6 +44,6 @@ Detailed information about the limitations of Oracle Express database can be see
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5MTU3MTgxLC01MTcxOTczODMsLTM3OT
+eyJoaXN0b3J5IjpbOTE4NjE5NDM2LC01MTcxOTczODMsLTM3OT
 kyNDk2XX0=
 -->
