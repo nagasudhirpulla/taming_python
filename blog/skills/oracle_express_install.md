@@ -1,4 +1,4 @@
-## Skill - Oracle Express Edition (XE) database installation in Windows
+## Skill - Oracle Express Edition (XE) database setup along with sqldeveloper and DBeaver in Windows
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <hr/>
@@ -37,6 +37,9 @@ Detailed information about the limitations of Oracle Express database can be see
 * run ```services.msc``` command to open the services window
 * Right click on the ```OracleServiceXE``` service and select properties. Then select Startup type to "Manual" if you want the database to not start automatically on system start.
 
+## Connecting to Oracle with sqldeveloper
+sqldeveloper is the database administration client tool by Oracle.
+
 ### Video
 You can the video on this post [here](https://youtu.be/89h-pfIpNL8)
 
@@ -55,7 +58,7 @@ You can the video on this post [here](https://youtu.be/89h-pfIpNL8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTgwOTYyNzYsLTE0ODIyMTkwMDAsLT
-EzNjQ2NDc1MTgsLTIwMDM4NjUxNTEsLTUxNzE5NzM4MywtMzc5
-OTI0OTZdfQ==
+eyJoaXN0b3J5IjpbMTQ3NDM0MTgyOSwtMTA5ODA5NjI3NiwtMT
+Q4MjIxOTAwMCwtMTM2NDY0NzUxOCwtMjAwMzg2NTE1MSwtNTE3
+MTk3MzgzLC0zNzk5MjQ5Nl19
 -->
