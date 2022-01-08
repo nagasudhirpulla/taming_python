@@ -2,7 +2,7 @@
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <hr/>
-In this post we will install Oracle Express Edition (XE) database that enables communication between python scripts and Oracle database.
+In this post we will install Oracle Express Edition (XE) database which is free and is meant for local usage.
 
 ## Why use Oracle Instant Client
 * Without Oracle Instant Client, python scripts cannot communicate with the oracle database.
@@ -50,5 +50,5 @@ You can the video on this post [here](https://youtu.be/v0TkfVFGO5c)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTQwODY5MV19
+eyJoaXN0b3J5IjpbMTc3MDc4ODcwXX0=
 -->
