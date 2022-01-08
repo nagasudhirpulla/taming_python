@@ -30,7 +30,7 @@ Detailed information about the limitations of Oracle Express database can be see
 
 ## Start or Stop the Oracle database
 * run ```services.msc``` command to open the services window
-* Search for ```OracleServiceXE``` service and right click to either stop or start the oracle database
+* Right click on the ```OracleServiceXE``` service and select stop or start to start or stop the oracle database
 
 ## Disable Automatic Startup of Oracle database upon system start
 * run ```services.msc``` command to open the services window
@@ -49,6 +49,6 @@ Detailed information about the limitations of Oracle Express database can be see
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDA2ODI5NywtMjAwMzg2NTE1MSwtNT
-E3MTk3MzgzLC0zNzk5MjQ5Nl19
+eyJoaXN0b3J5IjpbLTEzNjQ2NDc1MTgsLTIwMDM4NjUxNTEsLT
+UxNzE5NzM4MywtMzc5OTI0OTZdfQ==
 -->
