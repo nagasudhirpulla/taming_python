@@ -117,6 +117,7 @@ Here are the goals and skills in this tutorial series
 * [Installing and using DBeaver for accessing and controlling different databases in one tool](https://nagasudhir.blogspot.com/2021/12/installing-and-using-dbeaver-for.html)
 * [psycopg2 python module for PostgreSQL database interfacing](https://nagasudhir.blogspot.com/2021/12/psycopg2-python-module-for-postgresql.html)
 * [Oracle Instant Client installation in Windows](https://nagasudhir.blogspot.com/2022/01/oracle-instant-client-installation-in.html)
+* [Oracle Express Edition (XE) database setup along with sqldeveloper and DBeaver in Windows](https://nagasudhir.blogspot.com/2022/01/oracle-express-edition-xe-database.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -124,11 +125,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE5MTEwNjQxNTcsMTcwNT
-E5MDYxMiw4MDYxMzc2MDcsOTk3Njg4MTM0LC0xMjMzNzIxMTgs
-LTE3ODgxNzMwMTAsODgxMDUyNTI5LDg5NjQ3NzM2NiwtMjk3ND
-IyODcxLC02MTY3MjE0NTUsNTM4ODE0ODg1LDg3Njg0ODI1NCw1
-MDU3MDc3MzAsMzcwNjkwNzI3LC0yMTEzODc2NDk2LDc5MTIwMD
-U0OSwxOTg3NzE2MTQ0LC0xOTQ5MjkwMjMxLC0xNjI3NzQ1ODAy
-LC05Mzg1MDA2ODldfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE1NjcxNDU1MzIsLTE5MT
+EwNjQxNTcsMTcwNTE5MDYxMiw4MDYxMzc2MDcsOTk3Njg4MTM0
+LC0xMjMzNzIxMTgsLTE3ODgxNzMwMTAsODgxMDUyNTI5LDg5Nj
+Q3NzM2NiwtMjk3NDIyODcxLC02MTY3MjE0NTUsNTM4ODE0ODg1
+LDg3Njg0ODI1NCw1MDU3MDc3MzAsMzcwNjkwNzI3LC0yMTEzOD
+c2NDk2LDc5MTIwMDU0OSwxOTg3NzE2MTQ0LC0xOTQ5MjkwMjMx
+LC0xNjI3NzQ1ODAyXX0=
 -->
