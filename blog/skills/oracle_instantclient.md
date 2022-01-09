@@ -32,7 +32,7 @@ python -m pip install cx_Oracle
 ```
 
 ### Video
-You can the video on this post [here](https://youtu.be/v0TkfVFGO5c)
+You can see the video on this post [here](https://youtu.be/v0TkfVFGO5c)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v0TkfVFGO5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -49,5 +49,6 @@ You can the video on this post [here](https://youtu.be/v0TkfVFGO5c)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjc5ODcyNTEsLTQ5NjA1NzE0OV19
+eyJoaXN0b3J5IjpbMTY5ODgzNjkyOCwtMTIyNzk4NzI1MSwtND
+k2MDU3MTQ5XX0=
 -->
