@@ -52,9 +52,11 @@ Detailed information about the limitations of Oracle Express database can be see
 ![oracle_conn_setup_dbeaver](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oracle_conn_setup_dbeaver.PNG)* You can click the "Test Connection" button to check if the settings are correct. Finally click the "Finish" button.
 
 ### Video
-You can see the video on this post [here](https://youtu.be/89h-pfIpNL8)
+You can see the video on this post [here](https://youtu.be/89h-pfIpNL8) are [here](https://youtu.be/1NdvDl33IWk)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/89h-pfIpNL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1NdvDl33IWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
 * Oracle Express (XE) database installation guide - https://docs.oracle.com/cd/E17781_01/install.112/e18803/toc.htm#XEINW123
@@ -69,8 +71,8 @@ You can see the video on this post [here](https://youtu.be/89h-pfIpNL8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzg5ODU2MTEsMjEwNDQ0MDU4NCwtMT
-A1NDI0NjMxNCwtNTg0MTY5MDE2LC0xMDk4MDk2Mjc2LC0xNDgy
-MjE5MDAwLC0xMzY0NjQ3NTE4LC0yMDAzODY1MTUxLC01MTcxOT
-czODMsLTM3OTkyNDk2XX0=
+eyJoaXN0b3J5IjpbLTczMjQxNDkzNywyMTA0NDQwNTg0LC0xMD
+U0MjQ2MzE0LC01ODQxNjkwMTYsLTEwOTgwOTYyNzYsLTE0ODIy
+MTkwMDAsLTEzNjQ2NDc1MTgsLTIwMDM4NjUxNTEsLTUxNzE5Nz
+M4MywtMzc5OTI0OTZdfQ==
 -->
