@@ -51,7 +51,24 @@ finally:
 * Cursors can also perform transactions for atomic execution of multiple commands. That means either all SQL commands will be executed, or else all the SQL commands will be cancelled.
 
 ## Creating the table used in this example
-The example codes given below require a table called ```students``` in the postgreSQL database. Please run the b
+* The example codes given below require a table called ```students``` in the postgreSQL database. 
+* Please run the below SQL in your database to create the required table
+```sql
+-- public.students definition
+
+-- Drop table
+-- DROP TABLE public.students;
+
+CREATE TABLE public.students (
+	id serial4 NOT NULL,
+	name varchar(250) NOT NULL,
+	dob timestamp NOT NULL,
+	studentid int4 NOT NULL,
+	CONSTRAINT name_unique_students UNIQUE (name, dob),
+	CONSTRAINT students_pkey PRIMARY KEY (id),
+	CONSTRAINT "students_un_studentId" UNIQUE (studentid)
+);
+```
 
 ## Fetching rows from database example
 
@@ -283,11 +300,11 @@ The videos for this post can be found [here](https://youtu.be/p33XTKbFeBE) and [
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDY5NjI1NTgsLTUwMzA1MDAyMSwtMT
-A5NzgxMzEyMywtMTgyOTk2NTUyNSwtNjk4MjkwMjA4LDEyMzYz
-OTcxOTQsNTAyNTczNDYxLC00MTIxNTQzNjMsLTgxMzM5ODQ3OC
-wxODYwNzE2MjY1LDY5ODA5NjQ3Myw3NTIzOTA3NDUsNDA4MTgw
-NzcsMTQ0ODQ2OTE0LC0xNTM2NzY3ODMyLC0yMTMxMjExMzcwLD
-IwNDQ4NTMxNywxOTc5ODgxMzYwLC0xMzY0MjUxNDI5LDEwMjcx
-MjAyMjRdfQ==
+eyJoaXN0b3J5IjpbLTkzMDQxMDk2OCwtNTAzMDUwMDIxLC0xMD
+k3ODEzMTIzLC0xODI5OTY1NTI1LC02OTgyOTAyMDgsMTIzNjM5
+NzE5NCw1MDI1NzM0NjEsLTQxMjE1NDM2MywtODEzMzk4NDc4LD
+E4NjA3MTYyNjUsNjk4MDk2NDczLDc1MjM5MDc0NSw0MDgxODA3
+NywxNDQ4NDY5MTQsLTE1MzY3Njc4MzIsLTIxMzEyMTEzNzAsMj
+A0NDg1MzE3LDE5Nzk4ODEzNjAsLTEzNjQyNTE0MjksMTAyNzEy
+MDIyNF19
 -->
