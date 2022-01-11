@@ -50,7 +50,7 @@ finally:
 * **Cursor object** uses the connection object to execute SQL commands in the database to update data or fetch data from the database.
 * Cursors can also perform transactions for atomic execution of multiple commands. That means either all SQL commands will be executed, or else all the SQL commands will be cancelled.
 
-## Creating the table used in this example
+## SQL to create the table used in this blog post
 * The example codes given below require a table called ```students``` in the postgreSQL database. 
 * Please run the below SQL in your database to create the required table
 ```sql
@@ -300,11 +300,11 @@ The videos for this post can be found [here](https://youtu.be/p33XTKbFeBE) and [
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDQxMDk2OCwtNTAzMDUwMDIxLC0xMD
-k3ODEzMTIzLC0xODI5OTY1NTI1LC02OTgyOTAyMDgsMTIzNjM5
-NzE5NCw1MDI1NzM0NjEsLTQxMjE1NDM2MywtODEzMzk4NDc4LD
-E4NjA3MTYyNjUsNjk4MDk2NDczLDc1MjM5MDc0NSw0MDgxODA3
-NywxNDQ4NDY5MTQsLTE1MzY3Njc4MzIsLTIxMzEyMTEzNzAsMj
-A0NDg1MzE3LDE5Nzk4ODEzNjAsLTEzNjQyNTE0MjksMTAyNzEy
-MDIyNF19
+eyJoaXN0b3J5IjpbNzExOTQxOTI4LC01MDMwNTAwMjEsLTEwOT
+c4MTMxMjMsLTE4Mjk5NjU1MjUsLTY5ODI5MDIwOCwxMjM2Mzk3
+MTk0LDUwMjU3MzQ2MSwtNDEyMTU0MzYzLC04MTMzOTg0NzgsMT
+g2MDcxNjI2NSw2OTgwOTY0NzMsNzUyMzkwNzQ1LDQwODE4MDc3
+LDE0NDg0NjkxNCwtMTUzNjc2NzgzMiwtMjEzMTIxMTM3MCwyMD
+Q0ODUzMTcsMTk3OTg4MTM2MCwtMTM2NDI1MTQyOSwxMDI3MTIw
+MjI0XX0=
 -->
