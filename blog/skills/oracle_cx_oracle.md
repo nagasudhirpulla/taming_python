@@ -93,9 +93,6 @@ try:
     # execute the sql to perform data extraction
     cur.execute(sqlTxt, (dt.datetime(2018, 1, 1, 0, 0, 0), 3000))
 
-    rowCount = cur.rowcount
-    print("number of fetched rows =", rowCount)
-
     # get the column names returned from the query
     colNames = [row[0] for row in cur.description]
 
@@ -197,7 +194,7 @@ finally:
 print("data insert example execution complete!")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyOTI4ODg4LDEyODI5MTc0MzUsLTk0Nj
-Q2ODkzMywtMTg1NzkxMTkwNSwtMTE5ODM2NDUzNSwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbLTE5NTI3NjExMTcsODcyOTI4ODg4LDEyOD
+I5MTc0MzUsLTk0NjQ2ODkzMywtMTg1NzkxMTkwNSwtMTE5ODM2
+NDUzNSwtMjA4ODc0NjYxMl19
 -->
