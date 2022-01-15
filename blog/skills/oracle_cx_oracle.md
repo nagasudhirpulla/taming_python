@@ -1,4 +1,4 @@
-## Skill - psycopg2 python module for PostgreSQL database interfacing
+## Skill - cx_Oracle python module for Oracle database interfacing
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -293,9 +293,8 @@ print("data delete example execution complete!")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI4MDcwODAsLTM1NzE3ODcwNywtMT
-c0MDcwNjc4NSwxMzc2OTA0NjY3LDE4MjYxNDIzNzcsLTM0OTk1
-NjQzNyw4NzI5Mjg4ODgsMTI4MjkxNzQzNSwtOTQ2NDY4OTMzLC
-0xODU3OTExOTA1LC0xMTk4MzY0NTM1LC0yMDg4NzQ2NjEyXX0=
-
+eyJoaXN0b3J5IjpbNDc1OTg1MjM3LC0zNTcxNzg3MDcsLTE3ND
+A3MDY3ODUsMTM3NjkwNDY2NywxODI2MTQyMzc3LC0zNDk5NTY0
+MzcsODcyOTI4ODg4LDEyODI5MTc0MzUsLTk0NjQ2ODkzMywtMT
+g1NzkxMTkwNSwtMTE5ODM2NDUzNSwtMjA4ODc0NjYxMl19
 -->
