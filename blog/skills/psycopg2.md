@@ -82,7 +82,8 @@ dbPort = 5433
 dbStr = 'test1'
 uNameStr = 'postgres'
 dbPassStr = 'pass'
-
+# ininti
+conn=None
 try:
     conn = psycopg2.connect(host=hostStr, port=dbPort, dbname=dbStr, user=uNameStr, password=dbPassStr)
 
@@ -300,11 +301,11 @@ The videos for this post can be found [here](https://youtu.be/p33XTKbFeBE) and [
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzExOTQxOTI4LC01MDMwNTAwMjEsLTEwOT
-c4MTMxMjMsLTE4Mjk5NjU1MjUsLTY5ODI5MDIwOCwxMjM2Mzk3
-MTk0LDUwMjU3MzQ2MSwtNDEyMTU0MzYzLC04MTMzOTg0NzgsMT
-g2MDcxNjI2NSw2OTgwOTY0NzMsNzUyMzkwNzQ1LDQwODE4MDc3
-LDE0NDg0NjkxNCwtMTUzNjc2NzgzMiwtMjEzMTIxMTM3MCwyMD
-Q0ODUzMTcsMTk3OTg4MTM2MCwtMTM2NDI1MTQyOSwxMDI3MTIw
-MjI0XX0=
+eyJoaXN0b3J5IjpbMTA3MDM1NTA2Myw3MTE5NDE5MjgsLTUwMz
+A1MDAyMSwtMTA5NzgxMzEyMywtMTgyOTk2NTUyNSwtNjk4Mjkw
+MjA4LDEyMzYzOTcxOTQsNTAyNTczNDYxLC00MTIxNTQzNjMsLT
+gxMzM5ODQ3OCwxODYwNzE2MjY1LDY5ODA5NjQ3Myw3NTIzOTA3
+NDUsNDA4MTgwNzcsMTQ0ODQ2OTE0LC0xNTM2NzY3ODMyLC0yMT
+MxMjExMzcwLDIwNDQ4NTMxNywxOTc5ODgxMzYwLC0xMzY0MjUx
+NDI5XX0=
 -->
