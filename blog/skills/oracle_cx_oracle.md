@@ -202,11 +202,51 @@ print("data fetch example execution complete!")
 * ```[row[0] for row in cur.description]``` will return the column names in order for the fetched list of data tuples.
 
 ## Update rows example
-``
+```python
+import cx_Oracle
+import datetime as dt
+import pandas as pd
+
+# connection string in the format
+# <username>/<password>@<dbHostAddress>:<dbPort>/<dbServiceName>
+connStr = 'system/pass@localhost:1521/xepdb1'
+
+# initialize the connection object
+conn = None
+try:
+    # create a connection object
+    conn = cx_Oracle.connect(connStr)
+
+    # get a cursor object from the connection
+    cur = conn.cursor()
+
+    # create sql for updating table rows
+    sqlTxt = 'UPDATE "test1".students set st_name = :1 where st_name = :2'
+
+    # execute the sql to perform update
+    cur.execute(sqlTxt, ("hgf", "abc"))
+
+    rowCount = cur.rowcount
+    print("number of updated rows =", rowCount)
+
+    # commit the changes
+    conn.commit()
+except Exception as err:
+    print('Error while updating rows in db')
+    print(err)
+finally:
+    if(conn):
+        # close the cursor object to avoid memory leaks
+        cur.close()
+
+        # close the connection object also
+        conn.close()
+print("data update example execution complete!")
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTgzNTIzMSwtMTc0MDcwNjc4NSwxMz
-c2OTA0NjY3LDE4MjYxNDIzNzcsLTM0OTk1NjQzNyw4NzI5Mjg4
-ODgsMTI4MjkxNzQzNSwtOTQ2NDY4OTMzLC0xODU3OTExOTA1LC
-0xMTk4MzY0NTM1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE3Nzc3MDQ5MDEsLTE3NDA3MDY3ODUsMT
+M3NjkwNDY2NywxODI2MTQyMzc3LC0zNDk5NTY0MzcsODcyOTI4
+ODg4LDEyODI5MTc0MzUsLTk0NjQ2ODkzMywtMTg1NzkxMTkwNS
+wtMTE5ODM2NDUzNSwtMjA4ODc0NjYxMl19
 -->
