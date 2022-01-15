@@ -100,7 +100,7 @@ try:
     cur.executemany(sqlTxt, [x for x in dataInsertionTuples])
 
     rowCount = cur.rowcount
-    print("number of deleted existing rows =", rowCount)
+    print("number of existing rows deleted =", rowCount)
 
     # create sql for data insertion
     sqlTxt = 'INSERT INTO "test1".students\
@@ -199,7 +199,7 @@ print("data fetch example execution complete!")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQ0OTQzNTksLTM0OTk1NjQzNyw4Nz
-I5Mjg4ODgsMTI4MjkxNzQzNSwtOTQ2NDY4OTMzLC0xODU3OTEx
-OTA1LC0xMTk4MzY0NTM1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTgyNjE0MjM3NywtMzQ5OTU2NDM3LDg3Mj
+kyODg4OCwxMjgyOTE3NDM1LC05NDY0Njg5MzMsLTE4NTc5MTE5
+MDUsLTExOTgzNjQ1MzUsLTIwODg3NDY2MTJdfQ==
 -->
