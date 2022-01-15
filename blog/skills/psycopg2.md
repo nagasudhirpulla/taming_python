@@ -99,6 +99,9 @@ try:
     # execute the data fetch SQL command along with the SQL placeholder values
     cur.execute(sqlStr, (dt.datetime(2018, 1, 1, 0, 0, 0), 3000))
 
+    rowCount = cur.rowcount
+    print("number of fetched rows =", rowCount)
+
     # fetch all the records from cursor
     records = cur.fetchall()
     # get the column names of the fetched records
@@ -302,11 +305,11 @@ The videos for this post can be found [here](https://youtu.be/p33XTKbFeBE) and [
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODI4MzkzOSwtNTU1MzY4MDcyLDcxMT
-k0MTkyOCwtNTAzMDUwMDIxLC0xMDk3ODEzMTIzLC0xODI5OTY1
-NTI1LC02OTgyOTAyMDgsMTIzNjM5NzE5NCw1MDI1NzM0NjEsLT
-QxMjE1NDM2MywtODEzMzk4NDc4LDE4NjA3MTYyNjUsNjk4MDk2
-NDczLDc1MjM5MDc0NSw0MDgxODA3NywxNDQ4NDY5MTQsLTE1Mz
-Y3Njc4MzIsLTIxMzEyMTEzNzAsMjA0NDg1MzE3LDE5Nzk4ODEz
-NjBdfQ==
+eyJoaXN0b3J5IjpbLTU1NTM2ODA3MiwxNDM4MjgzOTM5LC01NT
+UzNjgwNzIsNzExOTQxOTI4LC01MDMwNTAwMjEsLTEwOTc4MTMx
+MjMsLTE4Mjk5NjU1MjUsLTY5ODI5MDIwOCwxMjM2Mzk3MTk0LD
+UwMjU3MzQ2MSwtNDEyMTU0MzYzLC04MTMzOTg0NzgsMTg2MDcx
+NjI2NSw2OTgwOTY0NzMsNzUyMzkwNzQ1LDQwODE4MDc3LDE0ND
+g0NjkxNCwtMTUzNjc2NzgzMiwtMjEzMTIxMTM3MCwyMDQ0ODUz
+MTddfQ==
 -->
