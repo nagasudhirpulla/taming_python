@@ -211,7 +211,8 @@ dbPort = 5433
 dbStr = 'test1'
 uNameStr = 'postgres'
 dbPassStr = 'pass'
-
+# initialize the connection object
+conn=None
 try:
     conn = psycopg2.connect(host=hostStr, port=dbPort, dbname=dbStr,
                             user=uNameStr, password=dbPassStr)
@@ -303,7 +304,7 @@ The videos for this post can be found [here](https://youtu.be/p33XTKbFeBE) and [
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTg5MDg2Niw3MTE5NDE5MjgsLTUwMz
+eyJoaXN0b3J5IjpbLTc2NjAyMTk1MCw3MTE5NDE5MjgsLTUwMz
 A1MDAyMSwtMTA5NzgxMzEyMywtMTgyOTk2NTUyNSwtNjk4Mjkw
 MjA4LDEyMzYzOTcxOTQsNTAyNTczNDYxLC00MTIxNTQzNjMsLT
 gxMzM5ODQ3OCwxODYwNzE2MjY1LDY5ODA5NjQ3Myw3NTIzOTA3
