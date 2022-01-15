@@ -67,6 +67,66 @@ CREATE TABLE students (
 );
 ```
 
+## Insert rows example
+```sql
+import cx_Oracle
+import datetime as dt
+import pandas as pd
+
+# connection string in the format
+# <username>/<password>@<dbHostAddress>:<dbPort>/<dbServiceName>
+connStr = 'system/pass@localhost:1521/xepdb1'
+
+# initialize the connection object
+conn = None
+try:
+    # create a connection object
+    conn = cx_Oracle.connect(connStr)
+
+    # get a cursor object from the connection
+    cur = conn.cursor()
+
+    # prepare data insertion rows
+    dataInsertionTuples = [
+        ('xyz', dt.datetime(2021, 1, 1), 7654),
+        ('abc', dt.datetime(2020, 10, 12), 9724)
+    ]
+
+    # create sql for deletion of existing rows to avoid insert conflicts
+    sqlTxt = 'DELETE from "test1".students where\
+                (st_name=:1 and dob=:2)\
+                or (studentid=:3)'
+    # execute the sql to perform deletion
+    cur.executemany(sqlTxt, [x for x in dataInsertionTuples])
+
+    rowCount = cur.rowcount
+    print("number of deleted existing rows =", rowCount)
+
+    # create sql for data insertion
+    sqlTxt = 'INSERT INTO "test1".students\
+                (st_name, dob, studentid)\
+                VALUES (:1, :2, :3)'
+    # execute the sql to perform data extraction
+    cur.executemany(sqlTxt, dataInsertionTuples)
+
+    rowCount = cur.rowcount
+    print("number of inserted rows =", rowCount)
+
+    # commit the changes
+    conn.commit()
+except Exception as err:
+    print('Error while inserting rows into db')
+    print(err)
+finally:
+    if(conn):
+        # close the cursor object to avoid memory leaks
+        cur.close()
+
+        # close the connection object also
+        conn.close()
+print("data insert example execution complete!")
+```
+
 ## Fetch rows from database
 ```python
 import cx_Oracle
@@ -136,67 +196,10 @@ print("data fetch example execution complete!")
 * ```cur.fetchall()``` will return the results of SQL fetch query as a list of tuples from our cursor variable.
 * ```[row[0] for row in cur.description]``` will return the column names in order for the fetched list of data tuples.
 
-## Insert rows example
-```sql
-import cx_Oracle
-import datetime as dt
-import pandas as pd
 
-# connection string in the format
-# <username>/<password>@<dbHostAddress>:<dbPort>/<dbServiceName>
-connStr = 'system/pass@localhost:1521/xepdb1'
 
-# initialize the connection object
-conn = None
-try:
-    # create a connection object
-    conn = cx_Oracle.connect(connStr)
-
-    # get a cursor object from the connection
-    cur = conn.cursor()
-
-    # prepare data insertion rows
-    dataInsertionTuples = [
-        ('xyz', dt.datetime(2021, 1, 1), 7654),
-        ('abc', dt.datetime(2020, 10, 12), 9724)
-    ]
-
-    # create sql for deletion of existing rows to avoid insert conflicts
-    sqlTxt = 'DELETE from "test1".students where\
-                (st_name=:1 and dob=:2)\
-                or (studentid=:3)'
-    # execute the sql to perform deletion
-    cur.executemany(sqlTxt, [x for x in dataInsertionTuples])
-
-    rowCount = cur.rowcount
-    print("number of deleted existing rows =", rowCount)
-
-    # create sql for data insertion
-    sqlTxt = 'INSERT INTO "test1".students\
-                (st_name, dob, studentid)\
-                VALUES (:1, :2, :3)'
-    # execute the sql to perform data extraction
-    cur.executemany(sqlTxt, dataInsertionTuples)
-
-    rowCount = cur.rowcount
-    print("number of inserted rows =", rowCount)
-
-    # commit the changes
-    conn.commit()
-except Exception as err:
-    print('Error while inserting rows into db')
-    print(err)
-finally:
-    if(conn):
-        # close the cursor object to avoid memory leaks
-        cur.close()
-
-        # close the connection object also
-        conn.close()
-print("data insert example execution complete!")
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTk1NjQzNyw4NzI5Mjg4ODgsMTI4Mj
-kxNzQzNSwtOTQ2NDY4OTMzLC0xODU3OTExOTA1LC0xMTk4MzY0
-NTM1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTIwNzQ0OTQzNTksLTM0OTk1NjQzNyw4Nz
+I5Mjg4ODgsMTI4MjkxNzQzNSwtOTQ2NDY4OTMzLC0xODU3OTEx
+OTA1LC0xMTk4MzY0NTM1LC0yMDg4NzQ2NjEyXX0=
 -->
