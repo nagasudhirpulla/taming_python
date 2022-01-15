@@ -13,7 +13,38 @@ CREATE TABLE students (
 	UNIQUE (studentid)
 );
 ```
+
+## Connect to database
+```python
+import cx_Oracle
+
+# connection string in the format
+# <username>/<password>@<dbHostAddress>:<dbPort>/<dbServiceName>
+connStr = 'system/pass@localhost:1521/xepdb1'
+
+# initialize the connection object
+conn = None
+try:
+    # create a connection object
+    conn = cx_Oracle.connect(connStr)
+
+    # get a cursor object from the connection
+    cur = conn.cursor()
+
+    # do something with the database
+except Exception as err:
+    print('Error while connecting to the db')
+    print(err)
+finally:
+    if(conn):
+        # close the cursor object to avoid memory leaks
+        cur.close()
+
+        # close the connection object also
+        conn.close()
+print("execution complete!")
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTgzNjQ1MzUsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTEzNDA5ODQyOTMsLTExOTgzNjQ1MzUsLT
+IwODg3NDY2MTJdfQ==
 -->
