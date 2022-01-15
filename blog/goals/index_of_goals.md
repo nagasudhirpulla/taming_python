@@ -118,6 +118,7 @@ Here are the goals and skills in this tutorial series
 * [psycopg2 python module for PostgreSQL database interfacing](https://nagasudhir.blogspot.com/2021/12/psycopg2-python-module-for-postgresql.html)
 * [Oracle Instant Client installation in Windows](https://nagasudhir.blogspot.com/2022/01/oracle-instant-client-installation-in.html)
 * [Oracle Express Edition (XE) database setup along with sqldeveloper and DBeaver in Windows](https://nagasudhir.blogspot.com/2022/01/oracle-express-edition-xe-database.html)
+* [cx_Oracle python module for Oracle database interfacing]()
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -125,11 +126,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE1NjcxNDU1MzIsLTE5MT
-EwNjQxNTcsMTcwNTE5MDYxMiw4MDYxMzc2MDcsOTk3Njg4MTM0
-LC0xMjMzNzIxMTgsLTE3ODgxNzMwMTAsODgxMDUyNTI5LDg5Nj
-Q3NzM2NiwtMjk3NDIyODcxLC02MTY3MjE0NTUsNTM4ODE0ODg1
-LDg3Njg0ODI1NCw1MDU3MDc3MzAsMzcwNjkwNzI3LC0yMTEzOD
-c2NDk2LDc5MTIwMDU0OSwxOTg3NzE2MTQ0LC0xOTQ5MjkwMjMx
-LC0xNjI3NzQ1ODAyXX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTI0MTAzMDgyOSwtMTU2Nz
+E0NTUzMiwtMTkxMTA2NDE1NywxNzA1MTkwNjEyLDgwNjEzNzYw
+Nyw5OTc2ODgxMzQsLTEyMzM3MjExOCwtMTc4ODE3MzAxMCw4OD
+EwNTI1MjksODk2NDc3MzY2LC0yOTc0MjI4NzEsLTYxNjcyMTQ1
+NSw1Mzg4MTQ4ODUsODc2ODQ4MjU0LDUwNTcwNzczMCwzNzA2OT
+A3MjcsLTIxMTM4NzY0OTYsNzkxMjAwNTQ5LDE5ODc3MTYxNDQs
+LTE5NDkyOTAyMzFdfQ==
 -->
