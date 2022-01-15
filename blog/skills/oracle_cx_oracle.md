@@ -202,11 +202,11 @@ print("data fetch example execution complete!")
 * ```[row[0] for row in cur.description]``` will return the column names in order for the fetched list of data tuples.
 
 ## Update rows example
-
+``
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDA3MDY3ODUsMTM3NjkwNDY2NywxOD
-I2MTQyMzc3LC0zNDk5NTY0MzcsODcyOTI4ODg4LDEyODI5MTc0
-MzUsLTk0NjQ2ODkzMywtMTg1NzkxMTkwNSwtMTE5ODM2NDUzNS
-wtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTE3NTgzNTIzMSwtMTc0MDcwNjc4NSwxMz
+c2OTA0NjY3LDE4MjYxNDIzNzcsLTM0OTk1NjQzNyw4NzI5Mjg4
+ODgsMTI4MjkxNzQzNSwtOTQ2NDY4OTMzLC0xODU3OTExOTA1LC
+0xMTk4MzY0NTM1LC0yMDg4NzQ2NjEyXX0=
 -->
