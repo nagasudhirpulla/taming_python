@@ -120,15 +120,15 @@ print("data fetch example execution complete!")
 * In the above code we have created an SQL fetch command to be executed as a string.
 
 ```python
-sqlStr = "select name, dob, studentid from public.students \
-where dob >= %s and studentid > %s \
-order by name, studentid"
+ sqlTxt = 'select st_name, dob, studentid from "test1".STUDENTS \
+                where dob >= :1 and studentid > :2 \
+                order by st_name, studentid'
 ```
 
 * We have also given SQL input placeholders as ```%s``` to inject python variables into SQL statement while execution. This is a strongly recommended way of inserting variables in SQL commands since this avoids SQL injection attacks in our python programs.
 * ```cur.fetchall()``` will return the results of SQL fetch query as a list of tuples from our cursor variable.
 * ```[row[0] for row in cur.description]``` will return the column names in order for the fetched list of data tuples. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzgxMzI1NjUsLTE4NTc5MTE5MDUsLT
-ExOTgzNjQ1MzUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTIzNjU2MTkyMywtMTg1NzkxMTkwNSwtMT
+E5ODM2NDUzNSwtMjA4ODc0NjYxMl19
 -->
