@@ -16,11 +16,12 @@ CREATE TABLE students (
 
 ## Connect to database
 The required parameters for connecting to an Oracle database are
--   database server host (example: localhost / 192.168.19.5)
--   database server listening port (example: 5432)
--   database name (example: test_db)
--   database username (example: system)
--   database password (example: p#ssw0rd)
+* database server host (example: localhost / 192.168.19.5)
+* database server listening port (example: 5432)
+* database name (example: test_db)
+* database username (example: system)
+* database password (example: p#ssw0rd)
+All the above parameters will be used to create a connection string in the format ```<username>/<password>@<dbHostAddress>:<dbPort>/<dbServiceName>``` (example: )
 ```python
 import cx_Oracle
 
@@ -51,6 +52,6 @@ finally:
 print("execution complete!")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODk5NjU3OCwtMTE5ODM2NDUzNSwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE4Nzg2OTk0MjcsLTExOTgzNjQ1MzUsLT
+IwODg3NDY2MTJdfQ==
 -->
