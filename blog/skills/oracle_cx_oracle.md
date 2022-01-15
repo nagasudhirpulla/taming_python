@@ -116,7 +116,18 @@ finally:
         conn.close()
 print("data fetch example execution complete!")
 ```
+* In the above code we have created an SQL fetch command to be executed as a string.
+
+```python
+sqlStr = "select name, dob, studentid from public.students \
+where dob >= %s and studentid > %s \
+order by name, studentid"
+```
+
+* We have also given SQL input placeholders as ```%s``` to inject python variables into SQL statement while execution. This is a strongly recommended way of inserting variables in SQL commands since this avoids SQL injection attacks in our python programs.
+* ```cur.fetchall()``` will return the results of SQL fetch query as a list of tuples from our cursor variable.
+* ```[row[0] for row in cur.description]``` will return the column names in order for the fetched list of data tuples. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MTUyMTIxOSwtMTg1NzkxMTkwNSwtMT
+eyJoaXN0b3J5IjpbLTEwMjUxMDI0NywtMTg1NzkxMTkwNSwtMT
 E5ODM2NDUzNSwtMjA4ODc0NjYxMl19
 -->
