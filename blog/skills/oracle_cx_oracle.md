@@ -99,6 +99,8 @@ try:
     # fetch all rows from query
     dbRows = cur.fetchall()
 
+    print("number of fetched rows =", len(dbRows))
+
     # iterate through all the fetched rows
     for rowIter in range(len(dbRows)):
         print("reading data from {0} row".format(rowIter))
@@ -194,7 +196,7 @@ finally:
 print("data insert example execution complete!")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTI3NjExMTcsODcyOTI4ODg4LDEyOD
-I5MTc0MzUsLTk0NjQ2ODkzMywtMTg1NzkxMTkwNSwtMTE5ODM2
-NDUzNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTM0OTk1NjQzNyw4NzI5Mjg4ODgsMTI4Mj
+kxNzQzNSwtOTQ2NDY4OTMzLC0xODU3OTExOTA1LC0xMTk4MzY0
+NTM1LC0yMDg4NzQ2NjEyXX0=
 -->
