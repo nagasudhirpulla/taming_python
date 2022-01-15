@@ -1,4 +1,10 @@
+In this post we will use cx_oracle python module for interfacing with an Oracle database.
 
+## Installing cx_oracle python module
+Run the following command in your python environment
+```
+python -m pip install cx_Oracle
+``` 
 ```sql
 -- drop the existing table
 -- DROP TABLE students;
@@ -129,6 +135,6 @@ print("data fetch example execution complete!")
 * ```cur.fetchall()``` will return the results of SQL fetch query as a list of tuples from our cursor variable.
 * ```[row[0] for row in cur.description]``` will return the column names in order for the fetched list of data tuples.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzk4ODY1MTYsLTE4NTc5MTE5MDUsLT
-ExOTgzNjQ1MzUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIwNTcxNTc5MSwtMTg1NzkxMTkwNSwtMT
+E5ODM2NDUzNSwtMjA4ODc0NjYxMl19
 -->
