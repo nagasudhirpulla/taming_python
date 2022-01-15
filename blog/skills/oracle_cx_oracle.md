@@ -1,3 +1,8 @@
+## Skill - psycopg2 python module for PostgreSQL database interfacing
+
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
+
+<hr/>
 In this post we will use cx_oracle python module for interfacing with an Oracle database.
 
 ## Installing cx_oracle python module
@@ -246,12 +251,51 @@ print("data update example execution complete!")
 
 ## Delete rows example
 ```python
+import cx_Oracle
+import datetime as dt
+import pandas as pd
 
+# connection string in the format
+# <username>/<password>@<dbHostAddress>:<dbPort>/<dbServiceName>
+connStr = 'system/pass@localhost:1521/xepdb1'
+
+# initialize the connection object
+conn = None
+try:
+    # create a connection object
+    conn = cx_Oracle.connect(connStr)
+
+    # get a cursor object from the connection
+    cur = conn.cursor()
+
+    # create sql for deleting table rows
+    sqlTxt = 'DELETE from "test1".students where st_name = :1'
+
+    # execute the sql to perform update
+    cur.execute(sqlTxt, ("xyz",))
+
+    rowCount = cur.rowcount
+    print("number of deleted rows =", rowCount)
+
+    # commit the changes
+    conn.commit()
+except Exception as err:
+    print('Error while deleting rows in db')
+    print(err)
+finally:
+    if(conn):
+        # close the cursor object to avoid memory leaks
+        cur.close()
+
+        # close the connection object also
+        conn.close()
+print("data delete example execution complete!")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NzE3ODcwNywtMTc0MDcwNjc4NSwxMz
-c2OTA0NjY3LDE4MjYxNDIzNzcsLTM0OTk1NjQzNyw4NzI5Mjg4
-ODgsMTI4MjkxNzQzNSwtOTQ2NDY4OTMzLC0xODU3OTExOTA1LC
-0xMTk4MzY0NTM1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE5OTI4MDcwODAsLTM1NzE3ODcwNywtMT
+c0MDcwNjc4NSwxMzc2OTA0NjY3LDE4MjYxNDIzNzcsLTM0OTk1
+NjQzNyw4NzI5Mjg4ODgsMTI4MjkxNzQzNSwtOTQ2NDY4OTMzLC
+0xODU3OTExOTA1LC0xMTk4MzY0NTM1LC0yMDg4NzQ2NjEyXX0=
+
 -->
