@@ -14,7 +14,7 @@ CREATE TABLE students (
 );
 ```
 
-## Connect to database (Connection and Cursor objects)
+## Connect to database with Connection and Cursor objects
 The required parameters for connecting to an Oracle database are
 * database username (example: system)
 * database password (example: p#ssw0rd)
@@ -59,6 +59,6 @@ print("execution complete!")
 -   **Cursor object** uses the connection object to execute SQL commands in the database to update data or fetch data from the database.
 -   Cursors can also perform transactions for atomic execution of multiple commands. That means either all SQL commands will be executed, or else all the SQL commands will be cancelled.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQzNjg5OTIsLTExOTgzNjQ1MzUsLT
+eyJoaXN0b3J5IjpbLTE4NTc5MTE5MDUsLTExOTgzNjQ1MzUsLT
 IwODg3NDY2MTJdfQ==
 -->
