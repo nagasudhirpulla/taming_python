@@ -116,6 +116,7 @@ finally:
         conn.close()
 print("data fetch example execution complete!")
 ```
+
 * In the above code we have created an SQL fetch command to be executed as a string.
 
 ```python
@@ -128,6 +129,6 @@ order by name, studentid"
 * ```cur.fetchall()``` will return the results of SQL fetch query as a list of tuples from our cursor variable.
 * ```[row[0] for row in cur.description]``` will return the column names in order for the fetched list of data tuples. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjUxMDI0NywtMTg1NzkxMTkwNSwtMT
-E5ODM2NDUzNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTIxMzgxMzI1NjUsLTE4NTc5MTE5MDUsLT
+ExOTgzNjQ1MzUsLTIwODg3NDY2MTJdfQ==
 -->
