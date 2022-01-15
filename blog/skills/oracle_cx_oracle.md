@@ -58,7 +58,65 @@ print("execution complete!")
 -   **Connection object** establishes connection with the database.
 -   **Cursor object** uses the connection object to execute SQL commands in the database to update data or fetch data from the database.
 -   Cursors can also perform transactions for atomic execution of multiple commands. That means either all SQL commands will be executed, or else all the SQL commands will be cancelled.
+
+## Fetch rows from database
+```python
+import cx_Oracle
+import datetime as dt
+import pandas as pd
+
+# connection string in the format
+# <username>/<password>@<dbHostAddress>:<dbPort>/<dbServiceName>
+connStr = 'system/pass@localhost:1521/xepdb1'
+
+# initialize the connection object
+conn = None
+try:
+    # create a connection object
+    conn = cx_Oracle.connect(connStr)
+
+    # get a cursor object from the connection
+    cur = conn.cursor()
+
+    # create sql for querying data
+    sqlTxt = 'select st_name, dob, studentid from "test1".STUDENTS \
+                where dob >= :1 and studentid > :2 \
+                order by st_name, studentid'
+    # execute the sql to perform data extraction
+    cur.execute(sqlTxt, (dt.datetime(2018, 1, 1, 0, 0, 0), 3000))
+
+    rowCount = cur.rowcount
+    print("number of fetched rows =", rowCount)
+
+    # get the column names returned from the query
+    colNames = [row[0] for row in cur.description]
+
+    # fetch all rows from query
+    dbRows = cur.fetchall()
+
+    # iterate through all the fetched rows
+    for rowIter in range(len(dbRows)):
+        print("reading data from {0} row".format(rowIter))
+        rowTuple = dbRows[rowIter]
+        print("name =", rowTuple[0])
+        print("dob =", rowTuple[1])
+        print("studentId =", rowTuple[2])
+
+    # create a dataframe from the fetched records (optional)
+    recordsDf = pd.DataFrame.from_records(dbRows, columns=colNames)
+except Exception as err:
+    print('Error while fetching rows from db')
+    print(err)
+finally:
+    if(conn):
+        # close the cursor object to avoid memory leaks
+        cur.close()
+
+        # close the connection object also
+        conn.close()
+print("data fetch example execution complete!")
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc5MTE5MDUsLTExOTgzNjQ1MzUsLT
-IwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTM0MTUyMTIxOSwtMTg1NzkxMTkwNSwtMT
+E5ODM2NDUzNSwtMjA4ODc0NjYxMl19
 -->
