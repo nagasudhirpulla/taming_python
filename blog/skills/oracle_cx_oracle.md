@@ -14,14 +14,16 @@ CREATE TABLE students (
 );
 ```
 
-## Connect to database
+## Connect to database (Connection and Cursor objects)
 The required parameters for connecting to an Oracle database are
 * database username (example: system)
 * database password (example: p#ssw0rd)
 * database server host (example: localhost / 192.168.19.5)
 * database server listening port (example: 1521)
 * database service name (example: xepdb1 or ORCL)
+
 All the above parameters will be used to create a connection string in the format ```<username>/<password>@<dbHostAddress>:<dbPort>/<dbServiceName>``` (example: system/p#ssw0rd@localhost:1521/xepdb1)
+
 ```python
 import cx_Oracle
 
@@ -51,7 +53,12 @@ finally:
         conn.close()
 print("execution complete!")
 ```
+
+-   The above python program uses a connection object and a cursor object.
+-   **Connection object** establishes connection with the database.
+-   **Cursor object** uses the connection object to execute SQL commands in the database to update data or fetch data from the database.
+-   Cursors can also perform transactions for atomic execution of multiple commands. That means either all SQL commands will be executed, or else all the SQL commands will be cancelled.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NDMzNTE0OCwtMTE5ODM2NDUzNSwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTExMTQzNjg5OTIsLTExOTgzNjQ1MzUsLT
+IwODg3NDY2MTJdfQ==
 -->
