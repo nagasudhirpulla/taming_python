@@ -245,11 +245,13 @@ print("data update example execution complete!")
 ```
 
 ## Delete rows example
-``
+```python
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzkzODM3LC0xNzQwNzA2Nzg1LDEzNz
-Y5MDQ2NjcsMTgyNjE0MjM3NywtMzQ5OTU2NDM3LDg3MjkyODg4
-OCwxMjgyOTE3NDM1LC05NDY0Njg5MzMsLTE4NTc5MTE5MDUsLT
-ExOTgzNjQ1MzUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTM1NzE3ODcwNywtMTc0MDcwNjc4NSwxMz
+c2OTA0NjY3LDE4MjYxNDIzNzcsLTM0OTk1NjQzNyw4NzI5Mjg4
+ODgsMTI4MjkxNzQzNSwtOTQ2NDY4OTMzLC0xODU3OTExOTA1LC
+0xMTk4MzY0NTM1LC0yMDg4NzQ2NjEyXX0=
 -->
