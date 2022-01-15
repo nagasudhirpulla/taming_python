@@ -130,7 +130,7 @@ finally:
 print("data fetch example code execution complete...")
 ```
 
-* In the above code we have create an SQL fetch command to be executed as a string.
+* In the above code we have created an SQL fetch command to be executed as a string.
 
 ```python
 sqlStr = "select name, dob, studentid from public.students \
@@ -305,11 +305,11 @@ The videos for this post can be found [here](https://youtu.be/p33XTKbFeBE) and [
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjE3MjkxMjgsNzExOTQxOTI4LC01MD
-MwNTAwMjEsLTEwOTc4MTMxMjMsLTE4Mjk5NjU1MjUsLTY5ODI5
-MDIwOCwxMjM2Mzk3MTk0LDUwMjU3MzQ2MSwtNDEyMTU0MzYzLC
-04MTMzOTg0NzgsMTg2MDcxNjI2NSw2OTgwOTY0NzMsNzUyMzkw
-NzQ1LDQwODE4MDc3LDE0NDg0NjkxNCwtMTUzNjc2NzgzMiwtMj
-EzMTIxMTM3MCwyMDQ0ODUzMTcsMTk3OTg4MTM2MCwtMTM2NDI1
-MTQyOV19
+eyJoaXN0b3J5IjpbLTU1NTM2ODA3Miw3MTE5NDE5MjgsLTUwMz
+A1MDAyMSwtMTA5NzgxMzEyMywtMTgyOTk2NTUyNSwtNjk4Mjkw
+MjA4LDEyMzYzOTcxOTQsNTAyNTczNDYxLC00MTIxNTQzNjMsLT
+gxMzM5ODQ3OCwxODYwNzE2MjY1LDY5ODA5NjQ3Myw3NTIzOTA3
+NDUsNDA4MTgwNzcsMTQ0ODQ2OTE0LC0xNTM2NzY3ODMyLC0yMT
+MxMjExMzcwLDIwNDQ4NTMxNywxOTc5ODgxMzYwLC0xMzY0MjUx
+NDI5XX0=
 -->
