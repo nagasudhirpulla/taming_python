@@ -127,7 +127,7 @@ finally:
 print("data insert example execution complete!")
 ```
 - In the above program we use ```executemany``` function to execute a single SQL statement multiple times for each of parameters tuple of the input parameters tuples list.
-- We provided input variables to SQL text using placeholders (like :1, :2 etc) to avoid the risk of SQL injection.  
+- We provided input variables to SQL text using placeholders (like `:1`, `:2` etc) to avoid the risk of SQL injection.  
 - Also we have used given python objects based on the table columns like strings, numbers, datetime objects as input parameters instead of converting them into SQL command strings to address the SQL injection issue. Do not convert input variables to strings by yourself. Let cx_Oracle handle it.
 -   Before executing the insert command, we executed a delete command and deleted existing rows with same keys as newly inserted rows to avoid conflicts while insertion (You can implement your own conflict resolution strategy)
 -   The `conn.commit()` function is committing all the uncommitted database changes made by the cursor object by executing SQL commands. Without calling this function, the database changes made by the cursor object will not be permanent. Hence do not forget to call `conn.commit` after executing a database modification command like INSERT, DELETE, UPDATE.
@@ -204,8 +204,8 @@ print("data fetch example execution complete!")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDg5ODg2OCwxODI2MTQyMzc3LC0zND
-k5NTY0MzcsODcyOTI4ODg4LDEyODI5MTc0MzUsLTk0NjQ2ODkz
-MywtMTg1NzkxMTkwNSwtMTE5ODM2NDUzNSwtMjA4ODc0NjYxMl
-19
+eyJoaXN0b3J5IjpbLTE2MDE0OTU5OTAsMTgyNjE0MjM3NywtMz
+Q5OTU2NDM3LDg3MjkyODg4OCwxMjgyOTE3NDM1LC05NDY0Njg5
+MzMsLTE4NTc5MTE5MDUsLTExOTgzNjQ1MzUsLTIwODg3NDY2MT
+JdfQ==
 -->
