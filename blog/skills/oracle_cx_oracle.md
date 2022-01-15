@@ -126,7 +126,7 @@ finally:
         conn.close()
 print("data insert example execution complete!")
 ```
-- In the above program we use ```executemany``` function to execute a single SQL statement for mu  
+- In the above program we use ```executemany``` function to execute a single SQL statement multiple times for each of input parameter tuple of the input list   
 - In the above program, we have used `cur.mogrify` function to convert python variables like strings, numnbers, datetime objects into SQL command strings. This is very important because SQL injection issue will be addresses by using the `cur.mogrify` function. Do not convert variables to strings by yourself. Let psycopg2 handle the string conversion.
 -   We have used `ON CONFLICT DO UPDATE` clause in the insert SQL statement. This helps in easily handling the situations without errors where duplicate rows are trying to get inserted.
 -   The `conn.commit()` function is committing all the uncommitted database changes made by the cursor object by executing SQL commands. Without calling this function, the database changes made by the cursor object will not be permanent. Hence do not forget to call `conn.commit` after executing a database modification command like INSERT, DELETE, UPDATE.
@@ -203,7 +203,7 @@ print("data fetch example execution complete!")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjQwNzQxMCwxODI2MTQyMzc3LC0zND
+eyJoaXN0b3J5IjpbMTc1MjU5MjcxOSwxODI2MTQyMzc3LC0zND
 k5NTY0MzcsODcyOTI4ODg4LDEyODI5MTc0MzUsLTk0NjQ2ODkz
 MywtMTg1NzkxMTkwNSwtMTE5ODM2NDUzNSwtMjA4ODc0NjYxMl
 19
