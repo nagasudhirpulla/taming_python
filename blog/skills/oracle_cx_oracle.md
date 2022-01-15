@@ -15,6 +15,12 @@ CREATE TABLE students (
 ```
 
 ## Connect to database
+The required parameters for connecting to an Oracle database are
+-   database server host (example: localhost / 192.168.19.5)
+-   database server listening port (example: 5432)
+-   database name (example: test_db)
+-   database username (example: postgres)
+-   database password (example: p#ssw0rd)
 ```python
 import cx_Oracle
 
@@ -45,6 +51,6 @@ finally:
 print("execution complete!")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDA5ODQyOTMsLTExOTgzNjQ1MzUsLT
-IwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNjk1MTU4ODcyLC0xMTk4MzY0NTM1LC0yMD
+g4NzQ2NjEyXX0=
 -->
