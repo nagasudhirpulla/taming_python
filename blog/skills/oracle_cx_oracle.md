@@ -297,16 +297,16 @@ You can see the video on this post [here](https://youtu.be/rhwPfc8NdcQ)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rhwPfc8NdcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
-* official cx oracle quickstart guide - https://www.oracle.com/database/technologies/appdev/python/quickstartpythononprem.html
-* 
+* Official cx_Oracle quickstart guide - https://www.oracle.com/database/technologies/appdev/python/quickstartpythononprem.html
+* cx_Oracle documentation - https://cx-oracle.readthedocs.io/en/latest/user_guide/introduction.html#getting-started
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjI0NDAzNzksODYzNDE0OTM0LDQ3NT
-k4NTIzNywtMzU3MTc4NzA3LC0xNzQwNzA2Nzg1LDEzNzY5MDQ2
-NjcsMTgyNjE0MjM3NywtMzQ5OTU2NDM3LDg3MjkyODg4OCwxMj
-gyOTE3NDM1LC05NDY0Njg5MzMsLTE4NTc5MTE5MDUsLTExOTgz
-NjQ1MzUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMjIxMTM1NTc0LDg2MzQxNDkzNCw0NzU5OD
+UyMzcsLTM1NzE3ODcwNywtMTc0MDcwNjc4NSwxMzc2OTA0NjY3
+LDE4MjYxNDIzNzcsLTM0OTk1NjQzNyw4NzI5Mjg4ODgsMTI4Mj
+kxNzQzNSwtOTQ2NDY4OTMzLC0xODU3OTExOTA1LC0xMTk4MzY0
+NTM1LC0yMDg4NzQ2NjEyXX0=
 -->
