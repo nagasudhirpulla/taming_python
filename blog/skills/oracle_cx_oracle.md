@@ -297,17 +297,16 @@ You can see the video on this post [here](https://youtu.be/rhwPfc8NdcQ)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rhwPfc8NdcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
-* Oracle Express (XE) database installation guide - https://docs.oracle.com/cd/E17781_01/install.112/e18803/toc.htm#XEINW123
-* Oracle Express (XE) database download - https://www.oracle.com/in/database/technologies/xe-downloads.html
-* Oracle Express (XE) database limitations - https://docs.oracle.com/cd/E17781_01/install.112/e18803/toc.htm#XEINW117
+* official cx oracle quickstart guide - https://www.oracle.com/database/technologies/appdev/python/quickstartpythononprem.html
+* 
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzNDE0OTM0LDQ3NTk4NTIzNywtMzU3MT
-c4NzA3LC0xNzQwNzA2Nzg1LDEzNzY5MDQ2NjcsMTgyNjE0MjM3
-NywtMzQ5OTU2NDM3LDg3MjkyODg4OCwxMjgyOTE3NDM1LC05ND
-Y0Njg5MzMsLTE4NTc5MTE5MDUsLTExOTgzNjQ1MzUsLTIwODg3
-NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIwMjI0NDAzNzksODYzNDE0OTM0LDQ3NT
+k4NTIzNywtMzU3MTc4NzA3LC0xNzQwNzA2Nzg1LDEzNzY5MDQ2
+NjcsMTgyNjE0MjM3NywtMzQ5OTU2NDM3LDg3MjkyODg4OCwxMj
+gyOTE3NDM1LC05NDY0Njg5MzMsLTE4NTc5MTE5MDUsLTExOTgz
+NjQ1MzUsLTIwODg3NDY2MTJdfQ==
 -->
