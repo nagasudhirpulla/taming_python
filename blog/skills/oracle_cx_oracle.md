@@ -291,10 +291,23 @@ finally:
         conn.close()
 print("data delete example execution complete!")
 ```
+### Video
+You can see the video on this post [here](https://youtu.be/rhwPfc8NdcQ)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rhwPfc8NdcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### References
+* Oracle Express (XE) database installation guide - https://docs.oracle.com/cd/E17781_01/install.112/e18803/toc.htm#XEINW123
+* Oracle Express (XE) database download - https://www.oracle.com/in/database/technologies/xe-downloads.html
+* Oracle Express (XE) database limitations - https://docs.oracle.com/cd/E17781_01/install.112/e18803/toc.htm#XEINW117
+
+<hr/>
+
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1OTg1MjM3LC0zNTcxNzg3MDcsLTE3ND
-A3MDY3ODUsMTM3NjkwNDY2NywxODI2MTQyMzc3LC0zNDk5NTY0
-MzcsODcyOTI4ODg4LDEyODI5MTc0MzUsLTk0NjQ2ODkzMywtMT
-g1NzkxMTkwNSwtMTE5ODM2NDUzNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbODYzNDE0OTM0LDQ3NTk4NTIzNywtMzU3MT
+c4NzA3LC0xNzQwNzA2Nzg1LDEzNzY5MDQ2NjcsMTgyNjE0MjM3
+NywtMzQ5OTU2NDM3LDg3MjkyODg4OCwxMjgyOTE3NDM1LC05ND
+Y0Njg5MzMsLTE4NTc5MTE5MDUsLTExOTgzNjQ1MzUsLTIwODg3
+NDY2MTJdfQ==
 -->
