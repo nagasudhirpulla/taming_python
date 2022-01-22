@@ -90,7 +90,8 @@ If we are using Gmail to send email from python, we can use App Passwords featur
 
 ## References
 * Official smtplib documentation - https://docs.python.org/3/library/smtplib.html
+* Official guide on Google app passwords - https://support.google.com/mail/answer/185833?hl=en-GB
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDY3MjM1NCwtMTE4OTE4NjM2MywtND
-kzNTI2MDU1XX0=
+eyJoaXN0b3J5IjpbMTcwOTY0NDM2LC0xMTg5MTg2MzYzLC00OT
+M1MjYwNTVdfQ==
 -->
