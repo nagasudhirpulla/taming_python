@@ -73,13 +73,13 @@ if not len(sendErrs.keys()) == 0:
 
 print("execution complete...")
 ```
-The above code can be used for gmail or any mail server like corporate exchange server.
+The above code can be used for Gmail or any mail server like corporate exchange server.
 
 ### App Passwords feature in Gmail
 If we are using Gmail to send email from python, we can use App Passwords feature to create a separate password exclusively for the script instead of main password without sacrificing two-factor authentication and not enabling less secure apps.
 #### Steps
 * Login with google and visit google account page at accounts.google.com
-*  Goto security tab and make sure two factor authentication is turned ON
+*  Go to security tab and make sure two factor authentication is turned ON
 * Click on App Passwords
 * Generate an app password by selecting the app as 'Mail'
 * Copy and use the generated app password instead of original gmail password in python scripts
@@ -96,6 +96,6 @@ If we are using Gmail to send email from python, we can use App Passwords featur
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0MDQ1MDY5LC0xMTg5MTg2MzYzLC00OT
-M1MjYwNTVdfQ==
+eyJoaXN0b3J5IjpbMTA0OTQ3NTk2NywtMTE4OTE4NjM2MywtND
+kzNTI2MDU1XX0=
 -->
