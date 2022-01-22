@@ -9,6 +9,12 @@
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Reading and writing files in python](https://nagasudhir.blogspot.com/2020/05/reading-and-writing-files-in-python.html)
 
+Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
+<hr/>
+
+In this post, we will learn how to send email with python.
+I
+
 ```python
 import smtplib
 from email.mime.text import MIMEText
@@ -62,5 +68,5 @@ if not len(sendErrs.keys()) == 0:
 print("execution complete...")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Mjc1MDk1Ml19
+eyJoaXN0b3J5IjpbMTM3MjUxNTAxMl19
 -->
