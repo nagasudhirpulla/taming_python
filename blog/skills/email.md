@@ -72,11 +72,14 @@ print("execution complete...")
 If we are using Gmail to send email from python, we can use App Passwords feature to create a separate password exclusively for the script instead of main password without sacrificing two-factor authentication and not enabling less secure apps.
 #### Steps
 * Login with google and visit google account page at accounts.google.com
-*  Goto security 
+*  Goto security tab and make sure two factor authentication is turned ON
+* Click on the App Passwords
+
+
 
 ## References
 * Official smtplib documentation - https://docs.python.org/3/library/smtplib.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTM3OTczNSwtMTE4OTE4NjM2MywtND
+eyJoaXN0b3J5IjpbLTU2OTE2ODkzNywtMTE4OTE4NjM2MywtND
 kzNTI2MDU1XX0=
 -->
