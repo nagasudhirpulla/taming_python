@@ -68,8 +68,9 @@ if not len(sendErrs.keys()) == 0:
 print("execution complete...")
 ```
 
-#
-If we are using Gmail, we can use App Passwords feature to create a separate password exclusively for the script without sacrificing two-factor authentication and not enabling less secure apps.
+### App Passwords feature in Gmail
+If we are using Gmail to send email from python, we can use App Passwords feature to create a separate password exclusively for the script instead of main password without sacrificing two-factor authentication and not enabling less secure apps.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTcyNTY5MTddfQ==
+eyJoaXN0b3J5IjpbLTQ5MzUyNjA1NV19
 -->
