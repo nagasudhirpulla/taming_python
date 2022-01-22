@@ -7,7 +7,7 @@
 * [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
-* []()
+* [Reading and writing files in python](https://nagasudhir.blogspot.com/2020/05/reading-and-writing-files-in-python.html)
 ```python
 import smtplib
 from email.mime.text import MIMEText
@@ -60,5 +60,5 @@ if not len(sendErrs.keys()) == 0:
 print("execution complete...")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQyMjkxNThdfQ==
+eyJoaXN0b3J5IjpbMTc0NjAzNjMyNF19
 -->
