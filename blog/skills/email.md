@@ -37,7 +37,7 @@ msg.attach(MIMEText(mailContentHtml, 'html'))
 
 # file attachment
 attachmentFpath = "smtp.png"
-# check if file exists
+# check if file exists - optional
 part = MIMEBase('application', "octet-stream")
 part.set_payload(open(attachmentFpath, "rb").read())
 encoders.encode_base64(part)
@@ -60,5 +60,5 @@ if not len(sendErrs.keys()) == 0:
 print("execution complete...")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODgyOTE0MTddfQ==
+eyJoaXN0b3J5IjpbLTEzMDQyMjkxNThdfQ==
 -->
