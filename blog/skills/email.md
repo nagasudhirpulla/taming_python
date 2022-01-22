@@ -13,7 +13,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 
 In this post, we will learn how to send email with python.
-I
+If we are using Gmail, we can use App Passwords feature to create a separate password exclusively for the script and 
 
 ```python
 import smtplib
@@ -68,5 +68,5 @@ if not len(sendErrs.keys()) == 0:
 print("execution complete...")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjUxNTAxMl19
+eyJoaXN0b3J5IjpbNjQxOTU5MzkzXX0=
 -->
