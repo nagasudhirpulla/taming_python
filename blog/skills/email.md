@@ -1,4 +1,4 @@
-## Skill - Send email with python without compromising gmail two factor authentication
+## Skill - Send email with attachments in python without compromising on gmail two factor authentication
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -84,6 +84,6 @@ If we are using Gmail to send email from python, we can use App Passwords featur
 ## References
 * Official smtplib documentation - https://docs.python.org/3/library/smtplib.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyMTE3Mjg1LC0xMTg5MTg2MzYzLC00OT
+eyJoaXN0b3J5IjpbNzIwNzUyNzA1LC0xMTg5MTg2MzYzLC00OT
 M1MjYwNTVdfQ==
 -->
