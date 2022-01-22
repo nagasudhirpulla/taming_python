@@ -71,6 +71,8 @@ print("execution complete...")
 ### App Passwords feature in Gmail
 If we are using Gmail to send email from python, we can use App Passwords feature to create a separate password exclusively for the script instead of main password without sacrificing two-factor authentication and not enabling less secure apps.
 
+## References
+* Official smtplib documentation - https://docs.python.org/3/library/smtplib.html#
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzUyNjA1NV19
+eyJoaXN0b3J5IjpbLTE4OTUyOTc1NTYsLTQ5MzUyNjA1NV19
 -->
