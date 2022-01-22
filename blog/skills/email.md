@@ -8,6 +8,7 @@
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Reading and writing files in python](https://nagasudhir.blogspot.com/2020/05/reading-and-writing-files-in-python.html)
+
 ```python
 import smtplib
 from email.mime.text import MIMEText
@@ -28,6 +29,7 @@ mailSubject = "test subject"
 mailContentHtml = "Hi, Hope u are fine. <br/> This is a <b>test</b> mail from python script using an awesome library called <b>smtplib</b>"
 recepientsMailList = ["receiveremail@gmail.com"]
 
+# create message object
 msg = MIMEMultipart()
 msg['From'] = mailFromEmail
 msg['To'] = ','.join(recepientsMailList)
@@ -35,7 +37,7 @@ msg['Subject'] = mailSubject
 # msg.attach(MIMEText(mailContentText, 'plain'))
 msg.attach(MIMEText(mailContentHtml, 'html'))
 
-# file attachment
+# attach file to message object
 attachmentFpath = "smtp.png"
 # check if file exists - optional
 part = MIMEBase('application', "octet-stream")
@@ -45,7 +47,7 @@ part.add_header('Content-Disposition',
                 'attachment; filename="{0}"'.format(os.path.basename(attachmentFpath)))
 msg.attach(part)
 
-# Send the email
+# Send the email using message ib
 s = smtplib.SMTP(smtpHost, smtpPort)
 s.starttls()
 s.login(mailUname, mailPwd)
@@ -60,5 +62,5 @@ if not len(sendErrs.keys()) == 0:
 print("execution complete...")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NjAzNjMyNF19
+eyJoaXN0b3J5IjpbLTkzNTA2NDQwMF19
 -->
