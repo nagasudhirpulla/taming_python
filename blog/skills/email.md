@@ -1,3 +1,13 @@
+## Skill - Send email with python without compromising gmail two factor authentication
+
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
+
+#### Skills Required
+* [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
+* [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
+* [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
+* [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
+* []()
 ```python
 import smtplib
 from email.mime.text import MIMEText
@@ -50,5 +60,5 @@ if not len(sendErrs.keys()) == 0:
 print("execution complete...")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzNTA5NzUwXX0=
+eyJoaXN0b3J5IjpbLTEzODgyOTE0MTddfQ==
 -->
