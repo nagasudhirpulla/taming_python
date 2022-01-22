@@ -18,7 +18,7 @@ In this post, we will learn how to send email with python using smtplib python m
 * The python code below uses ```smtplib``` python library
 * The following steps are implemented in this code
 	* message object is created and attributes like subject, sender email, receiver email addresses, email subject, email body are set
-	* attachment object is created and attached to message object
+	* attachment object is created from a local file and attached to message object
 	* message object sent as email using smtplib library and mail server connection parameters
 
 ```python
@@ -96,6 +96,6 @@ If we are using Gmail to send email from python, we can use App Passwords featur
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTE0MzU5NywtMTE4OTE4NjM2MywtND
-kzNTI2MDU1XX0=
+eyJoaXN0b3J5IjpbNDA0MDQ1MDY5LC0xMTg5MTg2MzYzLC00OT
+M1MjYwNTVdfQ==
 -->
