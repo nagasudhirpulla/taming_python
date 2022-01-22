@@ -73,13 +73,16 @@ If we are using Gmail to send email from python, we can use App Passwords featur
 #### Steps
 * Login with google and visit google account page at accounts.google.com
 *  Goto security tab and make sure two factor authentication is turned ON
-* Click on the App Passwords
+* Click on App Passwords
+* Generate an app password by selecting the app as 'Mail'
+* Copy and use the generated app password 
 
-
+![gmail_app_passwords_1](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/gmail_app_passwords_1.png)
+![gmail_app_passwords_2](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/gmail_app_passwords_2.png)
 
 ## References
 * Official smtplib documentation - https://docs.python.org/3/library/smtplib.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTE2ODkzNywtMTE4OTE4NjM2MywtND
+eyJoaXN0b3J5IjpbLTI5NjQ1NDE0OSwtMTE4OTE4NjM2MywtND
 kzNTI2MDU1XX0=
 -->
