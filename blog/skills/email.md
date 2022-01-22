@@ -12,9 +12,9 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post, we will learn how to send email with python.
-If we are using Gmail, we can use App Passwords feature to create a separate password exclusively for the script without sacrificing two factor authentication. 
+In this post, we will learn how to send email with python using smtplib python module
 
+### Python Code for sending email
 ```python
 import smtplib
 from email.mime.text import MIMEText
@@ -67,6 +67,9 @@ if not len(sendErrs.keys()) == 0:
 
 print("execution complete...")
 ```
+
+#
+If we are using Gmail, we can use App Passwords feature to create a separate password exclusively for the script without sacrificing two-factor authentication and not enabling less secure apps.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3ODk0NzAzXX0=
+eyJoaXN0b3J5IjpbLTE4NTcyNTY5MTddfQ==
 -->
