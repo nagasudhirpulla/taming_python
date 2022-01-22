@@ -15,6 +15,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 In this post, we will learn how to send email with python using smtplib python module
 
 ### Python Code for sending email
+* The python code below uses ```smtplib``` python library
+* The following steps are implemented in this code
+* 
 ```python
 import smtplib
 from email.mime.text import MIMEText
@@ -84,6 +87,6 @@ If we are using Gmail to send email from python, we can use App Passwords featur
 ## References
 * Official smtplib documentation - https://docs.python.org/3/library/smtplib.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIwNzUyNzA1LC0xMTg5MTg2MzYzLC00OT
-M1MjYwNTVdfQ==
+eyJoaXN0b3J5IjpbMTcwODEwNDA5MSwtMTE4OTE4NjM2MywtND
+kzNTI2MDU1XX0=
 -->
