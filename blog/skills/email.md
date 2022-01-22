@@ -47,7 +47,7 @@ part.add_header('Content-Disposition',
                 'attachment; filename="{0}"'.format(os.path.basename(attachmentFpath)))
 msg.attach(part)
 
-# Send the email using message ib
+# Send the email using message object and smptlib
 s = smtplib.SMTP(smtpHost, smtpPort)
 s.starttls()
 s.login(mailUname, mailPwd)
@@ -62,5 +62,5 @@ if not len(sendErrs.keys()) == 0:
 print("execution complete...")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTA2NDQwMF19
+eyJoaXN0b3J5IjpbLTI1MzQ1ODQyMF19
 -->
