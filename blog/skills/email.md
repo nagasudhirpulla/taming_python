@@ -29,50 +29,55 @@ from email.mime.multipart import MIMEMultipart
 from email import encoders
 import os
 
+def sendEmail(smtpHost, smtpPort, mailUname, mailPwd, fromEmail, mailSubject, mailContentHtml, recepientsMailList, attachmentFpaths):
+    # create message object
+    msg = MIMEMultipart()
+    msg['From'] = fromEmail
+    msg['To'] = ','.join(recepientsMailList)
+    msg['Subject'] = mailSubject
+    # msg.attach(MIMEText(mailContentText, 'plain'))
+    msg.attach(MIMEText(mailContentHtml, 'html'))
+
+    # create file attachments
+    for aPath in attachmentFpaths:
+        # check if file exists
+        part = MIMEBase('application', "octet-stream")
+        part.set_payload(open(aPath, "rb").read())
+        encoders.encode_base64(part)
+        part.add_header('Content-Disposition',
+                        'attachment; filename="{0}"'.format(os.path.basename(aPath)))
+        msg.attach(part)
+
+    # Send message object as email using smptplib
+    s = smtplib.SMTP(smtpHost, smtpPort)
+    s.starttls()
+    s.login(mailUname, mailPwd)
+    msgText = msg.as_string()
+    sendErrs = s.sendmail(fromEmail, recepientsMailList, msgText)
+    s.quit()
+
+    # check if errors occured and handle them accordingly
+    if not len(sendErrs.keys()) == 0:
+        raise Exception("Errors occurred while sending email", sendErrs)
+
+
 # mail server parameters
 smtpHost = "smtp.gmail.com"
 smtpPort = 587
 mailUname = 'senderemail@gmail.com'
-mailPwd = 'gcuslwchrdtqetav'
-mailFromEmail = 'senderemail@gmail.com'
+mailPwd = 'ehqpsvygwbmujclq'
+fromEmail = 'senderemail@gmail.com'
 
-# mail body and recepients
+# mail body, recepients, attachment files
 mailSubject = "test subject"
 mailContentHtml = "Hi, Hope u are fine. <br/> This is a <b>test</b> mail from python script using an awesome library called <b>smtplib</b>"
 recepientsMailList = ["receiveremail@gmail.com"]
-
-# create message object
-msg = MIMEMultipart()
-msg['From'] = mailFromEmail
-msg['To'] = ','.join(recepientsMailList)
-msg['Subject'] = mailSubject
-# msg.attach(MIMEText(mailContentText, 'plain'))
-msg.attach(MIMEText(mailContentHtml, 'html'))
-
-# create file attachments
 attachmentFpaths = ["smtp.png", "poster.png"]
-for aPath in attachmentFpaths:
-    # check if file exists
-    part = MIMEBase('application', "octet-stream")
-    part.set_payload(open(aPath, "rb").read())
-    encoders.encode_base64(part)
-    part.add_header('Content-Disposition',
-                    'attachment; filename="{0}"'.format(os.path.basename(aPath)))
-    msg.attach(part)
-
-# Send message object as email using smptplib
-s = smtplib.SMTP(smtpHost, smtpPort)
-s.starttls()
-s.login(mailUname, mailPwd)
-msgText = msg.as_string()
-sendErrs = s.sendmail(mailFromEmail, recepientsMailList, msgText)
-s.quit()
-
-# check if errors occured and handle them accordingly
-if not len(sendErrs.keys()) == 0:
-    raise Exception("Errors occurred while sending email", sendErrs)
+sendEmail(smtpHost, smtpPort, mailUname, mailPwd, fromEmail,
+          mailSubject, mailContentHtml, recepientsMailList, attachmentFpaths)
 
 print("execution complete...")
+
 ```
 The above code can be used for Gmail or any mail server like corporate exchange server.
 
@@ -98,6 +103,7 @@ If we are using Gmail to send email from python, we can use App Passwords featur
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjY4NDA4NzgsLTEzOTQyMzk4MDYsMT
-A0OTQ3NTk2NywtMTE4OTE4NjM2MywtNDkzNTI2MDU1XX0=
+eyJoaXN0b3J5IjpbLTEyMjU3MjI3NzQsLTEwNjY4NDA4NzgsLT
+EzOTQyMzk4MDYsMTA0OTQ3NTk2NywtMTE4OTE4NjM2MywtNDkz
+NTI2MDU1XX0=
 -->
