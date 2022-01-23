@@ -96,6 +96,10 @@ If we are using Gmail to send email from python, we can use App Passwords featur
 ![gmail_app_passwords_1](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/gmail_app_passwords_1.png)
 ![gmail_app_passwords_2](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/gmail_app_passwords_2.png)
 ![gmail_app_passwords_3](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/gmail_app_passwords_3.png)
+### Video
+Video for this post can be found [here](https://youtu.be/BFTCVC33qhQ)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BFTCVC33qhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
 * Official smtplib python module documentation - https://docs.python.org/3/library/smtplib.html
@@ -106,7 +110,7 @@ If we are using Gmail to send email from python, we can use App Passwords featur
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTA3MjQ1LC0xMjI1NzIyNzc0LC0xMD
-Y2ODQwODc4LC0xMzk0MjM5ODA2LDEwNDk0NzU5NjcsLTExODkx
-ODYzNjMsLTQ5MzUyNjA1NV19
+eyJoaXN0b3J5IjpbLTUxMDU1OTE1NiwxMjk5MDcyNDUsLTEyMj
+U3MjI3NzQsLTEwNjY4NDA4NzgsLTEzOTQyMzk4MDYsMTA0OTQ3
+NTk2NywtMTE4OTE4NjM2MywtNDkzNTI2MDU1XX0=
 -->
