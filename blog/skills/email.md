@@ -90,13 +90,14 @@ If we are using Gmail to send email from python, we can use App Passwords featur
 ![gmail_app_passwords_3](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/gmail_app_passwords_3.png)
 
 ### References
-* Official smtplib documentation - https://docs.python.org/3/library/smtplib.html
+* Official smtplib python module documentation - https://docs.python.org/3/library/smtplib.html
+* Official email python module documentation - https://docs.python.org/3/library/email.html 
 * Official guide on Google app passwords - https://support.google.com/mail/answer/185833?hl=en-GB
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQyMzk4MDYsMTA0OTQ3NTk2NywtMT
-E4OTE4NjM2MywtNDkzNTI2MDU1XX0=
+eyJoaXN0b3J5IjpbLTEwNjY4NDA4NzgsLTEzOTQyMzk4MDYsMT
+A0OTQ3NTk2NywtMTE4OTE4NjM2MywtNDkzNTI2MDU1XX0=
 -->
