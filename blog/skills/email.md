@@ -49,15 +49,16 @@ msg['Subject'] = mailSubject
 # msg.attach(MIMEText(mailContentText, 'plain'))
 msg.attach(MIMEText(mailContentHtml, 'html'))
 
-# attach file to message object
-attachmentFpath = "smtp.png"
-# check if file exists - optional
-part = MIMEBase('application', "octet-stream")
-part.set_payload(open(attachmentFpath, "rb").read())
-encoders.encode_base64(part)
-part.add_header('Content-Disposition',
-                'attachment; filename="{0}"'.format(os.path.basename(attachmentFpath)))
-msg.attach(part)
+# create file attachments
+attachmentFpaths = ["smtp.png", "poster.png"]
+for aPath in attachmentFpaths:
+    # check if file exists
+    part = MIMEBase('application', "octet-stream")
+    part.set_payload(open(aPath, "rb").read())
+    encoders.encode_base64(part)
+    part.add_header('Content-Disposition',
+                    'attachment; filename="{0}"'.format(os.path.basename(aPath)))
+    msg.attach(part)
 
 # Send message object as email using smptplib
 s = smtplib.SMTP(smtpHost, smtpPort)
@@ -96,6 +97,6 @@ If we are using Gmail to send email from python, we can use App Passwords featur
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0OTQ3NTk2NywtMTE4OTE4NjM2MywtND
-kzNTI2MDU1XX0=
+eyJoaXN0b3J5IjpbLTEzOTQyMzk4MDYsMTA0OTQ3NTk2NywtMT
+E4OTE4NjM2MywtNDkzNTI2MDU1XX0=
 -->
