@@ -12,7 +12,10 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post, we will learn how to send email with python using smtplib python module
+* In this post, we will learn how to send automated emails with python using smtplib python module
+
+### Use cases
+There can be many use cases for sending automated emails like sending automated reports, alerts, notifications etc.
 
 ### Python Code for sending email
 * The python code below uses ```smtplib``` python library
@@ -103,7 +106,7 @@ If we are using Gmail to send email from python, we can use App Passwords featur
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU3MjI3NzQsLTEwNjY4NDA4NzgsLT
-EzOTQyMzk4MDYsMTA0OTQ3NTk2NywtMTE4OTE4NjM2MywtNDkz
-NTI2MDU1XX0=
+eyJoaXN0b3J5IjpbMTI5OTA3MjQ1LC0xMjI1NzIyNzc0LC0xMD
+Y2ODQwODc4LC0xMzk0MjM5ODA2LDEwNDk0NzU5NjcsLTExODkx
+ODYzNjMsLTQ5MzUyNjA1NV19
 -->
