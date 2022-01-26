@@ -23,7 +23,7 @@ In this blog post we will create an automated report for each customer address a
 The following template word file is used in this blog post can be downloaded here - [customerTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/customerTmpl.docx)
 
 ![docxtpl_customer_template_0](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_customer_template_0.png)
-## Program 
+## Code 
 ```python
 from docxtpl import DocxTemplate
 import datetime as dt
@@ -100,6 +100,6 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzAyMzMyLDI5MTkzMjE5Myw5MzE1Nj
-c4MF19
+eyJoaXN0b3J5IjpbLTExNjM0OTQ3MTUsMjkxOTMyMTkzLDkzMT
+U2NzgwXX0=
 -->
