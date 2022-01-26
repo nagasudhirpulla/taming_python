@@ -88,7 +88,7 @@ print("execution complete...")
 * Each line of the address is rendered as a word table row using jinja2 `for` loop. Hence we are using a for loop inside a for loop.
 
 ### Output
-
+![docxtpl_example_output_0](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_example_output_0.png)
 
 ### References
 * Official documentation - https://docxtpl.readthedocs.io/en/latest/
@@ -102,7 +102,7 @@ print("execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExMzEyMTQ5LC0xNTc5ODI1MzQzLC0xOD
-M5MTM1NjY0LDM2NTU4NDY5MCwyOTE5MzIxOTMsOTMxNTY3ODBd
-fQ==
+eyJoaXN0b3J5IjpbLTEwNzkzMDczNTMsLTE1Nzk4MjUzNDMsLT
+E4MzkxMzU2NjQsMzY1NTg0NjkwLDI5MTkzMjE5Myw5MzE1Njc4
+MF19
 -->
