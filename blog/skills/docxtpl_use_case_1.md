@@ -1,4 +1,4 @@
-## Skill - Conditional statements, nested for loops and loop.index in docxtpl automated reports
+## Skill - Conditional statements, nested for loops and loop.index0 in docxtpl automated reports
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -83,7 +83,8 @@ print("execution complete...")
 * In order to generate a report for each customer address, first we iterate through each customer and in turn iterate through each customer address to render a word and pdf file in the output folder
 * While running this script, create folder named ```ouput``` in the same folder as the script file.
 * A jinja2 `for` loop in the template word file table is used to render list of customer addresses from the context object
-*  
+*  To display check mark icon only for the report address among all the customer addresses, we have used a jinja2 `if` conditional statement
+* We have also used the `loop.index0`
 
 
 ### Video
@@ -102,6 +103,6 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjcwNDQ1MiwzNjU1ODQ2OTAsMjkxOT
-MyMTkzLDkzMTU2NzgwXX0=
+eyJoaXN0b3J5IjpbLTE5NTYyNzM5NzAsMzY1NTg0NjkwLDI5MT
+kzMjE5Myw5MzE1Njc4MF19
 -->
