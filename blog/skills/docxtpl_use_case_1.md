@@ -80,7 +80,7 @@ for cItr, cObj in enumerate(customerObjects):
 print("execution complete...")
 ```
 * In the above example, we have defined customers as objects and each object has customer name, customer addresses list as it's members
-* In order to generate a report for each customer address, first we iterate through each customer and in turn iterate through each 
+* In order to generate a report for each customer address, first we iterate through each customer and in turn iterate through each customer address to render a word and pdf file as the output report
 * While running this script, create folder named ```ouput``` in the same folder as the script file.
 * 
 
@@ -101,6 +101,6 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1NTg0NjkwLDI5MTkzMjE5Myw5MzE1Nj
-c4MF19
+eyJoaXN0b3J5IjpbMTUwOTU2MjIzMSwzNjU1ODQ2OTAsMjkxOT
+MyMTkzLDkzMTU2NzgwXX0=
 -->
