@@ -23,9 +23,7 @@ In this blog post we will create an automated report for each customer address a
 The following template word file is used in this blog post can be downloaded here - [customerTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/customerTmpl.docx)
 
 ![docxtpl_customer_template_0](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_customer_template_0.png)
-While running this script, create folder named ```ouput``` in the same folder as the script file.
-
-## Code 
+## Program 
 ```python
 from docxtpl import DocxTemplate
 import datetime as dt
@@ -81,106 +79,10 @@ for cItr, cObj in enumerate(customerObjects):
 
 print("execution complete...")
 ```
+* In the above example
+* While running this script, create folder named ```ouput``` in the same folder as the script file.
+* 
 
-### Creating multiple files from single template
-* In this example, we are populating  data into a template word file multiple times for each person name to create an invitation file for each person name.
-```python
-from docxtpl import DocxTemplate, InlineImage
-import datetime as dt
-from docx2pdf import convert
-
-# template word file path
-tmplPath = "inviteTmpl.docx"
-
-personNames = ["Aakav", "Aakesh", "Aarav",
-               "Advik", "Chaitanya", "Chandran", "Darsh"]
-
-# run for each person in a for loop
-for pItr, p in enumerate(personNames):
-    # create a document object
-    doc = DocxTemplate(tmplPath)
-
-    # create context dictionary
-    context = {
-        "todayStr": dt.datetime.now().strftime("%d-%b-%Y"),
-        "recipientName": p,
-        "evntDtStr": "21-Oct-2021",
-        "venueStr": "the beach",
-        "senderName": "Sanket",
-    }
-
-    # inject image into the context
-    bannerImgPath = 'images/party_banner_{0}.png'.format(pItr % 3)
-    imgObj = InlineImage(doc, bannerImgPath)
-    context['bannerImg'] = imgObj
-
-    # render context into the document object
-    doc.render(context)
-
-    # save the document object as a word file
-    resultFilePath = 'invites/invitation_{0}.docx'.format(pItr)
-    doc.save(resultFilePath)
-
-    # convert the word file into pdf
-    convert(resultFilePath, resultFilePath.replace('.docx', '.pdf'))
-
-print("execution complete...")
-``` 
-
-### Render a list of items using "for" loop in docxtpl templates
-for loop can be used by with tables in word file templates as shown below
-![docxtpl_for_loop_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_for_loop_demo.png)
-### Reports Automation example
-* In this example we will create a sales report based on a word template
-* An bar chart image file is created at the location ```images/trendImg.png``` using matplotlib plotting library and the image is rendered in the report using ```InlineImage``` Object
-
-![docxtpl_reports_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_reports_demo.png)
-```python
-import datetime as dt
-import random
-from docx2pdf import convert
-import matplotlib.pyplot as plt
-from docxtpl import DocxTemplate, InlineImage
-
-# create a document object
-doc = DocxTemplate("reportTmpl.docx")
-
-# create data for reports
-salesTblRows = []
-for k in range(10):
-    costPu = random.randint(1, 15)
-    nUnits = random.randint(100, 500)
-    salesTblRows.append({"sNo": k+1, "name": "Item "+str(k+1),
-                         "cPu": costPu, "nUnits": nUnits, "revenue": costPu*nUnits})
-
-topItems = [x["name"] for x in sorted(salesTblRows, key=lambda x: x["revenue"], reverse=True)][0:3]
-
-todayStr = dt.datetime.now().strftime("%d-%b-%Y")
-
-# create context to pass data to template
-context = {
-    "reportDtStr": todayStr,
-    "salesTblRows": salesTblRows,
-    "topItemsRows": topItems
-}
-
-# inject image into the context
-fig, ax = plt.subplots()
-ax.bar([x["name"] for x in salesTblRows], [x["revenue"] for x in salesTblRows])
-fig.tight_layout()
-fig.savefig("images/trendImg.png")
-context['trendImg'] = InlineImage(doc, 'images/trendImg.png')
-
-# render context into the document object
-doc.render(context)
-
-# save the document object as a word file
-reportWordPath = 'reports/report_{0}.docx'.format(todayStr)
-doc.save(reportWordPath)
-
-# convert the word file as pdf file
-convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
-```
 
 ### Video
 Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
@@ -198,6 +100,6 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzY1ODc3OCwyOTE5MzIxOTMsOTMxNT
-Y3ODBdfQ==
+eyJoaXN0b3J5IjpbMTM3MzAyMzMyLDI5MTkzMjE5Myw5MzE1Nj
+c4MF19
 -->
