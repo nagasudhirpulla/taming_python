@@ -90,6 +90,10 @@ print("execution complete...")
 ### Output
 As shown in the below image, a word and pdf file is generated for each customer address and check mark is set for the report address
 ![docxtpl_example_output_0](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_example_output_0.png)
+### Video
+Video for this post can be found [here](https://youtu.be/KV6iHKhJDdM)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KV6iHKhJDdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
 * Official documentation - https://docxtpl.readthedocs.io/en/latest/
@@ -103,7 +107,7 @@ As shown in the below image, a word and pdf file is generated for each customer 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk0ODEwMDYxLC0xMDc5MzA3MzUzLC0xNT
-c5ODI1MzQzLC0xODM5MTM1NjY0LDM2NTU4NDY5MCwyOTE5MzIx
-OTMsOTMxNTY3ODBdfQ==
+eyJoaXN0b3J5IjpbLTYzMTg0NTY4Miw3OTQ4MTAwNjEsLTEwNz
+kzMDczNTMsLTE1Nzk4MjUzNDMsLTE4MzkxMzU2NjQsMzY1NTg0
+NjkwLDI5MTkzMjE5Myw5MzE1Njc4MF19
 -->
