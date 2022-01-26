@@ -35,21 +35,13 @@ import random
 customerObjects = [{
     "name": "Customer 1 Name",
     "addressList": [
-        ["Address 1 Flat No.",
-         "Address 1 Street",
-         "Address 1 City, Pin code"],
-        ["Address 2 Flat No.",
-         "Address 2 Street",
-         "Address 2 City, Pin code"],
+        ["Address 1 Flat No.", "Address 1 Street", "Address 1 City, Pin code"],
+        ["Address 2 Flat No.", "Address 2 Street", "Address 2 City, Pin code"],
     ]},
     {"name": "Customer 2 Name",
      "addressList": [
-         ["Address 3 Flat No.",
-          "Address 3 Street",
-          "Address 3 City, Pin code"],
-         ["Address 4 Flat No.",
-          "Address 4 Street",
-          "Address 4 City, Pin code"],
+         ["Address 3 Flat No.", "Address 3 Street", "Address 3 City, Pin code"],
+         ["Address 4 Flat No.", "Address 4 Street", "Address 4 City, Pin code"],
      ]}
 ]
 
@@ -206,6 +198,6 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTA5MzQxNiwyOTE5MzIxOTMsOTMxNT
+eyJoaXN0b3J5IjpbMTEyMzY1ODc3OCwyOTE5MzIxOTMsOTMxNT
 Y3ODBdfQ==
 -->
