@@ -21,6 +21,7 @@ In this blog post we will create an automated report for each customer address a
 
 ### Template word file
 The following template word file is used in this blog post can be downloaded here - [customerTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/customerTmpl.docx)
+
 ![docxtpl_customer_template_0](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_customer_template_0.png)
 
 While running this script, create folder named ```ouput``` in the same folder as the script file.
@@ -181,6 +182,6 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NzE2MzExNywyOTE5MzIxOTMsOTMxNT
-Y3ODBdfQ==
+eyJoaXN0b3J5IjpbOTU3ODkzMjg1LDI5MTkzMjE5Myw5MzE1Nj
+c4MF19
 -->
