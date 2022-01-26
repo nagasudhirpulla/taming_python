@@ -85,7 +85,7 @@ print("execution complete...")
 * A jinja2 `for` loop in the template word file table is used to render list of customer addresses from the context object
 * We used `loop.index0` inside the jinja2 `for` loop to determine the zero-indexed loop iterator while rendering each address in the table row 
 * To display check mark icon only for the target report address among all the customer addresses, we have used a jinja2 `if` conditional statement that checks if the index of the rendered customer address is equal to the target address index
-* Each line of the address is rendered as a word table row using jinja2 `for` loop.
+* Each line of the address is rendered as a word table row using jinja2 `for` loop. Hence we are using a for loop inside a for loop
 
 
 ### Video
@@ -104,6 +104,6 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4OTcxNjQ4LC0xODM5MTM1NjY0LDM2NT
-U4NDY5MCwyOTE5MzIxOTMsOTMxNTY3ODBdfQ==
+eyJoaXN0b3J5IjpbMTk3MzIzMjE1NSwtMTgzOTEzNTY2NCwzNj
+U1ODQ2OTAsMjkxOTMyMTkzLDkzMTU2NzgwXX0=
 -->
