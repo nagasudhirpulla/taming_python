@@ -17,8 +17,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Please see the previous blogpost [here](https://nagasudhir.blogspot.com/2021/10/docxtpl-python-library-for-creating.html) for introduction and in depth use cases of docxtpl for report automation
 
 The following files are used in this blog post
-* Template word files - [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx), [reportTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/reportTmpl.docx)
-* images - [party_banner_0.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_0.png), [party_banner_1.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_1.png), [party_banner_2.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/party_banner_2.png)
+* Template word file - [reportTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/reportTmpl.docx)
 
 While running this scripts, create folders named ```images```, ```invites``` and ```reports```. Download the images and move them into the images folder placed in the same folder as the script file.
 
@@ -178,5 +177,5 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTIyMDU2Ml19
+eyJoaXN0b3J5IjpbOTg1NzU4NjA3XX0=
 -->
