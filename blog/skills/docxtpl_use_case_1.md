@@ -22,7 +22,7 @@ In this blog post we will create an automated report for each customer address a
 The following files are used in this blog post
 * Template word file - [customerTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/customerTmpl.docx)
 
-While running this scripts, create folder named ```ouput``` in the same folder as the script file.
+While running this script, create folder named ```ouput``` in the same folder as the script file.
 
 ### Placeholder for variable in word file
 If can render a variable named ```xyz``` by writing ```{{ xyz }}``` in the template word file. The variable can be text or image.
@@ -180,5 +180,5 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxNTY3ODBdfQ==
+eyJoaXN0b3J5IjpbMjkxOTMyMTkzLDkzMTU2NzgwXX0=
 -->
