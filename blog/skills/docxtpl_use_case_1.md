@@ -89,6 +89,7 @@ print("execution complete...")
 
 ### References
 * Official documentation - https://docxtpl.readthedocs.io/en/latest/
+* Previous blog post - https://nagasudhir.blogspot.com/2021/10/docxtpl-python-library-for-creating.html
 
 <hr/>
 
@@ -98,6 +99,6 @@ print("execution complete...")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NjYwNDY5MiwtMTgzOTEzNTY2NCwzNj
-U1ODQ2OTAsMjkxOTMyMTkzLDkzMTU2NzgwXX0=
+eyJoaXN0b3J5IjpbLTE1Nzk4MjUzNDMsLTE4MzkxMzU2NjQsMz
+Y1NTg0NjkwLDI5MTkzMjE5Myw5MzE1Njc4MF19
 -->
