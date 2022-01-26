@@ -1,4 +1,4 @@
-## Skill - docxtpl automated reports conditional statements and loop index
+## Skill - Conditional statements, nested for loops and loop.index in docxtpl automated reports
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -101,6 +101,6 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgyMTY2NjcwLDI5MTkzMjE5Myw5MzE1Nj
+eyJoaXN0b3J5IjpbMzY1NTg0NjkwLDI5MTkzMjE5Myw5MzE1Nj
 c4MF19
 -->
