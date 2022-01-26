@@ -87,12 +87,6 @@ print("execution complete...")
 * To display check mark icon only for the target report address among all the customer addresses, we have used a jinja2 `if` conditional statement that checks if the index of the rendered customer address is equal to the target address index
 * Each line of the address is rendered as a word table row using jinja2 `for` loop. Hence we are using a for loop inside a for loop.
 
-
-### Video
-Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZAVHbDB5yBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### References
 * Official documentation - https://docxtpl.readthedocs.io/en/latest/
 
@@ -104,6 +98,6 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc2NjEyNjMsLTE4MzkxMzU2NjQsMzY1NT
-g0NjkwLDI5MTkzMjE5Myw5MzE1Njc4MF19
+eyJoaXN0b3J5IjpbMjA4NjYwNDY5MiwtMTgzOTEzNTY2NCwzNj
+U1ODQ2OTAsMjkxOTMyMTkzLDkzMTU2NzgwXX0=
 -->
