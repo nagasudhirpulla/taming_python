@@ -23,47 +23,71 @@ In this blog post we will create an automated report for each customer address a
 The following template word file is used in this blog post can be downloaded here - [customerTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/customerTmpl.docx)
 
 ![docxtpl_customer_template_0](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_customer_template_0.png)
-
 While running this script, create folder named ```ouput``` in the same folder as the script file.
 
-### Placeholder for variable in word file
-If can render a variable named ```xyz``` by writing ```{{ xyz }}``` in the template word file. The variable can be text or image.
-
-### Basic Example
-* This is a simple example using ```docxtpl``` for populating words and images into a birthday invitation template word file. 
-* We are using the ```DocxTemplate``` and ```InlineImage``` classes.
-* Output should be created as a files named ```invitation.docx``` and ```invitation.pdf```.
-* We are using the ```convert``` function from ```docx2pdf``` library for converting word file to pdf file.
-
-![docxtpl_invitation_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_invitation_demo.png)
+## Code 
 ```python
-from docxtpl import DocxTemplate, InlineImage
+from docxtpl import DocxTemplate
 import datetime as dt
 from docx2pdf import convert
+import random
 
-# create a document object
-doc = DocxTemplate("inviteTmpl.docx")
+customerObjects = [{
+    "name": "Customer 1 Name",
+    "addressList": [
+        ["Address 1 Flat No.",
+         "Address 1 Street",
+         "Address 1 City, Pin code"],
+        ["Address 2 Flat No.",
+         "Address 2 Street",
+         "Address 2 City, Pin code"],
+    ]},
+    {"name": "Customer 2 Name",
+     "addressList": [
+         ["Address 3 Flat No.",
+          "Address 3 Street",
+          "Address 3 City, Pin code"],
+         ["Address 4 Flat No.",
+          "Address 4 Street",
+          "Address 4 City, Pin code"],
+     ]}
+]
 
-# create context dictionary
-context = {
-    "todayStr": dt.datetime.now().strftime("%d-%b-%Y"),
-    "recipientName": "Chaitanya",
-    "evntDtStr": "21-Oct-2021",
-    "venueStr": "the beach",
-    "senderName": "Sanket",
-}
+# template word file path
+tmplPath = "customerTmpl.docx"
 
-# inject image into the context
-context['bannerImg'] = InlineImage(doc, 'images/party_banner_0.png')
+# run for each customer in a for loop
+for cItr, cObj in enumerate(customerObjects):
+    # get customer score
+    cScore = random.randint(10, 90)
+    # create report for each customer address in a for loop
+    for addrItr in range(len(cObj["addressList"])):
+        # create context dictionary
+        context = {
+            "todayStr": dt.datetime.now().strftime("%d-%b-%Y"),
+            "recipientName": cObj['name'],
+            "addressList": cObj['addressList'],
+            "activeAddrInd": addrItr,
+            "score": cScore
+        }
 
-# render context into the document object
-doc.render(context)
+        # create a document object
+        doc = DocxTemplate(tmplPath)
 
-# save the document object as a word file
-doc.save('invitation.docx')
+        # render context into the document object
+        doc.render(context)
 
-# convert word file to a pdf file
-convert('invitation.docx', 'invitation.pdf')
+        # save the document object as a word file
+        resultFilePath = 'output/report_{0}_{1}.docx'.format(cItr, addrItr)
+        doc.save(resultFilePath)
+
+        # convert the word file into pdf
+        pdfFilePath = resultFilePath.replace('.docx', '.pdf')
+        convert(resultFilePath, pdfFilePath)
+
+        # send the pdf file as email if required
+
+print("execution complete...")
 ```
 
 ### Creating multiple files from single template
@@ -182,6 +206,6 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3ODkzMjg1LDI5MTkzMjE5Myw5MzE1Nj
-c4MF19
+eyJoaXN0b3J5IjpbMTE0MTA5MzQxNiwyOTE5MzIxOTMsOTMxNT
+Y3ODBdfQ==
 -->
