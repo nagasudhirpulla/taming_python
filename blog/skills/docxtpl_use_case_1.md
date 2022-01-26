@@ -19,7 +19,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ## Problem description
 In this blog post we will create an automated report for each customer address and each customer address will also display his other addresses and tick mark will be displayed against the address for which the report is generated   
 
-The following files are used in this blog post
+The following template word file is used in this blog post
 * Template word file - [customerTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/customerTmpl.docx)
 
 While running this script, create folder named ```ouput``` in the same folder as the script file.
@@ -180,5 +180,6 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxOTMyMTkzLDkzMTU2NzgwXX0=
+eyJoaXN0b3J5IjpbLTE0ODA1NzgwMjgsMjkxOTMyMTkzLDkzMT
+U2NzgwXX0=
 -->
