@@ -14,8 +14,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 
 * **docxtpl** is a python library for populating data into word file templates.
-* Please see the previous blogpost [here](https://nagasudhir.blogspot.com/2021/10/docxtpl-python-library-for-creating.html) for introduction and in-depth use cases of docxtpl for report automation
-* 
+* Please see the previous blog post [here](https://nagasudhir.blogspot.com/2021/10/docxtpl-python-library-for-creating.html) for introduction and in-depth use cases of docxtpl for report automation
+
+## Problem description
+In this blog post we will create a report for each customer 
 
 The following files are used in this blog post
 * Template word file - [reportTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/reportTmpl.docx)
@@ -178,5 +180,5 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNDcwMzI0NV19
+eyJoaXN0b3J5IjpbMTcxMjQxMjM4Ml19
 -->
