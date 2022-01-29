@@ -163,7 +163,7 @@ try:
     #                             ['abc', dt.datetime(2020, 10, 12), 9724]])
     
     # read dataframe from excel
-    dataDf = pd.read_excel("data.xlsx")
+    dataDf = pd.read_excel("cx_oracle_insert_data.xlsx")
     # print(dataDf.columns)
     
     # reorder the columns as per the requirement
@@ -375,7 +375,7 @@ You can see the video on this post [here](https://youtu.be/rhwPfc8NdcQ)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDE3MjM0MiwyMjExMzU1NzQsODYzND
+eyJoaXN0b3J5IjpbLTIwNzc2ODMzNywyMjExMzU1NzQsODYzND
 E0OTM0LDQ3NTk4NTIzNywtMzU3MTc4NzA3LC0xNzQwNzA2Nzg1
 LDEzNzY5MDQ2NjcsMTgyNjE0MjM3NywtMzQ5OTU2NDM3LDg3Mj
 kyODg4OCwxMjgyOTE3NDM1LC05NDY0Njg5MzMsLTE4NTc5MTE5
