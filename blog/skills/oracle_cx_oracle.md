@@ -138,7 +138,7 @@ print("data insert example execution complete!")
 -   The `conn.commit()` function is committing all the uncommitted database changes made by the cursor object by executing SQL commands. Without calling this function, the database changes made by the cursor object will not be permanent. Hence do not forget to call `conn.commit` after executing a database modification command like INSERT, DELETE, UPDATE.
 
 ## Insert dataframe example
-
+The excel file used in this example can be downloaded from [here]()
 ```python
 import cx_Oracle
 import datetime as dt
@@ -375,9 +375,9 @@ You can see the video on this post [here](https://youtu.be/rhwPfc8NdcQ)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjA3MzY3LDIyMTEzNTU3NCw4NjM0MT
-Q5MzQsNDc1OTg1MjM3LC0zNTcxNzg3MDcsLTE3NDA3MDY3ODUs
-MTM3NjkwNDY2NywxODI2MTQyMzc3LC0zNDk5NTY0MzcsODcyOT
-I4ODg4LDEyODI5MTc0MzUsLTk0NjQ2ODkzMywtMTg1NzkxMTkw
-NSwtMTE5ODM2NDUzNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTY4MDE3MjM0MiwyMjExMzU1NzQsODYzND
+E0OTM0LDQ3NTk4NTIzNywtMzU3MTc4NzA3LC0xNzQwNzA2Nzg1
+LDEzNzY5MDQ2NjcsMTgyNjE0MjM3NywtMzQ5OTU2NDM3LDg3Mj
+kyODg4OCwxMjgyOTE3NDM1LC05NDY0Njg5MzMsLTE4NTc5MTE5
+MDUsLTExOTgzNjQ1MzUsLTIwODg3NDY2MTJdfQ==
 -->
