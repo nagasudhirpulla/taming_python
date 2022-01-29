@@ -363,9 +363,11 @@ finally:
 print("data delete example execution complete!")
 ```
 ### Video
-You can see the video on this post [here](https://youtu.be/rhwPfc8NdcQ)
+You can see the video on this post [here](https://youtu.be/rhwPfc8NdcQ) and [here](https://youtu.be/5lpk1b3SJP0)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rhwPfc8NdcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5lpk1b3SJP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
 * Official cx_Oracle quickstart guide - https://www.oracle.com/database/technologies/appdev/python/quickstartpythononprem.html
@@ -375,9 +377,10 @@ You can see the video on this post [here](https://youtu.be/rhwPfc8NdcQ)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxODM4ODI5LDIyMTEzNTU3NCw4NjM0MT
-Q5MzQsNDc1OTg1MjM3LC0zNTcxNzg3MDcsLTE3NDA3MDY3ODUs
-MTM3NjkwNDY2NywxODI2MTQyMzc3LC0zNDk5NTY0MzcsODcyOT
-I4ODg4LDEyODI5MTc0MzUsLTk0NjQ2ODkzMywtMTg1NzkxMTkw
-NSwtMTE5ODM2NDUzNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjIxOTIzNzkwLDg0MTgzODgyOSwyMjExMz
+U1NzQsODYzNDE0OTM0LDQ3NTk4NTIzNywtMzU3MTc4NzA3LC0x
+NzQwNzA2Nzg1LDEzNzY5MDQ2NjcsMTgyNjE0MjM3NywtMzQ5OT
+U2NDM3LDg3MjkyODg4OCwxMjgyOTE3NDM1LC05NDY0Njg5MzMs
+LTE4NTc5MTE5MDUsLTExOTgzNjQ1MzUsLTIwODg3NDY2MTJdfQ
+==
 -->
