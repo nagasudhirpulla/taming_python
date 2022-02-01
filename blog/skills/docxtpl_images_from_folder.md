@@ -73,7 +73,8 @@ convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 * We have used the `glob` module to iterate over all the file names in a folder location containing images and created an `InlineImage` object from each image file path.
 * All the InlineImage objects are populated as in an object list variable named `imagesObjs`
 * A simple context object is created with the sales table rows and images in it. This context object is rendered in the word template
-* Since we are renderig
+* Since we are rendering a list of images, we need to use a jinja2 `for` loop inside a table to render the list of images in the word file template.
+* To make the table look like a list, we hav e
 
 ### Output
 As shown in the below image, a word and pdf file is generated for each customer address and check mark is set for the report address
@@ -95,5 +96,5 @@ Video for this post can be found [here](https://youtu.be/KV6iHKhJDdM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTQ0NjAxNCwtMTQ2MjA4MjIxM119
+eyJoaXN0b3J5IjpbMzQ4ODQzOTQ1LC0xNDYyMDgyMjEzXX0=
 -->
