@@ -24,7 +24,7 @@ The template word file used in this blog post can be downloaded here - [reportTm
 
 ![docxtpl_images_list_template_0](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_images_list_template_0.png)
 ## Code 
-* This code 
+* Create a folder named `images` and place the images in that 
 ```python
 import datetime as dt
 import random
@@ -94,7 +94,7 @@ As shown in the below image, a word and pdf file is generated for each customer 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTQ1OTc0MCw2NjI3NDc0MDYsLTE3Mz
+eyJoaXN0b3J5IjpbMTA4NTU3ODgxOCw2NjI3NDc0MDYsLTE3Mz
 M4MDM5MDMsLTE3MTA1MTU4OTYsLTE1OTAyODk5ODEsLTE0NjIw
 ODIyMTNdfQ==
 -->
