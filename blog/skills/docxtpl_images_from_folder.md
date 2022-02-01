@@ -68,13 +68,8 @@ doc.save(reportWordPath)
 # convert the word file as pdf file
 convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 ```
-* In the above example, we have defined customers as objects and each object has customer name, customer addresses list as it's members
-* In order to generate a report for each customer address, first we iterate through each customer and in turn iterate through each customer address to render a word and pdf file in the output folder
-* While running this script, create folder named ```ouput``` in the same folder as the script file.
-* A jinja2 `for` loop in the template word file table is used to render list of customer addresses from the context object
-* We used `loop.index0` inside the jinja2 `for` loop to determine the zero-indexed loop iterator while rendering each address in the table row 
-* To display check mark icon only for the target report address among all the customer addresses, we have used a jinja2 `if` conditional statement that checks if the index of the rendered customer address is equal to the target address index
-* Each line of the address is rendered as a word table row using jinja2 `for` loop. Hence we are using a for loop inside a for loop.
+
+* In the above example, we have first populated a list of python objects in a variable called `salesTblRows`. This 
 
 ### Output
 As shown in the below image, a word and pdf file is generated for each customer address and check mark is set for the report address
@@ -96,6 +91,5 @@ Video for this post can be found [here](https://youtu.be/KV6iHKhJDdM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODU2OTY2ODgsLTE0NjIwODIyMTNdfQ
-==
+eyJoaXN0b3J5IjpbNzczODc3MTE3LC0xNDYyMDgyMjEzXX0=
 -->
