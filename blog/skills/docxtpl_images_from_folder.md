@@ -22,7 +22,7 @@ In this blog post we will render all the images present in a folder in a word fi
 ### Template word file
 The following template word file is used in this blog post can be downloaded here - [reportTmplWithImages.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/reportTmplWithImages.docx)
 
-![docxtpl_customer_template_0](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_customer_template_0.png)
+![docxtpl_images_list_template_0](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_images_list_template_0.png)
 ## Code 
 ```python
 from docxtpl import DocxTemplate
@@ -107,5 +107,5 @@ Video for this post can be found [here](https://youtu.be/KV6iHKhJDdM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3MzYwODEwXX0=
+eyJoaXN0b3J5IjpbLTE4MDM0NzcwMjhdfQ==
 -->
