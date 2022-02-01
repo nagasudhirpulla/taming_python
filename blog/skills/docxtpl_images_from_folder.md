@@ -76,7 +76,7 @@ convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 * Since we are rendering a list of images, we need to use a jinja2 `for` loop inside a table to render the list of images in the word file template.
 * To make the table look like a list, we have removed the borders of the table in the word file.
 * If the images are wider than the word file page width (A4 size page width is 8.3 inches), they will rendered as cropped images, which is not desirable. To mitigate this, we have specified the `width=Inches(6)` input to the `InlineImage` constructor to resize the image to have a width of 6 inches.
-* 
+* Specifying the image width more than the original image can result in images rendering with bad good pixel density
 
 ### Output
 As shown in the below image, a word and pdf file is generated for each customer address and check mark is set for the report address
@@ -98,6 +98,6 @@ Video for this post can be found [here](https://youtu.be/KV6iHKhJDdM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTgxNzA3MywtMTcxMDUxNTg5NiwtMT
-U5MDI4OTk4MSwtMTQ2MjA4MjIxM119
+eyJoaXN0b3J5IjpbLTE3MzM4MDM5MDMsLTE3MTA1MTU4OTYsLT
+E1OTAyODk5ODEsLTE0NjIwODIyMTNdfQ==
 -->
