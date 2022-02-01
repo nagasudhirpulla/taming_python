@@ -40,7 +40,7 @@ salesTblRows = []
 for k in range(10):
     costPu = random.randint(1, 15)
     nUnits = random.randint(100, 500)
-    salesTblRows.append({"sNo": k+1, "name": "Item "+str(k+1),
+    salesTblRows.append({"name": "Item "+str(k+1),
                          "cPu": costPu, "nUnits": nUnits, "revenue": costPu*nUnits})
 
 # get today's date as a string
@@ -96,5 +96,6 @@ Video for this post can be found [here](https://youtu.be/KV6iHKhJDdM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjIwODIyMTNdfQ==
+eyJoaXN0b3J5IjpbLTEzODU2OTY2ODgsLTE0NjIwODIyMTNdfQ
+==
 -->
