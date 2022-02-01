@@ -78,7 +78,7 @@ convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 
 ### Output
 As shown in the below image, a word and pdf file is generated for each customer address and check mark is set for the report address
-![docxtpl_example_output_0](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_example_output_0.png)
+![docxtpl_images_list_output_0](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_images_list_output_0.png)
 ### Video
 Video for this post can be found [here](https://youtu.be/KV6iHKhJDdM)
 
@@ -96,6 +96,6 @@ Video for this post can be found [here](https://youtu.be/KV6iHKhJDdM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTAyODk5ODEsLTE0NjIwODIyMTNdfQ
-==
+eyJoaXN0b3J5IjpbLTgxMjkzNjkyNSwtMTU5MDI4OTk4MSwtMT
+Q2MjA4MjIxM119
 -->
