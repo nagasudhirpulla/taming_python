@@ -17,7 +17,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Please see the previous blog post [here](https://nagasudhir.blogspot.com/2021/10/docxtpl-python-library-for-creating.html) for introduction and in-depth use cases of docxtpl for report automation
 
 ## Problem description
-In this blog post we will render all the images present in a folder in a word file template using python docxtpl    
+In this blog post we will render all the images present in a folder in a word file template using python docxtpl
 
 ### Template word file
 The following template word file is used in this blog post can be downloaded here - [reportTmplWithImages.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/reportTmplWithImages.docx)
@@ -25,59 +25,48 @@ The following template word file is used in this blog post can be downloaded her
 ![docxtpl_images_list_template_0](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_images_list_template_0.png)
 ## Code 
 ```python
-from docxtpl import DocxTemplate
 import datetime as dt
-from docx2pdf import convert
 import random
+from docx2pdf import convert
+import glob
+from docxtpl import DocxTemplate, InlineImage
+from docx.shared import Inches
 
-customerObjects = [{
-    "name": "Customer 1 Name",
-    "addressList": [
-        ["Address 1 Flat No.", "Address 1 Street", "Address 1 City, Pin code"],
-        ["Address 2 Flat No.", "Address 2 Street", "Address 2 City, Pin code"],
-    ]},
-    {"name": "Customer 2 Name",
-     "addressList": [
-         ["Address 3 Flat No.", "Address 3 Street", "Address 3 City, Pin code"],
-         ["Address 4 Flat No.", "Address 4 Street", "Address 4 City, Pin code"],
-     ]}
-]
+# create a document object
+doc = DocxTemplate("reportTmplWithImages.docx")
 
-# template word file path
-tmplPath = "customerTmpl.docx"
+# populate sales table rows with each row data as a python object
+salesTblRows = []
+for k in range(10):
+    costPu = random.randint(1, 15)
+    nUnits = random.randint(100, 500)
+    salesTblRows.append({"sNo": k+1, "name": "Item "+str(k+1),
+                         "cPu": costPu, "nUnits": nUnits, "revenue": costPu*nUnits})
 
-# run for each customer in a for loop
-for cItr, cObj in enumerate(customerObjects):
-    # get customer score
-    cScore = random.randint(10, 90)
-    # create report for each customer address in a for loop
-    for addrItr in range(len(cObj["addressList"])):
-        # create context dictionary
-        context = {
-            "todayStr": dt.datetime.now().strftime("%d-%b-%Y"),
-            "recipientName": cObj['name'],
-            "addressList": cObj['addressList'],
-            "activeAddrInd": addrItr,
-            "score": cScore
-        }
+# get today's date as a string
+todayStr = dt.datetime.now().strftime("%d-%b-%Y")
 
-        # create a document object
-        doc = DocxTemplate(tmplPath)
+# populate list of images with each list item as a docxtpl image object
+imagesObjs = []
+for fPath in glob.glob("images/*"):
+    imagesObjs.append(InlineImage(doc, fPath, width=Inches(6)))
 
-        # render context into the document object
-        doc.render(context)
+# create context to pass data to template
+context = {
+    "reportDtStr": todayStr,
+    "salesTblRows": salesTblRows,
+    "images": imagesObjs
+}
 
-        # save the document object as a word file
-        resultFilePath = 'output/report_{0}_{1}.docx'.format(cItr, addrItr)
-        doc.save(resultFilePath)
+# render context into the document object
+doc.render(context)
 
-        # convert the word file into pdf
-        pdfFilePath = resultFilePath.replace('.docx', '.pdf')
-        convert(resultFilePath, pdfFilePath)
+# save the document object as a word file
+reportWordPath = 'reports/report_{0}.docx'.format(todayStr)
+doc.save(reportWordPath)
 
-        # send the pdf file as email if required
-
-print("execution complete...")
+# convert the word file as pdf file
+convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 ```
 * In the above example, we have defined customers as objects and each object has customer name, customer addresses list as it's members
 * In order to generate a report for each customer address, first we iterate through each customer and in turn iterate through each customer address to render a word and pdf file in the output folder
@@ -107,5 +96,5 @@ Video for this post can be found [here](https://youtu.be/KV6iHKhJDdM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDM0NzcwMjhdfQ==
+eyJoaXN0b3J5IjpbLTE0NjIwODIyMTNdfQ==
 -->
