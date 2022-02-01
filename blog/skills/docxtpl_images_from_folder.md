@@ -71,7 +71,9 @@ convert(reportWordPath, reportWordPath.replace(".docx", ".pdf"))
 
 * In the above example, we have first populated a list of python objects in a variable called `salesTblRows`. This list is used to fill the sales data table in the report template word file.
 * We have used the `glob` module to iterate over all the file names in a folder location containing images and created an `InlineImage` object from each image file path.
-* All the InlineImage objects are populated as in a v
+* All the InlineImage objects are populated as in an object list variable named `imagesObjs`
+* A simple context object is created with the sales table rows and images in it. This context object is rendered in the word template
+* Since we are renderig
 
 ### Output
 As shown in the below image, a word and pdf file is generated for each customer address and check mark is set for the report address
@@ -93,6 +95,5 @@ Video for this post can be found [here](https://youtu.be/KV6iHKhJDdM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODU5OTc4MjEsLTE0NjIwODIyMTNdfQ
-==
+eyJoaXN0b3J5IjpbMTk3OTQ0NjAxNCwtMTQ2MjA4MjIxM119
 -->
