@@ -20,10 +20,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 In this blog post we will render all the images present in a folder in a word file template using python docxtpl
 
 ### Template word file
-The following template word file is used in this blog post can be downloaded here - [reportTmplWithImages.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/reportTmplWithImages.docx)
+The template word file used in this blog post can be downloaded here - [reportTmplWithImages.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/reportTmplWithImages.docx)
 
 ![docxtpl_images_list_template_0](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_images_list_template_0.png)
 ## Code 
+* This code 
 ```python
 import datetime as dt
 import random
@@ -93,6 +94,7 @@ As shown in the below image, a word and pdf file is generated for each customer 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyNzQ3NDA2LC0xNzMzODAzOTAzLC0xNz
-EwNTE1ODk2LC0xNTkwMjg5OTgxLC0xNDYyMDgyMjEzXX0=
+eyJoaXN0b3J5IjpbLTMxNTQ1OTc0MCw2NjI3NDc0MDYsLTE3Mz
+M4MDM5MDMsLTE3MTA1MTU4OTYsLTE1OTAyODk5ODEsLTE0NjIw
+ODIyMTNdfQ==
 -->
