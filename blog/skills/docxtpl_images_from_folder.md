@@ -20,7 +20,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 In this blog post we will render all the images present in a folder in a word file template using python docxtpl    
 
 ### Template word file
-The following template word file is used in this blog post can be downloaded here - [customerTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/[reportTmplWithImages.](https://github.com/nagasudhirpulla/taming_python/commit/e6caf6f9b3492c0d4a855c165982e8b7f0bc922a#diff-55ea68c55cbe9bb1e6eeebd481c131e7fce5de65afc3646102586a34e60033a1 "blog/skills/assets/data/reportTmplWithImages.docx")docx)
+The following template word file is used in this blog post can be downloaded here - [reportTmplWithImages.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/reportTmplWithImages.docx)
 
 ![docxtpl_customer_template_0](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/docxtpl_customer_template_0.png)
 ## Code 
@@ -107,5 +107,5 @@ Video for this post can be found [here](https://youtu.be/KV6iHKhJDdM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTIwMzMyMV19
+eyJoaXN0b3J5IjpbOTc3MzYwODEwXX0=
 -->
