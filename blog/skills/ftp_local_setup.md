@@ -39,16 +39,10 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 * Click login
 * Now FTP server is connected to WinSCP
 * We can copy,paste,rename,delete the ftp server files just like file explorer
-
-### Video
-The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QvW1TBpimcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
 ### References
-* DBeaver download - https://dbeaver.io/download/
-* DBeaver site - https://dbeaver.io
-* Installing a new JDBC database driver in DBeaver - https://dbeaver.com/docs/wiki/Database-drivers/
+* Filezilla server - https://filezilla-project.org/download.php?type=server
+* WinSCP - https://winscp.net/eng/download.php
 
 <hr/>
 
@@ -58,6 +52,6 @@ The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzIxNzYyMDQsOTk0NDk3OTI5LC0yMj
-gwODAxOTYsMzU3MTc2OTMwXX0=
+eyJoaXN0b3J5IjpbLTQ4NDQ1NDc3NSwtMTczMjE3NjIwNCw5OT
+Q0OTc5MjksLTIyODA4MDE5NiwzNTcxNzY5MzBdfQ==
 -->
