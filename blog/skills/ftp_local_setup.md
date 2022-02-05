@@ -12,7 +12,8 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 * Under the "Internet Information Services" section, make sure that "FTP Service" and "IIS Management Console" are enabled
 
 ### Create an FTP site in IIS
-* Under the "SItes" section, exo
+* Right click on "Sites" and click "Add FTP site"
+* 
 
 
 ## Installing DBeaver plugins without internet
@@ -55,6 +56,6 @@ The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjc4NTg1MywtMjI4MDgwMTk2LDM1Nz
+eyJoaXN0b3J5IjpbLTcyODUxMzE0NywtMjI4MDgwMTk2LDM1Nz
 E3NjkzMF19
 -->
