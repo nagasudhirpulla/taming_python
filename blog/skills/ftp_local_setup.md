@@ -40,8 +40,8 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 * Run the downloaded executable file and complete the installation
 * Open WinSCP app
 * Click on New Session button in the top left menu
-* Set protocal as FTP, encryption as TLS/SSL explicit encryption if the FTP server uses encryption or select No encryption, port as 21, hostname as localhost, enter username and password
-* Click login
+* Set protocal as FTP, encryption as TLS/SSL explicit encryption if the FTP server uses encryption or select No encryption, port as 21, hostname as localhost, enter username and password. Finally click login
+![winscp_connect_ftp](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/winscp_connect_ftp.PNG)
 * Now FTP server is connected to WinSCP
 * We can copy,paste,rename,delete the ftp server files just like file explorer
  
@@ -58,6 +58,6 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI5NDY1NSwtMTczMjE3NjIwNCw5OT
-Q0OTc5MjksLTIyODA4MDE5NiwzNTcxNzY5MzBdfQ==
+eyJoaXN0b3J5IjpbNjg5MDU2ODk0LC0xNzMyMTc2MjA0LDk5ND
+Q5NzkyOSwtMjI4MDgwMTk2LDM1NzE3NjkzMF19
 -->
