@@ -44,6 +44,7 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 ![winscp_connect_ftp](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/winscp_connect_ftp.PNG)
 * Now FTP server is connected to WinSCP
 * We can copy,paste,rename,delete the ftp server files just like file explorer
+![winscp_ui](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/winscp_ui.PNG)
  
 ### References
 * IIS FTP server setup - https://winscp.net/eng/docs/guide_windows_ftps_server
@@ -58,6 +59,7 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5MDU2ODk0LC0xNzMyMTc2MjA0LDk5ND
-Q5NzkyOSwtMjI4MDgwMTk2LDM1NzE3NjkzMF19
+eyJoaXN0b3J5IjpbMTkyMDA1ODU0MCw2ODkwNTY4OTQsLTE3Mz
+IxNzYyMDQsOTk0NDk3OTI5LC0yMjgwODAxOTYsMzU3MTc2OTMw
+XX0=
 -->
