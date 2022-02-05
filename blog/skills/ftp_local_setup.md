@@ -35,7 +35,7 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 * In the Users left pane section, add a user, configure the virtual and native path for that user and set read and write access permissions for that user. Example Virtual path can be "/" and example Native path can be "C:\Users\xyz\Downloads\ftpFolder"
 * Now the ftp server along with user logins is setup
 
-## Setup FTP clientin windows using WinSCP
+## Setup FTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
 * Run the downloaded executable file and complete the installation
 * Open WinSCP app
@@ -59,7 +59,7 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDU1ODM2MiwxOTIwMDU4NTQwLDY4OT
+eyJoaXN0b3J5IjpbMTkyMDA1ODU0MCwxOTIwMDU4NTQwLDY4OT
 A1Njg5NCwtMTczMjE3NjIwNCw5OTQ0OTc5MjksLTIyODA4MDE5
 NiwzNTcxNzY5MzBdfQ==
 -->
