@@ -12,6 +12,7 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 * In windows search for "Turn Windows features On or Off" 
 * Under the "Internet Information Services" section, make sure that "FTP Service" and "IIS Management Console" are enabled
 
+
 #### Step 2 - Create an FTP site in IIS
 * Right click on "Sites" and click "Add FTP site"
 * Enter a name and select the physical path to host in the FTP server and click next
@@ -53,6 +54,6 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0OTk0Nzg5LC0xNzMyMTc2MjA0LDk5ND
-Q5NzkyOSwtMjI4MDgwMTk2LDM1NzE3NjkzMF19
+eyJoaXN0b3J5IjpbLTExNjQyODcyNzcsLTE3MzIxNzYyMDQsOT
+k0NDk3OTI5LC0yMjgwODAxOTYsMzU3MTc2OTMwXX0=
 -->
