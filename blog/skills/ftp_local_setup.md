@@ -9,31 +9,11 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 ## Setup FTP server using IIS in windows server
 ### Enable IIS ftp server feature
 * In windows search for "Turn Windows features On or Off" 
-* Under the and make sure that "FTP Service" and "IIS Management Console" are enabled
+* Under the "Internet Information Services" section, make sure that "FTP Service" and "IIS Management Console" are enabled
 
-## Why use DBeaver?
-* You can manage all popular databases (MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, MS Access, Teradata, Firebird, Apache Hive, Phoenix, Presto, etc) in one single tool. No need to download separate tool for each type of database
-* The community edition of DBeaver is free
-* This is tool is cross-platform, so it can be installed in Windows, Linux, Mac
+### Create an FTP site in IIS
+* Under the "SItes" section, exo
 
-## Install DBeaver
-#### Windows
-* Download DBeaver at https://dbeaver.io/download/
-* Run the installer and complete the installation
-
-#### Ubuntu
-```bash
-sudo add-apt-repository ppa:serge-rider/dbeaver-ce
-sudo apt-get update
-sudo apt-get install dbeaver-ce
-```
-#### Other Linux Distributions
-The DBeaver download page at https://dbeaver.io/download/ has the commands and instructions required to install DBeaver in other environments also like Debian, Mac OS etc
-
-### Using DBeaver
-![dbeaver_new_connection_screen](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_new_connection_screen.png)
-* Each type of database connection requires its own plugin
-* If plugin is not present in the computer, DBeaver will prompt to install the plugins via downloading from the internet
 
 ## Installing DBeaver plugins without internet
 ### Step 1 - Download the database plugin jar files in a computer with internet  
@@ -75,6 +55,6 @@ The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU4ODk5ODEsLTIyODA4MDE5NiwzNT
-cxNzY5MzBdfQ==
+eyJoaXN0b3J5IjpbMTkyMjc4NTg1MywtMjI4MDgwMTk2LDM1Nz
+E3NjkzMF19
 -->
