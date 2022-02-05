@@ -4,7 +4,7 @@
 
 <hr/>
 
-In this post we will try to setup a local ftp server using IIS and Filezilla server and ftp client using WinSCP
+In this post we will try to setup a local ftp server using IIS or Filezilla server and ftp client using WinSCP
 
 ![DBeaver_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/DBeaver_demo.png)
 
@@ -72,5 +72,5 @@ The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjQwMzA0NF19
+eyJoaXN0b3J5IjpbODI0Mjk3ODQyXX0=
 -->
