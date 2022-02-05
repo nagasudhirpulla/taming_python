@@ -18,9 +18,12 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 * Enter a name and select the physical path to host in the FTP server and click next
 ![iis_add_ftp_site_1](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_add_ftp_site_1.PNG)
 * Select SSL certificate if required and click next
+![iis_add_ftp_site_2](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_add_ftp_site_2.PNG)
 * Select Authentication as Basic, select allow access to all users or specific users and select both read and write permissions and click finish
+![iis_add_ftp_site_3](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_add_ftp_site_3.PNG)
 * Now FTP server is setup
 * You can start/stop the ftp server by right clicking on the site in the Sites section
+![iis_add_ftp_site_4](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_add_ftp_site_4.PNG)
 * You can change setting like authentication, authorization easily by double clicking on the FTP site under the Sites section in left pane 
 
 ### Option 2 - Setup FTP server using Filezilla Server
@@ -55,6 +58,6 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NjA2Mzc0MSwtMTczMjE3NjIwNCw5OT
+eyJoaXN0b3J5IjpbLTEwMDI5NDY1NSwtMTczMjE3NjIwNCw5OT
 Q0OTc5MjksLTIyODA4MDE5NiwzNTcxNzY5MzBdfQ==
 -->
