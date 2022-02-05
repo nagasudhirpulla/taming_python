@@ -33,6 +33,8 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 ## Setup FTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
 * Run the downloaded executable file and complete the installation
+* Open WinSCP app
+* Click on New Session button in the top left menu
 * 
 
 ### Video
@@ -53,6 +55,6 @@ The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY5ODUzODAsOTk0NDk3OTI5LC0yMj
-gwODAxOTYsMzU3MTc2OTMwXX0=
+eyJoaXN0b3J5IjpbMjA0MTk3ODEzMyw5OTQ0OTc5MjksLTIyOD
+A4MDE5NiwzNTcxNzY5MzBdfQ==
 -->
