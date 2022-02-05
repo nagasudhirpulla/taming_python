@@ -18,7 +18,7 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 * Select Authentication as Basic, select allow access to all users or specific users and select both read and write permissions and click finish
 * Now FTP server is setup
 * You can start/stop the ftp server by right clicking on the site in the Sites section
-* You can change setting like authentication, authorization easily by double clicking on the site
+* You can change setting like authentication, authorization easily by double clicking on the FTP site under the Sites section in left pane 
 
 
 ## Installing DBeaver plugins without internet
@@ -61,6 +61,6 @@ The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMzY2MzcyNiwtMjI4MDgwMTk2LDM1Nz
+eyJoaXN0b3J5IjpbMjEzNTMzNTgwOCwtMjI4MDgwMTk2LDM1Nz
 E3NjkzMF19
 -->
