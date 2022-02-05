@@ -12,10 +12,11 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 * In windows search for "Turn Windows features On or Off" 
 * Under the "Internet Information Services" section, make sure that "FTP Service" and "IIS Management Console" are enabled
 
-
+![iis_ftp_minimum_windows_features](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_ftp_minimum_windows_features.PNG)
 #### Step 2 - Create an FTP site in IIS
 * Right click on "Sites" and click "Add FTP site"
 * Enter a name and select the physical path to host in the FTP server and click next
+![iis_add_ftp_site_1](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_add_ftp_site_1.PNG)
 * Select SSL certificate if required and click next
 * Select Authentication as Basic, select allow access to all users or specific users and select both read and write permissions and click finish
 * Now FTP server is setup
@@ -54,6 +55,6 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQyODcyNzcsLTE3MzIxNzYyMDQsOT
-k0NDk3OTI5LC0yMjgwODAxOTYsMzU3MTc2OTMwXX0=
+eyJoaXN0b3J5IjpbMTU0NjA2Mzc0MSwtMTczMjE3NjIwNCw5OT
+Q0OTc5MjksLTIyODA4MDE5NiwzNTcxNzY5MzBdfQ==
 -->
