@@ -8,6 +8,7 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 
 ## Setup FTP server using IIS in windows server
 
+
 ## Why use DBeaver?
 * You can manage all popular databases (MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, MS Access, Teradata, Firebird, Apache Hive, Phoenix, Presto, etc) in one single tool. No need to download separate tool for each type of database
 * The community edition of DBeaver is free
@@ -72,5 +73,5 @@ The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNjg4NDk4MF19
+eyJoaXN0b3J5IjpbMzU3MTc2OTMwXX0=
 -->
