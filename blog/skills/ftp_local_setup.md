@@ -6,12 +6,13 @@
 
 In this post we will try to setup a local ftp server using IIS or Filezilla server and ftp client using WinSCP
 
-## Setup FTP server using IIS in windows
-### Enable IIS ftp server feature
+## Setup FTP server
+### Option 1 - Setup FTP server using IIS in windows
+#### Step 1 - Enable IIS ftp server feature
 * In windows search for "Turn Windows features On or Off" 
 * Under the "Internet Information Services" section, make sure that "FTP Service" and "IIS Management Console" are enabled
 
-### Create an FTP site in IIS
+#### Step 2 - Create an FTP site in IIS
 * Right click on "Sites" and click "Add FTP site"
 * Enter a name and select the physical path to host in the FTP server and click next
 * Select SSL certificate if required and click next
@@ -20,7 +21,7 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 * You can start/stop the ftp server by right clicking on the site in the Sites section
 * You can change setting like authentication, authorization easily by double clicking on the FTP site under the Sites section in left pane 
 
-### Create an FTP site using Filezilla Server
+### Option 2 - Create an FTP site using Filezilla Server
 * Download Filezilla server at https://filezilla-project.org/download.php?type=server
 * Run the executable and complete the installation. While installation, set the server administration password and remember the server administration port
 * After installation search for the application "Administer Filezilla server" and click "Connect to Filezilla FTP Server"
@@ -50,6 +51,6 @@ The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjYwODE0OCw5OTQ0OTc5MjksLTIyOD
+eyJoaXN0b3J5IjpbLTk0NTc4NTY0MSw5OTQ0OTc5MjksLTIyOD
 A4MDE5NiwzNTcxNzY5MzBdfQ==
 -->
