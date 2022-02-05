@@ -6,7 +6,7 @@
 
 In this post we will try to setup a local ftp server using IIS or Filezilla server and ftp client using WinSCP
 
-## Setup FTP server using IIS in windows server
+## Setup FTP server using IIS in windows
 ### Enable IIS ftp server feature
 * In windows search for "Turn Windows features On or Off" 
 * Under the "Internet Information Services" section, make sure that "FTP Service" and "IIS Management Console" are enabled
@@ -29,29 +29,10 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 * In the Users left pane section, add a user, configure the virtual and native path for that user and set read and write access permissions for that user. Example Virtual path can be "/" and example Native path can be "C:\Users\xyz\Downloads\ftpFolder"
 * Now the ftp server along with user logins is setup
 
-## Installing DBeaver plugins without internet
-### Step 1 - Download the database plugin jar files in a computer with internet  
-* All the installed database plugins can be found in the folder
-```C:\Users\<username>\AppData\Roaming\DBeaverData\drivers\maven\maven-central```
-* On the Top Menu bar go to Database -> Driver Manager menu
-* Then select the database you would like to connect and click edit
-* In the pop up window, click Download/Update button. Now all the driver jar files will be downloaded in the computer from the internet
-* After the drivers are downloaded, the folder location of jar file will be displayed on hovering the mouse over the library
-* Go to the database plugins folder and copy all the jar files corresponding to the required database driver and paste in the computer without internet
+## Setup WinSCP FTP client in windows
+* Download WinSCP 
 
-### Step 2 - Installing the jar files in the computer without internet
-* Open Database -> Driver Manager Menu
-* Click "New" button and fill the input fields for the required database driver
-* Click the "Add File" button to import all the jar files required for this database driver
-* Now we have completed the offline installation of a database driver!
-
- The screenshots of the settings of common database drivers can be seen in the images below. You can take a snapshot of the driver settings from the computer that has the required database driver already installed and working.
- 
- ![dbeaver_postgres_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_postgres_driver_settings.png)
- ![dbeaver_mysql_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_mysql_driver_settings.png)
- ![dbeaver_oracle_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_oracle_driver_settings.png)
- ![dbeaver_sqlite_driver_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/dbeaver_sqlite_driver_settings.png)
- ### Video
+### Video
 The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QvW1TBpimcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -69,6 +50,6 @@ The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQwOTU2MzAsOTk0NDk3OTI5LC0yMj
-gwODAxOTYsMzU3MTc2OTMwXX0=
+eyJoaXN0b3J5IjpbMTkxNjYwODE0OCw5OTQ0OTc5MjksLTIyOD
+A4MDE5NiwzNTcxNzY5MzBdfQ==
 -->
