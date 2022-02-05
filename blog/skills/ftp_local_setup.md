@@ -7,7 +7,8 @@
 In this post we will try to setup a local ftp server using IIS or Filezilla server and ftp client using WinSCP
 
 ## Setup FTP server using IIS in windows server
-
+### Enable IIS if required
+* In windows search for "Turn Windows features On or Off" and enable 
 
 ## Why use DBeaver?
 * You can manage all popular databases (MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, MS Access, Teradata, Firebird, Apache Hive, Phoenix, Presto, etc) in one single tool. No need to download separate tool for each type of database
@@ -73,5 +74,5 @@ The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3MTc2OTMwXX0=
+eyJoaXN0b3J5IjpbLTE2MTM4NzA5MiwzNTcxNzY5MzBdfQ==
 -->
