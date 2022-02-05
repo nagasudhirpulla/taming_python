@@ -26,8 +26,8 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 * After installation search for the application "Administer Filezilla server" and click "Connect to Filezilla FTP Server"
 * Enter the host, port and password click OK to connect to server
 * In the top menu bar, open the Server->Configure menu
-* In the Users left pane section, add a user, configure the virtual and native path for that user and set read and write access permissions for that user
-* Example virtual path can be "/" and e
+* In the Users left pane section, add a user, configure the virtual and native path for that user and set read and write access permissions for that user. Example Virtual path can be "/" and example Native path can be "C:\Users\xyz\Downloads\ftpFolder"
+* Now the ftp server along with user logins is setup
 
 ## Installing DBeaver plugins without internet
 ### Step 1 - Download the database plugin jar files in a computer with internet  
@@ -69,6 +69,6 @@ The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNjYzOTkzNCw5OTQ0OTc5MjksLTIyOD
-A4MDE5NiwzNTcxNzY5MzBdfQ==
+eyJoaXN0b3J5IjpbLTExNTQwOTU2MzAsOTk0NDk3OTI5LC0yMj
+gwODAxOTYsMzU3MTc2OTMwXX0=
 -->
