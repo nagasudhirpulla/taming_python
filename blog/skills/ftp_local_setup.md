@@ -41,6 +41,7 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 * We can copy,paste,rename,delete the ftp server files just like file explorer
  
 ### References
+* IIS FTP server setup - https://winscp.net/eng/docs/guide_windows_ftps_server
 * Filezilla server - https://filezilla-project.org/download.php?type=server
 * WinSCP - https://winscp.net/eng/download.php
 
@@ -52,6 +53,6 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDQ1NDc3NSwtMTczMjE3NjIwNCw5OT
-Q0OTc5MjksLTIyODA4MDE5NiwzNTcxNzY5MzBdfQ==
+eyJoaXN0b3J5IjpbNjk0OTk0Nzg5LC0xNzMyMTc2MjA0LDk5ND
+Q5NzkyOSwtMjI4MDgwMTk2LDM1NzE3NjkzMF19
 -->
