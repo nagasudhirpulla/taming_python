@@ -1,4 +1,4 @@
-## Skill - Setup ftp server and client using IIS, Filezilla server and WinSCP
+## Skill - Setup ftp server and client in Windows using IIS, Filezilla server and WinSCP
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -6,7 +6,7 @@
 
 In this post we will try to setup a local ftp server using IIS or Filezilla server and ftp client using WinSCP
 
-![DBeaver_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/DBeaver_demo.png)
+## Setup FTP server using IIS in windows server
 
 ## Why use DBeaver?
 * You can manage all popular databases (MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, MS Access, Teradata, Firebird, Apache Hive, Phoenix, Presto, etc) in one single tool. No need to download separate tool for each type of database
@@ -72,5 +72,5 @@ The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0Mjk3ODQyXX0=
+eyJoaXN0b3J5IjpbMTgzNjg4NDk4MF19
 -->
