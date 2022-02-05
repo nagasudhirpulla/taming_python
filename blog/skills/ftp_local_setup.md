@@ -15,8 +15,7 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 * Right click on "Sites" and click "Add FTP site"
 * Enter a name and select the physical path to host in the FTP server and click next
 * Select SSL certificate if required and click next
-* Select Authentication as Basic and 
-* 
+* Select Authentication as Basic, select allow access to all users or specific users and select both read and write permissions and click finish
 
 
 ## Installing DBeaver plugins without internet
@@ -59,6 +58,6 @@ The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5NTU3NTA1LC0yMjgwODAxOTYsMzU3MT
-c2OTMwXX0=
+eyJoaXN0b3J5IjpbMTUwNjQ4NTUzNiwtMjI4MDgwMTk2LDM1Nz
+E3NjkzMF19
 -->
