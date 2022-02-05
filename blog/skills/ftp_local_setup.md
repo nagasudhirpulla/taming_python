@@ -1,10 +1,10 @@
-## Skill - Setup local ftp server and client using IIS, Filezilla server and winscp
+## Skill - Setup ftp server and client using IIS, Filezilla server and WinSCP
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <hr/>
 
-In this post we will try to install and use a free universal database tool called [DBeaver](https://dbeaver.io/)
+In this post we will try to setup a local ftp server using IIS and Filezilla server and ftp client using WinSCP
 
 ![DBeaver_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/DBeaver_demo.png)
 
@@ -72,5 +72,5 @@ The video for this post can be found [here](https://youtu.be/QvW1TBpimcs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyMTIzODk4XX0=
+eyJoaXN0b3J5IjpbMTQ1MjQwMzA0NF19
 -->
