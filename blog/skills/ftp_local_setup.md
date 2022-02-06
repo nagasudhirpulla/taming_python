@@ -33,8 +33,11 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 * Enter the host, port and password click OK to connect to server
 ![filezilla_server_admin_1](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/filezilla_server_admin_1.PNG)
 * In the top menu bar, open the Server->Configure menu
-
+![filezilla_server_admin_2](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/filezilla_server_admin_2.PNG)
+* You can check the port bindings of the FTP server in the FTP Server left menu
+![filezilla_server_admin_3](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/filezilla_server_admin_3.PNG) 
 * In the Users left pane section, add a user, configure the virtual and native path for that user and set read and write access permissions for that user. Example Virtual path can be "/" and example Native path can be "C:\Users\xyz\Downloads\ftpFolder"
+![filezilla_server_admin_4](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/filezilla_server_admin_4.PNG)
 * Now the ftp server along with user logins is setup
 
 ## Setup FTP client in windows using WinSCP
@@ -61,7 +64,7 @@ In this post we will try to setup a local ftp server using IIS or Filezilla serv
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzNjE0MDM4LDE5MjAwNTg1NDAsMTkyMD
-A1ODU0MCw2ODkwNTY4OTQsLTE3MzIxNzYyMDQsOTk0NDk3OTI5
-LC0yMjgwODAxOTYsMzU3MTc2OTMwXX0=
+eyJoaXN0b3J5IjpbLTUzOTE1ODQ1MSwxOTIwMDU4NTQwLDE5Mj
+AwNTg1NDAsNjg5MDU2ODk0LC0xNzMyMTc2MjA0LDk5NDQ5Nzky
+OSwtMjI4MDgwMTk2LDM1NzE3NjkzMF19
 -->
