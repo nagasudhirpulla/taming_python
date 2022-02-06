@@ -57,6 +57,10 @@
 * Filezilla server - https://filezilla-project.org/download.php?type=server
 * WinSCP - https://winscp.net/eng/download.php
 
+### Video
+Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6gHlAfviiPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -65,8 +69,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzczNTIzOTgsMTk3MjAwMTQyNiwtMT
-c3OTQwNTIzMiwtNTM5MTU4NDUxLDE5MjAwNTg1NDAsMTkyMDA1
-ODU0MCw2ODkwNTY4OTQsLTE3MzIxNzYyMDQsOTk0NDk3OTI5LC
-0yMjgwODAxOTYsMzU3MTc2OTMwXX0=
+eyJoaXN0b3J5IjpbLTQ3ODg2MzI0NywtMTMzNzM1MjM5OCwxOT
+cyMDAxNDI2LC0xNzc5NDA1MjMyLC01MzkxNTg0NTEsMTkyMDA1
+ODU0MCwxOTIwMDU4NTQwLDY4OTA1Njg5NCwtMTczMjE3NjIwNC
+w5OTQ0OTc5MjksLTIyODA4MDE5NiwzNTcxNzY5MzBdfQ==
 -->
