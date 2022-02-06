@@ -4,7 +4,7 @@
 
 <hr/>
 
-In this post we will try to setup a local FTP server using IIS or Filezilla server and ftp client using WinSCP
+In this post we will try to setup a local FTP server using IIS or Filezilla server and FTP client using WinSCP
 
 ## Setup FTP server
 ### Option 1 - Setup FTP server using IIS in windows
@@ -64,7 +64,7 @@ In this post we will try to setup a local FTP server using IIS or Filezilla serv
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzM5MTY5OSwtNTM5MTU4NDUxLDE5Mj
-AwNTg1NDAsMTkyMDA1ODU0MCw2ODkwNTY4OTQsLTE3MzIxNzYy
-MDQsOTk0NDk3OTI5LC0yMjgwODAxOTYsMzU3MTc2OTMwXX0=
+eyJoaXN0b3J5IjpbMzcwNzIzOTE3LC01MzkxNTg0NTEsMTkyMD
+A1ODU0MCwxOTIwMDU4NTQwLDY4OTA1Njg5NCwtMTczMjE3NjIw
+NCw5OTQ0OTc5MjksLTIyODA4MDE5NiwzNTcxNzY5MzBdfQ==
 -->
