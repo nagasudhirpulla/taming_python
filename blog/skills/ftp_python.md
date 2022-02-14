@@ -38,6 +38,11 @@ ftp.login(ftpUname, ftpPass)
 # send QUIT command to the FTP server and close the connection
 ftp.quit()
 ```
+
+## Change working directory with cwd 
+```python
+
+```
  
 ### References
 * Official ftplib documentation - https://docs.python.org/3/library/ftplib.html
@@ -51,5 +56,5 @@ ftp.quit()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDI4OTU1MTksNzg5NDQ0NzYzXX0=
+eyJoaXN0b3J5IjpbOTQ1MTE4NjAzLDc4OTQ0NDc2M119
 -->
