@@ -39,7 +39,7 @@ ftp.login(ftpUname, ftpPass)
 ftp.quit()
 ```
 
-## Change working directory with 'cwd' function
+## Change working directory using 'cwd'
 ```python
 ## ... code to connect to ftp server
 
@@ -158,7 +158,7 @@ fnames = uploadFileToFtp(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDkyMTU3MiwtMTcwOTUwNjYyNywtMT
-EyODM5NTAzNywtMTk0NjE4ODA4OCwyMDIwNjg1NjAwLDc4OTQ0
-NDc2M119
+eyJoaXN0b3J5IjpbODk0MTA3MzcwLC0xNzA5NTA2NjI3LC0xMT
+I4Mzk1MDM3LC0xOTQ2MTg4MDg4LDIwMjA2ODU2MDAsNzg5NDQ0
+NzYzXX0=
 -->
