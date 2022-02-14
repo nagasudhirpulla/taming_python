@@ -39,9 +39,14 @@ ftp.login(ftpUname, ftpPass)
 ftp.quit()
 ```
 
-## Change working directory with cwd 
+## Change working directory with cwd function
 ```python
+## ... code to connect to ftp server
 
+# change working directory to a different folder
+ftp.cwd("folder1/abcd")
+
+# ... do something
 ```
  
 ### References
@@ -56,5 +61,5 @@ ftp.quit()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ1MTE4NjAzLDc4OTQ0NDc2M119
+eyJoaXN0b3J5IjpbMjAyMDY4NTYwMCw3ODk0NDQ3NjNdfQ==
 -->
