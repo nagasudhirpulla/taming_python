@@ -9,7 +9,11 @@
 * If you want to setup a local FTP server, you can read my blog post [here](https://nagasudhir.blogspot.com/2022/02/setup-ftp-server-and-ftp-client-in.html) 
  
 ## Connect to an FTP server
-The following paramerters are required to establis
+The following parameters are required to establish a connection to an FTP server
+* FTP server host address (like "localhost" or "192.87.34.1" or "myftp.abcd.com")
+* FTP server port (usually is 21)
+* FTP server username
+* FTP 
 ```python
 import ftplib
 
@@ -46,5 +50,5 @@ ftp.quit()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODgxMDAyMSw3ODk0NDQ3NjNdfQ==
+eyJoaXN0b3J5IjpbMTU3MTQ1NDMwNSw3ODk0NDQ3NjNdfQ==
 -->
