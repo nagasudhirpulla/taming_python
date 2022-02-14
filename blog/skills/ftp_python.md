@@ -24,7 +24,7 @@ ftpPort = 21
 ftpUname = 'uname'
 ftpPass = 'pass'
 
-# create an FTP client instance, use the timeout parameter for slow connections only
+# create an FTP client instance, use the timeout(seconds) parameter for slow connections only
 ftp = ftplib.FTP(timeout=30)
 
 # connect to the FTP server
@@ -50,8 +50,48 @@ ftp.cwd("folder1/abcd")
 ```
 
 ## Get the list of filenames in a folder
+In the below python script, we have created a 
 ```python
+import ftplib
 
+def getFtpFilenames(ftpHost, ftpPort, ftpUname, ftpPass, remoteWorkingDirectory):
+    # create an FTP client instance, use the timeout parameter for slow connections only
+    ftp = ftplib.FTP(timeout=30)
+    
+    # connect to the FTP server
+    ftp.connect(ftpHost, ftpPort)
+    
+    # login to the FTP server
+    ftp.login(ftpUname, ftpPass)
+
+    # change current working directory if specified
+    if not (remoteWorkingDirectory == None or remoteWorkingDirectory.strip() == ""):
+        _ = ftp.cwd(remoteWorkingDirectory)
+    
+    # initialize the filenames as an empty list
+    fnames = []
+    
+    try:
+        # use nlst function to get the list of filenames
+        fnames = ftp.nlst()
+    except ftplib.error_perm as resp:
+        if str(resp) == "550 No files found":
+            fnames = []
+        else:
+            raise
+    
+    # send QUIT command to the FTP server and close the connection
+    ftp.quit()
+
+    # return the list of filenames
+    return fnames
+
+# connection parameters
+ftpHost = 'localhost'
+ftpPort = 21
+ftpUname = 'uname'
+ftpPass = 'pass'
+fnames = getFtpFilenames(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 ```
  
 ### References
@@ -66,6 +106,6 @@ ftp.cwd("folder1/abcd")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDYxODgwODgsMjAyMDY4NTYwMCw3OD
-k0NDQ3NjNdfQ==
+eyJoaXN0b3J5IjpbLTk1ODkyNjk1MywtMTk0NjE4ODA4OCwyMD
+IwNjg1NjAwLDc4OTQ0NDc2M119
 -->
