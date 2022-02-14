@@ -50,7 +50,7 @@ ftp.cwd("folder1/abcd")
 ```
 
 ## Get the list of filenames in a folder
-In the below python script, we have created a 
+In the below python script, we have created a function that fetches list of filenames in the desired FTP server directory
 ```python
 import ftplib
 
@@ -106,6 +106,6 @@ fnames = getFtpFilenames(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MjY4MjE1NSwtMTk0NjE4ODA4OCwyMD
-IwNjg1NjAwLDc4OTQ0NDc2M119
+eyJoaXN0b3J5IjpbMTkwNTIwMDM3LC0xOTQ2MTg4MDg4LDIwMj
+A2ODU2MDAsNzg5NDQ0NzYzXX0=
 -->
