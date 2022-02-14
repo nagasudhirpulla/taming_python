@@ -8,6 +8,7 @@
 * ftplib is an inbuilt python module that can be used for FTP server interactions like upload files, download files, read list of file names etc
 * If you want to setup a local FTP server, you can read my blog post [here](https://nagasudhir.blogspot.com/2022/02/setup-ftp-server-and-ftp-client-in.html) 
  
+## Connect to an FTP server
 
  
 ### References
@@ -22,5 +23,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyNTUzOTJdfQ==
+eyJoaXN0b3J5IjpbNzg5NDQ0NzYzXX0=
 -->
