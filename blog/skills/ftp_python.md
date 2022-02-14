@@ -55,7 +55,7 @@ In the below python script, we have created a
 import ftplib
 
 def getFtpFilenames(ftpHost, ftpPort, ftpUname, ftpPass, remoteWorkingDirectory):
-    # create an FTP client instance, use the timeout parameter for slow connections only
+    # create an FTP client instance, use the timeout(seconds) parameter for slow connections only
     ftp = ftplib.FTP(timeout=30)
     
     # connect to the FTP server
@@ -106,6 +106,6 @@ fnames = getFtpFilenames(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODkyNjk1MywtMTk0NjE4ODA4OCwyMD
+eyJoaXN0b3J5IjpbMjA3MjY4MjE1NSwtMTk0NjE4ODA4OCwyMD
 IwNjg1NjAwLDc4OTQ0NDc2M119
 -->
