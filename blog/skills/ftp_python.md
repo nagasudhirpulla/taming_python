@@ -50,7 +50,9 @@ ftp.cwd("folder1/abcd")
 ```
 
 ## Get the list of filenames in a folder
+```python
 
+```
  
 ### References
 * Official ftplib documentation - https://docs.python.org/3/library/ftplib.html
@@ -64,6 +66,6 @@ ftp.cwd("folder1/abcd")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTk4NDU4NCwyMDIwNjg1NjAwLDc4OT
-Q0NDc2M119
+eyJoaXN0b3J5IjpbLTE5NDYxODgwODgsMjAyMDY4NTYwMCw3OD
+k0NDQ3NjNdfQ==
 -->
