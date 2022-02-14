@@ -95,6 +95,7 @@ fnames = getFtpFilenames(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 ```
 You can copy this function and directly use it in your projects
 
+## Upload files to FTP server directory
 
 
 ### References
@@ -109,6 +110,6 @@ You can copy this function and directly use it in your projects
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjYwOTE3MiwtMTk0NjE4ODA4OCwyMD
-IwNjg1NjAwLDc4OTQ0NDc2M119
+eyJoaXN0b3J5IjpbLTExMjgzOTUwMzcsLTE5NDYxODgwODgsMj
+AyMDY4NTYwMCw3ODk0NDQ3NjNdfQ==
 -->
