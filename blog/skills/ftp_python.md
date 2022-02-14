@@ -39,7 +39,7 @@ ftp.login(ftpUname, ftpPass)
 ftp.quit()
 ```
 
-## Change working directory with cwd function
+## Change working directory with 'cwd' function
 ```python
 ## ... code to connect to ftp server
 
@@ -48,6 +48,9 @@ ftp.cwd("folder1/abcd")
 
 # ... do something
 ```
+
+## Get the list of filenames in a folder
+
  
 ### References
 * Official ftplib documentation - https://docs.python.org/3/library/ftplib.html
@@ -61,5 +64,6 @@ ftp.cwd("folder1/abcd")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDY4NTYwMCw3ODk0NDQ3NjNdfQ==
+eyJoaXN0b3J5IjpbMTE2NTk4NDU4NCwyMDIwNjg1NjAwLDc4OT
+Q0NDc2M119
 -->
