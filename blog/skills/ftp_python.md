@@ -49,7 +49,7 @@ ftp.cwd("folder1/abcd")
 # ... do something
 ```
 
-## Get the list of filenames in a folder
+## Get the list of filenames in a folder using 'nlst'
 In the below python script, we have created a function that fetches list of filenames in the desired FTP server directory.
 ```python
 import ftplib
@@ -95,7 +95,8 @@ fnames = getFtpFilenames(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 ```
 You can copy this function and directly use it in your projects
 
-## Upload files to FTP server directory
+## Upload files to FTP server directory using 'storbinary'
+In the below python script, we have created a function that fetches list of filenames in the desired FTP server directory.
 ```python
 import ftplib
 import os
@@ -157,6 +158,7 @@ fnames = uploadFileToFtp(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk1MDY2MjcsLTExMjgzOTUwMzcsLT
-E5NDYxODgwODgsMjAyMDY4NTYwMCw3ODk0NDQ3NjNdfQ==
+eyJoaXN0b3J5IjpbLTM2NDkyMTU3MiwtMTcwOTUwNjYyNywtMT
+EyODM5NTAzNywtMTk0NjE4ODA4OCwyMDIwNjg1NjAwLDc4OTQ0
+NDc2M119
 -->
