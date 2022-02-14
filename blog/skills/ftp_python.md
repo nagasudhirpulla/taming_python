@@ -124,8 +124,7 @@ def uploadFileToFtp(localFilePath: str, ftpHost: str, ftpUname: str, ftpPass: st
     # Read file in binary mode
     with open(localFilePath, "rb") as file:
         # upload file to FTP server using storbinary, specify blocksize(bytes) only if higher upload chunksize is required
-        retCode = ftp.storbinary(
-            f"STOR {targetFilename}", file, blocksize=1024*1024)
+        retCode = ftp.storbinary(f"STOR {targetFilename}", file, blocksize=1024*1024)
 
     # send QUIT command to the FTP server and close the connection
     ftp.quit()
@@ -158,7 +157,7 @@ fnames = uploadFileToFtp(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0MTA3MzcwLC0xNzA5NTA2NjI3LC0xMT
-I4Mzk1MDM3LC0xOTQ2MTg4MDg4LDIwMjA2ODU2MDAsNzg5NDQ0
-NzYzXX0=
+eyJoaXN0b3J5IjpbMzEzNjYxNjkyLDg5NDEwNzM3MCwtMTcwOT
+UwNjYyNywtMTEyODM5NTAzNywtMTk0NjE4ODA4OCwyMDIwNjg1
+NjAwLDc4OTQ0NDc2M119
 -->
