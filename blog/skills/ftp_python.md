@@ -93,8 +93,10 @@ ftpUname = 'uname'
 ftpPass = 'pass'
 fnames = getFtpFilenames(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 ```
-You can directly use this function and directly use it in your projects with modif as per your requirements
- 
+You can copy this function and directly use it in your projects
+
+
+
 ### References
 * Official ftplib documentation - https://docs.python.org/3/library/ftplib.html
 
@@ -107,6 +109,6 @@ You can directly use this function and directly use it in your projects with mod
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0OTQyMDQxLC0xOTQ2MTg4MDg4LDIwMj
-A2ODU2MDAsNzg5NDQ0NzYzXX0=
+eyJoaXN0b3J5IjpbMTQ4NjYwOTE3MiwtMTk0NjE4ODA4OCwyMD
+IwNjg1NjAwLDc4OTQ0NDc2M119
 -->
