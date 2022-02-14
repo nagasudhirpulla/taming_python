@@ -12,8 +12,9 @@
 The following parameters are required to establish a connection to an FTP server
 * FTP server host address (like "localhost" or "192.87.34.1" or "myftp.abcd.com")
 * FTP server port (usually is 21)
-* FTP server username
-* FTP 
+* username
+* password
+
 ```python
 import ftplib
 
@@ -50,5 +51,5 @@ ftp.quit()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTQ1NDMwNSw3ODk0NDQ3NjNdfQ==
+eyJoaXN0b3J5IjpbLTEyMDI4OTU1MTksNzg5NDQ0NzYzXX0=
 -->
