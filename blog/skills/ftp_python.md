@@ -175,9 +175,10 @@ ftpPort = 21
 ftpUname = 'uname'
 ftpPass = 'pass'
 localFile = 'test.txt'
+remoteFolder = "folder1/abcd"
 
 # upload file
-isUploadSuccess = uploadFileToFtp(localFile, ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
+isUploadSuccess = uploadFileToFtp(localFile, ftpHost, ftpPort, ftpUname, ftpPass, remoteFolder)
 
 print("upload status = {0}".format(isUploadSuccess))
 ```
@@ -232,10 +233,13 @@ ftpHost = 'localhost'
 ftpPort = 21
 ftpUname = 'uname'
 ftpPass = 'pass'
+localFolderPath = ""
+remoteFolder = "folder1/abcd"
+remoteFilenames = ["rguj.docx"]
 
 # run the function to download the files from FTP server
 isDownloadSuccess = downloadFilesFromFtp(
-    "", ["rguj.docx"], ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
+    localFolderPath,remoteFilenames, ftpHost, ftpPort, ftpUname, ftpPass, remoteFolder)
 print("download status = {0}".format(isDownloadSuccess))
 ```
 * This function can be copied and used directly in your projects
@@ -253,9 +257,9 @@ print("download status = {0}".format(isDownloadSuccess))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODAxNTc2LC04MTE1NjkyNjAsLTE1Nz
-MxNzExMiwtMjgxNTQzMzA1LDIwODQ4MDQwNDYsMzI5NTMzMjkw
-LC0xNDE4MDYwOTUyLDMxMzY2MTY5Miw4OTQxMDczNzAsLTE3MD
-k1MDY2MjcsLTExMjgzOTUwMzcsLTE5NDYxODgwODgsMjAyMDY4
-NTYwMCw3ODk0NDQ3NjNdfQ==
+eyJoaXN0b3J5IjpbLTEwNzEwNTI4NzAsLTgxMTU2OTI2MCwtMT
+U3MzE3MTEyLC0yODE1NDMzMDUsMjA4NDgwNDA0NiwzMjk1MzMy
+OTAsLTE0MTgwNjA5NTIsMzEzNjYxNjkyLDg5NDEwNzM3MCwtMT
+cwOTUwNjYyNywtMTEyODM5NTAzNywtMTk0NjE4ODA4OCwyMDIw
+Njg1NjAwLDc4OTQ0NDc2M119
 -->
