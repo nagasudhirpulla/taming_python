@@ -235,7 +235,7 @@ ftpPass = 'pass'
 
 # run the function to download the files from FTP server
 isDownloadSuccess = downloadFilesFromFtp(
-    "", ["abc.txt"], ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
+    "", ["def.txt"], ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 print("download status = {0}".format(isDownloadSuccess))
 ```
 * This function can be copied and used directly in your projects
@@ -253,9 +253,9 @@ print("download status = {0}".format(isDownloadSuccess))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2NjI5ODg0LC04MTE1NjkyNjAsLTE1Nz
-MxNzExMiwtMjgxNTQzMzA1LDIwODQ4MDQwNDYsMzI5NTMzMjkw
-LC0xNDE4MDYwOTUyLDMxMzY2MTY5Miw4OTQxMDczNzAsLTE3MD
-k1MDY2MjcsLTExMjgzOTUwMzcsLTE5NDYxODgwODgsMjAyMDY4
-NTYwMCw3ODk0NDQ3NjNdfQ==
+eyJoaXN0b3J5IjpbMTkwOTA1Mzc5MSwtODExNTY5MjYwLC0xNT
+czMTcxMTIsLTI4MTU0MzMwNSwyMDg0ODA0MDQ2LDMyOTUzMzI5
+MCwtMTQxODA2MDk1MiwzMTM2NjE2OTIsODk0MTA3MzcwLC0xNz
+A5NTA2NjI3LC0xMTI4Mzk1MDM3LC0xOTQ2MTg4MDg4LDIwMjA2
+ODU2MDAsNzg5NDQ0NzYzXX0=
 -->
