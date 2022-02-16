@@ -242,6 +242,7 @@ remoteFilenames = ["rguj.docx"]
 # run the function to download the files from FTP server
 isDownloadSuccess = downloadFilesFromFtp(
     localFolderPath,remoteFilenames, ftpHost, ftpPort, ftpUname, ftpPass, remoteFolder)
+
 print("download status = {0}".format(isDownloadSuccess))
 ```
 * This function can be copied and used directly in your projects
@@ -259,9 +260,10 @@ print("download status = {0}".format(isDownloadSuccess))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NjQ3OTI3NywtMTA3MTA1Mjg3MCwtOD
-ExNTY5MjYwLC0xNTczMTcxMTIsLTI4MTU0MzMwNSwyMDg0ODA0
-MDQ2LDMyOTUzMzI5MCwtMTQxODA2MDk1MiwzMTM2NjE2OTIsOD
-k0MTA3MzcwLC0xNzA5NTA2NjI3LC0xMTI4Mzk1MDM3LC0xOTQ2
-MTg4MDg4LDIwMjA2ODU2MDAsNzg5NDQ0NzYzXX0=
+eyJoaXN0b3J5IjpbODQ0MjM4NDAxLC0zNDY0NzkyNzcsLTEwNz
+EwNTI4NzAsLTgxMTU2OTI2MCwtMTU3MzE3MTEyLC0yODE1NDMz
+MDUsMjA4NDgwNDA0NiwzMjk1MzMyOTAsLTE0MTgwNjA5NTIsMz
+EzNjYxNjkyLDg5NDEwNzM3MCwtMTcwOTUwNjYyNywtMTEyODM5
+NTAzNywtMTk0NjE4ODA4OCwyMDIwNjg1NjAwLDc4OTQ0NDc2M1
+19
 -->
