@@ -153,12 +153,10 @@ In the below python script, we have created a function that downloads files from
 import ftplib
 import os
 
-def uploadFileToFtp(localFilePath, ftpHost, ftpUname, ftpPass, remoteWorkingDirectory):
-    # initialize the flag that specifies if upload is success
-    isUploadSuccess: bool = False
 
-    # extract the filename of local file from the file path
-    _, targetFilename = os.path.split(localFilePath)
+def downloadFilesFromFtp(localfolderPath, targetFilenames, ftpHost, ftpUname, ftpPass, remoteWorkingDirectory):
+    # initialize the flag that specifies if download is success
+    isDownloadSuccess: bool = False
 
     # create an FTP client instance, use the timeout parameter for slow connections only
     ftp = ftplib.FTP(timeout=30)
@@ -173,20 +171,23 @@ def uploadFileToFtp(localFilePath, ftpHost, ftpUname, ftpPass, remoteWorkingDire
     if not (remoteWorkingDirectory == None or remoteWorkingDirectory.strip() == ""):
         _ = ftp.cwd(remoteWorkingDirectory)
 
-    # Read file in binary mode
-    with open(localFilePath, "rb") as file:
-        # upload file to FTP server using storbinary, specify blocksize(bytes) only if higher upload chunksize is required
-        retCode = ftp.storbinary(f"STOR {targetFilename}", file, blocksize=1024*1024)
+    # iterate through each remote filename and download
+    for fItr in range(len(targetFilenames)):
+        targetFilename = targetFilenames[fItr]
+        # derive the local file path by appending the local folder path with remote filename
+        localFilePath = os.path.join(localfolderPath, targetFilename)
+        print("downloading file from ftp = {0}".format(targetFilename))
+        # download FTP file using retrbinary function
+        with open(localFilePath, "wb") as file:
+            retCode = ftp.retrbinary("RETR " + targetFilename, file.write)
 
     # send QUIT command to the FTP server and close the connection
     ftp.quit()
 
-    # check if upload is success using the return code (retCode)
+    # check if download is success using the return code (retCode)
     if retCode.startswith('226'):
-        isUploadSuccess = True
-
-    # return the upload status
-    return isUploadSuccess
+        isDownloadSuccess = True
+    return isDownloadSuccess
 
 
 # connection parameters
@@ -194,11 +195,15 @@ ftpHost = 'localhost'
 ftpPort = 21
 ftpUname = 'uname'
 ftpPass = 'pass'
-fnames = uploadFileToFtp(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
+
+# run the function to download the files from FTP server
+isDownloadSuccess = downloadFilesFromFtp(
+    "", ["abc.txt"], ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
+print("download status = {0}".format(isDownloadSuccess))
 ```
 * This function can be copied and used directly in your projects
-* We can modify this function to for uploading multiple files into the FTP server using a `for` loop inside the function
-* 
+* We can modify this function as per our requirements like specifying local filenames etc.
+
 ### References
 * Official ftplib documentation - https://docs.python.org/3/library/ftplib.html
 
@@ -211,8 +216,8 @@ fnames = uploadFileToFtp(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3NjU0Nzk5LDMyOTUzMzI5MCwtMTQxOD
-A2MDk1MiwzMTM2NjE2OTIsODk0MTA3MzcwLC0xNzA5NTA2NjI3
-LC0xMTI4Mzk1MDM3LC0xOTQ2MTg4MDg4LDIwMjA2ODU2MDAsNz
-g5NDQ0NzYzXX0=
+eyJoaXN0b3J5IjpbMjA4NDgwNDA0NiwzMjk1MzMyOTAsLTE0MT
+gwNjA5NTIsMzEzNjYxNjkyLDg5NDEwNzM3MCwtMTcwOTUwNjYy
+NywtMTEyODM5NTAzNywtMTk0NjE4ODA4OCwyMDIwNjg1NjAwLD
+c4OTQ0NDc2M119
 -->
