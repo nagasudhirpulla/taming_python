@@ -125,6 +125,8 @@ ftpPort = 21
 ftpUname = 'uname'
 ftpPass = 'pass'
 fnames = getFtpFilenames(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
+print(fnames)
+print("execution complete...")
 ```
 You can copy this function and directly use it in your projects
 
@@ -257,9 +259,9 @@ print("download status = {0}".format(isDownloadSuccess))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzEwNTI4NzAsLTgxMTU2OTI2MCwtMT
-U3MzE3MTEyLC0yODE1NDMzMDUsMjA4NDgwNDA0NiwzMjk1MzMy
-OTAsLTE0MTgwNjA5NTIsMzEzNjYxNjkyLDg5NDEwNzM3MCwtMT
-cwOTUwNjYyNywtMTEyODM5NTAzNywtMTk0NjE4ODA4OCwyMDIw
-Njg1NjAwLDc4OTQ0NDc2M119
+eyJoaXN0b3J5IjpbLTM0NjQ3OTI3NywtMTA3MTA1Mjg3MCwtOD
+ExNTY5MjYwLC0xNTczMTcxMTIsLTI4MTU0MzMwNSwyMDg0ODA0
+MDQ2LDMyOTUzMzI5MCwtMTQxODA2MDk1MiwzMTM2NjE2OTIsOD
+k0MTA3MzcwLC0xNzA5NTA2NjI3LC0xMTI4Mzk1MDM3LC0xOTQ2
+MTg4MDg4LDIwMjA2ODU2MDAsNzg5NDQ0NzYzXX0=
 -->
