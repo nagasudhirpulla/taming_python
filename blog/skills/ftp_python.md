@@ -191,7 +191,7 @@ import ftplib
 import os
 
 
-def downloadFilesFromFtp(localfolderPath, targetFilenames, ftpHost, ftpUname, ftpPass, remoteWorkingDirectory):
+def downloadFilesFromFtp(localfolderPath, targetFilenames, ftpHost, ftpPort, ftpUname, ftpPass, remoteWorkingDirectory):
     # initialize the flag that specifies if download is success
     isDownloadSuccess: bool = False
 
@@ -199,7 +199,7 @@ def downloadFilesFromFtp(localfolderPath, targetFilenames, ftpHost, ftpUname, ft
     ftp = ftplib.FTP(timeout=30)
 
     # connect to the FTP server
-    ftp.connect(ftpHost, 21)
+    ftp.connect(ftpHost, ftpPort)
 
     # login to the FTP server
     ftp.login(ftpUname, ftpPass)
@@ -213,7 +213,7 @@ def downloadFilesFromFtp(localfolderPath, targetFilenames, ftpHost, ftpUname, ft
         targetFilename = targetFilenames[fItr]
         # derive the local file path by appending the local folder path with remote filename
         localFilePath = os.path.join(localfolderPath, targetFilename)
-        print("downloading file from ftp = {0}".format(targetFilename))
+        print("downloading file {0}".format(targetFilename))
         # download FTP file using retrbinary function
         with open(localFilePath, "wb") as file:
             retCode = ftp.retrbinary("RETR " + targetFilename, file.write)
@@ -235,7 +235,7 @@ ftpPass = 'pass'
 
 # run the function to download the files from FTP server
 isDownloadSuccess = downloadFilesFromFtp(
-    "", ["def.txt"], ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
+    "", ["rguj.docx"], ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 print("download status = {0}".format(isDownloadSuccess))
 ```
 * This function can be copied and used directly in your projects
@@ -253,9 +253,9 @@ print("download status = {0}".format(isDownloadSuccess))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTA1Mzc5MSwtODExNTY5MjYwLC0xNT
-czMTcxMTIsLTI4MTU0MzMwNSwyMDg0ODA0MDQ2LDMyOTUzMzI5
-MCwtMTQxODA2MDk1MiwzMTM2NjE2OTIsODk0MTA3MzcwLC0xNz
-A5NTA2NjI3LC0xMTI4Mzk1MDM3LC0xOTQ2MTg4MDg4LDIwMjA2
-ODU2MDAsNzg5NDQ0NzYzXX0=
+eyJoaXN0b3J5IjpbMTU5ODAxNTc2LC04MTE1NjkyNjAsLTE1Nz
+MxNzExMiwtMjgxNTQzMzA1LDIwODQ4MDQwNDYsMzI5NTMzMjkw
+LC0xNDE4MDYwOTUyLDMxMzY2MTY5Miw4OTQxMDczNzAsLTE3MD
+k1MDY2MjcsLTExMjgzOTUwMzcsLTE5NDYxODgwODgsMjAyMDY4
+NTYwMCw3ODk0NDQ3NjNdfQ==
 -->
