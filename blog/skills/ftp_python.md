@@ -251,6 +251,29 @@ print("download status = {0}".format(isDownloadSuccess))
 ## Other important FTP actions
 All the important python ftp functions for directory listing, rename, delete file, delete folder, create folder, get the size of files etc. can be found at https://docs.python.org/3/library/ftplib.html#ftplib.FTP.dir
 
+#### FTP.dir(argument[, ...])
+Produce a directory listing as returned by the LIST command, printing it to standard output. The optional argument is a directory to list (default is the current server directory). Multiple arguments can be used to pass non-standard options to the LIST command. If the last argument is a function, it is used as a callback function as for retrlines(); the default prints to sys.stdout. This method returns None.
+
+#### FTP.rename(fromname, toname)
+Rename file fromname on the server to toname.
+
+#### FTP.delete(filename)
+Remove the file named filename from the server. If successful, returns the text of the response, otherwise raises error_perm on permission errors or error_reply on other errors.
+
+#### FTP.cwd(pathname)
+Set the current directory on the server.
+
+#### FTP.mkd(pathname)
+Create a new directory on the server.
+
+#### FTP.pwd()
+Return the pathname of the current directory on the server.
+
+#### FTP.rmd(dirname)
+Remove the directory named dirname on the server.
+
+#### FTP.size(filename)
+Request the size of the file named filename on the server. On success, the size of the file is returned as an integer, otherwise None is returned. Note that the SIZE command is not standardized, but is supported by many common server implementations.
 
 ### References
 * Official ftplib documentation - https://docs.python.org/3/library/ftplib.html
@@ -264,10 +287,10 @@ All the important python ftp functions for directory listing, rename, delete fil
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDg2ODUzMSwxMTU2NTA5NSw4NDQyMz
-g0MDEsLTM0NjQ3OTI3NywtMTA3MTA1Mjg3MCwtODExNTY5MjYw
-LC0xNTczMTcxMTIsLTI4MTU0MzMwNSwyMDg0ODA0MDQ2LDMyOT
-UzMzI5MCwtMTQxODA2MDk1MiwzMTM2NjE2OTIsODk0MTA3Mzcw
-LC0xNzA5NTA2NjI3LC0xMTI4Mzk1MDM3LC0xOTQ2MTg4MDg4LD
-IwMjA2ODU2MDAsNzg5NDQ0NzYzXX0=
+eyJoaXN0b3J5IjpbLTE4MjE1NjAzMTYsMTExNDg2ODUzMSwxMT
+U2NTA5NSw4NDQyMzg0MDEsLTM0NjQ3OTI3NywtMTA3MTA1Mjg3
+MCwtODExNTY5MjYwLC0xNTczMTcxMTIsLTI4MTU0MzMwNSwyMD
+g0ODA0MDQ2LDMyOTUzMzI5MCwtMTQxODA2MDk1MiwzMTM2NjE2
+OTIsODk0MTA3MzcwLC0xNzA5NTA2NjI3LC0xMTI4Mzk1MDM3LC
+0xOTQ2MTg4MDg4LDIwMjA2ODU2MDAsNzg5NDQ0NzYzXX0=
 -->
