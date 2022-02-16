@@ -145,7 +145,7 @@ ftpPass = 'pass'
 fnames = uploadFileToFtp(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 ```
 * This function can be copied and used directly in your projects
-* You
+* We can modify this function to for uploading multiple files into the FTP server using a `for` loop inside the function
 
 ### References
 * Official ftplib documentation - https://docs.python.org/3/library/ftplib.html
@@ -159,8 +159,8 @@ fnames = uploadFileToFtp(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTg4NzQ0MDYsLTE0MTgwNjA5NTIsMz
-EzNjYxNjkyLDg5NDEwNzM3MCwtMTcwOTUwNjYyNywtMTEyODM5
-NTAzNywtMTk0NjE4ODA4OCwyMDIwNjg1NjAwLDc4OTQ0NDc2M1
-19
+eyJoaXN0b3J5IjpbMzI5NTMzMjkwLC0xNDE4MDYwOTUyLDMxMz
+Y2MTY5Miw4OTQxMDczNzAsLTE3MDk1MDY2MjcsLTExMjgzOTUw
+MzcsLTE5NDYxODgwODgsMjAyMDY4NTYwMCw3ODk0NDQ3NjNdfQ
+==
 -->
