@@ -101,7 +101,7 @@ In the below python script, we have created a function that fetches list of file
 import ftplib
 import os
 
-def uploadFileToFtp(localFilePath: str, ftpHost: str, ftpUname: str, ftpPass: str, remoteWorkingDirectory: str) -> bool:
+def uploadFileToFtp(localFilePath, ftpHost, ftpUname, ftpPass, remoteWorkingDirectory):
     # initialize the flag that specifies if upload is success
     isUploadSuccess: bool = False
 
@@ -157,7 +157,7 @@ fnames = uploadFileToFtp(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzNjYxNjkyLDg5NDEwNzM3MCwtMTcwOT
-UwNjYyNywtMTEyODM5NTAzNywtMTk0NjE4ODA4OCwyMDIwNjg1
-NjAwLDc4OTQ0NDc2M119
+eyJoaXN0b3J5IjpbLTE0MTgwNjA5NTIsMzEzNjYxNjkyLDg5ND
+EwNzM3MCwtMTcwOTUwNjYyNywtMTEyODM5NTAzNywtMTk0NjE4
+ODA4OCwyMDIwNjg1NjAwLDc4OTQ0NDc2M119
 -->
