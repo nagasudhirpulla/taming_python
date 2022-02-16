@@ -42,6 +42,8 @@ print("execution complete...")
 ```
 
 ### With SSL
+* While connecting to FTP server using SSL, use FTP_TLS instead of FTP function
+* Also we need to call ftp.prot_p() 
 ```python
 import ftplib
 
@@ -59,6 +61,9 @@ ftp.connect(ftpHost, ftpPort)
 
 # login to the FTP server
 ftp.login(ftpUname, ftpPass)
+
+# setup secure data connection
+ftp.prot_p()
 
 # do something with the ftp client like upload, download etc
 
@@ -244,8 +249,8 @@ print("download status = {0}".format(isDownloadSuccess))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTc4NDE5NSwtMjgxNTQzMzA1LDIwOD
-Q4MDQwNDYsMzI5NTMzMjkwLC0xNDE4MDYwOTUyLDMxMzY2MTY5
-Miw4OTQxMDczNzAsLTE3MDk1MDY2MjcsLTExMjgzOTUwMzcsLT
-E5NDYxODgwODgsMjAyMDY4NTYwMCw3ODk0NDQ3NjNdfQ==
+eyJoaXN0b3J5IjpbLTE0NDU0MzU1MjUsLTI4MTU0MzMwNSwyMD
+g0ODA0MDQ2LDMyOTUzMzI5MCwtMTQxODA2MDk1MiwzMTM2NjE2
+OTIsODk0MTA3MzcwLC0xNzA5NTA2NjI3LC0xMTI4Mzk1MDM3LC
+0xOTQ2MTg4MDg4LDIwMjA2ODU2MDAsNzg5NDQ0NzYzXX0=
 -->
