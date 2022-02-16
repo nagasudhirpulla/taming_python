@@ -6,7 +6,7 @@
 
 * In this post we try to learn how to use `ftplib` python module to interact with FTP server
 * ftplib is an inbuilt python module that can be used for FTP server interactions like upload files, download files, read list of file names etc
-* If you want to setup a local FTP server, you can read my blog post [here](https://nagasudhir.blogspot.com/2022/02/setup-ftp-server-and-ftp-client-in.html) 
+* If you want to setup a local FTP server, you can read my blog post [here](https://nagasudhir.blogspot.com/2022/02/setup-ftp-server-and-ftp-client-in.html)
  
 ## Connect to an FTP server
 The following parameters are required to establish a connection to an FTP server
@@ -287,11 +287,11 @@ Request the size of the file named filename on the server. On success, the size 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MzU4NzY1NSwxOTk4ODkyMTE4LC0xOD
-IxNTYwMzE2LDExMTQ4Njg1MzEsMTE1NjUwOTUsODQ0MjM4NDAx
-LC0zNDY0NzkyNzcsLTEwNzEwNTI4NzAsLTgxMTU2OTI2MCwtMT
-U3MzE3MTEyLC0yODE1NDMzMDUsMjA4NDgwNDA0NiwzMjk1MzMy
-OTAsLTE0MTgwNjA5NTIsMzEzNjYxNjkyLDg5NDEwNzM3MCwtMT
-cwOTUwNjYyNywtMTEyODM5NTAzNywtMTk0NjE4ODA4OCwyMDIw
-Njg1NjAwXX0=
+eyJoaXN0b3J5IjpbLTEwMDA0NzU1NjUsMTk5ODg5MjExOCwtMT
+gyMTU2MDMxNiwxMTE0ODY4NTMxLDExNTY1MDk1LDg0NDIzODQw
+MSwtMzQ2NDc5Mjc3LC0xMDcxMDUyODcwLC04MTE1NjkyNjAsLT
+E1NzMxNzExMiwtMjgxNTQzMzA1LDIwODQ4MDQwNDYsMzI5NTMz
+MjkwLC0xNDE4MDYwOTUyLDMxMzY2MTY5Miw4OTQxMDczNzAsLT
+E3MDk1MDY2MjcsLTExMjgzOTUwMzcsLTE5NDYxODgwODgsMjAy
+MDY4NTYwMF19
 -->
