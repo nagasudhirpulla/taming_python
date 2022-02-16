@@ -147,6 +147,58 @@ fnames = uploadFileToFtp(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 * This function can be copied and used directly in your projects
 * We can modify this function to for uploading multiple files into the FTP server using a `for` loop inside the function
 
+## Download files from FTP server directory using 'retrbinary'
+In the below python script, we have created a function that downloads files from FTP server into a local directory.
+```python
+import ftplib
+import os
+
+def uploadFileToFtp(localFilePath, ftpHost, ftpUname, ftpPass, remoteWorkingDirectory):
+    # initialize the flag that specifies if upload is success
+    isUploadSuccess: bool = False
+
+    # extract the filename of local file from the file path
+    _, targetFilename = os.path.split(localFilePath)
+
+    # create an FTP client instance, use the timeout parameter for slow connections only
+    ftp = ftplib.FTP(timeout=30)
+
+    # connect to the FTP server
+    ftp.connect(ftpHost, 21)
+
+    # login to the FTP server
+    ftp.login(ftpUname, ftpPass)
+
+    # change current working directory if specified
+    if not (remoteWorkingDirectory == None or remoteWorkingDirectory.strip() == ""):
+        _ = ftp.cwd(remoteWorkingDirectory)
+
+    # Read file in binary mode
+    with open(localFilePath, "rb") as file:
+        # upload file to FTP server using storbinary, specify blocksize(bytes) only if higher upload chunksize is required
+        retCode = ftp.storbinary(f"STOR {targetFilename}", file, blocksize=1024*1024)
+
+    # send QUIT command to the FTP server and close the connection
+    ftp.quit()
+
+    # check if upload is success using the return code (retCode)
+    if retCode.startswith('226'):
+        isUploadSuccess = True
+
+    # return the upload status
+    return isUploadSuccess
+
+
+# connection parameters
+ftpHost = 'localhost'
+ftpPort = 21
+ftpUname = 'uname'
+ftpPass = 'pass'
+fnames = uploadFileToFtp(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
+```
+* This function can be copied and used directly in your projects
+* We can modify this function to for uploading multiple files into the FTP server using a `for` loop inside the function
+* 
 ### References
 * Official ftplib documentation - https://docs.python.org/3/library/ftplib.html
 
@@ -159,8 +211,8 @@ fnames = uploadFileToFtp(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5NTMzMjkwLC0xNDE4MDYwOTUyLDMxMz
-Y2MTY5Miw4OTQxMDczNzAsLTE3MDk1MDY2MjcsLTExMjgzOTUw
-MzcsLTE5NDYxODgwODgsMjAyMDY4NTYwMCw3ODk0NDQ3NjNdfQ
-==
+eyJoaXN0b3J5IjpbOTY3NjU0Nzk5LDMyOTUzMzI5MCwtMTQxOD
+A2MDk1MiwzMTM2NjE2OTIsODk0MTA3MzcwLC0xNzA5NTA2NjI3
+LC0xMTI4Mzk1MDM3LC0xOTQ2MTg4MDg4LDIwMjA2ODU2MDAsNz
+g5NDQ0NzYzXX0=
 -->
