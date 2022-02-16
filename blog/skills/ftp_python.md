@@ -251,26 +251,28 @@ print("download status = {0}".format(isDownloadSuccess))
 ## Other important FTP actions
 All the important python ftp functions for directory listing, rename, delete file, delete folder, create folder, get the size of files etc. can be found at https://docs.python.org/3/library/ftplib.html#ftplib.FTP.dir
 
-**FTP.dir(argument[, ...])**
+**ftp.dir(argument[, ...])**
 Produce a directory listing as returned by the LIST command, printing it to standard output. The optional argument is a directory to list (default is the current server directory). Multiple arguments can be used to pass non-standard options to the LIST command. If the last argument is a function, it is used as a callback function as for retrlines(); the default prints to sys.stdout. This method returns None.
 
-**FTP.rename(fromname, toname)**
+**ftp.rename(fromname, toname)**
 Rename file fromname on the server to toname.
 
-**FTP.delete(filename)**
+**ftp.delete(filename)**
 Remove the file named filename from the server. If successful, returns the text of the response, otherwise raises error_perm on permission errors or error_reply on other errors.
 
-**FTP.cwd(pathname)**
+**ftp.cwd(pathname)**
 Set the current directory on the server.
 
-**FTP.mkd(pathname)**
+**ftp.mkd(pathname)**
 Create a new directory on the server.
 
+**ftp.pwd()**
+Return the pathname of the current directory on the server.
 
-**#### FTP.rmd(dirname)
+**ftp.rmd(dirname)**
 Remove the directory named dirname on the server.
 
-#### FTP.size(filename)
+**ftp.size(filename)**
 Request the size of the file named filename on the server. On success, the size of the file is returned as an integer, otherwise None is returned. Note that the SIZE command is not standardized, but is supported by many common server implementations.
 
 ### References
@@ -285,11 +287,11 @@ Request the size of the file named filename on the server. On success, the size 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODAxNjkyLC0xODIxNTYwMzE2LDExMT
-Q4Njg1MzEsMTE1NjUwOTUsODQ0MjM4NDAxLC0zNDY0NzkyNzcs
-LTEwNzEwNTI4NzAsLTgxMTU2OTI2MCwtMTU3MzE3MTEyLC0yOD
-E1NDMzMDUsMjA4NDgwNDA0NiwzMjk1MzMyOTAsLTE0MTgwNjA5
-NTIsMzEzNjYxNjkyLDg5NDEwNzM3MCwtMTcwOTUwNjYyNywtMT
-EyODM5NTAzNywtMTk0NjE4ODA4OCwyMDIwNjg1NjAwLDc4OTQ0
-NDc2M119
+eyJoaXN0b3J5IjpbMTk5ODg5MjExOCwtMTgyMTU2MDMxNiwxMT
+E0ODY4NTMxLDExNTY1MDk1LDg0NDIzODQwMSwtMzQ2NDc5Mjc3
+LC0xMDcxMDUyODcwLC04MTE1NjkyNjAsLTE1NzMxNzExMiwtMj
+gxNTQzMzA1LDIwODQ4MDQwNDYsMzI5NTMzMjkwLC0xNDE4MDYw
+OTUyLDMxMzY2MTY5Miw4OTQxMDczNzAsLTE3MDk1MDY2MjcsLT
+ExMjgzOTUwMzcsLTE5NDYxODgwODgsMjAyMDY4NTYwMCw3ODk0
+NDQ3NjNdfQ==
 -->
