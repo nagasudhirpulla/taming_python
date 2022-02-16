@@ -15,6 +15,7 @@ The following parameters are required to establish a connection to an FTP server
 * username
 * password
 
+### Without SSL
 ```python
 import ftplib
 
@@ -26,6 +27,32 @@ ftpPass = 'pass'
 
 # create an FTP client instance, use the timeout(seconds) parameter for slow connections only
 ftp = ftplib.FTP(timeout=30)
+
+# connect to the FTP server
+ftp.connect(ftpHost, ftpPort)
+
+# login to the FTP server
+ftp.login(ftpUname, ftpPass)
+
+# do something with the ftp client like upload, download etc
+
+# send QUIT command to the FTP server and close the connection
+ftp.quit()
+print("execution complete...")
+```
+
+### With SSL
+```python
+import ftplib
+
+# connection parameters
+ftpHost = 'localhost'
+ftpPort = 21
+ftpUname = 'uname'
+ftpPass = 'pass'
+
+# create an FTP client instance, use the timeout(seconds) parameter for slow connections only
+ftp = ftplib.FTP_TLS(timeout=30)
 
 # connect to the FTP server
 ftp.connect(ftpHost, ftpPort)
@@ -217,8 +244,8 @@ print("download status = {0}".format(isDownloadSuccess))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTU0MzMwNSwyMDg0ODA0MDQ2LDMyOT
-UzMzI5MCwtMTQxODA2MDk1MiwzMTM2NjE2OTIsODk0MTA3Mzcw
-LC0xNzA5NTA2NjI3LC0xMTI4Mzk1MDM3LC0xOTQ2MTg4MDg4LD
-IwMjA2ODU2MDAsNzg5NDQ0NzYzXX0=
+eyJoaXN0b3J5IjpbLTU3MTc4NDE5NSwtMjgxNTQzMzA1LDIwOD
+Q4MDQwNDYsMzI5NTMzMjkwLC0xNDE4MDYwOTUyLDMxMzY2MTY5
+Miw4OTQxMDczNzAsLTE3MDk1MDY2MjcsLTExMjgzOTUwMzcsLT
+E5NDYxODgwODgsMjAyMDY4NTYwMCw3ODk0NDQ3NjNdfQ==
 -->
