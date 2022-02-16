@@ -172,14 +172,14 @@ def uploadFileToFtp(localFilePath, ftpHost, ftpPort, ftpUname, ftpPass, remoteWo
 # connection parameters
 ftpHost = 'localhost'
 ftpPort = 21
-ftpUname = 'Nagasudhir'
-ftpPass = 'wrldc@123'
+ftpUname = 'uname'
+ftpPass = 'pass'
 localFile = 'test.txt'
 
 # upload file
-fnames = uploadFileToFtp(localFile, ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
+isUploadSuccess = uploadFileToFtp(localFile, ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
 
-print("execution complete...")
+print("upload status = {0}".format(isUploadSuccess))
 ```
 * This function can be copied and used directly in your projects
 * We can modify this function to for uploading multiple files into the FTP server using a `for` loop inside the function
@@ -253,9 +253,9 @@ print("download status = {0}".format(isDownloadSuccess))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTU2OTI2MCwtMTU3MzE3MTEyLC0yOD
-E1NDMzMDUsMjA4NDgwNDA0NiwzMjk1MzMyOTAsLTE0MTgwNjA5
-NTIsMzEzNjYxNjkyLDg5NDEwNzM3MCwtMTcwOTUwNjYyNywtMT
-EyODM5NTAzNywtMTk0NjE4ODA4OCwyMDIwNjg1NjAwLDc4OTQ0
-NDc2M119
+eyJoaXN0b3J5IjpbMzQ2NjI5ODg0LC04MTE1NjkyNjAsLTE1Nz
+MxNzExMiwtMjgxNTQzMzA1LDIwODQ4MDQwNDYsMzI5NTMzMjkw
+LC0xNDE4MDYwOTUyLDMxMzY2MTY5Miw4OTQxMDczNzAsLTE3MD
+k1MDY2MjcsLTExMjgzOTUwMzcsLTE5NDYxODgwODgsMjAyMDY4
+NTYwMCw3ODk0NDQ3NjNdfQ==
 -->
