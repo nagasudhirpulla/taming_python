@@ -249,7 +249,7 @@ print("download status = {0}".format(isDownloadSuccess))
 * We can modify this function as per our requirements like specifying local filenames etc.
 
 ## Other important FTP actions
-
+All the important python ftp functions for directory listing, rename, delete file, delete folder, create folder, get the s 
 
 ### References
 * Official ftplib documentation - https://docs.python.org/3/library/ftplib.html
@@ -263,7 +263,7 @@ print("download status = {0}".format(isDownloadSuccess))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTAwMjIwNDAsODQ0MjM4NDAxLC0zND
+eyJoaXN0b3J5IjpbLTEwNzgzMDg0NzMsODQ0MjM4NDAxLC0zND
 Y0NzkyNzcsLTEwNzEwNTI4NzAsLTgxMTU2OTI2MCwtMTU3MzE3
 MTEyLC0yODE1NDMzMDUsMjA4NDgwNDA0NiwzMjk1MzMyOTAsLT
 E0MTgwNjA5NTIsMzEzNjYxNjkyLDg5NDEwNzM3MCwtMTcwOTUw
