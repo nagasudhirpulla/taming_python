@@ -134,7 +134,7 @@ In the below python script, we have created a function that uploads a local file
 import ftplib
 import os
 
-def uploadFileToFtp(localFilePath, ftpHost, ftpUname, ftpPass, remoteWorkingDirectory):
+def uploadFileToFtp(localFilePath, ftpHost, ftpPort, ftpUname, ftpPass, remoteWorkingDirectory):
     # initialize the flag that specifies if upload is success
     isUploadSuccess: bool = False
 
@@ -145,7 +145,7 @@ def uploadFileToFtp(localFilePath, ftpHost, ftpUname, ftpPass, remoteWorkingDire
     ftp = ftplib.FTP(timeout=30)
 
     # connect to the FTP server
-    ftp.connect(ftpHost, 21)
+    ftp.connect(ftpHost, ftpPort)
 
     # login to the FTP server
     ftp.login(ftpUname, ftpPass)
@@ -169,13 +169,17 @@ def uploadFileToFtp(localFilePath, ftpHost, ftpUname, ftpPass, remoteWorkingDire
     # return the upload status
     return isUploadSuccess
 
-
 # connection parameters
 ftpHost = 'localhost'
 ftpPort = 21
-ftpUname = 'uname'
-ftpPass = 'pass'
-fnames = uploadFileToFtp(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
+ftpUname = 'Nagasudhir'
+ftpPass = 'wrldc@123'
+localFile = 'test.txt'
+
+# upload file
+fnames = uploadFileToFtp(localFile, ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
+
+print("execution complete...")
 ```
 * This function can be copied and used directly in your projects
 * We can modify this function to for uploading multiple files into the FTP server using a `for` loop inside the function
@@ -249,8 +253,9 @@ print("download status = {0}".format(isDownloadSuccess))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzMxNzExMiwtMjgxNTQzMzA1LDIwOD
-Q4MDQwNDYsMzI5NTMzMjkwLC0xNDE4MDYwOTUyLDMxMzY2MTY5
-Miw4OTQxMDczNzAsLTE3MDk1MDY2MjcsLTExMjgzOTUwMzcsLT
-E5NDYxODgwODgsMjAyMDY4NTYwMCw3ODk0NDQ3NjNdfQ==
+eyJoaXN0b3J5IjpbLTgxMTU2OTI2MCwtMTU3MzE3MTEyLC0yOD
+E1NDMzMDUsMjA4NDgwNDA0NiwzMjk1MzMyOTAsLTE0MTgwNjA5
+NTIsMzEzNjYxNjkyLDg5NDEwNzM3MCwtMTcwOTUwNjYyNywtMT
+EyODM5NTAzNywtMTk0NjE4ODA4OCwyMDIwNjg1NjAwLDc4OTQ0
+NDc2M119
 -->
