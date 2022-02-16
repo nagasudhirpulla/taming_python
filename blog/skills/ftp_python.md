@@ -248,6 +248,9 @@ print("download status = {0}".format(isDownloadSuccess))
 * This function can be copied and used directly in your projects
 * We can modify this function as per our requirements like specifying local filenames etc.
 
+## Other important FTP actions
+
+
 ### References
 * Official ftplib documentation - https://docs.python.org/3/library/ftplib.html
 
@@ -260,10 +263,10 @@ print("download status = {0}".format(isDownloadSuccess))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0MjM4NDAxLC0zNDY0NzkyNzcsLTEwNz
-EwNTI4NzAsLTgxMTU2OTI2MCwtMTU3MzE3MTEyLC0yODE1NDMz
-MDUsMjA4NDgwNDA0NiwzMjk1MzMyOTAsLTE0MTgwNjA5NTIsMz
-EzNjYxNjkyLDg5NDEwNzM3MCwtMTcwOTUwNjYyNywtMTEyODM5
-NTAzNywtMTk0NjE4ODA4OCwyMDIwNjg1NjAwLDc4OTQ0NDc2M1
-19
+eyJoaXN0b3J5IjpbLTEzNTAwMjIwNDAsODQ0MjM4NDAxLC0zND
+Y0NzkyNzcsLTEwNzEwNTI4NzAsLTgxMTU2OTI2MCwtMTU3MzE3
+MTEyLC0yODE1NDMzMDUsMjA4NDgwNDA0NiwzMjk1MzMyOTAsLT
+E0MTgwNjA5NTIsMzEzNjYxNjkyLDg5NDEwNzM3MCwtMTcwOTUw
+NjYyNywtMTEyODM5NTAzNywtMTk0NjE4ODA4OCwyMDIwNjg1Nj
+AwLDc4OTQ0NDc2M119
 -->
