@@ -276,9 +276,9 @@ Remove the directory named dirname on the server.
 Request the size of the file named filename on the server. On success, the size of the file is returned as an integer, otherwise None is returned. Note that the SIZE command is not standardized, but is supported by many common server implementations.
 
 ### Video
-Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
+Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6gHlAfviiPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ME37cs7R0N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
 * Official ftplib documentation - https://docs.python.org/3/library/ftplib.html
@@ -292,11 +292,11 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxOTY1NDQ2LC0xMDAwNDc1NTY1LDE5OT
-g4OTIxMTgsLTE4MjE1NjAzMTYsMTExNDg2ODUzMSwxMTU2NTA5
-NSw4NDQyMzg0MDEsLTM0NjQ3OTI3NywtMTA3MTA1Mjg3MCwtOD
-ExNTY5MjYwLC0xNTczMTcxMTIsLTI4MTU0MzMwNSwyMDg0ODA0
-MDQ2LDMyOTUzMzI5MCwtMTQxODA2MDk1MiwzMTM2NjE2OTIsOD
-k0MTA3MzcwLC0xNzA5NTA2NjI3LC0xMTI4Mzk1MDM3LC0xOTQ2
-MTg4MDg4XX0=
+eyJoaXN0b3J5IjpbMTc0NjA4MDYsLTEwMDA0NzU1NjUsMTk5OD
+g5MjExOCwtMTgyMTU2MDMxNiwxMTE0ODY4NTMxLDExNTY1MDk1
+LDg0NDIzODQwMSwtMzQ2NDc5Mjc3LC0xMDcxMDUyODcwLC04MT
+E1NjkyNjAsLTE1NzMxNzExMiwtMjgxNTQzMzA1LDIwODQ4MDQw
+NDYsMzI5NTMzMjkwLC0xNDE4MDYwOTUyLDMxMzY2MTY5Miw4OT
+QxMDczNzAsLTE3MDk1MDY2MjcsLTExMjgzOTUwMzcsLTE5NDYx
+ODgwODhdfQ==
 -->
