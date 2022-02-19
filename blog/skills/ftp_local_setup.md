@@ -59,6 +59,7 @@
 
 ### Video
 Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6gHlAfviiPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr/>
@@ -69,8 +70,9 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODg2MzI0NywtMTMzNzM1MjM5OCwxOT
-cyMDAxNDI2LC0xNzc5NDA1MjMyLC01MzkxNTg0NTEsMTkyMDA1
-ODU0MCwxOTIwMDU4NTQwLDY4OTA1Njg5NCwtMTczMjE3NjIwNC
-w5OTQ0OTc5MjksLTIyODA4MDE5NiwzNTcxNzY5MzBdfQ==
+eyJoaXN0b3J5IjpbMTAyOTU2OTY5NSwtNDc4ODYzMjQ3LC0xMz
+M3MzUyMzk4LDE5NzIwMDE0MjYsLTE3Nzk0MDUyMzIsLTUzOTE1
+ODQ1MSwxOTIwMDU4NTQwLDE5MjAwNTg1NDAsNjg5MDU2ODk0LC
+0xNzMyMTc2MjA0LDk5NDQ5NzkyOSwtMjI4MDgwMTk2LDM1NzE3
+NjkzMF19
 -->
