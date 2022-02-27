@@ -1,4 +1,3 @@
-
 ## Skill - Setup SFTP server and SFTP client in Windows using OpenSSH server and WinSCP
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -70,5 +69,5 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3NjI1ODRdfQ==
+eyJoaXN0b3J5IjpbMTc1MTQzMzQ1MF19
 -->
