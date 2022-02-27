@@ -7,8 +7,7 @@
 * In this post we will try to setup an SFTP server using OpenSSH server and setup FTP client using WinSCP
 
 ## Setup SFTP server using OpenSSH zip file in any Windows version 
-### Option 1 - Setup FTP server using IIS in windows
-#### Step 1 - Enable IIS ftp server feature
+#### Step 1 - Download zip file from github
 * In windows search for "Turn Windows features On or Off" 
 * Under the "Internet Information Services" section, make sure that "FTP Service" and "IIS Management Console" are enabled
 
@@ -69,5 +68,5 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzgyODM4Nl19
+eyJoaXN0b3J5IjpbLTMxNTM3MTM4NF19
 -->
