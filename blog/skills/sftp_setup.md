@@ -23,7 +23,6 @@ TODO windows background services image
 * Now SFTP server accepts connections using username and password authentication
 
 
-
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
 * Run the downloaded executable file and complete the installation
@@ -53,5 +52,6 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDMzODcyLC0xMDA3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbNjQyNDI4MjI2LC0xMjAzMzg3MiwtMTAwNz
+A1MjY0N119
 -->
