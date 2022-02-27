@@ -18,8 +18,8 @@ TODO Folder Image
 `powershell.exe -ExecutionPolicy Bypass -File install-sshd.ps1`
 TODO command execution image
 * Now the `sshd` and `ssh-agent` windows services should be installed. This can be seen in the `services.msc` window
+* Change the startup type to Automatic from Manual and start both the `sshd` and `sshd-agent` services. Since we have set the startup type as automatic, both the services will start automatically upon system startup.
 TODO windows background services image
-* Change the startup type to Automatic from Manual and start both the `sshd` and `sshd-agent` services. Since we have set the startup type as automatic, both the services will start automatically upon system startup
 
 ![iis_ftp_minimum_windows_features](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_ftp_minimum_windows_features.PNG)
 #### Step 2 - Create an FTP site in IIS
@@ -78,5 +78,5 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzNDUxMjM5LC0xMDA3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbMTgyODQzNTIxNywtMTAwNzA1MjY0N119
 -->
