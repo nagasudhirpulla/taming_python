@@ -7,7 +7,6 @@
 * In this post we will try to setup an SFTP server using OpenSSH server and setup FTP client using WinSCP
 
 ## Setup SFTP server using OpenSSH zip file in any Windows version 
-#### Step 1 - Download zip file from GitHub
 * Goto https://github.com/PowerShell/Win32-OpenSSH/releases
 * Download the OpenSSH-Win64.zip file from the latest release
 * Extract the zip file contents to the folder `C:\Program Files\OpenSSH`
@@ -22,35 +21,9 @@ TODO command execution image
 TODO windows background services image
 * Create the appropriate firewall policy to expose the sftp port 22 to local or remote systems if required
 
-![iis_ftp_minimum_windows_features](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_ftp_minimum_windows_features.PNG)
-#### Step 2 - Create an FTP site in IIS
-* Right click on "Sites" and click "Add FTP site"
-* Enter a name and select the physical path to host in the FTP server and click next
-![iis_add_ftp_site_1](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_add_ftp_site_1.PNG)
-* Select SSL certificate if required and click next
-![iis_add_ftp_site_2](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_add_ftp_site_2.PNG)
-* Select Authentication as Basic, select allow access to all users or specific users and select both read and write permissions and click finish
-![iis_add_ftp_site_3](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_add_ftp_site_3.PNG)
-* Now FTP server is setup
-* You can start/stop the ftp server by right clicking on the site in the Sites section
-![iis_add_ftp_site_4](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_add_ftp_site_4.PNG)
-* You can change setting like authentication, authorization easily by double clicking on the FTP site under the Sites section in left pane 
 
-### Option 2 - Setup FTP server using Filezilla Server
-* Download Filezilla server at https://filezilla-project.org/download.php?type=server
-* Run the executable and complete the installation. While installation, set the server administration password and remember the server administration port
-* After installation search for the application "Administer Filezilla server" and click "Connect to Filezilla FTP Server"
-* Enter the host, port and password click OK to connect to server
-![filezilla_server_admin_1](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/filezilla_server_admin_1.PNG)
-* In the top menu bar, open the Server->Configure menu
-![filezilla_server_admin_2](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/filezilla_server_admin_2.PNG)
-* You can check the port bindings of the FTP server in the FTP Server left menu
-![filezilla_server_admin_3](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/filezilla_server_admin_3.PNG) 
-* In the Users left pane section, add a user, configure the virtual and native path for that user and set read and write access permissions for that user. Example Virtual path can be "/" and example Native path can be "C:\Users\xyz\Downloads\ftpFolder"
-![filezilla_server_admin_4](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/filezilla_server_admin_4.PNG)
-* Now the ftp server along with user logins is setup
 
-## Setup FTP client in windows using WinSCP
+## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
 * Run the downloaded executable file and complete the installation
 * Open WinSCP app
@@ -79,5 +52,5 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwNzIyMTA4LC0xMDA3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbNjYwOTg5NzQ4LC0xMDA3MDUyNjQ3XX0=
 -->
