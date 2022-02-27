@@ -8,7 +8,8 @@
 
 ## Setup SFTP server using OpenSSH zip file in any Windows version 
 #### Step 1 - Download zip file from GitHub
-* In windows search for "Turn Windows features On or Off" 
+* Goto https://github.com/PowerShell/Win32-OpenSSH/releases
+* Download the OpenSSH-Win64.zip file from the latest release
 * Under the "Internet Information Services" section, make sure that "FTP Service" and "IIS Management Console" are enabled
 
 ![iis_ftp_minimum_windows_features](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_ftp_minimum_windows_features.PNG)
@@ -68,5 +69,5 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzEyNjY2NF19
+eyJoaXN0b3J5IjpbLTE0ODM1NTg1NTVdfQ==
 -->
