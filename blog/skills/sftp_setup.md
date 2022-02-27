@@ -11,10 +11,14 @@
 * Goto https://github.com/PowerShell/Win32-OpenSSH/releases
 * Download the OpenSSH-Win64.zip file from the latest release
 * Extract the zip file contents to the folder `C:\Program Files\OpenSSH`
+TODO Folder Image
 * Open a command prompt as Administrator and use the following command to change to openssh directory 
 `cd "C:\Program Files\OpenSSH"`
-* Run  the following command to install the `sshd` and `ssh-agent` windows services
+* Run  the following command
 `powershell.exe -ExecutionPolicy Bypass -File install-sshd.ps1`
+* Now the `sshd` and `ssh-agent` windows services should be installed
+TODO command execution image
+TODO windows background services image
 
 ![iis_ftp_minimum_windows_features](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_ftp_minimum_windows_features.PNG)
 #### Step 2 - Create an FTP site in IIS
@@ -73,5 +77,5 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjMzMzk4MywtMTAwNzA1MjY0N119
+eyJoaXN0b3J5IjpbMTYzNTUwMjQyMiwtMTAwNzA1MjY0N119
 -->
