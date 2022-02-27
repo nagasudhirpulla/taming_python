@@ -11,7 +11,7 @@
 * Goto https://github.com/PowerShell/Win32-OpenSSH/releases
 * Download the OpenSSH-Win64.zip file from the latest release
 * Extract the zip file contents to the folder `C:\Program Files\OpenSSH`
-* 
+* Open a command prompt as Admi
 
 ![iis_ftp_minimum_windows_features](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_ftp_minimum_windows_features.PNG)
 #### Step 2 - Create an FTP site in IIS
@@ -59,7 +59,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 ### References
 * OpenSSH SFTP server installation guide - https://winscp.net/eng/docs/guide_windows_openssh_server
-* OpenSSH SFTP server officualk
+* OpenSSH SFTP server official installation guide - https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
 * WinSCP - https://winscp.net/eng/download.php
 
 <hr/>
@@ -70,6 +70,5 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDc2MjU3NDgsLTEwMDcwNTI2NDddfQ
-==
+eyJoaXN0b3J5IjpbLTY0OTcxOTQwMCwtMTAwNzA1MjY0N119
 -->
