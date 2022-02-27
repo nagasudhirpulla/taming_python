@@ -11,6 +11,7 @@
 * Goto https://github.com/PowerShell/Win32-OpenSSH/releases
 * Download the OpenSSH-Win64.zip file from the latest release
 * Extract the zip file contents to the folder `C:\Program Files\OpenSSH`
+* 
 
 ![iis_ftp_minimum_windows_features](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_ftp_minimum_windows_features.PNG)
 #### Step 2 - Create an FTP site in IIS
@@ -51,10 +52,7 @@
 * We can copy,paste,rename,delete the ftp server files just like file explorer
 ![winscp_ui](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/winscp_ui.PNG)
  
-### References
-* IIS FTP server setup - https://winscp.net/eng/docs/guide_windows_ftps_server
-* Filezilla server - https://filezilla-project.org/download.php?type=server
-* WinSCP - https://winscp.net/eng/download.php
+
 
 ### Video
 Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
@@ -69,5 +67,6 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDcwNTI2NDddfQ==
+eyJoaXN0b3J5IjpbLTE3MjM0NDE5OTIsLTEwMDcwNTI2NDddfQ
+==
 -->
