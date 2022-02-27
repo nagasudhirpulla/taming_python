@@ -20,6 +20,7 @@ TODO command execution image
 * Change the startup type to Automatic from Manual and start both the `sshd` and `sshd-agent` services. Since we have set the startup type as automatic, both the services will start automatically upon system startup.
 TODO windows background services image
 * Create the appropriate firewall policy to expose the sftp port 22 to local or remote systems if required
+* Now SFTP server accepts connections using username and password authentication
 
 
 
@@ -52,5 +53,5 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwOTg5NzQ4LC0xMDA3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbLTEyMDMzODcyLC0xMDA3MDUyNjQ3XX0=
 -->
