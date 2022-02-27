@@ -1,12 +1,11 @@
 
-## Skill - Setup FTP server and FTP client in Windows using IIS, Filezilla server and WinSCP
+## Skill - Setup SFTP server and SFTP client in Windows using OpenSSH server and WinSCP
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <hr/>
 
-* In this post we will try to setup a local FTP server using IIS or Filezilla server and setup FTP client using WinSCP
-* Sometimes, we might want to test our code with out production FTP server using a local FTP server. This can be a use case for setting up a local FTP server and client
+* In this post we will try to setup an SFTP server using OpenSSH server and setup FTP client using WinSCP
 
 ## Setup FTP server
 ### Option 1 - Setup FTP server using IIS in windows
@@ -71,5 +70,5 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzkzNjA3N119
+eyJoaXN0b3J5IjpbOTM3NjI1ODRdfQ==
 -->
