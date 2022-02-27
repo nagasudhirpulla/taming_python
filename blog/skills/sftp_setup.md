@@ -10,7 +10,7 @@
 #### Step 1 - Download zip file from GitHub
 * Goto https://github.com/PowerShell/Win32-OpenSSH/releases
 * Download the OpenSSH-Win64.zip file from the latest release
-* Under the "Internet Information Services" section, make sure that "FTP Service" and "IIS Management Console" are enabled
+* Extract the zip file contents to the folder `C:\Program Files\OpenSSH`
 
 ![iis_ftp_minimum_windows_features](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/iis_ftp_minimum_windows_features.PNG)
 #### Step 2 - Create an FTP site in IIS
@@ -69,5 +69,5 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODM1NTg1NTVdfQ==
+eyJoaXN0b3J5IjpbLTEwMDcwNTI2NDddfQ==
 -->
