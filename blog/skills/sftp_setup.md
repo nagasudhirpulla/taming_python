@@ -52,12 +52,15 @@
 * We can copy,paste,rename,delete the ftp server files just like file explorer
 ![winscp_ui](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/winscp_ui.PNG)
  
-
-
 ### Video
 Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6gHlAfviiPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### References
+* OpenSSH SFTP server installation guide - https://winscp.net/eng/docs/guide_windows_openssh_server
+* OpenSSH SFTP server officualk
+* WinSCP - https://winscp.net/eng/download.php
 
 <hr/>
 
@@ -67,6 +70,6 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjM0NDE5OTIsLTEwMDcwNTI2NDddfQ
+eyJoaXN0b3J5IjpbLTE5NDc2MjU3NDgsLTEwMDcwNTI2NDddfQ
 ==
 -->
