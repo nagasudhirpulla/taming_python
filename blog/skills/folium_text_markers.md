@@ -51,6 +51,8 @@ mapObj.save('output.html')
 ```
 
 ![folium_divicon_demo](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/folium_divicon_demo.PNG)
+### Text that reacts to map zoom
+If we want to change the font size of the text based on the map zooming, we can use the map event 'zoome'  
 ### Video
 The video for this post can be found [here](https://youtu.be/yo58hzXeNBU)
 
@@ -59,7 +61,8 @@ The video for this post can be found [here](https://youtu.be/yo58hzXeNBU)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MjkzNDk4NiwtMTMyMjc0NDEwNiwxMz
-U4MDQyMjU0LC0yMDQzNjIxNTY1LC0xOTQ2Mzk4ODQ2LDE1Nzcx
-ODEwMjYsMTM1MTkxNjczMywxMjg2Mjk2NTAwXX0=
+eyJoaXN0b3J5IjpbMTA4NDc2MjM5NywtNjgyOTM0OTg2LC0xMz
+IyNzQ0MTA2LDEzNTgwNDIyNTQsLTIwNDM2MjE1NjUsLTE5NDYz
+OTg4NDYsMTU3NzE4MTAyNiwxMzUxOTE2NzMzLDEyODYyOTY1MD
+BdfQ==
 -->
