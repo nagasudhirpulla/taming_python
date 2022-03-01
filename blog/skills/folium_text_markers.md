@@ -82,14 +82,14 @@ injHtml = """
     color:red;
 }
 </style>
-<script type="text/javascript">
-window.onload = function(){
+<script>
 var sizeFromZoom = function(z){return (0.5*z)+"em";}
+window.onload = function(){
 $('.mapText').css('font-size', sizeFromZoom({mapJsVar}.getZoom()));
 {mapJsVar}.on('zoomend', function () {
-    var zoomLevel = {mapJsVar}.getZoom();
-    var tooltip = $('.mapText');
-    tooltip.css('font-size', sizeFromZoom(zoomLevel));
+    var mapZoom = {mapJsVar}.getZoom();
+    var textEl = $('.mapText');
+    textEl.css('font-size', sizeFromZoom(mapZoom));
 });
 }
 </script>
@@ -109,8 +109,8 @@ The video for this post can be found [here](https://youtu.be/yo58hzXeNBU)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3NjU5ODM4LDE3NjMzOTMyMzAsLTY4Mj
-kzNDk4NiwtMTMyMjc0NDEwNiwxMzU4MDQyMjU0LC0yMDQzNjIx
-NTY1LC0xOTQ2Mzk4ODQ2LDE1NzcxODEwMjYsMTM1MTkxNjczMy
-wxMjg2Mjk2NTAwXX0=
+eyJoaXN0b3J5IjpbLTYwNzU4MzUyMCw3Nzc2NTk4MzgsMTc2Mz
+M5MzIzMCwtNjgyOTM0OTg2LC0xMzIyNzQ0MTA2LDEzNTgwNDIy
+NTQsLTIwNDM2MjE1NjUsLTE5NDYzOTg4NDYsMTU3NzE4MTAyNi
+wxMzUxOTE2NzMzLDEyODYyOTY1MDBdfQ==
 -->
