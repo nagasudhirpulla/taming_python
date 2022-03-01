@@ -54,7 +54,8 @@ mapObj.save('output.html')
 ### Text that reacts to map zoom
 * If we want to change the font size of the text based on the map zooming, we can create an event handler based on the map `zoomend` event to update the text font size based on the map zoom level.
 * This behavior has to be injected as JavaScript in the output HTML file
-* For attaching the event handler to the map object, the JavaScript variable name of map object is required. We can get the JavaScript map object variable
+* For attaching the event handler to the map object, the JavaScript variable name of map object is required. We can get the JavaScript map object variable name in python using `mapObj.get_name()`
+* The JavaScript variable name can be derived in python and used in the injected JavaScript code
   
 ### Video
 The video for this post can be found [here](https://youtu.be/yo58hzXeNBU)
@@ -64,8 +65,8 @@ The video for this post can be found [here](https://youtu.be/yo58hzXeNBU)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MDA0NDMzLC02ODI5MzQ5ODYsLTEzMj
-I3NDQxMDYsMTM1ODA0MjI1NCwtMjA0MzYyMTU2NSwtMTk0NjM5
-ODg0NiwxNTc3MTgxMDI2LDEzNTE5MTY3MzMsMTI4NjI5NjUwMF
-19
+eyJoaXN0b3J5IjpbLTE0MzQ3NTAyNjcsLTY4MjkzNDk4NiwtMT
+MyMjc0NDEwNiwxMzU4MDQyMjU0LC0yMDQzNjIxNTY1LC0xOTQ2
+Mzk4ODQ2LDE1NzcxODEwMjYsMTM1MTkxNjczMywxMjg2Mjk2NT
+AwXX0=
 -->
