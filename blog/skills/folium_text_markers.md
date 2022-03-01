@@ -56,7 +56,35 @@ mapObj.save('output.html')
 * This behavior has to be injected as JavaScript in the output HTML file
 * For attaching the event handler to the map object, the JavaScript variable name of map object is required. We can get the JavaScript map object variable name in python using `mapObj.get_name()`
 * The JavaScript variable name can be derived in python and used in the injected JavaScript code
-  
+
+```python
+# import folium library
+import folium
+
+mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
+                    zoom_start=5)
+
+folium.Marker(location=[24.2170111233401, 81.0791015625000],
+              popup=folium.Popup('<i>The center of map</i>'),
+              tooltip='Center',
+              icon=folium.DivIcon(html="""Hello World <b>ABCDEFG</b>""",
+                                  class_name="mapText"),
+              ).add_to(mapObj)
+
+# inject html into the map html
+mapObj.get_root().html.add_child(folium.Element("""
+<style>
+.mapText {
+    white-space: nowrap;
+    color:red;
+    font-size:large
+}
+</style>
+"""))
+
+mapObj.save('output.html')
+```
+
 ### Video
 The video for this post can be found [here](https://youtu.be/yo58hzXeNBU)
 
@@ -65,8 +93,8 @@ The video for this post can be found [here](https://youtu.be/yo58hzXeNBU)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQ3NTAyNjcsLTY4MjkzNDk4NiwtMT
-MyMjc0NDEwNiwxMzU4MDQyMjU0LC0yMDQzNjIxNTY1LC0xOTQ2
-Mzk4ODQ2LDE1NzcxODEwMjYsMTM1MTkxNjczMywxMjg2Mjk2NT
-AwXX0=
+eyJoaXN0b3J5IjpbMTc2MzM5MzIzMCwtNjgyOTM0OTg2LC0xMz
+IyNzQ0MTA2LDEzNTgwNDIyNTQsLTIwNDM2MjE1NjUsLTE5NDYz
+OTg4NDYsMTU3NzE4MTAyNiwxMzUxOTE2NzMzLDEyODYyOTY1MD
+BdfQ==
 -->
