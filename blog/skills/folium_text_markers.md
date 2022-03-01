@@ -67,22 +67,38 @@ mapObj = folium.Map(location=[24.2170111233401, 81.0791015625000],
 folium.Marker(location=[24.2170111233401, 81.0791015625000],
               popup=folium.Popup('<i>The center of map</i>'),
               tooltip='Center',
-              icon=folium.DivIcon(html="""Hello World <b>ABCDEFG</b>""",
+              icon=folium.DivIcon(html="""Hello World""",
                                   class_name="mapText"),
               ).add_to(mapObj)
 
+# get the javascript variable name of map object
+mapJsVar = mapObj.get_name()
+
 # inject html into the map html
-mapObj.get_root().html.add_child(folium.Element("""
+injHtml = """
 <style>
 .mapText {
     white-space: nowrap;
     color:red;
-    font-size:large
 }
 </style>
-"""))
+<script>
+window.onload = function(){
+var sizeFromZoom = function(z){return (0.5*z)+"em";}
+$('.mapText').css('font-size', sizeFromZoom({mapJsVar}.getZoom()));
+{mapJsVar}.on('zoomend', function () {
+    var zoomLevel = {mapJsVar}.getZoom();
+    var tooltip = $('.mapText');
+    tooltip.css('font-size', sizeFromZoom(zoomLevel));
+});
+}
+</script>
+"""
+mapObj.get_root().html.add_child(folium.Element(injHtml.replace("{mapJsVar}",mapJsVar)))
 
 mapObj.save('output.html')
+
+print("execution complete")
 ```
 
 ### Video
@@ -93,8 +109,8 @@ The video for this post can be found [here](https://youtu.be/yo58hzXeNBU)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MzM5MzIzMCwtNjgyOTM0OTg2LC0xMz
-IyNzQ0MTA2LDEzNTgwNDIyNTQsLTIwNDM2MjE1NjUsLTE5NDYz
-OTg4NDYsMTU3NzE4MTAyNiwxMzUxOTE2NzMzLDEyODYyOTY1MD
-BdfQ==
+eyJoaXN0b3J5IjpbLTEyMTEwMjYyNDQsMTc2MzM5MzIzMCwtNj
+gyOTM0OTg2LC0xMzIyNzQ0MTA2LDEzNTgwNDIyNTQsLTIwNDM2
+MjE1NjUsLTE5NDYzOTg4NDYsMTU3NzE4MTAyNiwxMzUxOTE2Nz
+MzLDEyODYyOTY1MDBdfQ==
 -->
