@@ -71,34 +71,33 @@ folium.Marker(location=[24.2170111233401, 81.0791015625000],
                                   class_name="mapText"),
               ).add_to(mapObj)
 
-# get the javascript variable name of map object
+# get map variable name in output html
 mapJsVar = mapObj.get_name()
 
 # inject html into the map html
-injHtml = """
+mapObj.get_root().html.add_child(folium.Element("""
 <style>
 .mapText {
     white-space: nowrap;
     color:red;
+    font-size:large
 }
 </style>
-<script>
-var sizeFromZoom = function(z){return (0.5*z)+"em";}
+<script type="text/javascript">
 window.onload = function(){
-$('.mapText').css('font-size', sizeFromZoom({mapJsVar}.getZoom()));
-{mapJsVar}.on('zoomend', function () {
-    var mapZoom = {mapJsVar}.getZoom();
-    var textEl = $('.mapText');
-    textEl.css('font-size', sizeFromZoom(mapZoom));
-});
+    var sizeFromZoom = function(z){return (0.5*z)+"em"}
+    var updateTextSizes = function(){
+        var mapZoom = {mapObj}.getZoom();
+        var txtSize = sizeFromZoom(mapZoom);
+        $(".mapText").css("font-size", txtSize);
+    }
+    updateTextSizes();
+    {mapObj}.on("zoomend", updateTextSizes);
 }
 </script>
-"""
-mapObj.get_root().html.add_child(folium.Element(injHtml.replace("{mapJsVar}",mapJsVar)))
+""".replace("{mapObj}", mapJsVar)))
 
 mapObj.save('output.html')
-
-print("execution complete")
 ```
 
 ### Video
@@ -109,8 +108,8 @@ The video for this post can be found [here](https://youtu.be/yo58hzXeNBU)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzU4MzUyMCw3Nzc2NTk4MzgsMTc2Mz
-M5MzIzMCwtNjgyOTM0OTg2LC0xMzIyNzQ0MTA2LDEzNTgwNDIy
-NTQsLTIwNDM2MjE1NjUsLTE5NDYzOTg4NDYsMTU3NzE4MTAyNi
-wxMzUxOTE2NzMzLDEyODYyOTY1MDBdfQ==
+eyJoaXN0b3J5IjpbMTY2OTYxMDAxMiwtNjA3NTgzNTIwLDc3Nz
+Y1OTgzOCwxNzYzMzkzMjMwLC02ODI5MzQ5ODYsLTEzMjI3NDQx
+MDYsMTM1ODA0MjI1NCwtMjA0MzYyMTU2NSwtMTk0NjM5ODg0Ni
+wxNTc3MTgxMDI2LDEzNTE5MTY3MzMsMTI4NjI5NjUwMF19
 -->
