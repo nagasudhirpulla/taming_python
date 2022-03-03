@@ -101,15 +101,18 @@ mapObj.save('output.html')
 ```
 
 ### Video
-The video for this post can be found [here](https://youtu.be/yo58hzXeNBU)
+The video for this post can be found [here](https://youtu.be/yo58hzXeNBU) and [here](https://youtu.be/xIHDZvZ0Gwg)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yo58hzXeNBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xIHDZvZ0Gwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTYxMDAxMiwtNjA3NTgzNTIwLDc3Nz
-Y1OTgzOCwxNzYzMzkzMjMwLC02ODI5MzQ5ODYsLTEzMjI3NDQx
-MDYsMTM1ODA0MjI1NCwtMjA0MzYyMTU2NSwtMTk0NjM5ODg0Ni
-wxNTc3MTgxMDI2LDEzNTE5MTY3MzMsMTI4NjI5NjUwMF19
+eyJoaXN0b3J5IjpbLTE2ODg0MTc4NzcsMTY2OTYxMDAxMiwtNj
+A3NTgzNTIwLDc3NzY1OTgzOCwxNzYzMzkzMjMwLC02ODI5MzQ5
+ODYsLTEzMjI3NDQxMDYsMTM1ODA0MjI1NCwtMjA0MzYyMTU2NS
+wtMTk0NjM5ODg0NiwxNTc3MTgxMDI2LDEzNTE5MTY3MzMsMTI4
+NjI5NjUwMF19
 -->
