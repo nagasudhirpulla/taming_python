@@ -44,8 +44,8 @@
 
 ## Setup private key based authentication in windows
 ### Step 1 - Create a public and private key pair
-#### Using ssh.exe in OpenSSH folder
-* 
+#### Using ssh-keygen.exe in OpenSSH folder
+* Inside the program files folder like  `C:\Program Files\OpenSSH` there will be an exe file named 
 #### Using puttygen.exe
 * Download puttygen.exe from https://www.puttygen.com/download-putty#Download_PuTTY_073_for_Windows
 * Run puttygen.exe, make sure the settings are as shown in the below image and click *Generate* button. Move the cursor over the blank area to generate randomness. Then the key generation process will be completed
@@ -82,7 +82,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTE5MjY1OCw3Njg0MjgwMzcsLTE4OD
-MzNDcxOTQsMjEwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMDMzODcy
-LC0xMDA3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbMTA1MzExMDA0LDc2ODQyODAzNywtMTg4Mz
+M0NzE5NCwyMTAzNjk4NzkxLDY0MjQyODIyNiwtMTIwMzM4NzIs
+LTEwMDcwNTI2NDddfQ==
 -->
