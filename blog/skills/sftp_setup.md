@@ -57,7 +57,7 @@
 #### Using puttygen.exe
 * Download puttygen.exe from https://www.puttygen.com/download-putty#Download_PuTTY_073_for_Windows
 * Run puttygen.exe, make sure the settings are as shown in the below image and click *Generate* button. Move the cursor over the blank area to generate randomness. Then the key generation process will be completed
-* Before clicking the Generate button, Key passphrase can be entered if we desire to password protect the gprivate key
+* Before clicking the Generate button, Key passphrase can be entered if we desire to password protect the generated private key
 * Click on the save public key and save private key buttons to save the public and private keys into files like `pblic_key` and `prv_key.ppk`
 * 
 ![puttygen](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/puttygen.PNG)
@@ -91,8 +91,8 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjczMDUzOSwyMTUwNTA5MTYsLTcyND
-QzODk4OSwtMTg2ODQ2MzIxMyw3Njg0MjgwMzcsLTE4ODMzNDcx
-OTQsMjEwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMDMzODcyLC0xMD
-A3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbMzgxODg1NjM5LDIxNTA1MDkxNiwtNzI0ND
+M4OTg5LC0xODY4NDYzMjEzLDc2ODQyODAzNywtMTg4MzM0NzE5
+NCwyMTAzNjk4NzkxLDY0MjQyODIyNiwtMTIwMzM4NzIsLTEwMD
+cwNTI2NDddfQ==
 -->
