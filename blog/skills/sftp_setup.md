@@ -84,7 +84,12 @@ icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Adm
 	* PasswordAuthentication no
 	* PermitEmptyPasswords no
 	* Subsystem sftp internal-sftp
-	* 
+* Comment out the lines at the end with a # as shown below
+```sh
+#Match Group administrators
+\
+# AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
+```
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -115,7 +120,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4MTMxNzAwLDk4MDMyNTYwMiwtMTU2Nz
+eyJoaXN0b3J5IjpbMjU3MjA4ODkzLDk4MDMyNTYwMiwtMTU2Nz
 Y2NDAzOSwtMTYwMDc3Mjg0MCwtNjE3Mzc3NTUxLDUzNDk5Mjkz
 NCwtMTUyNjQ2Mjg1OSwtMTQ4MjIzODEwMywxMDUwNzMwNTkzLC
 04NTMwODM4LC0xNTI1NjI2MzAyLDM4MTg4NTYzOSwyMTUwNTA5
