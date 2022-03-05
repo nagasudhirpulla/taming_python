@@ -68,7 +68,7 @@
 * Also note that `authorized_keys` file should **not** have any extension like .txt, .docx etc.
 
 ### Step 4 - Change the access control list (ACL) of the authorized_keys file in SFTP server
-* The access control list (ACL) of `authorized_keys` file should be configured such that only Administrators and System users should have the access to this file
+* The access control list (ACL) of `authorized_keys` file should be configured such that only `Administrators` and `System` users should have the access to this file
 * To achieve this, open a command prompt as administrator and run the following command
 ```bat
 icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Administrators:F" /grant "SYSTEM:F"
@@ -104,7 +104,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODQ1ODAzMywtNjE3Mzc3NTUxLDUzND
+eyJoaXN0b3J5IjpbMTE4NTY5MzkyMywtNjE3Mzc3NTUxLDUzND
 k5MjkzNCwtMTUyNjQ2Mjg1OSwtMTQ4MjIzODEwMywxMDUwNzMw
 NTkzLC04NTMwODM4LC0xNTI1NjI2MzAyLDM4MTg4NTYzOSwyMT
 UwNTA5MTYsLTcyNDQzODk4OSwtMTg2ODQ2MzIxMyw3Njg0Mjgw
