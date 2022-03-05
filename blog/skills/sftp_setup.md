@@ -43,7 +43,7 @@
 * Access of SFTP client can be easily revoked by just removing the client's public key from the authenticated list, without locking out or modifying the OS user account
 
 ## Setup private key based authentication in windows
-### Step 1 - Create a public and private key pair in the cle=int
+### Step 1 - Create a public and private key pair in the client
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -74,7 +74,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjE0ODIyLC0xODgzMzQ3MTk0LDIxMD
+eyJoaXN0b3J5IjpbNzA4MDg2NjMxLC0xODgzMzQ3MTk0LDIxMD
 M2OTg3OTEsNjQyNDI4MjI2LC0xMjAzMzg3MiwtMTAwNzA1MjY0
 N119
 -->
