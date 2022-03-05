@@ -35,7 +35,7 @@
 * To change the password of SFTP client, the OS user password is to be changed
 * User passwords of the OS are being transmitted over the network
 
-## Advantages of using private key based authentication in SFTP
+## Benifits of using private key based authentication in SFTP
 * This type of authentication is more robust and secure
 * SFTP client need not know the OS password
 * The private key can be changed easily from time to time without changing the User's OS password
@@ -72,7 +72,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjEyMzI2NTYsLTE4ODMzNDcxOTQsMj
-EwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMDMzODcyLC0xMDA3MDUy
-NjQ3XX0=
+eyJoaXN0b3J5IjpbOTIzMDg5NzUyLC0xODgzMzQ3MTk0LDIxMD
+M2OTg3OTEsNjQyNDI4MjI2LC0xMjAzMzg3MiwtMTAwNzA1MjY0
+N119
 -->
