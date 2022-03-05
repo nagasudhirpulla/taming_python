@@ -23,6 +23,7 @@
 * Now SFTP server accepts connections using username and password authentication
 
 ## Setup SFTP server in newer windows version
+* Click windows button and search for "manage optional features"
 * 
 
 ## Setup SFTP client in windows using WinSCP
@@ -54,6 +55,6 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTU1NTM1MjcsMjEwMzY5ODc5MSw2ND
-I0MjgyMjYsLTEyMDMzODcyLC0xMDA3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbMTc1MjA2NTUxMCwyMTAzNjk4NzkxLDY0Mj
+QyODIyNiwtMTIwMzM4NzIsLTEwMDcwNTI2NDddfQ==
 -->
