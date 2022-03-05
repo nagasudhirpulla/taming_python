@@ -37,7 +37,8 @@
 
 ## Advantages of using private key based authentication in SFTP
 * This type of authentication is more robust and secure
-* SFTP client n
+* SFTP client need not know the OS password
+* The private key can be changed easily from time to time without changing the User's OS password
 
 ## Setup private key based authentication in windows
 ### Step 1 - Create a public and private key pair in the 
@@ -71,7 +72,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMzc1ODU4MiwtMTg4MzM0NzE5NCwyMT
-AzNjk4NzkxLDY0MjQyODIyNiwtMTIwMzM4NzIsLTEwMDcwNTI2
-NDddfQ==
+eyJoaXN0b3J5IjpbLTEyMjEyMzI2NTYsLTE4ODMzNDcxOTQsMj
+EwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMDMzODcyLC0xMDA3MDUy
+NjQ3XX0=
 -->
