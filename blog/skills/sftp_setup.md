@@ -39,7 +39,7 @@
 * This type of authentication is more robust and secure
 * SFTP client need not know the OS password
 * The private key can be changed easily from time to time without changing the User's OS password
-* The access of SFTP client can be easily revoked by just removing the client's public key from the list
+* The access of SFTP client can be easily revoked by just removing the client's public key from the authenticated list, without locking out or modifying the OS user account
 
 ## Setup private key based authentication in windows
 ### Step 1 - Create a public and private key pair in the 
@@ -73,7 +73,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMzczNDEwMSwtMTg4MzM0NzE5NCwyMT
+eyJoaXN0b3J5IjpbMTYwMjk3MDYxMSwtMTg4MzM0NzE5NCwyMT
 AzNjk4NzkxLDY0MjQyODIyNiwtMTIwMzM4NzIsLTEwMDcwNTI2
 NDddfQ==
 -->
