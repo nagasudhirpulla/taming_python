@@ -111,7 +111,7 @@ Match User <username>
 	ForceCommand internal-sftp
 	PasswordAuthentication no
 ```
-* Due to `ChrootDirectory` used in sshd_config file, the SFTP user c
+* Due to `ChrootDirectory` used in sshd_config file, the SFTP user cannot navigate to any of the parent folders of `C:\Users\Nagasudhir\Pictures\Screenshots`
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -142,11 +142,11 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzYzMjcwNiwtNDAwNTcyNzM2LC0xMD
-E0NTU2MjQ4LDI5ODk0NDA3OCw5ODAzMjU2MDIsLTE1Njc2NjQw
-MzksLTE2MDA3NzI4NDAsLTYxNzM3NzU1MSw1MzQ5OTI5MzQsLT
-E1MjY0NjI4NTksLTE0ODIyMzgxMDMsMTA1MDczMDU5MywtODUz
-MDgzOCwtMTUyNTYyNjMwMiwzODE4ODU2MzksMjE1MDUwOTE2LC
-03MjQ0Mzg5ODksLTE4Njg0NjMyMTMsNzY4NDI4MDM3LC0xODgz
-MzQ3MTk0XX0=
+eyJoaXN0b3J5IjpbLTEwMDQwNTIwNTcsLTQwMDU3MjczNiwtMT
+AxNDU1NjI0OCwyOTg5NDQwNzgsOTgwMzI1NjAyLC0xNTY3NjY0
+MDM5LC0xNjAwNzcyODQwLC02MTczNzc1NTEsNTM0OTkyOTM0LC
+0xNTI2NDYyODU5LC0xNDgyMjM4MTAzLDEwNTA3MzA1OTMsLTg1
+MzA4MzgsLTE1MjU2MjYzMDIsMzgxODg1NjM5LDIxNTA1MDkxNi
+wtNzI0NDM4OTg5LC0xODY4NDYzMjEzLDc2ODQyODAzNywtMTg4
+MzM0NzE5NF19
 -->
