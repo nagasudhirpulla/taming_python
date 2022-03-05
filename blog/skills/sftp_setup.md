@@ -61,6 +61,7 @@
 * Click on the save public key and save private key buttons to save the public and private keys into files like `pblic_key` and `prv_key.ppk`
 
 ![puttygen](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/puttygen.PNG)
+### Step 3 - Place the public key
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -91,7 +92,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDkzMzQxNSwzODE4ODU2MzksMjE1MD
+eyJoaXN0b3J5IjpbLTI1NDM3NTA4MCwzODE4ODU2MzksMjE1MD
 UwOTE2LC03MjQ0Mzg5ODksLTE4Njg0NjMyMTMsNzY4NDI4MDM3
 LC0xODgzMzQ3MTk0LDIxMDM2OTg3OTEsNjQyNDI4MjI2LC0xMj
 AzMzg3MiwtMTAwNzA1MjY0N119
