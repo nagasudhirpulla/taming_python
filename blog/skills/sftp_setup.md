@@ -10,12 +10,12 @@
 * Goto https://github.com/PowerShell/Win32-OpenSSH/releases
 * Download the OpenSSH-Win64.zip file from the latest release
 * Extract the zip file contents to the folder `C:\Program Files\OpenSSH`
-TODO Folder Image
+![open_ssh_extract_location](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_extract_location.png)
 * Open a command prompt as Administrator and use the following command to change to openssh directory 
 `cd "C:\Program Files\OpenSSH"`
 * Run  the following command
 `powershell.exe -ExecutionPolicy Bypass -File install-sshd.ps1`
-TODO command execution image
+
 * Now the `sshd` and `ssh-agent` windows services should be installed. This can be seen in the `services.msc` window
 * Change the startup type to Automatic from Manual and start both the `sshd` and `sshd-agent` services. Since we have set the startup type as automatic, both the services will start automatically upon system startup.
 TODO windows background services image
@@ -52,6 +52,6 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyNDI4MjI2LC0xMjAzMzg3MiwtMTAwNz
-A1MjY0N119
+eyJoaXN0b3J5IjpbLTExNTYwNzUyODcsNjQyNDI4MjI2LC0xMj
+AzMzg3MiwtMTAwNzA1MjY0N119
 -->
