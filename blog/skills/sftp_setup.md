@@ -79,23 +79,20 @@ icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Adm
 * `sshd_config` file is located at `C:\ProgramData\ssh` folder of the SFTP server
 * Open it with a text editor like Notepad or VS code
 * Modify the `sshd_config` file to make sure the following lines are present in the file
-	* PubkeyAuthentication yes
-	* AuthorizedKeysFile .ssh/authorized_keys
-	* PasswordAuthentication no
-	* PermitEmptyPasswords no
-	* Subsystem sftp internal-sftp
-	* Match User Nagasudhir
-ChrootDirectory ~/Pictures/Screenshots
-
-X11Forwarding no
-
-AllowTcpForwarding no
-
-PermitTTY no
-
-ForceCommand internal-sftp
-
+```sh
+PubkeyAuthentication yes
+AuthorizedKeysFile .ssh/authorized_keys
 PasswordAuthentication no
+PermitEmptyPasswords no
+Subsystem sftp internal-sftp
+Match User Nagasudhir
+	ChrootDirectory ~/Pictures/Screenshots
+	X11Forwarding no
+	AllowTcpForwarding no
+	PermitTTY no
+	ForceCommand internal-sftp
+	PasswordAuthentication no
+```
 * Comment out the lines at the end with a `#` as shown below
 ```bash
 #Match Group administrators
@@ -131,11 +128,11 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTYwNzM4MDAsLTEwMTQ1NTYyNDgsMj
-k4OTQ0MDc4LDk4MDMyNTYwMiwtMTU2NzY2NDAzOSwtMTYwMDc3
-Mjg0MCwtNjE3Mzc3NTUxLDUzNDk5MjkzNCwtMTUyNjQ2Mjg1OS
-wtMTQ4MjIzODEwMywxMDUwNzMwNTkzLC04NTMwODM4LC0xNTI1
-NjI2MzAyLDM4MTg4NTYzOSwyMTUwNTA5MTYsLTcyNDQzODk4OS
-wtMTg2ODQ2MzIxMyw3Njg0MjgwMzcsLTE4ODMzNDcxOTQsMjEw
-MzY5ODc5MV19
+eyJoaXN0b3J5IjpbLTMyNzQ4Mzk1LC0xMDE0NTU2MjQ4LDI5OD
+k0NDA3OCw5ODAzMjU2MDIsLTE1Njc2NjQwMzksLTE2MDA3NzI4
+NDAsLTYxNzM3NzU1MSw1MzQ5OTI5MzQsLTE1MjY0NjI4NTksLT
+E0ODIyMzgxMDMsMTA1MDczMDU5MywtODUzMDgzOCwtMTUyNTYy
+NjMwMiwzODE4ODU2MzksMjE1MDUwOTE2LC03MjQ0Mzg5ODksLT
+E4Njg0NjMyMTMsNzY4NDI4MDM3LC0xODgzMzQ3MTk0LDIxMDM2
+OTg3OTFdfQ==
 -->
