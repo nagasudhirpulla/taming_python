@@ -84,7 +84,7 @@ icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Adm
 	* PasswordAuthentication no
 	* PermitEmptyPasswords no
 	* Subsystem sftp internal-sftp
-* Comment out the lines at the end with a # as shown below
+* Comment out the lines at the end with a `#` as shown below
 ```bash
 #Match Group administrators
 # AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
@@ -119,11 +119,11 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk4OTQ0MDc4LDk4MDMyNTYwMiwtMTU2Nz
-Y2NDAzOSwtMTYwMDc3Mjg0MCwtNjE3Mzc3NTUxLDUzNDk5Mjkz
-NCwtMTUyNjQ2Mjg1OSwtMTQ4MjIzODEwMywxMDUwNzMwNTkzLC
-04NTMwODM4LC0xNTI1NjI2MzAyLDM4MTg4NTYzOSwyMTUwNTA5
-MTYsLTcyNDQzODk4OSwtMTg2ODQ2MzIxMyw3Njg0MjgwMzcsLT
-E4ODMzNDcxOTQsMjEwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMDMz
-ODcyXX0=
+eyJoaXN0b3J5IjpbLTEwMTQ1NTYyNDgsMjk4OTQ0MDc4LDk4MD
+MyNTYwMiwtMTU2NzY2NDAzOSwtMTYwMDc3Mjg0MCwtNjE3Mzc3
+NTUxLDUzNDk5MjkzNCwtMTUyNjQ2Mjg1OSwtMTQ4MjIzODEwMy
+wxMDUwNzMwNTkzLC04NTMwODM4LC0xNTI1NjI2MzAyLDM4MTg4
+NTYzOSwyMTUwNTA5MTYsLTcyNDQzODk4OSwtMTg2ODQ2MzIxMy
+w3Njg0MjgwMzcsLTE4ODMzNDcxOTQsMjEwMzY5ODc5MSw2NDI0
+MjgyMjZdfQ==
 -->
