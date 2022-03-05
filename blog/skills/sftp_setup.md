@@ -35,6 +35,9 @@
 * To change the password of SFTP client, the OS user password is to be changed
 * User passwords of the OS are being transmitted over the network
 
+## Advantages of using private key based authentication in SFTP
+* This type of authentication is more robust and secure
+* SFTP client n
 
 ## Setup private key based authentication in windows
 ### Step 1 - Create a public and private key pair in the 
@@ -68,7 +71,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyNjUxMzUxLC0xODgzMzQ3MTk0LDIxMD
-M2OTg3OTEsNjQyNDI4MjI2LC0xMjAzMzg3MiwtMTAwNzA1MjY0
-N119
+eyJoaXN0b3J5IjpbLTMzMzc1ODU4MiwtMTg4MzM0NzE5NCwyMT
+AzNjk4NzkxLDY0MjQyODIyNiwtMTIwMzM4NzIsLTEwMDcwNTI2
+NDddfQ==
 -->
