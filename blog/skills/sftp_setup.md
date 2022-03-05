@@ -98,6 +98,7 @@ Replace `<username>` with the OS username
 #Match Group administrators
 # AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
 ```
+### Step 6 (Optional) - Restrict use to a folder 
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -128,11 +129,11 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDU3MjczNiwtMTAxNDU1NjI0OCwyOT
-g5NDQwNzgsOTgwMzI1NjAyLC0xNTY3NjY0MDM5LC0xNjAwNzcy
-ODQwLC02MTczNzc1NTEsNTM0OTkyOTM0LC0xNTI2NDYyODU5LC
-0xNDgyMjM4MTAzLDEwNTA3MzA1OTMsLTg1MzA4MzgsLTE1MjU2
-MjYzMDIsMzgxODg1NjM5LDIxNTA1MDkxNiwtNzI0NDM4OTg5LC
-0xODY4NDYzMjEzLDc2ODQyODAzNywtMTg4MzM0NzE5NCwyMTAz
-Njk4NzkxXX0=
+eyJoaXN0b3J5IjpbMTQwNDQ1Njc2NiwtNDAwNTcyNzM2LC0xMD
+E0NTU2MjQ4LDI5ODk0NDA3OCw5ODAzMjU2MDIsLTE1Njc2NjQw
+MzksLTE2MDA3NzI4NDAsLTYxNzM3NzU1MSw1MzQ5OTI5MzQsLT
+E1MjY0NjI4NTksLTE0ODIyMzgxMDMsMTA1MDczMDU5MywtODUz
+MDgzOCwtMTUyNTYyNjMwMiwzODE4ODU2MzksMjE1MDUwOTE2LC
+03MjQ0Mzg5ODksLTE4Njg0NjMyMTMsNzY4NDI4MDM3LC0xODgz
+MzQ3MTk0XX0=
 -->
