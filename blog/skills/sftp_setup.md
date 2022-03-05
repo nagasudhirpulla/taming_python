@@ -30,7 +30,11 @@
 * Create the appropriate firewall policy to expose the SFTP port 22 to local or remote systems if required
 * Now SFTP server accepts connections using username and password authentication
 
+## Downsides of password based authentication in SFTP
+* User credentials of the operating system are 
+
 ## Setup private key based authentication in windows
+### Step 1 - Create a public and private key pair in the 
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -61,7 +65,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTY4NzI2MCwtMTg4MzM0NzE5NCwyMT
+eyJoaXN0b3J5IjpbLTIzMzM4OTQ5OCwtMTg4MzM0NzE5NCwyMT
 AzNjk4NzkxLDY0MjQyODIyNiwtMTIwMzM4NzIsLTEwMDcwNTI2
 NDddfQ==
 -->
