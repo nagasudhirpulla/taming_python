@@ -47,6 +47,7 @@
 #### Method 1 (Preferred) - Using ssh-keygen.exe in OpenSSH folder
 * Inside the program files folder like  `C:\Program Files\OpenSSH` there will be an exe file named `ssh-keygen.exe` which can be used to easily generate a public and private key pair
 * Open a command window in that folder and run ssh-keygen.exe. Press enter till the execution is complete as shown in the image below
+![open_ssh_keygen](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_keygen.png)
 * 
 #### Using puttygen.exe
 * Download puttygen.exe from https://www.puttygen.com/download-putty#Download_PuTTY_073_for_Windows
@@ -84,7 +85,8 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDQzODk4OSwtMTg2ODQ2MzIxMyw3Nj
-g0MjgwMzcsLTE4ODMzNDcxOTQsMjEwMzY5ODc5MSw2NDI0Mjgy
-MjYsLTEyMDMzODcyLC0xMDA3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbLTIxMTgxMjYxMTUsLTcyNDQzODk4OSwtMT
+g2ODQ2MzIxMyw3Njg0MjgwMzcsLTE4ODMzNDcxOTQsMjEwMzY5
+ODc5MSw2NDI0MjgyMjYsLTEyMDMzODcyLC0xMDA3MDUyNjQ3XX
+0=
 -->
