@@ -70,7 +70,7 @@
 ### Step 4 - Change the permissions of the authorized_keys file in SFTP server
 * The access control list (ACL) of `authorized_keys` file should be configured such that only administrators and system users should have the access to this file
 * To achieve this, open a command prompt as administrator and run the following command
-```bat
+```b
 icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Administrators:F" /grant "SYSTEM:F"
 ```
 ![open_ssh_authorized_keys_permissions](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_permissions.png)
@@ -104,7 +104,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzM3NzU1MSw1MzQ5OTI5MzQsLTE1Mj
+eyJoaXN0b3J5IjpbLTU5Mjc3MTA3NCw1MzQ5OTI5MzQsLTE1Mj
 Y0NjI4NTksLTE0ODIyMzgxMDMsMTA1MDczMDU5MywtODUzMDgz
 OCwtMTUyNTYyNjMwMiwzODE4ODU2MzksMjE1MDUwOTE2LC03Mj
 Q0Mzg5ODksLTE4Njg0NjMyMTMsNzY4NDI4MDM3LC0xODgzMzQ3
