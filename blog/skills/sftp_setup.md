@@ -78,7 +78,9 @@ icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Adm
 ### Step 5 - Edit the sshd_config file of the SFTP server to configure public key based authentication
 * `sshd_config` file is located at `C:\ProgramData\ssh` folder of the SFTP server
 * Open it with a text editor like Notepad or VS code
-* 
+* Make sure the following lines are present in the `sshd_config` file
+	* PubkeyAuthentication yes
+	* 
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -109,7 +111,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4ODA5NTIxLDk4MDMyNTYwMiwtMTU2Nz
+eyJoaXN0b3J5IjpbMTE3MTgyMzg2LDk4MDMyNTYwMiwtMTU2Nz
 Y2NDAzOSwtMTYwMDc3Mjg0MCwtNjE3Mzc3NTUxLDUzNDk5Mjkz
 NCwtMTUyNjQ2Mjg1OSwtMTQ4MjIzODEwMywxMDUwNzMwNTkzLC
 04NTMwODM4LC0xNTI1NjI2MzAyLDM4MTg4NTYzOSwyMTUwNTA5
