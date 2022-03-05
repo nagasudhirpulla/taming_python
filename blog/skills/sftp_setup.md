@@ -44,7 +44,7 @@
 
 ## Setup private key based authentication in windows
 ### Step 1 - Create a public and private key pair in the client
-* 
+* Public and private key files can be created using 
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -75,7 +75,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzY3NDI3MSwtMTg4MzM0NzE5NCwyMT
-AzNjk4NzkxLDY0MjQyODIyNiwtMTIwMzM4NzIsLTEwMDcwNTI2
-NDddfQ==
+eyJoaXN0b3J5IjpbNzY4NDI4MDM3LC0xODgzMzQ3MTk0LDIxMD
+M2OTg3OTEsNjQyNDI4MjI2LC0xMjAzMzg3MiwtMTAwNzA1MjY0
+N119
 -->
