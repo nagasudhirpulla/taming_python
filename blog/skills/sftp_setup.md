@@ -38,7 +38,7 @@
 ## Benefits of using private key based authentication in SFTP
 * This type of authentication is more robust and secure
 * SFTP client need not know the OS user password
-* Multiple clients can use different private keys for a single OS user 
+* Multiple clients can use different private keys for a single OS user
 * The private key can be changed easily from time to time without changing the User's OS password
 * The access of SFTP client can be easily revoked by just removing the client's public key from the authenticated list, without locking out or modifying the OS user account
 
@@ -74,7 +74,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDYyMDI1OTAsLTE4ODMzNDcxOTQsMj
-EwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMDMzODcyLC0xMDA3MDUy
-NjQ3XX0=
+eyJoaXN0b3J5IjpbLTE0MDQwMTcxMCwtMTg4MzM0NzE5NCwyMT
+AzNjk4NzkxLDY0MjQyODIyNiwtMTIwMzM4NzIsLTEwMDcwNTI2
+NDddfQ==
 -->
