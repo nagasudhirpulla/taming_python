@@ -75,7 +75,7 @@ icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Adm
 ```
 ![open_ssh_authorized_keys_permissions](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_permissions.png)* You can verify the access control list of the `authorized_keys` file by right click on file->properties->security tab as shown in the below image
 ![open_ssh_authorized_keys_properties](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_properties.png)
-### Step 6 - Change the sshd_config file to configure public key based authentication
+### Step 5 - Change the sshd_config file to configure public key based authentication
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -106,10 +106,10 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MzI0ODU1MCwtMTYwMDc3Mjg0MCwtNj
-E3Mzc3NTUxLDUzNDk5MjkzNCwtMTUyNjQ2Mjg1OSwtMTQ4MjIz
-ODEwMywxMDUwNzMwNTkzLC04NTMwODM4LC0xNTI1NjI2MzAyLD
-M4MTg4NTYzOSwyMTUwNTA5MTYsLTcyNDQzODk4OSwtMTg2ODQ2
-MzIxMyw3Njg0MjgwMzcsLTE4ODMzNDcxOTQsMjEwMzY5ODc5MS
-w2NDI0MjgyMjYsLTEyMDMzODcyLC0xMDA3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbLTE1Njc2NjQwMzksLTE2MDA3NzI4NDAsLT
+YxNzM3NzU1MSw1MzQ5OTI5MzQsLTE1MjY0NjI4NTksLTE0ODIy
+MzgxMDMsMTA1MDczMDU5MywtODUzMDgzOCwtMTUyNTYyNjMwMi
+wzODE4ODU2MzksMjE1MDUwOTE2LC03MjQ0Mzg5ODksLTE4Njg0
+NjMyMTMsNzY4NDI4MDM3LC0xODgzMzQ3MTk0LDIxMDM2OTg3OT
+EsNjQyNDI4MjI2LC0xMjAzMzg3MiwtMTAwNzA1MjY0N119
 -->
