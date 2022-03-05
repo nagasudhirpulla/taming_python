@@ -111,6 +111,7 @@ Match User <username>
 	ForceCommand internal-sftp
 	PasswordAuthentication no
 ```
+* Due to `ChrootDirectory` used in sshd_config file, the SFTP user c
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -141,7 +142,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzI1MTY5MiwtNDAwNTcyNzM2LC0xMD
+eyJoaXN0b3J5IjpbLTM0MzYzMjcwNiwtNDAwNTcyNzM2LC0xMD
 E0NTU2MjQ4LDI5ODk0NDA3OCw5ODAzMjU2MDIsLTE1Njc2NjQw
 MzksLTE2MDA3NzI4NDAsLTYxNzM3NzU1MSw1MzQ5OTI5MzQsLT
 E1MjY0NjI4NTksLTE0ODIyMzgxMDMsMTA1MDczMDU5MywtODUz
