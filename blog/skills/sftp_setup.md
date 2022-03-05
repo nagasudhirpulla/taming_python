@@ -59,7 +59,6 @@
 * Run puttygen.exe, make sure the settings are as shown in the below image and click *Generate* button. Move the cursor over the blank area to generate randomness. Then the key generation process will be completed
 * Before clicking the Generate button, Key passphrase can be entered if we desire to password protect the generated private key
 * Click on the save public key and save private key buttons to save the public and private keys into files like `pblic_key` and `prv_key.ppk`
-* 
 ![puttygen](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/puttygen.PNG)
 
 ## Setup SFTP client in windows using WinSCP
@@ -91,8 +90,8 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODQwMjMzMywzODE4ODU2MzksMjE1MD
-UwOTE2LC03MjQ0Mzg5ODksLTE4Njg0NjMyMTMsNzY4NDI4MDM3
-LC0xODgzMzQ3MTk0LDIxMDM2OTg3OTEsNjQyNDI4MjI2LC0xMj
-AzMzg3MiwtMTAwNzA1MjY0N119
+eyJoaXN0b3J5IjpbLTM2NTczMDEzLDM4MTg4NTYzOSwyMTUwNT
+A5MTYsLTcyNDQzODk4OSwtMTg2ODQ2MzIxMyw3Njg0MjgwMzcs
+LTE4ODMzNDcxOTQsMjEwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMD
+MzODcyLC0xMDA3MDUyNjQ3XX0=
 -->
