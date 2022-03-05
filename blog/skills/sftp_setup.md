@@ -15,10 +15,10 @@
 `cd "C:\Program Files\OpenSSH"`
 * Run  the following command
 `powershell.exe -ExecutionPolicy Bypass -File install-sshd.ps1`
-
+![open_ssh_service_powershell_install](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_service_powershell_install.PNG)
 * Now the `sshd` and `ssh-agent` windows services should be installed. This can be seen in the `services.msc` window
 * Change the startup type to Automatic from Manual and start both the `sshd` and `sshd-agent` services. Since we have set the startup type as automatic, both the services will start automatically upon system startup.
-TODO windows background services image
+![open_ssh_windows_services](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_windows_services.png)
 * Create the appropriate firewall policy to expose the sftp port 22 to local or remote systems if required
 * Now SFTP server accepts connections using username and password authentication
 
@@ -52,6 +52,6 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTYwNzUyODcsNjQyNDI4MjI2LC0xMj
-AzMzg3MiwtMTAwNzA1MjY0N119
+eyJoaXN0b3J5IjpbMjEwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMD
+MzODcyLC0xMDA3MDUyNjQ3XX0=
 -->
