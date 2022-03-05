@@ -67,6 +67,8 @@
 ![open_ssh_authorized_keys](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys.png)* In this way, multiple public keys can be added one below the other in this text file so that they can be authenticated by the SFTP server
 * Also note that `authorized_keys` file should **not** have any extension like .txt, .docx etc.
 
+### Step 4 - Change the permissions of the authorized_keys file
+* 
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -97,9 +99,9 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODIyMzgxMDMsMTA1MDczMDU5MywtOD
-UzMDgzOCwtMTUyNTYyNjMwMiwzODE4ODU2MzksMjE1MDUwOTE2
-LC03MjQ0Mzg5ODksLTE4Njg0NjMyMTMsNzY4NDI4MDM3LC0xOD
-gzMzQ3MTk0LDIxMDM2OTg3OTEsNjQyNDI4MjI2LC0xMjAzMzg3
-MiwtMTAwNzA1MjY0N119
+eyJoaXN0b3J5IjpbODYzMjY4NTYwLC0xNDgyMjM4MTAzLDEwNT
+A3MzA1OTMsLTg1MzA4MzgsLTE1MjU2MjYzMDIsMzgxODg1NjM5
+LDIxNTA1MDkxNiwtNzI0NDM4OTg5LC0xODY4NDYzMjEzLDc2OD
+QyODAzNywtMTg4MzM0NzE5NCwyMTAzNjk4NzkxLDY0MjQyODIy
+NiwtMTIwMzM4NzIsLTEwMDcwNTI2NDddfQ==
 -->
