@@ -46,7 +46,8 @@
 ### Step 1 - Create a public and private key pair
 #### Using puttygen.exe
 * Download puttygen.exe from https://www.puttygen.com/download-putty#Download_PuTTY_073_for_Windows
-* Run puttygen.exe, make sure the settings are as shown in the below image and click *Generate* button. Move the cursor over the blank area to generate randomness
+* Run puttygen.exe, make sure the settings are as shown in the below image and click *Generate* button. Move the cursor over the blank area to generate randomness. Then the key generation process will be completed
+* 
 * 
 ![puttygen](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/puttygen.PNG)
 
@@ -79,7 +80,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzUwODkzMSw3Njg0MjgwMzcsLTE4OD
+eyJoaXN0b3J5IjpbMTI0ODc2NTE1MSw3Njg0MjgwMzcsLTE4OD
 MzNDcxOTQsMjEwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMDMzODcy
 LC0xMDA3MDUyNjQ3XX0=
 -->
