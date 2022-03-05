@@ -63,7 +63,7 @@
 ![puttygen](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/puttygen.PNG)
 ### Step 3 - Place the public key in the SFTP server
 * In the SFTP server, use a text editor like notepad and open the authorized_keys file located at `‪C:\Users\<username>\.ssh\authorized_keys` . If the file is not present, create a new file at this location.
-* Copy the public key generated in the previous step and paste the 
+* Copy the text in the public key file (liid_rsa.pub) generated in the previous step and paste the 
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -94,8 +94,8 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjEzNjYyMCwtMTUyNTYyNjMwMiwzOD
-E4ODU2MzksMjE1MDUwOTE2LC03MjQ0Mzg5ODksLTE4Njg0NjMy
-MTMsNzY4NDI4MDM3LC0xODgzMzQ3MTk0LDIxMDM2OTg3OTEsNj
-QyNDI4MjI2LC0xMjAzMzg3MiwtMTAwNzA1MjY0N119
+eyJoaXN0b3J5IjpbNDM2NzI3OTM2LC0xNTI1NjI2MzAyLDM4MT
+g4NTYzOSwyMTUwNTA5MTYsLTcyNDQzODk4OSwtMTg2ODQ2MzIx
+Myw3Njg0MjgwMzcsLTE4ODMzNDcxOTQsMjEwMzY5ODc5MSw2ND
+I0MjgyMjYsLTEyMDMzODcyLC0xMDA3MDUyNjQ3XX0=
 -->
