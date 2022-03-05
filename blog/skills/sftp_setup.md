@@ -31,7 +31,7 @@
 * Now SFTP server accepts connections using username and password authentication
 
 ## Downsides of password based authentication in SFTP
-* User credentials of the server operating system are to be shared with the SFTP client which is not desirable
+* OS User credentials of the server operating system are to be shared with the SFTP client which is not desirable
 * OS user password is to be changed to change the password of SFTP client
 * OS user password will be transmitted over the network
 
@@ -106,7 +106,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1NDIzMDMwLC0xNjAwNzcyODQwLC02MT
+eyJoaXN0b3J5IjpbNjYxNjE2NzYyLC0xNjAwNzcyODQwLC02MT
 czNzc1NTEsNTM0OTkyOTM0LC0xNTI2NDYyODU5LC0xNDgyMjM4
 MTAzLDEwNTA3MzA1OTMsLTg1MzA4MzgsLTE1MjU2MjYzMDIsMz
 gxODg1NjM5LDIxNTA1MDkxNiwtNzI0NDM4OTg5LC0xODY4NDYz
