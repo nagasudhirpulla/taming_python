@@ -22,7 +22,7 @@
 * Create the appropriate firewall policy to expose the SFTP port 22 to local or remote systems if required
 * Now SFTP server accepts connections using username and password authentication
 
-## Setup SFTP server in newer windows version
+## Setup SFTP server in newer versions of windows
 * Click windows button and search for "manage optional features"
 * Click on "add a feature" and search for OpenSSH server and install it
 * Now Open SSH server and OpenSSH Authentication agent services should be installed in the `services.msc` window
@@ -59,6 +59,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODMzNDcxOTQsMjEwMzY5ODc5MSw2ND
-I0MjgyMjYsLTEyMDMzODcyLC0xMDA3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbLTYwNDg0NTY2LC0xODgzMzQ3MTk0LDIxMD
+M2OTg3OTEsNjQyNDI4MjI2LC0xMjAzMzg3MiwtMTAwNzA1MjY0
+N119
 -->
