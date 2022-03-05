@@ -98,7 +98,7 @@ Replace `<username>` with the OS username
 #Match Group administrators
 # AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
 ```
-### Step 6 (Optional) - Restrict use to a folder (also called folder jailing)
+### Step 6 (Optional) - Restrict user to a folder (also called folder jailing)
 *  
 
 ## Setup SFTP client in windows using WinSCP
@@ -130,7 +130,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTY2NzQ0OSwtNDAwNTcyNzM2LC0xMD
+eyJoaXN0b3J5IjpbMTA0NTAwMjkyMSwtNDAwNTcyNzM2LC0xMD
 E0NTU2MjQ4LDI5ODk0NDA3OCw5ODAzMjU2MDIsLTE1Njc2NjQw
 MzksLTE2MDA3NzI4NDAsLTYxNzM3NzU1MSw1MzQ5OTI5MzQsLT
 E1MjY0NjI4NTksLTE0ODIyMzgxMDMsMTA1MDczMDU5MywtODUz
