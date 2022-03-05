@@ -92,7 +92,7 @@ Match User <username>
 	ForceCommand internal-sftp
 	PasswordAuthentication no
 ```
-Replace <username> with the OS username
+Replace `<username>` with the OS username
 * Comment out the lines at the end with a `#` as shown below
 ```bash
 #Match Group administrators
@@ -128,7 +128,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTkwNDYxNiwtMTAxNDU1NjI0OCwyOT
+eyJoaXN0b3J5IjpbLTQwMDU3MjczNiwtMTAxNDU1NjI0OCwyOT
 g5NDQwNzgsOTgwMzI1NjAyLC0xNTY3NjY0MDM5LC0xNjAwNzcy
 ODQwLC02MTczNzc1NTEsNTM0OTkyOTM0LC0xNTI2NDYyODU5LC
 0xNDgyMjM4MTAzLDEwNTA3MzA1OTMsLTg1MzA4MzgsLTE1MjU2
