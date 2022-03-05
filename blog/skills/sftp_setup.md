@@ -67,7 +67,7 @@
 ![open_ssh_authorized_keys](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys.png)* In this way, multiple public keys can be added one below the other in this text file so that they can be authenticated by the SFTP server
 * Also note that `authorized_keys` file should **not** have any extension like .txt, .docx etc.
 
-### Step 4 - Change the access of the authorized_keys file in SFTP server
+### Step 4 - Change the access control list (ACL) of the authorized_keys file in SFTP server
 * The access control list (ACL) of `authorized_keys` file should be configured such that only administrators and system users should have the access to this file
 * To achieve this, open a command prompt as administrator and run the following command
 ```bat
@@ -104,10 +104,10 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTkyODAwNywtNjE3Mzc3NTUxLDUzND
-k5MjkzNCwtMTUyNjQ2Mjg1OSwtMTQ4MjIzODEwMywxMDUwNzMw
-NTkzLC04NTMwODM4LC0xNTI1NjI2MzAyLDM4MTg4NTYzOSwyMT
-UwNTA5MTYsLTcyNDQzODk4OSwtMTg2ODQ2MzIxMyw3Njg0Mjgw
-MzcsLTE4ODMzNDcxOTQsMjEwMzY5ODc5MSw2NDI0MjgyMjYsLT
-EyMDMzODcyLC0xMDA3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbLTE5NjgxMjczMTEsLTYxNzM3NzU1MSw1Mz
+Q5OTI5MzQsLTE1MjY0NjI4NTksLTE0ODIyMzgxMDMsMTA1MDcz
+MDU5MywtODUzMDgzOCwtMTUyNTYyNjMwMiwzODE4ODU2MzksMj
+E1MDUwOTE2LC03MjQ0Mzg5ODksLTE4Njg0NjMyMTMsNzY4NDI4
+MDM3LC0xODgzMzQ3MTk0LDIxMDM2OTg3OTEsNjQyNDI4MjI2LC
+0xMjAzMzg3MiwtMTAwNzA1MjY0N119
 -->
