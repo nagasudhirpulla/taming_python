@@ -101,6 +101,7 @@ Replace `<username>` with the OS username
 ## Restrict user to a folder (also called folder jailing)
 * Using `ChrootDirectory` in sshd_config file, we can restrict the SFTP user to a particular folder. The user cannot navigate to any of the parent folders of the specified folder
 * This is also called folder jailing. This adds extra security to the SFTP server
+* To achieve folder jailing edit the `sshd_config` file located in the `C:\ProgramData\ssh` folder of SFTP server 
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -131,11 +132,11 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTI2OTI1MiwtNDAwNTcyNzM2LC0xMD
-E0NTU2MjQ4LDI5ODk0NDA3OCw5ODAzMjU2MDIsLTE1Njc2NjQw
-MzksLTE2MDA3NzI4NDAsLTYxNzM3NzU1MSw1MzQ5OTI5MzQsLT
-E1MjY0NjI4NTksLTE0ODIyMzgxMDMsMTA1MDczMDU5MywtODUz
-MDgzOCwtMTUyNTYyNjMwMiwzODE4ODU2MzksMjE1MDUwOTE2LC
-03MjQ0Mzg5ODksLTE4Njg0NjMyMTMsNzY4NDI4MDM3LC0xODgz
-MzQ3MTk0XX0=
+eyJoaXN0b3J5IjpbLTIwNzEzNDkxMDAsLTQwMDU3MjczNiwtMT
+AxNDU1NjI0OCwyOTg5NDQwNzgsOTgwMzI1NjAyLC0xNTY3NjY0
+MDM5LC0xNjAwNzcyODQwLC02MTczNzc1NTEsNTM0OTkyOTM0LC
+0xNTI2NDYyODU5LC0xNDgyMjM4MTAzLDEwNTA3MzA1OTMsLTg1
+MzA4MzgsLTE1MjU2MjYzMDIsMzgxODg1NjM5LDIxNTA1MDkxNi
+wtNzI0NDM4OTg5LC0xODY4NDYzMjEzLDc2ODQyODAzNywtMTg4
+MzM0NzE5NF19
 -->
