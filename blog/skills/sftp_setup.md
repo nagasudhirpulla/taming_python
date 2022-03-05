@@ -120,7 +120,7 @@ Match User <username>
 * Click on New Session button in the top left menu
 * Set protocol as SFTP, port as 21, hostname as localhost, enter username. Password is not required for public key based authentication. Finally click login
 ![winscp_sftp_login](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/winscp_sftp_login.PNG)
-* Now FTP server is connected to WinSCP
+* Now SFTP server is connected to WinSCP
 * We can copy,paste,rename,delete the ftp server files just like file explorer
 ![winscp_ui](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/winscp_ui.PNG)
  
@@ -142,7 +142,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzMzc2ODEwLC0xMDA0MDUyMDU3LC00MD
+eyJoaXN0b3J5IjpbNTMyOTY2MTA1LC0xMDA0MDUyMDU3LC00MD
 A1NzI3MzYsLTEwMTQ1NTYyNDgsMjk4OTQ0MDc4LDk4MDMyNTYw
 MiwtMTU2NzY2NDAzOSwtMTYwMDc3Mjg0MCwtNjE3Mzc3NTUxLD
 UzNDk5MjkzNCwtMTUyNjQ2Mjg1OSwtMTQ4MjIzODEwMywxMDUw
