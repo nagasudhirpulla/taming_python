@@ -73,7 +73,7 @@
 ```bat
 icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Administrators:F" /grant "SYSTEM:F"
 ```
-![open_ssh_authorized_keys_permissions](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_permissions.png)* You can verify the access control list by 
+![open_ssh_authorized_keys_permissions](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_permissions.png)* You can verify the access control list of the `authorized_keys` file by right click on file->properties->security tab as shown in the below image
 ![open_ssh_authorized_keys_properties](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_properties.png)
 
 ## Setup SFTP client in windows using WinSCP
@@ -105,10 +105,10 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzYyOTE3NiwtNjE3Mzc3NTUxLDUzND
-k5MjkzNCwtMTUyNjQ2Mjg1OSwtMTQ4MjIzODEwMywxMDUwNzMw
-NTkzLC04NTMwODM4LC0xNTI1NjI2MzAyLDM4MTg4NTYzOSwyMT
-UwNTA5MTYsLTcyNDQzODk4OSwtMTg2ODQ2MzIxMyw3Njg0Mjgw
-MzcsLTE4ODMzNDcxOTQsMjEwMzY5ODc5MSw2NDI0MjgyMjYsLT
-EyMDMzODcyLC0xMDA3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbLTE2MDA3NzI4NDAsLTYxNzM3NzU1MSw1Mz
+Q5OTI5MzQsLTE1MjY0NjI4NTksLTE0ODIyMzgxMDMsMTA1MDcz
+MDU5MywtODUzMDgzOCwtMTUyNTYyNjMwMiwzODE4ODU2MzksMj
+E1MDUwOTE2LC03MjQ0Mzg5ODksLTE4Njg0NjMyMTMsNzY4NDI4
+MDM3LC0xODgzMzQ3MTk0LDIxMDM2OTg3OTEsNjQyNDI4MjI2LC
+0xMjAzMzg3MiwtMTAwNzA1MjY0N119
 -->
