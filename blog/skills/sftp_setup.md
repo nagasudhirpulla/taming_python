@@ -44,6 +44,9 @@
 
 ## Setup private key based authentication in windows
 ### Step 1 - Create a public and private key pair
+* Public and private keys can be generated using one of the below methods
+* The public key will be added to a text file in the SFTP server
+* The private key will be used   
 #### Method 1 (Preferred) - Using ssh-keygen.exe
 * `ssh-keygen.exe` can be found inside the program files folder like  `C:\Program Files\OpenSSH`
 * Open a command window in that folder and run ssh-keygen.exe. Press enter till the execution is complete as shown in the image below
@@ -87,8 +90,8 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODE0MTQyNiwyMTUwNTA5MTYsLTcyND
-QzODk4OSwtMTg2ODQ2MzIxMyw3Njg0MjgwMzcsLTE4ODMzNDcx
-OTQsMjEwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMDMzODcyLC0xMD
-A3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbMTQyNzkyMzQyLDIxNTA1MDkxNiwtNzI0ND
+M4OTg5LC0xODY4NDYzMjEzLDc2ODQyODAzNywtMTg4MzM0NzE5
+NCwyMTAzNjk4NzkxLDY0MjQyODIyNiwtMTIwMzM4NzIsLTEwMD
+cwNTI2NDddfQ==
 -->
