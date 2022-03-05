@@ -40,7 +40,7 @@
 * SFTP client need not know the OS user password
 * Multiple clients can use different private keys for a single OS user
 * Private key can be changed easily from time to time without changing the user's OS password
-* The access of SFTP client can be easily revoked by just removing the client's public key from the authenticated list, without locking out or modifying the OS user account
+* Access of SFTP client can be easily revoked by just removing the client's public key from the authenticated list, without locking out or modifying the OS user account
 
 ## Setup private key based authentication in windows
 ### Step 1 - Create a public and private key pair in the 
@@ -74,7 +74,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0MjE1NTg1LC0xODgzMzQ3MTk0LDIxMD
-M2OTg3OTEsNjQyNDI4MjI2LC0xMjAzMzg3MiwtMTAwNzA1MjY0
-N119
+eyJoaXN0b3J5IjpbLTE1NDU4NTI1MjYsLTE4ODMzNDcxOTQsMj
+EwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMDMzODcyLC0xMDA3MDUy
+NjQ3XX0=
 -->
