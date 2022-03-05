@@ -33,7 +33,7 @@
 ## Downsides of password based authentication in SFTP
 * User credentials of the server operating system are to be shared with the SFTP client which is not secure
 * To change the password of SFTP client, the OS user password is to be changed
-* User passwords of the OS are being transmitted over the netw 
+* User passwords of the OS are being transmitted over the network 
 
 ## Setup private key based authentication in windows
 ### Step 1 - Create a public and private key pair in the 
@@ -67,7 +67,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0NDIyNjk1LC0xODgzMzQ3MTk0LDIxMD
-M2OTg3OTEsNjQyNDI4MjI2LC0xMjAzMzg3MiwtMTAwNzA1MjY0
-N119
+eyJoaXN0b3J5IjpbLTE1MzQ0MTcwOTcsLTE4ODMzNDcxOTQsMj
+EwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMDMzODcyLC0xMDA3MDUy
+NjQ3XX0=
 -->
