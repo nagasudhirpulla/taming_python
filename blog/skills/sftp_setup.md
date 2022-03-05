@@ -46,7 +46,7 @@
 ### Step 1 - Create a public and private key pair
 #### Using puttygen.exe
 * Download puttygen.exe from https://www.puttygen.com/download-putty#Download_PuTTY_073_for_Windows
-* Run puttygen.exe, make sure the settings are as shown in the below image and click Generate butt
+* Run puttygen.exe, make sure the settings are as shown in the below image and click *Generate* button
 ![puttygen](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/puttygen.PNG)
 
 ## Setup SFTP client in windows using WinSCP
@@ -78,7 +78,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzIzMjQxNCw3Njg0MjgwMzcsLTE4OD
+eyJoaXN0b3J5IjpbMTcwOTE3MjYyOSw3Njg0MjgwMzcsLTE4OD
 MzNDcxOTQsMjEwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMDMzODcy
 LC0xMDA3MDUyNjQ3XX0=
 -->
