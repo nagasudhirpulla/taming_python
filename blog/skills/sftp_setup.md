@@ -84,6 +84,18 @@ icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Adm
 	* PasswordAuthentication no
 	* PermitEmptyPasswords no
 	* Subsystem sftp internal-sftp
+	* Match User Nagasudhir
+ChrootDirectory ~/Pictures/Screenshots
+
+X11Forwarding no
+
+AllowTcpForwarding no
+
+PermitTTY no
+
+ForceCommand internal-sftp
+
+PasswordAuthentication no
 * Comment out the lines at the end with a `#` as shown below
 ```bash
 #Match Group administrators
@@ -119,11 +131,11 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQ1NTYyNDgsMjk4OTQ0MDc4LDk4MD
-MyNTYwMiwtMTU2NzY2NDAzOSwtMTYwMDc3Mjg0MCwtNjE3Mzc3
-NTUxLDUzNDk5MjkzNCwtMTUyNjQ2Mjg1OSwtMTQ4MjIzODEwMy
-wxMDUwNzMwNTkzLC04NTMwODM4LC0xNTI1NjI2MzAyLDM4MTg4
-NTYzOSwyMTUwNTA5MTYsLTcyNDQzODk4OSwtMTg2ODQ2MzIxMy
-w3Njg0MjgwMzcsLTE4ODMzNDcxOTQsMjEwMzY5ODc5MSw2NDI0
-MjgyMjZdfQ==
+eyJoaXN0b3J5IjpbLTEyOTYwNzM4MDAsLTEwMTQ1NTYyNDgsMj
+k4OTQ0MDc4LDk4MDMyNTYwMiwtMTU2NzY2NDAzOSwtMTYwMDc3
+Mjg0MCwtNjE3Mzc3NTUxLDUzNDk5MjkzNCwtMTUyNjQ2Mjg1OS
+wtMTQ4MjIzODEwMywxMDUwNzMwNTkzLC04NTMwODM4LC0xNTI1
+NjI2MzAyLDM4MTg4NTYzOSwyMTUwNTA5MTYsLTcyNDQzODk4OS
+wtMTg2ODQ2MzIxMyw3Njg0MjgwMzcsLTE4ODMzNDcxOTQsMjEw
+MzY5ODc5MV19
 -->
