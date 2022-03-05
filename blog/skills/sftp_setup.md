@@ -30,6 +30,8 @@
 * Create the appropriate firewall policy to expose the SFTP port 22 to local or remote systems if required
 * Now SFTP server accepts connections using username and password authentication
 
+## Setup private key based authentication in windows
+
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
 * Run the downloaded executable file and complete the installation
@@ -59,7 +61,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDg0NTY2LC0xODgzMzQ3MTk0LDIxMD
-M2OTg3OTEsNjQyNDI4MjI2LC0xMjAzMzg3MiwtMTAwNzA1MjY0
-N119
+eyJoaXN0b3J5IjpbLTIyMTY4NzI2MCwtMTg4MzM0NzE5NCwyMT
+AzNjk4NzkxLDY0MjQyODIyNiwtMTIwMzM4NzIsLTEwMDcwNTI2
+NDddfQ==
 -->
