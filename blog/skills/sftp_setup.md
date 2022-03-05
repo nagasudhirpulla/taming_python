@@ -79,7 +79,7 @@ icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Adm
 * `sshd_config` file is located at `C:\ProgramData\ssh` folder of the SFTP server
 * Open it with a text editor like Notepad or VS code
 * Modify the `sshd_config` file to make sure the following lines are present in the file.
-```bash
+```bat
 PubkeyAuthentication yes
 AuthorizedKeysFile .ssh/authorized_keys
 PasswordAuthentication no
@@ -130,11 +130,11 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyNzYyOTMwLC00MDA1NzI3MzYsLTEwMT
-Q1NTYyNDgsMjk4OTQ0MDc4LDk4MDMyNTYwMiwtMTU2NzY2NDAz
-OSwtMTYwMDc3Mjg0MCwtNjE3Mzc3NTUxLDUzNDk5MjkzNCwtMT
-UyNjQ2Mjg1OSwtMTQ4MjIzODEwMywxMDUwNzMwNTkzLC04NTMw
-ODM4LC0xNTI1NjI2MzAyLDM4MTg4NTYzOSwyMTUwNTA5MTYsLT
-cyNDQzODk4OSwtMTg2ODQ2MzIxMyw3Njg0MjgwMzcsLTE4ODMz
-NDcxOTRdfQ==
+eyJoaXN0b3J5IjpbMTYwNTY2NzQ0OSwtNDAwNTcyNzM2LC0xMD
+E0NTU2MjQ4LDI5ODk0NDA3OCw5ODAzMjU2MDIsLTE1Njc2NjQw
+MzksLTE2MDA3NzI4NDAsLTYxNzM3NzU1MSw1MzQ5OTI5MzQsLT
+E1MjY0NjI4NTksLTE0ODIyMzgxMDMsMTA1MDczMDU5MywtODUz
+MDgzOCwtMTUyNTYyNjMwMiwzODE4ODU2MzksMjE1MDUwOTE2LC
+03MjQ0Mzg5ODksLTE4Njg0NjMyMTMsNzY4NDI4MDM3LC0xODgz
+MzQ3MTk0XX0=
 -->
