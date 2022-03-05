@@ -79,7 +79,7 @@ icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Adm
 * `sshd_config` file is located at `C:\ProgramData\ssh` folder of the SFTP server
 * Open it with a text editor like Notepad or VS code
 * Modify the `sshd_config` file to make sure the following lines are present in the file.
-```sh
+```bash
 PubkeyAuthentication yes
 AuthorizedKeysFile .ssh/authorized_keys
 PasswordAuthentication no
@@ -99,7 +99,7 @@ Replace `<username>` with the OS username
 # AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
 ```
 ### Step 6 (Optional) - Restrict use to a folder (also called folder jailing)
- 
+*  
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -130,11 +130,11 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjIxNjA4MDUsLTQwMDU3MjczNiwtMT
-AxNDU1NjI0OCwyOTg5NDQwNzgsOTgwMzI1NjAyLC0xNTY3NjY0
-MDM5LC0xNjAwNzcyODQwLC02MTczNzc1NTEsNTM0OTkyOTM0LC
-0xNTI2NDYyODU5LC0xNDgyMjM4MTAzLDEwNTA3MzA1OTMsLTg1
-MzA4MzgsLTE1MjU2MjYzMDIsMzgxODg1NjM5LDIxNTA1MDkxNi
-wtNzI0NDM4OTg5LC0xODY4NDYzMjEzLDc2ODQyODAzNywtMTg4
-MzM0NzE5NF19
+eyJoaXN0b3J5IjpbMzIyNzYyOTMwLC00MDA1NzI3MzYsLTEwMT
+Q1NTYyNDgsMjk4OTQ0MDc4LDk4MDMyNTYwMiwtMTU2NzY2NDAz
+OSwtMTYwMDc3Mjg0MCwtNjE3Mzc3NTUxLDUzNDk5MjkzNCwtMT
+UyNjQ2Mjg1OSwtMTQ4MjIzODEwMywxMDUwNzMwNTkzLC04NTMw
+ODM4LC0xNTI1NjI2MzAyLDM4MTg4NTYzOSwyMTUwNTA5MTYsLT
+cyNDQzODk4OSwtMTg2ODQ2MzIxMyw3Njg0MjgwMzcsLTE4ODMz
+NDcxOTRdfQ==
 -->
