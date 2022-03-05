@@ -78,7 +78,7 @@ icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Adm
 ### Step 5 - Edit the sshd_config file of the SFTP server to configure public key based authentication
 * `sshd_config` file is located at `C:\ProgramData\ssh` folder of the SFTP server
 * Open it with a text editor like Notepad or VS code
-* Make sure the following lines are present in the `sshd_config` file
+* Modify the `sshd_config` file to make sure the following lines are present in the file
 	* PubkeyAuthentication yes
 	* 
 
@@ -111,11 +111,11 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTgyMzg2LDk4MDMyNTYwMiwtMTU2Nz
-Y2NDAzOSwtMTYwMDc3Mjg0MCwtNjE3Mzc3NTUxLDUzNDk5Mjkz
-NCwtMTUyNjQ2Mjg1OSwtMTQ4MjIzODEwMywxMDUwNzMwNTkzLC
-04NTMwODM4LC0xNTI1NjI2MzAyLDM4MTg4NTYzOSwyMTUwNTA5
-MTYsLTcyNDQzODk4OSwtMTg2ODQ2MzIxMyw3Njg0MjgwMzcsLT
-E4ODMzNDcxOTQsMjEwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMDMz
-ODcyXX0=
+eyJoaXN0b3J5IjpbMTY4OTk2NzUwMiw5ODAzMjU2MDIsLTE1Nj
+c2NjQwMzksLTE2MDA3NzI4NDAsLTYxNzM3NzU1MSw1MzQ5OTI5
+MzQsLTE1MjY0NjI4NTksLTE0ODIyMzgxMDMsMTA1MDczMDU5My
+wtODUzMDgzOCwtMTUyNTYyNjMwMiwzODE4ODU2MzksMjE1MDUw
+OTE2LC03MjQ0Mzg5ODksLTE4Njg0NjMyMTMsNzY4NDI4MDM3LC
+0xODgzMzQ3MTk0LDIxMDM2OTg3OTEsNjQyNDI4MjI2LC0xMjAz
+Mzg3Ml19
 -->
