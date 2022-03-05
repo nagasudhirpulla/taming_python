@@ -44,7 +44,7 @@
 
 ## Setup private key based authentication in windows
 ### Step 1 - Create a public and private key pair
-#### Method 1 (Preferred) - Using ssh-keygen.exe in OpenSSH folder
+#### Method 1 (Preferred) - Using ssh-keygen.exe
 * Inside the program files folder like  `C:\Program Files\OpenSSH` there will be an exe file named `ssh-keygen.exe` which can be used to easily generate a public and private key pair
 * Open a command window in that folder and run ssh-keygen.exe. Press enter till the execution is complete as shown in the image below
 ![open_ssh_keygen](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_keygen.png)
@@ -87,8 +87,8 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTUzMTY5NiwyMTUwNTA5MTYsLTcyND
-QzODk4OSwtMTg2ODQ2MzIxMyw3Njg0MjgwMzcsLTE4ODMzNDcx
-OTQsMjEwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMDMzODcyLC0xMD
-A3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbLTE1ODk2ODU2MjcsMjE1MDUwOTE2LC03Mj
+Q0Mzg5ODksLTE4Njg0NjMyMTMsNzY4NDI4MDM3LC0xODgzMzQ3
+MTk0LDIxMDM2OTg3OTEsNjQyNDI4MjI2LC0xMjAzMzg3MiwtMT
+AwNzA1MjY0N119
 -->
