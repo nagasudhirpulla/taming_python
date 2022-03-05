@@ -68,7 +68,7 @@
 * Also note that `authorized_keys` file should **not** have any extension like .txt, .docx etc.
 
 ### Step 4 - Change the permissions of the authorized_keys file
-* The access control permissions of `authorized_keys` file should be the same as the files present in `C:\ProgramData\ssh` folder
+* The access control list (ACL) of `authorized_keys` file should be the same as the files present in `C:\ProgramData\ssh` folder
 * 
 
 ## Setup SFTP client in windows using WinSCP
@@ -100,10 +100,10 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njc2ODYzNTcsLTE1MjY0NjI4NTksLT
-E0ODIyMzgxMDMsMTA1MDczMDU5MywtODUzMDgzOCwtMTUyNTYy
-NjMwMiwzODE4ODU2MzksMjE1MDUwOTE2LC03MjQ0Mzg5ODksLT
-E4Njg0NjMyMTMsNzY4NDI4MDM3LC0xODgzMzQ3MTk0LDIxMDM2
-OTg3OTEsNjQyNDI4MjI2LC0xMjAzMzg3MiwtMTAwNzA1MjY0N1
-19
+eyJoaXN0b3J5IjpbNTM0OTkyOTM0LC0xNTI2NDYyODU5LC0xND
+gyMjM4MTAzLDEwNTA3MzA1OTMsLTg1MzA4MzgsLTE1MjU2MjYz
+MDIsMzgxODg1NjM5LDIxNTA1MDkxNiwtNzI0NDM4OTg5LC0xOD
+Y4NDYzMjEzLDc2ODQyODAzNywtMTg4MzM0NzE5NCwyMTAzNjk4
+NzkxLDY0MjQyODIyNiwtMTIwMzM4NzIsLTEwMDcwNTI2NDddfQ
+==
 -->
