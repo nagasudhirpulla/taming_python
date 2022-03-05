@@ -48,7 +48,7 @@
 * Inside the program files folder like  `C:\Program Files\OpenSSH` there will be an exe file named `ssh-keygen.exe` which can be used to easily generate a public and private key pair
 * Open a command window in that folder and run ssh-keygen.exe. Press enter till the execution is complete as shown in the image below
 ![open_ssh_keygen](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_keygen.png)
-* The public key will be saved in `C:\Users\<username>\.ssh\id_rsa.pub` and private key will be saved in  
+* The public key will be saved in `C:\Users\<username>\.ssh\id_rsa.pub` and private key will be saved in `C:\Users\Nagasudhir\.ssh\id_rsa` 
 #### Using puttygen.exe
 * Download puttygen.exe from https://www.puttygen.com/download-putty#Download_PuTTY_073_for_Windows
 * Run puttygen.exe, make sure the settings are as shown in the below image and click *Generate* button. Move the cursor over the blank area to generate randomness. Then the key generation process will be completed
@@ -85,7 +85,8 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2OTIzNzQxLC03MjQ0Mzg5ODksLTE4Nj
-g0NjMyMTMsNzY4NDI4MDM3LC0xODgzMzQ3MTk0LDIxMDM2OTg3
-OTEsNjQyNDI4MjI2LC0xMjAzMzg3MiwtMTAwNzA1MjY0N119
+eyJoaXN0b3J5IjpbLTIxMzg1ODQ5NDAsLTcyNDQzODk4OSwtMT
+g2ODQ2MzIxMyw3Njg0MjgwMzcsLTE4ODMzNDcxOTQsMjEwMzY5
+ODc5MSw2NDI0MjgyMjYsLTEyMDMzODcyLC0xMDA3MDUyNjQ3XX
+0=
 -->
