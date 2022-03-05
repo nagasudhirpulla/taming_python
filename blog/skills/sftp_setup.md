@@ -69,7 +69,7 @@
 
 ### Step 4 - Change the permissions of the authorized_keys file
 * The access control list (ACL) of `authorized_keys` file should be the same as the files present in `C:\ProgramData\ssh` folder
-* 
+![open_ssh_authorized_keys_permissions](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_permissions.png)
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -100,10 +100,10 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0OTkyOTM0LC0xNTI2NDYyODU5LC0xND
-gyMjM4MTAzLDEwNTA3MzA1OTMsLTg1MzA4MzgsLTE1MjU2MjYz
-MDIsMzgxODg1NjM5LDIxNTA1MDkxNiwtNzI0NDM4OTg5LC0xOD
-Y4NDYzMjEzLDc2ODQyODAzNywtMTg4MzM0NzE5NCwyMTAzNjk4
-NzkxLDY0MjQyODIyNiwtMTIwMzM4NzIsLTEwMDcwNTI2NDddfQ
-==
+eyJoaXN0b3J5IjpbMTE2NjQxODY2Niw1MzQ5OTI5MzQsLTE1Mj
+Y0NjI4NTksLTE0ODIyMzgxMDMsMTA1MDczMDU5MywtODUzMDgz
+OCwtMTUyNTYyNjMwMiwzODE4ODU2MzksMjE1MDUwOTE2LC03Mj
+Q0Mzg5ODksLTE4Njg0NjMyMTMsNzY4NDI4MDM3LC0xODgzMzQ3
+MTk0LDIxMDM2OTg3OTEsNjQyNDI4MjI2LC0xMjAzMzg3MiwtMT
+AwNzA1MjY0N119
 -->
