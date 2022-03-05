@@ -42,7 +42,7 @@
 * Private key can be changed easily from time to time without changing the user's OS password
 * Access of SFTP client can be easily revoked by just removing the client's public key from the authenticated list, without locking out or modifying the OS user account
 
-## Setup private key based authentication in windows
+## Setup public key based authentication in windows
 ### Step 1 - Create a public and private key pair
 * Public and private keys can be generated using one of the below methods
 * The public key will be added to a text file in the SFTP server
@@ -75,7 +75,7 @@ icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Adm
 ```
 ![open_ssh_authorized_keys_permissions](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_permissions.png)* You can verify the access control list of the `authorized_keys` file by right click on file->properties->security tab as shown in the below image
 ![open_ssh_authorized_keys_properties](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_properties.png)
-### Step 6 - Change the sshd_config file to configure public key authentication
+### Step 6 - Change the sshd_config file to configure public key based authentication
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -106,7 +106,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDQ1NTI0OSwtMTYwMDc3Mjg0MCwtNj
+eyJoaXN0b3J5IjpbMTMwNzgzODM2NiwtMTYwMDc3Mjg0MCwtNj
 E3Mzc3NTUxLDUzNDk5MjkzNCwtMTUyNjQ2Mjg1OSwtMTQ4MjIz
 ODEwMywxMDUwNzMwNTkzLC04NTMwODM4LC0xNTI1NjI2MzAyLD
 M4MTg4NTYzOSwyMTUwNTA5MTYsLTcyNDQzODk4OSwtMTg2ODQ2
