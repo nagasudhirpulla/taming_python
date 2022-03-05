@@ -47,6 +47,7 @@
 #### Using puttygen.exe
 * Download puttygen.exe from https://www.puttygen.com/download-putty#Download_PuTTY_073_for_Windows
 *  
+* 
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -77,7 +78,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzEzNTkwNCw3Njg0MjgwMzcsLTE4OD
-MzNDcxOTQsMjEwMzY5ODc5MSw2NDI0MjgyMjYsLTEyMDMzODcy
-LC0xMDA3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbNzcwMDUyMTg0LDc2ODQyODAzNywtMTg4Mz
+M0NzE5NCwyMTAzNjk4NzkxLDY0MjQyODIyNiwtMTIwMzM4NzIs
+LTEwMDcwNTI2NDddfQ==
 -->
