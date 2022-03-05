@@ -46,7 +46,7 @@
 ### Step 1 - Create a public and private key pair
 * Public and private keys can be generated using one of the below methods
 * The public key will be added to a text file in the SFTP server
-* The private key will be used   
+* The private key will be used by the client to get authenticated and establish a session with the  
 #### Method 1 (Preferred) - Using ssh-keygen.exe
 * `ssh-keygen.exe` can be found inside the program files folder like  `C:\Program Files\OpenSSH`
 * Open a command window in that folder and run ssh-keygen.exe. Press enter till the execution is complete as shown in the image below
@@ -90,7 +90,7 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzkyMzQyLDIxNTA1MDkxNiwtNzI0ND
+eyJoaXN0b3J5IjpbOTg0ODA5Njc1LDIxNTA1MDkxNiwtNzI0ND
 M4OTg5LC0xODY4NDYzMjEzLDc2ODQyODAzNywtMTg4MzM0NzE5
 NCwyMTAzNjk4NzkxLDY0MjQyODIyNiwtMTIwMzM4NzIsLTEwMD
 cwNTI2NDddfQ==
