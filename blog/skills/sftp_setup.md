@@ -33,7 +33,7 @@
 ## Downsides of password based authentication in SFTP
 * User credentials of the server operating system are to be shared with the SFTP client which is not desirable
 * To change the password of SFTP client, the OS user password is to be changed
-* OS User passwords are being transmitted over the network
+* OS User passwords will be transmitted over the network
 
 ## Benefits of using public key based authentication in SFTP
 * This type of authentication is more robust and secure
@@ -106,10 +106,10 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2NTM2NDEwLC0xNjAwNzcyODQwLC02MT
-czNzc1NTEsNTM0OTkyOTM0LC0xNTI2NDYyODU5LC0xNDgyMjM4
-MTAzLDEwNTA3MzA1OTMsLTg1MzA4MzgsLTE1MjU2MjYzMDIsMz
-gxODg1NjM5LDIxNTA1MDkxNiwtNzI0NDM4OTg5LC0xODY4NDYz
-MjEzLDc2ODQyODAzNywtMTg4MzM0NzE5NCwyMTAzNjk4NzkxLD
-Y0MjQyODIyNiwtMTIwMzM4NzIsLTEwMDcwNTI2NDddfQ==
+eyJoaXN0b3J5IjpbMTU2Mzk0ODE1NiwtMTYwMDc3Mjg0MCwtNj
+E3Mzc3NTUxLDUzNDk5MjkzNCwtMTUyNjQ2Mjg1OSwtMTQ4MjIz
+ODEwMywxMDUwNzMwNTkzLC04NTMwODM4LC0xNTI1NjI2MzAyLD
+M4MTg4NTYzOSwyMTUwNTA5MTYsLTcyNDQzODk4OSwtMTg2ODQ2
+MzIxMyw3Njg0MjgwMzcsLTE4ODMzNDcxOTQsMjEwMzY5ODc5MS
+w2NDI0MjgyMjYsLTEyMDMzODcyLC0xMDA3MDUyNjQ3XX0=
 -->
