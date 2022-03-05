@@ -98,8 +98,8 @@ Replace `<username>` with the OS username
 #Match Group administrators
 # AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
 ```
-### Step 6 (Optional) - Restrict user to a folder (also called folder jailing)
-*  
+## Restrict user to a folder (also called folder jailing)
+* Using `ChrootDirectory` in sshd_config file, we can restrcit the SFTP user to a parrticla
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -130,11 +130,11 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTAwMjkyMSwtNDAwNTcyNzM2LC0xMD
-E0NTU2MjQ4LDI5ODk0NDA3OCw5ODAzMjU2MDIsLTE1Njc2NjQw
-MzksLTE2MDA3NzI4NDAsLTYxNzM3NzU1MSw1MzQ5OTI5MzQsLT
-E1MjY0NjI4NTksLTE0ODIyMzgxMDMsMTA1MDczMDU5MywtODUz
-MDgzOCwtMTUyNTYyNjMwMiwzODE4ODU2MzksMjE1MDUwOTE2LC
-03MjQ0Mzg5ODksLTE4Njg0NjMyMTMsNzY4NDI4MDM3LC0xODgz
-MzQ3MTk0XX0=
+eyJoaXN0b3J5IjpbNjg1MDU3MzU1LC00MDA1NzI3MzYsLTEwMT
+Q1NTYyNDgsMjk4OTQ0MDc4LDk4MDMyNTYwMiwtMTU2NzY2NDAz
+OSwtMTYwMDc3Mjg0MCwtNjE3Mzc3NTUxLDUzNDk5MjkzNCwtMT
+UyNjQ2Mjg1OSwtMTQ4MjIzODEwMywxMDUwNzMwNTkzLC04NTMw
+ODM4LC0xNTI1NjI2MzAyLDM4MTg4NTYzOSwyMTUwNTA5MTYsLT
+cyNDQzODk4OSwtMTg2ODQ2MzIxMyw3Njg0MjgwMzcsLTE4ODMz
+NDcxOTRdfQ==
 -->
