@@ -25,7 +25,8 @@
 ## Setup SFTP server in newer windows version
 * Click windows button and search for "manage optional features"
 * Click on "add a feature" and search for OpenSSH server and install it
-* Now Open SSH server and OpenSSH Authentication agent services should
+* Now Open SSH server and OpenSSH Authentication agent services should be installed in the `services.msc` window
+* You ca right click and change the start up type of both the services as automatic if you want the services to start upon system start up
 
 ## Setup SFTP client in windows using WinSCP
 * Download WinSCP at https://winscp.net/eng/download.php
@@ -56,6 +57,6 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI3NTgzMDUsMjEwMzY5ODc5MSw2ND
+eyJoaXN0b3J5IjpbLTE5MTUzODg3MDEsMjEwMzY5ODc5MSw2ND
 I0MjgyMjYsLTEyMDMzODcyLC0xMDA3MDUyNjQ3XX0=
 -->
