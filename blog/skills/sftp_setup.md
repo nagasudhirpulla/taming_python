@@ -19,7 +19,7 @@
 * Now the `sshd` and `ssh-agent` windows services should be installed. This can be seen in the `services.msc` window
 * Change the startup type to Automatic from Manual and start both the `sshd` and `sshd-agent` services. Since we have set the startup type as automatic, both the services will start automatically upon system startup.
 ![open_ssh_windows_services](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_windows_services.png)
-* Create the appropriate firewall policy to expose the sftp port 22 to local or remote systems if required
+* Create the appropriate firewall policy to expose the SFTP port 22 to local or remote systems if required
 * Now SFTP server accepts connections using username and password authentication
 
 ## Setup SFTP server in newer windows version
@@ -33,7 +33,7 @@
 * Run the downloaded executable file and complete the installation
 * Open WinSCP app
 * Click on New Session button in the top left menu
-* Set protocal as FTP, encryption as TLS/SSL explicit encryption if the FTP server uses encryption or select No encryption, port as 21, hostname as localhost, enter username and password. Finally click login
+* Set protocol as FTP, encryption as TLS/SSL explicit encryption if the FTP server uses encryption or select No encryption, port as 21, hostname as localhost, enter username and password. Finally click login
 ![winscp_connect_ftp](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/winscp_connect_ftp.PNG)
 * Now FTP server is connected to WinSCP
 * We can copy,paste,rename,delete the ftp server files just like file explorer
@@ -57,6 +57,6 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTUzODg3MDEsMjEwMzY5ODc5MSw2ND
-I0MjgyMjYsLTEyMDMzODcyLC0xMDA3MDUyNjQ3XX0=
+eyJoaXN0b3J5IjpbMTY5OTQxNDY3NywyMTAzNjk4NzkxLDY0Mj
+QyODIyNiwtMTIwMzM4NzIsLTEwMDcwNTI2NDddfQ==
 -->
