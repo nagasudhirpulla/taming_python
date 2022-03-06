@@ -123,7 +123,7 @@ Match User <username>
 * For logging in with public key based authentication, click on the "Advanced" button, then a pop window opens. In the left pane, select "Authentication" menu under the SSH section. Browse for the private key file (`id_rsa` file). After uploading the file, click OK button
 ![winscp_sftp_login_advanced_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/winscp_sftp_login_advanced_settings.PNG)* Finally click login. Now WinSCP is connected to SFTP server
 * We can copy,paste,rename,delete the SFTP server files just like file explorer
-![winscp_ui](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/winscp_ui.PNG)
+![winscp_after_sftp_folder_jailing](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/winscp_after_sftp_folder_jailing.PNG)
  
 ### Video
 Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
@@ -143,11 +143,11 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5MzYxNTM3LDEyNTUzOTM1NTMsLTEwMD
-QwNTIwNTcsLTQwMDU3MjczNiwtMTAxNDU1NjI0OCwyOTg5NDQw
-NzgsOTgwMzI1NjAyLC0xNTY3NjY0MDM5LC0xNjAwNzcyODQwLC
-02MTczNzc1NTEsNTM0OTkyOTM0LC0xNTI2NDYyODU5LC0xNDgy
-MjM4MTAzLDEwNTA3MzA1OTMsLTg1MzA4MzgsLTE1MjU2MjYzMD
-IsMzgxODg1NjM5LDIxNTA1MDkxNiwtNzI0NDM4OTg5LC0xODY4
-NDYzMjEzXX0=
+eyJoaXN0b3J5IjpbMTkyODc0MTkwNywxMjU1MzkzNTUzLC0xMD
+A0MDUyMDU3LC00MDA1NzI3MzYsLTEwMTQ1NTYyNDgsMjk4OTQ0
+MDc4LDk4MDMyNTYwMiwtMTU2NzY2NDAzOSwtMTYwMDc3Mjg0MC
+wtNjE3Mzc3NTUxLDUzNDk5MjkzNCwtMTUyNjQ2Mjg1OSwtMTQ4
+MjIzODEwMywxMDUwNzMwNTkzLC04NTMwODM4LC0xNTI1NjI2Mz
+AyLDM4MTg4NTYzOSwyMTUwNTA5MTYsLTcyNDQzODk4OSwtMTg2
+ODQ2MzIxM119
 -->
