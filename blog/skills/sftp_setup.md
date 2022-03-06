@@ -124,12 +124,6 @@ Match User <username>
 ![winscp_sftp_login_advanced_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/winscp_sftp_login_advanced_settings.PNG)* Finally click login. Now WinSCP is connected to SFTP server
 * We can copy,paste,rename,delete the SFTP server files just like file explorer
 ![winscp_after_sftp_folder_jailing](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/winscp_after_sftp_folder_jailing.PNG)
- 
-### Video
-Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6gHlAfviiPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### References
 * OpenSSH SFTP server installation guide - https://winscp.net/eng/docs/guide_windows_openssh_server
 * OpenSSH SFTP server official installation guide - https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
@@ -143,11 +137,11 @@ Video for this post can be found [here](https://youtu.be/6gHlAfviiPM)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODc0MTkwNywxMjU1MzkzNTUzLC0xMD
-A0MDUyMDU3LC00MDA1NzI3MzYsLTEwMTQ1NTYyNDgsMjk4OTQ0
-MDc4LDk4MDMyNTYwMiwtMTU2NzY2NDAzOSwtMTYwMDc3Mjg0MC
-wtNjE3Mzc3NTUxLDUzNDk5MjkzNCwtMTUyNjQ2Mjg1OSwtMTQ4
-MjIzODEwMywxMDUwNzMwNTkzLC04NTMwODM4LC0xNTI1NjI2Mz
-AyLDM4MTg4NTYzOSwyMTUwNTA5MTYsLTcyNDQzODk4OSwtMTg2
-ODQ2MzIxM119
+eyJoaXN0b3J5IjpbMTEyOTIzNTI2LDEyNTUzOTM1NTMsLTEwMD
+QwNTIwNTcsLTQwMDU3MjczNiwtMTAxNDU1NjI0OCwyOTg5NDQw
+NzgsOTgwMzI1NjAyLC0xNTY3NjY0MDM5LC0xNjAwNzcyODQwLC
+02MTczNzc1NTEsNTM0OTkyOTM0LC0xNTI2NDYyODU5LC0xNDgy
+MjM4MTAzLDEwNTA3MzA1OTMsLTg1MzA4MzgsLTE1MjU2MjYzMD
+IsMzgxODg1NjM5LDIxNTA1MDkxNiwtNzI0NDM4OTg5LC0xODY4
+NDYzMjEzXX0=
 -->
