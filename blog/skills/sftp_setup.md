@@ -61,13 +61,13 @@
 * Click on the save public key and save private key buttons to save the public and private keys into files like `pblic_key` and `prv_key.ppk`
 
 ![puttygen](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/puttygen.PNG)
-### Step 3 - Place the public key in the SFTP server
+### Step 2 - Place the public key in the SFTP server
 * In the SFTP server, use a text editor like notepad and open the `authorized_keys` file located at `‪C:\Users\<username>\.ssh\authorized_keys` . If the file is not present, create a new file at this location.
 * Copy the text in the public key file (like `id_rsa.pub`) generated in the previous step and paste the text inside the `authorized_keys` file in a new line.
 ![open_ssh_authorized_keys](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys.png)* In this way, multiple public keys can be added one below the other in this text file so that they can be authenticated by the SFTP server
 * Also note that `authorized_keys` file should **not** have any extension like .txt, .docx etc.
 
-### Step 4 - Change the access control list (ACL) of the authorized_keys file in SFTP server
+### Step 3 - Change the access control list (ACL) of the authorized_keys file in SFTP server
 * The access control list (ACL) of `authorized_keys` file should be configured such that only `Administrators` and `System` users should have the access to this file
 * To achieve this, open a command prompt as administrator and run the following command
 ```bat
@@ -75,7 +75,7 @@ icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Adm
 ```
 ![open_ssh_authorized_keys_permissions](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_permissions.png)* You can verify the access control list of the `authorized_keys` file by right click on file->properties->security tab as shown in the below image
 ![open_ssh_authorized_keys_properties](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_properties.png)
-### Step 5 - Edit the sshd_config file of the SFTP server to configure public key based authentication
+### Step 4 - Edit the sshd_config file of the SFTP server to configure public key based authentication
 * `sshd_config` file is located at `C:\ProgramData\ssh` folder of the SFTP server
 * Open it with a text editor like Notepad or VS code
 * Modify the `sshd_config` file to make sure the following lines are present in the file.
@@ -124,6 +124,11 @@ Match User <username>
 ![winscp_sftp_login_advanced_settings](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/winscp_sftp_login_advanced_settings.PNG)* Finally click login. Now WinSCP is connected to SFTP server
 * We can copy,paste,rename,delete the SFTP server files just like file explorer
 ![winscp_after_sftp_folder_jailing](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/winscp_after_sftp_folder_jailing.PNG)
+### Video
+The video for this post can be found [here](https://youtu.be/pOwXn4do7r0)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pOwXn4do7r0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 * OpenSSH SFTP server installation guide - https://winscp.net/eng/docs/guide_windows_openssh_server
 * OpenSSH SFTP server official installation guide - https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
@@ -137,11 +142,11 @@ Match User <username>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTIzNTI2LDEyNTUzOTM1NTMsLTEwMD
-QwNTIwNTcsLTQwMDU3MjczNiwtMTAxNDU1NjI0OCwyOTg5NDQw
-NzgsOTgwMzI1NjAyLC0xNTY3NjY0MDM5LC0xNjAwNzcyODQwLC
-02MTczNzc1NTEsNTM0OTkyOTM0LC0xNTI2NDYyODU5LC0xNDgy
-MjM4MTAzLDEwNTA3MzA1OTMsLTg1MzA4MzgsLTE1MjU2MjYzMD
-IsMzgxODg1NjM5LDIxNTA1MDkxNiwtNzI0NDM4OTg5LC0xODY4
-NDYzMjEzXX0=
+eyJoaXN0b3J5IjpbMzI1MzgzNDU1LDExMjkyMzUyNiwxMjU1Mz
+kzNTUzLC0xMDA0MDUyMDU3LC00MDA1NzI3MzYsLTEwMTQ1NTYy
+NDgsMjk4OTQ0MDc4LDk4MDMyNTYwMiwtMTU2NzY2NDAzOSwtMT
+YwMDc3Mjg0MCwtNjE3Mzc3NTUxLDUzNDk5MjkzNCwtMTUyNjQ2
+Mjg1OSwtMTQ4MjIzODEwMywxMDUwNzMwNTkzLC04NTMwODM4LC
+0xNTI1NjI2MzAyLDM4MTg4NTYzOSwyMTUwNTA5MTYsLTcyNDQz
+ODk4OV19
 -->
