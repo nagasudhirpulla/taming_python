@@ -60,6 +60,7 @@ Here are the goals and skills in this tutorial series
 #### FTP and SFTP Skills
 * [Setup FTP server and FTP client in Windows using IIS, Filezilla server and WinSCP](https://nagasudhir.blogspot.com/2022/02/setup-ftp-server-and-ftp-client-in.html)
 * [FTP server communication with ftplib python module](https://nagasudhir.blogspot.com/2022/02/ftp-server-communication-with-ftplib.html)
+* [Setup SFTP server and SFTP client in Windows using OpenSSH server and WinSCP](https://nagasudhir.blogspot.com/2022/03/setup-sftp-server-and-sftp-client-in.html)
 
 #### Application Code best practices
 * [Accessing application secrets with environment variables](https://nagasudhir.blogspot.com/2020/06/accessing-application-secrets-with.html)
@@ -132,11 +133,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTQ0MDk3NzkwNywtMTI2MT
-E0MzI3LC0xNzM4NTExNDI4LDE0NjQ5MDY3MDYsLTE1NjcxNDU1
-MzIsLTE5MTEwNjQxNTcsMTcwNTE5MDYxMiw4MDYxMzc2MDcsOT
-k3Njg4MTM0LC0xMjMzNzIxMTgsLTE3ODgxNzMwMTAsODgxMDUy
-NTI5LDg5NjQ3NzM2NiwtMjk3NDIyODcxLC02MTY3MjE0NTUsNT
-M4ODE0ODg1LDg3Njg0ODI1NCw1MDU3MDc3MzAsMzcwNjkwNzI3
-LC0yMTEzODc2NDk2XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTIxMDk1MzYyOTIsLTEyNj
+ExNDMyNywtMTczODUxMTQyOCwxNDY0OTA2NzA2LC0xNTY3MTQ1
+NTMyLC0xOTExMDY0MTU3LDE3MDUxOTA2MTIsODA2MTM3NjA3LD
+k5NzY4ODEzNCwtMTIzMzcyMTE4LC0xNzg4MTczMDEwLDg4MTA1
+MjUyOSw4OTY0NzczNjYsLTI5NzQyMjg3MSwtNjE2NzIxNDU1LD
+UzODgxNDg4NSw4NzY4NDgyNTQsNTA1NzA3NzMwLDM3MDY5MDcy
+NywtMjExMzg3NjQ5Nl19
 -->
