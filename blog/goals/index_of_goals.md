@@ -57,6 +57,10 @@ Here are the goals and skills in this tutorial series
 * [Delete a file or folder in python](https://nagasudhir.blogspot.com/2020/05/delete-file-or-folder-in-python.html)
 * [Iterate through files inside folder](https://nagasudhir.blogspot.com/2020/05/iterate-through-files-inside-folder.html)
 
+#### FTP and SFTP Skills
+* [Setup FTP server and FTP client in Windows using IIS, Filezilla server and WinSCP](https://nagasudhir.blogspot.com/2022/02/setup-ftp-server-and-ftp-client-in.html)
+* [FTP server communication with ftplib python module](https://nagasudhir.blogspot.com/2022/02/ftp-server-communication-with-ftplib.html)
+
 #### Application Code best practices
 * [Accessing application secrets with environment variables](https://nagasudhir.blogspot.com/2020/06/accessing-application-secrets-with.html)
 * [Sharing functions and variables across files in python](https://nagasudhir.blogspot.com/2020/07/sharing-functions-and-variables-across.html)
@@ -128,11 +132,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEyNjExNDMyNywtMTczOD
-UxMTQyOCwxNDY0OTA2NzA2LC0xNTY3MTQ1NTMyLC0xOTExMDY0
-MTU3LDE3MDUxOTA2MTIsODA2MTM3NjA3LDk5NzY4ODEzNCwtMT
-IzMzcyMTE4LC0xNzg4MTczMDEwLDg4MTA1MjUyOSw4OTY0Nzcz
-NjYsLTI5NzQyMjg3MSwtNjE2NzIxNDU1LDUzODgxNDg4NSw4Nz
-Y4NDgyNTQsNTA1NzA3NzMwLDM3MDY5MDcyNywtMjExMzg3NjQ5
-Niw3OTEyMDA1NDldfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTQ0MDk3NzkwNywtMTI2MT
+E0MzI3LC0xNzM4NTExNDI4LDE0NjQ5MDY3MDYsLTE1NjcxNDU1
+MzIsLTE5MTEwNjQxNTcsMTcwNTE5MDYxMiw4MDYxMzc2MDcsOT
+k3Njg4MTM0LC0xMjMzNzIxMTgsLTE3ODgxNzMwMTAsODgxMDUy
+NTI5LDg5NjQ3NzM2NiwtMjk3NDIyODcxLC02MTY3MjE0NTUsNT
+M4ODE0ODg1LDg3Njg0ODI1NCw1MDU3MDc3MzAsMzcwNjkwNzI3
+LC0yMTEzODc2NDk2XX0=
 -->
