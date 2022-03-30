@@ -35,6 +35,8 @@ privateKeyFilePath = 'C:/path/to/id_rsa'
 with pysftp.Connection(sftpHost, port=sftpPort, username=uname, private_key=privateKeyFilePath, cnopts=cnopts) as sftp:
     print("connected to sftp server!")
 ```
+* The path of private key file should be specified in `privateKeyFilePath` variable
+* In order 
 
 ### Password based Authentication
 ```python
@@ -273,5 +275,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTY3NjQwMDNdfQ==
+eyJoaXN0b3J5IjpbLTE1NDcwMDEwNjVdfQ==
 -->
