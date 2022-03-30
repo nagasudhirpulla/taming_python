@@ -77,12 +77,15 @@ import pysftp
 cnopts = pysftp.CnOpts()
 cnopts.hostkeys = None
 with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cnopts=cnopts) as sftp:
+    # get list of filenames in current working directory
     fnames = sftp.listdir()
     print(fnames)
-
-    fnames = sftp.listdir("./remFolder")
+    
+    # get list of filenames in any remote folder
+    fnames = sftp.listdir("./remoteFolder")
     print(fnames)
 
+    # get f
     fInfos = sftp.listdir_attr()
     print(fInfos)
 ```
@@ -248,5 +251,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MTM2NjA2M119
+eyJoaXN0b3J5IjpbMTMwMzUzMzM5M119
 -->
