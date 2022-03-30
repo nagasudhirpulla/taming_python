@@ -138,8 +138,10 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
     # dowmload remote folder along with sub folders recursively to local folder
     sftp.get_r("./remoteFolder", localdir="", preserve_mtime=True)
 ```
-* This function can be copied and used directly in your projects
-* We can modify this function as per our requirements like specifying local filenames etc.
+
+* `get` method can be used to download single file from remote server
+* `get_d` method can be used to download remote folder contents to local folder
+* `get_r` method can be used to download remote folder 
 
 ## Other important FTP actions
 All the important python ftp functions for directory listing, rename, delete file, delete folder, create folder, get the size of files etc. can be found at https://docs.python.org/3/library/ftplib.html#ftplib.FTP.dir
@@ -183,6 +185,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTQ1NTUzLDI4MTA2ODMxMiwtNTc1Mj
-I2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1N119
+eyJoaXN0b3J5IjpbMTM1Nzc4MDQ5OSwyODEwNjgzMTIsLTU3NT
+IyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTddfQ==
 -->
