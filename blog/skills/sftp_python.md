@@ -36,7 +36,8 @@ with pysftp.Connection(sftpHost, port=sftpPort, username=uname, private_key=priv
     print("connected to sftp server!")
 ```
 * The path of private key file should be specified in `privateKeyFilePath` variable
-* In order 
+* If you want to ignore known hosts checking, set `hostKeys` as `None` in connection options
+* Since we are 
 
 ### Password based Authentication
 ```python
@@ -275,5 +276,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDcwMDEwNjVdfQ==
+eyJoaXN0b3J5IjpbODg1MTQzNjQwXX0=
 -->
