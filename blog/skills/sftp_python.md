@@ -143,7 +143,7 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
 * `get_d` method can be used to download remote folder contents to local folder
 * `get_r` method can be used to download the remote folder directly to the local system along with sub-folders 
 
-## Other important FTP actions
+## Other important SFTP actions
 All the important python ftp functions for directory listing, rename, delete file, delete folder, create folder, get the size of files etc. can be found at https://docs.python.org/3/library/ftplib.html#ftplib.FTP.dir
 
 **ftp.dir(argument[, ...])**
@@ -185,6 +185,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzA5MjE1MSwyODEwNjgzMTIsLTU3NT
-IyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTddfQ==
+eyJoaXN0b3J5IjpbNTcxMjY2MjI4LDI4MTA2ODMxMiwtNTc1Mj
+I2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1N119
 -->
