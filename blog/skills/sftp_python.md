@@ -122,60 +122,21 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
 
 ## Download files from SFTP server directory using 'get', 'get_d', 'get_r'
 ```python
-import ftplib
-import os
+import pysftp
+cnopts = pysftp.CnOpts()
+cnopts.hostkeys = None
+with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cnopts=cnopts) as sftp:
+    # download remote server file to current local folder
+    sftp.get("./jgjhgajhsd/khd.txt", preserve_mtime=True)
 
+    # download remote server file to desired local path and desired filename
+    sftp.get("./jgjhgajhsd/khd.txt", localpath="./test/abc.txt", preserve_mtime=True)
 
-def downloadFilesFromFtp(localfolderPath, targetFilenames, ftpHost, ftpPort, ftpUname, ftpPass, remoteWorkingDirectory):
-    # initialize the flag that specifies if download is success
-    isDownloadSuccess: bool = False
+    # dowmload remote folder files to local folder
+    sftp.get_d("./jgjhgajhsd", localdir="./test", preserve_mtime=True)
 
-    # create an FTP client instance, use the timeout parameter for slow connections only
-    ftp = ftplib.FTP(timeout=30)
-
-    # connect to the FTP server
-    ftp.connect(ftpHost, ftpPort)
-
-    # login to the FTP server
-    ftp.login(ftpUname, ftpPass)
-
-    # change current working directory if specified
-    if not (remoteWorkingDirectory == None or remoteWorkingDirectory.strip() == ""):
-        _ = ftp.cwd(remoteWorkingDirectory)
-
-    # iterate through each remote filename and download
-    for fItr in range(len(targetFilenames)):
-        targetFilename = targetFilenames[fItr]
-        # derive the local file path by appending the local folder path with remote filename
-        localFilePath = os.path.join(localfolderPath, targetFilename)
-        print("downloading file {0}".format(targetFilename))
-        # download FTP file using retrbinary function
-        with open(localFilePath, "wb") as file:
-            retCode = ftp.retrbinary("RETR " + targetFilename, file.write)
-
-    # send QUIT command to the FTP server and close the connection
-    ftp.quit()
-
-    # check if download is success using the return code (retCode)
-    if retCode.startswith('226'):
-        isDownloadSuccess = True
-    return isDownloadSuccess
-
-
-# connection parameters
-ftpHost = 'localhost'
-ftpPort = 21
-ftpUname = 'uname'
-ftpPass = 'pass'
-localFolderPath = ""
-remoteFolder = "folder1/abcd"
-remoteFilenames = ["rguj.docx"]
-
-# run the function to download the files from FTP server
-isDownloadSuccess = downloadFilesFromFtp(
-    localFolderPath,remoteFilenames, ftpHost, ftpPort, ftpUname, ftpPass, remoteFolder)
-
-print("download status = {0}".format(isDownloadSuccess))
+    # dowmload remote folder along with sub folders recursively to local folder
+    sftp.get_r("./jgjhgajhsd", localdir="", preserve_mtime=True)
 ```
 * This function can be copied and used directly in your projects
 * We can modify this function as per our requirements like specifying local filenames etc.
@@ -222,6 +183,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5NDQwNDIyLDI4MTA2ODMxMiwtNTc1Mj
-I2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1N119
+eyJoaXN0b3J5IjpbMTE5OTUwMjU2NCwyODEwNjgzMTIsLTU3NT
+IyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTddfQ==
 -->
