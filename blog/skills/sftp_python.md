@@ -127,16 +127,16 @@ cnopts = pysftp.CnOpts()
 cnopts.hostkeys = None
 with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cnopts=cnopts) as sftp:
     # download remote server file to current local folder
-    sftp.get("./jgjhgajhsd/khd.txt", preserve_mtime=True)
+    sftp.get("./remoteFolder/khd.txt", preserve_mtime=True)
 
     # download remote server file to desired local path and desired filename
-    sftp.get("./jgjhgajhsd/khd.txt", localpath="./test/abc.txt", preserve_mtime=True)
+    sftp.get("./remoteFolder/khd.txt", localpath="./test/abc.txt", preserve_mtime=True)
 
     # dowmload remote folder files to local folder
-    sftp.get_d("./jgjhgajhsd", localdir="./test", preserve_mtime=True)
+    sftp.get_d("./remoteFolder", localdir="./test", preserve_mtime=True)
 
     # dowmload remote folder along with sub folders recursively to local folder
-    sftp.get_r("./jgjhgajhsd", localdir="", preserve_mtime=True)
+    sftp.get_r("./remoteFolder", localdir="", preserve_mtime=True)
 ```
 * This function can be copied and used directly in your projects
 * We can modify this function as per our requirements like specifying local filenames etc.
@@ -183,6 +183,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTUwMjU2NCwyODEwNjgzMTIsLTU3NT
+eyJoaXN0b3J5IjpbMTk0NjE0OTQxMiwyODEwNjgzMTIsLTU3NT
 IyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTddfQ==
 -->
