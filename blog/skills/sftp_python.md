@@ -121,7 +121,6 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
 * `put_r` method can be used to upload all folder contents to sftp server folder along with sub-folders
 
 ## Download files from SFTP server directory using 'get', 'get_d', 'get_r'
-In the below python script, we have created a function that downloads files from FTP server into a local directory.
 ```python
 import ftplib
 import os
@@ -223,6 +222,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTA3MTgsMjgxMDY4MzEyLC01NzUyMj
-YzNTgsLTQ3MTE5OTg0MiwxMjU1NTEyMjU3XX0=
+eyJoaXN0b3J5IjpbMzA5NDQwNDIyLDI4MTA2ODMxMiwtNTc1Mj
+I2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1N119
 -->
