@@ -95,7 +95,7 @@ print('execution complete!')
 * `listdir` function can be used to get the filenames in server folder
 * `listdir_attr` function can be used to get the metadata of all files in server folder as `SFTPAttribute` objects
 
-## Upload files to FTP server directory using 'put'
+## Upload files to FTP server directory using 'put', 'put_d', 'put_r'
 ```python
 import pysftp
 cnopts = pysftp.CnOpts()
@@ -120,7 +120,7 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
 * `put_d` method can be used to upload all folder contents to sftp server folder
 * `put_r` method can be used to upload all folder contents to sftp server folder along with sub-folders
 
-## Download files from FTP server directory using 'get'
+## Download files from FTP server directory using 'get', 'get_d', 'get_r'
 In the below python script, we have created a function that downloads files from FTP server into a local directory.
 ```python
 import ftplib
@@ -223,6 +223,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM2Mzg1MjAsMjgxMDY4MzEyLC01Nz
-UyMjYzNTgsLTQ3MTE5OTg0MiwxMjU1NTEyMjU3XX0=
+eyJoaXN0b3J5IjpbMTg2NzI3MjMzMiwyODEwNjgzMTIsLTU3NT
+IyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTddfQ==
 -->
