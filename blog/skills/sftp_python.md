@@ -126,10 +126,10 @@ import pysftp
 cnopts = pysftp.CnOpts()
 cnopts.hostkeys = None
 with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cnopts=cnopts) as sftp:
-    # download remote server file to current local folder
+    # download remote file to current local folder
     sftp.get("./remoteFolder/khd.txt", preserve_mtime=True)
 
-    # download remote server file to desired local path and desired filename
+    # download remote file to custom local path and desired filename
     sftp.get("./remoteFolder/khd.txt", localpath="./test/abc.txt", preserve_mtime=True)
 
     # dowmload remote folder files to local folder
@@ -183,6 +183,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NjE0OTQxMiwyODEwNjgzMTIsLTU3NT
-IyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTddfQ==
+eyJoaXN0b3J5IjpbMTIyMzIzMDA3LDI4MTA2ODMxMiwtNTc1Mj
+I2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1N119
 -->
