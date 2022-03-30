@@ -20,10 +20,16 @@ The following parameters are required to establish a connection to an SFTP serve
 ### Private key authentication
 ```python
 import pysftp
+
 # create connection options object
 cnopts = pysftp.CnOpts()
 # ignore known hosts check
 cnopts.hostkeys = None
+
+# connection parameters
+uname = 'Abcd'
+privateKeyFilePath = 'C:/path/to/id_rsa'
+# establish connection
 with pysftp.Connection('localhost', username='Nagasudhir', private_key='./id_rsa', cnopts=cnopts) as sftp:
     print("connected to sftp server!")
 ```
@@ -277,5 +283,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3Mjc1MDg0XX0=
+eyJoaXN0b3J5IjpbLTIxNTA2MTMxOF19
 -->
