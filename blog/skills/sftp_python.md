@@ -85,7 +85,7 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
     fnames = sftp.listdir("./remoteFolder")
     print(fnames)
 
-    # get metadatas of files in remote server 
+    # get metadatas of files in remote server using  listdir_attr
     fInfos = sftp.listdir_attr()
     print(fInfos)
 ```
@@ -251,5 +251,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTUxMjI1N119
+eyJoaXN0b3J5IjpbMTU1MzE4MDg0MCwxMjU1NTEyMjU3XX0=
 -->
