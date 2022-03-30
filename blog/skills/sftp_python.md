@@ -282,12 +282,14 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ME37cs7R0N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
-* Official ftplib documentation - https://docs.python.org/3/library/ftplib.html
+* pysftp cookbook - https://pysftp.readthedocs.io/en/release_0.2.9/cookbook.html#pysftp-connection
+* pysftp docs - https://pysftp.readthedocs.io/en/release_0.2.9/pysftp.html
+* paramiko docs - https://docs.paramiko.org/en/latest/api/sftp.html
 
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDY0MTIzOV19
+eyJoaXN0b3J5IjpbMTYyMTEwNTczNl19
 -->
