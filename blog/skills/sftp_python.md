@@ -71,7 +71,7 @@ print(sftp.pwd)
 # ... do something
 ```
 
-## Get the list of filenames in a folder using 'listdir'
+## Get the list of filenames in remote folder using 'listdir'
 ```python
 import pysftp
 cnopts = pysftp.CnOpts()
@@ -89,7 +89,8 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
     fInfos = sftp.listdir_attr()
     print(fInfos)
 ```
-You can copy this function and directly use it in your projects
+* `listdir` function can be used to get the filenames in server folder
+* `listdir_attr` function can be used to get the metadata of all files in server folder
 
 ## Upload files to FTP server directory using 'storbinary'
 In the below python script, we have created a function that uploads a local file into the desired FTP server directory.
@@ -251,5 +252,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTE5OTg0MiwxMjU1NTEyMjU3XX0=
+eyJoaXN0b3J5IjpbMTE4NDE1NTk3NCwtNDcxMTk5ODQyLDEyNT
+U1MTIyNTddfQ==
 -->
