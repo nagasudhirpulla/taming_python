@@ -93,7 +93,7 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
 * `listdir` function can be used to get the filenames in server folder
 * `listdir_attr` function can be used to get the metadata of all files in server folder as `SFTPAttribute` objects
 
-## Upload files to FTP server directory using 'storbinary'
+## Upload files to FTP server directory using 'put'
 In the below python script, we have created a function that uploads a local file into the desired FTP server directory.
 ```python
 import ftplib
@@ -253,6 +253,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NDA5NDMwMSwtNDcxMTk5ODQyLDEyNT
+eyJoaXN0b3J5IjpbLTgxMzY5OTY1NywtNDcxMTk5ODQyLDEyNT
 U1MTIyNTddfQ==
 -->
