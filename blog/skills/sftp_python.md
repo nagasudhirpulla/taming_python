@@ -65,7 +65,9 @@ with pysftp.Connection(sftpHost, port=sftpPort, username=uname, password=pwd, cn
 # change working directory to a different folder
 sftp.cwd("folder1/abcd")
 
-# print current wo
+# print current working directory
+print(sftp.pwd)
+
 # ... do something
 ```
 
@@ -277,5 +279,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjQzMDExXX0=
+eyJoaXN0b3J5IjpbNDUxMDQxMDkxXX0=
 -->
