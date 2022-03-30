@@ -97,56 +97,23 @@ print('execution complete!')
 
 ## Upload files to FTP server directory using 'put'
 ```python
-import ftplib
-import os
+import pysftp
+cnopts = pysftp.CnOpts()
+cnopts.hostkeys = None
+with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cnopts=cnopts) as sftp:
+    # upload file to current working directory without changing the file modification time
+    sftp.put('abcd.txt', preserve_mtime=True)
+    
+    # upload file to remote directory with different folder and file path
+    sftp.put('cwd_2.py', preserve_mtime=True, remotepath="./jgjhgajhsd/abcd.py")
 
-def uploadFileToFtp(localFilePath, ftpHost, ftpPort, ftpUname, ftpPass, remoteWorkingDirectory):
-    # initialize the flag that specifies if upload is success
-    isUploadSuccess: bool = False
-
-    # extract the filename of local file from the file path
-    _, targetFilename = os.path.split(localFilePath)
-
-    # create an FTP client instance, use the timeout parameter for slow connections only
-    ftp = ftplib.FTP(timeout=30)
-
-    # connect to the FTP server
-    ftp.connect(ftpHost, ftpPort)
-
-    # login to the FTP server
-    ftp.login(ftpUname, ftpPass)
-
-    # change current working directory if specified
-    if not (remoteWorkingDirectory == None or remoteWorkingDirectory.strip() == ""):
-        _ = ftp.cwd(remoteWorkingDirectory)
-
-    # Read file in binary mode
-    with open(localFilePath, "rb") as file:
-        # upload file to FTP server using storbinary, specify blocksize(bytes) only if higher upload chunksize is required
-        retCode = ftp.storbinary(f"STOR {targetFilename}", file, blocksize=1024*1024)
-
-    # send QUIT command to the FTP server and close the connection
-    ftp.quit()
-
-    # check if upload is success using the return code (retCode)
-    if retCode.startswith('226'):
-        isUploadSuccess = True
-
-    # return the upload status
-    return isUploadSuccess
-
-# connection parameters
-ftpHost = 'localhost'
-ftpPort = 21
-ftpUname = 'uname'
-ftpPass = 'pass'
-localFile = 'test.txt'
-remoteFolder = "folder1/abcd"
-
-# upload file
-isUploadSuccess = uploadFileToFtp(localFile, ftpHost, ftpPort, ftpUname, ftpPass, remoteFolder)
-
-print("upload status = {0}".format(isUploadSuccess))
+    # upload contents from local directory to remote directory
+    sftp.put_d(r"C:\Users\Nagasudhir\Documents\Python Projects\taming_python\folium_zoomable_text_demo\test", "./test", preserve_mtime=True)
+    
+    # upload contents from local directory to remote directory and create intermediate folders if required
+    sftp.put_d(r"C:\Users\Nagasudhir\Documents\Python Projects\taming_python\folium_zoomable_text_demo\test", "./test", preserve_mtime=True)
+    
+    print("copy completed!")
 ```
 * This function can be copied and used directly in your projects
 * We can modify this function to for uploading multiple files into the FTP server using a `for` loop inside the function
@@ -254,6 +221,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODY1OTA0ODIsLTQ3MTE5OTg0MiwxMj
-U1NTEyMjU3XX0=
+eyJoaXN0b3J5IjpbNjI5NTMyOTI5LC00NzExOTk4NDIsMTI1NT
+UxMjI1N119
 -->
