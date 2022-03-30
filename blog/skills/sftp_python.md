@@ -7,7 +7,7 @@
 
 * In this post we try to learn how to use `pysftp` python module to interact with SFTP server
 * pysftp module can be used for SFTP server interactions like upload files, download files, read list of file names etc
-* If you want to setup a local FTP server, you can read my blog post [here](https://nagasudhir.blogspot.com/2022/02/setup-ftp-server-and-ftp-client-in.html)
+* If you want to setup a local SFTP server, you can read my blog post [here](https://nagasudhir.blogspot.com/2022/03/setup-sftp-server-and-sftp-client-in.html)
  
 ## Connect to an FTP server
 The following parameters are required to establish a connection to an FTP server
@@ -289,5 +289,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzA1MTY2M119
+eyJoaXN0b3J5IjpbMTkxNDY0MTIzOV19
 -->
