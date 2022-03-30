@@ -109,10 +109,10 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
     sftp.put('xyz.txt', preserve_mtime=True, remotepath="./jgjhgajhsd/def.txt")
 
     # upload contents from local directory to remote directory
-    sftp.put_d(r"C:\Users\Nagasudhir\Documents\Python Projects\taming_python\folium_zoomable_text_demo\test", "./test", preserve_mtime=True)
+    sftp.put_d(r"C:\path\to\localFolder", "./remoteFolder", preserve_mtime=True)
     
     # upload contents from local directory to remote directory and create intermediate folders if required
-    sftp.put_d(r"C:\Users\Nagasudhir\Documents\Python Projects\taming_python\folium_zoomable_text_demo\test", "./test", preserve_mtime=True)
+    sftp.put_r(r"C:\path\to\localFolder", "./remoteFolder", preserve_mtime=True)
     
     print("copy completed!")
 ```
@@ -222,6 +222,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTIyNjM1OCwtNDcxMTk5ODQyLDEyNT
-U1MTIyNTddfQ==
+eyJoaXN0b3J5IjpbMjgxMDY4MzEyLC01NzUyMjYzNTgsLTQ3MT
+E5OTg0MiwxMjU1NTEyMjU3XX0=
 -->
