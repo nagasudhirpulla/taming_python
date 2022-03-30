@@ -17,30 +17,15 @@ The following parameters are required to establish a connection to an SFTP serve
 * password (if password authentication is used)
 * private key file path (if private key authentication is used)
 
-### Without SSL
+### Private key authentication
 ```python
-import ftplib
-
-# connection parameters
-ftpHost = 'localhost'
-ftpPort = 21
-ftpUname = 'uname'
-ftpPass = 'pass'
-
-# create an FTP client instance, use the timeout(seconds) parameter for slow connections only
-ftp = ftplib.FTP(timeout=30)
-
-# connect to the FTP server
-ftp.connect(ftpHost, ftpPort)
-
-# login to the FTP server
-ftp.login(ftpUname, ftpPass)
-
-# do something with the ftp client like upload, download etc
-
-# send QUIT command to the FTP server and close the connection
-ftp.quit()
-print("execution complete...")
+import pysftp
+# create connection options object
+cnopts = pysftp.CnOpts()
+# ignore known hosts check
+cnopts.hostkeys = None
+with pysftp.Connection('localhost', username='Nagasudhir', private_key='./id_rsa', cnopts=cnopts) as sftp:
+    print("connected to sftp server!")
 ```
 
 ### With SSL
@@ -292,5 +277,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTA2NzY3M119
+eyJoaXN0b3J5IjpbNjU3Mjc1MDg0XX0=
 -->
