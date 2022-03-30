@@ -129,7 +129,7 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
     # download remote file to current local folder
     sftp.get("./remoteFolder/khd.txt", preserve_mtime=True)
 
-    # download remote file to custom local path and filename
+    # download remote file to custom local folder and filename
     sftp.get("./remoteFolder/khd.txt", localpath="./test/abc.txt", preserve_mtime=True)
 
     # dowmload remote folder files to local folder
@@ -183,6 +183,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTMwODQwOSwyODEwNjgzMTIsLTU3NT
-IyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTddfQ==
+eyJoaXN0b3J5IjpbODU5MTA0ODQ4LDI4MTA2ODMxMiwtNTc1Mj
+I2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1N119
 -->
