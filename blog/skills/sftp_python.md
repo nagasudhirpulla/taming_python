@@ -53,7 +53,7 @@ uname = 'Abcd'
 pwd = 'pwd@123'
 
 # establish connection
-with pysftp.Connection(sftpHost, port=sftpPort, username=uname, private_key=privateKeyFilePath, cnopts=cnopts) as sftp:
+with pysftp.Connection(sftpHost, port=sftpPort, username=uname, password=pwd, cnopts=cnopts) as sftp:
     print("connected to sftp server!")
 ```
 
@@ -275,5 +275,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODIzNzMxODVdfQ==
+eyJoaXN0b3J5IjpbLTExMzAxMzkyNjFdfQ==
 -->
