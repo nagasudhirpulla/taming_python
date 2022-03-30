@@ -80,7 +80,7 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
     fnames = sftp.listdir()
     print(fnames)
 
-    fnames = sftp.listdir("./jgjhgajhsd")
+    fnames = sftp.listdir("./remFolder")
     print(fnames)
 
     fInfos = sftp.listdir_attr()
@@ -248,5 +248,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzkxOTQwNjFdfQ==
+eyJoaXN0b3J5IjpbMTI2MTM2NjA2M119
 -->
