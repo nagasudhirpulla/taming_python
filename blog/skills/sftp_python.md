@@ -31,40 +31,30 @@ sftpHost = 'localhost'
 sftpPort = 22
 uname = 'Abcd'
 privateKeyFilePath = 'C:/path/to/id_rsa'
+
 # establish connection
 with pysftp.Connection(sftpHost, port=sftpPort, username=uname, private_key=privateKeyFilePath, cnopts=cnopts) as sftp:
     print("connected to sftp server!")
 ```
 
-### With SSL
-* While connecting to FTP server using SSL, use `FTP_TLS` instead of `FTP` function
-* Also we need to call `ftp.prot_p()` to secure the connection after logging in
+### Password based Authentication
 ```python
-import ftplib
+import pysftp
+
+# create connection options object
+cnopts = pysftp.CnOpts()
+# ignore known hosts check
+cnopts.hostkeys = None
 
 # connection parameters
-ftpHost = 'localhost'
-ftpPort = 21
-ftpUname = 'uname'
-ftpPass = 'pass'
+sftpHost = 'localhost'
+sftpPort = 22
+uname = 'Abcd'
+pwd = 'pwd@123'
 
-# create an FTP client instance, use the timeout(seconds) parameter for slow connections only
-ftp = ftplib.FTP_TLS(timeout=30)
-
-# connect to the FTP server
-ftp.connect(ftpHost, ftpPort)
-
-# login to the FTP server
-ftp.login(ftpUname, ftpPass)
-
-# setup secure data connection
-ftp.prot_p()
-
-# do something with the ftp client like upload, download etc
-
-# send QUIT command to the FTP server and close the connection
-ftp.quit()
-print("execution complete...")
+# establish connection
+with pysftp.Connection(sftpHost, port=sftpPort, username=uname, private_key=privateKeyFilePath, cnopts=cnopts) as sftp:
+    print("connected to sftp server!")
 ```
 
 ## Change working directory using 'cwd'
@@ -285,5 +275,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMwNDQ3NzQ0XX0=
+eyJoaXN0b3J5IjpbLTE0ODIzNzMxODVdfQ==
 -->
