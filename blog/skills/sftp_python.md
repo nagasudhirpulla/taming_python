@@ -168,12 +168,11 @@ def rm(sftp, path):
 
 cnopts = pysftp.CnOpts()
 cnopts.hostkeys = None
-with pysftp.Connection('localhost', username='Nagasudhir', private_key='./id_rsa', cnopts=cnopts) as sftp:
+with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cnopts=cnopts) as sftp:
     # delete an empty remote folder
     # sftp.rmdir("yfr")
 
     # delete a remote folder with contents
-    # https://stackoverflow.com/questions/20507055/recursive-remove-directory-using-sftp/20507586#20507586
     rm(sftp, "./yfr")
 ```
 ## Other important SFTP actions
@@ -218,6 +217,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MjkyMzI2MCwyODEwNjgzMTIsLTU3NT
+eyJoaXN0b3J5IjpbLTQyNjE3MzI5MywyODEwNjgzMTIsLTU3NT
 IyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTddfQ==
 -->
