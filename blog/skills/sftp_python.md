@@ -71,51 +71,20 @@ print(sftp.pwd)
 # ... do something
 ```
 
-## Get the list of filenames in a folder using 'nlst'
-In the below python script, we have created a function that fetches the list of filenames from the desired FTP server directory.
+## Get the list of filenames in a folder using 'listdir'
 ```python
-import ftplib
+import pysftp
+cnopts = pysftp.CnOpts()
+cnopts.hostkeys = None
+with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cnopts=cnopts) as sftp:
+    fnames = sftp.listdir()
+    print(fnames)
 
-def getFtpFilenames(ftpHost, ftpPort, ftpUname, ftpPass, remoteWorkingDirectory):
-    # create an FTP client instance, use the timeout(seconds) parameter for slow connections only
-    ftp = ftplib.FTP(timeout=30)
-    
-    # connect to the FTP server
-    ftp.connect(ftpHost, ftpPort)
-    
-    # login to the FTP server
-    ftp.login(ftpUname, ftpPass)
+    fnames = sftp.listdir("./jgjhgajhsd")
+    print(fnames)
 
-    # change current working directory if specified
-    if not (remoteWorkingDirectory == None or remoteWorkingDirectory.strip() == ""):
-        _ = ftp.cwd(remoteWorkingDirectory)
-    
-    # initialize the filenames as an empty list
-    fnames = []
-    
-    try:
-        # use nlst function to get the list of filenames
-        fnames = ftp.nlst()
-    except ftplib.error_perm as resp:
-        if str(resp) == "550 No files found":
-            fnames = []
-        else:
-            raise
-    
-    # send QUIT command to the FTP server and close the connection
-    ftp.quit()
-
-    # return the list of filenames
-    return fnames
-
-# connection parameters
-ftpHost = 'localhost'
-ftpPort = 21
-ftpUname = 'uname'
-ftpPass = 'pass'
-fnames = getFtpFilenames(ftpHost, ftpPort, ftpUname, ftpPass, "folder1/abcd")
-print(fnames)
-print("execution complete...")
+    fInfos = sftp.listdir_attr()
+    print(fInfos)
 ```
 You can copy this function and directly use it in your projects
 
@@ -279,5 +248,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUxMDQxMDkxXX0=
+eyJoaXN0b3J5IjpbLTIwNzkxOTQwNjFdfQ==
 -->
