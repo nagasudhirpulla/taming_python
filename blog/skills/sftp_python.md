@@ -145,7 +145,7 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
 
 ## Delete remote folder
 * An empty folder in an SFTP server can be deleted easily using the `sftp.rmdir("./remoteFolder")` function but there is no straight forward function to delete a non-empty remote folder
-* Hence we have created a function as shown below that deletes a non-empty remote SFTP folder by deleting the files first and then deleting the empty folder
+* Hence we have created a function as shown below that deletes a non-empty remote SFTP folder by deleting the files first and then deleting the empty folder. The solution is based on a stack overflow post at https://stackoverflow.com/questions/20507055/recursive-remove-directory-using-sftp/20507586#20507586
 ```python
 import os
 from stat import S_ISDIR
@@ -219,6 +219,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDg3MDA1OSwyODEwNjgzMTIsLTU3NT
-IyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTddfQ==
+eyJoaXN0b3J5IjpbLTg1OTA3Njg1LDI4MTA2ODMxMiwtNTc1Mj
+I2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1N119
 -->
