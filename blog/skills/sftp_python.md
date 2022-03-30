@@ -101,8 +101,9 @@ import pysftp
 cnopts = pysftp.CnOpts()
 cnopts.hostkeys = None
 with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cnopts=cnopts) as sftp:
-    # upload file to current working directory without changing the file modification time
-    sftp.put('abcd.txt', preserve_mtime=True)
+    # upload file to current working directory of the sftp server
+    # without changing the file modification time
+    sftp.put('C:/path/to/abcd.txt', preserve_mtime=True)
     
     # upload file to remote directory with different folder and file path
     sftp.put('cwd_2.py', preserve_mtime=True, remotepath="./jgjhgajhsd/abcd.py")
@@ -221,6 +222,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5NTMyOTI5LC00NzExOTk4NDIsMTI1NT
+eyJoaXN0b3J5IjpbOTg3MDUwNTU0LC00NzExOTk4NDIsMTI1NT
 UxMjI1N119
 -->
