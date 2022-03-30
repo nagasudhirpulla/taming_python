@@ -96,7 +96,6 @@ print('execution complete!')
 * `listdir_attr` function can be used to get the metadata of all files in server folder as `SFTPAttribute` objects
 
 ## Upload files to FTP server directory using 'put'
-In the below python script, we have created a function that uploads a local file into the desired FTP server directory.
 ```python
 import ftplib
 import os
@@ -255,6 +254,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MjE5MzUwMSwtNDcxMTk5ODQyLDEyNT
-U1MTIyNTddfQ==
+eyJoaXN0b3J5IjpbLTE2ODY1OTA0ODIsLTQ3MTE5OTg0MiwxMj
+U1NTEyMjU3XX0=
 -->
