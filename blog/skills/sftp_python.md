@@ -11,10 +11,11 @@
  
 ## Connect to an FTP server
 The following parameters are required to establish a connection to an FTP server
-* FTP server host address (like "localhost" or "192.87.34.1" or "myftp.abcd.com")
-* FTP server port (usually is 21)
+* SFTP server host address (like "localhost" or "192.87.34.1" or "mysftp.abcd.com")
+* SFTP server port (usually is 22)
 * username
 * password
+* private key file path if private key based authenitcation is used
 
 ### Without SSL
 ```python
@@ -291,5 +292,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTEwNTczNl19
+eyJoaXN0b3J5IjpbLTYyNjQ3MzgxOF19
 -->
