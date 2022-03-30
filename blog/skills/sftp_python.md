@@ -116,8 +116,9 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
     
     print("copy completed!")
 ```
-* This function can be copied and used directly in your projects
-* We can modify this function to for uploading multiple files into the FTP server using a `for` loop inside the function
+* `put` method can be used to upload single file to sftp server 
+* `put_d` method can be used to upload all folder contents to sftp server folder
+*  `put_d` method can be used to upload all folder contents to sftp server folder
 
 ## Download files from FTP server directory using 'retrbinary'
 In the below python script, we have created a function that downloads files from FTP server into a local directory.
@@ -222,6 +223,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxMDY4MzEyLC01NzUyMjYzNTgsLTQ3MT
-E5OTg0MiwxMjU1NTEyMjU3XX0=
+eyJoaXN0b3J5IjpbNzE0MzYzMTg1LDI4MTA2ODMxMiwtNTc1Mj
+I2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1N119
 -->
