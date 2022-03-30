@@ -21,9 +21,8 @@ The following parameters are required to establish a connection to an SFTP serve
 ```python
 import pysftp
 
-# create connection options object
+# create connection options object and ignore known hosts check
 cnopts = pysftp.CnOpts()
-# ignore known hosts check
 cnopts.hostkeys = None
 
 # connection parameters
@@ -41,9 +40,8 @@ with pysftp.Connection(sftpHost, port=sftpPort, username=uname, private_key=priv
 ```python
 import pysftp
 
-# create connection options object
+# create connection options object and ignore known hosts check
 cnopts = pysftp.CnOpts()
-# ignore known hosts check
 cnopts.hostkeys = None
 
 # connection parameters
@@ -275,5 +273,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzAxMzkyNjFdfQ==
+eyJoaXN0b3J5IjpbMTg1MDA1NTMxNV19
 -->
