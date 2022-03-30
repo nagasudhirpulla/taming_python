@@ -143,6 +143,39 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
 * `get_d` method can be used to download remote folder contents to local folder
 * `get_r` method can be used to download the remote folder directly to the local system along with sub-folders 
 
+## Delete remote folder
+```python
+import os
+from stat import S_ISDIR
+import pysftp
+
+def rm(sftp, path):
+    files = sftp.listdir(path)
+
+    for f in files:
+        filepath = os.path.join(path, f)
+        isDir = False
+        try:
+            isDir = S_ISDIR(sftp.stat(path).st_mode)
+        except IOError:
+            isDir = False
+        if isDir:
+            rm(sftp, filepath)
+        else:
+            sftp.remove(filepath)
+
+    sftp.rmdir(path)
+
+cnopts = pysftp.CnOpts()
+cnopts.hostkeys = None
+with pysftp.Connection('localhost', username='Nagasudhir', private_key='./id_rsa', cnopts=cnopts) as sftp:
+    # delete an empty remote folder
+    # sftp.rmdir("yfr")
+
+    # delete a remote folder with contents
+    # https://stackoverflow.com/questions/20507055/recursive-remove-directory-using-sftp/20507586#20507586
+    rm(sftp, "./yfr")
+```
 ## Other important SFTP actions
 All the important python ftp functions for directory listing, rename, delete file, delete folder, create folder, get the size of files etc. can be found at https://docs.python.org/3/library/ftplib.html#ftplib.FTP.dir
 
@@ -185,6 +218,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxMjY2MjI4LDI4MTA2ODMxMiwtNTc1Mj
-I2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1N119
+eyJoaXN0b3J5IjpbMTk4MjkyMzI2MCwyODEwNjgzMTIsLTU3NT
+IyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTddfQ==
 -->
