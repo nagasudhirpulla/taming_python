@@ -173,7 +173,7 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
     # sftp.rmdir("yfr")
 
     # delete a remote folder with contents
-    rm(sftp, "./yfr")
+    rm(sftp, "./remoteFolder")
 ```
 ## Other important SFTP actions
 All the important python ftp functions for directory listing, rename, delete file, delete folder, create folder, get the size of files etc. can be found at https://docs.python.org/3/library/ftplib.html#ftplib.FTP.dir
@@ -217,6 +217,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjE3MzI5MywyODEwNjgzMTIsLTU3NT
-IyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTddfQ==
+eyJoaXN0b3J5IjpbLTE5NDc3MDIyMDYsMjgxMDY4MzEyLC01Nz
+UyMjYzNTgsLTQ3MTE5OTg0MiwxMjU1NTEyMjU3XX0=
 -->
