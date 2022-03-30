@@ -57,10 +57,10 @@ with pysftp.Connection(sftpHost, port=sftpPort, username=uname, password=pwd, cn
 
 ## Change working directory using 'cwd'
 ```python
-## ... code to connect to ftp server
+## ... code to connect to sftp server
 
 # change working directory to a different folder
-ftp.cwd("folder1/abcd")
+sftp.cwd("folder1/abcd")
 
 # ... do something
 ```
@@ -273,5 +273,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MDA1NTMxNV19
+eyJoaXN0b3J5IjpbLTE3MTY3NjQwMDNdfQ==
 -->
