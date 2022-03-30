@@ -144,7 +144,8 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
 * `get_r` method can be used to download the remote folder directly to the local system along with sub-folders 
 
 ## Delete remote folder
-An empty folder in an SFTP server can be deleted easily using the `sftp.rmdir("./remoteFolder")` function but there is no straight forward function to delete a remote folder that is not
+* An empty folder in an SFTP server can be deleted easily using the `sftp.rmdir("./remoteFolder")` function but there is no straight forward function to delete a non-empty remote folder
+* Hence we have created a function as shown below that deletes a non-empty remote SFTP folder by deleting the files first and then deleting the empty folder
 ```python
 import os
 from stat import S_ISDIR
@@ -218,6 +219,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Mzg2OTE3NSwyODEwNjgzMTIsLTU3NT
+eyJoaXN0b3J5IjpbMTYxMDg3MDA1OSwyODEwNjgzMTIsLTU3NT
 IyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTddfQ==
 -->
