@@ -27,10 +27,12 @@ cnopts = pysftp.CnOpts()
 cnopts.hostkeys = None
 
 # connection parameters
+sftpHost = 'localhost'
+sftpPort = 22
 uname = 'Abcd'
 privateKeyFilePath = 'C:/path/to/id_rsa'
 # establish connection
-with pysftp.Connection('localhost', username='Nagasudhir', private_key='./id_rsa', cnopts=cnopts) as sftp:
+with pysftp.Connection(sftpHost, port=sftpPort, username=uname, private_key=privateKeyFilePath, cnopts=cnopts) as sftp:
     print("connected to sftp server!")
 ```
 
@@ -283,5 +285,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNTA2MTMxOF19
+eyJoaXN0b3J5IjpbOTMwNDQ3NzQ0XX0=
 -->
