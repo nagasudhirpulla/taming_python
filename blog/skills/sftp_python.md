@@ -106,7 +106,7 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
     sftp.put('C:/path/to/abcd.txt', preserve_mtime=True)
     
     # upload file to different remote folder and file path
-    sftp.put('abcd.txt', preserve_mtime=True, remotepath="./jgjhgajhsd/def.txt")
+    sftp.put('C:/path/to/abcd.txt', preserve_mtime=True, remotepath="./jgjhgajhsd/def.txt")
 
     # upload contents from local directory to remote directory
     sftp.put_d(r"C:\Users\Nagasudhir\Documents\Python Projects\taming_python\folium_zoomable_text_demo\test", "./test", preserve_mtime=True)
@@ -222,6 +222,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTI1MzY0MSwtNDcxMTk5ODQyLDEyNT
-U1MTIyNTddfQ==
+eyJoaXN0b3J5IjpbLTExNTgzMTk5NjksLTQ3MTE5OTg0MiwxMj
+U1NTEyMjU3XX0=
 -->
