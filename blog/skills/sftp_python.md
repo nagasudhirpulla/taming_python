@@ -153,7 +153,6 @@ import pysftp
 
 def rm(sftp, path):
     files = sftp.listdir(path)
-
     for f in files:
         filepath = os.path.join(path, f)
         isDir = False
@@ -165,14 +164,13 @@ def rm(sftp, path):
             rm(sftp, filepath)
         else:
             sftp.remove(filepath)
-
     sftp.rmdir(path)
 
 cnopts = pysftp.CnOpts()
 cnopts.hostkeys = None
 with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cnopts=cnopts) as sftp:
     # delete an empty remote folder
-    # sftp.rmdir("yfr")
+    # sftp.rmdir("remoteFolder")
 
     # delete a remote folder with contents
     rm(sftp, "./remoteFolder")
@@ -219,6 +217,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1OTA3Njg1LDI4MTA2ODMxMiwtNTc1Mj
-I2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1N119
+eyJoaXN0b3J5IjpbMTMzMDE0MjQ1MiwtODU5MDc2ODUsMjgxMD
+Y4MzEyLC01NzUyMjYzNTgsLTQ3MTE5OTg0MiwxMjU1NTEyMjU3
+XX0=
 -->
