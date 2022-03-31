@@ -178,6 +178,9 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
 ## Other important SFTP actions
 All the important sftp functions for directory listing, rename, delete file, delete folder, create folder, get the size of files etc. can be found at https://pysftp.readthedocs.io/en/release_0.2.9/cookbook.html and https://pysftp.readthedocs.io/en/release_0.2.9/pysftp.html
 
+**sftp.mkdirs(remotepath, mode=777)**
+Create a new directory on the remote server. intermediate folders will also be created if required. On some systems mode is ignored
+
 **sftp.rename(_remote_src_, _remote_dest_)**
 rename remote file or folder
 
@@ -187,14 +190,11 @@ Remove the remote server file based on the file path provided
 **sftp.cwd(remotepath)**
 Set the current directory on the server.
 
-**sftp.mkdirs(remotepath, mode=777)**
-Create a new directory on the remote server. intermediate folders will also be created if required. On some systems mode is ignored
-
 **sftp.pwd**
-Return the pathname of the current directory on the server.
+Return the path of current directory on the server.
 
 **sftp.rmdir(remotepath)**
-Remove the directory named remotepath on the server.
+Remove the directory named remotepath on the server. The directory should be empty for this function to successfully execute.
 
 **sftp.stat(remotePath).st_size**
 Request the size of the file or folder on the server in bytes.
@@ -214,7 +214,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzExNzk3NzEsLTg1OTA3Njg1LDI4MT
-A2ODMxMiwtNTc1MjI2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1
-N119
+eyJoaXN0b3J5IjpbNDkwMDY5ODc4LC04NTkwNzY4NSwyODEwNj
+gzMTIsLTU3NTIyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTdd
+fQ==
 -->
