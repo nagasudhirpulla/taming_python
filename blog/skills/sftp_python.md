@@ -9,7 +9,7 @@
 * pysftp module can be used for SFTP server interactions like upload files, download files, read list of file names etc
 * If you want to setup a local SFTP server, you can read my blog post [here](https://nagasudhir.blogspot.com/2022/03/setup-sftp-server-and-sftp-client-in.html)
  
-## Connect to an FTP server
+## Connect to an SFTP server
 The following parameters are required to establish a connection to an SFTP server
 * SFTP server host address (like "localhost" or "192.87.34.1" or "mysftp.abcd.com")
 * SFTP server port (usually is 22)
@@ -208,7 +208,7 @@ Remove the directory named remotepath on the server. The directory should be emp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTE4NTkyMTksMTM1NDE5NzAwNSwtOD
-U5MDc2ODUsMjgxMDY4MzEyLC01NzUyMjYzNTgsLTQ3MTE5OTg0
-MiwxMjU1NTEyMjU3XX0=
+eyJoaXN0b3J5IjpbLTEzNDQ5NzQ1NzAsLTEwNTE4NTkyMTksMT
+M1NDE5NzAwNSwtODU5MDc2ODUsMjgxMDY4MzEyLC01NzUyMjYz
+NTgsLTQ3MTE5OTg0MiwxMjU1NTEyMjU3XX0=
 -->
