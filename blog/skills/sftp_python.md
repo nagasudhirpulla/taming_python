@@ -181,8 +181,8 @@ All the important sftp functions for directory listing, rename, delete file, del
 **sftp.rename(_remote_src_, _remote_dest_)**
 rename remote file or folder
 
-**ftp.delete(filename)**
-Remove the file named filename from the server. If successful, returns the text of the response, otherwise raises error_perm on permission errors or error_reply on other errors.
+**sftp.remove(remotefile)**
+Remove the remote server file based on the
 
 **ftp.cwd(pathname)**
 Set the current directory on the server.
@@ -214,7 +214,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4Nzc0MTIxNCwtODU5MDc2ODUsMjgxMD
-Y4MzEyLC01NzUyMjYzNTgsLTQ3MTE5OTg0MiwxMjU1NTEyMjU3
-XX0=
+eyJoaXN0b3J5IjpbLTEzMzc0OTkwNTMsLTg1OTA3Njg1LDI4MT
+A2ODMxMiwtNTc1MjI2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1
+N119
 -->
