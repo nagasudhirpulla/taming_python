@@ -145,6 +145,7 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
 ## Get Metadata of file using 'stat'
 ```python
 import pysftp
+import datetime as dt
 cnopts = pysftp.CnOpts()
 cnopts.hostkeys = None
 with pysftp.Connection('localhost', username='Nagasudhir', private_key='./id_rsa', cnopts=cnopts) as sftp:
@@ -224,9 +225,9 @@ Remove the directory named remotepath on the server. The directory should be emp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDYzNzY0NCwxMzI3NTU4MTcyLDI2MT
-A5NzQxMiwtMTk1NTA3MjI5OCwxMDc2MDgwNTE0LC0xMzQ0OTc0
-NTcwLC0xMDUxODU5MjE5LDEzNTQxOTcwMDUsLTg1OTA3Njg1LD
-I4MTA2ODMxMiwtNTc1MjI2MzU4LC00NzExOTk4NDIsMTI1NTUx
-MjI1N119
+eyJoaXN0b3J5IjpbLTEwNzAyMTY2MjQsMTMyNzU1ODE3MiwyNj
+EwOTc0MTIsLTE5NTUwNzIyOTgsMTA3NjA4MDUxNCwtMTM0NDk3
+NDU3MCwtMTA1MTg1OTIxOSwxMzU0MTk3MDA1LC04NTkwNzY4NS
+wyODEwNjgzMTIsLTU3NTIyNjM1OCwtNDcxMTk5ODQyLDEyNTU1
+MTIyNTddfQ==
 -->
