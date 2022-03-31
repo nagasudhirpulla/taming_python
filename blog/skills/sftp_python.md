@@ -152,9 +152,9 @@ with pysftp.Connection('localhost', username='Nagasudhir', private_key='./id_rsa
     fstats = sftp.stat('./remFoldr/khd.txt')
     
     print(fstats.st_size) # size in bytes
-    print(fstats.st_mtime) # recent modification time
+    print(dt.datetime.fromtimestamp(fstats.st_mtime)) # recent modification time
     print(fstats.st_mode) # protection bits
-    print(fstats.st_atime) # recent access time 
+    print(dt.datetime.fromtimestamp(fstats.st_atime)) # recent access time 
     print(fstats.st_uid) # user id of owner
     print(fstats.st_gid) # group id of owner
 ```
@@ -224,8 +224,9 @@ Remove the directory named remotepath on the server. The directory should be emp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzU1ODE3MiwyNjEwOTc0MTIsLTE5NT
-UwNzIyOTgsMTA3NjA4MDUxNCwtMTM0NDk3NDU3MCwtMTA1MTg1
-OTIxOSwxMzU0MTk3MDA1LC04NTkwNzY4NSwyODEwNjgzMTIsLT
-U3NTIyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTddfQ==
+eyJoaXN0b3J5IjpbMTE4NDYzNzY0NCwxMzI3NTU4MTcyLDI2MT
+A5NzQxMiwtMTk1NTA3MjI5OCwxMDc2MDgwNTE0LC0xMzQ0OTc0
+NTcwLC0xMDUxODU5MjE5LDEzNTQxOTcwMDUsLTg1OTA3Njg1LD
+I4MTA2ODMxMiwtNTc1MjI2MzU4LC00NzExOTk4NDIsMTI1NTUx
+MjI1N119
 -->
