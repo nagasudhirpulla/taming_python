@@ -176,7 +176,7 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
     rm(sftp, "./remoteFolder")
 ```
 ## Other important SFTP actions
-All the important python ftp functions for directory listing, rename, delete file, delete folder, create folder, get the size of files etc. can be found at https://docs.python.org/3/library/ftplib.html#ftplib.FTP.dir
+All the important sftp functions for directory listing, rename, delete file, delete folder, create folder, get the size of files etc. can be found at https://docs.python.org/3/library/ftplib.html#ftplib.FTP.dir
 
 **ftp.dir(argument[, ...])**
 Produce a directory listing as returned by the LIST command, printing it to standard output. The optional argument is a directory to list (default is the current server directory). Multiple arguments can be used to pass non-standard options to the LIST command. If the last argument is a function, it is used as a callback function as for retrlines(); the default prints to sys.stdout. This method returns None.
@@ -217,7 +217,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDE0MjQ1MiwtODU5MDc2ODUsMjgxMD
-Y4MzEyLC01NzUyMjYzNTgsLTQ3MTE5OTg0MiwxMjU1NTEyMjU3
-XX0=
+eyJoaXN0b3J5IjpbMzQ5ODkxMDQzLC04NTkwNzY4NSwyODEwNj
+gzMTIsLTU3NTIyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTdd
+fQ==
 -->
