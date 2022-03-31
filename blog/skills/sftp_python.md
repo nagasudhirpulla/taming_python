@@ -145,7 +145,19 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
 
 ## Metadata of file using 'stat'
 ```python
-
+import pysftp
+cnopts = pysftp.CnOpts()
+cnopts.hostkeys = None
+with pysftp.Connection('localhost', username='Nagasudhir', private_key='./id_rsa', cnopts=cnopts) as sftp:
+    # get the remote file metadata using stat function
+    fstats = sftp.stat('./remFoldr/khd.txt')
+    
+    print(fstats.st_size) # size in bytes
+    print(fstats.st_mtime) # recent modification time
+    print(fstats.st_mode) # protection bits
+    print(fstats.st_atime) # recent access time 
+    print(fstats.st_uid) # user id of owner
+    print(fstats.st_gid) # group id of owner
 ```
 
 ## Delete remote folder
@@ -213,8 +225,8 @@ Remove the directory named remotepath on the server. The directory should be emp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjgwNjc2NCwxMDc2MDgwNTE0LC0xMz
-Q0OTc0NTcwLC0xMDUxODU5MjE5LDEzNTQxOTcwMDUsLTg1OTA3
-Njg1LDI4MTA2ODMxMiwtNTc1MjI2MzU4LC00NzExOTk4NDIsMT
-I1NTUxMjI1N119
+eyJoaXN0b3J5IjpbLTE2ODQzNzcwNDQsMTA3NjA4MDUxNCwtMT
+M0NDk3NDU3MCwtMTA1MTg1OTIxOSwxMzU0MTk3MDA1LC04NTkw
+NzY4NSwyODEwNjgzMTIsLTU3NTIyNjM1OCwtNDcxMTk5ODQyLD
+EyNTU1MTIyNTddfQ==
 -->
