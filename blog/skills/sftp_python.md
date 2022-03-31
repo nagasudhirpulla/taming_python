@@ -181,6 +181,9 @@ All the important sftp functions for directory listing, rename, delete file, del
 **sftp.mkdirs(remotepath, mode=777)**
 Create a new directory on the remote server. intermediate folders will also be created if required. On some systems mode is ignored
 
+**sftp.stat(remotePath).st_size**
+Request the size of the file or folder on the server in bytes.
+
 **sftp.rename(_remote_src_, _remote_dest_)**
 rename remote file or folder
 
@@ -195,9 +198,6 @@ Return the path of current directory on the server.
 
 **sftp.rmdir(remotepath)**
 Remove the directory named remotepath on the server. The directory should be empty for this function to successfully execute.
-
-**sftp.stat(remotePath).st_size**
-Request the size of the file or folder on the server in bytes.
 
 ### Video
 Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
@@ -214,7 +214,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkwMDY5ODc4LC04NTkwNzY4NSwyODEwNj
-gzMTIsLTU3NTIyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTdd
-fQ==
+eyJoaXN0b3J5IjpbLTQyNjQ4ODk3OCwtODU5MDc2ODUsMjgxMD
+Y4MzEyLC01NzUyMjYzNTgsLTQ3MTE5OTg0MiwxMjU1NTEyMjU3
+XX0=
 -->
