@@ -199,22 +199,16 @@ Return the path of current directory on the server.
 **sftp.rmdir(remotepath)**
 Remove the directory named remotepath on the server. The directory should be empty for this function to successfully execute.
 
-### Video
-Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ME37cs7R0N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### References
 * pysftp cookbook - https://pysftp.readthedocs.io/en/release_0.2.9/cookbook.html#pysftp-connection
 * pysftp docs - https://pysftp.readthedocs.io/en/release_0.2.9/pysftp.html
 * paramiko docs - https://docs.paramiko.org/en/latest/api/sftp.html
 
-
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjQ4ODk3OCwtODU5MDc2ODUsMjgxMD
+eyJoaXN0b3J5IjpbMTM1NDE5NzAwNSwtODU5MDc2ODUsMjgxMD
 Y4MzEyLC01NzUyMjYzNTgsLTQ3MTE5OTg0MiwxMjU1NTEyMjU3
 XX0=
 -->
