@@ -10,7 +10,7 @@
  
 ## Connect to an SFTP server
 The following parameters are required to establish a connection to an SFTP server
-* SFTP server host address (like "localhost" or "192.87.34.1" or "mysftp.abcd.com")
+* SFTP server host address (like `"localhost"` or `"192.87.34.1"` or `"mysftp.abcd.com"`)
 * SFTP server port (usually is 22)
 * username
 * password (if password authentication is used)
@@ -224,8 +224,8 @@ Remove the directory named remotepath on the server. The directory should be emp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxMDk3NDEyLC0xOTU1MDcyMjk4LDEwNz
-YwODA1MTQsLTEzNDQ5NzQ1NzAsLTEwNTE4NTkyMTksMTM1NDE5
-NzAwNSwtODU5MDc2ODUsMjgxMDY4MzEyLC01NzUyMjYzNTgsLT
-Q3MTE5OTg0MiwxMjU1NTEyMjU3XX0=
+eyJoaXN0b3J5IjpbMTMyNzU1ODE3MiwyNjEwOTc0MTIsLTE5NT
+UwNzIyOTgsMTA3NjA4MDUxNCwtMTM0NDk3NDU3MCwtMTA1MTg1
+OTIxOSwxMzU0MTk3MDA1LC04NTkwNzY4NSwyODEwNjgzMTIsLT
+U3NTIyNjM1OCwtNDcxMTk5ODQyLDEyNTU1MTIyNTddfQ==
 -->
