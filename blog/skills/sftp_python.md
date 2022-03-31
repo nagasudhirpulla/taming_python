@@ -197,7 +197,7 @@ Return the pathname of the current directory on the server.
 Remove the directory named remotepath on the server.
 
 **sftp.stat(remotePath).st_size**
-Request the size of the file or folder on the server. On success, the size of the file is returned as an integer, otherwise None is returned. Note that the SIZE command is not standardized, but is supported by many common server implementations.
+Request the size of the file or folder on the server in bytes.
 
 ### Video
 Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
@@ -214,7 +214,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODU4MTU2NiwtODU5MDc2ODUsMjgxMD
-Y4MzEyLC01NzUyMjYzNTgsLTQ3MTE5OTg0MiwxMjU1NTEyMjU3
-XX0=
+eyJoaXN0b3J5IjpbLTE1NzExNzk3NzEsLTg1OTA3Njg1LDI4MT
+A2ODMxMiwtNTc1MjI2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1
+N119
 -->
