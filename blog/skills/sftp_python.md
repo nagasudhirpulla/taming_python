@@ -187,8 +187,8 @@ Remove the remote server file based on the file path provided
 **sftp.cwd(remotepath)**
 Set the current directory on the server.
 
-**sftp.mkdir(remotepath, mode=777)**
-Create a new directory on the remote server. On some systems mode is ignored
+**sftp.mkdirs(remotepath, mode=777)**
+Create a new directory on the remote server. intermediate folders will also be created if required. On some systems mode is ignored
 
 **sftp.pwd**
 Return the pathname of the current directory on the server.
@@ -214,7 +214,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDY2NTQyNjUsLTg1OTA3Njg1LDI4MT
-A2ODMxMiwtNTc1MjI2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1
-N119
+eyJoaXN0b3J5IjpbMjA4MTE0NzkxNCwtODU5MDc2ODUsMjgxMD
+Y4MzEyLC01NzUyMjYzNTgsLTQ3MTE5OTg0MiwxMjU1NTEyMjU3
+XX0=
 -->
