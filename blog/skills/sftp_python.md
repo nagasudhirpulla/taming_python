@@ -1,4 +1,3 @@
-
 ## Skill - SFTP server communication with pysftp python module
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -225,8 +224,8 @@ Remove the directory named remotepath on the server. The directory should be emp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTUwNzIyOTgsMTA3NjA4MDUxNCwtMT
-M0NDk3NDU3MCwtMTA1MTg1OTIxOSwxMzU0MTk3MDA1LC04NTkw
-NzY4NSwyODEwNjgzMTIsLTU3NTIyNjM1OCwtNDcxMTk5ODQyLD
-EyNTU1MTIyNTddfQ==
+eyJoaXN0b3J5IjpbMjYxMDk3NDEyLC0xOTU1MDcyMjk4LDEwNz
+YwODA1MTQsLTEzNDQ5NzQ1NzAsLTEwNTE4NTkyMTksMTM1NDE5
+NzAwNSwtODU5MDc2ODUsMjgxMDY4MzEyLC01NzUyMjYzNTgsLT
+Q3MTE5OTg0MiwxMjU1NTEyMjU3XX0=
 -->
