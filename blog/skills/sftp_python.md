@@ -87,7 +87,7 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
 
     # get metadatas of files in remote server using listdir_attr
     fInfos = sftp.listdir_attr()
-    print(fInfos)
+    print([[f.filename, f.st_mode, f.st_size, f.st_mtime] for  f  in  fInfos])
 
 print('execution complete!')
 ```
@@ -208,7 +208,7 @@ Remove the directory named remotepath on the server. The directory should be emp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQ5NzQ1NzAsLTEwNTE4NTkyMTksMT
-M1NDE5NzAwNSwtODU5MDc2ODUsMjgxMDY4MzEyLC01NzUyMjYz
-NTgsLTQ3MTE5OTg0MiwxMjU1NTEyMjU3XX0=
+eyJoaXN0b3J5IjpbNjE2MzA3ODQ3LC0xMzQ0OTc0NTcwLC0xMD
+UxODU5MjE5LDEzNTQxOTcwMDUsLTg1OTA3Njg1LDI4MTA2ODMx
+MiwtNTc1MjI2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1N119
 -->
