@@ -21,7 +21,7 @@ The following parameters are required to establish a connection to an SFTP serve
 ```python
 import pysftp
 
-# create connection options object and ignore known hosts check
+# create connection options object and ignore_known hosts check
 cnopts = pysftp.CnOpts()
 cnopts.hostkeys = None
 
@@ -43,7 +43,7 @@ with pysftp.Connection(sftpHost, port=sftpPort, username=uname, private_key=priv
 ```python
 import pysftp
 
-# create connection options object and ignore known hosts check
+# create connection options object and ignore known_hosts check
 cnopts = pysftp.CnOpts()
 cnopts.hostkeys = None
 
@@ -208,7 +208,7 @@ Remove the directory named remotepath on the server. The directory should be emp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDE5NzAwNSwtODU5MDc2ODUsMjgxMD
-Y4MzEyLC01NzUyMjYzNTgsLTQ3MTE5OTg0MiwxMjU1NTEyMjU3
-XX0=
+eyJoaXN0b3J5IjpbLTEwNTE4NTkyMTksMTM1NDE5NzAwNSwtOD
+U5MDc2ODUsMjgxMDY4MzEyLC01NzUyMjYzNTgsLTQ3MTE5OTg0
+MiwxMjU1NTEyMjU3XX0=
 -->
