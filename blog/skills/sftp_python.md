@@ -178,8 +178,8 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
 ## Other important SFTP actions
 All the important sftp functions for directory listing, rename, delete file, delete folder, create folder, get the size of files etc. can be found at https://pysftp.readthedocs.io/en/release_0.2.9/cookbook.html and https://pysftp.readthedocs.io/en/release_0.2.9/pysftp.html
 
-**ftp.rename(fromname, toname)**
-Rename file fromname on the server to toname.
+**sftp.rename(_remote_src_, _remote_dest_)**
+rename remote file or folder
 
 **ftp.delete(filename)**
 Remove the file named filename from the server. If successful, returns the text of the response, otherwise raises error_perm on permission errors or error_reply on other errors.
@@ -214,7 +214,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTg5NzY5NiwtODU5MDc2ODUsMjgxMD
+eyJoaXN0b3J5IjpbLTI4Nzc0MTIxNCwtODU5MDc2ODUsMjgxMD
 Y4MzEyLC01NzUyMjYzNTgsLTQ3MTE5OTg0MiwxMjU1NTEyMjU3
 XX0=
 -->
