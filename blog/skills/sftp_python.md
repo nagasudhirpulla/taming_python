@@ -143,7 +143,7 @@ with pysftp.Connection('localhost', username='Abcd', private_key='./id_rsa', cno
 * `get_d` method can be used to download remote folder contents to local folder
 * `get_r` method can be used to download the remote folder directly to the local system along with sub-folders 
 
-## Metadata of file using 'stat'
+## Get Metadata of file using 'stat'
 ```python
 import pysftp
 cnopts = pysftp.CnOpts()
@@ -225,7 +225,7 @@ Remove the directory named remotepath on the server. The directory should be emp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQzNzcwNDQsMTA3NjA4MDUxNCwtMT
+eyJoaXN0b3J5IjpbLTE5NTUwNzIyOTgsMTA3NjA4MDUxNCwtMT
 M0NDk3NDU3MCwtMTA1MTg1OTIxOSwxMzU0MTk3MDA1LC04NTkw
 NzY4NSwyODEwNjgzMTIsLTU3NTIyNjM1OCwtNDcxMTk5ODQyLD
 EyNTU1MTIyNTddfQ==
