@@ -184,7 +184,7 @@ rename remote file or folder
 **sftp.remove(remotefile)**
 Remove the remote server file based on the file path provided
 
-**ftp.cwd(pathname)**
+**sftp.cwd(remotepath)**
 Set the current directory on the server.
 
 **ftp.mkd(pathname)**
@@ -214,7 +214,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODQ0Mzg3NywtODU5MDc2ODUsMjgxMD
+eyJoaXN0b3J5IjpbMTkzMDg3ODU5MSwtODU5MDc2ODUsMjgxMD
 Y4MzEyLC01NzUyMjYzNTgsLTQ3MTE5OTg0MiwxMjU1NTEyMjU3
 XX0=
 -->
