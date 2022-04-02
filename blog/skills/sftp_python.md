@@ -174,7 +174,7 @@ def rm(sftp, path):
         filepath = os.path.join(path, f)
         isDir = False
         try:
-            isDir = S_ISDIR(sftp.stat(path).st_mode)
+            isDir = S_ISDIR(sftp.stat(filepath).st_mode)
         except IOError:
             isDir = False
         if isDir:
@@ -225,9 +225,9 @@ Remove the directory named remotepath on the server. The directory should be emp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzAyMTY2MjQsMTMyNzU1ODE3MiwyNj
-EwOTc0MTIsLTE5NTUwNzIyOTgsMTA3NjA4MDUxNCwtMTM0NDk3
-NDU3MCwtMTA1MTg1OTIxOSwxMzU0MTk3MDA1LC04NTkwNzY4NS
-wyODEwNjgzMTIsLTU3NTIyNjM1OCwtNDcxMTk5ODQyLDEyNTU1
-MTIyNTddfQ==
+eyJoaXN0b3J5IjpbLTU2NDMzNDI2MCwtMTA3MDIxNjYyNCwxMz
+I3NTU4MTcyLDI2MTA5NzQxMiwtMTk1NTA3MjI5OCwxMDc2MDgw
+NTE0LC0xMzQ0OTc0NTcwLC0xMDUxODU5MjE5LDEzNTQxOTcwMD
+UsLTg1OTA3Njg1LDI4MTA2ODMxMiwtNTc1MjI2MzU4LC00NzEx
+OTk4NDIsMTI1NTUxMjI1N119
 -->
