@@ -216,6 +216,11 @@ Return the path of current directory on the server.
 **sftp.rmdir(remotepath)**
 Remove the directory named remotepath on the server. The directory should be empty for this function to successfully execute.
 
+### Video
+The video for this post can be found [here](https://youtu.be/IQh0K_6ecrU)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IQh0K_6ecrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 * pysftp cookbook - https://pysftp.readthedocs.io/en/release_0.2.9/cookbook.html#pysftp-connection
 * pysftp docs - https://pysftp.readthedocs.io/en/release_0.2.9/pysftp.html
@@ -225,9 +230,9 @@ Remove the directory named remotepath on the server. The directory should be emp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDMzNDI2MCwtMTA3MDIxNjYyNCwxMz
-I3NTU4MTcyLDI2MTA5NzQxMiwtMTk1NTA3MjI5OCwxMDc2MDgw
-NTE0LC0xMzQ0OTc0NTcwLC0xMDUxODU5MjE5LDEzNTQxOTcwMD
-UsLTg1OTA3Njg1LDI4MTA2ODMxMiwtNTc1MjI2MzU4LC00NzEx
-OTk4NDIsMTI1NTUxMjI1N119
+eyJoaXN0b3J5IjpbLTE1NzU4MDExMzYsLTU2NDMzNDI2MCwtMT
+A3MDIxNjYyNCwxMzI3NTU4MTcyLDI2MTA5NzQxMiwtMTk1NTA3
+MjI5OCwxMDc2MDgwNTE0LC0xMzQ0OTc0NTcwLC0xMDUxODU5Mj
+E5LDEzNTQxOTcwMDUsLTg1OTA3Njg1LDI4MTA2ODMxMiwtNTc1
+MjI2MzU4LC00NzExOTk4NDIsMTI1NTUxMjI1N119
 -->
