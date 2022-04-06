@@ -15,8 +15,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 * **flask** is a python library for creating web applications.
 * It is easy and quick to learn flask
+
 ## Use cases
-* Simple web user interfaces for python applications can be build ver 
+* Simple web user interfaces for python applications can be build very quickly using flask
+*  flask can be used to create http services that require python mo
 
 The following files are used in this blog post
 * Template word files - [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx), [reportTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/reportTmpl.docx)
@@ -179,5 +181,5 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDY2NzE2OF19
+eyJoaXN0b3J5IjpbLTEwMTU4MjQ3OTZdfQ==
 -->
