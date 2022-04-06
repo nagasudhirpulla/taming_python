@@ -18,7 +18,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ## Use cases
 * Simple web user interfaces for python applications can be build very quickly using flask
-*  flask can be used to create http services that require python mo
+*  flask can be used to create HTTP services that require python modules like pandas, numpy etc
 
 The following files are used in this blog post
 * Template word files - [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx), [reportTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/reportTmpl.docx)
@@ -181,5 +181,5 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTU4MjQ3OTZdfQ==
+eyJoaXN0b3J5IjpbNjQ2OTk4MDE2XX0=
 -->
