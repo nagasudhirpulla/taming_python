@@ -13,8 +13,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* **docxtpl** is a python library for populating data into word file templates.
-* This helps in automating reports very easily. 
+* **flask** is a python library for creating web applications.
+* It is easy to learn flask
 * Since we are using word file templates we can use rich text features like fonts, font sizes, colors etc without any programming.
 
 The following files are used in this blog post
@@ -178,5 +178,5 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3NTMzMzkyXX0=
+eyJoaXN0b3J5IjpbLTE2ODEwNjIwMTRdfQ==
 -->
