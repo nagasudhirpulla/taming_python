@@ -1,5 +1,5 @@
 
-## Skill - docxtpl python library for creating automated reports as word and pdf files from templates
+## Skill - Flask python module for building web servers
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -178,5 +178,5 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDU3MTIyM119
+eyJoaXN0b3J5IjpbNzk3NTMzMzkyXX0=
 -->
