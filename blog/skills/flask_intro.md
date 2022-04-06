@@ -14,8 +14,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 
 * **flask** is a python library for creating web applications.
-* It is easy to learn flask
-* Since we are using word file templates we can use rich text features like fonts, font sizes, colors etc without any programming.
+* It is easy and quick to learn flask
+## Use cases
+* Simple web user interfaces for python applications can be build ver 
 
 The following files are used in this blog post
 * Template word files - [inviteTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/inviteTmpl.docx), [reportTmpl.docx](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/data/reportTmpl.docx)
@@ -178,5 +179,5 @@ Video for this post can be found [here](https://youtu.be/ZAVHbDB5yBQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODEwNjIwMTRdfQ==
+eyJoaXN0b3J5IjpbLTIyNDY2NzE2OF19
 -->
