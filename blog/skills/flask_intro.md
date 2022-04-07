@@ -28,7 +28,20 @@ python -m pip install flask
 
 ## Simple Flask server
 ```python
+from flask import Flask
 
+# create a flask server
+app = Flask(__name__)
+
+# just return 'Hello World!' text when the route '/' is called
+@app.route('/')
+def index():
+    return 'Hello, World!'
+
+# __name__ will be __main__ only if this file is the entry point
+if __name__ == '__main__':
+    # run the server on this ip and port 50100
+    app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 
 ## References
@@ -36,6 +49,6 @@ python -m pip install flask
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2MDUzMDc1LDE1NDc2OTUxNTgsNjQ2OT
-k4MDE2XX0=
+eyJoaXN0b3J5IjpbOTY3NTM5MjEwLDI1NjA1MzA3NSwxNTQ3Nj
+k1MTU4LDY0Njk5ODAxNl19
 -->
