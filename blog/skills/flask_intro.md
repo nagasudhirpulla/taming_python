@@ -49,6 +49,12 @@ if __name__ == '__main__':
 
 ## Multiple routes
 ```python
+# just return 'Hello World!' text when the route '/' is called
+@app.route('/')
+def index():
+    return 'Hello, World!'
+
+
 
 ```
 ## References
@@ -56,6 +62,6 @@ if __name__ == '__main__':
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTI2OTk1NCwyNTYwNTMwNzUsMTU0Nz
+eyJoaXN0b3J5IjpbMTE0MDIzNTYwNiwyNTYwNTMwNzUsMTU0Nz
 Y5NTE1OCw2NDY5OTgwMTZdfQ==
 -->
