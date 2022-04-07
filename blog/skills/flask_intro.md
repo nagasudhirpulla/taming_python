@@ -21,9 +21,14 @@ Please make sure to have all the skills mentioned above to understand and execut
 * flask can be used to create HTTP services or applications that require python modules like pandas, numpy etc
 
 ## Installing Flask
-install flask using pip with the following command
-```bat
+Install flask using pip with the following command
+```
 python -m pip install flask
+```
+
+## Simple Flask server
+```python
+
 ```
 
 ## References
@@ -31,6 +36,6 @@ python -m pip install flask
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTc0MjgzMCwxNTQ3Njk1MTU4LDY0Nj
-k5ODAxNl19
+eyJoaXN0b3J5IjpbMjU2MDUzMDc1LDE1NDc2OTUxNTgsNjQ2OT
+k4MDE2XX0=
 -->
