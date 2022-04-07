@@ -20,8 +20,17 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Simple web interfaces for python applications can be build very quickly using flask
 * flask can be used to create HTTP services or applications that require python modules like pandas, numpy etc
 
+## Installing Flask
+install flask using pip with the following command
+```bat
+python -m pip install flask
+```
+
+## References
+* Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
+* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODAwODU5MCwxNTQ3Njk1MTU4LDY0Nj
+eyJoaXN0b3J5IjpbLTUyMTc0MjgzMCwxNTQ3Njk1MTU4LDY0Nj
 k5ODAxNl19
 -->
