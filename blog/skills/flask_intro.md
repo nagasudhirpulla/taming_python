@@ -44,13 +44,14 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 * In above example, the index function is assigned to server the route at '/' using the ```@app.route('/')``` decorator
-* The content returned by the function will be returned to t
+* The content returned by the function will be returned to the client
+* In this case, only plain text ```Hello, World!``` was returned. Instead HTML like ```<html><body><h2>H</h2></body></html>```
 
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Nzk5MzA1MSwyNTYwNTMwNzUsMTU0Nz
+eyJoaXN0b3J5IjpbLTc0MDIyNjU2OSwyNTYwNTMwNzUsMTU0Nz
 Y5NTE1OCw2NDY5OTgwMTZdfQ==
 -->
