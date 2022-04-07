@@ -43,12 +43,13 @@ if __name__ == '__main__':
     # run the server on this ip and port 50100
     app.run(host='0.0.0.0', port=50100, debug=True)
 ```
+* In above example, the index function is assigned a route at '/' using 
 
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3NTM5MjEwLDI1NjA1MzA3NSwxNTQ3Nj
-k1MTU4LDY0Njk5ODAxNl19
+eyJoaXN0b3J5IjpbLTM3MTE1OTA4MywyNTYwNTMwNzUsMTU0Nz
+Y5NTE1OCw2NDY5OTgwMTZdfQ==
 -->
