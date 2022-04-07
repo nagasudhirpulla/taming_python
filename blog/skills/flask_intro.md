@@ -54,14 +54,16 @@ if __name__ == '__main__':
 def index():
     return 'Hello, World!'
 
-
-
+# route for /hello
+@app.route('/hello')
+def hello():
+    return '<html><body><h2>Hi there!!!</h2><a target="_blank" href="https://google.com">Google</a></body></html>'
 ```
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDIzNTYwNiwyNTYwNTMwNzUsMTU0Nz
-Y5NTE1OCw2NDY5OTgwMTZdfQ==
+eyJoaXN0b3J5IjpbLTEzNTc3NDM3NjcsMTE0MDIzNTYwNiwyNT
+YwNTMwNzUsMTU0NzY5NTE1OCw2NDY5OTgwMTZdfQ==
 -->
