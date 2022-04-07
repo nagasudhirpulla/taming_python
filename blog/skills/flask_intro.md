@@ -57,7 +57,12 @@ def index():
 # route for /hello
 @app.route('/hello')
 def hello():
-    return '<html><body><h2>Hi there!!!</h2><a target="_blank" href="https://google.com">Google</a></body></html>'
+    return '''<html>
+                <body>
+                    <h2>Hi there!!!</h2>
+                    <a target="_blank" href="https://google.com">Google</a>
+                </body>
+            </html>'''
 ```
 
 * In this example, two routes are handled by the server at '/' and '/hello' by two python functions
@@ -68,6 +73,6 @@ def hello():
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzYzNzE3LDExNDAyMzU2MDYsMjU2MD
-UzMDc1LDE1NDc2OTUxNTgsNjQ2OTk4MDE2XX0=
+eyJoaXN0b3J5IjpbLTE2ODU2NDkyOTUsMTE0MDIzNTYwNiwyNT
+YwNTMwNzUsMTU0NzY5NTE1OCw2NDY5OTgwMTZdfQ==
 -->
