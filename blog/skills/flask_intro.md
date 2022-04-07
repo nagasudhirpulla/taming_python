@@ -47,11 +47,15 @@ if __name__ == '__main__':
 * The content returned by the function will be returned to the client
 * In this example, only plain text ```Hello, World!``` was returned. Instead HTML like ```<html><body><h2>Hello World!!!</h2></body></html>``` can also be returned so that the browser can interpret the HTML and display content.
 
+## Multiple routes
+```python
+
+```
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjAwNjMwNCwyNTYwNTMwNzUsMTU0Nz
+eyJoaXN0b3J5IjpbMTM5OTI2OTk1NCwyNTYwNTMwNzUsMTU0Nz
 Y5NTE1OCw2NDY5OTgwMTZdfQ==
 -->
