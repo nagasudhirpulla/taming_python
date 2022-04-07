@@ -18,9 +18,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ## Use cases
 * Simple web interfaces for python applications can be build very quickly using flask
-*  flask can be used to create HTTP services or applications that require python modules like pandas, numpy etc
+* flask can be used to create HTTP services or applications that require python modules like pandas, numpy etc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzY5NTE1OCw2NDY5OTgwMTZdfQ==
+eyJoaXN0b3J5IjpbLTUyODAwODU5MCwxNTQ3Njk1MTU4LDY0Nj
+k5ODAxNl19
 -->
