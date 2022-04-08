@@ -93,13 +93,16 @@ if __name__ == '__main__':
     </body>
 </html>
 ```
- 
+
+## Rendering python variables in template file
+
+
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0MDAwMTA2LDU4NTE0MzE2OSwtMTY4NT
-Y0OTI5NSwxMTQwMjM1NjA2LDI1NjA1MzA3NSwxNTQ3Njk1MTU4
-LDY0Njk5ODAxNl19
+eyJoaXN0b3J5IjpbLTIwOTI4MjExMjAsODA0MDAwMTA2LDU4NT
+E0MzE2OSwtMTY4NTY0OTI5NSwxMTQwMjM1NjA2LDI1NjA1MzA3
+NSwxNTQ3Njk1MTU4LDY0Njk5ODAxNl19
 -->
