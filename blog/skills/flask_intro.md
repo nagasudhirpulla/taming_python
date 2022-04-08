@@ -68,7 +68,7 @@ def hello():
 * In this example, two routes are handled by the server at '/' and '/hello' by two python functions
 
 ## Rendering response from a template
-* 
+* The template files are to be stored in the 'templates' folder
 ```python
 from flask import Flask, render_template
 
@@ -90,7 +90,7 @@ if __name__ == '__main__':
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDUzNjcxMyw1ODUxNDMxNjksLTE2OD
+eyJoaXN0b3J5IjpbMTUxNzY3ODI4Myw1ODUxNDMxNjksLTE2OD
 U2NDkyOTUsMTE0MDIzNTYwNiwyNTYwNTMwNzUsMTU0NzY5NTE1
 OCw2NDY5OTgwMTZdfQ==
 -->
