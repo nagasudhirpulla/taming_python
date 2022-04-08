@@ -95,7 +95,8 @@ if __name__ == '__main__':
 ```
 
 ## Rendering python variables in template file
-* python variables can be injected into the template as named parame
+* python variables can be injected into the template as named parameters in the `render_template` function
+* The data can be rendered as a jinja 
 ```python
 ```
 
@@ -104,7 +105,7 @@ if __name__ == '__main__':
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNDM0MzM2MCwtMjA5MjgyMTEyMCw4MD
+eyJoaXN0b3J5IjpbMTY0MjgzOTEwMywtMjA5MjgyMTEyMCw4MD
 QwMDAxMDYsNTg1MTQzMTY5LC0xNjg1NjQ5Mjk1LDExNDAyMzU2
 MDYsMjU2MDUzMDc1LDE1NDc2OTUxNTgsNjQ2OTk4MDE2XX0=
 -->
