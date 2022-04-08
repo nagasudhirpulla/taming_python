@@ -84,14 +84,22 @@ if __name__ == '__main__':
     # run the server on this ip and port 50100
     app.run(host='0.0.0.0', port=50100, debug=True)
 ```
-* ```home.html.j2``` can be a HTML file with jinja2 templating for server side rendering of data in the template HTML
+* ```home.html.j2``` can be a HTML file with jinja2 templating for server side rendering of data in the template file
+```html
+<html>
+    <body>
+        <h2>Hi there!!!</h2>
+        <a target="_blank" href="https://google.com">Google</a>
+    </body>
+</html>
+```
  
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTk3MjgzNDAsNTg1MTQzMTY5LC0xNj
-g1NjQ5Mjk1LDExNDAyMzU2MDYsMjU2MDUzMDc1LDE1NDc2OTUx
-NTgsNjQ2OTk4MDE2XX0=
+eyJoaXN0b3J5IjpbMTU1OTYzNzU1OSw1ODUxNDMxNjksLTE2OD
+U2NDkyOTUsMTE0MDIzNTYwNiwyNTYwNTMwNzUsMTU0NzY5NTE1
+OCw2NDY5OTgwMTZdfQ==
 -->
