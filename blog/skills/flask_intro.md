@@ -68,14 +68,23 @@ def hello():
 * In this example, two routes are handled by the server at '/' and '/hello' by two python functions
 
 ## Rendering Template
-``````
+```python
+from flask import Flask
+
+# create a flask server
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('home.html.j2')
+```
  
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTExOTkwNSw1ODUxNDMxNjksLTE2OD
-U2NDkyOTUsMTE0MDIzNTYwNiwyNTYwNTMwNzUsMTU0NzY5NTE1
-OCw2NDY5OTgwMTZdfQ==
+eyJoaXN0b3J5IjpbMjQzNDM5MzUxLDU4NTE0MzE2OSwtMTY4NT
+Y0OTI5NSwxMTQwMjM1NjA2LDI1NjA1MzA3NSwxNTQ3Njk1MTU4
+LDY0Njk5ODAxNl19
 -->
