@@ -69,7 +69,7 @@ def hello():
 
 ## Rendering Template
 ```python
-from flask import Flask
+from flask import Flask, render_template
 
 # create a flask server
 app = Flask(__name__)
@@ -89,7 +89,7 @@ if __name__ == '__main__':
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTc5Njk2LDU4NTE0MzE2OSwtMTY4NT
-Y0OTI5NSwxMTQwMjM1NjA2LDI1NjA1MzA3NSwxNTQ3Njk1MTU4
-LDY0Njk5ODAxNl19
+eyJoaXN0b3J5IjpbMTI2MjI5ODY0OSw1ODUxNDMxNjksLTE2OD
+U2NDkyOTUsMTE0MDIzNTYwNiwyNTYwNTMwNzUsMTU0NzY5NTE1
+OCw2NDY5OTgwMTZdfQ==
 -->
