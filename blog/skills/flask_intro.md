@@ -89,7 +89,7 @@ if __name__ == '__main__':
 <html>
     <body>
         <h2>Hi there!!!</h2>
-        <a target="_blank" href="https://google.com">Google</a>
+        <a target="_blank" href="https://google.com">Go to Google</a>
     </body>
 </html>
 ```
@@ -99,7 +99,7 @@ if __name__ == '__main__':
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTYzNzU1OSw1ODUxNDMxNjksLTE2OD
-U2NDkyOTUsMTE0MDIzNTYwNiwyNTYwNTMwNzUsMTU0NzY5NTE1
-OCw2NDY5OTgwMTZdfQ==
+eyJoaXN0b3J5IjpbODA0MDAwMTA2LDU4NTE0MzE2OSwtMTY4NT
+Y0OTI5NSwxMTQwMjM1NjA2LDI1NjA1MzA3NSwxNTQ3Njk1MTU4
+LDY0Njk5ODAxNl19
 -->
