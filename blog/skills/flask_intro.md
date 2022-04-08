@@ -67,12 +67,14 @@ def hello():
 
 * In this example, two routes are handled by the server at '/' and '/hello' by two python functions
 
+## 
  
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODU2NDkyOTUsMTE0MDIzNTYwNiwyNT
-YwNTMwNzUsMTU0NzY5NTE1OCw2NDY5OTgwMTZdfQ==
+eyJoaXN0b3J5IjpbNTg1MTQzMTY5LC0xNjg1NjQ5Mjk1LDExND
+AyMzU2MDYsMjU2MDUzMDc1LDE1NDc2OTUxNTgsNjQ2OTk4MDE2
+XX0=
 -->
