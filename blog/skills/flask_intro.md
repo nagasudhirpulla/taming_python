@@ -77,6 +77,11 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template('home.html.j2')
+
+# __name__ will be __main__ only if this file is the entry point
+if __name__ == '__main__':
+    # run the server on this ip and port 50100
+    app.run(host='0.0.0.0', port=50100, debug=True)
 ```
  
 ## References
@@ -84,7 +89,7 @@ def index():
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzNDM5MzUxLDU4NTE0MzE2OSwtMTY4NT
+eyJoaXN0b3J5IjpbLTY3NTc5Njk2LDU4NTE0MzE2OSwtMTY4NT
 Y0OTI5NSwxMTQwMjM1NjA2LDI1NjA1MzA3NSwxNTQ3Njk1MTU4
 LDY0Njk5ODAxNl19
 -->
