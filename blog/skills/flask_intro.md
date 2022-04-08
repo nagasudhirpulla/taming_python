@@ -95,14 +95,14 @@ if __name__ == '__main__':
 ```
 
 ## Rendering python variables in template file
-
+``````
 
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTI4MjExMjAsODA0MDAwMTA2LDU4NT
-E0MzE2OSwtMTY4NTY0OTI5NSwxMTQwMjM1NjA2LDI1NjA1MzA3
-NSwxNTQ3Njk1MTU4LDY0Njk5ODAxNl19
+eyJoaXN0b3J5IjpbMTExODUyMDMyMCwtMjA5MjgyMTEyMCw4MD
+QwMDAxMDYsNTg1MTQzMTY5LC0xNjg1NjQ5Mjk1LDExNDAyMzU2
+MDYsMjU2MDUzMDc1LDE1NDc2OTUxNTgsNjQ2OTk4MDE2XX0=
 -->
