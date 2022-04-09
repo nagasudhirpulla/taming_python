@@ -17,7 +17,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * It is easy and quick to learn flask
 
 ## Use cases
-* Simple web interfaces for python applications can be build very quickly using flask
+* Simple web interfaces for python applications can be build very easily with flask
 * flask can be used to create HTTP services or applications that require python modules like pandas, numpy etc
 
 ## Installing Flask
@@ -127,8 +127,9 @@ if __name__ == '__main__':
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDI1Mjc5NjMsMTkzNzA4MjUzMiw1NT
-c3NDI4MzksMTY0MjgzOTEwMywtMjA5MjgyMTEyMCw4MDQwMDAx
-MDYsNTg1MTQzMTY5LC0xNjg1NjQ5Mjk1LDExNDAyMzU2MDYsMj
-U2MDUzMDc1LDE1NDc2OTUxNTgsNjQ2OTk4MDE2XX0=
+eyJoaXN0b3J5IjpbLTEwMzg3OTc0NzYsLTExMDI1Mjc5NjMsMT
+kzNzA4MjUzMiw1NTc3NDI4MzksMTY0MjgzOTEwMywtMjA5Mjgy
+MTEyMCw4MDQwMDAxMDYsNTg1MTQzMTY5LC0xNjg1NjQ5Mjk1LD
+ExNDAyMzU2MDYsMjU2MDUzMDc1LDE1NDc2OTUxNTgsNjQ2OTk4
+MDE2XX0=
 -->
