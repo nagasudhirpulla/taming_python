@@ -105,7 +105,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('home.html.j2', user={'name':'Abcd', 'city'})
+    return render_template('home.html.j2', user={'name':'Abcd', 'city':'XYZ'})
 
 # __name__ will be __main__ only if this file is the entry point
 if __name__ == '__main__':
@@ -118,7 +118,7 @@ if __name__ == '__main__':
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODM1NjkxNCwxNjQyODM5MTAzLC0yMD
+eyJoaXN0b3J5IjpbMTE1OTQ3NDUxOSwxNjQyODM5MTAzLC0yMD
 kyODIxMTIwLDgwNDAwMDEwNiw1ODUxNDMxNjksLTE2ODU2NDky
 OTUsMTE0MDIzNTYwNiwyNTYwNTMwNzUsMTU0NzY5NTE1OCw2ND
 Y5OTgwMTZdfQ==
