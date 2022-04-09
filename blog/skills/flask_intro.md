@@ -124,15 +124,11 @@ if __name__ == '__main__':
 ```
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
-* TODO check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
-* TODO if condition in jinja2 templates
-* TODO decimal places display in jinja2 templates
-* TODO for loop in jinja2 templates
-* jinja2 template docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTY1MTM5NywxOTM3MDgyNTMyLDU1Nz
-c0MjgzOSwxNjQyODM5MTAzLC0yMDkyODIxMTIwLDgwNDAwMDEw
-Niw1ODUxNDMxNjksLTE2ODU2NDkyOTUsMTE0MDIzNTYwNiwyNT
-YwNTMwNzUsMTU0NzY5NTE1OCw2NDY5OTgwMTZdfQ==
+eyJoaXN0b3J5IjpbLTExMDI1Mjc5NjMsMTkzNzA4MjUzMiw1NT
+c3NDI4MzksMTY0MjgzOTEwMywtMjA5MjgyMTEyMCw4MDQwMDAx
+MDYsNTg1MTQzMTY5LC0xNjg1NjQ5Mjk1LDExNDAyMzU2MDYsMj
+U2MDUzMDc1LDE1NDc2OTUxNTgsNjQ2OTk4MDE2XX0=
 -->
