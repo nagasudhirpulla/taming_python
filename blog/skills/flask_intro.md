@@ -116,7 +116,8 @@ if __name__ == '__main__':
 ```html
 <html>
     <body>
-        <h2>Hi {{}}!!!</h2>
+        <h2>Hi {{ user["name"] }}!!!</h2>
+        <h3>Your city is {{ user["city"] }}<h3>
         <a target="_blank" href="https://google.com">Go to Google</a>
     </body>
 </html>
@@ -126,8 +127,8 @@ if __name__ == '__main__':
 * check is variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTE0Mzc5MjQsMTY0MjgzOTEwMywtMj
-A5MjgyMTEyMCw4MDQwMDAxMDYsNTg1MTQzMTY5LC0xNjg1NjQ5
-Mjk1LDExNDAyMzU2MDYsMjU2MDUzMDc1LDE1NDc2OTUxNTgsNj
-Q2OTk4MDE2XX0=
+eyJoaXN0b3J5IjpbLTk4NTcyNTYwMCwxNjQyODM5MTAzLC0yMD
+kyODIxMTIwLDgwNDAwMDEwNiw1ODUxNDMxNjksLTE2ODU2NDky
+OTUsMTE0MDIzNTYwNiwyNTYwNTMwNzUsMTU0NzY5NTE1OCw2ND
+Y5OTgwMTZdfQ==
 -->
