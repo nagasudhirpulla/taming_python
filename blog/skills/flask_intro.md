@@ -43,13 +43,13 @@ if __name__ == '__main__':
     # run the server on this ip and port 50100
     app.run(host='0.0.0.0', port=50100, debug=True)
 ```
-* In above example, the index function is assigned to server the route at '/' using the ```@app.route('/')``` decorator
-* The content returned by the function will be returned to the client
+* In above example, the index function is assigned to serve the route at '/' using the ```@app.route('/')``` decorator
+* The content returned by the function will be returned to the client or browser
 * In this example, only plain text ```Hello, World!``` was returned. Instead HTML like ```<html><body><h2>Hello World!!!</h2></body></html>``` can also be returned so that the browser can interpret the HTML and display content.
 
 ## Multiple routes
 ```python
-# just return 'Hello World!' text when the route '/' is called
+# route for '/'
 @app.route('/')
 def index():
     return 'Hello, World!'
@@ -127,9 +127,9 @@ if __name__ == '__main__':
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzg3OTc0NzYsLTExMDI1Mjc5NjMsMT
-kzNzA4MjUzMiw1NTc3NDI4MzksMTY0MjgzOTEwMywtMjA5Mjgy
-MTEyMCw4MDQwMDAxMDYsNTg1MTQzMTY5LC0xNjg1NjQ5Mjk1LD
-ExNDAyMzU2MDYsMjU2MDUzMDc1LDE1NDc2OTUxNTgsNjQ2OTk4
-MDE2XX0=
+eyJoaXN0b3J5IjpbNzYwNTUzOTM2LC0xMTAyNTI3OTYzLDE5Mz
+cwODI1MzIsNTU3NzQyODM5LDE2NDI4MzkxMDMsLTIwOTI4MjEx
+MjAsODA0MDAwMTA2LDU4NTE0MzE2OSwtMTY4NTY0OTI5NSwxMT
+QwMjM1NjA2LDI1NjA1MzA3NSwxNTQ3Njk1MTU4LDY0Njk5ODAx
+Nl19
 -->
