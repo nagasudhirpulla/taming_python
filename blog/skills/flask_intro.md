@@ -1,5 +1,4 @@
-
-## Skill - Flask python module for building web servers
+## Skill - Flask python module introduction for creating web servers
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -128,9 +127,9 @@ if __name__ == '__main__':
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3NTg3MTUzLDc2MDU1MzkzNiwtMTEwMj
-UyNzk2MywxOTM3MDgyNTMyLDU1Nzc0MjgzOSwxNjQyODM5MTAz
-LC0yMDkyODIxMTIwLDgwNDAwMDEwNiw1ODUxNDMxNjksLTE2OD
-U2NDkyOTUsMTE0MDIzNTYwNiwyNTYwNTMwNzUsMTU0NzY5NTE1
-OCw2NDY5OTgwMTZdfQ==
+eyJoaXN0b3J5IjpbMTkyMjY2MjU4Miw3NTc1ODcxNTMsNzYwNT
+UzOTM2LC0xMTAyNTI3OTYzLDE5MzcwODI1MzIsNTU3NzQyODM5
+LDE2NDI4MzkxMDMsLTIwOTI4MjExMjAsODA0MDAwMTA2LDU4NT
+E0MzE2OSwtMTY4NTY0OTI5NSwxMTQwMjM1NjA2LDI1NjA1MzA3
+NSwxNTQ3Njk1MTU4LDY0Njk5ODAxNl19
 -->
