@@ -124,11 +124,11 @@ if __name__ == '__main__':
 ```
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
-* check is variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
+* check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDEyMTcsNTU3NzQyODM5LDE2NDI4Mz
-kxMDMsLTIwOTI4MjExMjAsODA0MDAwMTA2LDU4NTE0MzE2OSwt
-MTY4NTY0OTI5NSwxMTQwMjM1NjA2LDI1NjA1MzA3NSwxNTQ3Nj
-k1MTU4LDY0Njk5ODAxNl19
+eyJoaXN0b3J5IjpbMjA3MzcyNTQ2MCw1NTc3NDI4MzksMTY0Mj
+gzOTEwMywtMjA5MjgyMTEyMCw4MDQwMDAxMDYsNTg1MTQzMTY5
+LC0xNjg1NjQ5Mjk1LDExNDAyMzU2MDYsMjU2MDUzMDc1LDE1ND
+c2OTUxNTgsNjQ2OTk4MDE2XX0=
 -->
