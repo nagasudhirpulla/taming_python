@@ -105,7 +105,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('home.html.j2', user={'name':'Abcd', 'city':'XYZ'})
+    return render_template('home.html.j2', user={'name':'Abcd', 'city':'XYZ'}, numViews=1234)
 
 # __name__ will be __main__ only if this file is the entry point
 if __name__ == '__main__':
@@ -118,7 +118,8 @@ if __name__ == '__main__':
     <head><title>Jinja2 Template Example</title></head>
     <body>
         <h2>Hi {{ user.name }}!!!</h2>
-        <h3>Your city is {{ user["city"] }}<h3>        
+        <h3>Your city is {{ user["city"] }}<h3>
+        <span>number of views = {{ numViews }}</span>        
     </body>
 </html>
 ```
@@ -127,9 +128,9 @@ if __name__ == '__main__':
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwNTUzOTM2LC0xMTAyNTI3OTYzLDE5Mz
-cwODI1MzIsNTU3NzQyODM5LDE2NDI4MzkxMDMsLTIwOTI4MjEx
-MjAsODA0MDAwMTA2LDU4NTE0MzE2OSwtMTY4NTY0OTI5NSwxMT
-QwMjM1NjA2LDI1NjA1MzA3NSwxNTQ3Njk1MTU4LDY0Njk5ODAx
-Nl19
+eyJoaXN0b3J5IjpbNzU3NTg3MTUzLDc2MDU1MzkzNiwtMTEwMj
+UyNzk2MywxOTM3MDgyNTMyLDU1Nzc0MjgzOSwxNjQyODM5MTAz
+LC0yMDkyODIxMTIwLDgwNDAwMDEwNiw1ODUxNDMxNjksLTE2OD
+U2NDkyOTUsMTE0MDIzNTYwNiwyNTYwNTMwNzUsMTU0NzY5NTE1
+OCw2NDY5OTgwMTZdfQ==
 -->
