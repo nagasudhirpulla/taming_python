@@ -112,13 +112,16 @@ if __name__ == '__main__':
     # run the server on this ip and port 50100
     app.run(host='0.0.0.0', port=50100, debug=True)
 ```
+* The `home.html.j2` file can be as shown below
+```html
 
+```
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1OTQ3NDUxOSwxNjQyODM5MTAzLC0yMD
+eyJoaXN0b3J5IjpbLTEzMDIwOTEzNCwxNjQyODM5MTAzLC0yMD
 kyODIxMTIwLDgwNDAwMDEwNiw1ODUxNDMxNjksLTE2ODU2NDky
 OTUsMTE0MDIzNTYwNiwyNTYwNTMwNzUsMTU0NzY5NTE1OCw2ND
 Y5OTgwMTZdfQ==
