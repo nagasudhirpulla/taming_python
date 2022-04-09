@@ -128,11 +128,11 @@ if __name__ == '__main__':
 * TODO if condition in jinja2 templates
 * TODO decimal places display in jinja2 templates
 * TODO for loop in jinja2 templates
-* 
+* jinja2 template docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzA4MjUzMiw1NTc3NDI4MzksMTY0Mj
-gzOTEwMywtMjA5MjgyMTEyMCw4MDQwMDAxMDYsNTg1MTQzMTY5
-LC0xNjg1NjQ5Mjk1LDExNDAyMzU2MDYsMjU2MDUzMDc1LDE1ND
-c2OTUxNTgsNjQ2OTk4MDE2XX0=
+eyJoaXN0b3J5IjpbMTEyMTY1MTM5NywxOTM3MDgyNTMyLDU1Nz
+c0MjgzOSwxNjQyODM5MTAzLC0yMDkyODIxMTIwLDgwNDAwMDEw
+Niw1ODUxNDMxNjksLTE2ODU2NDkyOTUsMTE0MDIzNTYwNiwyNT
+YwNTMwNzUsMTU0NzY5NTE1OCw2NDY5OTgwMTZdfQ==
 -->
