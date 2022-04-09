@@ -95,9 +95,22 @@ if __name__ == '__main__':
 ```
 
 ## Rendering python variables in template file
-* python variables can be injected into the template as named parameters in the `render_template` function
-* The data can be rendered as a jinja 
+* Python variables can be injected into the template as named parameters in the `render_template` function
+* The data from python variables can be rendered in the template using jinja2 templating 
 ```python
+from flask import Flask, render_template
+
+# create a flask server
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('home.html.j2', user={'name':'Abcd', 'city'})
+
+# __name__ will be __main__ only if this file is the entry point
+if __name__ == '__main__':
+    # run the server on this ip and port 50100
+    app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 
 ## References
@@ -105,7 +118,8 @@ if __name__ == '__main__':
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MjgzOTEwMywtMjA5MjgyMTEyMCw4MD
-QwMDAxMDYsNTg1MTQzMTY5LC0xNjg1NjQ5Mjk1LDExNDAyMzU2
-MDYsMjU2MDUzMDc1LDE1NDc2OTUxNTgsNjQ2OTk4MDE2XX0=
+eyJoaXN0b3J5IjpbMTkzODM1NjkxNCwxNjQyODM5MTAzLC0yMD
+kyODIxMTIwLDgwNDAwMDEwNiw1ODUxNDMxNjksLTE2ODU2NDky
+OTUsMTE0MDIzNTYwNiwyNTYwNTMwNzUsMTU0NzY5NTE1OCw2ND
+Y5OTgwMTZdfQ==
 -->
