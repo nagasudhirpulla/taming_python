@@ -49,9 +49,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
   * create a folder named 'data' and create a pdf file named 'abcd.pdf'
   * create a folder named 'img' and create a png file named 'def.png'
 
+## host static files from a specific folder using 'send_from_directory'
+
 ### References
 * https://stackoverflow.com/questions/20646822/how-to-serve-static-files-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2NzEzNiwxNTcxNjQ1MzkwLDE5MDY4Mj
-gyOCw5ODM3NjEzNDddfQ==
+eyJoaXN0b3J5IjpbNDcwMjI5Mzg1LDE1NzE2NDUzOTAsMTkwNj
+gyODI4LDk4Mzc2MTM0N119
 -->
