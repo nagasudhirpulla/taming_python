@@ -18,8 +18,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 ## hosting static files
 * Static files can be stored in a folder named "static" in the same folder as the server python file
 * All static files can be accessible without any authorization, so do not host sensitive data in static folder
-* URL for a static file can be generated dynamically without hard-coding using the `url_for` function
+* URL for a static file can be generated dynamically without hard-coding using the `url_for` function. Example: url_for('static', 'img/abcd.png')
+* `url_for` can be used directly in jinja template like ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTM3MzQ1NjAsMTkwNjgyODI4LDk4Mz
-c2MTM0N119
+eyJoaXN0b3J5IjpbMTU1ODYzMTYxMiwxOTA2ODI4MjgsOTgzNz
+YxMzQ3XX0=
 -->
