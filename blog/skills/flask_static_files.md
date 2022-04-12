@@ -21,12 +21,20 @@ Please make sure to have all the skills mentioned above to understand and execut
 * URL for a static file can be generated dynamically without hard-coding using the `url_for` function. Example: url_for('static', 'img/abcd.png')
 * `url_for` can be used directly in jinja template like `{{ url_for('static', 'img/abcd.png') }}`. For using `url_for` function in python code, we need to import it from flask module like `from flask import url_for`
 ```html
+<html>
 
+<body>
+    <a target="_blank" href="{{ url_for('static', filename='img/abcd.png') }}">Download Image</a>
+    <br/>
+    <button>Dummy Button</button>
+</body>
+
+</html>
 ```
 
 ### References
 * https://stackoverflow.com/questions/20646822/how-to-serve-static-files-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjAwMzQwNjgsMTkwNjgyODI4LDk4Mz
-c2MTM0N119
+eyJoaXN0b3J5IjpbLTQzNjI0NTk1MCwxOTA2ODI4MjgsOTgzNz
+YxMzQ3XX0=
 -->
