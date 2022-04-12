@@ -46,12 +46,12 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </html>
 ```
 * ensure the following in the "static" folder
-** create a folder named 'data' and create a text file named 'abcd.txt'
-** create a folder named 'img' and create a png file named 'def.png'
+  * create a folder named 'data' and create a text file named 'abcd.txt'
+  * create a folder named 'img' and create a png file named 'def.png'
 
 ### References
 * https://stackoverflow.com/questions/20646822/how-to-serve-static-files-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI2MjkzMTM3LDE1NzE2NDUzOTAsMTkwNj
-gyODI4LDk4Mzc2MTM0N119
+eyJoaXN0b3J5IjpbLTIwNTE4NzY5NzksMTU3MTY0NTM5MCwxOT
+A2ODI4MjgsOTgzNzYxMzQ3XX0=
 -->
