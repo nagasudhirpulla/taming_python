@@ -21,7 +21,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * URL for a static file can be generated dynamically without hard-coding using the `url_for` function. Example: url_for('static', 'img/abcd.png')
 * `url_for` can be used directly in jinja template like `{{ url_for('static', 'img/abcd.png') }}`. For using `url_for` function in python code, we need to import it from flask module like `from flask import url_for`
 ### Example
-server.py file
+* server.py file
 ```py
 from flask import Flask, render_template
 
@@ -29,10 +29,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def hi():
-    return render_template("home.html.j2", user={"name":"Abcd", "city":"XYZ"}, data=1234)
+    return render_template("home.html.j2")
 
 app.run(host='0.0.0.0', port=50100, debug=True)
 ```
+* home.html.j2 template file
 ```html
 <html>
 
@@ -44,10 +45,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 
 </html>
 ```
+* ensure the following the "static folder
 
 ### References
 * https://stackoverflow.com/questions/20646822/how-to-serve-static-files-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODU0MDUwMSwxNTcxNjQ1MzkwLDE5MD
-Y4MjgyOCw5ODM3NjEzNDddfQ==
+eyJoaXN0b3J5IjpbMzQ0NTU1MTk2LDE1NzE2NDUzOTAsMTkwNj
+gyODI4LDk4Mzc2MTM0N119
 -->
