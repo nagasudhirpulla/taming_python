@@ -7,6 +7,7 @@
 * [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
+* [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
@@ -25,6 +26,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * template inheritance
 * jinja2 template docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MzczNDQzNSwtMTA3NDg5MTQ0NywtMT
-g5NTE4MTMxOCwxMzE2ODQ0NTM0LDE0NDM3MDE3MTldfQ==
+eyJoaXN0b3J5IjpbLTEzMTk3MzE2OTUsLTI0MzczNDQzNSwtMT
+A3NDg5MTQ0NywtMTg5NTE4MTMxOCwxMzE2ODQ0NTM0LDE0NDM3
+MDE3MTldfQ==
 -->
