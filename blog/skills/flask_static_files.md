@@ -16,9 +16,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Static files can be files like images, PDFs etc. that can be stored in the server folder and displayed or downloaded in the browser
 
 ## static folder
-* Static data can be stored in a folder named "static" in the same folder as the server python file
-* 
+* Static files can be stored in a folder named "static" in the same folder as the server python file
+* All static files can be accessible without any authorization, so do not host sensitive data in static folder
+*    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODYwMDQzOSwxOTA2ODI4MjgsOTgzNz
+eyJoaXN0b3J5IjpbLTUzMTYwNjg2OSwxOTA2ODI4MjgsOTgzNz
 YxMzQ3XX0=
 -->
