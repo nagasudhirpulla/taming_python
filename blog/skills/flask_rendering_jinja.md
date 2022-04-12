@@ -22,8 +22,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 * decimal places display in jinja2 templates
 * title case, upper case in jinja2
 * macros in jinja2
+* template inheritance
 * jinja2 template docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQ4OTE0NDcsLTE4OTUxODEzMTgsMT
-MxNjg0NDUzNCwxNDQzNzAxNzE5XX0=
+eyJoaXN0b3J5IjpbLTI0MzczNDQzNSwtMTA3NDg5MTQ0NywtMT
+g5NTE4MTMxOCwxMzE2ODQ0NTM0LDE0NDM3MDE3MTldfQ==
 -->
