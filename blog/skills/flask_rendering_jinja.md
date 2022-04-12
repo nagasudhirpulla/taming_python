@@ -25,8 +25,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 * macros in jinja2
 * template inheritance
 * jinja2 template docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
+* extract input variables from url path and url query
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTk3MzE2OTUsLTI0MzczNDQzNSwtMT
-A3NDg5MTQ0NywtMTg5NTE4MTMxOCwxMzE2ODQ0NTM0LDE0NDM3
-MDE3MTldfQ==
+eyJoaXN0b3J5IjpbLTczMDY4ODI3MywtMjQzNzM0NDM1LC0xMD
+c0ODkxNDQ3LC0xODk1MTgxMzE4LDEzMTY4NDQ1MzQsMTQ0Mzcw
+MTcxOV19
 -->
