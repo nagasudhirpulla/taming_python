@@ -20,9 +20,13 @@ Please make sure to have all the skills mentioned above to understand and execut
 * All static files can be accessible without any authorization, so do not host sensitive data in static folder
 * URL for a static file can be generated dynamically without hard-coding using the `url_for` function. Example: url_for('static', 'img/abcd.png')
 * `url_for` can be used directly in jinja template like `{{ url_for('static', 'img/abcd.png') }}`. For using `url_for` function in python code, we need to import it from flask module like `from flask import url_for`
+```html
+
 ```
-```
+
+### References
+* https://stackoverflow.com/questions/20646822/how-to-serve-static-files-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzI2NzYxNywxOTA2ODI4MjgsOTgzNz
-YxMzQ3XX0=
+eyJoaXN0b3J5IjpbLTIwNjAwMzQwNjgsMTkwNjgyODI4LDk4Mz
+c2MTM0N119
 -->
