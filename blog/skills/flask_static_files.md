@@ -13,7 +13,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* Static files can be files like images, PDFs etc. that can be stored in the server folder and dow
+* Static files can be files like images, PDFs etc. that can be stored in the server folder and displayed or downloaded in the browser
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NTY1Nzg3MSw5ODM3NjEzNDddfQ==
+eyJoaXN0b3J5IjpbMTkwNjgyODI4LDk4Mzc2MTM0N119
 -->
