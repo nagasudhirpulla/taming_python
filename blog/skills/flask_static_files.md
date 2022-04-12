@@ -38,7 +38,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 <html>
 
 <body>
-    <a target="_blank" href="{{ url_for('static', filename='data/abcd.txt') }}">Download the file</a>
+    <a target="_blank" href="{{ url_for('static', filename='data/abcd.pdf') }}">Download the file</a>
     <br/>
     <img src="{{ url_for('static', filename='img/def.png') }}" alt="image file">
 </body>
@@ -46,12 +46,12 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </html>
 ```
 * ensure the following in the "static" folder
-  * create a folder named 'data' and create a text file named 'abcd.txt'
+  * create a folder named 'data' and create a pdf file named 'abcd.pdf'
   * create a folder named 'img' and create a png file named 'def.png'
 
 ### References
 * https://stackoverflow.com/questions/20646822/how-to-serve-static-files-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTc1MTczODMsMTU3MTY0NTM5MCwxOT
-A2ODI4MjgsOTgzNzYxMzQ3XX0=
+eyJoaXN0b3J5IjpbNDQ2NzEzNiwxNTcxNjQ1MzkwLDE5MDY4Mj
+gyOCw5ODM3NjEzNDddfQ==
 -->
