@@ -50,11 +50,35 @@ app.run(host='0.0.0.0', port=50100, debug=True)
   * create a folder named 'img' and create a png file named 'def.png'
 
 ## host static files from a specific folder using 'send_from_directory' function
-```py```
+```py
+from flask import Flask, render_template, send_from_directory
+
+app = Flask(__name__)
+
+@app.route('/')
+def hi():
+    return render_template("home.html.j2")
+
+@app.route('/reports/<path:repPath>')
+def send_report(repPath):
+    return send_from_directory('reports', repPath)
+
+app.run(host='0.0.0.0', port=50100, debug=True)
+```
+
+```html
+<html>
+
+<body>
+    <a target="_blank" href="{{ url_for('send_report', repPath='xyz.txt') }}">Download File</a>
+</body>
+
+</html>
+```
 
 ### References
 * https://stackoverflow.com/questions/20646822/how-to-serve-static-files-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTIzMjMzMzYsLTIwOTUzODI5NDMsMT
-U3MTY0NTM5MCwxOTA2ODI4MjgsOTgzNzYxMzQ3XX0=
+eyJoaXN0b3J5IjpbLTM4NTU1NzgyMCwtMjA5NTM4Mjk0MywxNT
+cxNjQ1MzkwLDE5MDY4MjgyOCw5ODM3NjEzNDddfQ==
 -->
