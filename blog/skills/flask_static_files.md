@@ -49,9 +49,9 @@ app.run(host='0.0.0.0', port=50100, debug=True)
   * create a folder named 'data' and create a pdf file named 'abcd.pdf'
   * create a folder named 'img' and create a png file named 'def.png'
 
-## change the static folder path and static folder URL
+## change default static folder path and static folder URL
 
-## host static files from a specific folder using 'send_from_directory' function
+## host static files from additional folder using 'send_from_directory' function
 * Suppose we desire to serve static files from a different folder (say 'reports') instead of 'static' folder
 * We can use `send_from_directory` function to serve a file from desired folder given the path of the file inside the folder
 * So the
@@ -81,11 +81,13 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </html>
 ```
 
+## send single file using 'send_file' function
+
 ### References
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODQ0MTM5MCwxNDQ5ODE2NDA5LC0yMD
+eyJoaXN0b3J5IjpbMTc1NTYyODQ1NSwxNDQ5ODE2NDA5LC0yMD
 k1MzgyOTQzLDE1NzE2NDUzOTAsMTkwNjgyODI4LDk4Mzc2MTM0
 N119
 -->
