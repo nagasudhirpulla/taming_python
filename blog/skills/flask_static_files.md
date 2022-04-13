@@ -83,8 +83,9 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 
 ### References
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
+* https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyNjU4OTM0LDE0NDk4MTY0MDksLTIwOT
-UzODI5NDMsMTU3MTY0NTM5MCwxOTA2ODI4MjgsOTgzNzYxMzQ3
-XX0=
+eyJoaXN0b3J5IjpbMTU4ODQ0MTM5MCwxNDQ5ODE2NDA5LC0yMD
+k1MzgyOTQzLDE1NzE2NDUzOTAsMTkwNjgyODI4LDk4Mzc2MTM0
+N119
 -->
