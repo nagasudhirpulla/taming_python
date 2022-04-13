@@ -49,6 +49,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
   * create a folder named 'data' and create a pdf file named 'abcd.pdf'
   * create a folder named 'img' and create a png file named 'def.png'
 
+## change the static folder path and static folder URL
+
 ## host static files from a specific folder using 'send_from_directory' function
 * Suppose we desire to serve static files from a different folder (say 'reports') instead of 'static' folder
 * We can use `send_from_directory` function to serve a file from desired folder given the path of the file inside the folder
@@ -82,7 +84,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 ### References
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTUzMTg1NTYsMTQ0OTgxNjQwOSwtMj
-A5NTM4Mjk0MywxNTcxNjQ1MzkwLDE5MDY4MjgyOCw5ODM3NjEz
-NDddfQ==
+eyJoaXN0b3J5IjpbMzQyNjU4OTM0LDE0NDk4MTY0MDksLTIwOT
+UzODI5NDMsMTU3MTY0NTM5MCwxOTA2ODI4MjgsOTgzNzYxMzQ3
+XX0=
 -->
