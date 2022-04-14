@@ -115,7 +115,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 
 ## serve single file from endpoint using 'send_file' function
 * using the `send_file` function from flask, we can serve a single file
-* In the below example, the 'report' function listening at the URL '/report' will serve 
+* In the below example, the 'report' function listening at the URL '/report' will serve the file 'xyz.pdf' using `send`
 ```py
 from flask import Flask, render_template, send_file
 
@@ -146,8 +146,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTgwMzI5MSwyMDYzNjQxNjE2LDE4ND
-U4MjYzNjAsMTA1MTQ0NzQ1MiwyMDg3NTMwMjkwLDM0NjA5MjEz
-NiwxNzU1NjI4NDU1LDE0NDk4MTY0MDksLTIwOTUzODI5NDMsMT
-U3MTY0NTM5MCwxOTA2ODI4MjgsOTgzNzYxMzQ3XX0=
+eyJoaXN0b3J5IjpbMTEwMTk4NDE5LDIwNjM2NDE2MTYsMTg0NT
+gyNjM2MCwxMDUxNDQ3NDUyLDIwODc1MzAyOTAsMzQ2MDkyMTM2
+LDE3NTU2Mjg0NTUsMTQ0OTgxNjQwOSwtMjA5NTM4Mjk0MywxNT
+cxNjQ1MzkwLDE5MDY4MjgyOCw5ODM3NjEzNDddfQ==
 -->
