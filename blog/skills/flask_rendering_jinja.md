@@ -15,7 +15,16 @@ In this post we will learn how to use jinja templates for flask server side rend
 
 ## if condition in jinja template
 ```py
+# server python file
+from flask import Flask, render_template
 
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html.j2', user={"name":"Abcd", "age": 52})
+
+app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 
 * if condition in jinja2 templates
@@ -31,7 +40,8 @@ In this post we will learn how to use jinja templates for flask server side rend
 * template inheritance
 * jinja2 template docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NzIyOTUxNyw3MTU4ODc1NTMsMTgyNT
-U4MzI2NCwtMjQzNzM0NDM1LC0xMDc0ODkxNDQ3LC0xODk1MTgx
-MzE4LDEzMTY4NDQ1MzQsMTQ0MzcwMTcxOV19
+eyJoaXN0b3J5IjpbODIwOTg5NjE0LC00ODcyMjk1MTcsNzE1OD
+g3NTUzLDE4MjU1ODMyNjQsLTI0MzczNDQzNSwtMTA3NDg5MTQ0
+NywtMTg5NTE4MTMxOCwxMzE2ODQ0NTM0LDE0NDM3MDE3MTldfQ
+==
 -->
