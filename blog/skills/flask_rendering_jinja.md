@@ -154,7 +154,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </body>
 </html>
 ```
-
+* Using the `attribute` input to the join filter, we can also specify the attribute of the object we want to join.
+* In the above example, only `name` attribute of each user object is used for joining
 #### round and int filters
 ```html
 <!--template file-->
@@ -189,11 +190,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTk0OTAzMSwtNDc0NjI3ODcsLTE4Mj
-k4OTY4MjMsLTkzOTk5MTk5MiwtMzA5Mjg1MzE4LC0xNzE1MjY1
-NDI2LC00NTI1MTY0MDQsLTQxNTAxODkyNSwtMTYwNTU4NzMyMC
-wxMjczODA5MTk5LDEyMzQyNzY5MDQsLTQyNzk1MzA3MiwxOTc4
-ODY1MjQ5LDEyNjAxMzU4NTEsLTE5NTIwODQyNSwxNzg4NjY1ND
-I2LC00ODcyMjk1MTcsNzE1ODg3NTUzLDE4MjU1ODMyNjQsLTI0
-MzczNDQzNV19
+eyJoaXN0b3J5IjpbNDQzMzI0MTI3LC00NzQ2Mjc4NywtMTgyOT
+g5NjgyMywtOTM5OTkxOTkyLC0zMDkyODUzMTgsLTE3MTUyNjU0
+MjYsLTQ1MjUxNjQwNCwtNDE1MDE4OTI1LC0xNjA1NTg3MzIwLD
+EyNzM4MDkxOTksMTIzNDI3NjkwNCwtNDI3OTUzMDcyLDE5Nzg4
+NjUyNDksMTI2MDEzNTg1MSwtMTk1MjA4NDI1LDE3ODg2NjU0Mj
+YsLTQ4NzIyOTUxNyw3MTU4ODc1NTMsMTgyNTU4MzI2NCwtMjQz
+NzM0NDM1XX0=
 -->
