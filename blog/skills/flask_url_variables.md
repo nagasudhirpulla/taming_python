@@ -42,14 +42,14 @@ def echoPath(pathVar):
 
 app.run(host='0.0.0.0', port=50100, debug=True)
 ```
-* 
+* int, float, path, uuid are the supported segment types that can be extracted from 
 
 ### References
 * get variables from URL segments - https://flask.palletsprojects.com/en/2.1.x/quickstart/#variable-rules
 * get variables from URL query parameters - https://stackabuse.com/get-request-query-parameters-with-flask/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjM3MjM1MSwtMTgzNTEyOTc4NSwtNj
+eyJoaXN0b3J5IjpbLTE3MDAxMjk5NSwtMTgzNTEyOTc4NSwtNj
 EzMzAyMzk5LDMwNTY4NzA2MiwtOTUwMDAzNzY0LC0yMTI4NDA5
 NTc0XX0=
 -->
