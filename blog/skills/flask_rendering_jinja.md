@@ -128,7 +128,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </body>
 </html>
 ```
-### filters in jijna templates
+### filters in jinja templates
 
 * count of items
 * decimal places display in jinja2 templates with round, int
@@ -143,7 +143,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjU4Mjg5NiwtNDE1MDE4OTI1LC0xNj
+eyJoaXN0b3J5IjpbLTIyMTY0NzExMiwtNDE1MDE4OTI1LC0xNj
 A1NTg3MzIwLDEyNzM4MDkxOTksMTIzNDI3NjkwNCwtNDI3OTUz
 MDcyLDE5Nzg4NjUyNDksMTI2MDEzNTg1MSwtMTk1MjA4NDI1LD
 E3ODg2NjU0MjYsLTQ4NzIyOTUxNyw3MTU4ODc1NTMsMTgyNTU4
