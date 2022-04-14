@@ -148,8 +148,9 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 <!--template file-->
 <html>
 <body>
-<h3>count of items</h3>
-<span>Number of users = {{ users|count }}</span>
+<h3>join filter to combine items</h3>
+<p>{{ range(10)|join(", ") }}</p>
+<p>{{ users|join(", ", attribute='name') }}</p>
 </body>
 </html>
 ```
@@ -188,11 +189,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NDYyNzg3LC0xODI5ODk2ODIzLC05Mz
-k5OTE5OTIsLTMwOTI4NTMxOCwtMTcxNTI2NTQyNiwtNDUyNTE2
-NDA0LC00MTUwMTg5MjUsLTE2MDU1ODczMjAsMTI3MzgwOTE5OS
-wxMjM0Mjc2OTA0LC00Mjc5NTMwNzIsMTk3ODg2NTI0OSwxMjYw
-MTM1ODUxLC0xOTUyMDg0MjUsMTc4ODY2NTQyNiwtNDg3MjI5NT
-E3LDcxNTg4NzU1MywxODI1NTgzMjY0LC0yNDM3MzQ0MzUsLTEw
-NzQ4OTE0NDddfQ==
+eyJoaXN0b3J5IjpbLTQyOTk0OTAzMSwtNDc0NjI3ODcsLTE4Mj
+k4OTY4MjMsLTkzOTk5MTk5MiwtMzA5Mjg1MzE4LC0xNzE1MjY1
+NDI2LC00NTI1MTY0MDQsLTQxNTAxODkyNSwtMTYwNTU4NzMyMC
+wxMjczODA5MTk5LDEyMzQyNzY5MDQsLTQyNzk1MzA3MiwxOTc4
+ODY1MjQ5LDEyNjAxMzU4NTEsLTE5NTIwODQyNSwxNzg4NjY1ND
+I2LC00ODcyMjk1MTcsNzE1ODg3NTUzLDE4MjU1ODMyNjQsLTI0
+MzczNDQzNV19
 -->
