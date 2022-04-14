@@ -58,6 +58,17 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * using the `is defined` operator we can get to know if the variable is defined in jinja template
 ```html
 <!--index.html.j2 file-->
+<html>
+<body>
+<h2>
+{% if (user is defined) and (user.name is defined)%}
+Hello {{ user.name }} !!!
+{% else %}
+user name is not defined
+{% endif %}
+</h2>
+</body>
+</html>
 ```
 
 * for loop in jinja2 templates
@@ -74,8 +85,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDEzNTg1MSwtMTk1MjA4NDI1LDE3OD
-g2NjU0MjYsLTQ4NzIyOTUxNyw3MTU4ODc1NTMsMTgyNTU4MzI2
-NCwtMjQzNzM0NDM1LC0xMDc0ODkxNDQ3LC0xODk1MTgxMzE4LD
-EzMTY4NDQ1MzQsMTQ0MzcwMTcxOV19
+eyJoaXN0b3J5IjpbLTM1MDY5MTcyMywxMjYwMTM1ODUxLC0xOT
+UyMDg0MjUsMTc4ODY2NTQyNiwtNDg3MjI5NTE3LDcxNTg4NzU1
+MywxODI1NTgzMjY0LC0yNDM3MzQ0MzUsLTEwNzQ4OTE0NDcsLT
+E4OTUxODEzMTgsMTMxNjg0NDUzNCwxNDQzNzAxNzE5XX0=
 -->
