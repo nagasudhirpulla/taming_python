@@ -18,6 +18,29 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ### variables from URL path segments
 ```py
+from flask import Flask
+from markupsafe import escape
+
+app = Flask(__name__)
+
+@app.route('/hello/<uname>')
+def hello(uname):
+    # uname variable extracted from url segment
+    # sanitize the variable string using markupsafe
+    sanitizedName = escape(uname)
+    return "Hello {0}".format(sanitizedName)
+
+@app.route('/echoNum/<int:num>')
+def echoNum(num):
+    # num integer variable is extracted from url segment
+    return "The number was {0}".format(num)
+
+@app.route('/echoPath/<path:pathVar>')
+def echoPath(pathVar):
+    # pathVar variable of type path is extracted from url segments
+    return "The path was {0}".format(pathVar)
+
+app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 
 ### References
@@ -25,6 +48,6 @@ Please make sure to have all the skills mentioned above to understand and execut
 * get variables from URL query parameters - https://stackabuse.com/get-request-query-parameters-with-flask/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzMwMjM5OSwzMDU2ODcwNjIsLTk1MD
-AwMzc2NCwtMjEyODQwOTU3NF19
+eyJoaXN0b3J5IjpbLTE4MzUxMjk3ODUsLTYxMzMwMjM5OSwzMD
+U2ODcwNjIsLTk1MDAwMzc2NCwtMjEyODQwOTU3NF19
 -->
