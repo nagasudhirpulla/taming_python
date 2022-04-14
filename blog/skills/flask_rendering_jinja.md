@@ -181,21 +181,20 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 
 * title case, upper case, lower case, trim in jinja2
-* join filter
 * escape filter for HTML escaping
 
 
 ### References
 * jinja2 docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
-* for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
+* for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#for
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MTMxNDk1NywtNDc0NjI3ODcsLTE4Mj
-k4OTY4MjMsLTkzOTk5MTk5MiwtMzA5Mjg1MzE4LC0xNzE1MjY1
-NDI2LC00NTI1MTY0MDQsLTQxNTAxODkyNSwtMTYwNTU4NzMyMC
-wxMjczODA5MTk5LDEyMzQyNzY5MDQsLTQyNzk1MzA3MiwxOTc4
-ODY1MjQ5LDEyNjAxMzU4NTEsLTE5NTIwODQyNSwxNzg4NjY1ND
-I2LC00ODcyMjk1MTcsNzE1ODg3NTUzLDE4MjU1ODMyNjQsLTI0
-MzczNDQzNV19
+eyJoaXN0b3J5IjpbLTEwNDY4MjU2NjAsLTQ3NDYyNzg3LC0xOD
+I5ODk2ODIzLC05Mzk5OTE5OTIsLTMwOTI4NTMxOCwtMTcxNTI2
+NTQyNiwtNDUyNTE2NDA0LC00MTUwMTg5MjUsLTE2MDU1ODczMj
+AsMTI3MzgwOTE5OSwxMjM0Mjc2OTA0LC00Mjc5NTMwNzIsMTk3
+ODg2NTI0OSwxMjYwMTM1ODUxLC0xOTUyMDg0MjUsMTc4ODY2NT
+QyNiwtNDg3MjI5NTE3LDcxNTg4NzU1MywxODI1NTgzMjY0LC0y
+NDM3MzQ0MzVdfQ==
 -->
