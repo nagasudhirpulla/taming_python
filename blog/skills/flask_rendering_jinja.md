@@ -133,7 +133,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * decimal places display in jinja2 templates
 * title case, upper case, lower case in jinja2
 * macros in jinja2
-* template inheritance
+
 
 ### References
 * jinja2 docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
@@ -141,10 +141,10 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjg3NjkxOTksLTQxNTAxODkyNSwtMT
-YwNTU4NzMyMCwxMjczODA5MTk5LDEyMzQyNzY5MDQsLTQyNzk1
-MzA3MiwxOTc4ODY1MjQ5LDEyNjAxMzU4NTEsLTE5NTIwODQyNS
-wxNzg4NjY1NDI2LC00ODcyMjk1MTcsNzE1ODg3NTUzLDE4MjU1
-ODMyNjQsLTI0MzczNDQzNSwtMTA3NDg5MTQ0NywtMTg5NTE4MT
-MxOCwxMzE2ODQ0NTM0LDE0NDM3MDE3MTldfQ==
+eyJoaXN0b3J5IjpbLTEzOTE2MjQ1LC00MTUwMTg5MjUsLTE2MD
+U1ODczMjAsMTI3MzgwOTE5OSwxMjM0Mjc2OTA0LC00Mjc5NTMw
+NzIsMTk3ODg2NTI0OSwxMjYwMTM1ODUxLC0xOTUyMDg0MjUsMT
+c4ODY2NTQyNiwtNDg3MjI5NTE3LDcxNTg4NzU1MywxODI1NTgz
+MjY0LC0yNDM3MzQ0MzUsLTEwNzQ4OTE0NDcsLTE4OTUxODEzMT
+gsMTMxNjg0NDUzNCwxNDQzNzAxNzE5XX0=
 -->
