@@ -25,10 +25,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 * macros in jinja2
 * template inheritance
 * jinja2 template docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
-* extract variables from url path and url query - https://flask.palletsprojects.com/en/2.1.x/quickstart/#variable-rules
+* extract variables from URL path and URL query - https://flask.palletsprojects.com/en/2.1.x/quickstart/#variable-rules
 * flask directory browsing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQyODI5MjcsMTgyNTU4MzI2NCwtMj
-QzNzM0NDM1LC0xMDc0ODkxNDQ3LC0xODk1MTgxMzE4LDEzMTY4
-NDQ1MzQsMTQ0MzcwMTcxOV19
+eyJoaXN0b3J5IjpbLTk3Mzg0NzQ3MSwxODI1NTgzMjY0LC0yND
+M3MzQ0MzUsLTEwNzQ4OTE0NDcsLTE4OTUxODEzMTgsMTMxNjg0
+NDUzNCwxNDQzNzAxNzE5XX0=
 -->
