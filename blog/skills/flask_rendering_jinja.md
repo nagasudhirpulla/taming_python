@@ -133,12 +133,27 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * If we use a function like `upper(x)` in python, we use `{{ x|upper }}` in jinja using the `|` operator
 * In python if we pass parameters like `round(x, 2)`, we use `{{ x|round(2) }}` to pass additional parameters
 
-#### count of items
+#### count filter
 ```html
 <!--template file-->
-
+<html>
+<body>
+<h3>count of items</h3>
+<span>Number of users = {{ users|count }}</span>
+</body>
+</html>
 ```
 
+#### round and int filters
+```html
+<!--template file-->
+<html>
+<body>
+<h3>count of items</h3>
+<span>Number of users = {{ users|count }}</span>
+</body>
+</html>
+```
 #### escape filter
 ```html
 <!--template file-->
@@ -149,7 +164,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </body>
 </html>
 ```
-* count of items
+
 * decimal places display in jinja2 templates with round, int
 * title case, upper case, lower case, trim, safe in jinja2
 * join filter
@@ -162,11 +177,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTUzMTkzNjIsLTMwOTI4NTMxOCwtMT
-cxNTI2NTQyNiwtNDUyNTE2NDA0LC00MTUwMTg5MjUsLTE2MDU1
-ODczMjAsMTI3MzgwOTE5OSwxMjM0Mjc2OTA0LC00Mjc5NTMwNz
-IsMTk3ODg2NTI0OSwxMjYwMTM1ODUxLC0xOTUyMDg0MjUsMTc4
-ODY2NTQyNiwtNDg3MjI5NTE3LDcxNTg4NzU1MywxODI1NTgzMj
-Y0LC0yNDM3MzQ0MzUsLTEwNzQ4OTE0NDcsLTE4OTUxODEzMTgs
-MTMxNjg0NDUzNF19
+eyJoaXN0b3J5IjpbLTkzOTk5MTk5MiwtMzA5Mjg1MzE4LC0xNz
+E1MjY1NDI2LC00NTI1MTY0MDQsLTQxNTAxODkyNSwtMTYwNTU4
+NzMyMCwxMjczODA5MTk5LDEyMzQyNzY5MDQsLTQyNzk1MzA3Mi
+wxOTc4ODY1MjQ5LDEyNjAxMzU4NTEsLTE5NTIwODQyNSwxNzg4
+NjY1NDI2LC00ODcyMjk1MTcsNzE1ODg3NTUzLDE4MjU1ODMyNj
+QsLTI0MzczNDQzNSwtMTA3NDg5MTQ0NywtMTg5NTE4MTMxOCwx
+MzE2ODQ0NTM0XX0=
 -->
