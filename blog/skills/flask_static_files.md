@@ -4,8 +4,6 @@
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
-* [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
-* [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
 
@@ -150,10 +148,10 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 ### References
 * serve files from another folder - https://stackoverflow.com/a/20648053/2746323
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTc5NDMyLC01NDMzNTE0NzIsMjA3Nz
-MyMzMyMCwtNDcyNTgyODIzLDEwNzczMjQ5OTQsLTE5NTA0ODI1
-MjgsLTYyODI1ODE0OSwyMDYzNjQxNjE2LDE4NDU4MjYzNjAsMT
-A1MTQ0NzQ1MiwyMDg3NTMwMjkwLDM0NjA5MjEzNiwxNzU1NjI4
-NDU1LDE0NDk4MTY0MDksLTIwOTUzODI5NDMsMTU3MTY0NTM5MC
-wxOTA2ODI4MjgsOTgzNzYxMzQ3XX0=
+eyJoaXN0b3J5IjpbLTY0MDE3NjcxNiwtNTQzMzUxNDcyLDIwNz
+czMjMzMjAsLTQ3MjU4MjgyMywxMDc3MzI0OTk0LC0xOTUwNDgy
+NTI4LC02MjgyNTgxNDksMjA2MzY0MTYxNiwxODQ1ODI2MzYwLD
+EwNTE0NDc0NTIsMjA4NzUzMDI5MCwzNDYwOTIxMzYsMTc1NTYy
+ODQ1NSwxNDQ5ODE2NDA5LC0yMDk1MzgyOTQzLDE1NzE2NDUzOT
+AsMTkwNjgyODI4LDk4Mzc2MTM0N119
 -->
