@@ -127,11 +127,13 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 ### References
 * jinja2 docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
-* 
+* for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
+*  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzgwOTE5OSwxMjM0Mjc2OTA0LC00Mj
-c5NTMwNzIsMTk3ODg2NTI0OSwxMjYwMTM1ODUxLC0xOTUyMDg0
-MjUsMTc4ODY2NTQyNiwtNDg3MjI5NTE3LDcxNTg4NzU1MywxOD
-I1NTgzMjY0LC0yNDM3MzQ0MzUsLTEwNzQ4OTE0NDcsLTE4OTUx
-ODEzMTgsMTMxNjg0NDUzNCwxNDQzNzAxNzE5XX0=
+eyJoaXN0b3J5IjpbODM2NDM1NTk4LDEyNzM4MDkxOTksMTIzND
+I3NjkwNCwtNDI3OTUzMDcyLDE5Nzg4NjUyNDksMTI2MDEzNTg1
+MSwtMTk1MjA4NDI1LDE3ODg2NjU0MjYsLTQ4NzIyOTUxNyw3MT
+U4ODc1NTMsMTgyNTU4MzI2NCwtMjQzNzM0NDM1LC0xMDc0ODkx
+NDQ3LC0xODk1MTgxMzE4LDEzMTY4NDQ1MzQsMTQ0MzcwMTcxOV
+19
 -->
