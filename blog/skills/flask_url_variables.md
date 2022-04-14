@@ -16,13 +16,15 @@ Please make sure to have all the skills mentioned above to understand and execut
 * In this post we will learn how to extract parameters from URLs in flask server end points
 * The URL parameters can be extracted from the URL path and URL query
 
-### 
+### variables from URL path segments
+```py
+```
 
 ### References
 * get variables from URL segments - https://flask.palletsprojects.com/en/2.1.x/quickstart/#variable-rules
 * get variables from URL query parameters - https://stackabuse.com/get-request-query-parameters-with-flask/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3NTI2ODY5LDMwNTY4NzA2MiwtOTUwMD
-AzNzY0LC0yMTI4NDA5NTc0XX0=
+eyJoaXN0b3J5IjpbLTYxMzMwMjM5OSwzMDU2ODcwNjIsLTk1MD
+AwMzc2NCwtMjEyODQwOTU3NF19
 -->
