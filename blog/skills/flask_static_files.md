@@ -51,7 +51,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 
 ## change default static folder path and static folder URL
 * Static files can be hosted in the folder named 'static' by default.
-* To change the defaul
+* To change the default static files folder, we can use 
 
 ## host static files from additional folder using 'send_from_directory' function
 * Suppose we desire to serve static files from a different folder (say 'reports') instead of 'static' folder
@@ -94,7 +94,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTA1MTgxNCwyMDg3NTMwMjkwLDM0Nj
+eyJoaXN0b3J5IjpbMTA1MTQ0NzQ1MiwyMDg3NTMwMjkwLDM0Nj
 A5MjEzNiwxNzU1NjI4NDU1LDE0NDk4MTY0MDksLTIwOTUzODI5
 NDMsMTU3MTY0NTM5MCwxOTA2ODI4MjgsOTgzNzYxMzQ3XX0=
 -->
