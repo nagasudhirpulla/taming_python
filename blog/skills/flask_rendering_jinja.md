@@ -26,8 +26,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 * template inheritance
 * jinja2 template docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 * extract variables from url path and url query - https://flask.palletsprojects.com/en/2.1.x/quickstart/#variable-rules
+* flask directory browsing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTU4MzI2NCwtMjQzNzM0NDM1LC0xMD
-c0ODkxNDQ3LC0xODk1MTgxMzE4LDEzMTY4NDQ1MzQsMTQ0Mzcw
-MTcxOV19
+eyJoaXN0b3J5IjpbLTE4MzQyODI5MjcsMTgyNTU4MzI2NCwtMj
+QzNzM0NDM1LC0xMDc0ODkxNDQ3LC0xODk1MTgxMzE4LDEzMTY4
+NDQ1MzQsMTQ0MzcwMTcxOV19
 -->
