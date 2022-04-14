@@ -114,7 +114,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * Since we have mentioned the path segment as `<path:repPath>`, the route will be triggered only if the 'repPath' segment is of type 'path'. If the path segment is of another type, the route will not be triggered
 * Authorization and authentication can also be imposed on this route that serves static files. This way we can also restrict the access of static files based on some authorization rules
 
-## serve single file from endpoint using 'send_file' function
+## serve single file using 'send_file' function
 * we can serve a single file using the `send_file` function imported from flask module
 * In the below example, the 'report' function listening at the URL '/report' will serve the file 'xyz.pdf' using `send_file` function
 ```py
@@ -148,10 +148,10 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 ### References
 * serve files from another folder - https://stackoverflow.com/a/20648053/2746323
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDE3NjcxNiwtNTQzMzUxNDcyLDIwNz
-czMjMzMjAsLTQ3MjU4MjgyMywxMDc3MzI0OTk0LC0xOTUwNDgy
-NTI4LC02MjgyNTgxNDksMjA2MzY0MTYxNiwxODQ1ODI2MzYwLD
-EwNTE0NDc0NTIsMjA4NzUzMDI5MCwzNDYwOTIxMzYsMTc1NTYy
-ODQ1NSwxNDQ5ODE2NDA5LC0yMDk1MzgyOTQzLDE1NzE2NDUzOT
-AsMTkwNjgyODI4LDk4Mzc2MTM0N119
+eyJoaXN0b3J5IjpbLTEyMDgwNjg3MzcsLTY0MDE3NjcxNiwtNT
+QzMzUxNDcyLDIwNzczMjMzMjAsLTQ3MjU4MjgyMywxMDc3MzI0
+OTk0LC0xOTUwNDgyNTI4LC02MjgyNTgxNDksMjA2MzY0MTYxNi
+wxODQ1ODI2MzYwLDEwNTE0NDc0NTIsMjA4NzUzMDI5MCwzNDYw
+OTIxMzYsMTc1NTYyODQ1NSwxNDQ5ODE2NDA5LC0yMDk1MzgyOT
+QzLDE1NzE2NDUzOTAsMTkwNjgyODI4LDk4Mzc2MTM0N119
 -->
