@@ -4,9 +4,6 @@
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
-* [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
-* [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
-* [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
@@ -69,8 +66,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * get variables from URL query parameters - https://stackabuse.com/get-request-query-parameters-with-flask/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTMyMjcxOTcsMjIwNDI2OTQ5LC0xMz
-YyMDQ1MDExLC0xMDU0MTE2NTk1LC0xODM1MTI5Nzg1LC02MTMz
-MDIzOTksMzA1Njg3MDYyLC05NTAwMDM3NjQsLTIxMjg0MDk1Nz
-RdfQ==
+eyJoaXN0b3J5IjpbLTIyMTY4Nzg5LC0yMDUzMjI3MTk3LDIyMD
+QyNjk0OSwtMTM2MjA0NTAxMSwtMTA1NDExNjU5NSwtMTgzNTEy
+OTc4NSwtNjEzMzAyMzk5LDMwNTY4NzA2MiwtOTUwMDAzNzY0LC
+0yMTI4NDA5NTc0XX0=
 -->
