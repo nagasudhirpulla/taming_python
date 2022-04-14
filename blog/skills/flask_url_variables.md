@@ -46,6 +46,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 
 ### extract variables from URL query parameters
 ```py
+
 ```
 
 ### References
@@ -53,7 +54,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * get variables from URL query parameters - https://stackabuse.com/get-request-query-parameters-with-flask/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjQ2NzI3MiwtMTA1NDExNjU5NSwtMT
-gzNTEyOTc4NSwtNjEzMzAyMzk5LDMwNTY4NzA2MiwtOTUwMDAz
-NzY0LC0yMTI4NDA5NTc0XX0=
+eyJoaXN0b3J5IjpbLTE1ODkyOTYyOTQsLTEwNTQxMTY1OTUsLT
+E4MzUxMjk3ODUsLTYxMzMwMjM5OSwzMDU2ODcwNjIsLTk1MDAw
+Mzc2NCwtMjEyODQwOTU3NF19
 -->
