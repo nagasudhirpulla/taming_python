@@ -4,7 +4,6 @@
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
-* [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
@@ -25,7 +24,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * jinja2 template docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 * extract variables from URL path and URL query - https://flask.palletsprojects.com/en/2.1.x/quickstart/#variable-rules
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzM2NTgyMCwxODI1NTgzMjY0LC0yND
-M3MzQ0MzUsLTEwNzQ4OTE0NDcsLTE4OTUxODEzMTgsMTMxNjg0
-NDUzNCwxNDQzNzAxNzE5XX0=
+eyJoaXN0b3J5IjpbLTMyODYyOTU4LDE4MjU1ODMyNjQsLTI0Mz
+czNDQzNSwtMTA3NDg5MTQ0NywtMTg5NTE4MTMxOCwxMzE2ODQ0
+NTM0LDE0NDM3MDE3MTldfQ==
 -->
