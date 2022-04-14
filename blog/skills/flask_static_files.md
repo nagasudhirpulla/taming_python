@@ -68,6 +68,15 @@ def index():
 app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 
+```html
+<html>
+
+<body>
+    <a target="_blank" href="{{ url_for('static', filename='xyz.txt') }}">Download File</a>
+</body>
+
+</html>
+```
 ## host static files from additional folder using 'send_from_directory' function
 * Suppose we desire to serve static files from a different folder (say 'reports') instead of 'static' folder
 * We can use `send_from_directory` function to serve a file from desired folder, given the path of the file inside the folder
@@ -109,8 +118,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjA0MjE2NjgsMTA1MTQ0NzQ1MiwyMD
-g3NTMwMjkwLDM0NjA5MjEzNiwxNzU1NjI4NDU1LDE0NDk4MTY0
-MDksLTIwOTUzODI5NDMsMTU3MTY0NTM5MCwxOTA2ODI4MjgsOT
-gzNzYxMzQ3XX0=
+eyJoaXN0b3J5IjpbMTg0NTgyNjM2MCwxMDUxNDQ3NDUyLDIwOD
+c1MzAyOTAsMzQ2MDkyMTM2LDE3NTU2Mjg0NTUsMTQ0OTgxNjQw
+OSwtMjA5NTM4Mjk0MywxNTcxNjQ1MzkwLDE5MDY4MjgyOCw5OD
+M3NjEzNDddfQ==
 -->
