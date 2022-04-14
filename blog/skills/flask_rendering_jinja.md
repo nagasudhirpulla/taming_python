@@ -167,10 +167,9 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </html>
 ```
 
-* decimal places display in jinja2 templates with round, int
-* title case, upper case, lower case, trim, safe in jinja2
+* title case, upper case, lower case, trim in jinja2
 * join filter
-* safe filter for HTML escaping
+* escape filter for HTML escaping
 
 
 ### References
@@ -179,11 +178,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDE2NjU2OCwtOTM5OTkxOTkyLC0zMD
-kyODUzMTgsLTE3MTUyNjU0MjYsLTQ1MjUxNjQwNCwtNDE1MDE4
-OTI1LC0xNjA1NTg3MzIwLDEyNzM4MDkxOTksMTIzNDI3NjkwNC
-wtNDI3OTUzMDcyLDE5Nzg4NjUyNDksMTI2MDEzNTg1MSwtMTk1
-MjA4NDI1LDE3ODg2NjU0MjYsLTQ4NzIyOTUxNyw3MTU4ODc1NT
-MsMTgyNTU4MzI2NCwtMjQzNzM0NDM1LC0xMDc0ODkxNDQ3LC0x
-ODk1MTgxMzE4XX0=
+eyJoaXN0b3J5IjpbLTE4Mjk4OTY4MjMsLTkzOTk5MTk5MiwtMz
+A5Mjg1MzE4LC0xNzE1MjY1NDI2LC00NTI1MTY0MDQsLTQxNTAx
+ODkyNSwtMTYwNTU4NzMyMCwxMjczODA5MTk5LDEyMzQyNzY5MD
+QsLTQyNzk1MzA3MiwxOTc4ODY1MjQ5LDEyNjAxMzU4NTEsLTE5
+NTIwODQyNSwxNzg4NjY1NDI2LC00ODcyMjk1MTcsNzE1ODg3NT
+UzLDE4MjU1ODMyNjQsLTI0MzczNDQzNSwtMTA3NDg5MTQ0Nywt
+MTg5NTE4MTMxOF19
 -->
