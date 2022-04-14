@@ -45,8 +45,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * int, float, path, uuid are the supported variable types that can be extracted from URL segments
 
 ### extract variables from URL query parameters
-* using request.args function imported from flask module, we can extract the query parameters from URL
-* 
+* using request.args imported from flask module, we can extract the query parameters from URL
+* using request.args.to_dict() function, we can get the URL query parameters as a python dict object
 ```py
 
 ```
@@ -56,7 +56,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * get variables from URL query parameters - https://stackabuse.com/get-request-query-parameters-with-flask/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjQxMzk4MTIsLTEwNTQxMTY1OTUsLT
+eyJoaXN0b3J5IjpbLTEzNjIwNDUwMTEsLTEwNTQxMTY1OTUsLT
 E4MzUxMjk3ODUsLTYxMzMwMjM5OSwzMDU2ODcwNjIsLTk1MDAw
 Mzc2NCwtMjEyODQwOTU3NF19
 -->
