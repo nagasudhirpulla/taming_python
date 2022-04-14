@@ -54,7 +54,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </body>
 </html>
 ```
-### check if variable is defined 
+### check if variable is defined
+* using the `is defined` operator we can get to know if the variable is defined in jinja template
 ```html
 <!--index.html.j2 file-->
 ```
@@ -73,8 +74,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYxMTU1ODUsLTE5NTIwODQyNSwxNz
-g4NjY1NDI2LC00ODcyMjk1MTcsNzE1ODg3NTUzLDE4MjU1ODMy
-NjQsLTI0MzczNDQzNSwtMTA3NDg5MTQ0NywtMTg5NTE4MTMxOC
-wxMzE2ODQ0NTM0LDE0NDM3MDE3MTldfQ==
+eyJoaXN0b3J5IjpbMTI2MDEzNTg1MSwtMTk1MjA4NDI1LDE3OD
+g2NjU0MjYsLTQ4NzIyOTUxNyw3MTU4ODc1NTMsMTgyNTU4MzI2
+NCwtMjQzNzM0NDM1LC0xMDc0ODkxNDQ3LC0xODk1MTgxMzE4LD
+EzMTY4NDQ1MzQsMTQ0MzcwMTcxOV19
 -->
