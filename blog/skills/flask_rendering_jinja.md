@@ -54,7 +54,6 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </html>
 ```
 
-* inline if expression
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 * for loop in jinja2 templates
 * getting for loop iterator in jinja2 using loop.index0
@@ -66,7 +65,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * template inheritance
 * jinja2 template docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjMyODYwNiwtMTk1MjA4NDI1LDE3OD
+eyJoaXN0b3J5IjpbMTI0NDk5OTMyMiwtMTk1MjA4NDI1LDE3OD
 g2NjU0MjYsLTQ4NzIyOTUxNyw3MTU4ODc1NTMsMTgyNTU4MzI2
 NCwtMjQzNzM0NDM1LC0xMDc0ODkxNDQ3LC0xODk1MTgxMzE4LD
 EzMTY4NDQ1MzQsMTQ0MzcwMTcxOV19
