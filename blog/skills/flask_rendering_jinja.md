@@ -103,7 +103,19 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 ### getting for loop iterator in jinja using loop.index0 or loop.index
 ```html
+<html>
+<body>
+<h3>Users</h3>
+{% for u in users %}
+<p>{{ loop.index }}. Name: {{ u.name }}, Age: {{ u.age }}</p>
+{% endfor %}
+</body>
+</html>
 ```
+* loop.index0 gives access to for zero indexed for loop iterator
+* loop.index gives access to  
+
+
 * create a range of numbers
 * filters in jijna2
 * decimal places display in jinja2 templates
@@ -116,9 +128,9 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjg5MjQxMywxMjM0Mjc2OTA0LC00Mj
-c5NTMwNzIsMTk3ODg2NTI0OSwxMjYwMTM1ODUxLC0xOTUyMDg0
-MjUsMTc4ODY2NTQyNiwtNDg3MjI5NTE3LDcxNTg4NzU1MywxOD
-I1NTgzMjY0LC0yNDM3MzQ0MzUsLTEwNzQ4OTE0NDcsLTE4OTUx
-ODEzMTgsMTMxNjg0NDUzNCwxNDQzNzAxNzE5XX0=
+eyJoaXN0b3J5IjpbLTI2MjIxMTA3LDEyMzQyNzY5MDQsLTQyNz
+k1MzA3MiwxOTc4ODY1MjQ5LDEyNjAxMzU4NTEsLTE5NTIwODQy
+NSwxNzg4NjY1NDI2LC00ODcyMjk1MTcsNzE1ODg3NTUzLDE4Mj
+U1ODMyNjQsLTI0MzczNDQzNSwtMTA3NDg5MTQ0NywtMTg5NTE4
+MTMxOCwxMzE2ODQ0NTM0LDE0NDM3MDE3MTldfQ==
 -->
