@@ -72,6 +72,7 @@ username is not defined
 ```
 ### for loop in jinja templates
 ```html
+<!-- template file -->
 <html>
 <body>
 <h3>Users</h3>
@@ -84,6 +85,7 @@ username is not defined
 </html>
 ```
 ```py
+# server python file
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -99,7 +101,9 @@ def index():
 
 app.run(host='0.0.0.0', port=50100, debug=True)
 ```
-* getting for loop iterator in jinja2 using loop.index0
+### getting for loop iterator in jinja using loop.index0
+```html
+```
 * create a range of numbers
 * filters in jijna2
 * decimal places display in jinja2 templates
@@ -112,7 +116,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTAyNzc2NywtNDI3OTUzMDcyLDE5Nz
+eyJoaXN0b3J5IjpbMTIzNDI3NjkwNCwtNDI3OTUzMDcyLDE5Nz
 g4NjUyNDksMTI2MDEzNTg1MSwtMTk1MjA4NDI1LDE3ODg2NjU0
 MjYsLTQ4NzIyOTUxNyw3MTU4ODc1NTMsMTgyNTU4MzI2NCwtMj
 QzNzM0NDM1LC0xMDc0ODkxNDQ3LC0xODk1MTgxMzE4LDEzMTY4
