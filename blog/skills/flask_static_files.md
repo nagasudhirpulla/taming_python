@@ -114,15 +114,39 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * Authorization and authentication can also be imposed on this route that serves static files. This way we can also restrict the access of static files based on some authorization rules.
 
 ## serve single file from endpoint using 'send_file' function
-* 
 
+```py
+from flask import Flask, render_template, send_file
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template("home.html.j2")
+
+@app.route('/report')
+def report():
+    return send_file('./reports/xyz.pdf')
+
+app.run(host='0.0.0.0', port=50100, debug=True)
+```
+
+```html
+<html>
+
+<body>
+    <a target="_blank" href="{{ url_for('report') }}">Download File</a>
+</body>
+
+</html>
+```
 
 ### References
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MzY0MTYxNiwxODQ1ODI2MzYwLDEwNT
-E0NDc0NTIsMjA4NzUzMDI5MCwzNDYwOTIxMzYsMTc1NTYyODQ1
-NSwxNDQ5ODE2NDA5LC0yMDk1MzgyOTQzLDE1NzE2NDUzOTAsMT
-kwNjgyODI4LDk4Mzc2MTM0N119
+eyJoaXN0b3J5IjpbMTc2NTgxOTc2MiwyMDYzNjQxNjE2LDE4ND
+U4MjYzNjAsMTA1MTQ0NzQ1MiwyMDg3NTMwMjkwLDM0NjA5MjEz
+NiwxNzU1NjI4NDU1LDE0NDk4MTY0MDksLTIwOTUzODI5NDMsMT
+U3MTY0NTM5MCwxOTA2ODI4MjgsOTgzNzYxMzQ3XX0=
 -->
