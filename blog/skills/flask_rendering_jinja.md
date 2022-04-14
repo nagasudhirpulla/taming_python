@@ -112,8 +112,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </body>
 </html>
 ```
-* loop.index0 gives access to for zero indexed for loop iterator
-* loop.index gives access to  
+* loop.index0 gives access to for 0-indexed (starts with 0) for loop iterator
+* loop.index gives access to  1-indexed (starts with 1) for loop iterator
 
 
 * create a range of numbers
@@ -128,9 +128,9 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjIxMTA3LDEyMzQyNzY5MDQsLTQyNz
-k1MzA3MiwxOTc4ODY1MjQ5LDEyNjAxMzU4NTEsLTE5NTIwODQy
-NSwxNzg4NjY1NDI2LC00ODcyMjk1MTcsNzE1ODg3NTUzLDE4Mj
-U1ODMyNjQsLTI0MzczNDQzNSwtMTA3NDg5MTQ0NywtMTg5NTE4
-MTMxOCwxMzE2ODQ0NTM0LDE0NDM3MDE3MTldfQ==
+eyJoaXN0b3J5IjpbMTQ4MzI3NzY3NSwxMjM0Mjc2OTA0LC00Mj
+c5NTMwNzIsMTk3ODg2NTI0OSwxMjYwMTM1ODUxLC0xOTUyMDg0
+MjUsMTc4ODY2NTQyNiwtNDg3MjI5NTE3LDcxNTg4NzU1MywxOD
+I1NTgzMjY0LC0yNDM3MzQ0MzUsLTEwNzQ4OTE0NDcsLTE4OTUx
+ODEzMTgsMTMxNjg0NDUzNCwxNDQzNzAxNzE5XX0=
 -->
