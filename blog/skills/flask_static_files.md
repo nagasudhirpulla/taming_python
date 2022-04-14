@@ -18,7 +18,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ## hosting static files
 * Static files can be stored in a folder named "static" in the same folder as the server python file
 * All static files can be accessible without any authorization, so do not host sensitive data in static folder
-* URL for a static file can be generated dynamically without hard-coding using the `url_for` function. Example: url_for('static', 'img/abcd.png')
+* URL for a static file can be generated dynamically without hard-coding using the `url_for` function. Example: `url_for('static', 'img/abcd.png')` will generate the URL for the file present in static/img/abcd.png
 * `url_for` can be used directly in jinja template like `{{ url_for('static', 'img/abcd.png') }}`. For using `url_for` function in python code, we need to import it from flask module like `from flask import url_for`
 ### Example
 * server.py file
@@ -148,8 +148,9 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODI1ODE0OSwyMDYzNjQxNjE2LDE4ND
-U4MjYzNjAsMTA1MTQ0NzQ1MiwyMDg3NTMwMjkwLDM0NjA5MjEz
-NiwxNzU1NjI4NDU1LDE0NDk4MTY0MDksLTIwOTUzODI5NDMsMT
-U3MTY0NTM5MCwxOTA2ODI4MjgsOTgzNzYxMzQ3XX0=
+eyJoaXN0b3J5IjpbLTE5NTA0ODI1MjgsLTYyODI1ODE0OSwyMD
+YzNjQxNjE2LDE4NDU4MjYzNjAsMTA1MTQ0NzQ1MiwyMDg3NTMw
+MjkwLDM0NjA5MjEzNiwxNzU1NjI4NDU1LDE0NDk4MTY0MDksLT
+IwOTUzODI5NDMsMTU3MTY0NTM5MCwxOTA2ODI4MjgsOTgzNzYx
+MzQ3XX0=
 -->
