@@ -143,6 +143,16 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </body>
 </html>
 ```
+#### join filter
+```html
+<!--template file-->
+<html>
+<body>
+<h3>count of items</h3>
+<span>Number of users = {{ users|count }}</span>
+</body>
+</html>
+```
 
 #### round and int filters
 ```html
@@ -178,11 +188,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjk4OTY4MjMsLTkzOTk5MTk5MiwtMz
-A5Mjg1MzE4LC0xNzE1MjY1NDI2LC00NTI1MTY0MDQsLTQxNTAx
-ODkyNSwtMTYwNTU4NzMyMCwxMjczODA5MTk5LDEyMzQyNzY5MD
-QsLTQyNzk1MzA3MiwxOTc4ODY1MjQ5LDEyNjAxMzU4NTEsLTE5
-NTIwODQyNSwxNzg4NjY1NDI2LC00ODcyMjk1MTcsNzE1ODg3NT
-UzLDE4MjU1ODMyNjQsLTI0MzczNDQzNSwtMTA3NDg5MTQ0Nywt
-MTg5NTE4MTMxOF19
+eyJoaXN0b3J5IjpbLTQ3NDYyNzg3LC0xODI5ODk2ODIzLC05Mz
+k5OTE5OTIsLTMwOTI4NTMxOCwtMTcxNTI2NTQyNiwtNDUyNTE2
+NDA0LC00MTUwMTg5MjUsLTE2MDU1ODczMjAsMTI3MzgwOTE5OS
+wxMjM0Mjc2OTA0LC00Mjc5NTMwNzIsMTk3ODg2NTI0OSwxMjYw
+MTM1ODUxLC0xOTUyMDg0MjUsMTc4ODY2NTQyNiwtNDg3MjI5NT
+E3LDcxNTg4NzU1MywxODI1NTgzMjY0LC0yNDM3MzQ0MzUsLTEw
+NzQ4OTE0NDddfQ==
 -->
