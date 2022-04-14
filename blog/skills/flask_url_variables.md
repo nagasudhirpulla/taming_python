@@ -14,7 +14,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 
 * In this post we will learn how to extract parameters from URLs in flask server end points
-* The url parameters can be 
+* The URL parameters can be extracted from the URL path and URL query
 
 ## hosting static files
 * Static files can be stored in a folder named "static" in the same folder as the server python file
@@ -152,5 +152,5 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * serve files from another folder - https://stackoverflow.com/a/20648053/2746323
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyMTQ3Mzk1XX0=
+eyJoaXN0b3J5IjpbMTQ3OTUyNDk1Ml19
 -->
