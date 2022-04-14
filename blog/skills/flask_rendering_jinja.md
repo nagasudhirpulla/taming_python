@@ -149,8 +149,10 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 <!--template file-->
 <html>
 <body>
-<h3>count of items</h3>
-<span>Number of users = {{ users|count }}</span>
+<h3>Using round and int filters for decimals manipulation of numbers</h3>
+<p>{{ 45.2|int }}</p>
+<p>{{ 45.247|round(2) }}</p>
+<p>{{ 45.247|round(2, 'floor') }}</p>
 </body>
 </html>
 ```
@@ -177,11 +179,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTk5MTk5MiwtMzA5Mjg1MzE4LC0xNz
-E1MjY1NDI2LC00NTI1MTY0MDQsLTQxNTAxODkyNSwtMTYwNTU4
-NzMyMCwxMjczODA5MTk5LDEyMzQyNzY5MDQsLTQyNzk1MzA3Mi
-wxOTc4ODY1MjQ5LDEyNjAxMzU4NTEsLTE5NTIwODQyNSwxNzg4
-NjY1NDI2LC00ODcyMjk1MTcsNzE1ODg3NTUzLDE4MjU1ODMyNj
-QsLTI0MzczNDQzNSwtMTA3NDg5MTQ0NywtMTg5NTE4MTMxOCwx
-MzE2ODQ0NTM0XX0=
+eyJoaXN0b3J5IjpbMTk0NDE2NjU2OCwtOTM5OTkxOTkyLC0zMD
+kyODUzMTgsLTE3MTUyNjU0MjYsLTQ1MjUxNjQwNCwtNDE1MDE4
+OTI1LC0xNjA1NTg3MzIwLDEyNzM4MDkxOTksMTIzNDI3NjkwNC
+wtNDI3OTUzMDcyLDE5Nzg4NjUyNDksMTI2MDEzNTg1MSwtMTk1
+MjA4NDI1LDE3ODg2NjU0MjYsLTQ4NzIyOTUxNyw3MTU4ODc1NT
+MsMTgyNTU4MzI2NCwtMjQzNzM0NDM1LC0xMDc0ODkxNDQ3LC0x
+ODk1MTgxMzE4XX0=
 -->
