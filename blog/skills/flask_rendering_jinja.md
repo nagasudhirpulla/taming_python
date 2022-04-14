@@ -26,6 +26,7 @@ def index():
 
 app.run(host='0.0.0.0', port=50100, debug=True)
 ```
+
 ```html
 <!--index.html.j2 file-->
 <html>
@@ -72,7 +73,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzU4NjIxMjcsLTE5NTIwODQyNSwxNz
+eyJoaXN0b3J5IjpbLTE1MzYxMTU1ODUsLTE5NTIwODQyNSwxNz
 g4NjY1NDI2LC00ODcyMjk1MTcsNzE1ODg3NTUzLDE4MjU1ODMy
 NjQsLTI0MzczNDQzNSwtMTA3NDg5MTQ0NywtMTg5NTE4MTMxOC
 wxMzE2ODQ0NTM0LDE0NDM3MDE3MTldfQ==
