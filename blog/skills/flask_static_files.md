@@ -53,7 +53,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * Static files can be hosted in the folder named 'static' by default.
 * To change the default static files folder, we can use the `static_folder` and `static_url_path` inputs while creating the flask application instance
 * `static_folder` changes the folder from which the static files are served
-* `static_url_path` changes the URL path from which t
+* `static_url_path` changes the starting URL segment from which the static files are served
+* Even if we change any of the `static_folder` and `static_url_path`, while using `url_for` function, we can still us
 ```py
 ```
 
@@ -98,8 +99,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxNDU0MTkwLDEwNTE0NDc0NTIsMjA4Nz
-UzMDI5MCwzNDYwOTIxMzYsMTc1NTYyODQ1NSwxNDQ5ODE2NDA5
-LC0yMDk1MzgyOTQzLDE1NzE2NDUzOTAsMTkwNjgyODI4LDk4Mz
-c2MTM0N119
+eyJoaXN0b3J5IjpbLTIyMzQ2Nzc1NiwxMDUxNDQ3NDUyLDIwOD
+c1MzAyOTAsMzQ2MDkyMTM2LDE3NTU2Mjg0NTUsMTQ0OTgxNjQw
+OSwtMjA5NTM4Mjk0MywxNTcxNjQ1MzkwLDE5MDY4MjgyOCw5OD
+M3NjEzNDddfQ==
 -->
