@@ -53,7 +53,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 
 ## host static files from additional folder using 'send_from_directory' function
 * Suppose we desire to serve static files from a different folder (say 'reports') instead of 'static' folder
-* We can use `send_from_directory` function to serve a file from desired folder given the path of the file inside the folder
+* We can use `send_from_directory` function to serve a file from desired folder, given the path of the file inside the folder
 * So the
 ```py
 from flask import Flask, render_template, send_from_directory
@@ -87,7 +87,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTYyODQ1NSwxNDQ5ODE2NDA5LC0yMD
-k1MzgyOTQzLDE1NzE2NDUzOTAsMTkwNjgyODI4LDk4Mzc2MTM0
-N119
+eyJoaXN0b3J5IjpbLTcxNDA0MTg2OSwxNzU1NjI4NDU1LDE0ND
+k4MTY0MDksLTIwOTUzODI5NDMsMTU3MTY0NTM5MCwxOTA2ODI4
+MjgsOTgzNzYxMzQ3XX0=
 -->
