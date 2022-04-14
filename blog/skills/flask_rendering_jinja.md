@@ -13,7 +13,23 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will learn how to use jinja templates for flask server side rendering
 
-## if condition in jinja template
+## if, elif, else in jinja template
+```html
+<!--index.html.j2 file-->
+<html>
+<body>
+<h2>
+{% if user.age <= 30 %}
+{{ user.name }} is a young person
+{% elif user.age >= 50 %}
+{{ user.name }} is old
+{% else %}
+{{ user.name }} is not young
+{% endif %}
+</h2>
+</body>
+</html>
+```
 ```py
 # server python file
 from flask import Flask, render_template
@@ -40,8 +56,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * template inheritance
 * jinja2 template docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwOTg5NjE0LC00ODcyMjk1MTcsNzE1OD
-g3NTUzLDE4MjU1ODMyNjQsLTI0MzczNDQzNSwtMTA3NDg5MTQ0
-NywtMTg5NTE4MTMxOCwxMzE2ODQ0NTM0LDE0NDM3MDE3MTldfQ
-==
+eyJoaXN0b3J5IjpbMTc4ODY2NTQyNiwtNDg3MjI5NTE3LDcxNT
+g4NzU1MywxODI1NTgzMjY0LC0yNDM3MzQ0MzUsLTEwNzQ4OTE0
+NDcsLTE4OTUxODEzMTgsMTMxNjg0NDUzNCwxNDQzNzAxNzE5XX
+0=
 -->
