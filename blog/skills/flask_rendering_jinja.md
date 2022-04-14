@@ -72,9 +72,32 @@ username is not defined
 ```
 ### for loop in jinja2 templates
 ```html
+<html>
+<body>
+<h3>Users</h3>
+<ul>
+{% for u in users %}
+<li>Name: {{ u.name }}, Age: {{ u.age }}</li>
+{% endfor %}
+</ul>
+</body>
+</html>
 ```
 ```py
+from flask import Flask, render_template
 
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html.j2', users=[
+        {"name":"Abc", "age": 35},
+        {"name":"Def", "age": 24},
+        {"name":"Ghi", "age": 56},
+        {"name":"Jkl", "age": 18}
+    ])
+
+app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 * getting for loop iterator in jinja2 using loop.index0
 * create a range of numbers
@@ -89,9 +112,9 @@ username is not defined
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNzk1MzA3MiwxOTc4ODY1MjQ5LDEyNj
-AxMzU4NTEsLTE5NTIwODQyNSwxNzg4NjY1NDI2LC00ODcyMjk1
-MTcsNzE1ODg3NTUzLDE4MjU1ODMyNjQsLTI0MzczNDQzNSwtMT
-A3NDg5MTQ0NywtMTg5NTE4MTMxOCwxMzE2ODQ0NTM0LDE0NDM3
-MDE3MTldfQ==
+eyJoaXN0b3J5IjpbMTE5NTY5MzQwMSwtNDI3OTUzMDcyLDE5Nz
+g4NjUyNDksMTI2MDEzNTg1MSwtMTk1MjA4NDI1LDE3ODg2NjU0
+MjYsLTQ4NzIyOTUxNyw3MTU4ODc1NTMsMTgyNTU4MzI2NCwtMj
+QzNzM0NDM1LC0xMDc0ODkxNDQ3LC0xODk1MTgxMzE4LDEzMTY4
+NDQ1MzQsMTQ0MzcwMTcxOV19
 -->
