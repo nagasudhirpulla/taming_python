@@ -127,6 +127,9 @@ Here are the goals and skills in this tutorial series
 * [Oracle Instant Client installation in Windows](https://nagasudhir.blogspot.com/2022/01/oracle-instant-client-installation-in.html)
 * [Oracle Express Edition (XE) database setup along with sqldeveloper and DBeaver in Windows](https://nagasudhir.blogspot.com/2022/01/oracle-express-edition-xe-database.html)
 * [cx_Oracle python module for Oracle database interfacing](https://nagasudhir.blogspot.com/2022/01/cxoracle-python-module-for-oracle.html)
+
+#### Flask web development skills
+* 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -134,7 +137,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE2MjMxNjE5ODYsLTIxMD
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEzNTA0NDkyNjIsLTIxMD
 k1MzYyOTIsLTEyNjExNDMyNywtMTczODUxMTQyOCwxNDY0OTA2
 NzA2LC0xNTY3MTQ1NTMyLC0xOTExMDY0MTU3LDE3MDUxOTA2MT
 IsODA2MTM3NjA3LDk5NzY4ODEzNCwtMTIzMzcyMTE4LC0xNzg4
