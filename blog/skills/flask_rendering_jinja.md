@@ -20,7 +20,7 @@ In this post we will learn how to use jinja templates for flask server side rend
 <body>
 <h2>
 {% if user.age <= 30 %}
-{{ user.name }} is a young person
+{{ user.name }} is young
 {% elif user.age >= 50 %}
 {{ user.name }} is old
 {% else %}
@@ -56,8 +56,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * template inheritance
 * jinja2 template docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODY2NTQyNiwtNDg3MjI5NTE3LDcxNT
-g4NzU1MywxODI1NTgzMjY0LC0yNDM3MzQ0MzUsLTEwNzQ4OTE0
-NDcsLTE4OTUxODEzMTgsMTMxNjg0NDUzNCwxNDQzNzAxNzE5XX
-0=
+eyJoaXN0b3J5IjpbLTE5MTEwMjU5MTAsMTc4ODY2NTQyNiwtND
+g3MjI5NTE3LDcxNTg4NzU1MywxODI1NTgzMjY0LC0yNDM3MzQ0
+MzUsLTEwNzQ4OTE0NDcsLTE4OTUxODEzMTgsMTMxNjg0NDUzNC
+wxNDQzNzAxNzE5XX0=
 -->
