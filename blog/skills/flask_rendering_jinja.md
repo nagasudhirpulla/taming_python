@@ -129,6 +129,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </html>
 ```
 ### filters in jinja templates
+* filters in jinja are like functions in python. If we use a function like `upper(x)` in python, we use `` 
 #### safe filter
 ```html
 <!--template file-->
@@ -152,7 +153,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTI0MzM5NiwtNDUyNTE2NDA0LC00MT
+eyJoaXN0b3J5IjpbLTU2MzA0MjEyMiwtNDUyNTE2NDA0LC00MT
 UwMTg5MjUsLTE2MDU1ODczMjAsMTI3MzgwOTE5OSwxMjM0Mjc2
 OTA0LC00Mjc5NTMwNzIsMTk3ODg2NTI0OSwxMjYwMTM1ODUxLC
 0xOTUyMDg0MjUsMTc4ODY2NTQyNiwtNDg3MjI5NTE3LDcxNTg4
