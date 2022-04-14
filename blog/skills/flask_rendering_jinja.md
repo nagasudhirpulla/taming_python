@@ -116,9 +116,12 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * loop.index gives access to  1-indexed (starts with 1) for loop iterator
 * Other properties of loop variable inside a for loop can be found at https://jinja.palletsprojects.com/en/3.0.x/templates/#for
 
-### generate a sequence of number using 'range' function
+### create a sequence of numbers in jinja using 'range' function
+```html
+<!--template html file-->
 
-* create a range of numbers
+```
+
 * filters in jijna2
 * decimal places display in jinja2 templates
 * title case, upper case, lower case in jinja2
@@ -131,7 +134,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQzNzIzOTEsMTI3MzgwOTE5OSwxMj
+eyJoaXN0b3J5IjpbLTE2MDU1ODczMjAsMTI3MzgwOTE5OSwxMj
 M0Mjc2OTA0LC00Mjc5NTMwNzIsMTk3ODg2NTI0OSwxMjYwMTM1
 ODUxLC0xOTUyMDg0MjUsMTc4ODY2NTQyNiwtNDg3MjI5NTE3LD
 cxNTg4NzU1MywxODI1NTgzMjY0LC0yNDM3MzQ0MzUsLTEwNzQ4
