@@ -43,7 +43,8 @@ def index():
 app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 ### inline if else
-```
+```html
+<!--index.html.j2 file-->
 ```
 
 * inline if expression
@@ -58,7 +59,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * template inheritance
 * jinja2 template docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDM1NzgzMCwxNzg4NjY1NDI2LC00OD
+eyJoaXN0b3J5IjpbLTE5NTIwODQyNSwxNzg4NjY1NDI2LC00OD
 cyMjk1MTcsNzE1ODg3NTUzLDE4MjU1ODMyNjQsLTI0MzczNDQz
 NSwtMTA3NDg5MTQ0NywtMTg5NTE4MTMxOCwxMzE2ODQ0NTM0LD
 E0NDM3MDE3MTldfQ==
