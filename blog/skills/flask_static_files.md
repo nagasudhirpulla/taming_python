@@ -6,6 +6,7 @@
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
+* [Extract parameters from URL in flask server](https://nagasudhir.blogspot.com/2022/04/extract-parameters-from-url-in-flask.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
@@ -148,10 +149,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 ### References
 * serve files from another folder - https://stackoverflow.com/a/20648053/2746323
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDgwNjg3MzcsLTY0MDE3NjcxNiwtNT
-QzMzUxNDcyLDIwNzczMjMzMjAsLTQ3MjU4MjgyMywxMDc3MzI0
-OTk0LC0xOTUwNDgyNTI4LC02MjgyNTgxNDksMjA2MzY0MTYxNi
-wxODQ1ODI2MzYwLDEwNTE0NDc0NTIsMjA4NzUzMDI5MCwzNDYw
-OTIxMzYsMTc1NTYyODQ1NSwxNDQ5ODE2NDA5LC0yMDk1MzgyOT
-QzLDE1NzE2NDUzOTAsMTkwNjgyODI4LDk4Mzc2MTM0N119
+eyJoaXN0b3J5IjpbMTUwOTc4MjU1MiwtMTIwODA2ODczNywtNj
+QwMTc2NzE2LC01NDMzNTE0NzIsMjA3NzMyMzMyMCwtNDcyNTgy
+ODIzLDEwNzczMjQ5OTQsLTE5NTA0ODI1MjgsLTYyODI1ODE0OS
+wyMDYzNjQxNjE2LDE4NDU4MjYzNjAsMTA1MTQ0NzQ1MiwyMDg3
+NTMwMjkwLDM0NjA5MjEzNiwxNzU1NjI4NDU1LDE0NDk4MTY0MD
+ksLTIwOTUzODI5NDMsMTU3MTY0NTM5MCwxOTA2ODI4MjgsOTgz
+NzYxMzQ3XX0=
 -->
