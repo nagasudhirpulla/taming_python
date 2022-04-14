@@ -128,7 +128,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </body>
 </html>
 ```
-### Bulit-in filters in jijna2
+### filters in jijna
 
 * count of items
 * decimal places display in jinja2 templates
@@ -142,10 +142,10 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDA4NzMyNiwtNDE1MDE4OTI1LC0xNj
-A1NTg3MzIwLDEyNzM4MDkxOTksMTIzNDI3NjkwNCwtNDI3OTUz
-MDcyLDE5Nzg4NjUyNDksMTI2MDEzNTg1MSwtMTk1MjA4NDI1LD
-E3ODg2NjU0MjYsLTQ4NzIyOTUxNyw3MTU4ODc1NTMsMTgyNTU4
-MzI2NCwtMjQzNzM0NDM1LC0xMDc0ODkxNDQ3LC0xODk1MTgxMz
-E4LDEzMTY4NDQ1MzQsMTQ0MzcwMTcxOV19
+eyJoaXN0b3J5IjpbLTExMzI1MDAwNTAsLTQxNTAxODkyNSwtMT
+YwNTU4NzMyMCwxMjczODA5MTk5LDEyMzQyNzY5MDQsLTQyNzk1
+MzA3MiwxOTc4ODY1MjQ5LDEyNjAxMzU4NTEsLTE5NTIwODQyNS
+wxNzg4NjY1NDI2LC00ODcyMjk1MTcsNzE1ODg3NTUzLDE4MjU1
+ODMyNjQsLTI0MzczNDQzNSwtMTA3NDg5MTQ0NywtMTg5NTE4MT
+MxOCwxMzE2ODQ0NTM0LDE0NDM3MDE3MTldfQ==
 -->
