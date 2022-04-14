@@ -84,7 +84,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * In the above python code, the 'send_report' function serves static files from the 'reports' folder. 
 * The route used is `/reports/<path:repPath>`. Hence a variable named `repPath` can be passed from the URL to the send_report function. 
 * Since we have mentioned the path segment as `<path:repPath>`, the route will be triggered only if the repPath is of type 'path'. If the path segment is of another type, the route will not be triggered
-* Authorization and authentication can also be imposed on this route that serves static files. This way we can rest
+* Authorization and authentication can also be imposed on this route that serves static files. This way we can also restrict the access of static files based on some authorization rules.
 
 ## send single file using 'send_file' function
 
@@ -92,7 +92,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5NDk1NjE2LDIwODc1MzAyOTAsMzQ2MD
+eyJoaXN0b3J5IjpbMTUxMDg3MDM2LDIwODc1MzAyOTAsMzQ2MD
 kyMTM2LDE3NTU2Mjg0NTUsMTQ0OTgxNjQwOSwtMjA5NTM4Mjk0
 MywxNTcxNjQ1MzkwLDE5MDY4MjgyOCw5ODM3NjEzNDddfQ==
 -->
