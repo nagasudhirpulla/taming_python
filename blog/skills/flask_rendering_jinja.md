@@ -132,7 +132,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * filters in jinja are like functions in python. 
 * If we use a function like `upper(x)` in python, we use `{{ x|upper }}` in jinja using the `|` operator
 * In python if we pass parameters like `round(x, 2)`, we use `{{ x|round(2) }}` to pass additional parameters
-#### safe filter
+#### escape filter
 ```html
 <!--template file-->
 <html>
@@ -155,11 +155,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTUyNjU0MjYsLTQ1MjUxNjQwNCwtND
-E1MDE4OTI1LC0xNjA1NTg3MzIwLDEyNzM4MDkxOTksMTIzNDI3
-NjkwNCwtNDI3OTUzMDcyLDE5Nzg4NjUyNDksMTI2MDEzNTg1MS
-wtMTk1MjA4NDI1LDE3ODg2NjU0MjYsLTQ4NzIyOTUxNyw3MTU4
-ODc1NTMsMTgyNTU4MzI2NCwtMjQzNzM0NDM1LC0xMDc0ODkxND
-Q3LC0xODk1MTgxMzE4LDEzMTY4NDQ1MzQsMTQ0MzcwMTcxOV19
-
+eyJoaXN0b3J5IjpbLTMwOTI4NTMxOCwtMTcxNTI2NTQyNiwtND
+UyNTE2NDA0LC00MTUwMTg5MjUsLTE2MDU1ODczMjAsMTI3Mzgw
+OTE5OSwxMjM0Mjc2OTA0LC00Mjc5NTMwNzIsMTk3ODg2NTI0OS
+wxMjYwMTM1ODUxLC0xOTUyMDg0MjUsMTc4ODY2NTQyNiwtNDg3
+MjI5NTE3LDcxNTg4NzU1MywxODI1NTgzMjY0LC0yNDM3MzQ0Mz
+UsLTEwNzQ4OTE0NDcsLTE4OTUxODEzMTgsMTMxNjg0NDUzNCwx
+NDQzNzAxNzE5XX0=
 -->
