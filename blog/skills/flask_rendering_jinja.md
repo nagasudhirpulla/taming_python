@@ -11,7 +11,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-In this post we will learn how to use jinja templates to render the data in 
+In this post we will learn how to use jinja templates for flask server side rendering
+
+## if condition in jinja template
+``````
 
 * if condition in jinja2 templates
 * inline if expression
@@ -26,7 +29,7 @@ In this post we will learn how to use jinja templates to render the data in
 * template inheritance
 * jinja2 template docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODg0NjIwMiw3MTU4ODc1NTMsMTgyNT
+eyJoaXN0b3J5IjpbLTU2MjgwMTcyMiw3MTU4ODc1NTMsMTgyNT
 U4MzI2NCwtMjQzNzM0NDM1LC0xMDc0ODkxNDQ3LC0xODk1MTgx
 MzE4LDEzMTY4NDQ1MzQsMTQ0MzcwMTcxOV19
 -->
