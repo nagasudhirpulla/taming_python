@@ -63,14 +63,13 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * title case, upper case, lower case in jinja2
 * macros in jinja2
 * template inheritance
-* jinja2 template docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 
 ### References
 * jinja2 docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTk5Nzg1OSwtMTk1MjA4NDI1LDE3OD
+eyJoaXN0b3J5IjpbMTQzNTc2ODU4MCwtMTk1MjA4NDI1LDE3OD
 g2NjU0MjYsLTQ4NzIyOTUxNyw3MTU4ODc1NTMsMTgyNTU4MzI2
 NCwtMjQzNzM0NDM1LC0xMDc0ODkxNDQ3LC0xODk1MTgxMzE4LD
 EzMTY4NDQ1MzQsMTQ0MzcwMTcxOV19
