@@ -10,13 +10,13 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 * python subprocess communication - https://eli.thegreenplace.net/2017/interacting-with-a-long-running-child-process-in-python/
 * rounding of decimals while printing and rounding the number itself
 * naming conventions for classes (nouns), variables (nouns), functions (verbs), using camel case, avoid obvious names and use contextual names for better readability
-* * template inheritance
+* template inheritance
 * flask directory browsing
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NzczNjI1NCwtOTUyODA5NTk4LDQ3OT
+eyJoaXN0b3J5IjpbLTY3Njg4NTEyOCwtOTUyODA5NTk4LDQ3OT
 c3MzIzNSwtNjEzNTU3MTk0LC05Mjc1MzI0OTEsNzk1NzYzMzM1
 LC02NTY3Mzc5OTcsLTE2MzIzOTIwODcsLTIyOTYyOTU1NywxOT
 I0MjYzOTg4LDEzOTEzOTQwNjAsMTI1ODI4NjIzNywtODkwMjM5
