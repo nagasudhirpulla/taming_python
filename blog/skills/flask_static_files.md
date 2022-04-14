@@ -81,14 +81,15 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 
 </html>
 ```
-* In the above python code, the 'send_report' function serves static files from the 'reports' folder 
+* In the above python code, the 'send_report' function serves static files from the 'reports' folder. 
+* The route used is `/reports/<path:repPath>`. Hence a variable named `` 
 ## send single file using 'send_file' function
 
 ### References
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzUzMDI5MCwzNDYwOTIxMzYsMTc1NT
-YyODQ1NSwxNDQ5ODE2NDA5LC0yMDk1MzgyOTQzLDE1NzE2NDUz
-OTAsMTkwNjgyODI4LDk4Mzc2MTM0N119
+eyJoaXN0b3J5IjpbLTE4ODAwODg0MTAsMjA4NzUzMDI5MCwzND
+YwOTIxMzYsMTc1NTYyODQ1NSwxNDQ5ODE2NDA5LC0yMDk1Mzgy
+OTQzLDE1NzE2NDUzOTAsMTkwNjgyODI4LDk4Mzc2MTM0N119
 -->
