@@ -70,8 +70,10 @@ username is not defined
 </body>
 </html>
 ```
-
-* for loop in jinja2 templates
+### for loop in jinja2 templates
+```html
+```
+```py```
 * getting for loop iterator in jinja2 using loop.index0
 * create a range of numbers
 * filters in jijna2
@@ -85,8 +87,9 @@ username is not defined
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODg2NTI0OSwxMjYwMTM1ODUxLC0xOT
-UyMDg0MjUsMTc4ODY2NTQyNiwtNDg3MjI5NTE3LDcxNTg4NzU1
-MywxODI1NTgzMjY0LC0yNDM3MzQ0MzUsLTEwNzQ4OTE0NDcsLT
-E4OTUxODEzMTgsMTMxNjg0NDUzNCwxNDQzNzAxNzE5XX0=
+eyJoaXN0b3J5IjpbLTE4MDMwODg2NTIsMTk3ODg2NTI0OSwxMj
+YwMTM1ODUxLC0xOTUyMDg0MjUsMTc4ODY2NTQyNiwtNDg3MjI5
+NTE3LDcxNTg4NzU1MywxODI1NTgzMjY0LC0yNDM3MzQ0MzUsLT
+EwNzQ4OTE0NDcsLTE4OTUxODEzMTgsMTMxNjg0NDUzNCwxNDQz
+NzAxNzE5XX0=
 -->
