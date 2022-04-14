@@ -53,8 +53,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </body>
 </html>
 ```
+### check if variable is defined 
+```html
+<!--index.html.j2 file-->
+```
 
-* check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 * for loop in jinja2 templates
 * getting for loop iterator in jinja2 using loop.index0
 * create a range of numbers
@@ -69,8 +72,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTc2ODU4MCwtMTk1MjA4NDI1LDE3OD
-g2NjU0MjYsLTQ4NzIyOTUxNyw3MTU4ODc1NTMsMTgyNTU4MzI2
-NCwtMjQzNzM0NDM1LC0xMDc0ODkxNDQ3LC0xODk1MTgxMzE4LD
-EzMTY4NDQ1MzQsMTQ0MzcwMTcxOV19
+eyJoaXN0b3J5IjpbLTE1MDI4MTM4NjMsLTE5NTIwODQyNSwxNz
+g4NjY1NDI2LC00ODcyMjk1MTcsNzE1ODg3NTUzLDE4MjU1ODMy
+NjQsLTI0MzczNDQzNSwtMTA3NDg5MTQ0NywtMTg5NTE4MTMxOC
+wxMzE2ODQ0NTM0LDE0NDM3MDE3MTldfQ==
 -->
