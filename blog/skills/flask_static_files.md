@@ -34,8 +34,9 @@ def hi():
 
 app.run(host='0.0.0.0', port=50100, debug=True)
 ```
-* home.html.j2 template file
+
 ```html
+<!-- template file -->
 <html>
 
 <body>
@@ -150,7 +151,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDE2MjcwMSwtNDcyNTgyODIzLDEwNz
+eyJoaXN0b3J5IjpbMjA3NzMyMzMyMCwtNDcyNTgyODIzLDEwNz
 czMjQ5OTQsLTE5NTA0ODI1MjgsLTYyODI1ODE0OSwyMDYzNjQx
 NjE2LDE4NDU4MjYzNjAsMTA1MTQ0NzQ1MiwyMDg3NTMwMjkwLD
 M0NjA5MjEzNiwxNzU1NjI4NDU1LDE0NDk4MTY0MDksLTIwOTUz
