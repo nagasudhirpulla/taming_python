@@ -17,8 +17,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 * The URL parameters can be extracted from the URL path and URL query
 
 ### References
-* variables from URL segments - https://flask.palletsprojects.com/en/2.1.x/quickstart/#variable-rules
+* get variables from URL segments - https://flask.palletsprojects.com/en/2.1.x/quickstart/#variable-rules
+* get variables from URL query parameters - https://stackabuse.com/get-request-query-parameters-with-flask/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDAwMzc2NCwtMjEyODQwOTU3NF19
+eyJoaXN0b3J5IjpbMzA1Njg3MDYyLC05NTAwMDM3NjQsLTIxMj
+g0MDk1NzRdfQ==
 -->
