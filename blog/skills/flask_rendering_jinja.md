@@ -119,7 +119,14 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 ### create a sequence of numbers in jinja using 'range' function
 ```html
 <!--template html file-->
-
+<html>
+<body>
+<h3>jinja range example for generating sequence of numbers just like python</h3>
+{% for x in range(6) %}
+<p>{{ x }}</p>
+{% endfor %}
+</body>
+</html>
 ```
 
 * filters in jijna2
@@ -134,10 +141,10 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDU1ODczMjAsMTI3MzgwOTE5OSwxMj
-M0Mjc2OTA0LC00Mjc5NTMwNzIsMTk3ODg2NTI0OSwxMjYwMTM1
-ODUxLC0xOTUyMDg0MjUsMTc4ODY2NTQyNiwtNDg3MjI5NTE3LD
-cxNTg4NzU1MywxODI1NTgzMjY0LC0yNDM3MzQ0MzUsLTEwNzQ4
-OTE0NDcsLTE4OTUxODEzMTgsMTMxNjg0NDUzNCwxNDQzNzAxNz
-E5XX0=
+eyJoaXN0b3J5IjpbLTQxNTAxODkyNSwtMTYwNTU4NzMyMCwxMj
+czODA5MTk5LDEyMzQyNzY5MDQsLTQyNzk1MzA3MiwxOTc4ODY1
+MjQ5LDEyNjAxMzU4NTEsLTE5NTIwODQyNSwxNzg4NjY1NDI2LC
+00ODcyMjk1MTcsNzE1ODg3NTUzLDE4MjU1ODMyNjQsLTI0Mzcz
+NDQzNSwtMTA3NDg5MTQ0NywtMTg5NTE4MTMxOCwxMzE2ODQ0NT
+M0LDE0NDM3MDE3MTldfQ==
 -->
