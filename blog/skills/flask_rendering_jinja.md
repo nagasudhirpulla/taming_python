@@ -114,6 +114,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 * loop.index0 gives access to for 0-indexed (starts with 0) for loop iterator
 * loop.index gives access to  1-indexed (starts with 1) for loop iterator
+* Other properties of loop variable inside a for loop can be found at https://jinja.palletsprojects.com/en/3.0.x/templates/#for
 
 
 * create a range of numbers
@@ -128,7 +129,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MzI3NzY3NSwxMjM0Mjc2OTA0LC00Mj
+eyJoaXN0b3J5IjpbMTI3MzgwOTE5OSwxMjM0Mjc2OTA0LC00Mj
 c5NTMwNzIsMTk3ODg2NTI0OSwxMjYwMTM1ODUxLC0xOTUyMDg0
 MjUsMTc4ODY2NTQyNiwtNDg3MjI5NTE3LDcxNTg4NzU1MywxOD
 I1NTgzMjY0LC0yNDM3MzQ0MzUsLTEwNzQ4OTE0NDcsLTE4OTUx
