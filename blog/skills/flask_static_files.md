@@ -54,7 +54,6 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * To change the default static files folder, we can use the `static_folder` and `static_url_path` inputs while creating the flask application instance
 * `static_folder` changes the folder from which the static files are served
 * `static_url_path` changes the starting URL segment from which the static files are served
-* Even if we change any of the `static_folder` and `static_url_path`, we can still use 'static' as the first function argument while using `url_for` function
 ```py
 # server python file
 from flask import Flask, render_template
@@ -77,6 +76,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 
 </html>
 ```
+* Even if we change any of the `static_folder` and `static_url_path`, we can still use 'static' as the first function argument while using `url_for` function
+
 ## host static files from additional folder using 'send_from_directory' function
 * Suppose we desire to serve static files from a different folder (say 'reports') instead of 'static' folder
 * We can use `send_from_directory` function to serve a file from desired folder, given the path of the file inside the folder
@@ -112,14 +113,16 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * Since we have mentioned the path segment as `<path:repPath>`, the route will be triggered only if the repPath segment is of type 'path'. If the path segment is of another type, the route will not be triggered.
 * Authorization and authentication can also be imposed on this route that serves static files. This way we can also restrict the access of static files based on some authorization rules.
 
-## send single file using 'send_file' function
+## serve single file from endpoint using 'send_file' function
+* 
+
 
 ### References
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTgyNjM2MCwxMDUxNDQ3NDUyLDIwOD
-c1MzAyOTAsMzQ2MDkyMTM2LDE3NTU2Mjg0NTUsMTQ0OTgxNjQw
-OSwtMjA5NTM4Mjk0MywxNTcxNjQ1MzkwLDE5MDY4MjgyOCw5OD
-M3NjEzNDddfQ==
+eyJoaXN0b3J5IjpbMjA2MzY0MTYxNiwxODQ1ODI2MzYwLDEwNT
+E0NDc0NTIsMjA4NzUzMDI5MCwzNDYwOTIxMzYsMTc1NTYyODQ1
+NSwxNDQ5ODE2NDA5LC0yMDk1MzgyOTQzLDE1NzE2NDUzOTAsMT
+kwNjgyODI4LDk4Mzc2MTM0N119
 -->
