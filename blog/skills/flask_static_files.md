@@ -69,6 +69,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 
 ```html
+<!-- template file -->
 <html>
 
 <body>
@@ -149,9 +150,9 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzMyNDk5NCwtMTk1MDQ4MjUyOCwtNj
-I4MjU4MTQ5LDIwNjM2NDE2MTYsMTg0NTgyNjM2MCwxMDUxNDQ3
-NDUyLDIwODc1MzAyOTAsMzQ2MDkyMTM2LDE3NTU2Mjg0NTUsMT
-Q0OTgxNjQwOSwtMjA5NTM4Mjk0MywxNTcxNjQ1MzkwLDE5MDY4
-MjgyOCw5ODM3NjEzNDddfQ==
+eyJoaXN0b3J5IjpbLTQ3MjU4MjgyMywxMDc3MzI0OTk0LC0xOT
+UwNDgyNTI4LC02MjgyNTgxNDksMjA2MzY0MTYxNiwxODQ1ODI2
+MzYwLDEwNTE0NDc0NTIsMjA4NzUzMDI5MCwzNDYwOTIxMzYsMT
+c1NTYyODQ1NSwxNDQ5ODE2NDA5LC0yMDk1MzgyOTQzLDE1NzE2
+NDUzOTAsMTkwNjgyODI4LDk4Mzc2MTM0N119
 -->
