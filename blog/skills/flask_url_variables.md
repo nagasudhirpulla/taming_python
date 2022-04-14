@@ -62,7 +62,6 @@ def search():
     return "The name is {0}".format(name)
 
 app.run(host='0.0.0.0', port=50100, debug=True)
-
 ```
 
 ### References
@@ -70,7 +69,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * get variables from URL query parameters - https://stackabuse.com/get-request-query-parameters-with-flask/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzMTM3MDQ3LC0xMzYyMDQ1MDExLC0xMD
+eyJoaXN0b3J5IjpbMjIwNDI2OTQ5LC0xMzYyMDQ1MDExLC0xMD
 U0MTE2NTk1LC0xODM1MTI5Nzg1LC02MTMzMDIzOTksMzA1Njg3
 MDYyLC05NTAwMDM3NjQsLTIxMjg0MDk1NzRdfQ==
 -->
