@@ -1,4 +1,4 @@
-## Skill - extract parameters from URL
+## Skill - extract parameters from URL in flask server
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -13,7 +13,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* Static files can be files like images, PDFs etc. that can be stored in the server folder and displayed or downloaded in the browser
+* In this post we will learn how to extract parameters from URLs in flask server end points
 
 ## hosting static files
 * Static files can be stored in a folder named "static" in the same folder as the server python file
@@ -151,5 +151,5 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * serve files from another folder - https://stackoverflow.com/a/20648053/2746323
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzMyNDk4MF19
+eyJoaXN0b3J5IjpbLTU2MTc4NTk1MF19
 -->
