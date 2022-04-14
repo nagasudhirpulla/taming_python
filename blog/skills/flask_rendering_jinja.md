@@ -128,8 +128,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </body>
 </html>
 ```
+### filters in jijna2
 
-* filters in jijna2
 * decimal places display in jinja2 templates
 * title case, upper case, lower case in jinja2
 * macros in jinja2
@@ -141,7 +141,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTE2MjQ1LC00MTUwMTg5MjUsLTE2MD
+eyJoaXN0b3J5IjpbNjcyNTQxNDU0LC00MTUwMTg5MjUsLTE2MD
 U1ODczMjAsMTI3MzgwOTE5OSwxMjM0Mjc2OTA0LC00Mjc5NTMw
 NzIsMTk3ODg2NTI0OSwxMjYwMTM1ODUxLC0xOTUyMDg0MjUsMT
 c4ODY2NTQyNiwtNDg3MjI5NTE3LDcxNTg4NzU1MywxODI1NTgz
