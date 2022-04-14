@@ -110,13 +110,13 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 
 </html>
 ```
-* In the above python code, the 'send_report' function serves static files from the 'reports' folder. 
-* The route used is `/reports/<path:repPath>`. Hence a variable named `repPath` can be passed from the URL to the send_report function. 
-* Since we have mentioned the path segment as `<path:repPath>`, the route will be triggered only if the repPath segment is of type 'path'. If the path segment is of another type, the route will not be triggered.
-* Authorization and authentication can also be imposed on this route that serves static files. This way we can also restrict the access of static files based on some authorization rules.
+* In the above python code, the 'send_report' function serves static files from the 'reports' folder
+* The route used is `/reports/<path:repPath>`. Hence a variable named `repPath` can be passed from the URL to the send_report function
+* Since we have mentioned the path segment as `<path:repPath>`, the route will be triggered only if the 'repPath' segment is of type 'path'. If the path segment is of another type, the route will not be triggered
+* Authorization and authentication can also be imposed on this route that serves static files. This way we can also restrict the access of static files based on some authorization rules
 
 ## serve single file from endpoint using 'send_file' function
-* using the `send_file` function imported from flask, we can serve a single file
+* we can serve a single file using the `send_file` function imported from flask module
 * In the below example, the 'report' function listening at the URL '/report' will serve the file 'xyz.pdf' using `send_file` function
 ```py
 # server python file
@@ -150,9 +150,10 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjU4MjgyMywxMDc3MzI0OTk0LC0xOT
-UwNDgyNTI4LC02MjgyNTgxNDksMjA2MzY0MTYxNiwxODQ1ODI2
-MzYwLDEwNTE0NDc0NTIsMjA4NzUzMDI5MCwzNDYwOTIxMzYsMT
-c1NTYyODQ1NSwxNDQ5ODE2NDA5LC0yMDk1MzgyOTQzLDE1NzE2
-NDUzOTAsMTkwNjgyODI4LDk4Mzc2MTM0N119
+eyJoaXN0b3J5IjpbMTIxNDE2MjcwMSwtNDcyNTgyODIzLDEwNz
+czMjQ5OTQsLTE5NTA0ODI1MjgsLTYyODI1ODE0OSwyMDYzNjQx
+NjE2LDE4NDU4MjYzNjAsMTA1MTQ0NzQ1MiwyMDg3NTMwMjkwLD
+M0NjA5MjEzNiwxNzU1NjI4NDU1LDE0NDk4MTY0MDksLTIwOTUz
+ODI5NDMsMTU3MTY0NTM5MCwxOTA2ODI4MjgsOTgzNzYxMzQ3XX
+0=
 -->
