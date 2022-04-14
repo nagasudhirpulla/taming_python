@@ -17,8 +17,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 * The URL parameters can be extracted from the URL path and URL query
 
 ### References
-* official docs - https://flask.palletsprojects.com/en/2.1.x/quickstart/#variable-rules
+* URL segments fro - https://flask.palletsprojects.com/en/2.1.x/quickstart/#variable-rules
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjg0MDk1NzRdfQ==
+eyJoaXN0b3J5IjpbLTY4NTY1NDA4LC0yMTI4NDA5NTc0XX0=
 -->
