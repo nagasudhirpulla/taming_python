@@ -54,8 +54,18 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * To change the default static files folder, we can use the `static_folder` and `static_url_path` inputs while creating the flask application instance
 * `static_folder` changes the folder from which the static files are served
 * `static_url_path` changes the starting URL segment from which the static files are served
-* Even if we change any of the `static_folder` and `static_url_path`, while using `url_for` function, we can still us
+* Even if we change any of the `static_folder` and `static_url_path`, we can still use 'static' as the first function argument while using `url_for` function
 ```py
+# server python file
+from flask import Flask, render_template
+
+app = Flask(__name__, static_folder='reports', static_url_path='/reports')
+
+@app.route('/')
+def index():
+    return render_template("home.html.j2")
+
+app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 
 ## host static files from additional folder using 'send_from_directory' function
@@ -99,8 +109,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzQ2Nzc1NiwxMDUxNDQ3NDUyLDIwOD
-c1MzAyOTAsMzQ2MDkyMTM2LDE3NTU2Mjg0NTUsMTQ0OTgxNjQw
-OSwtMjA5NTM4Mjk0MywxNTcxNjQ1MzkwLDE5MDY4MjgyOCw5OD
-M3NjEzNDddfQ==
+eyJoaXN0b3J5IjpbLTE5MjA0MjE2NjgsMTA1MTQ0NzQ1MiwyMD
+g3NTMwMjkwLDM0NjA5MjEzNiwxNzU1NjI4NDU1LDE0NDk4MTY0
+MDksLTIwOTUzODI5NDMsMTU3MTY0NTM5MCwxOTA2ODI4MjgsOT
+gzNzYxMzQ3XX0=
 -->
