@@ -118,7 +118,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 
 ### create a sequence of numbers in jinja using 'range' function
 ```html
-<!--template html file-->
+<!--template file-->
 <html>
 <body>
 <h3>jinja range example for generating sequence of numbers just like python</h3>
@@ -129,7 +129,16 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </html>
 ```
 ### filters in jinja templates
-
+#### safe filter
+```html
+<!--template file-->
+<html>
+<body>
+<h3>escape filter for html escaping while rendering</h3>
+<span>{{'<script>var x = "injection risk"</script>'|escape}}</span>
+</body>
+</html>
+```
 * count of items
 * decimal places display in jinja2 templates with round, int
 * title case, upper case, lower case, trim, safe in jinja2
@@ -143,10 +152,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjUxNjQwNCwtNDE1MDE4OTI1LC0xNj
-A1NTg3MzIwLDEyNzM4MDkxOTksMTIzNDI3NjkwNCwtNDI3OTUz
-MDcyLDE5Nzg4NjUyNDksMTI2MDEzNTg1MSwtMTk1MjA4NDI1LD
-E3ODg2NjU0MjYsLTQ4NzIyOTUxNyw3MTU4ODc1NTMsMTgyNTU4
-MzI2NCwtMjQzNzM0NDM1LC0xMDc0ODkxNDQ3LC0xODk1MTgxMz
-E4LDEzMTY4NDQ1MzQsMTQ0MzcwMTcxOV19
+eyJoaXN0b3J5IjpbMjA1MTI0MzM5NiwtNDUyNTE2NDA0LC00MT
+UwMTg5MjUsLTE2MDU1ODczMjAsMTI3MzgwOTE5OSwxMjM0Mjc2
+OTA0LC00Mjc5NTMwNzIsMTk3ODg2NTI0OSwxMjYwMTM1ODUxLC
+0xOTUyMDg0MjUsMTc4ODY2NTQyNiwtNDg3MjI5NTE3LDcxNTg4
+NzU1MywxODI1NTgzMjY0LC0yNDM3MzQ0MzUsLTEwNzQ4OTE0ND
+csLTE4OTUxODEzMTgsMTMxNjg0NDUzNCwxNDQzNzAxNzE5XX0=
+
 -->
