@@ -48,6 +48,20 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * using request.args imported from flask module, we can extract the query parameters from URL
 * using request.args.to_dict() function, we can get the URL query parameters as a python dict object
 ```py
+from flask import Flask, request
+app = Flask(__name__)
+
+@app.route('/search')
+def search():
+    # get the request query parameters as a python dict
+    args = request.args.to_dict()
+
+    # get the 'name' query parameter value with a default value as 'no name'
+    name = args.get("name", "no name")
+
+    return "The name is {0}".format(name)
+
+app.run(host='0.0.0.0', port=50100, debug=True)
 
 ```
 
@@ -56,7 +70,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * get variables from URL query parameters - https://stackabuse.com/get-request-query-parameters-with-flask/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjIwNDUwMTEsLTEwNTQxMTY1OTUsLT
-E4MzUxMjk3ODUsLTYxMzMwMjM5OSwzMDU2ODcwNjIsLTk1MDAw
-Mzc2NCwtMjEyODQwOTU3NF19
+eyJoaXN0b3J5IjpbNDQzMTM3MDQ3LC0xMzYyMDQ1MDExLC0xMD
+U0MTE2NTk1LC0xODM1MTI5Nzg1LC02MTMzMDIzOTksMzA1Njg3
+MDYyLC05NTAwMDM3NjQsLTIxMjg0MDk1NzRdfQ==
 -->
