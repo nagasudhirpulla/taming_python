@@ -116,6 +116,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * loop.index gives access to  1-indexed (starts with 1) for loop iterator
 * Other properties of loop variable inside a for loop can be found at https://jinja.palletsprojects.com/en/3.0.x/templates/#for
 
+### generate a sequence of number using range function
 
 * create a range of numbers
 * filters in jijna2
@@ -130,10 +131,10 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#jinja-globals.range
 *  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2NDM1NTk4LDEyNzM4MDkxOTksMTIzND
-I3NjkwNCwtNDI3OTUzMDcyLDE5Nzg4NjUyNDksMTI2MDEzNTg1
-MSwtMTk1MjA4NDI1LDE3ODg2NjU0MjYsLTQ4NzIyOTUxNyw3MT
-U4ODc1NTMsMTgyNTU4MzI2NCwtMjQzNzM0NDM1LC0xMDc0ODkx
-NDQ3LC0xODk1MTgxMzE4LDEzMTY4NDQ1MzQsMTQ0MzcwMTcxOV
-19
+eyJoaXN0b3J5IjpbLTE5MDY4Mzg2MTksMTI3MzgwOTE5OSwxMj
+M0Mjc2OTA0LC00Mjc5NTMwNzIsMTk3ODg2NTI0OSwxMjYwMTM1
+ODUxLC0xOTUyMDg0MjUsMTc4ODY2NTQyNiwtNDg3MjI5NTE3LD
+cxNTg4NzU1MywxODI1NTgzMjY0LC0yNDM3MzQ0MzUsLTEwNzQ4
+OTE0NDcsLTE4OTUxODEzMTgsMTMxNjg0NDUzNCwxNDQzNzAxNz
+E5XX0=
 -->
