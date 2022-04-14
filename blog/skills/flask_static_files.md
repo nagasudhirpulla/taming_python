@@ -50,7 +50,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
   * create a folder named 'data' and create a pdf file named 'abcd.pdf'
   * create a folder named 'img' and create a png file named 'def.png'
 
-## change default static folder path and static folder URL
+## change the default static folder path and static folder URL
 * Static files can be hosted in the folder named 'static' by default.
 * To change the default static files folder, we can use the `static_folder` and `static_url_path` inputs while creating the flask application instance
 * `static_folder` changes the folder from which the static files are served
@@ -149,7 +149,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * serve files from a desired folder - https://stackoverflow.com/a/20648053/2746323
 * https://stackoverflow.com/questions/43346486/change-static-folder-from-config-in-flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDE2NTI5OSwtMTk1MDQ4MjUyOCwtNj
+eyJoaXN0b3J5IjpbMTA3NzMyNDk5NCwtMTk1MDQ4MjUyOCwtNj
 I4MjU4MTQ5LDIwNjM2NDE2MTYsMTg0NTgyNjM2MCwxMDUxNDQ3
 NDUyLDIwODc1MzAyOTAsMzQ2MDkyMTM2LDE3NTU2Mjg0NTUsMT
 Q0OTgxNjQwOSwtMjA5NTM4Mjk0MywxNTcxNjQ1MzkwLDE5MDY4
