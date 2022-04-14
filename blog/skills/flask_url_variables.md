@@ -56,8 +56,8 @@ def search():
     # get the request query parameters as a python dict
     args = request.args.to_dict()
 
-    # get the 'name' query parameter value with a default value as 'no name'
-    name = args.get("name", "no name")
+    # get the 'name' query parameter value with a default value as 'No Name'
+    name = args.get("name", "No Name")
 
     return "Hello {0}!!!".format(name)
 
@@ -69,8 +69,8 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * get variables from URL query parameters - https://stackabuse.com/get-request-query-parameters-with-flask/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzMzg1MjAwLDIyMDQyNjk0OSwtMTM2Mj
-A0NTAxMSwtMTA1NDExNjU5NSwtMTgzNTEyOTc4NSwtNjEzMzAy
-Mzk5LDMwNTY4NzA2MiwtOTUwMDAzNzY0LC0yMTI4NDA5NTc0XX
-0=
+eyJoaXN0b3J5IjpbMTc3MTI3ODE5MiwyMjA0MjY5NDksLTEzNj
+IwNDUwMTEsLTEwNTQxMTY1OTUsLTE4MzUxMjk3ODUsLTYxMzMw
+MjM5OSwzMDU2ODcwNjIsLTk1MDAwMzc2NCwtMjEyODQwOTU3NF
+19
 -->
