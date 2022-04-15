@@ -1,5 +1,4 @@
-
-## Skill - Flask jinja templating
+## Skill - Flask jinja template inheritance
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -228,5 +227,5 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#for
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5OTI0MTMwXX0=
+eyJoaXN0b3J5IjpbMzg5MTI5MjE5XX0=
 -->
