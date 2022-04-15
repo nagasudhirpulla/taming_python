@@ -169,6 +169,19 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </body>
 </html>
 ```
+#### round and int filters
+```html
+<!--template file-->
+<html>
+<body>
+<h3>Using round and int filters for decimals manipulation of numbers</h3>
+<p>{{ 45.2|int }}</p>
+<p>{{ 45.247|round(2) }}</p>
+<p>{{ 45.247|round(2, 'floor') }}</p>
+</body>
+</html>
+```
+
 #### escape filter
 ```html
 <!--template file-->
@@ -190,11 +203,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#for
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2Mzc3NDY1NiwtNDc0NjI3ODcsLTE4Mj
-k4OTY4MjMsLTkzOTk5MTk5MiwtMzA5Mjg1MzE4LC0xNzE1MjY1
-NDI2LC00NTI1MTY0MDQsLTQxNTAxODkyNSwtMTYwNTU4NzMyMC
-wxMjczODA5MTk5LDEyMzQyNzY5MDQsLTQyNzk1MzA3MiwxOTc4
-ODY1MjQ5LDEyNjAxMzU4NTEsLTE5NTIwODQyNSwxNzg4NjY1ND
-I2LC00ODcyMjk1MTcsNzE1ODg3NTUzLDE4MjU1ODMyNjQsLTI0
-MzczNDQzNV19
+eyJoaXN0b3J5IjpbMTA0ODg0MzAzNywxNjYzNzc0NjU2LC00Nz
+Q2Mjc4NywtMTgyOTg5NjgyMywtOTM5OTkxOTkyLC0zMDkyODUz
+MTgsLTE3MTUyNjU0MjYsLTQ1MjUxNjQwNCwtNDE1MDE4OTI1LC
+0xNjA1NTg3MzIwLDEyNzM4MDkxOTksMTIzNDI3NjkwNCwtNDI3
+OTUzMDcyLDE5Nzg4NjUyNDksMTI2MDEzNTg1MSwtMTk1MjA4ND
+I1LDE3ODg2NjU0MjYsLTQ4NzIyOTUxNyw3MTU4ODc1NTMsMTgy
+NTU4MzI2NF19
 -->
