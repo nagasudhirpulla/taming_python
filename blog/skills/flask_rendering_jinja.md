@@ -24,7 +24,8 @@ The topics covered are
 	* count
 	* join
 	* round, int
-	* 
+	* upper, lower, title, capitalize, trim
+	* escape
 
 ## if, elif, else in jinja template
 ```py
@@ -227,11 +228,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#for
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzODkxMzI1LDE0Mzc2NjU5NDYsMTY2Mz
-c3NDY1NiwtNDc0NjI3ODcsLTE4Mjk4OTY4MjMsLTkzOTk5MTk5
-MiwtMzA5Mjg1MzE4LC0xNzE1MjY1NDI2LC00NTI1MTY0MDQsLT
-QxNTAxODkyNSwtMTYwNTU4NzMyMCwxMjczODA5MTk5LDEyMzQy
-NzY5MDQsLTQyNzk1MzA3MiwxOTc4ODY1MjQ5LDEyNjAxMzU4NT
-EsLTE5NTIwODQyNSwxNzg4NjY1NDI2LC00ODcyMjk1MTcsNzE1
-ODg3NTUzXX0=
+eyJoaXN0b3J5IjpbLTExMDgwMDU2MywxNDM3NjY1OTQ2LDE2Nj
+M3NzQ2NTYsLTQ3NDYyNzg3LC0xODI5ODk2ODIzLC05Mzk5OTE5
+OTIsLTMwOTI4NTMxOCwtMTcxNTI2NTQyNiwtNDUyNTE2NDA0LC
+00MTUwMTg5MjUsLTE2MDU1ODczMjAsMTI3MzgwOTE5OSwxMjM0
+Mjc2OTA0LC00Mjc5NTMwNzIsMTk3ODg2NTI0OSwxMjYwMTM1OD
+UxLC0xOTUyMDg0MjUsMTc4ODY2NTQyNiwtNDg3MjI5NTE3LDcx
+NTg4NzU1M119
 -->
