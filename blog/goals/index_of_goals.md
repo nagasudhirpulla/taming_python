@@ -132,6 +132,7 @@ Here are the goals and skills in this tutorial series
 * [Flask python module introduction for creating web servers](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
 * [Extract parameters from URL in flask server](https://nagasudhir.blogspot.com/2022/04/extract-parameters-from-url-in-flask.html)
 * [Serve static files in flask](https://nagasudhir.blogspot.com/2022/04/serve-static-files-in-flask.html)
+* [jinja templates in flask](https://nagasudhir.blogspot.com/2022/04/jinja-templates-in-flask.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -139,11 +140,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE5MDY1MzgxNjQsLTIxMD
-k1MzYyOTIsLTEyNjExNDMyNywtMTczODUxMTQyOCwxNDY0OTA2
-NzA2LC0xNTY3MTQ1NTMyLC0xOTExMDY0MTU3LDE3MDUxOTA2MT
-IsODA2MTM3NjA3LDk5NzY4ODEzNCwtMTIzMzcyMTE4LC0xNzg4
-MTczMDEwLDg4MTA1MjUyOSw4OTY0NzczNjYsLTI5NzQyMjg3MS
-wtNjE2NzIxNDU1LDUzODgxNDg4NSw4NzY4NDgyNTQsNTA1NzA3
-NzMwLDM3MDY5MDcyN119
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbNTY2NDgxMDM2LC0xOTA2NT
+M4MTY0LC0yMTA5NTM2MjkyLC0xMjYxMTQzMjcsLTE3Mzg1MTE0
+MjgsMTQ2NDkwNjcwNiwtMTU2NzE0NTUzMiwtMTkxMTA2NDE1Ny
+wxNzA1MTkwNjEyLDgwNjEzNzYwNyw5OTc2ODgxMzQsLTEyMzM3
+MjExOCwtMTc4ODE3MzAxMCw4ODEwNTI1MjksODk2NDc3MzY2LC
+0yOTc0MjI4NzEsLTYxNjcyMTQ1NSw1Mzg4MTQ4ODUsODc2ODQ4
+MjU0LDUwNTcwNzczMF19
 -->
