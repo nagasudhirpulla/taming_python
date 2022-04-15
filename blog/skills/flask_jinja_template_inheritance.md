@@ -1,4 +1,4 @@
-## Skill - Flask jinja template inheritance
+## Skill - Template inheritance in Flask jinja
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -22,5 +22,5 @@ Please make sure to have all the skills mentioned above to understand and execut
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTcwMTkzMV19
+eyJoaXN0b3J5IjpbMzY3NTQ2NDJdfQ==
 -->
