@@ -14,7 +14,6 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will learn how to use Template Inheritance in flask jinja templates for creating reusable and complex web layouts
 
-
 ## if, elif, else in jinja template
 ```py
 # server python file
@@ -211,10 +210,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 
 ### References
-* jinja2 docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
-* check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
-* for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#for
-*  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
+* official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4ODY2MTU0OF19
+eyJoaXN0b3J5IjpbNTEzOTI3MjMyXX0=
 -->
