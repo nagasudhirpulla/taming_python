@@ -208,20 +208,17 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </html>
 ```
 
-* TODO escape filter for HTML escaping
-
-
 ### References
 * jinja2 docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#for
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTkwNDQ2LDE0Mzc2NjU5NDYsMTY2Mz
-c3NDY1NiwtNDc0NjI3ODcsLTE4Mjk4OTY4MjMsLTkzOTk5MTk5
-MiwtMzA5Mjg1MzE4LC0xNzE1MjY1NDI2LC00NTI1MTY0MDQsLT
-QxNTAxODkyNSwtMTYwNTU4NzMyMCwxMjczODA5MTk5LDEyMzQy
-NzY5MDQsLTQyNzk1MzA3MiwxOTc4ODY1MjQ5LDEyNjAxMzU4NT
-EsLTE5NTIwODQyNSwxNzg4NjY1NDI2LC00ODcyMjk1MTcsNzE1
-ODg3NTUzXX0=
+eyJoaXN0b3J5IjpbLTE1MzQwMzgzNzcsMTQzNzY2NTk0NiwxNj
+YzNzc0NjU2LC00NzQ2Mjc4NywtMTgyOTg5NjgyMywtOTM5OTkx
+OTkyLC0zMDkyODUzMTgsLTE3MTUyNjU0MjYsLTQ1MjUxNjQwNC
+wtNDE1MDE4OTI1LC0xNjA1NTg3MzIwLDEyNzM4MDkxOTksMTIz
+NDI3NjkwNCwtNDI3OTUzMDcyLDE5Nzg4NjUyNDksMTI2MDEzNT
+g1MSwtMTk1MjA4NDI1LDE3ODg2NjU0MjYsLTQ4NzIyOTUxNyw3
+MTU4ODc1NTNdfQ==
 -->
