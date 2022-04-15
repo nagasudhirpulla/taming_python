@@ -12,7 +12,6 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 
 In this post we will learn how to use jinja templates for flask server side rendering
-<br/>
 The topics covered are
 * if, elif, else in jinja template
 * inline if else
@@ -228,11 +227,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#for
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDgwMDU2MywxNDM3NjY1OTQ2LDE2Nj
-M3NzQ2NTYsLTQ3NDYyNzg3LC0xODI5ODk2ODIzLC05Mzk5OTE5
-OTIsLTMwOTI4NTMxOCwtMTcxNTI2NTQyNiwtNDUyNTE2NDA0LC
-00MTUwMTg5MjUsLTE2MDU1ODczMjAsMTI3MzgwOTE5OSwxMjM0
-Mjc2OTA0LC00Mjc5NTMwNzIsMTk3ODg2NTI0OSwxMjYwMTM1OD
-UxLC0xOTUyMDg0MjUsMTc4ODY2NTQyNiwtNDg3MjI5NTE3LDcx
-NTg4NzU1M119
+eyJoaXN0b3J5IjpbNzMyNzc1NDQwLC0xMTA4MDA1NjMsMTQzNz
+Y2NTk0NiwxNjYzNzc0NjU2LC00NzQ2Mjc4NywtMTgyOTg5Njgy
+MywtOTM5OTkxOTkyLC0zMDkyODUzMTgsLTE3MTUyNjU0MjYsLT
+Q1MjUxNjQwNCwtNDE1MDE4OTI1LC0xNjA1NTg3MzIwLDEyNzM4
+MDkxOTksMTIzNDI3NjkwNCwtNDI3OTUzMDcyLDE5Nzg4NjUyND
+ksMTI2MDEzNTg1MSwtMTk1MjA4NDI1LDE3ODg2NjU0MjYsLTQ4
+NzIyOTUxN119
 -->
