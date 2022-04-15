@@ -17,10 +17,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 
 ## Base Template
-
+It is just just a jinja template with named blocks in it. Example 
 
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3MjI3NjI3XX0=
+eyJoaXN0b3J5IjpbMjI4NTkxMzYyXX0=
 -->
