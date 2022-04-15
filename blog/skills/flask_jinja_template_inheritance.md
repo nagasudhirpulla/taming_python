@@ -12,7 +12,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-In this post we will learn how to use Template Inheritance in flask jinja templates for creating reusable and complex layouts
+In this post we will learn how to use Template Inheritance in flask jinja templates for creating reusable and complex web layouts
 
 
 ## if, elif, else in jinja template
@@ -216,5 +216,5 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#for
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI3NjIyNDhdfQ==
+eyJoaXN0b3J5IjpbMTY4ODY2MTU0OF19
 -->
