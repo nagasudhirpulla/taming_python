@@ -173,12 +173,27 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 #### upper, lower, title, capitalize, trim filters
 ```html
 <!--template file-->
+<!--template file-->
 <html>
 <body>
-<h3>Using round and int filters for decimals manipulation of numbers</h3>
-<p>{{ 45.2|int }}</p>
-<p>{{ 45.247|round(2) }}</p>
-<p>{{ 45.247|round(2, 'floor') }}</p>
+<p>upper 'hi, how are you...' , all characters are upper cased</p>
+<p>{{'hi, how are you...'|upper}}</p>
+<br/>
+
+<p>lower 'Hi, HOW are yOu...' , all characters are lower cased</p>
+<p>{{'Hi, HOW are yOu...'|lower}}</p>
+<br/>
+
+<p>title 'Hi, HOW are yOu...' , starting character of each word is capitalized</p>
+<p>{{'Hi, HOW are yOu...'|title}}</p>
+<br/>
+
+<p>trim '   Hi, HOW are yOu... ' , starting and ending spaces are trimmed</p>
+<p>{{'Hi, HOW are yOu...'|trim}}</p>
+<br/>
+
+<p>capitalize 'hi, HOW are yOu...' , Only first character is capitalized</p>
+<p>{{'hi, HOW are yOu...'|capitalize}}</p>
 </body>
 </html>
 ```
@@ -203,11 +218,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#for
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzY2NTk0NiwxNjYzNzc0NjU2LC00Nz
-Q2Mjc4NywtMTgyOTg5NjgyMywtOTM5OTkxOTkyLC0zMDkyODUz
-MTgsLTE3MTUyNjU0MjYsLTQ1MjUxNjQwNCwtNDE1MDE4OTI1LC
-0xNjA1NTg3MzIwLDEyNzM4MDkxOTksMTIzNDI3NjkwNCwtNDI3
-OTUzMDcyLDE5Nzg4NjUyNDksMTI2MDEzNTg1MSwtMTk1MjA4ND
-I1LDE3ODg2NjU0MjYsLTQ4NzIyOTUxNyw3MTU4ODc1NTMsMTgy
-NTU4MzI2NF19
+eyJoaXN0b3J5IjpbMjE0Mzk0MTU5OSwxNDM3NjY1OTQ2LDE2Nj
+M3NzQ2NTYsLTQ3NDYyNzg3LC0xODI5ODk2ODIzLC05Mzk5OTE5
+OTIsLTMwOTI4NTMxOCwtMTcxNTI2NTQyNiwtNDUyNTE2NDA0LC
+00MTUwMTg5MjUsLTE2MDU1ODczMjAsMTI3MzgwOTE5OSwxMjM0
+Mjc2OTA0LC00Mjc5NTMwNzIsMTk3ODg2NTI0OSwxMjYwMTM1OD
+UxLC0xOTUyMDg0MjUsMTc4ODY2NTQyNiwtNDg3MjI5NTE3LDcx
+NTg4NzU1M119
 -->
