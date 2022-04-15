@@ -170,7 +170,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </html>
 ```
 
-#### upper, lower, title, trim filters
+#### upper, lower, title, capitalize, trim filters
 ```html
 <!--template file-->
 <html>
@@ -203,7 +203,7 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#for
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTcxNzYyNiwxNjYzNzc0NjU2LC00Nz
+eyJoaXN0b3J5IjpbMTQzNzY2NTk0NiwxNjYzNzc0NjU2LC00Nz
 Q2Mjc4NywtMTgyOTg5NjgyMywtOTM5OTkxOTkyLC0zMDkyODUz
 MTgsLTE3MTUyNjU0MjYsLTQ1MjUxNjQwNCwtNDE1MDE4OTI1LC
 0xNjA1NTg3MzIwLDEyNzM4MDkxOTksMTIzNDI3NjkwNCwtNDI3
