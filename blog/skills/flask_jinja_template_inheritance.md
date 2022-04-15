@@ -12,20 +12,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-In this post we will learn how to use jinja templates for flask server side rendering
-The topics covered are
-* if, elif, else in jinja template
-* inline if else
-* check if variable is defined
-* for loop in jinja templates
-* access for loop iterator in jinja using loop.index0 or loop.index
-* create a sequence of numbers in jinja using 'range' function
-* filters in jinja templates
-	* count
-	* join
-	* round, int
-	* upper, lower, title, capitalize, trim
-	* escape
+In this post we will learn how to use Template Inheritance in flask jinja templates for creating reusable and complex layouts
+
 
 ## if, elif, else in jinja template
 ```py
@@ -228,5 +216,5 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#for
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDY2OTI1MjhdfQ==
+eyJoaXN0b3J5IjpbLTE5NjI3NjIyNDhdfQ==
 -->
