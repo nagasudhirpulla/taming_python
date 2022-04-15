@@ -16,11 +16,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 * We can build a **base template** that can be extended by **child templates**. This enables *re-usability*, *template splitting* and *consistency* in the layout of all the web application pages
 
 
-## if, elif, else in jinja template
+## Base Template
 
 
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE4NDExMjddfQ==
+eyJoaXN0b3J5IjpbOTA3MjI3NjI3XX0=
 -->
