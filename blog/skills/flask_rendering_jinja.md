@@ -173,7 +173,6 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 #### upper, lower, title, capitalize, trim filters
 ```html
 <!--template file-->
-<!--template file-->
 <html>
 <body>
 <p>upper 'hi, how are you...' , all characters are upper cased</p>
@@ -218,11 +217,11 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#for
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0Mzk0MTU5OSwxNDM3NjY1OTQ2LDE2Nj
-M3NzQ2NTYsLTQ3NDYyNzg3LC0xODI5ODk2ODIzLC05Mzk5OTE5
-OTIsLTMwOTI4NTMxOCwtMTcxNTI2NTQyNiwtNDUyNTE2NDA0LC
-00MTUwMTg5MjUsLTE2MDU1ODczMjAsMTI3MzgwOTE5OSwxMjM0
-Mjc2OTA0LC00Mjc5NTMwNzIsMTk3ODg2NTI0OSwxMjYwMTM1OD
-UxLC0xOTUyMDg0MjUsMTc4ODY2NTQyNiwtNDg3MjI5NTE3LDcx
-NTg4NzU1M119
+eyJoaXN0b3J5IjpbLTcxMTkwNDQ2LDE0Mzc2NjU5NDYsMTY2Mz
+c3NDY1NiwtNDc0NjI3ODcsLTE4Mjk4OTY4MjMsLTkzOTk5MTk5
+MiwtMzA5Mjg1MzE4LC0xNzE1MjY1NDI2LC00NTI1MTY0MDQsLT
+QxNTAxODkyNSwtMTYwNTU4NzMyMCwxMjczODA5MTk5LDEyMzQy
+NzY5MDQsLTQyNzk1MzA3MiwxOTc4ODY1MjQ5LDEyNjAxMzU4NT
+EsLTE5NTIwODQyNSwxNzg4NjY1NDI2LC00ODcyMjk1MTcsNzE1
+ODg3NTUzXX0=
 -->
