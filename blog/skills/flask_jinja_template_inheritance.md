@@ -13,7 +13,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 
 * In this post we will learn how to use Template Inheritance in flask jinja templates for creating reusable and complex web layouts
-* We can build a **base template** that can be extended by **child templates**. This creates *re-usability*, **template splitting** and *consistency* in the layout of all the application web pages
+* We can build a **base template** that can be extended by **child templates**. This creates *re-usability*, *template splitting* and *consistency* in the layout of all the application web pages
 
 
 ## if, elif, else in jinja template
@@ -22,5 +22,5 @@ Please make sure to have all the skills mentioned above to understand and execut
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTA0OTkyNF19
+eyJoaXN0b3J5IjpbLTE1MDczNTYyODhdfQ==
 -->
