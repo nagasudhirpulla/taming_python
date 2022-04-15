@@ -60,14 +60,18 @@ def search():
 
 app.run(host='0.0.0.0', port=50100, debug=True)
 ```
+### Video
+The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-C5ZtjNwOvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
 * get variables from URL segments - https://flask.palletsprojects.com/en/2.1.x/quickstart/#variable-rules
 * get variables from URL query parameters - https://stackabuse.com/get-request-query-parameters-with-flask/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTY4Nzg5LC0yMDUzMjI3MTk3LDIyMD
-QyNjk0OSwtMTM2MjA0NTAxMSwtMTA1NDExNjU5NSwtMTgzNTEy
-OTc4NSwtNjEzMzAyMzk5LDMwNTY4NzA2MiwtOTUwMDAzNzY0LC
-0yMTI4NDA5NTc0XX0=
+eyJoaXN0b3J5IjpbNjE2NjkwNDQwLC0yMjE2ODc4OSwtMjA1Mz
+IyNzE5NywyMjA0MjY5NDksLTEzNjIwNDUwMTEsLTEwNTQxMTY1
+OTUsLTE4MzUxMjk3ODUsLTYxMzMwMjM5OSwzMDU2ODcwNjIsLT
+k1MDAwMzc2NCwtMjEyODQwOTU3NF19
 -->
