@@ -219,13 +219,14 @@ body {
 
 ### additional assets
 * For this example to work, JavaScript and CSS libraries are required to be hosted in the `static/node_modules` folder.
-* We need to use 
+* We can use npm to generate the required static files through the following steps.
+	* Create a file named `package.json` in the 'static' folder and write t
 
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzEwNTQ4MzYsLTQ0MjYyMzM5LDE4Mj
-c3ODcwNzQsLTE1MTI3Mjc0MDIsNTczMDgyOTY0LC0yODk0NDgz
-NTcsMTAyMzI5MTAzOF19
+eyJoaXN0b3J5IjpbNjUwMjg1NzE5LC00NDI2MjMzOSwxODI3Nz
+g3MDc0LC0xNTEyNzI3NDAyLDU3MzA4Mjk2NCwtMjg5NDQ4MzU3
+LDEwMjMyOTEwMzhdfQ==
 -->
