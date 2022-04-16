@@ -26,8 +26,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
+* include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 * TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczMDgyOTY0LC0yODk0NDgzNTcsMTAyMz
-I5MTAzOF19
+eyJoaXN0b3J5IjpbLTE1MTI3Mjc0MDIsNTczMDgyOTY0LC0yOD
+k0NDgzNTcsMTAyMzI5MTAzOF19
 -->
