@@ -234,13 +234,13 @@ body {
     }
 }
 ```
-* Open a command inside the 'static' folder and run the command `npm install`. Then all the required libararies will be downloaded into the `static/node_modules` folder. Using npm requires Node JS installed with an internet connection
+* Open a command inside the 'static' folder and run the command `npm install`. Then all the required libararies will be downloaded into the `static/node_modules` folder. Using npm requires NodeJS installed with an internet connection
 
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzY1NTkzMiwxNDg3NjkyNTY1LC00ND
-I2MjMzOSwxODI3Nzg3MDc0LC0xNTEyNzI3NDAyLDU3MzA4Mjk2
-NCwtMjg5NDQ4MzU3LDEwMjMyOTEwMzhdfQ==
+eyJoaXN0b3J5IjpbLTE1MzE1MzM4OTIsMTQ4NzY5MjU2NSwtND
+QyNjIzMzksMTgyNzc4NzA3NCwtMTUxMjcyNzQwMiw1NzMwODI5
+NjQsLTI4OTQ0ODM1NywxMDIzMjkxMDM4XX0=
 -->
