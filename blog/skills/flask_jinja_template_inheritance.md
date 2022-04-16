@@ -23,7 +23,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * It is just just a jinja template with named blocks in it.
 * Child templates can fill the blocks with content
 ```html
-<!---->
+<!--templates/base/layoutBase.html-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -122,6 +122,6 @@ Please make sure to have all the skills mentioned above to understand and execut
 * include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 * TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODI3MTc2OSwtMTUxMjcyNzQwMiw1Nz
+eyJoaXN0b3J5IjpbLTE5NTExODE3MywtMTUxMjcyNzQwMiw1Nz
 MwODI5NjQsLTI4OTQ0ODM1NywxMDIzMjkxMDM4XX0=
 -->
