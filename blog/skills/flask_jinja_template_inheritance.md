@@ -217,7 +217,7 @@ body {
 {% endblock %}  
 ```
 
-### Required static files
+### static files required for this example
 * For this example to work, JavaScript and CSS libraries are required to be hosted in the `static/node_modules` folder.
 * We can use npm to generate the required files.
 * Create a file named `package.json` in the 'static' folder and paste the following in it
@@ -240,7 +240,7 @@ body {
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NjU0MzY0NywxNDg3NjkyNTY1LC00ND
-I2MjMzOSwxODI3Nzg3MDc0LC0xNTEyNzI3NDAyLDU3MzA4Mjk2
-NCwtMjg5NDQ4MzU3LDEwMjMyOTEwMzhdfQ==
+eyJoaXN0b3J5IjpbLTExNjEzNzM5MDQsMTQ4NzY5MjU2NSwtND
+QyNjIzMzksMTgyNzc4NzA3NCwtMTUxMjcyNzQwMiw1NzMwODI5
+NjQsLTI4OTQ0ODM1NywxMDIzMjkxMDM4XX0=
 -->
