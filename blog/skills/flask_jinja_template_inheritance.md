@@ -24,7 +24,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Child templates can fill the blocks with content
 	* For example, in the base template using `{% block content %}{% endblock %}` , the child template can fill the block named "content" with its own HTML or jinja content
 * While overwriting the parent block contents, Child templates can retain the base template block content and add extra HTML before or after it using `{{ super ()}}` . If the base block is not overwritten, the base block content will be rendered in the child template
-* The base template can be split using the 'include' jinja tag. For example, in the `layoutBase.html.j2` , by using the `{% include 'base/_authorizedPartial.html.j2' %}` , the template corresponding to the side bar content is rendered from the `_authorizedPartial.html.j2`
+* The base template can be split using the 'include' jinja tag. For example, in the `layoutBase.html.j2` , by using the `{% include 'base/_loginPartial.html.j2' %}` , the template corresponding to the side bar content is rendered from the `_loginPartial.html.j2` 
 ```html
 <!--templates/base/layoutBase.html.j2 file-->
 <!DOCTYPE html>
@@ -79,7 +79,8 @@ Please make sure to have all the skills mentioned above to understand and execut
                     </button>
 
                     <!-- Topbar Navbar -->
-                    <span class="mr-2 d-none d-md-inline text-current">Sample App</span> {% include 'base/_loginPartial.html.j2' %}
+                    <span class="mr-2 d-none d-md-inline text-current">Sample App</span> 
+                    {% include 'base/_loginPartial.html.j2' %}
                 </nav>
                 <!-- End of Topbar -->
                 <!-- Begin Page Content -->
@@ -130,7 +131,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 * TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODQzMDAzMiwxODI3Nzg3MDc0LC0xNT
+eyJoaXN0b3J5IjpbLTk5NTk3NzI5MiwxODI3Nzg3MDc0LC0xNT
 EyNzI3NDAyLDU3MzA4Mjk2NCwtMjg5NDQ4MzU3LDEwMjMyOTEw
 MzhdfQ==
 -->
