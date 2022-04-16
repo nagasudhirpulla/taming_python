@@ -221,8 +221,8 @@ body {
 * For this example to work, JavaScript and CSS libraries are required to be hosted in the `static/node_modules` folder.
 * We can use npm to generate the required static files through the following steps.
 	* Create a file named `package.json` in the 'static' folder and paste the following in it
-	``` js
-	{
+```json
+{
     "name": "sample_app",
     "version": "1.0.0",
     "description": "",
@@ -233,13 +233,13 @@ body {
         "startbootstrap-sb-admin-2": "^4.1.1"
     }
 }
-	```
+```
 
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODUyMDQxODQsLTQ0MjYyMzM5LDE4Mj
-c3ODcwNzQsLTE1MTI3Mjc0MDIsNTczMDgyOTY0LC0yODk0NDgz
-NTcsMTAyMzI5MTAzOF19
+eyJoaXN0b3J5IjpbMTQ4NzY5MjU2NSwtNDQyNjIzMzksMTgyNz
+c4NzA3NCwtMTUxMjcyNzQwMiw1NzMwODI5NjQsLTI4OTQ0ODM1
+NywxMDIzMjkxMDM4XX0=
 -->
