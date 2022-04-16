@@ -176,7 +176,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ### Chile Template
 * Child templates can fill the base template blocks with content. For example, in the child template `home.html.j2` using `{% block content %}{% endblock %}` , the child template is filling the block named "content" with its own HTML or jinja content.
-* While overwriting the parent block contents, Child templates can retain the base template block content and add extra HTML before or after it using `{{ super ()}}` . If the base block is not overwritten, the base block content will be rendered in the child template. In this example
+* While overwriting the parent block contents, Child templates can retain the base template block content and add extra HTML before or after it using `{{ super ()}}` . If the base block is not overwritten, the base block content will be rendered in the child template. 
+* For example, inside the `head` block of the `home.html.j2` file, an additional script tag is added below `{{ super() }}`. Hence the parent 
 
 
 ### References
@@ -184,7 +185,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 * TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjYyMzM5LDE4Mjc3ODcwNzQsLTE1MT
-I3Mjc0MDIsNTczMDgyOTY0LC0yODk0NDgzNTcsMTAyMzI5MTAz
-OF19
+eyJoaXN0b3J5IjpbMTU3MzcyNTc2OSwtNDQyNjIzMzksMTgyNz
+c4NzA3NCwtMTUxMjcyNzQwMiw1NzMwODI5NjQsLTI4OTQ0ODM1
+NywxMDIzMjkxMDM4XX0=
 -->
