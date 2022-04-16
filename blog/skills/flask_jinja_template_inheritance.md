@@ -125,13 +125,44 @@ Please make sure to have all the skills mentioned above to understand and execut
 </html>
 ```
 
+```html
+<!--templates/base/_loginPartial.html.j2 file-->
+<ul class="navbar-nav ml-auto">
+    {% if (current_user is defined) and current_user.is_authenticated %}
+        <!-- Nav Item - User Information -->
+        <li class="nav-item dropdown no-arrow">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-lg-inline text-gray-600">{{current_user.name}}</span>
+            </a>
+            <!-- Dropdown - User Information -->
+            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in">
+                <a class="dropdown-item" href='#'>
+                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                    Profile
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">
+                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                    Logout
+                </a>
+            </div>
+        </li>
+    {% else %}
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+                <span class="mr-2 d-lg-inline text-gray-600">Login</span>
+            </a>
+        </li>
+    {% endif %}
+</ul>
+```
 
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 * TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3MTc3MDQsMTgyNzc4NzA3NCwtMTUxMj
+eyJoaXN0b3J5IjpbNzk1OTcwNTIsMTgyNzc4NzA3NCwtMTUxMj
 cyNzQwMiw1NzMwODI5NjQsLTI4OTQ0ODM1NywxMDIzMjkxMDM4
 XX0=
 -->
