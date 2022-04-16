@@ -23,7 +23,97 @@ Please make sure to have all the skills mentioned above to understand and execut
 * It is just just a jinja template with named blocks in it.
 * Child templates can fill the blocks with content
 ```html
+<!---->
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    {% block head %}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}{% endblock %} - Sample App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='node_modules/bootstrap/dist/css/bootstrap.min.css') }}" />
+
+    <!-- Custom fonts for sb admin 2-->
+    <link href="{{ url_for('static', filename='node_modules/@fortawesome/fontawesome-free/css/all.min.css') | replace('%40', '@')}}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for sb-admin-2-->
+    <link href="{{ url_for('static', filename='node_modules/startbootstrap-sb-admin-2/css/sb-admin-2.min.css') }}" rel="stylesheet"> {% endblock %}
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <!--Sidebar-->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ url_for('index') }}">
+                <div class="sidebar-brand-icon">
+                    <!--<i class="fas fa-laugh-wink"></i>-->
+                    <img src="{{ url_for('static', filename='img/logo.svg') }}" width="50" height="50" />
+                </div>
+                <div class="sidebar-brand-text mx-3">Sample App</div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0"> 
+            {% include 'base/_authorizedPartial.html.j2' %}
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>
+        <!--End of Sidebar-->
+        <div id="content-wrapper" class="d-flex flex-column">
+            <!-- Main Content -->
+            <div id="content">
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Navbar -->
+                    <span class="mr-2 d-none d-md-inline text-current">Sample App</span> {% include 'base/_loginPartial.html.j2' %}
+                </nav>
+                <!-- End of Topbar -->
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                    {% with messages = get_flashed_messages(with_categories=true) %} {% if messages %} {% for category, message in messages %}
+                    <div class="alert alert-{{category}} alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button> {{ message }}
+                    </div>
+                    {% endfor %} {% endif %} {% endwith %} {% block content %}{% endblock %}
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright © Sample App 2022</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+        </div>
+    </div>
+    <script type="application/javascript" src="{{ url_for('static', filename='node_modules/jquery/dist/jquery.min.js') }}"></script>
+    <script type="application/javascript" src="{{ url_for('static', filename='node_modules/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+    <script type="application/javascript" src="{{ url_for('static', filename='node_modules/startbootstrap-sb-admin-2/js/sb-admin-2.min.js') }}"></script>
+    <link href="{{ url_for('static', filename='site.css') }}" rel="stylesheet" type="text/css" /> {% block scripts %}{% endblock %}
+    <style>
+        body {
+            color: #555;
+        }
+    </style>
+</body>
+
+</html>
 ```
 
 
@@ -32,6 +122,6 @@ Please make sure to have all the skills mentioned above to understand and execut
 * include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 * TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDQ3MjkzNiwtMTUxMjcyNzQwMiw1Nz
+eyJoaXN0b3J5IjpbMTQ5ODI3MTc2OSwtMTUxMjcyNzQwMiw1Nz
 MwODI5NjQsLTI4OTQ0ODM1NywxMDIzMjkxMDM4XX0=
 -->
