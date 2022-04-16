@@ -63,7 +63,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ url_for('index') }}">
                 <div class="sidebar-brand-icon">
                     <!--<i class="fas fa-laugh-wink"></i>-->
-                    <img src="{{ url_for('static', filename='img/logo.svg') }}" width="50" height="50" />
+                    <img src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_rocket.svg" width="50" height="50" />
                 </div>
                 <div class="sidebar-brand-text mx-3">Sample App</div>
             </a>
@@ -240,7 +240,7 @@ body {
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjEzNzM5MDQsMTQ4NzY5MjU2NSwtND
-QyNjIzMzksMTgyNzc4NzA3NCwtMTUxMjcyNzQwMiw1NzMwODI5
-NjQsLTI4OTQ0ODM1NywxMDIzMjkxMDM4XX0=
+eyJoaXN0b3J5IjpbMTY4MTQwMTU5NiwxNDg3NjkyNTY1LC00ND
+I2MjMzOSwxODI3Nzg3MDc0LC0xNTEyNzI3NDAyLDU3MzA4Mjk2
+NCwtMjg5NDQ4MzU3LDEwMjMyOTEwMzhdfQ==
 -->
