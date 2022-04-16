@@ -23,7 +23,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 * It is just just a jinja template with named blocks in it.
 * Child templates can fill the blocks with content
 	* For example, in the base template using `{% block content %}{% endblock %}` , the child template can fill the block named "content" with its own HTML or jinja content
-* Child templates can use the parent template block content and add extra HTML before or after it using the `{{ super ()}}`
+* While overwriting the parent block contents, Child templates can use the base template block content and add extra HTML before or after it using `{{ super ()}}`
+* 
 ```html
 <!--templates/base/layoutBase.html.j2 file-->
 <!DOCTYPE html>
@@ -129,7 +130,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 * TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTE3Mjk4OSwxODI3Nzg3MDc0LC0xNT
+eyJoaXN0b3J5IjpbLTgyODQ0ODU5OCwxODI3Nzg3MDc0LC0xNT
 EyNzI3NDAyLDU3MzA4Mjk2NCwtMjg5NDQ4MzU3LDEwMjMyOTEw
 MzhdfQ==
 -->
