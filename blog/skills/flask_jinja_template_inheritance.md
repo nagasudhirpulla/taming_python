@@ -158,7 +158,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ```
 
 ```html
-<!--templates/base/_loginPartial.html file-->
+<!--templates/base/_loginPartial.html.j2 file-->
 ```
 
 ### References
@@ -166,7 +166,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 * TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk5MDE1Njg0LDE4Mjc3ODcwNzQsLTE1MT
-I3Mjc0MDIsNTczMDgyOTY0LC0yODk0NDgzNTcsMTAyMzI5MTAz
-OF19
+eyJoaXN0b3J5IjpbMTcwNjA4MDMxOCwxODI3Nzg3MDc0LC0xNT
+EyNzI3NDAyLDU3MzA4Mjk2NCwtMjg5NDQ4MzU3LDEwMjMyOTEw
+MzhdfQ==
 -->
