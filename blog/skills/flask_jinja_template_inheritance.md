@@ -218,13 +218,14 @@ body {
 ```
 
 ### additional assets
-* For this example to work, a 
+* For this example to work, JavaScript and CSS libraries are required to be hosted in the `static/node_modules` folder.
+* We need to use 
 
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQzMDQxMzk2LC00NDI2MjMzOSwxODI3Nz
-g3MDc0LC0xNTEyNzI3NDAyLDU3MzA4Mjk2NCwtMjg5NDQ4MzU3
-LDEwMjMyOTEwMzhdfQ==
+eyJoaXN0b3J5IjpbLTE0NzEwNTQ4MzYsLTQ0MjYyMzM5LDE4Mj
+c3ODcwNzQsLTE1MTI3Mjc0MDIsNTczMDgyOTY0LC0yODk0NDgz
+NTcsMTAyMzI5MTAzOF19
 -->
