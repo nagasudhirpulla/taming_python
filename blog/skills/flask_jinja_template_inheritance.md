@@ -220,7 +220,7 @@ body {
 ### additional assets
 * For this example to work, JavaScript and CSS libraries are required to be hosted in the `static/node_modules` folder.
 * We can use npm to generate the required static files through the following steps.
-	* Create a file named `package.json` in the 'static' folder and paste the following in it
+* * Create a file named `package.json` in the 'static' folder and paste the following in it
 ```json
 {
     "name": "sample_app",
@@ -234,14 +234,13 @@ body {
     }
 }
 ```
-
-	* Open a command inside the 'static' folder and run the command `npm install`. Then all the required libararies will be downloaded into the `static/node_modules` folder. Using npm requires node js installed with an internet connection
+** Open a command inside the 'static' folder and run the command `npm install`. Then all the required libararies will be downloaded into the `static/node_modules` folder. Using npm requires node js installed with an internet connection
 
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NjM2MjE5NiwxNDg3NjkyNTY1LC00ND
-I2MjMzOSwxODI3Nzg3MDc0LC0xNTEyNzI3NDAyLDU3MzA4Mjk2
-NCwtMjg5NDQ4MzU3LDEwMjMyOTEwMzhdfQ==
+eyJoaXN0b3J5IjpbLTQyODczNzQyLDE0ODc2OTI1NjUsLTQ0Mj
+YyMzM5LDE4Mjc3ODcwNzQsLTE1MTI3Mjc0MDIsNTczMDgyOTY0
+LC0yODk0NDgzNTcsMTAyMzI5MTAzOF19
 -->
