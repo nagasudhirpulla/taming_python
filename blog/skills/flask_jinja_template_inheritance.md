@@ -207,9 +207,9 @@ body {
 
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
-* include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
+* 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNzA2OTcxNywtNDQyNjIzMzksMTgyNz
+eyJoaXN0b3J5IjpbMTI2OTM0NzYxOSwtNDQyNjIzMzksMTgyNz
 c4NzA3NCwtMTUxMjcyNzQwMiw1NzMwODI5NjQsLTI4OTQ0ODM1
 NywxMDIzMjkxMDM4XX0=
 -->
