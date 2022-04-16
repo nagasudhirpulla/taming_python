@@ -15,8 +15,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 * In this post we will learn how to use Template Inheritance in flask jinja templates for creating reusable and complex web layouts
 * We can build a **base template** that can be extended by **child templates**. This enables *re-usability*, *template splitting* and *consistency* in the layout of all the web application pages
 
-## Example Setup
-![enter image sb_admin_templatehere](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sb_admin_template.png)
+## Demo Layout
+* In this post we will create a reusable base layout for flask application as an example
+![sb_admin_template](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sb_admin_template.png)
 ## Base Template
 * It is just just a jinja template with named blocks in it.
 * Child templates can fill the blocks with content
@@ -30,6 +31,6 @@ Please make sure to have all the skills mentioned above to understand and execut
 * include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 * TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjc3OTgzMCwtMTUxMjcyNzQwMiw1Nz
-MwODI5NjQsLTI4OTQ0ODM1NywxMDIzMjkxMDM4XX0=
+eyJoaXN0b3J5IjpbODk2MTc4ODU2LC0xNTEyNzI3NDAyLDU3Mz
+A4Mjk2NCwtMjg5NDQ4MzU3LDEwMjMyOTEwMzhdfQ==
 -->
