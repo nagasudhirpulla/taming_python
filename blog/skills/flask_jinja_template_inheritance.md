@@ -208,9 +208,8 @@ body {
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
-* TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQ4NDI2ODQsLTQ0MjYyMzM5LDE4Mj
-c3ODcwNzQsLTE1MTI3Mjc0MDIsNTczMDgyOTY0LC0yODk0NDgz
-NTcsMTAyMzI5MTAzOF19
+eyJoaXN0b3J5IjpbLTkyNzA2OTcxNywtNDQyNjIzMzksMTgyNz
+c4NzA3NCwtMTUxMjcyNzQwMiw1NzMwODI5NjQsLTI4OTQ0ODM1
+NywxMDIzMjkxMDM4XX0=
 -->
