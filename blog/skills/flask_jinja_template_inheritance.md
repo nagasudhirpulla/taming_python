@@ -157,12 +157,16 @@ Please make sure to have all the skills mentioned above to understand and execut
 </ul>
 ```
 
+```html
+<!--templates/base/_loginPartial.html file-->
+```
+
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 * TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1OTcwNTIsMTgyNzc4NzA3NCwtMTUxMj
-cyNzQwMiw1NzMwODI5NjQsLTI4OTQ0ODM1NywxMDIzMjkxMDM4
-XX0=
+eyJoaXN0b3J5IjpbNDk5MDE1Njg0LDE4Mjc3ODcwNzQsLTE1MT
+I3Mjc0MDIsNTczMDgyOTY0LC0yODk0NDgzNTcsMTAyMzI5MTAz
+OF19
 -->
