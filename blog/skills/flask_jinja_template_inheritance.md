@@ -16,7 +16,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 * We can build a **base template** that can be extended by **child templates**. This enables *re-usability*, *template splitting* and *consistency* in the layout of all the web application pages
 
 ## Demo Layout
-* In this post we will create a reusable base layout for flask application as an example
+* In this post we will create a reusable base layout for flask applications using Base Templates concept
+* The base layout is based on the SB Admin 2 theme at https://startbootstrap.com/theme/sb-admin-2
 ![sb_admin_template](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sb_admin_template.png)
 ## Base Template
 * It is just just a jinja template with named blocks in it.
@@ -31,6 +32,6 @@ Please make sure to have all the skills mentioned above to understand and execut
 * include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 * TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2MTc4ODU2LC0xNTEyNzI3NDAyLDU3Mz
-A4Mjk2NCwtMjg5NDQ4MzU3LDEwMjMyOTEwMzhdfQ==
+eyJoaXN0b3J5IjpbMTg0MDQ3MjkzNiwtMTUxMjcyNzQwMiw1Nz
+MwODI5NjQsLTI4OTQ0ODM1NywxMDIzMjkxMDM4XX0=
 -->
