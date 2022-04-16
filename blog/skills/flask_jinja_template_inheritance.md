@@ -180,7 +180,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 	* For example, inside the `head` block of the `home.html.j2` file, an additional script tag is added below `{{ super() }}`. Hence the base template block content will be rendered first and then the script tag will be rendered.
 
 ```html
-<!--home.html.j2 file-->
+<!--templates/home.html.j2 file-->
 {% extends "base/layoutBase.html.j2" %}
 {% block title %}Home{% endblock %}
 
@@ -209,7 +209,7 @@ body {
 * include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 * TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3ODMxMTYwLC00NDI2MjMzOSwxODI3Nz
+eyJoaXN0b3J5IjpbMzIzNDc4Mjg2LC00NDI2MjMzOSwxODI3Nz
 g3MDc0LC0xNTEyNzI3NDAyLDU3MzA4Mjk2NCwtMjg5NDQ4MzU3
 LDEwMjMyOTEwMzhdfQ==
 -->
