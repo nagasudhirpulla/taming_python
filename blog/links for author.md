@@ -13,15 +13,16 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 * template inheritance
 * macros in jinja2
 * flask directory browsing
+* flask sub hosting
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTY2NzU4NzAsLTk1MjgwOTU5OCw0Nz
-k3NzMyMzUsLTYxMzU1NzE5NCwtOTI3NTMyNDkxLDc5NTc2MzMz
-NSwtNjU2NzM3OTk3LC0xNjMyMzkyMDg3LC0yMjk2Mjk1NTcsMT
-kyNDI2Mzk4OCwxMzkxMzk0MDYwLDEyNTgyODYyMzcsLTg5MDIz
-OTEwMCwtMTE0NDkxMTQzNywtMzY0NTg4MTM2LC0xNjA3NTU2ND
-Y4LC0xMTkzOTg5ODcwLDk5MDUxMzExMSwtODgxMTM4MzgxLC05
-ODk0NzcyNjFdfQ==
+eyJoaXN0b3J5IjpbMTM0MjY3Nzc2MSwtOTUyODA5NTk4LDQ3OT
+c3MzIzNSwtNjEzNTU3MTk0LC05Mjc1MzI0OTEsNzk1NzYzMzM1
+LC02NTY3Mzc5OTcsLTE2MzIzOTIwODcsLTIyOTYyOTU1NywxOT
+I0MjYzOTg4LDEzOTEzOTQwNjAsMTI1ODI4NjIzNywtODkwMjM5
+MTAwLC0xMTQ0OTExNDM3LC0zNjQ1ODgxMzYsLTE2MDc1NTY0Nj
+gsLTExOTM5ODk4NzAsOTkwNTEzMTExLC04ODExMzgzODEsLTk4
+OTQ3NzI2MV19
 -->
