@@ -22,7 +22,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ## Base Template
 * It is just just a jinja template with named blocks in it.
 * Child templates can fill the blocks with content
-* For example
+* For example, in the base template using `{% block content %}{% endblock %}` can be filled by the child template by 
 ```html
 <!--templates/base/layoutBase.html.j2 file-->
 <!DOCTYPE html>
@@ -128,7 +128,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 * TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTI0MTcyNSwxODI3Nzg3MDc0LC0xNT
+eyJoaXN0b3J5IjpbMTE0MDYwNDMwNCwxODI3Nzg3MDc0LC0xNT
 EyNzI3NDAyLDU3MzA4Mjk2NCwtMjg5NDQ4MzU3LDEwMjMyOTEw
 MzhdfQ==
 -->
