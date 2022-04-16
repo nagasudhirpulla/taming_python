@@ -20,7 +20,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * The base layout is based on the SB Admin 2 theme at https://startbootstrap.com/theme/sb-admin-2
 * The server.py file is a simple flask server a shown below
 ```py
-# server.py python file
+# server.py file
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -224,7 +224,7 @@ body {
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzIyNTMzNiwtNDQyNjIzMzksMTgyNz
-c4NzA3NCwtMTUxMjcyNzQwMiw1NzMwODI5NjQsLTI4OTQ0ODM1
-NywxMDIzMjkxMDM4XX0=
+eyJoaXN0b3J5IjpbNzQzMDQxMzk2LC00NDI2MjMzOSwxODI3Nz
+g3MDc0LC0xNTEyNzI3NDAyLDU3MzA4Mjk2NCwtMjg5NDQ4MzU3
+LDEwMjMyOTEwMzhdfQ==
 -->
