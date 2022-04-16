@@ -159,7 +159,22 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ```html
 <!--templates/base/_authorizedPartial.html.j2 file-->
-
+<!-- Nav Item - Dashboard -->
+{% if user %}
+    <!-- Nav Item - Dashboard -->
+    <li class="nav-item text-uppercase">
+        <a class="nav-link" href='#'>
+            <i class="fas fa-th-large"></i>
+            <span>Web Dashboard</span>
+        </a>
+    </li>
+{% endif %}
+<li class="nav-item text-uppercase">
+    <a class="nav-link" href="{{ url_for('index') }}">
+        <i class="fas fa-eye"></i>
+        <span>Page Link</span>
+    </a>
+</li>
 ```
 
 ### References
@@ -167,7 +182,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 * TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODI2NTc3NiwxODI3Nzg3MDc0LC0xNT
+eyJoaXN0b3J5IjpbMTY1MTgzMjM5NywxODI3Nzg3MDc0LC0xNT
 EyNzI3NDAyLDU3MzA4Mjk2NCwtMjg5NDQ4MzU3LDEwMjMyOTEw
 MzhdfQ==
 -->
