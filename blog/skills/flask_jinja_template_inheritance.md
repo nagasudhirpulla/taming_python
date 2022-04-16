@@ -187,7 +187,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 </li>
 ```
 
-### Chile Template
+### Child Template
 * Child templates can extend the base template using the 'extends' tag. For example, in the `home.html.j2` , `{% extends "base/layoutBase.html.j2" %}` is used to indicate that the template extends the base template at `base/layoutBase.html.j2`
 * Child templates can fill the base template blocks with content. For example, in the child template `home.html.j2` using `{% block content %}{% endblock %}` , the child template is filling the block named "content" with its own HTML or jinja content.
 * While overwriting the parent block contents, Child templates can retain the base template block content and add extra HTML before or after it using `{{ super ()}}` . If the base block is not overwritten, the base block content will be rendered in the child template. 
@@ -240,7 +240,7 @@ body {
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTQwMTU5NiwxNDg3NjkyNTY1LC00ND
+eyJoaXN0b3J5IjpbLTk5ODExOTQ5MywxNDg3NjkyNTY1LC00ND
 I2MjMzOSwxODI3Nzg3MDc0LC0xNTEyNzI3NDAyLDU3MzA4Mjk2
 NCwtMjg5NDQ4MzU3LDEwMjMyOTEwMzhdfQ==
 -->
