@@ -36,7 +36,7 @@ Please make sure to have all the skills mentioned above to understand and execut
     <link rel="stylesheet" href="{{ url_for('static', filename='node_modules/bootstrap/dist/css/bootstrap.min.css') }}" />
 
     <!-- Custom fonts for sb admin 2-->
-    <link href="{{ url_for('static', filename='node_modules/@fortawesome/fontawesome-free/css/all.min.css') | replace('%40', '@')}}" rel="stylesheet" type="text/css">
+    <link href="{{ url_for('static', filename='node_modules/@fortawesome/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for sb-admin-2-->
@@ -82,11 +82,16 @@ Please make sure to have all the skills mentioned above to understand and execut
                 <!-- End of Topbar -->
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-                    {% with messages = get_flashed_messages(with_categories=true) %} {% if messages %} {% for category, message in messages %}
-                    <div class="alert alert-{{category}} alert-dismissible" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button> {{ message }}
-                    </div>
-                    {% endfor %} {% endif %} {% endwith %} {% block content %}{% endblock %}
+                    {% with messages = get_flashed_messages(with_categories=true) %} 
+                        {% if messages %} 
+                            {% for category, message in messages %}
+                            <div class="alert alert-{{category}} alert-dismissible" role="alert">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button> {{ message }}
+                            </div>
+                            {% endfor %} 
+                        {% endif %} 
+                    {% endwith %} 
+                    {% block content %}{% endblock %}
                 </div>
                 <!-- /.container-fluid -->
 
@@ -106,7 +111,7 @@ Please make sure to have all the skills mentioned above to understand and execut
     <script type="application/javascript" src="{{ url_for('static', filename='node_modules/jquery/dist/jquery.min.js') }}"></script>
     <script type="application/javascript" src="{{ url_for('static', filename='node_modules/bootstrap/dist/js/bootstrap.min.js') }}"></script>
     <script type="application/javascript" src="{{ url_for('static', filename='node_modules/startbootstrap-sb-admin-2/js/sb-admin-2.min.js') }}"></script>
-    <link href="{{ url_for('static', filename='site.css') }}" rel="stylesheet" type="text/css" /> {% block scripts %}{% endblock %}
+    {% block scripts %}{% endblock %}
     <style>
         body {
             color: #555;
@@ -123,6 +128,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * include in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 * TODO write about include also
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzc4NzA3NCwtMTUxMjcyNzQwMiw1Nz
-MwODI5NjQsLTI4OTQ0ODM1NywxMDIzMjkxMDM4XX0=
+eyJoaXN0b3J5IjpbMTA3NTI0MTcyNSwxODI3Nzg3MDc0LC0xNT
+EyNzI3NDAyLDU3MzA4Mjk2NCwtMjg5NDQ4MzU3LDEwMjMyOTEw
+MzhdfQ==
 -->
