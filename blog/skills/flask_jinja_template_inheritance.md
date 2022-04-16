@@ -220,13 +220,26 @@ body {
 ### additional assets
 * For this example to work, JavaScript and CSS libraries are required to be hosted in the `static/node_modules` folder.
 * We can use npm to generate the required static files through the following steps.
-	* Create a file named `package.json` in the 'static' folder and write t
+	* Create a file named `package.json` in the 'static' folder and paste the following in it
+	``` json
+	{
+    "name": "sample_app",
+    "version": "1.0.0",
+    "description": "",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.14.0",
+        "bootstrap": "^4.5.2",
+        "jquery": "^3.5.1",
+        "startbootstrap-sb-admin-2": "^4.1.1"
+    }
+}
+	```
 
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwMjg1NzE5LC00NDI2MjMzOSwxODI3Nz
-g3MDc0LC0xNTEyNzI3NDAyLDU3MzA4Mjk2NCwtMjg5NDQ4MzU3
-LDEwMjMyOTEwMzhdfQ==
+eyJoaXN0b3J5IjpbMTAwODA4ODg3MywtNDQyNjIzMzksMTgyNz
+c4NzA3NCwtMTUxMjcyNzQwMiw1NzMwODI5NjQsLTI4OTQ0ODM1
+NywxMDIzMjkxMDM4XX0=
 -->
