@@ -146,14 +146,19 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </html>
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/7n1kpvnDvxk)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7n1kpvnDvxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 * serve files from another folder - https://stackoverflow.com/a/20648053/2746323
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTc4MjU1MiwtMTIwODA2ODczNywtNj
-QwMTc2NzE2LC01NDMzNTE0NzIsMjA3NzMyMzMyMCwtNDcyNTgy
-ODIzLDEwNzczMjQ5OTQsLTE5NTA0ODI1MjgsLTYyODI1ODE0OS
-wyMDYzNjQxNjE2LDE4NDU4MjYzNjAsMTA1MTQ0NzQ1MiwyMDg3
-NTMwMjkwLDM0NjA5MjEzNiwxNzU1NjI4NDU1LDE0NDk4MTY0MD
-ksLTIwOTUzODI5NDMsMTU3MTY0NTM5MCwxOTA2ODI4MjgsOTgz
-NzYxMzQ3XX0=
+eyJoaXN0b3J5IjpbLTEyMjU2NzY4NTUsMTUwOTc4MjU1MiwtMT
+IwODA2ODczNywtNjQwMTc2NzE2LC01NDMzNTE0NzIsMjA3NzMy
+MzMyMCwtNDcyNTgyODIzLDEwNzczMjQ5OTQsLTE5NTA0ODI1Mj
+gsLTYyODI1ODE0OSwyMDYzNjQxNjE2LDE4NDU4MjYzNjAsMTA1
+MTQ0NzQ1MiwyMDg3NTMwMjkwLDM0NjA5MjEzNiwxNzU1NjI4ND
+U1LDE0NDk4MTY0MDksLTIwOTUzODI5NDMsMTU3MTY0NTM5MCwx
+OTA2ODI4MjhdfQ==
 -->
