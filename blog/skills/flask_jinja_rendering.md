@@ -221,11 +221,17 @@ app.run(host='0.0.0.0', port=50100, debug=True)
 </html>
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/GJRlEiFD2JA)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GJRlEiFD2JA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ### References
 * jinja2 docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 * check if variable is defined in jinja2 - https://stackoverflow.com/questions/13956728/how-to-check-if-given-variable-exist-in-jinja2-template
 * for loop in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#for
 *  built in filters in jinja2 - https://jinja.palletsprojects.com/en/3.1.x/templates/#list-of-builtin-filters
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyNzc1NDQwXX0=
+eyJoaXN0b3J5IjpbLTI0MTA2MDQ4Nyw3MzI3NzU0NDBdfQ==
 -->
