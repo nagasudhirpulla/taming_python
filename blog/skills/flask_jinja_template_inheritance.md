@@ -236,11 +236,16 @@ body {
 ```
 * Open a command inside the 'static' folder and run the command `npm install`. Then all the required libraries will be downloaded into the `static/node_modules` folder. Using npm requires Node JS installed with an internet connection
 
+### Video
+The video for this post can be seen [here](https://youtu.be/OCk_ahHML4I)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OCk_ahHML4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTU2MjU4NSwxNDg3NjkyNTY1LC00ND
-I2MjMzOSwxODI3Nzg3MDc0LC0xNTEyNzI3NDAyLDU3MzA4Mjk2
-NCwtMjg5NDQ4MzU3LDEwMjMyOTEwMzhdfQ==
+eyJoaXN0b3J5IjpbLTkxMjAyMjk4MiwxNjA1NTYyNTg1LDE0OD
+c2OTI1NjUsLTQ0MjYyMzM5LDE4Mjc3ODcwNzQsLTE1MTI3Mjc0
+MDIsNTczMDgyOTY0LC0yODk0NDgzNTcsMTAyMzI5MTAzOF19
 -->
