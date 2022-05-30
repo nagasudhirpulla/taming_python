@@ -56,7 +56,9 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ## Calling jinja macro from another template file
 * If the macro is declared in the same template file, it can be called directly.
-* If the macro is present in another template file, it needs to be imported using the `{% from "<template>" import  %}`
+* If the macro is present in another template file, it needs to be imported using the `{% from "<template_path>" import <macro_name> %}` jinja tags
+* In the below template using jinja macro, repetitive jinja templating is reduced to render each form input
+
 ```html
 <!--templates/home.html.j2 file-->
 {% from "_formhelpers.html.j2" import render_input %}
@@ -127,6 +129,6 @@ The video for this post can be seen [here](https://youtu.be/OCk_ahHML4I)
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzg4MjE1NzUsNDcxMTIyMzU3LC01OT
-Q5MTI1MDBdfQ==
+eyJoaXN0b3J5IjpbMTQ1NTQyODcwOSw0NzExMjIzNTcsLTU5ND
+kxMjUwMF19
 -->
