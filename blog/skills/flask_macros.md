@@ -50,7 +50,9 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 </tr>
 {% endmacro %}
 ```
-* In the above example, a macro named `render_input` is declared using the `{`
+* In the above example, a macro named `render_input` is declared using the `{% macro %} {% endmacro %}` jinja tags
+* The inputs of macro are declared just like python functions. Default input values can also be declared
+* All the jinja template in between the 
 
 ```html
 <!--templates/base/_authorizedPartial.html.j2 file-->
@@ -130,5 +132,5 @@ The video for this post can be seen [here](https://youtu.be/OCk_ahHML4I)
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3OTk4NjksLTU5NDkxMjUwMF19
+eyJoaXN0b3J5IjpbMTE5NjE5Mzk0LC01OTQ5MTI1MDBdfQ==
 -->
