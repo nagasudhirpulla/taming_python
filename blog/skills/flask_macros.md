@@ -55,6 +55,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * All the jinja template in between the `{% macro %} {% endmacro %}` tags will be rendered based on the input parameters when the macro is called
 
 ## Calling jinja macro from another template file
+* If the macro is declared in the same template file, it can be called directly.
+* If the macro is present in another template file, it needs to be imported using the `{% from "<template>" import  %}`
 ```html
 <!--templates/home.html.j2 file-->
 {% from "_formhelpers.html.j2" import render_input %}
@@ -125,6 +127,6 @@ The video for this post can be seen [here](https://youtu.be/OCk_ahHML4I)
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTMwMjk4Myw0NzExMjIzNTcsLTU5ND
-kxMjUwMF19
+eyJoaXN0b3J5IjpbLTEwNzg4MjE1NzUsNDcxMTIyMzU3LC01OT
+Q5MTI1MDBdfQ==
 -->
