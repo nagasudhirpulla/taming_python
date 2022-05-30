@@ -52,26 +52,12 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 * In the above example, a macro named `render_input` is declared using the `{% macro %} {% endmacro %}` jinja tags
 * The inputs of macro are declared just like python functions. Default input values can also be declared
-* All the jinja template in between the 
+* All the jinja template in between the `{% macro %} {% endmacro %}` tags will be rendered based on the input parameters when the macro is called
 
+## Calling jinja macro from another template file
 ```html
-<!--templates/base/_authorizedPartial.html.j2 file-->
-<!-- Nav Item - Dashboard -->
-{% if user %}
-    <!-- Nav Item - Dashboard -->
-    <li class="nav-item text-uppercase">
-        <a class="nav-link" href='#'>
-            <i class="fas fa-th-large"></i>
-            <span>Web Dashboard</span>
-        </a>
-    </li>
-{% endif %}
-<li class="nav-item text-uppercase">
-    <a class="nav-link" href="{{ url_for('index') }}">
-        <i class="fas fa-eye"></i>
-        <span>Page Link</span>
-    </a>
-</li>
+<!--templates/home.html.j2 file-->
+
 ```
 
 ### Child Template
@@ -132,5 +118,5 @@ The video for this post can be seen [here](https://youtu.be/OCk_ahHML4I)
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NjE5Mzk0LC01OTQ5MTI1MDBdfQ==
+eyJoaXN0b3J5IjpbLTE1NTM0OTMwNDUsLTU5NDkxMjUwMF19
 -->
