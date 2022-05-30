@@ -74,8 +74,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
-* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODcxMjMxOTksNDcxMTIyMzU3LC01OT
+eyJoaXN0b3J5IjpbLTE3NzU3MjUxMTEsNDcxMTIyMzU3LC01OT
 Q5MTI1MDBdfQ==
 -->
