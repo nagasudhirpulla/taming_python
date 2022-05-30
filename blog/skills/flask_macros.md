@@ -13,11 +13,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 
 * In this post we will learn how to reduce repetition in flask templates using macros in flask jinja templates  
-* Jinja macro is similar to a function in python. The output of jinja macro will be a jinja template 
-## Demo Layout
-* In this post we will create a reusable base layout for flask applications using Base Templates concept
-* The base layout is based on the SB Admin 2 theme at https://startbootstrap.com/theme/sb-admin-2
-* The server.py file is a simple flask server a shown below
+* Jinja macro will render a jinja template based on the inputs provided to it. Jinja macro is similar to a function in python
+
+## Example
+* The server.py file is a simple flask server as shown below
 ```py
 # server.py file
 from flask import Flask, render_template
@@ -244,5 +243,5 @@ The video for this post can be seen [here](https://youtu.be/OCk_ahHML4I)
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTE2MjgwMywtNTk0OTEyNTAwXX0=
+eyJoaXN0b3J5IjpbLTkwNTgyODI5LC01OTQ5MTI1MDBdfQ==
 -->
