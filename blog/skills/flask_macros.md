@@ -35,135 +35,21 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ## Example Jinja macro
 
 ```html
-<!--templates/base/layoutBase.html.j2 file-->
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    {% block head %}
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{% block title %}{% endblock %} - Sample App</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='node_modules/bootstrap/dist/css/bootstrap.min.css') }}" />
-
-    <!-- Custom fonts for sb admin 2-->
-    <link href="{{ url_for('static', filename='node_modules/@fortawesome/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
-    <!-- Custom styles for sb-admin-2-->
-    <link href="{{ url_for('static', filename='node_modules/startbootstrap-sb-admin-2/css/sb-admin-2.min.css') }}" rel="stylesheet"> {% endblock %}
-</head>
-
-<body id="page-top">
-    <div id="wrapper">
-        <!--Sidebar-->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-            <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ url_for('index') }}">
-                <div class="sidebar-brand-icon">
-                    <!--<i class="fas fa-laugh-wink"></i>-->
-                    <img src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_rocket.svg" width="50" height="50" />
-                </div>
-                <div class="sidebar-brand-text mx-3">Sample App</div>
-            </a>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider my-0"> 
-            {% include 'base/_authorizedPartial.html.j2' %}
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
-
+<!-- templates/_formhelpers.html.j2 -->
+{% macro render_input(label, inpName, inpType="text", showErrors="true", errors=[]) %}
+<tr>
+    <td>{{label}}
+    </td>
+    <td>
+        <input type="{{inpType}}" name="{{inpName}}" {% for k,v in kwargs.items() %} {{k}}="{{v}}" {% endfor %} />
+        <ul class="errors">
+        {% for err in errors %}
+            <li>{{ err }}</li>
+        {% endfor %}
         </ul>
-        <!--End of Sidebar-->
-        <div id="content-wrapper" class="d-flex flex-column">
-            <!-- Main Content -->
-            <div id="content">
-                <!-- Topbar -->
-                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
-                    <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                        <i class="fa fa-bars"></i>
-                    </button>
-
-                    <!-- Topbar Navbar -->
-                    <span class="mr-2 d-none d-md-inline text-current">Sample App</span> 
-                    {% include 'base/_loginPartial.html.j2' %}
-                </nav>
-                <!-- End of Topbar -->
-                <!-- Begin Page Content -->
-                <div class="container-fluid">
-                    {% with messages = get_flashed_messages(with_categories=true) %} 
-                        {% if messages %} 
-                            {% for category, message in messages %}
-                            <div class="alert alert-{{category}} alert-dismissible" role="alert">
-                                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button> {{ message }}
-                            </div>
-                            {% endfor %} 
-                        {% endif %} 
-                    {% endwith %} 
-                    {% block content %}{% endblock %}
-                </div>
-                <!-- /.container-fluid -->
-
-            </div>
-            <!-- End of Main Content -->
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright © Sample App 2022</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
-        </div>
-    </div>
-    <script type="application/javascript" src="{{ url_for('static', filename='node_modules/jquery/dist/jquery.min.js') }}"></script>
-    <script type="application/javascript" src="{{ url_for('static', filename='node_modules/bootstrap/dist/js/bootstrap.min.js') }}"></script>
-    <script type="application/javascript" src="{{ url_for('static', filename='node_modules/startbootstrap-sb-admin-2/js/sb-admin-2.min.js') }}"></script>
-    {% block scripts %}{% endblock %}
-    <style>
-        body {
-            color: #555;
-        }
-    </style>
-</body>
-
-</html>
-```
-* The base template can be split for better readability and re-usability using the 'include' jinja tag. For example, in the `layoutBase.html.j2` , by using the `{% include 'base/_loginPartial.html.j2' %}` , the template corresponding to the side bar content is rendered from the `_loginPartial.html.j2` file.
-```html
-<!--templates/base/_loginPartial.html.j2 file-->
-<ul class="navbar-nav ml-auto">
-    {% if (current_user is defined) and current_user.is_authenticated %}
-        <!-- Nav Item - User Information -->
-        <li class="nav-item dropdown no-arrow">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-lg-inline text-gray-600">{{current_user.name}}</span>
-            </a>
-            <!-- Dropdown - User Information -->
-            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in">
-                <a class="dropdown-item" href='#'>
-                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                    Profile
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">
-                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                    Logout
-                </a>
-            </div>
-        </li>
-    {% else %}
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-                <span class="mr-2 d-lg-inline text-gray-600">Login</span>
-            </a>
-        </li>
-    {% endif %}
-</ul>
+    </td>
+</tr>
+{% endmacro %}
 ```
 
 ```html
@@ -244,5 +130,5 @@ The video for this post can be seen [here](https://youtu.be/OCk_ahHML4I)
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0NzUyMTg2LC01OTQ5MTI1MDBdfQ==
+eyJoaXN0b3J5IjpbMTg5NTc4Nzk0OSwtNTk0OTEyNTAwXX0=
 -->
