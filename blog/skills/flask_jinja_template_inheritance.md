@@ -18,7 +18,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ## Demo Layout
 * In this post we will create a reusable base layout for flask applications using Base Templates concept
 * The base layout is based on the SB Admin 2 theme at https://startbootstrap.com/theme/sb-admin-2
-* The server.py file is a simple flask server a shown below
+* The server.py file is a simple flask server as shown below
 ```py
 # server.py file
 from flask import Flask, render_template
@@ -245,7 +245,8 @@ The video for this post can be seen [here](https://youtu.be/OCk_ahHML4I)
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjAyMjk4MiwxNjA1NTYyNTg1LDE0OD
-c2OTI1NjUsLTQ0MjYyMzM5LDE4Mjc3ODcwNzQsLTE1MTI3Mjc0
-MDIsNTczMDgyOTY0LC0yODk0NDgzNTcsMTAyMzI5MTAzOF19
+eyJoaXN0b3J5IjpbLTE2NzA4Njk4MTEsLTkxMjAyMjk4MiwxNj
+A1NTYyNTg1LDE0ODc2OTI1NjUsLTQ0MjYyMzM5LDE4Mjc3ODcw
+NzQsLTE1MTI3Mjc0MDIsNTczMDgyOTY0LC0yODk0NDgzNTcsMT
+AyMzI5MTAzOF19
 -->
