@@ -57,7 +57,15 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ## Calling jinja macro from another template file
 ```html
 <!--templates/home.html.j2 file-->
-
+{% from "_formhelpers.html.j2" import render_input %}
+<form>
+<table>
+{{render_input(label="name", inpName="username")}}
+{{render_input(la
+bel="phone", inpName="userPhone", inpType="number", class="phone")}}
+{{render_input(label="email", inpName="userEmail", inpType="email", size=100, class="email")}}
+</table>
+</form>
 ```
 
 ### Child Template
@@ -118,5 +126,5 @@ The video for this post can be seen [here](https://youtu.be/OCk_ahHML4I)
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM0OTMwNDUsLTU5NDkxMjUwMF19
+eyJoaXN0b3J5IjpbNDcxMTIyMzU3LC01OTQ5MTI1MDBdfQ==
 -->
