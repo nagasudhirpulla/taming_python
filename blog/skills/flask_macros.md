@@ -53,6 +53,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * In the above example, a macro named `render_input` is declared using the `{% macro %} {% endmacro %}` jinja tags
 * The inputs of macro are declared just like python functions. Default input values can also be declared
 * All the jinja template in between the `{% macro %} {% endmacro %}` tags will be rendered based on the input parameters when the macro is called
+* Additional input arguments passed to the macros can be accessed using the special variable named `kwargs` inside the macro.  
 
 ## Calling jinja macro from another template file
 * If the macro is declared in the same template file, it can be called directly.
@@ -129,6 +130,6 @@ The video for this post can be seen [here](https://youtu.be/OCk_ahHML4I)
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTQyODcwOSw0NzExMjIzNTcsLTU5ND
+eyJoaXN0b3J5IjpbMTg0NjY1MjM1MCw0NzExMjIzNTcsLTU5ND
 kxMjUwMF19
 -->
