@@ -17,6 +17,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ## Example
 * The below server.py is a simple flask server
+* It serves `home.html.j2` template present in the `templates` folder
 ```py
 # server.py file
 from flask import Flask, render_template
@@ -243,5 +244,5 @@ The video for this post can be seen [here](https://youtu.be/OCk_ahHML4I)
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzA5NjY4LC01OTQ5MTI1MDBdfQ==
+eyJoaXN0b3J5IjpbMTU1MjQ5NTUxOSwtNTk0OTEyNTAwXX0=
 -->
