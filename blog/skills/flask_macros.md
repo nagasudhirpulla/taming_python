@@ -61,8 +61,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 <form>
 <table>
 {{render_input(label="name", inpName="username")}}
-{{render_input(la
-bel="phone", inpName="userPhone", inpType="number", class="phone")}}
+{{render_input(label="phone", inpName="userPhone", inpType="number", class="phone")}}
 {{render_input(label="email", inpName="userEmail", inpType="email", size=100, class="email")}}
 </table>
 </form>
@@ -126,5 +125,6 @@ The video for this post can be seen [here](https://youtu.be/OCk_ahHML4I)
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxMTIyMzU3LC01OTQ5MTI1MDBdfQ==
+eyJoaXN0b3J5IjpbMTExNTMwMjk4Myw0NzExMjIzNTcsLTU5ND
+kxMjUwMF19
 -->
