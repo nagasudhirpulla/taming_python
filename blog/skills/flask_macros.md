@@ -16,7 +16,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Jinja macro will render a jinja template based on the inputs provided to it. Jinja macro is similar to a function in python
 
 ## Example
-* The server.py file is a simple flask server as shown below
+* The be server.py file is a simple flask server as shown below
 ```py
 # server.py file
 from flask import Flask, render_template
@@ -243,5 +243,5 @@ The video for this post can be seen [here](https://youtu.be/OCk_ahHML4I)
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTgyODI5LC01OTQ5MTI1MDBdfQ==
+eyJoaXN0b3J5IjpbMTAzNTkxOTU4NCwtNTk0OTEyNTAwXX0=
 -->
