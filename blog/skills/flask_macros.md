@@ -33,9 +33,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
 ## Example Jinja macro
-
 ```html
-<!-- templates/_formhelpers.html.j2 -->
+<!-- templates/_formhelpers.html.j2 file -->
 {% macro render_input(label, inpName, inpType="text", showErrors="true", errors=[]) %}
 <tr>
     <td>{{label}}
@@ -51,6 +50,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 </tr>
 {% endmacro %}
 ```
+* In the above example, a macro named `render_input` is declared using the `{`
 
 ```html
 <!--templates/base/_authorizedPartial.html.j2 file-->
@@ -130,5 +130,5 @@ The video for this post can be seen [here](https://youtu.be/OCk_ahHML4I)
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTc4Nzk0OSwtNTk0OTEyNTAwXX0=
+eyJoaXN0b3J5IjpbNTE3OTk4NjksLTU5NDkxMjUwMF19
 -->
