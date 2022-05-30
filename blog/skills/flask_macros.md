@@ -18,6 +18,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ## Example
 * The below server.py is a simple flask server
 * It serves `home.html.j2` template present in the `templates` folder
+* The page can be accessed at `http://localhost:50100`
 ```py
 # server.py file
 from flask import Flask, render_template
@@ -30,10 +31,9 @@ def index():
 
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
-![sb_admin_template](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sb_admin_template.png)
-## Base Template
-* It is just just a jinja template with named blocks in it.
-* Child templates can fill the blocks with content. For example, in the base template using `{% block content %}{% endblock %}` , the child template can fill the block named "content" with its own HTML or jinja content.
+
+## Example Jinja macro
+
 ```html
 <!--templates/base/layoutBase.html.j2 file-->
 <!DOCTYPE html>
@@ -244,5 +244,5 @@ The video for this post can be seen [here](https://youtu.be/OCk_ahHML4I)
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#template-inheritance
 * 'include' tag in jinja - https://jinja.palletsprojects.com/en/3.1.x/templates/#include
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MjQ5NTUxOSwtNTk0OTEyNTAwXX0=
+eyJoaXN0b3J5IjpbODg0NzUyMTg2LC01OTQ5MTI1MDBdfQ==
 -->
