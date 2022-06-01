@@ -72,9 +72,14 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 </form>
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7n1kpvnDvxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDUzNTAyMiwtMTc3NTcyNTExMSw0Nz
-ExMjIzNTcsLTU5NDkxMjUwMF19
+eyJoaXN0b3J5IjpbMTA3MzU1NTE5NCwtMTIwNTM1MDIyLC0xNz
+c1NzI1MTExLDQ3MTEyMjM1NywtNTk0OTEyNTAwXX0=
 -->
