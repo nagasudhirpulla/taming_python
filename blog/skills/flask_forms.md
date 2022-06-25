@@ -73,7 +73,9 @@ app.run(host="0.0.0.0", port=50100, debug=True)
     </table>
 </form>
 ```
-
+* A form is created in the above jinja template using the `form` tag
+* Each form input is given a `name` attribute to identify the 
+### 
 
 
 ## Example Jinja macro
@@ -124,7 +126,7 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDc5ODIxNywxOTI2ODEwNTk0LDIwMT
-U1NzMxMDYsNTExNDg2OTIyLC0xODI4MTg5MzI0LC0xNTIxMDQw
-NTk2XX0=
+eyJoaXN0b3J5IjpbLTE4NTMyODUzNDEsMTkyNjgxMDU5NCwyMD
+E1NTczMTA2LDUxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0
+MDU5Nl19
 -->
