@@ -99,7 +99,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ### Server side form validation example
 * In the following server code, the user name of the form is validated in the route handler to check if user name starts with an alphabet.
 * An additional "errors" object is passed into the template that contains the list of errors for each form input
-* Notice that the form data is preserved after the  
+* Notice that the form data is preserved after the post request also using the "request.form` variable in the jinja template 
 
 ```html
 <!-- templates/_formhelpers.html.j2 file -->
@@ -148,7 +148,7 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDA1MzEwMTcsMTE5MTUxMjE1NCwyOT
+eyJoaXN0b3J5IjpbLTExMzA1MDQ5MTUsMTE5MTUxMjE1NCwyOT
 g1MTM4MzgsMTY3NTY2MTM1OCwtNzY5MTY4MTc1LC0yMDc1NDc1
 MzYxLDE5MjY4MTA1OTQsMjAxNTU3MzEwNiw1MTE0ODY5MjIsLT
 E4MjgxODkzMjQsLTE1MjEwNDA1OTZdfQ==
