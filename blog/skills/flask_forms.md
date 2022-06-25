@@ -182,7 +182,7 @@ color: red;
 </style>
 ```
 
-## Using jinja macros to reduce repetitive HTML in forms
+## Using macros to reduce repetitive HTML in jinja templates
 * In the below example a macro named `render_input` is used to generate jinja template for each form input
 * This reduces HTML repetition for rendering each form input thus reducing the scope for errors and increasing the readability of template 
 ```html
@@ -230,9 +230,9 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyNTcwMjIsLTgyMjAzNDM3NCwtMTE2Mz
-k4NzEzNywxMTkxNTEyMTU0LDI5ODUxMzgzOCwxNjc1NjYxMzU4
-LC03NjkxNjgxNzUsLTIwNzU0NzUzNjEsMTkyNjgxMDU5NCwyMD
-E1NTczMTA2LDUxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0
-MDU5Nl19
+eyJoaXN0b3J5IjpbLTE0NzA2MjUxMDAsLTgyMjAzNDM3NCwtMT
+E2Mzk4NzEzNywxMTkxNTEyMTU0LDI5ODUxMzgzOCwxNjc1NjYx
+MzU4LC03NjkxNjgxNzUsLTIwNzU0NzUzNjEsMTkyNjgxMDU5NC
+wyMDE1NTczMTA2LDUxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMTUy
+MTA0MDU5Nl19
 -->
