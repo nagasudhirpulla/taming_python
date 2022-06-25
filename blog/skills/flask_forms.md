@@ -86,7 +86,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ### Accessing Form data in route handler
 * The `request.form` object inside the route handler will contain the form data as a dictionary
-* 
+* For example in the "POST" request route handler, accessing the `request.form["uName"]` will 
 
 
 ## Example Jinja macro
@@ -137,7 +137,7 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxOTE5MjE3NCwtMjA3NTQ3NTM2MSwxOT
+eyJoaXN0b3J5IjpbMTg0Mzg0NjQ2OSwtMjA3NTQ3NTM2MSwxOT
 I2ODEwNTk0LDIwMTU1NzMxMDYsNTExNDg2OTIyLC0xODI4MTg5
 MzI0LC0xNTIxMDQwNTk2XX0=
 -->
