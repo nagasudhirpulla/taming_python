@@ -173,21 +173,53 @@ app.run(host="0.0.0.0", port=50100, debug=True)
         </tr>
     </table>
 </form>
+
+<style>
+.form-error{
+font-size: smaller;
+color: red;
+}
+</style>
 ```
 
 ## Using jinja macros to reduce repetitive HTML in forms
-* In the below example a macro named `render_input` is used to create html for each form input
-* This reduces HTML repetition for rendering each form input thus reducing the scope for errors and increasing the reada 
+* In the below example a macro named `render_input` is used to generate jinja template for each form input
+* This reduces HTML repetition for rendering each form input thus reducing the scope for errors and increasing the readability of template 
 ```html
 <!--templates/home.html.j2 file-->
-{% from "_formhelpers.html.j2" import render_input %}
-<form>
-<table>
-{{render_input(label="name", inpName="username")}}
-{{render_input(label="phone", inpName="userPhone", inpType="number", class="phone")}}
-{{render_input(label="email", inpName="userEmail", inpType="email", size=100, class="email")}}
-</table>
+<p>Hi, please fill this form</p>
+
+{% macro render_input(label, inpName, inpType="text") %}
+<tr>
+    <td>{{label}}</td>
+    <td>
+        <input type="{{inpType}}" name="{{inpName}}" value="{{request.form[inpName]}}" {% for k,v in kwargs.items() %} {{k}}="{{v}}" {% endfor %} />
+        <ul>
+        {% for e in errors[inpName] %}
+            <li><span class="form-error">{{e}}</span></li>
+        {% endfor %}
+        </ul>
+    </td>
+</tr>
+{% endmacro %}
+
+<form method="post">
+    <table>
+        {{render_input("Name", "uName", "text", minlength="4", required="")}}
+        {{render_input("Phone", "uPhone", "number", required="")}}
+        {{render_input("Email", "uEmail", "email", required="")}}
+        <tr>
+            <td><button type="submit">Submit</button></td>
+        </tr>
+    </table>
 </form>
+
+<style>
+.form-error{
+font-size: smaller;
+color: red;
+}
+</style>
 ```
 
 ### Video
@@ -198,9 +230,9 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0NTkxMjkxLC04MjIwMzQzNzQsLTExNj
-M5ODcxMzcsMTE5MTUxMjE1NCwyOTg1MTM4MzgsMTY3NTY2MTM1
-OCwtNzY5MTY4MTc1LC0yMDc1NDc1MzYxLDE5MjY4MTA1OTQsMj
-AxNTU3MzEwNiw1MTE0ODY5MjIsLTE4MjgxODkzMjQsLTE1MjEw
-NDA1OTZdfQ==
+eyJoaXN0b3J5IjpbODMyNTcwMjIsLTgyMjAzNDM3NCwtMTE2Mz
+k4NzEzNywxMTkxNTEyMTU0LDI5ODUxMzgzOCwxNjc1NjYxMzU4
+LC03NjkxNjgxNzUsLTIwNzU0NzUzNjEsMTkyNjgxMDU5NCwyMD
+E1NTczMTA2LDUxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0
+MDU5Nl19
 -->
