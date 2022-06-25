@@ -29,9 +29,9 @@ app = Flask(__name__)
 @app.route("/", methods=["GET", "POST"])
 def index():
     if request.method == "POST":
-        print(request.form["uName"])
-        print(request.form["uPhone"])
-        print(request.form["uEmail"])
+        print("Name =", request.form["uName"])
+        print("Phone =", request.form["uPhone"])
+        print("Email =", request.form["uEmail"])
     return render_template("basic.html.j2")
 
 app.run(host="0.0.0.0", port=50100, debug=True)
@@ -121,6 +121,7 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjgxMDU5NCwyMDE1NTczMTA2LDUxMT
-Q4NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0MDU5Nl19
+eyJoaXN0b3J5IjpbLTcyNDE4MjM1OCwxOTI2ODEwNTk0LDIwMT
+U1NzMxMDYsNTExNDg2OTIyLC0xODI4MTg5MzI0LC0xNTIxMDQw
+NTk2XX0=
 -->
