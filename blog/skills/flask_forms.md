@@ -7,12 +7,13 @@
 * [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
 * [Serve static files in flask](https://nagasudhir.blogspot.com/2022/04/serve-static-files-in-flask.html)
 * [Flask jinja templating](https://nagasudhir.blogspot.com/2022/04/jinja-templates-in-flask.html)
+* [Macros in python flask jinja templates](https://nagasudhir.blogspot.com/2022/05/macros-in-python-flask-jinja-templates.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 <hr/>
 
-* In this post we will learn how to reduce repetition in flask templates using macros in flask jinja templates  
+* In this post we will learn how to create a form in python flask web application
 * Jinja macro will render a jinja template based on the inputs provided to it. Jinja macro is similar to a function in python
 
 ## Example
@@ -80,5 +81,5 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjI3Njk0NTVdfQ==
+eyJoaXN0b3J5IjpbOTgwNDc3NTUxXX0=
 -->
