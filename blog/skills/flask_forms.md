@@ -176,7 +176,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
 ## Using jinja macros to reduce repetitive HTML in forms
-* In the 
+* In the below example a macro named `render_input` is used to create html for each form input
+* This reduces HTML repetition for rendering each form input thus reducing the scope for errors and increasing the reada 
 ```html
 <!--templates/home.html.j2 file-->
 {% from "_formhelpers.html.j2" import render_input %}
@@ -197,9 +198,9 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE1MzksLTgyMjAzNDM3NCwtMTE2Mz
-k4NzEzNywxMTkxNTEyMTU0LDI5ODUxMzgzOCwxNjc1NjYxMzU4
-LC03NjkxNjgxNzUsLTIwNzU0NzUzNjEsMTkyNjgxMDU5NCwyMD
-E1NTczMTA2LDUxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0
-MDU5Nl19
+eyJoaXN0b3J5IjpbMjY0NTkxMjkxLC04MjIwMzQzNzQsLTExNj
+M5ODcxMzcsMTE5MTUxMjE1NCwyOTg1MTM4MzgsMTY3NTY2MTM1
+OCwtNzY5MTY4MTc1LC0yMDc1NDc1MzYxLDE5MjY4MTA1OTQsMj
+AxNTU3MzEwNiw1MTE0ODY5MjIsLTE4MjgxODkzMjQsLTE1MjEw
+NDA1OTZdfQ==
 -->
