@@ -99,24 +99,10 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ### Server side form validation example
 * In the following server code, the user name of the form is validated in the route handler to check if user name starts with an alphabet.
 * An additional "errors" object is passed into the template that contains the list of errors for each form input
-* Notice that the form data is preserved after the post request also using the "request.form` variable in the jinja template 
+* Notice that the form data is preserved after the post request also using the `request.form` variable in the jinja template 
 
-```html
-<!-- templates/_formhelpers.html.j2 file -->
-{% macro render_input(label, inpName, inpType="text", showErrors="true", errors=[]) %}
-<tr>
-    <td>{{label}}
-    </td>
-    <td>
-        <input type="{{inpType}}" name="{{inpName}}" {% for k,v in kwargs.items() %} {{k}}="{{v}}" {% endfor %} />
-        <ul class="errors">
-        {% for err in errors %}
-            <li>{{ err }}</li>
-        {% endfor %}
-        </ul>
-    </td>
-</tr>
-{% endmacro %}
+```python
+
 ```
 * In the above example, a macro named `render_input` is declared using the `{% macro %} {% endmacro %}` jinja tags
 * The inputs of macro are declared just like python functions. Default input values can also be declared
@@ -148,7 +134,7 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA1MDQ5MTUsMTE5MTUxMjE1NCwyOT
+eyJoaXN0b3J5IjpbLTExNjM5ODcxMzcsMTE5MTUxMjE1NCwyOT
 g1MTM4MzgsMTY3NTY2MTM1OCwtNzY5MTY4MTc1LC0yMDc1NDc1
 MzYxLDE5MjY4MTA1OTQsMjAxNTU3MzEwNiw1MTE0ODY5MjIsLT
 E4MjgxODkzMjQsLTE1MjEwNDA1OTZdfQ==
