@@ -13,8 +13,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* In this post we will learn how to create a form in a python flask web application
-*
+* In this post we will learn how to create a form in a python flask web application and perform basic front-end and server-side form input validation
 
 ## Example
 * The below server.py is a simple flask server
@@ -81,5 +80,5 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODk1Mzk3NDddfQ==
+eyJoaXN0b3J5IjpbLTk3NzY3NzIyMV19
 -->
