@@ -26,7 +26,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route("/", methods=["GET", "POST"]l)
+@app.route("/", methods=["GET", "POST"])
 def index():
     return render_template("home.html.j2")
 
@@ -66,6 +66,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
     </table>
 </form>
 ```
+
+
 
 ## Example Jinja macro
 ```html
@@ -115,6 +117,6 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzg0MTE0MTAsMjAxNTU3MzEwNiw1MT
-E0ODY5MjIsLTE4MjgxODkzMjQsLTE1MjEwNDA1OTZdfQ==
+eyJoaXN0b3J5IjpbLTQ3MTM1MzU1NiwyMDE1NTczMTA2LDUxMT
+Q4NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0MDU5Nl19
 -->
