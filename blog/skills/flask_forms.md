@@ -34,7 +34,36 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 ```html
 <!-- templates/home.html.j2 file -->
+<p>Hi, please fill this form</p>
 
+<form method="post">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>
+                <input type="text" name="uName" required />
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Phone</td>
+            <td>
+                <input type="number" name="uPhone" required />
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" name="uEmail" required />
+            </td>
+        </tr>
+
+        <tr>
+            <td><button type="submit">Submit</button></td>
+        </tr>
+    </table>
+</form>
 ```
 
 ## Example Jinja macro
@@ -85,6 +114,6 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExNDg2OTIyLC0xODI4MTg5MzI0LC0xNT
-IxMDQwNTk2XX0=
+eyJoaXN0b3J5IjpbLTE5Njc4MDMzODQsNTExNDg2OTIyLC0xOD
+I4MTg5MzI0LC0xNTIxMDQwNTk2XX0=
 -->
