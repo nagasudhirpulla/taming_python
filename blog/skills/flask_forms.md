@@ -82,7 +82,9 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ### Server-side Form handling
 * To handle the POST request sent by the browser, an additional parameter `methods=["GET", "POST"]` is specified in the route handler decorator. This means that the route handler will also accept "POST" requests also in addition to "GET" requests
-* Using `request.method` inside the route handler, we can differentiate whether the ro  
+* Using `request.method` inside the route handler, we can differentiate whether the route handler is triggered by a "GET" or "POST" request.
+
+### Accessing Form data in route 
 
 ## Example Jinja macro
 ```html
@@ -132,7 +134,7 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjM1NTAyNSwtMjA3NTQ3NTM2MSwxOT
+eyJoaXN0b3J5IjpbLTgwNDQ3NTEyNywtMjA3NTQ3NTM2MSwxOT
 I2ODEwNTk0LDIwMTU1NzMxMDYsNTExNDg2OTIyLC0xODI4MTg5
 MzI0LC0xNTIxMDQwNTk2XX0=
 -->
