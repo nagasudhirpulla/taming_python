@@ -24,8 +24,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 # server.py file
 from flask import Flask, render_template, request
 
+# create a server instance
 app = Flask(__name__)
 
+# configure a route handler
 @app.route("/", methods=["GET", "POST"])
 def index():
     if request.method == "POST":
@@ -34,6 +36,7 @@ def index():
         print("Email =", request.form["uEmail"])
     return render_template("basic.html.j2")
 
+# run the server
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
@@ -121,7 +124,7 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDE4MjM1OCwxOTI2ODEwNTk0LDIwMT
-U1NzMxMDYsNTExNDg2OTIyLC0xODI4MTg5MzI0LC0xNTIxMDQw
-NTk2XX0=
+eyJoaXN0b3J5IjpbMTcyNjI1NDIxLDE5MjY4MTA1OTQsMjAxNT
+U3MzEwNiw1MTE0ODY5MjIsLTE4MjgxODkzMjQsLTE1MjEwNDA1
+OTZdfQ==
 -->
