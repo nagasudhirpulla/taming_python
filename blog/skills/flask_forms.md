@@ -73,12 +73,14 @@ app.run(host="0.0.0.0", port=50100, debug=True)
     </table>
 </form>
 ```
+
+### Anatomy of a basic Form 
 * A form is created in the above jinja template using the `form` tag
 * Each form input is given a `name` attribute to identify the various inputs at the server side after the form is submitted
 * A button with the `type` attribute as "submit" is created inside the form tag to facilitate a form submit button.
 * Once the user clicks the submit button, a "POST" request is sent to the same page where the form inputs can be processed by the server's route handler
 
-### 
+### Server-side Form handling
 
 
 ## Example Jinja macro
@@ -129,7 +131,7 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjc5NjY0LDE5MjY4MTA1OTQsMjAxNT
-U3MzEwNiw1MTE0ODY5MjIsLTE4MjgxODkzMjQsLTE1MjEwNDA1
-OTZdfQ==
+eyJoaXN0b3J5IjpbLTE4NjEyNDIzMjgsMTkyNjgxMDU5NCwyMD
+E1NTczMTA2LDUxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0
+MDU5Nl19
 -->
