@@ -26,7 +26,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/", methods=["GET", "POST"])
 def index():
     return render_template("home.html.j2")
 
@@ -115,6 +115,6 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MjMwMDkxOCw1MTE0ODY5MjIsLTE4Mj
+eyJoaXN0b3J5IjpbLTg2MzA5MDIwNyw1MTE0ODY5MjIsLTE4Mj
 gxODkzMjQsLTE1MjEwNDA1OTZdfQ==
 -->
