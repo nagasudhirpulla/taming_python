@@ -222,15 +222,10 @@ color: red;
 </style>
 ```
 
-### Video
-The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oq0V3o1DB7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzA2MjUxMDAsLTgyMjAzNDM3NCwtMT
+eyJoaXN0b3J5IjpbLTE5Njg4NTI5NzMsLTgyMjAzNDM3NCwtMT
 E2Mzk4NzEzNywxMTkxNTEyMTU0LDI5ODUxMzgzOCwxNjc1NjYx
 MzU4LC03NjkxNjgxNzUsLTIwNzU0NzUzNjEsMTkyNjgxMDU5NC
 wyMDE1NTczMTA2LDUxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMTUy
