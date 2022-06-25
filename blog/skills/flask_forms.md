@@ -102,7 +102,28 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Notice that the form data is preserved after the post request also using the `request.form` variable in the jinja template 
 
 ```python
+from flask import Flask, render_template, request
 
+# create a server instance
+app = Flask(__name__)
+
+# configure a route handler
+@app.route("/", methods=["GET", "POST"])
+def index():
+    errors = {}
+    if request.method == "POST":
+        uname = request.form["uName"]
+        print("Name =", uname)
+        print("Phone =", request.form["uPhone"])
+        print("Email =", request.form["uEmail"])
+                
+        # check if the username starts with an alphabet
+        if not uname[0].isalpha():
+            errors["uName"] = ["username should start with alphabets"]
+    return render_template("basic.html.j2", errors=errors)
+
+# run the server
+app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
 ```html
@@ -182,8 +203,9 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjAzNDM3NCwtMTE2Mzk4NzEzNywxMT
-kxNTEyMTU0LDI5ODUxMzgzOCwxNjc1NjYxMzU4LC03NjkxNjgx
-NzUsLTIwNzU0NzUzNjEsMTkyNjgxMDU5NCwyMDE1NTczMTA2LD
-UxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0MDU5Nl19
+eyJoaXN0b3J5IjpbLTE5NjUxMzM1MzUsLTgyMjAzNDM3NCwtMT
+E2Mzk4NzEzNywxMTkxNTEyMTU0LDI5ODUxMzgzOCwxNjc1NjYx
+MzU4LC03NjkxNjgxNzUsLTIwNzU0NzUzNjEsMTkyNjgxMDU5NC
+wyMDE1NTczMTA2LDUxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMTUy
+MTA0MDU5Nl19
 -->
