@@ -81,7 +81,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Once the user clicks the submit button, a "POST" request is sent to the same page where the form inputs can be processed by the server's route handler
 
 ### Front-end validation
-* 
+* Using simple HTML attributes like "required", "minlength", "min", "max" can  
 
 ### Server-side Form handling
 * To handle the POST request sent by the browser, an additional parameter `methods=["GET", "POST"]` is specified in the route handler decorator. This means that the route handler will also accept "POST" requests also in addition to "GET" requests
@@ -139,7 +139,8 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTY2MTM1OCwtNzY5MTY4MTc1LC0yMD
-c1NDc1MzYxLDE5MjY4MTA1OTQsMjAxNTU3MzEwNiw1MTE0ODY5
-MjIsLTE4MjgxODkzMjQsLTE1MjEwNDA1OTZdfQ==
+eyJoaXN0b3J5IjpbNTAzNzcxMzIsMTY3NTY2MTM1OCwtNzY5MT
+Y4MTc1LC0yMDc1NDc1MzYxLDE5MjY4MTA1OTQsMjAxNTU3MzEw
+Niw1MTE0ODY5MjIsLTE4MjgxODkzMjQsLTE1MjEwNDA1OTZdfQ
+==
 -->
