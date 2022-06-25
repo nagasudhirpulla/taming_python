@@ -32,6 +32,7 @@ def index():
 
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
+
 ```html
 <!-- templates/home.html.j2 file -->
 <p>Hi, please fill this form</p>
@@ -114,6 +115,6 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njc4MDMzODQsNTExNDg2OTIyLC0xOD
-I4MTg5MzI0LC0xNTIxMDQwNTk2XX0=
+eyJoaXN0b3J5IjpbMjA0MjMwMDkxOCw1MTE0ODY5MjIsLTE4Mj
+gxODkzMjQsLTE1MjEwNDA1OTZdfQ==
 -->
