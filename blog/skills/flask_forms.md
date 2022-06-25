@@ -82,7 +82,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ### Front-end validation
 * Front-end input validation in the browser can be achieved using simple HTML attributes like "required", "minlength", "min", "max"
-* Third-party JavaScript libraries like validator.js can also be used for front
+* Third-party JavaScript libraries like validator.js can also be used for front-end validation in the browser
 
 ### Server-side Form handling
 * To handle the POST request sent by the browser, an additional parameter `methods=["GET", "POST"]` is specified in the route handler decorator. This means that the route handler will also accept "POST" requests also in addition to "GET" requests
@@ -140,8 +140,8 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA0NzI1NTU3LDI5ODUxMzgzOCwxNjc1Nj
-YxMzU4LC03NjkxNjgxNzUsLTIwNzU0NzUzNjEsMTkyNjgxMDU5
-NCwyMDE1NTczMTA2LDUxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMT
-UyMTA0MDU5Nl19
+eyJoaXN0b3J5IjpbLTE4Njk1MDM5MDIsMjk4NTEzODM4LDE2Nz
+U2NjEzNTgsLTc2OTE2ODE3NSwtMjA3NTQ3NTM2MSwxOTI2ODEw
+NTk0LDIwMTU1NzMxMDYsNTExNDg2OTIyLC0xODI4MTg5MzI0LC
+0xNTIxMDQwNTk2XX0=
 -->
