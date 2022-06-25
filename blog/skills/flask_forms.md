@@ -23,7 +23,6 @@ Please make sure to have all the skills mentioned above to understand and execut
 ```py
 # server.py file
 from flask import Flask, render_template, request
-
 app = Flask(__name__)
 
 @app.route("/", methods=["GET", "POST"])
@@ -121,7 +120,7 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDE4MjM1OCwxOTI2ODEwNTk0LDIwMT
-U1NzMxMDYsNTExNDg2OTIyLC0xODI4MTg5MzI0LC0xNTIxMDQw
-NTk2XX0=
+eyJoaXN0b3J5IjpbNzMzMjQ4MDYwLDE5MjY4MTA1OTQsMjAxNT
+U3MzEwNiw1MTE0ODY5MjIsLTE4MjgxODkzMjQsLTE1MjEwNDA1
+OTZdfQ==
 -->
