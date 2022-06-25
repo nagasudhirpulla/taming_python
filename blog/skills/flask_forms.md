@@ -81,7 +81,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Once the user clicks the submit button, a "POST" request is sent to the same page where the form inputs can be processed by the server's route handler
 
 ### Server-side Form handling
-* To handle the POST request sent the browser, an additional parameter `methods=["GET", "POST"]` are specified in the route handler decorator. This means that the route handler will also accept "POST" requests also in addition to "GET" requests
+* To handle the POST request sent by the browser, an additional parameter `methods=["GET", "POST"]` is specified in the route handler decorator. This means that the route handler will also accept "POST" requests also in addition to "GET" requests
 * 
 
 ## Example Jinja macro
@@ -132,7 +132,7 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzU0NzUzNjEsMTkyNjgxMDU5NCwyMD
-E1NTczMTA2LDUxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0
-MDU5Nl19
+eyJoaXN0b3J5IjpbLTQ2MjIxMjQwMCwtMjA3NTQ3NTM2MSwxOT
+I2ODEwNTk0LDIwMTU1NzMxMDYsNTExNDg2OTIyLC0xODI4MTg5
+MzI0LC0xNTIxMDQwNTk2XX0=
 -->
