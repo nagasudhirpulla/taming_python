@@ -222,12 +222,10 @@ color: red;
 </style>
 ```
 
-### References
-* official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njg4NTI5NzMsLTgyMjAzNDM3NCwtMT
-E2Mzk4NzEzNywxMTkxNTEyMTU0LDI5ODUxMzgzOCwxNjc1NjYx
-MzU4LC03NjkxNjgxNzUsLTIwNzU0NzUzNjEsMTkyNjgxMDU5NC
-wyMDE1NTczMTA2LDUxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMTUy
-MTA0MDU5Nl19
+eyJoaXN0b3J5IjpbNTI5NDkwOTcwLC04MjIwMzQzNzQsLTExNj
+M5ODcxMzcsMTE5MTUxMjE1NCwyOTg1MTM4MzgsMTY3NTY2MTM1
+OCwtNzY5MTY4MTc1LC0yMDc1NDc1MzYxLDE5MjY4MTA1OTQsMj
+AxNTU3MzEwNiw1MTE0ODY5MjIsLTE4MjgxODkzMjQsLTE1MjEw
+NDA1OTZdfQ==
 -->
