@@ -22,12 +22,14 @@ Please make sure to have all the skills mentioned above to understand and execut
 * The page contains a simple form with 3 inputs for capturing name, phone and email
 ```py
 # server.py file
-from flask import Flask, render_template
+from flask import Flask, render_template, request, 
 
 app = Flask(__name__)
 
 @app.route("/", methods=["GET", "POST"])
 def index():
+    if  request.method == "POST":
+        print(request.form["uname"])
     return render_template("home.html.j2")
 
 app.run(host="0.0.0.0", port=50100, debug=True)
@@ -117,6 +119,6 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTM1MzU1NiwyMDE1NTczMTA2LDUxMT
-Q4NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0MDU5Nl19
+eyJoaXN0b3J5IjpbNTE1Njk5NTU3LDIwMTU1NzMxMDYsNTExND
+g2OTIyLC0xODI4MTg5MzI0LC0xNTIxMDQwNTk2XX0=
 -->
