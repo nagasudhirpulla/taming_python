@@ -92,7 +92,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * The `request.form` object inside the route handler will contain the form data as a dictionary
 * For example in the "POST" request route handler, `request.form["uName"]` will have the username entered in the form since "uName" is the "name" attribute of the username HTML input tag
 
-## Example Jinja macro
+## Server
 ```html
 <!-- templates/_formhelpers.html.j2 file -->
 {% macro render_input(label, inpName, inpType="text", showErrors="true", errors=[]) %}
@@ -140,8 +140,8 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk1MDM5MDIsMjk4NTEzODM4LDE2Nz
-U2NjEzNTgsLTc2OTE2ODE3NSwtMjA3NTQ3NTM2MSwxOTI2ODEw
-NTk0LDIwMTU1NzMxMDYsNTExNDg2OTIyLC0xODI4MTg5MzI0LC
-0xNTIxMDQwNTk2XX0=
+eyJoaXN0b3J5IjpbMTU1MjI3MjAyMSwyOTg1MTM4MzgsMTY3NT
+Y2MTM1OCwtNzY5MTY4MTc1LC0yMDc1NDc1MzYxLDE5MjY4MTA1
+OTQsMjAxNTU3MzEwNiw1MTE0ODY5MjIsLTE4MjgxODkzMjQsLT
+E1MjEwNDA1OTZdfQ==
 -->
