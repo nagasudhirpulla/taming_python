@@ -97,7 +97,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Hence server-side form validation is important for improving the forms security and complex validation scenarios
 
 ### Server side form validation example
-* In the follwi
+* In the following server code, the user name of the form is validated in the route handler to check if user name starts with an alphabet.
+* An additional "errors" object s 
 
 ```html
 <!-- templates/_formhelpers.html.j2 file -->
@@ -146,8 +147,8 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjQ0MjI1NSwxMTkxNTEyMTU0LDI5OD
-UxMzgzOCwxNjc1NjYxMzU4LC03NjkxNjgxNzUsLTIwNzU0NzUz
-NjEsMTkyNjgxMDU5NCwyMDE1NTczMTA2LDUxMTQ4NjkyMiwtMT
-gyODE4OTMyNCwtMTUyMTA0MDU5Nl19
+eyJoaXN0b3J5IjpbLTE0NzQ4MjQ1LDExOTE1MTIxNTQsMjk4NT
+EzODM4LDE2NzU2NjEzNTgsLTc2OTE2ODE3NSwtMjA3NTQ3NTM2
+MSwxOTI2ODEwNTk0LDIwMTU1NzMxMDYsNTExNDg2OTIyLC0xOD
+I4MTg5MzI0LC0xNTIxMDQwNTk2XX0=
 -->
