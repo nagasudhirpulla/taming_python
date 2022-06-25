@@ -81,7 +81,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Once the user clicks the submit button, a "POST" request is sent to the same page where the form inputs can be processed by the server's route handler
 
 ### Server-side Form handling
-
+* To handle the POST request sent the browser, an additional input
 
 ## Example Jinja macro
 ```html
@@ -131,7 +131,7 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjEyNDIzMjgsMTkyNjgxMDU5NCwyMD
-E1NTczMTA2LDUxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0
-MDU5Nl19
+eyJoaXN0b3J5IjpbNzQ4NTc5MTA2LDE5MjY4MTA1OTQsMjAxNT
+U3MzEwNiw1MTE0ODY5MjIsLTE4MjgxODkzMjQsLTE1MjEwNDA1
+OTZdfQ==
 -->
