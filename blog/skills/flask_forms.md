@@ -96,6 +96,9 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Performing server side form validation is important since the browser is not in the server's control and complex inputs validations may not be implemented in the browser
 * Hence server-side form validation is important for improving the forms security and complex validation scenarios
 
+### Server side form validation example
+* In the follwi
+
 ```html
 <!-- templates/_formhelpers.html.j2 file -->
 {% macro render_input(label, inpName, inpType="text", showErrors="true", errors=[]) %}
@@ -143,8 +146,8 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTUxMjE1NCwyOTg1MTM4MzgsMTY3NT
-Y2MTM1OCwtNzY5MTY4MTc1LC0yMDc1NDc1MzYxLDE5MjY4MTA1
-OTQsMjAxNTU3MzEwNiw1MTE0ODY5MjIsLTE4MjgxODkzMjQsLT
-E1MjEwNDA1OTZdfQ==
+eyJoaXN0b3J5IjpbMTY5NjQ0MjI1NSwxMTkxNTEyMTU0LDI5OD
+UxMzgzOCwxNjc1NjYxMzU4LC03NjkxNjgxNzUsLTIwNzU0NzUz
+NjEsMTkyNjgxMDU5NCwyMDE1NTczMTA2LDUxMTQ4NjkyMiwtMT
+gyODE4OTMyNCwtMTUyMTA0MDU5Nl19
 -->
