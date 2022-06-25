@@ -104,6 +104,54 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```python
 
 ```
+
+```html
+<p>Hi, please fill this form</p>
+
+<form method="post">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>
+                <input type="text" name="uName" value="{{request.form['uName']}}" required minlength="4"/>
+                <ul>
+                {% for e in errors["uName"] %}
+                    <li><span class="form-error">{{e}}</span></li>
+                {% endfor %}
+                </ul>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Phone</td>
+            <td>
+                <input type="number" name="uPhone" value="{{request.form['uPhone']}}" required />
+                <ul>
+                {% for e in errors["uPhone"] %}
+                    <li><span class="form-error">{{e}}</span></li>
+                {% endfor %}
+                </ul>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" name="uEmail" value="{{request.form['uEmail']}}" required />
+                <ul>
+                {% for e in errors["uEmail"] %}
+                    <li><span class="form-error">{{e}}</span></li>
+                {% endfor %}
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td><button type="submit">Submit</button></td>
+        </tr>
+    </table>
+</form>
+```
 * In the above example, a macro named `render_input` is declared using the `{% macro %} {% endmacro %}` jinja tags
 * The inputs of macro are declared just like python functions. Default input values can also be declared
 * All the jinja template in between the `{% macro %} {% endmacro %}` tags will be rendered based on the input parameters when the macro is called
@@ -134,8 +182,8 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjM5ODcxMzcsMTE5MTUxMjE1NCwyOT
-g1MTM4MzgsMTY3NTY2MTM1OCwtNzY5MTY4MTc1LC0yMDc1NDc1
-MzYxLDE5MjY4MTA1OTQsMjAxNTU3MzEwNiw1MTE0ODY5MjIsLT
-E4MjgxODkzMjQsLTE1MjEwNDA1OTZdfQ==
+eyJoaXN0b3J5IjpbLTgyMjAzNDM3NCwtMTE2Mzk4NzEzNywxMT
+kxNTEyMTU0LDI5ODUxMzgzOCwxNjc1NjYxMzU4LC03NjkxNjgx
+NzUsLTIwNzU0NzUzNjEsMTkyNjgxMDU5NCwyMDE1NTczMTA2LD
+UxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0MDU5Nl19
 -->
