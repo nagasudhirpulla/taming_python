@@ -224,12 +224,13 @@ color: red;
 
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
-* 
+* Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjI0MjgyODAsMTE4NjEzNDgzNCw1Mj
-k0OTA5NzAsLTgyMjAzNDM3NCwtMTE2Mzk4NzEzNywxMTkxNTEy
-MTU0LDI5ODUxMzgzOCwxNjc1NjYxMzU4LC03NjkxNjgxNzUsLT
-IwNzU0NzUzNjEsMTkyNjgxMDU5NCwyMDE1NTczMTA2LDUxMTQ4
-NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0MDU5Nl19
+eyJoaXN0b3J5IjpbMTI3NzY1OTIzMywtMTg2MjQyODI4MCwxMT
+g2MTM0ODM0LDUyOTQ5MDk3MCwtODIyMDM0Mzc0LC0xMTYzOTg3
+MTM3LDExOTE1MTIxNTQsMjk4NTEzODM4LDE2NzU2NjEzNTgsLT
+c2OTE2ODE3NSwtMjA3NTQ3NTM2MSwxOTI2ODEwNTk0LDIwMTU1
+NzMxMDYsNTExNDg2OTIyLC0xODI4MTg5MzI0LC0xNTIxMDQwNT
+k2XX0=
 -->
