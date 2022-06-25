@@ -74,7 +74,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 </form>
 ```
 * A form is created in the above jinja template using the `form` tag
-* Each form input is given a `name` attribute to identify the 
+* Each form input is given a `name` attribute to identify the various inputs at the server side after the form is submitted
+* 
 ### 
 
 
@@ -126,7 +127,7 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTMyODUzNDEsMTkyNjgxMDU5NCwyMD
+eyJoaXN0b3J5IjpbLTExODY2MDUyMTUsMTkyNjgxMDU5NCwyMD
 E1NTczMTA2LDUxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0
 MDU5Nl19
 -->
