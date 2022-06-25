@@ -80,14 +80,16 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * A button with the `type` attribute as "submit" is created inside the form tag to facilitate a form submit button.
 * Once the user clicks the submit button, a "POST" request is sent to the same page where the form inputs can be processed by the server's route handler
 
+### Front-end validation
+* 
+
 ### Server-side Form handling
 * To handle the POST request sent by the browser, an additional parameter `methods=["GET", "POST"]` is specified in the route handler decorator. This means that the route handler will also accept "POST" requests also in addition to "GET" requests
 * Using `request.method` inside the route handler, we can differentiate whether the route handler is triggered by a "GET" or "POST" request.
 
 ### Accessing Form data in route handler
 * The `request.form` object inside the route handler will contain the form data as a dictionary
-* For example in the "POST" request route handler, `request.form["uName"]` will have the username entered in the form since "uName" is the "name" attribute of the username HTML input tag  
-
+* For example in the "POST" request route handler, `request.form["uName"]` will have the username entered in the form since "uName" is the "name" attribute of the username HTML input tag
 
 ## Example Jinja macro
 ```html
@@ -137,7 +139,7 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDkzNzg0OSwtNzY5MTY4MTc1LC0yMD
+eyJoaXN0b3J5IjpbMTY3NTY2MTM1OCwtNzY5MTY4MTc1LC0yMD
 c1NDc1MzYxLDE5MjY4MTA1OTQsMjAxNTU3MzEwNiw1MTE0ODY5
 MjIsLTE4MjgxODkzMjQsLTE1MjEwNDA1OTZdfQ==
 -->
