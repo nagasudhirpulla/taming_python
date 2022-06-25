@@ -19,6 +19,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * The below server.py is a simple flask server
 * It serves `home.html.j2` template present in the `templates` folder
 * The page can be accessed at `http://localhost:50100`
+* 
 ```py
 # server.py file
 from flask import Flask, render_template
@@ -80,5 +81,6 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjEwNDA1OTZdfQ==
+eyJoaXN0b3J5IjpbLTE4MjgxODkzMjQsLTE1MjEwNDA1OTZdfQ
+==
 -->
