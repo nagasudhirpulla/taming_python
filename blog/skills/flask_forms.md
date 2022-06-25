@@ -1,4 +1,4 @@
-## Skill - Forms with basic front-end and server-side validation in python Flask server
+## Skill - Forms with basic front-end and server-side validation in Flask web application
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -13,8 +13,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* In this post we will learn how to create a form in python flask web application
-* Jinja macro will render a jinja template based on the inputs provided to it. Jinja macro is similar to a function in python
+* In this post we will learn how to create a form in a python flask web application
+*
 
 ## Example
 * The below server.py is a simple flask server
@@ -81,5 +81,5 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwNDc3NTUxXX0=
+eyJoaXN0b3J5IjpbLTExODk1Mzk3NDddfQ==
 -->
