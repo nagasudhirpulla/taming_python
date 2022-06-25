@@ -73,7 +73,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
     </table>
 </form>
 ```
-
+![flask_form_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/flask_form_demo.png)
 ### Anatomy of a basic Form 
 * A form is created in the above jinja template using the `form` tag
 * Each form input is given a `name` attribute to identify the various inputs at the server side after the form is submitted
@@ -227,10 +227,10 @@ color: red;
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzY1OTIzMywtMTg2MjQyODI4MCwxMT
-g2MTM0ODM0LDUyOTQ5MDk3MCwtODIyMDM0Mzc0LC0xMTYzOTg3
-MTM3LDExOTE1MTIxNTQsMjk4NTEzODM4LDE2NzU2NjEzNTgsLT
-c2OTE2ODE3NSwtMjA3NTQ3NTM2MSwxOTI2ODEwNTk0LDIwMTU1
-NzMxMDYsNTExNDg2OTIyLC0xODI4MTg5MzI0LC0xNTIxMDQwNT
-k2XX0=
+eyJoaXN0b3J5IjpbMTY4NDQzMzA4MywxMjc3NjU5MjMzLC0xOD
+YyNDI4MjgwLDExODYxMzQ4MzQsNTI5NDkwOTcwLC04MjIwMzQz
+NzQsLTExNjM5ODcxMzcsMTE5MTUxMjE1NCwyOTg1MTM4MzgsMT
+Y3NTY2MTM1OCwtNzY5MTY4MTc1LC0yMDc1NDc1MzYxLDE5MjY4
+MTA1OTQsMjAxNTU3MzEwNiw1MTE0ODY5MjIsLTE4MjgxODkzMj
+QsLTE1MjEwNDA1OTZdfQ==
 -->
