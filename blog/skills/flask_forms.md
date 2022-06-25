@@ -222,10 +222,14 @@ color: red;
 </style>
 ```
 
+## References
+* Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
+* 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjEzNDgzNCw1Mjk0OTA5NzAsLTgyMj
-AzNDM3NCwtMTE2Mzk4NzEzNywxMTkxNTEyMTU0LDI5ODUxMzgz
-OCwxNjc1NjYxMzU4LC03NjkxNjgxNzUsLTIwNzU0NzUzNjEsMT
-kyNjgxMDU5NCwyMDE1NTczMTA2LDUxMTQ4NjkyMiwtMTgyODE4
-OTMyNCwtMTUyMTA0MDU5Nl19
+eyJoaXN0b3J5IjpbLTE4NjI0MjgyODAsMTE4NjEzNDgzNCw1Mj
+k0OTA5NzAsLTgyMjAzNDM3NCwtMTE2Mzk4NzEzNywxMTkxNTEy
+MTU0LDI5ODUxMzgzOCwxNjc1NjYxMzU4LC03NjkxNjgxNzUsLT
+IwNzU0NzUzNjEsMTkyNjgxMDU5NCwyMDE1NTczMTA2LDUxMTQ4
+NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0MDU5Nl19
 -->
