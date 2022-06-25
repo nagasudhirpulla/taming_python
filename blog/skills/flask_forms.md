@@ -15,7 +15,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 * In this post we will learn how to create a form in a python flask web application and perform basic front-end and server-side form inputs validation
 
-## Basic Form example
+## Basic Form example with front-end validation
 * The below server.py is a simple flask server
 * It serves `home.html.j2` template present in the `templates` folder
 * The page can be accessed at `http://localhost:50100`
@@ -124,7 +124,7 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjI1NDIxLDE5MjY4MTA1OTQsMjAxNT
-U3MzEwNiw1MTE0ODY5MjIsLTE4MjgxODkzMjQsLTE1MjEwNDA1
-OTZdfQ==
+eyJoaXN0b3J5IjpbMTg3MDc5ODIxNywxOTI2ODEwNTk0LDIwMT
+U1NzMxMDYsNTExNDg2OTIyLC0xODI4MTg5MzI0LC0xNTIxMDQw
+NTk2XX0=
 -->
