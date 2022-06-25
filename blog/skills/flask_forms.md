@@ -75,7 +75,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 * A form is created in the above jinja template using the `form` tag
 * Each form input is given a `name` attribute to identify the various inputs at the server side after the form is submitted
-* 
+* A button with the `type` attribute as "submit" is created inside the form tag to facilitate a form submit button.
+* Once the user clicks the submit button or presses
 ### 
 
 
@@ -127,7 +128,7 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODY2MDUyMTUsMTkyNjgxMDU5NCwyMD
-E1NTczMTA2LDUxMTQ4NjkyMiwtMTgyODE4OTMyNCwtMTUyMTA0
-MDU5Nl19
+eyJoaXN0b3J5IjpbMTgwNTY5NTI4OSwxOTI2ODEwNTk0LDIwMT
+U1NzMxMDYsNTExNDg2OTIyLC0xODI4MTg5MzI0LC0xNTIxMDQw
+NTk2XX0=
 -->
