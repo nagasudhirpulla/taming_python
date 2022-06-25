@@ -42,7 +42,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
         <tr>
             <td>Name</td>
             <td>
-                <input type="text" name="uName" required minlength="8" />
+                <input type="text" name="uName" required minlength="4" />
             </td>
         </tr>
         
@@ -115,6 +115,6 @@ The video for this post can be seen [here](https://youtu.be/oq0V3o1DB7M)
 ### References
 * official docs - https://jinja.palletsprojects.com/en/3.1.x/templates/#macros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTU3MzEwNiw1MTE0ODY5MjIsLTE4Mj
-gxODkzMjQsLTE1MjEwNDA1OTZdfQ==
+eyJoaXN0b3J5IjpbLTE0Mzg0MTE0MTAsMjAxNTU3MzEwNiw1MT
+E0ODY5MjIsLTE4MjgxODkzMjQsLTE1MjEwNDA1OTZdfQ==
 -->
