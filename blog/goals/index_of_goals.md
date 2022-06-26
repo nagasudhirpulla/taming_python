@@ -134,6 +134,8 @@ Here are the goals and skills in this tutorial series
 * [Serve static files in flask](https://nagasudhir.blogspot.com/2022/04/serve-static-files-in-flask.html)
 * [jinja templates in flask](https://nagasudhir.blogspot.com/2022/04/jinja-templates-in-flask.html)
 * [Template inheritance in Flask jinja templates ](https://nagasudhir.blogspot.com/2022/04/template-inheritance-in-flask-jinja.html)
+* [Macros in python flask jinja templates](https://nagasudhir.blogspot.com/2022/05/macros-in-python-flask-jinja-templates.html)
+* [Forms with front-end and server-side validation in Flask web applications](https://nagasudhir.blogspot.com/2022/06/forms-with-front-end-and-server-side.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -141,11 +143,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTI4MDU5ODkwOCw1NjY0OD
-EwMzYsLTE5MDY1MzgxNjQsLTIxMDk1MzYyOTIsLTEyNjExNDMy
-NywtMTczODUxMTQyOCwxNDY0OTA2NzA2LC0xNTY3MTQ1NTMyLC
-0xOTExMDY0MTU3LDE3MDUxOTA2MTIsODA2MTM3NjA3LDk5NzY4
-ODEzNCwtMTIzMzcyMTE4LC0xNzg4MTczMDEwLDg4MTA1MjUyOS
-w4OTY0NzczNjYsLTI5NzQyMjg3MSwtNjE2NzIxNDU1LDUzODgx
-NDg4NSw4NzY4NDgyNTRdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTczOTgxOTAzMiwxMjgwNT
+k4OTA4LDU2NjQ4MTAzNiwtMTkwNjUzODE2NCwtMjEwOTUzNjI5
+MiwtMTI2MTE0MzI3LC0xNzM4NTExNDI4LDE0NjQ5MDY3MDYsLT
+E1NjcxNDU1MzIsLTE5MTEwNjQxNTcsMTcwNTE5MDYxMiw4MDYx
+Mzc2MDcsOTk3Njg4MTM0LC0xMjMzNzIxMTgsLTE3ODgxNzMwMT
+AsODgxMDUyNTI5LDg5NjQ3NzM2NiwtMjk3NDIyODcxLC02MTY3
+MjE0NTUsNTM4ODE0ODg1XX0=
 -->
