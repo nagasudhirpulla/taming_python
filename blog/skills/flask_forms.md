@@ -222,15 +222,20 @@ color: red;
 </style>
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ve-3ho66a_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDQzMzA4MywxMjc3NjU5MjMzLC0xOD
-YyNDI4MjgwLDExODYxMzQ4MzQsNTI5NDkwOTcwLC04MjIwMzQz
-NzQsLTExNjM5ODcxMzcsMTE5MTUxMjE1NCwyOTg1MTM4MzgsMT
-Y3NTY2MTM1OCwtNzY5MTY4MTc1LC0yMDc1NDc1MzYxLDE5MjY4
-MTA1OTQsMjAxNTU3MzEwNiw1MTE0ODY5MjIsLTE4MjgxODkzMj
-QsLTE1MjEwNDA1OTZdfQ==
+eyJoaXN0b3J5IjpbLTIwODYwNDgxMzYsMTY4NDQzMzA4MywxMj
+c3NjU5MjMzLC0xODYyNDI4MjgwLDExODYxMzQ4MzQsNTI5NDkw
+OTcwLC04MjIwMzQzNzQsLTExNjM5ODcxMzcsMTE5MTUxMjE1NC
+wyOTg1MTM4MzgsMTY3NTY2MTM1OCwtNzY5MTY4MTc1LC0yMDc1
+NDc1MzYxLDE5MjY4MTA1OTQsMjAxNTU3MzEwNiw1MTE0ODY5Mj
+IsLTE4MjgxODkzMjQsLTE1MjEwNDA1OTZdfQ==
 -->
