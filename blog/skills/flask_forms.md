@@ -1,4 +1,4 @@
-## Skill - Forms with basic front-end and server-side validation in Flask web application
+## Skill - Forms with front-end and server-side validation in Flask web applications
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -232,10 +232,10 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODYwNDgxMzYsMTY4NDQzMzA4MywxMj
-c3NjU5MjMzLC0xODYyNDI4MjgwLDExODYxMzQ4MzQsNTI5NDkw
-OTcwLC04MjIwMzQzNzQsLTExNjM5ODcxMzcsMTE5MTUxMjE1NC
-wyOTg1MTM4MzgsMTY3NTY2MTM1OCwtNzY5MTY4MTc1LC0yMDc1
-NDc1MzYxLDE5MjY4MTA1OTQsMjAxNTU3MzEwNiw1MTE0ODY5Mj
-IsLTE4MjgxODkzMjQsLTE1MjEwNDA1OTZdfQ==
+eyJoaXN0b3J5IjpbODc3MjE0NTA5LDE2ODQ0MzMwODMsMTI3Nz
+Y1OTIzMywtMTg2MjQyODI4MCwxMTg2MTM0ODM0LDUyOTQ5MDk3
+MCwtODIyMDM0Mzc0LC0xMTYzOTg3MTM3LDExOTE1MTIxNTQsMj
+k4NTEzODM4LDE2NzU2NjEzNTgsLTc2OTE2ODE3NSwtMjA3NTQ3
+NTM2MSwxOTI2ODEwNTk0LDIwMTU1NzMxMDYsNTExNDg2OTIyLC
+0xODI4MTg5MzI0LC0xNTIxMDQwNTk2XX0=
 -->
