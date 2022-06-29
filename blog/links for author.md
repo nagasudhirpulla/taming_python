@@ -12,7 +12,7 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 * naming conventions for classes (nouns), variables (nouns), functions (verbs), using camel case, avoid obvious names and use contextual names for better readability
 * flask directory browsing
 * flask sub hosting
-* WTForms - https://wtforms.readthedocs.io/en/3.0.x/
+* WTForms - https://wtforms.readthedocs.io/en/3.0.x/fields/#basic-fields
 Form Object - https://github.com/nagasudhirpulla/wrldc_codebook/blob/master/src/routeControllers/elementCode.py
 Form Template - https://github.com/nagasudhirpulla/wrldc_codebook/blob/master/src/routeControllers/elementCode.py
 Form Macro - https://github.com/nagasudhirpulla/wrldc_codebook/blob/master/templates/_formhelpers.html.j2
@@ -20,11 +20,11 @@ Form Macro - https://github.com/nagasudhirpulla/wrldc_codebook/blob/master/templ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzIzMDEyMyw3NjYxOTU2MDUsMTM0Mj
-Y3Nzc2MSwtOTUyODA5NTk4LDQ3OTc3MzIzNSwtNjEzNTU3MTk0
-LC05Mjc1MzI0OTEsNzk1NzYzMzM1LC02NTY3Mzc5OTcsLTE2Mz
-IzOTIwODcsLTIyOTYyOTU1NywxOTI0MjYzOTg4LDEzOTEzOTQw
-NjAsMTI1ODI4NjIzNywtODkwMjM5MTAwLC0xMTQ0OTExNDM3LC
-0zNjQ1ODgxMzYsLTE2MDc1NTY0NjgsLTExOTM5ODk4NzAsOTkw
-NTEzMTExXX0=
+eyJoaXN0b3J5IjpbMTU4NDgyODAxNiwyMTIzMjMwMTIzLDc2Nj
+E5NTYwNSwxMzQyNjc3NzYxLC05NTI4MDk1OTgsNDc5NzczMjM1
+LC02MTM1NTcxOTQsLTkyNzUzMjQ5MSw3OTU3NjMzMzUsLTY1Nj
+czNzk5NywtMTYzMjM5MjA4NywtMjI5NjI5NTU3LDE5MjQyNjM5
+ODgsMTM5MTM5NDA2MCwxMjU4Mjg2MjM3LC04OTAyMzkxMDAsLT
+ExNDQ5MTE0MzcsLTM2NDU4ODEzNiwtMTYwNzU1NjQ2OCwtMTE5
+Mzk4OTg3MF19
 -->
