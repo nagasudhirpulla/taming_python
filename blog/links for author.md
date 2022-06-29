@@ -16,15 +16,16 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 Form Object - https://github.com/nagasudhirpulla/wrldc_codebook/blob/master/src/routeControllers/elementCode.py
 Form Template - https://github.com/nagasudhirpulla/wrldc_codebook/blob/master/src/routeControllers/elementCode.py
 Form Macro - https://github.com/nagasudhirpulla/wrldc_codebook/blob/master/templates/_formhelpers.html.j2
+custom validation - https://techmonger.github.io/64/wtf-custom-validation-hack/
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDgyODAxNiwyMTIzMjMwMTIzLDc2Nj
-E5NTYwNSwxMzQyNjc3NzYxLC05NTI4MDk1OTgsNDc5NzczMjM1
-LC02MTM1NTcxOTQsLTkyNzUzMjQ5MSw3OTU3NjMzMzUsLTY1Nj
-czNzk5NywtMTYzMjM5MjA4NywtMjI5NjI5NTU3LDE5MjQyNjM5
-ODgsMTM5MTM5NDA2MCwxMjU4Mjg2MjM3LC04OTAyMzkxMDAsLT
-ExNDQ5MTE0MzcsLTM2NDU4ODEzNiwtMTYwNzU1NjQ2OCwtMTE5
-Mzk4OTg3MF19
+eyJoaXN0b3J5IjpbLTM2MTcyOTMyMywxNTg0ODI4MDE2LDIxMj
+MyMzAxMjMsNzY2MTk1NjA1LDEzNDI2Nzc3NjEsLTk1MjgwOTU5
+OCw0Nzk3NzMyMzUsLTYxMzU1NzE5NCwtOTI3NTMyNDkxLDc5NT
+c2MzMzNSwtNjU2NzM3OTk3LC0xNjMyMzkyMDg3LC0yMjk2Mjk1
+NTcsMTkyNDI2Mzk4OCwxMzkxMzk0MDYwLDEyNTgyODYyMzcsLT
+g5MDIzOTEwMCwtMTE0NDkxMTQzNywtMzY0NTg4MTM2LC0xNjA3
+NTU2NDY4XX0=
 -->
