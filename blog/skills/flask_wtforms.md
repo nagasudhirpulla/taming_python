@@ -14,7 +14,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* In this post we will learn how to create a form in a python flask web application and perform basic front-end and server-side form inputs validation
+* In this post we will learn how to use WTForms for efficient and easy forms management in Flask web applications.
+* WTForms also helps in writing less code and reducing the manual errors 
 
 ## Basic Form example with front-end validation
 * The below `server.py` is a simple flask server
@@ -232,5 +233,5 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTgyMDM1ODldfQ==
+eyJoaXN0b3J5IjpbLTEwNTg0MzA4NTVdfQ==
 -->
