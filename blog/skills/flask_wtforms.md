@@ -29,7 +29,7 @@ python -m pip install WTForms
 
 ## The Form object
 * The labels, data types, names etc of all the form fields can be defined as an object of the `Form` class from the wtforms library
-* This form object can be used to 
+* This form object can be used to easily accomplish the following tasks 
 	* render form inputs in the template
 	* perform server-side form inputs validation
 	* extract form data
@@ -251,6 +251,6 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5NjExNzY0LC0xMDYwODMzOTE0LDE0Mz
-MwNzE2NDIsNTE3Mzk2MTk5XX0=
+eyJoaXN0b3J5IjpbLTE2NjExMjU0OTYsLTEwNjA4MzM5MTQsMT
+QzMzA3MTY0Miw1MTczOTYxOTldfQ==
 -->
