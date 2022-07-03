@@ -28,7 +28,8 @@ python -m pip install WTForms
 ![wtforms_example_form image](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/wtforms_example_form.PNG)
 
 ## The Form object
-* The labels, data types, names etc of all the form fields can be defined as a 
+* The labels, data types, names etc of all the form fields can be defined as an object of the `Form` class of the wtforms library
+* 
 
 ## Basic Form example with front-end validation
 * The below `server.py` is a simple flask server
@@ -246,6 +247,6 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTA5NzkxNCwxNDMzMDcxNjQyLDUxNz
-M5NjE5OV19
+eyJoaXN0b3J5IjpbLTEwNjA4MzM5MTQsMTQzMzA3MTY0Miw1MT
+czOTYxOTldfQ==
 -->
