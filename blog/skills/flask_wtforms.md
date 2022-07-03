@@ -18,7 +18,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 * WTForms also helps in writing less code and reducing the scope of manual errors while creating forms in flask
 
 ## Installing WTForms
-* WTForms can be installed in a python environment with pip using the following comman 
+* WTForms can be installed in a python environment with pip using the following command
+```bat
+pip install WTForms
+``` 
 
 ## The Form object
  
@@ -239,5 +242,5 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQ4NTkwODBdfQ==
+eyJoaXN0b3J5IjpbLTE4NTI2MDYyNDNdfQ==
 -->
