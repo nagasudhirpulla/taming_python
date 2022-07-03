@@ -23,8 +23,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 python -m pip install WTForms
 ``` 
 
+## The Use Case
+* To explain the usage of WTForms in this blog post, we 
+
 ## The Form object
- 
+
 
 ## Basic Form example with front-end validation
 * The below `server.py` is a simple flask server
@@ -242,5 +245,5 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODYyMzcxMV19
+eyJoaXN0b3J5IjpbLTIwNDE2NjI5NDVdfQ==
 -->
