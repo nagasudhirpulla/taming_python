@@ -15,7 +15,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 <hr/>
 
 * In this post we will learn how to use WTForms for efficient and easy forms management in Flask web applications.
-* WTForms also helps in writing less code and reducing the manual errors 
+* WTForms also helps in writing less code and reducing the scope of manual errors while creating forms in flask 
 
 ## Basic Form example with front-end validation
 * The below `server.py` is a simple flask server
@@ -233,5 +233,5 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTg0MzA4NTVdfQ==
+eyJoaXN0b3J5IjpbLTEyMzg5OTQwMzVdfQ==
 -->
