@@ -25,7 +25,7 @@ python -m pip install WTForms
 
 ## The Use Case
 * To explain the usage of WTForms in this blog post, we are considering an example of a user registration form as shown below
-
+![wtforms_example_form image](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/wtforms_example_form.PNG)
 
 ## The Form object
 
@@ -246,5 +246,5 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3Mzk2MTk5XX0=
+eyJoaXN0b3J5IjpbMTQzMzA3MTY0Miw1MTczOTYxOTldfQ==
 -->
