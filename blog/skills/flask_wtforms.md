@@ -34,7 +34,7 @@ python -m pip install WTForms
 	* perform server-side form inputs validation
 	* extract form data
 	* create error messages for invalid form inputs
-* As shown below a `Form` object named `UserRegisterForm` can be created for our example
+* As shown below a class named `UserRegisterForm` inherited from `Form` class can be created for our example
 
 ```py
 from wtforms import Form, validators, StringField, BooleanField, DateTimeField, SelectField, PasswordField
@@ -59,6 +59,7 @@ class UserRegisterForm(Form):
                            validators.Optional(), validators.length(max=300)], widget=TextArea())
 ```
 
+* In the above Form object
 ## Basic Form example with front-end validation
 * The below `server.py` is a simple flask server
 * It serves `home.html.j2` template present in the `templates` folder
@@ -276,7 +277,7 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTg2NDY5MywxMzgyMjQyNTgzLC0xNj
-YxMTI1NDk2LC0xMDYwODMzOTE0LDE0MzMwNzE2NDIsNTE3Mzk2
-MTk5XX0=
+eyJoaXN0b3J5IjpbLTc1NjE2NjU4LDIxMjE4NjQ2OTMsMTM4Mj
+I0MjU4MywtMTY2MTEyNTQ5NiwtMTA2MDgzMzkxNCwxNDMzMDcx
+NjQyLDUxNzM5NjE5OV19
 -->
