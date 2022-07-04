@@ -272,9 +272,11 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ve-3ho66a_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## References
+* WTForms - https://wtforms.readthedocs.io/en/3.0.x/fields/#basic-fields
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjI0MjU4MywtMTY2MTEyNTQ5NiwtMT
-A2MDgzMzkxNCwxNDMzMDcxNjQyLDUxNzM5NjE5OV19
+eyJoaXN0b3J5IjpbMjEyMTg2NDY5MywxMzgyMjQyNTgzLC0xNj
+YxMTI1NDk2LC0xMDYwODMzOTE0LDE0MzMwNzE2NDIsNTE3Mzk2
+MTk5XX0=
 -->
