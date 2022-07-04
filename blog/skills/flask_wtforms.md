@@ -59,7 +59,8 @@ class UserRegisterForm(Form):
                            validators.Optional(), validators.length(max=300)], widget=TextArea())
 ```
 
-* In the above Form object
+* The fields defined in the above Form object are `StringField`, `PasswordField`, `IntegerField`, `BooleanField`, `DateTimeField`, `SelectField`
+
 ## Basic Form example with front-end validation
 * The below `server.py` is a simple flask server
 * It serves `home.html.j2` template present in the `templates` folder
@@ -277,7 +278,7 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjE2NjU4LDIxMjE4NjQ2OTMsMTM4Mj
-I0MjU4MywtMTY2MTEyNTQ5NiwtMTA2MDgzMzkxNCwxNDMzMDcx
-NjQyLDUxNzM5NjE5OV19
+eyJoaXN0b3J5IjpbMTU5NzUwNzQzNCwyMTIxODY0NjkzLDEzOD
+IyNDI1ODMsLTE2NjExMjU0OTYsLTEwNjA4MzM5MTQsMTQzMzA3
+MTY0Miw1MTczOTYxOTldfQ==
 -->
