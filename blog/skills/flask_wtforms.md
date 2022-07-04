@@ -60,7 +60,8 @@ class UserRegisterForm(Form):
 ```
 
 * The fields defined in the above Form object are `StringField`, `PasswordField`, `IntegerField`, `BooleanField`, `DateTimeField`, `SelectField`
-* validators can be defined in the field initiali
+* validators and other options can be defined in the field initialization
+* The first input to the Field is the label of the field
 
 ## Basic Form example with front-end validation
 * The below `server.py` is a simple flask server
@@ -279,7 +280,7 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTQzOTA2LDIxMjE4NjQ2OTMsMTM4Mj
-I0MjU4MywtMTY2MTEyNTQ5NiwtMTA2MDgzMzkxNCwxNDMzMDcx
-NjQyLDUxNzM5NjE5OV19
+eyJoaXN0b3J5IjpbLTg2NDU4MjU3MCwyMTIxODY0NjkzLDEzOD
+IyNDI1ODMsLTE2NjExMjU0OTYsLTEwNjA4MzM5MTQsMTQzMzA3
+MTY0Miw1MTczOTYxOTldfQ==
 -->
