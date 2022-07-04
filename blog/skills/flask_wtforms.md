@@ -34,6 +34,25 @@ python -m pip install WTForms
 	* perform server-side form inputs validation
 	* extract form data
 	* create error messages for invalid form inputs
+* As shown below a `Form` object named `UserRegisterForm` can be created for our example
+
+```py
+class UserRegisterForm(Form):
+    uName = StringField("Name", validators=[
+                        validators.InputRequired(), validators.Length(min=4, max=250)])
+    uPass = PasswordField("Password", validators=[
+                        validators.InputRequired(), validators.Length(min=4, max=15)])
+    uPhone = h5fields.IntegerField("Phone", validators=[validators.InputRequired(
+    )], widget=h5widgets.NumberInput(min=6000000000, step=1, max=9999999999))
+    uEmail = StringField("Email", validators=[validators.InputRequired()])
+    isGetEmails = BooleanField("Get Promotional Emails", default=False)
+    uDob = DateTimeField("Date of Birth", validators=[
+                         validators.Optional()], format='%Y-%m-%d')
+    uGender = SelectField("Gender", validators=[validators.InputRequired()], choices=[
+                          (0, "Male"), (1, "Female"), (2, "Other")])
+    uAboutMe = StringField("About Yourself", validators=[
+                           validators.Optional(), validators.length(max=300)], widget=TextArea())
+```
 
 ## Basic Form example with front-end validation
 * The below `server.py` is a simple flask server
@@ -251,6 +270,6 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjExMjU0OTYsLTEwNjA4MzM5MTQsMT
-QzMzA3MTY0Miw1MTczOTYxOTldfQ==
+eyJoaXN0b3J5IjpbMzEyNzg5MjMyLC0xNjYxMTI1NDk2LC0xMD
+YwODMzOTE0LDE0MzMwNzE2NDIsNTE3Mzk2MTk5XX0=
 -->
