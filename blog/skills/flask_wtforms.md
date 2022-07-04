@@ -37,6 +37,11 @@ python -m pip install WTForms
 * As shown below a `Form` object named `UserRegisterForm` can be created for our example
 
 ```py
+from wtforms import Form, validators, StringField, BooleanField, DateTimeField, SelectField, PasswordField
+from wtforms.fields import html5 as h5fields
+from wtforms.widgets import html5 as h5widgets
+from wtforms.widgets import TextArea
+
 class UserRegisterForm(Form):
     uName = StringField("Name", validators=[
                         validators.InputRequired(), validators.Length(min=4, max=250)])
@@ -270,6 +275,6 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEyNzg5MjMyLC0xNjYxMTI1NDk2LC0xMD
-YwODMzOTE0LDE0MzMwNzE2NDIsNTE3Mzk2MTk5XX0=
+eyJoaXN0b3J5IjpbMTM4MjI0MjU4MywtMTY2MTEyNTQ5NiwtMT
+A2MDgzMzkxNCwxNDMzMDcxNjQyLDUxNzM5NjE5OV19
 -->
