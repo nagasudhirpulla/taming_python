@@ -130,7 +130,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 </style>
 ```
 
-* A form field say `form.uName` can be rendered in the template using `{{ form.uName() }}`
+* A form field say `form.uName` can be rendered in the template using `{{ form.uName() | safe }}`
 
 
 ### Front-end validation
@@ -285,8 +285,8 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQ0MDkwMDYsLTE3Mzg1MzkyMDksMT
-A0NzQ4NTYxNCwyMTIxODY0NjkzLDEzODIyNDI1ODMsLTE2NjEx
-MjU0OTYsLTEwNjA4MzM5MTQsMTQzMzA3MTY0Miw1MTczOTYxOT
-ldfQ==
+eyJoaXN0b3J5IjpbLTE2MzcyMzE5NTUsLTE5MzQ0MDkwMDYsLT
+E3Mzg1MzkyMDksMTA0NzQ4NTYxNCwyMTIxODY0NjkzLDEzODIy
+NDI1ODMsLTE2NjExMjU0OTYsLTEwNjA4MzM5MTQsMTQzMzA3MT
+Y0Miw1MTczOTYxOTldfQ==
 -->
