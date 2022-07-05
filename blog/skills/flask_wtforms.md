@@ -87,13 +87,49 @@ def index():
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
+### Rendering each form field
+```html
+<p>Hi, please fill this form</p>
 
-![flask_form_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/flask_form_demo.png)
-### Anatomy of a basic Form 
-* A form is created in the above jinja template using the `form` tag
-* Each form input is given a `name` attribute to identify the various inputs at the server side after the form is submitted
-* A button with the `type` attribute as "submit" is created inside the form tag to facilitate a form submit button.
-* Once the user clicks the submit button, a "POST" request is sent to the same page where the form inputs can be processed by the server's route handler
+{% macro render_input(field, showErrors="true") %}
+    <tr>
+        <td>{{ field.label }}</td>
+        <td>{{ field(**kwargs)|safe }}
+            {% if showErrors=="true" and field.errors %}
+            <ul class="errors">
+            {% for error in field.errors %}
+                <li>{{ error }}</li>
+            {% endfor %}
+            </ul>
+            {% endif %}
+        </td>
+    </tr>
+{% endmacro %}
+
+<form method="post">
+    <table>
+        {{render_input(form.uName)}}
+        {{render_input(form.uPass)}}
+        {{render_input(form.uPhone)}}
+        {{render_input(form.uEmail, type="email")}}
+        {{render_input(form.isGetEmails)}}
+        {{render_input(form.uDob, type="date")}}
+        {{render_input(form.uGender)}}
+        {{render_input(form.uAboutMe)}}
+        <tr>
+            <td><button type="submit">Submit</button></td>
+        </tr>
+    </table>
+</form>
+
+<style>
+.errors{
+    font-size: 0.5em;
+    color: red;
+}
+</style>
+```
+
 
 ### Front-end validation
 * Front-end input validation in the browser can be achieved using simple HTML attributes like "required", "minlength", "min", "max"
@@ -247,7 +283,7 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTU3MzQ1NiwxMDQ3NDg1NjE0LDIxMj
-E4NjQ2OTMsMTM4MjI0MjU4MywtMTY2MTEyNTQ5NiwtMTA2MDgz
-MzkxNCwxNDMzMDcxNjQyLDUxNzM5NjE5OV19
+eyJoaXN0b3J5IjpbLTE3Mzg1MzkyMDksMTA0NzQ4NTYxNCwyMT
+IxODY0NjkzLDEzODIyNDI1ODMsLTE2NjExMjU0OTYsLTEwNjA4
+MzM5MTQsMTQzMzA3MTY0Miw1MTczOTYxOTldfQ==
 -->
