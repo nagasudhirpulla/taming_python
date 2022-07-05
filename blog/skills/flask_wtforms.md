@@ -62,7 +62,7 @@ class UserRegisterForm(Form):
 * The fields defined in the above Form object are `StringField`, `PasswordField`, `IntegerField`, `BooleanField`, `DateTimeField`, `SelectField`
 * validators and other options can be defined in the field initialization
 * The first input to the Field class initialization would be the label of the field
-* While defining the `SelectField`, an input named `choices` can be provided as a list of tuples of vale, text. These tuples will define the options of the select list
+* While defining the `SelectField`, an input named `choices` can be provided as a list of tuples of (value, text). These tuples will define the options of the select list
 * For `DateTimeField`, the `format` input will specify the time string format in which the input should be provided in the web page
 * For defining a `textarea` input, additional input of `widget=TextArea()` can be provided to the `StringField`
 
@@ -283,7 +283,7 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzQ4NTYxNCwyMTIxODY0NjkzLDEzOD
-IyNDI1ODMsLTE2NjExMjU0OTYsLTEwNjA4MzM5MTQsMTQzMzA3
-MTY0Miw1MTczOTYxOTldfQ==
+eyJoaXN0b3J5IjpbLTExMzk0MjU5ODAsMTA0NzQ4NTYxNCwyMT
+IxODY0NjkzLDEzODIyNDI1ODMsLTE2NjExMjU0OTYsLTEwNjA4
+MzM5MTQsMTQzMzA3MTY0Miw1MTczOTYxOTldfQ==
 -->
