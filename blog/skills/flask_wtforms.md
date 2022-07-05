@@ -131,6 +131,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
 
+
 ### Front-end validation
 * Front-end input validation in the browser can be achieved using simple HTML attributes like "required", "minlength", "min", "max"
 * Third-party JavaScript libraries like validator.js can also be used for front-end validation in the browser
@@ -283,7 +284,8 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzg1MzkyMDksMTA0NzQ4NTYxNCwyMT
-IxODY0NjkzLDEzODIyNDI1ODMsLTE2NjExMjU0OTYsLTEwNjA4
-MzM5MTQsMTQzMzA3MTY0Miw1MTczOTYxOTldfQ==
+eyJoaXN0b3J5IjpbMzA1OTgxMzQ5LC0xNzM4NTM5MjA5LDEwND
+c0ODU2MTQsMjEyMTg2NDY5MywxMzgyMjQyNTgzLC0xNjYxMTI1
+NDk2LC0xMDYwODMzOTE0LDE0MzMwNzE2NDIsNTE3Mzk2MTk5XX
+0=
 -->
