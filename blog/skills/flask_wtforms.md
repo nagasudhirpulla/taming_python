@@ -67,10 +67,9 @@ class UserRegisterForm(Form):
 * For defining a `textarea` input, additional input of `widget=TextArea()` can be provided to the `StringField`
 
 ## Serving Form object in the template
-* The below `server.py` is a simple flask server
-* It serves `home.html.j2` template present in the `templates` folder
+* The below `server.py` is a simple flask server which serves `home.html.j2` template present in the `templates` folder
 * The page can be accessed at `http://localhost:50100`
-* The page contains a simple form with 3 inputs for capturing name, phone and email
+* The form object named `form` is initialized and injected into the template as shown below in the line `return render_template("home.html.j2", form=form)`
 ```py
 # server.py file
 from flask import Flask, render_template, request
@@ -247,7 +246,7 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDM2NTEwLDEwNDc0ODU2MTQsMjEyMT
-g2NDY5MywxMzgyMjQyNTgzLC0xNjYxMTI1NDk2LC0xMDYwODMz
-OTE0LDE0MzMwNzE2NDIsNTE3Mzk2MTk5XX0=
+eyJoaXN0b3J5IjpbMTM5Nzg2MjY2OCwxMDQ3NDg1NjE0LDIxMj
+E4NjQ2OTMsMTM4MjI0MjU4MywtMTY2MTEyNTQ5NiwtMTA2MDgz
+MzkxNCwxNDMzMDcxNjQyLDUxNzM5NjE5OV19
 -->
