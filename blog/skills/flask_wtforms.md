@@ -74,56 +74,20 @@ class UserRegisterForm(Form):
 ```py
 # server.py file
 from flask import Flask, render_template, request
-
 # create a server instance
 app = Flask(__name__)
 
-# configure a route handler
+# route handler
 @app.route("/", methods=["GET", "POST"])
 def index():
-    if request.method == "POST":
-        print("Name =", request.form["uName"])
-        print("Phone =", request.form["uPhone"])
-        print("Email =", request.form["uEmail"])
-    return render_template("basic.html.j2")
+    form = UserRegisterForm(request.form)
+    return render_template("home.html.j2", form=form)
 
 # run the server
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
-```html
-<!-- templates/home.html.j2 file -->
-<p>Hi, please fill this form</p>
 
-<form method="post">
-    <table>
-        <tr>
-            <td>Name</td>
-            <td>
-                <input type="text" name="uName" required minlength="4" />
-            </td>
-        </tr>
-        
-        <tr>
-            <td>Phone</td>
-            <td>
-                <input type="number" name="uPhone" required />
-            </td>
-        </tr>
-        
-        <tr>
-            <td>Email</td>
-            <td>
-                <input type="email" name="uEmail" required />
-            </td>
-        </tr>
-
-        <tr>
-            <td><button type="submit">Submit</button></td>
-        </tr>
-    </table>
-</form>
-```
 ![flask_form_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/flask_form_demo.png)
 ### Anatomy of a basic Form 
 * A form is created in the above jinja template using the `form` tag
@@ -283,7 +247,7 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzYwODI0OSwxMDQ3NDg1NjE0LDIxMj
-E4NjQ2OTMsMTM4MjI0MjU4MywtMTY2MTEyNTQ5NiwtMTA2MDgz
-MzkxNCwxNDMzMDcxNjQyLDUxNzM5NjE5OV19
+eyJoaXN0b3J5IjpbMTU3NDM2NTEwLDEwNDc0ODU2MTQsMjEyMT
+g2NDY5MywxMzgyMjQyNTgzLC0xNjYxMTI1NDk2LC0xMDYwODMz
+OTE0LDE0MzMwNzE2NDIsNTE3Mzk2MTk5XX0=
 -->
