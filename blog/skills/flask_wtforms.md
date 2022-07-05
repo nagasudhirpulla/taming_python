@@ -66,7 +66,7 @@ class UserRegisterForm(Form):
 * For `DateTimeField`, the `format` input will specify the time string format in which the input should be provided in the web page
 * For defining a `textarea` input, additional input of `widget=TextArea()` can be provided to the `StringField`
 
-## Basic Form example with front-end validation
+## Serving Form object in the template
 * The below `server.py` is a simple flask server
 * It serves `home.html.j2` template present in the `templates` folder
 * The page can be accessed at `http://localhost:50100`
@@ -283,7 +283,7 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzk0MjU5ODAsMTA0NzQ4NTYxNCwyMT
-IxODY0NjkzLDEzODIyNDI1ODMsLTE2NjExMjU0OTYsLTEwNjA4
-MzM5MTQsMTQzMzA3MTY0Miw1MTczOTYxOTldfQ==
+eyJoaXN0b3J5IjpbLTgxNzYwODI0OSwxMDQ3NDg1NjE0LDIxMj
+E4NjQ2OTMsMTM4MjI0MjU4MywtMTY2MTEyNTQ5NiwtMTA2MDgz
+MzkxNCwxNDMzMDcxNjQyLDUxNzM5NjE5OV19
 -->
