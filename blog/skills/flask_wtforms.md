@@ -131,7 +131,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 * A form field say `form.uName` can be rendered in the template using `{{ form.uName()|safe }}`
 * Extra HTML attributes of the input field can be rendered by just passing them as named attributes like `{{ form.uEmail, type="date" }}`
-* The label of the input field can be accessed using the ".label" attribute of the input  
+* The label of the input field can be accessed using the ".label" attribute of the input field like `{{ form.uDob.label }}`
+* The errors in each form field will be stored in the ".errors" attribute of 
 
 
 ### Front-end validation
@@ -286,9 +287,9 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyNjk3NjM0LC0xOTM5OTYzNDEyLC05Nz
-MxNDE2MjcsLTE4NTYzNjk2NzUsLTE5MzQ0MDkwMDYsLTE3Mzg1
-MzkyMDksMTA0NzQ4NTYxNCwyMTIxODY0NjkzLDEzODIyNDI1OD
-MsLTE2NjExMjU0OTYsLTEwNjA4MzM5MTQsMTQzMzA3MTY0Miw1
-MTczOTYxOTldfQ==
+eyJoaXN0b3J5IjpbLTE0OTk2ODY4MzMsLTE5Mzk5NjM0MTIsLT
+k3MzE0MTYyNywtMTg1NjM2OTY3NSwtMTkzNDQwOTAwNiwtMTcz
+ODUzOTIwOSwxMDQ3NDg1NjE0LDIxMjE4NjQ2OTMsMTM4MjI0Mj
+U4MywtMTY2MTEyNTQ5NiwtMTA2MDgzMzkxNCwxNDMzMDcxNjQy
+LDUxNzM5NjE5OV19
 -->
