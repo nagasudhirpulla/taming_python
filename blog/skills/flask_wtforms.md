@@ -130,13 +130,13 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
 * A form field say `form.uName` can be rendered in the template using `{{ form.uName()|safe }}`
-* Extra HTML attributes of the input field can be rendered by just passing them as named attributes like `{{ form.uEmail, type="date" }}`
+* Extra HTML attributes of the input field can be rendered by just passing them as named attributes like `{{ form.uEmail(type="date") }}`
 * The label of the input field can be accessed using the ".label" attribute of the input field like `{{ form.uDob.label }}`
 * The errors in each form field derived from the server-side will be stored in the ".errors" attribute. For example the errors of the form field `form.uPhone` will be stored in `form.uPhone.errors` as a list of strings which can be rendered in the template for displaying to the user after server-side form validation
 
 ### Front-end validation
 * If the validators of the form fields in the form object straightforward like `validators.Required`, the required HTML tags for front end validation are rendered in the `{{form.field()|safe}}` itself. This is an additional advantage of using WTForms
-* If additional attributes for front-end valdation are required, those can be explicitly mentioned during renderin
+* If additional attributes for front-end valdation are required, those can be explicitly mentioned during rendering, for example `{{ form.uEmail(type="date") }}`
 * Front-end input validation in the browser can be achieved using simple HTML attributes like "required", "minlength", "min", "max"
 * Third-party JavaScript libraries like validator.js can also be used for front-end validation in the browser
 
@@ -288,9 +288,9 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjc1MDg3NCwxMDQ1Njg5NDE2LDE0Nz
-Y3NTA1MzcsLTE5Mzk5NjM0MTIsLTk3MzE0MTYyNywtMTg1NjM2
-OTY3NSwtMTkzNDQwOTAwNiwtMTczODUzOTIwOSwxMDQ3NDg1Nj
-E0LDIxMjE4NjQ2OTMsMTM4MjI0MjU4MywtMTY2MTEyNTQ5Niwt
-MTA2MDgzMzkxNCwxNDMzMDcxNjQyLDUxNzM5NjE5OV19
+eyJoaXN0b3J5IjpbLTI4MjUyMzMyLDEwNDU2ODk0MTYsMTQ3Nj
+c1MDUzNywtMTkzOTk2MzQxMiwtOTczMTQxNjI3LC0xODU2MzY5
+Njc1LC0xOTM0NDA5MDA2LC0xNzM4NTM5MjA5LDEwNDc0ODU2MT
+QsMjEyMTg2NDY5MywxMzgyMjQyNTgzLC0xNjYxMTI1NDk2LC0x
+MDYwODMzOTE0LDE0MzMwNzE2NDIsNTE3Mzk2MTk5XX0=
 -->
