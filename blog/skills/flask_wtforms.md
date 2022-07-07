@@ -135,7 +135,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * The errors in each form field derived from the server-side will be stored in the ".errors" attribute. For example the errors of the form field `form.uPhone` will be stored in `form.uPhone.errors` as a list of strings which can be rendered in the template for displaying to the user after server-side form validation
 
 ### Front-end validation
-* The advantage of using 
+* If the validators of the form fields in the form object straightforward like `validators.Required`, the required HTML tags for front end validation are rendered by default
 * Front-end input validation in the browser can be achieved using simple HTML attributes like "required", "minlength", "min", "max"
 * Third-party JavaScript libraries like validator.js can also be used for front-end validation in the browser
 
@@ -287,9 +287,9 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTY4OTQxNiwxNDc2NzUwNTM3LC0xOT
-M5OTYzNDEyLC05NzMxNDE2MjcsLTE4NTYzNjk2NzUsLTE5MzQ0
-MDkwMDYsLTE3Mzg1MzkyMDksMTA0NzQ4NTYxNCwyMTIxODY0Nj
-kzLDEzODIyNDI1ODMsLTE2NjExMjU0OTYsLTEwNjA4MzM5MTQs
-MTQzMzA3MTY0Miw1MTczOTYxOTldfQ==
+eyJoaXN0b3J5IjpbMTE1MzQxMzEwMywxMDQ1Njg5NDE2LDE0Nz
+Y3NTA1MzcsLTE5Mzk5NjM0MTIsLTk3MzE0MTYyNywtMTg1NjM2
+OTY3NSwtMTkzNDQwOTAwNiwtMTczODUzOTIwOSwxMDQ3NDg1Nj
+E0LDIxMjE4NjQ2OTMsMTM4MjI0MjU4MywtMTY2MTEyNTQ5Niwt
+MTA2MDgzMzkxNCwxNDMzMDcxNjQyLDUxNzM5NjE5OV19
 -->
