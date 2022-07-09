@@ -197,7 +197,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * After calling `form.validate()`, any errors in each form field are populated in the errors attribute as a list of strings. For example the errors of the `uEmail` field can be accessed at `form.uEmail.errors`. All the errors of the form can also be accessed using `form.errors` 
 
 ### Additional form validation other than form.validate()
-* If any other validation other than 
+* If extra validation is performed after `form.validate()` and errors are found, they can be populated in the errors attribute of the corresponding form field. For example, extrat 
 
 ### Accessing Form data in route handler
 * The `request.form` object inside the route handler will contain the form data as a dictionary
@@ -343,10 +343,10 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY0MTY0NzIsLTE0MjcwMjUwOCwtNT
-k5NzMyNDQ4LDEwNDU2ODk0MTYsMTQ3Njc1MDUzNywtMTkzOTk2
-MzQxMiwtOTczMTQxNjI3LC0xODU2MzY5Njc1LC0xOTM0NDA5MD
-A2LC0xNzM4NTM5MjA5LDEwNDc0ODU2MTQsMjEyMTg2NDY5Mywx
-MzgyMjQyNTgzLC0xNjYxMTI1NDk2LC0xMDYwODMzOTE0LDE0Mz
-MwNzE2NDIsNTE3Mzk2MTk5XX0=
+eyJoaXN0b3J5IjpbNTQ5MzQzNzQyLC0xNDI3MDI1MDgsLTU5OT
+czMjQ0OCwxMDQ1Njg5NDE2LDE0NzY3NTA1MzcsLTE5Mzk5NjM0
+MTIsLTk3MzE0MTYyNywtMTg1NjM2OTY3NSwtMTkzNDQwOTAwNi
+wtMTczODUzOTIwOSwxMDQ3NDg1NjE0LDIxMjE4NjQ2OTMsMTM4
+MjI0MjU4MywtMTY2MTEyNTQ5NiwtMTA2MDgzMzkxNCwxNDMzMD
+cxNjQyLDUxNzM5NjE5OV19
 -->
