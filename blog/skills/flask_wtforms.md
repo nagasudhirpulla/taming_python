@@ -133,6 +133,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Extra HTML attributes of the input field can be rendered by just passing them as named attributes like `{{ form.uEmail(type="date") }}`
 * The label of the input field can be accessed using the ".label" attribute of the input field like `{{ form.uDob.label }}`
 * The errors in each form field derived from the server-side will be stored in the ".errors" attribute. For example the errors of the form field `form.uPhone` will be stored in `form.uPhone.errors` as a list of strings which can be rendered in the template for displaying to the user after server-side form validation
+* Macros are used in the 
 
 ### Front-end validation
 * If the validators of the form fields in the form object are straightforward like `validators.Required`, the required HTML tags for front end validation are rendered in the `{{form.field()|safe}}` itself. This is an additional advantage of using WTForms
@@ -200,137 +201,6 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ### Additional form validation after form.validate()
 * If extra validation is performed after `form.validate()` and errors are found, they can be populated in the `errors` attribute of the corresponding form field. For example, extra errors can be added to `form.uName` using `form.uName.errors.append("Username should start with an alphabet")`
 
-
-## Server-side Form inputs validation
-* Performing server side form validation is important since the browser is not in the server's control and complex inputs validations may not be implemented in the browser
-* Hence server-side form validation is important for improving the forms security and complex validation scenarios
-
-### Server side form validation example
-* In the following server code, the user name of the form is validated in the route handler to check if user name starts with an alphabet.
-* An additional "errors" object is passed into the template that contains the list of errors for each form input
-* Notice that the form data is preserved after the post request also using the `request.form` variable in the jinja template 
-
-```python
-from flask import Flask, render_template, request
-
-# create a server instance
-app = Flask(__name__)
-
-# configure a route handler
-@app.route("/", methods=["GET", "POST"])
-def index():
-    errors = {}
-    if request.method == "POST":
-        uname = request.form["uName"]
-        print("Name =", uname)
-        print("Phone =", request.form["uPhone"])
-        print("Email =", request.form["uEmail"])
-                
-        # check if the username starts with an alphabet
-        if not uname[0].isalpha():
-            errors["uName"] = ["username should start with alphabets"]
-    return render_template("basic.html.j2", errors=errors)
-
-# run the server
-app.run(host="0.0.0.0", port=50100, debug=True)
-```
-
-```html
-<!-- templates/home.html.j2 -->
-<p>Hi, please fill this form</p>
-
-<form method="post">
-    <table>
-        <tr>
-            <td>Name</td>
-            <td>
-                <input type="text" name="uName" value="{{request.form['uName']}}" required minlength="4"/>
-                <ul>
-                {% for e in errors["uName"] %}
-                    <li><span class="form-error">{{e}}</span></li>
-                {% endfor %}
-                </ul>
-            </td>
-        </tr>
-        
-        <tr>
-            <td>Phone</td>
-            <td>
-                <input type="number" name="uPhone" value="{{request.form['uPhone']}}" required />
-                <ul>
-                {% for e in errors["uPhone"] %}
-                    <li><span class="form-error">{{e}}</span></li>
-                {% endfor %}
-                </ul>
-            </td>
-        </tr>
-        
-        <tr>
-            <td>Email</td>
-            <td>
-                <input type="email" name="uEmail" value="{{request.form['uEmail']}}" required />
-                <ul>
-                {% for e in errors["uEmail"] %}
-                    <li><span class="form-error">{{e}}</span></li>
-                {% endfor %}
-                </ul>
-            </td>
-        </tr>
-
-        <tr>
-            <td><button type="submit">Submit</button></td>
-        </tr>
-    </table>
-</form>
-
-<style>
-.form-error{
-font-size: smaller;
-color: red;
-}
-</style>
-```
-
-## Using macros to reduce repetitive HTML in jinja templates
-* In the below example a macro named `render_input` is used to generate jinja template for each form input
-* This reduces HTML repetition for rendering each form input thus reducing the scope for errors and increasing the readability of template 
-```html
-<!--templates/home.html.j2 file-->
-<p>Hi, please fill this form</p>
-
-{% macro render_input(label, inpName, inpType="text") %}
-<tr>
-    <td>{{label}}</td>
-    <td>
-        <input type="{{inpType}}" name="{{inpName}}" value="{{request.form[inpName]}}" {% for k,v in kwargs.items() %} {{k}}="{{v}}" {% endfor %} />
-        <ul>
-        {% for e in errors[inpName] %}
-            <li><span class="form-error">{{e}}</span></li>
-        {% endfor %}
-        </ul>
-    </td>
-</tr>
-{% endmacro %}
-
-<form method="post">
-    <table>
-        {{render_input("Name", "uName", "text", minlength="4", required="")}}
-        {{render_input("Phone", "uPhone", "number", required="")}}
-        {{render_input("Email", "uEmail", "email", required="")}}
-        <tr>
-            <td><button type="submit">Submit</button></td>
-        </tr>
-    </table>
-</form>
-
-<style>
-.form-error{
-font-size: smaller;
-color: red;
-}
-</style>
-```
-
 ### Video
 The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 
@@ -341,7 +211,7 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDkxNTg5OSwtMTQyNzAyNTA4LC01OT
+eyJoaXN0b3J5IjpbLTQ2MDcyODM4OCwtMTQyNzAyNTA4LC01OT
 k3MzI0NDgsMTA0NTY4OTQxNiwxNDc2NzUwNTM3LC0xOTM5OTYz
 NDEyLC05NzMxNDE2MjcsLTE4NTYzNjk2NzUsLTE5MzQ0MDkwMD
 YsLTE3Mzg1MzkyMDksMTA0NzQ4NTYxNCwyMTIxODY0NjkzLDEz
