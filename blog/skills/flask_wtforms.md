@@ -141,6 +141,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ### Server-side Form handling
 * Below is the flask server code to handle the form submission in our example
+
 ```py
 from flask import Flask, render_template, request
 from wtforms import Form, validators, StringField, BooleanField, DateTimeField, SelectField, PasswordField
@@ -189,6 +190,8 @@ def index():
 # run the server
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
+
+* T
 * To handle the POST request sent by the browser, an additional parameter `methods=["GET", "POST"]` is specified in the route handler decorator. This means that the route handler will also accept "POST" requests also in addition to "GET" requests
 * Using `request.method` inside the route handler, we can differentiate whether the route handler is triggered by a "GET" or "POST" request.
 
@@ -336,10 +339,10 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzAzMTk0NTYsLTE0MjcwMjUwOCwtNT
-k5NzMyNDQ4LDEwNDU2ODk0MTYsMTQ3Njc1MDUzNywtMTkzOTk2
-MzQxMiwtOTczMTQxNjI3LC0xODU2MzY5Njc1LC0xOTM0NDA5MD
-A2LC0xNzM4NTM5MjA5LDEwNDc0ODU2MTQsMjEyMTg2NDY5Mywx
-MzgyMjQyNTgzLC0xNjYxMTI1NDk2LC0xMDYwODMzOTE0LDE0Mz
-MwNzE2NDIsNTE3Mzk2MTk5XX0=
+eyJoaXN0b3J5IjpbLTk4MDE3MTE5MiwtMTQyNzAyNTA4LC01OT
+k3MzI0NDgsMTA0NTY4OTQxNiwxNDc2NzUwNTM3LC0xOTM5OTYz
+NDEyLC05NzMxNDE2MjcsLTE4NTYzNjk2NzUsLTE5MzQ0MDkwMD
+YsLTE3Mzg1MzkyMDksMTA0NzQ4NTYxNCwyMTIxODY0NjkzLDEz
+ODIyNDI1ODMsLTE2NjExMjU0OTYsLTEwNjA4MzM5MTQsMTQzMz
+A3MTY0Miw1MTczOTYxOTldfQ==
 -->
