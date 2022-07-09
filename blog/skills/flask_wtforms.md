@@ -201,20 +201,15 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ### Additional form validation after form.validate()
 * If extra validation is performed after `form.validate()` and errors are found, they can be populated in the `errors` attribute of the corresponding form field. For example, extra errors can be added to `form.uName` using `form.uName.errors.append("Username should start with an alphabet")`
 
-### Video
-The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ve-3ho66a_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## References
 * WTForms - https://wtforms.readthedocs.io/en/3.0.x/fields/#basic-fields
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTY4MDQ1NCwtMTQyNzAyNTA4LC01OT
-k3MzI0NDgsMTA0NTY4OTQxNiwxNDc2NzUwNTM3LC0xOTM5OTYz
-NDEyLC05NzMxNDE2MjcsLTE4NTYzNjk2NzUsLTE5MzQ0MDkwMD
-YsLTE3Mzg1MzkyMDksMTA0NzQ4NTYxNCwyMTIxODY0NjkzLDEz
-ODIyNDI1ODMsLTE2NjExMjU0OTYsLTEwNjA4MzM5MTQsMTQzMz
-A3MTY0Miw1MTczOTYxOTldfQ==
+eyJoaXN0b3J5IjpbOTg0NDg5ODgxLC0xNDI3MDI1MDgsLTU5OT
+czMjQ0OCwxMDQ1Njg5NDE2LDE0NzY3NTA1MzcsLTE5Mzk5NjM0
+MTIsLTk3MzE0MTYyNywtMTg1NjM2OTY3NSwtMTkzNDQwOTAwNi
+wtMTczODUzOTIwOSwxMDQ3NDg1NjE0LDIxMjE4NjQ2OTMsMTM4
+MjI0MjU4MywtMTY2MTEyNTQ5NiwtMTA2MDgzMzkxNCwxNDMzMD
+cxNjQyLDUxNzM5NjE5OV19
 -->
