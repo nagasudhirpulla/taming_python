@@ -195,13 +195,12 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * To handle the POST request sent by the browser, an additional parameter `methods=["GET", "POST"]` is specified in the route handler decorator. This means that the route handler will also accept "POST" requests also in addition to "GET" requests. Using `request.method` inside the route handler, we can differentiate whether the route handler is triggered by a "GET" or "POST" request.
 * The form object can be validated just by calling `form.validate()` which returns True if the form inputs are passing the `validators` of all form fields. Thus validation is very easy and less error prone when we use WTForms
 * After calling `form.validate()`, any errors in each form field are populated in the errors attribute as a list of strings. For example the errors of the `form.uEmail` field can be accessed at `form.uEmail.errors`. All the errors of the form can also be accessed using `form.errors` 
+* The form data of each field
+* For example in the "POST" request route handler, `request.form["uName"]` will have the username entered in the form since "uName" is the "name" attribute of the username HTML input tag
 
 ### Additional form validation after form.validate()
 * If extra validation is performed after `form.validate()` and errors are found, they can be populated in the `errors` attribute of the corresponding form field. For example, extra errors can be added to `form.uName` using `form.uName.errors.append("Username should start with an alphabet")`
 
-### Accessing Form data in route handler
-* The `request.form` object inside the route handler will contain the form data as a dictionary
-* For example in the "POST" request route handler, `request.form["uName"]` will have the username entered in the form since "uName" is the "name" attribute of the username HTML input tag
 
 ## Server-side Form inputs validation
 * Performing server side form validation is important since the browser is not in the server's control and complex inputs validations may not be implemented in the browser
@@ -343,10 +342,10 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTEyOTIwNSwtMTQyNzAyNTA4LC01OT
-k3MzI0NDgsMTA0NTY4OTQxNiwxNDc2NzUwNTM3LC0xOTM5OTYz
-NDEyLC05NzMxNDE2MjcsLTE4NTYzNjk2NzUsLTE5MzQ0MDkwMD
-YsLTE3Mzg1MzkyMDksMTA0NzQ4NTYxNCwyMTIxODY0NjkzLDEz
-ODIyNDI1ODMsLTE2NjExMjU0OTYsLTEwNjA4MzM5MTQsMTQzMz
-A3MTY0Miw1MTczOTYxOTldfQ==
+eyJoaXN0b3J5IjpbLTIwMTcxNjA4NTgsLTE0MjcwMjUwOCwtNT
+k5NzMyNDQ4LDEwNDU2ODk0MTYsMTQ3Njc1MDUzNywtMTkzOTk2
+MzQxMiwtOTczMTQxNjI3LC0xODU2MzY5Njc1LC0xOTM0NDA5MD
+A2LC0xNzM4NTM5MjA5LDEwNDc0ODU2MTQsMjEyMTg2NDY5Mywx
+MzgyMjQyNTgzLC0xNjYxMTI1NDk2LC0xMDYwODMzOTE0LDE0Mz
+MwNzE2NDIsNTE3Mzk2MTk5XX0=
 -->
