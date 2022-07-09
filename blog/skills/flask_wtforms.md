@@ -195,8 +195,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * To handle the POST request sent by the browser, an additional parameter `methods=["GET", "POST"]` is specified in the route handler decorator. This means that the route handler will also accept "POST" requests also in addition to "GET" requests. Using `request.method` inside the route handler, we can differentiate whether the route handler is triggered by a "GET" or "POST" request.
 * The form object can be validated just by calling `form.validate()` which returns True if the form inputs are passing the `validators` of all form fields. Thus validation is very easy and less error prone when we use WTForms
 * After calling `form.validate()`, any errors in each form field are populated in the errors attribute as a list of strings. For example the errors of the `form.uEmail` field can be accessed at `form.uEmail.errors`. All the errors of the form can also be accessed using `form.errors` 
-* The form data of each field
-* For example in the "POST" request route handler, `request.form["uName"]` will have the username entered in the form since "uName" is the "name" attribute of the username HTML input tag
+* The form data of each field can be accessed using the data attribute. For example the data of the form field `form.uDob` can be accessed at `form.uDob.data`
 
 ### Additional form validation after form.validate()
 * If extra validation is performed after `form.validate()` and errors are found, they can be populated in the `errors` attribute of the corresponding form field. For example, extra errors can be added to `form.uName` using `form.uName.errors.append("Username should start with an alphabet")`
@@ -342,10 +341,10 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTcxNjA4NTgsLTE0MjcwMjUwOCwtNT
-k5NzMyNDQ4LDEwNDU2ODk0MTYsMTQ3Njc1MDUzNywtMTkzOTk2
-MzQxMiwtOTczMTQxNjI3LC0xODU2MzY5Njc1LC0xOTM0NDA5MD
-A2LC0xNzM4NTM5MjA5LDEwNDc0ODU2MTQsMjEyMTg2NDY5Mywx
-MzgyMjQyNTgzLC0xNjYxMTI1NDk2LC0xMDYwODMzOTE0LDE0Mz
-MwNzE2NDIsNTE3Mzk2MTk5XX0=
+eyJoaXN0b3J5IjpbNDkwNjc5MTA5LC0xNDI3MDI1MDgsLTU5OT
+czMjQ0OCwxMDQ1Njg5NDE2LDE0NzY3NTA1MzcsLTE5Mzk5NjM0
+MTIsLTk3MzE0MTYyNywtMTg1NjM2OTY3NSwtMTkzNDQwOTAwNi
+wtMTczODUzOTIwOSwxMDQ3NDg1NjE0LDIxMjE4NjQ2OTMsMTM4
+MjI0MjU4MywtMTY2MTEyNTQ5NiwtMTA2MDgzMzkxNCwxNDMzMD
+cxNjQyLDUxNzM5NjE5OV19
 -->
