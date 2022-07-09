@@ -133,7 +133,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Extra HTML attributes of the input field can be rendered by just passing them as named attributes like `{{ form.uEmail(type="date") }}`
 * The label of the input field can be accessed using the ".label" attribute of the input field like `{{ form.uDob.label }}`
 * The errors in each form field derived from the server-side will be stored in the ".errors" attribute. For example the errors of the form field `form.uPhone` will be stored in `form.uPhone.errors` as a list of strings which can be rendered in the template for displaying to the user after server-side form validation
-* Macros are used in the 
+* A jinja macro is used in the above example for rendering all the form fields to reduce jinja duplication 
 
 ### Front-end validation
 * If the validators of the form fields in the form object are straightforward like `validators.Required`, the required HTML tags for front end validation are rendered in the `{{form.field()|safe}}` itself. This is an additional advantage of using WTForms
@@ -211,7 +211,7 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDcyODM4OCwtMTQyNzAyNTA4LC01OT
+eyJoaXN0b3J5IjpbLTI2NTY4MDQ1NCwtMTQyNzAyNTA4LC01OT
 k3MzI0NDgsMTA0NTY4OTQxNiwxNDc2NzUwNTM3LC0xOTM5OTYz
 NDEyLC05NzMxNDE2MjcsLTE4NTYzNjk2NzUsLTE5MzQ0MDkwMD
 YsLTE3Mzg1MzkyMDksMTA0NzQ4NTYxNCwyMTIxODY0NjkzLDEz
