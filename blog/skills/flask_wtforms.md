@@ -140,6 +140,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Third-party JavaScript libraries like validator.js can also be used for front-end validation in the browser
 
 ### Server-side Form handling
+* Below is the flask server code to handle the form submission in our example
 ```py
 from flask import Flask, render_template, request
 from wtforms import Form, validators, StringField, BooleanField, DateTimeField, SelectField, PasswordField
@@ -335,7 +336,7 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQ1OTAzMDIsLTE0MjcwMjUwOCwtNT
+eyJoaXN0b3J5IjpbLTEwNzAzMTk0NTYsLTE0MjcwMjUwOCwtNT
 k5NzMyNDQ4LDEwNDU2ODk0MTYsMTQ3Njc1MDUzNywtMTkzOTk2
 MzQxMiwtOTczMTQxNjI3LC0xODU2MzY5Njc1LC0xOTM0NDA5MD
 A2LC0xNzM4NTM5MjA5LDEwNDc0ODU2MTQsMjEyMTg2NDY5Mywx
