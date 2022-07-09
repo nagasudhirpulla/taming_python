@@ -140,6 +140,54 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Third-party JavaScript libraries like validator.js can also be used for front-end validation in the browser
 
 ### Server-side Form handling
+```py
+from flask import Flask, render_template, request
+from wtforms import Form, validators, StringField, BooleanField, DateTimeField, SelectField, PasswordField
+from wtforms.fields import html5 as h5fields
+from wtforms.widgets import html5 as h5widgets
+from wtforms.widgets import TextArea
+
+# create a server instance
+app = Flask(__name__)
+
+# create form object
+class UserRegisterForm(Form):
+    uName = StringField("Name", validators=[
+                        validators.InputRequired(), validators.Length(min=4, max=250)])
+    uPass = PasswordField("Password", validators=[
+                        validators.InputRequired(), validators.Length(min=4, max=15)])
+    uPhone = h5fields.IntegerField("Phone", validators=[validators.InputRequired(
+    )], widget=h5widgets.NumberInput(min=6000000000, step=1, max=9999999999))
+    uEmail = StringField("Email", validators=[validators.InputRequired()])
+    isGetEmails = BooleanField("Get Promotional Emails", default=False)
+    uDob = DateTimeField("Date of Birth", validators=[
+                         validators.Optional()], format='%Y-%m-%d')
+    uGender = SelectField("Gender", validators=[validators.InputRequired()], choices=[
+                          (0, "Male"), (1, "Female"), (2, "Other")])
+    uAboutMe = StringField("About Yourself", validators=[
+                           validators.Optional(), validators.length(max=300)], widget=TextArea())
+
+# route handler
+@app.route("/", methods=["GET", "POST"])
+def index():
+    form = UserRegisterForm(request.form)
+    if request.method == "POST" and form.validate():
+        uName = request.form["uName"]
+        print("User =", uName)
+        print("Password =", form.uPass.data)
+        print("Phone =", form.uPhone.data)
+        print("Email =", form.uEmail.data)
+        print("Get Emails =", form.isGetEmails.data)
+        print("Date of Birth =", form.uDob.data)
+        print("Gender =", form.uGender.data)
+        print("About Me =", form.uAboutMe.data)
+        if not uName[0].isalpha():
+            form.uName.errors.append("Username should start with an alphabet")
+    return render_template("home.html.j2", form=form)
+
+# run the server
+app.run(host="0.0.0.0", port=50100, debug=True)
+```
 * To handle the POST request sent by the browser, an additional parameter `methods=["GET", "POST"]` is specified in the route handler decorator. This means that the route handler will also accept "POST" requests also in addition to "GET" requests
 * Using `request.method` inside the route handler, we can differentiate whether the route handler is triggered by a "GET" or "POST" request.
 
@@ -287,10 +335,10 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjcwMjUwOCwtNTk5NzMyNDQ4LDEwND
-U2ODk0MTYsMTQ3Njc1MDUzNywtMTkzOTk2MzQxMiwtOTczMTQx
-NjI3LC0xODU2MzY5Njc1LC0xOTM0NDA5MDA2LC0xNzM4NTM5Mj
-A5LDEwNDc0ODU2MTQsMjEyMTg2NDY5MywxMzgyMjQyNTgzLC0x
-NjYxMTI1NDk2LC0xMDYwODMzOTE0LDE0MzMwNzE2NDIsNTE3Mz
-k2MTk5XX0=
+eyJoaXN0b3J5IjpbLTE2MzQ1OTAzMDIsLTE0MjcwMjUwOCwtNT
+k5NzMyNDQ4LDEwNDU2ODk0MTYsMTQ3Njc1MDUzNywtMTkzOTk2
+MzQxMiwtOTczMTQxNjI3LC0xODU2MzY5Njc1LC0xOTM0NDA5MD
+A2LC0xNzM4NTM5MjA5LDEwNDc0ODU2MTQsMjEyMTg2NDY5Mywx
+MzgyMjQyNTgzLC0xNjYxMTI1NDk2LC0xMDYwODMzOTE0LDE0Mz
+MwNzE2NDIsNTE3Mzk2MTk5XX0=
 -->
