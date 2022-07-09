@@ -193,7 +193,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 * The form object along with the user inputs can be retrieved using the `request.form` object. For example in our case we created a form object using `form = UserRegisterForm(request.form)`
 * To handle the POST request sent by the browser, an additional parameter `methods=["GET", "POST"]` is specified in the route handler decorator. This means that the route handler will also accept "POST" requests also in addition to "GET" requests. Using `request.method` inside the route handler, we can differentiate whether the route handler is triggered by a "GET" or "POST" request.
-* The form object can be validated just by calling `form.validate()` which returns True if the form inputs are passing the validators f
+* The form object can be validated just by calling `form.validate()` which returns True if the form inputs are passing the `validators` of all form fields. Thus validation is very easy and less error prone when we use WTForms
+* A
 
 ### Accessing Form data in route handler
 * The `request.form` object inside the route handler will contain the form data as a dictionary
@@ -339,7 +340,7 @@ The video for this post can be seen [here](https://youtu.be/ve-3ho66a_E)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MDAzODE5MCwtMTQyNzAyNTA4LC01OT
+eyJoaXN0b3J5IjpbLTE5MzQ0NTAyNiwtMTQyNzAyNTA4LC01OT
 k3MzI0NDgsMTA0NTY4OTQxNiwxNDc2NzUwNTM3LC0xOTM5OTYz
 NDEyLC05NzMxNDE2MjcsLTE4NTYzNjk2NzUsLTE5MzQ0MDkwMD
 YsLTE3Mzg1MzkyMDksMTA0NzQ4NTYxNCwyMTIxODY0NjkzLDEz
