@@ -1,4 +1,4 @@
-## Skill - Forms in flask with WTForms 
+## Skill - WTForms for better forms validation and rendering in Flask 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -211,10 +211,10 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTYzMjc5NCw5ODQ0ODk4ODEsLTE0Mj
-cwMjUwOCwtNTk5NzMyNDQ4LDEwNDU2ODk0MTYsMTQ3Njc1MDUz
-NywtMTkzOTk2MzQxMiwtOTczMTQxNjI3LC0xODU2MzY5Njc1LC
-0xOTM0NDA5MDA2LC0xNzM4NTM5MjA5LDEwNDc0ODU2MTQsMjEy
-MTg2NDY5MywxMzgyMjQyNTgzLC0xNjYxMTI1NDk2LC0xMDYwOD
-MzOTE0LDE0MzMwNzE2NDIsNTE3Mzk2MTk5XX0=
+eyJoaXN0b3J5IjpbLTE0NDI2MzU2OTMsOTg0NDg5ODgxLC0xND
+I3MDI1MDgsLTU5OTczMjQ0OCwxMDQ1Njg5NDE2LDE0NzY3NTA1
+MzcsLTE5Mzk5NjM0MTIsLTk3MzE0MTYyNywtMTg1NjM2OTY3NS
+wtMTkzNDQwOTAwNiwtMTczODUzOTIwOSwxMDQ3NDg1NjE0LDIx
+MjE4NjQ2OTMsMTM4MjI0MjU4MywtMTY2MTEyNTQ5NiwtMTA2MD
+gzMzkxNCwxNDMzMDcxNjQyLDUxNzM5NjE5OV19
 -->
