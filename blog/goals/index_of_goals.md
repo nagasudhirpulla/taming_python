@@ -136,7 +136,7 @@ Here are the goals and skills in this tutorial series
 * [Template inheritance in Flask jinja templates ](https://nagasudhir.blogspot.com/2022/04/template-inheritance-in-flask-jinja.html)
 * [Macros in python flask jinja templates](https://nagasudhir.blogspot.com/2022/05/macros-in-python-flask-jinja-templates.html)
 * [Forms with front-end and server-side validation in Flask web applications](https://nagasudhir.blogspot.com/2022/06/forms-with-front-end-and-server-side.html)
-* [Forms in flask with WTForms](https://nagasudhir.blogspot.com/2022/07/forms-in-flask-with-wtforms.html)
+* [WTForms for better forms validation and rendering in Flask](https://nagasudhir.blogspot.com/2022/07/forms-in-flask-with-wtforms.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -144,7 +144,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTY5OTg4OTY0OCwxNzM5OD
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTE1MjMyMzA3NSwxNzM5OD
 E5MDMyLDEyODA1OTg5MDgsNTY2NDgxMDM2LC0xOTA2NTM4MTY0
 LC0yMTA5NTM2MjkyLC0xMjYxMTQzMjcsLTE3Mzg1MTE0MjgsMT
 Q2NDkwNjcwNiwtMTU2NzE0NTUzMiwtMTkxMTA2NDE1NywxNzA1
