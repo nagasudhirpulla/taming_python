@@ -204,7 +204,6 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ### Video
 The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j5IQI4aW9ZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## References
@@ -212,10 +211,10 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDA4MTc1MjgsOTg0NDg5ODgxLC0xND
-I3MDI1MDgsLTU5OTczMjQ0OCwxMDQ1Njg5NDE2LDE0NzY3NTA1
-MzcsLTE5Mzk5NjM0MTIsLTk3MzE0MTYyNywtMTg1NjM2OTY3NS
-wtMTkzNDQwOTAwNiwtMTczODUzOTIwOSwxMDQ3NDg1NjE0LDIx
-MjE4NjQ2OTMsMTM4MjI0MjU4MywtMTY2MTEyNTQ5NiwtMTA2MD
-gzMzkxNCwxNDMzMDcxNjQyLDUxNzM5NjE5OV19
+eyJoaXN0b3J5IjpbMTIyNTYzMjc5NCw5ODQ0ODk4ODEsLTE0Mj
+cwMjUwOCwtNTk5NzMyNDQ4LDEwNDU2ODk0MTYsMTQ3Njc1MDUz
+NywtMTkzOTk2MzQxMiwtOTczMTQxNjI3LC0xODU2MzY5Njc1LC
+0xOTM0NDA5MDA2LC0xNzM4NTM5MjA5LDEwNDc0ODU2MTQsMjEy
+MTg2NDY5MywxMzgyMjQyNTgzLC0xNjYxMTI1NDk2LC0xMDYwOD
+MzOTE0LDE0MzMwNzE2NDIsNTE3Mzk2MTk5XX0=
 -->
