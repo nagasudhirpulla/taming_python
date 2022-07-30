@@ -35,7 +35,7 @@ def index():
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
-## Get all the folder contents using os.scandir
+### Get all the folder contents using os.scandir
 * For a given folder path, all the files and folder inside the folder can be fetched using the `os.scandir` function
 ```py
 import os
@@ -43,7 +43,7 @@ folderPath = r"C:\"
 print([x.name for x in os.scandir(folderPath)])
 ```
 
-## Get the file size and modified time with os.stat
+### Get the file size and modified time with os.stat
 * The file size and last modified time for a file path can be derived from `os.stat` function
 ```py
 import os
@@ -80,7 +80,7 @@ print(f"fileSize = {getReadableByteSize(fileStat.st_size)} bytes")
 print(f"Modified Time in posix timestamp = {getTimeStampString(fileStat.st_mtime)}")
 ```
 
-## Deriving file path from URL using safe_join 
+### Deriving file path from URL using safe_join 
 * The path of the file is expressed as a URL path in directory listing
 * Path of the desired file in the file system can be derived using this URL path just by joining the base folder path with the URL path 
 * For example, if the request URL was `/Web/Screen/img102.jpg` and the base folder is located at  `C:\Abcd`, the desired file path would be `C:\Abcd\Web\Screen\img102.jpg`
@@ -93,7 +93,7 @@ print('filePath=',safe_join(baseFolderPath, urlPath).replace('\\', '/'))
 ```
 * The advantage of using `safe_join` over `os.path.join` is that it ensures that files above the server base folder are not served. Hence a security issue can be addressed using safe_join function
 
-## Get parent folder path of a folder using pathlib
+### Get parent folder path of a folder using pathlib
 * For navigational purposes, we need to create a link for the parent folder of the current folder being displayed
 * This can be derived using the Path object from pathlib library as shown below
 ```py
@@ -103,7 +103,7 @@ folderPath = r'C:\Windows\Containers\serviced'
 print('parent folder = ', Path(folderPath).parents[0])
 ```
 
-## Get file or folder path relative to base folder using os.path.relpath
+### Get file or folder path relative to base folder using os.path.relpath
 * Paths relative to the base server folder are required to make the file or folder clickable in the directory listing
 * This can be achieved using the os.path.relpath as shown below
 ```py
@@ -114,6 +114,8 @@ baseFolderPath = r'C:\Windows'
 
 print('realtive path = ', os.path.relpath(filePath, baseFolderPath).replace("\\", "/"))
 ```
+
+### Download file using send_file
  
 ## Injecting form object into the template
 * The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
@@ -315,7 +317,7 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3NDQwNzQxLDE2NTQwODUyNDAsMTQ5MD
-Q0NzI2OCwtMTU0NjkyODUxNSwtMTgzNjA0NDUwMywtMTkzMTYx
-MzA4OCwtMTI1NzQxNjg0OV19
+eyJoaXN0b3J5IjpbLTEwOTM2OTU5MTQsMTY1NDA4NTI0MCwxND
+kwNDQ3MjY4LC0xNTQ2OTI4NTE1LC0xODM2MDQ0NTAzLC0xOTMx
+NjEzMDg4LC0xMjU3NDE2ODQ5XX0=
 -->
