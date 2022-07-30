@@ -18,44 +18,21 @@ Please make sure to have all the skills mentioned above to understand and execut
 ## Use Cases
 * Directory listing may be useful if we desire to display files of a particular folder in a server like generated reports, images etc. 
 
-## The Form object
-* The labels, data types, names etc of all the form fields can be defined as an object of the `Form` class from the wtforms library
-* This form object can be used to easily accomplish the following tasks 
-	* render form inputs in the template
-	* perform server-side form inputs validation
-	* extract form data
-	* create error messages for invalid form inputs
-* As shown below a class named `UserRegisterForm` inherited from `Form` class can be created for our example
-
+## Basic server
+The following python server acts as a 
 ```py
-from wtforms import Form, validators, StringField, BooleanField, DateTimeField, SelectField, PasswordField
-from wtforms.fields import html5 as h5fields
-from wtforms.widgets import html5 as h5widgets
-from wtforms.widgets import TextArea
+from flask import Flask
 
-class UserRegisterForm(Form):
-    uName = StringField("Name", validators=[
-                        validators.InputRequired(), validators.Length(min=4, max=250)])
-    uPass = PasswordField("Password", validators=[
-                        validators.InputRequired(), validators.Length(min=4, max=15)])
-    uPhone = h5fields.IntegerField("Phone", validators=[validators.InputRequired(
-    )], widget=h5widgets.NumberInput(min=6000000000, step=1, max=9999999999))
-    uEmail = StringField("Email", validators=[validators.InputRequired()])
-    isGetEmails = BooleanField("Get Promotional Emails", default=False)
-    uDob = DateTimeField("Date of Birth", validators=[
-                         validators.Optional()], format='%Y-%m-%d')
-    uGender = SelectField("Gender", validators=[validators.InputRequired()], choices=[
-                          (0, "Male"), (1, "Female"), (2, "Other")])
-    uAboutMe = StringField("About Yourself", validators=[
-                           validators.Optional(), validators.length(max=300)], widget=TextArea())
+# create a server instance
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return "Hello World!!!"
+
+# run the server
+app.run(host="0.0.0.0", port=50100, debug=True)
 ```
-
-* The fields defined in the above Form object are `StringField`, `PasswordField`, `IntegerField`, `BooleanField`, `DateTimeField`, `SelectField`
-* validators and other options can be defined in the field initialization
-* The first input to the Field class initialization would be the label of the field
-* While defining the `SelectField`, an input named `choices` can be provided as a list of tuples of (value, text). These tuples will define the options of the select list
-* For `DateTimeField`, the `format` input will specify the time string format in which the input should be provided in the web page
-* For defining a `textarea` input, additional input of `widget=TextArea()` can be provided to the `StringField`
 
 ## Injecting form object into the template
 * The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
@@ -202,5 +179,5 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4MjczOTIxLC0xMjU3NDE2ODQ5XX0=
+eyJoaXN0b3J5IjpbLTI4MTM5ODMyMywtMTI1NzQxNjg0OV19
 -->
