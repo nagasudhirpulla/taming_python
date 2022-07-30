@@ -39,7 +39,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * For a given folder path, all the files and folder inside the folder can be fetched using the `os.scandir` function
 ```py
 import os
-print([x.name for x in os.scandir("C:\\")])
+folderPath = r"C:\"
+print([x.name for x in os.scandir(folderPath)])
 ```  
 
 ## Injecting form object into the template
@@ -187,5 +188,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDcwMDQ2OCwtMTI1NzQxNjg0OV19
+eyJoaXN0b3J5IjpbLTE4Mzc4MzIyMjksLTEyNTc0MTY4NDldfQ
+==
 -->
