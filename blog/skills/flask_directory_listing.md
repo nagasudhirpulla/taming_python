@@ -118,6 +118,7 @@ print('realtive path = ', os.path.relpath(filePath, baseFolderPath).replace("\\"
 ### Download file using flask send_file
 * To make the file downloadable upon on clicking on the link, the whole file needs to be sent to the browser from the server instead of a page.
 * This can be done using the send_file function from flask as shown below
+
 ```py
 
 ```
@@ -322,7 +323,7 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5OTQ4OTUzNSwxNjU0MDg1MjQwLDE0OT
+eyJoaXN0b3J5IjpbMTQ0Mjk3ODU0MywxNjU0MDg1MjQwLDE0OT
 A0NDcyNjgsLTE1NDY5Mjg1MTUsLTE4MzYwNDQ1MDMsLTE5MzE2
 MTMwODgsLTEyNTc0MTY4NDldfQ==
 -->
