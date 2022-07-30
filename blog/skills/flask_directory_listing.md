@@ -43,7 +43,17 @@ folderPath = r"C:\"
 print([x.name for x in os.scandir(folderPath)])
 ```
 
-## Get the file size and modified time with 
+## Get the file size and modified time with os.stat
+* The file size and last modified time for a file path can be derived from `os.stat` function
+```py
+import os
+
+filePath = r'C:\Windows\regedit.exe'
+fileStat = os.stat(filePath)
+
+print(f"fileSize = {fileStat.st_size} bytes")
+print(f"Modified Time in posix timestamp = {fileStat.st_mtime}")
+```
 
 ## Injecting form object into the template
 * The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
@@ -190,6 +200,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzE2MTMwODgsLTEyNTc0MTY4NDldfQ
-==
+eyJoaXN0b3J5IjpbMTk5MDYzNDcyOCwtMTkzMTYxMzA4OCwtMT
+I1NzQxNjg0OV19
 -->
