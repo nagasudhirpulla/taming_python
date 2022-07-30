@@ -54,6 +54,7 @@ fileStat = os.stat(filePath)
 print(f"fileSize = {fileStat.st_size} bytes")
 print(f"Modified Time in posix timestamp = {fileStat.st_mtime}")
 ```
+* 
 
 ## Injecting form object into the template
 * The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
@@ -200,6 +201,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDYzNDcyOCwtMTkzMTYxMzA4OCwtMT
+eyJoaXN0b3J5IjpbLTM2NjEwNDI3MiwtMTkzMTYxMzA4OCwtMT
 I1NzQxNjg0OV19
 -->
