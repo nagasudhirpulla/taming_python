@@ -41,7 +41,9 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 import os
 folderPath = r"C:\"
 print([x.name for x in os.scandir(folderPath)])
-```  
+```
+
+## Get the file size and modified time with 
 
 ## Injecting form object into the template
 * The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
@@ -188,6 +190,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzc4MzIyMjksLTEyNTc0MTY4NDldfQ
+eyJoaXN0b3J5IjpbLTE5MzE2MTMwODgsLTEyNTc0MTY4NDldfQ
 ==
 -->
