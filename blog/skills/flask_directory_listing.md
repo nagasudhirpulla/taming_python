@@ -286,11 +286,13 @@ th {text-align: left;}
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
+* os.scandir - https://docs.python.org/3/library/os.html#os.scandir
+* os.stat - https://docs.python.org/3/library/stat.html
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MzU1NDQ4MywtOTkxMjEwMDU4LC0yMz
-YxMDA0MjksLTE0Mjc1MzQ5MDEsLTE1NDQyOTA1MSwxNjI0MzEz
-NzcyLDE0NDI5Nzg1NDMsMTY1NDA4NTI0MCwxNDkwNDQ3MjY4LC
-0xNTQ2OTI4NTE1LC0xODM2MDQ0NTAzLC0xOTMxNjEzMDg4LC0x
-MjU3NDE2ODQ5XX0=
+eyJoaXN0b3J5IjpbNTEyMTY5MTIsLTk5MTIxMDA1OCwtMjM2MT
+AwNDI5LC0xNDI3NTM0OTAxLC0xNTQ0MjkwNTEsMTYyNDMxMzc3
+MiwxNDQyOTc4NTQzLDE2NTQwODUyNDAsMTQ5MDQ0NzI2OCwtMT
+U0NjkyODUxNSwtMTgzNjA0NDUwMywtMTkzMTYxMzA4OCwtMTI1
+NzQxNjg0OV19
 -->
