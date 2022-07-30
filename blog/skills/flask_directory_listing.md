@@ -56,6 +56,30 @@ print(f"Modified Time in posix timestamp = {fileStat.st_mtime}")
 ```
 * 
 
+```py
+import os
+import datetime as dt
+
+def getReadableByteSize(num, suffix='B') -> str:
+    for unit in ['', 'Ki', 'Mi', 'Gi', 'Ti', 'Pi', 'Ei', 'Zi']:
+        if abs(num) < 1024.0:
+            return "%3.1f%s%s" % (num, unit, suffix)
+        num /= 1024.0
+    return "%.1f%s%s" % (num, 'Yi', suffix)
+
+
+def getTimeStampString(tSec: float) -> str:
+    tObj = dt.datetime.fromtimestamp(tSec)
+    tStr = dt.datetime.strftime(tObj, '%Y-%m-%d %H:%M:%S')
+    return tStr
+
+filePath = r'C:\Windows\regedit.exe'
+fileStat = os.stat(filePath)
+
+print(f"fileSize = {getReadableByteSize(fileStat.st_size)} bytes")
+print(f"Modified Time in posix timestamp = {getTimeStampString(fileStat.st_mtime)}")
+```
+
 ## Injecting form object into the template
 * The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
 * The form object named `form` is initialized and injected into the template as shown below in the line `return render_template("home.html.j2", form=form)`
@@ -201,6 +225,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjEwNDI3MiwtMTkzMTYxMzA4OCwtMT
+eyJoaXN0b3J5IjpbLTI2NDIyMTgxMCwtMTkzMTYxMzA4OCwtMT
 I1NzQxNjg0OV19
 -->
