@@ -1,5 +1,4 @@
-
-## Skill - WTForms for better forms validation and rendering in Flask 
+## Skill - Directory Listing in Flask
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -212,5 +211,5 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NjI3MTM3XX0=
+eyJoaXN0b3J5IjpbNzc4MjI2OTQ4XX0=
 -->
