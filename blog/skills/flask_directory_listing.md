@@ -81,6 +81,8 @@ print(f"Modified Time in posix timestamp = {getTimeStampString(fileStat.st_mtime
 ```
 
 ## Deriving file path from URL using safe_join 
+* The path of the file is expressed as a URL path in directory listing
+* The path of the  desired file in the file system 
 
 
 ## Injecting form object into the template
@@ -287,6 +289,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTEzOTYwLC0xODM2MDQ0NTAzLC0xOT
-MxNjEzMDg4LC0xMjU3NDE2ODQ5XX0=
+eyJoaXN0b3J5IjpbMTQ1MDYwMTA0NywtMTgzNjA0NDUwMywtMT
+kzMTYxMzA4OCwtMTI1NzQxNjg0OV19
 -->
