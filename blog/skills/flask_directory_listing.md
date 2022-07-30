@@ -112,12 +112,10 @@ def getReadableByteSize(num, suffix='B') -> str:
         num /= 1024.0
     return "%.1f%s%s" % (num, 'Yi', suffix)
 
-
 def getTimeStampString(tSec: float) -> str:
     tObj = dt.datetime.fromtimestamp(tSec)
     tStr = dt.datetime.strftime(tObj, '%Y-%m-%d %H:%M:%S')
     return tStr
-
 
 def getIconClassForFilename(fName):
     fileExt = Path(fName).suffix
@@ -289,6 +287,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjMxNjQ0LC0xODM2MDQ0NTAzLC0xOT
+eyJoaXN0b3J5IjpbNjMxMzA5MjU2LC0xODM2MDQ0NTAzLC0xOT
 MxNjEzMDg4LC0xMjU3NDE2ODQ5XX0=
 -->
