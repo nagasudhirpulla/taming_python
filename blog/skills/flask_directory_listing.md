@@ -115,9 +115,15 @@ baseFolderPath = r'C:\Windows'
 print('realtive path = ', os.path.relpath(filePath, baseFolderPath).replace("\\", "/"))
 ```
 
-### check if a file or folder exists 
+### check if a file or folder exists using os.path.exists function
+```py
+import os
 
-### check if a path is a folder using os.path.isdir
+filePath = r"C:\abcd\xyz.txt"
+print("file exists? = ", os.path.exists(filePath))
+```
+
+### check if a path is a folder using os.path.isdir function
 * When a user clicks on a file or folder, the URL can be resolved in to an absolute path at the server
 * The function `os.path.isdir` can be used to determine if a path is a folder or a file as shown below
 ```py
@@ -347,8 +353,8 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjAwOTg0NywtMTU0NDI5MDUxLDE2Mj
-QzMTM3NzIsMTQ0Mjk3ODU0MywxNjU0MDg1MjQwLDE0OTA0NDcy
-NjgsLTE1NDY5Mjg1MTUsLTE4MzYwNDQ1MDMsLTE5MzE2MTMwOD
-gsLTEyNTc0MTY4NDldfQ==
+eyJoaXN0b3J5IjpbLTEwMDI2NjI0NDcsLTE1NDQyOTA1MSwxNj
+I0MzEzNzcyLDE0NDI5Nzg1NDMsMTY1NDA4NTI0MCwxNDkwNDQ3
+MjY4LC0xNTQ2OTI4NTE1LC0xODM2MDQ0NTAzLC0xOTMxNjEzMD
+g4LC0xMjU3NDE2ODQ5XX0=
 -->
