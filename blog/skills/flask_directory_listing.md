@@ -16,7 +16,7 @@ Please make sure to have all the skills mentioned above to understand and execut
  
 
 ## Use Cases
-* Directory listing may be useful if we desire to display the files of a particular folder in a server like reports, images etc. 
+* Directory listing may be useful if we desire to display files of a particular folder in a server like generated reports, images etc. 
 
 
 ## The Form object
@@ -203,5 +203,5 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Mjg4OTUyM119
+eyJoaXN0b3J5IjpbLTEyNTc0MTY4NDldfQ==
 -->
