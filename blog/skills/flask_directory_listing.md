@@ -290,11 +290,12 @@ th {text-align: left;}
 * os.stat - https://docs.python.org/3/library/stat.html
 * flask safe_join - https://tedboy.github.io/flask/generated/flask.safe_join.html
 *  Pathlib parents - https://docs.python.org/3/library/pathlib.html#pathlib.PurePath.parents
-* 
+* os.path.repath - https://docs.python.org/3/library/os.path.html#os.path.relpath
+* flask send_file - https://tedboy.github.io/flask/generated/flask.send_file.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2ODk0NjI3LC05OTEyMTAwNTgsLTIzNj
-EwMDQyOSwtMTQyNzUzNDkwMSwtMTU0NDI5MDUxLDE2MjQzMTM3
-NzIsMTQ0Mjk3ODU0MywxNjU0MDg1MjQwLDE0OTA0NDcyNjgsLT
-E1NDY5Mjg1MTUsLTE4MzYwNDQ1MDMsLTE5MzE2MTMwODgsLTEy
-NTc0MTY4NDldfQ==
+eyJoaXN0b3J5IjpbLTgxNjYwNTk1MCwtOTkxMjEwMDU4LC0yMz
+YxMDA0MjksLTE0Mjc1MzQ5MDEsLTE1NDQyOTA1MSwxNjI0MzEz
+NzcyLDE0NDI5Nzg1NDMsMTY1NDA4NTI0MCwxNDkwNDQ3MjY4LC
+0xNTQ2OTI4NTE1LC0xODM2MDQ0NTAzLC0xOTMxNjEzMDg4LC0x
+MjU3NDE2ODQ5XX0=
 -->
