@@ -104,7 +104,11 @@ print('parent folder = ', Path(folderPath).parents[0])
 ```
 
 ## Get file or folder path relative to base folder using os.path.relpath
-* Paths relative to the base s
+* Paths relative to the base server folder are required to make the file or folder clickable in the directory listing
+* This can be achieved using the os.path.relpath as shown below
+```py
+
+```
  
 ## Injecting form object into the template
 * The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
@@ -306,7 +310,7 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODA5NTcwMTUsMTY1NDA4NTI0MCwxND
+eyJoaXN0b3J5IjpbLTEzOTI2NTc0ODUsMTY1NDA4NTI0MCwxND
 kwNDQ3MjY4LC0xNTQ2OTI4NTE1LC0xODM2MDQ0NTAzLC0xOTMx
 NjEzMDg4LC0xMjU3NDE2ODQ5XX0=
 -->
