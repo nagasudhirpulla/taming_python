@@ -107,7 +107,12 @@ print('parent folder = ', Path(folderPath).parents[0])
 * Paths relative to the base server folder are required to make the file or folder clickable in the directory listing
 * This can be achieved using the os.path.relpath as shown below
 ```py
+import os
 
+filePath = r'C:\Windows\Containers\serviced\abcd.txt'
+baseFolderPath = r'C:\Windows'
+
+print('realtive path = ', os.path.relpath(filePath, baseFolderPath).replace("\\", "/"))
 ```
  
 ## Injecting form object into the template
@@ -310,7 +315,7 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTI2NTc0ODUsMTY1NDA4NTI0MCwxND
-kwNDQ3MjY4LC0xNTQ2OTI4NTE1LC0xODM2MDQ0NTAzLC0xOTMx
-NjEzMDg4LC0xMjU3NDE2ODQ5XX0=
+eyJoaXN0b3J5IjpbNjA3NDQwNzQxLDE2NTQwODUyNDAsMTQ5MD
+Q0NzI2OCwtMTU0NjkyODUxNSwtMTgzNjA0NDUwMywtMTkzMTYx
+MzA4OCwtMTI1NzQxNjg0OV19
 -->
