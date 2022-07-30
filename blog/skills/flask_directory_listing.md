@@ -115,22 +115,8 @@ baseFolderPath = r'C:\Windows'
 print('realtive path = ', os.path.relpath(filePath, baseFolderPath).replace("\\", "/"))
 ```
 
-### Download file using flask send_file function
-* To make the file downloadable upon on clicking on the link, the whole file needs to be sent to the browser from the server instead of a page.
-* This can be done using the send_file function from flask as shown below
-```py
-from flask import Flask, send_file
 
-# create a server instance
-app = Flask(__name__)
 
-@app.route('/')
-def index():
-    filePath = r"C:\Abcd\xyz.txt"
-    return send_file(filePath)
-
-app.run(host="0.0.0.0", port=50100, debug=True)
-```
 
 ### check if a path is a folder using os.path.isdir
 * When a user clicks on a file or folder, the URL can be resolved in to an absolute path at the server
@@ -345,8 +331,8 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQyOTA1MSwxNjI0MzEzNzcyLDE0ND
-I5Nzg1NDMsMTY1NDA4NTI0MCwxNDkwNDQ3MjY4LC0xNTQ2OTI4
-NTE1LC0xODM2MDQ0NTAzLC0xOTMxNjEzMDg4LC0xMjU3NDE2OD
-Q5XX0=
+eyJoaXN0b3J5IjpbLTE5MzIwMjU0OTQsLTE1NDQyOTA1MSwxNj
+I0MzEzNzcyLDE0NDI5Nzg1NDMsMTY1NDA4NTI0MCwxNDkwNDQ3
+MjY4LC0xNTQ2OTI4NTE1LC0xODM2MDQ0NTAzLC0xOTMxNjEzMD
+g4LC0xMjU3NDE2ODQ5XX0=
 -->
