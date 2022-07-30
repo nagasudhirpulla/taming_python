@@ -105,7 +105,6 @@ FolderPath = r"C:\Users\Nagasudhir\Downloads"
 def index():
     return "Hello World!!!"
 
-
 def getReadableByteSize(num, suffix='B') -> str:
     for unit in ['', 'Ki', 'Mi', 'Gi', 'Ti', 'Pi', 'Ei', 'Zi']:
         if abs(num) < 1024.0:
@@ -290,6 +289,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDcxOTA5NTgsLTE4MzYwNDQ1MDMsLT
-E5MzE2MTMwODgsLTEyNTc0MTY4NDldfQ==
+eyJoaXN0b3J5IjpbLTM5NjMxNjQ0LC0xODM2MDQ0NTAzLC0xOT
+MxNjEzMDg4LC0xMjU3NDE2ODQ5XX0=
 -->
