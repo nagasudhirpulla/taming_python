@@ -115,8 +115,7 @@ baseFolderPath = r'C:\Windows'
 print('realtive path = ', os.path.relpath(filePath, baseFolderPath).replace("\\", "/"))
 ```
 
-
-
+### check if a file or folder exists 
 
 ### check if a path is a folder using os.path.isdir
 * When a user clicks on a file or folder, the URL can be resolved in to an absolute path at the server
@@ -130,6 +129,23 @@ print("isdir for file = ", os.path.isdir(filePath))
 folderPath = r"C:\Windows\Branding\Basebrd"
 print("isdir for folder = ", os.path.isdir(folderPath))
 ``` 
+
+### Download file using flask send_file function
+* To make the file downloadable upon on clicking on the link, the whole file needs to be sent to the browser from the server instead of a page.
+* This can be done using the send_file function from flask as shown below
+```py
+from flask import Flask, send_file
+
+# create a server instance
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    filePath = r"C:\Abcd\xyz.txt"
+    return send_file(filePath)
+
+app.run(host="0.0.0.0", port=50100, debug=True)
+```
 
 ## Injecting form object into the template
 * The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
@@ -331,8 +347,8 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzIwMjU0OTQsLTE1NDQyOTA1MSwxNj
-I0MzEzNzcyLDE0NDI5Nzg1NDMsMTY1NDA4NTI0MCwxNDkwNDQ3
-MjY4LC0xNTQ2OTI4NTE1LC0xODM2MDQ0NTAzLC0xOTMxNjEzMD
-g4LC0xMjU3NDE2ODQ5XX0=
+eyJoaXN0b3J5IjpbMTgwNjAwOTg0NywtMTU0NDI5MDUxLDE2Mj
+QzMTM3NzIsMTQ0Mjk3ODU0MywxNjU0MDg1MjQwLDE0OTA0NDcy
+NjgsLTE1NDY5Mjg1MTUsLTE4MzYwNDQ1MDMsLTE5MzE2MTMwOD
+gsLTEyNTc0MTY4NDldfQ==
 -->
