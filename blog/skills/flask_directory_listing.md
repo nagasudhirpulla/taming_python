@@ -54,7 +54,7 @@ fileStat = os.stat(filePath)
 print(f"fileSize = {fileStat.st_size} bytes")
 print(f"Modified Time in posix timestamp = {fileStat.st_mtime}")
 ```
-* 
+* We can use helper functions to make the file size in bytes and modified time in POSIX timestamp more readable
 
 ```py
 import os
@@ -225,6 +225,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDIyMTgxMCwtMTkzMTYxMzA4OCwtMT
+eyJoaXN0b3J5IjpbLTU2ODg2MzY5NSwtMTkzMTYxMzA4OCwtMT
 I1NzQxNjg0OV19
 -->
