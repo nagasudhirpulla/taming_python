@@ -235,8 +235,7 @@ The workflow to serve the directory listing page would be as follows
 * Derive the absolute path w.r.t the base folder using relative path
 * If the derived path is a valid file, send the file
 * If the derived path is a folder path, serve a directory listing page that displays the list of files and folders in the folder
-* While displaying the folder contents, each file or folder is given a hyperlink which sends the request to the server to serve its contents
-* A link to parent directory also will be provided while displaying folder contents for easy navigation
+* While displaying the folder contents, each file or folder is given a hyperlink which sends the request to the server to serve its contents. Also a link to parent directory will be provided for easy navigation
 
 ### Template file
 ```html
@@ -366,7 +365,7 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDc0NDY0LC05OTEyMTAwNTgsLTIzNj
+eyJoaXN0b3J5IjpbMjE0MTA2MDUzLC05OTEyMTAwNTgsLTIzNj
 EwMDQyOSwtMTQyNzUzNDkwMSwtMTU0NDI5MDUxLDE2MjQzMTM3
 NzIsMTQ0Mjk3ODU0MywxNjU0MDg1MjQwLDE0OTA0NDcyNjgsLT
 E1NDY5Mjg1MTUsLTE4MzYwNDQ1MDMsLTE5MzE2MTMwODgsLTEy
