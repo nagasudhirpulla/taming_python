@@ -61,7 +61,7 @@ import os
 import datetime as dt
 
 def getReadableByteSize(num, suffix='B') -> str:
-    for unit in ['', 'Ki', 'Mi', 'Gi', 'Ti', 'Pi', 'Ei', 'Zi']:
+    for unit in ['', 'K', 'M', 'G', 'T', 'P', 'E', 'Z']:
         if abs(num) < 1024.0:
             return "%3.1f%s%s" % (num, unit, suffix)
         num /= 1024.0
@@ -174,11 +174,11 @@ def index():
     return "Hello World!!!"
 
 def getReadableByteSize(num, suffix='B') -> str:
-    for unit in ['', 'Ki', 'Mi', 'Gi', 'Ti', 'Pi', 'Ei', 'Zi']:
+    for unit in ['', 'K', 'M', 'G', 'T', 'P', 'E', 'Z']:
         if abs(num) < 1024.0:
             return "%3.1f%s%s" % (num, unit, suffix)
         num /= 1024.0
-    return "%.1f%s%s" % (num, 'Yi', suffix)
+    return "%.1f%s%s" % (num, 'Y', suffix)
 
 def getTimeStampString(tSec: float) -> str:
     tObj = dt.datetime.fromtimestamp(tSec)
@@ -357,8 +357,9 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjEwMDQyOSwtMTQyNzUzNDkwMSwtMT
-U0NDI5MDUxLDE2MjQzMTM3NzIsMTQ0Mjk3ODU0MywxNjU0MDg1
-MjQwLDE0OTA0NDcyNjgsLTE1NDY5Mjg1MTUsLTE4MzYwNDQ1MD
-MsLTE5MzE2MTMwODgsLTEyNTc0MTY4NDldfQ==
+eyJoaXN0b3J5IjpbLTk5MTIxMDA1OCwtMjM2MTAwNDI5LC0xND
+I3NTM0OTAxLC0xNTQ0MjkwNTEsMTYyNDMxMzc3MiwxNDQyOTc4
+NTQzLDE2NTQwODUyNDAsMTQ5MDQ0NzI2OCwtMTU0NjkyODUxNS
+wtMTgzNjA0NDUwMywtMTkzMTYxMzA4OCwtMTI1NzQxNjg0OV19
+
 -->
