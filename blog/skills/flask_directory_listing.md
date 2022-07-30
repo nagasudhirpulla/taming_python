@@ -134,7 +134,10 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ### check if a path is a folder using os.path.isdir
 * When a user clicks on a file or folder, the URL can be resolved in to an absolute path at the server
-* 
+* The function `os.path.isdir` can be used to determine if a path is a folder or a file as shown below
+```py
+
+``` 
 
 ## Injecting form object into the template
 * The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
@@ -336,8 +339,8 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzNDMxODE5LDE2MjQzMTM3NzIsMTQ0Mj
-k3ODU0MywxNjU0MDg1MjQwLDE0OTA0NDcyNjgsLTE1NDY5Mjg1
-MTUsLTE4MzYwNDQ1MDMsLTE5MzE2MTMwODgsLTEyNTc0MTY4ND
-ldfQ==
+eyJoaXN0b3J5IjpbLTE0MjQ4ODA4OTUsMTYyNDMxMzc3MiwxND
+QyOTc4NTQzLDE2NTQwODUyNDAsMTQ5MDQ0NzI2OCwtMTU0Njky
+ODUxNSwtMTgzNjA0NDUwMywtMTkzMTYxMzA4OCwtMTI1NzQxNj
+g0OV19
 -->
