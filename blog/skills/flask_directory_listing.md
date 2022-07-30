@@ -36,7 +36,10 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
 ## Get all the folder contents using os.scandir
-* For a given folder path  
+* For a given folder path, all the files and folder inside the folder can be fetched using the `os.scandir` function
+```py
+
+```  
 
 ## Injecting form object into the template
 * The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
@@ -183,6 +186,5 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzM5MzkwNzksLTEyNTc0MTY4NDldfQ
-==
+eyJoaXN0b3J5IjpbLTIxMjc4NDAxNiwtMTI1NzQxNjg0OV19
 -->
