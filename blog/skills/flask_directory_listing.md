@@ -115,7 +115,9 @@ baseFolderPath = r'C:\Windows'
 print('realtive path = ', os.path.relpath(filePath, baseFolderPath).replace("\\", "/"))
 ```
 
-### Download file using Flask send_file
+### Download file using flask send_file
+* To make the file downloadable upon on clicking on the link, the whole file needs to be sent to the browser from the server instead of a page.
+* This can  
  
 ## Injecting form object into the template
 * The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
@@ -317,7 +319,7 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NzAwMjA1NywxNjU0MDg1MjQwLDE0OT
-A0NDcyNjgsLTE1NDY5Mjg1MTUsLTE4MzYwNDQ1MDMsLTE5MzE2
-MTMwODgsLTEyNTc0MTY4NDldfQ==
+eyJoaXN0b3J5IjpbLTE3NTc3NzA4NjIsMTY1NDA4NTI0MCwxND
+kwNDQ3MjY4LC0xNTQ2OTI4NTE1LC0xODM2MDQ0NTAzLC0xOTMx
+NjEzMDg4LC0xMjU3NDE2ODQ5XX0=
 -->
