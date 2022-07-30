@@ -116,6 +116,7 @@ print('realtive path = ', os.path.relpath(filePath, baseFolderPath).replace("\\"
 ```
 
 ### check if a file or folder exists using os.path.exists function
+* The resolved file path from the URL needs to be checked if exists or not. This can be done using `os.path.isdir` as shown below.
 ```py
 import os
 
@@ -353,8 +354,8 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI2NjI0NDcsLTE1NDQyOTA1MSwxNj
-I0MzEzNzcyLDE0NDI5Nzg1NDMsMTY1NDA4NTI0MCwxNDkwNDQ3
-MjY4LC0xNTQ2OTI4NTE1LC0xODM2MDQ0NTAzLC0xOTMxNjEzMD
-g4LC0xMjU3NDE2ODQ5XX0=
+eyJoaXN0b3J5IjpbODcxNTYyNzg3LC0xNTQ0MjkwNTEsMTYyND
+MxMzc3MiwxNDQyOTc4NTQzLDE2NTQwODUyNDAsMTQ5MDQ0NzI2
+OCwtMTU0NjkyODUxNSwtMTgzNjA0NDUwMywtMTkzMTYxMzA4OC
+wtMTI1NzQxNjg0OV19
 -->
