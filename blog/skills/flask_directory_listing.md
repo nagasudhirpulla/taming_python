@@ -132,6 +132,8 @@ def index():
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
+### check if a path is a folder using os.path.isdir
+
 ## Injecting form object into the template
 * The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
 * The form object named `form` is initialized and injected into the template as shown below in the line `return render_template("home.html.j2", form=form)`
@@ -332,7 +334,7 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQ4NzEzMTEsMTQ0Mjk3ODU0MywxNj
-U0MDg1MjQwLDE0OTA0NDcyNjgsLTE1NDY5Mjg1MTUsLTE4MzYw
-NDQ1MDMsLTE5MzE2MTMwODgsLTEyNTc0MTY4NDldfQ==
+eyJoaXN0b3J5IjpbMTYyNDMxMzc3MiwxNDQyOTc4NTQzLDE2NT
+QwODUyNDAsMTQ5MDQ0NzI2OCwtMTU0NjkyODUxNSwtMTgzNjA0
+NDUwMywtMTkzMTYxMzA4OCwtMTI1NzQxNjg0OV19
 -->
