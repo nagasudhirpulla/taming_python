@@ -222,7 +222,7 @@ def getFiles(reqPath):
     # get parent directory url
     parentFolderPath = os.path.relpath(
         Path(absPath).parents[0], FolderPath).replace("\\", "/")
-    return render_template('home.html.j2', data={'files': fileObjs,
+    return render_template('files.html.j2', data={'files': fileObjs,
                                                  'parentFolder': parentFolderPath})
 
 # run the server
@@ -357,8 +357,8 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjYxNDU2ODgsLTE0Mjc1MzQ5MDEsLT
-E1NDQyOTA1MSwxNjI0MzEzNzcyLDE0NDI5Nzg1NDMsMTY1NDA4
-NTI0MCwxNDkwNDQ3MjY4LC0xNTQ2OTI4NTE1LC0xODM2MDQ0NT
-AzLC0xOTMxNjEzMDg4LC0xMjU3NDE2ODQ5XX0=
+eyJoaXN0b3J5IjpbLTk0NjIxNTY2NiwtMTQyNzUzNDkwMSwtMT
+U0NDI5MDUxLDE2MjQzMTM3NzIsMTQ0Mjk3ODU0MywxNjU0MDg1
+MjQwLDE0OTA0NDcyNjgsLTE1NDY5Mjg1MTUsLTE4MzYwNDQ1MD
+MsLTE5MzE2MTMwODgsLTEyNTc0MTY4NDldfQ==
 -->
