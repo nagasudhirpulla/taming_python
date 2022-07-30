@@ -231,7 +231,9 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ## Workflow
 The workflow to serve the directory listing page would be as follows
-* Extract the url path 
+* Extract the path from URL
+* Derive the absolute path relative to the base folder
+* If the absolutepath is a valid file 
 
 ### Template file
 ```html
@@ -361,9 +363,9 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTE5MDY2ODIsLTk5MTIxMDA1OCwtMj
-M2MTAwNDI5LC0xNDI3NTM0OTAxLC0xNTQ0MjkwNTEsMTYyNDMx
-Mzc3MiwxNDQyOTc4NTQzLDE2NTQwODUyNDAsMTQ5MDQ0NzI2OC
-wtMTU0NjkyODUxNSwtMTgzNjA0NDUwMywtMTkzMTYxMzA4OCwt
-MTI1NzQxNjg0OV19
+eyJoaXN0b3J5IjpbNzkwODM4NDY0LC05OTEyMTAwNTgsLTIzNj
+EwMDQyOSwtMTQyNzUzNDkwMSwtMTU0NDI5MDUxLDE2MjQzMTM3
+NzIsMTQ0Mjk3ODU0MywxNjU0MDg1MjQwLDE0OTA0NDcyNjgsLT
+E1NDY5Mjg1MTUsLTE4MzYwNDQ1MDMsLTE5MzE2MTMwODgsLTEy
+NTc0MTY4NDldfQ==
 -->
