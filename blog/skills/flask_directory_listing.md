@@ -80,7 +80,7 @@ print(f"fileSize = {getReadableByteSize(fileStat.st_size)} bytes")
 print(f"Modified Time in posix timestamp = {getTimeStampString(fileStat.st_mtime)}")
 ```
 
-## Deriving su-bfolder path from URL using safe_join 
+## Deriving sub-folder path from URL using safe_join 
 
 ## Injecting form object into the template
 * The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
@@ -227,6 +227,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzMTk5NjE3LC0xOTMxNjEzMDg4LC0xMj
-U3NDE2ODQ5XX0=
+eyJoaXN0b3J5IjpbLTE4MTc2NzQ3NDEsLTE5MzE2MTMwODgsLT
+EyNTc0MTY4NDldfQ==
 -->
