@@ -80,6 +80,8 @@ print(f"fileSize = {getReadableByteSize(fileStat.st_size)} bytes")
 print(f"Modified Time in posix timestamp = {getTimeStampString(fileStat.st_mtime)}")
 ```
 
+## Deriving su-bfolder path from URL using safe_join 
+
 ## Injecting form object into the template
 * The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
 * The form object named `form` is initialized and injected into the template as shown below in the line `return render_template("home.html.j2", form=form)`
@@ -225,6 +227,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTU2OTE3MCwtMTkzMTYxMzA4OCwtMT
-I1NzQxNjg0OV19
+eyJoaXN0b3J5IjpbOTkzMTk5NjE3LC0xOTMxNjEzMDg4LC0xMj
+U3NDE2ODQ5XX0=
 -->
