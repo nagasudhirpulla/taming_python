@@ -120,7 +120,18 @@ print('realtive path = ', os.path.relpath(filePath, baseFolderPath).replace("\\"
 * This can be done using the send_file function from flask as shown below
 
 ```py
+from flask import Flask, send_file
 
+
+# create a server instance
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    filePath = r"C:\Abcd\xyz.txt"
+    return send_file(filePath)
+
+app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
 ## Injecting form object into the template
@@ -323,7 +334,7 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0Mjk3ODU0MywxNjU0MDg1MjQwLDE0OT
-A0NDcyNjgsLTE1NDY5Mjg1MTUsLTE4MzYwNDQ1MDMsLTE5MzE2
-MTMwODgsLTEyNTc0MTY4NDldfQ==
+eyJoaXN0b3J5IjpbMTI4NzExODcwNSwxNDQyOTc4NTQzLDE2NT
+QwODUyNDAsMTQ5MDQ0NzI2OCwtMTU0NjkyODUxNSwtMTgzNjA0
+NDUwMywtMTkzMTYxMzA4OCwtMTI1NzQxNjg0OV19
 -->
