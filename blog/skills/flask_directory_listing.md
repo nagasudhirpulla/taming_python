@@ -84,6 +84,7 @@ print(f"Modified Time in posix timestamp = {getTimeStampString(fileStat.st_mtime
 * The path of the file is expressed as a URL path in directory listing
 * Path of the desired file in the file system can be derived using this URL path just by joining the base folder path with the URL path 
 * For example, if the request URL was `/Web/Screen/img102.jpg` and the base folder is located at  `C:\Abcd`, the desired file path would be `C:\Abcd\Web\Screen\img102.jpg`
+* This can be 
 
 
 ## Injecting form object into the template
@@ -165,46 +166,47 @@ def getFiles(reqPath):
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
-### Rendering each form field
+### Template file
 ```html
-<p>Hi, please fill this form</p>
-
-{% macro render_input(field, showErrors="true") %}
-    <tr>
-        <td>{{ field.label }}</td>
-        <td>{{ field(**kwargs)|safe }}
-            {% if showErrors=="true" and field.errors %}
-            <ul class="errors">
-            {% for error in field.errors %}
-                <li>{{ error }}</li>
-            {% endfor %}
-            </ul>
-            {% endif %}
-        </td>
-    </tr>
-{% endmacro %}
-
-<form method="post">
-    <table>
-        {{render_input(form.uName)}}
-        {{render_input(form.uPass)}}
-        {{render_input(form.uPhone)}}
-        {{render_input(form.uEmail, type="email")}}
-        {{render_input(form.isGetEmails)}}
-        {{render_input(form.uDob, type="date")}}
-        {{render_input(form.uGender)}}
-        {{render_input(form.uAboutMe)}}
+<h2>Directory Listing Example</h2>
+<table class="table table-striped table-responsive">
+    <thead>
         <tr>
-            <td><button type="submit">Submit</button></td>
+            <th>Name</th>
+            <th>Modified Time</th>
+            <th>Size</th>
         </tr>
-    </table>
-</form>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <a href="{{ url_for('getFiles', reqPath=data['parentFolder']) }}">
+                    <span><i class="bi bi-folder-symlink" style="margin-right:0.3em"></i>Parent Directory</span>
+                </a>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        {% for fileObj in data['files'] %}
+        <tr>
+            <td>
+                <a href="{{ url_for('getFiles', reqPath=fileObj['relPath']) }}">
+                    <span><i class="{{fileObj['fIcon']}}" style="margin-right:0.3em"></i>{{ fileObj['name'] }}</span>
+                </a>
+            </td>
+            <td>{{fileObj['mTime']}}</td>
+            <td>{{fileObj['size']}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
 <style>
-.errors{
-    font-size: 0.5em;
-    color: red;
-}
+table {table-layout:fixed; width:100%;}
+table td, th {word-wrap:break-word;}
+th {text-align: left;}
 </style>
 ```
 
@@ -290,6 +292,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTAwNjA1NDQsLTE4MzYwNDQ1MDMsLT
-E5MzE2MTMwODgsLTEyNTc0MTY4NDldfQ==
+eyJoaXN0b3J5IjpbMjA1ODMzMjg4MiwtMTgzNjA0NDUwMywtMT
+kzMTYxMzA4OCwtMTI1NzQxNjg0OV19
 -->
