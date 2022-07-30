@@ -101,7 +101,6 @@ import datetime as dt
 app = Flask(__name__)
 FolderPath = r"C:\Users\Nagasudhir\Downloads"
 
-
 @app.route('/')
 def index():
     return "Hello World!!!"
@@ -291,6 +290,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjY0OTk4NCwtMTgzNjA0NDUwMywtMT
-kzMTYxMzA4OCwtMTI1NzQxNjg0OV19
+eyJoaXN0b3J5IjpbLTE0NDcxOTA5NTgsLTE4MzYwNDQ1MDMsLT
+E5MzE2MTMwODgsLTEyNTc0MTY4NDldfQ==
 -->
