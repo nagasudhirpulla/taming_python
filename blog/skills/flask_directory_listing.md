@@ -229,6 +229,10 @@ def getFiles(reqPath):
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
+## Workflow
+The workflow to serve the directory listing page would be as follows
+* Extract the url path 
+
 ### Template file
 ```html
 <!--Template file-->
@@ -357,9 +361,9 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTIxMDA1OCwtMjM2MTAwNDI5LC0xND
-I3NTM0OTAxLC0xNTQ0MjkwNTEsMTYyNDMxMzc3MiwxNDQyOTc4
-NTQzLDE2NTQwODUyNDAsMTQ5MDQ0NzI2OCwtMTU0NjkyODUxNS
-wtMTgzNjA0NDUwMywtMTkzMTYxMzA4OCwtMTI1NzQxNjg0OV19
-
+eyJoaXN0b3J5IjpbLTE3NTE5MDY2ODIsLTk5MTIxMDA1OCwtMj
+M2MTAwNDI5LC0xNDI3NTM0OTAxLC0xNTQ0MjkwNTEsMTYyNDMx
+Mzc3MiwxNDQyOTc4NTQzLDE2NTQwODUyNDAsMTQ5MDQ0NzI2OC
+wtMTU0NjkyODUxNSwtMTgzNjA0NDUwMywtMTkzMTYxMzA4OCwt
+MTI1NzQxNjg0OV19
 -->
