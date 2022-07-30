@@ -87,7 +87,7 @@ print(f"Modified Time in posix timestamp = {getTimeStampString(fileStat.st_mtime
 * This can be achieved using `safe_join` function from flask ( for example safe_join(folderPath, urlPath) )
 * The advantage of using safe_join over os.path.join is that it ensures that files above the server base folder are not served. Hence an security issue can be addressed using safe_join function
 
-## Get parent fopath URL of a folder  
+## Get parent folder path of a folder  
 
 
 ## Injecting form object into the template
@@ -290,7 +290,7 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTM4NDUyMywxNDkwNDQ3MjY4LC0xNT
-Q2OTI4NTE1LC0xODM2MDQ0NTAzLC0xOTMxNjEzMDg4LC0xMjU3
-NDE2ODQ5XX0=
+eyJoaXN0b3J5IjpbLTE1NzU0ODgxNTMsMTQ5MDQ0NzI2OCwtMT
+U0NjkyODUxNSwtMTgzNjA0NDUwMywtMTkzMTYxMzA4OCwtMTI1
+NzQxNjg0OV19
 -->
