@@ -89,7 +89,7 @@ print(f"Modified Time in posix timestamp = {getTimeStampString(fileStat.st_mtime
 from flask import safe_join
 urlPath = 'Web/Screen/img102.jpg'
 baseFolderPath = r'C:\Abcd'
-print('filePath=',safe_join(baseFolderPath, urlPath))
+print('filePath=',safe_join(baseFolderPath, urlPath.replace('//','/')))
 ```
 * The advantage of using safe_join over os.path.join is that it ensures that files above the server base folder are not served. Hence an security issue can be addressed using safe_join function
 
@@ -298,7 +298,7 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODU3MDkxMiwxNDkwNDQ3MjY4LC0xNT
-Q2OTI4NTE1LC0xODM2MDQ0NTAzLC0xOTMxNjEzMDg4LC0xMjU3
-NDE2ODQ5XX0=
+eyJoaXN0b3J5IjpbLTE5OTU2NjA3MjQsMTQ5MDQ0NzI2OCwtMT
+U0NjkyODUxNSwtMTgzNjA0NDUwMywtMTkzMTYxMzA4OCwtMTI1
+NzQxNjg0OV19
 -->
