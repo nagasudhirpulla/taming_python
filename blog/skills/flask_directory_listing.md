@@ -95,7 +95,7 @@ print('filePath=',safe_join(baseFolderPath, urlPath).replace('\\', '/'))
 
 ## Get parent folder path of a folder using pathlib
 * For navigational purposes, we need to create a link for the parent folder of the current folder being displayed
-* This can be 
+* This can be derived using the Path object from pathlib library as shown below
 ```py
 from pathlib import Path
 
@@ -303,7 +303,7 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMDExNjQ2NSwxNjU0MDg1MjQwLDE0OT
+eyJoaXN0b3J5IjpbLTE3Mzk1MzU0NiwxNjU0MDg1MjQwLDE0OT
 A0NDcyNjgsLTE1NDY5Mjg1MTUsLTE4MzYwNDQ1MDMsLTE5MzE2
 MTMwODgsLTEyNTc0MTY4NDldfQ==
 -->
