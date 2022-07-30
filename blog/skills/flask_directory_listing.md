@@ -12,8 +12,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* In this post we will learn how to use WTForms for efficient and easy forms management in Flask web applications.
-* WTForms also helps in writing less code and reducing the scope of manual errors while creating forms in flask
+* In this post we will learn how show a list of files present in the server directory along with navigation and download features using Flask 
 
 ## Installing WTForms
 * WTForms can be installed in a python environment with pip using the following command
@@ -209,5 +208,5 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzc5NzE3NF19
+eyJoaXN0b3J5IjpbMTExNTU5NTc3XX0=
 -->
