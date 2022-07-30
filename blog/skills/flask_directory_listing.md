@@ -19,7 +19,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Directory listing may be useful if we desire to display files of a particular folder in a server like generated reports, images etc. 
 
 ## Basic server
-The following python server acts as a flask server that runs on port 50100
+* The following python server acts as a flask server that runs on port 50100
+* We will add the directory listing to this server
 ```py
 from flask import Flask
 
@@ -179,5 +180,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2NTAwNzQwLC0xMjU3NDE2ODQ5XX0=
+eyJoaXN0b3J5IjpbLTE5ODkzNzYzMDcsLTEyNTc0MTY4NDldfQ
+==
 -->
