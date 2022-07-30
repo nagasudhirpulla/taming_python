@@ -155,7 +155,7 @@ def index():
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
-## Injecting form object into the template
+## Putting all of it together
 * The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
 * The form object named `form` is initialized and injected into the template as shown below in the line `return render_template("home.html.j2", form=form)`
 
@@ -355,8 +355,8 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjc1MzQ5MDEsLTE1NDQyOTA1MSwxNj
-I0MzEzNzcyLDE0NDI5Nzg1NDMsMTY1NDA4NTI0MCwxNDkwNDQ3
-MjY4LC0xNTQ2OTI4NTE1LC0xODM2MDQ0NTAzLC0xOTMxNjEzMD
-g4LC0xMjU3NDE2ODQ5XX0=
+eyJoaXN0b3J5IjpbNTgzNDYwMTI4LC0xNDI3NTM0OTAxLC0xNT
+Q0MjkwNTEsMTYyNDMxMzc3MiwxNDQyOTc4NTQzLDE2NTQwODUy
+NDAsMTQ5MDQ0NzI2OCwtMTU0NjkyODUxNSwtMTgzNjA0NDUwMy
+wtMTkzMTYxMzA4OCwtMTI1NzQxNjg0OV19
 -->
