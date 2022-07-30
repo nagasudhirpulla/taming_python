@@ -232,6 +232,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ### Template file
 ```html
 <!--Template file-->
+<!--templates/hello.py-->
 <h2>Directory Listing Example</h2>
 <table class="table table-striped table-responsive">
     <thead>
@@ -356,8 +357,8 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4NjAxNjYsLTE0Mjc1MzQ5MDEsLTE1ND
-QyOTA1MSwxNjI0MzEzNzcyLDE0NDI5Nzg1NDMsMTY1NDA4NTI0
-MCwxNDkwNDQ3MjY4LC0xNTQ2OTI4NTE1LC0xODM2MDQ0NTAzLC
-0xOTMxNjEzMDg4LC0xMjU3NDE2ODQ5XX0=
+eyJoaXN0b3J5IjpbLTEyMjYxNDU2ODgsLTE0Mjc1MzQ5MDEsLT
+E1NDQyOTA1MSwxNjI0MzEzNzcyLDE0NDI5Nzg1NDMsMTY1NDA4
+NTI0MCwxNDkwNDQ3MjY4LC0xNTQ2OTI4NTE1LC0xODM2MDQ0NT
+AzLC0xOTMxNjEzMDg4LC0xMjU3NDE2ODQ5XX0=
 -->
