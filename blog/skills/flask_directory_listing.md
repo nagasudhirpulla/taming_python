@@ -95,7 +95,7 @@ import datetime as dt
 
 # create a server instance
 app = Flask(__name__)
-FolderPath = r"C:\Users\Nagasudhir\Downloads\arachni-1.5.1-0.5.12-windows-x86_64"
+FolderPath = r"C:\Users\Nagasudhir\Downloads"
 
 
 @app.route('/')
@@ -160,7 +160,6 @@ def getFiles(reqPath):
 
 # run the server
 app.run(host="0.0.0.0", port=50100, debug=True)
-
 ```
 
 ### Rendering each form field
@@ -288,6 +287,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTg3MTY0NiwtMTkzMTYxMzA4OCwtMT
-I1NzQxNjg0OV19
+eyJoaXN0b3J5IjpbLTE4MzYwNDQ1MDMsLTE5MzE2MTMwODgsLT
+EyNTc0MTY4NDldfQ==
 -->
