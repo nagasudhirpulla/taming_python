@@ -156,10 +156,10 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
 ## Putting all of it together
-* The below `server.py` is a simple flask server accessible at `http://localhost:50100` which serves `home.html.j2` template present in the `templates` folder
-* The form object named `form` is initialized and injected into the template as shown below in the line `return render_template("home.html.j2", form=form)`
+* Using all the above functions we can create a server that can perform directory listing as shown below
 
 ```py
+# server python file
 from flask import Flask, render_template, abort, safe_join, send_file
 from pathlib import Path
 import os
@@ -355,7 +355,7 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzNDYwMTI4LC0xNDI3NTM0OTAxLC0xNT
+eyJoaXN0b3J5IjpbNzIzNzM5MjgzLC0xNDI3NTM0OTAxLC0xNT
 Q0MjkwNTEsMTYyNDMxMzc3MiwxNDQyOTc4NTQzLDE2NTQwODUy
 NDAsMTQ5MDQ0NzI2OCwtMTU0NjkyODUxNSwtMTgzNjA0NDUwMy
 wtMTkzMTYxMzA4OCwtMTI1NzQxNjg0OV19
