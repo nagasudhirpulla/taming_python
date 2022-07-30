@@ -88,7 +88,8 @@ print(f"Modified Time in posix timestamp = {getTimeStampString(fileStat.st_mtime
 * The advantage of using safe_join over os.path.join is that it ensures that files above the server base folder are not served. Hence an security issue can be addressed using safe_join function
 
 ## Get parent folder path of a folder
-* For need to create a link for     
+* For navigational purposes, we need to create a link for the parent folder of the current folder being displayed
+* The     
 
 
 ## Injecting form object into the template
@@ -291,7 +292,7 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODYzNjIyODUsMTQ5MDQ0NzI2OCwtMT
+eyJoaXN0b3J5IjpbLTEzNjA0Njk1ODYsMTQ5MDQ0NzI2OCwtMT
 U0NjkyODUxNSwtMTgzNjA0NDUwMywtMTkzMTYxMzA4OCwtMTI1
 NzQxNjg0OV19
 -->
