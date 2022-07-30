@@ -194,8 +194,8 @@ def getIconClassForFilename(fName):
     return fileIconClass
 
 # route handler
-@app.route('/getFiles/', defaults={'reqPath': ''})
-@app.route('/getFiles/<path:reqPath>')
+@app.route('/reports/', defaults={'reqPath': ''})
+@app.route('/reports/<path:reqPath>')
 def getFiles(reqPath):
     # Join the base and the requested path
     # could have done os.path.join, but safe_join ensures that files are not fetched from parent folders of the base folder
@@ -357,7 +357,7 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDg3NzM2NywtMTQyNzUzNDkwMSwtMT
+eyJoaXN0b3J5IjpbLTIzNjEwMDQyOSwtMTQyNzUzNDkwMSwtMT
 U0NDI5MDUxLDE2MjQzMTM3NzIsMTQ0Mjk3ODU0MywxNjU0MDg1
 MjQwLDE0OTA0NDcyNjgsLTE1NDY5Mjg1MTUsLTE4MzYwNDQ1MD
 MsLTE5MzE2MTMwODgsLTEyNTc0MTY4NDldfQ==
