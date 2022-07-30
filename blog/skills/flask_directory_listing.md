@@ -161,7 +161,6 @@ def getFiles(reqPath):
     return render_template('home.html.j2', data={'files': fileObjs,
                                                  'parentFolder': parentFolderPath})
 
-
 # run the server
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
@@ -292,6 +291,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODMzMjg4MiwtMTgzNjA0NDUwMywtMT
+eyJoaXN0b3J5IjpbLTExNjY0OTk4NCwtMTgzNjA0NDUwMywtMT
 kzMTYxMzA4OCwtMTI1NzQxNjg0OV19
 -->
