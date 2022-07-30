@@ -40,7 +40,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * For a given folder path, all the files and folder inside the folder can be fetched using the `os.scandir` function
 ```py
 import os
-folderPath = r"C:\"
+folderPath = r"C:\Windows"
 print([x.name for x in os.scandir(folderPath)])
 ```
 
@@ -294,9 +294,9 @@ th {text-align: left;}
 * os.path.repath - https://docs.python.org/3/library/os.path.html#os.path.relpath
 * flask send_file - https://tedboy.github.io/flask/generated/flask.send_file.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzM1MjQ0MiwtODE2NjA1OTUwLC05OT
-EyMTAwNTgsLTIzNjEwMDQyOSwtMTQyNzUzNDkwMSwtMTU0NDI5
-MDUxLDE2MjQzMTM3NzIsMTQ0Mjk3ODU0MywxNjU0MDg1MjQwLD
-E0OTA0NDcyNjgsLTE1NDY5Mjg1MTUsLTE4MzYwNDQ1MDMsLTE5
-MzE2MTMwODgsLTEyNTc0MTY4NDldfQ==
+eyJoaXN0b3J5IjpbLTE1OTU4OTUwMDMsLTEyNzM1MjQ0MiwtOD
+E2NjA1OTUwLC05OTEyMTAwNTgsLTIzNjEwMDQyOSwtMTQyNzUz
+NDkwMSwtMTU0NDI5MDUxLDE2MjQzMTM3NzIsMTQ0Mjk3ODU0My
+wxNjU0MDg1MjQwLDE0OTA0NDcyNjgsLTE1NDY5Mjg1MTUsLTE4
+MzYwNDQ1MDMsLTE5MzE2MTMwODgsLTEyNTc0MTY4NDldfQ==
 -->
