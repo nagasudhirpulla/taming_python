@@ -84,7 +84,7 @@ print(f"Modified Time in posix timestamp = {getTimeStampString(fileStat.st_mtime
 * The path of the file is expressed as a URL path in directory listing
 * Path of the desired file in the file system can be derived using this URL path just by joining the base folder path with the URL path 
 * For example, if the request URL was `/Web/Screen/img102.jpg` and the base folder is located at  `C:\Abcd`, the desired file path would be `C:\Abcd\Web\Screen\img102.jpg`
-* This can be acheived
+* This can be achieved using 
 
 
 ## Injecting form object into the template
@@ -287,6 +287,6 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDY5Mjg1MTUsLTE4MzYwNDQ1MDMsLT
-E5MzE2MTMwODgsLTEyNTc0MTY4NDldfQ==
+eyJoaXN0b3J5IjpbLTYzNzcyOTQ3MSwtMTU0NjkyODUxNSwtMT
+gzNjA0NDUwMywtMTkzMTYxMzA4OCwtMTI1NzQxNjg0OV19
 -->
