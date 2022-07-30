@@ -283,91 +283,14 @@ th {text-align: left;}
 </style>
 ```
 
-* A form field say `form.uName` can be rendered in the template using `{{ form.uName()|safe }}`
-* Extra HTML attributes of the input field can be rendered by just passing them as named attributes like `{{ form.uEmail(type="date") }}`
-* The label of the input field can be accessed using the ".label" attribute of the input field like `{{ form.uDob.label }}`
-* The errors in each form field derived from the server-side will be stored in the ".errors" attribute. For example the errors of the form field `form.uPhone` will be stored in `form.uPhone.errors` as a list of strings which can be rendered in the template for displaying to the user after server-side form validation
-* A jinja macro is used in the above example for rendering all the form fields to reduce jinja duplication 
-
-### Front-end validation
-* If the validators of the form fields in the form object are straightforward like `validators.Required`, the required HTML tags for front end validation are rendered in the `{{form.field()|safe}}` itself. This is an additional advantage of using WTForms
-* If additional attributes for front-end valdation are required, those can be explicitly mentioned during rendering, for example `{{ form.uEmail(type="date") }}`
-* Third-party JavaScript libraries like validator.js can also be used for front-end validation in the browser
-
-### Server-side Form handling
-* Below is the flask server code to handle the form submission in our example
-
-```py
-from flask import Flask, render_template, request
-from wtforms import Form, validators, StringField, BooleanField, DateTimeField, SelectField, PasswordField
-from wtforms.fields import html5 as h5fields
-from wtforms.widgets import html5 as h5widgets
-from wtforms.widgets import TextArea
-
-# create a server instance
-app = Flask(__name__)
-
-# create form object
-class UserRegisterForm(Form):
-    uName = StringField("Name", validators=[
-                        validators.InputRequired(), validators.Length(min=4, max=250)])
-    uPass = PasswordField("Password", validators=[
-                        validators.InputRequired(), validators.Length(min=4, max=15)])
-    uPhone = h5fields.IntegerField("Phone", validators=[validators.InputRequired(
-    )], widget=h5widgets.NumberInput(min=6000000000, step=1, max=9999999999))
-    uEmail = StringField("Email", validators=[validators.InputRequired()])
-    isGetEmails = BooleanField("Get Promotional Emails", default=False)
-    uDob = DateTimeField("Date of Birth", validators=[
-                         validators.Optional()], format='%Y-%m-%d')
-    uGender = SelectField("Gender", validators=[validators.InputRequired()], choices=[
-                          (0, "Male"), (1, "Female"), (2, "Other")])
-    uAboutMe = StringField("About Yourself", validators=[
-                           validators.Optional(), validators.length(max=300)], widget=TextArea())
-
-# route handler
-@app.route("/", methods=["GET", "POST"])
-def index():
-    form = UserRegisterForm(request.form)
-    if request.method == "POST" and form.validate():
-        uName = request.form["uName"]
-        print("User =", uName)
-        print("Password =", form.uPass.data)
-        print("Phone =", form.uPhone.data)
-        print("Email =", form.uEmail.data)
-        print("Get Emails =", form.isGetEmails.data)
-        print("Date of Birth =", form.uDob.data)
-        print("Gender =", form.uGender.data)
-        print("About Me =", form.uAboutMe.data)
-        if not uName[0].isalpha():
-            form.uName.errors.append("Username should start with an alphabet")
-    return render_template("home.html.j2", form=form)
-
-# run the server
-app.run(host="0.0.0.0", port=50100, debug=True)
-```
-
-* The form object along with the user inputs can be retrieved using the `request.form` object. For example in our case we created a form object using `form = UserRegisterForm(request.form)`
-* To handle the POST request sent by the browser, an additional parameter `methods=["GET", "POST"]` is specified in the route handler decorator. This means that the route handler will also accept "POST" requests also in addition to "GET" requests. Using `request.method` inside the route handler, we can differentiate whether the route handler is triggered by a "GET" or "POST" request.
-* The form object can be validated just by calling `form.validate()` which returns True if the form inputs are passing the `validators` of all form fields. Thus validation is very easy and less error prone when we use WTForms
-* After calling `form.validate()`, any errors in each form field are populated in the errors attribute as a list of strings. For example the errors of the `form.uEmail` field can be accessed at `form.uEmail.errors`. All the errors of the form can also be accessed using `form.errors` 
-* The form data of each field can be accessed using the data attribute. For example the data of the form field `form.uDob` can be accessed at `form.uDob.data`. The data will the desired form data type instead of string all the time. For example `form.uDob.data` will be a datetime object instead of string because WTForms will take the string from request.form and convert it to datetime object since the form field is declared as a `DateTimeField` field. Hence form data type interpretation is an additional benefit while using WTForms
-
-### Additional form validation after form.validate()
-* If extra validation is performed after `form.validate()` and errors are found, they can be populated in the `errors` attribute of the corresponding form field. For example, extra errors can be added to `form.uName` using `form.uName.errors.append("Username should start with an alphabet")`
-
-### Video
-The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j5IQI4aW9ZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## References
-* WTForms - https://wtforms.readthedocs.io/en/3.0.x/fields/#basic-fields
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTA2MDUzLC05OTEyMTAwNTgsLTIzNj
-EwMDQyOSwtMTQyNzUzNDkwMSwtMTU0NDI5MDUxLDE2MjQzMTM3
-NzIsMTQ0Mjk3ODU0MywxNjU0MDg1MjQwLDE0OTA0NDcyNjgsLT
-E1NDY5Mjg1MTUsLTE4MzYwNDQ1MDMsLTE5MzE2MTMwODgsLTEy
-NTc0MTY4NDldfQ==
+eyJoaXN0b3J5IjpbLTQ1MzU1NDQ4MywtOTkxMjEwMDU4LC0yMz
+YxMDA0MjksLTE0Mjc1MzQ5MDEsLTE1NDQyOTA1MSwxNjI0MzEz
+NzcyLDE0NDI5Nzg1NDMsMTY1NDA4NTI0MCwxNDkwNDQ3MjY4LC
+0xNTQ2OTI4NTE1LC0xODM2MDQ0NTAzLC0xOTMxNjEzMDg4LC0x
+MjU3NDE2ODQ5XX0=
 -->
