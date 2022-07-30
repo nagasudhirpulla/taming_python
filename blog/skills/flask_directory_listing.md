@@ -18,7 +18,6 @@ Please make sure to have all the skills mentioned above to understand and execut
 ## Use Cases
 * Directory listing may be useful if we desire to display files of a particular folder in a server like generated reports, images etc. 
 
-
 ## The Form object
 * The labels, data types, names etc of all the form fields can be defined as an object of the `Form` class from the wtforms library
 * This form object can be used to easily accomplish the following tasks 
@@ -203,5 +202,5 @@ The video for this post can be seen [here](https://youtu.be/j5IQI4aW9ZU)
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTc0MTY4NDldfQ==
+eyJoaXN0b3J5IjpbNDk4MjczOTIxLC0xMjU3NDE2ODQ5XX0=
 -->
