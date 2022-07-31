@@ -12,9 +12,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* In this post we will learn how show a list of files present in the server directory along with navigation and download features using Flask 
+* In this post we will learn how show a list of files present in the server directory along with navigation and download features using Flask
  
  ![flask_directory_listing](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/flask_directory_listing.png)
+ 
 
 ## Use Cases
 * Directory listing may be useful if we desire to display files of a particular folder in a server like generated reports, images etc. 
@@ -284,6 +285,12 @@ th {text-align: left;}
 </style>
 ```
 
+
+### Video
+The video for this post can be seen [here](https://youtu.be/x4HkFdBVVrw)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x4HkFdBVVrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## References
 * Flask quickstart - https://flask.palletsprojects.com/en/2.1.x/quickstart/
 * Jinja docs - https://jinja.palletsprojects.com/en/3.1.x/templates/
@@ -294,9 +301,10 @@ th {text-align: left;}
 * os.path.repath - https://docs.python.org/3/library/os.path.html#os.path.relpath
 * flask send_file - https://tedboy.github.io/flask/generated/flask.send_file.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU4OTUwMDMsLTEyNzM1MjQ0MiwtOD
-E2NjA1OTUwLC05OTEyMTAwNTgsLTIzNjEwMDQyOSwtMTQyNzUz
-NDkwMSwtMTU0NDI5MDUxLDE2MjQzMTM3NzIsMTQ0Mjk3ODU0My
-wxNjU0MDg1MjQwLDE0OTA0NDcyNjgsLTE1NDY5Mjg1MTUsLTE4
-MzYwNDQ1MDMsLTE5MzE2MTMwODgsLTEyNTc0MTY4NDldfQ==
+eyJoaXN0b3J5IjpbLTE4NDAyNTAyMzAsLTE1OTU4OTUwMDMsLT
+EyNzM1MjQ0MiwtODE2NjA1OTUwLC05OTEyMTAwNTgsLTIzNjEw
+MDQyOSwtMTQyNzUzNDkwMSwtMTU0NDI5MDUxLDE2MjQzMTM3Nz
+IsMTQ0Mjk3ODU0MywxNjU0MDg1MjQwLDE0OTA0NDcyNjgsLTE1
+NDY5Mjg1MTUsLTE4MzYwNDQ1MDMsLTE5MzE2MTMwODgsLTEyNT
+c0MTY4NDldfQ==
 -->
