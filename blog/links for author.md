@@ -12,16 +12,17 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 * naming conventions for classes (nouns), variables (nouns), functions (verbs), using camel case, avoid obvious names and use contextual names for better readability
 * flask sub mounting
 * flask blueprints
+* flask api endpoints
 * flask as a background service using nssm
 * flask behind IIS
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODk3MTgyNCw1NTg2NDczMjgsLTkyMj
-ExNTU3LDUwMTUxNjg3NCwtMzYxNzI5MzIzLDE1ODQ4MjgwMTYs
-MjEyMzIzMDEyMyw3NjYxOTU2MDUsMTM0MjY3Nzc2MSwtOTUyOD
-A5NTk4LDQ3OTc3MzIzNSwtNjEzNTU3MTk0LC05Mjc1MzI0OTEs
-Nzk1NzYzMzM1LC02NTY3Mzc5OTcsLTE2MzIzOTIwODcsLTIyOT
-YyOTU1NywxOTI0MjYzOTg4LDEzOTEzOTQwNjAsMTI1ODI4NjIz
-N119
+eyJoaXN0b3J5IjpbMTc1MTMzMzE3MywxNzg4OTcxODI0LDU1OD
+Y0NzMyOCwtOTIyMTE1NTcsNTAxNTE2ODc0LC0zNjE3MjkzMjMs
+MTU4NDgyODAxNiwyMTIzMjMwMTIzLDc2NjE5NTYwNSwxMzQyNj
+c3NzYxLC05NTI4MDk1OTgsNDc5NzczMjM1LC02MTM1NTcxOTQs
+LTkyNzUzMjQ5MSw3OTU3NjMzMzUsLTY1NjczNzk5NywtMTYzMj
+M5MjA4NywtMjI5NjI5NTU3LDE5MjQyNjM5ODgsMTM5MTM5NDA2
+MF19
 -->
