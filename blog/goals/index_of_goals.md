@@ -137,6 +137,7 @@ Here are the goals and skills in this tutorial series
 * [Macros in python flask jinja templates](https://nagasudhir.blogspot.com/2022/05/macros-in-python-flask-jinja-templates.html)
 * [Forms with front-end and server-side validation in Flask web applications](https://nagasudhir.blogspot.com/2022/06/forms-with-front-end-and-server-side.html)
 * [WTForms for better forms validation and rendering in Flask](https://nagasudhir.blogspot.com/2022/07/forms-in-flask-with-wtforms.html)
+* [Sub mount a flask application under a URL prefix](https://nagasudhir.blogspot.com/2022/08/sub-mounting-flask-application-under.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -144,11 +145,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTE1MjMyMzA3NSwxNzM5OD
-E5MDMyLDEyODA1OTg5MDgsNTY2NDgxMDM2LC0xOTA2NTM4MTY0
-LC0yMTA5NTM2MjkyLC0xMjYxMTQzMjcsLTE3Mzg1MTE0MjgsMT
-Q2NDkwNjcwNiwtMTU2NzE0NTUzMiwtMTkxMTA2NDE1NywxNzA1
-MTkwNjEyLDgwNjEzNzYwNyw5OTc2ODgxMzQsLTEyMzM3MjExOC
-wtMTc4ODE3MzAxMCw4ODEwNTI1MjksODk2NDc3MzY2LC0yOTc0
-MjI4NzEsLTYxNjcyMTQ1NV19
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTQwODcxNTI2NSwxMTUyMz
+IzMDc1LDE3Mzk4MTkwMzIsMTI4MDU5ODkwOCw1NjY0ODEwMzYs
+LTE5MDY1MzgxNjQsLTIxMDk1MzYyOTIsLTEyNjExNDMyNywtMT
+czODUxMTQyOCwxNDY0OTA2NzA2LC0xNTY3MTQ1NTMyLC0xOTEx
+MDY0MTU3LDE3MDUxOTA2MTIsODA2MTM3NjA3LDk5NzY4ODEzNC
+wtMTIzMzcyMTE4LC0xNzg4MTczMDEwLDg4MTA1MjUyOSw4OTY0
+NzczNjYsLTI5NzQyMjg3MV19
 -->
