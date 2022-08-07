@@ -23,31 +23,30 @@ Mounting an application under a URL prefix can help in
 * Each URL prefix should start with a `/` (example `/app1`)
 * If no prefixes are matched, the DispatcherMiddleware can be configured to route the requests to a particular flask application or send a "404 not found" error  
 
-### extract variables from URL segments
+### Example
 ```py
 from flask import Flask
-from markupsafe import escape
+from werkzeug.middleware.dispatcher import DispatcherMiddleware
+from werkzeug.exceptions import NotFound
 
+# create a server instance
 app = Flask(__name__)
 
-@app.route('/hello/<uname>')
-def hello(uname):
-    # uname variable extracted from url segment
-    # sanitize the variable string using markupsafe
-    sanitizedName = escape(uname)
-    return "Hello {0}".format(sanitizedName)
+@app.route('/')
+def index():
+    return "Hello World!!!"
 
-@app.route('/echoNum/<int:num>')
-def echoNum(num):
-    # num integer variable is extracted from url segment
-    return "The number was {0}".format(num)
+@app.route('/help')
+def helpPage():
+    return "This is the Help Page"
 
-@app.route('/echoPath/<path:pathVar>')
-def echoPath(pathVar):
-    # pathVar variable of type path is extracted from url segments
-    return "The path was {0}".format(pathVar)
+hostedApp = Flask(__name__)
+hostedApp.wsgi_app = DispatcherMiddleware(NotFound(), {
+    "/app": app
+})
 
-app.run(host='0.0.0.0', port=50100, debug=True)
+# run the server
+hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 ```
 * int, float, path, uuid are the supported variable types that can be extracted from URL segments
 
@@ -81,6 +80,6 @@ The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTE2MzAwMSwtMTU4MjEzNTc2NiwtMj
+eyJoaXN0b3J5IjpbMTcxMTk2Nzg3NSwtMTU4MjEzNTc2NiwtMj
 A4ODc0NjYxMl19
 -->
