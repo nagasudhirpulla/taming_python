@@ -13,7 +13,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 * In this post we will learn how to sub-mount a flask application under a URL prefix
 
 ## Use cases
-* mounting an application under a url prefix can help in dispatching multiple python applications  
+Mounting an application under a URL prefix can help in 
+* dispatching multiple flask applications from a single server
+* Placing the flask application behind a reverse proxy like  
 
 ### extract variables from URL segments
 ```py
@@ -73,6 +75,5 @@ The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzU3NTQ3NzgsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbNDAxNzgzNTg1LC0yMDg4NzQ2NjEyXX0=
 -->
