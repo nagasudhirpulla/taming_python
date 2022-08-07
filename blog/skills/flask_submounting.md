@@ -100,7 +100,7 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 * In the above example, 3 different flask applications are dispatched from a single server using DispatcherMiddleware
 * DispatcherMiddleware is configure to route the requests to `app1` if no URL prefixes are matched
 * The requests are sent to `app2` if the URL prefix is "abc" and the  requests are sent to `app3` if the URL prefix is "def"
-* 
+
 ### Video
 The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
 
@@ -112,6 +112,6 @@ The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI0MDI0Nzc0LC03NjIyMTUyNDIsLTEyMT
-U5ODI3NjgsLTE1ODIxMzU3NjYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTQ0Mjk2MTg0MCwtNzYyMjE1MjQyLC0xMj
+E1OTgyNzY4LC0xNTgyMTM1NzY2LC0yMDg4NzQ2NjEyXX0=
 -->
