@@ -21,7 +21,7 @@ Mounting an application under a URL prefix can help in
 ## Sub mounting an application using DispatcherMiddleware class  
 * DispatcherMiddleware class can be used to dispatch one or more flask applications each with different URL prefix
 * Each URL prefix should start with a `/` (example `/app1`)
-* If no prefixes are matched, the DispatcherMiddleware can be configured to route the requests to a particular flask application or send a No 
+* If no prefixes are matched, the DispatcherMiddleware can be configured to route the requests to a particular flask application or send a "404 not found" error  
 
 ### extract variables from URL segments
 ```py
@@ -81,6 +81,6 @@ The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDkyNDc4NSwtMTU4MjEzNTc2NiwtMj
+eyJoaXN0b3J5IjpbMTAzOTE2MzAwMSwtMTU4MjEzNTc2NiwtMj
 A4ODc0NjYxMl19
 -->
