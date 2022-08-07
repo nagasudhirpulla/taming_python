@@ -101,11 +101,17 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 * DispatcherMiddleware is configure to route the requests to `app1` if no URL prefixes are matched
 * The requests are sent to `app2` if the URL prefix is "abc" and the  requests are sent to `app3` if the URL prefix is "def"
 
+### Video
+The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_JiJGFAW43s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 * DispatcherMiddleware docs - https://flask.palletsprojects.com/en/2.2.x/patterns/appdispatch/#combining-applications
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTUzOTk0MSwtNzYyMjE1MjQyLC0xMj
-E1OTgyNzY4LC0xNTgyMTM1NzY2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMjE2OTE1MDcyLDEzMjk1Mzk5NDEsLTc2Mj
+IxNTI0MiwtMTIxNTk4Mjc2OCwtMTU4MjEzNTc2NiwtMjA4ODc0
+NjYxMl19
 -->
