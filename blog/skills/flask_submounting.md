@@ -10,8 +10,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* In this post we will learn how to extract parameters from URLs in flask server end-points
-* The URL parameters can be extracted from the URL path and URL query
+* In this post we will learn how to sub-mount a flask application under a URL prefix
+
+## Use cases
+* mounting an application under a url prefix can help in dispatching multiple python applications  
 
 ### extract variables from URL segments
 ```py
@@ -71,5 +73,6 @@ The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTY5OTAwMCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE2NzU3NTQ3NzgsLTIwODg3NDY2MTJdfQ
+==
 -->
