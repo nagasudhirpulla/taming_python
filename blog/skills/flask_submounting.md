@@ -97,6 +97,9 @@ hostedApp.wsgi_app = DispatcherMiddleware(app1, {
 # run the server
 hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 ```
+* In the above example, 3 different flask applications are dispatched from a single server using DispatcherMiddleware
+* DispatcherMiddleware is configure to route the requests to "app1" if no URL prefixes are matched
+* 
 ### Video
 The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
 
@@ -108,6 +111,6 @@ The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjIxNTI0MiwtMTIxNTk4Mjc2OCwtMT
-U4MjEzNTc2NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE0NTg0MzA0MTUsLTc2MjIxNTI0MiwtMT
+IxNTk4Mjc2OCwtMTU4MjEzNTc2NiwtMjA4ODc0NjYxMl19
 -->
