@@ -20,7 +20,8 @@ Mounting an application under a URL prefix can help in
 ![reverse_proxy_arch image](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/reverse_proxy_arch.png)
 ## Sub mounting an application using DispatcherMiddleware class  
 * DispatcherMiddleware class can be used to dispatch one or more flask applications each with different URL prefix
-* Each URL prefix should start witha 
+* Each URL prefix should start with a `/` (example `/app1`)
+* If no prefixes are matched, the DispatcherMiddleware can be configured to route the requests to a particular flask application or send a No 
 
 ### extract variables from URL segments
 ```py
@@ -80,6 +81,6 @@ The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDYxODI0MDUsLTE1ODIxMzU3NjYsLT
-IwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTY0NDkyNDc4NSwtMTU4MjEzNTc2NiwtMj
+A4ODc0NjYxMl19
 -->
