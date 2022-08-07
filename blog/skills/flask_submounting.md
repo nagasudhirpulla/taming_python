@@ -102,11 +102,10 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 * The requests are sent to `app2` if the URL prefix is "abc" and the  requests are sent to `app3` if the URL prefix is "def"
 
 ### References
-* get variables from URL segments - https://flask.palletsprojects.com/en/2.1.x/quickstart/#variable-rules
-* get variables from URL query parameters - https://stackabuse.com/get-request-query-parameters-with-flask/
+* DispatcherMiddleware docs -  https://flask.palletsprojects.com/en/2.2.x/patterns/appdispatch/#combining-applications
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzcxNjc0MDcsLTc2MjIxNTI0MiwtMT
-IxNTk4Mjc2OCwtMTU4MjEzNTc2NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjE0MDQ3MDIxMiwtNzYyMjE1MjQyLC0xMj
+E1OTgyNzY4LC0xNTgyMTM1NzY2LC0yMDg4NzQ2NjEyXX0=
 -->
