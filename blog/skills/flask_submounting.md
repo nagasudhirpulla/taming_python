@@ -42,13 +42,13 @@ def helpPage():
 
 hostedApp = Flask(__name__)
 hostedApp.wsgi_app = DispatcherMiddleware(NotFound(), {
-    "/app": app
+    "/myApp": app
 })
 
 # run the server
 hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 ```
-* int, float, path, uuid are the supported variable types that can be extracted from URL segments
+* In the above example the flask application named app
 
 ### extract variables from URL query parameters
 * using request.args imported from flask module, we can extract the query parameters from URL
@@ -80,6 +80,6 @@ The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTk2Nzg3NSwtMTU4MjEzNTc2NiwtMj
+eyJoaXN0b3J5IjpbMTc3MjYxNTM0MCwtMTU4MjEzNTc2NiwtMj
 A4ODc0NjYxMl19
 -->
