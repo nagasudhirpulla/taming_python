@@ -51,6 +51,8 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 * In the above example, the flask application named `app` is sub-mounted under a URL prefix "/myApp"
 * In case of no matching URL prefix, "404 not found page" will be returned
 
+
+
 ### extract variables from URL query parameters
 * using request.args imported from flask module, we can extract the query parameters from URL
 * using request.args.to_dict() function, we can get the URL query parameters as a python dict object
@@ -81,6 +83,6 @@ The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzA3NTgyMCwtMTU4MjEzNTc2NiwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE4ODY5Nzk4MjQsLTE1ODIxMzU3NjYsLT
+IwODg3NDY2MTJdfQ==
 -->
