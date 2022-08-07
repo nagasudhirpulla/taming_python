@@ -52,25 +52,50 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 * In case of no matching URL prefix, "404 not found page" will be returned
 
 ### Multiple flask apps example
-
-### extract variables from URL query parameters
-* using request.args imported from flask module, we can extract the query parameters from URL
-* using request.args.to_dict() function, we can get the URL query parameters as a python dict object
 ```py
-from flask import Flask, request
-app = Flask(__name__)
+from flask import Flask
+from werkzeug.middleware.dispatcher import DispatcherMiddleware
+from werkzeug.exceptions import NotFound
 
-@app.route('/search')
-def search():
-    # get the request query parameters as a python dict
-    args = request.args.to_dict()
+app1 = Flask(__name__)
 
-    # get the 'name' query parameter value with a default value as 'No Name'
-    name = args.get("name", "No Name")
+@app1.route('/')
+def index1():
+    return "App1 Hello World!!!"
 
-    return "Hello {0}!!!".format(name)
+@app1.route('/help')
+def helpPage1():
+    return "App1 Help Page"
 
-app.run(host='0.0.0.0', port=50100, debug=True)
+app2 = Flask(__name__)
+
+@app2.route('/')
+def index2():
+    return "App2 Home Page"
+
+@app2.route('/help')
+def helpPage2():
+    return "App2 Help Page"
+
+
+app3 = Flask(__name__)
+
+@app3.route('/')
+def index3():
+    return "App3 Home"
+
+@app3.route('/help')
+def helpPage3():
+    return "App3 Help Page"
+
+hostedApp = Flask(__name__)
+hostedApp.wsgi_app = DispatcherMiddleware(app1, {
+    "/abc": app2,
+    "/def": app3
+})
+
+# run the server
+hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 ```
 ### Video
 The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
@@ -83,6 +108,6 @@ The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU5ODI3NjgsLTE1ODIxMzU3NjYsLT
-IwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTc2MjIxNTI0MiwtMTIxNTk4Mjc2OCwtMT
+U4MjEzNTc2NiwtMjA4ODc0NjYxMl19
 -->
