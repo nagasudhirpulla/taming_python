@@ -16,8 +16,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 Mounting an application under a URL prefix can help in 
 * dispatching multiple flask applications from a single server
 * Placing the flask application behind a reverse proxy like (nginx or IIS) with a URL prefix. URL prefix is required because the reverse proxy can serve multiple applications each with different URL prefix
-* 
+
 ![reverse_proxy_arch image](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/reverse_proxy_arch.png)
+## URL 
 ### extract variables from URL segments
 ```py
 from flask import Flask
@@ -76,6 +77,6 @@ The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI0NTE2MDQzLC0xNTgyMTM1NzY2LC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTA2OTg5MjczMCwtMTU4MjEzNTc2NiwtMj
+A4ODc0NjYxMl19
 -->
