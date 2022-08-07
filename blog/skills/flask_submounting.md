@@ -1,4 +1,4 @@
-## Skill - Sub mounting a flask application 
+## Skill - Sub mounting a flask application under a URL prefix
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -71,6 +71,5 @@ The video for this post can be seen [here](https://youtu.be/-C5ZtjNwOvI)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODc3ODE0OTAsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbMTE2NTY5OTAwMCwtMjA4ODc0NjYxMl19
 -->
