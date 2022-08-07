@@ -51,7 +51,7 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 * In the above example, the flask application named `app` is sub-mounted under a URL prefix "/myApp"
 * In case of no matching URL prefix, "404 not found page" will be returned
 
-### Multiple flask apps example
+### Combining multiple flask applications
 ```py
 from flask import Flask
 from werkzeug.middleware.dispatcher import DispatcherMiddleware
@@ -106,6 +106,6 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjE2MDIxNDIsLTc2MjIxNTI0MiwtMT
-IxNTk4Mjc2OCwtMTU4MjEzNTc2NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTMyOTUzOTk0MSwtNzYyMjE1MjQyLC0xMj
+E1OTgyNzY4LC0xNTgyMTM1NzY2LC0yMDg4NzQ2NjEyXX0=
 -->
