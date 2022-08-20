@@ -67,7 +67,6 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-
 @app.route('/')
 def index():
     return render_template("home.html")
@@ -143,5 +142,5 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDUyMjMzMl19
+eyJoaXN0b3J5IjpbLTIwMzgwNzEwOTRdfQ==
 -->
