@@ -112,7 +112,9 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * This is the template for our custom error page
 * We are able to control the styling and also link to home page is added 
 
-### Generic Error handler for all HTTP errors
+### Global Error handler for all HTTP errors
+* Instead of explicitly specifying the error handler for each HTTP error code, we can define a Global error handler for all HTTP exceptions
+* 
 ```py
 from flask import Flask, render_template
 from werkzeug.exceptions import HTTPException
@@ -150,6 +152,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5NzY0OTA2LC0xMDYwMTc2MjcyLDExOT
-Y5NjIwNjQsLTE4NjYwNzM4NjhdfQ==
+eyJoaXN0b3J5IjpbLTIwNTI2ODA3NiwtMTA2MDE3NjI3MiwxMT
+k2OTYyMDY0LC0xODY2MDczODY4XX0=
 -->
