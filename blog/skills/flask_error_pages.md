@@ -138,9 +138,9 @@ def serverError(error):
 
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
-* In the above example, 3 different flask applications are dispatched from a single server using DispatcherMiddleware
-* DispatcherMiddleware is configure to route the requests to `app1` if no URL prefixes are matched
-* The requests are sent to `app2` if the URL prefix is "abc" and the  requests are sent to `app3` if the URL prefix is "def"
+
+* In the above example, using the `@app.errorhandler(HTTPException)` decorator, all the HTTP errors are handled by the `handleException` method
+* However for error code 500, since we have speicfically 
 
 ### Video
 The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
@@ -152,6 +152,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQ4MTIzNiwtMTA2MDE3NjI3MiwxMT
-k2OTYyMDY0LC0xODY2MDczODY4XX0=
+eyJoaXN0b3J5IjpbLTEyNzQyOTU3NTQsLTEwNjAxNzYyNzIsMT
+E5Njk2MjA2NCwtMTg2NjA3Mzg2OF19
 -->
