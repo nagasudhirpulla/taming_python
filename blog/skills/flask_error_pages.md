@@ -61,33 +61,7 @@ a {
 }
 ```
 
-### Example
-```py
-from flask import Flask
-from werkzeug.middleware.dispatcher import DispatcherMiddleware
-from werkzeug.exceptions import NotFound
-
-# create a server instance
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return "Hello World!!!"
-
-@app.route('/help')
-def helpPage():
-    return "This is the Help Page"
-
-hostedApp = Flask(__name__)
-hostedApp.wsgi_app = DispatcherMiddleware(NotFound(), {
-    "/myApp": app
-})
-
-# run the server
-hostedApp.run(host="0.0.0.0", port=50100, debug=True)
-```
-* In the above example, the flask application named `app` is sub-mounted under a URL prefix "/myApp"
-* In case of no matching URL prefix, "404 not found page" will be returned
+## 
 
 ### Combining multiple flask applications
 ```py
@@ -149,5 +123,5 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTAxMjI3XX0=
+eyJoaXN0b3J5IjpbLTIxMTE3OTYwNV19
 -->
