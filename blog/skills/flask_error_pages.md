@@ -62,7 +62,26 @@ a {
 ```
 
 ## "register_error_handler method" for custom error page
+```py
+from flask import Flask, render_template
 
+app = Flask(__name__)
+
+
+@app.route('/')
+def index():
+    return render_template("home.html")
+
+
+def genericErrorHandler(error):
+    return render_template("message.html", title=error.name, message=error.description), error.code
+
+for errCode in [400, 401, 403, 404]:
+    app.register_error_handler(errCode, genericErrorHandler)
+
+
+app.run(host="0.0.0.0", port=50100, debug=True)
+```
 
 ### Combining multiple flask applications
 ```py
@@ -124,5 +143,5 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODU5Njc2XX0=
+eyJoaXN0b3J5IjpbMTc4MDUyMjMzMl19
 -->
