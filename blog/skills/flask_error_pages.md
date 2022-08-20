@@ -18,7 +18,7 @@ We can serve custom error pages for
 * Providing additional content in the error pages like links to other pages etc
 *  Custom styling of error pages
 
-## Server setup
+## Sample Server setup
 The following python code serves a page `home.html` from the `templates` folder at the root URL. Also the `theme.css` is linked from the `static/styles` folder
 ```py
 from flask import Flask, render_template
@@ -152,6 +152,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODkyMDgyMiwtMTA2MDE3NjI3MiwxMT
-k2OTYyMDY0LC0xODY2MDczODY4XX0=
+eyJoaXN0b3J5IjpbLTEyMzIyMDc1NTQsLTEwNjAxNzYyNzIsMT
+E5Njk2MjA2NCwtMTg2NjA3Mzg2OF19
 -->
