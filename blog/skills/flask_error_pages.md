@@ -83,6 +83,7 @@ for errCode in [400, 401, 403, 404]:
 def serverError(error):
     return render_template("message.html", title="Internal Server Error", message="Some Internal Error occured..."), error.code
 
+
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
@@ -172,6 +173,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTUyNjE2MTUsMTE5Njk2MjA2NCwtMT
-g2NjA3Mzg2OF19
+eyJoaXN0b3J5IjpbMTgxMDEwMzM5LDExOTY5NjIwNjQsLTE4Nj
+YwNzM4NjhdfQ==
 -->
