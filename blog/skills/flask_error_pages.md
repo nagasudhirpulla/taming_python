@@ -141,9 +141,9 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_JiJGFAW43s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
-* DispatcherMiddleware docs - https://flask.palletsprojects.com/en/2.2.x/patterns/appdispatch/#combining-applications
+* Official flask error handling guide - https://flask.palletsprojects.com/en/2.2.x/errorhandling/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjYwNzM4NjhdfQ==
+eyJoaXN0b3J5IjpbMTE5Njk2MjA2NCwtMTg2NjA3Mzg2OF19
 -->
