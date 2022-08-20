@@ -49,6 +49,18 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 </html>
 ```
 
+### static/styles/theme.css file
+```css
+body {
+    color: rgb(201, 209, 217);
+    background-color: rgb(13, 17, 23);
+}
+
+a {
+    color: rgb(83, 189, 235);
+}
+```
+
 ### Example
 ```py
 from flask import Flask
@@ -137,5 +149,5 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQ3OTI5MV19
+eyJoaXN0b3J5IjpbLTQ3MTAxMjI3XX0=
 -->
