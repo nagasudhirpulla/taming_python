@@ -31,6 +31,7 @@ def index():
 
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
+
 ### templates/home.html file
 ```html
 <!DOCTYPE html>
@@ -136,5 +137,5 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjEwOTIxXX0=
+eyJoaXN0b3J5IjpbLTE4MTQ3OTI5MV19
 -->
