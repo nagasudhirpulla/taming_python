@@ -104,6 +104,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 </html>
 ```
+* This is the template for our custom error page
+* We are able to control the styling and also link to home page is added 
 
 ### Combining multiple flask applications
 ```py
@@ -165,6 +167,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwNTc4NzUsMTE5Njk2MjA2NCwtMTg2Nj
-A3Mzg2OF19
+eyJoaXN0b3J5IjpbLTgzMTcyMjM5LDExOTY5NjIwNjQsLTE4Nj
+YwNzM4NjhdfQ==
 -->
