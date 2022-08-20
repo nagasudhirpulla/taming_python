@@ -11,7 +11,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* In this post we will learn how to create custom error pages in a flask application and simulate errors in flask application
+* In this post we will learn how to create custom error pages in a flask application and simulate errors in a flask application
 
 ## Use cases
 We can serve custom error pages for
@@ -183,7 +183,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Flask register_error_handler method - https://flask.palletsprojects.com/en/2.2.x/api/#flask.Flask.register_error_handler
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTE5NDA4NDEsMTA4MTg2NjQyOSwtMj
+eyJoaXN0b3J5IjpbLTEyNDI1Nzk5NDQsMTA4MTg2NjQyOSwtMj
 E4OTcyMTg5LDE0MzkxODQ1NTUsOTk1NTQ2OTIxLC0xMDYwMTc2
 MjcyLDExOTY5NjIwNjQsLTE4NjYwNzM4NjhdfQ==
 -->
