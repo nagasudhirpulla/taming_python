@@ -173,13 +173,13 @@ def handleException(error):
 
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
-* In the above python server code, visi
+* In the above python server code, visiting the URL `/simulate500` will call the `abort(500)` method which throws the HTTP exception with status code 500
 
 ### References
 * Official flask error handling guide - https://flask.palletsprojects.com/en/2.2.x/errorhandling/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjk5OTQyNywtMTA2MDE3NjI3MiwxMT
-k2OTYyMDY0LC0xODY2MDczODY4XX0=
+eyJoaXN0b3J5IjpbOTk1NTQ2OTIxLC0xMDYwMTc2MjcyLDExOT
+Y5NjIwNjQsLTE4NjYwNzM4NjhdfQ==
 -->
