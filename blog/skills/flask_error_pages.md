@@ -14,11 +14,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 * In this post we will learn how to create custom error pages in a flask application and simulate errors in flask application
 
 ## Use cases
-Mounting an application under a URL prefix can help in 
-* dispatching multiple flask applications from a single server
-* Placing the flask application behind a reverse proxy like (nginx or IIS) with a URL prefix. URL prefix is required because the reverse proxy can serve multiple applications each with different URL prefix
+We can serve custom error pages for
+* Providing additional content in the error pages like links to other pages etc
+*  
 
-![reverse_proxy_arch image](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/reverse_proxy_arch.png)
+
 ## Sub mounting an application using DispatcherMiddleware class  
 * DispatcherMiddleware class can be used to dispatch one or more flask applications each with different URL prefix
 * Each URL prefix should start with a `/` (example `/app1`)
@@ -112,5 +112,5 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTE0NDIyN119
+eyJoaXN0b3J5IjpbMTQxMTEyMTIyM119
 -->
