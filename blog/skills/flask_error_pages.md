@@ -16,7 +16,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ## Use cases
 We can serve custom error pages for
 * Providing additional content in the error pages like links to other pages etc
-*  Custom styling of error pages
+* Custom styling of error pages
 
 ## Sample Server setup
 The following python code serves a page `home.html` from the `templates` folder at the root URL. Also the `theme.css` is linked from the `static/styles` folder
@@ -183,7 +183,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Flask register_error_handler method - https://flask.palletsprojects.com/en/2.2.x/api/#flask.Flask.register_error_handler
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDI1Nzk5NDQsMTA4MTg2NjQyOSwtMj
-E4OTcyMTg5LDE0MzkxODQ1NTUsOTk1NTQ2OTIxLC0xMDYwMTc2
-MjcyLDExOTY5NjIwNjQsLTE4NjYwNzM4NjhdfQ==
+eyJoaXN0b3J5IjpbLTE5MTU5MTU1OTYsLTEyNDI1Nzk5NDQsMT
+A4MTg2NjQyOSwtMjE4OTcyMTg5LDE0MzkxODQ1NTUsOTk1NTQ2
+OTIxLC0xMDYwMTc2MjcyLDExOTY5NjIwNjQsLTE4NjYwNzM4Nj
+hdfQ==
 -->
