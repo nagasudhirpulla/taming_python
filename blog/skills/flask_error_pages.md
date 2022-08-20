@@ -177,9 +177,11 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ### References
 * Official flask error handling guide - https://flask.palletsprojects.com/en/2.2.x/errorhandling/
+* Flask abort method - https://flask.palletsprojects.com/en/2.2.x/api/#flask.abort
+* 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1NTQ2OTIxLC0xMDYwMTc2MjcyLDExOT
-Y5NjIwNjQsLTE4NjYwNzM4NjhdfQ==
+eyJoaXN0b3J5IjpbMTQzOTE4NDU1NSw5OTU1NDY5MjEsLTEwNj
+AxNzYyNzIsMTE5Njk2MjA2NCwtMTg2NjA3Mzg2OF19
 -->
