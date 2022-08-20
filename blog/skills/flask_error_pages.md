@@ -64,7 +64,7 @@ a {
 }
 ```
 
-## "register_error_handler" method or "error_handler" decorator for custom error pages
+## "register_error_handler" method or "errorhandler" decorator for custom error pages
 ```py
 # server.py file
 from flask import Flask, render_template
@@ -91,7 +91,7 @@ def serverError(error):
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
-* As shown in the above code, using the `app.register_error_handler` method or `errorhandler` decorator, we can render error page for a specific error codes
+* As shown in the above code, using the `app.register_error_handler` method or `errorhandler` decorator, we can render error page for a specific HTTP error codes
 * The error handler function takes in an error object. Each error object contains `code`, `name`, `description` properties
 * A page located at `templates/message.html` is rendered while handling the error
 
@@ -182,7 +182,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Flask register_error_handler method - https://flask.palletsprojects.com/en/2.2.x/api/#flask.Flask.register_error_handler
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODk3MjE4OSwxNDM5MTg0NTU1LDk5NT
-U0NjkyMSwtMTA2MDE3NjI3MiwxMTk2OTYyMDY0LC0xODY2MDcz
-ODY4XX0=
+eyJoaXN0b3J5IjpbMTQzMDUzNjA4NCwtMjE4OTcyMTg5LDE0Mz
+kxODQ1NTUsOTk1NTQ2OTIxLC0xMDYwMTc2MjcyLDExOTY5NjIw
+NjQsLTE4NjYwNzM4NjhdfQ==
 -->
