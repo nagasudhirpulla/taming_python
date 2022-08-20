@@ -21,6 +21,7 @@ We can serve custom error pages for
 ## Sample Server setup
 The following python code serves a page `home.html` from the `templates` folder at the root URL. Also the `theme.css` is linked from the `static/styles` folder
 ```py
+# server.py file
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -34,6 +35,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ### templates/home.html file
 ```html
+<!-- templates/home.html file -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -152,6 +154,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzIyMDc1NTQsLTEwNjAxNzYyNzIsMT
-E5Njk2MjA2NCwtMTg2NjA3Mzg2OF19
+eyJoaXN0b3J5IjpbLTQ1MDEzNTIwMiwtMTA2MDE3NjI3MiwxMT
+k2OTYyMDY0LC0xODY2MDczODY4XX0=
 -->
