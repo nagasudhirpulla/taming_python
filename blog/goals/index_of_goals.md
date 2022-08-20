@@ -138,6 +138,7 @@ Here are the goals and skills in this tutorial series
 * [Forms with front-end and server-side validation in Flask web applications](https://nagasudhir.blogspot.com/2022/06/forms-with-front-end-and-server-side.html)
 * [WTForms for better forms validation and rendering in Flask](https://nagasudhir.blogspot.com/2022/07/forms-in-flask-with-wtforms.html)
 * [Sub mount a flask application under a URL prefix](https://nagasudhir.blogspot.com/2022/08/sub-mounting-flask-application-under.html)
+* [Custom Error Pages in python Flask application](https://nagasudhir.blogspot.com/2022/08/custom-error-pages-in-python-flask.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -145,7 +146,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTQwODcxNTI2NSwxMTUyMz
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTM5OTk1NDg3NywxMTUyMz
 IzMDc1LDE3Mzk4MTkwMzIsMTI4MDU5ODkwOCw1NjY0ODEwMzYs
 LTE5MDY1MzgxNjQsLTIxMDk1MzYyOTIsLTEyNjExNDMyNywtMT
 czODUxMTQyOCwxNDY0OTA2NzA2LC0xNTY3MTQ1NTMyLC0xOTEx
