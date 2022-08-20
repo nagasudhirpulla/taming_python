@@ -86,7 +86,7 @@ def serverError(error):
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
-* As shown in the above code, using the `app.register_error_handler` method, we can render error page for a specific error code
+* As shown in the above code, using the `app.register_error_handler` method or `errorhandler` decorator, we can render error page for a specific error codes
 * The error handler function takes in an error object. Each error object contains `code`, `name`, `description` properties
 * A page located at `templates/message.html` is rendered while handling the error
 
@@ -172,6 +172,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTgyNzAsMTE5Njk2MjA2NCwtMTg2Nj
-A3Mzg2OF19
+eyJoaXN0b3J5IjpbLTY2MzkzMTcwMSwxMTk2OTYyMDY0LC0xOD
+Y2MDczODY4XX0=
 -->
