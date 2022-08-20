@@ -133,7 +133,7 @@ def handleException(error):
 
 @app.errorhandler(500)
 def serverError(error):
-    return render_template("message.html", title="Internal Server Error", message="Some Internal Error occured..."), error.code
+    return render_template("message.html", title="Server Error", message="Oops, some error occured..."), error.code
 
 
 app.run(host="0.0.0.0", port=50100, debug=True)
@@ -152,6 +152,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQyOTU3NTQsLTEwNjAxNzYyNzIsMT
-E5Njk2MjA2NCwtMTg2NjA3Mzg2OF19
+eyJoaXN0b3J5IjpbLTY5ODM0NjA5NywtMTA2MDE3NjI3MiwxMT
+k2OTYyMDY0LC0xODY2MDczODY4XX0=
 -->
