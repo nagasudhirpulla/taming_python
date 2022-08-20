@@ -112,7 +112,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * We are able to control the styling and also link to home page is added 
 
 
-### Combining multiple flask applications
+### Generic Error handler for all HTTP errors
 ```py
 from flask import Flask
 from werkzeug.middleware.dispatcher import DispatcherMiddleware
@@ -172,6 +172,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MzkzMTcwMSwxMTk2OTYyMDY0LC0xOD
-Y2MDczODY4XX0=
+eyJoaXN0b3J5IjpbLTE0MTUyNjE2MTUsMTE5Njk2MjA2NCwtMT
+g2NjA3Mzg2OF19
 -->
