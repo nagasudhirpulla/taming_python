@@ -176,14 +176,14 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 * In the above python server code, visiting the URL `/simulate500` will call the `abort(500)` method which throws the HTTP exception with status code 500
 
-### References
+## References
 * Official flask error handling guide - https://flask.palletsprojects.com/en/2.2.x/errorhandling/
 * Flask abort method - https://flask.palletsprojects.com/en/2.2.x/api/#flask.abort
 * Flask errorhandler decorator - https://flask.palletsprojects.com/en/2.2.x/api/#flask.Flask.errorhandler
 * Flask register_error_handler method - https://flask.palletsprojects.com/en/2.2.x/api/#flask.Flask.register_error_handler
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTg2NjQyOSwtMjE4OTcyMTg5LDE0Mz
-kxODQ1NTUsOTk1NTQ2OTIxLC0xMDYwMTc2MjcyLDExOTY5NjIw
-NjQsLTE4NjYwNzM4NjhdfQ==
+eyJoaXN0b3J5IjpbMTU3MTcxNzcyNiwxMDgxODY2NDI5LC0yMT
+g5NzIxODksMTQzOTE4NDU1NSw5OTU1NDY5MjEsLTEwNjAxNzYy
+NzIsMTE5Njk2MjA2NCwtMTg2NjA3Mzg2OF19
 -->
