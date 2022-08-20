@@ -61,7 +61,7 @@ a {
 }
 ```
 
-## "register_error_handler" method and "error_handler" decorator for custom error page
+## "register_error_handler" method or "error_handler" decorator for custom error pages
 ```py
 from flask import Flask, render_template
 
@@ -111,7 +111,6 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 * This is the template for our custom error page
 * We are able to control the styling and also link to home page is added 
-
 
 ### Generic Error handler for all HTTP errors
 ```py
@@ -173,6 +172,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDEwMzM5LDExOTY5NjIwNjQsLTE4Nj
-YwNzM4NjhdfQ==
+eyJoaXN0b3J5IjpbLTEwNjAxNzYyNzIsMTE5Njk2MjA2NCwtMT
+g2NjA3Mzg2OF19
 -->
