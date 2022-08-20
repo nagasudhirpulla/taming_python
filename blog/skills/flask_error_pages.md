@@ -18,10 +18,11 @@ We can serve custom error pages for
 * Providing additional content in the error pages like links to other pages etc
 *  Custom styling of error pages
 
-## Sub mounting an application using DispatcherMiddleware class  
-* DispatcherMiddleware class can be used to dispatch one or more flask applications each with different URL prefix
-* Each URL prefix should start with a `/` (example `/app1`)
-* If no prefixes are matched, the DispatcherMiddleware can be configured to route the requests to a particular flask application or send a "404 not found" error  
+## Simple Server
+The following python code serves a page `home.html` from the templates folder at the root URL
+```py
+
+```
 
 ### Example
 ```py
@@ -111,5 +112,5 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzI4ODE2NV19
+eyJoaXN0b3J5IjpbOTcyNDAyNTEzXX0=
 -->
