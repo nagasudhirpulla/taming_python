@@ -149,7 +149,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * In the above example, using the `@app.errorhandler(HTTPException)` decorator, all the HTTP errors are handled by the `handleException` method by default
 * However for error code 500, since we have specifically mentioned a method with decorator `@app.errorhandler(500)`, the `serverError` method will be called for handling HTTP error with status code 500
 
-## Simulate HTTP errors using abort function
+## Simulate HTTP errors using 'abort' method
 * To check the rendering of error pages, we can throw HTTP errors using the `abort` function from the flask module as shown below  
 
 ```py
@@ -183,7 +183,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Flask register_error_handler method - https://flask.palletsprojects.com/en/2.2.x/api/#flask.Flask.register_error_handler
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3NzM5NjgyLC0yMTg5NzIxODksMTQzOT
-E4NDU1NSw5OTU1NDY5MjEsLTEwNjAxNzYyNzIsMTE5Njk2MjA2
-NCwtMTg2NjA3Mzg2OF19
+eyJoaXN0b3J5IjpbMTA4MTg2NjQyOSwtMjE4OTcyMTg5LDE0Mz
+kxODQ1NTUsOTk1NTQ2OTIxLC0xMDYwMTc2MjcyLDExOTY5NjIw
+NjQsLTE4NjYwNzM4NjhdfQ==
 -->
