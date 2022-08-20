@@ -79,9 +79,9 @@ for errCode in [400, 401, 403, 404]:
 
 
 @app.errorhandler(500)
-@app.errorhandler(500)
+@app.errorhandler(501)
 def serverError(error):
-    return render_template("message.html", title="Internal Server Error", message="Some Internal Error occured..."), 500
+    return render_template("message.html", title="Internal Server Error", message="Some Internal Error occured..."), error.code
 
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
@@ -172,6 +172,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDEwMjgzNDMsMTE5Njk2MjA2NCwtMT
-g2NjA3Mzg2OF19
+eyJoaXN0b3J5IjpbLTEyMTgyNzAsMTE5Njk2MjA2NCwtMTg2Nj
+A3Mzg2OF19
 -->
