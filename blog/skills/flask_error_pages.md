@@ -121,6 +121,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Instead of explicitly specifying the error handler for each HTTP error code, we can define a default error handler for all HTTP exceptions as shown below
 
 ```py
+# server.py file
 from flask import Flask, render_template
 from werkzeug.exceptions import HTTPException
 
@@ -157,6 +158,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDAyMTM4LC0xMDYwMTc2MjcyLDExOT
+eyJoaXN0b3J5IjpbLTMwNzg0MDM1LC0xMDYwMTc2MjcyLDExOT
 Y5NjIwNjQsLTE4NjYwNzM4NjhdfQ==
 -->
