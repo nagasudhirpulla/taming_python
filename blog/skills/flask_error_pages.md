@@ -150,15 +150,36 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ## Simulate HTTP errors using abort function
 * To check the rendering of error pages, we can throw HTTP errors using the `abort` function from the flask module as shown below  
-```
 
+```py
+from flask import Flask, abort, render_template
+from werkzeug.exceptions import HTTPException
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template("home.html")
+
+
+@app.route('/simulate500')
+def simulate500():
+    return abort(500)
+
+
+@app.errorhandler(HTTPException)
+def handleException(error):
+    return render_template("message.html", title=error.name, message=error.description), error.code
+
+app.run(host="0.0.0.0", port=50100, debug=True)
 ```
+* In the above python server code, visi
 
 ### References
 * Official flask error handling guide - https://flask.palletsprojects.com/en/2.2.x/errorhandling/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjYxMjIxNiwtMTA2MDE3NjI3MiwxMT
+eyJoaXN0b3J5IjpbMjAyNjk5OTQyNywtMTA2MDE3NjI3MiwxMT
 k2OTYyMDY0LC0xODY2MDczODY4XX0=
 -->
