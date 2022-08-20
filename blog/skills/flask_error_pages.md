@@ -64,7 +64,7 @@ a {
 }
 ```
 
-## "register_error_handler" method or "error_handler" decorator for custom error pages
+## "register_error_handler" function or "error_handler" decorator for custom error pages
 ```py
 # server.py file
 from flask import Flask, render_template
@@ -160,6 +160,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjg4NDEzODAsLTEwNjAxNzYyNzIsMT
-E5Njk2MjA2NCwtMTg2NjA3Mzg2OF19
+eyJoaXN0b3J5IjpbNzg0OTQzNDEsLTEwNjAxNzYyNzIsMTE5Nj
+k2MjA2NCwtMTg2NjA3Mzg2OF19
 -->
