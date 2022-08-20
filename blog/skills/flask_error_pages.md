@@ -53,7 +53,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ### static/styles/theme.css file
 ```css
-/* templates/home.html file */
+/* static/styles/theme.css file */
 body {
     color: rgb(201, 209, 217);
     background-color: rgb(13, 17, 23);
@@ -66,6 +66,7 @@ a {
 
 ## "register_error_handler" method or "error_handler" decorator for custom error pages
 ```py
+# server.py file
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -155,6 +156,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2NTQ5MjQwLC0xMDYwMTc2MjcyLDExOT
-Y5NjIwNjQsLTE4NjYwNzM4NjhdfQ==
+eyJoaXN0b3J5IjpbMTU1NDcxODE3MywtMTA2MDE3NjI3MiwxMT
+k2OTYyMDY0LC0xODY2MDczODY4XX0=
 -->
