@@ -113,7 +113,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * We are able to control the styling and also link to home page is added 
 
 ### Default error handler for all HTTP errors
-* Instead of explicitly specifying the error handler for each HTTP error code, we can define a Default error handler for all HTTP exceptions as shown below
+* Instead of explicitly specifying the error handler for each HTTP error code, we can define a default error handler for all HTTP exceptions as shown below
 
 ```py
 from flask import Flask, render_template
@@ -152,6 +152,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDMzNzIxMjUsLTEwNjAxNzYyNzIsMT
-E5Njk2MjA2NCwtMTg2NjA3Mzg2OF19
+eyJoaXN0b3J5IjpbNjQzMzAzODc1LC0xMDYwMTc2MjcyLDExOT
+Y5NjIwNjQsLTE4NjYwNzM4NjhdfQ==
 -->
