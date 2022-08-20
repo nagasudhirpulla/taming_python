@@ -16,8 +16,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ## Use cases
 We can serve custom error pages for
 * Providing additional content in the error pages like links to other pages etc
-*  
-
+*  Custom styling of error pages
 
 ## Sub mounting an application using DispatcherMiddleware class  
 * DispatcherMiddleware class can be used to dispatch one or more flask applications each with different URL prefix
@@ -112,5 +111,5 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTEyMTIyM119
+eyJoaXN0b3J5IjpbLTIwNzI4ODE2NV19
 -->
