@@ -61,7 +61,7 @@ a {
 }
 ```
 
-## "register_error_handler method" for custom error page
+## "register_error_handler" method and "error_handler" decorator for custom error page
 ```py
 from flask import Flask, render_template
 
@@ -70,7 +70,6 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template("home.html")
-
 
 def genericErrorHandler(error):
     return render_template("message.html", title=error.name, message=error.description), error.code
@@ -168,6 +167,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzkzMjgzOTMsMTE5Njk2MjA2NCwtMT
+eyJoaXN0b3J5IjpbLTIxMTMzNzY4MDIsMTE5Njk2MjA2NCwtMT
 g2NjA3Mzg2OF19
 -->
