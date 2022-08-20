@@ -21,7 +21,15 @@ We can serve custom error pages for
 ## Simple Server
 The following python code serves a page `home.html` from the templates folder at the root URL
 ```py
+from flask import Flask, render_template
 
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template("home.html")
+
+app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
 ### Example
@@ -112,5 +120,5 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyNDAyNTEzXX0=
+eyJoaXN0b3J5IjpbMTk2NzA0MzExNl19
 -->
