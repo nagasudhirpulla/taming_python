@@ -82,6 +82,9 @@ for errCode in [400, 401, 403, 404]:
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
+* As shown in the above code, using the `app.register_error_handler` method, we can render error page for a specific error code
+* The error handler function takes in a 
+
 ### Combining multiple flask applications
 ```py
 from flask import Flask
@@ -142,5 +145,5 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzgwNzEwOTRdfQ==
+eyJoaXN0b3J5IjpbLTE4NjYwNzM4NjhdfQ==
 -->
