@@ -19,7 +19,7 @@ We can serve custom error pages for
 *  Custom styling of error pages
 
 ## Simple Server
-The following python code serves a page `home.html` from the templates folder at the root URL
+The following python code serves a page `home.html` from the `templates` folder at the root URL. Also the `theme.css` is linked from the `static/styles` folder
 ```py
 from flask import Flask, render_template
 
@@ -31,7 +31,7 @@ def index():
 
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
-### home.html file
+### templates/home.html file
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -43,7 +43,6 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 <body>
     <h2>Hello World!!!</h2>
-    <p><a href="{{url_for('simulate500')}}">Simulate Internal Server Error</a></p>
 </body>
 
 </html>
@@ -137,5 +136,5 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDI1ODc4OTldfQ==
+eyJoaXN0b3J5IjpbLTk2NjEwOTIxXX0=
 -->
