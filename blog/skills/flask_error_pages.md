@@ -11,7 +11,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* In this post we will learn how to sub-mount a flask application under a URL prefix
+* In this post we will learn how to create custom error pages in a flask application and simulate errors in flask application
 
 ## Use cases
 Mounting an application under a URL prefix can help in 
@@ -112,5 +112,5 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDIwMTQ5MzNdfQ==
+eyJoaXN0b3J5IjpbLTM1NTE0NDIyN119
 -->
