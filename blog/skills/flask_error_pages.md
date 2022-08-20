@@ -61,7 +61,7 @@ a {
 }
 ```
 
-## register_error_handler method for custom error page
+## "register_error_handler method" for custom error page
 
 
 ### Combining multiple flask applications
@@ -124,5 +124,5 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0NDk5ODA0XX0=
+eyJoaXN0b3J5IjpbMTkwODU5Njc2XX0=
 -->
