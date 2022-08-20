@@ -140,7 +140,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
 * In the above example, using the `@app.errorhandler(HTTPException)` decorator, all the HTTP errors are handled by the `handleException` method
-* However for error code 500, since we have speicfically 
+* However for error code 500, since we have specifically mentioned a method with decorator `@app.errorhandler(500)`, `serverError` method will be called for 500 HTTP error handling
 
 ### Video
 The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
@@ -152,6 +152,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODM0NjA5NywtMTA2MDE3NjI3MiwxMT
+eyJoaXN0b3J5IjpbMTQ2ODI2MDA4OSwtMTA2MDE3NjI3MiwxMT
 k2OTYyMDY0LC0xODY2MDczODY4XX0=
 -->
