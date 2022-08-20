@@ -114,49 +114,27 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ### Generic Error handler for all HTTP errors
 ```py
-from flask import Flask
-from werkzeug.middleware.dispatcher import DispatcherMiddleware
-from werkzeug.exceptions import NotFound
+from flask import Flask, render_template
+from werkzeug.exceptions import HTTPException
 
-app1 = Flask(__name__)
+app = Flask(__name__)
 
-@app1.route('/')
-def index1():
-    return "App1 Hello World!!!"
-
-@app1.route('/help')
-def helpPage1():
-    return "App1 Help Page"
-
-app2 = Flask(__name__)
-
-@app2.route('/')
-def index2():
-    return "App2 Home Page"
-
-@app2.route('/help')
-def helpPage2():
-    return "App2 Help Page"
+@app.route('/')
+def index():
+    return render_template("home.html")
 
 
-app3 = Flask(__name__)
+@app.errorhandler(HTTPException)
+def handleException(error):
+    return render_template("message.html", title=error.name, message=error.description), error.code
 
-@app3.route('/')
-def index3():
-    return "App3 Home"
 
-@app3.route('/help')
-def helpPage3():
-    return "App3 Help Page"
+@app.errorhandler(500)
+def serverError(error):
+    return render_template("message.html", title="Internal Server Error", message="Some Internal Error occured..."), error.code
 
-hostedApp = Flask(__name__)
-hostedApp.wsgi_app = DispatcherMiddleware(app1, {
-    "/abc": app2,
-    "/def": app3
-})
 
-# run the server
-hostedApp.run(host="0.0.0.0", port=50100, debug=True)
+app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 * In the above example, 3 different flask applications are dispatched from a single server using DispatcherMiddleware
 * DispatcherMiddleware is configure to route the requests to `app1` if no URL prefixes are matched
@@ -172,6 +150,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjAxNzYyNzIsMTE5Njk2MjA2NCwtMT
-g2NjA3Mzg2OF19
+eyJoaXN0b3J5IjpbNzU5NzY0OTA2LC0xMDYwMTc2MjcyLDExOT
+Y5NjIwNjQsLTE4NjYwNzM4NjhdfQ==
 -->
