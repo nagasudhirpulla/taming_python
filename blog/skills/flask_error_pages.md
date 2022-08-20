@@ -66,7 +66,7 @@ a {
 }
 ```
 
-## "register_error_handler" method or "errorhandler" decorator for custom error pages
+## 'register_error_handler' method or 'errorhandler' decorator for custom error pages
 ```py
 # server.py file
 from flask import Flask, render_template
@@ -185,8 +185,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Flask register_error_handler method - https://flask.palletsprojects.com/en/2.2.x/api/#flask.Flask.register_error_handler
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAzNjE4Mzk4LC0xOTE1OTE1NTk2LC0xMj
-QyNTc5OTQ0LDEwODE4NjY0MjksLTIxODk3MjE4OSwxNDM5MTg0
-NTU1LDk5NTU0NjkyMSwtMTA2MDE3NjI3MiwxMTk2OTYyMDY0LC
-0xODY2MDczODY4XX0=
+eyJoaXN0b3J5IjpbOTg2MDUyMTM2LDMwMzYxODM5OCwtMTkxNT
+kxNTU5NiwtMTI0MjU3OTk0NCwxMDgxODY2NDI5LC0yMTg5NzIx
+ODksMTQzOTE4NDU1NSw5OTU1NDY5MjEsLTEwNjAxNzYyNzIsMT
+E5Njk2MjA2NCwtMTg2NjA3Mzg2OF19
 -->
