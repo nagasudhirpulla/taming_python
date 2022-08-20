@@ -86,6 +86,25 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * The error handler function takes in an error object. Each error object contains `code`, `name`, `description` properties
 * A page located at `templates/message.html` is rendered while handling the error
 
+### templates/message.html file
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/theme.css')}}">
+    <title>{{ title }}</title>
+</head>
+
+<body>
+    <h2>{{ title }}</h2>
+    <h4>{{ message }}</h4>
+    <a href="{{ url_for('index') }}">Click here</a> to go to Home page
+</body>
+
+</html>
+```
+
 ### Combining multiple flask applications
 ```py
 from flask import Flask
@@ -146,6 +165,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzNTIzMzQsMTE5Njk2MjA2NCwtMTg2Nj
+eyJoaXN0b3J5IjpbOTAwNTc4NzUsMTE5Njk2MjA2NCwtMTg2Nj
 A3Mzg2OF19
 -->
