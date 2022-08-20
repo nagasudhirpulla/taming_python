@@ -53,6 +53,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ### static/styles/theme.css file
 ```css
+/* templates/home.html file */
 body {
     color: rgb(201, 209, 217);
     background-color: rgb(13, 17, 23);
@@ -154,6 +155,6 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDEzNTIwMiwtMTA2MDE3NjI3MiwxMT
-k2OTYyMDY0LC0xODY2MDczODY4XX0=
+eyJoaXN0b3J5IjpbNTA2NTQ5MjQwLC0xMDYwMTc2MjcyLDExOT
+Y5NjIwNjQsLTE4NjYwNzM4NjhdfQ==
 -->
