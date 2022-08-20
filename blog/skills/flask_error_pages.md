@@ -115,7 +115,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 </html>
 ```
 * This is the template for our custom error page
-* We are able to control the styling and also link to home page is added 
+* We are able to control the styling 
+* Link to home page is also added 
 
 ### Default error handler for all HTTP errors
 * Instead of explicitly specifying the error handler for each HTTP error code, we can define a default error handler for all HTTP exceptions as shown below
@@ -182,7 +183,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Flask register_error_handler method - https://flask.palletsprojects.com/en/2.2.x/api/#flask.Flask.register_error_handler
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3MzUwMywtMjE4OTcyMTg5LDE0MzkxOD
-Q1NTUsOTk1NTQ2OTIxLC0xMDYwMTc2MjcyLDExOTY5NjIwNjQs
-LTE4NjYwNzM4NjhdfQ==
+eyJoaXN0b3J5IjpbMzM3NzM5NjgyLC0yMTg5NzIxODksMTQzOT
+E4NDU1NSw5OTU1NDY5MjEsLTEwNjAxNzYyNzIsMTE5Njk2MjA2
+NCwtMTg2NjA3Mzg2OF19
 -->
