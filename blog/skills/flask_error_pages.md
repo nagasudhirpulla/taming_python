@@ -33,7 +33,20 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 ### home.html file
 ```html
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/theme.css')}}">
+    <title>Home</title>
+</head>
+
+<body>
+    <h2>Hello World!!!</h2>
+    <p><a href="{{url_for('simulate500')}}">Simulate Internal Server Error</a></p>
+</body>
+
+</html>
 ```
 
 ### Example
@@ -124,5 +137,5 @@ The video for this post can be seen [here](https://youtu.be/_JiJGFAW43s)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTIwNDAwMF19
+eyJoaXN0b3J5IjpbLTEyMDI1ODc4OTldfQ==
 -->
