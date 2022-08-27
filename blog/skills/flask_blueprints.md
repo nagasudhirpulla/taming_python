@@ -76,9 +76,9 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 <a href="{{url_for('authors.list')}}">Authors</a>
 </html>
 ```
-* In the above example, the URL to the flask route function `getItem` within the same blueprint can be generated using `url_for('.getItem', id=1)`. Hence relative URLs with in the same blueprint can be generated using the '.' notation.
+* In the above example, the URL to the flask route function `getItem` within the same blueprint can be generated using `url_for('.getItem', id=1)`. Hence relative URLs with in the same blueprint can be generated using the '.' (dot) notation.
 * The URL for flask route function `list` within the blueprint `authors` can be generated using `url_for('authors.list')`
-* Hence URLs for routes inside blueprints can be generated using the '.' dot notation
+* Hence URLs for routes inside blueprints can be generated using the '.' (dot) notation
 * The  URL for the route function 'index' in the main server can be generated using `url_for('index')` 
 
 ## 'register_error_handler' method or 'errorhandler' decorator for custom error pages
@@ -202,8 +202,8 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1Nzg1MDYzLC0xMTUwODUzOTM5LC04Nz
-c4OTY0MTQsLTExMTgzNDEzODQsMTcyMzIxOTUxMywtMjE0MTU4
-ODY3NSwtMTEyMjczNzkxOSwtMTQ4NTMwOTkxNywtMTUwNjI1Mj
-Y4OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE3MjgwNjYxMjgsMjc1Nzg1MDYzLC0xMT
+UwODUzOTM5LC04Nzc4OTY0MTQsLTExMTgzNDEzODQsMTcyMzIx
+OTUxMywtMjE0MTU4ODY3NSwtMTEyMjczNzkxOSwtMTQ4NTMwOT
+kxNywtMTUwNjI1MjY4OSw3MzA5OTgxMTZdfQ==
 -->
