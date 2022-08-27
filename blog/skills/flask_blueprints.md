@@ -72,10 +72,10 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 </ul>
 
 <a href="{{url_for('index')}}">Back to Home</a>
-
+<a href="{{url_for('authors.list')}}">Back to Home</a>
 </html>
 ```
-* In the above example, the route to the function `getItem` within the same blueprint can be generated using the 
+* In the above example, the route to the function `getItem` within the same blueprint can be generated using `url_for('.getItem')`
 
 ### static/styles/theme.css file
 ```css
@@ -211,7 +211,7 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDU4NTUzNSwtMTExODM0MTM4NCwxNz
+eyJoaXN0b3J5IjpbMTI0MzYwMTQ4NSwtMTExODM0MTM4NCwxNz
 IzMjE5NTEzLC0yMTQxNTg4Njc1LC0xMTIyNzM3OTE5LC0xNDg1
 MzA5OTE3LC0xNTA2MjUyNjg5LDczMDk5ODExNl19
 -->
