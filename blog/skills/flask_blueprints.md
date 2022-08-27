@@ -20,7 +20,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Routes can be moved from the main server file into blueprints to reduce the lines of code 
 * flask `url_for` function can be used to easily used to create relative URLs for a route within a blueprint or for a specific blueprint route
 
-## Create a Flask Blueprint
+### Create a Flask Blueprint
 The following python code serves a page `home.html` from the `templates` folder at the root URL. Also the `theme.css` is linked from the `static/styles` folder
 ```py
 # src/controllers/books.py
@@ -38,7 +38,27 @@ def getItem(id: int):
 ```
 * A blueprint can be created from the `Blueprint` class imported from flask
 * Functions can be declared as routes using annotations. For example, a route can be added to a blueprint named `booksCtrlr` using an annotation like `@booksCtrlr.route('/')`
-* 
+
+### Add a blueprint to the flask application under a URL prefix
+```py
+# server.py
+from flask import Flask, render_template
+from src.controllers.books import booksCtrlr
+from src.controllers.authors import authorsCtrlr
+
+app = Flask(__name__)
+
+
+@app.route('/')
+def index():
+    return render_template("home.html")
+
+
+app.register_blueprint(booksCtrlr, url_prefix="/books")
+app.register_blueprint(authorsCtrlr, url_prefix="/authors")
+
+app.run(host="0.0.0.0", port=50100, debug=True)
+```
 
 ### templates/home.html file
 ```html
@@ -192,7 +212,7 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTU1OTAxMiwxNzIzMjE5NTEzLC0yMT
-QxNTg4Njc1LC0xMTIyNzM3OTE5LC0xNDg1MzA5OTE3LC0xNTA2
-MjUyNjg5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE2MTEzOTY0NDMsMTcyMzIxOTUxMywtMj
+E0MTU4ODY3NSwtMTEyMjczNzkxOSwtMTQ4NTMwOTkxNywtMTUw
+NjI1MjY4OSw3MzA5OTgxMTZdfQ==
 -->
