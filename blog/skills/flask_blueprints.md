@@ -12,7 +12,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* In this post we will learn how to create custom error pages in a flask application and simulate errors in a flask application
+* In this post we will learn how to use flask blueprints for creating modular MVC like flask applications
 
 ![flask_custom_error_poster](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/flask_custom_error_poster.png)
 
@@ -188,6 +188,6 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NTI1MzUwMiwtMTUwNjI1MjY4OSw3Mz
+eyJoaXN0b3J5IjpbMTUzNjg1NzE1OCwtMTUwNjI1MjY4OSw3Mz
 A5OTgxMTZdfQ==
 -->
