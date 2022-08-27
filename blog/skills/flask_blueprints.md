@@ -57,23 +57,21 @@ app.register_blueprint(authorsCtrlr, url_prefix="/authors")
 
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
+
 * In the above example, the blueprint object is imported in the server file using `from src.controllers.books import booksCtrlr` 
 * Then the blueprint is mounted to the main application named `app` at a prefix `/books` using `app.register_blueprint(booksCtrlr, url_prefix="/books")`
 
-### templates/home.html file
+### dynamic URLs to flask blueprint routes using "url_for"
 ```html
-<!-- templates/home.html file -->
-<!DOCTYPE html>
-<html lang="en">
+<!-- templates/books/list.html file -->
+<html>
 
-<head>
-    <link rel="stylesheet" href="{{url_for('static', filename='styles/theme.css')}}">
-    <title>Home</title>
-</head>
+<h2>List of Books</h2>
+<ul>
+    <li><a href="{{url_for('.getItem', id=1)}}">Item1</a></li>
+</ul>
 
-<body>
-    <h2>Hello World!!!</h2>
-</body>
+<a href="{{url_for('index')}}">Back to Home</a>
 
 </html>
 ```
@@ -212,7 +210,7 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTUyNzAwNiwtMTExODM0MTM4NCwxNz
-IzMjE5NTEzLC0yMTQxNTg4Njc1LC0xMTIyNzM3OTE5LC0xNDg1
-MzA5OTE3LC0xNTA2MjUyNjg5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEzMDY1MDE4NDUsLTExMTgzNDEzODQsMT
+cyMzIxOTUxMywtMjE0MTU4ODY3NSwtMTEyMjczNzkxOSwtMTQ4
+NTMwOTkxNywtMTUwNjI1MjY4OSw3MzA5OTgxMTZdfQ==
 -->
