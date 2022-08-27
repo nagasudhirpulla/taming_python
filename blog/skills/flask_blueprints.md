@@ -58,7 +58,9 @@ app.register_blueprint(authorsCtrlr, url_prefix="/authors")
 app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 * In the above example, the blueprint object is imported in the server file using 
-*`from src.controllers.books import booksCtrlr` 
+```py
+from src.controllers.books import booksCtrlr
+``` 
 
 ### templates/home.html file
 ```html
@@ -212,7 +214,7 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTUxMTA4OSwxNzIzMjE5NTEzLC0yMT
-QxNTg4Njc1LC0xMTIyNzM3OTE5LC0xNDg1MzA5OTE3LC0xNTA2
-MjUyNjg5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTExMTgzNDEzODQsMTcyMzIxOTUxMywtMj
+E0MTU4ODY3NSwtMTEyMjczNzkxOSwtMTQ4NTMwOTkxNywtMTUw
+NjI1MjY4OSw3MzA5OTgxMTZdfQ==
 -->
