@@ -1,4 +1,4 @@
-## Skill - Flask Blueprints for modular MVC like applications
+## Skill - Flask Blueprints for modular MVC like web applications
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -12,7 +12,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* In this post we will learn how to use flask blueprints for creating modular MVC like flask applications
+* In this post we will learn how to use flask blueprints for creating modular MVC like web applications
 
 ![flask_custom_error_poster](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/flask_custom_error_poster.png)
 
@@ -188,6 +188,6 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjg1NzE1OCwtMTUwNjI1MjY4OSw3Mz
+eyJoaXN0b3J5IjpbLTYzNzY4Nzg3OSwtMTUwNjI1MjY4OSw3Mz
 A5OTgxMTZdfQ==
 -->
