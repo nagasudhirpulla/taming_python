@@ -76,7 +76,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 <a href="{{url_for('authors.list')}}">Authors</a>
 </html>
 ```
-* In the above example, the URL to the python route function `getItem` within the same blueprint can be generated using `url_for('.getItem')`
+* In the above example, the URL to the flask route function `getItem` within the same blueprint can be generated using `url_for('.getItem')`
 * The 
 
 ### static/styles/theme.css file
@@ -213,8 +213,8 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODM1MTQzNCwtODc3ODk2NDE0LC0xMT
-E4MzQxMzg0LDE3MjMyMTk1MTMsLTIxNDE1ODg2NzUsLTExMjI3
-Mzc5MTksLTE0ODUzMDk5MTcsLTE1MDYyNTI2ODksNzMwOTk4MT
-E2XX0=
+eyJoaXN0b3J5IjpbLTE1NjE5MDEyMzMsLTg3Nzg5NjQxNCwtMT
+ExODM0MTM4NCwxNzIzMjE5NTEzLC0yMTQxNTg4Njc1LC0xMTIy
+NzM3OTE5LC0xNDg1MzA5OTE3LC0xNTA2MjUyNjg5LDczMDk5OD
+ExNl19
 -->
