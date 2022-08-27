@@ -17,7 +17,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ## What is a Flask Blueprint
 * A group multiple Flask routes can be segregated as a Flask Blueprint
 * Each blueprint can be used like an MVC controller by registering each blueprint at a url_prefix
-* flask `url_for` function can be used to easily used to create relative URLs within a blueprint or a specific blueprint route
+* flask `url_for` function can be used to easily used to create relative URLs for a route within a blueprint or for a specific blueprint route
 
 ## Sample Server setup
 The following python code serves a page `home.html` from the `templates` folder at the root URL. Also the `theme.css` is linked from the `static/styles` folder
@@ -186,6 +186,6 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjI3Mzc5MTksLTE0ODUzMDk5MTcsLT
-E1MDYyNTI2ODksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTIxNDE1ODg2NzUsLTExMjI3Mzc5MTksLT
+E0ODUzMDk5MTcsLTE1MDYyNTI2ODksNzMwOTk4MTE2XX0=
 -->
