@@ -1,4 +1,4 @@
-## Skill - 
+## Skill - Flask Blueprints for modular MVC like applications
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -187,6 +187,6 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxNzA4NTA4LC0xNTA2MjUyNjg5LDczMD
+eyJoaXN0b3J5IjpbMzQ5MDg5ODQ2LC0xNTA2MjUyNjg5LDczMD
 k5ODExNl19
 -->
