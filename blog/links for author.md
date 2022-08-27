@@ -10,7 +10,6 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 * python subprocess communication - https://eli.thegreenplace.net/2017/interacting-with-a-long-running-child-process-in-python/
 * rounding of decimals while printing and rounding the number itself
 * naming conventions for classes (nouns), variables (nouns), functions (verbs), using camel case, avoid obvious names and use contextual names for better readability
-* flask error pages
 * flask blueprints
 * flask api endpoints
 * flask as a background service using nssm
@@ -18,11 +17,11 @@ matplotlib overview tutorial - https://towardsdatascience.com/data-visualization
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODA2MjkwMTIsMTc1MTMzMzE3MywxNz
-g4OTcxODI0LDU1ODY0NzMyOCwtOTIyMTE1NTcsNTAxNTE2ODc0
-LC0zNjE3MjkzMjMsMTU4NDgyODAxNiwyMTIzMjMwMTIzLDc2Nj
-E5NTYwNSwxMzQyNjc3NzYxLC05NTI4MDk1OTgsNDc5NzczMjM1
-LC02MTM1NTcxOTQsLTkyNzUzMjQ5MSw3OTU3NjMzMzUsLTY1Nj
-czNzk5NywtMTYzMjM5MjA4NywtMjI5NjI5NTU3LDE5MjQyNjM5
-ODhdfQ==
+eyJoaXN0b3J5IjpbLTk0NzQ4MDkzNywxNzUxMzMzMTczLDE3OD
+g5NzE4MjQsNTU4NjQ3MzI4LC05MjIxMTU1Nyw1MDE1MTY4NzQs
+LTM2MTcyOTMyMywxNTg0ODI4MDE2LDIxMjMyMzAxMjMsNzY2MT
+k1NjA1LDEzNDI2Nzc3NjEsLTk1MjgwOTU5OCw0Nzk3NzMyMzUs
+LTYxMzU1NzE5NCwtOTI3NTMyNDkxLDc5NTc2MzMzNSwtNjU2Nz
+M3OTk3LC0xNjMyMzkyMDg3LC0yMjk2Mjk1NTcsMTkyNDI2Mzk4
+OF19
 -->
