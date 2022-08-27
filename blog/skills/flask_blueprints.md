@@ -21,7 +21,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * flask `url_for` function can be used to easily used to create relative URLs for a route within a blueprint or for a specific blueprint route
 
 ### Create a Flask Blueprint
-The following python code serves a page `home.html` from the `templates` folder at the root URL. Also the `theme.css` is linked from the `static/styles` folder
+
 ```py
 # src/controllers/books.py
 from flask import Blueprint, render_template
@@ -40,6 +40,7 @@ def getItem(id: int):
 * Functions can be declared as routes using annotations. For example, a route can be added to a blueprint named `booksCtrlr` using an annotation like `@booksCtrlr.route('/')`
 
 ### Add a blueprint to the flask application under a URL prefix
+
 ```py
 # server.py
 from flask import Flask, render_template
@@ -85,8 +86,9 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzI5NDk5OCwyNzU3ODUwNjMsLTExNT
-A4NTM5MzksLTg3Nzg5NjQxNCwtMTExODM0MTM4NCwxNzIzMjE5
-NTEzLC0yMTQxNTg4Njc1LC0xMTIyNzM3OTE5LC0xNDg1MzA5OT
-E3LC0xNTA2MjUyNjg5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE2ODM3ODM1NSwtMTQzMjk0OTk4LDI3NT
+c4NTA2MywtMTE1MDg1MzkzOSwtODc3ODk2NDE0LC0xMTE4MzQx
+Mzg0LDE3MjMyMTk1MTMsLTIxNDE1ODg2NzUsLTExMjI3Mzc5MT
+ksLTE0ODUzMDk5MTcsLTE1MDYyNTI2ODksNzMwOTk4MTE2XX0=
+
 -->
