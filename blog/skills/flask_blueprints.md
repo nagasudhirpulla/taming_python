@@ -75,6 +75,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 </html>
 ```
+* In the above example, the route to the function `getItem` within the same blueprint can be generated using the 
 
 ### static/styles/theme.css file
 ```css
@@ -210,7 +211,7 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDY1MDE4NDUsLTExMTgzNDEzODQsMT
-cyMzIxOTUxMywtMjE0MTU4ODY3NSwtMTEyMjczNzkxOSwtMTQ4
-NTMwOTkxNywtMTUwNjI1MjY4OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMjAyNDU4NTUzNSwtMTExODM0MTM4NCwxNz
+IzMjE5NTEzLC0yMTQxNTg4Njc1LC0xMTIyNzM3OTE5LC0xNDg1
+MzA5OTE3LC0xNTA2MjUyNjg5LDczMDk5ODExNl19
 -->
