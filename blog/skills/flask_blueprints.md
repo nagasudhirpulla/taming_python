@@ -37,7 +37,7 @@ def getItem(id: int):
     return render_template("books/detail.html", id=id)
 ```
 * A blueprint can be created from the `Blueprint` class imported from flask
-* 
+* Functions can be declared as routes using annotations. For example, a route can be added to a blueprint 
 
 ### templates/home.html file
 ```html
@@ -191,7 +191,7 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzEyMzU5MiwxNzIzMjE5NTEzLC0yMT
-QxNTg4Njc1LC0xMTIyNzM3OTE5LC0xNDg1MzA5OTE3LC0xNTA2
-MjUyNjg5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNzE4Njg2MzI1LDE3MjMyMTk1MTMsLTIxND
+E1ODg2NzUsLTExMjI3Mzc5MTksLTE0ODUzMDk5MTcsLTE1MDYy
+NTI2ODksNzMwOTk4MTE2XX0=
 -->
