@@ -76,7 +76,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 <a href="{{url_for('authors.list')}}">Authors</a>
 </html>
 ```
-* In the above example, the URL to the flask route function `getItem` within the same blueprint can be generated using `url_for('.getItem')`. Hence relative URLs with in the same blueprint can be generated using the '.' notation.
+* In the above example, the URL to the flask route function `getItem` within the same blueprint can be generated using `url_for('.getItem', id=1)`. Hence relative URLs with in the same blueprint can be generated using the '.' notation.
 * The URL for flask route function `list` within the blueprint `authors` can be generated using `url_for('authors.list')`
 * Hence URLs for routes inside blueprints can be generated using the '.' dot notation
 * The  URL for the route function 'index' in the main server can be generated using `url_for('index')` 
@@ -202,8 +202,8 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NTY3ODU1MCwtMTE1MDg1MzkzOSwtOD
-c3ODk2NDE0LC0xMTE4MzQxMzg0LDE3MjMyMTk1MTMsLTIxNDE1
-ODg2NzUsLTExMjI3Mzc5MTksLTE0ODUzMDk5MTcsLTE1MDYyNT
-I2ODksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjc1Nzg1MDYzLC0xMTUwODUzOTM5LC04Nz
+c4OTY0MTQsLTExMTgzNDEzODQsMTcyMzIxOTUxMywtMjE0MTU4
+ODY3NSwtMTEyMjczNzkxOSwtMTQ4NTMwOTkxNywtMTUwNjI1Mj
+Y4OSw3MzA5OTgxMTZdfQ==
 -->
