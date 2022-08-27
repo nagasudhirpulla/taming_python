@@ -23,6 +23,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ## Create a Flask Blueprint
 The following python code serves a page `home.html` from the `templates` folder at the root URL. Also the `theme.css` is linked from the `static/styles` folder
 ```py
+# src/controllers/books.py
 from flask import Blueprint, render_template
 
 booksCtrlr = Blueprint('books', __name__)
@@ -188,7 +189,7 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczOTk2MjQ3LDE3MjMyMTk1MTMsLTIxND
+eyJoaXN0b3J5IjpbNzgzNjM1ODk2LDE3MjMyMTk1MTMsLTIxND
 E1ODg2NzUsLTExMjI3Mzc5MTksLTE0ODUzMDk5MTcsLTE1MDYy
 NTI2ODksNzMwOTk4MTE2XX0=
 -->
