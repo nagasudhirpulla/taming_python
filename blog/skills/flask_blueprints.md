@@ -61,7 +61,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * In the above example, the blueprint object is imported in the server file using `from src.controllers.books import booksCtrlr` 
 * Then the blueprint is mounted to the main application named `app` at a prefix `/books` using `app.register_blueprint(booksCtrlr, url_prefix="/books")`
 
-### dynamic URLs to flask blueprint routes using "url_for"
+### generate URLs to flask blueprint routes using "url_for"
 ```html
 <!-- templates/books/list.html file -->
 <html>
@@ -85,8 +85,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4NTgyOTUyLDI3NTc4NTA2MywtMTE1MD
-g1MzkzOSwtODc3ODk2NDE0LC0xMTE4MzQxMzg0LDE3MjMyMTk1
-MTMsLTIxNDE1ODg2NzUsLTExMjI3Mzc5MTksLTE0ODUzMDk5MT
-csLTE1MDYyNTI2ODksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE0MzI5NDk5OCwyNzU3ODUwNjMsLTExNT
+A4NTM5MzksLTg3Nzg5NjQxNCwtMTExODM0MTM4NCwxNzIzMjE5
+NTEzLC0yMTQxNTg4Njc1LC0xMTIyNzM3OTE5LC0xNDg1MzA5OT
+E3LC0xNTA2MjUyNjg5LDczMDk5ODExNl19
 -->
