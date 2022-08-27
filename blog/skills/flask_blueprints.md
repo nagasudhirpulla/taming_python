@@ -5,7 +5,8 @@
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
-* [Serve static files in flask](https://nagasudhir.blogspot.com/2022/04/serve-static-files-in-flask.html)
+* [Extract parameters from URL in flask server](https://nagasudhir.blogspot.com/2022/04/extract-parameters-from-url-in-flask.html)
+* [jinja templates in flask](https://nagasudhir.blogspot.com/2022/04/jinja-templates-in-flask.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
@@ -187,6 +188,6 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ5MDg5ODQ2LC0xNTA2MjUyNjg5LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTc1NTI1MzUwMiwtMTUwNjI1MjY4OSw3Mz
+A5OTgxMTZdfQ==
 -->
