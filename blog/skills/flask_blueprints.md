@@ -15,9 +15,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 * In this post we will learn how to use flask blueprints for creating modular MVC like web applications
 
 ## Use cases
-We can serve custom error pages for
-* Providing additional content in the error pages like links to other pages etc
-* Custom styling of error pages
+* Flask blueprints can be useful to group multiple routes to organize the application logic  
+* 
 
 ## Sample Server setup
 The following python code serves a page `home.html` from the `templates` folder at the root URL. Also the `theme.css` is linked from the `static/styles` folder
@@ -186,6 +185,6 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODUzMDk5MTcsLTE1MDYyNTI2ODksNz
-MwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMzA4NTc3OTY4LC0xNDg1MzA5OTE3LC0xNT
+A2MjUyNjg5LDczMDk5ODExNl19
 -->
