@@ -139,6 +139,7 @@ Here are the goals and skills in this tutorial series
 * [WTForms for better forms validation and rendering in Flask](https://nagasudhir.blogspot.com/2022/07/forms-in-flask-with-wtforms.html)
 * [Sub mount a flask application under a URL prefix](https://nagasudhir.blogspot.com/2022/08/sub-mounting-flask-application-under.html)
 * [Custom Error Pages in python Flask application](https://nagasudhir.blogspot.com/2022/08/custom-error-pages-in-python-flask.html)
+* [](https://nagasudhir.blogspot.com/2022/08/flask-blueprints-for-modular-mvc-like.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -146,11 +147,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTM5OTk1NDg3NywxMTUyMz
-IzMDc1LDE3Mzk4MTkwMzIsMTI4MDU5ODkwOCw1NjY0ODEwMzYs
-LTE5MDY1MzgxNjQsLTIxMDk1MzYyOTIsLTEyNjExNDMyNywtMT
-czODUxMTQyOCwxNDY0OTA2NzA2LC0xNTY3MTQ1NTMyLC0xOTEx
-MDY0MTU3LDE3MDUxOTA2MTIsODA2MTM3NjA3LDk5NzY4ODEzNC
-wtMTIzMzcyMTE4LC0xNzg4MTczMDEwLDg4MTA1MjUyOSw4OTY0
-NzczNjYsLTI5NzQyMjg3MV19
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMjEyNDU1NTQxNiwtMzk5OT
+U0ODc3LDExNTIzMjMwNzUsMTczOTgxOTAzMiwxMjgwNTk4OTA4
+LDU2NjQ4MTAzNiwtMTkwNjUzODE2NCwtMjEwOTUzNjI5MiwtMT
+I2MTE0MzI3LC0xNzM4NTExNDI4LDE0NjQ5MDY3MDYsLTE1Njcx
+NDU1MzIsLTE5MTEwNjQxNTcsMTcwNTE5MDYxMiw4MDYxMzc2MD
+csOTk3Njg4MTM0LC0xMjMzNzIxMTgsLTE3ODgxNzMwMTAsODgx
+MDUyNTI5LDg5NjQ3NzM2Nl19
 -->
