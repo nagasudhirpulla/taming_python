@@ -83,17 +83,17 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * The  URL for the route function 'index' in the main server can be generated using `url_for('index')` 
 
 ### Video
-The video for this post can be seen [here](https://youtu.be/x4HkFdBVVrw)
-
+The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SezbDCz0Ock" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## References
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTU0NTM5NTIsLTE2ODM3ODM1NSwtMT
-QzMjk0OTk4LDI3NTc4NTA2MywtMTE1MDg1MzkzOSwtODc3ODk2
-NDE0LC0xMTE4MzQxMzg0LDE3MjMyMTk1MTMsLTIxNDE1ODg2Nz
-UsLTExMjI3Mzc5MTksLTE0ODUzMDk5MTcsLTE1MDYyNTI2ODks
-NzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTA0Mzg3OTEyMiwtMTY4Mzc4MzU1LC0xND
+MyOTQ5OTgsMjc1Nzg1MDYzLC0xMTUwODUzOTM5LC04Nzc4OTY0
+MTQsLTExMTgzNDEzODQsMTcyMzIxOTUxMywtMjE0MTU4ODY3NS
+wtMTEyMjczNzkxOSwtMTQ4NTMwOTkxNywtMTUwNjI1MjY4OSw3
+MzA5OTgxMTZdfQ==
 -->
