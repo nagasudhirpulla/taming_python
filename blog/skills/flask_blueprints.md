@@ -1,5 +1,4 @@
-
-## Skill - Custom Error Pages in python Flask application
+## Skill - 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -186,8 +185,8 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 
 ## References
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
-* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDYyNTI2ODksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNTcxNzA4NTA4LC0xNTA2MjUyNjg5LDczMD
+k5ODExNl19
 -->
