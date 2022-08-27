@@ -82,13 +82,18 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Hence URLs for routes inside blueprints can be generated using the '.' (dot) notation
 * The  URL for the route function 'index' in the main server can be generated using `url_for('index')` 
 
+### Video
+The video for this post can be seen [here](https://youtu.be/x4HkFdBVVrw)
+
+
+
 ## References
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODM3ODM1NSwtMTQzMjk0OTk4LDI3NT
-c4NTA2MywtMTE1MDg1MzkzOSwtODc3ODk2NDE0LC0xMTE4MzQx
-Mzg0LDE3MjMyMTk1MTMsLTIxNDE1ODg2NzUsLTExMjI3Mzc5MT
-ksLTE0ODUzMDk5MTcsLTE1MDYyNTI2ODksNzMwOTk4MTE2XX0=
-
+eyJoaXN0b3J5IjpbLTEyNTU0NTM5NTIsLTE2ODM3ODM1NSwtMT
+QzMjk0OTk4LDI3NTc4NTA2MywtMTE1MDg1MzkzOSwtODc3ODk2
+NDE0LC0xMTE4MzQxMzg0LDE3MjMyMTk1MTMsLTIxNDE1ODg2Nz
+UsLTExMjI3Mzc5MTksLTE0ODUzMDk5MTcsLTE1MDYyNTI2ODks
+NzMwOTk4MTE2XX0=
 -->
