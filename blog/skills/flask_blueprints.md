@@ -81,19 +81,6 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Hence URLs for routes inside blueprints can be generated using the '.' dot notation
 * The  URL for the route function 'index' in the main server can be generated using `url_for('index')` 
 
-### static/styles/theme.css file
-```css
-/* static/styles/theme.css file */
-body {
-    color: rgb(201, 209, 217);
-    background-color: rgb(13, 17, 23);
-}
-
-a {
-    color: rgb(83, 189, 235);
-}
-```
-
 ## 'register_error_handler' method or 'errorhandler' decorator for custom error pages
 ```py
 # server.py file
@@ -215,8 +202,8 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDg3MzYyNDQsLTExNTA4NTM5MzksLT
-g3Nzg5NjQxNCwtMTExODM0MTM4NCwxNzIzMjE5NTEzLC0yMTQx
-NTg4Njc1LC0xMTIyNzM3OTE5LC0xNDg1MzA5OTE3LC0xNTA2Mj
-UyNjg5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTI3NTY3ODU1MCwtMTE1MDg1MzkzOSwtOD
+c3ODk2NDE0LC0xMTE4MzQxMzg0LDE3MjMyMTk1MTMsLTIxNDE1
+ODg2NzUsLTExMjI3Mzc5MTksLTE0ODUzMDk5MTcsLTE1MDYyNT
+I2ODksNzMwOTk4MTE2XX0=
 -->
