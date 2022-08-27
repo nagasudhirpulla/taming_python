@@ -15,8 +15,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 * In this post we will learn how to use flask blueprints for creating modular MVC like web applications
 
 ## Use cases
-* A group multiple flask routes can be segregated as a Flask Blueprint  
-* New blueprints can be registered to the flask application thus making   
+* A group multiple Flask routes can be segregated as a Flask Blueprint  
+* Each blueprint can be used like an MVC controller by registering each blueprint at a url_prefo
 
 ## Sample Server setup
 The following python code serves a page `home.html` from the `templates` folder at the root URL. Also the `theme.css` is linked from the `static/styles` folder
@@ -185,6 +185,6 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODkwNTI0LC0xNDg1MzA5OTE3LC0xNT
+eyJoaXN0b3J5IjpbNjExMTg5NDM5LC0xNDg1MzA5OTE3LC0xNT
 A2MjUyNjg5LDczMDk5ODExNl19
 -->
