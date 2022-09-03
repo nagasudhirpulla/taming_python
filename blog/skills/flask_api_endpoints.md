@@ -1,4 +1,4 @@
-## Skill - Create simple API endpoints in flask 
+## Skill - Create API endpoints in flask 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -6,13 +6,13 @@
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
 * [Extract parameters from URL in flask server](https://nagasudhir.blogspot.com/2022/04/extract-parameters-from-url-in-flask.html)
-* [jinja templates in flask](https://nagasudhir.blogspot.com/2022/04/jinja-templates-in-flask.html)
+
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 <hr/>
 
-* In this post we will learn how to use flask blueprints for creating modular MVC like web applications
+* In this post we will learn how to create simple API endpoints in flask
 
 ## What is a Flask Blueprint
 * A group multiple Flask routes can be segregated as a Flask Blueprint
@@ -92,5 +92,5 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5NzYyMjE2XX0=
+eyJoaXN0b3J5IjpbLTE2MjAwNjg1NDJdfQ==
 -->
