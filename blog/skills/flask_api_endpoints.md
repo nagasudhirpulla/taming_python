@@ -1,4 +1,4 @@
-## Skill - Flask Blueprints for modular MVC like web applications
+## Skill - Create simple API endpoints in flask 
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -92,5 +92,5 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDg3NzA3MTZdfQ==
+eyJoaXN0b3J5IjpbOTc5NzYyMjE2XX0=
 -->
