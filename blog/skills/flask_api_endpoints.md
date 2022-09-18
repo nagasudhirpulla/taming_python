@@ -104,9 +104,9 @@ if __name__ == '__main__':
 * In the above example, the API endpoint listening to POST requests at the route `/sum` will extract the integers from POST request JSON body and send the results in a JSON response
 * For example, calling `localhost:50100/sum` with a POST request body of `{"x":1, "y":4}` will return a response `{"message": "sum of 1 and 4 is 5"}`
 * Request body cannot be set for HTTP GET requests
-* Hence this request cannot be made from a browser. Instead tools like POSTMAN or REST Client VS code extension can be used to send requests other than HTTP GET requests
+* Hence this request cannot be made directly from a browser. Instead tools like POSTMAN or REST Client VS code extension can be used to easily send requests other than HTTP GET requests
 
-
+![api_endpoint_http_post_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/api_endpoint_http_post_demo.png)
 
 ### generate URLs to flask blueprint routes using "url_for"
 ```html
@@ -138,7 +138,7 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1NTgyMzU2LC02MzMyOTc4NjQsLTc3Nj
-g1OTgyNCwtMzQwMjAwMDYsOTI2NTU3NTYyLC0zMTU4NTcxODMs
-LTE2MjAwNjg1NDJdfQ==
+eyJoaXN0b3J5IjpbMTI1MTk4NTAzMywtNjMzMjk3ODY0LC03Nz
+Y4NTk4MjQsLTM0MDIwMDA2LDkyNjU1NzU2MiwtMzE1ODU3MTgz
+LC0xNjIwMDY4NTQyXX0=
 -->
