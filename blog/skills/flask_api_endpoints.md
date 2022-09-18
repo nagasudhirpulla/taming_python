@@ -154,17 +154,11 @@ if __name__ == '__main__':
 * here we sent status code of 400 for wrong user input
 * If we want to convey authorization failure, we can send status code 401 and so on
 
-### Video
-The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SezbDCz0Ock" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 ## References
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzMzQwNDQyLC00NDk1NDA0MDcsNDkzND
-I3OTkxLC02MzMyOTc4NjQsLTc3Njg1OTgyNCwtMzQwMjAwMDYs
-OTI2NTU3NTYyLC0zMTU4NTcxODMsLTE2MjAwNjg1NDJdfQ==
+eyJoaXN0b3J5IjpbLTQyODgyOTgwMSwtNDQ5NTQwNDA3LDQ5Mz
+QyNzk5MSwtNjMzMjk3ODY0LC03NzY4NTk4MjQsLTM0MDIwMDA2
+LDkyNjU1NzU2MiwtMzE1ODU3MTgzLC0xNjIwMDY4NTQyXX0=
 -->
