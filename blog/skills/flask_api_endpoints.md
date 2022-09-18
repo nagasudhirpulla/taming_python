@@ -108,25 +108,7 @@ if __name__ == '__main__':
 
 ![api_endpoint_http_post_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/api_endpoint_http_post_demo.png)
 
-### generate URLs to flask blueprint routes using "url_for"
-```html
-<!-- templates/books/list.html file -->
-<html>
 
-<h2>List of Books</h2>
-<ul>
-    <li><a href="{{url_for('.getItem', id=1)}}">Item1</a></li>
-</ul>
-
-<a href="{{url_for('index')}}">Back to Home</a>
-<br>
-<a href="{{url_for('authors.list')}}">Authors</a>
-</html>
-```
-* In the above example, the URL to the flask route function `getItem` within the same blueprint can be generated using `url_for('.getItem', id=1)`. Hence relative URLs with in the same blueprint can be generated using the '.' (dot) notation.
-* The URL for flask route function `list` within the blueprint `authors` can be generated using `url_for('authors.list')`
-* Hence URLs for routes inside blueprints can be generated using the '.' (dot) notation
-* The  URL for the route function 'index' in the main server can be generated using `url_for('index')` 
 
 ### Video
 The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
@@ -138,7 +120,7 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTk4NTAzMywtNjMzMjk3ODY0LC03Nz
+eyJoaXN0b3J5IjpbLTM4MjYyNDk2OCwtNjMzMjk3ODY0LC03Nz
 Y4NTk4MjQsLTM0MDIwMDA2LDkyNjU1NzU2MiwtMzE1ODU3MTgz
 LC0xNjIwMDY4NTQyXX0=
 -->
