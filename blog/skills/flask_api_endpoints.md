@@ -79,7 +79,7 @@ if __name__ == '__main__':
 
 * In the above example, the API endpoint listening to GET requests at the route `/sum` will extract the integers from URL query parameters and send the results in a JSON response
 * For example, calling `localhost:50100/sum?x=2&y=5` will return `{"sumVal": 7, "x": 2, "y": 5}` 
-* The query parameter named `x` can be extracted from the URL using `request.args.get('x', 0, type=int)`. The second and third optional arguments are for  
+* The query parameter named `x` can be extracted from the URL using `request.args.get('x', 0, type=int)`. The second and third optional arguments are for specifying the default value and value type respectively
 
 ### Add a blueprint to the flask application under a URL prefix
 
@@ -134,6 +134,6 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2NTU3NTYyLC0zMTU4NTcxODMsLTE2Mj
-AwNjg1NDJdfQ==
+eyJoaXN0b3J5IjpbMjA0NDE2NDkyMSw5MjY1NTc1NjIsLTMxNT
+g1NzE4MywtMTYyMDA2ODU0Ml19
 -->
