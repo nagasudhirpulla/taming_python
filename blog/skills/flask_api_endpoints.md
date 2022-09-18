@@ -15,7 +15,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * In this post we will learn how to create simple API endpoints in flask
 
 ## What is an API endpoint
-* An api endpoint is just a URL at which the server listens for HTTP requests and send JSON or CSV or text
+* An api endpoint is just a URL at which the server listens for HTTP requests and send JSON or CSV or text as a response
 
 ### Create a Flask Blueprint
 
@@ -89,6 +89,5 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTA0MjA0NTQsLTE2MjAwNjg1NDJdfQ
-==
+eyJoaXN0b3J5IjpbLTk4MDg0MTc0OCwtMTYyMDA2ODU0Ml19
 -->
