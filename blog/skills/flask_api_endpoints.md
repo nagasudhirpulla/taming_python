@@ -130,7 +130,7 @@ To convey the type of response, the end point can set HTTP status codes along wi
 -   500 Internal Server Error 
 
 The following is an example API end point that sends errors in responses
-
+![api_endpoint_http_error_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/api_endpoint_http_error_demo.png)
 
 ### Video
 The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
@@ -142,7 +142,7 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTU0MDQwNyw0OTM0Mjc5OTEsLTYzMz
-I5Nzg2NCwtNzc2ODU5ODI0LC0zNDAyMDAwNiw5MjY1NTc1NjIs
-LTMxNTg1NzE4MywtMTYyMDA2ODU0Ml19
+eyJoaXN0b3J5IjpbMTcyNzkyMTU5MSwtNDQ5NTQwNDA3LDQ5Mz
+QyNzk5MSwtNjMzMjk3ODY0LC03NzY4NTk4MjQsLTM0MDIwMDA2
+LDkyNjU1NzU2MiwtMzE1ODU3MTgzLC0xNjIwMDY4NTQyXX0=
 -->
