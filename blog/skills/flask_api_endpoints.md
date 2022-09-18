@@ -130,6 +130,26 @@ To convey the type of response, the end point can set HTTP status codes along wi
 -   500 Internal Server Error 
 
 The following is an example API end point that sends errors in responses
+```py
+from flask import Flask, request
+
+app = Flask(__name__)
+
+# extract data from post request body
+@app.route('/divide', methods=['POST'])
+def sumWithPostBody():
+    reqJson = request.get_json()
+    x = reqJson['x']
+    y = reqJson['y']
+    try:
+        result = x/y
+        return {"message": f"{x} divided by {y} is {result}"}
+    except Exception as err:
+        return {"error": str(err)}, 400
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=50100, debug=True)
+```
 ![api_endpoint_http_error_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/api_endpoint_http_error_demo.png)
 
 ### Video
@@ -142,7 +162,7 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzkyMTU5MSwtNDQ5NTQwNDA3LDQ5Mz
-QyNzk5MSwtNjMzMjk3ODY0LC03NzY4NTk4MjQsLTM0MDIwMDA2
-LDkyNjU1NzU2MiwtMzE1ODU3MTgzLC0xNjIwMDY4NTQyXX0=
+eyJoaXN0b3J5IjpbNzk2MjMwODYwLC00NDk1NDA0MDcsNDkzND
+I3OTkxLC02MzMyOTc4NjQsLTc3Njg1OTgyNCwtMzQwMjAwMDYs
+OTI2NTU3NTYyLC0zMTU4NTcxODMsLTE2MjAwNjg1NDJdfQ==
 -->
