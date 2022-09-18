@@ -18,7 +18,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 * An api endpoint is just a URL at which the server listens for HTTP requests and send JSON or CSV or text as a response
 
 ### GET requests
-``````
+```py
+
+```
 
 ```py
 # src/controllers/books.py
@@ -90,5 +92,5 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0Nzc2ODMwMywtMTYyMDA2ODU0Ml19
+eyJoaXN0b3J5IjpbMTgwMDEzMDAxMiwtMTYyMDA2ODU0Ml19
 -->
