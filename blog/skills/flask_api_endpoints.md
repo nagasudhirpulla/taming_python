@@ -39,6 +39,11 @@ Input data can be passed to API endpoints using the following techniques
 *   Query parameters - example: `abc.com/sum?x=1&y=3`
 *   Request Body : example: In request body the following JSON can be present `{"x":1,"y":3}`. Request body cannot be set only for HTTP GET requests
 
+### URL segments example
+```py
+
+```
+
 
 ### Add a blueprint to the flask application under a URL prefix
 
@@ -93,5 +98,5 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTMyNDM3LC0xNjIwMDY4NTQyXX0=
+eyJoaXN0b3J5IjpbMTI0ODExNTA1MiwtMTYyMDA2ODU0Ml19
 -->
