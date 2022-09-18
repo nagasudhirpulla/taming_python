@@ -106,6 +106,8 @@ if __name__ == '__main__':
 * Request body cannot be set for HTTP GET requests
 * Hence this request cannot be made from a browser. Instead tools like POSTMAN or REST Client VS code extension can be used to send requests other than HTTP GET requests
 
+
+
 ### generate URLs to flask blueprint routes using "url_for"
 ```html
 <!-- templates/books/list.html file -->
@@ -136,7 +138,7 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzI5Nzg2NCwtNzc2ODU5ODI0LC0zND
-AyMDAwNiw5MjY1NTc1NjIsLTMxNTg1NzE4MywtMTYyMDA2ODU0
-Ml19
+eyJoaXN0b3J5IjpbOTg1NTgyMzU2LC02MzMyOTc4NjQsLTc3Nj
+g1OTgyNCwtMzQwMjAwMDYsOTI2NTU3NTYyLC0zMTU4NTcxODMs
+LTE2MjAwNjg1NDJdfQ==
 -->
