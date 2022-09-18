@@ -31,7 +31,7 @@ def helloJson():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=50100, debug=True)
 ```
-* In the above example, the URL `localhost:50100` serves
+* In the above example, the server serves a JSON when a GET request is made at the route `/hello_json` 
 
 ### Add a blueprint to the flask application under a URL prefix
 
@@ -86,5 +86,6 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MjAwMzQ4MywtMTYyMDA2ODU0Ml19
+eyJoaXN0b3J5IjpbLTE2NDkwNjMwNzUsLTE2MjAwNjg1NDJdfQ
+==
 -->
