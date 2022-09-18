@@ -155,10 +155,10 @@ if __name__ == '__main__':
 * If we want to convey authorization failure, we can send status code 401 and so on
 
 ## References
-* Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
+* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODgyOTgwMSwtNDQ5NTQwNDA3LDQ5Mz
+eyJoaXN0b3J5IjpbLTE1OTE4NTA3MSwtNDQ5NTQwNDA3LDQ5Mz
 QyNzk5MSwtNjMzMjk3ODY0LC03NzY4NTk4MjQsLTM0MDIwMDA2
 LDkyNjU1NzU2MiwtMzE1ODU3MTgzLC0xNjIwMDY4NTQyXX0=
 -->
