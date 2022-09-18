@@ -101,8 +101,9 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 
-* In the above example, the blueprint object is imported in the server file using `from src.controllers.books import booksCtrlr` 
-* Then the blueprint is mounted to the main application named `app` at a prefix `/books` using `app.register_blueprint(booksCtrlr, url_prefix="/books")`
+* In the above example, the API endpoint listening to POST requests at the route `/sum` will extract the integers from POST request body and send the results in a JSON response
+* For example, calling `localhost:50100/sum` with a POST request body of `{}`
+* The query parameter named `x` can be extracted from the URL using `request.args.get('x', 0, type=int)`. The second and third optional arguments are for specifying the default value and value type respectively
 
 ### generate URLs to flask blueprint routes using "url_for"
 ```html
@@ -134,6 +135,6 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDIwMDA2LDkyNjU1NzU2MiwtMzE1OD
-U3MTgzLC0xNjIwMDY4NTQyXX0=
+eyJoaXN0b3J5IjpbNjE3MTU3Nzk1LC0zNDAyMDAwNiw5MjY1NT
+c1NjIsLTMxNTg1NzE4MywtMTYyMDA2ODU0Ml19
 -->
