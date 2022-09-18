@@ -151,6 +151,8 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 ![api_endpoint_http_error_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/api_endpoint_http_error_demo.png)
+* here we sent status code of 400 for wrong user input
+* If we want to convey authorization failure, we can send status code 401 and so on
 
 ### Video
 The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
@@ -162,7 +164,7 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2MjMwODYwLC00NDk1NDA0MDcsNDkzND
+eyJoaXN0b3J5IjpbOTEzMzQwNDQyLC00NDk1NDA0MDcsNDkzND
 I3OTkxLC02MzMyOTc4NjQsLTc3Njg1OTgyNCwtMzQwMjAwMDYs
 OTI2NTU3NTYyLC0zMTU4NTcxODMsLTE2MjAwNjg1NDJdfQ==
 -->
