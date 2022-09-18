@@ -19,25 +19,19 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ### GET requests
 ```py
+from flask import Flask
 
+app = Flask(__name__)
+
+# send json
+@app.route('/hello_json')
+def helloJson():
+    return {'message': 'Hello World!!!'}
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=50100, debug=True)
 ```
-
-```py
-# src/controllers/books.py
-from flask import Blueprint, render_template
-
-booksCtrlr = Blueprint('books', __name__)
-
-@booksCtrlr.route('/')
-def list():
-    return render_template("books/list.html")
-
-@booksCtrlr.route('/<int:id>')
-def getItem(id: int):
-    return render_template("books/detail.html", id=id)
-```
-* A blueprint can be created from the `Blueprint` class imported from flask
-* Functions can be declared as routes using annotations. For example, a route can be added to a blueprint named `booksCtrlr` using an annotation like `@booksCtrlr.route('/')`
+* In the above example, the URL `localhost:50100` serves
 
 ### Add a blueprint to the flask application under a URL prefix
 
@@ -92,5 +86,5 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDEzMDAxMiwtMTYyMDA2ODU0Ml19
+eyJoaXN0b3J5IjpbLTM4MjAwMzQ4MywtMTYyMDA2ODU0Ml19
 -->
