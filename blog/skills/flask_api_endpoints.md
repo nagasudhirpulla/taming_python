@@ -81,24 +81,24 @@ if __name__ == '__main__':
 * For example, calling `localhost:50100/sum?x=2&y=5` will return `{"sumVal": 7, "x": 2, "y": 5}` 
 * The query parameter named `x` can be extracted from the URL using `request.args.get('x', 0, type=int)`. The second and third optional arguments are for specifying the default value and value type respectively
 
-### Add a blueprint to the flask application under a URL prefix
+### Request body example
 
 ```py
-# server.py
-from flask import Flask, render_template
-from src.controllers.books import booksCtrlr
-from src.controllers.authors import authorsCtrlr
+from flask import Flask, request
 
 app = Flask(__name__)
 
-@app.route('/')
-def index():
-    return render_template("home.html")
+# extract data from post request body
+@app.route('/sum', methods=['POST'])
+def sumWithPostBody():
+    reqJson = request.get_json()
+    x = reqJson['x']
+    y = reqJson['y']
+    sumVal = x + y
+    return {"message": f"sum of {x} and {y} is {sumVal}"}
 
-app.register_blueprint(booksCtrlr, url_prefix="/books")
-app.register_blueprint(authorsCtrlr, url_prefix="/authors")
-
-app.run(host="0.0.0.0", port=50100, debug=True)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 
 * In the above example, the blueprint object is imported in the server file using `from src.controllers.books import booksCtrlr` 
@@ -134,6 +134,6 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDE2NDkyMSw5MjY1NTc1NjIsLTMxNT
-g1NzE4MywtMTYyMDA2ODU0Ml19
+eyJoaXN0b3J5IjpbLTM0MDIwMDA2LDkyNjU1NzU2MiwtMzE1OD
+U3MTgzLC0xNjIwMDY4NTQyXX0=
 -->
