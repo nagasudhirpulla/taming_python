@@ -54,6 +54,8 @@ def sumFromSegments(x: int, y: int):
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=50100, debug=True)
 ```
+* In the above example, the API endpoint listening to GET requests at the route `/sum` will extract the integers x and y from URL segments and send the results in a JSON response
+*  
 
 
 ### Add a blueprint to the flask application under a URL prefix
@@ -109,5 +111,5 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTEzNTU2MywtMTYyMDA2ODU0Ml19
+eyJoaXN0b3J5IjpbMTI2ODA5MzYzNiwtMTYyMDA2ODU0Ml19
 -->
