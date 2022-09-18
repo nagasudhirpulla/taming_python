@@ -129,6 +129,8 @@ To convey the type of response, the end point can set HTTP status codes along wi
 -   409 Conflict
 -   500 Internal Server Error 
 
+The following is an example APIend point that sends errors in responses
+
 ### Video
 The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 
@@ -139,7 +141,7 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA3NDQzNzUsNDkzNDI3OTkxLC02Mz
-MyOTc4NjQsLTc3Njg1OTgyNCwtMzQwMjAwMDYsOTI2NTU3NTYy
-LC0zMTU4NTcxODMsLTE2MjAwNjg1NDJdfQ==
+eyJoaXN0b3J5IjpbLTU4ODU0MTU3MSw0OTM0Mjc5OTEsLTYzMz
+I5Nzg2NCwtNzc2ODU5ODI0LC0zNDAyMDAwNiw5MjY1NTc1NjIs
+LTMxNTg1NzE4MywtMTYyMDA2ODU0Ml19
 -->
