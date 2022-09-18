@@ -33,6 +33,9 @@ if __name__ == '__main__':
 ```
 * In the above example, the server serves a JSON when a GET request is made at the route `/hello_json` 
 
+### passing inputs to HTTP API endpoints
+
+
 ### Add a blueprint to the flask application under a URL prefix
 
 ```py
@@ -86,6 +89,5 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDkwNjMwNzUsLTE2MjAwNjg1NDJdfQ
-==
+eyJoaXN0b3J5IjpbMTQ4MTk5MTQ5LC0xNjIwMDY4NTQyXX0=
 -->
