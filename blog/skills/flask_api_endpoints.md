@@ -35,7 +35,9 @@ if __name__ == '__main__':
 
 ### passing inputs to HTTP API endpoints
 Input data can be passed to API endpoints using the following techniques
-* 
+*   URL segments - example: `abc.com/sum/1/3`
+*   Query parameters - example: `abc.com/sum?x=1&y=3`
+*   Request Body : example: POST `abc.com/sum`. In request body the following will be present `{}`
 
 
 ### Add a blueprint to the flask application under a URL prefix
@@ -91,5 +93,5 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTk4MDg3OCwtMTYyMDA2ODU0Ml19
+eyJoaXN0b3J5IjpbLTY4MDc3NTIxOSwtMTYyMDA2ODU0Ml19
 -->
