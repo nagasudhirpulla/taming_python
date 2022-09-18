@@ -107,7 +107,8 @@ if __name__ == '__main__':
 * Hence this request cannot be made directly from a browser. Instead tools like POSTMAN or REST Client VS code extension can be used to easily send requests other than HTTP GET requests
 
 ![api_endpoint_http_post_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/api_endpoint_http_post_demo.png)
-### Choice of HTTP verbs as per general conventions
+### Choice of HTTP methods/verbs for API endpoints as per general conventions
+The API end points
 *   GET - querying stuff - example: get list of users
 *   POST - for giving commands/creating something - example: create a person
 *   PUT - for modify/edit command - example: change the name of the user
@@ -124,7 +125,7 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODY2Mjg2NDgsLTYzMzI5Nzg2NCwtNz
-c2ODU5ODI0LC0zNDAyMDAwNiw5MjY1NTc1NjIsLTMxNTg1NzE4
-MywtMTYyMDA2ODU0Ml19
+eyJoaXN0b3J5IjpbMTc4NjAyMDM1NSwtNjMzMjk3ODY0LC03Nz
+Y4NTk4MjQsLTM0MDIwMDA2LDkyNjU1NzU2MiwtMzE1ODU3MTgz
+LC0xNjIwMDY4NTQyXX0=
 -->
