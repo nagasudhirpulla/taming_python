@@ -16,7 +16,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * In this post we will learn how to create simple API endpoints in flask
 
 ## What is an API endpoint
-* An api endpoint is just a URL at which the server listens for HTTP requests and send JSON or CSV or text as a response
+* An api endpoint is just a route at which the server listens for HTTP requests and send JSON or CSV or text as a response
 
 ### GET requests
 ```py
@@ -159,8 +159,8 @@ if __name__ == '__main__':
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjI2OTQ3ODMsMTA1OTMyMjA5NiwtND
-Q5NTQwNDA3LDQ5MzQyNzk5MSwtNjMzMjk3ODY0LC03NzY4NTk4
-MjQsLTM0MDIwMDA2LDkyNjU1NzU2MiwtMzE1ODU3MTgzLC0xNj
-IwMDY4NTQyXX0=
+eyJoaXN0b3J5IjpbNzU2MjM3NjM5LC0xNjIyNjk0NzgzLDEwNT
+kzMjIwOTYsLTQ0OTU0MDQwNyw0OTM0Mjc5OTEsLTYzMzI5Nzg2
+NCwtNzc2ODU5ODI0LC0zNDAyMDAwNiw5MjY1NTc1NjIsLTMxNT
+g1NzE4MywtMTYyMDA2ODU0Ml19
 -->
