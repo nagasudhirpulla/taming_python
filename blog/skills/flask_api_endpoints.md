@@ -109,11 +109,11 @@ if __name__ == '__main__':
 ![api_endpoint_http_post_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/api_endpoint_http_post_demo.png)
 ### Choice of HTTP methods/verbs for API endpoints as per REST conventions
 * The HTTP request methods of API end points can be any one of GET, POST, PUT, DELETE
-* But the HTTP request method/verb of the API endpoint can be decided according to the action pf t   
-*   GET - querying stuff - example: get list of users
-*   POST - for giving commands/creating something - example: create a person
-*   PUT - for modify/edit command - example: change the name of the user
-*   DELETE - for delete command - example: delete a user
+* The HTTP request method/verb of the API endpoint can be decided according to the action performed by the API endpoint as shown below   
+-- GET - querying stuff - example: get list of users
+-- POST - for giving commands/creating something - example: create a person
+-- PUT - for modify/edit command - example: change the name of the user
+-- DELETE - for delete command - example: delete a user
 
 
 ### Video
@@ -126,7 +126,7 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5NTY3NTQzLC02MzMyOTc4NjQsLTc3Nj
-g1OTgyNCwtMzQwMjAwMDYsOTI2NTU3NTYyLC0zMTU4NTcxODMs
-LTE2MjAwNjg1NDJdfQ==
+eyJoaXN0b3J5IjpbLTE1Mzg4MzU3ODksLTYzMzI5Nzg2NCwtNz
+c2ODU5ODI0LC0zNDAyMDAwNiw5MjY1NTc1NjIsLTMxNTg1NzE4
+MywtMTYyMDA2ODU0Ml19
 -->
