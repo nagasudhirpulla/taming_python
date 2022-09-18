@@ -103,7 +103,7 @@ if __name__ == '__main__':
 
 * In the above example, the API endpoint listening to POST requests at the route `/sum` will extract the integers from POST request JSON body and send the results in a JSON response
 * For example, calling `localhost:50100/sum` with a POST request body of `{"x":1, "y":4}` will return a response `{"message": "sum of 1 and 4 is 5"}`
-* The query parameter named `x` can be extracted from the URL using `request.args.get('x', 0, type=int)`. The second and third optional arguments are for specifying the default value and value type respectively
+* Request body cannot be set if the HTTP 
 
 ### generate URLs to flask blueprint routes using "url_for"
 ```html
@@ -135,6 +135,6 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjMyODk1NjUsLTM0MDIwMDA2LDkyNj
-U1NzU2MiwtMzE1ODU3MTgzLC0xNjIwMDY4NTQyXX0=
+eyJoaXN0b3J5IjpbLTc3Njg1OTgyNCwtMzQwMjAwMDYsOTI2NT
+U3NTYyLC0zMTU4NTcxODMsLTE2MjAwNjg1NDJdfQ==
 -->
