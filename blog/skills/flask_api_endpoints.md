@@ -116,7 +116,18 @@ if __name__ == '__main__':
 	* DELETE - for delete command - example: delete a user
 
 ### Respond with errors using HTTP status codes
- 
+To convey the type of respose to the client, the service and sent HTTP status codes along with the response body Some important and most used HTTP response status codes are
+
+-   200 OK
+-   201 Created
+-   204 No Content
+-   301 Moved Permanently
+-   400 Bad Request
+-   401 Unauthorized
+-   404 Not Found
+-   403 Forbidden
+-   409 Conflict
+-   500 Internal Server Error 
 
 ### Video
 The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
@@ -128,7 +139,7 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODY3NzU2Miw0OTM0Mjc5OTEsLTYzMz
+eyJoaXN0b3J5IjpbMjA3Njg4NjMzMiw0OTM0Mjc5OTEsLTYzMz
 I5Nzg2NCwtNzc2ODU5ODI0LC0zNDAyMDAwNiw5MjY1NTc1NjIs
 LTMxNTg1NzE4MywtMTYyMDA2ODU0Ml19
 -->
