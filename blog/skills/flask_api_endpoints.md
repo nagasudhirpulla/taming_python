@@ -61,8 +61,28 @@ if __name__ == '__main__':
 
 ### Query parameters example
 ```py
+from flask import Flask, request
 
+app = Flask(__name__)
+
+# extract data from query parameters, example abc.com?x=2&y=5
+@app.route('/sum')
+def sumWithQueryParams():
+    x = request.args.get('x', 0, type=int)
+    y = request.args.get('y', None, type=int)
+    sumVal = x + y
+    return {'x': x, 'y': y, 'sumVal': sumVal}
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=50100, debug=True)
 ```
+
+* In the above example, the API endpoint listening to GET requests at the route `/sum` will extract the integers from URL query parameters and send the results in a JSON response
+* For example, calling `localhost:50100/sum?x=2&y=5` will return `{  "sumVal": 7, 
+  "x": 2, 
+  "y": 5
+}` 
+* Notice that flask allows allows to optionally specify the data types of URL segments also
 
 ### Add a blueprint to the flask application under a URL prefix
 
@@ -117,5 +137,6 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTg1NzE4MywtMTYyMDA2ODU0Ml19
+eyJoaXN0b3J5IjpbNzAyNTI5NDExLC0zMTU4NTcxODMsLTE2Mj
+AwNjg1NDJdfQ==
 -->
