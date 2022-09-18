@@ -6,6 +6,7 @@
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
 * [Extract parameters from URL in flask server](https://nagasudhir.blogspot.com/2022/04/extract-parameters-from-url-in-flask.html)
+* [Forms with front-end and server-side validation in Flask web applications](https://nagasudhir.blogspot.com/2022/06/forms-with-front-end-and-server-side.html)
 
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
@@ -158,8 +159,8 @@ if __name__ == '__main__':
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDk0Mzg4NCwxMDU5MzIyMDk2LC00ND
-k1NDA0MDcsNDkzNDI3OTkxLC02MzMyOTc4NjQsLTc3Njg1OTgy
-NCwtMzQwMjAwMDYsOTI2NTU3NTYyLC0zMTU4NTcxODMsLTE2Mj
-AwNjg1NDJdfQ==
+eyJoaXN0b3J5IjpbLTE2MjI2OTQ3ODMsMTA1OTMyMjA5NiwtND
+Q5NTQwNDA3LDQ5MzQyNzk5MSwtNjMzMjk3ODY0LC03NzY4NTk4
+MjQsLTM0MDIwMDA2LDkyNjU1NzU2MiwtMzE1ODU3MTgzLC0xNj
+IwMDY4NTQyXX0=
 -->
