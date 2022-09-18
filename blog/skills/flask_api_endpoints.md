@@ -14,11 +14,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 * In this post we will learn how to create simple API endpoints in flask
 
-## What is a Flask Blueprint
-* A group multiple Flask routes can be segregated as a Flask Blueprint
-* Each blueprint can be used like an MVC controller by registering each blueprint at a URL prefix
-* Routes can be moved from the main server file into blueprints to reduce the lines of code 
-* flask `url_for` function can be used to easily used to create relative URLs for a route within a blueprint or for a specific blueprint route
+## What is an API endpoint
+* An api endpoint is just a URL the server listens to.
 
 ### Create a Flask Blueprint
 
@@ -92,5 +89,6 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjAwNjg1NDJdfQ==
+eyJoaXN0b3J5IjpbLTExNDIxNTI0NjIsLTE2MjAwNjg1NDJdfQ
+==
 -->
