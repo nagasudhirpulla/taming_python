@@ -41,7 +41,18 @@ Input data can be passed to API endpoints using the following techniques
 
 ### URL segments example
 ```py
+from flask import Flask
 
+app = Flask(__name__)
+
+# extract data from URL segments and send JSON response
+@app.route('/sum/<int:x>/<int:y>')
+def sumFromSegments(x: int, y: int):
+    numSum = x + y
+    return {'x': x, 'y': y, 'sumVal': numSum}
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 
 
@@ -98,5 +109,5 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODExNTA1MiwtMTYyMDA2ODU0Ml19
+eyJoaXN0b3J5IjpbMTY0OTEzNTU2MywtMTYyMDA2ODU0Ml19
 -->
