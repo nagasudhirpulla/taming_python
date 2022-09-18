@@ -115,8 +115,8 @@ if __name__ == '__main__':
 	* PUT - for modify/edit command - example: change the name of the user
 	* DELETE - for delete command - example: delete a user
 
-### Respond with errors using HTTP status codes
-To convey the type of respose to the client, the service and sent HTTP status codes along with the response body Some important and most used HTTP response status codes are
+### HTTP status codes in responses
+To convey the type of response, the end point can set HTTP status codes along with the response body. Some important and most used HTTP response status codes are
 
 -   200 OK
 -   201 Created
@@ -139,7 +139,7 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Njg4NjMzMiw0OTM0Mjc5OTEsLTYzMz
-I5Nzg2NCwtNzc2ODU5ODI0LC0zNDAyMDAwNiw5MjY1NTc1NjIs
-LTMxNTg1NzE4MywtMTYyMDA2ODU0Ml19
+eyJoaXN0b3J5IjpbLTIxMDA3NDQzNzUsNDkzNDI3OTkxLC02Mz
+MyOTc4NjQsLTc3Njg1OTgyNCwtMzQwMjAwMDYsOTI2NTU3NTYy
+LC0zMTU4NTcxODMsLTE2MjAwNjg1NDJdfQ==
 -->
