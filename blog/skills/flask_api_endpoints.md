@@ -34,7 +34,7 @@ if __name__ == '__main__':
 ```
 * In the above example, the server serves a JSON when a GET request is made at the route `/hello_json` 
 
-### passing inputs to HTTP API endpoints
+### Passing inputs to HTTP API endpoints
 Input data can be passed to API endpoints using the following techniques
 *   URL segments - example: `abc.com/sum/1/3`
 *   Query parameters - example: `abc.com/sum?x=1&y=3`
@@ -159,8 +159,8 @@ if __name__ == '__main__':
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU2MjM3NjM5LC0xNjIyNjk0NzgzLDEwNT
-kzMjIwOTYsLTQ0OTU0MDQwNyw0OTM0Mjc5OTEsLTYzMzI5Nzg2
-NCwtNzc2ODU5ODI0LC0zNDAyMDAwNiw5MjY1NTc1NjIsLTMxNT
-g1NzE4MywtMTYyMDA2ODU0Ml19
+eyJoaXN0b3J5IjpbMTEyNDAwNjI0Nyw3NTYyMzc2MzksLTE2Mj
+I2OTQ3ODMsMTA1OTMyMjA5NiwtNDQ5NTQwNDA3LDQ5MzQyNzk5
+MSwtNjMzMjk3ODY0LC03NzY4NTk4MjQsLTM0MDIwMDA2LDkyNj
+U1NzU2MiwtMzE1ODU3MTgzLC0xNjIwMDY4NTQyXX0=
 -->
