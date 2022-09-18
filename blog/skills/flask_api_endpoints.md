@@ -34,6 +34,8 @@ if __name__ == '__main__':
 * In the above example, the server serves a JSON when a GET request is made at the route `/hello_json` 
 
 ### passing inputs to HTTP API endpoints
+Input data can be passed to API endpoints using the following techniques
+* 
 
 
 ### Add a blueprint to the flask application under a URL prefix
@@ -89,5 +91,5 @@ The video for this post can be seen [here](https://youtu.be/SezbDCz0Ock)
 * Official flask blueprints docs - https://flask.palletsprojects.com/en/latest/blueprints/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTk5MTQ5LC0xNjIwMDY4NTQyXX0=
+eyJoaXN0b3J5IjpbMjEyMTk4MDg3OCwtMTYyMDA2ODU0Ml19
 -->
