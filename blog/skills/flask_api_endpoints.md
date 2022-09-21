@@ -152,15 +152,21 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=50100, debug=True)
 ```
 ![api_endpoint_http_error_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/api_endpoint_http_error_demo.png)
-* here we sent status code of 400 for wrong user input
+* Here we sent status code of 400 for wrong user input
 * If we want to convey authorization failure, we can send status code 401 and so on
+
+### Video
+The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/duE5P1hG6sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## References
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDAwNjI0Nyw3NTYyMzc2MzksLTE2Mj
-I2OTQ3ODMsMTA1OTMyMjA5NiwtNDQ5NTQwNDA3LDQ5MzQyNzk5
-MSwtNjMzMjk3ODY0LC03NzY4NTk4MjQsLTM0MDIwMDA2LDkyNj
-U1NzU2MiwtMzE1ODU3MTgzLC0xNjIwMDY4NTQyXX0=
+eyJoaXN0b3J5IjpbNDQzMzY2MjcyLDExMjQwMDYyNDcsNzU2Mj
+M3NjM5LC0xNjIyNjk0NzgzLDEwNTkzMjIwOTYsLTQ0OTU0MDQw
+Nyw0OTM0Mjc5OTEsLTYzMzI5Nzg2NCwtNzc2ODU5ODI0LC0zND
+AyMDAwNiw5MjY1NTc1NjIsLTMxNTg1NzE4MywtMTYyMDA2ODU0
+Ml19
 -->
