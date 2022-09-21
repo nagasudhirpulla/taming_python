@@ -140,6 +140,7 @@ Here are the goals and skills in this tutorial series
 * [Sub mount a flask application under a URL prefix](https://nagasudhir.blogspot.com/2022/08/sub-mounting-flask-application-under.html)
 * [Custom Error Pages in python Flask application](https://nagasudhir.blogspot.com/2022/08/custom-error-pages-in-python-flask.html)
 * [Flask Blueprints for modular MVC like web applications](https://nagasudhir.blogspot.com/2022/08/flask-blueprints-for-modular-mvc-like.html)
+* [Create API endpoints in Flask](https://nagasudhir.blogspot.com/2022/09/create-api-endpoints-in-flask.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -147,11 +148,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbOTMwOTcxMzM4LC0zOTk5NT
-Q4NzcsMTE1MjMyMzA3NSwxNzM5ODE5MDMyLDEyODA1OTg5MDgs
-NTY2NDgxMDM2LC0xOTA2NTM4MTY0LC0yMTA5NTM2MjkyLC0xMj
-YxMTQzMjcsLTE3Mzg1MTE0MjgsMTQ2NDkwNjcwNiwtMTU2NzE0
-NTUzMiwtMTkxMTA2NDE1NywxNzA1MTkwNjEyLDgwNjEzNzYwNy
-w5OTc2ODgxMzQsLTEyMzM3MjExOCwtMTc4ODE3MzAxMCw4ODEw
-NTI1MjksODk2NDc3MzY2XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbNDgwNjA4ODM0LDkzMDk3MT
+MzOCwtMzk5OTU0ODc3LDExNTIzMjMwNzUsMTczOTgxOTAzMiwx
+MjgwNTk4OTA4LDU2NjQ4MTAzNiwtMTkwNjUzODE2NCwtMjEwOT
+UzNjI5MiwtMTI2MTE0MzI3LC0xNzM4NTExNDI4LDE0NjQ5MDY3
+MDYsLTE1NjcxNDU1MzIsLTE5MTEwNjQxNTcsMTcwNTE5MDYxMi
+w4MDYxMzc2MDcsOTk3Njg4MTM0LC0xMjMzNzIxMTgsLTE3ODgx
+NzMwMTAsODgxMDUyNTI5XX0=
 -->
