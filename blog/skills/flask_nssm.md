@@ -20,9 +20,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Command line output can be saved in log files as text
 * The generated logs can also be rotated based on time and log file size criteria  
 
-### Installing nssm
-* Download nssm from https://nssm.cc/download
-* 
+### Installing nssm in windows
+* Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
+* In the 'Path' system environment variable, add the path of nssm.exe, so that nssm.exe can be recognized in command line
 
 ### GET requests
 ```py
@@ -170,5 +170,5 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTkyNDI3NSwxMzE0NzUyNjldfQ==
+eyJoaXN0b3J5IjpbLTc5MDczNTY4MSwxMzE0NzUyNjldfQ==
 -->
