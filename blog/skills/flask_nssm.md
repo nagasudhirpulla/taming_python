@@ -1,4 +1,4 @@
-## Skill - Create API endpoints in flask 
+## Skill - Run Flask server as a windows background service using nssm
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -164,5 +164,5 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzMzY2MjcyXX0=
+eyJoaXN0b3J5IjpbMTMxNDc1MjY5XX0=
 -->
