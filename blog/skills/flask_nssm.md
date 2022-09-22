@@ -71,6 +71,10 @@ nssm.exe set my_flask_app AppStderr "%cd%\logs\mis_dashboard.log"
 * `nssm set my_flask_app AppRotateBytes 1048576` will rotate log files after log files reaches 1048576 bytes (1 MB) size
 * `sc start my_flask_app` will start the background service
 
+### Edit the service using nssm GUI
+```bat
+nssm edit 
+```
 
 ### GET requests
 ```py
@@ -218,7 +222,7 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzMDkyOTM4LDM5ODUyNTg1OSwtMTY5NT
-E1NTkwNSwtNDg4NDcyMTYwLC05MjQwNTIzNzIsMTMxNDc1MjY5
-XX0=
+eyJoaXN0b3J5IjpbMjA4MzkwMjA4MSwzOTg1MjU4NTksLTE2OT
+UxNTU5MDUsLTQ4ODQ3MjE2MCwtOTI0MDUyMzcyLDEzMTQ3NTI2
+OV19
 -->
