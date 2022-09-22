@@ -49,6 +49,7 @@ call python server.py
 ### Step 2 : Use nssm to run the batch file as a background service
 * Run the following commands to run the batch file as a background service
 ```bat
+
 ```
 
 
@@ -198,5 +199,5 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5NTI5MTYzLDEzMTQ3NTI2OV19
+eyJoaXN0b3J5IjpbODc2MDMyOTI1LDEzMTQ3NTI2OV19
 -->
