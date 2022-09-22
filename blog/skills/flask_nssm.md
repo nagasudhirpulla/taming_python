@@ -15,7 +15,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ## What is nssm
 * nssm runs commands or batch files as background services in windows
-* The services are also restarted if they
+* The services are also restarted in case of failure
+* The services can be easily managed using services.msc in windows
+* Command line output can be saved in tetxlog files
 
 ### GET requests
 ```py
@@ -163,5 +165,5 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzI0ODM1MywxMzE0NzUyNjldfQ==
+eyJoaXN0b3J5IjpbMTI3Mzk3MTgwNiwxMzE0NzUyNjldfQ==
 -->
