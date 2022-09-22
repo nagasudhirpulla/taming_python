@@ -25,6 +25,22 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
 * In the 'Path' system environment variable, add the path of nssm.exe, so that nssm.exe can be recognized in command line
 
+## Example Flask server
+The following is an example flask server that we will run as a background service in windows
+```py
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return 'Hello, World!'
+
+if __name__ == '__main__':
+    # run the server on this ip and port 50100
+    app.run(host='0.0.0.0', port=50100, debug=True)
+```
+
 ### GET requests
 ```py
 from flask import Flask
@@ -171,5 +187,5 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzEyNDQ1NTUsMTMxNDc1MjY5XX0=
+eyJoaXN0b3J5IjpbLTIyMzA1NTg2NSwxMzE0NzUyNjldfQ==
 -->
