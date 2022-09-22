@@ -59,7 +59,13 @@ call nssm set my_flask_app AppRotateBytes 1048576
 call sc start my_flask_app
 ```
 The commands are explained as shown below
-* `nssm.exe install my_flask_app "%cd%\run_server.bat"` will create a background service named "my_flask_app" and that runs the command `"%cd%\run_server.bat"`. Here `%cd%`
+* `nssm.exe install my_flask_app "%cd%\run_server.bat"` will create a background service named "my_flask_app" and that runs the command `"%cd%\run_server.bat"`. Here `%cd%` means the 'current directory'
+* The 
+```bat
+call nssm.exe set my_flask_app AppStdout "%cd%\logs\mis_dashboard.log"
+call nssm.exe set my_flask_app AppStderr "%cd%\logs\mis_dashboard.log"
+```
+The above 
 
 
 ### GET requests
@@ -208,6 +214,6 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NjI4MzE2OCwtOTI0MDUyMzcyLDEzMT
-Q3NTI2OV19
+eyJoaXN0b3J5IjpbODczOTU1MDAwLC05MjQwNTIzNzIsMTMxND
+c1MjY5XX0=
 -->
