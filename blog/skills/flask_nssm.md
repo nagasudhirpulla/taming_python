@@ -60,11 +60,12 @@ call sc start my_flask_app
 ```
 The commands are explained as shown below
 * `nssm.exe install my_flask_app "%cd%\run_server.bat"` will register a background service named "my_flask_app" and that runs the command `"%cd%\run_server.bat"`. Here `%cd%` means the 'current directory'
-* The below commands will set the file paths to log the output and error streams of command line
+* The below commands will set the file paths to log the output and error streams of command line.
 ```bat
 nssm.exe set my_flask_app AppStdout "%cd%\logs\mis_dashboard.log"
 nssm.exe set my_flask_app AppStderr "%cd%\logs\mis_dashboard.log"
 ```
+Ensure there is a folder named 'logs' in the folder containing 'server.py' file.
 * `nssm set my_flask_app AppRotateFiles 1` will enable log rotation
 * `nssm set my_flask_app AppRotateOnline 1` will rotate log files even if application is running
 * `nssm set my_flask_app AppRotateSeconds 86400` will rotate log files after 86400 seconds (1 day)
@@ -95,7 +96,7 @@ nssm edit my_flask_app
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTE4ODc5MywtMTY1NjQyNDY4MywtNT
-IxNzA4OTcxLDM5ODUyNTg1OSwtMTY5NTE1NTkwNSwtNDg4NDcy
-MTYwLC05MjQwNTIzNzIsMTMxNDc1MjY5XX0=
+eyJoaXN0b3J5IjpbNDcxMzkzMzQwLC0xNjU2NDI0NjgzLC01Mj
+E3MDg5NzEsMzk4NTI1ODU5LC0xNjk1MTU1OTA1LC00ODg0NzIx
+NjAsLTkyNDA1MjM3MiwxMzE0NzUyNjldfQ==
 -->
