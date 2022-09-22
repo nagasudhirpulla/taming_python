@@ -62,14 +62,14 @@ The commands are explained as shown below
 * `nssm.exe install my_flask_app "%cd%\run_server.bat"` will create a background service named "my_flask_app" and that runs the command `"%cd%\run_server.bat"`. Here `%cd%` means the 'current directory'
 * The below commands will set the file paths to log the output and error streams of command line
 ```bat
-call nssm.exe set my_flask_app AppStdout "%cd%\logs\mis_dashboard.log"
-call nssm.exe set my_flask_app AppStderr "%cd%\logs\mis_dashboard.log"
+nssm.exe set my_flask_app AppStdout "%cd%\logs\mis_dashboard.log"
+nssm.exe set my_flask_app AppStderr "%cd%\logs\mis_dashboard.log"
 ```
-* `call nssm set my_flask_app AppRotateFiles 1` will enable log rotation
-* `call nssm set my_flask_app AppRotateOnline 1` will rotate log files even if application is running
-* `call nssm set my_flask_app AppRotateSeconds 86400` will rotate log files after 86400 seconds (1 day)
-* `call nssm set my_flask_app AppRotateBytes 1048576` will rotate log files after log files reaches 1048576 bytes (1 MB) size
-* 
+* `nssm set my_flask_app AppRotateFiles 1` will enable log rotation
+* `nssm set my_flask_app AppRotateOnline 1` will rotate log files even if application is running
+* `nssm set my_flask_app AppRotateSeconds 86400` will rotate log files after 86400 seconds (1 day)
+* `nssm set my_flask_app AppRotateBytes 1048576` will rotate log files after log files reaches 1048576 bytes (1 MB) size
+* `sc start my_flask_app` will start the background service
 
 
 ### GET requests
@@ -218,6 +218,6 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTU0NDI1NjksLTE2OTUxNTU5MDUsLT
-Q4ODQ3MjE2MCwtOTI0MDUyMzcyLDEzMTQ3NTI2OV19
+eyJoaXN0b3J5IjpbMzk4NTI1ODU5LC0xNjk1MTU1OTA1LC00OD
+g0NzIxNjAsLTkyNDA1MjM3MiwxMzE0NzUyNjldfQ==
 -->
