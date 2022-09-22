@@ -50,8 +50,8 @@ call python server.py
 * Run the following commands to run the batch file as a background service
 ```bat
 call nssm.exe install my_flask_app "%cd%\run_server.bat"
-call nssm.exe set my_flask_app AppStdout "%cd%\logs\mis_dashboard.log"
-call nssm.exe set my_flask_app AppStderr "%cd%\logs\mis_dashboard.log"
+call nssm.exe set my_flask_app AppStdout "%cd%\logs\my_flask_app_logs.log"
+call nssm.exe set my_flask_app AppStderr "%cd%\logs\my_flask_app_logs.log"
 call nssm set my_flask_app AppRotateFiles 1
 call nssm set my_flask_app AppRotateOnline 1
 call nssm set my_flask_app AppRotateSeconds 86400
@@ -95,7 +95,7 @@ nssm edit my_flask_app
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTcwODk3MSwzOTg1MjU4NTksLTE2OT
-UxNTU5MDUsLTQ4ODQ3MjE2MCwtOTI0MDUyMzcyLDEzMTQ3NTI2
-OV19
+eyJoaXN0b3J5IjpbLTE2NTY0MjQ2ODMsLTUyMTcwODk3MSwzOT
+g1MjU4NTksLTE2OTUxNTU5MDUsLTQ4ODQ3MjE2MCwtOTI0MDUy
+MzcyLDEzMTQ3NTI2OV19
 -->
