@@ -40,7 +40,8 @@ if __name__ == '__main__':
 ```
 
 ### Step 1 : Create a batch file to run the server
-```bat
+* Create a batch file say `run_server.py` that will run the python server in a command line
+```
 REM run_server.bat
 call python server.py
 ```
@@ -191,5 +192,5 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjM0MzUyMTMsMTMxNDc1MjY5XX0=
+eyJoaXN0b3J5IjpbLTY2NzczMzMwNywxMzE0NzUyNjldfQ==
 -->
