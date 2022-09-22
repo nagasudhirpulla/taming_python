@@ -85,11 +85,15 @@ nssm edit my_flask_app
 * Open Services app or run "services.msc" to open the services app in windows
 * The service can be started and stopped in this application
 
+![nssm_services_msc_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/nssm_services_msc_demo.png)
+
 ### 'sc' command to manage services in command line
 * Delete a service - `sc delete my_flask_app`
 * Start a service - `sc start my_flask_app` 
 * Pause a service - `sc pause my_flask_app`
 * Stop a service - `sc stop my_flask_app`
+
+![sc_query_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sc_query_demo.png)
 
 ### View status of a service in command line
 `sc query my_flask_app`
@@ -100,7 +104,7 @@ nssm edit my_flask_app
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0ODAwNzU0LDQ3MTM5MzM0MCwtMTY1Nj
+eyJoaXN0b3J5IjpbNzM5Njk1NjYwLDQ3MTM5MzM0MCwtMTY1Nj
 QyNDY4MywtNTIxNzA4OTcxLDM5ODUyNTg1OSwtMTY5NTE1NTkw
 NSwtNDg4NDcyMTYwLC05MjQwNTIzNzIsMTMxNDc1MjY5XX0=
 -->
