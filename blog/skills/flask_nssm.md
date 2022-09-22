@@ -40,14 +40,13 @@ if __name__ == '__main__':
 ```
 
 ### Step 1 : Create a batch file to run the server
-* Create a batch file say `run_server.py` that will run the python server in a command line. You can check by running the batch file
+* Create a batch file say `run_server.bat` that will run the python server in a command line. You can check by running the batch file
 ```bat
-REM run_server.bat
 call python server.py
 ```
 
 ### Step 2 : Use nssm to run the batch file as a background service
-* Open a command prompt as an administrator. Change the directory of the command prompt to the directory where the 'run_server.bat' is present usin
+* Open a command prompt as an administrator. Change the directory of the command prompt to the directory where the 'run_server.bat' is present using 'cd' command.
 * Run the following commands to run the batch file as a background service
 ```bat
 call nssm.exe install my_flask_app "%cd%\run_server.bat"
@@ -96,7 +95,7 @@ nssm edit my_flask_app
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzE5MDgzMywtMTY1NjQyNDY4MywtNT
-IxNzA4OTcxLDM5ODUyNTg1OSwtMTY5NTE1NTkwNSwtNDg4NDcy
-MTYwLC05MjQwNTIzNzIsMTMxNDc1MjY5XX0=
+eyJoaXN0b3J5IjpbLTEwNjg3MDYxODYsLTE2NTY0MjQ2ODMsLT
+UyMTcwODk3MSwzOTg1MjU4NTksLTE2OTUxNTU5MDUsLTQ4ODQ3
+MjE2MCwtOTI0MDUyMzcyLDEzMTQ3NTI2OV19
 -->
