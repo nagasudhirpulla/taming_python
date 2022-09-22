@@ -1,19 +1,17 @@
-## Skill - Run Flask server as a windows background service using nssm
+## Skill - Run a python Flask server as a windows background service using nssm
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
-* [Extract parameters from URL in flask server](https://nagasudhir.blogspot.com/2022/04/extract-parameters-from-url-in-flask.html)
-* [Forms with front-end and server-side validation in Flask web applications](https://nagasudhir.blogspot.com/2022/06/forms-with-front-end-and-server-side.html)
 
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 <hr/>
 
-* In this post we will learn how to create simple API endpoints in flask
+* In this post we will learn how to run a flask server as a background service in windows using nssm
 
 ## What is an API endpoint
 * An api endpoint is just a route at which the server listens for HTTP requests and send JSON or CSV or text as a response
@@ -164,5 +162,5 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDc1MjY5XX0=
+eyJoaXN0b3J5IjpbLTEzNDg4MzcyMTMsMTMxNDc1MjY5XX0=
 -->
