@@ -13,8 +13,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 * In this post we will learn how to run a flask server as a background service in windows using nssm
 
-## What is an API endpoint
-* An api endpoint is just a route at which the server listens for HTTP requests and send JSON or CSV or text as a response
+## What is nssm
+* nssm runs commands or batch files as background services in windows
+* The services are also restarted if they
 
 ### GET requests
 ```py
@@ -162,5 +163,5 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDg4MzcyMTMsMTMxNDc1MjY5XX0=
+eyJoaXN0b3J5IjpbLTUwNzI0ODM1MywxMzE0NzUyNjldfQ==
 -->
