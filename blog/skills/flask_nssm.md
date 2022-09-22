@@ -93,10 +93,10 @@ nssm edit my_flask_app
 * Pause a service - `sc pause my_flask_app`
 * Stop a service - `sc stop my_flask_app`
 
-![sc_query_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sc_query_demo.png)
-
 ### View status of a service in command line
 `sc query my_flask_app`
+
+![sc_query_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sc_query_demo.png)
 
 ## References
 * nssm usage guide - https://nssm.cc/usage
@@ -104,7 +104,8 @@ nssm edit my_flask_app
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5Njk1NjYwLDQ3MTM5MzM0MCwtMTY1Nj
-QyNDY4MywtNTIxNzA4OTcxLDM5ODUyNTg1OSwtMTY5NTE1NTkw
-NSwtNDg4NDcyMTYwLC05MjQwNTIzNzIsMTMxNDc1MjY5XX0=
+eyJoaXN0b3J5IjpbLTIxNDQ1ODQ5NDgsNDcxMzkzMzQwLC0xNj
+U2NDI0NjgzLC01MjE3MDg5NzEsMzk4NTI1ODU5LC0xNjk1MTU1
+OTA1LC00ODg0NzIxNjAsLTkyNDA1MjM3MiwxMzE0NzUyNjldfQ
+==
 -->
