@@ -77,7 +77,10 @@ nssm edit my_flask_app
 ```
 
 ## Manage windows background services
+* Open Services app or run "services.msc" to open the services app in windows
+* The service can be started and stopped in this application
 
+### sc command to manage service
 
 ### GET requests
 ```py
@@ -225,7 +228,7 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDMyMjkyNywzOTg1MjU4NTksLTE2OT
+eyJoaXN0b3J5IjpbMTc5MTQ5NzYyNCwzOTg1MjU4NTksLTE2OT
 UxNTU5MDUsLTQ4ODQ3MjE2MCwtOTI0MDUyMzcyLDEzMTQ3NTI2
 OV19
 -->
