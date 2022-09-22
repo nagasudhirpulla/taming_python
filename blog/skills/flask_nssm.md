@@ -49,11 +49,11 @@ call python server.py
 ### Step 2 : Use nssm to run the batch file as a background service
 * Run the following commands to run the batch file as a background service
 ```bat
-call nssm.exe install my_app "%cd%\run_server.bat"
-rem call nssm.exe edit mis_dashboard
-call nssm.exe set mis_dashboard AppStdout "%cd%\logs\mis_dashboard.log"
-call nssm.exe set mis_dashboard AppStderr "%cd%\logs\mis_dashboard.log"
-call sc start mis_dashboard
+call nssm.exe install my_flask_app "%cd%\run_server.bat"
+rem call nssm.exe edit my_flask_app
+call nssm.exe set my_flask_app AppStdout "%cd%\logs\mis_dashboard.log"
+call nssm.exe set my_flask_app AppStderr "%cd%\logs\mis_dashboard.log"
+call sc start my_flask_app
 ```
 
 
@@ -203,5 +203,5 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwNjU0MzIwLDEzMTQ3NTI2OV19
+eyJoaXN0b3J5IjpbLTkyNDA1MjM3MiwxMzE0NzUyNjldfQ==
 -->
