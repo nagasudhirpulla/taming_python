@@ -78,6 +78,7 @@ Ensure there is a folder named 'logs' in the folder containing 'server.py' file.
 ```bat
 nssm edit my_flask_app
 ```
+
 ![nssm_edit_service_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/nssm_edit_service_demo.png)
 
 ## Manage windows background services
@@ -99,7 +100,7 @@ nssm edit my_flask_app
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NjkzMzk1Niw0NzEzOTMzNDAsLTE2NT
-Y0MjQ2ODMsLTUyMTcwODk3MSwzOTg1MjU4NTksLTE2OTUxNTU5
-MDUsLTQ4ODQ3MjE2MCwtOTI0MDUyMzcyLDEzMTQ3NTI2OV19
+eyJoaXN0b3J5IjpbODM0ODAwNzU0LDQ3MTM5MzM0MCwtMTY1Nj
+QyNDY4MywtNTIxNzA4OTcxLDM5ODUyNTg1OSwtMTY5NTE1NTkw
+NSwtNDg4NDcyMTYwLC05MjQwNTIzNzIsMTMxNDc1MjY5XX0=
 -->
