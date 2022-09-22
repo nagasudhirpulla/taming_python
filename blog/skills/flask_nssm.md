@@ -41,12 +41,15 @@ if __name__ == '__main__':
 
 ### Step 1 : Create a batch file to run the server
 * Create a batch file say `run_server.py` that will run the python server in a command line. You can check by running the batch file
-```
+```bat
 REM run_server.bat
 call python server.py
 ```
 
-### Step 2 : Create a batch file to run the batch file with nssm
+### Step 2 : Use nssm to run the batch file as a background service
+* Run the following commands to run the batch file as a background service
+```bat
+```
 
 
 ### GET requests
@@ -195,5 +198,5 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjEwMDkwMSwxMzE0NzUyNjldfQ==
+eyJoaXN0b3J5IjpbOTI5NTI5MTYzLDEzMTQ3NTI2OV19
 -->
