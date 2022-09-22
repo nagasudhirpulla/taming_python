@@ -18,9 +18,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 * The services are also restarted in case of failure
 * The services can be easily managed using services.msc in windows
 * Command line output can be saved in log files as text
-* The generated logs can also be rotated based on time and log file size criteria  
+* The generated logs can also be rotated based on time and log file size criteria
+* nssm also has a graphical editor to manage services
 
-### Installing nssm in windows
+### Install nssm in windows
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
 * In the 'Path' system environment variable, add the path of nssm.exe, so that nssm.exe can be recognized in command line
 
@@ -170,5 +171,5 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDczNTY4MSwxMzE0NzUyNjldfQ==
+eyJoaXN0b3J5IjpbLTEzOTY4Mzg5NzQsMTMxNDc1MjY5XX0=
 -->
