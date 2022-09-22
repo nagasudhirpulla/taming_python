@@ -46,6 +46,9 @@ REM run_server.bat
 call python server.py
 ```
 
+### Step 2 : Create a batch file to run the batch file with nssm
+
+
 ### GET requests
 ```py
 from flask import Flask
@@ -192,5 +195,5 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODE4ODgxNywxMzE0NzUyNjldfQ==
+eyJoaXN0b3J5IjpbLTU4MjEwMDkwMSwxMzE0NzUyNjldfQ==
 -->
