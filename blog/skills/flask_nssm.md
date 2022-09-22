@@ -80,7 +80,13 @@ nssm edit my_flask_app
 * Open Services app or run "services.msc" to open the services app in windows
 * The service can be started and stopped in this application
 
-### sc command to manage service
+### sc command to manage services in command line
+* Delete a service - `sc delete my_flask_app`
+* Start a service - `sc start my_flask_app` 
+* Pause a service - `sc pause my_flask_app`
+* Stop
+
+sc stop svc_name
 
 ### GET requests
 ```py
@@ -228,7 +234,7 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MTQ5NzYyNCwzOTg1MjU4NTksLTE2OT
-UxNTU5MDUsLTQ4ODQ3MjE2MCwtOTI0MDUyMzcyLDEzMTQ3NTI2
-OV19
+eyJoaXN0b3J5IjpbLTE3ODEwMTA1NTYsMzk4NTI1ODU5LC0xNj
+k1MTU1OTA1LC00ODg0NzIxNjAsLTkyNDA1MjM3MiwxMzE0NzUy
+NjldfQ==
 -->
