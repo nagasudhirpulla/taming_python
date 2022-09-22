@@ -67,7 +67,8 @@ call nssm.exe set my_flask_app AppStderr "%cd%\logs\mis_dashboard.log"
 ```
 * `call nssm set my_flask_app AppRotateFiles 1` will enable log rotation
 * `call nssm set my_flask_app AppRotateOnline 1` will rotate log files even if application is running
-* `call nssm set my_flask_app AppRotateSeconds 86400` will rotate 
+* `call nssm set my_flask_app AppRotateSeconds 86400` will rotate log files after 86400 seconds (1 day)
+* `call nssm set my_flask_app AppRotateBytes 1048576` will rotate log files after log files reaches 1048576 bytes (1 MB) size
 
 
 ### GET requests
@@ -216,6 +217,6 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ2NzEwNiwtNDg4NDcyMTYwLC05MjQwNT
-IzNzIsMTMxNDc1MjY5XX0=
+eyJoaXN0b3J5IjpbLTE2OTUxNTU5MDUsLTQ4ODQ3MjE2MCwtOT
+I0MDUyMzcyLDEzMTQ3NTI2OV19
 -->
