@@ -53,6 +53,10 @@ call nssm.exe install my_flask_app "%cd%\run_server.bat"
 rem call nssm.exe edit my_flask_app
 call nssm.exe set my_flask_app AppStdout "%cd%\logs\mis_dashboard.log"
 call nssm.exe set my_flask_app AppStderr "%cd%\logs\mis_dashboard.log"
+nssm set my_flask_app AppRotateFiles 1
+nssm set my_flask_app AppRotateOnline 0
+nssm set my_flask_app AppRotateSeconds 86400
+nssm set my_flask_app AppRotateBytes 1048576
 call sc start my_flask_app
 ```
 
@@ -203,5 +207,6 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDA1MjM3MiwxMzE0NzUyNjldfQ==
+eyJoaXN0b3J5IjpbMTUzNDMyNDQwOCwtOTI0MDUyMzcyLDEzMT
+Q3NTI2OV19
 -->
