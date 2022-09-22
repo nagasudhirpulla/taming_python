@@ -72,6 +72,8 @@ Ensure there is a folder named 'logs' in the folder containing 'server.py' file.
 * `nssm set my_flask_app AppRotateBytes 1048576` will rotate log files after log files reaches 1048576 bytes (1 MB) size
 * `sc start my_flask_app` will start the background service
 
+![nssm_install_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/nssm_install_demo.png)
+
 ### Edit the service using nssm GUI
 ```bat
 nssm edit my_flask_app
@@ -96,7 +98,7 @@ nssm edit my_flask_app
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxMzkzMzQwLC0xNjU2NDI0NjgzLC01Mj
-E3MDg5NzEsMzk4NTI1ODU5LC0xNjk1MTU1OTA1LC00ODg0NzIx
-NjAsLTkyNDA1MjM3MiwxMzE0NzUyNjldfQ==
+eyJoaXN0b3J5IjpbMTQ3NjY5ODM0NCw0NzEzOTMzNDAsLTE2NT
+Y0MjQ2ODMsLTUyMTcwODk3MSwzOTg1MjU4NTksLTE2OTUxNTU5
+MDUsLTQ4ODQ3MjE2MCwtOTI0MDUyMzcyLDEzMTQ3NTI2OV19
 -->
