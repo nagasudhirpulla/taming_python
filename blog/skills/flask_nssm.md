@@ -14,10 +14,15 @@ Please make sure to have all the skills mentioned above to understand and execut
 * In this post we will learn how to run a flask server as a background service in windows using nssm
 
 ## What is nssm
-* nssm runs commands or batch files as background services in windows
+* nssm runs commands or batch files (in our case, the flask application) as background services in windows
 * The services are also restarted in case of failure
 * The services can be easily managed using services.msc in windows
-* Command line output can be saved in tetxlog files
+* Command line output can be saved in log files as text
+* The generated logs can also be rotated based on time and log file size criteria  
+
+### Installing nssm
+* Download nssm from https://nssm.cc/download
+* 
 
 ### GET requests
 ```py
@@ -165,5 +170,5 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Mzk3MTgwNiwxMzE0NzUyNjldfQ==
+eyJoaXN0b3J5IjpbMjEwMTkyNDI3NSwxMzE0NzUyNjldfQ==
 -->
