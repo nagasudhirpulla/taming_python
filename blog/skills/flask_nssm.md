@@ -73,7 +73,7 @@ nssm.exe set my_flask_app AppStderr "%cd%\logs\mis_dashboard.log"
 
 ### Edit the service using nssm GUI
 ```bat
-nssm edit 
+nssm edit my_flask_app
 ```
 
 ### GET requests
@@ -222,7 +222,7 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MzkwMjA4MSwzOTg1MjU4NTksLTE2OT
-UxNTU5MDUsLTQ4ODQ3MjE2MCwtOTI0MDUyMzcyLDEzMTQ3NTI2
-OV19
+eyJoaXN0b3J5IjpbLTIwMjg3NjI2MjEsMzk4NTI1ODU5LC0xNj
+k1MTU1OTA1LC00ODg0NzIxNjAsLTkyNDA1MjM3MiwxMzE0NzUy
+NjldfQ==
 -->
