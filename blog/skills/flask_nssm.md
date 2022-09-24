@@ -97,6 +97,10 @@ nssm edit my_flask_app
 `sc query my_flask_app`
 
 ![sc_query_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sc_query_demo.png)
+### Video
+The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oKciAtJTuSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## References
 * nssm usage guide - https://nssm.cc/usage
@@ -104,8 +108,8 @@ nssm edit my_flask_app
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQ1ODQ5NDgsNDcxMzkzMzQwLC0xNj
-U2NDI0NjgzLC01MjE3MDg5NzEsMzk4NTI1ODU5LC0xNjk1MTU1
-OTA1LC00ODg0NzIxNjAsLTkyNDA1MjM3MiwxMzE0NzUyNjldfQ
-==
+eyJoaXN0b3J5IjpbNjQxMjg1Mjk1LC0yMTQ0NTg0OTQ4LDQ3MT
+M5MzM0MCwtMTY1NjQyNDY4MywtNTIxNzA4OTcxLDM5ODUyNTg1
+OSwtMTY5NTE1NTkwNSwtNDg4NDcyMTYwLC05MjQwNTIzNzIsMT
+MxNDc1MjY5XX0=
 -->
