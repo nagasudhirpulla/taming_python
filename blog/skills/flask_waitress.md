@@ -18,7 +18,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Waitress supports multi-threading and sub-mounting of application to a URL prefix
 
 ## Why use waitress
-* The de
+* The default server of 
 
 ### Install nssm in windows
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
@@ -102,10 +102,9 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oKciAtJTuSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## References
-* nssm usage guide - https://nssm.cc/usage
-* nssm download link - https://nssm.cc/download
+* waitress documentation - https://docs.pylonsproject.org/projects/waitress/en/stable/index.html
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQ2NjY1MCw3ODg3ODkzMDNdfQ==
+eyJoaXN0b3J5IjpbMTkzMTUwMzQ4Nyw3ODg3ODkzMDNdfQ==
 -->
