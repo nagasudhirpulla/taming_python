@@ -96,15 +96,11 @@ nssm edit my_flask_app
 `sc query my_flask_app`
 
 ![sc_query_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sc_query_demo.png)
-### Video
-The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oKciAtJTuSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## References
 * waitress documentation - https://docs.pylonsproject.org/projects/waitress/en/stable/index.html
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NDk4MDAzNCw3ODg3ODkzMDNdfQ==
+eyJoaXN0b3J5IjpbNDA3MTUyNDgxLDc4ODc4OTMwM119
 -->
