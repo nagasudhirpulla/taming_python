@@ -10,15 +10,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* In this post we will learn how to use waitress as a WS for a flask application
+* In this post we will learn how to use waitress as a WSGI (Web Server Gateway Interface) for a flask application
 
-## What is nssm
-* nssm runs commands or batch files (in our case, the flask application) as background services in windows
-* The services are also restarted in case of failure
-* The services can be easily managed using services.msc in windows
-* Command line output can be saved in log files as text
-* The generated logs can also be rotated based on time and log file size criteria
-* nssm also has a graphical editor to manage it's services
+## What is Waitress
+* Waitress is a pure python WSGI (Web Server Gateway Interface) server
+* Waitress can run bo
 
 ### Install nssm in windows
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
@@ -107,5 +103,5 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI4Mjg5NzksNzg4Nzg5MzAzXX0=
+eyJoaXN0b3J5IjpbMTQwNDM5MjMwNSw3ODg3ODkzMDNdfQ==
 -->
