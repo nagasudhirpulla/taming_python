@@ -27,11 +27,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Waitress is just a python package
 * It can be installed in a python environment using `pip`
 ```bat
-python -
+python -m pip install waitress
 ```
-
-
-
 
 ### Install nssm in windows
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
@@ -115,6 +112,6 @@ nssm edit my_flask_app
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTIxNjMyNDIsLTE3MTcwMjYwMzMsNz
+eyJoaXN0b3J5IjpbLTE1Njk1Nzg2NjUsLTE3MTcwMjYwMzMsNz
 g4Nzg5MzAzXX0=
 -->
