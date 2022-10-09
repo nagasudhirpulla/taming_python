@@ -48,7 +48,7 @@ if __name__ == '__main__':
 
 ### sub-mounting application on a URL prefix
 * `url_prefix` option can be used in the `serve` function to sub-mount a flask application under a URL prefix
-* This option is generally used with reverse proxies so that multiple applications can be hosted under multiple url-prefixes
+* This option is generally used with reverse proxies so that multiple applications can be hosted under multiple URL prefixes
 ```py
 from flask import Flask
 from waitress import serve
@@ -126,7 +126,7 @@ nssm edit my_flask_app
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1OTY2MjkxMiwxNTY5ODc2OTg5LDE0OD
+eyJoaXN0b3J5IjpbLTkzOTM5MDk2MywxNTY5ODc2OTg5LDE0OD
 c2MTI5ODQsLTc0MDQxNzI5NywtMTU2OTU3ODY2NSwtMTcxNzAy
 NjAzMyw3ODg3ODkzMDNdfQ==
 -->
