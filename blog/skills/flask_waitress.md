@@ -103,8 +103,8 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 
 ## References
 * waitress documentation - https://docs.pylonsproject.org/projects/waitress/en/stable/index.html
-* Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
+* Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTUwMzQ4Nyw3ODg3ODkzMDNdfQ==
+eyJoaXN0b3J5IjpbLTM3NDk4MDAzNCw3ODg3ODkzMDNdfQ==
 -->
