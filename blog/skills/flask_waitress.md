@@ -3,7 +3,6 @@
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
-* [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
 
 
@@ -11,7 +10,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* In this post we will learn how to run a flask server as a background service in windows using nssm
+* In this post we will learn how to use waitress as a WS for a flask application
 
 ## What is nssm
 * nssm runs commands or batch files (in our case, the flask application) as background services in windows
@@ -108,5 +107,5 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4Nzg5MzAzXX0=
+eyJoaXN0b3J5IjpbLTEzNDI4Mjg5NzksNzg4Nzg5MzAzXX0=
 -->
