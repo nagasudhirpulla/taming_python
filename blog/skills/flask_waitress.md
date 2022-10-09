@@ -65,7 +65,24 @@ if __name__ == '__main__':
 ```
 
 ### switch between waitress and default server based on development environment
-```
+```py
+from flask import Flask
+from waitress import serve
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return 'Hello, World with waitress!!!'
+
+mode = "dev"
+
+if __name__ == '__main__':
+    if mode == "dev":
+        app.run(host='0.0.0.0', port=50100, debug=True)
+    else:
+        serve(app, host='0.0.0.0', port=50100, threads=1)
+
 ```
 
 
@@ -127,7 +144,7 @@ nssm edit my_flask_app
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgwMTc5MTUsMTU2OTg3Njk4OSwxNDg3Nj
-EyOTg0LC03NDA0MTcyOTcsLTE1Njk1Nzg2NjUsLTE3MTcwMjYw
-MzMsNzg4Nzg5MzAzXX0=
+eyJoaXN0b3J5IjpbLTYzMTUzNzE2OCw4ODAxNzkxNSwxNTY5OD
+c2OTg5LDE0ODc2MTI5ODQsLTc0MDQxNzI5NywtMTU2OTU3ODY2
+NSwtMTcxNzAyNjAzMyw3ODg3ODkzMDNdfQ==
 -->
