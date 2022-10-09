@@ -46,7 +46,7 @@ if __name__ == '__main__':
     serve(app, host='0.0.0.0', port=50100, threads=1)
 ```
 
-### Example Flask server with url_prefix
+### sub-mounting application on a url_prefix
 ```py
 from flask import Flask
 from waitress import serve
@@ -120,7 +120,7 @@ nssm edit my_flask_app
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTg3Njk4OSwxNDg3NjEyOTg0LC03ND
-A0MTcyOTcsLTE1Njk1Nzg2NjUsLTE3MTcwMjYwMzMsNzg4Nzg5
-MzAzXX0=
+eyJoaXN0b3J5IjpbMjUyMDIzNzE1LDE1Njk4NzY5ODksMTQ4Nz
+YxMjk4NCwtNzQwNDE3Mjk3LC0xNTY5NTc4NjY1LC0xNzE3MDI2
+MDMzLDc4ODc4OTMwM119
 -->
