@@ -53,7 +53,7 @@ from waitress import serve
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/hi')
 def index():
     return 'Hello, World!'
 
@@ -120,6 +120,7 @@ nssm edit my_flask_app
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NzYxMjk4NCwtNzQwNDE3Mjk3LC0xNT
-Y5NTc4NjY1LC0xNzE3MDI2MDMzLDc4ODc4OTMwM119
+eyJoaXN0b3J5IjpbLTE0MjM0NzUwMTUsMTQ4NzYxMjk4NCwtNz
+QwNDE3Mjk3LC0xNTY5NTc4NjY1LC0xNzE3MDI2MDMzLDc4ODc4
+OTMwM119
 -->
