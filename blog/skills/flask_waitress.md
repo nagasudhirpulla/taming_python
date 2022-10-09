@@ -61,6 +61,9 @@ if __name__ == '__main__':
     serve(app, host='0.0.0.0', port=50100, threads=1, url_prefix="/my-app")
 ```
 
+### switch between waitress and default server based on development environment
+``````
+
 
 ### Step 2 : Use nssm to run the batch file as a background service
 * Open a command prompt as an administrator. Change the directory of the command prompt to the directory where the 'run_server.bat' is present using 'cd' command.
@@ -120,7 +123,7 @@ nssm edit my_flask_app
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTQyNTg2OCwxNTY5ODc2OTg5LDE0OD
+eyJoaXN0b3J5IjpbLTUxMjU0NDY1OCwxNTY5ODc2OTg5LDE0OD
 c2MTI5ODQsLTc0MDQxNzI5NywtMTU2OTU3ODY2NSwtMTcxNzAy
 NjAzMyw3ODg3ODkzMDNdfQ==
 -->
