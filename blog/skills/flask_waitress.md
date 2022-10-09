@@ -18,8 +18,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ## What is Waitress
 * Waitress is a pure python WSGI (Web Server Gateway Interface) server
-* Waitress can run both on windows and linux
+* Waitress can run both on windows and Linux
 * Waitress supports multi-threading and sub-mounting of application on a URL prefix
+* Maximum number of parallel threads allowed can also be configured easily
+*  
 
 
 
@@ -106,5 +108,5 @@ nssm edit my_flask_app
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1Mzc2NTg5NCw3ODg3ODkzMDNdfQ==
+eyJoaXN0b3J5IjpbLTE3MTcwMjYwMzMsNzg4Nzg5MzAzXX0=
 -->
