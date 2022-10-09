@@ -40,7 +40,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Hello, World!'
+    return 'Hello, World with waitress!!!'
 
 if __name__ == '__main__':
     serve(app, host='0.0.0.0', port=50100, threads=1)
@@ -55,7 +55,7 @@ app = Flask(__name__)
 
 @app.route('/hi')
 def index():
-    return 'Hello, World!'
+    return 'Hello, World with waitress!!!'
 
 if __name__ == '__main__':
     serve(app, host='0.0.0.0', port=50100, threads=1, url_prefix="/my-app")
@@ -120,7 +120,7 @@ nssm edit my_flask_app
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjM0NzUwMTUsMTQ4NzYxMjk4NCwtNz
-QwNDE3Mjk3LC0xNTY5NTc4NjY1LC0xNzE3MDI2MDMzLDc4ODc4
-OTMwM119
+eyJoaXN0b3J5IjpbMTU2OTg3Njk4OSwxNDg3NjEyOTg0LC03ND
+A0MTcyOTcsLTE1Njk1Nzg2NjUsLTE3MTcwMjYwMzMsNzg4Nzg5
+MzAzXX0=
 -->
