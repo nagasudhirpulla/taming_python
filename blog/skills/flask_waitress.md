@@ -30,14 +30,12 @@ Please make sure to have all the skills mentioned above to understand and execut
 python -m pip install waitress
 ```
 
-### Install nssm in windows
-* Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
-* In the 'Path' system environment variable, add the path of nssm.exe, so that nssm.exe can be recognized in command line
-
 ## Example Flask server
 The following is an example flask server that we will run as a background service in windows
 ```py
 from flask import Flask
+from waitress import serve
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -45,7 +43,7 @@ def index():
     return 'Hello, World!'
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=50100, debug=True)
+    serve(app, host='0.0.0.0', port=50100, threads=1)
 ```
 
 ### Step 1 : Create a batch file to run the server
@@ -112,6 +110,6 @@ nssm edit my_flask_app
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njk1Nzg2NjUsLTE3MTcwMjYwMzMsNz
-g4Nzg5MzAzXX0=
+eyJoaXN0b3J5IjpbLTc0MDQxNzI5NywtMTU2OTU3ODY2NSwtMT
+cxNzAyNjAzMyw3ODg3ODkzMDNdfQ==
 -->
