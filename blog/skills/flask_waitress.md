@@ -1,4 +1,4 @@
-## Skill - Run a python Flask server with waitress as WSGI
+## Skill - Waitress as Flask server WSGI
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -90,8 +90,8 @@ if __name__ == '__main__':
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDg2MzAwNDYsLTYzMTUzNzE2OCw4OD
-AxNzkxNSwxNTY5ODc2OTg5LDE0ODc2MTI5ODQsLTc0MDQxNzI5
-NywtMTU2OTU3ODY2NSwtMTcxNzAyNjAzMyw3ODg3ODkzMDNdfQ
-==
+eyJoaXN0b3J5IjpbMTE5ODMwMjQ1NiwtMTc0ODYzMDA0NiwtNj
+MxNTM3MTY4LDg4MDE3OTE1LDE1Njk4NzY5ODksMTQ4NzYxMjk4
+NCwtNzQwNDE3Mjk3LC0xNTY5NTc4NjY1LC0xNzE3MDI2MDMzLD
+c4ODc4OTMwM119
 -->
