@@ -4,6 +4,7 @@
 
 #### Skills Required
 * [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
+* [Sub mounting a flask application under a URL prefix](https://nagasudhir.blogspot.com/2022/08/sub-mounting-flask-application-under.html)
 
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
@@ -120,7 +121,7 @@ nssm edit my_flask_app
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwNzkzMDAsMTU2OTg3Njk4OSwxNDg3Nj
-EyOTg0LC03NDA0MTcyOTcsLTE1Njk1Nzg2NjUsLTE3MTcwMjYw
-MzMsNzg4Nzg5MzAzXX0=
+eyJoaXN0b3J5IjpbODQ3Mzk1Njc4LDE1Njk4NzY5ODksMTQ4Nz
+YxMjk4NCwtNzQwNDE3Mjk3LC0xNTY5NTc4NjY1LC0xNzE3MDI2
+MDMzLDc4ODc4OTMwM119
 -->
