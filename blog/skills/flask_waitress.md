@@ -12,14 +12,17 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 * In this post we will learn how to use waitress as a WSGI (Web Server Gateway Interface) for a flask application
 
-## What is Waitress
-* Waitress is a pure python WSGI (Web Server Gateway Interface) server
-* Waitress can run both on windows and linux
-* Waitress supports multi-threading and sub-mounting of application to a URL prefix
-
 ## Why use waitress
 * The default flask server is not meant for production deployment since it is single-threaded and not highly secure
 * Waitress is meant to be a production-quality pure-Python WSGI server with very acceptable performance
+
+## What is Waitress
+* Waitress is a pure python WSGI (Web Server Gateway Interface) server
+* Waitress can run both on windows and linux
+* Waitress supports multi-threading and sub-mounting of application on a URL prefix
+
+
+
 
 ### Install nssm in windows
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
@@ -103,5 +106,5 @@ nssm edit my_flask_app
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1MzIzMzkwLDc4ODc4OTMwM119
+eyJoaXN0b3J5IjpbLTk1Mzc2NTg5NCw3ODg3ODkzMDNdfQ==
 -->
