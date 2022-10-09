@@ -14,7 +14,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ## What is Waitress
 * Waitress is a pure python WSGI (Web Server Gateway Interface) server
-* Waitress can run bo
+* Waitress can run both on windows and linux
+* Waitress supports multi-threading and sub-mounting of application to a URL prefix
+
+## Why use waitress
+* The de
 
 ### Install nssm in windows
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
@@ -103,5 +107,5 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDM5MjMwNSw3ODg3ODkzMDNdfQ==
+eyJoaXN0b3J5IjpbLTExOTQ2NjY1MCw3ODg3ODkzMDNdfQ==
 -->
