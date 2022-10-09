@@ -31,7 +31,7 @@ python -m pip install waitress
 ```
 
 ## Example Flask server
-The following is an example flask server that we will run as a background service in windows
+The following is an example flask server that uses waitress as a WSGI
 ```py
 from flask import Flask
 from waitress import serve
@@ -46,11 +46,21 @@ if __name__ == '__main__':
     serve(app, host='0.0.0.0', port=50100, threads=1)
 ```
 
-### Step 1 : Create a batch file to run the server
-* Create a batch file say `run_server.bat` that will run the python server in a command line. You can check by running the batch file. Keep the batch file in the same folder as the 'server.py' file.
-```bat
-call python server.py
+### Example Flask server with url_prefix
+```py
+from flask import Flask
+from waitress import serve
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return 'Hello, World!'
+
+if __name__ == '__main__':
+    serve(app, host='0.0.0.0', port=50100, threads=1)
 ```
+
 
 ### Step 2 : Use nssm to run the batch file as a background service
 * Open a command prompt as an administrator. Change the directory of the command prompt to the directory where the 'run_server.bat' is present using 'cd' command.
@@ -110,6 +120,6 @@ nssm edit my_flask_app
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDQxNzI5NywtMTU2OTU3ODY2NSwtMT
-cxNzAyNjAzMyw3ODg3ODkzMDNdfQ==
+eyJoaXN0b3J5IjpbLTMyNDc0Mjg4LC03NDA0MTcyOTcsLTE1Nj
+k1Nzg2NjUsLTE3MTcwMjYwMzMsNzg4Nzg5MzAzXX0=
 -->
