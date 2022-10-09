@@ -1,5 +1,4 @@
-
-## Skill - Run a python Flask server as a windows background service using nssm
+## Skill - Run a python Flask server with waitress as WSGI
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -109,5 +108,5 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxMzg4ODY1XX0=
+eyJoaXN0b3J5IjpbNzg4Nzg5MzAzXX0=
 -->
