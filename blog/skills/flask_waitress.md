@@ -21,7 +21,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Waitress can run both on windows and Linux
 * Waitress supports multi-threading and sub-mounting of application on a URL prefix
 * Maximum number of parallel threads allowed can also be configured easily
-*  
+* Wai
 
 
 
@@ -108,5 +108,6 @@ nssm edit my_flask_app
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTcwMjYwMzMsNzg4Nzg5MzAzXX0=
+eyJoaXN0b3J5IjpbLTE4MzQ5MDc3MzAsLTE3MTcwMjYwMzMsNz
+g4Nzg5MzAzXX0=
 -->
