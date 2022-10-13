@@ -88,7 +88,7 @@ if __name__ == '__main__':
 ### Video
 The video for this post can be seen [here](https://youtu.be/tovsUQu6kBU)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j5IQI4aW9ZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tovsUQu6kBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## References
@@ -96,8 +96,8 @@ The video for this post can be seen [here](https://youtu.be/tovsUQu6kBU)
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjQ4NzA0MzQsMTE5ODMwMjQ1NiwtMT
-c0ODYzMDA0NiwtNjMxNTM3MTY4LDg4MDE3OTE1LDE1Njk4NzY5
-ODksMTQ4NzYxMjk4NCwtNzQwNDE3Mjk3LC0xNTY5NTc4NjY1LC
-0xNzE3MDI2MDMzLDc4ODc4OTMwM119
+eyJoaXN0b3J5IjpbLTU3ODM2MDA4OSwxMTk4MzAyNDU2LC0xNz
+Q4NjMwMDQ2LC02MzE1MzcxNjgsODgwMTc5MTUsMTU2OTg3Njk4
+OSwxNDg3NjEyOTg0LC03NDA0MTcyOTcsLTE1Njk1Nzg2NjUsLT
+E3MTcwMjYwMzMsNzg4Nzg5MzAzXX0=
 -->
