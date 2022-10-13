@@ -85,13 +85,19 @@ if __name__ == '__main__':
 
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/tovsUQu6kBU)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j5IQI4aW9ZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## References
 * waitress documentation - https://docs.pylonsproject.org/projects/waitress/en/stable/index.html
 * Flask quick-start guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5ODMwMjQ1NiwtMTc0ODYzMDA0NiwtNj
-MxNTM3MTY4LDg4MDE3OTE1LDE1Njk4NzY5ODksMTQ4NzYxMjk4
-NCwtNzQwNDE3Mjk3LC0xNTY5NTc4NjY1LC0xNzE3MDI2MDMzLD
-c4ODc4OTMwM119
+eyJoaXN0b3J5IjpbLTE0NjQ4NzA0MzQsMTE5ODMwMjQ1NiwtMT
+c0ODYzMDA0NiwtNjMxNTM3MTY4LDg4MDE3OTE1LDE1Njk4NzY5
+ODksMTQ4NzYxMjk4NCwtNzQwNDE3Mjk3LC0xNTY5NTc4NjY1LC
+0xNzE3MDI2MDMzLDc4ODc4OTMwM119
 -->
