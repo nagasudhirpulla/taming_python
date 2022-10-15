@@ -18,7 +18,16 @@ Please make sure to have all the skills mentioned above to understand and execut
 ## What is IIS
 * Internet Information Services (IIS) is a general purpose web server in windows for hosting web applications
 * It is a production ready web server with good security, stability and many configuration options
-* IIS can be used for hosting public facing web applications due to its stability and security
+
+## Why use IIS as reverse proxy
+- Hosting a python flask server directly to the internet is not generally practiced  
+- Flask server should be generally hosted behind a robust reverse proxy  
+server like Nginx or IIS (Internet Information Services)  
+- Since IIS is the go to hosting solution for windows server, this  
+approach is a more useful and a practical implementation of flask  
+server hosting  in windows  
+- Moreover IIS has a very handy and powerful user interface to control  
+the hosting of web applications
 
 ### Enabling IIS in windows
 -   In windows search for “Turn Windows features On or Off”
@@ -122,6 +131,6 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTQxMzA2NSwxNTM1NjQ4NjIzLDU2ND
-Y0OTY0NiwtODgwNDE1NDkyXX0=
+eyJoaXN0b3J5IjpbNDA3NjU1NTMzLDE1MzU2NDg2MjMsNTY0Nj
+Q5NjQ2LC04ODA0MTU0OTJdfQ==
 -->
