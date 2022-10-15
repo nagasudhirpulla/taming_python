@@ -15,13 +15,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 * In this post we will learn how to run a flask server behind IIS acting as a reverse proxy for the flask application
 
-## What is nssm
-* nssm runs commands or batch files (in our case, the flask application) as background services in windows
-* The services are also restarted in case of failure
-* The services can be easily managed using services.msc in windows
-* Command line output can be saved in log files as text
-* The generated logs can also be rotated based on time and log file size criteria
-* nssm also has a graphical editor to manage it's services
+## What is IIS
+* 
 
 ### Install nssm in windows
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
@@ -110,5 +105,5 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDY5ODkyXX0=
+eyJoaXN0b3J5IjpbLTExODcxNTM5MzldfQ==
 -->
