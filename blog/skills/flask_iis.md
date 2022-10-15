@@ -89,6 +89,12 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 - Click Add Rule(s) link in the right pane  
 - Select Blank rule under Inbound rules
 
+### Step 4 (Optional)  -  Allow  HTTP_X_ORIGINAL_HOST server variable
+Using a reverse proxy will modify the request headers originating from the end-user's  
+- Double click URL rewrite icon in Default  Website  
+- Click on View Server Variables in the right-hand pane  
+- Add  HTTP_X_ORIGINAL_HOST to the allowed server variables
+
 ### Install nssm in windows
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
 * In the 'Path' system environment variable, add the path of nssm.exe, so that nssm.exe can be recognized in command line
@@ -163,6 +169,6 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDI1NDA2MzcsMTUzNTY0ODYyMyw1Nj
-Q2NDk2NDYsLTg4MDQxNTQ5Ml19
+eyJoaXN0b3J5IjpbMjIzNzc4MjQyLDE1MzU2NDg2MjMsNTY0Nj
+Q5NjQ2LC04ODA0MTU0OTJdfQ==
 -->
