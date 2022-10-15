@@ -63,7 +63,7 @@ hostedApp.wsgi_app = DispatcherMiddleware(NotFound(), {
 # run the server
 hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 ```
-* 
+* Notice that the flask application is sub-mounted under the URL prefix '/myapp' . Visit this blogpost to understand more on how to sub-mount 
 
 ### Step 1 - Installing the url-rewrite and ARR modules in IIS
 * url-rewrite module of IIS can be downloaded and installed from from https://www.iis.net/downloads/microsoft/url-rewrite . Web platform installer in IIS can also be used to install url-rewrite module in IIS
@@ -167,6 +167,6 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4Nzc3NDkwLDE1MzU2NDg2MjMsNTY0Nj
-Q5NjQ2LC04ODA0MTU0OTJdfQ==
+eyJoaXN0b3J5IjpbLTE0MzE5MzE2OTksMTUzNTY0ODYyMyw1Nj
+Q2NDk2NDYsLTg4MDQxNTQ5Ml19
 -->
