@@ -33,7 +33,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ## Architecture
 * The data flow to the flask application can be as shown below
-* The flask application can be a windows background service or a normal process running in command prompt. See [this post](https://nagasudhir.blogspot.com/2022/09/run-python-flask-server-as-windows.html) to understand how to run a flask application as a windows background service
+* The flask application can be a windows background service or a normal process running in command prompt.
 ![flask_IIS_reverse_proxy_arch.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/flask_IIS_reverse_proxy_arch.png)
 ## Example Flask server
 * Let us create a simple flask server for this example
@@ -67,7 +67,8 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 * Also consider using waitress for running the application in production. Visit [this blog post](https://nagasudhir.blogspot.com/2022/10/waitress-as-flask-server-wsgi.html) to understand how to use waitress as WSGI for a flask application
 
 ### Running the flask server
-* You can run the flask server in command line using the command `python`
+* You can run the flask server in command line using the command `python server.py`
+* You can also use nssm to run the flask server as a windows background service. Read [this blog post](https://nagasudhir.blogspot.com/2022/09/run-python-flask-server-as-windows.html) for more information on this
 
 ### Step 1 - Installing the url-rewrite and ARR modules in IIS
 * url-rewrite module of IIS can be downloaded and installed from from https://www.iis.net/downloads/microsoft/url-rewrite . Web platform installer in IIS can also be used to install url-rewrite module in IIS
@@ -158,6 +159,6 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTI2NjMyMywxNTM1NjQ4NjIzLDU2ND
-Y0OTY0NiwtODgwNDE1NDkyXX0=
+eyJoaXN0b3J5IjpbLTE0Mjc0MTY0MDcsMTUzNTY0ODYyMyw1Nj
+Q2NDk2NDYsLTg4MDQxNTQ5Ml19
 -->
