@@ -64,7 +64,10 @@ hostedApp.wsgi_app = DispatcherMiddleware(NotFound(), {
 hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 ```
 * Notice that the flask application is sub-mounted under the URL prefix '/myapp' . Visit [this blog post](https://nagasudhir.blogspot.com/2022/08/sub-mounting-flask-application-under.html) to understand more on how to sub-mount a flask application under a URL-prefix 
-* Also consider using waitress for running the application in production. Visit [this blog post]() to understand how to use waitress as WSGI for a 
+* Also consider using waitress for running the application in production. Visit [this blog post](https://nagasudhir.blogspot.com/2022/10/waitress-as-flask-server-wsgi.html) to understand how to use waitress as WSGI for a flask application
+
+### Running the flask server
+* You can run the flask server in command line using the command `python`
 
 ### Step 1 - Installing the url-rewrite and ARR modules in IIS
 * url-rewrite module of IIS can be downloaded and installed from from https://www.iis.net/downloads/microsoft/url-rewrite . Web platform installer in IIS can also be used to install url-rewrite module in IIS
@@ -85,19 +88,6 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
 * In the 'Path' system environment variable, add the path of nssm.exe, so that nssm.exe can be recognized in command line
 
-## Example Flask server
-The following is an example flask server that we will run as a background service in windows
-```py
-from flask import Flask
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return 'Hello, World!'
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=50100, debug=True)
-```
 
 ### Step 1 : Create a batch file to run the server
 * Create a batch file say `run_server.bat` that will run the python server in a command line. You can check by running the batch file. Keep the batch file in the same folder as the 'server.py' file.
@@ -168,6 +158,6 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0MjE2OTA3LDE1MzU2NDg2MjMsNTY0Nj
-Q5NjQ2LC04ODA0MTU0OTJdfQ==
+eyJoaXN0b3J5IjpbMTUzOTI2NjMyMywxNTM1NjQ4NjIzLDU2ND
+Y0OTY0NiwtODgwNDE1NDkyXX0=
 -->
