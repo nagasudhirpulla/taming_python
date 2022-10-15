@@ -22,7 +22,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ## Enabling IIS in windows
 -   In windows search for “Turn Windows features On or Off”
--   Under the “Internet Information Services” section, make sure that and “IIS Management Console” are enabled
+-   Under the “Internet Information Services” section, make sure that “IIS Management Console” and default options under "World Wide Web Services" are enabled
 
 ### Install nssm in windows
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
@@ -111,5 +111,5 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDU0NTIwMTMsLTg4MDQxNTQ5Ml19
+eyJoaXN0b3J5IjpbMTMxODMwNDUsLTg4MDQxNTQ5Ml19
 -->
