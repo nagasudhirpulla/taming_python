@@ -21,7 +21,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * It is a production ready web server with good security, stability and many configuration options
 
 ## Why use IIS as reverse proxy
-- Hosting a python flask server directly to the internet is not generally practiced  
+- Hosting a python flask server directly to the clients / internet is not generally practiced  
 - Flask server should be generally hosted behind a robust reverse proxy server like Nginx or IIS (Internet Information Services)
 - SSL certificate management will be very easy with IIS and need not be handled in the flask application
 - Since IIS is the go to hosting solution for windows server, this approach is a more useful and a practical implementation of flask server hosting  in windows  
@@ -108,8 +108,8 @@ Using a reverse proxy will modify the request headers originating from the end-u
 * IIS url-rewrite module download link - https://www.iis.net/downloads/microsoft/url-rewrite
 * IIS ARR (Application Request Routing) module download link - https://www.iis.net/downloads/microsoft/application-request-routing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDIwNTY0NjMsMTY3MzQ1ODk1NSw5Mz
-M5OTYxNDUsLTcxNzMxOTkxNiwtNzkzMjIxNDcsMTQ3OTI5NjQy
-NSwtMjYzMjA1MzMwLDE1MzU2NDg2MjMsNTY0NjQ5NjQ2LC04OD
-A0MTU0OTJdfQ==
+eyJoaXN0b3J5IjpbNTA2ODA4MDI2LC0xMjAyMDU2NDYzLDE2Nz
+M0NTg5NTUsOTMzOTk2MTQ1LC03MTczMTk5MTYsLTc5MzIyMTQ3
+LDE0NzkyOTY0MjUsLTI2MzIwNTMzMCwxNTM1NjQ4NjIzLDU2ND
+Y0OTY0NiwtODgwNDE1NDkyXX0=
 -->
