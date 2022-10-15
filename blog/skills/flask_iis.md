@@ -105,10 +105,11 @@ Using a reverse proxy will modify the request headers originating from the end-u
 
 ## References
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
-* url-rewrite module download link - https://www.iis.net/downloads/microsoft/url-rewrite
-* ARR (Application Request Routing) module download link - https://www.iis.net/downloads/microsoft/application-request-routing
+* IIS url-rewrite module download link - https://www.iis.net/downloads/microsoft/url-rewrite
+* IIS ARR (Application Request Routing) module download link - https://www.iis.net/downloads/microsoft/application-request-routing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzQ1ODk1NSw5MzM5OTYxNDUsLTcxNz
-MxOTkxNiwtNzkzMjIxNDcsMTQ3OTI5NjQyNSwtMjYzMjA1MzMw
-LDE1MzU2NDg2MjMsNTY0NjQ5NjQ2LC04ODA0MTU0OTJdfQ==
+eyJoaXN0b3J5IjpbLTEyMDIwNTY0NjMsMTY3MzQ1ODk1NSw5Mz
+M5OTYxNDUsLTcxNzMxOTkxNiwtNzkzMjIxNDcsMTQ3OTI5NjQy
+NSwtMjYzMjA1MzMwLDE1MzU2NDg2MjMsNTY0NjQ5NjQ2LC04OD
+A0MTU0OTJdfQ==
 -->
