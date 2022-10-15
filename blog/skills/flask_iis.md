@@ -89,8 +89,8 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 - Click Add Rule(s) link in the right pane  
 - Select Blank rule under Inbound rules
 
-### Step 4 (Optional)  -  Allow  HTTP_X_ORIGINAL_HOST server variable
-Using a reverse proxy will modify the request headers originating from the end-user's browser. Hence the HTTP header `host` will not be known to the flask application. So using the below steps we can send a new HTTP header named `HTTP_X_ORIGINAL_HOST` to send original host header to flask application  
+### Step 4 (Optional)  -  Add HTTP_X_ORIGINAL_HOST server variable
+Using a reverse proxy will modify the request headers originating from the end-user's browser. Hence the HTTP header `host` will not be known to the flask application. So using the below steps we can send a new HTTP header named `HTTP_X_ORIGINAL_HOST` to send original host header to flask application from the end user
 - Double click URL rewrite icon in Default  Website  
 - Click on View Server Variables in the right-hand pane  
 - Add  HTTP_X_ORIGINAL_HOST to the allowed server variables
@@ -169,6 +169,6 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzIwNTMzMCwxNTM1NjQ4NjIzLDU2ND
-Y0OTY0NiwtODgwNDE1NDkyXX0=
+eyJoaXN0b3J5IjpbLTE5NzkwMDMyNzksLTI2MzIwNTMzMCwxNT
+M1NjQ4NjIzLDU2NDY0OTY0NiwtODgwNDE1NDkyXX0=
 -->
