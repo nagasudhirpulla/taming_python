@@ -39,19 +39,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * Create a `server.py` file that acts as a flask server
 ```py
 # server.py  
-from flask import Flask  
-from  werkzeug.middleware.dispatcher  import  DispatcherMiddleware  
 
-app = Flask(__name__)  
-
-@app.route('/')  
-def  index():  
-	return 'hello world!!!'  
-hostedApp  = Flask(__name__)  
-cast(Any,  hostedApp).wsgi_app  =  DispatcherMiddleware(NotFound(), {  
-'mis_dashboard': app  
-})  
-hostedApp.run(host='localhost', port=8080, debug=True)
 ```
 
 ### Step 1 - Installing the url-rewrite and ARR modules in IIS
@@ -156,6 +144,6 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ2MTE5MTcsMTUzNTY0ODYyMyw1Nj
+eyJoaXN0b3J5IjpbLTEyMjU4MjQxODMsMTUzNTY0ODYyMyw1Nj
 Q2NDk2NDYsLTg4MDQxNTQ5Ml19
 -->
