@@ -27,7 +27,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 ## Installing the url-rewrite and ARR modules in IIS
 * url-rewrite module of IIS can be downloaded and installed from from https://www.iis.net/downloads/microsoft/url-rewrite . Web platform installer in IIS can also be used to install url-rewrite module in IIS
 * ARR (Application Request Routing) module can be downloaded and installed in IIS from https://www.iis.net/downloads/microsoft/application-request-routing . Web platform installer in IIS can also be used to install ARR module in IIS
-* url-rewrite and ARR modules are required in IIS to create
+* url-rewrite and ARR modules are required in IIS to serve as a reverse proxy for a flask application
+
 
 
 ### Install nssm in windows
@@ -117,5 +118,5 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjEyNDczMSwtODgwNDE1NDkyXX0=
+eyJoaXN0b3J5IjpbNTY0NjQ5NjQ2LC04ODA0MTU0OTJdfQ==
 -->
