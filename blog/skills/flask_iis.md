@@ -33,6 +33,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 * The data flow to the flask application can be as shown below
 * The flask application can be a windows background service or a normal process running in command prompt. See [this post](https://nagasudhir.blogspot.com/2022/09/run-python-flask-server-as-windows.html) to understand how to run a flask application as a windows background service
 ![flask_IIS_reverse_proxy_arch.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/flask_IIS_reverse_proxy_arch.png)
+## Example Flask server
+* Let us create a simple flask server for this example
+* 
+
 ### Step 1 - Installing the url-rewrite and ARR modules in IIS
 * url-rewrite module of IIS can be downloaded and installed from from https://www.iis.net/downloads/microsoft/url-rewrite . Web platform installer in IIS can also be used to install url-rewrite module in IIS
 * ARR (Application Request Routing) module can be downloaded and installed in IIS from https://www.iis.net/downloads/microsoft/application-request-routing . Web platform installer in IIS can also be used to install ARR module in IIS
@@ -44,6 +48,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 - Click  the Server Proxy Settings action on the right-hand pane
 - Select  the Enable proxy checkbox so that it is enabled
 - Click  Apply and proceed with the URL Rewriting configuration
+
+### Step 3 - URL rewriting
+
 
 ### Install nssm in windows
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
@@ -132,6 +139,6 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI5MjA0MDk4LDE1MzU2NDg2MjMsNTY0Nj
-Q5NjQ2LC04ODA0MTU0OTJdfQ==
+eyJoaXN0b3J5IjpbMTc0OTU3NjUzNiwxNTM1NjQ4NjIzLDU2ND
+Y0OTY0NiwtODgwNDE1NDkyXX0=
 -->
