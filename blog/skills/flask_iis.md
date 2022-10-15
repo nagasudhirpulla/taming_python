@@ -95,6 +95,8 @@ Using a reverse proxy will modify the request headers originating from the end-u
 - Click on View Server Variables in the right-hand pane  
 - Add  HTTP_X_ORIGINAL_HOST to the allowed server variables
 
+### Step 5 (Optional) - Enable Preserve Host headers option
+
 ### Install nssm in windows
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
 * In the 'Path' system environment variable, add the path of nssm.exe, so that nssm.exe can be recognized in command line
@@ -169,6 +171,6 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzkwMDMyNzksLTI2MzIwNTMzMCwxNT
-M1NjQ4NjIzLDU2NDY0OTY0NiwtODgwNDE1NDkyXX0=
+eyJoaXN0b3J5IjpbMTQ3OTI5NjQyNSwtMjYzMjA1MzMwLDE1Mz
+U2NDg2MjMsNTY0NjQ5NjQ2LC04ODA0MTU0OTJdfQ==
 -->
