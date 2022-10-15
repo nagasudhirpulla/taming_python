@@ -85,7 +85,8 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 - Click  Apply and proceed with the URL Rewriting configuration
 
 ### Step 3 - URL rewriting
-This url-rewrite rule forwards the request from IIS to the flask application hosted at localhost:50100 if the URL starts with '/myapp'
+This url-rewrite rule forwards the request from IIS to the flask application hosted at localhost:50100 if the request URL starts with '/myapp'
+
 - Double click URL rewrite icon in Default Website  
 - Click Add Rule(s) link in the right pane  
 - Select Blank rule under Inbound rules
@@ -108,8 +109,8 @@ Using a reverse proxy will modify the request headers originating from the end-u
 * IIS url-rewrite module download link - https://www.iis.net/downloads/microsoft/url-rewrite
 * IIS ARR (Application Request Routing) module download link - https://www.iis.net/downloads/microsoft/application-request-routing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQwNzIzMDAsLTkzNDAyNzM0NywtMT
-IwMjA1NjQ2MywxNjczNDU4OTU1LDkzMzk5NjE0NSwtNzE3MzE5
-OTE2LC03OTMyMjE0NywxNDc5Mjk2NDI1LC0yNjMyMDUzMzAsMT
-UzNTY0ODYyMyw1NjQ2NDk2NDYsLTg4MDQxNTQ5Ml19
+eyJoaXN0b3J5IjpbODUyMTQxMDc5LC05MzQwMjczNDcsLTEyMD
+IwNTY0NjMsMTY3MzQ1ODk1NSw5MzM5OTYxNDUsLTcxNzMxOTkx
+NiwtNzkzMjIxNDcsMTQ3OTI5NjQyNSwtMjYzMjA1MzMwLDE1Mz
+U2NDg2MjMsNTY0NjQ5NjQ2LC04ODA0MTU0OTJdfQ==
 -->
