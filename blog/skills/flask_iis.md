@@ -20,6 +20,10 @@ Please make sure to have all the skills mentioned above to understand and execut
 * It is a production ready web server with good security, stability and many configuration options
 * IIS can be used for hosting public facing web applications due to its stability and security
 
+## Enabling IIS in windows
+-   In windows search for “Turn Windows features On or Off”
+-   Under the “Internet Information Services” section, make sure that and “IIS Management Console” are enabled
+
 ### Install nssm in windows
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
 * In the 'Path' system environment variable, add the path of nssm.exe, so that nssm.exe can be recognized in command line
@@ -107,5 +111,5 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDQxNTQ5Ml19
+eyJoaXN0b3J5IjpbLTE0NDU0NTIwMTMsLTg4MDQxNTQ5Ml19
 -->
