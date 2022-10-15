@@ -5,6 +5,7 @@
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
+* [Sub mounting a flask application under a URL prefix](https://nagasudhir.blogspot.com/2022/08/sub-mounting-flask-application-under.html)
 * [Run a python Flask server as a windows background service using nssm](https://nagasudhir.blogspot.com/2022/09/run-python-flask-server-as-windows.html)
 * [Waitress as Flask server WSGI](https://nagasudhir.blogspot.com/2022/10/waitress-as-flask-server-wsgi.html)
 
@@ -62,6 +63,7 @@ hostedApp.wsgi_app = DispatcherMiddleware(NotFound(), {
 # run the server
 hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 ```
+* 
 
 ### Step 1 - Installing the url-rewrite and ARR modules in IIS
 * url-rewrite module of IIS can be downloaded and installed from from https://www.iis.net/downloads/microsoft/url-rewrite . Web platform installer in IIS can also be used to install url-rewrite module in IIS
@@ -165,6 +167,6 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDI1OTc3NiwxNTM1NjQ4NjIzLDU2ND
-Y0OTY0NiwtODgwNDE1NDkyXX0=
+eyJoaXN0b3J5IjpbNDE4Nzc3NDkwLDE1MzU2NDg2MjMsNTY0Nj
+Q5NjQ2LC04ODA0MTU0OTJdfQ==
 -->
