@@ -25,7 +25,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 -   Under the “Internet Information Services” section, make sure that “IIS Management Console” and default options under "World Wide Web Services" are enabled
 
 ## Installing the url-rewrite and ARR modules in IIS
-* 
+* url-rewrite module of IIS can be downloaded and installed from from https://www.iis.net/downloads/microsoft/url-rewrite . Web platform installer in IIS can also be used to easily install url-rewrite module in IIS
 
 ### Install nssm in windows
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
@@ -114,5 +114,5 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3NzUxMDQzLC04ODA0MTU0OTJdfQ==
+eyJoaXN0b3J5IjpbMTUyNTI4MDMxOSwtODgwNDE1NDkyXX0=
 -->
