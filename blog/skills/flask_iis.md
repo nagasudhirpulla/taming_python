@@ -85,14 +85,14 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 - Click  Apply and proceed with the URL Rewriting configuration
 
 ### Step 3 - URL rewriting
+This url-rewrite rule forwards the request from IIS to the flask application hosted at localhost:50100 if the URL starts with '/myapp'
 - Double click URL rewrite icon in Default Website  
 - Click Add Rule(s) link in the right pane  
 - Select Blank rule under Inbound rules
 - Create a rule as shown in the image below
 
 ![flask_iis_url_rewrite.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/flask_iis_url_rewrite.png)
-- Server variables section in the above settings should not be set if Step 4 is not done.
-- This above rule forwards the request from IIS to flask application hosted at localhost:50100 if the url starts with '/myapp'
+- Server variables section in the above settings should not be set if Step 4 is not done
 
 ### Step 4 (Optional)  -  Add HTTP_X_ORIGINAL_HOST server variable
 Using a reverse proxy will modify the request headers originating from the end-user's browser. Hence the HTTP header `host` will not be known to the flask application. So using the below steps we can send a new HTTP header named `HTTP_X_ORIGINAL_HOST` to send original host header to flask application from the end user
@@ -108,8 +108,8 @@ Using a reverse proxy will modify the request headers originating from the end-u
 * IIS url-rewrite module download link - https://www.iis.net/downloads/microsoft/url-rewrite
 * IIS ARR (Application Request Routing) module download link - https://www.iis.net/downloads/microsoft/application-request-routing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDAyNzM0NywtMTIwMjA1NjQ2MywxNj
-czNDU4OTU1LDkzMzk5NjE0NSwtNzE3MzE5OTE2LC03OTMyMjE0
-NywxNDc5Mjk2NDI1LC0yNjMyMDUzMzAsMTUzNTY0ODYyMyw1Nj
-Q2NDk2NDYsLTg4MDQxNTQ5Ml19
+eyJoaXN0b3J5IjpbLTEzNTQwNzIzMDAsLTkzNDAyNzM0NywtMT
+IwMjA1NjQ2MywxNjczNDU4OTU1LDkzMzk5NjE0NSwtNzE3MzE5
+OTE2LC03OTMyMjE0NywxNDc5Mjk2NDI1LC0yNjMyMDUzMzAsMT
+UzNTY0ODYyMyw1NjQ2NDk2NDYsLTg4MDQxNTQ5Ml19
 -->
