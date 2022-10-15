@@ -99,15 +99,14 @@ Using a reverse proxy will modify the request headers originating from the end-u
 - Click on View Server Variables in the right-hand pane  
 - Add  HTTP_X_ORIGINAL_HOST to the allowed server variables
 
-
+## Conclusion
+* By following the above steps, IIS can be used as a reverse proxy for the flask application  
 
 ## References
-* nssm usage guide - https://nssm.cc/usage
-* nssm download link - https://nssm.cc/download
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzMxOTkxNiwtNzkzMjIxNDcsMTQ3OT
-I5NjQyNSwtMjYzMjA1MzMwLDE1MzU2NDg2MjMsNTY0NjQ5NjQ2
-LC04ODA0MTU0OTJdfQ==
+eyJoaXN0b3J5IjpbMjEwODMxOTAyNywtNzE3MzE5OTE2LC03OT
+MyMjE0NywxNDc5Mjk2NDI1LC0yNjMyMDUzMzAsMTUzNTY0ODYy
+Myw1NjQ2NDk2NDYsLTg4MDQxNTQ5Ml19
 -->
