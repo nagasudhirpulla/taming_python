@@ -29,6 +29,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 * ARR (Application Request Routing) module can be downloaded and installed in IIS from https://www.iis.net/downloads/microsoft/application-request-routing . Web platform installer in IIS can also be used to install ARR module in IIS
 * url-rewrite and ARR modules are required in IIS to serve as a reverse proxy for a flask application
 
+### Architecture
+* The data flow to the flask application can be as shown below
+* The flask application can be a windows background service or a normal process running in command prompt. STo lear
 ![flask_IIS_reverse_proxy_arch.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/flask_IIS_reverse_proxy_arch.png)
 
 
@@ -119,6 +122,6 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNTY0ODYyMyw1NjQ2NDk2NDYsLTg4MD
-QxNTQ5Ml19
+eyJoaXN0b3J5IjpbNDU1Mzc2MTkxLDE1MzU2NDg2MjMsNTY0Nj
+Q5NjQ2LC04ODA0MTU0OTJdfQ==
 -->
