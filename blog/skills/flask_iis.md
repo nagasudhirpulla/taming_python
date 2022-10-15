@@ -36,7 +36,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 ![flask_IIS_reverse_proxy_arch.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/flask_IIS_reverse_proxy_arch.png)
 ## Example Flask server
 * Let us create a simple flask server for this example
-* 
+* Create a `server.py` file that acts as a flask server
 
 ### Step 1 - Installing the url-rewrite and ARR modules in IIS
 * url-rewrite module of IIS can be downloaded and installed from from https://www.iis.net/downloads/microsoft/url-rewrite . Web platform installer in IIS can also be used to install url-rewrite module in IIS
@@ -140,6 +140,6 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3MjU1MjQ1LDE1MzU2NDg2MjMsNTY0Nj
+eyJoaXN0b3J5IjpbMTk2NzU2MTY1LDE1MzU2NDg2MjMsNTY0Nj
 Q5NjQ2LC04ODA0MTU0OTJdfQ==
 -->
