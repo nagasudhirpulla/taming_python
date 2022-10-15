@@ -24,7 +24,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 - Hosting a python flask server directly to the clients / internet is not generally practiced  
 - Flask server should be generally hosted behind a robust reverse proxy server like Nginx or IIS (Internet Information Services)
 - SSL certificate management will be very easy with IIS and need not be handled in the flask application
-- Since IIS is the go to hosting solution for windows server, this approach is a more useful and a practical implementation of flask server hosting  in windows  
+- Since IIS is the go-to hosting solution for windows server, this approach is a more useful and a practical implementation of flask server hosting  in windows  
 - Moreover IIS has a very handy and powerful user interface to control the hosting of web applications
 
 ### Enabling IIS in windows
@@ -108,8 +108,8 @@ Using a reverse proxy will modify the request headers originating from the end-u
 * IIS url-rewrite module download link - https://www.iis.net/downloads/microsoft/url-rewrite
 * IIS ARR (Application Request Routing) module download link - https://www.iis.net/downloads/microsoft/application-request-routing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA2ODA4MDI2LC0xMjAyMDU2NDYzLDE2Nz
-M0NTg5NTUsOTMzOTk2MTQ1LC03MTczMTk5MTYsLTc5MzIyMTQ3
-LDE0NzkyOTY0MjUsLTI2MzIwNTMzMCwxNTM1NjQ4NjIzLDU2ND
-Y0OTY0NiwtODgwNDE1NDkyXX0=
+eyJoaXN0b3J5IjpbLTkzNDAyNzM0NywtMTIwMjA1NjQ2MywxNj
+czNDU4OTU1LDkzMzk5NjE0NSwtNzE3MzE5OTE2LC03OTMyMjE0
+NywxNDc5Mjk2NDI1LC0yNjMyMDUzMzAsMTUzNTY0ODYyMyw1Nj
+Q2NDk2NDYsLTg4MDQxNTQ5Ml19
 -->
