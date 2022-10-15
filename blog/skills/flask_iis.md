@@ -31,7 +31,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 ### Architecture
 * The data flow to the flask application can be as shown below
-* The flask application can be a windows background service or a normal process running in command prompt. STo lear
+* The flask application can be a windows background service or a normal process running in command prompt. See [this post](https://nagasudhir.blogspot.com/2022/09/run-python-flask-server-as-windows.html) to understand how to run a flask application as a windows background service
 ![flask_IIS_reverse_proxy_arch.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/flask_IIS_reverse_proxy_arch.png)
 
 
@@ -122,6 +122,6 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1Mzc2MTkxLDE1MzU2NDg2MjMsNTY0Nj
-Q5NjQ2LC04ODA0MTU0OTJdfQ==
+eyJoaXN0b3J5IjpbLTc0MTQxMzA2NSwxNTM1NjQ4NjIzLDU2ND
+Y0OTY0NiwtODgwNDE1NDkyXX0=
 -->
