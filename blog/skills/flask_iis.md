@@ -89,8 +89,8 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 - Click Add Rule(s) link in the right pane  
 - Select Blank rule under Inbound rules
 - Create a rule as shown in the image below
-
-- This rule just forwards the request from IIS to flask application hosted at localhost:50100 if the url starts with '/myapp'
+- *TODO paste image**
+- This above rule forwards the request from IIS to flask application hosted at localhost:50100 if the url starts with '/myapp'
 
 ### Step 4 (Optional)  -  Add HTTP_X_ORIGINAL_HOST server variable
 Using a reverse proxy will modify the request headers originating from the end-user's browser. Hence the HTTP header `host` will not be known to the flask application. So using the below steps we can send a new HTTP header named `HTTP_X_ORIGINAL_HOST` to send original host header to flask application from the end user
@@ -172,7 +172,7 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTg2NjUzMywxNDc5Mjk2NDI1LC0yNj
-MyMDUzMzAsMTUzNTY0ODYyMyw1NjQ2NDk2NDYsLTg4MDQxNTQ5
-Ml19
+eyJoaXN0b3J5IjpbNzEwMzA1OTksMTQ3OTI5NjQyNSwtMjYzMj
+A1MzMwLDE1MzU2NDg2MjMsNTY0NjQ5NjQ2LC04ODA0MTU0OTJd
+fQ==
 -->
