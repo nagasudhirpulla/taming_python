@@ -16,8 +16,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 * In this post we will learn how to run a flask server behind IIS acting as a reverse proxy for the flask application
 
 ## What is IIS
-* Internet Information Services (IIS) is a general purpose web server in windows for hosting web applications. 
-* It is a production ready web server with good security and stability 
+* Internet Information Services (IIS) is a general purpose web server in windows for hosting web applications
+* It is a production ready web server with good security, stability and many configuration options
+* IIS can be used for hosting public facing web applications due to its stability and security
 
 ### Install nssm in windows
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
@@ -106,5 +107,5 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODcwNTc4XX0=
+eyJoaXN0b3J5IjpbLTg4MDQxNTQ5Ml19
 -->
