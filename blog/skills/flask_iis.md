@@ -89,7 +89,7 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 - Click Add Rule(s) link in the right pane  
 - Select Blank rule under Inbound rules
 - Create a rule as shown in the image below
-- *TODO paste image**
+- **TODO paste image**
 - This above rule forwards the request from IIS to flask application hosted at localhost:50100 if the url starts with '/myapp'
 
 ### Step 4 (Optional)  -  Add HTTP_X_ORIGINAL_HOST server variable
@@ -172,7 +172,7 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwMzA1OTksMTQ3OTI5NjQyNSwtMjYzMj
+eyJoaXN0b3J5IjpbNjg3NjYzMjEsMTQ3OTI5NjQyNSwtMjYzMj
 A1MzMwLDE1MzU2NDg2MjMsNTY0NjQ5NjQ2LC04ODA0MTU0OTJd
 fQ==
 -->
