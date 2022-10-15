@@ -70,6 +70,8 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 * You can run the flask server in command line using the command `python server.py`
 * You can also use nssm to run the flask server as a windows background service. Read [this blog post](https://nagasudhir.blogspot.com/2022/09/run-python-flask-server-as-windows.html) for more information on this
 
+## Setting up IIS as reverse proxy
+
 ### Step 1 - Installing the url-rewrite and ARR modules in IIS
 * url-rewrite module of IIS can be downloaded and installed from from https://www.iis.net/downloads/microsoft/url-rewrite . Web platform installer in IIS can also be used to install url-rewrite module in IIS
 * ARR (Application Request Routing) module can be downloaded and installed in IIS from https://www.iis.net/downloads/microsoft/application-request-routing . Web platform installer in IIS can also be used to install ARR module in IIS
@@ -83,7 +85,9 @@ hostedApp.run(host="0.0.0.0", port=50100, debug=True)
 - Click  Apply and proceed with the URL Rewriting configuration
 
 ### Step 3 - URL rewriting
-
+- Double click URL rewrite icon in Default Website  
+- Click Add Rule(s) link in the right pane  
+- Select Blank rule under Inbound rules
 
 ### Install nssm in windows
 * Download nssm zip file from https://nssm.cc/download and unzip into a folder in C drive
@@ -159,6 +163,6 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjc0MTY0MDcsMTUzNTY0ODYyMyw1Nj
+eyJoaXN0b3J5IjpbLTE3MDI1NDA2MzcsMTUzNTY0ODYyMyw1Nj
 Q2NDk2NDYsLTg4MDQxNTQ5Ml19
 -->
