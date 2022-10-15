@@ -13,7 +13,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* In this post we will learn how to run a flask server as a background service in windows using nssm
+* In this post we will learn how to run a flask server behind IIS acting as a reverse proxy for the flask application
 
 ## What is nssm
 * nssm runs commands or batch files (in our case, the flask application) as background services in windows
@@ -110,5 +110,5 @@ The video for this post can be seen [here](https://youtu.be/oKciAtJTuSw)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzY0Mjk1NF19
+eyJoaXN0b3J5IjpbLTU0MDY5ODkyXX0=
 -->
