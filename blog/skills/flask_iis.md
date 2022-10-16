@@ -102,15 +102,22 @@ Using a reverse proxy will modify the request headers originating from the end-u
 - Add  HTTP_X_ORIGINAL_HOST to the allowed server variables
 
 ## Conclusion
-* By following the above steps, IIS can be used as a reverse proxy for the flask application  
+* By following the above steps, IIS can be used as a reverse proxy for the flask application
+
+### Video
+The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6_Hpug3l2I0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## References
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * IIS url-rewrite module download link - https://www.iis.net/downloads/microsoft/url-rewrite
 * IIS ARR (Application Request Routing) module download link - https://www.iis.net/downloads/microsoft/application-request-routing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUyMTQxMDc5LC05MzQwMjczNDcsLTEyMD
-IwNTY0NjMsMTY3MzQ1ODk1NSw5MzM5OTYxNDUsLTcxNzMxOTkx
-NiwtNzkzMjIxNDcsMTQ3OTI5NjQyNSwtMjYzMjA1MzMwLDE1Mz
-U2NDg2MjMsNTY0NjQ5NjQ2LC04ODA0MTU0OTJdfQ==
+eyJoaXN0b3J5IjpbMTY4ODk4MDI2Miw4NTIxNDEwNzksLTkzND
+AyNzM0NywtMTIwMjA1NjQ2MywxNjczNDU4OTU1LDkzMzk5NjE0
+NSwtNzE3MzE5OTE2LC03OTMyMjE0NywxNDc5Mjk2NDI1LC0yNj
+MyMDUzMzAsMTUzNTY0ODYyMyw1NjQ2NDk2NDYsLTg4MDQxNTQ5
+Ml19
 -->
