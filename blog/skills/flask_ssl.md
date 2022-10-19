@@ -1,15 +1,10 @@
-
-## Skill - IIS as a reverse proxy for python flask application
+## Skill - Run flask application over HTTPS
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
-* [Sub mounting a flask application under a URL prefix](https://nagasudhir.blogspot.com/2022/08/sub-mounting-flask-application-under.html)
-* [Run a python Flask server as a windows background service using nssm](https://nagasudhir.blogspot.com/2022/09/run-python-flask-server-as-windows.html)
-* [Waitress as Flask server WSGI](https://nagasudhir.blogspot.com/2022/10/waitress-as-flask-server-wsgi.html)
-
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
@@ -116,5 +111,5 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 * IIS url-rewrite module download link - https://www.iis.net/downloads/microsoft/url-rewrite
 * IIS ARR (Application Request Routing) module download link - https://www.iis.net/downloads/microsoft/application-request-routing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODY2Mjk2XX0=
+eyJoaXN0b3J5IjpbNDEwMDMyODhdfQ==
 -->
