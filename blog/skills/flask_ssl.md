@@ -12,7 +12,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 * In this post we will learn how to run a flask application over HTTPS 
 
-## "adhoc" option for testing purposes
+## "adhoc" option for quick and testing purposes
 ```py
 from flask import Flask
 
@@ -75,7 +75,7 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context=('cert.pem', 'key.pe
 * Dowload OpenSSL for windows - https://slproweb.com/products/Win32OpenSSL.html 
 * Download git for windows - https://git-scm.com/download/win 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTg4OTk1NCwtOTY3NTI2MTM0LDU5Mj
+eyJoaXN0b3J5IjpbMTgyODI2NDIxOCwtOTY3NTI2MTM0LDU5Mj
 EzMzEzMCwzMzA3OTA4NjQsNDUyOTA2OTg3LC0xMzYyMDQzNDM2
 LDEzOTI0NDY3NjEsNDk5MDkzMTYyLDgxMTkyNjAxNCw0MTAwMz
 I4OF19
