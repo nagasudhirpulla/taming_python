@@ -108,8 +108,7 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 
 ## References
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
-* IIS url-rewrite module download link - https://www.iis.net/downloads/microsoft/url-rewrite
-* IIS ARR (Application Request Routing) module download link - https://www.iis.net/downloads/microsoft/application-request-routing
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwMDMyODhdfQ==
+eyJoaXN0b3J5IjpbODExOTI2MDE0LDQxMDAzMjg4XX0=
 -->
