@@ -69,14 +69,15 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context=('cert.pem', 'key.pe
 * A post on how to host a flask application behind IIS as a reverse proxy can be found [here](https://nagasudhir.blogspot.com/2022/10/iis-as-reverse-proxy-for-python-flask.html) 
 
 
+
 ## References
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * Dowload OpenSSL for windows - https://slproweb.com/products/Win32OpenSSL.html 
 * Download git for windows - https://git-scm.com/download/win 
 * https://stackoverflow.com/questions/50625283/how-to-install-openssl-in-windows-10
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyMDk4NTE3LC05Njc1MjYxMzQsNTkyMT
-MzMTMwLDMzMDc5MDg2NCw0NTI5MDY5ODcsLTEzNjIwNDM0MzYs
-MTM5MjQ0Njc2MSw0OTkwOTMxNjIsODExOTI2MDE0LDQxMDAzMj
-g4XX0=
+eyJoaXN0b3J5IjpbMjE4MjA0Nzc1LDQ5MjA5ODUxNywtOTY3NT
+I2MTM0LDU5MjEzMzEzMCwzMzA3OTA4NjQsNDUyOTA2OTg3LC0x
+MzYyMDQzNDM2LDEzOTI0NDY3NjEsNDk5MDkzMTYyLDgxMTkyNj
+AxNCw0MTAwMzI4OF19
 -->
