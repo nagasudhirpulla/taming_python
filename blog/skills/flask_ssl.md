@@ -61,6 +61,8 @@ def index():
 # run the server
 app.run(host="0.0.0.0", port=50100, debug=True, ssl_context=('cert.pem', 'key.pem'))
 ```
+* As shown in the above code using `ssl_context=('cert.pem', 'key.pem')` in app.run function can run the application over HTTPS with cert and pem files of the SSL certificate
+* If cert and pem files are present in a separate folder say ``
 
 ### Enabling IIS in windows
 -   In windows search for “Turn Windows features On or Off”
@@ -149,7 +151,7 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * https://tcoil.info/secure-flask-app-with-self-signed-ssl-certificate-flask-https/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTI4MDg5Niw1OTIxMzMxMzAsMzMwNz
+eyJoaXN0b3J5IjpbLTU2Nzg2MzM4NSw1OTIxMzMxMzAsMzMwNz
 kwODY0LDQ1MjkwNjk4NywtMTM2MjA0MzQzNiwxMzkyNDQ2NzYx
 LDQ5OTA5MzE2Miw4MTE5MjYwMTQsNDEwMDMyODhdfQ==
 -->
