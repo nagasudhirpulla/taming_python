@@ -33,6 +33,7 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context="adhoc")
 
 ### Generate a self-signed SSL certificate using OpenSSL command line utility
 * For development purposes, OpenSSL can be used to create a self-signed SSL certificate and generate it's pem and key files using the following command
+* OpenSSL for windows can be downloadded
 ```bash
 openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 3650
 ```
@@ -133,7 +134,7 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * https://tcoil.info/secure-flask-app-with-self-signed-ssl-certificate-flask-https/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwNzkwODY0LDQ1MjkwNjk4NywtMTM2Mj
-A0MzQzNiwxMzkyNDQ2NzYxLDQ5OTA5MzE2Miw4MTE5MjYwMTQs
-NDEwMDMyODhdfQ==
+eyJoaXN0b3J5IjpbLTY0MDI5Mjk4NCwzMzA3OTA4NjQsNDUyOT
+A2OTg3LC0xMzYyMDQzNDM2LDEzOTI0NDY3NjEsNDk5MDkzMTYy
+LDgxMTkyNjAxNCw0MTAwMzI4OF19
 -->
