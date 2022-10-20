@@ -31,22 +31,20 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context="adhoc")
 * This will run the flask application over HTTPS with a dummy SSL certificate
 * This method is very easy and useful for development purposes
 
-## Using .key and .pem files of the SSL certificate
-* key and pem files can be generated from an SSL certificate
-* pem file is the certificate file and key file is the private key file of the SSL certificate
-
 ### Generate a self-signed SSL certificate using OpenSSL command line utility
 * For development purposes, OpenSSL can be used to create a self-signed SSL certificate and generate it's pem and key files using the following command
 ```bash
 openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem keyout priv_key.pem -days 3650
 ```
-* This command generates pem and cert  files
+* This command generates pem and cert files valid for 3650 days (10 years)
 
-- Hosting a python flask server directly to the clients / internet is not generally practiced  
-- Flask server should be generally hosted behind a robust reverse proxy server like Nginx or IIS (Internet Information Services)
-- SSL certificate management will be very easy with IIS and need not be handled in the flask application
-- Since IIS is the go-to hosting solution for windows server, this approach is a more useful and a practical implementation of flask server hosting  in windows  
-- Moreover IIS has a very handy and powerful user interface to control the hosting of web applications
+## Using .key and .pem files of the SSL certificate
+* key and pem files can be generated from an SSL certificate or generated from a utility like OpenSSL
+* pem file is the certificate file and key file is the private key file of the SSL certificate
+
+```py
+
+```
 
 ### Enabling IIS in windows
 -   In windows search for “Turn Windows features On or Off”
@@ -135,7 +133,7 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * https://tcoil.info/secure-flask-app-with-self-signed-ssl-certificate-flask-https/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzNzk3MzQsLTEzNjIwNDM0MzYsMTM5Mj
-Q0Njc2MSw0OTkwOTMxNjIsODExOTI2MDE0LDQxMDAzMjg4XX0=
+eyJoaXN0b3J5IjpbNDUyOTA2OTg3LC0xMzYyMDQzNDM2LDEzOT
+I0NDY3NjEsNDk5MDkzMTYyLDgxMTkyNjAxNCw0MTAwMzI4OF19
 
 -->
