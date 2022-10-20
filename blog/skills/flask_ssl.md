@@ -38,11 +38,10 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context="adhoc")
 "C:\Program Files\OpenSSL-Win64\bin\openssl.exe" req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 3650
 ```
 * This command generates pem and cert files valid for 3650 days (10 years)
-* If git is installed in the windows machine, then openssl.exe can be found at `C:\Program Files\Git\usr\bin\openssl.exe`
+* If git is installed in the windows machine, then openssl.exe can be found at `C:\Program Files\Git\usr\bin\openssl.exe` . Using the below command, openssl in git can be used to generate the self-signed SSL certificate files
 ```bash
 "C:\Program Files\Git\usr\bin\openssl.exe" req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 3650
 ```
-Using the above command, openssl in git can be used to generate the self-signed SSL certificate files
 
 ## Using .key and .pem files for HTTPS in flask
 * key and pem files can be generated from an SSL certificate or generated from a utility like OpenSSL
@@ -75,8 +74,8 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context=('cert.pem', 'key.pe
 * Dowload OpenSSL for windows - https://slproweb.com/products/Win32OpenSSL.html 
 * Download git for windows - https://git-scm.com/download/win 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODI2NDIxOCwtOTY3NTI2MTM0LDU5Mj
-EzMzEzMCwzMzA3OTA4NjQsNDUyOTA2OTg3LC0xMzYyMDQzNDM2
-LDEzOTI0NDY3NjEsNDk5MDkzMTYyLDgxMTkyNjAxNCw0MTAwMz
-I4OF19
+eyJoaXN0b3J5IjpbNDE2NTMxNDQwLC05Njc1MjYxMzQsNTkyMT
+MzMTMwLDMzMDc5MDg2NCw0NTI5MDY5ODcsLTEzNjIwNDM0MzYs
+MTM5MjQ0Njc2MSw0OTkwOTMxNjIsODExOTI2MDE0LDQxMDAzMj
+g4XX0=
 -->
