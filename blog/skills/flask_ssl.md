@@ -64,7 +64,7 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context=('cert.pem', 'key.pe
 * If cert and pem files are present in a separate folder say `C:\taming_python\flask_iis`, then 
 `ssl_context=('C:\\taming_python\\flask_iis\\cert.pem', 'C:\\taming_python\\flask_iis\\key.pem')` can be used
 
-## Best Practice
+## Best Practice for production scenarios
 * Although we have learnt how to use SSL in flask application, in production scenarios, it is better use SSL in a reverse proxy like Nginx or IIS and place the flask application behind the reverse proxy
 * A post on how to host a flask application behind IIS as a reverse proxy can be found [here](https://nagasudhir.blogspot.com/2022/10/iis-as-reverse-proxy-for-python-flask.html) 
 
@@ -75,8 +75,8 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context=('cert.pem', 'key.pe
 * Download git for windows - https://git-scm.com/download/win 
 * https://stackoverflow.com/questions/50625283/how-to-install-openssl-in-windows-10
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzQ0MTE2OCwtOTY3NTI2MTM0LDU5Mj
-EzMzEzMCwzMzA3OTA4NjQsNDUyOTA2OTg3LC0xMzYyMDQzNDM2
-LDEzOTI0NDY3NjEsNDk5MDkzMTYyLDgxMTkyNjAxNCw0MTAwMz
-I4OF19
+eyJoaXN0b3J5IjpbNDkyMDk4NTE3LC05Njc1MjYxMzQsNTkyMT
+MzMTMwLDMzMDc5MDg2NCw0NTI5MDY5ODcsLTEzNjIwNDM0MzYs
+MTM5MjQ0Njc2MSw0OTkwOTMxNjIsODExOTI2MDE0LDQxMDAzMj
+g4XX0=
 -->
