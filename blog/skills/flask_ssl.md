@@ -44,7 +44,7 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context="adhoc")
 ```
 Using the above command, openssl in git can be used to generate the self-signed SSL certificate files
 
-## Using .key and .pem files of the SSL certificate
+## Using .key and .pem files for HTTPS in flask
 * key and pem files can be generated from an SSL certificate or generated from a utility like OpenSSL
 * pem file is the certificate file and key file is the private key file of the SSL certificate
 
@@ -152,8 +152,8 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * https://tcoil.info/secure-flask-app-with-self-signed-ssl-certificate-flask-https/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjU5ODU0NiwtOTY3NTI2MTM0LDU5Mj
-EzMzEzMCwzMzA3OTA4NjQsNDUyOTA2OTg3LC0xMzYyMDQzNDM2
-LDEzOTI0NDY3NjEsNDk5MDkzMTYyLDgxMTkyNjAxNCw0MTAwMz
-I4OF19
+eyJoaXN0b3J5IjpbMjQzNzAyOTA1LC05Njc1MjYxMzQsNTkyMT
+MzMTMwLDMzMDc5MDg2NCw0NTI5MDY5ODcsLTEzNjIwNDM0MzYs
+MTM5MjQ0Njc2MSw0OTkwOTMxNjIsODExOTI2MDE0LDQxMDAzMj
+g4XX0=
 -->
