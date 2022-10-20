@@ -123,8 +123,8 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 
 ## References
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
-* 
+* https://tcoil.info/secure-flask-app-with-self-signed-ssl-certificate-flask-https/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjQ0Njc2MSw0OTkwOTMxNjIsODExOT
-I2MDE0LDQxMDAzMjg4XX0=
+eyJoaXN0b3J5IjpbLTEzNjIwNDM0MzYsMTM5MjQ0Njc2MSw0OT
+kwOTMxNjIsODExOTI2MDE0LDQxMDAzMjg4XX0=
 -->
