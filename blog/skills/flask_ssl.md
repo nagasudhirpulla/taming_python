@@ -13,7 +13,18 @@ Please make sure to have all the skills mentioned above to understand and execut
 * In this post we will learn how to run a flask application over HTTPS 
 
 ## "adhoc" option for testing purposes
-```
+```py
+from flask import Flask
+
+# create a server instance
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return "Hello World!!!"
+
+# run the server
+app.run(host="0.0.0.0", port=50100, debug=True, ssl_context="adhoc")
 ```
 
 ## Why use IIS as reverse proxy
@@ -110,6 +121,6 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk5MDkzMTYyLDgxMTkyNjAxNCw0MTAwMz
-I4OF19
+eyJoaXN0b3J5IjpbMTE3ODk0ODk0OCw0OTkwOTMxNjIsODExOT
+I2MDE0LDQxMDAzMjg4XX0=
 -->
