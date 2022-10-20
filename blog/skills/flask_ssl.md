@@ -10,11 +10,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr/>
 
-* In this post we will learn how to run a flask server behind IIS acting as a reverse proxy for the flask application
+* In this post we will learn how to run a flask application over HTTPS 
 
-## What is IIS
-* Internet Information Services (IIS) is a general purpose web server in windows for hosting web applications
-* It is a production ready web server with good security, stability and many configuration options
+## "adhoc" option for testing purposes
+```
+```
 
 ## Why use IIS as reverse proxy
 - Hosting a python flask server directly to the clients / internet is not generally practiced  
@@ -110,5 +110,6 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExOTI2MDE0LDQxMDAzMjg4XX0=
+eyJoaXN0b3J5IjpbNDk5MDkzMTYyLDgxMTkyNjAxNCw0MTAwMz
+I4OF19
 -->
