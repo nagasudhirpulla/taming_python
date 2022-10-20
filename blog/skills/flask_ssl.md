@@ -38,7 +38,7 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context="adhoc")
 openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 3650
 ```
 * This command generates pem and cert files valid for 3650 days (10 years)
-* For using openssl in git the command would be
+* If git is installed in twindows machine, then openssl.exe can be found at `C:\Program Files\Git\usr\bin\openssl.exe`
 ```bash
 "C:\Program Files\Git\usr\bin\openssl.exe" req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 3650
 ```
@@ -138,7 +138,7 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * https://tcoil.info/secure-flask-app-with-self-signed-ssl-certificate-flask-https/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5NTQ4NDU5LDU5MjEzMzEzMCwzMzA3OT
-A4NjQsNDUyOTA2OTg3LC0xMzYyMDQzNDM2LDEzOTI0NDY3NjEs
-NDk5MDkzMTYyLDgxMTkyNjAxNCw0MTAwMzI4OF19
+eyJoaXN0b3J5IjpbLTE4NzcwMjk0NSw1OTIxMzMxMzAsMzMwNz
+kwODY0LDQ1MjkwNjk4NywtMTM2MjA0MzQzNiwxMzkyNDQ2NzYx
+LDQ5OTA5MzE2Miw4MTE5MjYwMTQsNDEwMDMyODhdfQ==
 -->
