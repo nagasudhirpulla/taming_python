@@ -68,7 +68,7 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context=('cert.pem', 'key.pe
 * Although we have learnt how to use SSL in flask application, in production scenarios, it is better use SSL in a reverse proxy like Nginx or IIS and place the flask application behind the reverse proxy
 * A post on how to host a flask application behind IIS as a reverse proxy can be found [here](https://nagasudhir.blogspot.com/2022/10/iis-as-reverse-proxy-for-python-flask.html) 
 
-
+![enter image description here](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/master/blog/skills/assets/img/reverse_proxy_arch.png)
 
 ## References
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
@@ -76,8 +76,8 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context=('cert.pem', 'key.pe
 * Download git for windows - https://git-scm.com/download/win 
 * https://stackoverflow.com/questions/50625283/how-to-install-openssl-in-windows-10
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4MjA0Nzc1LDQ5MjA5ODUxNywtOTY3NT
-I2MTM0LDU5MjEzMzEzMCwzMzA3OTA4NjQsNDUyOTA2OTg3LC0x
-MzYyMDQzNDM2LDEzOTI0NDY3NjEsNDk5MDkzMTYyLDgxMTkyNj
-AxNCw0MTAwMzI4OF19
+eyJoaXN0b3J5IjpbLTIxMjQ5ODYzMjcsNDkyMDk4NTE3LC05Nj
+c1MjYxMzQsNTkyMTMzMTMwLDMzMDc5MDg2NCw0NTI5MDY5ODcs
+LTEzNjIwNDM0MzYsMTM5MjQ0Njc2MSw0OTkwOTMxNjIsODExOT
+I2MDE0LDQxMDAzMjg4XX0=
 -->
