@@ -49,7 +49,17 @@ So using the above command, openssl in git can be used to generate certificate f
 * pem file is the certificate file and key file is the private key file of the SSL certificate
 
 ```py
+from flask import Flask
 
+# create a server instance
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return "Hello World!!!"
+
+# run the server
+app.run(host="0.0.0.0", port=50100, debug=True, ssl_context=('cert.pem', 'key.pem'))
 ```
 
 ### Enabling IIS in windows
@@ -139,7 +149,7 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * https://tcoil.info/secure-flask-app-with-self-signed-ssl-certificate-flask-https/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0NjQ1MjkwLDU5MjEzMzEzMCwzMzA3OT
-A4NjQsNDUyOTA2OTg3LC0xMzYyMDQzNDM2LDEzOTI0NDY3NjEs
-NDk5MDkzMTYyLDgxMTkyNjAxNCw0MTAwMzI4OF19
+eyJoaXN0b3J5IjpbMTUzMTI4MDg5Niw1OTIxMzMxMzAsMzMwNz
+kwODY0LDQ1MjkwNjk4NywtMTM2MjA0MzQzNiwxMzkyNDQ2NzYx
+LDQ5OTA5MzE2Miw4MTE5MjYwMTQsNDEwMDMyODhdfQ==
 -->
