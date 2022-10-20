@@ -73,10 +73,10 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context=('cert.pem', 'key.pe
 ## References
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * Dowload OpenSSL for windows - https://slproweb.com/products/Win32OpenSSL.html 
-* Download git for windows -  
+* Download git for windows - https://git-scm.com/download/win 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIxOTEyMjI0LC05Njc1MjYxMzQsNTkyMT
-MzMTMwLDMzMDc5MDg2NCw0NTI5MDY5ODcsLTEzNjIwNDM0MzYs
-MTM5MjQ0Njc2MSw0OTkwOTMxNjIsODExOTI2MDE0LDQxMDAzMj
-g4XX0=
+eyJoaXN0b3J5IjpbLTk0NTg4OTk1NCwtOTY3NTI2MTM0LDU5Mj
+EzMzEzMCwzMzA3OTA4NjQsNDUyOTA2OTg3LC0xMzYyMDQzNDM2
+LDEzOTI0NDY3NjEsNDk5MDkzMTYyLDgxMTkyNjAxNCw0MTAwMz
+I4OF19
 -->
