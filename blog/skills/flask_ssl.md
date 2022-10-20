@@ -33,12 +33,15 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context="adhoc")
 
 ### Generate a self-signed SSL certificate using OpenSSL command line utility
 * For development purposes, OpenSSL can be used to create a self-signed SSL certificate and generate it's pem and key files using the following command
-* OpenSSL for windows can be downloaded from https://slproweb.com/products/Win32OpenSSL.html
-* If git is installed in windows machine, then openssl.exe can be found at `C:\Program Files\Git\usr\bin\openssl.exe` 
+* OpenSSL for windows can be downloaded from https://slproweb.com/products/Win32OpenSSL.html 
 ```bash
 openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 3650
 ```
 * This command generates pem and cert files valid for 3650 days (10 years)
+* For using openssl in git the command would be
+```bash
+"C:\Program Files\Git\usr\bin\openssl.exe" req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 3650
+```
 
 ## Using .key and .pem files of the SSL certificate
 * key and pem files can be generated from an SSL certificate or generated from a utility like OpenSSL
@@ -135,7 +138,7 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * https://tcoil.info/secure-flask-app-with-self-signed-ssl-certificate-flask-https/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyMTMzMTMwLDMzMDc5MDg2NCw0NTI5MD
-Y5ODcsLTEzNjIwNDM0MzYsMTM5MjQ0Njc2MSw0OTkwOTMxNjIs
-ODExOTI2MDE0LDQxMDAzMjg4XX0=
+eyJoaXN0b3J5IjpbODg5NTQ4NDU5LDU5MjEzMzEzMCwzMzA3OT
+A4NjQsNDUyOTA2OTg3LC0xMzYyMDQzNDM2LDEzOTI0NDY3NjEs
+NDk5MDkzMTYyLDgxMTkyNjAxNCw0MTAwMzI4OF19
 -->
