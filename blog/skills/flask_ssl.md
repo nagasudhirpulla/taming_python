@@ -27,6 +27,10 @@ def index():
 app.run(host="0.0.0.0", port=50100, debug=True, ssl_context="adhoc")
 ```
 
+* As shown in the above code, add an input `ssl_context="adhoc"` in the `app.run` function. 
+* This will run the flask application over HTTPS with a dummy SSL certificate
+* This method is 
+
 ## Why use IIS as reverse proxy
 - Hosting a python flask server directly to the clients / internet is not generally practiced  
 - Flask server should be generally hosted behind a robust reverse proxy server like Nginx or IIS (Internet Information Services)
@@ -121,6 +125,6 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODk0ODk0OCw0OTkwOTMxNjIsODExOT
-I2MDE0LDQxMDAzMjg4XX0=
+eyJoaXN0b3J5IjpbMTQ4MjIzNDk0LDQ5OTA5MzE2Miw4MTE5Mj
+YwMTQsNDEwMDMyODhdfQ==
 -->
