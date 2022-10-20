@@ -42,7 +42,7 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context="adhoc")
 ```bash
 "C:\Program Files\Git\usr\bin\openssl.exe" req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 3650
 ```
-Using the above command, openssl in git can be used to generate the SSL certificate files
+Using the above command, openssl in git can be used to generate the self-signed SSL certificate files
 
 ## Using .key and .pem files of the SSL certificate
 * key and pem files can be generated from an SSL certificate or generated from a utility like OpenSSL
@@ -152,8 +152,8 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * https://tcoil.info/secure-flask-app-with-self-signed-ssl-certificate-flask-https/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTU1NjE4MDMsLTk2NzUyNjEzNCw1OT
-IxMzMxMzAsMzMwNzkwODY0LDQ1MjkwNjk4NywtMTM2MjA0MzQz
-NiwxMzkyNDQ2NzYxLDQ5OTA5MzE2Miw4MTE5MjYwMTQsNDEwMD
-MyODhdfQ==
+eyJoaXN0b3J5IjpbMTI4MjU5ODU0NiwtOTY3NTI2MTM0LDU5Mj
+EzMzEzMCwzMzA3OTA4NjQsNDUyOTA2OTg3LC0xMzYyMDQzNDM2
+LDEzOTI0NDY3NjEsNDk5MDkzMTYyLDgxMTkyNjAxNCw0MTAwMz
+I4OF19
 -->
