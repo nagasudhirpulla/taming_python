@@ -31,7 +31,9 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context="adhoc")
 * This will run the flask application over HTTPS with a dummy SSL certificate
 * This method is very easy and useful for development purposes
 
-## Using .key and .pem files
+## Using .key and .pem files of the SSL certificate
+* key and pem files can be generated from an SSL certificate
+* pem file is t
 - Hosting a python flask server directly to the clients / internet is not generally practiced  
 - Flask server should be generally hosted behind a robust reverse proxy server like Nginx or IIS (Internet Information Services)
 - SSL certificate management will be very easy with IIS and need not be handled in the flask application
@@ -125,6 +127,7 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * https://tcoil.info/secure-flask-app-with-self-signed-ssl-certificate-flask-https/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjIwNDM0MzYsMTM5MjQ0Njc2MSw0OT
-kwOTMxNjIsODExOTI2MDE0LDQxMDAzMjg4XX0=
+eyJoaXN0b3J5IjpbLTMyODg5MzEyOCwtMTM2MjA0MzQzNiwxMz
+kyNDQ2NzYxLDQ5OTA5MzE2Miw4MTE5MjYwMTQsNDEwMDMyODhd
+fQ==
 -->
