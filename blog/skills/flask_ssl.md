@@ -35,8 +35,8 @@ app.run(host="0.0.0.0", port=50100, debug=True, ssl_context="adhoc")
 * key and pem files can be generated from an SSL certificate
 * pem file is the certificate file and key file is the private key file of the SSL certificate
 
-### Generate a self signed certificate using OpenSSL command line utility
-* OpenSSL can be used to createA self signed certificate can be
+### Generate a self-signed SSL certificate using OpenSSL command line utility
+* For development purposes, OpenSSL can be used to create a self-signed SSL certificate and generate it's pem and key files using the following command
 - Hosting a python flask server directly to the clients / internet is not generally practiced  
 - Flask server should be generally hosted behind a robust reverse proxy server like Nginx or IIS (Internet Information Services)
 - SSL certificate management will be very easy with IIS and need not be handled in the flask application
@@ -130,7 +130,7 @@ The video for this post can be seen [here](https://youtu.be/6_Hpug3l2I0)
 * Flask quickstart guide - https://flask.palletsprojects.com/en/2.2.x/quickstart/
 * https://tcoil.info/secure-flask-app-with-self-signed-ssl-certificate-flask-https/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMjIxNzE5MSwtMTM2MjA0MzQzNiwxMz
-kyNDQ2NzYxLDQ5OTA5MzE2Miw4MTE5MjYwMTQsNDEwMDMyODhd
-fQ==
+eyJoaXN0b3J5IjpbOTk2MDM2MDAwLC0xMzYyMDQzNDM2LDEzOT
+I0NDY3NjEsNDk5MDkzMTYyLDgxMTkyNjAxNCw0MTAwMzI4OF19
+
 -->
