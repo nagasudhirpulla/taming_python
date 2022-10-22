@@ -30,7 +30,10 @@ Go through the above skills if necessary for reference or revision
 ```bash
 SyslogFacility LOCAL0
 ```
-* To control the logging level, find the line starting with `LogLevel` and change it as shown below for
+* To control the logging level, find the line starting with `LogLevel` and change it as shown below
+```
+LogLevel INFO
+```
 
 ### References
 * OpenSSH logging official documentation - https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities
@@ -45,6 +48,6 @@ SyslogFacility LOCAL0
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDEyMzIxNTYsLTE5NDg5NjIxODcsNT
-c5MjIxODZdfQ==
+eyJoaXN0b3J5IjpbMTY0NzkyNDQ3LC0xOTQ4OTYyMTg3LDU3OT
+IyMTg2XX0=
 -->
