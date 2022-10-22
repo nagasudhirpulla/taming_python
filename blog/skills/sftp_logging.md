@@ -5,6 +5,7 @@
 #### Skills Required
 * [Setup SFTP server and SFTP client in Windows using OpenSSH server and WinSCP](https://nagasudhir.blogspot.com/2022/03/setup-sftp-server-and-sftp-client-in.html)
 
+Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
 ## Setup SFTP server using OpenSSH zip file in any Windows version 
@@ -143,5 +144,5 @@ The video for this post can be found [here](https://youtu.be/pOwXn4do7r0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0MTk2Mjg2XX0=
+eyJoaXN0b3J5IjpbLTEzNzA5Njg1NzRdfQ==
 -->
