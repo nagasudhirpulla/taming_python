@@ -10,9 +10,10 @@ Go through the above skills if necessary for reference or revision
 
 * In this post we will try to setup logging in a windows OpenSSH based SFTP server
 
-* Logging can be controlled using the `sshd_config` file located in the  
-## Logging to a file
-* 
+* Logging can be controlled using the `sshd_config` file located in the `C:\ProgramData\ssh` folder
+
+## Logging level
+* Logging level can be any one among 
 
 ### References
 * OpenSSH SFTP server installation guide - https://winscp.net/eng/docs/guide_windows_openssh_server
@@ -27,5 +28,5 @@ Go through the above skills if necessary for reference or revision
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNjQyMzYyMiw1NzkyMjE4Nl19
+eyJoaXN0b3J5IjpbMTM2Njc4NDk5LDU3OTIyMTg2XX0=
 -->
