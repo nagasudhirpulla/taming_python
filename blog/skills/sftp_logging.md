@@ -43,6 +43,8 @@ LogLevel INFO
 * When the logging facility is set to `LOCAL0`, the logs can be seen in a file located at `C:\ProgramData\ssh\logs\sshd.log`
 
 ![sftp_logs_file_example.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sftp_logs_file_example.png)
+## Recommendation
+* We recommend to send logs into Windows Event Viewer since it is more manageable and sui
 
 ### References
 * OpenSSH logging official documentation - https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities
@@ -57,6 +59,6 @@ LogLevel INFO
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzIxNTYwMDIsMTk5MDQ5MjkwOSwtMT
-k0ODk2MjE4Nyw1NzkyMjE4Nl19
+eyJoaXN0b3J5IjpbMTM2OTQzNTk2NywxOTkwNDkyOTA5LC0xOT
+Q4OTYyMTg3LDU3OTIyMTg2XX0=
 -->
