@@ -20,7 +20,8 @@ Go through the above skills if necessary for reference or revision
 ## Logging facility
 * Logging facility controls the location of logging
 * Logging facility can be any one among `DAEMON, USER, AUTH, LOCAL0, LOCAL1, LOCAL2, LOCAL3, LOCAL4, LOCAL5, LOCAL6, LOCAL7`
-* The default logging facility is `AUTH` which sends the logs to Windows Events (ETW). Logs can be seen from Windows Even 
+* The default logging facility is `AUTH` which sends the logs to Windows Events (ETW). Logs can be seen from Windows `Event Viewer`
+* To send logs to a file, the logging facility should be `LOCAL0` . Logs be found in `C:\ProgramData\ssh\logs\sshd.log` file
 
 ### References
 * OpenSSH logging official documentation - https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities
@@ -35,5 +36,5 @@ Go through the above skills if necessary for reference or revision
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyNzczMjU1LDU3OTIyMTg2XX0=
+eyJoaXN0b3J5IjpbLTE1MTAxMjA2MDYsNTc5MjIxODZdfQ==
 -->
