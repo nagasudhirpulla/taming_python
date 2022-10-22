@@ -44,7 +44,9 @@ LogLevel INFO
 
 ![sftp_logs_file_example.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sftp_logs_file_example.png)
 ## Recommendation
-* We recommend to send logs into Windows Event Viewer since it is more manageable and sui
+* We recommend to send logs into Windows Event Viewer since it is more manageable and suitable to use in production
+* There is no log file rotation available when logging into a log file. Hence the file may become very large after sometime. Hence logging into log file is not advisable for production scenarios
+*   
 
 ### References
 * OpenSSH logging official documentation - https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities
@@ -59,6 +61,6 @@ LogLevel INFO
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTQzNTk2NywxOTkwNDkyOTA5LC0xOT
+eyJoaXN0b3J5IjpbMTk5MzI1OTUxMCwxOTkwNDkyOTA5LC0xOT
 Q4OTYyMTg3LDU3OTIyMTg2XX0=
 -->
