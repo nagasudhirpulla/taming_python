@@ -1,4 +1,4 @@
-## Skill - Logging in SFTP server in windows
+## Skill - Setup Logging for SFTP server in windows
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -62,6 +62,7 @@ LogLevel INFO
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTU4OTQ4NjEsMTM0MDE1MDU2MiwxOT
-kwNDkyOTA5LC0xOTQ4OTYyMTg3LDU3OTIyMTg2XX0=
+eyJoaXN0b3J5IjpbMTQxMTgwMDczMiwtMTI1NTg5NDg2MSwxMz
+QwMTUwNTYyLDE5OTA0OTI5MDksLTE5NDg5NjIxODcsNTc5MjIx
+ODZdfQ==
 -->
