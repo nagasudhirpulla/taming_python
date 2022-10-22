@@ -13,8 +13,9 @@ Go through the above skills if necessary for reference or revision
 * Logging can be controlled using the `sshd_config` file located in the `C:\ProgramData\ssh` folder
 
 ## Logging level
+* Logging level controls the minimum criticality level which the logs will be generated 
 * Logging level can be any one among `QUIET, FATAL, ERROR, INFO, VERBOSE, DEBUG, DEBUG1, DEBUG2, and DEBUG3`
-* More logs will be generated as the logging level goes from left to right in the above list
+* More number of logs will be generated as the logging level goes from left to right in the above list
 * The default logging level is INFO
 
 ## Logging facility
@@ -22,6 +23,8 @@ Go through the above skills if necessary for reference or revision
 * Logging facility can be any one among `DAEMON, USER, AUTH, LOCAL0, LOCAL1, LOCAL2, LOCAL3, LOCAL4, LOCAL5, LOCAL6, LOCAL7`
 * The default logging facility is `AUTH` which sends the logs to Windows Events (ETW). Logs can be seen from Windows `Event Viewer`
 * To send logs to a file, the logging facility should be `LOCAL0` . Logs be found in `C:\ProgramData\ssh\logs\sshd.log` file
+
+## Logging level and Logging facility in sssh
 
 ### References
 * OpenSSH logging official documentation - https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities
@@ -36,5 +39,5 @@ Go through the above skills if necessary for reference or revision
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTAxMjA2MDYsNTc5MjIxODZdfQ==
+eyJoaXN0b3J5IjpbLTEzMzkyNzAzNTQsNTc5MjIxODZdfQ==
 -->
