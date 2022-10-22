@@ -35,6 +35,9 @@ SyslogFacility LOCAL0
 LogLevel INFO
 ```
 
+## Viewing logs in Event Viewer
+* When the logging facility is set to `AUTH`, the logs can be seen the `Event Viewer` application in 
+
 ### References
 * OpenSSH logging official documentation - https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities
 * OpenSSH SFTP server installation guide - https://winscp.net/eng/docs/guide_windows_openssh_server
@@ -48,6 +51,6 @@ LogLevel INFO
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzkyNDQ3LC0xOTQ4OTYyMTg3LDU3OT
-IyMTg2XX0=
+eyJoaXN0b3J5IjpbLTE4NTM1Mjk2ODAsLTE5NDg5NjIxODcsNT
+c5MjIxODZdfQ==
 -->
