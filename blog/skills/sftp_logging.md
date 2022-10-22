@@ -14,7 +14,8 @@ Go through the above skills if necessary for reference or revision
 
 ## Logging level
 * Logging level can be any one among `QUIET, FATAL, ERROR, INFO, VERBOSE, DEBUG, DEBUG1, DEBUG2, and DEBUG3`
-* The default lo
+* More logs will be generated as the logging level goes from left to right in the above list
+* The default logging level is INFO
 
 ### References
 * OpenSSH SFTP server installation guide - https://winscp.net/eng/docs/guide_windows_openssh_server
@@ -29,5 +30,5 @@ Go through the above skills if necessary for reference or revision
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTUxNjcxMSw1NzkyMjE4Nl19
+eyJoaXN0b3J5IjpbLTc5MTUzNzQ2NCw1NzkyMjE4Nl19
 -->
