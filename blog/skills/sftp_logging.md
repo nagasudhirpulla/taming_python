@@ -36,7 +36,8 @@ LogLevel INFO
 ```
 
 ## Viewing logs in Event Viewer
-* When the logging facility is set to `AUTH`, the logs can be seen the `Event Viewer` application in 
+* When the logging facility is set to `AUTH`, the logs can be seen the `Event Viewer` application in windows
+* Expand the left menu items to find an Event facility named `Operational` under the `OpenSSH` menu as shown below
 
 ### References
 * OpenSSH logging official documentation - https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities
@@ -51,6 +52,6 @@ LogLevel INFO
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTM1Mjk2ODAsLTE5NDg5NjIxODcsNT
-c5MjIxODZdfQ==
+eyJoaXN0b3J5IjpbMTk5MDQ5MjkwOSwtMTk0ODk2MjE4Nyw1Nz
+kyMjE4Nl19
 -->
