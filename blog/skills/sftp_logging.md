@@ -26,7 +26,7 @@ Go through the above skills if necessary for reference or revision
 
 ## Logging level and Logging facility in sshd_config file
 * Logging level and logging facility can be set in the sshd_config file
-* Find the line stat
+* To control the logging facility, find the line starting with `SyslogFacility` and change it as shown below for logging to a file. Change it to `AUTH` to send logs to Windows `Event Viewr` 
 ```bash
 SyslogFacility LOCAL0
 ```
@@ -44,5 +44,5 @@ SyslogFacility LOCAL0
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1NDM1MDgzLDU3OTIyMTg2XX0=
+eyJoaXN0b3J5IjpbLTE1MzcwMzU0NDUsNTc5MjIxODZdfQ==
 -->
