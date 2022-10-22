@@ -8,6 +8,8 @@
 Go through the above skills if necessary for reference or revision
 <hr/>
 
+* In this post we will try to setup logging in a windows OpenSSH based SFTP server
+
 ## Setup SFTP server using OpenSSH zip file in any Windows version 
 * Goto https://github.com/PowerShell/Win32-OpenSSH/releases
 * Download the OpenSSH-Win64.zip file from the latest release
@@ -144,5 +146,5 @@ The video for this post can be found [here](https://youtu.be/pOwXn4do7r0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwNjc4NTkzXX0=
+eyJoaXN0b3J5IjpbNTc5MjIxODZdfQ==
 -->
