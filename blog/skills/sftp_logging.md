@@ -49,12 +49,19 @@ LogLevel INFO
 * There is no log file rotation available when logging into a log file. Hence the file may become very large after sometime. Hence logging into log file is not advisable for production scenarios
 * Logging into file is recommended for debugging purposes  
 
+<hr/>
+
+### Video
+The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YZwUBqDJFlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### References
 * OpenSSH logging official documentation - https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities
 * OpenSSH SFTP server installation guide - https://winscp.net/eng/docs/guide_windows_openssh_server
 * OpenSSH SFTP server official installation guide - https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
 
-<hr/>
+
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -62,7 +69,7 @@ LogLevel INFO
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTgwMDczMiwtMTI1NTg5NDg2MSwxMz
-QwMTUwNTYyLDE5OTA0OTI5MDksLTE5NDg5NjIxODcsNTc5MjIx
-ODZdfQ==
+eyJoaXN0b3J5IjpbMTI4NDM4NjkyNCwxNDExODAwNzMyLC0xMj
+U1ODk0ODYxLDEzNDAxNTA1NjIsMTk5MDQ5MjkwOSwtMTk0ODk2
+MjE4Nyw1NzkyMjE4Nl19
 -->
