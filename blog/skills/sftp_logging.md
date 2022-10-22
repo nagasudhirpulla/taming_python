@@ -13,7 +13,8 @@ Go through the above skills if necessary for reference or revision
 * Logging can be controlled using the `sshd_config` file located in the `C:\ProgramData\ssh` folder
 
 ## Logging level
-* Logging level can be any one among 
+* Logging level can be any one among `QUIET, FATAL, ERROR, INFO, VERBOSE, DEBUG, DEBUG1, DEBUG2, and DEBUG3`
+* The default lo
 
 ### References
 * OpenSSH SFTP server installation guide - https://winscp.net/eng/docs/guide_windows_openssh_server
@@ -28,5 +29,5 @@ Go through the above skills if necessary for reference or revision
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2Njc4NDk5LDU3OTIyMTg2XX0=
+eyJoaXN0b3J5IjpbMTkyNTUxNjcxMSw1NzkyMjE4Nl19
 -->
