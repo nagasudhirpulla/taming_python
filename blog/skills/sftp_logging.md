@@ -34,7 +34,7 @@ SyslogFacility LOCAL0
 ```
 LogLevel INFO
 ```
-* Restart the openssh server after editing the ssd_config file for changes to take effect
+* Restart the openssh server in `services.msc` application after editing the ssd_config file for applying changes
 
 ## Viewing logs in Event Viewer
 * When the logging facility is set to `AUTH`, the logs can be seen the `Event Viewer` application in windows
@@ -62,6 +62,6 @@ LogLevel INFO
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAwMTg3MjQsMTM0MDE1MDU2MiwxOT
+eyJoaXN0b3J5IjpbLTEyNTU4OTQ4NjEsMTM0MDE1MDU2MiwxOT
 kwNDkyOTA5LC0xOTQ4OTYyMTg3LDU3OTIyMTg2XX0=
 -->
