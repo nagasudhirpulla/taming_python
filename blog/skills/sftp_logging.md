@@ -2,9 +2,10 @@
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
-<hr/>
+#### Skills Required
+* [Setup SFTP server and SFTP client in Windows using OpenSSH server and WinSCP](https://nagasudhir.blogspot.com/2022/03/setup-sftp-server-and-sftp-client-in.html)
 
-* In this post we will try to setup logging in a server
+<hr/>
 
 ## Setup SFTP server using OpenSSH zip file in any Windows version 
 * Goto https://github.com/PowerShell/Win32-OpenSSH/releases
@@ -142,5 +143,5 @@ The video for this post can be found [here](https://youtu.be/pOwXn4do7r0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzQyNzE0MF19
+eyJoaXN0b3J5IjpbMzg0MTk2Mjg2XX0=
 -->
