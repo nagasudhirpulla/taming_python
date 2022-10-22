@@ -18,8 +18,9 @@ Go through the above skills if necessary for reference or revision
 * The default logging level is INFO
 
 ## Logging facility
+* Logging facility controls the location of logging
 * Logging facility can be any one among `DAEMON, USER, AUTH, LOCAL0, LOCAL1, LOCAL2, LOCAL3, LOCAL4, LOCAL5, LOCAL6, LOCAL7`
-* The de
+* The default logging facility is `AUTH` which sends the logs to Windows Events (ETW). Logs can be seen from Windows Even 
 
 ### References
 * OpenSSH logging official documentation - https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities
@@ -34,5 +35,5 @@ Go through the above skills if necessary for reference or revision
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjczMzIxLDU3OTIyMTg2XX0=
+eyJoaXN0b3J5IjpbODcyNzczMjU1LDU3OTIyMTg2XX0=
 -->
