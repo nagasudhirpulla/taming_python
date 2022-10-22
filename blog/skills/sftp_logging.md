@@ -38,6 +38,7 @@ LogLevel INFO
 ## Viewing logs in Event Viewer
 * When the logging facility is set to `AUTH`, the logs can be seen the `Event Viewer` application in windows
 * Expand the left menu items to find an Event facility named `Operational` under the `OpenSSH` menu as shown below
+![sftp_logs_event_viewer_example.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sftp_logs_event_viewer_example.png)
 
 ### References
 * OpenSSH logging official documentation - https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities
@@ -52,6 +53,6 @@ LogLevel INFO
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDQ5MjkwOSwtMTk0ODk2MjE4Nyw1Nz
-kyMjE4Nl19
+eyJoaXN0b3J5IjpbMzk1NjI1MDcwLDE5OTA0OTI5MDksLTE5ND
+g5NjIxODcsNTc5MjIxODZdfQ==
 -->
