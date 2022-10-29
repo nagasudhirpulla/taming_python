@@ -13,11 +13,9 @@ Go through the above skills if necessary for reference or revision
 * User logins can be controlled using the `sshd_config` file located in the `C:\ProgramData\ssh` folder
 * The read-only access can be controlled at the Operating System level
 
-## Logging level
-* Logging level controls the minimum criticality level which the logs will be generated 
-* Logging level can be any one among `QUIET, FATAL, ERROR, INFO, VERBOSE, DEBUG, DEBUG1, DEBUG2, and DEBUG3`
-* More number of logs will be generated as the logging level goes from left to right in the above list
-* The default logging level is INFO
+## Setup SFTP for multiple users
+### Step 1: Create a new user account (if required)
+* New user can
 
 ## Logging facility
 * Logging facility controls the location of logging
@@ -70,6 +68,6 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDk1ODg0MSwtNTAxMjczNTAsLTUzMj
-M2MjUyM119
+eyJoaXN0b3J5IjpbLTEwODc0NTI5NDEsMTY4NDk1ODg0MSwtNT
+AxMjczNTAsLTUzMjM2MjUyM119
 -->
