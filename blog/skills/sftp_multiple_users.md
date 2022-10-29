@@ -47,7 +47,7 @@ icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administ
 ![open_ssh_authorized_keys_properties.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_properties.png)
 * Not ensuring the permissions of the `authorized_keys` file will fail the login attempts, hence it is important. Login failures due to wrong file permissions of `authorized_keys` file will be logged in the SFTP server logs. Check out [this blog post](https://nagasudhir.blogspot.com/2022/10/setup-logging-for-sftp-server-in-windows.html) to know how to see SFTP server logs.
 
-## Logging facility
+## Setup Read-only file access to SFTP user
 * Logging facility controls the location of logging
 * Logging facility can be any one among `DAEMON, USER, AUTH, LOCAL0, LOCAL1, LOCAL2, LOCAL3, LOCAL4, LOCAL5, LOCAL6, LOCAL7`
 * The default logging facility is `AUTH` which sends the logs to Windows Events (ETW). Logs can be seen from Windows `Event Viewer`
@@ -98,7 +98,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTkxOTM5NjYsLTE4MDE1NjM3NCw3Nz
+eyJoaXN0b3J5IjpbLTEwOTg3ODk2MDMsLTE4MDE1NjM3NCw3Nz
 Y4OTMyODQsNTE0NTE0MzQ0LC0xMTg2MjkxMDczLC0zNzgwNjE3
 NzAsMTY4NDk1ODg0MSwtNTAxMjczNTAsLTUzMjM2MjUyM119
 -->
