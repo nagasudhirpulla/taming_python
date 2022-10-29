@@ -15,7 +15,7 @@ Go through the above skills if necessary for reference or revision
 
 ## Setup SFTP for multiple users
 ### Step 1: Create a new user account (if required)
-* New user can be created in windows
+* New user can be created in windows by searching for "Add, edit, or remove other users" in system settings 
 
 ## Logging facility
 * Logging facility controls the location of logging
@@ -68,6 +68,6 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3ODA2MTc3MCwxNjg0OTU4ODQxLC01MD
-EyNzM1MCwtNTMyMzYyNTIzXX0=
+eyJoaXN0b3J5IjpbLTkyMjM1NDMzLC0zNzgwNjE3NzAsMTY4ND
+k1ODg0MSwtNTAxMjczNTAsLTUzMjM2MjUyM119
 -->
