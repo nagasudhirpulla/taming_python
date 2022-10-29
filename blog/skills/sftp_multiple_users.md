@@ -63,9 +63,10 @@ ChrootDirectory "C:\Users\otheruser\Documents\reports"
 <hr/>
 
 ### References
-* OpenSSH logging official documentation - https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities
 * OpenSSH SFTP server installation guide - https://winscp.net/eng/docs/guide_windows_openssh_server
 * OpenSSH SFTP server official installation guide - https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
+* OpenSSH logging official documentation - https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities
+* 
 
 
 
@@ -75,8 +76,8 @@ ChrootDirectory "C:\Users\otheruser\Documents\reports"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjY0MDc1NzQsMjU0MjAxNDIzLC02NT
-Y1MTY3ODQsLTE4MDE1NjM3NCw3NzY4OTMyODQsNTE0NTE0MzQ0
-LC0xMTg2MjkxMDczLC0zNzgwNjE3NzAsMTY4NDk1ODg0MSwtNT
-AxMjczNTAsLTUzMjM2MjUyM119
+eyJoaXN0b3J5IjpbMjY3OTQ3Njk4LDI1NDIwMTQyMywtNjU2NT
+E2Nzg0LC0xODAxNTYzNzQsNzc2ODkzMjg0LDUxNDUxNDM0NCwt
+MTE4NjI5MTA3MywtMzc4MDYxNzcwLDE2ODQ5NTg4NDEsLTUwMT
+I3MzUwLC01MzIzNjI1MjNdfQ==
 -->
