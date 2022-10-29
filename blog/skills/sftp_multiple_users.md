@@ -29,7 +29,8 @@ Match User james
 	PasswordAuthentication no
 	PubkeyAuthentication yes
 ```
-* In the above example, a section is created in the `sshd_config` file for the user `james` 
+* In the above example, a section is created in the `sshd_config` file for the user `james`
+* `PasswordAuthentication` and `PubkeyAuthentication` can be set 
 
 ## Logging facility
 * Logging facility controls the location of logging
@@ -82,7 +83,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTYzNjg2LC0xMTg2MjkxMDczLC0zNz
+eyJoaXN0b3J5IjpbMTcxMDI3NTg1LC0xMTg2MjkxMDczLC0zNz
 gwNjE3NzAsMTY4NDk1ODg0MSwtNTAxMjczNTAsLTUzMjM2MjUy
 M119
 -->
