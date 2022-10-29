@@ -4,7 +4,7 @@
 
 #### Skills Required
 * [Setup SFTP server and SFTP client in Windows using OpenSSH server and WinSCP](https://nagasudhir.blogspot.com/2022/03/setup-sftp-server-and-sftp-client-in.html)
-* [Setup SFTP server and SFTP client in Windows using OpenSSH server and WinSCP](https://nagasudhir.blogspot.com/2022/10/setup-logging-for-sftp-server-in-windows.html)
+* [Setup Logging for SFTP server in windows](https://nagasudhir.blogspot.com/2022/10/setup-logging-for-sftp-server-in-windows.html)
 
 Go through the above skills if necessary for reference or revision
 <hr/>
@@ -71,7 +71,7 @@ ChrootDirectory "C:\Users\otheruser\Documents\reports"
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDg0OTI2NiwyNTQyMDE0MjMsLTY1Nj
+eyJoaXN0b3J5IjpbMTUxNTI2OTUxNywyNTQyMDE0MjMsLTY1Nj
 UxNjc4NCwtMTgwMTU2Mzc0LDc3Njg5MzI4NCw1MTQ1MTQzNDQs
 LTExODYyOTEwNzMsLTM3ODA2MTc3MCwxNjg0OTU4ODQxLC01MD
 EyNzM1MCwtNTMyMzYyNTIzXX0=
