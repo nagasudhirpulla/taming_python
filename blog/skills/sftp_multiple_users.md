@@ -21,7 +21,7 @@ Go through the above skills if necessary for reference or revision
 * Create a section in `sshd_config` file located in the folder `C:\ProgramData\ssh` as shown below
 ```bash
 Match User james
-	ChrootDirectory "C:\Users\Nagasudhir\Downloads\sced-zip\wrldc_sced_Gujarat"
+	ChrootDirectory "~/Downloads"
 	X11Forwarding no
 	AllowTcpForwarding no
 	PermitTTY no
@@ -81,7 +81,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NjAyMzE1NSwtMTE4NjI5MTA3MywtMz
+eyJoaXN0b3J5IjpbMTUyOTk3MzQ4MSwtMTE4NjI5MTA3MywtMz
 c4MDYxNzcwLDE2ODQ5NTg4NDEsLTUwMTI3MzUwLC01MzIzNjI1
 MjNdfQ==
 -->
