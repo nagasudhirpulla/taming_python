@@ -11,7 +11,6 @@ Go through the above skills if necessary for reference or revision
 <hr/>
 
 * In this post we will try to setup windows OpenSSH based SFTP server with multiple users and read-only option
-
 * User logins can be controlled using the `sshd_config` file located in the `C:\ProgramData\ssh` folder
 * The read-only access can be controlled at the Operating System level
 
@@ -72,8 +71,8 @@ ChrootDirectory "C:\Users\otheruser\Documents\reports"
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDQ5MDI0MiwyNTQyMDE0MjMsLTY1Nj
-UxNjc4NCwtMTgwMTU2Mzc0LDc3Njg5MzI4NCw1MTQ1MTQzNDQs
-LTExODYyOTEwNzMsLTM3ODA2MTc3MCwxNjg0OTU4ODQxLC01MD
-EyNzM1MCwtNTMyMzYyNTIzXX0=
+eyJoaXN0b3J5IjpbNzUzOTIwMDQ0LDI1NDIwMTQyMywtNjU2NT
+E2Nzg0LC0xODAxNTYzNzQsNzc2ODkzMjg0LDUxNDUxNDM0NCwt
+MTE4NjI5MTA3MywtMzc4MDYxNzcwLDE2ODQ5NTg4NDEsLTUwMT
+I3MzUwLC01MzIzNjI1MjNdfQ==
 -->
