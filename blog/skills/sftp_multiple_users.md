@@ -7,6 +7,7 @@
 * [Setup Logging for SFTP server in windows](https://nagasudhir.blogspot.com/2022/10/setup-logging-for-sftp-server-in-windows.html)
 
 Go through the above skills if necessary for reference or revision
+
 <hr/>
 
 * In this post we will try to setup windows OpenSSH based SFTP server with multiple users and read-only option
@@ -71,7 +72,7 @@ ChrootDirectory "C:\Users\otheruser\Documents\reports"
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTI2OTUxNywyNTQyMDE0MjMsLTY1Nj
+eyJoaXN0b3J5IjpbLTg1ODI0MDE2MSwyNTQyMDE0MjMsLTY1Nj
 UxNjc4NCwtMTgwMTU2Mzc0LDc3Njg5MzI4NCw1MTQ1MTQzNDQs
 LTExODYyOTEwNzMsLTM3ODA2MTc3MCwxNjg0OTU4ODQxLC01MD
 EyNzM1MCwtNTMyMzYyNTIzXX0=
