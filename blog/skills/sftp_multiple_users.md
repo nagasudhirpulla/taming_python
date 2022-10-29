@@ -16,7 +16,7 @@ Go through the above skills if necessary for reference or revision
 * The read-only access can be controlled at the Operating System level
 
 ## Setup SFTP for multiple users
-### Step 1: Create the user account (if required)
+### Step 1: Create the user account (if not present)
 * New user can be created in windows by searching for "Add, edit, or remove other users" in system settings or windows search
 
 ### Step 2: Modify sshd_config file for providing access to the user
@@ -72,8 +72,8 @@ ChrootDirectory "C:\Users\otheruser\Documents\reports"
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0Nzg2Mjg3LDI1NDIwMTQyMywtNjU2NT
-E2Nzg0LC0xODAxNTYzNzQsNzc2ODkzMjg0LDUxNDUxNDM0NCwt
-MTE4NjI5MTA3MywtMzc4MDYxNzcwLDE2ODQ5NTg4NDEsLTUwMT
-I3MzUwLC01MzIzNjI1MjNdfQ==
+eyJoaXN0b3J5IjpbLTUxMDQ5MDI0MiwyNTQyMDE0MjMsLTY1Nj
+UxNjc4NCwtMTgwMTU2Mzc0LDc3Njg5MzI4NCw1MTQ1MTQzNDQs
+LTExODYyOTEwNzMsLTM3ODA2MTc3MCwxNjg0OTU4ODQxLC01MD
+EyNzM1MCwtNTMyMzYyNTIzXX0=
 -->
