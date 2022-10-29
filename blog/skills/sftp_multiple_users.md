@@ -8,7 +8,7 @@
 Go through the above skills if necessary for reference or revision
 <hr/>
 
-* In this post we will try to setup logging in a windows OpenSSH based SFTP server
+* In this post we will try to setup windows OpenSSH based SFTP server with multiple users and read-only option
 
 * Logging can be controlled using the `sshd_config` file located in the `C:\ProgramData\ssh` folder
 
@@ -69,5 +69,5 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjEzNzgwMiwtNTMyMzYyNTIzXX0=
+eyJoaXN0b3J5IjpbLTE0MzU1ODc0MDAsLTUzMjM2MjUyM119
 -->
