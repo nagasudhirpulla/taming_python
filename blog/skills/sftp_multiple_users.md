@@ -48,7 +48,7 @@ icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administ
 * Not ensuring the permissions of the `authorized_keys` file will fail the login attempts, hence it is important. Login failures due to wrong file permissions of `authorized_keys` file will be logged in the SFTP server logs. Check out [this blog post](https://nagasudhir.blogspot.com/2022/10/setup-logging-for-sftp-server-in-windows.html) to know how to see SFTP server logs.
 
 ## Setup Read-only file access to SFTP user
-* Take a folder which is outside `C:\Users\james`, for example ``
+* Take a folder which is outside `C:\Users\james`, for example `C:\Users\otheruser\Documents\hosted folder`
 * 
 
 
@@ -67,7 +67,7 @@ icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM0NTMwNDEsLTE4MDE1NjM3NCw3Nz
-Y4OTMyODQsNTE0NTE0MzQ0LC0xMTg2MjkxMDczLC0zNzgwNjE3
-NzAsMTY4NDk1ODg0MSwtNTAxMjczNTAsLTUzMjM2MjUyM119
+eyJoaXN0b3J5IjpbMTgwODczNTA4MCwtMTgwMTU2Mzc0LDc3Nj
+g5MzI4NCw1MTQ1MTQzNDQsLTExODYyOTEwNzMsLTM3ODA2MTc3
+MCwxNjg0OTU4ODQxLC01MDEyNzM1MCwtNTMyMzYyNTIzXX0=
 -->
