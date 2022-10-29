@@ -20,7 +20,14 @@ Go through the above skills if necessary for reference or revision
 ### Step 2: Modify sshd_config file for providing access to the user
 * Create a section in `sshd_config` file located in the folder `C:\ProgramData\ssh` as shown below
 ```bash
-
+Match User james
+	ChrootDirectory "C:\Users\Nagasudhir\Downloads\sced-zip\wrldc_sced_Gujarat"
+	X11Forwarding no
+	AllowTcpForwarding no
+	PermitTTY no
+	ForceCommand internal-sftp
+	PasswordAuthentication no
+	PubkeyAuthentication yes
 ```
 
 ## Logging facility
@@ -74,7 +81,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjU4MjczMTYsLTExODYyOTEwNzMsLT
-M3ODA2MTc3MCwxNjg0OTU4ODQxLC01MDEyNzM1MCwtNTMyMzYy
-NTIzXX0=
+eyJoaXN0b3J5IjpbMTY2NjAyMzE1NSwtMTE4NjI5MTA3MywtMz
+c4MDYxNzcwLDE2ODQ5NTg4NDEsLTUwMTI3MzUwLC01MzIzNjI1
+MjNdfQ==
 -->
