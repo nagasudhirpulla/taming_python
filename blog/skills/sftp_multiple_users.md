@@ -51,6 +51,7 @@ icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administ
 * For this example, let us setup Read-only SFTP folder for a windows user `james`
 * Take a folder which is outside `C:\Users\james`, for example `C:\Users\otheruser\Documents\reports`
 * Share the folder with only read-access to the user `james`
+![sftp_readonly_folder_sharing.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sftp_readonly_folder_sharing.png)
 
 
 
@@ -69,8 +70,8 @@ icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0MjAxNDIzLC02NTY1MTY3ODQsLTE4MD
-E1NjM3NCw3NzY4OTMyODQsNTE0NTE0MzQ0LC0xMTg2MjkxMDcz
-LC0zNzgwNjE3NzAsMTY4NDk1ODg0MSwtNTAxMjczNTAsLTUzMj
-M2MjUyM119
+eyJoaXN0b3J5IjpbMTQ2MTI0NjQxNiwyNTQyMDE0MjMsLTY1Nj
+UxNjc4NCwtMTgwMTU2Mzc0LDc3Njg5MzI4NCw1MTQ1MTQzNDQs
+LTExODYyOTEwNzMsLTM3ODA2MTc3MCwxNjg0OTU4ODQxLC01MD
+EyNzM1MCwtNTMyMzYyNTIzXX0=
 -->
