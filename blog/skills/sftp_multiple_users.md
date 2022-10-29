@@ -33,7 +33,8 @@ Match User james
 * `PasswordAuthentication` and `PubkeyAuthentication` can be set as per requirement
 * `ChrootDirectory` in this example is `~/Downloads`, which means the full path would be `C:\Users\James\Downloads`. In this way `~` can be used to express the SFTP root folder path relative to the user directory. However absolute path can also be set like `ChrootDirectory "C:\Users\John\Documents\test"` , provided the windows user `james` has at-least read access access to the folder  `C:\Users\John\Documents\test`
 
-### Step 3: Create 
+### Step 3: Create authorized_keys file in .ssh folder of the user (for private key authentication)
+* 
 
 ## Logging facility
 * Logging facility controls the location of logging
@@ -86,7 +87,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0NTE0MzQ0LC0xMTg2MjkxMDczLC0zNz
-gwNjE3NzAsMTY4NDk1ODg0MSwtNTAxMjczNTAsLTUzMjM2MjUy
-M119
+eyJoaXN0b3J5IjpbNzc2ODkzMjg0LDUxNDUxNDM0NCwtMTE4Nj
+I5MTA3MywtMzc4MDYxNzcwLDE2ODQ5NTg4NDEsLTUwMTI3MzUw
+LC01MzIzNjI1MjNdfQ==
 -->
