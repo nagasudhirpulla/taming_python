@@ -49,8 +49,9 @@ icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administ
 
 ## Setup Read-only file access to SFTP user
 * For this example, let us setup Read-only SFTP folder for a windows user `james`
-* Take a folder which is outside `C:\Users\james`, for example `C:\Users\otheruser\Documents\hosted_folder`
-* Share the folder with the user
+* Take a folder which is outside `C:\Users\james`, for example `C:\Users\otheruser\Documents\reports`
+* Share the folder with only read-access to the user `james`
+
 
 
 <hr/>
@@ -68,7 +69,8 @@ icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjUxNjc4NCwtMTgwMTU2Mzc0LDc3Nj
-g5MzI4NCw1MTQ1MTQzNDQsLTExODYyOTEwNzMsLTM3ODA2MTc3
-MCwxNjg0OTU4ODQxLC01MDEyNzM1MCwtNTMyMzYyNTIzXX0=
+eyJoaXN0b3J5IjpbMjU0MjAxNDIzLC02NTY1MTY3ODQsLTE4MD
+E1NjM3NCw3NzY4OTMyODQsNTE0NTE0MzQ0LC0xMTg2MjkxMDcz
+LC0zNzgwNjE3NzAsMTY4NDk1ODg0MSwtNTAxMjczNTAsLTUzMj
+M2MjUyM119
 -->
