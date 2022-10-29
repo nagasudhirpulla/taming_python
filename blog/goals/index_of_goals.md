@@ -61,8 +61,9 @@ Here are the goals and skills in this tutorial series
 * [Setup FTP server and FTP client in Windows using IIS, Filezilla server and WinSCP](https://nagasudhir.blogspot.com/2022/02/setup-ftp-server-and-ftp-client-in.html)
 * [FTP server communication with ftplib python module](https://nagasudhir.blogspot.com/2022/02/ftp-server-communication-with-ftplib.html)
 * [Setup SFTP server and SFTP client in Windows using OpenSSH server and WinSCP](https://nagasudhir.blogspot.com/2022/03/setup-sftp-server-and-sftp-client-in.html)
-* [SFTP server communication with pysftp python module](https://nagasudhir.blogspot.com/2022/03/sftp-server-communication-with-pysftp.html)
+* [Setup Logging for SFTP server in windows](https://nagasudhir.blogspot.com/2022/10/setup-logging-for-sftp-server-in-windows.html)
 * [SFTP server in Windows with multiple users and read-only option](https://nagasudhir.blogspot.com/2022/10/sftp-server-in-windows-with-multiple.html)
+* * [SFTP server communication with pysftp python module](https://nagasudhir.blogspot.com/2022/03/sftp-server-communication-with-pysftp.html)
 
 #### Application Code best practices
 * [Accessing application secrets with environment variables](https://nagasudhir.blogspot.com/2020/06/accessing-application-secrets-with.html)
@@ -151,11 +152,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTMxMTI4MTg0MSwyMTM3NT
-UwODkzLDgwOTU0MjcsNDgwNjA4ODM0LDkzMDk3MTMzOCwtMzk5
-OTU0ODc3LDExNTIzMjMwNzUsMTczOTgxOTAzMiwxMjgwNTk4OT
-A4LDU2NjQ4MTAzNiwtMTkwNjUzODE2NCwtMjEwOTUzNjI5Miwt
-MTI2MTE0MzI3LC0xNzM4NTExNDI4LDE0NjQ5MDY3MDYsLTE1Nj
-cxNDU1MzIsLTE5MTEwNjQxNTcsMTcwNTE5MDYxMiw4MDYxMzc2
-MDcsOTk3Njg4MTM0XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEzNjcyMTY5MDcsMjEzNz
+U1MDg5Myw4MDk1NDI3LDQ4MDYwODgzNCw5MzA5NzEzMzgsLTM5
+OTk1NDg3NywxMTUyMzIzMDc1LDE3Mzk4MTkwMzIsMTI4MDU5OD
+kwOCw1NjY0ODEwMzYsLTE5MDY1MzgxNjQsLTIxMDk1MzYyOTIs
+LTEyNjExNDMyNywtMTczODUxMTQyOCwxNDY0OTA2NzA2LC0xNT
+Y3MTQ1NTMyLC0xOTExMDY0MTU3LDE3MDUxOTA2MTIsODA2MTM3
+NjA3LDk5NzY4ODEzNF19
 -->
