@@ -4,6 +4,7 @@
 
 #### Skills Required
 * [Setup SFTP server and SFTP client in Windows using OpenSSH server and WinSCP](https://nagasudhir.blogspot.com/2022/03/setup-sftp-server-and-sftp-client-in.html)
+* [](https://nagasudhir.blogspot.com/2022/10/setup-logging-for-sftp-server-in-windows.html)
 
 Go through the above skills if necessary for reference or revision
 <hr/>
@@ -44,7 +45,7 @@ icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administ
 
 * You can verify the access control list of the `authorized_keys` file by right click on file->properties->security tab as shown in the below image
 ![open_ssh_authorized_keys_properties.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_properties.png)
-* Not ensuring the permissions of the `authorized_keys` file will fail the login attempts, hence it is important. Login failures due to wrong 
+* Not ensuring the permissions of the `authorized_keys` file will fail the login attempts, hence it is important. Login failures due to wrong file permissions of `authorized_keys` file will be logged in the SFTP server logs. Check out [this blog post](https://nagasudhir.blogspot.com/2022/10/setup-logging-for-sftp-server-in-windows.html) to know how to see SFTP server logs.
 
 ## Logging facility
 * Logging facility controls the location of logging
@@ -97,7 +98,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2Mzc2Nzk0LC0xODAxNTYzNzQsNzc2OD
-kzMjg0LDUxNDUxNDM0NCwtMTE4NjI5MTA3MywtMzc4MDYxNzcw
-LDE2ODQ5NTg4NDEsLTUwMTI3MzUwLC01MzIzNjI1MjNdfQ==
+eyJoaXN0b3J5IjpbLTEwODY5MDYzMDIsLTE4MDE1NjM3NCw3Nz
+Y4OTMyODQsNTE0NTE0MzQ0LC0xMTg2MjkxMDczLC0zNzgwNjE3
+NzAsMTY4NDk1ODg0MSwtNTAxMjczNTAsLTUzMjM2MjUyM119
 -->
