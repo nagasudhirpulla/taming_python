@@ -47,7 +47,7 @@ icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administ
 ![open_ssh_authorized_keys_properties.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_properties.png)
 * Not ensuring the permissions of the `authorized_keys` file will fail the login attempts, hence it is important. Login failures due to wrong file permissions of `authorized_keys` file will be logged in the SFTP server logs. Check out [this blog post](https://nagasudhir.blogspot.com/2022/10/setup-logging-for-sftp-server-in-windows.html) to know how to see SFTP server logs.
 
-## Setup Read-only file access to SFTP user
+## Setup Read-only access of SFTP server to the user
 * For this example, let us setup Read-only SFTP folder for a windows user `james`
 * Take a folder which is outside `C:\Users\james`, for example `C:\Users\otheruser\Documents\reports`
 * Share the folder with only read-access to the user `james`
@@ -71,8 +71,8 @@ ChrootDirectory "C:\Users\otheruser\Documents\reports"
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzOTIwMDQ0LDI1NDIwMTQyMywtNjU2NT
-E2Nzg0LC0xODAxNTYzNzQsNzc2ODkzMjg0LDUxNDUxNDM0NCwt
-MTE4NjI5MTA3MywtMzc4MDYxNzcwLDE2ODQ5NTg4NDEsLTUwMT
-I3MzUwLC01MzIzNjI1MjNdfQ==
+eyJoaXN0b3J5IjpbMTY3Mzg4MjExNSw3NTM5MjAwNDQsMjU0Mj
+AxNDIzLC02NTY1MTY3ODQsLTE4MDE1NjM3NCw3NzY4OTMyODQs
+NTE0NTE0MzQ0LC0xMTg2MjkxMDczLC0zNzgwNjE3NzAsMTY4ND
+k1ODg0MSwtNTAxMjczNTAsLTUzMjM2MjUyM119
 -->
