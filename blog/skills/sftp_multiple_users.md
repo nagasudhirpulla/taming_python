@@ -39,7 +39,7 @@ Match User james
 *   To achieve this, open a command prompt as administrator and run the following command
 
 ```bash
-icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Administrators:F" /grant "SYSTEM:F"
+icacls.exe "C:\Users\james\.ssh\authorized_keys" /inheritance:r /grant "Administrators:F" /grant "SYSTEM:F"
 ``` 
 
 ## Logging facility
@@ -93,7 +93,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzMDkyNzQ5LC0xODAxNTYzNzQsNzc2OD
-kzMjg0LDUxNDUxNDM0NCwtMTE4NjI5MTA3MywtMzc4MDYxNzcw
-LDE2ODQ5NTg4NDEsLTUwMTI3MzUwLC01MzIzNjI1MjNdfQ==
+eyJoaXN0b3J5IjpbMjEwNzY5NTEwNywtMTgwMTU2Mzc0LDc3Nj
+g5MzI4NCw1MTQ1MTQzNDQsLTExODYyOTEwNzMsLTM3ODA2MTc3
+MCwxNjg0OTU4ODQxLC01MDEyNzM1MCwtNTMyMzYyNTIzXX0=
 -->
