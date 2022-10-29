@@ -29,6 +29,7 @@ Match User james
 	PasswordAuthentication no
 	PubkeyAuthentication yes
 ```
+* In the above example, a section is created in the `sshd_config` file for the user `james` 
 
 ## Logging facility
 * Logging facility controls the location of logging
@@ -81,7 +82,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTk3MzQ4MSwtMTE4NjI5MTA3MywtMz
-c4MDYxNzcwLDE2ODQ5NTg4NDEsLTUwMTI3MzUwLC01MzIzNjI1
-MjNdfQ==
+eyJoaXN0b3J5IjpbMTMxNTYzNjg2LC0xMTg2MjkxMDczLC0zNz
+gwNjE3NzAsMTY4NDk1ODg0MSwtNTAxMjczNTAsLTUzMjM2MjUy
+M119
 -->
