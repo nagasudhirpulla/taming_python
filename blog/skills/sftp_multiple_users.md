@@ -35,7 +35,12 @@ Match User james
 
 ### Step 3: Setup authorized_keys file in .ssh folder of the user (for private key authentication)
 * If a user is to be authenticated using private key based authentication, the corresponding public key should be kept in a new line of the  `authorized_keys` file inside the `C:\Users\<username>\.ssh` folder.
-* 
+*   The access control list (ACL) of `authorized_keys` file should be configured such that only `Administrators` and `System` users should have the access to this file
+*   To achieve this, open a command prompt as administrator and run the following command
+
+```bash
+icacls.exe "C:\Users\<username>\.ssh\authorized_keys" /inheritance:r /grant "Administrators:F" /grant "SYSTEM:F"
+``` 
 
 ## Logging facility
 * Logging facility controls the location of logging
@@ -88,7 +93,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDE1NjM3NCw3NzY4OTMyODQsNTE0NT
-E0MzQ0LC0xMTg2MjkxMDczLC0zNzgwNjE3NzAsMTY4NDk1ODg0
-MSwtNTAxMjczNTAsLTUzMjM2MjUyM119
+eyJoaXN0b3J5IjpbOTYzMDkyNzQ5LC0xODAxNTYzNzQsNzc2OD
+kzMjg0LDUxNDUxNDM0NCwtMTE4NjI5MTA3MywtMzc4MDYxNzcw
+LDE2ODQ5NTg4NDEsLTUwMTI3MzUwLC01MzIzNjI1MjNdfQ==
 -->
