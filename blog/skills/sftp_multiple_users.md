@@ -52,6 +52,7 @@ icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administ
 * Take a folder which is outside `C:\Users\james`, for example `C:\Users\otheruser\Documents\reports`
 * Share the folder with only read-access to the user `james`
 ![sftp_readonly_folder_sharing.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sftp_readonly_folder_sharing.png)
+* In `sshd_config` file, set the ``
 
 
 
@@ -70,8 +71,8 @@ icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTI0NjQxNiwyNTQyMDE0MjMsLTY1Nj
-UxNjc4NCwtMTgwMTU2Mzc0LDc3Njg5MzI4NCw1MTQ1MTQzNDQs
-LTExODYyOTEwNzMsLTM3ODA2MTc3MCwxNjg0OTU4ODQxLC01MD
-EyNzM1MCwtNTMyMzYyNTIzXX0=
+eyJoaXN0b3J5IjpbMTg4MTYxMjA3LDI1NDIwMTQyMywtNjU2NT
+E2Nzg0LC0xODAxNTYzNzQsNzc2ODkzMjg0LDUxNDUxNDM0NCwt
+MTE4NjI5MTA3MywtMzc4MDYxNzcwLDE2ODQ5NTg4NDEsLTUwMT
+I3MzUwLC01MzIzNjI1MjNdfQ==
 -->
