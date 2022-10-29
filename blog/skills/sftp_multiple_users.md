@@ -41,8 +41,10 @@ Match User james
 ```bash
 icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administrators:F" /grant "SYSTEM:F"
 ``` 
-* You can verify the access control list of the `authorized_keys` file by right click on file->properties->security tab as shown in the below image  
+
+* You can verify the access control list of the `authorized_keys` file by right click on file->properties->security tab as shown in the below image
 ![open_ssh_authorized_keys_properties.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_properties.png)
+* Not setting the permissions of the `authorized_keys` file will not lo
 
 ## Logging facility
 * Logging facility controls the location of logging
@@ -95,7 +97,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDczOTg0OSwtMTgwMTU2Mzc0LDc3Nj
-g5MzI4NCw1MTQ1MTQzNDQsLTExODYyOTEwNzMsLTM3ODA2MTc3
-MCwxNjg0OTU4ODQxLC01MDEyNzM1MCwtNTMyMzYyNTIzXX0=
+eyJoaXN0b3J5IjpbMjg3NzAzNTczLC0xODAxNTYzNzQsNzc2OD
+kzMjg0LDUxNDUxNDM0NCwtMTE4NjI5MTA3MywtMzc4MDYxNzcw
+LDE2ODQ5NTg4NDEsLTUwMTI3MzUwLC01MzIzNjI1MjNdfQ==
 -->
