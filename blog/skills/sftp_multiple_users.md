@@ -31,7 +31,7 @@ Match User james
 ```
 * In the above example, a section is created in the `sshd_config` file for the user `james`
 * `PasswordAuthentication` and `PubkeyAuthentication` can be set as per requirement
-* `ChrootDirectory` can be set as 
+* `ChrootDirectory` in this example is `~/Downloads`, which means the full path would be `C:\Users\James\Downloads`. In this way `~` can be used to express the SFTP root folder path relative to the user directory. However 
 
 ## Logging facility
 * Logging facility controls the location of logging
@@ -84,7 +84,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5ODY2ODYsLTExODYyOTEwNzMsLTM3OD
-A2MTc3MCwxNjg0OTU4ODQxLC01MDEyNzM1MCwtNTMyMzYyNTIz
-XX0=
+eyJoaXN0b3J5IjpbLTEyMjEyMDQ0NDQsLTExODYyOTEwNzMsLT
+M3ODA2MTc3MCwxNjg0OTU4ODQxLC01MDEyNzM1MCwtNTMyMzYy
+NTIzXX0=
 -->
