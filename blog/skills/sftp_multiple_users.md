@@ -11,7 +11,7 @@ Go through the above skills if necessary for reference or revision
 * In this post we will try to setup windows OpenSSH based SFTP server with multiple users and read-only option
 
 * User logins can be controlled using the `sshd_config` file located in the `C:\ProgramData\ssh` folder
-* The read-only access can be controlled in the Operating system
+* The read-only access can be controlled at the Operating System level
 
 ## Logging level
 * Logging level controls the minimum criticality level which the logs will be generated 
@@ -70,6 +70,6 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5NjEyMDM1LC01MDEyNzM1MCwtNTMyMz
-YyNTIzXX0=
+eyJoaXN0b3J5IjpbMTY4NDk1ODg0MSwtNTAxMjczNTAsLTUzMj
+M2MjUyM119
 -->
