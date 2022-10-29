@@ -48,42 +48,10 @@ icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administ
 * Not ensuring the permissions of the `authorized_keys` file will fail the login attempts, hence it is important. Login failures due to wrong file permissions of `authorized_keys` file will be logged in the SFTP server logs. Check out [this blog post](https://nagasudhir.blogspot.com/2022/10/setup-logging-for-sftp-server-in-windows.html) to know how to see SFTP server logs.
 
 ## Setup Read-only file access to SFTP user
-* Logging facility controls the location of logging
-* Logging facility can be any one among `DAEMON, USER, AUTH, LOCAL0, LOCAL1, LOCAL2, LOCAL3, LOCAL4, LOCAL5, LOCAL6, LOCAL7`
-* The default logging facility is `AUTH` which sends the logs to Windows Events (ETW). Logs can be seen from Windows `Event Viewer`
-* To send logs to a file, the logging facility should be `LOCAL0` . Logs be found in `C:\ProgramData\ssh\logs\sshd.log` file
+* Create a folder in a folder outside `C:\Users\James`
 
-## Logging level and Logging facility in sshd_config file
-* Logging level and logging facility can be set in the sshd_config file
-* To control the logging facility, find the line starting with `SyslogFacility` and change it as shown below for logging to a file. Change it to `AUTH` to send logs to Windows `Event Viewer` (ETW)
-```bash
-SyslogFacility LOCAL0
-```
-* To control the logging level, find the line starting with `LogLevel` and change it as shown below
-```
-LogLevel INFO
-```
-* Restart the openssh server in `services.msc` application after editing the ssd_config file for applying changes
-
-## Viewing logs in Event Viewer
-* When the logging facility is set to `AUTH`, the logs can be seen the `Event Viewer` application in windows
-* Expand the left menu items to find an Event facility named `Operational` under the `OpenSSH` menu as shown below
-![sftp_logs_event_viewer_example.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sftp_logs_event_viewer_example.png)
-## Viewing logs in file
-* When the logging facility is set to `LOCAL0`, the logs can be seen in a file located at `C:\ProgramData\ssh\logs\sshd.log`
-
-![sftp_logs_file_example.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sftp_logs_file_example.png)
-## Recommendation
-* We recommend to send logs into Windows Event Viewer since it is more manageable and suitable to use in production
-* There is no log file rotation available when logging into a log file. Hence the file may become very large after sometime. Hence logging into log file is not advisable for production scenarios
-* Logging into file is recommended for debugging purposes  
 
 <hr/>
-
-### Video
-The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YZwUBqDJFlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
 * OpenSSH logging official documentation - https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities
@@ -98,7 +66,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTg3ODk2MDMsLTE4MDE1NjM3NCw3Nz
-Y4OTMyODQsNTE0NTE0MzQ0LC0xMTg2MjkxMDczLC0zNzgwNjE3
-NzAsMTY4NDk1ODg0MSwtNTAxMjczNTAsLTUzMjM2MjUyM119
+eyJoaXN0b3J5IjpbNjY1NDQyODAsLTE4MDE1NjM3NCw3NzY4OT
+MyODQsNTE0NTE0MzQ0LC0xMTg2MjkxMDczLC0zNzgwNjE3NzAs
+MTY4NDk1ODg0MSwtNTAxMjczNTAsLTUzMjM2MjUyM119
 -->
