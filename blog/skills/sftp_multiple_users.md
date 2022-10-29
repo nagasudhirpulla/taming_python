@@ -17,6 +17,9 @@ Go through the above skills if necessary for reference or revision
 ### Step 1: Create a new user account (if required)
 * New user can be created in windows by searching for "Add, edit, or remove other users" in system settings or windows search
 
+### Step 2: Modify sshd_config file for providing access to the user
+* 
+
 ## Logging facility
 * Logging facility controls the location of logging
 * Logging facility can be any one among `DAEMON, USER, AUTH, LOCAL0, LOCAL1, LOCAL2, LOCAL3, LOCAL4, LOCAL5, LOCAL6, LOCAL7`
@@ -68,6 +71,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODYyOTEwNzMsLTM3ODA2MTc3MCwxNj
-g0OTU4ODQxLC01MDEyNzM1MCwtNTMyMzYyNTIzXX0=
+eyJoaXN0b3J5IjpbMTMxNjI4MDk3OSwtMTE4NjI5MTA3MywtMz
+c4MDYxNzcwLDE2ODQ5NTg4NDEsLTUwMTI3MzUwLC01MzIzNjI1
+MjNdfQ==
 -->
