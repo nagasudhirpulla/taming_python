@@ -52,7 +52,10 @@ icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administ
 * Take a folder which is outside `C:\Users\james`, for example `C:\Users\otheruser\Documents\reports`
 * Share the folder with only read-access to the user `james`
 ![sftp_readonly_folder_sharing.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/sftp_readonly_folder_sharing.png)
-* In `sshd_config` file, set the `ChrootDirectory` to the above folder. For example, `ChrootDirectory "C:\Users\otheruser\Documents\reports"`
+* In `sshd_config` file, set the `ChrootDirectory` to the above folder. For example, 
+```
+ChrootDirectory "C:\Users\otheruser\Documents\reports"
+```
 
 
 
@@ -71,7 +74,7 @@ icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administ
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE3NzQzNDQsMjU0MjAxNDIzLC02NT
+eyJoaXN0b3J5IjpbLTE3MjY2NDkwNzgsMjU0MjAxNDIzLC02NT
 Y1MTY3ODQsLTE4MDE1NjM3NCw3NzY4OTMyODQsNTE0NTE0MzQ0
 LC0xMTg2MjkxMDczLC0zNzgwNjE3NzAsMTY4NDk1ODg0MSwtNT
 AxMjczNTAsLTUzMjM2MjUyM119
