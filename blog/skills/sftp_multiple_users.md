@@ -56,6 +56,7 @@ icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administ
 ```
 ChrootDirectory "C:\Users\otheruser\Documents\reports"
 ```
+* Now when the user logs in, the folder contents can be accessed  
 
 
 
@@ -74,8 +75,8 @@ ChrootDirectory "C:\Users\otheruser\Documents\reports"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjY2NDkwNzgsMjU0MjAxNDIzLC02NT
-Y1MTY3ODQsLTE4MDE1NjM3NCw3NzY4OTMyODQsNTE0NTE0MzQ0
-LC0xMTg2MjkxMDczLC0zNzgwNjE3NzAsMTY4NDk1ODg0MSwtNT
-AxMjczNTAsLTUzMjM2MjUyM119
+eyJoaXN0b3J5IjpbMjAwMzg0OTM2NSwyNTQyMDE0MjMsLTY1Nj
+UxNjc4NCwtMTgwMTU2Mzc0LDc3Njg5MzI4NCw1MTQ1MTQzNDQs
+LTExODYyOTEwNzMsLTM3ODA2MTc3MCwxNjg0OTU4ODQxLC01MD
+EyNzM1MCwtNTMyMzYyNTIzXX0=
 -->
