@@ -1,4 +1,4 @@
-## Skill - Setup SFTP with multiple users in Windows with read-only option
+## Skill - SFTP server in Windows with multiple users and read-only option
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -69,5 +69,5 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjM2MjUyM119
+eyJoaXN0b3J5IjpbMTU2MjEzNzgwMiwtNTMyMzYyNTIzXX0=
 -->
