@@ -4,7 +4,7 @@
 
 #### Skills Required
 * [Setup SFTP server and SFTP client in Windows using OpenSSH server and WinSCP](https://nagasudhir.blogspot.com/2022/03/setup-sftp-server-and-sftp-client-in.html)
-* [](https://nagasudhir.blogspot.com/2022/10/setup-logging-for-sftp-server-in-windows.html)
+* [Setup SFTP server and SFTP client in Windows using OpenSSH server and WinSCP](https://nagasudhir.blogspot.com/2022/10/setup-logging-for-sftp-server-in-windows.html)
 
 Go through the above skills if necessary for reference or revision
 <hr/>
@@ -98,7 +98,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODY5MDYzMDIsLTE4MDE1NjM3NCw3Nz
+eyJoaXN0b3J5IjpbLTIwMTkxOTM5NjYsLTE4MDE1NjM3NCw3Nz
 Y4OTMyODQsNTE0NTE0MzQ0LC0xMTg2MjkxMDczLC0zNzgwNjE3
 NzAsMTY4NDk1ODg0MSwtNTAxMjczNTAsLTUzMjM2MjUyM119
 -->
