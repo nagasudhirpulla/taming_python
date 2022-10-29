@@ -33,6 +33,8 @@ Match User james
 * `PasswordAuthentication` and `PubkeyAuthentication` can be set as per requirement
 * `ChrootDirectory` in this example is `~/Downloads`, which means the full path would be `C:\Users\James\Downloads`. In this way `~` can be used to express the SFTP root folder path relative to the user directory. However absolute path can also be set like `ChrootDirectory "C:\Users\John\Documents\test"` , provided the windows user `james` has at-least read access access to the folder  `C:\Users\John\Documents\test`
 
+### Step 3: Create 
+
 ## Logging facility
 * Logging facility controls the location of logging
 * Logging facility can be any one among `DAEMON, USER, AUTH, LOCAL0, LOCAL1, LOCAL2, LOCAL3, LOCAL4, LOCAL5, LOCAL6, LOCAL7`
@@ -84,7 +86,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjcwMjI5MCwtMTE4NjI5MTA3MywtMz
-c4MDYxNzcwLDE2ODQ5NTg4NDEsLTUwMTI3MzUwLC01MzIzNjI1
-MjNdfQ==
+eyJoaXN0b3J5IjpbNTE0NTE0MzQ0LC0xMTg2MjkxMDczLC0zNz
+gwNjE3NzAsMTY4NDk1ODg0MSwtNTAxMjczNTAsLTUzMjM2MjUy
+M119
 -->
