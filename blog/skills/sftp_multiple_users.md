@@ -39,8 +39,10 @@ Match User james
 *   To achieve this, open a command prompt as administrator and run the following command
 
 ```bash
-icacls.exe "C:\Users\james\.ssh\authorized_keys" /inheritance:r /grant "Administrators:F" /grant "SYSTEM:F"
+icacls.exe "C:\Users\James\.ssh\authorized_keys" /inheritance:r /grant "Administrators:F" /grant "SYSTEM:F"
 ``` 
+* You can verify the access control list of the `authorized_keys` file by right click on file->properties->security tab as shown in the below image  
+![open_ssh_authorized_keys_properties.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/open_ssh_authorized_keys_properties.png)
 
 ## Logging facility
 * Logging facility controls the location of logging
@@ -93,7 +95,7 @@ The video for this post can be found [here](https://youtu.be/YZwUBqDJFlQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzY5NTEwNywtMTgwMTU2Mzc0LDc3Nj
+eyJoaXN0b3J5IjpbLTU0MDczOTg0OSwtMTgwMTU2Mzc0LDc3Nj
 g5MzI4NCw1MTQ1MTQzNDQsLTExODYyOTEwNzMsLTM3ODA2MTc3
 MCwxNjg0OTU4ODQxLC01MDEyNzM1MCwtNTMyMzYyNTIzXX0=
 -->
