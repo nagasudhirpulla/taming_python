@@ -61,6 +61,10 @@ ChrootDirectory "C:\Users\otheruser\Documents\reports"
 
 
 <hr/>
+### Video
+The video for this post can be found [here](https://youtu.be/G0AE4MmRSJI)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G0AE4MmRSJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### References
 * OpenSSH SFTP server installation guide - https://winscp.net/eng/docs/guide_windows_openssh_server
@@ -71,8 +75,9 @@ ChrootDirectory "C:\Users\otheruser\Documents\reports"
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3Mzg4MjExNSw3NTM5MjAwNDQsMjU0Mj
-AxNDIzLC02NTY1MTY3ODQsLTE4MDE1NjM3NCw3NzY4OTMyODQs
-NTE0NTE0MzQ0LC0xMTg2MjkxMDczLC0zNzgwNjE3NzAsMTY4ND
-k1ODg0MSwtNTAxMjczNTAsLTUzMjM2MjUyM119
+eyJoaXN0b3J5IjpbLTExOTAyNjM4MTksMTY3Mzg4MjExNSw3NT
+M5MjAwNDQsMjU0MjAxNDIzLC02NTY1MTY3ODQsLTE4MDE1NjM3
+NCw3NzY4OTMyODQsNTE0NTE0MzQ0LC0xMTg2MjkxMDczLC0zNz
+gwNjE3NzAsMTY4NDk1ODg0MSwtNTAxMjczNTAsLTUzMjM2MjUy
+M119
 -->
