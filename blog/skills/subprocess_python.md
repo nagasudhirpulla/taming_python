@@ -7,19 +7,12 @@
 Please go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post we will understand how run external commands or call other languages in python using the `subprocess` module
+* In this post we will understand how run external commands or call other languages in python using the `subprocess` module
+* `subprocess` module generally comes included with python installation
 
-Install **argparse** module by entering the following in command prompt
-```
-pip install argparse
-```
 
-We can take named inputs from command line using `argparse` module
 
-* Suppose we want to read a named argument say name, then user should type `--name <name>`
-* Suppose we want to read multiple named arguments say firstName and lastName, then user should type `--firstName <firstName> --lastName <lastName>`
 
-If named argument is not provided, then argparse will return `None`
 
 ### Example
 Create a new file named `hello.py` with the following code
@@ -60,5 +53,5 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyODg0MjM4XX0=
+eyJoaXN0b3J5IjpbMTIzOTA1MTczM119
 -->
