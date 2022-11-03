@@ -9,7 +9,7 @@ Please go through the above skills if necessary for reference or revision
 
 * In this post we will understand how run external commands or call other languages in python using the `subprocess` module
 * `subprocess` module generally comes included with python installation
-* Child processes can 
+* Child processes can nbe 
 
 
 
@@ -53,5 +53,5 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDA3MjM1MF19
+eyJoaXN0b3J5IjpbMTI3MDQyMzUzXX0=
 -->
