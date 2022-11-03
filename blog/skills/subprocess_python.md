@@ -7,7 +7,7 @@
 Please go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post we will understand how to read command line arguments using `argparse` module
+In this post we will understand how run external commands or call other languages in python using the `subprocess` module
 
 Install **argparse** module by entering the following in command prompt
 ```
@@ -60,5 +60,5 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTc0ODc5Ml19
+eyJoaXN0b3J5IjpbNTMyODg0MjM4XX0=
 -->
