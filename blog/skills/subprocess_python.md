@@ -1,4 +1,4 @@
-## Skill - Run 
+## Skill - Run other languages or external programs from python using subprocess module
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -60,5 +60,5 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTAzNjI0Ml19
+eyJoaXN0b3J5IjpbMTU2NDM3NjkyOV19
 -->
