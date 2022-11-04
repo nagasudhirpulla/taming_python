@@ -13,7 +13,9 @@ Please go through the above skills if necessary for reference or revision
 ## Use Cases 
 * Running OS commands from python (like "ping google.com", "ipconfig" etc)
 * Communicate with other languages from python over command line inputs and outputs
-* 
+
+## How it works
+* `subprocess` module spawns child processes and al
 
 
 
@@ -46,6 +48,7 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 <hr/>
 
 ### References
+* Official docs - https://docs.python.org/3/library/subprocess.html
 * https://github.com/nagasudhirpulla/pmu_report_generator/blob/master/src/services/pmuDataFetcher.py
 * https://eli.thegreenplace.net/2017/interacting-with-a-long-running-child-process-in-python/
 
@@ -57,5 +60,5 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTk4MDIxMTQsMzEwMjg2Mzc0XX0=
+eyJoaXN0b3J5IjpbLTE4ODgxNzUyNjksMzEwMjg2Mzc0XX0=
 -->
