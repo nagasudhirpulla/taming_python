@@ -9,8 +9,10 @@ Please go through the above skills if necessary for reference or revision
 
 * In this post we will understand how run external commands or call other languages in python using the `subprocess` module
 * `subprocess` module generally comes included with python installation
-* Child processes can nbe 
 
+## Use Cases 
+* Running OS commands from python (like "ping google.com", "ipconfig" etc)
+* Communicate with external processes like 
 
 
 
@@ -53,5 +55,5 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwMjg2Mzc0XX0=
+eyJoaXN0b3J5IjpbMTY4NzI2Njk4MCwzMTAyODYzNzRdfQ==
 -->
