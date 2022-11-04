@@ -8,7 +8,7 @@ Please go through the above skills if necessary for reference or revision
 <hr/>
 
 * In this post we will understand how run external commands or call other languages in python using the `subprocess` module
-* `subprocess` module generally comes included with python installation. So no need to install the modseparately.
+* `subprocess` module generally comes included with python installation. So no need to install the module separately.
 
 ## Use Cases 
 * Running OS commands from python (like "ping google.com", "ipconfig" etc)
@@ -46,7 +46,8 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 <hr/>
 
 ### References
-* Official tutorial - https://docs.python.org/3/library/argparse.html
+* https://github.com/nagasudhirpulla/pmu_report_generator/blob/master/src/services/pmuDataFetcher.py
+* https://eli.thegreenplace.net/2017/interacting-with-a-long-running-child-process-in-python/
 
 <hr/>
 
@@ -56,5 +57,5 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDI1NjI5MSwzMTAyODYzNzRdfQ==
+eyJoaXN0b3J5IjpbNDMyNDA2NTgsMzEwMjg2Mzc0XX0=
 -->
