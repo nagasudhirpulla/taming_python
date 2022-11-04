@@ -12,7 +12,7 @@ Please go through the above skills if necessary for reference or revision
 
 ## Use Cases 
 * Running OS commands from python (like "ping google.com", "ipconfig" etc)
-* Communicate with other languages over command line from python
+* Communicate with other languages from python over command line inputs and outputs
 * 
 
 
@@ -57,5 +57,5 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyNDA2NTgsMzEwMjg2Mzc0XX0=
+eyJoaXN0b3J5IjpbLTE5NTk4MDIxMTQsMzEwMjg2Mzc0XX0=
 -->
