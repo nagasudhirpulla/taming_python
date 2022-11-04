@@ -12,7 +12,7 @@ Please go through the above skills if necessary for reference or revision
 
 ## Use Cases 
 * Running OS commands from python (like "ping google.com", "ipconfig" etc)
-* Communicate with other languages from python over command line inputs and outputs
+* Communicate with other languages or external programs from python over command line inputs and outputs
 
 ## How it works
 * `subprocess` module can run child processes, communicate with them over their input / output / error pipes (command line outputs and inputs)
@@ -61,5 +61,5 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA5Njg4MjIsMzEwMjg2Mzc0XX0=
+eyJoaXN0b3J5IjpbLTIzNTA2MzE3NSwzMTAyODYzNzRdfQ==
 -->
