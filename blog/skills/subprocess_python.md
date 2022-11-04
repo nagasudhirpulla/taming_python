@@ -15,7 +15,7 @@ Please go through the above skills if necessary for reference or revision
 * Communicate with other languages from python over command line inputs and outputs
 
 ## How it works
-* `subprocess` module can run child processes, communicate with them o 
+* `subprocess` module can run child processes, communicate with them over their input / output / error pipes (command line outputs and inputs) and get the return code after the execution to get the status of 
 
 
 
@@ -60,5 +60,5 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQzMTg3NzAsMzEwMjg2Mzc0XX0=
+eyJoaXN0b3J5IjpbMTgzMTE5NTM2NiwzMTAyODYzNzRdfQ==
 -->
