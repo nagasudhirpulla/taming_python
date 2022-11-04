@@ -18,8 +18,6 @@ Please go through the above skills if necessary for reference or revision
 * `subprocess` module can run child processes, communicate with them over their input / output / error pipes (command line outputs and inputs)
 * Return code can also be obtained after running the child process to get the status of execution
 
-
-
 ### Example
 Create a new file named `hello.py` with the following code
 ```python
@@ -61,5 +59,5 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDU1NDE1NTQsMzEwMjg2Mzc0XX0=
+eyJoaXN0b3J5IjpbMTMzODkyOTY1MCwzMTAyODYzNzRdfQ==
 -->
