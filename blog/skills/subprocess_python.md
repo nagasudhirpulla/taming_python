@@ -15,7 +15,7 @@ Please go through the above skills if necessary for reference or revision
 * Communicate with other languages from python over command line inputs and outputs
 
 ## How it works
-* `subprocess` module spawns child processes and al
+* `subprocess` module can run child processes, communicate with them o 
 
 
 
@@ -60,5 +60,5 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODgxNzUyNjksMzEwMjg2Mzc0XX0=
+eyJoaXN0b3J5IjpbLTE5OTQzMTg3NzAsMzEwMjg2Mzc0XX0=
 -->
