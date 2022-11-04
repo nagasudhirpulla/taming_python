@@ -1,4 +1,4 @@
-## Skill - Run external commands or other languages using python subprocess module
+## Skill - Run external commands or communicate with other languages usinf python subprocess module
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -61,5 +61,5 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNTA2MzE3NSwzMTAyODYzNzRdfQ==
+eyJoaXN0b3J5IjpbNDM5MTA2NzAxLDMxMDI4NjM3NF19
 -->
