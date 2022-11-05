@@ -61,6 +61,9 @@ else:
 	* For example there is and exe file called "hello.exe" that takes a named command line input called `--name` and outputs the greeting
 	* python can interact with it using `commandWords = ["hello.exe", "--name", "James"]` and the output string would be "Hello James !!!"
 
+### Example 2 - Communicate with other languages over command line
+
+
 
 ### Video
 Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
@@ -82,7 +85,7 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjcxMjUyMiwtMTE5ODA2MjU0MCwtOD
+eyJoaXN0b3J5IjpbLTc1NDgwNDYyMSwtMTE5ODA2MjU0MCwtOD
 M3NzczNDc4LC00OTg5ODg1OTgsMTgwMDY3MzQ2MywtMjA1NzQ5
 NTQ1OCwxNDQ2MjU3MTU3LDEzMzg5Mjk2NTAsMzEwMjg2Mzc0XX
 0=
