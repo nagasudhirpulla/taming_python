@@ -21,21 +21,36 @@ Please go through the above skills if necessary for reference or revision
 ### Example - Run external commands
 * The following example runs the command "ping google.com" and prints the results. 
 ```python
-# import argparse module and get parser
-import argparse
-parser = argparse.ArgumentParser()
+# importing from 'subprocess' python module
+from subprocess import Popen, PIPE
 
-# add argument with flag --name
-parser.add_argument('--name', help='Persons name')
-args = parser.parse_args()
+# additional arguments can also be given
+# for example, execute a command 'ping google.com -n 2' with the list ["ping", "google.com", "-n", "2"]
+command = ["ping", "google.com"]
 
-# read name from arguments
-name = args.name
+# create a child process object
+proc = Popen(command, stdout=PIPE)
 
-if name!=None:
-    print('Hello {0} !!!'.format(name))
+# run the child process and capture the output and errors
+try:
+    outs, errs = proc.communicate()
+except:
+    proc.kill()
+    quit()
+
+# derive the command line response string
+resp = outs.decode("utf-8")
+
+# print the response string
+print("*************************")
+print(resp)
+print("*************************")
+
+# apply some logic on the response 
+if "Lost = 0 (0% loss)" in resp:
+    print("Perfect ping!!!")
 else:
-    print('name not provided...')
+    print("Not a perfect ping...")
 ```
 If you run `hello.py --name Sudhir` then you should see `Hello Sudhir !!!` in the output
 
@@ -59,6 +74,6 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTc0OTU0NTgsMTQ0NjI1NzE1NywxMz
-M4OTI5NjUwLDMxMDI4NjM3NF19
+eyJoaXN0b3J5IjpbLTk3ODA5Mzk3MCwtMjA1NzQ5NTQ1OCwxND
+Q2MjU3MTU3LDEzMzg5Mjk2NTAsMzEwMjg2Mzc0XX0=
 -->
