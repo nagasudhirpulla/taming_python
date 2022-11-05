@@ -22,7 +22,7 @@ Please go through the above skills if necessary for reference or revision
 * The following example  
 	* runs the command "ping google.com"
 	* captures the command line output and prints it
-	* applies custom logic on the command line output
+	* applies custom logic on the execution results
 
 ```python
 # importing from 'subprocess' python module
@@ -78,7 +78,7 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDIzODkzOCwxODAwNjczNDYzLC0yMD
-U3NDk1NDU4LDE0NDYyNTcxNTcsMTMzODkyOTY1MCwzMTAyODYz
-NzRdfQ==
+eyJoaXN0b3J5IjpbLTE2ODg2MzI4MTYsMTgwMDY3MzQ2MywtMj
+A1NzQ5NTQ1OCwxNDQ2MjU3MTU3LDEzMzg5Mjk2NTAsMzEwMjg2
+Mzc0XX0=
 -->
