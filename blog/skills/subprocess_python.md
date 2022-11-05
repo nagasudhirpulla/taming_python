@@ -20,9 +20,9 @@ Please go through the above skills if necessary for reference or revision
 
 ### Example - Run external commands
 * The following example  
-** runs the command "ping google.com"
-** captures
-** prints the results. 
+* * runs the command "ping google.com"
+* * captures
+* * prints the results. 
 
 ```python
 # importing from 'subprocess' python module
@@ -78,6 +78,6 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTQwNjA4NywtMjA1NzQ5NTQ1OCwxND
-Q2MjU3MTU3LDEzMzg5Mjk2NTAsMzEwMjg2Mzc0XX0=
+eyJoaXN0b3J5IjpbLTEzNTUxMzY0MDcsLTIwNTc0OTU0NTgsMT
+Q0NjI1NzE1NywxMzM4OTI5NjUwLDMxMDI4NjM3NF19
 -->
