@@ -57,6 +57,8 @@ else:
     print("Not a perfect ping...")
 ```
 * As shown in the above example, inputs can be provided to a command or an external program via command line arguments, and command line output can be used to fetch the execution results by our python program
+* The above example is applicable for running external programs also instead of OS commands
+* For example there is and exe file called "hello.exe", and python can interact with it 
 
 
 ### Video
@@ -79,7 +81,7 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5ODk4ODU5OCwxODAwNjczNDYzLC0yMD
-U3NDk1NDU4LDE0NDYyNTcxNTcsMTMzODkyOTY1MCwzMTAyODYz
-NzRdfQ==
+eyJoaXN0b3J5IjpbLTE2MDE5Mzk4MDYsLTQ5ODk4ODU5OCwxOD
+AwNjczNDYzLC0yMDU3NDk1NDU4LDE0NDYyNTcxNTcsMTMzODky
+OTY1MCwzMTAyODYzNzRdfQ==
 -->
