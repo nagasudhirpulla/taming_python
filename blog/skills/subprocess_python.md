@@ -12,7 +12,8 @@ Please go through the above skills if necessary for reference or revision
 
 ## Use Cases 
 * Running OS commands from python (like "ping google.com", "ipconfig" etc)
-* Communicate with external programs from python over command line inputs and outputs
+* You can create an executable from other language code and communicate with command line inputs and outputs 
+* Communicate with external programs or legacy systems from python over command line inputs and outputs
 * 
 
 ## How it works
@@ -60,6 +61,6 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTg3NDYwMzgsMTMzODkyOTY1MCwzMT
-AyODYzNzRdfQ==
+eyJoaXN0b3J5IjpbLTkzNDM0NTgyLDEzMzg5Mjk2NTAsMzEwMj
+g2Mzc0XX0=
 -->
