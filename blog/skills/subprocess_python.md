@@ -56,7 +56,7 @@ if "Lost = 0 (0% loss)" in resp:
 else:
     print("Not a perfect ping...")
 ```
-* As shown in the above example, inputs can be supplied to a command or an external program via command line arguments, and command line output can be used to fetch the execution results by our python program
+* As shown in the above example, inputs can be provided to a command or an external program via command line arguments, and command line output can be used to fetch the execution results by our python program
 
 
 ### Video
@@ -79,7 +79,7 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTE4MTQyNSwxODAwNjczNDYzLC0yMD
+eyJoaXN0b3J5IjpbLTQ5ODk4ODU5OCwxODAwNjczNDYzLC0yMD
 U3NDk1NDU4LDE0NDYyNTcxNTcsMTMzODkyOTY1MCwzMTAyODYz
 NzRdfQ==
 -->
