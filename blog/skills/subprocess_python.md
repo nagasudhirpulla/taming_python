@@ -11,10 +11,8 @@ Please go through the above skills if necessary for reference or revision
 * `subprocess` module generally comes included with python installation. So no need to install the module separately.
 
 ## Use Cases 
-* Running OS commands from python (like "ping google.com", "ipconfig" etc)
-* You can write functions in other languages like Java, Dotnet etc., create an executable file and communicate with command line inputs and outputs 
-* Communicate with external programs or legacy systems from python over command line inputs and outputs
-* 
+* Run OS commands or call external programs from python (like "ping google.com", "ipconfig" etc) over command line inputs and outputs
+* Write functions in other languages like Java, Dotnet etc., create an executable file and communicate with command line inputs and outputs
 
 ## How it works
 * `subprocess` module can run child processes, communicate with them over their input / output / error pipes (command line outputs and inputs)
@@ -61,6 +59,6 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjAxODk1MCwxMzM4OTI5NjUwLDMxMD
+eyJoaXN0b3J5IjpbMTQ0NjI1NzE1NywxMzM4OTI5NjUwLDMxMD
 I4NjM3NF19
 -->
