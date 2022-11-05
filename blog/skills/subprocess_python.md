@@ -62,7 +62,8 @@ else:
 	* python can interact with it using `commandWords = ["hello.exe", "--name", "James"]` and the output string would be "Hello James !!!"
 
 ### Example 2 - Communicate with other languages over command line
-
+* `subprocess` can be used to interact with other languages running the those programs and interact with them over command line
+* 
 
 
 ### Video
@@ -85,8 +86,8 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDgwNDYyMSwtMTE5ODA2MjU0MCwtOD
-M3NzczNDc4LC00OTg5ODg1OTgsMTgwMDY3MzQ2MywtMjA1NzQ5
-NTQ1OCwxNDQ2MjU3MTU3LDEzMzg5Mjk2NTAsMzEwMjg2Mzc0XX
-0=
+eyJoaXN0b3J5IjpbOTg1MDMyMDgyLC0xMTk4MDYyNTQwLC04Mz
+c3NzM0NzgsLTQ5ODk4ODU5OCwxODAwNjczNDYzLC0yMDU3NDk1
+NDU4LDE0NDYyNTcxNTcsMTMzODkyOTY1MCwzMTAyODYzNzRdfQ
+==
 -->
