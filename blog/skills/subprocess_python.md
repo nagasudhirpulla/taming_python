@@ -59,7 +59,7 @@ else:
 * As shown in the above example, inputs can be provided to a command or an external program via command line arguments, and command line output can be used to fetch the execution results by our python program
 * The above example is applicable for running external programs also instead of OS commands
 	* For example there is and exe file called "hello.exe" that takes a named command line input called "--name" and outputs the greeting
-	* python can interact with it using `commandWords = ["hello.exe", "--name", "James"]` and the output string would be "Hello James!!!"
+	* python can interact with it using `commandWords = ["hello.exe", "--name", "James"]` and the output string would be "Hello James !!!"
 
 
 ### Video
@@ -82,7 +82,7 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzc3MzQ3OCwtNDk4OTg4NTk4LDE4MD
-A2NzM0NjMsLTIwNTc0OTU0NTgsMTQ0NjI1NzE1NywxMzM4OTI5
-NjUwLDMxMDI4NjM3NF19
+eyJoaXN0b3J5IjpbLTExOTgwNjI1NDAsLTgzNzc3MzQ3OCwtND
+k4OTg4NTk4LDE4MDA2NzM0NjMsLTIwNTc0OTU0NTgsMTQ0NjI1
+NzE1NywxMzM4OTI5NjUwLDMxMDI4NjM3NF19
 -->
