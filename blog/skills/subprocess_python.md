@@ -29,7 +29,7 @@ Please go through the above skills if necessary for reference or revision
 from subprocess import Popen, PIPE
 
 # inputs can be provided in the form of additional arguments
-# for example, execute a command 'ping google.com -n 2' with the list ["ping", "google.com", "-n", "2"]
+# for example, execute a command 'ping google.com -n 2' using ["ping", "google.com", "-n", "2"]
 commandWords = ["ping", "google.com"]
 
 # create a child process object
@@ -78,6 +78,7 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDY3MzQ2MywtMjA1NzQ5NTQ1OCwxND
-Q2MjU3MTU3LDEzMzg5Mjk2NTAsMzEwMjg2Mzc0XX0=
+eyJoaXN0b3J5IjpbLTE3MDQzNjQxNzIsMTgwMDY3MzQ2MywtMj
+A1NzQ5NTQ1OCwxNDQ2MjU3MTU3LDEzMzg5Mjk2NTAsMzEwMjg2
+Mzc0XX0=
 -->
