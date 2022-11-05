@@ -26,10 +26,10 @@ from subprocess import Popen, PIPE
 
 # additional arguments can also be given
 # for example, execute a command 'ping google.com -n 2' with the list ["ping", "google.com", "-n", "2"]
-command = ["ping", "google.com"]
+commandWords = ["ping", "google.com"]
 
 # create a child process object
-proc = Popen(command, stdout=PIPE)
+proc = Popen(commandWords, stdout=PIPE)
 
 # run the child process and capture the output and errors
 try:
@@ -74,6 +74,6 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODA5Mzk3MCwtMjA1NzQ5NTQ1OCwxND
-Q2MjU3MTU3LDEzMzg5Mjk2NTAsMzEwMjg2Mzc0XX0=
+eyJoaXN0b3J5IjpbLTE0ODA1NzcwNDgsLTIwNTc0OTU0NTgsMT
+Q0NjI1NzE1NywxMzM4OTI5NjUwLDMxMDI4NjM3NF19
 -->
