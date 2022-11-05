@@ -19,7 +19,7 @@ Please go through the above skills if necessary for reference or revision
 * Return code can also be obtained after running the child process to get the status of execution
 
 ### Example - Run external commands
-
+* The following example runs the command "ping google.com" and prints the results. 
 ```python
 # import argparse module and get parser
 import argparse
@@ -59,6 +59,6 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk3OTQ5NTgsMTQ0NjI1NzE1NywxMz
+eyJoaXN0b3J5IjpbLTIwNTc0OTU0NTgsMTQ0NjI1NzE1NywxMz
 M4OTI5NjUwLDMxMDI4NjM3NF19
 -->
