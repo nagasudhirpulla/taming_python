@@ -20,15 +20,15 @@ Please go through the above skills if necessary for reference or revision
 
 ### Example - Run external commands
 * The following example  
- * runs the command "ping google.com"
- * captures
- * prints the results. 
+	* runs the command "ping google.com"
+	* captures the command line output and prints it
+	* prints the results. 
 
 ```python
 # importing from 'subprocess' python module
 from subprocess import Popen, PIPE
 
-# additional arguments can also be given
+# inputs can be provided via additional arguments
 # for example, execute a command 'ping google.com -n 2' with the list ["ping", "google.com", "-n", "2"]
 commandWords = ["ping", "google.com"]
 
@@ -78,6 +78,6 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyMTE0MTkzLC0yMDU3NDk1NDU4LDE0ND
-YyNTcxNTcsMTMzODkyOTY1MCwzMTAyODYzNzRdfQ==
+eyJoaXN0b3J5IjpbMTQ1ODA4MzI2MCwtMjA1NzQ5NTQ1OCwxND
+Q2MjU3MTU3LDEzMzg5Mjk2NTAsMzEwMjg2Mzc0XX0=
 -->
