@@ -19,7 +19,11 @@ Please go through the above skills if necessary for reference or revision
 * Return code can also be obtained after running the child process to get the status of execution
 
 ### Example - Run external commands
-* The following example runs the command "ping google.com" and prints the results. 
+* The following example  
+** runs the command "ping google.com"
+** captures
+** prints the results. 
+
 ```python
 # importing from 'subprocess' python module
 from subprocess import Popen, PIPE
@@ -52,7 +56,7 @@ if "Lost = 0 (0% loss)" in resp:
 else:
     print("Not a perfect ping...")
 ```
-If you run `hello.py --name Sudhir` then you should see `Hello Sudhir !!!` in the output
+
 
 ### Video
 Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
@@ -74,6 +78,6 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA1NzcwNDgsLTIwNTc0OTU0NTgsMT
-Q0NjI1NzE1NywxMzM4OTI5NjUwLDMxMDI4NjM3NF19
+eyJoaXN0b3J5IjpbMTU3NTQwNjA4NywtMjA1NzQ5NTQ1OCwxND
+Q2MjU3MTU3LDEzMzg5Mjk2NTAsMzEwMjg2Mzc0XX0=
 -->
