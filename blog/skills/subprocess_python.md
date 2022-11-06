@@ -18,7 +18,7 @@ Please go through the above skills if necessary for reference or revision
 * `subprocess` module can run child processes, communicate with them over their input / output / error pipes (command line outputs and inputs)
 * Return code can also be obtained after running the child process to get the status of execution
 
-### Example 1 - Run external commands
+### Example 1 - Run commands
 * The following example  
 	* runs the command "ping google.com"
 	* captures the command line output and prints it
@@ -163,7 +163,7 @@ print(computeFromExternal("abcd", 3.2))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjY4NTU0MywtNjI1ODE1NTI2LDIxND
+eyJoaXN0b3J5IjpbMTQ2MzQ4OTk3OCwtNjI1ODE1NTI2LDIxND
 kwMzU1Nyw3ODAzMzI1NCwxMjA2NjY0NjEwLC01MDM0MTA0MTMs
 LTE1MTkxMjc4NDYsMTUzNDU3MjA0NCwxMDMxMzczODA1LDk4NT
 AzMjA4MiwtMTE5ODA2MjU0MCwtODM3NzczNDc4LC00OTg5ODg1
