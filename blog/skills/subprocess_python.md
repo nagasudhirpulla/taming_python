@@ -145,7 +145,8 @@ print(computeFromExternal("abcd", 3.2))
 * The outputs and error strings are parsed after command execution from the variables `outs` and `errs` respectively
 
 ### Better way to run other language code
-* Running other language code via command line requires the language environment to be present in the system. For example, the previos e 
+* Running other language code via command line requires the language runtime to be present in the system. For example, the previous example requires dotnet to be present in the machine running the python code.
+* To eliminate the dependency of other language runtime, the external code can be packaged into a self contained exe file and that can be used bu
 
 
 ### Video
@@ -168,10 +169,10 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2NTE3ODUsMjE0OTAzNTU3LDc4MDMzMj
-U0LDEyMDY2NjQ2MTAsLTUwMzQxMDQxMywtMTUxOTEyNzg0Niwx
-NTM0NTcyMDQ0LDEwMzEzNzM4MDUsOTg1MDMyMDgyLC0xMTk4MD
-YyNTQwLC04Mzc3NzM0NzgsLTQ5ODk4ODU5OCwxODAwNjczNDYz
-LC0yMDU3NDk1NDU4LDE0NDYyNTcxNTcsMTMzODkyOTY1MCwzMT
-AyODYzNzRdfQ==
+eyJoaXN0b3J5IjpbMjA4NjA0ODE4OCwyMTQ5MDM1NTcsNzgwMz
+MyNTQsMTIwNjY2NDYxMCwtNTAzNDEwNDEzLC0xNTE5MTI3ODQ2
+LDE1MzQ1NzIwNDQsMTAzMTM3MzgwNSw5ODUwMzIwODIsLTExOT
+gwNjI1NDAsLTgzNzc3MzQ3OCwtNDk4OTg4NTk4LDE4MDA2NzM0
+NjMsLTIwNTc0OTU0NTgsMTQ0NjI1NzE1NywxMzM4OTI5NjUwLD
+MxMDI4NjM3NF19
 -->
