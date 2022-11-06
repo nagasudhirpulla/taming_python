@@ -108,9 +108,9 @@ print(computeFromExternal(5.1, 3.2))
 print(computeFromExternal("abcd", 3.2))
 ```
 
-* In the above python code a function named  `computeFromExternal` runs a dotnet project present in a 
+* In the above python code a function named  `computeFromExternal` runs a dotnet project present in a folder named `compute/` present in the same folder as the python code
+*  
 
-### Example 3 - 'cwd' option to change the directory of subprocess execution
 
 ### Video
 Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
@@ -132,9 +132,9 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MTk0Mjc4MywtNTAzNDEwNDEzLC0xNT
-E5MTI3ODQ2LDE1MzQ1NzIwNDQsMTAzMTM3MzgwNSw5ODUwMzIw
-ODIsLTExOTgwNjI1NDAsLTgzNzc3MzQ3OCwtNDk4OTg4NTk4LD
-E4MDA2NzM0NjMsLTIwNTc0OTU0NTgsMTQ0NjI1NzE1NywxMzM4
-OTI5NjUwLDMxMDI4NjM3NF19
+eyJoaXN0b3J5IjpbOTE5MjQ3NTI2LC01MDM0MTA0MTMsLTE1MT
+kxMjc4NDYsMTUzNDU3MjA0NCwxMDMxMzczODA1LDk4NTAzMjA4
+MiwtMTE5ODA2MjU0MCwtODM3NzczNDc4LC00OTg5ODg1OTgsMT
+gwMDY3MzQ2MywtMjA1NzQ5NTQ1OCwxNDQ2MjU3MTU3LDEzMzg5
+Mjk2NTAsMzEwMjg2Mzc0XX0=
 -->
