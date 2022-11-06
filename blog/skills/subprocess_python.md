@@ -62,7 +62,7 @@ else:
 	* For example there is and exe file called "hello.exe" that takes a named command line input called `--name` and outputs the greeting
 	* python can interact with it using `commandWords = ["hello.exe", "--name", "James"]` and the output string would be "Hello James !!!"
 
-## Example-2 "cwd" option for Change the directory of command execution
+## Example-2 "cwd" option to change the directory of command execution
 ```py
 from subprocess import Popen, PIPE
 
@@ -162,10 +162,10 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjM2MzI0MiwyMTQ5MDM1NTcsNzgwMz
-MyNTQsMTIwNjY2NDYxMCwtNTAzNDEwNDEzLC0xNTE5MTI3ODQ2
-LDE1MzQ1NzIwNDQsMTAzMTM3MzgwNSw5ODUwMzIwODIsLTExOT
-gwNjI1NDAsLTgzNzc3MzQ3OCwtNDk4OTg4NTk4LDE4MDA2NzM0
-NjMsLTIwNTc0OTU0NTgsMTQ0NjI1NzE1NywxMzM4OTI5NjUwLD
-MxMDI4NjM3NF19
+eyJoaXN0b3J5IjpbNjI4NTc3NTUwLDIxNDkwMzU1Nyw3ODAzMz
+I1NCwxMjA2NjY0NjEwLC01MDM0MTA0MTMsLTE1MTkxMjc4NDYs
+MTUzNDU3MjA0NCwxMDMxMzczODA1LDk4NTAzMjA4MiwtMTE5OD
+A2MjU0MCwtODM3NzczNDc4LC00OTg5ODg1OTgsMTgwMDY3MzQ2
+MywtMjA1NzQ5NTQ1OCwxNDQ2MjU3MTU3LDEzMzg5Mjk2NTAsMz
+EwMjg2Mzc0XX0=
 -->
