@@ -146,7 +146,7 @@ print(computeFromExternal("abcd", 3.2))
 
 ### Better way to run other language code
 * Running other language code via command line requires the language runtime to be present in the system. For example, the previous example requires dotnet to be present in the machine running the python code.
-* To eliminate the dependency of other language runtime, the external code can be packaged into a self-contained exe file and that can be used by the python code. This makes the other language code portable and removes the requirement of installing other language runtimes.  
+* To eliminate the dependency of other language runtime, the external code can be packaged into a self-contained exe file and that can be used by the python code. This makes the other language code portable and removes the requirement of installing other language runtime.  
 
 
 ### Video
@@ -169,10 +169,10 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDcyMDM4NTYsMjE0OTAzNTU3LDc4MD
-MzMjU0LDEyMDY2NjQ2MTAsLTUwMzQxMDQxMywtMTUxOTEyNzg0
-NiwxNTM0NTcyMDQ0LDEwMzEzNzM4MDUsOTg1MDMyMDgyLC0xMT
-k4MDYyNTQwLC04Mzc3NzM0NzgsLTQ5ODk4ODU5OCwxODAwNjcz
-NDYzLC0yMDU3NDk1NDU4LDE0NDYyNTcxNTcsMTMzODkyOTY1MC
-wzMTAyODYzNzRdfQ==
+eyJoaXN0b3J5IjpbNTc1MjA5MzM3LDIxNDkwMzU1Nyw3ODAzMz
+I1NCwxMjA2NjY0NjEwLC01MDM0MTA0MTMsLTE1MTkxMjc4NDYs
+MTUzNDU3MjA0NCwxMDMxMzczODA1LDk4NTAzMjA4MiwtMTE5OD
+A2MjU0MCwtODM3NzczNDc4LC00OTg5ODg1OTgsMTgwMDY3MzQ2
+MywtMjA1NzQ5NTQ1OCwxNDQ2MjU3MTU3LDEzMzg5Mjk2NTAsMz
+EwMjg2Mzc0XX0=
 -->
