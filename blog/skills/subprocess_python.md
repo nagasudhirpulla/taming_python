@@ -65,6 +65,7 @@ else:
 * `subprocess` can be used to interact with other languages running the those programs and interact with them over command line
 * 
 
+### Example 3 - 'cwd' option to change directory where the command is run
 
 ### Video
 Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
@@ -86,8 +87,8 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTM3MzgwNSw5ODUwMzIwODIsLTExOT
-gwNjI1NDAsLTgzNzc3MzQ3OCwtNDk4OTg4NTk4LDE4MDA2NzM0
-NjMsLTIwNTc0OTU0NTgsMTQ0NjI1NzE1NywxMzM4OTI5NjUwLD
-MxMDI4NjM3NF19
+eyJoaXN0b3J5IjpbLTI2MzQ1ODQ5MywxMDMxMzczODA1LDk4NT
+AzMjA4MiwtMTE5ODA2MjU0MCwtODM3NzczNDc4LC00OTg5ODg1
+OTgsMTgwMDY3MzQ2MywtMjA1NzQ5NTQ1OCwxNDQ2MjU3MTU3LD
+EzMzg5Mjk2NTAsMzEwMjg2Mzc0XX0=
 -->
