@@ -90,6 +90,8 @@ print(resp)
 print("Errors*************************")
 print(errStr)
 ```
+* In the above example, there is a batch file located in the folder location `batFolder/` relative to the python script
+* 'cwd' option is used to change the command execution directory in the `Popen` 
 
 ### Example 2 - Communicate with other languages over command line
 * `subprocess` can be used to interact with other languages running the those programs and interact with them over command line
@@ -162,10 +164,10 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2NjkxMTU5LDIxNDkwMzU1Nyw3ODAzMz
-I1NCwxMjA2NjY0NjEwLC01MDM0MTA0MTMsLTE1MTkxMjc4NDYs
-MTUzNDU3MjA0NCwxMDMxMzczODA1LDk4NTAzMjA4MiwtMTE5OD
-A2MjU0MCwtODM3NzczNDc4LC00OTg5ODg1OTgsMTgwMDY3MzQ2
-MywtMjA1NzQ5NTQ1OCwxNDQ2MjU3MTU3LDEzMzg5Mjk2NTAsMz
-EwMjg2Mzc0XX0=
+eyJoaXN0b3J5IjpbMTU3ODY5MTk4MywyMTQ5MDM1NTcsNzgwMz
+MyNTQsMTIwNjY2NDYxMCwtNTAzNDEwNDEzLC0xNTE5MTI3ODQ2
+LDE1MzQ1NzIwNDQsMTAzMTM3MzgwNSw5ODUwMzIwODIsLTExOT
+gwNjI1NDAsLTgzNzc3MzQ3OCwtNDk4OTg4NTk4LDE4MDA2NzM0
+NjMsLTIwNTc0OTU0NTgsMTQ0NjI1NzE1NywxMzM4OTI5NjUwLD
+MxMDI4NjM3NF19
 -->
