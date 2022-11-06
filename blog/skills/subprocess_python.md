@@ -108,6 +108,8 @@ print(computeFromExternal(5.1, 3.2))
 print(computeFromExternal("abcd", 3.2))
 ```
 
+* In the above  
+
 ### Example 3 - 'cwd' option to change the directory of subprocess execution
 
 ### Video
@@ -130,7 +132,7 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwMjk4MTQ4LC01MDM0MTA0MTMsLTE1MT
+eyJoaXN0b3J5IjpbNzMzNDkzMzI5LC01MDM0MTA0MTMsLTE1MT
 kxMjc4NDYsMTUzNDU3MjA0NCwxMDMxMzczODA1LDk4NTAzMjA4
 MiwtMTE5ODA2MjU0MCwtODM3NzczNDc4LC00OTg5ODg1OTgsMT
 gwMDY3MzQ2MywtMjA1NzQ5NTQ1OCwxNDQ2MjU3MTU3LDEzMzg5
