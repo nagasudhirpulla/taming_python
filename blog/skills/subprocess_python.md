@@ -70,7 +70,7 @@ command = "hello.bat James"
 commandFolder = "batFolder/"
 
 # create a child process object
-# to run a batch file, shell=True to be added additionally, otherwise not required
+# shell=True to be added to run batch files, otherwise not required
 proc = Popen(command.split(" "), stdout=PIPE, stderr=PIPE, cwd=commandFolder, shell=True)
 
 # run the child process and capture the output and errors
@@ -162,10 +162,10 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDc1OTY1MCwyMTQ5MDM1NTcsNzgwMz
-MyNTQsMTIwNjY2NDYxMCwtNTAzNDEwNDEzLC0xNTE5MTI3ODQ2
-LDE1MzQ1NzIwNDQsMTAzMTM3MzgwNSw5ODUwMzIwODIsLTExOT
-gwNjI1NDAsLTgzNzc3MzQ3OCwtNDk4OTg4NTk4LDE4MDA2NzM0
-NjMsLTIwNTc0OTU0NTgsMTQ0NjI1NzE1NywxMzM4OTI5NjUwLD
-MxMDI4NjM3NF19
+eyJoaXN0b3J5IjpbLTE3MjA2ODkzNzAsMjE0OTAzNTU3LDc4MD
+MzMjU0LDEyMDY2NjQ2MTAsLTUwMzQxMDQxMywtMTUxOTEyNzg0
+NiwxNTM0NTcyMDQ0LDEwMzEzNzM4MDUsOTg1MDMyMDgyLC0xMT
+k4MDYyNTQwLC04Mzc3NzM0NzgsLTQ5ODk4ODU5OCwxODAwNjcz
+NDYzLC0yMDU3NDk1NDU4LDE0NDYyNTcxNTcsMTMzODkyOTY1MC
+wzMTAyODYzNzRdfQ==
 -->
