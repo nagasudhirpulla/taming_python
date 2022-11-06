@@ -110,7 +110,7 @@ print(computeFromExternal("abcd", 3.2))
 
 * In the above python code a function named  `computeFromExternal` runs a dotnet project present in a folder named `compute/` present in the same folder as the python code
 *  The inputs to the dotnet code are provided via command line arguments.
-* The outputs and error strings are parsed and from the variables `outs` and `errs` respectively   
+* The outputs and error strings are parsed from the variables `outs` and `errs` respectively   
 
 
 ### Video
@@ -133,7 +133,7 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NzU0MTQzMCwtNTAzNDEwNDEzLC0xNT
+eyJoaXN0b3J5IjpbLTQ2Nzk0ODcyMywtNTAzNDEwNDEzLC0xNT
 E5MTI3ODQ2LDE1MzQ1NzIwNDQsMTAzMTM3MzgwNSw5ODUwMzIw
 ODIsLTExOTgwNjI1NDAsLTgzNzc3MzQ3OCwtNDk4OTg4NTk4LD
 E4MDA2NzM0NjMsLTIwNTc0OTU0NTgsMTQ0NjI1NzE1NywxMzM4
