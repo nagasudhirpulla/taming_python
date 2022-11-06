@@ -65,7 +65,53 @@ else:
 ### Example 2 - Communicate with other languages over command line
 * `subprocess` can be used to interact with other languages running the those programs and interact with them over command line
 ```py
+# importing from 'subprocess' python module
+from subprocess import Popen, PIPE
 
+
+def computeFromExternal(num1, num2):
+    # commandFolderPath = "compute/bin/Debug/net6.0/win-x64"
+
+    # execute command 'compute.exe 5.1 3.2'
+    # command = f"compute.exe {num1} {num2}"
+    commandFolderPath = "compute/"
+
+    # execute command 'compute.exe 5.1 3.2'
+    command = f"dotnet run {num1} {num2}"
+
+    # create a child process object
+    proc = Popen(command.split(" "), stdout=PIPE, stderr=PIPE, cwd=commandFolderPath)
+
+    # run the child process and capture the output and errors
+    try:
+        outs, errs = proc.communicate()
+    except:
+        proc.kill()
+        return "Error thrown while subprocess execution..."
+
+    # errors thrown by the code
+    errStr = errs.decode("utf-8")
+    # derive the command line response string
+    resp = outs.decode("utf-8")
+
+    # print("Output*************************")
+    # print(resp)
+    # print("Errors*************************")
+    # print(errStr)
+    # print("*************************")
+
+    # check for errors thrown by code
+    if not len(errStr) == 0:
+        return "Error thrown by the code..."
+
+    # extract the subprocess result
+    reslt = float(resp.strip())
+
+    return f"The computation result is {reslt}"
+
+
+print(computeFromExternal(5.1, 3.2))
+print(computeFromExternal("abcd", 3.2))
 ```
 
 ### Example 3 - 'cwd' option to change the directory of subprocess execution
@@ -90,9 +136,9 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwNTU0NDcsLTE1MTkxMjc4NDYsMTUzND
-U3MjA0NCwxMDMxMzczODA1LDk4NTAzMjA4MiwtMTE5ODA2MjU0
-MCwtODM3NzczNDc4LC00OTg5ODg1OTgsMTgwMDY3MzQ2MywtMj
-A1NzQ5NTQ1OCwxNDQ2MjU3MTU3LDEzMzg5Mjk2NTAsMzEwMjg2
-Mzc0XX0=
+eyJoaXN0b3J5IjpbMjEzMTk2ODY3MiwtMTUxOTEyNzg0NiwxNT
+M0NTcyMDQ0LDEwMzEzNzM4MDUsOTg1MDMyMDgyLC0xMTk4MDYy
+NTQwLC04Mzc3NzM0NzgsLTQ5ODk4ODU5OCwxODAwNjczNDYzLC
+0yMDU3NDk1NDU4LDE0NDYyNTcxNTcsMTMzODkyOTY1MCwzMTAy
+ODYzNzRdfQ==
 -->
