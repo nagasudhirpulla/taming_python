@@ -73,7 +73,7 @@ commandFolder = "batFolder/"
 # shell=True to be added to run batch files, otherwise not required
 proc = Popen(command.split(" "), stdout=PIPE, stderr=PIPE, cwd=commandFolder, shell=True)
 
-# run the child process and capture the output and errors
+# run child process and capture the output and errors
 try:
     outs, errs = proc.communicate()
 except:
@@ -162,10 +162,10 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjA2ODkzNzAsMjE0OTAzNTU3LDc4MD
-MzMjU0LDEyMDY2NjQ2MTAsLTUwMzQxMDQxMywtMTUxOTEyNzg0
-NiwxNTM0NTcyMDQ0LDEwMzEzNzM4MDUsOTg1MDMyMDgyLC0xMT
-k4MDYyNTQwLC04Mzc3NzM0NzgsLTQ5ODk4ODU5OCwxODAwNjcz
-NDYzLC0yMDU3NDk1NDU4LDE0NDYyNTcxNTcsMTMzODkyOTY1MC
-wzMTAyODYzNzRdfQ==
+eyJoaXN0b3J5IjpbNDY2NjkxMTU5LDIxNDkwMzU1Nyw3ODAzMz
+I1NCwxMjA2NjY0NjEwLC01MDM0MTA0MTMsLTE1MTkxMjc4NDYs
+MTUzNDU3MjA0NCwxMDMxMzczODA1LDk4NTAzMjA4MiwtMTE5OD
+A2MjU0MCwtODM3NzczNDc4LC00OTg5ODg1OTgsMTgwMDY3MzQ2
+MywtMjA1NzQ5NTQ1OCwxNDQ2MjU3MTU3LDEzMzg5Mjk2NTAsMz
+EwMjg2Mzc0XX0=
 -->
