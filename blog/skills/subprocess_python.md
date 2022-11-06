@@ -12,7 +12,7 @@ Please go through the above skills if necessary for reference or revision
 
 ## Use Cases 
 * Run OS commands or call external programs from python (like "ping google.com", "ipconfig" etc) over command line inputs and outputs
-* Write functions in other languages like Java, Dotnet etc., create an executable file and communicate with command line inputs and outputs. This use case occurs when there is some legacy module, or if there is an API for a system in non-python language.
+* Write functions in other languages like Java, Dotnet etc., create an executable file and communicate with command line inputs and outputs. This use case occurs when there is some legacy module, or if there is an API for a system in non-python language, or you don't want to re-write existing modules in other language in python
 
 ## How it works
 * `subprocess` module can run child processes, communicate with them over their input / output / error pipes (command line outputs and inputs)
@@ -163,10 +163,10 @@ print(computeFromExternal("abcd", 3.2))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODE1OTg4NiwtNjI1ODE1NTI2LDIxND
-kwMzU1Nyw3ODAzMzI1NCwxMjA2NjY0NjEwLC01MDM0MTA0MTMs
-LTE1MTkxMjc4NDYsMTUzNDU3MjA0NCwxMDMxMzczODA1LDk4NT
-AzMjA4MiwtMTE5ODA2MjU0MCwtODM3NzczNDc4LC00OTg5ODg1
-OTgsMTgwMDY3MzQ2MywtMjA1NzQ5NTQ1OCwxNDQ2MjU3MTU3LD
-EzMzg5Mjk2NTAsMzEwMjg2Mzc0XX0=
+eyJoaXN0b3J5IjpbLTkwMjIxOTYwLC02MjU4MTU1MjYsMjE0OT
+AzNTU3LDc4MDMzMjU0LDEyMDY2NjQ2MTAsLTUwMzQxMDQxMywt
+MTUxOTEyNzg0NiwxNTM0NTcyMDQ0LDEwMzEzNzM4MDUsOTg1MD
+MyMDgyLC0xMTk4MDYyNTQwLC04Mzc3NzM0NzgsLTQ5ODk4ODU5
+OCwxODAwNjczNDYzLC0yMDU3NDk1NDU4LDE0NDYyNTcxNTcsMT
+MzODkyOTY1MCwzMTAyODYzNzRdfQ==
 -->
