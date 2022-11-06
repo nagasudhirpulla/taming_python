@@ -68,12 +68,7 @@ else:
 # importing from 'subprocess' python module
 from subprocess import Popen, PIPE
 
-
 def computeFromExternal(num1, num2):
-    # commandFolderPath = "compute/bin/Debug/net6.0/win-x64"
-
-    # execute command 'compute.exe 5.1 3.2'
-    # command = f"compute.exe {num1} {num2}"
     commandFolderPath = "compute/"
 
     # execute command 'compute.exe 5.1 3.2'
@@ -136,7 +131,7 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTk2ODY3MiwtMTUxOTEyNzg0NiwxNT
+eyJoaXN0b3J5IjpbLTUwMzQxMDQxMywtMTUxOTEyNzg0NiwxNT
 M0NTcyMDQ0LDEwMzEzNzM4MDUsOTg1MDMyMDgyLC0xMTk4MDYy
 NTQwLC04Mzc3NzM0NzgsLTQ5ODk4ODU5OCwxODAwNjczNDYzLC
 0yMDU3NDk1NDU4LDE0NDYyNTcxNTcsMTMzODkyOTY1MCwzMTAy
