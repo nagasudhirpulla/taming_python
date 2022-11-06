@@ -62,7 +62,10 @@ else:
 	* For example there is and exe file called "hello.exe" that takes a named command line input called `--name` and outputs the greeting
 	* python can interact with it using `commandWords = ["hello.exe", "--name", "James"]` and the output string would be "Hello James !!!"
 
-## Change the 
+## "cwd" option for Change the directory of command execution
+```py
+
+```
 
 ### Example 2 - Communicate with other languages over command line
 * `subprocess` can be used to interact with other languages running the those programs and interact with them over command line
@@ -135,9 +138,9 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDA1MDA0MCwxMjA2NjY0NjEwLC01MD
-M0MTA0MTMsLTE1MTkxMjc4NDYsMTUzNDU3MjA0NCwxMDMxMzcz
-ODA1LDk4NTAzMjA4MiwtMTE5ODA2MjU0MCwtODM3NzczNDc4LC
-00OTg5ODg1OTgsMTgwMDY3MzQ2MywtMjA1NzQ5NTQ1OCwxNDQ2
-MjU3MTU3LDEzMzg5Mjk2NTAsMzEwMjg2Mzc0XX0=
+eyJoaXN0b3J5IjpbNzgwMzMyNTQsMTIwNjY2NDYxMCwtNTAzND
+EwNDEzLC0xNTE5MTI3ODQ2LDE1MzQ1NzIwNDQsMTAzMTM3Mzgw
+NSw5ODUwMzIwODIsLTExOTgwNjI1NDAsLTgzNzc3MzQ3OCwtND
+k4OTg4NTk4LDE4MDA2NzM0NjMsLTIwNTc0OTU0NTgsMTQ0NjI1
+NzE1NywxMzM4OTI5NjUwLDMxMDI4NjM3NF19
 -->
