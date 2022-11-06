@@ -64,7 +64,9 @@ else:
 
 ### Example 2 - Communicate with other languages over command line
 * `subprocess` can be used to interact with other languages running the those programs and interact with them over command line
-* 
+```py
+
+```
 
 ### Example 3 - 'cwd' option to change the directory of subprocess execution
 
@@ -88,8 +90,9 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTkxMjc4NDYsMTUzNDU3MjA0NCwxMD
-MxMzczODA1LDk4NTAzMjA4MiwtMTE5ODA2MjU0MCwtODM3Nzcz
-NDc4LC00OTg5ODg1OTgsMTgwMDY3MzQ2MywtMjA1NzQ5NTQ1OC
-wxNDQ2MjU3MTU3LDEzMzg5Mjk2NTAsMzEwMjg2Mzc0XX0=
+eyJoaXN0b3J5IjpbOTYwNTU0NDcsLTE1MTkxMjc4NDYsMTUzND
+U3MjA0NCwxMDMxMzczODA1LDk4NTAzMjA4MiwtMTE5ODA2MjU0
+MCwtODM3NzczNDc4LC00OTg5ODg1OTgsMTgwMDY3MzQ2MywtMj
+A1NzQ5NTQ1OCwxNDQ2MjU3MTU3LDEzMzg5Mjk2NTAsMzEwMjg2
+Mzc0XX0=
 -->
