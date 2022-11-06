@@ -1,4 +1,4 @@
-## Skill - Run external commands or communicate with other languages using python subprocess module
+## Skill - Run external commands or other languages using python subprocess module
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -162,7 +162,7 @@ print(computeFromExternal("abcd", 3.2))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0ODE1NjU5MCwtNjI1ODE1NTI2LDIxND
+eyJoaXN0b3J5IjpbMTAxNjQ1NDk3MywtNjI1ODE1NTI2LDIxND
 kwMzU1Nyw3ODAzMzI1NCwxMjA2NjY0NjEwLC01MDM0MTA0MTMs
 LTE1MTkxMjc4NDYsMTUzNDU3MjA0NCwxMDMxMzczODA1LDk4NT
 AzMjA4MiwtMTE5ODA2MjU0MCwtODM3NzczNDc4LC00OTg5ODg1
