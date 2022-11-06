@@ -42,8 +42,9 @@ except:
     proc.kill()
     quit()
 
-# derive the command line response string
+# derive the command line response and error strings
 resp = outs.decode("utf-8")
+errStr = errs.decode("utf-8")
 
 # print the response string
 print("*************************")
@@ -163,7 +164,7 @@ print(computeFromExternal("abcd", 3.2))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzQ4OTk3OCwtNjI1ODE1NTI2LDIxND
+eyJoaXN0b3J5IjpbMTM3MDQwMzg4OCwtNjI1ODE1NTI2LDIxND
 kwMzU1Nyw3ODAzMzI1NCwxMjA2NjY0NjEwLC01MDM0MTA0MTMs
 LTE1MTkxMjc4NDYsMTUzNDU3MjA0NCwxMDMxMzczODA1LDk4NT
 AzMjA4MiwtMTE5ODA2MjU0MCwtODM3NzczNDc4LC00OTg5ODg1
