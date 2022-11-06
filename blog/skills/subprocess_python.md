@@ -64,7 +64,31 @@ else:
 
 ## "cwd" option for Change the directory of command execution
 ```py
+from subprocess import Popen, PIPE
 
+command = "hello.bat James"
+commandFolder = "batFolder/"
+
+# create a child process object
+# to run a batch file, shell=True to be added additionally
+proc = Popen(command.split(" "), stdout=PIPE, stderr=PIPE, cwd=commandFolder, shell=True)
+
+# run the child process and capture the output and errors
+try:
+    outs, errs = proc.communicate()
+except:
+    proc.kill()
+    quit()
+
+# derive the command line response strings
+resp = outs.decode("utf-8")
+errStr = errs.decode("utf-8")
+
+# print the response string
+print("Response*************************")
+print(resp)
+print("Errors*************************")
+print(errStr)
 ```
 
 ### Example 2 - Communicate with other languages over command line
@@ -138,9 +162,10 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgwMzMyNTQsMTIwNjY2NDYxMCwtNTAzND
-EwNDEzLC0xNTE5MTI3ODQ2LDE1MzQ1NzIwNDQsMTAzMTM3Mzgw
-NSw5ODUwMzIwODIsLTExOTgwNjI1NDAsLTgzNzc3MzQ3OCwtND
-k4OTg4NTk4LDE4MDA2NzM0NjMsLTIwNTc0OTU0NTgsMTQ0NjI1
-NzE1NywxMzM4OTI5NjUwLDMxMDI4NjM3NF19
+eyJoaXN0b3J5IjpbMjE0OTAzNTU3LDc4MDMzMjU0LDEyMDY2Nj
+Q2MTAsLTUwMzQxMDQxMywtMTUxOTEyNzg0NiwxNTM0NTcyMDQ0
+LDEwMzEzNzM4MDUsOTg1MDMyMDgyLC0xMTk4MDYyNTQwLC04Mz
+c3NzM0NzgsLTQ5ODk4ODU5OCwxODAwNjczNDYzLC0yMDU3NDk1
+NDU4LDE0NDYyNTcxNTcsMTMzODkyOTY1MCwzMTAyODYzNzRdfQ
+==
 -->
