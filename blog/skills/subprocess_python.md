@@ -57,6 +57,7 @@ else:
     print("Not a perfect ping...")
 ```
 * As shown in the above example, inputs can be provided to a command or an external program via command line arguments, and command line output can be used to fetch the execution results by our python program
+* Any errors thrown by the external command can be captured in the variable `errs`
 * The above example is applicable for running external programs also instead of OS commands
 	* For example there is and exe file called "hello.exe" that takes a named command line input called `--name` and outputs the greeting
 	* python can interact with it using `commandWords = ["hello.exe", "--name", "James"]` and the output string would be "Hello James !!!"
@@ -87,8 +88,8 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDU3MjA0NCwxMDMxMzczODA1LDk4NT
-AzMjA4MiwtMTE5ODA2MjU0MCwtODM3NzczNDc4LC00OTg5ODg1
-OTgsMTgwMDY3MzQ2MywtMjA1NzQ5NTQ1OCwxNDQ2MjU3MTU3LD
-EzMzg5Mjk2NTAsMzEwMjg2Mzc0XX0=
+eyJoaXN0b3J5IjpbLTE1MTkxMjc4NDYsMTUzNDU3MjA0NCwxMD
+MxMzczODA1LDk4NTAzMjA4MiwtMTE5ODA2MjU0MCwtODM3Nzcz
+NDc4LC00OTg5ODg1OTgsMTgwMDY3MzQ2MywtMjA1NzQ5NTQ1OC
+wxNDQ2MjU3MTU3LDEzMzg5Mjk2NTAsMzEwMjg2Mzc0XX0=
 -->
