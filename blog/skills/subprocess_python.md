@@ -33,7 +33,7 @@ from subprocess import Popen, PIPE
 commandWords = ["ping", "google.com"]
 
 # create a child process object
-proc = Popen(commandWords, stdout=PIPE)
+proc = Popen(commandWords, stdout=PIPE, stderr=PIPE)
 
 # run the child process and capture the output and errors
 try:
@@ -86,8 +86,8 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1MDMyMDgyLC0xMTk4MDYyNTQwLC04Mz
-c3NzM0NzgsLTQ5ODk4ODU5OCwxODAwNjczNDYzLC0yMDU3NDk1
-NDU4LDE0NDYyNTcxNTcsMTMzODkyOTY1MCwzMTAyODYzNzRdfQ
-==
+eyJoaXN0b3J5IjpbMTAzMTM3MzgwNSw5ODUwMzIwODIsLTExOT
+gwNjI1NDAsLTgzNzc3MzQ3OCwtNDk4OTg4NTk4LDE4MDA2NzM0
+NjMsLTIwNTc0OTU0NTgsMTQ0NjI1NzE1NywxMzM4OTI5NjUwLD
+MxMDI4NjM3NF19
 -->
