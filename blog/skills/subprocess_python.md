@@ -71,7 +71,6 @@ from subprocess import Popen, PIPE
 def computeFromExternal(num1, num2):
     commandFolderPath = "compute/"
 
-    # execute command 'compute.exe 5.1 3.2'
     command = f"dotnet run {num1} {num2}"
 
     # create a child process object
@@ -131,9 +130,9 @@ Video for this post can be found [here](https://youtu.be/nsVkTslyBcE)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMzQxMDQxMywtMTUxOTEyNzg0NiwxNT
-M0NTcyMDQ0LDEwMzEzNzM4MDUsOTg1MDMyMDgyLC0xMTk4MDYy
-NTQwLC04Mzc3NzM0NzgsLTQ5ODk4ODU5OCwxODAwNjczNDYzLC
-0yMDU3NDk1NDU4LDE0NDYyNTcxNTcsMTMzODkyOTY1MCwzMTAy
-ODYzNzRdfQ==
+eyJoaXN0b3J5IjpbNTgwMjk4MTQ4LC01MDM0MTA0MTMsLTE1MT
+kxMjc4NDYsMTUzNDU3MjA0NCwxMDMxMzczODA1LDk4NTAzMjA4
+MiwtMTE5ODA2MjU0MCwtODM3NzczNDc4LC00OTg5ODg1OTgsMT
+gwMDY3MzQ2MywtMjA1NzQ5NTQ1OCwxNDQ2MjU3MTU3LDEzMzg5
+Mjk2NTAsMzEwMjg2Mzc0XX0=
 -->
