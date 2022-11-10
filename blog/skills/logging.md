@@ -75,7 +75,7 @@ logging.error("this is error log")
 * The `filename` can be a relative or absolute file path
 * In the above code example, the logs will be sent to a file named `test.log` located in the same folder as the python program
 
-### basic logging with logger objects and handlers
+### logging with logger objects and StreamHandler
 ```py
 import logging
 
@@ -122,6 +122,8 @@ consoleFormatter = logging.Formatter(
     "%(asctime)s - %(levelname)s - %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
 # ...
 ```
+### logging to files with FileHandler
+
 
 ### logging into multiple places with handlers
 
@@ -254,6 +256,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTg5NzIyODEsLTg1NTQ1Nzg2OCwtMT
-UyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mzk1NTQ2N119
+eyJoaXN0b3J5IjpbNDg5MTA3NDMyLC04NTU0NTc4NjgsLTE1Mj
+g4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0NjddfQ==
 -->
