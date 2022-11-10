@@ -53,7 +53,7 @@ except Exception as e:
 * directly using the logging module uses the root logger for creating logs
 * configuration can be done using the "basicConfig" function
 * `%(asctime)s` , `%(levelname)s` , `%(message)s` in logging format string are used to specify the position of log timestamp, log level and log level in the log string
-* 
+* Error information or stack-trace can be added to the error logs using the `exc_info` argument in the `logging.error` function  
 
 ### Main Code
 #### Creating a string
@@ -183,6 +183,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0MjAxMjExLC0yMDcwNzA4NDczLC0zND
-M5NTU0NjddfQ==
+eyJoaXN0b3J5IjpbLTY4ODEwOTA5NCwtMjA3MDcwODQ3MywtMz
+QzOTU1NDY3XX0=
 -->
