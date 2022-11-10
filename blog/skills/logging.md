@@ -95,7 +95,7 @@ consoleFormatter = logging.Formatter(
 # assign the formatter to log handler
 consoleHandler.setFormatter(consoleFormatter)
 
-# add a handler to logger object
+# add the co handler to logger object
 logger.addHandler(consoleHandler)
 
 # create logs
@@ -109,7 +109,9 @@ except Exception as e:
 
 The following steps are involved in the above program
 * Create a logger object 
-* 
+* Create a log handler that emits logs into console
+* Create a formatter object to specify the log format and and assign it to the log handler
+* Add the log handler to the logger object
 
 ### logging into multiple places with handlers
 
@@ -242,6 +244,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTE2NTc2NywtODU1NDU3ODY4LC0xNT
+eyJoaXN0b3J5IjpbMTQ2Nzg4Nzg5MiwtODU1NDU3ODY4LC0xNT
 I4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3XX0=
 -->
