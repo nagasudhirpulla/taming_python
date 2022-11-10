@@ -56,7 +56,21 @@ except Exception as e:
 * `%(asctime)s` , `%(levelname)s` , `%(message)s` in logging format string are used to specify the position of log timestamp, log level and log level in the log string
 * Error information or stack-trace can be added to the error logs using the `exc_info` argument in the `logging.error` function  
 
-### logging into files 
+### logging into files using basicConfig
+```py
+import logging
+
+# configure logging in root logger
+logging.basicConfig(format="%(asctime)s::%(levelname)s::%(message)s",
+                    level=logging.INFO,
+                    filename="test.log"
+                    )
+
+# create logs
+logging.info("info log")
+logging.warning("this is warning log")
+logging.error("this is error log")
+```
 
 ### Main Code
 #### Creating a string
@@ -186,6 +200,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzAwOTM5LC0yMDcwNzA4NDczLC0zND
+eyJoaXN0b3J5IjpbLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zND
 M5NTU0NjddfQ==
 -->
