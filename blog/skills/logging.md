@@ -31,6 +31,7 @@ In this post we will learn how to perform logging in python programs
 The below example shows how to use the `logging` module in python with very less setup code
 ```py
 import logging
+
 # logging levels in decreasing importance are
 # CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
 
@@ -49,6 +50,9 @@ try:
 except Exception as e:
     logging.error("Some error occured", exc_info=e)
 ```
+
+* 
+* 
 
 ### Main Code
 #### Creating a string
@@ -178,6 +182,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzODQyMjUwLC0yMDcwNzA4NDczLC0zND
+eyJoaXN0b3J5IjpbLTgyNTAwNDgyLC0yMDcwNzA4NDczLC0zND
 M5NTU0NjddfQ==
 -->
