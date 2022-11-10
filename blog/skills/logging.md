@@ -1,5 +1,4 @@
-
-## Skill - Strings in Python
+## Skill - Logging in Python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -140,5 +139,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDQxMzM1MV19
+eyJoaXN0b3J5IjpbMTU5MDI5NDM5Nl19
 -->
