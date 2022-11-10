@@ -73,7 +73,7 @@ logging.error("this is error log")
 ```
 * Logs can be sent to a file instead of console using the `filename` input for the `basicConfig` function as shown above
 * The `filename` can be a relative or absolute file path
-* In the above code example, the logs will be sent to a file named `test.log` located in the same folder as the python code
+* In the above code example, the logs will be sent to a file named `test.log` located in the same folder as the python program
 
 ### Main Code
 #### Creating a string
@@ -203,6 +203,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDEzNTczNSwtMTUyODg4NTYsLTIwNz
+eyJoaXN0b3J5IjpbLTg1NTQ1Nzg2OCwtMTUyODg4NTYsLTIwNz
 A3MDg0NzMsLTM0Mzk1NTQ2N119
 -->
