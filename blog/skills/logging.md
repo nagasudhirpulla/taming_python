@@ -51,7 +51,8 @@ except Exception as e:
     logging.error("Some error occured", exc_info=e)
 ```
 
-* 
+* directly using the logging module uses the root logger for creating logs
+* configuration can be done using the "basicConfig" function
 * 
 
 ### Main Code
@@ -182,6 +183,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTAwNDgyLC0yMDcwNzA4NDczLC0zND
-M5NTU0NjddfQ==
+eyJoaXN0b3J5IjpbLTE2MjAyMDc3MTYsLTIwNzA3MDg0NzMsLT
+M0Mzk1NTQ2N119
 -->
