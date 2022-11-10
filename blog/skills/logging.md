@@ -25,6 +25,7 @@ In this post we will learn how to perform logging in python programs
 
 ## Logging levels
 * Each generated log can have one of the log level among `CRITICAL`, `ERROR`, `WARNING`, `INFO`, `DEBUG`, `NOTSET`
+* The above logging levels are in the decreasing importance from left to right 
 
 ### logging minimal example
 ```py
@@ -159,5 +160,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDcxODIxMzQsLTM0Mzk1NTQ2N119
+eyJoaXN0b3J5IjpbLTIwNzA3MDg0NzMsLTM0Mzk1NTQ2N119
 -->
