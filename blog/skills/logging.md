@@ -30,7 +30,24 @@ In this post we will learn how to perform logging in python programs
 ### logging with "basicConfig"
 The below example shows how to use the `logging` module in python with very less setup code
 ```py
+import logging
+# logging levels in decreasing importance are
+# CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
 
+# configure logging in root logger
+logging.basicConfig(format="%(asctime)s::%(levelname)s::%(message)s",
+                    level=logging.INFO,
+                    filename="test.log"
+                    )
+
+# create logs
+logging.info("info log")
+logging.warning("warning log")
+
+try:
+    x = 1/0
+except Exception as e:
+    logging.error("Some error occured", exc_info=e)
 ```
 
 ### Main Code
@@ -161,6 +178,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzA1Nzg2MCwtMjA3MDcwODQ3MywtMz
-QzOTU1NDY3XX0=
+eyJoaXN0b3J5IjpbNDAzODQyMjUwLC0yMDcwNzA4NDczLC0zND
+M5NTU0NjddfQ==
 -->
