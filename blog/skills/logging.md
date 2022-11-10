@@ -75,6 +75,8 @@ logging.error("this is error log")
 * The `filename` can be a relative or absolute file path
 * In the above code example, the logs will be sent to a file named `test.log` located in the same folder as the python program
 
+### basic logging with  handlers
+
 ### logging into multiple places with handlers
 
 
@@ -206,6 +208,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE0OTU5MTc1LC04NTU0NTc4NjgsLTE1Mj
-g4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0NjddfQ==
+eyJoaXN0b3J5IjpbLTU4NTMyNzU3NCwtODU1NDU3ODY4LC0xNT
+I4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3XX0=
 -->
