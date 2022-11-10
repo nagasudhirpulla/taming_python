@@ -122,7 +122,7 @@ consoleFormatter = logging.Formatter(
     "%(asctime)s - %(levelname)s - %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
 # ...
 ```
-### logging into files with FileHandler
+### logging into files with RotatingFileHandler
 ```py
 ```
 
@@ -258,6 +258,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0Njc4NzQ4LC04NTU0NTc4NjgsLTE1Mj
-g4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0NjddfQ==
+eyJoaXN0b3J5IjpbOTcwNDkwNDY4LDY5NDY3ODc0OCwtODU1ND
+U3ODY4LC0xNTI4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3
+XX0=
 -->
