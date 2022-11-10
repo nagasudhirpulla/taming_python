@@ -92,7 +92,7 @@ consoleHandler = logging.StreamHandler()
 consoleFormatter = logging.Formatter(
     "%(asctime)s - %(levelname)s - %(message)s")
 
-# assign the format object to log handler
+# assign the formatter to log handler
 consoleHandler.setFormatter(consoleFormatter)
 
 # add a handler to logger object
@@ -106,6 +106,10 @@ try:
 except Exception as e:
     logger.error("Some error occured", exc_info=e)
 ```
+
+The following steps are involved in the above program
+* Create a logger object 
+* 
 
 ### logging into multiple places with handlers
 
@@ -238,6 +242,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM5MDUxMjIsLTg1NTQ1Nzg2OCwtMT
-UyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mzk1NTQ2N119
+eyJoaXN0b3J5IjpbMTUzOTE2NTc2NywtODU1NDU3ODY4LC0xNT
+I4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3XX0=
 -->
