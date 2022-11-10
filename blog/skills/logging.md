@@ -51,10 +51,13 @@ except Exception as e:
     logging.error("Some error occured", exc_info=e)
 ```
 
-* directly using the logging module uses the root logger for creating logs
+* directly using the logging module will use the root logger for creating logs
 * configuration can be done using the "basicConfig" function
 * `%(asctime)s` , `%(levelname)s` , `%(message)s` in logging format string are used to specify the position of log timestamp, log level and log level in the log string
-* Error information or stack-trace can be added to the error logs using the `exc_info` argument in the `logging.error` function  
+* Error information or stack-trace can be added to the error logs using the `exc_info` argument in the `logging.error` function
+* The output would be like the following
+```
+```
 
 ### logging into files with basicConfig
 ```py
@@ -291,7 +294,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDEwMzE1OSw2OTQ2Nzg3NDgsLTg1NT
-Q1Nzg2OCwtMTUyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mzk1NTQ2
-N119
+eyJoaXN0b3J5IjpbLTE3NTIzNzU1NDUsNjk0Njc4NzQ4LC04NT
+U0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0
+NjddfQ==
 -->
