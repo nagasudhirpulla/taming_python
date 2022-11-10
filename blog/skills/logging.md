@@ -27,7 +27,7 @@ In this post we will learn how to perform logging in python programs
 * Each generated log can have one of the log level among `CRITICAL`, `ERROR`, `WARNING`, `INFO`, `DEBUG`, `NOTSET`
 * The above logging levels are in the decreasing importance from left to right 
 
-### logging with basicConfig
+### logging with "basicConfig"
 The below example shows how to use the `logging` module in python with very less setup code
 ```py
 
@@ -161,6 +161,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTcwOTE4OCwtMjA3MDcwODQ3MywtMz
+eyJoaXN0b3J5IjpbLTIxMzA1Nzg2MCwtMjA3MDcwODQ3MywtMz
 QzOTU1NDY3XX0=
 -->
