@@ -116,7 +116,11 @@ The following steps are involved in the above program
 
 ### specify log timestamp format in the formatter object
 ```py
-
+# ...
+# create a formatter object to specity the log format
+consoleFormatter = logging.Formatter(
+    "%(asctime)s - %(levelname)s - %(message)s")
+# ...
 ```
 
 ### logging into multiple places with handlers
@@ -250,6 +254,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjY0NzM0MiwtODU1NDU3ODY4LC0xNT
+eyJoaXN0b3J5IjpbLTY2OTYzMzE3OCwtODU1NDU3ODY4LC0xNT
 I4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3XX0=
 -->
