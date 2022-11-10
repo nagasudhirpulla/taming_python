@@ -77,7 +77,34 @@ logging.error("this is error log")
 
 ### basic logging with logger objects and handlers
 ```py
+import logging
 
+# create a logger object
+logger = logging.getLogger("test_app")
+
+# set the logging level
+logger.setLevel(logging.INFO)
+
+# create a streamHandler to log into console
+consoleHandler = logging.StreamHandler()
+
+# create a formatter object to specity the log format
+consoleFormatter = logging.Formatter(
+    "%(asctime)s - %(levelname)s - %(message)s")
+
+# assign the format object to log handler
+consoleHandler.setFormatter(consoleFormatter)
+
+# add a handler to logger object
+logger.addHandler(consoleHandler)
+
+# create logs
+logger.info("Hello World!!!")
+
+try:
+    x = 1/0
+except Exception as e:
+    logger.error("Some error occured", exc_info=e)
 ```
 
 ### logging into multiple places with handlers
@@ -211,6 +238,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzM2NTkwOCwtODU1NDU3ODY4LC0xNT
-I4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3XX0=
+eyJoaXN0b3J5IjpbLTE1MjM5MDUxMjIsLTg1NTQ1Nzg2OCwtMT
+UyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mzk1NTQ2N119
 -->
