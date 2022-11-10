@@ -52,7 +52,7 @@ except Exception as e:
 
 * directly using the logging module uses the root logger for creating logs
 * configuration can be done using the "basicConfig" function
-* logging format can be 
+* logging format
 
 ### Main Code
 #### Creating a string
@@ -182,6 +182,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5MjYzNzU3LC0yMDcwNzA4NDczLC0zND
+eyJoaXN0b3J5IjpbODAwMTc2NTEyLC0yMDcwNzA4NDczLC0zND
 M5NTU0NjddfQ==
 -->
