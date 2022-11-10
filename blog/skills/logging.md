@@ -124,6 +124,31 @@ consoleFormatter = logging.Formatter(
 ```
 ### logging into files with RotatingFileHandler
 ```py
+import logging
+from logging.handlers import RotatingFileHandler
+
+
+logger = logging.getLogger("fLogger")
+
+logger.setLevel(logging.INFO)
+
+fileHandler = RotatingFileHandler("test.log", backupCount=100, maxBytes=1)
+
+fileHandler.namer = lambda name: name.replace(".log", "") + ".log"
+
+logFormatter = logging.Formatter(
+    "%(asctime)s - %(levelname)s - %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
+fileHandler.setFormatter(logFormatter)
+
+logger.addHandler(fileHandler)
+
+logger.info("info message")
+logger.warning("warn message")
+
+try:
+    x = 1/0
+except Exception as e:
+    logger.error("Some error occured", exc_info=e)
 ```
 
 
@@ -258,7 +283,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwNDkwNDY4LDY5NDY3ODc0OCwtODU1ND
-U3ODY4LC0xNTI4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3
-XX0=
+eyJoaXN0b3J5IjpbLTE3NTgzNTM5NzQsNjk0Njc4NzQ4LC04NT
+U0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0
+NjddfQ==
 -->
