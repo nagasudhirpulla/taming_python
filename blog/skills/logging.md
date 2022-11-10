@@ -141,13 +141,15 @@ fileHandler = RotatingFileHandler("test.log", backupCount=100, maxBytes=1024)
 # user namer function of the handler to keep the .log extension at the end of the file name
 fileHandler.namer = lambda name: name.replace(".log", "") + ".log"
 
-# create a log formatter object and s
+# create a log formatter object and assign to the log handler
 logFormatter = logging.Formatter(
     "%(asctime)s - %(levelname)s - %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
 fileHandler.setFormatter(logFormatter)
 
+# add log handler to logger object
 logger.addHandler(fileHandler)
 
+# generate logs with logger object
 logger.info("info message")
 logger.warning("warn message")
 
@@ -289,7 +291,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk1NDg2MzcsNjk0Njc4NzQ4LC04NT
-U0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0
-NjddfQ==
+eyJoaXN0b3J5IjpbMTIzNDEwMzE1OSw2OTQ2Nzg3NDgsLTg1NT
+Q1Nzg2OCwtMTUyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mzk1NTQ2
+N119
 -->
