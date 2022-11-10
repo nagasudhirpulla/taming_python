@@ -35,6 +35,7 @@ Here are the goals and skills in this tutorial series
 * ['any', 'all' keywords in python](https://nagasudhir.blogspot.com/2021/05/any-all-keywords-in-python.html)
 * [Handling errors in python](https://nagasudhir.blogspot.com/2020/05/hnadling-errors-in-python.html)
 * [Read named command line inputs with argparse module](https://nagasudhir.blogspot.com/2020/06/named-command-line-arguments-using.html)
+* [Run external commands or other languages using python subprocess module](https://nagasudhir.blogspot.com/2022/11/run-external-commands-or-other.html)
 
 #### Package management skills
 * [Install and manage python packages](https://nagasudhir.blogspot.com/2020/05/install-and-manage-packages-in-python.html)
@@ -152,11 +153,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTk1MTMwMjEwMSwyMTM3NT
-UwODkzLDgwOTU0MjcsNDgwNjA4ODM0LDkzMDk3MTMzOCwtMzk5
-OTU0ODc3LDExNTIzMjMwNzUsMTczOTgxOTAzMiwxMjgwNTk4OT
-A4LDU2NjQ4MTAzNiwtMTkwNjUzODE2NCwtMjEwOTUzNjI5Miwt
-MTI2MTE0MzI3LC0xNzM4NTExNDI4LDE0NjQ5MDY3MDYsLTE1Nj
-cxNDU1MzIsLTE5MTEwNjQxNTcsMTcwNTE5MDYxMiw4MDYxMzc2
-MDcsOTk3Njg4MTM0XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTg2NzA3NzgxNCwtOTUxMz
+AyMTAxLDIxMzc1NTA4OTMsODA5NTQyNyw0ODA2MDg4MzQsOTMw
+OTcxMzM4LC0zOTk5NTQ4NzcsMTE1MjMyMzA3NSwxNzM5ODE5MD
+MyLDEyODA1OTg5MDgsNTY2NDgxMDM2LC0xOTA2NTM4MTY0LC0y
+MTA5NTM2MjkyLC0xMjYxMTQzMjcsLTE3Mzg1MTE0MjgsMTQ2ND
+kwNjcwNiwtMTU2NzE0NTUzMiwtMTkxMTA2NDE1NywxNzA1MTkw
+NjEyLDgwNjEzNzYwN119
 -->
