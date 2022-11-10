@@ -134,12 +134,14 @@ logger = logging.getLogger("fLogger")
 logger.setLevel(logging.INFO)
 
 # create a log handler that dumps logs into a file named 'test.log'
-# backupCount=100 means, Only latest 100 log files will be retained and older log files will be deleted
-# maxBytes=1024 means new log file will be generated if log file exeeds 1024 bytes
+# backupCount=100 means, only latest 100 log files will be retained and older log files will be deleted
+# maxBytes=1024 means, new log file will be generated if log file exeeds 1024 bytes
 fileHandler = RotatingFileHandler("test.log", backupCount=100, maxBytes=1024)
 
+# user namer function of the handler to keep the .log extension at the end of the file name
 fileHandler.namer = lambda name: name.replace(".log", "") + ".log"
 
+# create a log formatter object and s
 logFormatter = logging.Formatter(
     "%(asctime)s - %(levelname)s - %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
 fileHandler.setFormatter(logFormatter)
@@ -287,7 +289,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTczNzU0MjUsNjk0Njc4NzQ4LC04NT
+eyJoaXN0b3J5IjpbLTE1NTk1NDg2MzcsNjk0Njc4NzQ4LC04NT
 U0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0
 NjddfQ==
 -->
