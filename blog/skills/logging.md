@@ -71,7 +71,9 @@ logging.info("info log")
 logging.warning("this is warning log")
 logging.error("this is error log")
 ```
-* `basicConfig`
+* Logs can be sent to a file instead of console using the `filename` input for the `basicConfig` function as shown above
+* The `filename` can be a relative or absolute file path
+* In the above code example, the logs will be sent to a file named `tesy`
 
 ### Main Code
 #### Creating a string
@@ -201,6 +203,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0ODc5MjgsLTE1Mjg4ODU2LC0yMDcwNz
-A4NDczLC0zNDM5NTU0NjddfQ==
+eyJoaXN0b3J5IjpbLTgwMjkwMjA5NCwtMTUyODg4NTYsLTIwNz
+A3MDg0NzMsLTM0Mzk1NTQ2N119
 -->
