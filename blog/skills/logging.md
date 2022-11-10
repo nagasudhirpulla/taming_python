@@ -14,7 +14,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 In this post we will learn how to perform logging in python programs
 
 ## Why logging
-
+* Logging is important for observability of the application performance and security
 
 
 ### Main Code
@@ -145,5 +145,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0Mzk1NTQ2N119
+eyJoaXN0b3J5IjpbLTU3OTEyMjM2NSwtMzQzOTU1NDY3XX0=
 -->
