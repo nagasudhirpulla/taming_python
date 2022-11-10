@@ -127,7 +127,6 @@ consoleFormatter = logging.Formatter(
 import logging
 from logging.handlers import RotatingFileHandler
 
-
 logger = logging.getLogger("fLogger")
 
 logger.setLevel(logging.INFO)
@@ -283,7 +282,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTgzNTM5NzQsNjk0Njc4NzQ4LC04NT
+eyJoaXN0b3J5IjpbLTE1Njc5NTU4MTIsNjk0Njc4NzQ4LC04NT
 U0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0
 NjddfQ==
 -->
