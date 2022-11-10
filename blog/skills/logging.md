@@ -9,7 +9,13 @@
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
-**string** means a group of characters or letters
+<hr>
+
+In this post we will learn how to perform logging in python programs
+
+## Why logging
+
+
 
 ### Main Code
 #### Creating a string
@@ -139,5 +145,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDI5NDM5Nl19
+eyJoaXN0b3J5IjpbLTM0Mzk1NTQ2N119
 -->
