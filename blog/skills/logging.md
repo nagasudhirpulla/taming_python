@@ -134,8 +134,9 @@ logger = logging.getLogger("fLogger")
 logger.setLevel(logging.INFO)
 
 # create a log handler that dumps logs into a file named 'test.log'
-# backupCount=100 means, Only latest 100 log f  
-fileHandler = RotatingFileHandler("test.log", backupCount=100, maxBytes=1)
+# backupCount=100 means, Only latest 100 log files will be retained and older log files will be deleted
+# maxBytes=1024 means new log file will be generated if log file exeeds 1024 bytes
+fileHandler = RotatingFileHandler("test.log", backupCount=100, maxBytes=1024)
 
 fileHandler.namer = lambda name: name.replace(".log", "") + ".log"
 
@@ -286,7 +287,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjI2MTkzOCw2OTQ2Nzg3NDgsLTg1NT
-Q1Nzg2OCwtMTUyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mzk1NTQ2
-N119
+eyJoaXN0b3J5IjpbLTE1NTczNzU0MjUsNjk0Njc4NzQ4LC04NT
+U0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0
+NjddfQ==
 -->
