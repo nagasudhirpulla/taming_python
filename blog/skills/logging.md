@@ -21,7 +21,7 @@ In this post we will learn how to perform logging in python programs
 
 ## Python "logging" module
 * `logging` module can be used for generating logs in python programs
-* logging module comes installed as a python module, so no need to install se
+* `logging` module comes installed as a python module, so no need to install separately
 
 ### Main Code
 #### Creating a string
@@ -151,5 +151,5 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjkwMTA5LC0zNDM5NTU0NjddfQ==
+eyJoaXN0b3J5IjpbLTU4NDYzMDI3NSwtMzQzOTU1NDY3XX0=
 -->
