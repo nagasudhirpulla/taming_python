@@ -29,6 +29,7 @@ In this post we will learn how to perform logging in python programs
 
 ### logging with "basicConfig"
 The below example shows how to use the `logging` module in python with very less setup code
+
 ```py
 import logging
 
@@ -54,6 +55,8 @@ except Exception as e:
 * configuration can be done using the "basicConfig" function
 * `%(asctime)s` , `%(levelname)s` , `%(message)s` in logging format string are used to specify the position of log timestamp, log level and log level in the log string
 * Error information or stack-trace can be added to the error logs using the `exc_info` argument in the `logging.error` function  
+
+### logging into files 
 
 ### Main Code
 #### Creating a string
@@ -183,6 +186,6 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4ODEwOTA5NCwtMjA3MDcwODQ3MywtMz
-QzOTU1NDY3XX0=
+eyJoaXN0b3J5IjpbMTA3NzAwOTM5LC0yMDcwNzA4NDczLC0zND
+M5NTU0NjddfQ==
 -->
