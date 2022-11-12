@@ -56,7 +56,7 @@ except Exception as e:
 * `%(asctime)s` , `%(levelname)s` , `%(message)s` in logging format string are used to specify the position of log timestamp, log level and log level in the log string
 * Error information or stack-trace can be added to the error logs using the `exc_info` argument in the `logging.error` function
 * The output would be like the following
-```shell
+```bash
 2022-11-10 23:03:15,805::INFO::info log
 2022-11-10 23:03:15,805::WARNING::warning log
 2022-11-10 23:03:15,805::ERROR::Some error occured
@@ -301,7 +301,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTUxOTcwNjYsNjk0Njc4NzQ4LC04NT
+eyJoaXN0b3J5IjpbLTE3ODkyMDI1NDIsNjk0Njc4NzQ4LC04NT
 U0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0
 NjddfQ==
 -->
