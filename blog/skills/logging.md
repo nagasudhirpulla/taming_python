@@ -15,8 +15,8 @@ In this post we will learn how to perform logging in python programs
 
 ## Why logging
 * Logging can help to achieve observability of the performance and security of the application
-* Errors can be debugged easy by looking at generated logs
-* Evolution of the application state can be traced with logs
+* Errors can be debugged easy by looking at logs
+* Changes in application state can be traced with logs
 * Security and performance issues can be addressed easily by analyzing logs  
 
 ## Python "logging" module
@@ -301,7 +301,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODkyMDI1NDIsNjk0Njc4NzQ4LC04NT
-U0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0
-NjddfQ==
+eyJoaXN0b3J5IjpbNTQ0NzY0NDM4LDY5NDY3ODc0OCwtODU1ND
+U3ODY4LC0xNTI4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3
+XX0=
 -->
