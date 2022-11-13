@@ -170,7 +170,9 @@ except Exception as e:
 ```
 * `RotatingFileHandler` can be used if we want to logs be written to a new file after a certain file size
 * The old logs will be sent to a new file after the size threshold. In the above example, the log files will be generated like test.log, test.1.log, test.2.log, ... 
-* 
+* `maxBytes=1024` in `RotatingFileHandler` means, new log file will be generated if log file exeeds 1024 bytes
+* `backupCount=100` in `RotatingFileHandler` means, only latest 100 log files will be retained and older log files will be deleted
+* Using this approach will avoid huge 
 
 ### logging into multiple places with handlers
 
@@ -303,7 +305,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTY3Mjg5Nyw2OTQ2Nzg3NDgsLTg1NT
-Q1Nzg2OCwtMTUyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mzk1NTQ2
-N119
+eyJoaXN0b3J5IjpbMjc2MTA1MDQyLDY5NDY3ODc0OCwtODU1ND
+U3ODY4LC0xNTI4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3
+XX0=
 -->
