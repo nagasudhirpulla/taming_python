@@ -179,9 +179,12 @@ except Exception as e:
 
 <hr/>
 
+## References
+* Official documentation - https://docs.python.org/3/library/logging.html
+
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMjU2NDQ3MCw2OTQ2Nzg3NDgsLTg1NT
+eyJoaXN0b3J5IjpbLTM3NTk0OTYwNSw2OTQ2Nzg3NDgsLTg1NT
 Q1Nzg2OCwtMTUyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mzk1NTQ2
 N119
 -->
