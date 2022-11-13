@@ -168,7 +168,9 @@ try:
 except Exception as e:
     logger.error("Some error occured", exc_info=e)
 ```
-* `RotatingFileHandler` can be used if we want to logs be written to a new file after a certain f
+* `RotatingFileHandler` can be used if we want to logs be written to a new file after a certain file size
+* The old logs will be sent to a new file after the size threshold. In the above example, the log files will be generated like test.log, test.1.log, test.2.log, ... 
+* 
 
 ### logging into multiple places with handlers
 
@@ -301,7 +303,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc0MTgzOTgsNjk0Njc4NzQ4LC04NT
-U0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0
-NjddfQ==
+eyJoaXN0b3J5IjpbMTU2OTY3Mjg5Nyw2OTQ2Nzg3NDgsLTg1NT
+Q1Nzg2OCwtMTUyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mzk1NTQ2
+N119
 -->
