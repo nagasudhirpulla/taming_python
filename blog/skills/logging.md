@@ -172,7 +172,7 @@ except Exception as e:
 * The old logs will be sent to a new file after the size threshold. In the above example, the log files will be generated like test.log, test.1.log, test.2.log, ... 
 * `maxBytes=1024` in `RotatingFileHandler` means, new log file will be generated if log file exeeds 1024 bytes
 * `backupCount=100` in `RotatingFileHandler` means, only latest 100 log files will be retained and older log files will be deleted
-* Using this approach will avoid huge log file sizes as the python scripts emit logs daily. In some cases huge size log files (like 2GB log file) will even crash the python code
+* Using this approach will avoid huge log file sizes while the python scripts continuously emit logs. In some cases huge size log files (like 2GB log file) will even crash the python code
 
 ### logging into multiple places with handlers
 
@@ -305,7 +305,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwNDM3NTk5LDY5NDY3ODc0OCwtODU1ND
-U3ODY4LC0xNTI4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3
-XX0=
+eyJoaXN0b3J5IjpbLTIwNTA3OTk0ODksNjk0Njc4NzQ4LC04NT
+U0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0
+NjddfQ==
 -->
