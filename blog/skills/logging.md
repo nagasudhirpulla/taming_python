@@ -21,7 +21,7 @@ In this post we will learn how to perform logging in python programs
 
 ## Python "logging" module
 * `logging` module can be used for generating logs in python programs
-* `logging` module comes installed as a python module, so no need to install separately
+* `logging` module comes pre-installed with python, so no need to install separately
 
 ## Logging levels
 * Each generated log can have one of the log level among `CRITICAL`, `ERROR`, `WARNING`, `INFO`, `DEBUG`, `NOTSET`
@@ -301,7 +301,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0NzY0NDM4LDY5NDY3ODc0OCwtODU1ND
-U3ODY4LC0xNTI4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3
-XX0=
+eyJoaXN0b3J5IjpbMTYyMDcxNzM1OSw2OTQ2Nzg3NDgsLTg1NT
+Q1Nzg2OCwtMTUyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mzk1NTQ2
+N119
 -->
