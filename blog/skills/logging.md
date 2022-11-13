@@ -117,7 +117,7 @@ except Exception as e:
 ```
 
 The following steps are involved in the above program
-* Create a logger object with a name using `getLogger` function
+* Create a named logger object using `getLogger` function
 * Create a log handler that emits logs into console. `logging.StreamHandler` emits logs into console
 * Create a formatter object to specify the log format and and assign it to the log handler
 * Add the log handler to the logger object
@@ -301,7 +301,7 @@ You can run these codes online at https://www.programiz.com/python-programming/o
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDcxNzM1OSw2OTQ2Nzg3NDgsLTg1NT
+eyJoaXN0b3J5IjpbMTI0NDczNDc0Niw2OTQ2Nzg3NDgsLTg1NT
 Q1Nzg2OCwtMTUyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mzk1NTQ2
 N119
 -->
