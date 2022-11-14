@@ -175,7 +175,6 @@ except Exception as e:
 * Using this approach will avoid huge log file sizes while the python scripts continuously emit logs. In some cases huge size log files (like 2GB log file) will even crash the python code
 
 ### rotate log files periodically using "TimedRotatingFileHandler"
-
 ```py
 import logging
 from logging.handlers import TimedRotatingFileHandler
@@ -212,6 +211,8 @@ logger.info("info message")
 logger.warning("warn message")
 
 ```
+* `TimedRotatingFileHandler` can be used if we want to periodically rotate logs. This can be useful to easily trace the log files based on date or time
+* The old logs will be sent to a new file after the time in threshold. In the above example, the log files will be generated like test.log, test.1.log, test.2.log, ... 
 
 ### logging into multiple places with handlers
 * Multiple log handlers that can send logs to multiple locations (like file, console etc.) can be added to a single logger object
@@ -266,8 +267,8 @@ except Exception as e:
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDI5Mzc3MTgsMTkxMzE2Njk4OCwxNj
-UxMzQyODksMTY2MDc1MDMyNiwxNzA5MzM3MTI0LC0zNzU5NDk2
-MDUsNjk0Njc4NzQ4LC04NTU0NTc4NjgsLTE1Mjg4ODU2LC0yMD
-cwNzA4NDczLC0zNDM5NTU0NjddfQ==
+eyJoaXN0b3J5IjpbLTUzMDU0ODgzOSwxOTEzMTY2OTg4LDE2NT
+EzNDI4OSwxNjYwNzUwMzI2LDE3MDkzMzcxMjQsLTM3NTk0OTYw
+NSw2OTQ2Nzg3NDgsLTg1NTQ1Nzg2OCwtMTUyODg4NTYsLTIwNz
+A3MDg0NzMsLTM0Mzk1NTQ2N119
 -->
