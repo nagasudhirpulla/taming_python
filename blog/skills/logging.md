@@ -263,6 +263,42 @@ except Exception as e:
 ### zip the rotated log files to save storage space
 
 ```py
+import logging
+from logging.handlers import RotatingFileHandler
+import os
+import zipfile
+from os.path import basename
+
+# custom log rotation function to zip rotated log files
+def rotator(source, dest):
+    # rotated log file is zipped and the original log file will be deleted 
+    zipfile.ZipFile(dest, 'w', zipfile.ZIP_DEFLATED).write(
+        source, basename(source))
+    os.remove(source)
+
+# create a logger named zipLogger
+logger = logging.getLogger("zipLogger")
+logger.setLevel(logging.INFO)
+
+# create log handler to store logs as files with log rotation for every 1024 bytes and retain only latest 100 log files
+fileHandler = RotatingFileHandler("logs/test.log", backupCount=100, maxBytes=1024)
+
+# set log formatting for the log handler
+fileHandler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+
+# setup custom log rotation function to zip rotated files
+fileHandler.rotator = rotator
+
+# rename the rotated files to have the .zip extension
+fileHandler.namer = lambda name: name.replace(".log", "") + ".zip"
+
+# add the log handler to logger
+logger.addHandler(fileHandler)
+
+# create log messages
+logger.info("info message")
+logger.warning("warn message")
+logger.error("error message")
 
 ``` 
 
@@ -273,9 +309,9 @@ except Exception as e:
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTYwMTU3MiwxMDc2MjA5NCwtMTc4Nj
-MxODY2OSwxOTEzMTY2OTg4LDE2NTEzNDI4OSwxNjYwNzUwMzI2
-LDE3MDkzMzcxMjQsLTM3NTk0OTYwNSw2OTQ2Nzg3NDgsLTg1NT
-Q1Nzg2OCwtMTUyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mzk1NTQ2
-N119
+eyJoaXN0b3J5IjpbNTU2NDUzODQ5LDEwNzYyMDk0LC0xNzg2Mz
+E4NjY5LDE5MTMxNjY5ODgsMTY1MTM0Mjg5LDE2NjA3NTAzMjYs
+MTcwOTMzNzEyNCwtMzc1OTQ5NjA1LDY5NDY3ODc0OCwtODU1ND
+U3ODY4LC0xNTI4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3
+XX0=
 -->
