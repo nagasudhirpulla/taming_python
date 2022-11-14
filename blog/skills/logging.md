@@ -174,6 +174,12 @@ except Exception as e:
 * `backupCount=100` in `RotatingFileHandler` means, only latest 100 log files will be retained and older log files will be deleted
 * Using this approach will avoid huge log file sizes while the python scripts continuously emit logs. In some cases huge size log files (like 2GB log file) will even crash the python code
 
+### rotate log files periodically using "TimedRotatingFileHandler"
+
+```py
+
+```
+
 ### logging into multiple places with handlers
 * Multiple log handlers that can send logs to multiple locations (like file, console etc.) can be added to a single logger object
 * Logger object can send logs to multiple locations using this approach 
@@ -220,7 +226,6 @@ except Exception as e:
 * In the above program, `fileHandler` sends logs to a file and `consoleHandler` sends logs to console
 * Both handlers are added to the logger object. Hence logs can be sent to both file and console.
 
-
 <hr/>
 
 ## References
@@ -228,7 +233,7 @@ except Exception as e:
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODgxNjE1MiwxNjUxMzQyODksMTY2MD
+eyJoaXN0b3J5IjpbMTkxMzE2Njk4OCwxNjUxMzQyODksMTY2MD
 c1MDMyNiwxNzA5MzM3MTI0LC0zNzU5NDk2MDUsNjk0Njc4NzQ4
 LC04NTU0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zND
 M5NTU0NjddfQ==
