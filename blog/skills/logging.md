@@ -262,7 +262,8 @@ except Exception as e:
 
 ### zip the rotated log files to save storage space
 * Custom log rotation function can be used to customize log rotation process
-* In this example we are compressing the rotated log file as a zip file using `zipfile` python module 
+* For this case, we are compressing the rotated log file as a zip file using `zipfile` python module
+* This approach is very useful to save storage by compressing rotated logs 
 ```py
 import logging
 from logging.handlers import RotatingFileHandler
@@ -310,9 +311,9 @@ logger.error("error message")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTU3NjY5MywxMDc2MjA5NCwtMTc4Nj
-MxODY2OSwxOTEzMTY2OTg4LDE2NTEzNDI4OSwxNjYwNzUwMzI2
-LDE3MDkzMzcxMjQsLTM3NTk0OTYwNSw2OTQ2Nzg3NDgsLTg1NT
-Q1Nzg2OCwtMTUyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mzk1NTQ2
-N119
+eyJoaXN0b3J5IjpbLTIxMjI1MzI2MTMsMTA3NjIwOTQsLTE3OD
+YzMTg2NjksMTkxMzE2Njk4OCwxNjUxMzQyODksMTY2MDc1MDMy
+NiwxNzA5MzM3MTI0LC0zNzU5NDk2MDUsNjk0Njc4NzQ4LC04NT
+U0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0
+NjddfQ==
 -->
