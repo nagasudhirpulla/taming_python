@@ -217,8 +217,8 @@ except Exception as e:
     logger.error("Some error occured", exc_info=e)
 
 ```
-* In the above program, fileHandler sends logs to a file and consoleHandler sends logs to console
-* Both the handlers are added to the logger object. Hence logs can be sent to both file and console.
+* In the above program, `fileHandler` sends logs to a file and `consoleHandler` sends logs to console
+* Both handlers are added to the logger object. Hence logs can be sent to both file and console.
 
 
 <hr/>
@@ -228,8 +228,8 @@ except Exception as e:
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc1OTY2MDMsMTY1MTM0Mjg5LDE2Nj
-A3NTAzMjYsMTcwOTMzNzEyNCwtMzc1OTQ5NjA1LDY5NDY3ODc0
-OCwtODU1NDU3ODY4LC0xNTI4ODg1NiwtMjA3MDcwODQ3MywtMz
-QzOTU1NDY3XX0=
+eyJoaXN0b3J5IjpbMTUwODgxNjE1MiwxNjUxMzQyODksMTY2MD
+c1MDMyNiwxNzA5MzM3MTI0LC0zNzU5NDk2MDUsNjk0Njc4NzQ4
+LC04NTU0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zND
+M5NTU0NjddfQ==
 -->
