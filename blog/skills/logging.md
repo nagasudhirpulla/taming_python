@@ -260,6 +260,11 @@ except Exception as e:
 * In the above program, `fileHandler` sends logs to a file and `consoleHandler` sends logs to console
 * Both handlers are added to the logger object. Hence logs can be sent to both file and console.
 
+### zip the rotated log files to save storage space
+
+```py
+``` 
+
 <hr/>
 
 ## References
@@ -267,8 +272,8 @@ except Exception as e:
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1ODgzMjEzLC0xNzg2MzE4NjY5LDE5MT
-MxNjY5ODgsMTY1MTM0Mjg5LDE2NjA3NTAzMjYsMTcwOTMzNzEy
-NCwtMzc1OTQ5NjA1LDY5NDY3ODc0OCwtODU1NDU3ODY4LC0xNT
-I4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3XX0=
+eyJoaXN0b3J5IjpbMTA3NjIwOTQsLTE3ODYzMTg2NjksMTkxMz
+E2Njk4OCwxNjUxMzQyODksMTY2MDc1MDMyNiwxNzA5MzM3MTI0
+LC0zNzU5NDk2MDUsNjk0Njc4NzQ4LC04NTU0NTc4NjgsLTE1Mj
+g4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0NjddfQ==
 -->
