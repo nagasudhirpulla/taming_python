@@ -175,7 +175,8 @@ except Exception as e:
 * Using this approach will avoid huge log file sizes while the python scripts continuously emit logs. In some cases huge size log files (like 2GB log file) will even crash the python code
 
 ### logging into multiple places with handlers
-
+* Multiple log handlers that can send logs to multiple locations (like file, console etc.) can be added to a single logger object
+* Hence logger object can send logs to multiple locations 
 ```py
 import logging
 from logging.handlers import RotatingFileHandler
@@ -224,7 +225,8 @@ except Exception as e:
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTM0Mjg5LDE2NjA3NTAzMjYsMTcwOT
-MzNzEyNCwtMzc1OTQ5NjA1LDY5NDY3ODc0OCwtODU1NDU3ODY4
-LC0xNTI4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3XX0=
+eyJoaXN0b3J5IjpbNzA4NjcxMTk2LDE2NTEzNDI4OSwxNjYwNz
+UwMzI2LDE3MDkzMzcxMjQsLTM3NTk0OTYwNSw2OTQ2Nzg3NDgs
+LTg1NTQ1Nzg2OCwtMTUyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mz
+k1NTQ2N119
 -->
