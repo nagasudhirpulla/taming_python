@@ -176,6 +176,8 @@ except Exception as e:
 
 ### logging into multiple places with handlers
 
+```py
+```
 
 <hr/>
 
@@ -184,7 +186,7 @@ except Exception as e:
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NTk0OTYwNSw2OTQ2Nzg3NDgsLTg1NT
-Q1Nzg2OCwtMTUyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mzk1NTQ2
-N119
+eyJoaXN0b3J5IjpbMTcwOTMzNzEyNCwtMzc1OTQ5NjA1LDY5ND
+Y3ODc0OCwtODU1NDU3ODY4LC0xNTI4ODg1NiwtMjA3MDcwODQ3
+MywtMzQzOTU1NDY3XX0=
 -->
