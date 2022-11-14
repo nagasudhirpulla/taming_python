@@ -194,7 +194,7 @@ logger.setLevel(logging.INFO)
 # S - Seconds, M - Minutes, H - Hours, D - Days, 
 # midnight - roll over at midnight, W{0-6} - roll over on a certain day; 0 - Monday
 fileHandler = TimedRotatingFileHandler(
-    "test.log", backupCount=100, when='s', interval=1)
+    "test.log", backupCount=100, when='d', interval=1)
 
 # use namer function of the handler to keep the .log extension at the end of the file name
 fileHandler.namer = lambda name: name.replace(".log", "") + ".log"
@@ -212,7 +212,7 @@ logger.warning("warn message")
 
 ```
 * `TimedRotatingFileHandler` can be used if we want to periodically rotate logs. This can be useful to easily trace the log files based on date or time
-* The old logs will be sent to a new file after the time in threshold. In the above example, the log files will be generated like test.log, test.1.log, test.2.log, ... 
+* The old logs will be sent to a new file after the configured time interval. In the above example, the log files will be generated like test.log, test.test.2022-11-14_07-37-46.log, ... 
 
 ### logging into multiple places with handlers
 * Multiple log handlers that can send logs to multiple locations (like file, console etc.) can be added to a single logger object
@@ -267,8 +267,8 @@ except Exception as e:
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDU0ODgzOSwxOTEzMTY2OTg4LDE2NT
-EzNDI4OSwxNjYwNzUwMzI2LDE3MDkzMzcxMjQsLTM3NTk0OTYw
-NSw2OTQ2Nzg3NDgsLTg1NTQ1Nzg2OCwtMTUyODg4NTYsLTIwNz
-A3MDg0NzMsLTM0Mzk1NTQ2N119
+eyJoaXN0b3J5IjpbLTE3ODYzMTg2NjksMTkxMzE2Njk4OCwxNj
+UxMzQyODksMTY2MDc1MDMyNiwxNzA5MzM3MTI0LC0zNzU5NDk2
+MDUsNjk0Njc4NzQ4LC04NTU0NTc4NjgsLTE1Mjg4ODU2LC0yMD
+cwNzA4NDczLC0zNDM5NTU0NjddfQ==
 -->
