@@ -177,6 +177,39 @@ except Exception as e:
 ### rotate log files periodically using "TimedRotatingFileHandler"
 
 ```py
+import logging
+from logging.handlers import TimedRotatingFileHandler
+
+# create a logger named fLogger
+logger = logging.getLogger("fLogger")
+
+# set logging level
+logger.setLevel(logging.INFO)
+
+# create a log handler
+# backupCount=100 means, only latest 100 log files will be retained and older log files will be deleted
+# interval=1 means the log rotation interval is 1
+# when='d' means the rotating interval will be in terms of days
+# so logs will be rotated every 24 hours(1 day) in this example
+# Following are the options for 'when' parameter
+# S - Seconds, M - Minutes, H - Hours, D - Days, 
+# midnight - roll over at midnight, W{0-6} - roll over on a certain day; 0 - Monday
+fileHandler = TimedRotatingFileHandler(
+    "test.log", backupCount=100, when='s', interval=1)
+
+# use namer function of the handler to keep the .log extension at the end of the file name
+fileHandler.namer = lambda name: name.replace(".log", "") + ".log"
+
+# create a log formatter object and assign to the log handler
+logFormatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+fileHandler.setFormatter(logFormatter)
+
+# add log handler to logger object
+logger.addHandler(fileHandler)
+
+# generate logs with logger object
+logger.info("info message")
+logger.warning("warn message")
 
 ```
 
@@ -233,8 +266,8 @@ except Exception as e:
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTM4MjMyLDE5MTMxNjY5ODgsMTY1MT
-M0Mjg5LDE2NjA3NTAzMjYsMTcwOTMzNzEyNCwtMzc1OTQ5NjA1
-LDY5NDY3ODc0OCwtODU1NDU3ODY4LC0xNTI4ODg1NiwtMjA3MD
-cwODQ3MywtMzQzOTU1NDY3XX0=
+eyJoaXN0b3J5IjpbLTExMDI5Mzc3MTgsMTkxMzE2Njk4OCwxNj
+UxMzQyODksMTY2MDc1MDMyNiwxNzA5MzM3MTI0LC0zNzU5NDk2
+MDUsNjk0Njc4NzQ4LC04NTU0NTc4NjgsLTE1Mjg4ODU2LC0yMD
+cwNzA4NDczLC0zNDM5NTU0NjddfQ==
 -->
