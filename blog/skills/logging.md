@@ -261,7 +261,8 @@ except Exception as e:
 * Both handlers are added to the logger object. Hence logs can be sent to both file and console.
 
 ### zip the rotated log files to save storage space
-
+* Custom log rotation function can be used to customize log rotation process
+* In this example we are zip the rotated log file using `zipfile` python module 
 ```py
 import logging
 from logging.handlers import RotatingFileHandler
@@ -309,7 +310,7 @@ logger.error("error message")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2NDUzODQ5LDEwNzYyMDk0LC0xNzg2Mz
+eyJoaXN0b3J5IjpbNzc3MDEyMjA0LDEwNzYyMDk0LC0xNzg2Mz
 E4NjY5LDE5MTMxNjY5ODgsMTY1MTM0Mjg5LDE2NjA3NTAzMjYs
 MTcwOTMzNzEyNCwtMzc1OTQ5NjA1LDY5NDY3ODc0OCwtODU1ND
 U3ODY4LC0xNTI4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3
