@@ -177,6 +177,43 @@ except Exception as e:
 ### logging into multiple places with handlers
 
 ```py
+import logging
+from logging.handlers import RotatingFileHandler
+
+# create a logger object names myLogger
+logger = logging.getLogger("myLogger")
+logger.setLevel(logging.INFO)
+#################
+# create a file handler that logs into a file
+fileHandler = RotatingFileHandler("test.log", backupCount=100, maxBytes=1024)
+fileHandler.namer = lambda name: name.replace(".log", "") + ".log"
+
+# create a log formatter object and assign to the log handler
+logFormatter = logging.Formatter(
+    "%(asctime)s - %(levelname)s - %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
+fileHandler.setFormatter(logFormatter)
+
+# add log handler to logger object
+logger.addHandler(fileHandler)
+#################
+# create a stream handler that logs into console
+consoleHandler = logging.StreamHandler()
+
+# create a log formatter object and assign to the log handler
+consoleHandler.setFormatter(logging.Formatter(
+    "%(asctime)s - %(levelname)s - %(message)s"))
+
+# add console handler to logger object
+logger.addHandler(consoleHandler)
+#################
+# generate logs with logger object
+logger.info("info message")
+logger.warning("warn message")
+
+try:
+    x = 1/0
+except Exception as e:
+    logger.error("Some error occured", exc_info=e)
 
 ```
 
@@ -187,7 +224,7 @@ except Exception as e:
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MDc1MDMyNiwxNzA5MzM3MTI0LC0zNz
-U5NDk2MDUsNjk0Njc4NzQ4LC04NTU0NTc4NjgsLTE1Mjg4ODU2
-LC0yMDcwNzA4NDczLC0zNDM5NTU0NjddfQ==
+eyJoaXN0b3J5IjpbMTY1MTM0Mjg5LDE2NjA3NTAzMjYsMTcwOT
+MzNzEyNCwtMzc1OTQ5NjA1LDY5NDY3ODc0OCwtODU1NDU3ODY4
+LC0xNTI4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3XX0=
 -->
