@@ -176,7 +176,7 @@ except Exception as e:
 
 ### logging into multiple places with handlers
 * Multiple log handlers that can send logs to multiple locations (like file, console etc.) can be added to a single logger object
-* Hence logger object can send logs to multiple locations 
+* Logger object can send logs to multiple locations using this approach 
 ```py
 import logging
 from logging.handlers import RotatingFileHandler
@@ -225,8 +225,8 @@ except Exception as e:
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4NjcxMTk2LDE2NTEzNDI4OSwxNjYwNz
-UwMzI2LDE3MDkzMzcxMjQsLTM3NTk0OTYwNSw2OTQ2Nzg3NDgs
-LTg1NTQ1Nzg2OCwtMTUyODg4NTYsLTIwNzA3MDg0NzMsLTM0Mz
-k1NTQ2N119
+eyJoaXN0b3J5IjpbLTY3MzQwNjM2NywxNjUxMzQyODksMTY2MD
+c1MDMyNiwxNzA5MzM3MTI0LC0zNzU5NDk2MDUsNjk0Njc4NzQ4
+LC04NTU0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zND
+M5NTU0NjddfQ==
 -->
