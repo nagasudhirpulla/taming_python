@@ -148,7 +148,7 @@ logger.setLevel(logging.INFO)
 # maxBytes=1024 means, new log file will be generated if log file exeeds 1024 bytes
 fileHandler = RotatingFileHandler("test.log", backupCount=100, maxBytes=1024)
 
-# user namer function of the handler to keep the .log extension at the end of the file name
+# use namer function of the handler to keep the .log extension at the end of the file name
 fileHandler.namer = lambda name: name.replace(".log", "") + ".log"
 
 # create a log formatter object and assign to the log handler
@@ -233,8 +233,8 @@ except Exception as e:
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzE2Njk4OCwxNjUxMzQyODksMTY2MD
-c1MDMyNiwxNzA5MzM3MTI0LC0zNzU5NDk2MDUsNjk0Njc4NzQ4
-LC04NTU0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0zND
-M5NTU0NjddfQ==
+eyJoaXN0b3J5IjpbLTM1MTM4MjMyLDE5MTMxNjY5ODgsMTY1MT
+M0Mjg5LDE2NjA3NTAzMjYsMTcwOTMzNzEyNCwtMzc1OTQ5NjA1
+LDY5NDY3ODc0OCwtODU1NDU3ODY4LC0xNTI4ODg1NiwtMjA3MD
+cwODQ3MywtMzQzOTU1NDY3XX0=
 -->
