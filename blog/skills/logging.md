@@ -212,7 +212,7 @@ logger.warning("warn message")
 
 ```
 * `TimedRotatingFileHandler` can be used if we want to periodically rotate logs. This can be useful to easily trace the log files based on date or time
-* The old logs will be sent to a new file after the configured time interval. In the above example, the log files will be generated like test.log, test.test.2022-11-14.log, ... 
+* The old logs will be sent to a new file after the configured time interval. In the above example, the log files will be generated like test.log, test.2022-11-14.log, ... 
 
 ### logging into multiple places with handlers
 * Multiple log handlers that can send logs to multiple locations (like file, console etc.) can be added to a single logger object
@@ -267,8 +267,8 @@ except Exception as e:
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODIyMjQyMTMsLTE3ODYzMTg2NjksMT
-kxMzE2Njk4OCwxNjUxMzQyODksMTY2MDc1MDMyNiwxNzA5MzM3
-MTI0LC0zNzU5NDk2MDUsNjk0Njc4NzQ4LC04NTU0NTc4NjgsLT
-E1Mjg4ODU2LC0yMDcwNzA4NDczLC0zNDM5NTU0NjddfQ==
+eyJoaXN0b3J5IjpbOTg1ODgzMjEzLC0xNzg2MzE4NjY5LDE5MT
+MxNjY5ODgsMTY1MTM0Mjg5LDE2NjA3NTAzMjYsMTcwOTMzNzEy
+NCwtMzc1OTQ5NjA1LDY5NDY3ODc0OCwtODU1NDU3ODY4LC0xNT
+I4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3XX0=
 -->
