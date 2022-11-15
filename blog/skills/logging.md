@@ -15,7 +15,7 @@ In this post we will learn how to perform logging in python programs
 
 ## Why logging
 * Logging can help to achieve observability of the performance and security of the application
-* Errors can be debugged easy by looking at logs
+* Errors can be debugged easily by looking at logs
 * Changes in application state can be traced with logs
 * Security and performance issues can be addressed easily by analyzing logs  
 
@@ -311,9 +311,9 @@ logger.error("error message")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4MDg5NDkxLDEwNzYyMDk0LC0xNzg2Mz
-E4NjY5LDE5MTMxNjY5ODgsMTY1MTM0Mjg5LDE2NjA3NTAzMjYs
-MTcwOTMzNzEyNCwtMzc1OTQ5NjA1LDY5NDY3ODc0OCwtODU1ND
-U3ODY4LC0xNTI4ODg1NiwtMjA3MDcwODQ3MywtMzQzOTU1NDY3
-XX0=
+eyJoaXN0b3J5IjpbLTEzMDk5MDIwMjYsMjM4MDg5NDkxLDEwNz
+YyMDk0LC0xNzg2MzE4NjY5LDE5MTMxNjY5ODgsMTY1MTM0Mjg5
+LDE2NjA3NTAzMjYsMTcwOTMzNzEyNCwtMzc1OTQ5NjA1LDY5ND
+Y3ODc0OCwtODU1NDU3ODY4LC0xNTI4ODg1NiwtMjA3MDcwODQ3
+MywtMzQzOTU1NDY3XX0=
 -->
