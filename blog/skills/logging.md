@@ -24,7 +24,7 @@ In this post we will learn how to perform logging in python programs
 * `logging` module comes pre-installed with python, so no need to install separately
 
 ## Logging levels
-* Each generated log can have one of the log level among `CRITICAL`, `ERROR`, `WARNING`, `INFO`, `DEBUG`, `NOTSET`
+* Each generated log can have one of the log levels among `CRITICAL`, `ERROR`, `WARNING`, `INFO`, `DEBUG`, `NOTSET`
 * The above logging levels are in the decreasing importance from left to right 
 
 ### logging with "basicConfig"
@@ -311,9 +311,9 @@ logger.error("error message")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDk5MDIwMjYsMjM4MDg5NDkxLDEwNz
-YyMDk0LC0xNzg2MzE4NjY5LDE5MTMxNjY5ODgsMTY1MTM0Mjg5
-LDE2NjA3NTAzMjYsMTcwOTMzNzEyNCwtMzc1OTQ5NjA1LDY5ND
-Y3ODc0OCwtODU1NDU3ODY4LC0xNTI4ODg1NiwtMjA3MDcwODQ3
-MywtMzQzOTU1NDY3XX0=
+eyJoaXN0b3J5IjpbNjYxNTEwMSwyMzgwODk0OTEsMTA3NjIwOT
+QsLTE3ODYzMTg2NjksMTkxMzE2Njk4OCwxNjUxMzQyODksMTY2
+MDc1MDMyNiwxNzA5MzM3MTI0LC0zNzU5NDk2MDUsNjk0Njc4Nz
+Q4LC04NTU0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0z
+NDM5NTU0NjddfQ==
 -->
