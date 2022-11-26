@@ -67,14 +67,15 @@ loggerAdapter.info("Hello World!!!")
 import logging
 from logging import LoggerAdapter
 
+
 class AppLogger:
-    __instance: LoggerAdapter
+    __instance: LoggerAdapter = None
 
     @staticmethod
     def getInstance():
         """ Static access method. """
         if AppLogger.__instance == None:
-            raise Exception("app logger is not yet initialized")
+            AppLogger.initLogger()
         return AppLogger.__instance
 
     @staticmethod
@@ -92,13 +93,6 @@ class AppLogger:
         # setup the static variable
         AppLogger.__instance = LoggerAdapter(
             appLogger, extra={"org_name": "Acme"})
-
-def initAppLogger() -> LoggerAdapter:
-    AppLogger.initLogger()
-    return AppLogger.getInstance()
-
-def getAppLogger() -> LoggerAdapter:
-    return AppLogger.getInstance()
 ```
 
 
@@ -368,6 +362,7 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzQ0OTIwNiwxMzIzNjg1ODc4LDk0Mj
-Y5MDk5NCwtMTAyNzM0NTgyNSwtNTg5NDU2NTIzXX0=
+eyJoaXN0b3J5IjpbNjM5NTg3NTA1LC0yNjM0NDkyMDYsMTMyMz
+Y4NTg3OCw5NDI2OTA5OTQsLTEwMjczNDU4MjUsLTU4OTQ1NjUy
+M119
 -->
