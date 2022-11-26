@@ -43,11 +43,13 @@ from logging import LoggerAdapter, StreamHandler
 logger = logging.getLogger("root")
 logger.setLevel(logging.INFO)
 
+# create a log handler, set the log format and add to the logger object
 consoleHandler = StreamHandler()
 fmt = "%(asctime)s - %(org_name)s - %(levelname)s - %(message)s"
 consoleHandler.setFormatter(logging.Formatter(fmt))
 logger.addHandler(consoleHandler)
 
+# create a logger adapter with the logger object
 loggerAdapter = LoggerAdapter(logger, extra={"org_name": "Acme"})
 
 loggerAdapter.info("Hello World!!!")
@@ -343,6 +345,6 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzkwNzE5NCwtMTAyNzM0NTgyNSwtNT
-g5NDU2NTIzXX0=
+eyJoaXN0b3J5IjpbOTQyNjkwOTk0LC0xMDI3MzQ1ODI1LC01OD
+k0NTY1MjNdfQ==
 -->
