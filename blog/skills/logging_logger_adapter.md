@@ -1,5 +1,4 @@
-
-## Skill - Logging in Python
+## Skill - Logging with contextual data using LoggerAdapter in Python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -317,5 +316,5 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzEzMzcwODZdfQ==
+eyJoaXN0b3J5IjpbLTE3NDA0MTE0NjBdfQ==
 -->
