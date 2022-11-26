@@ -60,7 +60,7 @@ loggerAdapter.info("Hello World!!!")
 * In the above example, the context is configured once and need not be mentioned explicitly in each log
 * This can help to generate logs with context in a clean and less error prone way
 
-### global logger adapter for usage across multiple files
+### Global logger adapter for usage across multiple files
 * A practical python application can contain more than one file and logs can be generated in more than one python file
 ```py
 ## app_logger.py
@@ -114,7 +114,7 @@ logger.info("Hello World!!!")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2NzA5OTg1LC0zOTQ3MzI4NTgsLTI2Mz
-Q0OTIwNiwxMzIzNjg1ODc4LDk0MjY5MDk5NCwtMTAyNzM0NTgy
-NSwtNTg5NDU2NTIzXX0=
+eyJoaXN0b3J5IjpbMTg3ODA3MTYxNywtMzk0NzMyODU4LC0yNj
+M0NDkyMDYsMTMyMzY4NTg3OCw5NDI2OTA5OTQsLTEwMjczNDU4
+MjUsLTU4OTQ1NjUyM119
 -->
