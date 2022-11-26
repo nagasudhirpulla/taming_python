@@ -61,7 +61,8 @@ loggerAdapter.info("Hello World!!!")
 * This can help to generate logs with context in a clean and less error prone way
 
 ### global logger adapter for usage across multiple files
-The below example shows how to use the `logging` module in python with very less setup code
+* A practical python application can contain more than one file and logs can be generated in more than one python file
+* 
 
 ```py
 import logging
@@ -349,6 +350,6 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjU1MTEzMCwxMzIzNjg1ODc4LDk0Mj
-Y5MDk5NCwtMTAyNzM0NTgyNSwtNTg5NDU2NTIzXX0=
+eyJoaXN0b3J5IjpbLTEwNzIwNTQzMzUsMTMyMzY4NTg3OCw5ND
+I2OTA5OTQsLTEwMjczNDU4MjUsLTU4OTQ1NjUyM119
 -->
