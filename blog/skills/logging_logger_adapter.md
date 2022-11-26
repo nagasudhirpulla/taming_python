@@ -33,7 +33,25 @@ logger.info("Hello World!!!", extra={"org_name": "Acme", "pid": os.getpid()})
 
 ## Add context data in all logs using "LoggerAdapter"
 * Using the `extra` input argument for generating each log is susceptible to human errors
-* So we can use a LoggerAdapter to create a logger that can add context inf
+* So we can use a LoggerAdapter to create a logger that can add context information to all the logs by default
+```py
+import logging
+from logging import LoggerAdapter, StreamHandler
+
+fmt = "%(asctime)s - %(org_name)s - %(levelname)s - %(message)s"
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+consoleHandler = StreamHandler()
+consoleHandler.setFormatter(logging.Formatter(fmt))
+logger.addHandler(consoleHandler)
+
+loggerAdapter = LoggerAdapter(logger, extra={"org_name": "Acme"})
+
+loggerAdapter.info("Hello World!!!")
+
+```
 
 ### logging with "basicConfig"
 The below example shows how to use the `logging` module in python with very less setup code
@@ -324,6 +342,6 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzAyNTU2NDUsLTEwMjczNDU4MjUsLT
-U4OTQ1NjUyM119
+eyJoaXN0b3J5IjpbLTQ5MzU0NCwtMTAyNzM0NTgyNSwtNTg5ND
+U2NTIzXX0=
 -->
