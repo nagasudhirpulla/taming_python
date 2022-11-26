@@ -62,28 +62,11 @@ loggerAdapter.info("Hello World!!!")
 
 ### global logger adapter for usage across multiple files
 * A practical python application can contain more than one file and logs can be generated in more than one python file
-* 
-
 ```py
-import logging
-
-# logging levels in decreasing importance are
-# CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET
-
-# configure logging in root logger
-logging.basicConfig(format="%(asctime)s::%(levelname)s::%(message)s",
-                    level=logging.INFO
-                    )
-
-# create logs
-logging.info("info log")
-logging.warning("warning log")
-
-try:
-    x = 1/0
-except Exception as e:
-    logging.error("Some error occured", exc_info=e)
+## app_logger.py
 ```
+
+
 
 * directly using the logging module will use the root logger for creating logs
 * configuration can be done using the "basicConfig" function
@@ -350,6 +333,6 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzIwNTQzMzUsMTMyMzY4NTg3OCw5ND
-I2OTA5OTQsLTEwMjczNDU4MjUsLTU4OTQ1NjUyM119
+eyJoaXN0b3J5IjpbLTEyMjg5OTc3NiwxMzIzNjg1ODc4LDk0Mj
+Y5MDk5NCwtMTAyNzM0NTgyNSwtNTg5NDU2NTIzXX0=
 -->
