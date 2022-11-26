@@ -103,20 +103,8 @@ logger = AppLogger.getInstance()
 logger.info("Hello World!!!")
 ```
 
-* directly using the logging module will use the root logger for creating logs
-* configuration can be done using the "basicConfig" function
-* `%(asctime)s` , `%(levelname)s` , `%(message)s` in logging format string are used to specify the position of log timestamp, log level and log level in the log string
-* Error information or stack-trace can be added to the error logs using the `exc_info` argument in the `logging.error` function
-* The output would be like the following
-```bash
-2022-11-10 23:03:15,805::INFO::info log
-2022-11-10 23:03:15,805::WARNING::warning log
-2022-11-10 23:03:15,805::ERROR::Some error occured
-Traceback (most recent call last):
-  File "c:\Users\abcd\Documents\Python Projects\taming_python\python_logging\index.py", line 16, in <module>
-    x = 1/0
-ZeroDivisionError: division by zero
-```
+* In the above example, a 
+
 
 ### logging into files with basicConfig
 ```py
@@ -368,7 +356,7 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3Mjg0NjIwLC0yNjM0NDkyMDYsMTMyMz
+eyJoaXN0b3J5IjpbNTA4ODMzODg1LC0yNjM0NDkyMDYsMTMyMz
 Y4NTg3OCw5NDI2OTA5OTQsLTEwMjczNDU4MjUsLTU4OTQ1NjUy
 M119
 -->
