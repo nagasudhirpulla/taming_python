@@ -96,7 +96,11 @@ class AppLogger:
 ```
 
 ```py
+# index.py
+from app_logger import AppLogger
 
+logger = AppLogger.getInstance()
+logger.info("Hello World!!!")
 ```
 
 * directly using the logging module will use the root logger for creating logs
@@ -364,7 +368,7 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDMwOTY4NjYsLTI2MzQ0OTIwNiwxMz
-IzNjg1ODc4LDk0MjY5MDk5NCwtMTAyNzM0NTgyNSwtNTg5NDU2
-NTIzXX0=
+eyJoaXN0b3J5IjpbMzU3Mjg0NjIwLC0yNjM0NDkyMDYsMTMyMz
+Y4NTg3OCw5NDI2OTA5OTQsLTEwMjczNDU4MjUsLTU4OTQ1NjUy
+M119
 -->
