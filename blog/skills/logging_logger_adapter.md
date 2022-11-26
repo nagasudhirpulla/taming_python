@@ -60,7 +60,7 @@ loggerAdapter.info("Hello World!!!")
 * In the above example, the context is configured once and need not be mentioned explicitly in each log
 * This can help to generate logs with context in a clean and less error prone way
 
-### logging with "basicConfig"
+### global logger adapter for usage across multiple p
 The below example shows how to use the `logging` module in python with very less setup code
 
 ```py
@@ -349,6 +349,6 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxNzU2NTMsMTMyMzY4NTg3OCw5NDI2OT
-A5OTQsLTEwMjczNDU4MjUsLTU4OTQ1NjUyM119
+eyJoaXN0b3J5IjpbMjAzNDIwMTc5MywxMzIzNjg1ODc4LDk0Mj
+Y5MDk5NCwtMTAyNzM0NTgyNSwtNTg5NDU2NTIzXX0=
 -->
