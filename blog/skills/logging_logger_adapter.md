@@ -39,7 +39,8 @@ logger.info("Hello World!!!", extra={"org_name": "Acme", "pid": os.getpid()})
 import logging
 from logging import LoggerAdapter, StreamHandler
 
-logger = logging.getLogger(__name__)
+# create a logger object
+logger = logging.getLogger("root")
 logger.setLevel(logging.INFO)
 
 consoleHandler = StreamHandler()
@@ -342,6 +343,6 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjY3MDg0OTgsLTEwMjczNDU4MjUsLT
-U4OTQ1NjUyM119
+eyJoaXN0b3J5IjpbLTMzNzkwNzE5NCwtMTAyNzM0NTgyNSwtNT
+g5NDU2NTIzXX0=
 -->
