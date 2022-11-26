@@ -14,7 +14,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 In this post we will learn how to add extra contextual data to logs using LoggerAdapter in python 
 
 ## Use cases
-* Adding contextual data in logs may be useful for debugging logs in the future and also add new attributes for efficient querying and filtering of the logs  
+* Adding contextual data in logs may be useful for easy debugging of the logs and also add new attributes for efficient querying and filtering of the logs  
 
 ## Python "logging" module
 * `logging` module can be used for generating logs in python programs
@@ -313,5 +313,5 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDY2NDExOCwtNTg5NDU2NTIzXX0=
+eyJoaXN0b3J5IjpbLTEwMjczNDU4MjUsLTU4OTQ1NjUyM119
 -->
