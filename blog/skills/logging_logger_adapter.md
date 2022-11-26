@@ -31,9 +31,9 @@ logger.info("Hello World!!!", extra={"org_name": "Acme", "pid": os.getpid()})
 * In the above example, the log format is configured to show additional attributes named `pid`, `org_name` along with the message
 * The additional attributes are supplied at the time of logging as a dictionary using the `extra` argument
 
-## Add context data in all logs using LoggerAdapter
-* Each generated log can have one of the log levels among `CRITICAL`, `ERROR`, `WARNING`, `INFO`, `DEBUG`, `NOTSET`
-* The above logging levels are in the decreasing importance from left to right 
+## Add context data in all logs using "LoggerAdapter"
+* Using the `extra` input argument for generating each log is susceptible to human errors
+* So we can use a LoggerAdapter to create a logger that can add context inf
 
 ### logging with "basicConfig"
 The below example shows how to use the `logging` module in python with very less setup code
@@ -324,6 +324,6 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDU4NDMwMywtMTAyNzM0NTgyNSwtNT
-g5NDU2NTIzXX0=
+eyJoaXN0b3J5IjpbLTE0MzAyNTU2NDUsLTEwMjczNDU4MjUsLT
+U4OTQ1NjUyM119
 -->
