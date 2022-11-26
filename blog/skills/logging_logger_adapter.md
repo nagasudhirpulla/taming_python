@@ -28,7 +28,8 @@ logger = logging.getLogger("root")
 
 logger.info("Hello World!!!", extra={"org_name": "Acme", "pid": os.getpid()})
 ```
-* In the above example, 
+* In the above example, the log format is configured to show additional attributes named `pid`, `org_name` along with the message
+* The required additional attributes are supplied at the time of logging as a dictionary using the `extra` argument
 
 ## Logging levels
 * Each generated log can have one of the log levels among `CRITICAL`, `ERROR`, `WARNING`, `INFO`, `DEBUG`, `NOTSET`
@@ -323,6 +324,6 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTk4MTM2MSwtMTAyNzM0NTgyNSwtNT
+eyJoaXN0b3J5IjpbMjA5ODc0MTg1NiwtMTAyNzM0NTgyNSwtNT
 g5NDU2NTIzXX0=
 -->
