@@ -304,6 +304,11 @@ logger.error("error message")
 
 ``` 
 
+### Video
+You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wrpu-Qr_Yvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ## References
@@ -311,9 +316,9 @@ logger.error("error message")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxNTEwMSwyMzgwODk0OTEsMTA3NjIwOT
-QsLTE3ODYzMTg2NjksMTkxMzE2Njk4OCwxNjUxMzQyODksMTY2
-MDc1MDMyNiwxNzA5MzM3MTI0LC0zNzU5NDk2MDUsNjk0Njc4Nz
-Q4LC04NTU0NTc4NjgsLTE1Mjg4ODU2LC0yMDcwNzA4NDczLC0z
-NDM5NTU0NjddfQ==
+eyJoaXN0b3J5IjpbMTAyOTkwMTgwOCw2NjE1MTAxLDIzODA4OT
+Q5MSwxMDc2MjA5NCwtMTc4NjMxODY2OSwxOTEzMTY2OTg4LDE2
+NTEzNDI4OSwxNjYwNzUwMzI2LDE3MDkzMzcxMjQsLTM3NTk0OT
+YwNSw2OTQ2Nzg3NDgsLTg1NTQ1Nzg2OCwtMTUyODg4NTYsLTIw
+NzA3MDg0NzMsLTM0Mzk1NTQ2N119
 -->
