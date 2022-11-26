@@ -103,7 +103,8 @@ logger = AppLogger.getInstance()
 logger.info("Hello World!!!")
 ```
 
-* In the above example, a python file named `app_logger.py` exposes a class named `AppLogger` that maintains a global logger adapter instance that can be accessed from multiple python files just by calling `AppLogger.getInstance()`  
+* In the above example, a python file named `app_logger.py` exposes a class named `AppLogger` that maintains a global logger adapter instance that can be accessed from multiple python files just by calling `AppLogger.getInstance()` 
+* However, if the initiation requires some configuration inputs, the above example needs to be modified such the 
 
 
 ### logging into files with basicConfig
@@ -356,7 +357,7 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDczMjg1OCwtMjYzNDQ5MjA2LDEzMj
-M2ODU4NzgsOTQyNjkwOTk0LC0xMDI3MzQ1ODI1LC01ODk0NTY1
-MjNdfQ==
+eyJoaXN0b3J5IjpbMTM4MTM2ODk5OSwtMzk0NzMyODU4LC0yNj
+M0NDkyMDYsMTMyMzY4NTg3OCw5NDI2OTA5OTQsLTEwMjczNDU4
+MjUsLTU4OTQ1NjUyM119
 -->
