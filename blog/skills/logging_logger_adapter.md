@@ -67,7 +67,6 @@ loggerAdapter.info("Hello World!!!")
 import logging
 from logging import LoggerAdapter
 
-
 class AppLogger:
     __instance: LoggerAdapter = None
 
@@ -96,7 +95,9 @@ class AppLogger:
 
 ```
 
+```py
 
+```
 
 * directly using the logging module will use the root logger for creating logs
 * configuration can be done using the "basicConfig" function
@@ -363,7 +364,7 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NjU2NDQ1LC0yNjM0NDkyMDYsMTMyMz
-Y4NTg3OCw5NDI2OTA5OTQsLTEwMjczNDU4MjUsLTU4OTQ1NjUy
-M119
+eyJoaXN0b3J5IjpbLTEwNDMwOTY4NjYsLTI2MzQ0OTIwNiwxMz
+IzNjg1ODc4LDk0MjY5MDk5NCwtMTAyNzM0NTgyNSwtNTg5NDU2
+NTIzXX0=
 -->
