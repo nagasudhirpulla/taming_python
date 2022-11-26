@@ -64,6 +64,41 @@ loggerAdapter.info("Hello World!!!")
 * A practical python application can contain more than one file and logs can be generated in more than one python file
 ```py
 ## app_logger.py
+import logging
+from logging import LoggerAdapter
+
+class AppLogger:
+    __instance: LoggerAdapter
+
+    @staticmethod
+    def getInstance():
+        """ Static access method. """
+        if AppLogger.__instance == None:
+            raise Exception("app logger is not yet initialized")
+        return AppLogger.__instance
+
+    @staticmethod
+    def initLogger():
+        # get a named global logger
+        appLogger = logging.getLogger("root")
+        appLogger.setLevel(logging.INFO)
+
+        # configure console logging
+        streamHandler = logging.StreamHandler()
+        fmt = "%(asctime)s - %(org_name)s - %(levelname)s - %(message)s"
+        streamHandler.setFormatter(logging.Formatter(fmt))
+        appLogger.addHandler(streamHandler)
+
+        # setup the static variable
+        AppLogger.__instance = LoggerAdapter(
+            appLogger, extra={"org_name": "Acme"})
+
+def initAppLogger() -> LoggerAdapter:
+    AppLogger.initLogger()
+    return AppLogger.getInstance()
+
+def getAppLogger() -> LoggerAdapter:
+    return AppLogger.getInstance()
 ```
 
 
@@ -333,6 +368,6 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjg5OTc3NiwxMzIzNjg1ODc4LDk0Mj
+eyJoaXN0b3J5IjpbLTI2MzQ0OTIwNiwxMzIzNjg1ODc4LDk0Mj
 Y5MDk5NCwtMTAyNzM0NTgyNSwtNTg5NDU2NTIzXX0=
 -->
