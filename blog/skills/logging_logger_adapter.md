@@ -93,6 +93,7 @@ class AppLogger:
         # setup the static variable
         AppLogger.__instance = LoggerAdapter(
             appLogger, extra={"org_name": "Acme"})
+
 ```
 
 
@@ -362,7 +363,7 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5NTg3NTA1LC0yNjM0NDkyMDYsMTMyMz
+eyJoaXN0b3J5IjpbLTI2NjU2NDQ1LC0yNjM0NDkyMDYsMTMyMz
 Y4NTg3OCw5NDI2OTA5OTQsLTEwMjczNDU4MjUsLTU4OTQ1NjUy
 M119
 -->
