@@ -15,7 +15,7 @@ In this post we will learn how to add extra contextual data to logs using Logger
 
 ## Use cases
 * Adding contextual data in logs may be useful for easy debugging of the logs and also add new attributes for efficient querying and filtering of the logs 
-* For example if additional attributes like process Id, application name, etc. are added in each log, searching and debud
+* For example if additional attributes like process Id, application name, etc. are added in each log, searching and debugging capabilities can be more efficient
 
 ## Python "logging" module
 * `logging` module can be used for generating logs in python programs
@@ -314,6 +314,6 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MzczODkwNiwtMTAyNzM0NTgyNSwtNT
-g5NDU2NTIzXX0=
+eyJoaXN0b3J5IjpbMzU0Njc0Mzk5LC0xMDI3MzQ1ODI1LC01OD
+k0NTY1MjNdfQ==
 -->
