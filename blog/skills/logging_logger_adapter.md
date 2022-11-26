@@ -104,6 +104,7 @@ logger.info("Hello World!!!")
 ```
 
 * In the above example, a python file named `app_logger.py` exposes a class named `AppLogger` that maintains a global logger adapter instance that can be accessed from multiple python files just by calling `AppLogger.getInstance()` 
+* This `AppLogger` class uses static methods and static variables for maintaining a single logger adap
 
 <hr/>
 
@@ -113,7 +114,7 @@ logger.info("Hello World!!!")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTY1ODI3MCwtMzk0NzMyODU4LC0yNj
+eyJoaXN0b3J5IjpbMTkxMTUzMzg5NCwtMzk0NzMyODU4LC0yNj
 M0NDkyMDYsMTMyMzY4NTg3OCw5NDI2OTA5OTQsLTEwMjczNDU4
 MjUsLTU4OTQ1NjUyM119
 -->
