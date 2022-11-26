@@ -33,7 +33,7 @@ logger.info("Hello World!!!", extra={"org_name": "Acme", "pid": os.getpid()})
 
 ## Add context data in all logs using "LoggerAdapter"
 * Using the `extra` input argument for generating each log is susceptible to human errors
-* So we can use a LoggerAdapter to create a logger that can add context information to all the logs by default
+* So we can use a `LoggerAdapter` to create a logger that can add context information to all the logs by default
 
 ```py
 import logging
@@ -345,6 +345,6 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyNjkwOTk0LC0xMDI3MzQ1ODI1LC01OD
-k0NTY1MjNdfQ==
+eyJoaXN0b3J5IjpbLTEyNDUwOTE3NjAsOTQyNjkwOTk0LC0xMD
+I3MzQ1ODI1LC01ODk0NTY1MjNdfQ==
 -->
