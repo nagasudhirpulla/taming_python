@@ -11,7 +11,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr>
 
-In this post we will learn how to perform logging in python programs
+In this post we will learn how to add extra contextual data to logs using LoggerAdapter in python 
 
 ## Why logging
 * Logging can help to achieve observability of the performance and security of the application
@@ -316,5 +316,5 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTc2MzY1M119
+eyJoaXN0b3J5IjpbLTU4OTQ1NjUyM119
 -->
