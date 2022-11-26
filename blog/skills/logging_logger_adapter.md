@@ -109,11 +109,11 @@ logger.info("Hello World!!!")
 
 ## References
 * logging cookbook - https://docs.python.org/3/howto/logging-cookbook.html#using-loggeradapters-to-impart-contextual-information
-* * Official documentation - https://docs.python.org/3/library/logging.html
+* Official documentation - https://docs.python.org/3/library/logging.html
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzgwNzM2MjAsLTM5NDczMjg1OCwtMj
-YzNDQ5MjA2LDEzMjM2ODU4NzgsOTQyNjkwOTk0LC0xMDI3MzQ1
-ODI1LC01ODk0NTY1MjNdfQ==
+eyJoaXN0b3J5IjpbLTY2NTY1ODI3MCwtMzk0NzMyODU4LC0yNj
+M0NDkyMDYsMTMyMzY4NTg3OCw5NDI2OTA5OTQsLTEwMjczNDU4
+MjUsLTU4OTQ1NjUyM119
 -->
