@@ -57,6 +57,7 @@ loggerAdapter.info("Hello World!!!")
 
 ```
 
+* In the above example, the context is configured once and need not be mentioned explicitly in each log
 
 ### logging with "basicConfig"
 The below example shows how to use the `logging` module in python with very less setup code
@@ -347,6 +348,6 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzY3Njk4OSw5NDI2OTA5OTQsLTEwMj
+eyJoaXN0b3J5IjpbMTMyMzY4NTg3OCw5NDI2OTA5OTQsLTEwMj
 czNDU4MjUsLTU4OTQ1NjUyM119
 -->
