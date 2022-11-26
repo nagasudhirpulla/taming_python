@@ -17,9 +17,18 @@ In this post we will learn how to add extra contextual data to logs using Logger
 * Adding contextual data in logs may be useful for easy debugging of the logs and also add new attributes for efficient querying and filtering of the logs 
 * For example if additional attributes like process Id, application name, etc. are added in each log, searching and debugging logs can be more efficient
 
-## Python "logging" module
-* `logging` module can be used for generating logs in python programs
-* `logging` module comes pre-installed with python, so no need to install separately
+## Add context data in a single log
+```py
+import logging
+import os
+
+logging.basicConfig(level=logging.INFO,
+                    format="%(asctime)s - %(pid)s - %(org_name)s - %(levelname)s - %(message)s")
+logger = logging.getLogger("root")
+
+logger.info("Hello World!!!", extra={"org_name": "Acme", "pid": os.getpid()})
+```
+* In the above example, 
 
 ## Logging levels
 * Each generated log can have one of the log levels among `CRITICAL`, `ERROR`, `WARNING`, `INFO`, `DEBUG`, `NOTSET`
@@ -314,6 +323,6 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDYzNjAyNiwtMTAyNzM0NTgyNSwtNT
+eyJoaXN0b3J5IjpbMTY0OTk4MTM2MSwtMTAyNzM0NTgyNSwtNT
 g5NDU2NTIzXX0=
 -->
