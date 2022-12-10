@@ -99,6 +99,12 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Note that the `current_app` variable can be available only in the context of a request
 
 ```py
+# importing current_app from flask
+from flask import current_app
+
+@api.route("/info")
+def api_route1():
+    current_app.logger.info("called from api ")
 
 ```
 
@@ -206,7 +212,7 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTYzODAyOCwtMTU2MTYzNjAzMiwtNz
-IwODQ2NDc0LDE2MjA1MjQwNSwxODM5MzM3MzY0LC0xMzEwODAw
-MDc5LC0xNzE3OTY4ODYyLDE3NTcwNjg0OV19
+eyJoaXN0b3J5IjpbLTE3NzA1NDEwNzgsLTE1NjE2MzYwMzIsLT
+cyMDg0NjQ3NCwxNjIwNTI0MDUsMTgzOTMzNzM2NCwtMTMxMDgw
+MDA3OSwtMTcxNzk2ODg2MiwxNzU3MDY4NDldfQ==
 -->
