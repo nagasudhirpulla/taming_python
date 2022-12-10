@@ -99,7 +99,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Note that the `current_app` variable can be available only in the context of a request
 
 ```py
-from flask import current_app
+from flask import Blueprint, current_app
 
 api = Blueprint('codes')
 
@@ -119,8 +119,8 @@ def api_route1():
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzU1MDkxOSwtODkwMTIzMTc5LC0xNT
-YxNjM2MDMyLC03MjA4NDY0NzQsMTYyMDUyNDA1LDE4MzkzMzcz
-NjQsLTEzMTA4MDAwNzksLTE3MTc5Njg4NjIsMTc1NzA2ODQ5XX
-0=
+eyJoaXN0b3J5IjpbNDcyMzYwODg4LC04OTAxMjMxNzksLTE1Nj
+E2MzYwMzIsLTcyMDg0NjQ3NCwxNjIwNTI0MDUsMTgzOTMzNzM2
+NCwtMTMxMDgwMDA3OSwtMTcxNzk2ODg2MiwxNzU3MDY4NDldfQ
+==
 -->
