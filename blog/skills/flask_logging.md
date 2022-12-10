@@ -56,8 +56,43 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ``` 
 
-## Inject extra information into logs using custom formatter
+## Inject contextual information into logs using custom formatter
 ```py
+from flask import has_request_context, request, Flask
+import logging
+
+# using custom formatter to inject contextual data into logging
+class RequestFormatter(logging.Formatter):
+    def format(self, record):
+        if has_request_context():
+            record.url = request.url
+            record.remote_addr = request.remote_addr
+        else:
+            record.url = None
+            record.remote_addr = None
+        return super().format(record)
+
+formatter = RequestFormatter(
+    '[%(asctime)s] %(remote_addr)s requested %(url)s\n'
+    '%(levelname)s in %(module)s: %(message)s'
+)
+
+logger = logging.getLogger()
+consoleHandler = logging.StreamHandler()
+consoleHandler.setFormatter(formatter)
+logger.addHandler(consoleHandler)
+
+app = Flask(__name__)
+
+
+@app.route("/")
+def home():
+    app.logger.info("Calling from request handler...")
+    return "Hello World!!!"
+
+
+app.run(host="0.0.0.0", port=50100, debug=True)
+
 ```
 
 ## TODO access app logger inside blueprints and extensions using current_app
@@ -166,7 +201,7 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDg0NjQ3NCwxNjIwNTI0MDUsMTgzOT
-MzNzM2NCwtMTMxMDgwMDA3OSwtMTcxNzk2ODg2MiwxNzU3MDY4
-NDldfQ==
+eyJoaXN0b3J5IjpbLTEzMjE4MTMxODQsLTcyMDg0NjQ3NCwxNj
+IwNTI0MDUsMTgzOTMzNzM2NCwtMTMxMDgwMDA3OSwtMTcxNzk2
+ODg2MiwxNzU3MDY4NDldfQ==
 -->
