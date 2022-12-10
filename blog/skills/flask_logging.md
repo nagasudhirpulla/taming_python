@@ -93,7 +93,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ```
 
-## access app logger inside blueprints and extensions using current_app
+## access app logger inside blueprints or extensions using current_app
 * The flask application variable may not be available in the blueprints or extensions python files
 * The app variable can be accessed in such cases using the `current_app` variable from flask as shown below
 * Note that the `current_app` variable can be available only in the context of a request
@@ -109,100 +109,6 @@ def api_route1():
 
 ```
 
-## Add context in a single log using "extra"
-```py
-import logging
-import os
-
-logging.basicConfig(level=logging.INFO,
-                    format="%(asctime)s - %(pid)s - %(org_name)s - %(levelname)s - %(message)s")
-logger = logging.getLogger("root")
-
-logger.info("Hello World!!!", extra={"org_name": "Acme", "pid": os.getpid()})
-```
-* In the above example, the log format is configured to show additional attributes named `pid`, `org_name` along with the message
-* The additional attributes are supplied at the time of logging as a dictionary using the `extra` argument
-
-## Add context data in all logs using "LoggerAdapter"
-* Using the `extra` input argument for generating each log is susceptible to human errors
-* So we can use a `LoggerAdapter` to create a logger that can add context information to all the logs by default
-
-```py
-import logging
-from logging import LoggerAdapter, StreamHandler
-
-# create a logger object
-logger = logging.getLogger("root")
-logger.setLevel(logging.INFO)
-
-# create a log handler, set the log format and add to the logger object
-consoleHandler = StreamHandler()
-fmt = "%(asctime)s - %(org_name)s - %(levelname)s - %(message)s"
-consoleHandler.setFormatter(logging.Formatter(fmt))
-logger.addHandler(consoleHandler)
-
-# create a logger adapter with the logger object
-loggerAdapter = LoggerAdapter(logger, extra={"org_name": "Acme"})
-
-# generate logs using the logger adapter
-loggerAdapter.info("Hello World!!!")
-
-```
-
-* In the above example, the context is configured once and need not be mentioned explicitly in each log
-* This can help to generate logs with context in a clean and less error prone way
-
-### Global logger adapter for usage across multiple files
-* A practical python application can contain more than one file and logs can be generated in more than one python file
-```py
-## app_logger.py
-import logging
-from logging import LoggerAdapter
-
-class AppLogger:
-    __instance: LoggerAdapter = None
-
-    @staticmethod
-    def getInstance():
-        """ Static access method. """
-        if AppLogger.__instance == None:
-            AppLogger.initLogger()
-        return AppLogger.__instance
-
-    @staticmethod
-    def initLogger():
-        # get a named global logger
-        appLogger = logging.getLogger("root")
-        appLogger.setLevel(logging.INFO)
-
-        # configure console logging
-        streamHandler = logging.StreamHandler()
-        fmt = "%(asctime)s - %(org_name)s - %(levelname)s - %(message)s"
-        streamHandler.setFormatter(logging.Formatter(fmt))
-        appLogger.addHandler(streamHandler)
-
-        # setup the static variable
-        AppLogger.__instance = LoggerAdapter(
-            appLogger, extra={"org_name": "Acme"})
-
-```
-
-```py
-# index.py
-from app_logger import AppLogger
-
-logger = AppLogger.getInstance()
-logger.info("Hello World!!!")
-```
-
-* In the above example, a python file named `app_logger.py` exposes a class named `AppLogger` that maintains a global logger adapter instance that can be accessed from multiple python files just by calling `AppLogger.getInstance()` 
-* This `AppLogger` class uses static methods and static variables for maintaining a single global logger adapter object
-
-### Video
-You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CrCAYS37QZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <hr/>
 
 ## References
@@ -213,7 +119,7 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzUzOTkxMywtODkwMTIzMTc5LC0xNT
+eyJoaXN0b3J5IjpbLTc4MzU1MDkxOSwtODkwMTIzMTc5LC0xNT
 YxNjM2MDMyLC03MjA4NDY0NzQsMTYyMDUyNDA1LDE4MzkzMzcz
 NjQsLTEzMTA4MDAwNzksLTE3MTc5Njg4NjIsMTc1NzA2ODQ5XX
 0=
