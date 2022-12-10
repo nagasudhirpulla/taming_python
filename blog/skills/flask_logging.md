@@ -94,7 +94,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
 ## access app logger inside blueprints and extensions using current_app
-* The app variable is not accessible inside a blueprint o
+* The flask application variable may not be available in the blueprints or extensions python files
+* The app variable can be accessed in s
 ```py
 
 ```
@@ -203,7 +204,7 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODYxMDg1MywtMTU2MTYzNjAzMiwtNz
-IwODQ2NDc0LDE2MjA1MjQwNSwxODM5MzM3MzY0LC0xMzEwODAw
-MDc5LC0xNzE3OTY4ODYyLDE3NTcwNjg0OV19
+eyJoaXN0b3J5IjpbLTEwMzAyNDUwMzcsLTE1NjE2MzYwMzIsLT
+cyMDg0NjQ3NCwxNjIwNTI0MDUsMTgzOTMzNzM2NCwtMTMxMDgw
+MDA3OSwtMTcxNzk2ODg2MiwxNzU3MDY4NDldfQ==
 -->
