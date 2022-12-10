@@ -93,6 +93,8 @@ def home():
 app.run(host="0.0.0.0", port=50100, debug=True)
 
 ```
+* In the above example, a custom formatter is used to inject request related data into the logs
+* Notice that the method `has_request_context` is used to know whether the flask
 
 ## access app logger inside blueprints or extensions using current_app
 * The flask application variable may not be available in the blueprints or extensions python files
@@ -122,8 +124,8 @@ def api_route1():
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjA2NDE4MSwxNzAyMjI1NDEzLC05NT
-UxMDQxOTAsNDcyMzYwODg4LC04OTAxMjMxNzksLTE1NjE2MzYw
-MzIsLTcyMDg0NjQ3NCwxNjIwNTI0MDUsMTgzOTMzNzM2NCwtMT
-MxMDgwMDA3OSwtMTcxNzk2ODg2MiwxNzU3MDY4NDldfQ==
+eyJoaXN0b3J5IjpbMzIzMzQ4NzIwLDE3MDIyMjU0MTMsLTk1NT
+EwNDE5MCw0NzIzNjA4ODgsLTg5MDEyMzE3OSwtMTU2MTYzNjAz
+MiwtNzIwODQ2NDc0LDE2MjA1MjQwNSwxODM5MzM3MzY0LC0xMz
+EwODAwMDc5LC0xNzE3OTY4ODYyLDE3NTcwNjg0OV19
 -->
