@@ -1,4 +1,4 @@
-## Skill - Logging in flask
+## Skill - Logging in python flask applications
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -124,8 +124,9 @@ def api_route1():
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1MzA5NjQyLDE3MDIyMjU0MTMsLTk1NT
-EwNDE5MCw0NzIzNjA4ODgsLTg5MDEyMzE3OSwtMTU2MTYzNjAz
-MiwtNzIwODQ2NDc0LDE2MjA1MjQwNSwxODM5MzM3MzY0LC0xMz
-EwODAwMDc5LC0xNzE3OTY4ODYyLDE3NTcwNjg0OV19
+eyJoaXN0b3J5IjpbMTU4OTI2MTQxNywyMjUzMDk2NDIsMTcwMj
+IyNTQxMywtOTU1MTA0MTkwLDQ3MjM2MDg4OCwtODkwMTIzMTc5
+LC0xNTYxNjM2MDMyLC03MjA4NDY0NzQsMTYyMDUyNDA1LDE4Mz
+kzMzczNjQsLTEzMTA4MDAwNzksLTE3MTc5Njg4NjIsMTc1NzA2
+ODQ5XX0=
 -->
