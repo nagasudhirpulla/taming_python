@@ -20,6 +20,39 @@ In this post we will learn how to customize logging in python flask applications
 ## Basic logging in flask
 * Configure the root logger before creating the flask application
 ```py
+from flask import Flask
+import logging
+
+# One line configuration like this can also be done
+# logging.basicConfig(filename="logs.log", format="%(levelname)s:%(name)s:%(message)s")
+
+# get the root logger
+logger = logging.getLogger()
+
+# create a formatter object
+logFormatter = logging.Formatter("%(levelname)s:%(name)s:%(message)s")
+
+# add console handler to the root logger
+consoleHanlder = logging.StreamHandler()
+consoleHanlder.setFormatter(logFormatter)
+logger.addHandler(consoleHanlder)
+
+# add file handler to the root logger
+fileHandler = logging.FileHandler("logs.log")
+fileHandler.setFormatter(logFormatter)
+logger.addHandler(fileHandler)
+
+# create flask application
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    # using logger inside the route handler
+    app.logger.info("This is from a route handler...")
+    return "Hello World!!!"
+
+# run the flask application
+app.run(host="0.0.0.0", port=50100, debug=True)
 
 ``` 
 
@@ -127,6 +160,6 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTMzNzM2NCwtMTMxMDgwMDA3OSwtMT
-cxNzk2ODg2MiwxNzU3MDY4NDldfQ==
+eyJoaXN0b3J5IjpbLTEzODAxNDczMTIsMTgzOTMzNzM2NCwtMT
+MxMDgwMDA3OSwtMTcxNzk2ODg2MiwxNzU3MDY4NDldfQ==
 -->
