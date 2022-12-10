@@ -17,6 +17,10 @@ In this post we will learn how to customize logging in python flask applications
 * Flask applications use standard python logging module
 * So flask logger can be used to create logs inside request handlers
 
+## Basic logging in flask
+* Configure the root logger before creating the flask application
+*  
+
 ## Add context in a single log using "extra"
 ```py
 import logging
@@ -121,6 +125,6 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTg0MTU0MywtMTcxNzk2ODg2MiwxNz
-U3MDY4NDldfQ==
+eyJoaXN0b3J5IjpbLTEzMTA4MDAwNzksLTE3MTc5Njg4NjIsMT
+c1NzA2ODQ5XX0=
 -->
