@@ -11,7 +11,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 <hr>
 
-In this post we will learn how to add extra contextual data to logs using LoggerAdapter in python 
+In this post we will learn how to customize logging in python flask applications
 
 ## Use cases
 * Adding contextual data in logs may be useful for easy debugging of the logs and also add new attributes for efficient querying and filtering of the logs 
@@ -119,5 +119,5 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NjUyMDM3NV19
+eyJoaXN0b3J5IjpbMjA5MzM3Njg4OF19
 -->
