@@ -14,8 +14,8 @@ Please make sure to have all the skills mentioned above to understand and execut
 In this post we will learn how to customize logging in python flask applications
 
 ## Use cases
-* Adding contextual data in logs may be useful for easy debugging of the logs and also add new attributes for efficient querying and filtering of the logs 
-* For example if additional attributes like process Id, application name, etc. are added in each log, searching and debugging logs can be more efficient
+* Logging is very important in web applications
+* Flask applications use python logging module for logging 
 
 ## Add context in a single log using "extra"
 ```py
@@ -119,5 +119,5 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MzM3Njg4OF19
+eyJoaXN0b3J5IjpbNTc3NjczMjUyXX0=
 -->
