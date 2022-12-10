@@ -114,10 +114,11 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 <hr/>
 
 ## References
+* Flask logging documentation - https://flask.palletsprojects.com/en/2.2.x/logging/
 * logging cookbook - https://docs.python.org/3/howto/logging-cookbook.html#using-loggeradapters-to-impart-contextual-information
 * Official documentation - https://docs.python.org/3/library/logging.html
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3NjczMjUyXX0=
+eyJoaXN0b3J5IjpbMTc1NzA2ODQ5XX0=
 -->
