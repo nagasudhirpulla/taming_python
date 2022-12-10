@@ -94,6 +94,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
 ## access app logger inside blueprints and extensions using current_app
+* The app variable is not accessible inside a blueprint o
 ```py
 
 ```
@@ -202,7 +203,7 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDI5MDYzOSwtMTU2MTYzNjAzMiwtNz
+eyJoaXN0b3J5IjpbMTE2ODYxMDg1MywtMTU2MTYzNjAzMiwtNz
 IwODQ2NDc0LDE2MjA1MjQwNSwxODM5MzM3MzY0LC0xMzEwODAw
 MDc5LC0xNzE3OTY4ODYyLDE3NTcwNjg0OV19
 -->
