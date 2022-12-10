@@ -102,6 +102,8 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 # importing current_app from flask
 from flask import current_app
 
+api = Blueprint('codes')
+
 @api.route("/info")
 def api_route1():
     current_app.logger.info("called from api route method1 inside blueprint")
@@ -211,7 +213,7 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4MDE2MTgsLTE1NjE2MzYwMzIsLTcyMD
-g0NjQ3NCwxNjIwNTI0MDUsMTgzOTMzNzM2NCwtMTMxMDgwMDA3
-OSwtMTcxNzk2ODg2MiwxNzU3MDY4NDldfQ==
+eyJoaXN0b3J5IjpbLTg5MDEyMzE3OSwtMTU2MTYzNjAzMiwtNz
+IwODQ2NDc0LDE2MjA1MjQwNSwxODM5MzM3MzY0LC0xMzEwODAw
+MDc5LC0xNzE3OTY4ODYyLDE3NTcwNjg0OV19
 -->
