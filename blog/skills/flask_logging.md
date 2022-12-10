@@ -19,6 +19,7 @@ In this post we will learn how to customize logging in python flask applications
 
 ## Basic logging in flask
 * Configure the root logger before creating the flask application, this is because, while instantiating a flask web application, the handlers of the root logger will be copied by the flask logger
+
 ```py
 from flask import Flask
 import logging
@@ -121,8 +122,8 @@ def api_route1():
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTA4NTc0LC05NTUxMDQxOTAsNDcyMz
-YwODg4LC04OTAxMjMxNzksLTE1NjE2MzYwMzIsLTcyMDg0NjQ3
-NCwxNjIwNTI0MDUsMTgzOTMzNzM2NCwtMTMxMDgwMDA3OSwtMT
-cxNzk2ODg2MiwxNzU3MDY4NDldfQ==
+eyJoaXN0b3J5IjpbLTE0NjA4OTY1MjgsLTk1NTEwNDE5MCw0Nz
+IzNjA4ODgsLTg5MDEyMzE3OSwtMTU2MTYzNjAzMiwtNzIwODQ2
+NDc0LDE2MjA1MjQwNSwxODM5MzM3MzY0LC0xMzEwODAwMDc5LC
+0xNzE3OTY4ODYyLDE3NTcwNjg0OV19
 -->
