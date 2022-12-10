@@ -106,6 +106,7 @@ api = Blueprint('codes')
 @api.route("/info")
 def api_route1():
     current_app.logger.info("called from api route method1 inside blueprint")
+    return "Hello World!!!"
 
 ```
 
@@ -119,8 +120,8 @@ def api_route1():
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyMzYwODg4LC04OTAxMjMxNzksLTE1Nj
-E2MzYwMzIsLTcyMDg0NjQ3NCwxNjIwNTI0MDUsMTgzOTMzNzM2
-NCwtMTMxMDgwMDA3OSwtMTcxNzk2ODg2MiwxNzU3MDY4NDldfQ
-==
+eyJoaXN0b3J5IjpbLTUxODAzMTk4NSw0NzIzNjA4ODgsLTg5MD
+EyMzE3OSwtMTU2MTYzNjAzMiwtNzIwODQ2NDc0LDE2MjA1MjQw
+NSwxODM5MzM3MzY0LC0xMzEwODAwMDc5LC0xNzE3OTY4ODYyLD
+E3NTcwNjg0OV19
 -->
