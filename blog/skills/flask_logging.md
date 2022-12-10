@@ -117,9 +117,10 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 * Flask logging documentation - https://flask.palletsprojects.com/en/2.2.x/logging/
 * logging cookbook - https://docs.python.org/3/howto/logging-cookbook.html#using-loggeradapters-to-impart-contextual-information
 * Official documentation - https://docs.python.org/3/library/logging.html
+* Access flask logger inside blueprint - https://stackoverflow.com/questions/16994174/in-flask-how-to-access-app-logger-within-blueprint
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDczMjgxMSwtMTcxNzk2ODg2MiwxNz
+eyJoaXN0b3J5IjpbLTE3OTg0MTU0MywtMTcxNzk2ODg2MiwxNz
 U3MDY4NDldfQ==
 -->
