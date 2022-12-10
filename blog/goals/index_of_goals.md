@@ -146,6 +146,7 @@ Here are the goals and skills in this tutorial series
 * [Create API endpoints in Flask](https://nagasudhir.blogspot.com/2022/09/create-api-endpoints-in-flask.html)
 * [Run a python Flask server as a windows background service using nssm](https://nagasudhir.blogspot.com/2022/09/run-python-flask-server-as-windows.html)
 * [Waitress as Flask server WSGI](https://nagasudhir.blogspot.com/2022/10/waitress-as-flask-server-wsgi.html)
+* [Logging in python Flask applications](https://nagasudhir.blogspot.com/2022/12/logging-in-python-flask-applications.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -153,11 +154,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTg2NzA3NzgxNCwtOTUxMz
-AyMTAxLDIxMzc1NTA4OTMsODA5NTQyNyw0ODA2MDg4MzQsOTMw
-OTcxMzM4LC0zOTk5NTQ4NzcsMTE1MjMyMzA3NSwxNzM5ODE5MD
-MyLDEyODA1OTg5MDgsNTY2NDgxMDM2LC0xOTA2NTM4MTY0LC0y
-MTA5NTM2MjkyLC0xMjYxMTQzMjcsLTE3Mzg1MTE0MjgsMTQ2ND
-kwNjcwNiwtMTU2NzE0NTUzMiwtMTkxMTA2NDE1NywxNzA1MTkw
-NjEyLDgwNjEzNzYwN119
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE1MjYyNjA0NjQsLTk1MT
+MwMjEwMSwyMTM3NTUwODkzLDgwOTU0MjcsNDgwNjA4ODM0LDkz
+MDk3MTMzOCwtMzk5OTU0ODc3LDExNTIzMjMwNzUsMTczOTgxOT
+AzMiwxMjgwNTk4OTA4LDU2NjQ4MTAzNiwtMTkwNjUzODE2NCwt
+MjEwOTUzNjI5MiwtMTI2MTE0MzI3LC0xNzM4NTExNDI4LDE0Nj
+Q5MDY3MDYsLTE1NjcxNDU1MzIsLTE5MTEwNjQxNTcsMTcwNTE5
+MDYxMiw4MDYxMzc2MDddfQ==
 -->
