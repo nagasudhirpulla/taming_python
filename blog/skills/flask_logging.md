@@ -99,7 +99,6 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 * Note that the `current_app` variable can be available only in the context of a request
 
 ```py
-# importing current_app from flask
 from flask import current_app
 
 api = Blueprint('codes')
@@ -107,6 +106,7 @@ api = Blueprint('codes')
 @api.route("/info")
 def api_route1():
     current_app.logger.info("called from api route method1 inside blueprint")
+
 ```
 
 ## Add context in a single log using "extra"
@@ -213,7 +213,8 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MDEyMzE3OSwtMTU2MTYzNjAzMiwtNz
-IwODQ2NDc0LDE2MjA1MjQwNSwxODM5MzM3MzY0LC0xMzEwODAw
-MDc5LC0xNzE3OTY4ODYyLDE3NTcwNjg0OV19
+eyJoaXN0b3J5IjpbLTYwNzUzOTkxMywtODkwMTIzMTc5LC0xNT
+YxNjM2MDMyLC03MjA4NDY0NzQsMTYyMDUyNDA1LDE4MzkzMzcz
+NjQsLTEzMTA4MDAwNzksLTE3MTc5Njg4NjIsMTc1NzA2ODQ5XX
+0=
 -->
