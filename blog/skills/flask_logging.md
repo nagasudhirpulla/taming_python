@@ -57,7 +57,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ``` 
 
-## Inject contextual information into logs using custom formatter
+## Inject contextual information into logs using custom log formatter
 ```py
 from flask import has_request_context, request, Flask
 import logging
@@ -122,7 +122,7 @@ def api_route1():
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjMyNTIzMSwxNzAyMjI1NDEzLC05NT
+eyJoaXN0b3J5IjpbLTgxMjA2NDE4MSwxNzAyMjI1NDEzLC05NT
 UxMDQxOTAsNDcyMzYwODg4LC04OTAxMjMxNzksLTE1NjE2MzYw
 MzIsLTcyMDg0NjQ3NCwxNjIwNTI0MDUsMTgzOTMzNzM2NCwtMT
 MxMDgwMDA3OSwtMTcxNzk2ODg2MiwxNzU3MDY4NDldfQ==
