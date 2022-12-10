@@ -23,7 +23,7 @@ In this post we will learn how to customize logging in python flask applications
 from flask import Flask
 import logging
 
-# One line configuration like this can also be done
+# One line configuration like this can also be used
 # logging.basicConfig(filename="logs.log", format="%(levelname)s:%(name)s:%(message)s")
 
 # get the root logger
@@ -160,6 +160,6 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODAxNDczMTIsMTgzOTMzNzM2NCwtMT
-MxMDgwMDA3OSwtMTcxNzk2ODg2MiwxNzU3MDY4NDldfQ==
+eyJoaXN0b3J5IjpbMTYyMDUyNDA1LDE4MzkzMzczNjQsLTEzMT
+A4MDAwNzksLTE3MTc5Njg4NjIsMTc1NzA2ODQ5XX0=
 -->
