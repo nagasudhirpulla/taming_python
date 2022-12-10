@@ -104,7 +104,7 @@ from flask import current_app
 
 @api.route("/info")
 def api_route1():
-    current_app.logger.info("called from api ")
+    current_app.logger.info("called from api route method1")
 
 ```
 
@@ -212,7 +212,7 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA1NDEwNzgsLTE1NjE2MzYwMzIsLT
-cyMDg0NjQ3NCwxNjIwNTI0MDUsMTgzOTMzNzM2NCwtMTMxMDgw
-MDA3OSwtMTcxNzk2ODg2MiwxNzU3MDY4NDldfQ==
+eyJoaXN0b3J5IjpbMTc0MTg2NjM1OSwtMTU2MTYzNjAzMiwtNz
+IwODQ2NDc0LDE2MjA1MjQwNSwxODM5MzM3MzY0LC0xMzEwODAw
+MDc5LC0xNzE3OTY4ODYyLDE3NTcwNjg0OV19
 -->
