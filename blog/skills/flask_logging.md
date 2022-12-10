@@ -104,8 +104,7 @@ from flask import current_app
 
 @api.route("/info")
 def api_route1():
-    current_app.logger.info("called from api route method1")
-
+    current_app.logger.info("called from api route method1 inside blueprint")
 ```
 
 ## Add context in a single log using "extra"
@@ -212,7 +211,7 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MTg2NjM1OSwtMTU2MTYzNjAzMiwtNz
-IwODQ2NDc0LDE2MjA1MjQwNSwxODM5MzM3MzY0LC0xMzEwODAw
-MDc5LC0xNzE3OTY4ODYyLDE3NTcwNjg0OV19
+eyJoaXN0b3J5IjpbMzc4MDE2MTgsLTE1NjE2MzYwMzIsLTcyMD
+g0NjQ3NCwxNjIwNTI0MDUsMTgzOTMzNzM2NCwtMTMxMDgwMDA3
+OSwtMTcxNzk2ODg2MiwxNzU3MDY4NDldfQ==
 -->
