@@ -57,7 +57,7 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ``` 
 
 ## Inject extra information into logs using custom formatter
-```pu
+```py
 ```
 
 ## TODO access app logger inside blueprints and extensions using current_app
@@ -166,7 +166,7 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1MTUzNjU4LDE2MjA1MjQwNSwxODM5Mz
-M3MzY0LC0xMzEwODAwMDc5LC0xNzE3OTY4ODYyLDE3NTcwNjg0
-OV19
+eyJoaXN0b3J5IjpbLTcyMDg0NjQ3NCwxNjIwNTI0MDUsMTgzOT
+MzNzM2NCwtMTMxMDgwMDA3OSwtMTcxNzk2ODg2MiwxNzU3MDY4
+NDldfQ==
 -->
