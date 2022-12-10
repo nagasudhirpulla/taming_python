@@ -93,7 +93,10 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ```
 
-## TODO access app logger inside blueprints and extensions using current_app
+## access app logger inside blueprints and extensions using current_app
+```py
+
+```
 
 ## Add context in a single log using "extra"
 ```py
@@ -199,7 +202,7 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjE2MzYwMzIsLTcyMDg0NjQ3NCwxNj
-IwNTI0MDUsMTgzOTMzNzM2NCwtMTMxMDgwMDA3OSwtMTcxNzk2
-ODg2MiwxNzU3MDY4NDldfQ==
+eyJoaXN0b3J5IjpbMTgyMDI5MDYzOSwtMTU2MTYzNjAzMiwtNz
+IwODQ2NDc0LDE2MjA1MjQwNSwxODM5MzM3MzY0LC0xMzEwODAw
+MDc5LC0xNzE3OTY4ODYyLDE3NTcwNjg0OV19
 -->
