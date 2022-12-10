@@ -15,7 +15,8 @@ In this post we will learn how to customize logging in python flask applications
 
 ## Use cases
 * Logging is very important in web applications
-* Flask applications use python logging module for logging 
+* Flask applications use standard python logging module
+*  
 
 ## Add context in a single log using "extra"
 ```py
@@ -120,5 +121,5 @@ You can see the video for this post [here](https://youtu.be/CrCAYS37QZA)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzA2ODQ5XX0=
+eyJoaXN0b3J5IjpbMjExMjMzMTkwMiwxNzU3MDY4NDldfQ==
 -->
