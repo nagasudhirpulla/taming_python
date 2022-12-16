@@ -114,6 +114,11 @@ def api_route1():
 
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/_Nq_n6Uk8WA)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_Nq_n6Uk8WA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 ## References
@@ -124,9 +129,9 @@ def api_route1():
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTI2MTQxNywyMjUzMDk2NDIsMTcwMj
-IyNTQxMywtOTU1MTA0MTkwLDQ3MjM2MDg4OCwtODkwMTIzMTc5
-LC0xNTYxNjM2MDMyLC03MjA4NDY0NzQsMTYyMDUyNDA1LDE4Mz
-kzMzczNjQsLTEzMTA4MDAwNzksLTE3MTc5Njg4NjIsMTc1NzA2
-ODQ5XX0=
+eyJoaXN0b3J5IjpbLTE3ODQ1NTI1MDQsMTU4OTI2MTQxNywyMj
+UzMDk2NDIsMTcwMjIyNTQxMywtOTU1MTA0MTkwLDQ3MjM2MDg4
+OCwtODkwMTIzMTc5LC0xNTYxNjM2MDMyLC03MjA4NDY0NzQsMT
+YyMDUyNDA1LDE4MzkzMzczNjQsLTEzMTA4MDAwNzksLTE3MTc5
+Njg4NjIsMTc1NzA2ODQ5XX0=
 -->
