@@ -96,7 +96,7 @@ print(folderInfo)
 
 ### References
 * Official ftplib documentation - https://docs.python.org/3/library/ftplib.html
-* List of standard FTP commands- 
+* List of standard FTP commands - https://en.wikipedia.org/wiki/List_of_FTP_commands
 
 
 <hr/>
@@ -107,8 +107,8 @@ print(folderInfo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjkxMzA0NDAsLTc3MDAwMDIxNywxOD
-U2NzIwMTQ4LDEyNjAxMjg3OTIsLTU3ODEzNTg0NywtMTQxNDI0
-NzAyMywtMTU1NTU4MjQ5NCwtMTM0NDU2ODgwMSwtODM0NjI4MT
-QzLC0xMDUxODc4NzgwLC0xNTEwNjg5NjQzXX0=
+eyJoaXN0b3J5IjpbLTkxMzQxNDQxLC03NzAwMDAyMTcsMTg1Nj
+cyMDE0OCwxMjYwMTI4NzkyLC01NzgxMzU4NDcsLTE0MTQyNDcw
+MjMsLTE1NTU1ODI0OTQsLTEzNDQ1Njg4MDEsLTgzNDYyODE0My
+wtMTA1MTg3ODc4MCwtMTUxMDY4OTY0M119
 -->
