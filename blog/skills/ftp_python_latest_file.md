@@ -1,4 +1,4 @@
-## Skill - get latest file from ftp server folder using ftplib mlsd or dir
+## Skill - get latest file from ftp server folder using ftplib mlsd or dir commands
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -292,5 +292,5 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM3NTMzMTE5XX0=
+eyJoaXN0b3J5IjpbLTE1MTA2ODk2NDNdfQ==
 -->
