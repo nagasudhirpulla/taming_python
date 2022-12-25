@@ -33,7 +33,8 @@ print(f"The latest file name is - {latestFile[0]}")
 ```
 
 
-### Without SSL
+## using  nlst and mdtm
+* 
 ```python
 import ftplib
 
@@ -310,7 +311,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQyNDcwMjMsLTE1NTU1ODI0OTQsLT
-EzNDQ1Njg4MDEsLTgzNDYyODE0MywtMTA1MTg3ODc4MCwtMTUx
-MDY4OTY0M119
+eyJoaXN0b3J5IjpbMTUxMDM4NTU2MCwtMTQxNDI0NzAyMywtMT
+U1NTU4MjQ5NCwtMTM0NDU2ODgwMSwtODM0NjI4MTQzLC0xMDUx
+ODc4NzgwLC0xNTEwNjg5NjQzXX0=
 -->
