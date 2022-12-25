@@ -1,4 +1,4 @@
-## Skill - get latest file from ftp server folder using ftplib
+## Skill - Get latest file from ftp server folder using ftplib
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -107,9 +107,9 @@ print(folderInfo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjY2MzAyMzksLTkxMzQxNDQxLC03Nz
-AwMDAyMTcsMTg1NjcyMDE0OCwxMjYwMTI4NzkyLC01NzgxMzU4
-NDcsLTE0MTQyNDcwMjMsLTE1NTU1ODI0OTQsLTEzNDQ1Njg4MD
-EsLTgzNDYyODE0MywtMTA1MTg3ODc4MCwtMTUxMDY4OTY0M119
-
+eyJoaXN0b3J5IjpbLTM4ODQ1NDQ2MywtMTIyNjYzMDIzOSwtOT
+EzNDE0NDEsLTc3MDAwMDIxNywxODU2NzIwMTQ4LDEyNjAxMjg3
+OTIsLTU3ODEzNTg0NywtMTQxNDI0NzAyMywtMTU1NTU4MjQ5NC
+wtMTM0NDU2ODgwMSwtODM0NjI4MTQzLC0xMDUxODc4NzgwLC0x
+NTEwNjg5NjQzXX0=
 -->
