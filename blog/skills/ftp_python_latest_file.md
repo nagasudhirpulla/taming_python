@@ -77,7 +77,7 @@ print(f"The latest file name is - {latestFilename}")
 ```
 
 ## using dir command
-
+* If none of the above approaches are working, then the string returned by the `dir` command can be used to parse the file names and
 ```python
 import ftplib
 
@@ -326,8 +326,8 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MTg4NTAyOSwxODU2NzIwMTQ4LDEyNj
-AxMjg3OTIsLTU3ODEzNTg0NywtMTQxNDI0NzAyMywtMTU1NTU4
-MjQ5NCwtMTM0NDU2ODgwMSwtODM0NjI4MTQzLC0xMDUxODc4Nz
-gwLC0xNTEwNjg5NjQzXX0=
+eyJoaXN0b3J5IjpbMjc0Mjk4MDI2LDE4NTY3MjAxNDgsMTI2MD
+EyODc5MiwtNTc4MTM1ODQ3LC0xNDE0MjQ3MDIzLC0xNTU1NTgy
+NDk0LC0xMzQ0NTY4ODAxLC04MzQ2MjgxNDMsLTEwNTE4Nzg3OD
+AsLTE1MTA2ODk2NDNdfQ==
 -->
