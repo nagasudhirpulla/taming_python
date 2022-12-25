@@ -40,7 +40,7 @@ print(f"The latest file name is - {latestFile[0]}")
 ## using  nlst and mdtm
 * The following approach can be adopted to find the latest file in ftp server with ftplib python module if `nlst` and `mdtm` commands are supported by the ftp server
 * `nlst` command returns the list of all the file names in a remote folder and `mdtm` returns the modified time information for a specified remote file name
-* running `mdtm` command on a remote folder w  
+* running `mdtm` command on a remote folder instead of a file will return an error   
 
 ```python
 from ftplib import FTP
@@ -325,7 +325,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzEzNzY2MiwxMjYwMTI4NzkyLC01Nz
+eyJoaXN0b3J5IjpbLTc3NzYxMzczOCwxMjYwMTI4NzkyLC01Nz
 gxMzU4NDcsLTE0MTQyNDcwMjMsLTE1NTU1ODI0OTQsLTEzNDQ1
 Njg4MDEsLTgzNDYyODE0MywtMTA1MTg3ODc4MCwtMTUxMDY4OT
 Y0M119
