@@ -88,7 +88,10 @@ ftp = FTP(host="127.0.0.1", user="Nagasudhir", passwd="wrldc@123")
 # change working directory as requried
 ftp.cwd("/lab/YarpTest")
 
-print(ftp.dir())
+folderInfo = ftp.dir()
+print(folderInfo)
+
+# parse the folder info output line by line to determine the latest file
 ```
 
 ## Change working directory using 'cwd'
@@ -311,7 +314,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NzIxMjg2NSwxODU2NzIwMTQ4LDEyNj
+eyJoaXN0b3J5IjpbLTc3MDAwMDIxNywxODU2NzIwMTQ4LDEyNj
 AxMjg3OTIsLTU3ODEzNTg0NywtMTQxNDI0NzAyMywtMTU1NTU4
 MjQ5NCwtMTM0NDU2ODgwMSwtODM0NjI4MTQzLC0xMDUxODc4Nz
 gwLC0xNTEwNjg5NjQzXX0=
