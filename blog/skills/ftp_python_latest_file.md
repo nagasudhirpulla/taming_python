@@ -10,7 +10,8 @@
 * A blogpost on using ftplib python module can be found [here](https://nagasudhir.blogspot.com/2022/02/ftp-server-communication-with-ftplib.html)
  
 ## using mlsd command
-The best way to get the latest file of an ftp server folder using ftplib python module is the `mlsd` command
+* The best way to get the latest file of an ftp server folder using ftplib python module is the `mlsd` command
+* But all ftp servers do not support msld command. For example filezilla FTP server supports this command and IIS based FTP server does 
 ```py
 from ftplib import FTP
 ftp = FTP(host="127.0.0.1", user="abcd", passwd="testPass")
@@ -309,6 +310,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTU1ODI0OTQsLTEzNDQ1Njg4MDEsLT
-gzNDYyODE0MywtMTA1MTg3ODc4MCwtMTUxMDY4OTY0M119
+eyJoaXN0b3J5IjpbLTE2OTc3MjYzMTIsLTE1NTU1ODI0OTQsLT
+EzNDQ1Njg4MDEsLTgzNDYyODE0MywtMTA1MTg3ODc4MCwtMTUx
+MDY4OTY0M119
 -->
