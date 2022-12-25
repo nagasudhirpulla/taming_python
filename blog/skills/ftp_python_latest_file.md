@@ -9,7 +9,7 @@
 * A blogpost on how to setup a local FTP server can can be found [here](https://nagasudhir.blogspot.com/2022/02/setup-ftp-server-and-ftp-client-in.html)
 * A blogpost on using ftplib python module can be found [here](https://nagasudhir.blogspot.com/2022/02/ftp-server-communication-with-ftplib.html)
  
-## Connect to an FTP server
+## using MLSD command
 The following parameters are required to establish a connection to an FTP server
 * FTP server host address (like "localhost" or "192.87.34.1" or "myftp.abcd.com")
 * FTP server port (usually is 21)
@@ -293,6 +293,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEwMzc4MjgxLC0xMDUxODc4NzgwLC0xNT
-EwNjg5NjQzXX0=
+eyJoaXN0b3J5IjpbLTE3Njk1NjAwOSwtMTA1MTg3ODc4MCwtMT
+UxMDY4OTY0M119
 -->
