@@ -9,8 +9,9 @@
 * A blogpost on how to setup a local FTP server can can be found [here](https://nagasudhir.blogspot.com/2022/02/setup-ftp-server-and-ftp-client-in.html)
 * A blogpost on using ftplib python module can be found [here](https://nagasudhir.blogspot.com/2022/02/ftp-server-communication-with-ftplib.html)
  
-## using MLSD command
-The best way to get the latest file of an ftp server folder using ftplib python module is the MLSD command
+## using mlsd command
+The best way to get the latest file of an ftp server folder using ftplib python module is the `mlsd` command
+
 
 
 ### Without SSL
@@ -290,6 +291,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDYyODE0MywtMTA1MTg3ODc4MCwtMT
-UxMDY4OTY0M119
+eyJoaXN0b3J5IjpbLTEzNDQ1Njg4MDEsLTgzNDYyODE0MywtMT
+A1MTg3ODc4MCwtMTUxMDY4OTY0M119
 -->
