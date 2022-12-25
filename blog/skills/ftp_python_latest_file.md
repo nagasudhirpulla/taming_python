@@ -6,7 +6,7 @@
 
 * In this post we try to learn how to get the latest file from a folder of an ftp server using python ftplib module
 * ftplib is an inbuilt python module that can be used for FTP server interactions like upload files, download files, read list of file names etc
-* If you want to setup a local FTP server, you can read my blog post [here](https://nagasudhir.blogspot.com/2022/02/setup-ftp-server-and-ftp-client-in.html)
+* A blogpost on how to setup a local FTP server, you can read my blog post [here](https://nagasudhir.blogspot.com/2022/02/setup-ftp-server-and-ftp-client-in.html)
 * 
  
 ## Connect to an FTP server
@@ -293,6 +293,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTE4Nzg3ODAsLTE1MTA2ODk2NDNdfQ
-==
+eyJoaXN0b3J5IjpbNTAwMjgxNDM4LC0xMDUxODc4NzgwLC0xNT
+EwNjg5NjQzXX0=
 -->
