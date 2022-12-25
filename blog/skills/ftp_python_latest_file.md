@@ -72,7 +72,7 @@ print(f"The latest file name is - {latestFilename}")
 
 ```
 
-### With SSL
+## using dir command
 * While connecting to FTP server using SSL, use `FTP_TLS` instead of `FTP` function
 * Also we need to call `ftp.prot_p()` to secure the connection after logging in
 ```python
@@ -323,7 +323,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1MjYzOTQ2LDEyNjAxMjg3OTIsLTU3OD
+eyJoaXN0b3J5IjpbNTAyMjY0NDQ1LDEyNjAxMjg3OTIsLTU3OD
 EzNTg0NywtMTQxNDI0NzAyMywtMTU1NTU4MjQ5NCwtMTM0NDU2
 ODgwMSwtODM0NjI4MTQzLC0xMDUxODc4NzgwLC0xNTEwNjg5Nj
 QzXX0=
