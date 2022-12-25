@@ -40,28 +40,36 @@ print(f"The latest file name is - {latestFile[0]}")
 ## using  nlst and mdtm
 * The following approach can be adopted to find the latest file in ftp server with ftplib python module if nlst and mdtm commands are supported by the ftp server
 ```python
-import ftplib
+from ftplib import FTP
+# connect to ftp server
+ftp = FTP(host="127.0.0.1", user="admin", passwd="testPass")
 
-# connection parameters
-ftpHost = 'localhost'
-ftpPort = 21
-ftpUname = 'uname'
-ftpPass = 'pass'
+# change the working directory if requried
+ftp.cwd("/folder1")
 
-# create an FTP client instance, use the timeout(seconds) parameter for slow connections only
-ftp = ftplib.FTP(timeout=30)
+# initialize the latest file info
+latestFileTime = None
+latestFilename = None
 
-# connect to the FTP server
-ftp.connect(ftpHost, ftpPort)
+for fName in ftp.nlst():
+    # print(fName)
+    # mdtm may not be supported for folder is IIS based FTP server, so wrapping with try except
+    try:
+        fTimeInfo = ftp.voidcmd(f"MDTM {fName}")
+        fTime = fTimeInfo.split(" ")[1]
+        if latestFileTime!=None:
+            if fTime >= latestFileTime:
+                latestFileTime = fTime
+                latestFilename = fName
+        else:
+            latestFileTime = fTime
+            latestFilename = fName
+    except:
+        print(f"error while processing {fName}")
 
-# login to the FTP server
-ftp.login(ftpUname, ftpPass)
+# print(latestFile)
+print(f"The latest file name is - {latestFilename}")
 
-# do something with the ftp client like upload, download etc
-
-# send QUIT command to the FTP server and close the connection
-ftp.quit()
-print("execution complete...")
 ```
 
 ### With SSL
@@ -315,7 +323,8 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDEyODc5MiwtNTc4MTM1ODQ3LC0xND
-E0MjQ3MDIzLC0xNTU1NTgyNDk0LC0xMzQ0NTY4ODAxLC04MzQ2
-MjgxNDMsLTEwNTE4Nzg3ODAsLTE1MTA2ODk2NDNdfQ==
+eyJoaXN0b3J5IjpbNjU1MjYzOTQ2LDEyNjAxMjg3OTIsLTU3OD
+EzNTg0NywtMTQxNDI0NzAyMywtMTU1NTU4MjQ5NCwtMTM0NDU2
+ODgwMSwtODM0NjI4MTQzLC0xMDUxODc4NzgwLC0xNTEwNjg5Nj
+QzXX0=
 -->
