@@ -10,11 +10,8 @@
 * A blogpost on using ftplib python module can be found [here](https://nagasudhir.blogspot.com/2022/02/ftp-server-communication-with-ftplib.html)
  
 ## using MLSD command
-The following parameters are required to establish a connection to an FTP server
-* FTP server host address (like "localhost" or "192.87.34.1" or "myftp.abcd.com")
-* FTP server port (usually is 21)
-* username
-* password
+The best way to get the latest file of an ftp server folder using ftplib python module is the MLSD command
+
 
 ### Without SSL
 ```python
@@ -293,6 +290,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njk1NjAwOSwtMTA1MTg3ODc4MCwtMT
+eyJoaXN0b3J5IjpbLTgzNDYyODE0MywtMTA1MTg3ODc4MCwtMT
 UxMDY4OTY0M119
 -->
