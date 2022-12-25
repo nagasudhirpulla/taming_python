@@ -34,7 +34,7 @@ print(f"The latest file name is - {latestFile[0]}")
 
 
 ## using  nlst and mdtm
-* 
+* The following approach can be adopted to fi nlst and mdtm commands are supported by the ftp server
 ```python
 import ftplib
 
@@ -311,7 +311,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDM4NTU2MCwtMTQxNDI0NzAyMywtMT
-U1NTU4MjQ5NCwtMTM0NDU2ODgwMSwtODM0NjI4MTQzLC0xMDUx
-ODc4NzgwLC0xNTEwNjg5NjQzXX0=
+eyJoaXN0b3J5IjpbNjM5OTg4MzgxLC0xNDE0MjQ3MDIzLC0xNT
+U1NTgyNDk0LC0xMzQ0NTY4ODAxLC04MzQ2MjgxNDMsLTEwNTE4
+Nzg3ODAsLTE1MTA2ODk2NDNdfQ==
 -->
