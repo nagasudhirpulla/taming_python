@@ -61,6 +61,7 @@ Here are the goals and skills in this tutorial series
 #### FTP and SFTP Skills
 * [Setup FTP server and FTP client in Windows using IIS, Filezilla server and WinSCP](https://nagasudhir.blogspot.com/2022/02/setup-ftp-server-and-ftp-client-in.html)
 * [FTP server communication with ftplib python module](https://nagasudhir.blogspot.com/2022/02/ftp-server-communication-with-ftplib.html)
+* [Get latest file from ftp server folder using ftplib in python](https://nagasudhir.blogspot.com/2022/12/get-latest-file-from-ftp-server-folder.html)
 * [Setup SFTP server and SFTP client in Windows using OpenSSH server and WinSCP](https://nagasudhir.blogspot.com/2022/03/setup-sftp-server-and-sftp-client-in.html)
 * [Setup Logging for SFTP server in windows](https://nagasudhir.blogspot.com/2022/10/setup-logging-for-sftp-server-in-windows.html)
 * [SFTP server in Windows with multiple users and read-only option](https://nagasudhir.blogspot.com/2022/10/sftp-server-in-windows-with-multiple.html)
@@ -154,11 +155,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE1MjYyNjA0NjQsLTk1MT
-MwMjEwMSwyMTM3NTUwODkzLDgwOTU0MjcsNDgwNjA4ODM0LDkz
-MDk3MTMzOCwtMzk5OTU0ODc3LDExNTIzMjMwNzUsMTczOTgxOT
-AzMiwxMjgwNTk4OTA4LDU2NjQ4MTAzNiwtMTkwNjUzODE2NCwt
-MjEwOTUzNjI5MiwtMTI2MTE0MzI3LC0xNzM4NTExNDI4LDE0Nj
-Q5MDY3MDYsLTE1NjcxNDU1MzIsLTE5MTEwNjQxNTcsMTcwNTE5
-MDYxMiw4MDYxMzc2MDddfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbOTY5NjA4ODY0LC0xNTI2Mj
+YwNDY0LC05NTEzMDIxMDEsMjEzNzU1MDg5Myw4MDk1NDI3LDQ4
+MDYwODgzNCw5MzA5NzEzMzgsLTM5OTk1NDg3NywxMTUyMzIzMD
+c1LDE3Mzk4MTkwMzIsMTI4MDU5ODkwOCw1NjY0ODEwMzYsLTE5
+MDY1MzgxNjQsLTIxMDk1MzYyOTIsLTEyNjExNDMyNywtMTczOD
+UxMTQyOCwxNDY0OTA2NzA2LC0xNTY3MTQ1NTMyLC0xOTExMDY0
+MTU3LDE3MDUxOTA2MTJdfQ==
 -->
