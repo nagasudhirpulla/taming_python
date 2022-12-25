@@ -81,31 +81,14 @@ print(f"The latest file name is - {latestFilename}")
 * The string returned by the `dir` command is dependent in the FTP server implementation. For example, `dir` command output of IIS based FTP server is different from that of Filezilla based FTP server.
 
 ```python
-import ftplib
+from ftplib import FTP
+# connect to ftp server
+ftp = FTP(host="127.0.0.1", user="Nagasudhir", passwd="wrldc@123")
 
-# connection parameters
-ftpHost = 'localhost'
-ftpPort = 21
-ftpUname = 'uname'
-ftpPass = 'pass'
+# change working directory as requried
+ftp.cwd("/lab/YarpTest")
 
-# create an FTP client instance, use the timeout(seconds) parameter for slow connections only
-ftp = ftplib.FTP_TLS(timeout=30)
-
-# connect to the FTP server
-ftp.connect(ftpHost, ftpPort)
-
-# login to the FTP server
-ftp.login(ftpUname, ftpPass)
-
-# setup secure data connection
-ftp.prot_p()
-
-# do something with the ftp client like upload, download etc
-
-# send QUIT command to the FTP server and close the connection
-ftp.quit()
-print("execution complete...")
+print(ftp.dir())
 ```
 
 ## Change working directory using 'cwd'
@@ -328,7 +311,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTk5NjkzMywxODU2NzIwMTQ4LDEyNj
+eyJoaXN0b3J5IjpbLTU1NzIxMjg2NSwxODU2NzIwMTQ4LDEyNj
 AxMjg3OTIsLTU3ODEzNTg0NywtMTQxNDI0NzAyMywtMTU1NTU4
 MjQ5NCwtMTM0NDU2ODgwMSwtODM0NjI4MTQzLC0xMDUxODc4Nz
 gwLC0xNTEwNjg5NjQzXX0=
