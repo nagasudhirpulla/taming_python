@@ -11,7 +11,7 @@
  
 ## using mlsd command
 * The best way to get the latest file of an ftp server folder using ftplib python module is the `mlsd` command
-* But all ftp servers do not support msld command. For example filezilla FTP server supports this command and IIS based FTP server does 
+* But all ftp servers do not support msld command. For example filezilla FTP server supports this command and IIS based FTP server does not support this command
 ```py
 from ftplib import FTP
 ftp = FTP(host="127.0.0.1", user="abcd", passwd="testPass")
@@ -310,7 +310,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTc3MjYzMTIsLTE1NTU1ODI0OTQsLT
+eyJoaXN0b3J5IjpbLTE0MTQyNDcwMjMsLTE1NTU1ODI0OTQsLT
 EzNDQ1Njg4MDEsLTgzNDYyODE0MywtMTA1MTg3ODc4MCwtMTUx
 MDY4OTY0M119
 -->
