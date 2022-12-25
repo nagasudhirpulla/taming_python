@@ -20,6 +20,7 @@ ftp = FTP(host="127.0.0.1", user="abcd", passwd="testPass")
 # change working directory as requried
 ftp.cwd("/folder1")
 
+# initialize the latest file info
 latestFile = None
 
 for fInfo in ftp.mlsd(facts=["type", "modify", "size"]):
@@ -314,7 +315,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODEzNTg0NywtMTQxNDI0NzAyMywtMT
-U1NTU4MjQ5NCwtMTM0NDU2ODgwMSwtODM0NjI4MTQzLC0xMDUx
-ODc4NzgwLC0xNTEwNjg5NjQzXX0=
+eyJoaXN0b3J5IjpbMTM1MzQ4NDQxMiwtNTc4MTM1ODQ3LC0xND
+E0MjQ3MDIzLC0xNTU1NTgyNDk0LC0xMzQ0NTY4ODAxLC04MzQ2
+MjgxNDMsLTEwNTE4Nzg3ODAsLTE1MTA2ODk2NDNdfQ==
 -->
