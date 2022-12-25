@@ -15,7 +15,7 @@
 ```py
 from ftplib import FTP
 ftp = FTP(host="127.0.0.1", user="abcd", passwd="testPass")
-
+# change working directory 
 ftp.cwd("/folder1")
 
 latestFile = None
@@ -312,7 +312,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDEyMDQzMCwtMTQxNDI0NzAyMywtMT
-U1NTU4MjQ5NCwtMTM0NDU2ODgwMSwtODM0NjI4MTQzLC0xMDUx
-ODc4NzgwLC0xNTEwNjg5NjQzXX0=
+eyJoaXN0b3J5IjpbLTIwNzQyMTc4NjksLTE0MTQyNDcwMjMsLT
+E1NTU1ODI0OTQsLTEzNDQ1Njg4MDEsLTgzNDYyODE0MywtMTA1
+MTg3ODc4MCwtMTUxMDY4OTY0M119
 -->
