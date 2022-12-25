@@ -78,7 +78,7 @@ print(f"The latest file name is - {latestFilename}")
 
 ## using dir command
 * If none of the above approaches are working, then the string returned by the `dir` command can be used to parse the file names and modification times to determine the latest file name
-* However the string returned by the `dir` command is dependent in the FTP server technology. For example, `dir` command output of IIS based FTP server is different from that of Filezilla based FTP server.
+* The string returned by the `dir` command is dependent in the FTP server implementation. For example, `dir` command output of IIS based FTP server is different from that of Filezilla based FTP server.
 
 ```python
 import ftplib
@@ -328,7 +328,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjU5NDUxMywxODU2NzIwMTQ4LDEyNj
+eyJoaXN0b3J5IjpbMTQxNTk5NjkzMywxODU2NzIwMTQ4LDEyNj
 AxMjg3OTIsLTU3ODEzNTg0NywtMTQxNDI0NzAyMywtMTU1NTU4
 MjQ5NCwtMTM0NDU2ODgwMSwtODM0NjI4MTQzLC0xMDUxODc4Nz
 gwLC0xNTEwNjg5NjQzXX0=
