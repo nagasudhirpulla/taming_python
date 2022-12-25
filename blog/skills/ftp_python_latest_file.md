@@ -86,7 +86,7 @@ from ftplib import FTP
 ftp = FTP(host="127.0.0.1", user="abcd", passwd="testPass")
 
 # change working directory as requried
-ftp.cwd("/lab/YarpTest")
+ftp.cwd("/folder1")
 
 folderInfo = ftp.dir()
 print(folderInfo)
@@ -107,9 +107,9 @@ print(folderInfo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4Njk0MzcwLC05MTM0MTQ0MSwtNzcwMD
-AwMjE3LDE4NTY3MjAxNDgsMTI2MDEyODc5MiwtNTc4MTM1ODQ3
-LC0xNDE0MjQ3MDIzLC0xNTU1NTgyNDk0LC0xMzQ0NTY4ODAxLC
-04MzQ2MjgxNDMsLTEwNTE4Nzg3ODAsLTE1MTA2ODk2NDNdfQ==
+eyJoaXN0b3J5IjpbLTEyMjY2MzAyMzksLTkxMzQxNDQxLC03Nz
+AwMDAyMTcsMTg1NjcyMDE0OCwxMjYwMTI4NzkyLC01NzgxMzU4
+NDcsLTE0MTQyNDcwMjMsLTE1NTU1ODI0OTQsLTEzNDQ1Njg4MD
+EsLTgzNDYyODE0MywtMTA1MTg3ODc4MCwtMTUxMDY4OTY0M119
 
 -->
