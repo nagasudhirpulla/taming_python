@@ -11,7 +11,25 @@
  
 ## using mlsd command
 The best way to get the latest file of an ftp server folder using ftplib python module is the `mlsd` command
+```py
+from ftplib import FTP
+ftp = FTP(host="127.0.0.1", user="abcd", passwd="testPass")
+ftp.cwd("/python_syslog_server")
 
+latestFile = None
+
+for fInfo in ftp.mlsd(facts=["type", "modify", "size"]):
+    # print(fInfo)
+    if fInfo[1]["type"] == "file":
+        if latestFile != None:
+            if float(fInfo[1]["modify"]) >= float(latestFile[1]["modify"]):
+                latestFile = fInfo
+        else:
+            latestFile = fInfo
+
+# print(latestFile)
+print(f"The latest file name is - {latestFile[0]}")
+```
 
 
 ### Without SSL
@@ -291,6 +309,6 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQ1Njg4MDEsLTgzNDYyODE0MywtMT
-A1MTg3ODc4MCwtMTUxMDY4OTY0M119
+eyJoaXN0b3J5IjpbLTE1NTU1ODI0OTQsLTEzNDQ1Njg4MDEsLT
+gzNDYyODE0MywtMTA1MTg3ODc4MCwtMTUxMDY4OTY0M119
 -->
