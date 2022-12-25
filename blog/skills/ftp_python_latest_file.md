@@ -37,7 +37,6 @@ print(f"The latest file name is - {latestFile[0]}")
 
 ```
 
-
 ## using  nlst and mdtm
 * The following approach can be adopted to find the latest file in ftp server with ftplib python module if nlst and mdtm commands are supported by the ftp server
 ```python
@@ -316,7 +315,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDEwOTUyNiwtNTc4MTM1ODQ3LC0xND
+eyJoaXN0b3J5IjpbMTI2MDEyODc5MiwtNTc4MTM1ODQ3LC0xND
 E0MjQ3MDIzLC0xNTU1NTgyNDk0LC0xMzQ0NTY4ODAxLC04MzQ2
 MjgxNDMsLTEwNTE4Nzg3ODAsLTE1MTA2ODk2NDNdfQ==
 -->
