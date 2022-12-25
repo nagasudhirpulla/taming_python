@@ -14,6 +14,7 @@
 * But all ftp servers do not support msld command. For example filezilla FTP server supports this command and IIS based FTP server does not support this command
 ```py
 from ftplib import FTP
+# connect to ftp server
 ftp = FTP(host="127.0.0.1", user="abcd", passwd="testPass")
 
 # change working directory as requried
@@ -313,7 +314,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTE2NjY4MjYsLTE0MTQyNDcwMjMsLT
-E1NTU1ODI0OTQsLTEzNDQ1Njg4MDEsLTgzNDYyODE0MywtMTA1
-MTg3ODc4MCwtMTUxMDY4OTY0M119
+eyJoaXN0b3J5IjpbLTU3ODEzNTg0NywtMTQxNDI0NzAyMywtMT
+U1NTU4MjQ5NCwtMTM0NDU2ODgwMSwtODM0NjI4MTQzLC0xMDUx
+ODc4NzgwLC0xNTEwNjg5NjQzXX0=
 -->
