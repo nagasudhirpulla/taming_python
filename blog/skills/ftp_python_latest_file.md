@@ -15,7 +15,8 @@
 ```py
 from ftplib import FTP
 ftp = FTP(host="127.0.0.1", user="abcd", passwd="testPass")
-ftp.cwd("/python_syslog_server")
+
+ftp.cwd("/folder1")
 
 latestFile = None
 
@@ -34,7 +35,7 @@ print(f"The latest file name is - {latestFile[0]}")
 
 
 ## using  nlst and mdtm
-* The following approach can be adopted to find the latest file in ftp server with ftplib python module  nlst and mdtm commands are supported by the ftp server
+* The following approach can be adopted to find the latest file in ftp server with ftplib python module if nlst and mdtm commands are supported by the ftp server
 ```python
 import ftplib
 
@@ -311,7 +312,7 @@ Video for this post can be found [here](https://youtu.be/ME37cs7R0N0)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3ODcyMDc0NCwtMTQxNDI0NzAyMywtMT
+eyJoaXN0b3J5IjpbMTQyMDEyMDQzMCwtMTQxNDI0NzAyMywtMT
 U1NTU4MjQ5NCwtMTM0NDU2ODgwMSwtODM0NjI4MTQzLC0xMDUx
 ODc4NzgwLC0xNTEwNjg5NjQzXX0=
 -->
