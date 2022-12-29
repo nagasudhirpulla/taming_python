@@ -94,6 +94,12 @@ print(folderInfo)
 # parse the folder info output line by line to determine the latest file
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/BkNuti_G4_8)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BkNuti_G4_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ### References
 * Official ftplib documentation - https://docs.python.org/3/library/ftplib.html
 * List of standard FTP commands - https://en.wikipedia.org/wiki/List_of_FTP_commands
@@ -107,9 +113,9 @@ print(folderInfo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODQ1NDQ2MywtMTIyNjYzMDIzOSwtOT
-EzNDE0NDEsLTc3MDAwMDIxNywxODU2NzIwMTQ4LDEyNjAxMjg3
-OTIsLTU3ODEzNTg0NywtMTQxNDI0NzAyMywtMTU1NTU4MjQ5NC
-wtMTM0NDU2ODgwMSwtODM0NjI4MTQzLC0xMDUxODc4NzgwLC0x
-NTEwNjg5NjQzXX0=
+eyJoaXN0b3J5IjpbMTk0NDI3NjMyNiwtMzg4NDU0NDYzLC0xMj
+I2NjMwMjM5LC05MTM0MTQ0MSwtNzcwMDAwMjE3LDE4NTY3MjAx
+NDgsMTI2MDEyODc5MiwtNTc4MTM1ODQ3LC0xNDE0MjQ3MDIzLC
+0xNTU1NTgyNDk0LC0xMzQ0NTY4ODAxLC04MzQ2MjgxNDMsLTEw
+NTE4Nzg3ODAsLTE1MTA2ODk2NDNdfQ==
 -->
