@@ -48,10 +48,11 @@ logger.error("This is error message")
 ## References
 * Syslog Watcher download page - https://ezfive.com/syslog-watcher/downloads/
 * rsyslog server - https://www.rsyslog.com/#
+* Install rsyslog server in Ubuntu - https://www.linkedin.com/pulse/how-install-set-up-rsyslog-server-linux-ubuntu-20041-akshay-sharma/
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNTU2MTcwNCw0NzM3ODM2MTMsLTEzMj
+eyJoaXN0b3J5IjpbMTAyNTI5MDUzMCw0NzM3ODM2MTMsLTEzMj
 EzMTU4MDksLTE5MjQ0OTU4NjMsNzQ1MjUwMDUwLC0xMDA3ODky
 ODMzLC02Mjc3ODQ1MTgsLTg4MDM1NTc3OCwtMTI1MDI1NzE3N1
 19
