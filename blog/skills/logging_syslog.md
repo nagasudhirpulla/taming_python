@@ -69,13 +69,12 @@ sudo ufw allow 514/udp
 
 ## References
 * Syslog Watcher download page - https://ezfive.com/syslog-watcher/downloads/
-* rsyslog server - https://www.rsyslog.com/#
-* Install rsyslog server in Ubuntu - https://www.linkedin.com/pulse/how-install-set-up-rsyslog-server-linux-ubuntu-20041-akshay-sharma/
+* Install and configure rsyslog server in Ubuntu - https://computingforgeeks.com/configure-rsyslog-centralized-log-server-on-ubuntu/
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDA0MzUwLDQ3Mzc4MzYxMywtMTMyMT
-MxNTgwOSwtMTkyNDQ5NTg2Myw3NDUyNTAwNTAsLTEwMDc4OTI4
-MzMsLTYyNzc4NDUxOCwtODgwMzU1Nzc4LC0xMjUwMjU3MTc3XX
-0=
+eyJoaXN0b3J5IjpbMTc3NTUxNzY0NywtMTMwMDQzNTAsNDczNz
+gzNjEzLC0xMzIxMzE1ODA5LC0xOTI0NDk1ODYzLDc0NTI1MDA1
+MCwtMTAwNzg5MjgzMywtNjI3Nzg0NTE4LC04ODAzNTU3NzgsLT
+EyNTAyNTcxNzddfQ==
 -->
