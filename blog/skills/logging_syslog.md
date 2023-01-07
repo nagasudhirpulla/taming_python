@@ -35,7 +35,7 @@ logger.error("This is error message")
 * As shown in the above example, the SysLogHandler is configured to send logs to syslog server running at host '127.0.0.1' and UDP port 514
 
 ## Simple Syslog server setup in windows
-* Syslog Watcher is a free Syslog listener for windows that can be used to see logs 
+* Syslog Watcher is a free Syslog listener for windows that can be used to view logs from various log sources
 
 
 <hr/>
@@ -45,7 +45,7 @@ logger.error("This is error message")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjAzMzI2OCw3NDUyNTAwNTAsLTEwMD
-c4OTI4MzMsLTYyNzc4NDUxOCwtODgwMzU1Nzc4LC0xMjUwMjU3
-MTc3XX0=
+eyJoaXN0b3J5IjpbLTE5MjQ0OTU4NjMsNzQ1MjUwMDUwLC0xMD
+A3ODkyODMzLC02Mjc3ODQ1MTgsLTg4MDM1NTc3OCwtMTI1MDI1
+NzE3N119
 -->
