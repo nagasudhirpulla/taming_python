@@ -52,6 +52,7 @@ sudo systemctl start rsyslog
 sudo systemctl enable rsyslog
 ```
 * rsyslog server can be configured using the configuration file located at `/etc/rsyslog.conf` 
+* Make sure the following lines are present in the confi
 * rsyslog server can be restarted after configuration changes using the following command
 ```bash
 sudo systemctl restart rsyslog
@@ -73,8 +74,8 @@ sudo ufw allow 514/udp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTUxNzY0NywtMTMwMDQzNTAsNDczNz
-gzNjEzLC0xMzIxMzE1ODA5LC0xOTI0NDk1ODYzLDc0NTI1MDA1
-MCwtMTAwNzg5MjgzMywtNjI3Nzg0NTE4LC04ODAzNTU3NzgsLT
-EyNTAyNTcxNzddfQ==
+eyJoaXN0b3J5IjpbNjI4NDc5NDI3LC0xMzAwNDM1MCw0NzM3OD
+M2MTMsLTEzMjEzMTU4MDksLTE5MjQ0OTU4NjMsNzQ1MjUwMDUw
+LC0xMDA3ODkyODMzLC02Mjc3ODQ1MTgsLTg4MDM1NTc3OCwtMT
+I1MDI1NzE3N119
 -->
