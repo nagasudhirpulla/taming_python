@@ -2,17 +2,9 @@
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
-#### Skills Required
-* [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
-* [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
-* [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
-* [Logging in Python](https://nagasudhir.blogspot.com/2022/11/logging-in-python.html)
-
-Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
-
 <hr>
 
-In this post we will learn how to send logs to a syslog server from python using python logging module and SysLogHandler
+In this post we will setup a simple syslog server in windows and Debian based systems like Ubuntu
 
 ## Simple Syslog server setup in windows
 * Syslog Watcher is a free Syslog listener for windows that view logs from various syslog sources
@@ -64,5 +56,5 @@ sudo ufw allow 514/udp
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxNTUxODg3XX0=
+eyJoaXN0b3J5IjpbMTU1MTAyNjgwNV19
 -->
