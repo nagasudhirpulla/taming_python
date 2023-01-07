@@ -128,7 +128,8 @@ Here are the goals and skills in this tutorial series
 * [Logging in Python](https://nagasudhir.blogspot.com/2022/11/logging-in-python.html)
 * [Logging contextual data using LoggerAdapter in Python](https://nagasudhir.blogspot.com/2022/11/logging-contextual-data-using.html)
 * [Logging in python flask applications](https://nagasudhir.blogspot.com/2022/12/logging-in-python-flask-applications.html)
-* 
+* [Simple Syslog server setup in Windows and Ubuntu](https://nagasudhir.blogspot.com/2023/01/simple-syslog-server-setup-in-windows.html)
+* [Send logs to Syslog server in Python using SysLogHandler](https://nagasudhir.blogspot.com/2023/01/send-logs-to-syslog-server-in-python.html)
 
 #### Using Database for data storage
 * [Installing and managing a PostgreSQL database](https://nagasudhir.blogspot.com/2021/12/installing-and-managing-postgresql.html)
@@ -161,11 +162,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTIwODAyMzIzNjgsOTY5Nj
-A4ODY0LC0xNTI2MjYwNDY0LC05NTEzMDIxMDEsMjEzNzU1MDg5
-Myw4MDk1NDI3LDQ4MDYwODgzNCw5MzA5NzEzMzgsLTM5OTk1ND
-g3NywxMTUyMzIzMDc1LDE3Mzk4MTkwMzIsMTI4MDU5ODkwOCw1
-NjY0ODEwMzYsLTE5MDY1MzgxNjQsLTIxMDk1MzYyOTIsLTEyNj
-ExNDMyNywtMTczODUxMTQyOCwxNDY0OTA2NzA2LC0xNTY3MTQ1
-NTMyLC0xOTExMDY0MTU3XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbNjUzMDI5ODU4LDk2OTYwOD
+g2NCwtMTUyNjI2MDQ2NCwtOTUxMzAyMTAxLDIxMzc1NTA4OTMs
+ODA5NTQyNyw0ODA2MDg4MzQsOTMwOTcxMzM4LC0zOTk5NTQ4Nz
+csMTE1MjMyMzA3NSwxNzM5ODE5MDMyLDEyODA1OTg5MDgsNTY2
+NDgxMDM2LC0xOTA2NTM4MTY0LC0yMTA5NTM2MjkyLC0xMjYxMT
+QzMjcsLTE3Mzg1MTE0MjgsMTQ2NDkwNjcwNiwtMTU2NzE0NTUz
+MiwtMTkxMTA2NDE1N119
 -->
