@@ -40,16 +40,18 @@ logger.error("This is error message")
 * Configure the Syslog Watcher to listen for syslogs at UDP port 514
 
 ![syslog watcher config demo.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/syslog%20watcher%20config%20demo.png)
+## Syslog server setup in Linux
+
 
 <hr/>
 
 ## References
 * Syslog Watcher download page - https://ezfive.com/syslog-watcher/downloads/
-* 
+* rsyslog server - https://www.rsyslog.com/#
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjA5OTQ2MSw0NzM3ODM2MTMsLTEzMj
+eyJoaXN0b3J5IjpbLTMzNTU2MTcwNCw0NzM3ODM2MTMsLTEzMj
 EzMTU4MDksLTE5MjQ0OTU4NjMsNzQ1MjUwMDUwLC0xMDA3ODky
 ODMzLC02Mjc3ODQ1MTgsLTg4MDM1NTc3OCwtMTI1MDI1NzE3N1
 19
