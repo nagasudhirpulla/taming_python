@@ -10,6 +10,7 @@ In this post we will setup a simple syslog server in windows and Debian based sy
 * Syslog is a standard protocol to send logs or event messages to a logs storage server
 
 ## Simple Syslog server setup in windows
+* There are many paid and free syslog server solutions for windows
 * Syslog Watcher is a free Syslog listener for windows that view logs from various syslog sources that can be downloaded from [here](https://ezfive.com/syslog-watcher/downloads/)
 * Configure the Syslog Watcher to listen for syslogs at UDP port 514
 
@@ -59,5 +60,5 @@ sudo ufw allow 514/udp
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NzM5ODM2NF19
+eyJoaXN0b3J5IjpbLTE4MjIyNzA4NTQsLTI3NzM5ODM2NF19
 -->
