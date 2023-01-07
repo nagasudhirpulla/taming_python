@@ -51,6 +51,9 @@ sudo apt-get install rsyslog -y or sudo apt install rsyslog -y
 sudo systemctl start rsyslog
 sudo systemctl enable rsyslog
 ```
+* rsyslog server can be configured using the configuration file located at `/etc/rsyslog.conf` 
+* 
+
 <hr/>
 
 ## References
@@ -60,8 +63,8 @@ sudo systemctl enable rsyslog
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NzcwNjE2OCw0NzM3ODM2MTMsLTEzMj
-EzMTU4MDksLTE5MjQ0OTU4NjMsNzQ1MjUwMDUwLC0xMDA3ODky
-ODMzLC02Mjc3ODQ1MTgsLTg4MDM1NTc3OCwtMTI1MDI1NzE3N1
-19
+eyJoaXN0b3J5IjpbLTE3MTM1MjEzOTgsNDczNzgzNjEzLC0xMz
+IxMzE1ODA5LC0xOTI0NDk1ODYzLDc0NTI1MDA1MCwtMTAwNzg5
+MjgzMywtNjI3Nzg0NTE4LC04ODAzNTU3NzgsLTEyNTAyNTcxNz
+ddfQ==
 -->
