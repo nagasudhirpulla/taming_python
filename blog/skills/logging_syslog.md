@@ -40,7 +40,7 @@ logger.error("This is error message")
 * Configure the Syslog Watcher to listen for syslogs at UDP port 514
 
 ![syslog watcher config demo.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/syslog%20watcher%20config%20demo.png)
-## Syslog server setup in Linux
+## Syslog server setup in Ubuntu or Debian based systems
 * rsyslog server is a robust opensource syslog server in ubuntu that can store logs in log files
 * rsyslog can be installed in ubuntu using the following command
 ```bash
@@ -60,6 +60,7 @@ sudo systemctl restart rsyslog
 ```bash
 sudo systemctl status rsyslog
 ```
+* If
 
 <hr/>
 
@@ -70,8 +71,8 @@ sudo systemctl status rsyslog
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjM5NzkyMzksNDczNzgzNjEzLC0xMz
-IxMzE1ODA5LC0xOTI0NDk1ODYzLDc0NTI1MDA1MCwtMTAwNzg5
-MjgzMywtNjI3Nzg0NTE4LC04ODAzNTU3NzgsLTEyNTAyNTcxNz
-ddfQ==
+eyJoaXN0b3J5IjpbMzM2NjIyMDUyLDQ3Mzc4MzYxMywtMTMyMT
+MxNTgwOSwtMTkyNDQ5NTg2Myw3NDUyNTAwNTAsLTEwMDc4OTI4
+MzMsLTYyNzc4NDUxOCwtODgwMzU1Nzc4LC0xMjUwMjU3MTc3XX
+0=
 -->
