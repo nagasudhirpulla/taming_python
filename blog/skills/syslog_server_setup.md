@@ -1,4 +1,4 @@
-## Skill - Simple syslog server setup in windows and Ubuntu
+## Skill - Simple syslog server setup in Windows and Ubuntu
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -64,5 +64,5 @@ sudo ufw allow 514/udp
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MTcxNDczXX0=
+eyJoaXN0b3J5IjpbMjkxNTUxODg3XX0=
 -->
