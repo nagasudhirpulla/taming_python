@@ -41,7 +41,7 @@ logger.error("This is error message")
 
 ![syslog watcher config demo.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/syslog%20watcher%20config%20demo.png)
 ## Syslog server setup in Linux
-* rsyslog server is an opensource syslog server in 
+* rsyslog server is a robust opensource syslog server in ubuntu that can store logs in log files
 
 <hr/>
 
@@ -52,7 +52,7 @@ logger.error("This is error message")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTg5MTExNyw0NzM3ODM2MTMsLTEzMj
+eyJoaXN0b3J5IjpbLTMyMjcxNzIwMiw0NzM3ODM2MTMsLTEzMj
 EzMTU4MDksLTE5MjQ0OTU4NjMsNzQ1MjUwMDUwLC0xMDA3ODky
 ODMzLC02Mjc3ODQ1MTgsLTg4MDM1NTc3OCwtMTI1MDI1NzE3N1
 19
