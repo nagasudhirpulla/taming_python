@@ -7,7 +7,7 @@
 In this post we will setup a simple syslog server in windows and Debian based systems like Ubuntu
 
 ## What is Syslog
-* Syslog is a standard protocol to communicate logs to a central log storage server
+* Syslog is a standard protocol to send logs or event messages to a central log storage server
 * 
 
 
@@ -61,5 +61,5 @@ sudo ufw allow 514/udp
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzk4MDQyNjJdfQ==
+eyJoaXN0b3J5IjpbMTc4NzkyMDYzOF19
 -->
