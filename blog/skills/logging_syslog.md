@@ -52,7 +52,11 @@ sudo systemctl start rsyslog
 sudo systemctl enable rsyslog
 ```
 * rsyslog server can be configured using the configuration file located at `/etc/rsyslog.conf` 
-* 
+* rsyslog server can be restarted after configuration changes using the following command
+```bash
+sudo systemctl restart rsyslog
+```
+* rsyslog server cab
 
 <hr/>
 
@@ -63,7 +67,7 @@ sudo systemctl enable rsyslog
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTM1MjEzOTgsNDczNzgzNjEzLC0xMz
+eyJoaXN0b3J5IjpbLTE4MzU5Mzk3NjgsNDczNzgzNjEzLC0xMz
 IxMzE1ODA5LC0xOTI0NDk1ODYzLDc0NTI1MDA1MCwtMTAwNzg5
 MjgzMywtNjI3Nzg0NTE4LC04ODAzNTU3NzgsLTEyNTAyNTcxNz
 ddfQ==
