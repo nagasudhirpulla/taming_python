@@ -56,7 +56,10 @@ sudo systemctl enable rsyslog
 ```bash
 sudo systemctl restart rsyslog
 ```
-* rsyslog server cab
+* rsyslog server status can be checked using the following command
+```bash
+sudo systemctl status rsyslog
+```
 
 <hr/>
 
@@ -67,7 +70,7 @@ sudo systemctl restart rsyslog
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzU5Mzk3NjgsNDczNzgzNjEzLC0xMz
+eyJoaXN0b3J5IjpbLTEyMjM5NzkyMzksNDczNzgzNjEzLC0xMz
 IxMzE1ODA5LC0xOTI0NDk1ODYzLDc0NTI1MDA1MCwtMTAwNzg5
 MjgzMywtNjI3Nzg0NTE4LC04ODAzNTU3NzgsLTEyNTAyNTcxNz
 ddfQ==
