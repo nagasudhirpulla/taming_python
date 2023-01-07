@@ -7,7 +7,7 @@
 In this post we will setup a simple syslog server in windows and Debian based systems like Ubuntu
 
 ## What is Syslog
-Syslo 
+Syslog is a standard message format to communicate logs to a central logging server 
 
 ## Simple Syslog server setup in windows
 * Syslog Watcher is a free Syslog listener for windows that view logs from various syslog sources
@@ -59,5 +59,5 @@ sudo ufw allow 514/udp
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA0NTExMDBdfQ==
+eyJoaXN0b3J5IjpbNjI4Nzc2NjAxXX0=
 -->
