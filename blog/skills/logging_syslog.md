@@ -32,7 +32,8 @@ logger.info("Hello World!!!")
 logger.error("This is error message")
 ```
 
-* As shown in the above example, the SysLogHandler 
+* As shown in the above example, the SysLogHandler is configured to send logs to syslog server running at host '127.0.0.1' and UDP port 514
+* 
 
 
 ## Minimal Syslog server setup
@@ -331,6 +332,6 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NjA1ODU5NCwtODgwMzU1Nzc4LC0xMj
-UwMjU3MTc3XX0=
+eyJoaXN0b3J5IjpbLTE5MDgxODg4MjMsLTg4MDM1NTc3OCwtMT
+I1MDI1NzE3N119
 -->
