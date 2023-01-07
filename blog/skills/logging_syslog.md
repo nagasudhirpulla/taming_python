@@ -21,8 +21,8 @@ In this post we will learn how to send logs to a syslog server from python using
 import logging
 from logging.handlers import SysLogHandler
 
-syslogHost = '127.0.0.1'
-syslogPort = 514
+remoteHost = '127.0.0.1'
+remotePort = 514
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -84,8 +84,8 @@ sudo ufw allow 514/udp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4MzAzNzkzLC0xMzAwNDM1MCw0NzM3OD
-M2MTMsLTEzMjEzMTU4MDksLTE5MjQ0OTU4NjMsNzQ1MjUwMDUw
-LC0xMDA3ODkyODMzLC02Mjc3ODQ1MTgsLTg4MDM1NTc3OCwtMT
-I1MDI1NzE3N119
+eyJoaXN0b3J5IjpbLTE1OTI5ODkyMjksLTEzMDA0MzUwLDQ3Mz
+c4MzYxMywtMTMyMTMxNTgwOSwtMTkyNDQ5NTg2Myw3NDUyNTAw
+NTAsLTEwMDc4OTI4MzMsLTYyNzc4NDUxOCwtODgwMzU1Nzc4LC
+0xMjUwMjU3MTc3XX0=
 -->
