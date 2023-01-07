@@ -46,7 +46,11 @@ logger.error("This is error message")
 ```bash
 sudo apt-get install rsyslog -y or sudo apt install rsyslog -y
 ```
-*
+* rsyslog server can be started and enabled to start at system startup using the following commands
+```bash
+sudo systemctl start rsyslog
+sudo systemctl enable rsyslog
+```
 <hr/>
 
 ## References
@@ -56,8 +60,8 @@ sudo apt-get install rsyslog -y or sudo apt install rsyslog -y
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODgxNDA5LDQ3Mzc4MzYxMywtMTMyMT
-MxNTgwOSwtMTkyNDQ5NTg2Myw3NDUyNTAwNTAsLTEwMDc4OTI4
-MzMsLTYyNzc4NDUxOCwtODgwMzU1Nzc4LC0xMjUwMjU3MTc3XX
-0=
+eyJoaXN0b3J5IjpbMTg2NzcwNjE2OCw0NzM3ODM2MTMsLTEzMj
+EzMTU4MDksLTE5MjQ0OTU4NjMsNzQ1MjUwMDUwLC0xMDA3ODky
+ODMzLC02Mjc3ODQ1MTgsLTg4MDM1NTc3OCwtMTI1MDI1NzE3N1
+19
 -->
