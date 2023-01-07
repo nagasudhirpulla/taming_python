@@ -16,7 +16,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * A simple syslog server can be setup in windows or Debian based system as shown in [this]() blogpost
 
 ## Python code to send logs to Syslog server 
-* Just like StreamHandler sends logs to console and FileHandler sends logs to files, SysLogHandler can be used to send logs to syslog server
+* SysLogHandler of python logging module can be used to send logs to syslog server
 
 ```py
 import logging
@@ -43,8 +43,8 @@ logger.error("This is error message")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyMDMwNjEwLC0zNzkxMDQ3MTgsLTEwNT
-IyMjEzNzAsLTEzMDA0MzUwLDQ3Mzc4MzYxMywtMTMyMTMxNTgw
-OSwtMTkyNDQ5NTg2Myw3NDUyNTAwNTAsLTEwMDc4OTI4MzMsLT
-YyNzc4NDUxOCwtODgwMzU1Nzc4LC0xMjUwMjU3MTc3XX0=
+eyJoaXN0b3J5IjpbLTc3ODQ4NzU0NiwtMzc5MTA0NzE4LC0xMD
+UyMjIxMzcwLC0xMzAwNDM1MCw0NzM3ODM2MTMsLTEzMjEzMTU4
+MDksLTE5MjQ0OTU4NjMsNzQ1MjUwMDUwLC0xMDA3ODkyODMzLC
+02Mjc3ODQ1MTgsLTg4MDM1NTc3OCwtMTI1MDI1NzE3N119
 -->
