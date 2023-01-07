@@ -14,11 +14,9 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will learn how to send logs to a syslog server from python using python logging module and SysLogHandler
 
-## Why logging
-* Logging can help to achieve observability of the performance and security of the application
-* Errors can be debugged easily by looking at logs
-* Changes in application state can be traced with logs
-* Security and performance issues can be addressed easily by analyzing logs  
+
+
+## Minimal Syslog server setup
 
 ## Python "logging" module
 * `logging` module can be used for generating logs in python programs
@@ -317,5 +315,5 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTM0MDM5NF19
+eyJoaXN0b3J5IjpbMjI0OTAyNTk0XX0=
 -->
