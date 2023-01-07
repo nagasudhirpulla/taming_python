@@ -10,7 +10,7 @@ Here are the goals and skills in this tutorial series
 * [Implement RS flip-flop logic using if statement and variables](https://nagasudhir.blogspot.com/2020/07/implement-rs-flip-flop-logic-using-if.html)
 
 ### Skills
-#### Setup for working with python files
+#### Setup for working with python
 * [Setup Python Development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Using Jupyter Notebooks in Visual Studio Code](https://nagasudhir.blogspot.com/2020/06/using-jupyter-notebooks-in-visual.html)
 
@@ -162,11 +162,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbNjUzMDI5ODU4LDk2OTYwOD
-g2NCwtMTUyNjI2MDQ2NCwtOTUxMzAyMTAxLDIxMzc1NTA4OTMs
-ODA5NTQyNyw0ODA2MDg4MzQsOTMwOTcxMzM4LC0zOTk5NTQ4Nz
-csMTE1MjMyMzA3NSwxNzM5ODE5MDMyLDEyODA1OTg5MDgsNTY2
-NDgxMDM2LC0xOTA2NTM4MTY0LC0yMTA5NTM2MjkyLC0xMjYxMT
-QzMjcsLTE3Mzg1MTE0MjgsMTQ2NDkwNjcwNiwtMTU2NzE0NTUz
-MiwtMTkxMTA2NDE1N119
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTc1MTcxMzkzMSw2NTMwMj
+k4NTgsOTY5NjA4ODY0LC0xNTI2MjYwNDY0LC05NTEzMDIxMDEs
+MjEzNzU1MDg5Myw4MDk1NDI3LDQ4MDYwODgzNCw5MzA5NzEzMz
+gsLTM5OTk1NDg3NywxMTUyMzIzMDc1LDE3Mzk4MTkwMzIsMTI4
+MDU5ODkwOCw1NjY0ODEwMzYsLTE5MDY1MzgxNjQsLTIxMDk1Mz
+YyOTIsLTEyNjExNDMyNywtMTczODUxMTQyOCwxNDY0OTA2NzA2
+LC0xNTY3MTQ1NTMyXX0=
 -->
