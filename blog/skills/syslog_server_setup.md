@@ -11,7 +11,7 @@ In this post we will setup a simple syslog server in windows and Debian based sy
 
 ## Simple Syslog server setup in windows
 * There are many paid and free syslog server solutions for windows
-* Syslog Watcher is a free Syslog listener for windows that view logs from various syslog sources that can be downloaded from [here](https://ezfive.com/syslog-watcher/downloads/)
+* Syslog Watcher is a free Syslog listener for windows that can view logs from various syslog sources that can be downloaded from [here](https://ezfive.com/syslog-watcher/downloads/)
 * Configure the Syslog Watcher to listen for syslogs at UDP port 514
 
 ![syslog watcher config demo.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/syslog%20watcher%20config%20demo.png)
@@ -60,5 +60,5 @@ sudo ufw allow 514/udp
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjIyNzA4NTQsLTI3NzM5ODM2NF19
+eyJoaXN0b3J5IjpbMzY5MTA1MzIyLC0yNzczOTgzNjRdfQ==
 -->
