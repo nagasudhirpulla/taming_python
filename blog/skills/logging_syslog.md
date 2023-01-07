@@ -60,7 +60,10 @@ sudo systemctl restart rsyslog
 ```bash
 sudo systemctl status rsyslog
 ```
-* If
+* If firewall is used in the server, allow listening on UDP 514 port using the following command
+```bash
+sudo ufw allow 514/udp
+```
 
 <hr/>
 
@@ -71,7 +74,7 @@ sudo systemctl status rsyslog
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2NjIyMDUyLDQ3Mzc4MzYxMywtMTMyMT
+eyJoaXN0b3J5IjpbLTEzMDA0MzUwLDQ3Mzc4MzYxMywtMTMyMT
 MxNTgwOSwtMTkyNDQ5NTg2Myw3NDUyNTAwNTAsLTEwMDc4OTI4
 MzMsLTYyNzc4NDUxOCwtODgwMzU1Nzc4LC0xMjUwMjU3MTc3XX
 0=
