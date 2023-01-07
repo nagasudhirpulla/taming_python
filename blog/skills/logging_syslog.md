@@ -14,13 +14,11 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will learn how to send logs to a syslog server from python using python logging module and SysLogHandler
 
-
+## Example
+* 
 
 ## Minimal Syslog server setup
 
-## Python "logging" module
-* `logging` module can be used for generating logs in python programs
-* `logging` module comes pre-installed with python, so no need to install separately
 
 ## Logging levels
 * Each generated log can have one of the log levels among `CRITICAL`, `ERROR`, `WARNING`, `INFO`, `DEBUG`, `NOTSET`
@@ -315,5 +313,5 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0OTAyNTk0XX0=
+eyJoaXN0b3J5IjpbLTY2NDYxMDUxM119
 -->
