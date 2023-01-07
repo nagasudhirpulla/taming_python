@@ -16,7 +16,7 @@ In this post we will setup a simple syslog server in windows and Debian based sy
 
 ![syslog watcher config demo.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/syslog%20watcher%20config%20demo.png)
 ## Syslog server setup in Ubuntu or Debian based systems
-* rsyslog server is a robust opensource syslog server in ubuntu that can store logs in log files
+* rsyslog server is a robust production-ready opensource syslog server in ubuntu that can store logs in log files
 * rsyslog can be installed in ubuntu using the following command
 ```bash
 sudo apt-get install rsyslog -y or sudo apt install rsyslog -y
@@ -60,5 +60,6 @@ sudo ufw allow 514/udp
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjE2OTE0NDUsLTI3NzM5ODM2NF19
+eyJoaXN0b3J5IjpbMTk5OTc4NTc3OCwtMTY2MTY5MTQ0NSwtMj
+c3Mzk4MzY0XX0=
 -->
