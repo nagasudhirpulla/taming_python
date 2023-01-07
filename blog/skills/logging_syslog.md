@@ -58,7 +58,7 @@ module(load="imudp")
 input(type="imudp" port="514")
 ```
 * Make sure the following lines are present in the configuration file below the listener configuration for specifying the logs storage files location
-```
+```bash
 $template remote-incoming-logs,"/var/log/%HOSTNAME%/%PROGRAMNAME%.log" 
 *.* ?remote-incoming-logs
 & ~
@@ -84,8 +84,8 @@ sudo ufw allow 514/udp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTYyOTI4NTksLTEzMDA0MzUwLDQ3Mz
-c4MzYxMywtMTMyMTMxNTgwOSwtMTkyNDQ5NTg2Myw3NDUyNTAw
-NTAsLTEwMDc4OTI4MzMsLTYyNzc4NDUxOCwtODgwMzU1Nzc4LC
-0xMjUwMjU3MTc3XX0=
+eyJoaXN0b3J5IjpbOTM4MzAzNzkzLC0xMzAwNDM1MCw0NzM3OD
+M2MTMsLTEzMjEzMTU4MDksLTE5MjQ0OTU4NjMsNzQ1MjUwMDUw
+LC0xMDA3ODkyODMzLC02Mjc3ODQ1MTgsLTg4MDM1NTc3OCwtMT
+I1MDI1NzE3N119
 -->
