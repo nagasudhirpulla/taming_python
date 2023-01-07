@@ -26,7 +26,7 @@ remotePort = 514
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
-logger.addHandler(SysLogHandler(address=(syslogHost, syslogPort)))
+logger.addHandler(SysLogHandler(address=(remoteHost, remotePort)))
 
 logger.info("Hello World!!!")
 logger.error("This is error message")
@@ -84,8 +84,8 @@ sudo ufw allow 514/udp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTI5ODkyMjksLTEzMDA0MzUwLDQ3Mz
-c4MzYxMywtMTMyMTMxNTgwOSwtMTkyNDQ5NTg2Myw3NDUyNTAw
-NTAsLTEwMDc4OTI4MzMsLTYyNzc4NDUxOCwtODgwMzU1Nzc4LC
-0xMjUwMjU3MTc3XX0=
+eyJoaXN0b3J5IjpbMzAyNTE3LC0xMzAwNDM1MCw0NzM3ODM2MT
+MsLTEzMjEzMTU4MDksLTE5MjQ0OTU4NjMsNzQ1MjUwMDUwLC0x
+MDA3ODkyODMzLC02Mjc3ODQ1MTgsLTg4MDM1NTc3OCwtMTI1MD
+I1NzE3N119
 -->
