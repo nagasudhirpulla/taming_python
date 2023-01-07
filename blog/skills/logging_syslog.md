@@ -15,7 +15,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 * In this post we will learn how to send logs to a syslog server from python using python logging module and SysLogHandler
 * A simple syslog server can be setup in windows or Debian based system as shown in [this]() blogpost
 
-## Python Code to send logs to Syslog server 
+## Python code to send logs to Syslog server 
 * Just like StreamHandler sends logs to console and FileHandler sends logs to files, SysLogHandler can be used to send logs to syslog server
 
 ```py
@@ -43,8 +43,8 @@ logger.error("This is error message")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTEwNDcxOCwtMTA1MjIyMTM3MCwtMT
-MwMDQzNTAsNDczNzgzNjEzLC0xMzIxMzE1ODA5LC0xOTI0NDk1
-ODYzLDc0NTI1MDA1MCwtMTAwNzg5MjgzMywtNjI3Nzg0NTE4LC
-04ODAzNTU3NzgsLTEyNTAyNTcxNzddfQ==
+eyJoaXN0b3J5IjpbMzYyMDMwNjEwLC0zNzkxMDQ3MTgsLTEwNT
+IyMjEzNzAsLTEzMDA0MzUwLDQ3Mzc4MzYxMywtMTMyMTMxNTgw
+OSwtMTkyNDQ5NTg2Myw3NDUyNTAwNTAsLTEwMDc4OTI4MzMsLT
+YyNzc4NDUxOCwtODgwMzU1Nzc4LC0xMjUwMjU3MTc3XX0=
 -->
