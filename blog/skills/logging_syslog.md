@@ -15,7 +15,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 In this post we will learn how to send logs to a syslog server from python using python logging module and SysLogHandler
 
 ## Example
-* 
+* Just like StreamHandler and FileHandler in python logging
 
 ## Minimal Syslog server setup
 
@@ -313,5 +313,5 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDYxMDUxM119
+eyJoaXN0b3J5IjpbLTIwNTgwMTUyOV19
 -->
