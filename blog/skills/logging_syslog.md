@@ -37,7 +37,7 @@ logger.error("This is error message")
 
 ## Simple Syslog server setup in windows
 * Syslog Watcher is a free Syslog listener for windows that view logs from various syslog sources
-* Configure the syslog watcher to listen for syslogs at UDP port 514
+* Configure the Syslog Watcher to listen for syslogs at UDP port 514
 
 ![syslog watcher config demo.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/syslog%20watcher%20config%20demo.png)
 
@@ -48,7 +48,7 @@ logger.error("This is error message")
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NjI2NTE1NSwtMTMyMTMxNTgwOSwtMT
-kyNDQ5NTg2Myw3NDUyNTAwNTAsLTEwMDc4OTI4MzMsLTYyNzc4
-NDUxOCwtODgwMzU1Nzc4LC0xMjUwMjU3MTc3XX0=
+eyJoaXN0b3J5IjpbNDczNzgzNjEzLC0xMzIxMzE1ODA5LC0xOT
+I0NDk1ODYzLDc0NTI1MDA1MCwtMTAwNzg5MjgzMywtNjI3Nzg0
+NTE4LC04ODAzNTU3NzgsLTEyNTAyNTcxNzddfQ==
 -->
