@@ -1,4 +1,4 @@
-## Skill - Logging to Syslog server in Python
+## Skill - Send logs to Syslog server in Python using SysLogHandler
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -84,8 +84,8 @@ sudo ufw allow 514/udp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyNTE3LC0xMzAwNDM1MCw0NzM3ODM2MT
-MsLTEzMjEzMTU4MDksLTE5MjQ0OTU4NjMsNzQ1MjUwMDUwLC0x
-MDA3ODkyODMzLC02Mjc3ODQ1MTgsLTg4MDM1NTc3OCwtMTI1MD
-I1NzE3N119
+eyJoaXN0b3J5IjpbLTEwNTIyMjEzNzAsLTEzMDA0MzUwLDQ3Mz
+c4MzYxMywtMTMyMTMxNTgwOSwtMTkyNDQ5NTg2Myw3NDUyNTAw
+NTAsLTEwMDc4OTI4MzMsLTYyNzc4NDUxOCwtODgwMzU1Nzc4LC
+0xMjUwMjU3MTc3XX0=
 -->
