@@ -52,12 +52,12 @@ sudo systemctl start rsyslog
 sudo systemctl enable rsyslog
 ```
 * rsyslog server can be configured using the configuration file located at `/etc/rsyslog.conf` 
-* Make sure the following lines are present in the configuration for listening at UDP port 514
+* Make sure the following lines are present in the configuration file for listening at UDP port 514
 ```bash
 module(load="imudp")
 input(type="imudp" port="514")
 ```
-* Make sure the following lines are present in the configuration for listening at UDP port 514
+* Make sure the following lines are present in the configuration file 
 * rsyslog server can be restarted after configuration changes using the following command
 ```bash
 sudo systemctl restart rsyslog
@@ -79,8 +79,8 @@ sudo ufw allow 514/udp
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTAyMDQ1NjksLTEzMDA0MzUwLDQ3Mz
-c4MzYxMywtMTMyMTMxNTgwOSwtMTkyNDQ5NTg2Myw3NDUyNTAw
-NTAsLTEwMDc4OTI4MzMsLTYyNzc4NDUxOCwtODgwMzU1Nzc4LC
-0xMjUwMjU3MTc3XX0=
+eyJoaXN0b3J5IjpbMTQ5NTMyMzA3NiwtMTMwMDQzNTAsNDczNz
+gzNjEzLC0xMzIxMzE1ODA5LC0xOTI0NDk1ODYzLDc0NTI1MDA1
+MCwtMTAwNzg5MjgzMywtNjI3Nzg0NTE4LC04ODAzNTU3NzgsLT
+EyNTAyNTcxNzddfQ==
 -->
