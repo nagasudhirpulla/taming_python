@@ -30,7 +30,7 @@ logger.addHandler(SysLogHandler(address=(syslogHost, syslogPort)))
 logger.info("Hello World!!!")
 logger.error("This is error message")
 ```
-* As shown in the ab
+* As shown in the above
 
 
 ## Minimal Syslog server setup
@@ -329,6 +329,6 @@ You can see the video for this post [here](https://youtu.be/wrpu-Qr_Yvk)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0NDU3MDAsLTg4MDM1NTc3OCwtMTI1MD
-I1NzE3N119
+eyJoaXN0b3J5IjpbLTMxMTIwMzM4OCwtODgwMzU1Nzc4LC0xMj
+UwMjU3MTc3XX0=
 -->
