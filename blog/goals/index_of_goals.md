@@ -126,7 +126,7 @@ Here are the goals and skills in this tutorial series
 
 #### Logging
 * [Logging in Python](https://nagasudhir.blogspot.com/2022/11/logging-in-python.html)
-* [### Logging contextual data using LoggerAdapter in Python](https://nagasudhir.blogspot.com/2022/11/logging-contextual-data-using.html)
+* [Logging contextual data using LoggerAdapter in Python](https://nagasudhir.blogspot.com/2022/11/logging-contextual-data-using.html)
 
 #### Using Database for data storage
 * [Installing and managing a PostgreSQL database](https://nagasudhir.blogspot.com/2021/12/installing-and-managing-postgresql.html)
@@ -159,11 +159,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbNjkxODc5NzczLDk2OTYwOD
-g2NCwtMTUyNjI2MDQ2NCwtOTUxMzAyMTAxLDIxMzc1NTA4OTMs
-ODA5NTQyNyw0ODA2MDg4MzQsOTMwOTcxMzM4LC0zOTk5NTQ4Nz
-csMTE1MjMyMzA3NSwxNzM5ODE5MDMyLDEyODA1OTg5MDgsNTY2
-NDgxMDM2LC0xOTA2NTM4MTY0LC0yMTA5NTM2MjkyLC0xMjYxMT
-QzMjcsLTE3Mzg1MTE0MjgsMTQ2NDkwNjcwNiwtMTU2NzE0NTUz
-MiwtMTkxMTA2NDE1N119
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTA5NTk0MTY2NCw5Njk2MD
+g4NjQsLTE1MjYyNjA0NjQsLTk1MTMwMjEwMSwyMTM3NTUwODkz
+LDgwOTU0MjcsNDgwNjA4ODM0LDkzMDk3MTMzOCwtMzk5OTU0OD
+c3LDExNTIzMjMwNzUsMTczOTgxOTAzMiwxMjgwNTk4OTA4LDU2
+NjQ4MTAzNiwtMTkwNjUzODE2NCwtMjEwOTUzNjI5MiwtMTI2MT
+E0MzI3LC0xNzM4NTExNDI4LDE0NjQ5MDY3MDYsLTE1NjcxNDU1
+MzIsLTE5MTEwNjQxNTddfQ==
 -->
