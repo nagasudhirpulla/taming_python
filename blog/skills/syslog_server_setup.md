@@ -51,6 +51,11 @@ sudo systemctl status rsyslog
 sudo ufw allow 514/udp
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TIis6_RmMJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <hr/>
 
 ## References
@@ -60,6 +65,6 @@ sudo ufw allow 514/udp
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTc4NTc3OCwtMTY2MTY5MTQ0NSwtMj
-c3Mzk4MzY0XX0=
+eyJoaXN0b3J5IjpbMzU5MjQ5NjcwLDE5OTk3ODU3NzgsLTE2Nj
+E2OTE0NDUsLTI3NzM5ODM2NF19
 -->
