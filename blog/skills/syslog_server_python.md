@@ -16,8 +16,8 @@ In this post we will create a Syslog server in python that listens for syslogs o
 	* Perform ad-hoc automation upon receiving Syslog messages
 	* Create data pipelines
 
-## Minimal syslog server in python
-* Running the following python code listens for UDP requests over a specified host and port and then just logs them using python `logging` and `socketserver` modules
+## Minimal Syslog server in python
+* Running the following python code listens for UDP requests over a specified host and port and then just logs them into a file named `logs.log` using python `logging` and `socketserver` modules
 
 ```py
 ## Minimal Syslog Server in Python.
@@ -100,5 +100,5 @@ The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDI5OTAyOSwtMTM1NzM0ODgwM119
+eyJoaXN0b3J5IjpbMTEyMjc3MTAwMiwtMTM1NzM0ODgwM119
 -->
