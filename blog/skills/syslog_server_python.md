@@ -14,6 +14,31 @@ In this post we will create a syslog server in python that listens for syslogs o
 * Running the following python code listens for UDP requests over a specified host and port and then just logs them using python `logging` and `socketserver` modules
 
 ```py
+## Minimal Syslog Server in Python.
+
+LOG_FILE_PATH = 'logs.log'
+HOST, PORT = "0.0.0.0", 514
+
+import logging
+import socketserver
+
+logging.basicConfig(level=logging.INFO, format='%(message)s', filename=LOG_FILE_PATH, filemode='a')
+
+class SyslogUDPHandler(socketserver.BaseRequestHandler):
+	def handle(self):
+		data = bytes.decode(self.request[0].strip())
+		# socket = self.request[1]
+		print( "%s: " % self.client_address[0], str(data))
+		logging.info(str(data))
+
+if __name__ == "__main__":
+	try:
+		server = socketserver.UDPServer((HOST,PORT), SyslogUDPHandler)
+		server.serve_forever(poll_interval=0.5)
+	except (IOError, SystemExit):
+		raise
+	except KeyboardInterrupt:
+		print ("Crtl+C Pressed. Shutting down.")
 
 
 ```
@@ -71,5 +96,6 @@ The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTczNDg4MDNdfQ==
+eyJoaXN0b3J5IjpbLTE3NjMwOTI3MjMsLTEzNTczNDg4MDNdfQ
+==
 -->
