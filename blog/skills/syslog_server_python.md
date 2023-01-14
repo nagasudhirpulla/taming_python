@@ -40,7 +40,6 @@ if __name__ == "__main__":
 	except KeyboardInterrupt:
 		print ("Crtl+C Pressed. Shutting down.")
 
-
 ```
 
 
@@ -96,6 +95,5 @@ The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjMwOTI3MjMsLTEzNTczNDg4MDNdfQ
-==
+eyJoaXN0b3J5IjpbLTMxMTY1MDg5LC0xMzU3MzQ4ODAzXX0=
 -->
