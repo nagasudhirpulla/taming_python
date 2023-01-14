@@ -15,12 +15,11 @@ In this post we will create a syslog server in python that listens for syslogs o
 
 ```py
 ## Minimal Syslog Server in Python.
+import logging
+import socketserver
 
 LOG_FILE_PATH = 'logs.log'
 HOST, PORT = "0.0.0.0", 514
-
-import logging
-import socketserver
 
 logging.basicConfig(level=logging.INFO, format='%(message)s', filename=LOG_FILE_PATH, filemode='a')
 
@@ -95,5 +94,5 @@ The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTY1MDg5LC0xMzU3MzQ4ODAzXX0=
+eyJoaXN0b3J5IjpbOTMzMjU2MjQ5LC0xMzU3MzQ4ODAzXX0=
 -->
