@@ -47,7 +47,8 @@ if __name__ == "__main__":
 
 ```
 
-
+## Testing the Syslog server by sending logs to it
+``````
 
 ## Syslog server setup in Ubuntu or Debian based systems
 * rsyslog server is a robust production-ready opensource syslog server in ubuntu that can store logs in log files
@@ -100,5 +101,5 @@ The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMjc3MTAwMiwtMTM1NzM0ODgwM119
+eyJoaXN0b3J5IjpbLTkxMjk0NDEyMSwtMTM1NzM0ODgwM119
 -->
