@@ -10,6 +10,9 @@ In this post we will create a syslog server in python that listens for syslogs o
 * Syslog is a standard protocol to send logs or event messages to a logs storage server
 * A blogpost on setting a third party simple syslog server in Windows or Ubuntu like systems can be found [here](https://nagasudhir.blogspot.com/2023/01/simple-syslog-server-setup-in-windows.html) 
 
+## Use case
+* A syslog server written in python can be used to 
+
 ## Minimal syslog server in python
 * Running the following python code listens for UDP requests over a specified host and port and then just logs them using python `logging` and `socketserver` modules
 
@@ -94,5 +97,5 @@ The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzMjU2MjQ5LC0xMzU3MzQ4ODAzXX0=
+eyJoaXN0b3J5IjpbMTcxMzk3NTMyLC0xMzU3MzQ4ODAzXX0=
 -->
