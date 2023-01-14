@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
 ## Testing the Syslog server by sending logs to it
 * Logs can be sent to Syslog server using python
-* SyslogHandler class in python logging module can be used for this purpose as shown in the below example 
+* SysLogHandler class in python logging module can be used for this purpose as shown in the below example 
 
 ```py
 import logging
@@ -117,5 +117,5 @@ The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjExMTE1OSwtMTM1NzM0ODgwM119
+eyJoaXN0b3J5IjpbLTI5MTk2MzExMywtMTM1NzM0ODgwM119
 -->
