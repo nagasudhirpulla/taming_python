@@ -68,8 +68,7 @@ logger.warning("Sample warning message")
 * By running the above script, Syslogs can be sent to a Syslog server. In this example, two Syslogs of levels `INFO` and `WARNING` are sent to a Syslog server listening over UDP 514 port with hostname '127.0.0.1' (localhost)
 
 ## Syslog server with log rotation and compression
-* rsyslog server is a robust production-ready opensource syslog server in ubuntu that can store logs in log files
-* rsyslog can be installed in ubuntu using the following command
+
 ```bash
 sudo apt-get install rsyslog -y or sudo apt install rsyslog -y
 ```
@@ -118,6 +117,6 @@ The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzkyNzU2NzMsLTE4OTYwOTM3MzAsLT
-EzNTczNDg4MDNdfQ==
+eyJoaXN0b3J5IjpbNDY5Mjg1MTcsLTE4OTYwOTM3MzAsLTEzNT
+czNDg4MDNdfQ==
 -->
