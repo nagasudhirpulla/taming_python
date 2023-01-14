@@ -11,7 +11,7 @@ In this post we will create a syslog server in python that listens for syslogs o
 * A blogpost on setting a third party simple syslog server in Windows or Ubuntu like systems can be found [here](https://nagasudhir.blogspot.com/2023/01/simple-syslog-server-setup-in-windows.html) 
 
 ## Use case
-* A syslog server written in python can be used to 
+* A syslog server written in python can be used for the following 
 	* Create a syslog storage solution with out installing a third party software 
 	* Perform ad-hoc automation upon receiving syslog messages
 	* Create data pipelines
@@ -100,5 +100,5 @@ The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5MDM4NDM4LC0xMzU3MzQ4ODAzXX0=
+eyJoaXN0b3J5IjpbMTY0ODY5ODMzNCwtMTM1NzM0ODgwM119
 -->
