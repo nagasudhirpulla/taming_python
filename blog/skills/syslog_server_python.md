@@ -48,7 +48,23 @@ if __name__ == "__main__":
 ```
 
 ## Testing the Syslog server by sending logs to it
-``````
+* Logs can be sent to Syslog server using python
+* SyslogHandler class in python logging module can be used for this purpose as shown in the below example 
+
+```py
+import logging
+from logging.handlers import SysLogHandler
+
+sysloghHandlr = SysLogHandler(address=("127.0.0.1", 514))
+
+logger = logging.getLogger()
+logger.addHandler(sysloghHandlr)
+logger.setLevel(logging.INFO)
+
+logger.info("This is a sample info message")
+logger.warning("Sample warning message")
+
+```
 
 ## Syslog server setup in Ubuntu or Debian based systems
 * rsyslog server is a robust production-ready opensource syslog server in ubuntu that can store logs in log files
@@ -101,5 +117,5 @@ The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjk0NDEyMSwtMTM1NzM0ODgwM119
+eyJoaXN0b3J5IjpbMTA3NjExMTE1OSwtMTM1NzM0ODgwM119
 -->
