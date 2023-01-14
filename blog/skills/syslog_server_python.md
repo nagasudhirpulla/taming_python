@@ -10,7 +10,7 @@ In this post we will create a syslog server in python that listens for syslogs o
 * Syslog is a standard protocol to send logs or event messages to a logs storage server
 * A blogpost on setting a third party simple syslog server in Windows or Ubuntu like systems can be found [here](https://nagasudhir.blogspot.com/2023/01/simple-syslog-server-setup-in-windows.html) 
 
-## Simple Syslog server setup in windows
+## Simple syslog server in python
 * There are many paid and free syslog server solutions for windows
 * Syslog Watcher is a free Syslog listener for windows that can view logs from various syslog sources that can be downloaded from [here](https://ezfive.com/syslog-watcher/downloads/)
 * Configure the Syslog Watcher to listen for syslogs at UDP port 514 as shown in the below image
@@ -67,5 +67,5 @@ The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjIxNjU3M119
+eyJoaXN0b3J5IjpbMTM2ODUyODc1MV19
 -->
