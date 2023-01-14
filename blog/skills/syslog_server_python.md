@@ -13,6 +13,11 @@ In this post we will create a syslog server in python that listens for syslogs o
 ## Minimal syslog server in python
 * Running the following python code listens for UDP requests over a specified host and port and then just logs them using python logging module
 
+```py
+
+
+```
+
 
 
 ## Syslog server setup in Ubuntu or Debian based systems
@@ -66,5 +71,5 @@ The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDcxODI4MDRdfQ==
+eyJoaXN0b3J5IjpbLTc4OTYwMDU5MV19
 -->
