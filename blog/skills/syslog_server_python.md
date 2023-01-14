@@ -65,7 +65,7 @@ logger.info("This is a sample info message")
 logger.warning("Sample warning message")
 
 ```
-* By running the above script, syslogs can be sent to a syslog server. In this example, two logs of levels `INFO` and `WARNING` are sent to a Syslog server at hostname
+* By running the above script, syslogs can be sent to a syslog server. In this example, two logs of levels `INFO` and `WARNING` are sent to a Syslog server listening over UDP 514 port with hostname '127.0.0.1' (localhost)
 
 ## Syslog server setup in Ubuntu or Debian based systems
 * rsyslog server is a robust production-ready opensource syslog server in ubuntu that can store logs in log files
@@ -118,5 +118,5 @@ The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTEyNDA3MCwtMTM1NzM0ODgwM119
+eyJoaXN0b3J5IjpbLTk5OTYyNjYzOSwtMTM1NzM0ODgwM119
 -->
