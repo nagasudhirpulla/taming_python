@@ -153,6 +153,7 @@ if __name__ == "__main__":
 
 ```json
 {
+    "_comment": "This is the config.json file",
     "logFilePath": "logs/app_log.log",
     "host": "0.0.0.0",
     "port": 514,
@@ -173,6 +174,7 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTg5MDU0ODMsLTM1MDkyMzkyOCw0Nj
-kyODUxNywtMTg5NjA5MzczMCwtMTM1NzM0ODgwM119
+eyJoaXN0b3J5IjpbLTE2MjcyOTg0NTIsLTE2MTg5MDU0ODMsLT
+M1MDkyMzkyOCw0NjkyODUxNywtMTg5NjA5MzczMCwtMTM1NzM0
+ODgwM119
 -->
