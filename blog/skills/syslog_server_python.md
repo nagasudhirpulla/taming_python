@@ -149,6 +149,7 @@ if __name__ == "__main__":
         print("Crtl+C Pressed. Shutting down.")
 
 ```
+* The above python file `server.py` runs like a Syslog server. It requires a configuration file named `config.json` where all the configuration can be specified. The `config.json` file shoul
 
 ## Run the Syslog server as a windows background service with nssm 
 
@@ -162,6 +163,6 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTE5ODExMCwtMzUwOTIzOTI4LDQ2OT
-I4NTE3LC0xODk2MDkzNzMwLC0xMzU3MzQ4ODAzXX0=
+eyJoaXN0b3J5IjpbLTE3MzQ0MzU3NjMsLTM1MDkyMzkyOCw0Nj
+kyODUxNywtMTg5NjA5MzczMCwtMTM1NzM0ODgwM119
 -->
