@@ -72,6 +72,8 @@ logger.warning("Sample warning message")
 
 ```
 
+## Run the Syslog server as a windows background service with nssm 
+
 <hr/>
 
 ## References
@@ -82,6 +84,6 @@ logger.warning("Sample warning message")
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzUzNTA4NjYsNDY5Mjg1MTcsLTE4OT
-YwOTM3MzAsLTEzNTczNDg4MDNdfQ==
+eyJoaXN0b3J5IjpbLTM1MDkyMzkyOCw0NjkyODUxNywtMTg5Nj
+A5MzczMCwtMTM1NzM0ODgwM119
 -->
