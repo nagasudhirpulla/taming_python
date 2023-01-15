@@ -4,7 +4,7 @@
 
 <hr>
 
-In this post we will create a Syslog server in python that listens for syslogs over the network
+In this post we will create a Syslog server in python that listens for Syslogs over the network
 
 ## What is Syslog
 * Syslog is a standard protocol to send logs or event messages to a logs storage server
@@ -198,9 +198,9 @@ python run_server.py
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTEzNTM4LC0xNzU3NzQ5NDg3LDIxMT
-EwMTg1MDksLTIxMzEwNDA0OSwzODc5Mzk1NzIsLTEzMjM3OTQ4
-MjMsLTExMjk1MzMyNDAsLTE2MjcyOTg0NTIsLTE2MTg5MDU0OD
-MsLTM1MDkyMzkyOCw0NjkyODUxNywtMTg5NjA5MzczMCwtMTM1
-NzM0ODgwM119
+eyJoaXN0b3J5IjpbLTQ2MjQ2OTI4MiwtMTc1Nzc0OTQ4NywyMT
+ExMDE4NTA5LC0yMTMxMDQwNDksMzg3OTM5NTcyLC0xMzIzNzk0
+ODIzLC0xMTI5NTMzMjQwLC0xNjI3Mjk4NDUyLC0xNjE4OTA1ND
+gzLC0zNTA5MjM5MjgsNDY5Mjg1MTcsLTE4OTYwOTM3MzAsLTEz
+NTczNDg4MDNdfQ==
 -->
