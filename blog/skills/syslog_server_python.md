@@ -190,16 +190,17 @@ python run_server.py
 <hr/>
 
 ## References
-* Syslog Watcher download page - https://ezfive.com/syslog-watcher/downloads/
+* Docs on logging - https://docs.python.org/3/library/logging.html
+* Docs on nssm - https://nssm.cc/usage
 * Install and configure rsyslog server in Ubuntu - https://computingforgeeks.com/configure-rsyslog-centralized-log-server-on-ubuntu/
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTc3NDk0ODcsMjExMTAxODUwOSwtMj
-EzMTA0MDQ5LDM4NzkzOTU3MiwtMTMyMzc5NDgyMywtMTEyOTUz
-MzI0MCwtMTYyNzI5ODQ1MiwtMTYxODkwNTQ4MywtMzUwOTIzOT
-I4LDQ2OTI4NTE3LC0xODk2MDkzNzMwLC0xMzU3MzQ4ODAzXX0=
-
+eyJoaXN0b3J5IjpbLTY0OTEzNTM4LC0xNzU3NzQ5NDg3LDIxMT
+EwMTg1MDksLTIxMzEwNDA0OSwzODc5Mzk1NzIsLTEzMjM3OTQ4
+MjMsLTExMjk1MzMyNDAsLTE2MjcyOTg0NTIsLTE2MTg5MDU0OD
+MsLTM1MDkyMzkyOCw0NjkyODUxNywtMTg5NjA5MzczMCwtMTM1
+NzM0ODgwM119
 -->
