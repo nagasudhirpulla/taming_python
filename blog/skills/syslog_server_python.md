@@ -172,6 +172,7 @@ python run_server.py
 
 * Use nssm to run this batch script as a windows background service
 * Make the startup type of this service as 'Automatic', so that the service will start upon system reboot
+* A blogpost on using nssm to run a script as a windows background service can be found [here]()
 
 <hr/>
 
@@ -183,7 +184,7 @@ python run_server.py
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzEyODcyNDQsLTExMjk1MzMyNDAsLT
+eyJoaXN0b3J5IjpbLTEyNTc4MjIxMTIsLTExMjk1MzMyNDAsLT
 E2MjcyOTg0NTIsLTE2MTg5MDU0ODMsLTM1MDkyMzkyOCw0Njky
 ODUxNywtMTg5NjA5MzczMCwtMTM1NzM0ODgwM119
 -->
