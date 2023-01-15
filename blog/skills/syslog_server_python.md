@@ -162,7 +162,10 @@ if __name__ == "__main__":
 }
 ```
 
-## Run the Syslog server as a windows background service with nssm 
+## Run the Syslog server as a windows background service with nssm
+* Create a batch file named `run_server.bat` and write the following in it
+```
+```
 
 <hr/>
 
@@ -174,7 +177,7 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2NTYyNzg2LC0xNjI3Mjk4NDUyLC0xNj
-E4OTA1NDgzLC0zNTA5MjM5MjgsNDY5Mjg1MTcsLTE4OTYwOTM3
-MzAsLTEzNTczNDg4MDNdfQ==
+eyJoaXN0b3J5IjpbLTExMTQ4MTI2NDgsLTE2MjcyOTg0NTIsLT
+E2MTg5MDU0ODMsLTM1MDkyMzkyOCw0NjkyODUxNywtMTg5NjA5
+MzczMCwtMTM1NzM0ODgwM119
 -->
