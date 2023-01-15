@@ -182,7 +182,6 @@ python run_server.py
 * Open the command prompt in administrative mode and run the command `nssm install syslog_server_python`
 * After the service is installed, open `services.msc` and make the startup type of this service as 'Automatic', so that the service will start upon system reboot
 * A blog-post on using nssm to run a script as a windows background service can be found [here](https://nagasudhir.blogspot.com/2022/09/run-python-flask-server-as-windows.html)
-   
 
 <hr/>
 
@@ -194,8 +193,9 @@ python run_server.py
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTAxODUwOSwtMjEzMTA0MDQ5LDM4Nz
-kzOTU3MiwtMTMyMzc5NDgyMywtMTEyOTUzMzI0MCwtMTYyNzI5
-ODQ1MiwtMTYxODkwNTQ4MywtMzUwOTIzOTI4LDQ2OTI4NTE3LC
-0xODk2MDkzNzMwLC0xMzU3MzQ4ODAzXX0=
+eyJoaXN0b3J5IjpbLTEwNjY0MDE4NzksMjExMTAxODUwOSwtMj
+EzMTA0MDQ5LDM4NzkzOTU3MiwtMTMyMzc5NDgyMywtMTEyOTUz
+MzI0MCwtMTYyNzI5ODQ1MiwtMTYxODkwNTQ4MywtMzUwOTIzOT
+I4LDQ2OTI4NTE3LC0xODk2MDkzNzMwLC0xMzU3MzQ4ODAzXX0=
+
 -->
