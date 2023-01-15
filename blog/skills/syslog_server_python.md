@@ -166,8 +166,11 @@ if __name__ == "__main__":
 * Create a batch file named `run_server.bat` and write the following in it
 
 ```bash
+REM batch script to run the syslog server
 python run_server.py
 ```
+
+* Use nssm to run this batch script as a windows back
 
 <hr/>
 
@@ -179,7 +182,7 @@ python run_server.py
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjk1MzMyNDAsLTE2MjcyOTg0NTIsLT
-E2MTg5MDU0ODMsLTM1MDkyMzkyOCw0NjkyODUxNywtMTg5NjA5
-MzczMCwtMTM1NzM0ODgwM119
+eyJoaXN0b3J5IjpbMTcwOTkwMDI0NiwtMTEyOTUzMzI0MCwtMT
+YyNzI5ODQ1MiwtMTYxODkwNTQ4MywtMzUwOTIzOTI4LDQ2OTI4
+NTE3LC0xODk2MDkzNzMwLC0xMzU3MzQ4ODAzXX0=
 -->
