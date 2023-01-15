@@ -46,6 +46,8 @@ if __name__ == "__main__":
 		print ("Crtl+C Pressed. Shutting down.")
 
 ```
+* The `handle` function inside the `SyslogUDPHandler` class has access to the Syslogs and  
+
 
 ## Testing the Syslog server by sending logs to it
 * Logs can be sent to Syslog server using python
@@ -190,8 +192,8 @@ python run_server.py
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzEwNDA0OSwzODc5Mzk1NzIsLTEzMj
-M3OTQ4MjMsLTExMjk1MzMyNDAsLTE2MjcyOTg0NTIsLTE2MTg5
-MDU0ODMsLTM1MDkyMzkyOCw0NjkyODUxNywtMTg5NjA5MzczMC
-wtMTM1NzM0ODgwM119
+eyJoaXN0b3J5IjpbLTM5MzczNjI5MCwtMjEzMTA0MDQ5LDM4Nz
+kzOTU3MiwtMTMyMzc5NDgyMywtMTEyOTUzMzI0MCwtMTYyNzI5
+ODQ1MiwtMTYxODkwNTQ4MywtMzUwOTIzOTI4LDQ2OTI4NTE3LC
+0xODk2MDkzNzMwLC0xMzU3MzQ4ODAzXX0=
 -->
