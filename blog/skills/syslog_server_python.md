@@ -183,6 +183,9 @@ python run_server.py
 * After the service is installed, open `services.msc` and make the startup type of this service as 'Automatic', so that the service will start upon system reboot
 * A blog-post on using nssm to run a script as a windows background service can be found [here](https://nagasudhir.blogspot.com/2022/09/run-python-flask-server-as-windows.html)
 
+## Conclusion
+* The python based Syslog server once setup, is quite robust without many external python library dependencies and can be used for small scale monolithic deplpyem 
+
 <hr/>
 
 ## References
@@ -193,9 +196,9 @@ python run_server.py
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjY0MDE4NzksMjExMTAxODUwOSwtMj
-EzMTA0MDQ5LDM4NzkzOTU3MiwtMTMyMzc5NDgyMywtMTEyOTUz
-MzI0MCwtMTYyNzI5ODQ1MiwtMTYxODkwNTQ4MywtMzUwOTIzOT
-I4LDQ2OTI4NTE3LC0xODk2MDkzNzMwLC0xMzU3MzQ4ODAzXX0=
+eyJoaXN0b3J5IjpbMTg3MjE5OTcwMiwyMTExMDE4NTA5LC0yMT
+MxMDQwNDksMzg3OTM5NTcyLC0xMzIzNzk0ODIzLC0xMTI5NTMz
+MjQwLC0xNjI3Mjk4NDUyLC0xNjE4OTA1NDgzLC0zNTA5MjM5Mj
+gsNDY5Mjg1MTcsLTE4OTYwOTM3MzAsLTEzNTczNDg4MDNdfQ==
 
 -->
