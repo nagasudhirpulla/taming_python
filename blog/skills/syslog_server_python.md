@@ -184,7 +184,8 @@ python run_server.py
 * A blog-post on using nssm to run a script as a windows background service can be found [here](https://nagasudhir.blogspot.com/2022/09/run-python-flask-server-as-windows.html)
 
 ## Conclusion
-* The python based Syslog server once setup, is quite robust without many external python library dependencies and can be used for small scale monolithic deplpyem 
+* The python based Syslog server once setup, is quite robust without many external python library dependencies and can be used for small scale monolithic deployments
+* However, for complex Syslog server deployments, battle-tested and robust syslog server solutions like `rsyslog` can be used 
 
 <hr/>
 
@@ -196,9 +197,8 @@ python run_server.py
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjE5OTcwMiwyMTExMDE4NTA5LC0yMT
-MxMDQwNDksMzg3OTM5NTcyLC0xMzIzNzk0ODIzLC0xMTI5NTMz
-MjQwLC0xNjI3Mjk4NDUyLC0xNjE4OTA1NDgzLC0zNTA5MjM5Mj
-gsNDY5Mjg1MTcsLTE4OTYwOTM3MzAsLTEzNTczNDg4MDNdfQ==
-
+eyJoaXN0b3J5IjpbOTMwNzQzNTMxLDIxMTEwMTg1MDksLTIxMz
+EwNDA0OSwzODc5Mzk1NzIsLTEzMjM3OTQ4MjMsLTExMjk1MzMy
+NDAsLTE2MjcyOTg0NTIsLTE2MTg5MDU0ODMsLTM1MDkyMzkyOC
+w0NjkyODUxNywtMTg5NjA5MzczMCwtMTM1NzM0ODgwM119
 -->
