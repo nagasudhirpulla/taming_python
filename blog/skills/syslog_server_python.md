@@ -162,6 +162,10 @@ if __name__ == "__main__":
 }
 ```
 
+* The above python script will listen for yslog message and log them into a log file
+* 
+* A blog-post on logging in python with log rotation and compression can be found [here](https://nagasudhir.blogspot.com/2022/11/logging-in-python.html)
+
 ## Run the Syslog server as a windows background service with nssm
 * Create a batch file named `run_server.bat` and write the following in it
 
@@ -185,7 +189,8 @@ python run_server.py
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjM3OTQ4MjMsLTExMjk1MzMyNDAsLT
-E2MjcyOTg0NTIsLTE2MTg5MDU0ODMsLTM1MDkyMzkyOCw0Njky
-ODUxNywtMTg5NjA5MzczMCwtMTM1NzM0ODgwM119
+eyJoaXN0b3J5IjpbLTY4NTI0NzQ3MSwtMTMyMzc5NDgyMywtMT
+EyOTUzMzI0MCwtMTYyNzI5ODQ1MiwtMTYxODkwNTQ4MywtMzUw
+OTIzOTI4LDQ2OTI4NTE3LC0xODk2MDkzNzMwLC0xMzU3MzQ4OD
+AzXX0=
 -->
