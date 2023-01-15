@@ -170,7 +170,8 @@ REM batch script to run the syslog server
 python run_server.py
 ```
 
-* Use nssm to run this batch script as a windows back
+* Use nssm to run this batch script as a windows background service
+* Make the startup type of this service as 'Automatic', so that the service will start upon system reboot
 
 <hr/>
 
@@ -182,7 +183,7 @@ python run_server.py
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwOTkwMDI0NiwtMTEyOTUzMzI0MCwtMT
-YyNzI5ODQ1MiwtMTYxODkwNTQ4MywtMzUwOTIzOTI4LDQ2OTI4
-NTE3LC0xODk2MDkzNzMwLC0xMzU3MzQ4ODAzXX0=
+eyJoaXN0b3J5IjpbLTE3NzEyODcyNDQsLTExMjk1MzMyNDAsLT
+E2MjcyOTg0NTIsLTE2MTg5MDU0ODMsLTM1MDkyMzkyOCw0Njky
+ODUxNywtMTg5NjA5MzczMCwtMTM1NzM0ODgwM119
 -->
