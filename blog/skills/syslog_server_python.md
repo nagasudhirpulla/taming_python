@@ -184,7 +184,7 @@ python run_server.py
 * A blog-post on using nssm to run a script as a windows background service can be found [here](https://nagasudhir.blogspot.com/2022/09/run-python-flask-server-as-windows.html)
 
 ## Conclusion
-* This simple python based Syslog server can be used for testing or in production f  
+* This simple python based Syslog server can be used for testing or in production   
 
 <hr/>
 
@@ -196,7 +196,7 @@ python run_server.py
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTY4ODY5NywtMjEzMTA0MDQ5LDM4Nz
+eyJoaXN0b3J5IjpbLTg4NDY0MDM0NywtMjEzMTA0MDQ5LDM4Nz
 kzOTU3MiwtMTMyMzc5NDgyMywtMTEyOTUzMzI0MCwtMTYyNzI5
 ODQ1MiwtMTYxODkwNTQ4MywtMzUwOTIzOTI4LDQ2OTI4NTE3LC
 0xODk2MDkzNzMwLC0xMzU3MzQ4ODAzXX0=
