@@ -153,16 +153,11 @@ if __name__ == "__main__":
 
 ```json
 {
-
-"logFilePath": "logs/app_log.log",
-
-"host": "0.0.0.0",
-
-"port": 514,
-
-"numFilesRetention": 400,
-
-"rollOverHours": 24
+    "logFilePath": "logs/app_log.log",
+    "host": "0.0.0.0",
+    "port": 514,
+    "numFilesRetention": 400,
+    "rollOverHours": 24
 }
 ```
 
@@ -178,6 +173,6 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDMyNjI5MywtMzUwOTIzOTI4LDQ2OT
-I4NTE3LC0xODk2MDkzNzMwLC0xMzU3MzQ4ODAzXX0=
+eyJoaXN0b3J5IjpbLTE2MTg5MDU0ODMsLTM1MDkyMzkyOCw0Nj
+kyODUxNywtMTg5NjA5MzczMCwtMTM1NzM0ODgwM119
 -->
