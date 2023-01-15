@@ -68,44 +68,9 @@ logger.warning("Sample warning message")
 * By running the above script, Syslogs can be sent to a Syslog server. In this example, two Syslogs of levels `INFO` and `WARNING` are sent to a Syslog server listening over UDP 514 port with hostname '127.0.0.1' (localhost)
 
 ## Syslog server with log rotation and compression
+```py
 
-```bash
-sudo apt-get install rsyslog -y or sudo apt install rsyslog -y
 ```
-* rsyslog server can be started and enabled to start at system startup using the following commands
-```bash
-sudo systemctl start rsyslog
-sudo systemctl enable rsyslog
-```
-* rsyslog server can be configured using the configuration file located at `/etc/rsyslog.conf` 
-* Make sure the following lines are present in the configuration file for listening at UDP port 514
-```bash
-module(load="imudp")
-input(type="imudp" port="514")
-```
-* Make sure the following lines are present in the configuration file below the listener configuration for specifying the logs storage files location
-```bash
-$template remote-incoming-logs,"/var/log/%HOSTNAME%/%PROGRAMNAME%.log" 
-*.* ?remote-incoming-logs
-& ~
-```
-* rsyslog server can be restarted after configuration changes using the following command
-```bash
-sudo systemctl restart rsyslog
-```
-* rsyslog server status can be checked using the following command
-```bash
-sudo systemctl status rsyslog
-```
-* If firewall is used in the server, allow listening on UDP 514 port using the following command
-```bash
-sudo ufw allow 514/udp
-```
-
-### Video
-The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TIis6_RmMJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <hr/>
 
@@ -117,6 +82,6 @@ The video for this post can be seen [here](https://youtu.be/TIis6_RmMJo)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDMwNDExODgsNDY5Mjg1MTcsLTE4OT
+eyJoaXN0b3J5IjpbLTE3NzUzNTA4NjYsNDY5Mjg1MTcsLTE4OT
 YwOTM3MzAsLTEzNTczNDg4MDNdfQ==
 -->
