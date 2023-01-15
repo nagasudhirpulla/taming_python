@@ -162,8 +162,8 @@ if __name__ == "__main__":
 }
 ```
 
-* The above python script will listen for Syslog messages and log them into a log file
-* The log files will be rotated and compressed after the configured number of hours
+* The above python script will listen for Syslog messages and log them into a log file. The log file location can be configured in `config.json` file
+* The log files will be rotated and compressed after the configured number of hours. The number of hours can be configured in the `config.json` file
 * A blog-post on logging in python with log rotation and compression can be found [here](https://nagasudhir.blogspot.com/2022/11/logging-in-python.html)
 
 ## Run the Syslog server as a windows background service with nssm
@@ -189,8 +189,8 @@ python run_server.py
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2NzQ5NTEsLTEzMjM3OTQ4MjMsLTExMj
-k1MzMyNDAsLTE2MjcyOTg0NTIsLTE2MTg5MDU0ODMsLTM1MDky
-MzkyOCw0NjkyODUxNywtMTg5NjA5MzczMCwtMTM1NzM0ODgwM1
-19
+eyJoaXN0b3J5IjpbLTExODM0MzYyNiwtMTMyMzc5NDgyMywtMT
+EyOTUzMzI0MCwtMTYyNzI5ODQ1MiwtMTYxODkwNTQ4MywtMzUw
+OTIzOTI4LDQ2OTI4NTE3LC0xODk2MDkzNzMwLC0xMzU3MzQ4OD
+AzXX0=
 -->
