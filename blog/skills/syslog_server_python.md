@@ -164,8 +164,8 @@ if __name__ == "__main__":
 
 ## Run the Syslog server as a windows background service with nssm
 * Create a batch file named `run_server.bat` and write the following in it
-```bash
-python run_server.p
+```shell
+python run_server.py
 ```
 
 <hr/>
@@ -178,7 +178,7 @@ python run_server.p
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjY4MjI4NDEsLTE2MjcyOTg0NTIsLT
-E2MTg5MDU0ODMsLTM1MDkyMzkyOCw0NjkyODUxNywtMTg5NjA5
-MzczMCwtMTM1NzM0ODgwM119
+eyJoaXN0b3J5IjpbMjA0MDUxODU0MiwtMTYyNzI5ODQ1MiwtMT
+YxODkwNTQ4MywtMzUwOTIzOTI4LDQ2OTI4NTE3LC0xODk2MDkz
+NzMwLC0xMzU3MzQ4ODAzXX0=
 -->
