@@ -168,8 +168,7 @@ if __name__ == "__main__":
 * The log files will be rotated and compressed after the configured number of hours. The number of hours can be configured in the `config.json` file
 * The number of files after which the old log files can be deleted can be configured in the `config.json` file
 * A detailed blog-post on logging in python with log rotation and compression can be found [here](https://nagasudhir.blogspot.com/2022/11/logging-in-python.html)
-* The above example rotates logs based on time. But this code can be customized to make the logs rotate based on size using the ````py
-RotatingFileHandler````
+* The above example rotates logs based on time. But this code can be customized to make the logs rotate based on size using the `RotatingFileHandler` class
 
 ## Run the Syslog server as a windows background service with nssm
 * Create a batch file named `run_server.bat` and write the following in it
@@ -184,6 +183,9 @@ python run_server.py
 * After the service is installed, open `services.msc` and make the startup type of this service as 'Automatic', so that the service will start upon system reboot
 * A blog-post on using nssm to run a script as a windows background service can be found [here](https://nagasudhir.blogspot.com/2022/09/run-python-flask-server-as-windows.html)
 
+## Conclusion
+* This simple python based Syslog server can be used for testing or in production f  
+
 <hr/>
 
 ## References
@@ -194,8 +196,8 @@ python run_server.py
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5NzQ5ODkwLC0yMTMxMDQwNDksMzg3OT
-M5NTcyLC0xMzIzNzk0ODIzLC0xMTI5NTMzMjQwLC0xNjI3Mjk4
-NDUyLC0xNjE4OTA1NDgzLC0zNTA5MjM5MjgsNDY5Mjg1MTcsLT
-E4OTYwOTM3MzAsLTEzNTczNDg4MDNdfQ==
+eyJoaXN0b3J5IjpbMjA0NTY4ODY5NywtMjEzMTA0MDQ5LDM4Nz
+kzOTU3MiwtMTMyMzc5NDgyMywtMTEyOTUzMzI0MCwtMTYyNzI5
+ODQ1MiwtMTYxODkwNTQ4MywtMzUwOTIzOTI4LDQ2OTI4NTE3LC
+0xODk2MDkzNzMwLC0xMzU3MzQ4ODAzXX0=
 -->
