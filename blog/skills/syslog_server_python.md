@@ -187,6 +187,11 @@ python run_server.py
 * The python based Syslog server once setup, is quite robust without many external python library dependencies and can be used for small scale monolithic deployments
 * However, for complex and critical Syslog server deployments, battle-tested and robust syslog server solutions like `rsyslog` can be used 
 
+### Video
+The video for this post can be seen [here](https://youtu.be/r3fGPk8ga9E)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r3fGPk8ga9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <hr/>
 
 ## References
@@ -198,9 +203,9 @@ python run_server.py
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjIzODM2NiwtMTc1Nzc0OTQ4NywyMT
-ExMDE4NTA5LC0yMTMxMDQwNDksMzg3OTM5NTcyLC0xMzIzNzk0
-ODIzLC0xMTI5NTMzMjQwLC0xNjI3Mjk4NDUyLC0xNjE4OTA1ND
-gzLC0zNTA5MjM5MjgsNDY5Mjg1MTcsLTE4OTYwOTM3MzAsLTEz
-NTczNDg4MDNdfQ==
+eyJoaXN0b3J5IjpbMTI3OTg0MTIyNiwxMDMyMjM4MzY2LC0xNz
+U3NzQ5NDg3LDIxMTEwMTg1MDksLTIxMzEwNDA0OSwzODc5Mzk1
+NzIsLTEzMjM3OTQ4MjMsLTExMjk1MzMyNDAsLTE2MjcyOTg0NT
+IsLTE2MTg5MDU0ODMsLTM1MDkyMzkyOCw0NjkyODUxNywtMTg5
+NjA5MzczMCwtMTM1NzM0ODgwM119
 -->
