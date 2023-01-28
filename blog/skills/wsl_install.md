@@ -56,7 +56,9 @@ OracleLinux_7_9    Oracle Linux 7.9
 ## Update WSL kernel
 * WSL kernel can be updated from command line using the command `wsl --update` . However by WSL will update automatically with windows update 
 
-## Open a WSL distribution
+## Open a specific WSL distribution
+* First view the list of installed Linux distributions using the command `wsl -l -v`
+* Then open the desired distribution with the command `wsl -d <distroName>`, where "distroName" is the name of the desired inst 
 
 ## Update a WSL Linux distribution
 * Open the Linux distribution from start menu or with the command `wsl`
@@ -87,7 +89,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MjU3Mjk4OSw2MjE2NzY0MzcsLTEwMz
-k2ODQ5OTIsLTQwMjkzNjEyNywzMzY4NTI4ODksNzE0NzU1Mzc0
-LDk4NDA2MTgwLC0yMDI5ODM2NDIyXX0=
+eyJoaXN0b3J5IjpbNjkwOTk0MzM3LC00NjI1NzI5ODksNjIxNj
+c2NDM3LC0xMDM5Njg0OTkyLC00MDI5MzYxMjcsMzM2ODUyODg5
+LDcxNDc1NTM3NCw5ODQwNjE4MCwtMjAyOTgzNjQyMl19
 -->
