@@ -6,6 +6,9 @@
 
 In this post we will install **WSL (Windows Subsystem for Linux)** in Windows to run Linux OS or Linux commands directly from Windows
 
+## Install from command line
+* 
+
 ## TODOs
 * install from cmd with --no-distribution
 * install manually in older windows versions
@@ -25,6 +28,6 @@ In this post we will install **WSL (Windows Subsystem for Linux)** in Windows to
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2ODUyODg5LDcxNDc1NTM3NCw5ODQwNj
-E4MCwtMjAyOTgzNjQyMl19
+eyJoaXN0b3J5IjpbMTg0MDMzOTI2MywzMzY4NTI4ODksNzE0Nz
+U1Mzc0LDk4NDA2MTgwLC0yMDI5ODM2NDIyXX0=
 -->
