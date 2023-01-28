@@ -1,4 +1,4 @@
-## Skill - Installing and using DBeaver for accessing and controlling different databases in one tool
+## Skill - Setup Linux in Windows using WSL (Windows Subsystem for Linux)
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -17,5 +17,5 @@ In this post we will install **WSL (Windows Subsystem for Linux)** in Windows to
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzQ2MzMzNV19
+eyJoaXN0b3J5IjpbLTIwMjk4MzY0MjJdfQ==
 -->
