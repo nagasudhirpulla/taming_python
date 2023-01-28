@@ -59,7 +59,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 ## Access Windows drives in WSL
  * Open a Linux distribution in command line
- * The windows drives can be accessed inside the WSL 
+ * The Windows operating system drives can be accessed inside the WSL Linux distributions using the `/mnt` path. For example running the command `cd /mnt/c` will change the working
 
 ## Shutdown Linux distributions
 * Run the command `wsl --shutdown` to shutdown all the installed Linux distributions
@@ -94,7 +94,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTUwOTgxOTgsLTQ2MjU3Mjk4OSw2Mj
+eyJoaXN0b3J5IjpbLTEyOTkyMTcwNjIsLTQ2MjU3Mjk4OSw2Mj
 E2NzY0MzcsLTEwMzk2ODQ5OTIsLTQwMjkzNjEyNywzMzY4NTI4
 ODksNzE0NzU1Mzc0LDk4NDA2MTgwLC0yMDI5ODM2NDIyXX0=
 -->
