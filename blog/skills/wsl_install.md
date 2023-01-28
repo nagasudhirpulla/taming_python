@@ -21,7 +21,8 @@ There can be many use cases like
 * To install WSL without the default Ubuntu Linux distribution, run the command `wsl --install --no-distribution` instead
 
 ## Install WSL in older Windows 10 versions
-* In sone 
+* In some older windows 10 versions, WSL installation with `wsl --install` may not be possible.
+* For such scenarios, refer to the manual installation steps as per the Microsoft documentation [here](https://learn.microsoft.com/en-us/windows/wsl/install-manual)
 
 ## Install a Linux distribution from command line
 * Get the list of available Linux distributions using the command `wsl --list --online` or `wsl -l -o` .  A list of available distributions will be displayed. 
@@ -84,7 +85,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxMDgyMzgxLC00MDI5MzYxMjcsMzM2OD
-UyODg5LDcxNDc1NTM3NCw5ODQwNjE4MCwtMjAyOTgzNjQyMl19
-
+eyJoaXN0b3J5IjpbLTEwMzk2ODQ5OTIsLTQwMjkzNjEyNywzMz
+Y4NTI4ODksNzE0NzU1Mzc0LDk4NDA2MTgwLC0yMDI5ODM2NDIy
+XX0=
 -->
