@@ -43,7 +43,7 @@ Ubuntu-22.04       Ubuntu 22.04 LTS
 OracleLinux_8_5    Oracle Linux 8.5
 OracleLinux_7_9    Oracle Linux 7.9
 ```
-* Choose a distribution by the `NAME` column and install using the command `wsl --insall -d <NAME>`. For example, based on the above output, you can run `wsl --insall -d kali-linux` to install Kali Linux distribution
+* Choose a distribution by the `NAME` and install using the command `wsl --insall -d <NAME>`. For example, based on the above output, you can run `wsl --insall -d kali-linux` to install Kali Linux distribution
 
 ## Install a Linux distribution from Microsoft store
 * Open Microsoft store app in Windows
@@ -58,13 +58,14 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 ## Open a WSL distribution
 
-## Uninstall a Linux distribution
-* 
-
 ## Update a WSL Linux distribution
 * Open the Linux distribution from start menu or with the command `wsl`
 * If a Debian based Linux distribution like Ubuntu is installed, then it can be updated using the command `sudo apt update && sudo apt upgrade` 
 * Now the packages in the Linux distribution will be updated
+
+## Uninstall a Linux distribution
+* First view the list of installed Linux distributions using the command `wsl -l -v`
+* 
 
 ## TODOs
 * install from cmd with --no-distribution
@@ -85,7 +86,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzk2ODQ5OTIsLTQwMjkzNjEyNywzMz
-Y4NTI4ODksNzE0NzU1Mzc0LDk4NDA2MTgwLC0yMDI5ODM2NDIy
-XX0=
+eyJoaXN0b3J5IjpbLTE5NDI0NDgwMDgsLTEwMzk2ODQ5OTIsLT
+QwMjkzNjEyNywzMzY4NTI4ODksNzE0NzU1Mzc0LDk4NDA2MTgw
+LC0yMDI5ODM2NDIyXX0=
 -->
