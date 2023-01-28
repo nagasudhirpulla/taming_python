@@ -75,9 +75,6 @@ OracleLinux_7_9    Oracle Linux 7.9
 * Alternatively, a Linux distribution can also be manually uninstalled from "Add or remove programs" section in the System Settings
 
 ## TODOs
-* install from cmd with --no-distribution
-* install manually in older windows versions
-* wsl basic commands
 * run bash commands using wsl prefix
 * run open windows drives in linux using /mnt/c path 
 * pass commands between windows command line and linux using the pipe operator "|"
@@ -93,7 +90,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDIzODg1MCwtNDYyNTcyOTg5LDYyMT
+eyJoaXN0b3J5IjpbLTY2MDA1MDk5MCwtNDYyNTcyOTg5LDYyMT
 Y3NjQzNywtMTAzOTY4NDk5MiwtNDAyOTM2MTI3LDMzNjg1Mjg4
 OSw3MTQ3NTUzNzQsOTg0MDYxODAsLTIwMjk4MzY0MjJdfQ==
 -->
