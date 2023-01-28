@@ -4,7 +4,7 @@
 
 <hr/>
 
-In this post we will install **wsl (Windows Subs** in windows to run Linux OS or Linux commands directly from windows
+In this post we will install **WSL (Windows Subsystem for Linux)** in Windows to run Linux OS or Linux commands directly from Windows
 
 
  
@@ -17,5 +17,5 @@ In this post we will install **wsl (Windows Subs** in windows to run Linux OS or
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDQwMzU0OV19
+eyJoaXN0b3J5IjpbMTQzMzQ2MzMzNV19
 -->
