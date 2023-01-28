@@ -44,7 +44,7 @@ Ubuntu-22.04       Ubuntu 22.04 LTS
 OracleLinux_8_5    Oracle Linux 8.5
 OracleLinux_7_9    Oracle Linux 7.9
 ```
-* Choose a distribution by name and intall using the
+* Choose a distribution by the `NAME` column and install using the command `wsl --insall -d <NAME>`. For example, based on the above output, you 
 
 ## TODOs
 * install from cmd with --no-distribution
@@ -65,7 +65,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNDA3OTIxOCwtNDAyOTM2MTI3LDMzNj
+eyJoaXN0b3J5IjpbLTg4MjIyMDI3MywtNDAyOTM2MTI3LDMzNj
 g1Mjg4OSw3MTQ3NTUzNzQsOTg0MDYxODAsLTIwMjk4MzY0MjJd
 fQ==
 -->
