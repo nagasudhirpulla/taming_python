@@ -12,7 +12,7 @@ In this post we will install **WSL (Windows Subsystem for Linux)** in Windows to
 * wsl basic commands
 * run bash commands using wsl prefix
 * run open windows drives in linux using /mnt/c path 
-* pass between powershell and linux usi
+* pass commands between windows command line and linux using the pipe operator "|"
 
  
 ### References
@@ -25,6 +25,6 @@ In this post we will install **WSL (Windows Subsystem for Linux)** in Windows to
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY4OTk4NTYsNzE0NzU1Mzc0LDk4ND
-A2MTgwLC0yMDI5ODM2NDIyXX0=
+eyJoaXN0b3J5IjpbMzM2ODUyODg5LDcxNDc1NTM3NCw5ODQwNj
+E4MCwtMjAyOTgzNjQyMl19
 -->
