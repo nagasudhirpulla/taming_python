@@ -47,11 +47,11 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 ## Install a Linux distribution from Microsoft store
 * Open Microsoft store app in Windows
-* Search for a linux distribution like "Ubuntu", "Kali Linux", "Debian" etc.
+* Search for a Linux distribution like "Ubuntu", "Kali Linux", "Debian" etc.
 * Install the Linux distribution from Microsoft store
 
 ## List out the installed Linux distributions
-* In a command line, run the command `wsl --list --verbose` or `wsl -l -v` to see the list of installed wsl distributions and their status 
+* In a command line, run the command `wsl --list --verbose` or `wsl -l -v` to see the list of installed WSL distributions and their status 
 
 ## Open a specific WSL distribution
 * First view the list of installed Linux distributions using the command `wsl -l -v`
@@ -65,10 +65,10 @@ OracleLinux_7_9    Oracle Linux 7.9
 * Open  windows file explorer
 * In the left pane, a section named `linux` will be visible. Click on it to see the folders of the installed WSL Linux distributions in Windows file explorer
 
-## Run linux commands in windows with 'wsl' prefix
+## Run Linux commands in windows with 'wsl' prefix
 * Linux commands can be run in windows command line by just adding the 'wsl' prefix
 * For example, we can run the command `wsl ls -l` to list the files and folders in windows command prompt.
-* Using the pipe operator (`|`), we can combine both Linux and windows command to pass output of one command to another. For example, the command `dir | wsl grep "source"` will pass the c
+* Using the pipe operator (`|`), we can combine both Linux and windows command to pass output of one command to another. For example, the command `dir | wsl grep "xyz"` will pass the output of windows command `dir` to Linux command `grep`
 
 ## Shutdown Linux distributions
 * Run the command `wsl --shutdown` to shutdown all the installed Linux distributions
@@ -103,8 +103,8 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg5NjA0OTQ1LC00MTMyOTM4NSw2ODM0ND
-kwMTMsLTYzODk3MTcxLC00NjI1NzI5ODksNjIxNjc2NDM3LC0x
-MDM5Njg0OTkyLC00MDI5MzYxMjcsMzM2ODUyODg5LDcxNDc1NT
-M3NCw5ODQwNjE4MCwtMjAyOTgzNjQyMl19
+eyJoaXN0b3J5IjpbLTc0NTczMjE4NywtNDEzMjkzODUsNjgzND
+Q5MDEzLC02Mzg5NzE3MSwtNDYyNTcyOTg5LDYyMTY3NjQzNywt
+MTAzOTY4NDk5MiwtNDAyOTM2MTI3LDMzNjg1Mjg4OSw3MTQ3NT
+UzNzQsOTg0MDYxODAsLTIwMjk4MzY0MjJdfQ==
 -->
