@@ -58,7 +58,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 ## Open a specific WSL distribution
 * First view the list of installed Linux distributions using the command `wsl -l -v`
-* Then open the desired distribution with the command `wsl -d <distroName>`, where "distroName" is the name of the desired inst 
+* Then open the desired distribution with the command `wsl -d <distroName>`, where "distroName" is the name of the installed Linux distribution
 
 ## Update a WSL Linux distribution
 * Open the Linux distribution from start menu or with the command `wsl`
@@ -89,7 +89,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkwOTk0MzM3LC00NjI1NzI5ODksNjIxNj
+eyJoaXN0b3J5IjpbLTgyMDEzMTQzLC00NjI1NzI5ODksNjIxNj
 c2NDM3LC0xMDM5Njg0OTkyLC00MDI5MzYxMjcsMzM2ODUyODg5
 LDcxNDc1NTM3NCw5ODQwNjE4MCwtMjAyOTgzNjQyMl19
 -->
