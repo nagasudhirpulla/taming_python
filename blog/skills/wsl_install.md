@@ -6,8 +6,11 @@
 
 In this post we will install **WSL (Windows Subsystem for Linux)** in Windows to run Linux OS or Linux commands directly from Windows
 
+## What is WSL
+WSL (Windows Subsystem for Linux) is a windows feature that can run Linux distributions like Ubun
+
 ## Install from command line
-* 
+* To install
 
 ## TODOs
 * install from cmd with --no-distribution
@@ -28,6 +31,6 @@ In this post we will install **WSL (Windows Subsystem for Linux)** in Windows to
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDMzOTI2MywzMzY4NTI4ODksNzE0Nz
-U1Mzc0LDk4NDA2MTgwLC0yMDI5ODM2NDIyXX0=
+eyJoaXN0b3J5IjpbLTExNDExMTI5MzksMzM2ODUyODg5LDcxND
+c1NTM3NCw5ODQwNjE4MCwtMjAyOTgzNjQyMl19
 -->
