@@ -11,12 +11,11 @@ WSL (Windows Subsystem for Linux) is a windows feature that can run Linux enviro
 
 ## Why use WSL
 There can be many use cases like
-* Testing code in Linux environments
-* Running programs or commands in windows that are only available for Linux based OS
-* 
+* Running the source code or servers in Linux environments
+* Running applications or commands in Windows that are only available for Linux based OS
 
-## Install from command line
-* To install
+## Install WSL from command line
+WSL 
 
 ## TODOs
 * install from cmd with --no-distribution
@@ -37,6 +36,6 @@ There can be many use cases like
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyODA3MzI1LDMzNjg1Mjg4OSw3MTQ3NT
-UzNzQsOTg0MDYxODAsLTIwMjk4MzY0MjJdfQ==
+eyJoaXN0b3J5IjpbLTIyNDM4NDY4NywzMzY4NTI4ODksNzE0Nz
+U1Mzc0LDk4NDA2MTgwLC0yMDI5ODM2NDIyXX0=
 -->
