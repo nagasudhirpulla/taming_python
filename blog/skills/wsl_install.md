@@ -57,6 +57,10 @@ OracleLinux_7_9    Oracle Linux 7.9
 * First view the list of installed Linux distributions using the command `wsl -l -v`
 * Then open the desired distribution with the command `wsl -d <distroName>`, where "distroName" is the name of the installed Linux distribution
 
+## Access Windows drives in WSL
+ * Open a Linux distribution in command line
+ * The windows drives can be accessed inside the WSL 
+
 ## Shutdown Linux distributions
 * Run the command `wsl --shutdown` to shutdown all the installed Linux distributions
 * Run the command `wsl -t <distroName>` to shutdown only a single installed Linux distribution. The installed "distroName" can be obtained by running the command `wsl -l`
@@ -90,7 +94,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDA1MDk5MCwtNDYyNTcyOTg5LDYyMT
-Y3NjQzNywtMTAzOTY4NDk5MiwtNDAyOTM2MTI3LDMzNjg1Mjg4
-OSw3MTQ3NTUzNzQsOTg0MDYxODAsLTIwMjk4MzY0MjJdfQ==
+eyJoaXN0b3J5IjpbLTE4MTUwOTgxOTgsLTQ2MjU3Mjk4OSw2Mj
+E2NzY0MzcsLTEwMzk2ODQ5OTIsLTQwMjkzNjEyNywzMzY4NTI4
+ODksNzE0NzU1Mzc0LDk4NDA2MTgwLC0yMDI5ODM2NDIyXX0=
 -->
