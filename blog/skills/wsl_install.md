@@ -26,8 +26,25 @@ There can be many use cases like
 * Install the Linux distribution from Microsoft store
 
 ## Install a Linux distribution from command line
-* Get the list of available Linux distributions using the command `wsl --list --online` or `wsl -l -o` .  A list of a
-* 
+* Get the list of available Linux distributions using the command `wsl --list --online` or `wsl -l -o` .  A list of available distributions will be displayed. 
+For example 
+```
+The following is a list of valid distributions that can be installed.
+Install using 'wsl --install -d <Distro>'.
+
+NAME               FRIENDLY NAME
+Ubuntu             Ubuntu
+Debian             Debian GNU/Linux
+kali-linux         Kali Linux Rolling
+SLES-12            SUSE Linux Enterprise Server v12
+SLES-15            SUSE Linux Enterprise Server v15
+Ubuntu-18.04       Ubuntu 18.04 LTS
+Ubuntu-20.04       Ubuntu 20.04 LTS
+Ubuntu-22.04       Ubuntu 22.04 LTS
+OracleLinux_8_5    Oracle Linux 8.5
+OracleLinux_7_9    Oracle Linux 7.9
+```
+* Choose a distribution by name and intall using the
 
 ## TODOs
 * install from cmd with --no-distribution
@@ -48,7 +65,7 @@ There can be many use cases like
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NjgzNjY1MSwtNDAyOTM2MTI3LDMzNj
+eyJoaXN0b3J5IjpbMTAwNDA3OTIxOCwtNDAyOTM2MTI3LDMzNj
 g1Mjg4OSw3MTQ3NTUzNzQsOTg0MDYxODAsLTIwMjk4MzY0MjJd
 fQ==
 -->
