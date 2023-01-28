@@ -68,7 +68,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 ## Run Linux commands in windows with 'wsl' prefix
 * Linux commands can be run in windows command line by just adding the 'wsl' prefix
 * For example, we can run the command `wsl ls -l` to list the files and folders in windows command prompt.
-* Using the pipe operator (`|`), we can combine both Linux and windows command to pass output of one command to another. For example, the command `dir | wsl grep "xyz"` will pass the output of windows command `dir` to Linux command `grep`
+* Using the pipe operator (`|`), we can combine both Linux and windows commands to pass output of one command to another. For example, the command `dir | wsl grep "xyz"` will pass the output of windows command `dir` to Linux command `grep`
 
 ## Shutdown Linux distributions
 * Run the command `wsl --shutdown` to shutdown all the installed Linux distributions
@@ -86,12 +86,6 @@ OracleLinux_7_9    Oracle Linux 7.9
 * First view the list of installed Linux distributions using the command `wsl -l -v`
 * Then run the command `wsl --unregister <distroName>` where "distroName" is the name of the Linux distribution to be uninstalled
 * Alternatively, a Linux distribution can also be manually uninstalled from "Add or remove programs" section in the System Settings
-
-## TODOs
-* run bash commands using wsl prefix
-* run open windows drives in linux using /mnt/c path 
-* pass commands between windows command line and linux using the pipe operator "|"
-
  
 ### References
 * Basic wsl commands reference - https://learn.microsoft.com/en-us/windows/wsl/basic-commands#install
@@ -103,7 +97,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NTczMjE4NywtNDEzMjkzODUsNjgzND
+eyJoaXN0b3J5IjpbLTY3MjY1ODI0MiwtNDEzMjkzODUsNjgzND
 Q5MDEzLC02Mzg5NzE3MSwtNDYyNTcyOTg5LDYyMTY3NjQzNywt
 MTAzOTY4NDk5MiwtNDAyOTM2MTI3LDMzNjg1Mjg4OSw3MTQ3NT
 UzNzQsOTg0MDYxODAsLTIwMjk4MzY0MjJdfQ==
