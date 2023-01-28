@@ -62,7 +62,8 @@ OracleLinux_7_9    Oracle Linux 7.9
  * The Windows operating system drives can be accessed inside the WSL Linux distributions using the `/mnt` path. For example running the command `cd /mnt/c` will change the working directory to C drive.
 
 ## Access WSL files from file explorer
-* Open  
+* Open  windows file explorer
+* In the left pane, a section named `linux` will be visible. Click on it to see the folders of the installed WSL distributions in Windows file explorer
 
 ## Shutdown Linux distributions
 * Run the command `wsl --shutdown` to shutdown all the installed Linux distributions
@@ -97,8 +98,8 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDA2MDQyODMsLTYzODk3MTcxLC00Nj
-I1NzI5ODksNjIxNjc2NDM3LC0xMDM5Njg0OTkyLC00MDI5MzYx
-MjcsMzM2ODUyODg5LDcxNDc1NTM3NCw5ODQwNjE4MCwtMjAyOT
-gzNjQyMl19
+eyJoaXN0b3J5IjpbLTQ0MjIxNDI2NiwtNjM4OTcxNzEsLTQ2Mj
+U3Mjk4OSw2MjE2NzY0MzcsLTEwMzk2ODQ5OTIsLTQwMjkzNjEy
+NywzMzY4NTI4ODksNzE0NzU1Mzc0LDk4NDA2MTgwLC0yMDI5OD
+M2NDIyXX0=
 -->
