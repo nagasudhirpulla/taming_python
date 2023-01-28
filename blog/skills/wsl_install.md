@@ -65,8 +65,9 @@ OracleLinux_7_9    Oracle Linux 7.9
 * Open  windows file explorer
 * In the left pane, a section named `linux` will be visible. Click on it to see the folders of the installed WSL Linux distributions in Windows file explorer
 
-## Run linux commands in windows using wsl prefix
-* Linux commands can be run in 
+## Run linux commands in windows with 'wsl' prefix
+* Linux commands can be run in windows command line by just adding the 'wsl' prefix
+* For example, we can run the command `wsl ls -l` to list the files and folders in windows command prompt
 
 ## Shutdown Linux distributions
 * Run the command `wsl --shutdown` to shutdown all the installed Linux distributions
@@ -101,8 +102,8 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODY4NzQwLDY4MzQ0OTAxMywtNjM4OT
-cxNzEsLTQ2MjU3Mjk4OSw2MjE2NzY0MzcsLTEwMzk2ODQ5OTIs
-LTQwMjkzNjEyNywzMzY4NTI4ODksNzE0NzU1Mzc0LDk4NDA2MT
-gwLC0yMDI5ODM2NDIyXX0=
+eyJoaXN0b3J5IjpbMTEwMzUxNjQ3NSw2ODM0NDkwMTMsLTYzOD
+k3MTcxLC00NjI1NzI5ODksNjIxNjc2NDM3LC0xMDM5Njg0OTky
+LC00MDI5MzYxMjcsMzM2ODUyODg5LDcxNDc1NTM3NCw5ODQwNj
+E4MCwtMjAyOTgzNjQyMl19
 -->
