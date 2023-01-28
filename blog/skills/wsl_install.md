@@ -15,7 +15,8 @@ There can be many use cases like
 * Running applications or commands in Windows that are only available for Linux based OS
 
 ## Install WSL from command line
-WSL 
+**Note:** WSL can be installed from command line only in newer versions of Windows 10 or Windows 11 ( Refer [here](https://learn.microsoft.com/en-us/windows/wsl/install) )
+* Open a command line in administ
 
 ## TODOs
 * install from cmd with --no-distribution
@@ -36,6 +37,6 @@ WSL
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDM4NDY4NywzMzY4NTI4ODksNzE0Nz
-U1Mzc0LDk4NDA2MTgwLC0yMDI5ODM2NDIyXX0=
+eyJoaXN0b3J5IjpbMTg0ODA4MjUsMzM2ODUyODg5LDcxNDc1NT
+M3NCw5ODQwNjE4MCwtMjAyOTgzNjQyMl19
 -->
