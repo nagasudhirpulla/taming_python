@@ -66,7 +66,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 ## Uninstall a Linux distribution
 * First view the list of installed Linux distributions using the command `wsl -l -v`
 * Then run the command `wsl --unregister <distroName>` where "distroName" is the name of the Linux distribution to be uninstalled
-* A Linux distribution can also be manually uninstalled from "Add or remove programs" section in  
+* A Linux distribution can also be manually uninstalled from "Add or remove programs" section in the System Settings
 
 ## TODOs
 * install from cmd with --no-distribution
@@ -87,7 +87,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDAwMzc3Miw2MjE2NzY0MzcsLTEwMz
-k2ODQ5OTIsLTQwMjkzNjEyNywzMzY4NTI4ODksNzE0NzU1Mzc0
-LDk4NDA2MTgwLC0yMDI5ODM2NDIyXX0=
+eyJoaXN0b3J5IjpbLTEwNjEyMzkwNzEsNjIxNjc2NDM3LC0xMD
+M5Njg0OTkyLC00MDI5MzYxMjcsMzM2ODUyODg5LDcxNDc1NTM3
+NCw5ODQwNjE4MCwtMjAyOTgzNjQyMl19
 -->
