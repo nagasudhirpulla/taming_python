@@ -17,7 +17,8 @@ There can be many use cases like
 ## Install WSL from command line
 **Note:** WSL can be installed from command line only in newer versions of Windows 10 or Windows 11 ( Refer [here](https://learn.microsoft.com/en-us/windows/wsl/install) )
 * Open a command line in administrator mode
-* Run the command `wsl --install` and restart the computer. This will install WSL along with Ubuntu distribution
+* Run the command `wsl --install` and restart the computer. This will install WSL along with Ubuntu Linux distribution
+* To install WSL without the default Ubuntu Linux distribution, run the command `wsl --install --no-distribution`
 
 ## TODOs
 * install from cmd with --no-distribution
@@ -38,6 +39,6 @@ There can be many use cases like
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjMyNzU0OTEsMzM2ODUyODg5LDcxND
-c1NTM3NCw5ODQwNjE4MCwtMjAyOTgzNjQyMl19
+eyJoaXN0b3J5IjpbMTI4NTAzODY2LDMzNjg1Mjg4OSw3MTQ3NT
+UzNzQsOTg0MDYxODAsLTIwMjk4MzY0MjJdfQ==
 -->
