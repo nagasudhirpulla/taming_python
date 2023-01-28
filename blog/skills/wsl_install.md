@@ -20,6 +20,9 @@ There can be many use cases like
 * Run the command `wsl --install` and restart the computer. This will install WSL along with Ubuntu Linux distribution
 * To install WSL without the default Ubuntu Linux distribution, run the command `wsl --install --no-distribution` instead
 
+## Install WSL in older Windows 10 versions
+* In sone 
+
 ## Install a Linux distribution from command line
 * Get the list of available Linux distributions using the command `wsl --list --online` or `wsl -l -o` .  A list of available distributions will be displayed. 
 For example 
@@ -46,8 +49,8 @@ OracleLinux_7_9    Oracle Linux 7.9
 * Search for a linux distribution like "Ubuntu", "Kali Linux", "Debian" etc.
 * Install the Linux distribution from Microsoft store
 
-## List out all the installed Linux distributions
-* In a command line, run the command `wsl --list --verbose` or `wsl -l -v` to see the list of installed wsl distributions and  
+## List out the installed Linux distributions
+* In a command line, run the command `wsl --list --verbose` or `wsl -l -v` to see the list of installed wsl distributions and their status 
 
 ## Update WSL kernel
 * WSL kernel can be updated from command line using the command `wsl --update` . However by WSL will update automatically with windows update 
@@ -81,7 +84,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjA3ODYzNSwtNDAyOTM2MTI3LDMzNj
-g1Mjg4OSw3MTQ3NTUzNzQsOTg0MDYxODAsLTIwMjk4MzY0MjJd
-fQ==
+eyJoaXN0b3J5IjpbNTgxMDgyMzgxLC00MDI5MzYxMjcsMzM2OD
+UyODg5LDcxNDc1NTM3NCw5ODQwNjE4MCwtMjAyOTgzNjQyMl19
+
 -->
