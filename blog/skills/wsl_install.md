@@ -7,7 +7,13 @@
 In this post we will install **WSL (Windows Subsystem for Linux)** in Windows to run Linux OS or Linux commands directly from Windows
 
 ## What is WSL
-WSL (Windows Subsystem for Linux) is a windows feature that can run Linux environments like Ubuntu inside windows OS without installing separate virtual machines or dual bo
+WSL (Windows Subsystem for Linux) is a windows feature that can run Linux environments like Ubuntu inside windows OS without installing separate virtual machines or dual booting
+
+## Why use WSL
+There can be many use cases like
+* Testing code in Linux environments
+* Running programs or commands in windows that are only available for Linux based OS
+* 
 
 ## Install from command line
 * To install
@@ -31,6 +37,6 @@ WSL (Windows Subsystem for Linux) is a windows feature that can run Linux enviro
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODU0ODUxMTEsMzM2ODUyODg5LDcxND
-c1NTM3NCw5ODQwNjE4MCwtMjAyOTgzNjQyMl19
+eyJoaXN0b3J5IjpbMjcyODA3MzI1LDMzNjg1Mjg4OSw3MTQ3NT
+UzNzQsOTg0MDYxODAsLTIwMjk4MzY0MjJdfQ==
 -->
