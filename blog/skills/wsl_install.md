@@ -46,8 +46,11 @@ OracleLinux_7_9    Oracle Linux 7.9
 * Search for a linux distribution like "Ubuntu", "Kali Linux", "Debian" etc.
 * Install the Linux distribution from Microsoft store
 
-## Update WSL
+## Update WSL kernel
 * WSL kernel can be updated from command line using the command `wsl --update` . However by WSL will update automatically with windows udpate  
+
+## Update WSL Linux distribution
+* If a Debian based Linux distribution like Ubuntu is installed, then it can be updated using the command  
 
 ## TODOs
 * install from cmd with --no-distribution
@@ -68,7 +71,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTI0NzM3OCwtNDAyOTM2MTI3LDMzNj
+eyJoaXN0b3J5IjpbMTk0MjAxNzU1NCwtNDAyOTM2MTI3LDMzNj
 g1Mjg4OSw3MTQ3NTUzNzQsOTg0MDYxODAsLTIwMjk4MzY0MjJd
 fQ==
 -->
