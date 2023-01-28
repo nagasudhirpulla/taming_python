@@ -21,6 +21,12 @@ There can be many use cases like
 * To install WSL without the default Ubuntu Linux distribution, run the command `wsl --install --no-distribution` instead
 
 ## Install a Linux distribution from Microsoft store
+* Open Microsoft store app in Windows
+* Search for a linux distribution like "Ubuntu", "Kali Linux", "Debian" etc.
+* Install the Linux distribution from Microsoft store
+
+## Install a Linux distribution from command line
+* Get the list of available Linux distributions using the command `wsl --list --online` or `wsl -l -o` .  A list of a
 * 
 
 ## TODOs
@@ -42,7 +48,7 @@ There can be many use cases like
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTA0MTU4NywtNDAyOTM2MTI3LDMzNj
+eyJoaXN0b3J5IjpbLTU1NjgzNjY1MSwtNDAyOTM2MTI3LDMzNj
 g1Mjg4OSw3MTQ3NTUzNzQsOTg0MDYxODAsLTIwMjk4MzY0MjJd
 fQ==
 -->
