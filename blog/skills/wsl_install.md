@@ -20,11 +20,6 @@ There can be many use cases like
 * Run the command `wsl --install` and restart the computer. This will install WSL along with Ubuntu Linux distribution
 * To install WSL without the default Ubuntu Linux distribution, run the command `wsl --install --no-distribution` instead
 
-## Install a Linux distribution from Microsoft store
-* Open Microsoft store app in Windows
-* Search for a linux distribution like "Ubuntu", "Kali Linux", "Debian" etc.
-* Install the Linux distribution from Microsoft store
-
 ## Install a Linux distribution from command line
 * Get the list of available Linux distributions using the command `wsl --list --online` or `wsl -l -o` .  A list of available distributions will be displayed. 
 For example 
@@ -44,7 +39,13 @@ Ubuntu-22.04       Ubuntu 22.04 LTS
 OracleLinux_8_5    Oracle Linux 8.5
 OracleLinux_7_9    Oracle Linux 7.9
 ```
-* Choose a distribution by the `NAME` column and install using the command `wsl --insall -d <NAME>`. For example, based on the above output, you 
+* Choose a distribution by the `NAME` column and install using the command `wsl --insall -d <NAME>`. For example, based on the above output, you can run `wsl --insall -d kali-linux` to install Kali Linux distribution
+
+## Install a Linux distribution from Microsoft store
+* Open Microsoft store app in Windows
+* Search for a linux distribution like "Ubuntu", "Kali Linux", "Debian" etc.
+* Install the Linux distribution from Microsoft store
+
 
 ## TODOs
 * install from cmd with --no-distribution
@@ -65,7 +66,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjIyMDI3MywtNDAyOTM2MTI3LDMzNj
+eyJoaXN0b3J5IjpbMTExNTI5NTczOSwtNDAyOTM2MTI3LDMzNj
 g1Mjg4OSw3MTQ3NTUzNzQsOTg0MDYxODAsLTIwMjk4MzY0MjJd
 fQ==
 -->
