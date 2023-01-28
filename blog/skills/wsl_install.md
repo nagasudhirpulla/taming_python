@@ -63,7 +63,7 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 ## Access WSL files from windows file explorer
 * Open  windows file explorer
-* In the left pane, a section named `linux` will be visible. Click on it to see the folders of the installed WSL distributions in Windows file explorer
+* In the left pane, a section named `linux` will be visible. Click on it to see the folders of the installed WSL Linux distributions in Windows file explorer
 
 ## Shutdown Linux distributions
 * Run the command `wsl --shutdown` to shutdown all the installed Linux distributions
@@ -98,8 +98,8 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODMzNjQ4OSwtNjM4OTcxNzEsLTQ2Mj
-U3Mjk4OSw2MjE2NzY0MzcsLTEwMzk2ODQ5OTIsLTQwMjkzNjEy
-NywzMzY4NTI4ODksNzE0NzU1Mzc0LDk4NDA2MTgwLC0yMDI5OD
-M2NDIyXX0=
+eyJoaXN0b3J5IjpbNjgzNDQ5MDEzLC02Mzg5NzE3MSwtNDYyNT
+cyOTg5LDYyMTY3NjQzNywtMTAzOTY4NDk5MiwtNDAyOTM2MTI3
+LDMzNjg1Mjg4OSw3MTQ3NTUzNzQsOTg0MDYxODAsLTIwMjk4Mz
+Y0MjJdfQ==
 -->
