@@ -9,7 +9,9 @@ In this post we will install **WSL (Windows Subsystem for Linux)** in Windows to
 ## TODOs
 * install from cmd with --no-distribution
 * install manually in older windows versions
-* 
+* wsl basic commands
+* run windows commands using wsl prefix
+* run open windows drives in linux using /mnt/c path 
 
  
 ### References
@@ -21,6 +23,6 @@ In this post we will install **WSL (Windows Subsystem for Linux)** in Windows to
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTYwNzY5Nyw5ODQwNjE4MCwtMjAyOT
-gzNjQyMl19
+eyJoaXN0b3J5IjpbNzE0NzU1Mzc0LDk4NDA2MTgwLC0yMDI5OD
+M2NDIyXX0=
 -->
