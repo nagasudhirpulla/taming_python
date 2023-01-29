@@ -86,6 +86,11 @@ OracleLinux_7_9    Oracle Linux 7.9
 * First view the list of installed Linux distributions using the command `wsl -l -v`
 * Then run the command `wsl --unregister <distroName>` where "distroName" is the name of the Linux distribution to be uninstalled
 * Alternatively, a Linux distribution can also be manually uninstalled from "Add or remove programs" section in the System Settings
+
+### Video
+The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xxQer-OyAD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
  
 ### References
 * Basic wsl commands reference - https://learn.microsoft.com/en-us/windows/wsl/basic-commands#install
@@ -97,9 +102,9 @@ OracleLinux_7_9    Oracle Linux 7.9
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjEyNDc3LC02NzI2NTgyNDIsLTQxMz
-I5Mzg1LDY4MzQ0OTAxMywtNjM4OTcxNzEsLTQ2MjU3Mjk4OSw2
-MjE2NzY0MzcsLTEwMzk2ODQ5OTIsLTQwMjkzNjEyNywzMzY4NT
-I4ODksNzE0NzU1Mzc0LDk4NDA2MTgwLC0yMDI5ODM2NDIyXX0=
-
+eyJoaXN0b3J5IjpbLTU5OTE3MzA4LC03MjYxMjQ3NywtNjcyNj
+U4MjQyLC00MTMyOTM4NSw2ODM0NDkwMTMsLTYzODk3MTcxLC00
+NjI1NzI5ODksNjIxNjc2NDM3LC0xMDM5Njg0OTkyLC00MDI5Mz
+YxMjcsMzM2ODUyODg5LDcxNDc1NTM3NCw5ODQwNjE4MCwtMjAy
+OTgzNjQyMl19
 -->
