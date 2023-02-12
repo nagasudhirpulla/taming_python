@@ -1,4 +1,4 @@
-## Skill - Install and manage python packages
+## Skill - Install python packages offline without internet
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -57,5 +57,6 @@ The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2MDc3NjQ4LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE1Njk3MDc2NzAsLTIwODg3NDY2MTJdfQ
+==
 -->
