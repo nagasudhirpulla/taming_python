@@ -17,8 +17,11 @@ Offline installation of python packages can be useful in the following scenarios
 * Installing python packages from files in multiple computers to save internet bandwidth
 
 ### Step 1 - Download the python package along with dependencies into a folder  
-* In a computer that has internet access, create an empty folder where the required python packages will be downloaded
-* 
+* In a computer that has internet access, create an empty folder where the required python packages will be downloaded. Let the path of the folder be 
+* Open a command prompt
+```bash
+pip download -d "C:\Users\Abcd\Documents\Python Projects\taming_python\offline_packages\packages_folder" folium
+```
 
 ### Install specific version of a python package
 * Open command prompt
@@ -61,6 +64,6 @@ The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODI0NTg0OSwtMTU5MDk4NTk4NiwtOD
-cwOTI0MDgwLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEzNDI5NjA5NzgsLTE1OTA5ODU5ODYsLT
+g3MDkyNDA4MCwtMjA4ODc0NjYxMl19
 -->
