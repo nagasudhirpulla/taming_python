@@ -18,7 +18,7 @@ Offline installation of python packages can be useful in the following scenarios
 
 ### Step 1 - Download the python package along with dependencies into a folder  
 * In a computer that has internet access, create an empty folder where the required python packages will be downloaded. Let the path of the folder be `C:\Users\Abcd\offline_packages\packages_folder`
-* Let 
+* Let us download a python package named flask into the created folder
 ```bash
 pip download -d "C:\Users\Abcd\offline_packages\packages_folder" flask
 ```
@@ -64,6 +64,6 @@ The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MDE1NzU0OSwtMTU5MDk4NTk4NiwtOD
-cwOTI0MDgwLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbOTIwNDk2NDM3LC0xNTkwOTg1OTg2LC04Nz
+A5MjQwODAsLTIwODg3NDY2MTJdfQ==
 -->
