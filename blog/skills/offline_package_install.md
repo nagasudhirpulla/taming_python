@@ -9,7 +9,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post we will learn how to use the ```pip``` command to manage python packages
+In this post we will learn how to use install python packages offline without internet 
 
 ### Install a python package
 * Open command prompt
@@ -58,5 +58,6 @@ The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDkyNDA4MCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTgzMzA1NTk2MiwtODcwOTI0MDgwLC0yMD
+g4NzQ2NjEyXX0=
 -->
