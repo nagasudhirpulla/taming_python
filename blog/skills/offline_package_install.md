@@ -33,36 +33,9 @@ pip install --no-index -f "C:\Users\Xyz\packages_folder" flask
 ```
 * Now the python package is installed from package files inside the folder. You can verify the installed packages using the command `pip list`
 * In the above command, `--no-index` specifies not to ignore the pypi package index for fetching the packages for installation
-* In the above command, `-f` is used to specify the folder path to fetch and install the python package 
+* In the above command, `-f` is used to specify the folder path to fetch and install the python package
 
-### Install specific version of a python package
-* Open command prompt
-* Use command `pip install <package_name>==<version_number>`
-* For example, to install a package named numpy with version 1.11.1, you need to run 
-`pip install numpy==1.11.1`
-
-### list all the packages in a python environment
-* Open command prompt
-* Use command `pip list`
-* All the installed python packages along with their version numbers will be displayed
-
-### install packages from a file using '-r' flag
-* If we have a text file named `requirements.txt` with packages information as shown below
-```
-MySQL-python==1.2.3
-WebOb==1.2.3
-numpy==1.11.1
-```
-* We can install all the packages from the file like the one file shown above using the following command
-`pip install -r requirements.txt`
-* To install packages from a file located at a specific path, use a command something like the one below
-`pip install -r C:\Users\Nagasudhir\Documents\requirements.txt`
-
-### dump all the packages information into a text file
-* In order to dump the installed packages information of the current python environment use the following command
-`pip freeze > requirements.txt`
-
-### Further Reading
+### References
 * https://www.shellhacks.com/pip-install-specific-version-of-package/
 
 ### Video
@@ -76,7 +49,7 @@ The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzA3MTQyMSwtOTY3OTIzNTM5LDY1Mj
-A4MDc2NCwtODE3NjYxODM3LC0xNTkwOTg1OTg2LC04NzA5MjQw
-ODAsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNjIyNzUxODc2LC05Njc5MjM1MzksNjUyMD
+gwNzY0LC04MTc2NjE4MzcsLTE1OTA5ODU5ODYsLTg3MDkyNDA4
+MCwtMjA4ODc0NjYxMl19
 -->
