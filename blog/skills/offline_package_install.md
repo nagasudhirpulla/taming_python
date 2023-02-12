@@ -9,7 +9,7 @@
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
 
-In this post we will learn how to use install python packages offline without internet using wheel files (.whl files)
+In this post we will learn how to use install python packages offline from files without internet
 
 ### Install a python package
 * Open command prompt
@@ -58,6 +58,6 @@ The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODA3MTg1OSwtMTU5MDk4NTk4NiwtOD
-cwOTI0MDgwLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEzODk1NDg1MjEsLTE1OTA5ODU5ODYsLT
+g3MDkyNDA4MCwtMjA4ODc0NjYxMl19
 -->
