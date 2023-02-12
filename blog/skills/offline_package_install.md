@@ -33,7 +33,7 @@ pip install --no-index -f "C:\Users\Xyz\packages_folder" flask
 ```
 * Now the python package is installed from package files inside the folder. You can verify the installed packages using the command `pip list`
 * In the above command, `--no-index` specifies to ignore the pypi package index for fetching the packages for installation
-* In the above command, `-f` flag is used to specify the folder path to fetch and install the python package
+* In the above command, the `-f` flag is used to specify the folder path to fetch and install the python package
 
 ### References
 * https://packaging.python.org/en/latest/tutorials/installing-packages/#installing-from-local-archives
@@ -45,7 +45,7 @@ pip install --no-index -f "C:\Users\Xyz\packages_folder" flask
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTMyNTA4ODEsLTk2NzkyMzUzOSw2NT
-IwODA3NjQsLTgxNzY2MTgzNywtMTU5MDk4NTk4NiwtODcwOTI0
-MDgwLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMzI1MTMxMDI0LC05Njc5MjM1MzksNjUyMD
+gwNzY0LC04MTc2NjE4MzcsLTE1OTA5ODU5ODYsLTg3MDkyNDA4
+MCwtMjA4ODc0NjYxMl19
 -->
