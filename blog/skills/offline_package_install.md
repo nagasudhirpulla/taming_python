@@ -42,6 +42,7 @@ pip install --no-index -f "C:\Users\Xyz\packages_folder" flask
 The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3eItCqPqGF8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -49,7 +50,7 @@ The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyNzUxODc2LC05Njc5MjM1MzksNjUyMD
-gwNzY0LC04MTc2NjE4MzcsLTE1OTA5ODU5ODYsLTg3MDkyNDA4
-MCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTI1MjczODg2NiwtOTY3OTIzNTM5LDY1Mj
+A4MDc2NCwtODE3NjYxODM3LC0xNTkwOTg1OTg2LC04NzA5MjQw
+ODAsLTIwODg3NDY2MTJdfQ==
 -->
