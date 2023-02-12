@@ -35,6 +35,11 @@ pip install --no-index -f "C:\Users\Xyz\packages_folder" flask
 * In the above command, `--no-index` specifies to ignore the pypi package index for fetching the packages for installation
 * In the above command, the `-f` flag is used to specify the folder path to fetch and install the python package
 
+### Video
+You can see the video on this post [here](https://youtu.be/5tYM5awtxek) 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5tYM5awtxek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### References
 * https://packaging.python.org/en/latest/tutorials/installing-packages/#installing-from-local-archives
 
@@ -45,7 +50,7 @@ pip install --no-index -f "C:\Users\Xyz\packages_folder" flask
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1MTMxMDI0LC05Njc5MjM1MzksNjUyMD
-gwNzY0LC04MTc2NjE4MzcsLTE1OTA5ODU5ODYsLTg3MDkyNDA4
-MCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTIyMzg0Njc2MiwzMjUxMzEwMjQsLTk2Nz
+kyMzUzOSw2NTIwODA3NjQsLTgxNzY2MTgzNywtMTU5MDk4NTk4
+NiwtODcwOTI0MDgwLC0yMDg4NzQ2NjEyXX0=
 -->
