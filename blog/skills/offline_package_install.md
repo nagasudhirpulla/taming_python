@@ -23,6 +23,7 @@ Offline installation of python packages can be useful in the following scenarios
 ```bash
 pip download -d "C:\Users\Abcd\offline_packages\packages_folder" flask
 ```
+* In the above command, th e
 
 ### Install specific version of a python package
 * Open command prompt
@@ -65,6 +66,7 @@ The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyMDgwNzY0LC04MTc2NjE4MzcsLTE1OT
-A5ODU5ODYsLTg3MDkyNDA4MCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE0MjcwMzE4MzEsNjUyMDgwNzY0LC04MT
+c2NjE4MzcsLTE1OTA5ODU5ODYsLTg3MDkyNDA4MCwtMjA4ODc0
+NjYxMl19
 -->
