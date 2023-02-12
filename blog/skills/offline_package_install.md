@@ -13,7 +13,7 @@ In this post we will learn how to use install python packages offline from files
 
 ### Use cases
 Offline installation of python packages can be useful in the following scenarios
-*  
+*  Installing python packages in a computer  
 
 ### Step 1 - Download the python package along with dependencies into a folder  
 * Open command prompt
@@ -62,6 +62,6 @@ The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODg3MTM4NCwtMTU5MDk4NTk4NiwtOD
+eyJoaXN0b3J5IjpbLTkyOTQxMDcxNSwtMTU5MDk4NTk4NiwtOD
 cwOTI0MDgwLC0yMDg4NzQ2NjEyXX0=
 -->
