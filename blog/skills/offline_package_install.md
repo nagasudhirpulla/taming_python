@@ -21,7 +21,7 @@ Offline installation of python packages can be useful in the following scenarios
 * Let us download a python package named `flask` into the folder
 * In a command prompt type the following command. The python package along with it's dependencies will be downloaded into the folder
 ```bash
-pip download -d "C:\Users\Abcd\offline_packages\packages_folder" flask
+python -m pip download -d "C:\Users\Abcd\offline_packages\packages_folder" flask
 ```
 * In the above command, the directory location is specified using the `-d` flag
 
@@ -29,7 +29,7 @@ pip download -d "C:\Users\Abcd\offline_packages\packages_folder" flask
 * Copy the folder containing the package files downloaded in step 1 into the computer without internet. Let the folder path be `C:\Users\Xyz\packages_folder`
 *  Install the package from the folder using the following command
 ```bash
-pip install --no-index -f "C:\Users\Xyz\packages_folder" flask
+python -m pip install --no-index -f "C:\Users\Xyz\packages_folder" flask
 ```
 * Now the python package is installed from package files inside the folder. You can verify the installed packages using the command `pip list`
 * In the above command, `--no-index` specifies to ignore the pypi package index for fetching the packages for installation
@@ -45,7 +45,7 @@ pip install --no-index -f "C:\Users\Xyz\packages_folder" flask
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1MTMxMDI0LC05Njc5MjM1MzksNjUyMD
+eyJoaXN0b3J5IjpbLTM5MDg3MDgwLC05Njc5MjM1MzksNjUyMD
 gwNzY0LC04MTc2NjE4MzcsLTE1OTA5ODU5ODYsLTg3MDkyNDA4
 MCwtMjA4ODc0NjYxMl19
 -->
