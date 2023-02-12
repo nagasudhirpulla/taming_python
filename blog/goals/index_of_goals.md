@@ -41,6 +41,7 @@ Here are the goals and skills in this tutorial series
 * [Install and manage python packages](https://nagasudhir.blogspot.com/2020/05/install-and-manage-packages-in-python.html)
 * [Virtual environments using 'venv'](https://nagasudhir.blogspot.com/2020/05/virtual-environments-using-venv.html)
 * [Using virtual environments in python projects with venv](https://nagasudhir.blogspot.com/2021/06/using-virtual-environments-in-python.html)
+* 
 * [Install a python package from source code](https://nagasudhir.blogspot.com/2020/06/install-python-package-from-source-code.html)
 * [Using PyInstaller for distributing python program](https://nagasudhir.blogspot.com/2020/06/using-pyinstaller-for-distributing.html)
 
@@ -163,11 +164,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTMzMzc4MTk2MSwxNzUxNz
-EzOTMxLDY1MzAyOTg1OCw5Njk2MDg4NjQsLTE1MjYyNjA0NjQs
-LTk1MTMwMjEwMSwyMTM3NTUwODkzLDgwOTU0MjcsNDgwNjA4OD
-M0LDkzMDk3MTMzOCwtMzk5OTU0ODc3LDExNTIzMjMwNzUsMTcz
-OTgxOTAzMiwxMjgwNTk4OTA4LDU2NjQ4MTAzNiwtMTkwNjUzOD
-E2NCwtMjEwOTUzNjI5MiwtMTI2MTE0MzI3LC0xNzM4NTExNDI4
-LDE0NjQ5MDY3MDZdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEwNDIyODk5MjEsLTMzMz
+c4MTk2MSwxNzUxNzEzOTMxLDY1MzAyOTg1OCw5Njk2MDg4NjQs
+LTE1MjYyNjA0NjQsLTk1MTMwMjEwMSwyMTM3NTUwODkzLDgwOT
+U0MjcsNDgwNjA4ODM0LDkzMDk3MTMzOCwtMzk5OTU0ODc3LDEx
+NTIzMjMwNzUsMTczOTgxOTAzMiwxMjgwNTk4OTA4LDU2NjQ4MT
+AzNiwtMTkwNjUzODE2NCwtMjEwOTUzNjI5MiwtMTI2MTE0MzI3
+LC0xNzM4NTExNDI4XX0=
 -->
