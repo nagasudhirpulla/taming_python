@@ -31,7 +31,7 @@ pip download -d "C:\Users\Abcd\offline_packages\packages_folder" flask
 ```bash
 pip install --no-index -f "C:\Users\Xyz\packages_folder" flask
 ```
-* Now the python package is installed from paackge files inside the folder. 
+* Now the python package is installed from package files inside the folder. 
 
 ### Install specific version of a python package
 * Open command prompt
@@ -74,7 +74,7 @@ The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3OTExODMzOCwtOTY3OTIzNTM5LDY1Mj
-A4MDc2NCwtODE3NjYxODM3LC0xNTkwOTg1OTg2LC04NzA5MjQw
-ODAsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE5OTA5MTQ2NzAsLTk2NzkyMzUzOSw2NT
+IwODA3NjQsLTgxNzY2MTgzNywtMTU5MDk4NTk4NiwtODcwOTI0
+MDgwLC0yMDg4NzQ2NjEyXX0=
 -->
