@@ -4,6 +4,7 @@
 
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
+* [Install and manage python packages](https://nagasudhir.blogspot.com/2020/05/install-and-manage-packages-in-python.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 <hr/>
@@ -57,6 +58,5 @@ The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njk3MDc2NzAsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTg3MDkyNDA4MCwtMjA4ODc0NjYxMl19
 -->
