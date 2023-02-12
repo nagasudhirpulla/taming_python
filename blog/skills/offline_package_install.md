@@ -36,12 +36,7 @@ pip install --no-index -f "C:\Users\Xyz\packages_folder" flask
 * In the above command, `-f` is used to specify the folder path to fetch and install the python package
 
 ### References
-* https://www.shellhacks.com/pip-install-specific-version-of-package/
-
-### Video
-The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3eItCqPqGF8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+* https://packaging.python.org/en/latest/tutorials/installing-packages/#installing-from-local-archives
 
 <hr/>
 
@@ -50,7 +45,7 @@ The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjczODg2NiwtOTY3OTIzNTM5LDY1Mj
-A4MDc2NCwtODE3NjYxODM3LC0xNTkwOTg1OTg2LC04NzA5MjQw
-ODAsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE0NzAyNzI3NTIsLTk2NzkyMzUzOSw2NT
+IwODA3NjQsLTgxNzY2MTgzNywtMTU5MDk4NTk4NiwtODcwOTI0
+MDgwLC0yMDg4NzQ2NjEyXX0=
 -->
