@@ -11,7 +11,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 In this post we will learn how to use install python packages offline from files without internet
 
-### Install a python package
+### Step 1 - Download the python package along with dependencies   
 * Open command prompt
 * Use command `pip install <package_name>`
 * For example, to install a package named pandas, you need to run 
@@ -58,6 +58,6 @@ The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODk1NDg1MjEsLTE1OTA5ODU5ODYsLT
-g3MDkyNDA4MCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTQyODIwNDQ5NCwtMTU5MDk4NTk4NiwtOD
+cwOTI0MDgwLC0yMDg4NzQ2NjEyXX0=
 -->
