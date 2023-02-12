@@ -26,7 +26,8 @@ pip download -d "C:\Users\Abcd\offline_packages\packages_folder" flask
 * In the above command, the directory location is specified using the `-d` flag
 
 ### Step 2 - Install the package in the computer without internet
-* Copy the package files 
+* Copy the folder containing the package files downloaded in step 1 into the computer without internet
+*  
 
 ### Install specific version of a python package
 * Open command prompt
@@ -69,7 +70,7 @@ The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTc2OTUzMiw2NTIwODA3NjQsLTgxNz
+eyJoaXN0b3J5IjpbLTk2NzkyMzUzOSw2NTIwODA3NjQsLTgxNz
 Y2MTgzNywtMTU5MDk4NTk4NiwtODcwOTI0MDgwLC0yMDg4NzQ2
 NjEyXX0=
 -->
