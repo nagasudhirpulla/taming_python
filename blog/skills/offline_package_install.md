@@ -17,10 +17,8 @@ Offline installation of python packages can be useful in the following scenarios
 * Installing python packages from files in multiple computers to save internet bandwidth
 
 ### Step 1 - Download the python package along with dependencies into a folder  
-* Open command prompt
-* Use command `pip install <package_name>`
-* For example, to install a package named pandas, you need to run 
-`pip install pandas`
+* In a computer that has internet access, create an empty folder where the required python packages will be downloaded
+* 
 
 ### Install specific version of a python package
 * Open command prompt
@@ -63,6 +61,6 @@ The video for this post can be seen [here](https://youtu.be/3eItCqPqGF8)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTI0NTc3LC0xNTkwOTg1OTg2LC04Nz
-A5MjQwODAsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTMzODI0NTg0OSwtMTU5MDk4NTk4NiwtOD
+cwOTI0MDgwLC0yMDg4NzQ2NjEyXX0=
 -->
