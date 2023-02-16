@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
 ```
 
--   unitest.main() in the above script will run the tests in the TestCase class when the script is run in command line
+-   `unitest.main()` in the above script will run the tests in the TestCase class when the script is run in command line
 -   As shown in the above example, each test method can call one or more assert methods. The test method will fail if any one of the assert method fails.
 -   The following table shows the various assert methods that can be called inside a test method of a TestClass
 
@@ -173,5 +173,5 @@ python -m unittest discover -s "./tests" -p "test_*.py"
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE4MzI5OTRdfQ==
+eyJoaXN0b3J5IjpbLTE5ODc1Mzk0MTRdfQ==
 -->
