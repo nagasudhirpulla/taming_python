@@ -87,27 +87,20 @@ if __name__ == '__main__':
 | assertNotIsInstance(a, b) | not isinstance(a, b) |
 
 ### Run Test Cases in all python files inside a folder with Test Discovery
-
 -   The following command can run all the tests defined in multiple files at once
-
 ```bash
 python -m unittest discover -s "./tests" -p "test_*.py"
-
 ```
 
 -   The above command discovers all the tests from python files starting with “test_” inside a folder named “tests”. The folder name is specified using `-s` flag and filename pattern is specified using `-p` flag
 
 ### VS Code support for running and visualizing tests
-
 -   Visual studio code supports unittest framework and provides user-friendly interface to run tests directly from the editor
-    
 -   The following steps can be followed to enable unittest support in VS code
-    
     -   Open command palette by pressing Ctrl+Shift+P
     -   Search for “python: configure tests”
     -   Select the testing framework as unittest, select the folder that contains all the tests, select the test files filename pattern. Now the tests support should be enabled in VS Code.
     -   After enabling the tests support in VS Code, the testing preferences will be saved in the “settings.json” file inside the “.vscode” folder. An example “settings.json” file can be as shown below
-    
     ```json
     {
         "python.testing.unittestArgs": [
@@ -119,10 +112,8 @@ python -m unittest discover -s "./tests" -p "test_*.py"
         ],
         "python.testing.pytestEnabled": false,
         "python.testing.unittestEnabled": true
-    }
-    
+    }    
     ```
-    
 -   After setting up tests, the TestCases classes and test methods can be visualized and run in VS Code under the “Testing” tab of the Primary Side bar as shown in the image below
     
     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5902b65c-a368-47cb-8168-df43a832ccf8/Untitled.png)
@@ -136,5 +127,5 @@ python -m unittest discover -s "./tests" -p "test_*.py"
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI5OTM3NzhdfQ==
+eyJoaXN0b3J5IjpbLTIwODUwMTg5MTJdfQ==
 -->
