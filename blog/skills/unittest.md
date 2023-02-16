@@ -71,57 +71,20 @@ if __name__ == '__main__':
 -   As shown in the above example, each test method can call one or more assert methods. The test method will fail if any one of the assert method fails.
 -   The following table shows the various assert methods that can be called inside a test method of a TestClass
 
-Method
-
-Checks that
-
-assertTrue(x)
-
-bool(x) is True
-
-assertFalse(x)
-
-bool(x) is False
-
-assertEqual(a, b)
-
-a == b
-
-assertNotEqual(a, b)
-
-a != b
-
-assertIsNone(x)
-
-x is None
-
-assertIsNotNone(x)
-
-x is not None
-
-assertIs(a, b)
-
-a is b
-
-assertIsNot(a, b)
-
-a is not b
-
-assertIn(a, b)
-
-a in b
-
-assertNotIn(a, b)
-
-a not in b
-
-assertIsInstance(a, b)
-
-isinstance(a, b)
-
-assertNotIsInstance(a, b)
-
-not isinstance(a, b)
+| Method | Checks that |
+| --- | --- |
+| assertTrue(x) | bool(x) is True |
+| assertFalse(x) | bool(x) is False |
+| assertEqual(a, b) | a == b |
+| assertNotEqual(a, b) | a != b |
+| assertIsNone(x) | x is None |
+| assertIsNotNone(x) | x is not None |
+| assertIs(a, b) | a is b |
+| assertIsNot(a, b) | a is not b |
+| assertIn(a, b) | a in b |
+| assertNotIn(a, b) | a not in b |
+| assertIsInstance(a, b) | isinstance(a, b) |
+| assertNotIsInstance(a, b) | not isinstance(a, b) |
 
 ### Run Test Cases in all python files inside a folder with Test Discovery
 
@@ -173,5 +136,5 @@ python -m unittest discover -s "./tests" -p "test_*.py"
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODc1Mzk0MTRdfQ==
+eyJoaXN0b3J5IjpbLTEzNDI5OTM3NzhdfQ==
 -->
