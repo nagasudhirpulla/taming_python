@@ -115,17 +115,15 @@ python -m unittest discover -s "./tests" -p "test_*.py"
     }    
     ```
 -   After setting up tests, the TestCases classes and test methods can be visualized and run in VS Code under the “Testing” tab of the Primary Side bar as shown in the image below
-    
-    ![vscode_test_menu_demo.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/vscode_test_menu_demo.png)
-    
-    ### References
+    ![vscode_test_menu_demo.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/vscode_test_menu_demo.png) 
+### References
 -   TestCase class methods setup and teardown - [](https://docs.python.org/3/library/unittest.html#unittest.TestCase)[https://docs.python.org/3/library/unittest.html#unittest.TestCase](https://docs.python.org/3/library/unittest.html#unittest.TestCase)
-    
 -   Tests Discovery command - [](https://docs.python.org/3/library/unittest.html#test-discovery)[https://docs.python.org/3/library/unittest.html#test-discovery](https://docs.python.org/3/library/unittest.html#test-discovery)
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjA5OTA0NCwtMjA4NTAxODkxMl19
+eyJoaXN0b3J5IjpbLTgxNDcwNjI0OCwtMjA4NTAxODkxMl19
 -->
