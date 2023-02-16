@@ -1,5 +1,4 @@
-
-## Skill - Run external commands or other languages using python subprocess module
+## Skill - Automated tests in python with unittest module
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -11,158 +10,173 @@ Please go through the above skills if necessary for reference or revision
 * In this post we will understand how run external commands or call other languages in python using the `subprocess` module
 * `subprocess` module generally comes included with python installation. So no need to install the module separately.
 
-## Use Cases 
-* Run OS commands or call external programs from python (like "ping google.com", "ipconfig" etc) over command line inputs and outputs
-* Write functions in other languages like Java, Dotnet etc., create an executable file and communicate with command line inputs and outputs. This use case occurs when there is some legacy module, or if there is an API for a system in non-python language, or you don't want to re-write existing non-python modules in python
+## Automated tests in python with unittest module
 
-## How it works
-* `subprocess` module can run child processes, communicate with them over their input / output / error pipes (command line outputs and inputs)
-* Return code can also be obtained after running the child process to get the status of execution
+Python unittest module is useful to create and run automated tests in python
 
-### Example 1 - Run commands
-* The following example  
-	* runs the command "ping google.com"
-	* captures the command line output and prints it
-	* applies custom logic on the execution results via command line output
+### Why do Software testing?
+
+-   Software testing can help to verify whether the code is working in an expected way without errors by running various testing scenarios.
+-   This can help to identify bugs by the developer before the end user uses it.
+
+### Why use an Automated Testing Framework?
+
+-   Using an Automated Testing Framework like unittest module, we can easily run many tests again and again
+-   This can help to run all the tests and ensure the application is working correctly every time the code is modified
+
+### TestCase Class with test methods
+
+-   `TestCase` class can have multiple tests as methods. Each test method should start with a prefix “test”
+-   “setUp” and “tearDown” methods are special methods inside a TestCase class. These methods are optional.
+-   “setUp” method will be called before each test method is executed. So any initialization tasks common to all the test methods can be written in this method
+-   “tearDown” method will be called after each test method is executed. So any disposal tasks common to all the test methods can be written in this method
+
+The following is an example of a simple TestCase class in python using unittest module
 
 ```python
-# importing from 'subprocess' python module
-from subprocess import Popen, PIPE
+# test_logic.py
+import datetime as dt
+import unittest
 
-# inputs can be provided in the form of additional arguments
-# for example, execute a command 'ping google.com -n 2' using ["ping", "google.com", "-n", "2"]
-commandWords = ["ping", "google.com"]
+class TestLogic(unittest.TestCase):
+    def setUp(self):
+        # this method is called before executing each test method
+        # common initialization activities like fetching database connections, api tokens etc. before starting each test method can be done here
+        print("\\nsetup called...")
+        self.start = dt.datetime.now()
 
-# create a child process object
-proc = Popen(commandWords, stdout=PIPE, stderr=PIPE)
+    def testSum(self) -> None:
+        """This is a test method that tests addition
+        """
+        result = 1+8
+        self.assertTrue(result == 9)
+        self.assertEqual(result, 9)
+        self.assertNotEqual(result, 8)
 
-# run the child process and capture the output and errors
-try:
-    outs, errs = proc.communicate()
-except:
-    proc.kill()
-    quit()
+    def testMultiply(self) -> None:
+        """This is a test method that tests multiplication
+        """
+        result = 5*9
+        self.assertTrue(result == 45)
 
-# derive the command line response and error strings
-resp = outs.decode("utf-8")
-errStr = errs.decode("utf-8")
+    def tearDown(self):
+        # this method is called after each test method is executed
+        # any common disposal activities like disposing connections, tokens etc. can be done in this method
+        print("\\ntear down called...")
+        print(f"executed in {dt.datetime.now()-self.start}")
 
-# print the response string
-print("*************************")
-print(resp)
-print("*************************")
+if __name__ == '__main__':
+    # run the test case class when this python script is run directly
+    # this is optional, you can run tests using command line also, like python -m unittest discover -s "." -p "test*.py"
+    unittest.main()
 
-# apply some logic on the response 
-if "Lost = 0 (0% loss)" in resp:
-    print("Perfect ping!!!")
-else:
-    print("Not a perfect ping...")
-```
-* As shown in the above example, inputs can be provided to a command or an external program via command line arguments, and command line output can be used to fetch the execution results by our python program
-* Any errors thrown by the external command can be captured in the variable `errStr`
-* The above example is applicable for running external programs also instead of OS commands
-	* For example there is and exe file called "hello.exe" that takes a named command line input called `--name` and outputs the greeting
-	* python can interact with it using `commandWords = ["hello.exe", "--name", "James"]` and the output string would be "Hello James !!!"
-
-## Example 2 - "cwd" option to change the directory of command execution
-```py
-from subprocess import Popen, PIPE
-
-command = "hello.bat James"
-commandFolder = "batFolder/"
-
-# create a child process object
-# shell=True to be added to run batch files, otherwise not required
-proc = Popen(command.split(" "), stdout=PIPE, stderr=PIPE, cwd=commandFolder, shell=True)
-
-# run child process and capture the output and errors
-try:
-    outs, errs = proc.communicate()
-except:
-    proc.kill()
-    quit()
-
-# derive the command line response strings
-resp = outs.decode("utf-8")
-errStr = errs.decode("utf-8")
-
-# print the response string
-print("Response*************************")
-print(resp)
-print("Errors*************************")
-print(errStr)
-```
-* In the above example, there is a batch file located in the folder location `batFolder/` relative to the python script
-* 'cwd' option is used to change the command execution directory in the `Popen` constructor call
-* This way, using `cwd` option, we can run programs present in other folders also
-
-### Example 3 - Communicate with other languages over command line
-* `subprocess` can be used to interact with other languages running the those programs and interact with them over command line
-```py
-# importing from 'subprocess' python module
-from subprocess import Popen, PIPE
-
-def computeFromExternal(num1, num2):
-    commandFolderPath = "compute/"
-
-    command = f"dotnet run {num1} {num2}"
-
-    # create a child process object
-    proc = Popen(command.split(" "), stdout=PIPE, stderr=PIPE, cwd=commandFolderPath)
-
-    # run the child process and capture the output and errors
-    try:
-        outs, errs = proc.communicate()
-    except:
-        proc.kill()
-        return "Error thrown while subprocess execution..."
-
-    # errors thrown by the code
-    errStr = errs.decode("utf-8")
-    # derive the command line response string
-    resp = outs.decode("utf-8")
-
-    # print("Output*************************")
-    # print(resp)
-    # print("Errors*************************")
-    # print(errStr)
-    # print("*************************")
-
-    # check for errors thrown by code
-    if not len(errStr) == 0:
-        return "Error thrown by the code..."
-
-    # extract the subprocess result
-    reslt = float(resp.strip())
-
-    return f"The computation result is {reslt}"
-
-
-print(computeFromExternal(5.1, 3.2))
-print(computeFromExternal("abcd", 3.2))
 ```
 
-* In the above python code a function named  `computeFromExternal` runs a dotnet project program in the folder `compute/` relative to the python code (absolute folder paths can also be used if required)
-*  The inputs to the dotnet code are provided via command line arguments
-* The outputs and error strings are parsed after command execution from the variables `outs` and `errs` respectively
+-   unitest.main() in the above script will run the tests in the TestCase class when the script is run in command line
+-   As shown in the above example, each test method can call one or more assert methods. The test method will fail if any one of the assert method fails.
+-   The following table shows the various assert methods that can be called inside a test method of a TestClass
 
-### Better way to run other language code
-* Running other language code via command line requires the language runtime to be present in the system. For example, the previous example requires dotnet and some dotnet packages to be installed in the machine running the python code.
-* To eliminate the dependency of other language runtime, the external code can be packaged into a self-contained exe file and that can be used by the python code. This makes the other language code portable and removes the requirement of installing other language runtime.
+Method
 
-### Video
-The video for this post can be seen [here](https://youtu.be/d22ZxWDSbag)
+Checks that
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/d22ZxWDSbag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+assertTrue(x)
 
-<hr/>
+bool(x) is True
 
-### References
-* Official docs - https://docs.python.org/3/library/subprocess.html
+assertFalse(x)
+
+bool(x) is False
+
+assertEqual(a, b)
+
+a == b
+
+assertNotEqual(a, b)
+
+a != b
+
+assertIsNone(x)
+
+x is None
+
+assertIsNotNone(x)
+
+x is not None
+
+assertIs(a, b)
+
+a is b
+
+assertIsNot(a, b)
+
+a is not b
+
+assertIn(a, b)
+
+a in b
+
+assertNotIn(a, b)
+
+a not in b
+
+assertIsInstance(a, b)
+
+isinstance(a, b)
+
+assertNotIsInstance(a, b)
+
+not isinstance(a, b)
+
+### Run Test Cases in all python files inside a folder with Test Discovery
+
+-   The following command can run all the tests defined in multiple files at once
+
+```bash
+python -m unittest discover -s "./tests" -p "test_*.py"
+
+```
+
+-   The above command discovers all the tests from python files starting with “test_” inside a folder named “tests”. The folder name is specified using `-s` flag and filename pattern is specified using `-p` flag
+
+### VS Code support for running and visualizing tests
+
+-   Visual studio code supports unittest framework and provides user-friendly interface to run tests directly from the editor
+    
+-   The following steps can be followed to enable unittest support in VS code
+    
+    -   Open command palette by pressing Ctrl+Shift+P
+    -   Search for “python: configure tests”
+    -   Select the testing framework as unittest, select the folder that contains all the tests, select the test files filename pattern. Now the tests support should be enabled in VS Code.
+    -   After enabling the tests support in VS Code, the testing preferences will be saved in the “settings.json” file inside the “.vscode” folder. An example “settings.json” file can be as shown below
+    
+    ```json
+    {
+        "python.testing.unittestArgs": [
+            "-v",
+            "-s",
+            ".",
+            "-p",
+            "test_*.py"
+        ],
+        "python.testing.pytestEnabled": false,
+        "python.testing.unittestEnabled": true
+    }
+    
+    ```
+    
+-   After setting up tests, the TestCases classes and test methods can be visualized and run in VS Code under the “Testing” tab of the Primary Side bar as shown in the image below
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5902b65c-a368-47cb-8168-df43a832ccf8/Untitled.png)
+    
+    ### References
+-   TestCase class methods setup and teardown - [](https://docs.python.org/3/library/unittest.html#unittest.TestCase)[https://docs.python.org/3/library/unittest.html#unittest.TestCase](https://docs.python.org/3/library/unittest.html#unittest.TestCase)
+    
+-   Tests Discovery command - [](https://docs.python.org/3/library/unittest.html#test-discovery)[https://docs.python.org/3/library/unittest.html#test-discovery](https://docs.python.org/3/library/unittest.html#test-discovery)
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTgyMjQzMF19
+eyJoaXN0b3J5IjpbLTE0OTY2NDk2NDhdfQ==
 -->
