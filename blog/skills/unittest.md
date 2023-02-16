@@ -1,4 +1,5 @@
 ## Skill - Automated tests in python with unittest module
+
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -7,32 +8,26 @@
 Please go through the above skills if necessary for reference or revision
 <hr/>
 
-* In this post we will understand how run external commands or call other languages in python using the `subprocess` module
-* `subprocess` module generally comes included with python installation. So no need to install the module separately.
-
-## Automated tests in python with unittest module
+* Python `unittest` module is useful to create and run automated tests in python
+* `unittest` module generally comes included with python installation. So no need to install the module separately.
 
 Python unittest module is useful to create and run automated tests in python
 
 ### Why do Software testing?
-
 -   Software testing can help to verify whether the code is working in an expected way without errors by running various testing scenarios.
 -   This can help to identify bugs by the developer before the end user uses it.
 
 ### Why use an Automated Testing Framework?
-
--   Using an Automated Testing Framework like unittest module, we can easily run many tests again and again
+-   Using an automated testing framework like `unittest` module, we can easily run many tests again and again
 -   This can help to run all the tests and ensure the application is working correctly every time the code is modified
 
-### TestCase Class with test methods
-
+### "TestCase" Class with test methods
 -   `TestCase` class can have multiple tests as methods. Each test method should start with a prefix “test”
 -   “setUp” and “tearDown” methods are special methods inside a TestCase class. These methods are optional.
 -   “setUp” method will be called before each test method is executed. So any initialization tasks common to all the test methods can be written in this method
 -   “tearDown” method will be called after each test method is executed. So any disposal tasks common to all the test methods can be written in this method
 
 The following is an example of a simple TestCase class in python using unittest module
-
 ```python
 # test_logic.py
 import datetime as dt
@@ -178,5 +173,5 @@ python -m unittest discover -s "./tests" -p "test_*.py"
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTY2NDk2NDhdfQ==
+eyJoaXN0b3J5IjpbLTE3NjE4MzI5OTRdfQ==
 -->
