@@ -57,6 +57,9 @@ sudo apt install python3.9-distutils
 * For example, a server in `server.py` file can be run using the command `wsl python3 server.py`
 * The server page can be accessed in windows browser without opening WSL
 
+## Setup virtual environment for a python project in WSL
+* Create a virtual environment using `wsl python `
+
 ## VS Code support for WSL
 * Visual Studio Code supports easy interface for running python from WSL with `WSL` VS Code extension
 * After installing WSL, open command palette with Ctrl+Shift+P shortcut and type WSL. Select "WSL: Open Folder in WSL".
@@ -72,6 +75,6 @@ sudo apt install python3.9-distutils
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQ4MzgwNzQsLTE4MTExMDI0NzMsMT
-k0MTUyNDU2NSwtMTc1MzQyODM2NiwtMTE2OTEzMjYyNl19
+eyJoaXN0b3J5IjpbMTg5OTQwNzQ1OCwtMTgxMTEwMjQ3MywxOT
+QxNTI0NTY1LC0xNzUzNDI4MzY2LC0xMTY5MTMyNjI2XX0=
 -->
