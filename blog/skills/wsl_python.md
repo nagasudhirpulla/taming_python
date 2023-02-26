@@ -58,7 +58,7 @@ sudo apt install python3.9-distutils
 * The server page can be accessed in windows browser without opening WSL
 
 ## VS Code support for WSL
-* Visual Studio Code supports running python from WSL Linux  
+* Visual Studio Code supports easy interface for running python from WSL with `WSL` VS Code extension
  
 ### References
 * Basic wsl commands reference - https://learn.microsoft.com/en-us/windows/wsl/basic-commands#install
@@ -71,6 +71,6 @@ sudo apt install python3.9-distutils
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzgwMTk5OTgsLTE3NTM0MjgzNjYsLT
-ExNjkxMzI2MjZdfQ==
+eyJoaXN0b3J5IjpbMTk0MTUyNDU2NSwtMTc1MzQyODM2NiwtMT
+E2OTEzMjYyNl19
 -->
