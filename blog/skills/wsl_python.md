@@ -11,7 +11,7 @@ In this post we will learn
 * virtual environments
 
 ## What is WSL
-WSL (Windows Subsystem for Linux) is a windows feature that can run Linux environments like Ubuntu inside windows OS without installing separate virtual machines or dual booting. A detailed post on setting WSL in windows can be found [here](https://nagasudhir.blogspot.com/2023/01/setup-ubuntu-or-similar-linux.html) 
+WSL (Windows Subsystem for Linux) is a windows feature that can run Linux environments like Ubuntu inside windows OS without installing separate virtual machines or dual booting. A detailed post on setting up WSL in windows can be found [here](https://nagasudhir.blogspot.com/2023/01/setup-ubuntu-or-similar-linux.html) 
 
 ## Why use WSL
 There can be many use cases like
@@ -107,5 +107,5 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTQ2OTc3OV19
+eyJoaXN0b3J5IjpbLTEyODMwNjE4NDRdfQ==
 -->
