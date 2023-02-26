@@ -76,7 +76,7 @@ sudo apt install python3.9-distutils
 ```bash
 update-alternatives --install /usr/bin/python python /usr/bin/python3.9 1
 ```
-* The alias can be removed if required using the following command. The alias can be changed to anoter
+* The alias can be removed if required using the following command. The alias can be changed to another python after this if required.
 ```bash
 update-alternatives --remove-all python
 ``` 
@@ -89,7 +89,7 @@ update-alternatives --remove-all python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDk5NzU5NiwtMTM2ODkyMzU4NCwtMT
+eyJoaXN0b3J5IjpbMTM3ODYwNTc2OCwtMTM2ODkyMzU4NCwtMT
 A1NTk2MjY3MiwtMTgxMTEwMjQ3MywxOTQxNTI0NTY1LC0xNzUz
 NDI4MzY2LC0xMTY5MTMyNjI2XX0=
 -->
