@@ -32,11 +32,9 @@ WSL (Windows Subsystem for Linux) is a windows feature that can run Linux enviro
 * Install venv using `sudo apt install python3-venv`
  
 
-## Install WSL from command line
-**Note:** WSL can be installed from command line only in newer versions of Windows 10 or Windows 11 ( Refer [here](https://learn.microsoft.com/en-us/windows/wsl/install) )
-* Open a command line in administrator mode
-* Run the command `wsl --install` and restart the computer. This will install WSL along with Ubuntu Linux distribution
-* To install WSL without the default Ubuntu Linux distribution, run the command `wsl --install --no-distribution` instead
+## Install multiple python versions using deadsnakes ppa
+* deadsnakes ppa contains multiple versions of python that can be installed and used in Ubuntu
+* First add de
 
 ## Install WSL in older Windows 10 versions
 * In some older windows 10 versions, WSL installation with `wsl --install` may not be possible.
@@ -121,5 +119,5 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxMTY5NjddfQ==
+eyJoaXN0b3J5IjpbLTE2OTIwNjMwOV19
 -->
