@@ -6,7 +6,7 @@
 
 In this post we will learn
 * Set up python in Ubuntu inside WSL
-* Install multiple python versions using deadsnakes ppa
+* Setup multiple python versions using deadsnakes ppa
 * Run python in WSL (Windows Subsystem for Linux)
 * Visual Studio Code (VS Code) support for WSL
 * Set up virtual environments for python projects
@@ -32,7 +32,7 @@ WSL (Windows Subsystem for Linux) is a windows feature that can run Linux enviro
 * Install venv using `sudo apt install python3-venv`
  
 
-## Install multiple python versions using deadsnakes ppa
+## Setup multiple python versions using deadsnakes ppa
 * deadsnakes ppa contains multiple versions of python that can be installed and used in Ubuntu
 * Add deadsnakes ppa repository using `sudo add-apt-repository ppa:deadsnakes/ppa`
 * Now multiple python versions can be installed. For example python 3.7 and python 3.9 can be installed using the following commands
@@ -128,5 +128,6 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjkxMzI2MjZdfQ==
+eyJoaXN0b3J5IjpbLTE3NTM0MjgzNjYsLTExNjkxMzI2MjZdfQ
+==
 -->
