@@ -4,12 +4,12 @@
 
 <hr/>
 
-In this post we will learn
-* Setting python in Ubuntu inside WSL
+In this post we will learn to
+* Set up python in Ubuntu inside WSL
 * Install multiple python versions using deadsnakes ppa
-* Running python in WSL (Windows Subsystem for Linux)
+* Run python in WSL (Windows Subsystem for Linux)
 * Visual Studio Code (VS Code) support for WSL
-* Setting up virtual environments for python projects
+* Set up virtual environments for python projects
 * `update-alternatives` command for aliasing python version with `python` command 
 
 ## What is WSL
@@ -121,5 +121,5 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDIxOTUxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEzMDIzMjQxNThdfQ==
 -->
