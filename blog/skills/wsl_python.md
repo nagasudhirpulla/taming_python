@@ -5,7 +5,7 @@
 <hr/>
 
 In this post we will learn
-* Set up python in Ubuntu inside WSL
+* Setup python, pip and venv in Ubuntu inside WSL
 * Setup multiple python versions using deadsnakes ppa
 * Run python and install packages in WSL (Windows Subsystem for Linux)
 * Visual Studio Code (VS Code) support for WSL
@@ -15,7 +15,7 @@ In this post we will learn
 ## What is WSL
 WSL (Windows Subsystem for Linux) is a windows feature that can run Linux environments like Ubuntu inside windows OS without installing separate virtual machines or dual booting. A detailed post on setting up WSL in windows can be found [here](https://nagasudhir.blogspot.com/2023/01/setup-ubuntu-or-similar-linux.html) 
 
-## Setup python, pip and virtual environments in Ubuntu
+## Setup python, pip and venv in Ubuntu
 ### Setting up python
 * Python comes pre-installed in Ubuntu. It is accessible as `python3`
 * Check if python is installed using `python3 --version`
@@ -78,7 +78,7 @@ sudo apt install python3.9-distutils
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODU5NzE1NywtMTM2ODkyMzU4NCwtMT
+eyJoaXN0b3J5IjpbLTk4NTc5ODI4NCwtMTM2ODkyMzU4NCwtMT
 A1NTk2MjY3MiwtMTgxMTEwMjQ3MywxOTQxNTI0NTY1LC0xNzUz
 NDI4MzY2LC0xMTY5MTMyNjI2XX0=
 -->
