@@ -4,10 +4,11 @@
 
 <hr/>
 
-In this post we will learn 
+In this post we will learn
+* Setting python in Ubuntu inside WSL
+* Install multiple python versions using deadsnakes ppa
 * Running python in WSL (Windows Subsystem for Linux)
 * Visual Studio Code (VS Code) support for WSL
-* running multiple python versions using deadsnakes ppa
 * virtual environments
 
 ## What is WSL
@@ -28,7 +29,7 @@ WSL (Windows Subsystem for Linux) is a windows feature that can run Linux enviro
 ### Setting up venv for virtual environments 
 * `venv` is useful for managing virtual environments in python
 * Install venv using `sudo apt install python3-venv`
-*  
+ 
 
 ## Install WSL from command line
 **Note:** WSL can be installed from command line only in newer versions of Windows 10 or Windows 11 ( Refer [here](https://learn.microsoft.com/en-us/windows/wsl/install) )
@@ -119,5 +120,5 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTI3NDcxXX0=
+eyJoaXN0b3J5IjpbMTQ4NzA1MDE3OV19
 -->
