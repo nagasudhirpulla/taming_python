@@ -58,7 +58,8 @@ sudo apt install python3.9-distutils
 * The server page can be accessed in windows browser without opening WSL
 
 ## Setup virtual environment for a python project in WSL
-* Create a virtual environment using `wsl python3 -m venv app_env` . A folder name "app_env" should be created
+* Open the folder containing python file in command line and execute `wsl` to create a wsl session  
+* Create a virtual environment using `python3 -m venv app_env` . A folder name "app_env" should be created
 * The virtual environment can be activated using the command `source ./app_env/bin/activate`
 * 
 
@@ -77,7 +78,7 @@ sudo apt install python3.9-distutils
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg5MjM1ODQsLTEwNTU5NjI2NzIsLT
-E4MTExMDI0NzMsMTk0MTUyNDU2NSwtMTc1MzQyODM2NiwtMTE2
-OTEzMjYyNl19
+eyJoaXN0b3J5IjpbLTE1OTg4OTQyNzcsLTEzNjg5MjM1ODQsLT
+EwNTU5NjI2NzIsLTE4MTExMDI0NzMsMTk0MTUyNDU2NSwtMTc1
+MzQyODM2NiwtMTE2OTEzMjYyNl19
 -->
