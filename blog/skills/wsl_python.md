@@ -59,7 +59,7 @@ sudo apt install python3.9-distutils
 
 ## Setup virtual environment for a python project in WSL
 * Create a virtual environment using `wsl python3 -m venv app_env` . A folder name "app_env" should be created
-* The virtual environment can be activated using the command `wsl source ./app_env/bin/activate`
+* The virtual environment can be activated using the command `source ./app_env/bin/activate`
 * 
 
 ## VS Code support for WSL
@@ -77,6 +77,7 @@ sudo apt install python3.9-distutils
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTU5NjI2NzIsLTE4MTExMDI0NzMsMT
-k0MTUyNDU2NSwtMTc1MzQyODM2NiwtMTE2OTEzMjYyNl19
+eyJoaXN0b3J5IjpbLTEzNjg5MjM1ODQsLTEwNTU5NjI2NzIsLT
+E4MTExMDI0NzMsMTk0MTUyNDU2NSwtMTc1MzQyODM2NiwtMTE2
+OTEzMjYyNl19
 -->
