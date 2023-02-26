@@ -4,7 +4,7 @@
 
 <hr/>
 
-In this post we will learn to
+In this post we will learn
 * Set up python in Ubuntu inside WSL
 * Install multiple python versions using deadsnakes ppa
 * Run python in WSL (Windows Subsystem for Linux)
@@ -121,5 +121,5 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDIzMjQxNThdfQ==
+eyJoaXN0b3J5IjpbNTQxMTY5NjddfQ==
 -->
