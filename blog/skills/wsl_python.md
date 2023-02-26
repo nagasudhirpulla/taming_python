@@ -5,7 +5,7 @@
 <hr/>
 
 In this post we will learn 
-* how to run python in WSL (Windows Subsystem for Linux)
+* Running python in WSL (Windows Subsystem for Linux)
 * Visual Studio Code (VS Code) support for WSL
 * running multiple python versions using deadsnakes ppa
 * virtual environments
@@ -107,5 +107,5 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzAxMDY4XX0=
+eyJoaXN0b3J5IjpbMTE4MTQ2OTc3OV19
 -->
