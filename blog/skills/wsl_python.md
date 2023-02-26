@@ -13,10 +13,10 @@ In this post we will learn
 ## What is WSL
 WSL (Windows Subsystem for Linux) is a windows feature that can run Linux environments like Ubuntu inside windows OS without installing separate virtual machines or dual booting. A detailed post on setting up WSL in windows can be found [here](https://nagasudhir.blogspot.com/2023/01/setup-ubuntu-or-similar-linux.html) 
 
-## Why use WSL
-There can be many use cases like
-* Running the source code or servers in Linux environments
-* Running applications or commands in Windows that are only available for Linux based OS
+## Setup python, pip and virtual environments in Ubuntu
+* Python comes pre-installed in Ubuntu. It is accessible as `python3`
+* Check if py
+
 
 ## Install WSL from command line
 **Note:** WSL can be installed from command line only in newer versions of Windows 10 or Windows 11 ( Refer [here](https://learn.microsoft.com/en-us/windows/wsl/install) )
@@ -107,5 +107,5 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODMwNjE4NDRdfQ==
+eyJoaXN0b3J5IjpbODI4ODcxMjc0XX0=
 -->
