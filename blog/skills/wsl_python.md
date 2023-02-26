@@ -14,7 +14,7 @@ In this post we will learn
 WSL (Windows Subsystem for Linux) is a windows feature that can run Linux environments like Ubuntu inside windows OS without installing separate virtual machines or dual booting. A detailed post on setting up WSL in windows can be found [here](https://nagasudhir.blogspot.com/2023/01/setup-ubuntu-or-similar-linux.html) 
 
 ## Setup python, pip and virtual environments in Ubuntu
-### Settting up python
+### Setting up python
 * Python comes pre-installed in Ubuntu. It is accessible as `python3`
 * Check if python is installed using `python3 --version`
 * Check the installation location of python using `which python`
@@ -22,9 +22,13 @@ WSL (Windows Subsystem for Linux) is a windows feature that can run Linux enviro
 * Update only python3 using `sudo apt upgrade python3`
 
 ### Setting up pip
-* Pip is useful for managing external packages in python
+* `pip` is useful for managing external packages in python
 * Install pip using `sudo apt install python3-pip`
 
+### Setting up venv for virtual environments 
+* `venv` is useful for managing virtual environments in python
+* Install venv using `sudo apt install python3-venv`
+*  
 
 ## Install WSL from command line
 **Note:** WSL can be installed from command line only in newer versions of Windows 10 or Windows 11 ( Refer [here](https://learn.microsoft.com/en-us/windows/wsl/install) )
@@ -115,5 +119,5 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTE0MzkwNF19
+eyJoaXN0b3J5IjpbMTg2NTI3NDcxXX0=
 -->
