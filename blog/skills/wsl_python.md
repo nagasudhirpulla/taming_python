@@ -62,7 +62,7 @@ sudo apt install python3.9-distutils
 * After installing WSL, open command palette with Ctrl+Shift+P shortcut and type WSL. Select "WSL: Open Folder in WSL".
 * Now a folder in VS Code will be opened from an installed WSL distribution
 * Python extension should again be installed in VS Code for WSL to enable VS Code python support for folders opened in WSL 
-* Python version and virtual environment can be selected using the options present in the status bar at the bottom of VS Code editor
+* Python version and virtual environment can be selected easily using the options present in the status bar at the bottom of VS Code editor
  
 ### References
 * WSL VS Code extension - https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl
@@ -72,6 +72,6 @@ sudo apt install python3.9-distutils
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTExMDI0NzMsMTk0MTUyNDU2NSwtMT
-c1MzQyODM2NiwtMTE2OTEzMjYyNl19
+eyJoaXN0b3J5IjpbLTE5ODQ4MzgwNzQsLTE4MTExMDI0NzMsMT
+k0MTUyNDU2NSwtMTc1MzQyODM2NiwtMTE2OTEzMjYyNl19
 -->
