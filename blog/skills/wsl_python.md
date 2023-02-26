@@ -7,7 +7,7 @@
 In this post we will learn
 * Set up python in Ubuntu inside WSL
 * Setup multiple python versions using deadsnakes ppa
-* Run python in WSL (Windows Subsystem for Linux)
+* Run python and install packages in WSL (Windows Subsystem for Linux)
 * Visual Studio Code (VS Code) support for WSL
 * Set up virtual environments for python projects
 * `update-alternatives` command for aliasing python version with `python` command 
@@ -139,6 +139,6 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MzcwOTM1OCwtMTc1MzQyODM2NiwtMT
-E2OTEzMjYyNl19
+eyJoaXN0b3J5IjpbNjk5MTkyMDk1LC0xNzUzNDI4MzY2LC0xMT
+Y5MTMyNjI2XX0=
 -->
