@@ -1,4 +1,4 @@
-## Skill - Run python on Linux in Windows using WSL and VS Code
+## Skill - Setup python on Linux in Windows using WSL and VS Code
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -51,8 +51,10 @@ sudo apt install python3.9-distutils
 * It can be run with python installed in WSL using the command  `wsl python3 hello.py`
 * To run with another version of python, say python 3.7, we can use the command `wsl python3.7 hello.py`
 
-### Run flas 
-* Server can also be run in WSL using the same command. For example, a server in `server.py` file can be run using `wsl python3 server.py`
+### Run flask server in WSL
+* For example, a server in `server.py` file can be run using `wsl python3 server.py`
+* The server page can be accessed in windows browser itself
+*  
 
 ## Install WSL in older Windows 10 versions
 * In some older windows 10 versions, WSL installation with `wsl --install` may not be possible.
@@ -137,6 +139,6 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTEwNTIwMjIsLTE3NTM0MjgzNjYsLT
-ExNjkxMzI2MjZdfQ==
+eyJoaXN0b3J5IjpbMTI4MzcwOTM1OCwtMTc1MzQyODM2NiwtMT
+E2OTEzMjYyNl19
 -->
