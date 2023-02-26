@@ -74,7 +74,7 @@ sudo apt install python3.9-distutils
 * `update-alternatives` command in Ubuntu can be used to create alias for a desired python version
 * For example the following command will create an alias `python` for python3.9
 ```bash
-update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 1
+update-alternatives --install /usr/bin/python3 python /usr/bin/python3.9 1
 ``` 
 
 ### References
@@ -85,7 +85,7 @@ update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 1
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyMjEwNzE1LC0xMzY4OTIzNTg0LC0xMD
+eyJoaXN0b3J5IjpbOTM5MTA2NDQ4LC0xMzY4OTIzNTg0LC0xMD
 U1OTYyNjcyLC0xODExMTAyNDczLDE5NDE1MjQ1NjUsLTE3NTM0
 MjgzNjYsLTExNjkxMzI2MjZdfQ==
 -->
