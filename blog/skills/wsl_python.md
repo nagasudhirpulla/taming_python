@@ -50,6 +50,8 @@ sudo apt install python3.9-distutils
 * Suppose there is a python script named `hello.py`
 * It can be run with python installed in WSL using the command  `wsl python3 hello.py`
 * To run with another version of python, say python 3.7, we can use the command `wsl python3.7 hello.py`
+* External packages can be installed using `pip`. For example `python3 -m pip install flask` will install the flask python module.
+* External packages in other python versions also using the p command.  
 
 ### Run flask server in WSL
 * For example, a server in `server.py` file can be run using `wsl python3 server.py`
@@ -139,6 +141,6 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyODU0NTUwLC0xNzUzNDI4MzY2LC0xMT
+eyJoaXN0b3J5IjpbNzQ5MzEyNzExLC0xNzUzNDI4MzY2LC0xMT
 Y5MTMyNjI2XX0=
 -->
