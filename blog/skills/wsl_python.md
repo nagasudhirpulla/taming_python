@@ -61,16 +61,13 @@ sudo apt install python3.9-distutils
 * Visual Studio Code supports easy interface for running python from WSL with `WSL` VS Code extension
  
 ### References
-* Basic wsl commands reference - https://learn.microsoft.com/en-us/windows/wsl/basic-commands#install
-* Install wsl from command line - https://learn.microsoft.com/en-us/windows/wsl/install
-* wsl manual installation for older windows versions - https://learn.microsoft.com/en-us/windows/wsl/install-manual
-* A post on useful wsl commands - https://adamtheautomator.com/windows-subsystem-for-linux/#Setting_WSL_Configuration_Items_at_Bootup_with_wslconf 
+* WSL VS Code extension - https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl
 
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTUyNDU2NSwtMTc1MzQyODM2NiwtMT
-E2OTEzMjYyNl19
+eyJoaXN0b3J5IjpbLTEyMDI5ODIxODksMTk0MTUyNDU2NSwtMT
+c1MzQyODM2NiwtMTE2OTEzMjYyNl19
 -->
