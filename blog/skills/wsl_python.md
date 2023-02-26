@@ -46,6 +46,7 @@ sudo apt install python3.9-distutils
 ```
 * After installation, multiple python versions can be used. For example `python3.9 --version` command will use python 3.9 and `python3.7 --version` will use python 3.7
 
+## Run python in WSL
 
 
 ## Install WSL in older Windows 10 versions
@@ -131,6 +132,6 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTY1MTkzNCwtMTc1MzQyODM2NiwtMT
-E2OTEzMjYyNl19
+eyJoaXN0b3J5IjpbNjEzNDA1MzYsLTE3NTM0MjgzNjYsLTExNj
+kxMzI2MjZdfQ==
 -->
