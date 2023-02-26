@@ -34,7 +34,8 @@ WSL (Windows Subsystem for Linux) is a windows feature that can run Linux enviro
 
 ## Install multiple python versions using deadsnakes ppa
 * deadsnakes ppa contains multiple versions of python that can be installed and used in Ubuntu
-* First add de
+* Add deadsnakes ppa repository using `sudo add-apt-repository ppa:deadsnakes/ppa`
+* Now multiple python versions can be installed. For example python 3.7 and python 
 
 ## Install WSL in older Windows 10 versions
 * In some older windows 10 versions, WSL installation with `wsl --install` may not be possible.
@@ -119,5 +120,5 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTIwNjMwOV19
+eyJoaXN0b3J5IjpbLTEzNTUxODg0MzVdfQ==
 -->
