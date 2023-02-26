@@ -71,6 +71,11 @@ sudo apt install python3.9-distutils
 * Python version and virtual environment can be selected easily using the options present in the status bar at the bottom of VS Code editor
 
 ## `update-alternatives` command for aliasing python version with `python` command 
+* `update-alternatives` command in Ubuntu can be used to create alias for a desired python version
+* For example the following command will create an alias `python` for python3.9
+```bash
+
+``` 
 
 ### References
 * WSL VS Code extension - https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl
@@ -80,7 +85,7 @@ sudo apt install python3.9-distutils
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4NzkxMDA3LC0xMzY4OTIzNTg0LC0xMD
-U1OTYyNjcyLC0xODExMTAyNDczLDE5NDE1MjQ1NjUsLTE3NTM0
-MjgzNjYsLTExNjkxMzI2MjZdfQ==
+eyJoaXN0b3J5IjpbLTE2NTgxNDUxNDEsLTEzNjg5MjM1ODQsLT
+EwNTU5NjI2NzIsLTE4MTExMDI0NzMsMTk0MTUyNDU2NSwtMTc1
+MzQyODM2NiwtMTE2OTEzMjYyNl19
 -->
