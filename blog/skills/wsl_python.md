@@ -9,7 +9,8 @@ In this post we will learn
 * Install multiple python versions using deadsnakes ppa
 * Running python in WSL (Windows Subsystem for Linux)
 * Visual Studio Code (VS Code) support for WSL
-* virtual environments
+* Setting up virtual environments for python projects
+* `update-alternatives` command for 
 
 ## What is WSL
 WSL (Windows Subsystem for Linux) is a windows feature that can run Linux environments like Ubuntu inside windows OS without installing separate virtual machines or dual booting. A detailed post on setting up WSL in windows can be found [here](https://nagasudhir.blogspot.com/2023/01/setup-ubuntu-or-similar-linux.html) 
@@ -120,5 +121,5 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NzA1MDE3OV19
+eyJoaXN0b3J5IjpbLTg0OTkwMDE1MV19
 -->
