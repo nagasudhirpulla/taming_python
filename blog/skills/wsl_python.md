@@ -54,8 +54,8 @@ sudo apt install python3.9-distutils
 * External packages can be installed in other python environments also using `pip`. For example `python3.9 -m pip install flask` will install flask in python 3.9 environment.
 
 ### Run flask server in WSL
-* For example, a server in `server.py` file can be run using `wsl python3 server.py`
-* The server page can be accessed in windows browser itself
+* For example, a server in `server.py` file can be run wit h`wsl python3 server.py`
+* The server page can be accessed in windows browser without opening WSL
 *  
 
 ## Install WSL in older Windows 10 versions
@@ -141,6 +141,6 @@ The video for this post can be found [here](https://youtu.be/xxQer-OyAD4)
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDg3NDYsLTE3NTM0MjgzNjYsLTExNj
-kxMzI2MjZdfQ==
+eyJoaXN0b3J5IjpbLTE0OTk4OTYyMjEsLTE3NTM0MjgzNjYsLT
+ExNjkxMzI2MjZdfQ==
 -->
