@@ -80,6 +80,10 @@ update-alternatives --install /usr/bin/python python /usr/bin/python3.9 1
 ```bash
 update-alternatives --remove-all python
 ``` 
+### Video
+The video for this post can be found [here](https://youtu.be/hK-fZhh4v8I)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hK-fZhh4v8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### References
 * WSL VS Code extension - https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl
@@ -89,7 +93,8 @@ update-alternatives --remove-all python
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NjgzMzAyMCwxMzc4NjA1NzY4LC0xMz
-Y4OTIzNTg0LC0xMDU1OTYyNjcyLC0xODExMTAyNDczLDE5NDE1
-MjQ1NjUsLTE3NTM0MjgzNjYsLTExNjkxMzI2MjZdfQ==
+eyJoaXN0b3J5IjpbLTExNTE0NTE5NTksLTU2NjgzMzAyMCwxMz
+c4NjA1NzY4LC0xMzY4OTIzNTg0LC0xMDU1OTYyNjcyLC0xODEx
+MTAyNDczLDE5NDE1MjQ1NjUsLTE3NTM0MjgzNjYsLTExNjkxMz
+I2MjZdfQ==
 -->
