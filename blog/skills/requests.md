@@ -7,7 +7,9 @@
 * [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
 * [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 
-Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
+Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision.
+<hr>
+
 Using requests module, we can make HTTP requests in our python scripts
 
 ## Installation
@@ -178,5 +180,5 @@ print("execution complete...")
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQ0NTA4MjBdfQ==
+eyJoaXN0b3J5IjpbLTIwMjc0MTQ3NzJdfQ==
 -->
