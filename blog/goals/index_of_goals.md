@@ -159,6 +159,7 @@ Here are the goals and skills in this tutorial series
 * [Run a python Flask server as a windows background service using nssm](https://nagasudhir.blogspot.com/2022/09/run-python-flask-server-as-windows.html)
 * [Waitress as Flask server WSGI](https://nagasudhir.blogspot.com/2022/10/waitress-as-flask-server-wsgi.html)
 * [Logging in python Flask applications](https://nagasudhir.blogspot.com/2022/12/logging-in-python-flask-applications.html)
+* [Integrate swagger and many other features to flask APIs with flask-restx](https://nagasudhir.blogspot.com/2023/03/integrate-swagger-and-many-other.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -166,11 +167,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTIyMjEyMzAzNSwtMTA4MD
-UzNjU1NywxMTM5NTIxMCwtMzMzNzgxOTYxLDE3NTE3MTM5MzEs
-NjUzMDI5ODU4LDk2OTYwODg2NCwtMTUyNjI2MDQ2NCwtOTUxMz
-AyMTAxLDIxMzc1NTA4OTMsODA5NTQyNyw0ODA2MDg4MzQsOTMw
-OTcxMzM4LC0zOTk5NTQ4NzcsMTE1MjMyMzA3NSwxNzM5ODE5MD
-MyLDEyODA1OTg5MDgsNTY2NDgxMDM2LC0xOTA2NTM4MTY0LC0y
-MTA5NTM2MjkyXX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEyMTUxOTg1NzIsLTIyMj
+EyMzAzNSwtMTA4MDUzNjU1NywxMTM5NTIxMCwtMzMzNzgxOTYx
+LDE3NTE3MTM5MzEsNjUzMDI5ODU4LDk2OTYwODg2NCwtMTUyNj
+I2MDQ2NCwtOTUxMzAyMTAxLDIxMzc1NTA4OTMsODA5NTQyNyw0
+ODA2MDg4MzQsOTMwOTcxMzM4LC0zOTk5NTQ4NzcsMTE1MjMyMz
+A3NSwxNzM5ODE5MDMyLDEyODA1OTg5MDgsNTY2NDgxMDM2LC0x
+OTA2NTM4MTY0XX0=
 -->
