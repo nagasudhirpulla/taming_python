@@ -171,6 +171,7 @@ print("execution complete...")
 
 #### Video
 The video tutorial for this post can be found [here](https://youtu.be/gtfEZr6wK5E)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gtfEZr6wK5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## References
@@ -184,6 +185,5 @@ The video tutorial for this post can be found [here](https://youtu.be/gtfEZr6wK5
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTkwMjQzNDgsLTIwMjc0MTQ3NzJdfQ
-==
+eyJoaXN0b3J5IjpbMTgzODUyMjA2NiwtMjAyNzQxNDc3Ml19
 -->
