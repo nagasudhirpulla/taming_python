@@ -1,4 +1,4 @@
-## Integrate swagger and many other features to flask APIs with flask-restx
+## Integrate swagger and model validation to flask APIs with flask-restx
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -184,5 +184,5 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 -   flask-restx swagger options - [](https://flask-restx.readthedocs.io/en/latest/swagger.html)[https://flask-restx.readthedocs.io/en/latest/swagger.html](https://flask-restx.readthedocs.io/en/latest/swagger.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzY4NzI5NTZdfQ==
+eyJoaXN0b3J5IjpbMTM3ODQ2NDkwMiwtMTk3Njg3Mjk1Nl19
 -->
