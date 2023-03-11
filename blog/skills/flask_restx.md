@@ -25,7 +25,6 @@ python -m pip install flask-restx
 ## Terminology
 
 ![flask-restx%20terminology.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/flask-restx%20terminology.png)
-
 ### API application
 -   An API application can be mounted on a flask application or blueprint.
 
@@ -186,5 +185,5 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 -   flask-restx swagger options - [](https://flask-restx.readthedocs.io/en/latest/swagger.html)[https://flask-restx.readthedocs.io/en/latest/swagger.html](https://flask-restx.readthedocs.io/en/latest/swagger.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjgyNzQ1MTddfQ==
+eyJoaXN0b3J5IjpbLTIzNTI5NDI3NV19
 -->
