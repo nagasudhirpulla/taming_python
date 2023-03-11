@@ -1,4 +1,4 @@
-## Integrate swagger and many other features with flask APIs using flask-restx
+## Integrate swagger and many other features to flask APIs using flask-restx
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -165,5 +165,5 @@ The video for this post can be seen [here](https://youtu.be/duE5P1hG6sg)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTE3NjI2OTRdfQ==
+eyJoaXN0b3J5IjpbLTg0OTA1MDY1MV19
 -->
