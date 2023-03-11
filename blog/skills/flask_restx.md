@@ -173,6 +173,7 @@ class Todo(Resource):
         todosDB.remove(todosDB[todoInd])
         return "", 204
 
+api.add_namespace(todosCtrlr)
 
 # run the flask server
 app.run(host="0.0.0.0", port=50100, debug=True)
@@ -188,6 +189,6 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 -   flask-restx swagger options - [](https://flask-restx.readthedocs.io/en/latest/swagger.html)[https://flask-restx.readthedocs.io/en/latest/swagger.html](https://flask-restx.readthedocs.io/en/latest/swagger.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExMzM2MjUyLDEzNzg0NjQ5MDIsLTE5Nz
-Y4NzI5NTZdfQ==
+eyJoaXN0b3J5IjpbLTUzNTkzMjc4OCw5MTEzMzYyNTIsMTM3OD
+Q2NDkwMiwtMTk3Njg3Mjk1Nl19
 -->
