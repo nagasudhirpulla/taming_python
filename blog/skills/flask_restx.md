@@ -5,6 +5,7 @@
 #### Skills Required
 * [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
+* [Flask Blueprints for modular MVC like web applications](https://nagasudhir.blogspot.com/2022/08/flask-blueprints-for-modular-mvc-like.html)
 
 Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
@@ -12,9 +13,7 @@ Please make sure to have all the skills mentioned above to understand and execut
 
 * In this post we will learn how to create simple API endpoints in flask
 
-
 ## Installation
-
 flask-restx can be installed using pip with the following command
 
 ```bash
@@ -185,5 +184,5 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 -   flask-restx swagger options - [](https://flask-restx.readthedocs.io/en/latest/swagger.html)[https://flask-restx.readthedocs.io/en/latest/swagger.html](https://flask-restx.readthedocs.io/en/latest/swagger.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNTI5NDI3NV19
+eyJoaXN0b3J5IjpbLTE5NzY4NzI5NTZdfQ==
 -->
