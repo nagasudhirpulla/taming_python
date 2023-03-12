@@ -180,6 +180,12 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/G4Tng6666SI)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G4Tng6666SI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 ## References
 
 -   Example application in official docs - [](https://flask-restx.readthedocs.io/en/latest/example.html)[https://flask-restx.readthedocs.io/en/latest/example.html](https://flask-restx.readthedocs.io/en/latest/example.html)
@@ -189,6 +195,6 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 -   flask-restx swagger options - [](https://flask-restx.readthedocs.io/en/latest/swagger.html)[https://flask-restx.readthedocs.io/en/latest/swagger.html](https://flask-restx.readthedocs.io/en/latest/swagger.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTkzMjc4OCw5MTEzMzYyNTIsMTM3OD
-Q2NDkwMiwtMTk3Njg3Mjk1Nl19
+eyJoaXN0b3J5IjpbLTEwNTY4MTkwOTAsLTUzNTkzMjc4OCw5MT
+EzMzYyNTIsMTM3ODQ2NDkwMiwtMTk3Njg3Mjk1Nl19
 -->
