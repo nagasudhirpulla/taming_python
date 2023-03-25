@@ -32,7 +32,7 @@ Access token are issued to clients by the STS for accessing resources. They cont
 
 ## OAuth 2.0 Flows
 * OAuth 2.0 Flow is the process of authorizing or authenticating a user or application. 
-* To support multiple scenarios like machine-to-machine, backend
+* There are multiple flows to support scenarios like machine-to-machine, backend web applications, Single Page Apps (SPAs), input constrained devices etc.
 
 ### References
 
@@ -44,7 +44,7 @@ Access token are issued to clients by the STS for accessing resources. They cont
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1Mzk0MDE4LDY1MDYxNDc2NywxMTIxOD
-U3Nzc2LDY1MzcxMzExMSwtOTgxNjQ3NDM5LC0yMDk2ODk0NTQ5
-XX0=
+eyJoaXN0b3J5IjpbLTE5OTg5MTMyMzIsNjUwNjE0NzY3LDExMj
+E4NTc3NzYsNjUzNzEzMTExLC05ODE2NDc0MzksLTIwOTY4OTQ1
+NDldfQ==
 -->
