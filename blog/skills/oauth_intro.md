@@ -10,6 +10,9 @@
 - Since user or application gets authenticated at an identity server for getting access to resources in one or multiple resource servers, Single-Sign-On (SSO) is implementable using OAuth 2.0 and users or applications identity and access information can be centrally managed.
 - OpenID connect is a layer on top of OAuth 2.0 for facilitating authentication and user information retrieval to client applications 
 
+## OAuth 2.0 Terminology
+
+
 ### References
 * Official guide - https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html
 * Official documentation - https://matplotlib.org/3.1.1/api/ticker_api.html#tick-locating
@@ -22,6 +25,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDkxODU5NSwtOTgxNjQ3NDM5LC0yMD
-k2ODk0NTQ5XX0=
+eyJoaXN0b3J5IjpbNjUzNzEzMTExLC05ODE2NDc0MzksLTIwOT
+Y4OTQ1NDldfQ==
 -->
