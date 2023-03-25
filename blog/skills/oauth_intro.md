@@ -12,6 +12,23 @@
 
 ## OAuth 2.0 Terminology
 ![OAuth_2_Terminology.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/OAuth_2_Terminology.png)
+### Identity Server / Secure Token Server (STS)
+A software that issues token to clients for accessing resources
+
+### User
+A human trying to access the resources using a registered client
+
+### Client
+A software registered in the Identity server that can request tokens from the Identity Server for authenticating users (requires identity token) or accessing resources (requires access token)
+
+### Resources
+Resources are the data protected by the Identity Server. The data can be identity data (username, email, phone number etc. also called as **user claims**) or APIs
+
+### Identity Token
+Identity token is issued by the STS to the client after authenticating a user. It contains user identifier information (subject claim) and how and when the user is authenticated. It may also contain additional user identity information in it.
+
+### Access Token
+Access token are issued to clients by the STS for accessing resources. They contain information about the client and user (if present). APIs use these tokens to validate the access of clients
 
 ### References
 * Official guide - https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html
@@ -25,6 +42,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyNjA2MDYsNjUzNzEzMTExLC05ODE2ND
-c0MzksLTIwOTY4OTQ1NDldfQ==
+eyJoaXN0b3J5IjpbMTQzODQyMDgxMiw2NTM3MTMxMTEsLTk4MT
+Y0NzQzOSwtMjA5Njg5NDU0OV19
 -->
