@@ -8,6 +8,7 @@
 - The identity and access rights information of users or applications will be centrally stored in the identity server / Secure Token Service (STS)
 - Identity server can authenticate users or applications and issue tokens to them for getting access to the secured resources in the resource server
 - Since user or application gets authenticated at an identity server for getting access to resources in one or multiple resource servers, Single-Sign-On (SSO) is implementable using OAuth 2.0 and users or applications identity and access information can be centrally managed.
+- OpenID connect is a 
 
 ### References
 * Official guide - https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html
@@ -21,6 +22,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDY0MTkyMCwtOTgxNjQ3NDM5LC0yMD
+eyJoaXN0b3J5IjpbMTc4NjUzNjY4MSwtOTgxNjQ3NDM5LC0yMD
 k2ODk0NTQ5XX0=
 -->
