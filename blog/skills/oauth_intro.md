@@ -43,7 +43,7 @@ Access token are issued to clients by the STS for accessing resources. They cont
 
 ## OAuth 2.0 implementation
 ### OAuth 2.0 Server
-* Keycloak is an open-source Identity and Access Management (IAM) solution by RedHat that can be used as an OAuth 2.0 server. It also provides a UI for managing users, clients and resources. 
+* [Keycloak](https://www.keycloak.org) is an open-source Identity and Access Management (IAM) solution by RedHat that can be used as an OAuth 2.0 server. It also provides a UI for managing users, clients and resources. 
 
 ### References
 * Terminology in OAuth 2.0 - https://identityserver4.readthedocs.io/en/latest/intro/terminology.html
@@ -57,7 +57,7 @@ Access token are issued to clients by the STS for accessing resources. They cont
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTM0ODUzNCw2NTA2MTQ3NjcsMTEyMT
+eyJoaXN0b3J5IjpbMTk5OTA1NDg5MCw2NTA2MTQ3NjcsMTEyMT
 g1Nzc3Niw2NTM3MTMxMTEsLTk4MTY0NzQzOSwtMjA5Njg5NDU0
 OV19
 -->
