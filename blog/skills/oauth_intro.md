@@ -33,10 +33,16 @@ Access token are issued to clients by the STS for accessing resources. They cont
 ## OAuth 2.0 Flows
 * OAuth 2.0 Flow is the process of authorizing or authenticating a user or application. 
 * There are multiple flows in OAuth 2.0 specification as listed below to support scenarios like machine-to-machine, backend web applications, Single Page Apps (SPAs), input constrained devices etc.
-	* 
-	* 
+	* Authorization Code Flow
+	* Authorization Code Flow with Proof Key for Code Exchange (PKCE)
+	* Implicit Flow with Form Post
+	* Hybrid Flow
+	* Client Credentials Flow
+	* Device Authorization Flow
+	* Resource Owner Password Flow
 
 ### References
+* https://auth0.com/docs/get-started/authentication-and-authorization-flow#authorization-code-flow
 
 
 <hr/>
@@ -46,7 +52,7 @@ Access token are issued to clients by the STS for accessing resources. They cont
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzc2MDUxNyw2NTA2MTQ3NjcsMTEyMT
+eyJoaXN0b3J5IjpbLTgwMjA2NjQ4OCw2NTA2MTQ3NjcsMTEyMT
 g1Nzc3Niw2NTM3MTMxMTEsLTk4MTY0NzQzOSwtMjA5Njg5NDU0
 OV19
 -->
