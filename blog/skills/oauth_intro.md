@@ -48,7 +48,7 @@ Access token are issued to clients by the STS for accessing resources. They cont
 * Many providers like Okta also provide OAuth 2.0 services in the cloud
 
 ### OAuth 2.0 client and Resource Server 
-* OAuth 2.0 authorization and authentication can be integrated in applications using many opensource frameworks in various languages like authlilb in python, IdentityModel in dotnet
+* OAuth 2.0 authorization and authentication can be integrated in applications using many opensource frameworks in various languages like authlilb in python, ASP.NET Core Identity, IdentityModel in dotnet
 
 ### References
 * Terminology in OAuth 2.0 - https://identityserver4.readthedocs.io/en/latest/intro/terminology.html
@@ -61,7 +61,7 @@ Access token are issued to clients by the STS for accessing resources. They cont
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2MDU5Mzc0LDE5OTkwNTQ4OTAsNjUwNj
-E0NzY3LDExMjE4NTc3NzYsNjUzNzEzMTExLC05ODE2NDc0Mzks
-LTIwOTY4OTQ1NDldfQ==
+eyJoaXN0b3J5IjpbLTk5Nzk5MDIwMiw0NDYwNTkzNzQsMTk5OT
+A1NDg5MCw2NTA2MTQ3NjcsMTEyMTg1Nzc3Niw2NTM3MTMxMTEs
+LTk4MTY0NzQzOSwtMjA5Njg5NDU0OV19
 -->
