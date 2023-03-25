@@ -32,7 +32,7 @@ Access token are issued to clients by the STS for accessing resources. They cont
 
 ## OAuth 2.0 Flows
 * OAuth 2.0 Flow is the process of authorizing or authenticating a user or application. 
-* There are multiple flows in OAuth 2.0 specification as listed below to support scenarios like machine-to-machine, backend web applications, Single Page Apps (SPAs), input constrained devices etc.
+* There are multiple flows in OAuth 2.0 specification as listed below to support scenarios like machine-to-machine, back-end web applications, Single Page Apps (SPAs), input constrained devices etc.
 	* Authorization Code Flow
 	* Authorization Code Flow with Proof Key for Code Exchange (PKCE)
 	* Implicit Flow with Form Post
@@ -41,11 +41,9 @@ Access token are issued to clients by the STS for accessing resources. They cont
 	* Device Authorization Flow
 	* Resource Owner Password Flow
 
-
-
 ### References
-* https://identityserver4.readthedocs.io/en/latest/intro/big_picture.html
-* Overview of differehttps://auth0.com/docs/get-started/authentication-and-authorization-flow#authorization-code-flow
+* Terminology in OAuth 2.0 - https://identityserver4.readthedocs.io/en/latest/intro/terminology.html
+* Overview of different OAuth 2.0 flows - https://auth0.com/docs/get-started/authentication-and-authorization-flow
 
 
 <hr/>
@@ -55,7 +53,7 @@ Access token are issued to clients by the STS for accessing resources. They cont
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODE3MjY3ODMsNjUwNjE0NzY3LDExMj
-E4NTc3NzYsNjUzNzEzMTExLC05ODE2NDc0MzksLTIwOTY4OTQ1
-NDldfQ==
+eyJoaXN0b3J5IjpbMzYyNTExOTkwLDY1MDYxNDc2NywxMTIxOD
+U3Nzc2LDY1MzcxMzExMSwtOTgxNjQ3NDM5LC0yMDk2ODk0NTQ5
+XX0=
 -->
