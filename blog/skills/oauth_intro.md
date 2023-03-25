@@ -31,7 +31,7 @@ Identity token is issued by the STS to the client after authenticating a user. I
 Access token are issued to clients by the STS for accessing resources. They contain information about the client and user (if present). APIs use these tokens to validate the access of clients
 
 ## OAuth 2.0 Flows
-
+OAuth 2.0 Flow is the process of  
 
 ### References
 
@@ -43,6 +43,7 @@ Access token are issued to clients by the STS for accessing resources. They cont
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwNjE0NzY3LDExMjE4NTc3NzYsNjUzNz
-EzMTExLC05ODE2NDc0MzksLTIwOTY4OTQ1NDldfQ==
+eyJoaXN0b3J5IjpbLTM3ODA3MzIxNyw2NTA2MTQ3NjcsMTEyMT
+g1Nzc3Niw2NTM3MTMxMTEsLTk4MTY0NzQzOSwtMjA5Njg5NDU0
+OV19
 -->
