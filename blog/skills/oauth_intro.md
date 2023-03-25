@@ -11,7 +11,7 @@
 - OpenID connect is a layer on top of OAuth 2.0 for facilitating authentication and user information retrieval to client applications 
 
 ## OAuth 2.0 Terminology
-
+![OAuth_2_Terminology.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/OAuth_2_Terminology.png)
 
 ### References
 * Official guide - https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html
@@ -25,6 +25,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUzNzEzMTExLC05ODE2NDc0MzksLTIwOT
-Y4OTQ1NDldfQ==
+eyJoaXN0b3J5IjpbNjYyNjA2MDYsNjUzNzEzMTExLC05ODE2ND
+c0MzksLTIwOTY4OTQ1NDldfQ==
 -->
