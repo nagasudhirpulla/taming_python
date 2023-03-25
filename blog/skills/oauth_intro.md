@@ -41,8 +41,11 @@ Access token are issued to clients by the STS for accessing resources. They cont
 	* Device Authorization Flow
 	* Resource Owner Password Flow
 
+
+
 ### References
-* https://auth0.com/docs/get-started/authentication-and-authorization-flow#authorization-code-flow
+* https://identityserver4.readthedocs.io/en/latest/intro/big_picture.html
+* Overview of differehttps://auth0.com/docs/get-started/authentication-and-authorization-flow#authorization-code-flow
 
 
 <hr/>
@@ -52,7 +55,7 @@ Access token are issued to clients by the STS for accessing resources. They cont
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjA2NjQ4OCw2NTA2MTQ3NjcsMTEyMT
-g1Nzc3Niw2NTM3MTMxMTEsLTk4MTY0NzQzOSwtMjA5Njg5NDU0
-OV19
+eyJoaXN0b3J5IjpbLTE1ODE3MjY3ODMsNjUwNjE0NzY3LDExMj
+E4NTc3NzYsNjUzNzEzMTExLC05ODE2NDc0MzksLTIwOTY4OTQ1
+NDldfQ==
 -->
