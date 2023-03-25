@@ -54,7 +54,6 @@ Access token are issued to clients by the STS for accessing resources. They cont
 * Terminology in OAuth 2.0 - https://identityserver4.readthedocs.io/en/latest/intro/terminology.html
 * Overview of different OAuth 2.0 flows - https://auth0.com/docs/get-started/authentication-and-authorization-flow
 
-
 <hr/>
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -62,7 +61,7 @@ Access token are issued to clients by the STS for accessing resources. They cont
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDUwMzEwMTIsMTk5OTA1NDg5MCw2NT
-A2MTQ3NjcsMTEyMTg1Nzc3Niw2NTM3MTMxMTEsLTk4MTY0NzQz
-OSwtMjA5Njg5NDU0OV19
+eyJoaXN0b3J5IjpbNDQ2MDU5Mzc0LDE5OTkwNTQ4OTAsNjUwNj
+E0NzY3LDExMjE4NTc3NzYsNjUzNzEzMTExLC05ODE2NDc0Mzks
+LTIwOTY4OTQ1NDldfQ==
 -->
