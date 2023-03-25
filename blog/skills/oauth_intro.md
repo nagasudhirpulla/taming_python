@@ -3,9 +3,9 @@
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 ## What is OAuth 2.0
-- Using OAuth 2.0 specification, applications can trust a central server for authorizing and authenticating users or applications 
-- Identity server can authenticate users or applications and issue tokens to them for getting access to the secured resources in the resource server
+- Using OAuth 2.0 specification, applications can trust a central server for authorizing and authenticating users or applications
 - The identity and access rights information of users or applications will be centrally stored in the identity server / Secure Token Service (STS)
+- Identity server can authenticate users or applications and issue tokens to them for getting access to the secured resources in the resource server
 - Since user or application gets authenticated at an identity server for getting access to resources in one or multiple resource servers, Single-Sign-On (SSO) is implementable using OAuth 2.0
 
 ### References
@@ -20,5 +20,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTkxOTMzOV19
+eyJoaXN0b3J5IjpbLTIwOTY4OTQ1NDldfQ==
 -->
