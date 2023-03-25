@@ -30,6 +30,8 @@ Identity token is issued by the STS to the client after authenticating a user. I
 ### Access Token
 Access token are issued to clients by the STS for accessing resources. They contain information about the client and user (if present). APIs use these tokens to validate the access of clients
 
+
+
 ### References
 * Official guide - https://matplotlib.org/3.1.1/gallery/ticks_and_spines/tick-locators.html
 * Official documentation - https://matplotlib.org/3.1.1/api/ticker_api.html#tick-locating
@@ -42,6 +44,6 @@ Access token are issued to clients by the STS for accessing resources. They cont
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODQyMDgxMiw2NTM3MTMxMTEsLTk4MT
+eyJoaXN0b3J5IjpbMTEyMTg1Nzc3Niw2NTM3MTMxMTEsLTk4MT
 Y0NzQzOSwtMjA5Njg5NDU0OV19
 -->
