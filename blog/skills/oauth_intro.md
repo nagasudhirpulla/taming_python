@@ -50,6 +50,11 @@ Access token are issued to clients by the STS for accessing resources. They cont
 ### OAuth 2.0 client and Resource Server 
 * OAuth 2.0 authorization and authentication can be integrated in applications using many opensource frameworks in various languages like authlilb in python, ASP.NET Core Identity, IdentityModel in dotnet
 
+### Video
+You can see the video on this post [here](https://youtu.be/W7yeiglv9mI) 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W7yeiglv9mI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### References
 * Terminology in OAuth 2.0 - https://identityserver4.readthedocs.io/en/latest/intro/terminology.html
 * Overview of different OAuth 2.0 flows - https://auth0.com/docs/get-started/authentication-and-authorization-flow
@@ -61,7 +66,7 @@ Access token are issued to clients by the STS for accessing resources. They cont
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Nzk5MDIwMiw0NDYwNTkzNzQsMTk5OT
-A1NDg5MCw2NTA2MTQ3NjcsMTEyMTg1Nzc3Niw2NTM3MTMxMTEs
-LTk4MTY0NzQzOSwtMjA5Njg5NDU0OV19
+eyJoaXN0b3J5IjpbLTIxMDE4OTczOTgsLTk5Nzk5MDIwMiw0ND
+YwNTkzNzQsMTk5OTA1NDg5MCw2NTA2MTQ3NjcsMTEyMTg1Nzc3
+Niw2NTM3MTMxMTEsLTk4MTY0NzQzOSwtMjA5Njg5NDU0OV19
 -->
