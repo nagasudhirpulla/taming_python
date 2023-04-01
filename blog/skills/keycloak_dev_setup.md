@@ -1,8 +1,7 @@
 ## Skill - Setup Keycloak as OAuth 2.0 server in Windows for testing and development
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
-
-<hr/>
+<br>
 
 In this post we will learn how to setup Keycloak easily on windows for development and testing purposes
 
@@ -53,5 +52,5 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDQ5Mjk3Ml19
+eyJoaXN0b3J5IjpbNDQxNjI2MDczXX0=
 -->
