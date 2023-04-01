@@ -162,7 +162,7 @@ Here are the goals and skills in this tutorial series
 * [Integrate swagger and model validation to flask APIs with flask-restx](https://nagasudhir.blogspot.com/2023/03/integrate-swagger-and-many-other.html)
 
 #### OAuth 2.0
-* 
+* [OAuth 2.0 for centralized Authorization and Authentication of users and applications](https://nagasudhir.blogspot.com/2023/03/oauth-20-for-centralized-authorization.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -170,11 +170,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEyNDU0MDYxMjEsLTIyMj
-EyMzAzNSwtMTA4MDUzNjU1NywxMTM5NTIxMCwtMzMzNzgxOTYx
-LDE3NTE3MTM5MzEsNjUzMDI5ODU4LDk2OTYwODg2NCwtMTUyNj
-I2MDQ2NCwtOTUxMzAyMTAxLDIxMzc1NTA4OTMsODA5NTQyNyw0
-ODA2MDg4MzQsOTMwOTcxMzM4LC0zOTk5NTQ4NzcsMTE1MjMyMz
-A3NSwxNzM5ODE5MDMyLDEyODA1OTg5MDgsNTY2NDgxMDM2LC0x
-OTA2NTM4MTY0XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTI2NzA2NDU4MiwtMjIyMT
+IzMDM1LC0xMDgwNTM2NTU3LDExMzk1MjEwLC0zMzM3ODE5NjEs
+MTc1MTcxMzkzMSw2NTMwMjk4NTgsOTY5NjA4ODY0LC0xNTI2Mj
+YwNDY0LC05NTEzMDIxMDEsMjEzNzU1MDg5Myw4MDk1NDI3LDQ4
+MDYwODgzNCw5MzA5NzEzMzgsLTM5OTk1NDg3NywxMTUyMzIzMD
+c1LDE3Mzk4MTkwMzIsMTI4MDU5ODkwOCw1NjY0ODEwMzYsLTE5
+MDY1MzgxNjRdfQ==
 -->
