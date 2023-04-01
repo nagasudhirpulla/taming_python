@@ -47,7 +47,7 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 * However this setup should not directly used in production
 * A production ready database like PostgreSQL should be used instead of the default file based database
 * SSL should be configured
-* 
+* Proper logging should be configured
 
 ## References
 - Keycloak installation on bare metal - [https://www.keycloak.org/getting-started/getting-started-zip](https://www.keycloak.org/getting-started/getting-started-zip)
@@ -59,5 +59,5 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NjY2Mjk3MSwxODU5MzYwNDI3XX0=
+eyJoaXN0b3J5IjpbNDUyMDc3MjA4LDE4NTkzNjA0MjddfQ==
 -->
