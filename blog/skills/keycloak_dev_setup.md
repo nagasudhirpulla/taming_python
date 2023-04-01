@@ -2,7 +2,6 @@
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <br>
-
 In this post we will learn how to setup Keycloak easily on windows for development and testing purposes
 
 - The main component of an OAuth 2.0 flow is the OAuth 2.0 server or the STS (Security Token Service)
@@ -52,5 +51,5 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxNjI2MDczXX0=
+eyJoaXN0b3J5IjpbMTg1OTM2MDQyN119
 -->
