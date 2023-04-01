@@ -51,6 +51,11 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 * A reverse proxy like IIS, apache2 or nginx should be used
 * Further server administration guides can be found at https://www.keycloak.org/guides#server
 
+### Video
+Video for this post can be found [here](https://youtu.be/vOsYE_rTikQ)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vOsYE_rTikQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## References
 - Keycloak installation on bare metal - [https://www.keycloak.org/getting-started/getting-started-zip](https://www.keycloak.org/getting-started/getting-started-zip)
 - OpenJDK download link - [https://jdk.java.net](https://jdk.java.net/)
@@ -61,5 +66,6 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODkyMDY0MSwxODU5MzYwNDI3XX0=
+eyJoaXN0b3J5IjpbMTY4MDQ0NTUxLDEyMjg5MjA2NDEsMTg1OT
+M2MDQyN119
 -->
