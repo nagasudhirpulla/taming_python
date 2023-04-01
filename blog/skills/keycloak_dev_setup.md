@@ -2,7 +2,8 @@
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
-<hr>
+<hr/>
+
 In this post we will learn how to setup Keycloak easily on windows for development and testing purposes
 
 - The main component of an OAuth 2.0 flow is the OAuth 2.0 server or the STS (Security Token Service)
@@ -49,7 +50,6 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 - Client Scopes can be managed by clicking the “Client Scopes” section of the left navigation bar
 
 ## References
-
 - Keycloak installation on bare metal - [https://www.keycloak.org/getting-started/getting-started-zip](https://www.keycloak.org/getting-started/getting-started-zip)
 - OpenJDK download link - [https://jdk.java.net](https://jdk.java.net/)
 - Keycloak zip download link - [https://www.keycloak.org/downloads](https://www.keycloak.org/downloads)
@@ -61,5 +61,5 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzEwMDYwOV19
+eyJoaXN0b3J5IjpbLTEwMjMxOTA4NF19
 -->
