@@ -49,7 +49,7 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 * SSL should be configured
 * Proper logging should be configured
 * A reverse proxy like IIS, apache2 or nginx should be used
-* More server administration guides can be found at https://www.keycloak.org/guides#server
+* Further server administration guides can be found at https://www.keycloak.org/guides#server
 
 ## References
 - Keycloak installation on bare metal - [https://www.keycloak.org/getting-started/getting-started-zip](https://www.keycloak.org/getting-started/getting-started-zip)
@@ -61,5 +61,5 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDE0ODM3MDEsMTg1OTM2MDQyN119
+eyJoaXN0b3J5IjpbLTM1MzcwMDAyNCwxODU5MzYwNDI3XX0=
 -->
