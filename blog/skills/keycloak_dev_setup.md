@@ -8,7 +8,7 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 - [Keycloak](https://www.keycloak.org/) is an open-source Identity and Access Management (IAM) solution by RedHat that can be used as an OAuth 2.0 server.
 - Keycloak provides an admin UI for managing users, clients and resources
 - Keycloak can run on bare-metal or Docker or Kubernetes
-- Keycloak can act as a central location for securely storing the users and clients information
+- Keycloak can be used to securely store the users and clients information in a central location
 
 ## Download and install Keycloak
 - Before installing keycloak, ensure OpenJDK 11 or latest is installed. OpenJDK can be downloaded and installed from [https://jdk.java.net/](https://jdk.java.net/)
@@ -55,5 +55,5 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODM2ODM2NDAsMTg1OTM2MDQyN119
+eyJoaXN0b3J5IjpbMTM2MjMzNzI0MiwxODU5MzYwNDI3XX0=
 -->
