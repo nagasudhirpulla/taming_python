@@ -42,7 +42,7 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 - Clients can be managed by clicking the “Clients” section of the left navigation bar
 - Client Scopes can be managed by clicking the “Client Scopes” section of the left navigation bar
 
-## Conclusion
+## Running in Production
 * We have setup a Keycloak server very easily for development and testing purposes
 * However the above setup should not directly used in production
 * A production ready database like PostgreSQL should be used instead of the default file based database
@@ -59,5 +59,5 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5NzkyODA3LDE4NTkzNjA0MjddfQ==
+eyJoaXN0b3J5IjpbLTk5NzMwOTQ0OSwxODU5MzYwNDI3XX0=
 -->
