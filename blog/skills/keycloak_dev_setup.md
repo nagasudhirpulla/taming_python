@@ -48,6 +48,7 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 * A production ready database like PostgreSQL should be used instead of the default file based database
 * SSL should be configured
 * Proper logging should be configured
+* A reverse proxy like IIS, apache2 or nginx should be used
 * 
 
 ## References
@@ -60,5 +61,5 @@ In this post we will learn how to setup Keycloak easily on windows for developme
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDQ1NjgwMCwxODU5MzYwNDI3XX0=
+eyJoaXN0b3J5IjpbODg4OTA3MDExLDE4NTkzNjA0MjddfQ==
 -->
