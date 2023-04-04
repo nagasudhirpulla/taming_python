@@ -16,6 +16,11 @@
 - Step 4 - The resource API validates the access token (and the client scopes if required) and sends the response to the client
 
 ### Implementation of client credentials flow
+### Creating a client in keycloak for demo
+* Create a realm named "myorg" in keycloak
+* Create a client scope named "test_api_access"
+* Create a c
+
 #### The "well-known" configuration endpoint
 * To get the STS URLs for various tasks like getting public keys, fetching, validating, revoking token, verifying tokens etc., the STS provides a URL called "well-known" URL as per the OAuth 2.0 specification
 * In keycloak the well-known endpoint for a realm named "myorg" would be something like http://localhost:8080/realms/myorg/.well-known/openid-configuration . The well-known URL can be found in the Realm settings page of keycloak
@@ -125,8 +130,9 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzA1NjcyMCwtMTI4NTU4NTE3MSwtMT
-kxMTExMDg4LC05MDA0MzQ2NDYsLTM2MzA5MDA1NSw3NjE0OTE4
-NTksMTMzMzQyNTEwMywtMTM5NTE3Nzk4OSwxODA4NTU0NzQzLD
-E3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbLTEzNDk2MjUwNjQsMTUxNzA1NjcyMCwtMT
+I4NTU4NTE3MSwtMTkxMTExMDg4LC05MDA0MzQ2NDYsLTM2MzA5
+MDA1NSw3NjE0OTE4NTksMTMzMzQyNTEwMywtMTM5NTE3Nzk4OS
+wxODA4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2
+MDI4Njg5XX0=
 -->
