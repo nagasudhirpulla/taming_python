@@ -123,7 +123,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 * The **expiry** of the access token can also be verified using the "exp" attribute of the access token JWT payload
 * Once all the validation on access token is completed, the resource server can authorize client application and send the desired response to client application
 
-### Validating the access token using token introspection endpoint
+### Validating the access token using the token introspection endpoint
 * Validating the JWT access token using public key is sufficient in most of the cases.
 * But for security reasons, if the client application revokes an access token at the OAuth server before expiry, the resource would not know about the token revocation.
 * So to accommodate scenarios like token revocation at OAuth server before expiry, the resource server can ask the OAuth server to validate the token using the token introspection endpoint of the OAuth server. The token introspection endpoint URL can be located in the well-known configuration using the "introspection_endpoint" attribute.
@@ -160,9 +160,9 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2OTUzMTA2LDQ5MTYyMjc0NiwxNTE3MD
-U2NzIwLC0xMjg1NTg1MTcxLC0xOTExMTEwODgsLTkwMDQzNDY0
-NiwtMzYzMDkwMDU1LDc2MTQ5MTg1OSwxMzMzNDI1MTAzLC0xMz
-k1MTc3OTg5LDE4MDg1NTQ3NDMsMTczNjcwNDU4LDExNzg5ODcy
-OTIsLTEyNDYwMjg2ODldfQ==
+eyJoaXN0b3J5IjpbMTc4NDYxNTM5NSw0OTE2MjI3NDYsMTUxNz
+A1NjcyMCwtMTI4NTU4NTE3MSwtMTkxMTExMDg4LC05MDA0MzQ2
+NDYsLTM2MzA5MDA1NSw3NjE0OTE4NTksMTMzMzQyNTEwMywtMT
+M5NTE3Nzk4OSwxODA4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3
+MjkyLC0xMjQ2MDI4Njg5XX0=
 -->
