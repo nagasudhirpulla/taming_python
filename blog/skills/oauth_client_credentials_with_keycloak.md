@@ -24,10 +24,9 @@
 ![keycloak_client_credentials_settings.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_client_credentials_settings.png)
 * In the client scopes tab of the client, add the scope "test_api_access". If the scope is made optional, the access token will include this scope only if explicitly requested by the client application 
  
-
 #### The "well-known" configuration endpoint
-* To get the STS URLs for various tasks like getting public keys, fetching, validating, revoking token, verifying tokens etc., the STS provides a URL called "well-known" URL as per the OAuth 2.0 specification
-* In keycloak the well-known endpoint for a realm named "myorg" would be something like http://localhost:8080/realms/myorg/.well-known/openid-configuration . The well-known URL can be found in the Realm settings page of keycloak
+* To get the STS URLs for various tasks like getting public keys, fetching, validating, revoking, verifying tokens etc., the STS provides a URL called "well-known" URL as per the OAuth 2.0 specification
+* In keycloak, the well-known endpoint for a realm named "myorg" would be something like http://localhost:8080/realms/myorg/.well-known/openid-configuration . The well-known URL can also be found in the Realm settings page of keycloak
 * The well-known URL will return a JSON that contains URLs for various endpoints like certificates, tokens, token revocation etc as shown in the below image
 
 ![oauth_well_known_endpoint.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_well_known_endpoint.png)
@@ -119,7 +118,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 ```
 
 ### Verifying the access token by resource server
-* The integrity of the access token received for authorization at the resource server can be verified by the JWT signature
+* The integrity of the access token received for authorization at the resource server can be verified by the JWT signature. The public key URL required for verifying the JWT signature can be found in the "jwks_uri" of the well-known configuraiopage  
 * The scopes of the client application requesting authorization can be verified in the "scope" attribute of the access token JWT payload
 * The expiry of the access token can also be verified using the "exp" attribute of the access token JWT payload
 
@@ -134,9 +133,9 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1MDM3ODA5LDE1MTcwNTY3MjAsLTEyOD
-U1ODUxNzEsLTE5MTExMTA4OCwtOTAwNDM0NjQ2LC0zNjMwOTAw
-NTUsNzYxNDkxODU5LDEzMzM0MjUxMDMsLTEzOTUxNzc5ODksMT
-gwODU1NDc0MywxNzM2NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAy
-ODY4OV19
+eyJoaXN0b3J5IjpbMTM4Mjg2OTk1NiwxNTE3MDU2NzIwLC0xMj
+g1NTg1MTcxLC0xOTExMTEwODgsLTkwMDQzNDY0NiwtMzYzMDkw
+MDU1LDc2MTQ5MTg1OSwxMzMzNDI1MTAzLC0xMzk1MTc3OTg5LD
+E4MDg1NTQ3NDMsMTczNjcwNDU4LDExNzg5ODcyOTIsLTEyNDYw
+Mjg2ODldfQ==
 -->
