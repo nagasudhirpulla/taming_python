@@ -50,8 +50,8 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
 
 ### Parsing access token as a JWT (JSON Web Token)
 * JWT is a string that contains a header, payload (the main JSON) and hash of the payload.
-* The integrity of JWT can be checked by verifying the hash of the payload and matching it with the hash of JWT. If the payload was tampered, the hash of payload and the hash of JWT will not match
-* JWT is a string in the format of `<header>.<payload>.<hash>`. The header and payload will be base64 encoded in the JWT string
+* The integrity of JWT can be checked by verifying the hash of the payload and matching it with the hash of JWT. If the payload was tampered, the signature of payload and the hash of JWT will not match
+* JWT is a string in the format of `<header>.<payload>.<signature>`. The header and payload will be base64 encoded in the JWT string
 * The hash of the payload can be derived using the public key of the OAuth 2.0 server and the hashing algorithm defined in the JWT header. 
 * For example, consider an access token below received as a JWT 
 
@@ -123,7 +123,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTE2MjQ4MywtMzYzMDkwMDU1LDc2MT
+eyJoaXN0b3J5IjpbMTMzNzA2MjQ1NywtMzYzMDkwMDU1LDc2MT
 Q5MTg1OSwxMzMzNDI1MTAzLC0xMzk1MTc3OTg5LDE4MDg1NTQ3
 NDMsMTczNjcwNDU4LDExNzg5ODcyOTIsLTEyNDYwMjg2ODldfQ
 ==
