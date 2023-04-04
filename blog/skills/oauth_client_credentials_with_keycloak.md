@@ -25,7 +25,8 @@
 ### Fetching access_tokens from the token_endpoint
 *  Access tokens can be fetched from the token_endpoint URL. The token_endpoint URL can also be found in the well-known URL
 * For example, to fetch a token from keycloak realm, say myorg, the token endpoint would be "http://localhost:8080/realms/myorg/protocol/openid-connect/token"
-* A POST request should be made to the token_endpoint URL to get the access token. The POST request body should contain the client ID, client secret, grant type (client_credentials) and scope (optional). Note that if a scope required by the client application is not a default scope, it should be  explicitly mentioned in the "scope" parameter of the token request POST body 
+* A POST request should be made to the token_endpoint URL to get the access token. The POST request body should contain the client ID, client secret, grant type (client_credentials) and scope (optional). 
+* Note that if a scope required by the client application is not a default scope, it should be  explicitly mentioned in the "scope" parameter of the token request POST body 
 * An example request to fetch access token from OAuth server can be
 
 ```
@@ -58,6 +59,6 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTIyNzg3MzMsMTgwODU1NDc0MywxNz
+eyJoaXN0b3J5IjpbLTEzOTUxNzc5ODksMTgwODU1NDc0MywxNz
 M2NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAyODY4OV19
 -->
