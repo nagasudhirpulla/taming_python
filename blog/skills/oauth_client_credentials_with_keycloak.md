@@ -8,7 +8,8 @@
 
 
 ## References
-- Client credentials flow - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
+- Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
+- 
 
 <hr/>
 
@@ -16,5 +17,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ0MjkwNjldfQ==
+eyJoaXN0b3J5IjpbMTk4MzU1ODMwOF19
 -->
