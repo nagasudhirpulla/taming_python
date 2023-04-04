@@ -125,7 +125,8 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 ### Validating the access token using token introspection endpoint
 * Validating the JWT access token using public key is sufficient in most of the cases.
-* But for security reasons, if t token is revoked at the OAuth server before expiry, 
+* But for security reasons, if the client application revokes an access token at the OAuth server before expiry, the resource would not know about the token revocation.
+* So to accommodate scenarios like token revocation a
 
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
@@ -137,9 +138,9 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTg0OTQ2NTgsMTUxNzA1NjcyMCwtMT
-I4NTU4NTE3MSwtMTkxMTExMDg4LC05MDA0MzQ2NDYsLTM2MzA5
-MDA1NSw3NjE0OTE4NTksMTMzMzQyNTEwMywtMTM5NTE3Nzk4OS
-wxODA4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2
-MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbLTg1NTE5MDcxMywxNTE3MDU2NzIwLC0xMj
+g1NTg1MTcxLC0xOTExMTEwODgsLTkwMDQzNDY0NiwtMzYzMDkw
+MDU1LDc2MTQ5MTg1OSwxMzMzNDI1MTAzLC0xMzk1MTc3OTg5LD
+E4MDg1NTQ3NDMsMTczNjcwNDU4LDExNzg5ODcyOTIsLTEyNDYw
+Mjg2ODldfQ==
 -->
