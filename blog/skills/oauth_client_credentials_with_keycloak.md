@@ -24,7 +24,7 @@
 ![oauth_well_known_endpoint.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_well_known_endpoint.png)
 ### Fetching access_tokens from the token_endpoint
 *  Access tokens can be fetched from the token_endpoint URL. The token_endpoint URL can also be found in the well-known URL
-* For example, to fetch a token from keycloak realm, say myorg, the token endpoint would be "http://localhost:8080/realms/myorg/protocol/openid-connect/token"
+* For example, to fetch a token from keycloak realm, say myorg, the token endpoint would be http://localhost:8080/realms/myorg/protocol/openid-connect/token
 * A POST request should be made to the token_endpoint URL to get the access token. The POST request body should contain the client ID, client secret, grant type (client_credentials) and scope (optional). 
 * Note that if a scope required by the client application is not a default scope, it should be  explicitly mentioned in the "scope" parameter of the token request POST body. Multiple scopes can be mentioned in the "scope" parameter with spaces in between each scope name.
 * An example request to fetch access token from OAuth server can be
@@ -59,7 +59,7 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDQ1NSwtMTM5NTE3Nzk4OSwxODA4NT
-U0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5
-XX0=
+eyJoaXN0b3J5IjpbLTE0MDQxNDcxNywtMTM5NTE3Nzk4OSwxOD
+A4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4
+Njg5XX0=
 -->
