@@ -121,7 +121,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 * The **integrity** of the access token received for authorization at the resource server can be verified by the JWT signature. The public key URL required for verifying the JWT signature can be found in the "jwks_uri" of the well-known configuration page  
 * The **scopes** of the client application requesting authorization can be verified in the "scope" attribute of the access token JWT payload
 * The **expiry** of the access token can also be verified using the "exp" attribute of the access token JWT payload
-* Once all the validation on access token is completed, the resource server can authorize client application and send the desired response 
+* Once all the validation on access token is completed, the resource server can authorize client application and send the desired response to client application
 
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
@@ -133,9 +133,9 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTEwMzY2OCwxNTE3MDU2NzIwLC0xMj
-g1NTg1MTcxLC0xOTExMTEwODgsLTkwMDQzNDY0NiwtMzYzMDkw
-MDU1LDc2MTQ5MTg1OSwxMzMzNDI1MTAzLC0xMzk1MTc3OTg5LD
-E4MDg1NTQ3NDMsMTczNjcwNDU4LDExNzg5ODcyOTIsLTEyNDYw
-Mjg2ODldfQ==
+eyJoaXN0b3J5IjpbMjE0NTg1MTAwLDE1MTcwNTY3MjAsLTEyOD
+U1ODUxNzEsLTE5MTExMTA4OCwtOTAwNDM0NjQ2LC0zNjMwOTAw
+NTUsNzYxNDkxODU5LDEzMzM0MjUxMDMsLTEzOTUxNzc5ODksMT
+gwODU1NDc0MywxNzM2NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAy
+ODY4OV19
 -->
