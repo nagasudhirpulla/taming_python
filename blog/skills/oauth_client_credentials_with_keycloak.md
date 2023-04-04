@@ -110,7 +110,8 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 ```
 
 ### Verifying the access token by resource server
-* The integrity of the access token received for authorization at the resource server can be verified by 
+* The integrity of the access token received for authorization at the resource server can be verified by the JWT signature
+* The scopes of the client application requesting authorization can be verified in the "scope" attribute of the access token JWT payload  
 
 
 ## References
@@ -123,7 +124,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDE4NTA5MSwtMTI4NTU4NTE3MSwtMT
+eyJoaXN0b3J5IjpbMjA1MzEzNjQ3MSwtMTI4NTU4NTE3MSwtMT
 kxMTExMDg4LC05MDA0MzQ2NDYsLTM2MzA5MDA1NSw3NjE0OTE4
 NTksMTMzMzQyNTEwMywtMTM5NTE3Nzk4OSwxODA4NTU0NzQzLD
 E3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
