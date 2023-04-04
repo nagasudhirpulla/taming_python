@@ -17,7 +17,7 @@
 
 ### Implementation of client credentials flow
 #### The "well-known" configuration endpoint
-
+* To easily discover the OAUthendpoints for 
 
 
 ## References
@@ -30,6 +30,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODMwNDQ3MywxMTc4OTg3MjkyLC0xMj
-Q2MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbLTYwMzU5MjQzLDExNzg5ODcyOTIsLTEyND
+YwMjg2ODldfQ==
 -->
