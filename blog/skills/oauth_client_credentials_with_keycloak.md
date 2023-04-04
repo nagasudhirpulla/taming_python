@@ -65,6 +65,7 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
 
 ### Parsing access token as a JWT (JSON Web Token)
 * JWT is a string that contains a header, payload (the main JSON) and signature of the payload.
+* A very handy tool to validate and visualize JWTs can be found at https://jwt.io/
 * The integrity of JWT can be checked by verifying the signature of the payload and matching it with the signature of JWT. If the payload was tampered, the signature of payload and the signature of JWT will not match
 * JWT is a string in the format of `<header>.<payload>.<signature>`. The header and payload will be base64 encoded in the JWT string
 * The signature of the payload can be derived using the public key of the OAuth server and the signing algorithm defined in the JWT header. 
@@ -169,9 +170,9 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzg2NTE2MzgsLTE4OTc2NTM2MTAsND
-kxNjIyNzQ2LDE1MTcwNTY3MjAsLTEyODU1ODUxNzEsLTE5MTEx
-MTA4OCwtOTAwNDM0NjQ2LC0zNjMwOTAwNTUsNzYxNDkxODU5LD
-EzMzM0MjUxMDMsLTEzOTUxNzc5ODksMTgwODU1NDc0MywxNzM2
-NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAyODY4OV19
+eyJoaXN0b3J5IjpbLTgyODQ2NjU3NiwtMTg5NzY1MzYxMCw0OT
+E2MjI3NDYsMTUxNzA1NjcyMCwtMTI4NTU4NTE3MSwtMTkxMTEx
+MDg4LC05MDA0MzQ2NDYsLTM2MzA5MDA1NSw3NjE0OTE4NTksMT
+MzMzQyNTEwMywtMTM5NTE3Nzk4OSwxODA4NTU0NzQzLDE3MzY3
+MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
 -->
