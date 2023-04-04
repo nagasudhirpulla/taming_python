@@ -18,7 +18,8 @@
 ### Implementation of client credentials flow
 #### The "well-known" configuration endpoint
 * To get the STS URLs for various tasks like getting public keys, fetching, validating, revoking token, verifying tokens etc., the STS provides a URL called "well-known" URL as per the OAuth 2.0 specification
-* In keycloak the well-known endpoint for a realm named "myorg" would be something like "http://localhost:8080/realms/myorg/.well-known/openid-configuration". The well-known URL can be found in the ealm settings page of keycloak
+* In keycloak the well-known endpoint for a realm named "myorg" would be something like "http://localhost:8080/realms/myorg/.well-known/openid-configuration". The well-known URL can be found in the Realm settings page of keycloak
+* 
 
 
 ## References
@@ -31,6 +32,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwNjA0OTk0LDExNzg5ODcyOTIsLTEyND
+eyJoaXN0b3J5IjpbMTczNjcwNDU4LDExNzg5ODcyOTIsLTEyND
 YwMjg2ODldfQ==
 -->
