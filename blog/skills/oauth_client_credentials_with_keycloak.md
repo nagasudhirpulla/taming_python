@@ -51,7 +51,7 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
 * JWT is a string that contains a header, payload (the main JSON) and hash of the payload.
 * The integrity of JWT can be checked by verifying the hash of the payload and matching it with the hash of JWT. If the payload was tampered, the hash of payload and the hash of JWT will not match
 * JWT is a string in the format of `<header>.<payload>.<hash>`. The header and payload will be base64 encoded in the JWT string
-* The 
+* The hash of the payload can be derived using the public key of the OAuth 2.0 server and the hashing algorithm defined in the JWT header. 
 * For example, consider an access token below received as a JWT 
 
 ```
@@ -118,7 +118,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTg3NzI2NDMsNzYxNDkxODU5LDEzMz
-M0MjUxMDMsLTEzOTUxNzc5ODksMTgwODU1NDc0MywxNzM2NzA0
-NTgsMTE3ODk4NzI5MiwtMTI0NjAyODY4OV19
+eyJoaXN0b3J5IjpbLTYxMzcxMDU4OCw3NjE0OTE4NTksMTMzMz
+QyNTEwMywtMTM5NTE3Nzk4OSwxODA4NTU0NzQzLDE3MzY3MDQ1
+OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
 -->
