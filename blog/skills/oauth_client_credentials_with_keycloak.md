@@ -15,6 +15,9 @@
 - Step 3 - The client sends request to resource API with access token attached to the request
 - Step 4 - The resource API validates the access token (and the client scopes if required) and sends the response to the client
 
+### Implementation of client credentials flow
+
+
 
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
@@ -26,6 +29,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzg1MDY4OTQsMTE3ODk4NzI5MiwtMT
-I0NjAyODY4OV19
+eyJoaXN0b3J5IjpbMTczNjY2NjE1MSwxMTc4OTg3MjkyLC0xMj
+Q2MDI4Njg5XX0=
 -->
