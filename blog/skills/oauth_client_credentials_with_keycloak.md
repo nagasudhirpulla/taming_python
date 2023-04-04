@@ -15,7 +15,7 @@
 ### Workflow of Client Credentials flow
 
 ![oauth_client_credentials_flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_client_credentials_flow.png)
-- As a one time activity, the client application will be registered in the STS (Secure Token Service or OAuth 2.0 server) with the required API scopes. The client will be given “client id” and “client secret” by the STS
+- As a one time activity, the client application will be registered in the STS (Secure Token Service or OAuth server) with the required API scopes. The client will be given “client id” and “client secret” by the STS
 - Step 1 - The client sends “client id” and “client secret” and requests access token from the STS
 - Step 2 - The STS validates the client ID and client secret and issues an access token to the client
 - Step 3 - The client sends request to resource API with access token attached to the request
@@ -67,7 +67,7 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
 * JWT is a string that contains a header, payload (the main JSON) and signature of the payload.
 * The integrity of JWT can be checked by verifying the signature of the payload and matching it with the signature of JWT. If the payload was tampered, the signature of payload and the signature of JWT will not match
 * JWT is a string in the format of `<header>.<payload>.<signature>`. The header and payload will be base64 encoded in the JWT string
-* The signature of the payload can be derived using the public key of the OAuth 2.0 server and the signing algorithm defined in the JWT header. 
+* The signature of the payload can be derived using the public key of the OAuth server and the signing algorithm defined in the JWT header. 
 * For example, consider a JWT access token below:
  
 ```
@@ -82,7 +82,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
   "kid": "GrmlgRPIFuyn2rWUk9z1mVtWKUMZ8Y0Np1b-vM_22BI"
 }
 ```
-* The encryption algorithm and public key id of the OAuth 2.0 server required for verifying the payload signature is present in the header. 
+* The encryption algorithm and public key id of the OAuth server required for verifying the payload signature is present in the header. 
 * The payload would be 
 ```eyJleHAiOjE2ODA1OTk2OTEsImlhdCI6MTY4MDU5OTM5MSwianRpIjoiOTkwMDU0ZTQtM2UzNS00ODI1LTllMDItNmMzZDZjZWZiZTQzIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9teW9yZyIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0NmQyZTg4OS0yYmFjLTQ5ZjYtOThmOS1lYjVkMzhmNjhmZjgiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJ0ZXN0X2FwaV9jbGllbnQiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtbXlvcmciLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7InRlc3RfYXBpX2NsaWVudCI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIHRlc3RfYXBpX2FjY2VzcyIsImNsaWVudEhvc3QiOiIxMjcuMC4wLjEiLCJjbGllbnRJZCI6InRlc3RfYXBpX2NsaWVudCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXRlc3RfYXBpX2NsaWVudCIsImNsaWVudEFkZHJlc3MiOiIxMjcuMC4wLjEifQ``` 
 The base 64 decoded payload would be 
@@ -169,9 +169,9 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTkxNjY1OCwtMTg5NzY1MzYxMCw0OT
-E2MjI3NDYsMTUxNzA1NjcyMCwtMTI4NTU4NTE3MSwtMTkxMTEx
-MDg4LC05MDA0MzQ2NDYsLTM2MzA5MDA1NSw3NjE0OTE4NTksMT
-MzMzQyNTEwMywtMTM5NTE3Nzk4OSwxODA4NTU0NzQzLDE3MzY3
-MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbLTIwMzg2NTE2MzgsLTE4OTc2NTM2MTAsND
+kxNjIyNzQ2LDE1MTcwNTY3MjAsLTEyODU1ODUxNzEsLTE5MTEx
+MTA4OCwtOTAwNDM0NjQ2LC0zNjMwOTAwNTUsNzYxNDkxODU5LD
+EzMzM0MjUxMDMsLTEzOTUxNzc5ODksMTgwODU1NDc0MywxNzM2
+NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAyODY4OV19
 -->
