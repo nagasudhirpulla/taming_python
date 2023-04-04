@@ -109,7 +109,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 }
 ```
 
-### Verifying the access token by Resource server
+### Verifying the access token by resource server
 * The access token's integrity (whether it was tampered) can be verified by deriving the signature the JWT payload using the information in the JWT header.
 * For example, as per the JWT received in the above example, the signature of the `<header>.<payload>` part of JWT can be signed and compared with the JWT signature to verify the integrity of the payload
 
@@ -124,7 +124,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3NjU5OTQ3LC0xMjg1NTg1MTcxLC0xOT
+eyJoaXN0b3J5IjpbNDU5ODYyNTM5LC0xMjg1NTg1MTcxLC0xOT
 ExMTEwODgsLTkwMDQzNDY0NiwtMzYzMDkwMDU1LDc2MTQ5MTg1
 OSwxMzMzNDI1MTAzLC0xMzk1MTc3OTg5LDE4MDg1NTQ3NDMsMT
 czNjcwNDU4LDExNzg5ODcyOTIsLTEyNDYwMjg2ODldfQ==
