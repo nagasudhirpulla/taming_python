@@ -111,7 +111,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 ### Verifying the JWT signature
 * The access token's integrity (whether it was tampered) can be verified by deriving the signature the JWT payload using the information in the JWT header.
-* For example, as per the JWT received in the 
+* For example, as per the JWT received in the above example, the signature of the `<header>.<payload>` part of JWT can be signed and the
 
 
 ## References
@@ -124,8 +124,8 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTUyMzUwMDksLTEyODU1ODUxNzEsLT
-E5MTExMTA4OCwtOTAwNDM0NjQ2LC0zNjMwOTAwNTUsNzYxNDkx
-ODU5LDEzMzM0MjUxMDMsLTEzOTUxNzc5ODksMTgwODU1NDc0My
-wxNzM2NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAyODY4OV19
+eyJoaXN0b3J5IjpbLTYxNDk1MTMxMiwtMTI4NTU4NTE3MSwtMT
+kxMTExMDg4LC05MDA0MzQ2NDYsLTM2MzA5MDA1NSw3NjE0OTE4
+NTksMTMzMzQyNTEwMywtMTM5NTE3Nzk4OSwxODA4NTU0NzQzLD
+E3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
 -->
