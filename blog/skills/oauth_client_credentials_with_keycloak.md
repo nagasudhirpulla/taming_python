@@ -9,9 +9,11 @@
 ### Workflow of Client Credentials flow
 
 ![oauth_client_credentials_flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_client_credentials_flow.png)
-* Before requesting for tokens, the client application should be registered in the OAuth 2.0 server. After registration, the client will get a client ID and client secret.
-* Step 1 - The client application sends request token from OAuth 2.0 server or Secure Token Service (STS) with its client ID and client secret in the request body
-* Step 2 - The OAuth 2.0 server will validate client id and client secret
+- As a one time activity, the client will be registered in the STS (Secure Token Service or OAuth 2.0 server) with the required API scopes. The client will be authenticated by STS using “client id” and “client secret”
+- The client sends “client id” and “client secret” and requests access token from the STS
+- The STS validates the client ID and client secret and issues an access token to the client
+- The client sends request to resource API with access token attached to the request
+- The resource API validates the access token (and client scope if required) and sends the response to the client
 
 
 ## References
@@ -24,6 +26,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDgxOTQxOTMsMTE3ODk4NzI5MiwtMT
-I0NjAyODY4OV19
+eyJoaXN0b3J5IjpbLTQxOTU2MDE1NywxMTc4OTg3MjkyLC0xMj
+Q2MDI4Njg5XX0=
 -->
