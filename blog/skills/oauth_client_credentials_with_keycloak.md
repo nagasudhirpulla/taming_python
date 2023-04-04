@@ -46,6 +46,7 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
   "scope": "profile email test_api_access"
 }
 ```
+* The access token fetched from the token endpoint can be attached in the requests being made to resource server. The resource server will validate the access token present in the request for authorizing the request 
 
 ### Access Token as a JWT (JSON Web Token)
 * JWT is a string that contains a header, payload (the main JSON) and hash of the payload.
@@ -118,7 +119,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzcxMDU4OCw3NjE0OTE4NTksMTMzMz
+eyJoaXN0b3J5IjpbLTY3NDExMjc5OCw3NjE0OTE4NTksMTMzMz
 QyNTEwMywtMTM5NTE3Nzk4OSwxODA4NTU0NzQzLDE3MzY3MDQ1
 OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
 -->
