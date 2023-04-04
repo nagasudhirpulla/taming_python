@@ -124,7 +124,8 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 * Once all the validation on access token is completed, the resource server can authorize client application and send the desired response to client application
 
 ### Validating the access token using token introspection endpoint
-* 
+* Validating the JWT access token using public key is sufficient in most of the cases.
+* But for security reasons, if t token is revoked at the OAuth server before expiry, 
 
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
@@ -136,7 +137,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjE0NzQzMDgsMTUxNzA1NjcyMCwtMT
+eyJoaXN0b3J5IjpbLTE2NTg0OTQ2NTgsMTUxNzA1NjcyMCwtMT
 I4NTU4NTE3MSwtMTkxMTExMDg4LC05MDA0MzQ2NDYsLTM2MzA5
 MDA1NSw3NjE0OTE4NTksMTMzMzQyNTEwMywtMTM5NTE3Nzk4OS
 wxODA4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2
