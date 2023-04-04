@@ -7,6 +7,7 @@
 - [Setup Keycloak as OAuth 2.0 server in Windows for testing and development](https://nagasudhir.blogspot.com/2023/04/setup-keycloak-as-oauth-20-server-in.html)
 
 <br>
+
 * In this post we will learn how can we secure machine to machine communication with OAuth 2.0 Client Credentials flow
 * We will also demonstrate OAuth 2.0 client credentials flow with keycloak
 
@@ -166,9 +167,9 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzNjA5NjY4LDQ5MTYyMjc0NiwxNTE3MD
-U2NzIwLC0xMjg1NTg1MTcxLC0xOTExMTEwODgsLTkwMDQzNDY0
-NiwtMzYzMDkwMDU1LDc2MTQ5MTg1OSwxMzMzNDI1MTAzLC0xMz
-k1MTc3OTg5LDE4MDg1NTQ3NDMsMTczNjcwNDU4LDExNzg5ODcy
-OTIsLTEyNDYwMjg2ODldfQ==
+eyJoaXN0b3J5IjpbLTE4OTc2NTM2MTAsNDkxNjIyNzQ2LDE1MT
+cwNTY3MjAsLTEyODU1ODUxNzEsLTE5MTExMTA4OCwtOTAwNDM0
+NjQ2LC0zNjMwOTAwNTUsNzYxNDkxODU5LDEzMzM0MjUxMDMsLT
+EzOTUxNzc5ODksMTgwODU1NDc0MywxNzM2NzA0NTgsMTE3ODk4
+NzI5MiwtMTI0NjAyODY4OV19
 -->
