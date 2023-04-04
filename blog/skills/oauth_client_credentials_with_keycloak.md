@@ -48,6 +48,9 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
 }
 ```
 
+### Access Token as a JWT (JSON Web Token)
+ 
+
 
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
@@ -59,7 +62,7 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzMjM4MDgzLC0xMzk1MTc3OTg5LDE4MD
-g1NTQ3NDMsMTczNjcwNDU4LDExNzg5ODcyOTIsLTEyNDYwMjg2
-ODldfQ==
+eyJoaXN0b3J5IjpbLTgyNzc2MzE3NywtMTM5NTE3Nzk4OSwxOD
+A4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4
+Njg5XX0=
 -->
