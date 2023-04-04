@@ -118,9 +118,9 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 ```
 
 ### Validating the access token by resource server
-* The integrity of the access token received for authorization at the resource server can be verified by the JWT signature. The public key URL required for verifying the JWT signature can be found in the "jwks_uri" of the well-known configuration page  
-* The scopes of the client application requesting authorization can be verified in the "scope" attribute of the access token JWT payload
-* The expiry of the access token can also be verified using the "exp" attribute of the access token JWT payload
+* The **integrity** of the access token received for authorization at the resource server can be verified by the JWT signature. The public key URL required for verifying the JWT signature can be found in the "jwks_uri" of the well-known configuration page  
+* The **scopes** of the client application requesting authorization can be verified in the "scope" attribute of the access token JWT payload
+* The **expiry** of the access token can also be verified using the "exp" attribute of the access token JWT payload
 
 
 ## References
@@ -133,7 +133,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MjkwNTY0MCwxNTE3MDU2NzIwLC0xMj
+eyJoaXN0b3J5IjpbLTkzOTg5ODAwOCwxNTE3MDU2NzIwLC0xMj
 g1NTg1MTcxLC0xOTExMTEwODgsLTkwMDQzNDY0NiwtMzYzMDkw
 MDU1LDc2MTQ5MTg1OSwxMzMzNDI1MTAzLC0xMzk1MTc3OTg5LD
 E4MDg1NTQ3NDMsMTczNjcwNDU4LDExNzg5ODcyOTIsLTEyNDYw
