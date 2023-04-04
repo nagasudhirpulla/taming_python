@@ -6,6 +6,7 @@
 * We will also demonstrate OAuth 2.0 client credentials flow with keycloak
 
 
+### Workflow of Client Credentials flow
 ![oauth_client_credentials_flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_client_credentials_flow.png)
 
 
@@ -19,5 +20,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTcyNTQxMywtMTI0NjAyODY4OV19
+eyJoaXN0b3J5IjpbNDI2NTk1NzczLC0xMjQ2MDI4Njg5XX0=
 -->
