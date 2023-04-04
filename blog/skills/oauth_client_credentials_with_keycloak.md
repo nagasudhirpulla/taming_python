@@ -13,7 +13,7 @@
 - The client sends “client id” and “client secret” and requests access token from the STS
 - The STS validates the client ID and client secret and issues an access token to the client
 - The client sends request to resource API with access token attached to the request
-- The resource API validates the access token (and client scope if required) and sends the response to the client
+- The resource API validates the access token (and the client scopes if required) and sends the response to the client
 
 
 ## References
@@ -26,6 +26,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDAzMzM3ODIsMTE3ODk4NzI5MiwtMT
+eyJoaXN0b3J5IjpbLTE1NzY3NjMxNjYsMTE3ODk4NzI5MiwtMT
 I0NjAyODY4OV19
 -->
