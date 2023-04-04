@@ -48,7 +48,7 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
 ```
 * The access token fetched from the token endpoint can be attached in the requests being made to resource server by the client application. The resource server will validate the access token present in the request for authorizing the request from client application.
 
-### Access Token as a JWT (JSON Web Token)
+### Parsing access token as a JWT (JSON Web Token)
 * JWT is a string that contains a header, payload (the main JSON) and hash of the payload.
 * The integrity of JWT can be checked by verifying the hash of the payload and matching it with the hash of JWT. If the payload was tampered, the hash of payload and the hash of JWT will not match
 * JWT is a string in the format of `<header>.<payload>.<hash>`. The header and payload will be base64 encoded in the JWT string
@@ -67,6 +67,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
   "kid": "GrmlgRPIFuyn2rWUk9z1mVtWKUMZ8Y0Np1b-vM_22BI"
 }
 ```
+* The hashing algorithm and public key id of the OAuth 2.0 server required for verifying the payload hash is present in the header. 
 * The payload would be `eyJleHAiOjE2ODA1OTk2OTEsImlhdCI6MTY4MDU5OTM5MSwianRpIjoiOTkwMDU0ZTQtM2UzNS00ODI1LTllMDItNmMzZDZjZWZiZTQzIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9teW9yZyIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0NmQyZTg4OS0yYmFjLTQ5ZjYtOThmOS1lYjVkMzhmNjhmZjgiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJ0ZXN0X2FwaV9jbGllbnQiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtbXlvcmciLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7InRlc3RfYXBpX2NsaWVudCI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIHRlc3RfYXBpX2FjY2VzcyIsImNsaWVudEhvc3QiOiIxMjcuMC4wLjEiLCJjbGllbnRJZCI6InRlc3RfYXBpX2NsaWVudCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXRlc3RfYXBpX2NsaWVudCIsImNsaWVudEFkZHJlc3MiOiIxMjcuMC4wLjEifQ`. The base 64 decoded payload would be 
 ```json
 {
@@ -106,7 +107,9 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
   "preferred_username": "service-account-test_api_client",
   "clientAddress": "127.0.0.1"
 }
-``` 
+```
+
+### Veri
 
 
 ## References
@@ -119,7 +122,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ5NzYyNzAsNzYxNDkxODU5LDEzMz
-M0MjUxMDMsLTEzOTUxNzc5ODksMTgwODU1NDc0MywxNzM2NzA0
-NTgsMTE3ODk4NzI5MiwtMTI0NjAyODY4OV19
+eyJoaXN0b3J5IjpbMTY4ODA1MTEyNyw3NjE0OTE4NTksMTMzMz
+QyNTEwMywtMTM5NTE3Nzk4OSwxODA4NTU0NzQzLDE3MzY3MDQ1
+OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
 -->
