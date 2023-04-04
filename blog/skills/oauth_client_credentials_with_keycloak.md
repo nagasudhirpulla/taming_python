@@ -65,7 +65,7 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
 
 ### Parsing access token as a JWT (JSON Web Token)
 * JWT is a string that contains a header, payload (the main JSON) and signature of the payload.
-* The integrity of JWT can be checked by verifying the signature of the payload and matching it with the signature of JWT. If the payload was tampered, the signature of payload and the hash of JWT will not match
+* The integrity of JWT can be checked by verifying the signature of the payload and matching it with the signature of JWT. If the payload was tampered, the signature of payload and the signature of JWT will not match
 * JWT is a string in the format of `<header>.<payload>.<signature>`. The header and payload will be base64 encoded in the JWT string
 * The signature of the payload can be derived using the public key of the OAuth 2.0 server and the signing algorithm defined in the JWT header. 
 * For example, consider a JWT access token below:
@@ -83,7 +83,9 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 }
 ```
 * The encryption algorithm and public key id of the OAuth 2.0 server required for verifying the payload signature is present in the header. 
-* The payload would be `eyJleHAiOjE2ODA1OTk2OTEsImlhdCI6MTY4MDU5OTM5MSwianRpIjoiOTkwMDU0ZTQtM2UzNS00ODI1LTllMDItNmMzZDZjZWZiZTQzIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9teW9yZyIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0NmQyZTg4OS0yYmFjLTQ5ZjYtOThmOS1lYjVkMzhmNjhmZjgiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJ0ZXN0X2FwaV9jbGllbnQiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtbXlvcmciLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7InRlc3RfYXBpX2NsaWVudCI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIHRlc3RfYXBpX2FjY2VzcyIsImNsaWVudEhvc3QiOiIxMjcuMC4wLjEiLCJjbGllbnRJZCI6InRlc3RfYXBpX2NsaWVudCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXRlc3RfYXBpX2NsaWVudCIsImNsaWVudEFkZHJlc3MiOiIxMjcuMC4wLjEifQ`. The base 64 decoded payload would be 
+* The payload would be 
+```eyJleHAiOjE2ODA1OTk2OTEsImlhdCI6MTY4MDU5OTM5MSwianRpIjoiOTkwMDU0ZTQtM2UzNS00ODI1LTllMDItNmMzZDZjZWZiZTQzIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9teW9yZyIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0NmQyZTg4OS0yYmFjLTQ5ZjYtOThmOS1lYjVkMzhmNjhmZjgiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJ0ZXN0X2FwaV9jbGllbnQiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtbXlvcmciLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7InRlc3RfYXBpX2NsaWVudCI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIHRlc3RfYXBpX2FjY2VzcyIsImNsaWVudEhvc3QiOiIxMjcuMC4wLjEiLCJjbGllbnRJZCI6InRlc3RfYXBpX2NsaWVudCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXRlc3RfYXBpX2NsaWVudCIsImNsaWVudEFkZHJlc3MiOiIxMjcuMC4wLjEifQ``` 
+The base 64 decoded payload would be 
 ```json
 {
   "exp": 1680599691,
@@ -134,7 +136,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 * Validating the JWT access token using public key is sufficient in most of the cases.
 * But for security reasons, if the client application revokes an access token at the OAuth server before expiry, the resource would not know about the token revocation.
 * So to accommodate scenarios like token revocation at OAuth server before expiry, the resource server can ask the OAuth server to validate the token using the token introspection endpoint of the OAuth server. The token introspection endpoint URL can be located in the well-known configuration using the "introspection_endpoint" attribute.
-* Let us consider and example to demonstrate the above scenario
+* Let us consider an example to demonstrate the above scenario
 * Let us assume a token `<access_token>` was issued to a client application and it expires in 5 minutes
 * The client application revokes the token using the following POST request to "revocation_endpoint" URL before 5 mins
 ```
@@ -167,9 +169,9 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTc2NTM2MTAsNDkxNjIyNzQ2LDE1MT
-cwNTY3MjAsLTEyODU1ODUxNzEsLTE5MTExMTA4OCwtOTAwNDM0
-NjQ2LC0zNjMwOTAwNTUsNzYxNDkxODU5LDEzMzM0MjUxMDMsLT
-EzOTUxNzc5ODksMTgwODU1NDc0MywxNzM2NzA0NTgsMTE3ODk4
-NzI5MiwtMTI0NjAyODY4OV19
+eyJoaXN0b3J5IjpbLTMwNTkxNjY1OCwtMTg5NzY1MzYxMCw0OT
+E2MjI3NDYsMTUxNzA1NjcyMCwtMTI4NTU4NTE3MSwtMTkxMTEx
+MDg4LC05MDA0MzQ2NDYsLTM2MzA5MDA1NSw3NjE0OTE4NTksMT
+MzMzQyNTEwMywtMTM5NTE3Nzk4OSwxODA4NTU0NzQzLDE3MzY3
+MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
 -->
