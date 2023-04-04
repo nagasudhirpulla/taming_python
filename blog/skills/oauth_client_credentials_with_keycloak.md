@@ -50,15 +50,15 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
 
 ### Parsing access token as a JWT (JSON Web Token)
 * JWT is a string that contains a header, payload (the main JSON) and hash of the payload.
-* The integrity of JWT can be checked by verifying the hash of the payload and matching it with the hash of JWT. If the payload was tampered, the signature of payload and the hash of JWT will not match
+* The integrity of JWT can be checked by verifying the signature of the payload and matching it with the signature of JWT. If the payload was tampered, the signature of payload and the hash of JWT will not match
 * JWT is a string in the format of `<header>.<payload>.<signature>`. The header and payload will be base64 encoded in the JWT string
-* The hash of the payload can be derived using the public key of the OAuth 2.0 server and the hashing algorithm defined in the JWT header. 
+* The signature of the payload can be derived using the public key of the OAuth 2.0 server and the hashing algorithm defined in the JWT header. 
 * For example, consider an access token below received as a JWT 
 
 ```
 eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1WdFdLVU1aOFkwTnAxYi12TV8yMkJJIn0.eyJleHAiOjE2ODA1OTk2OTEsImlhdCI6MTY4MDU5OTM5MSwianRpIjoiOTkwMDU0ZTQtM2UzNS00ODI1LTllMDItNmMzZDZjZWZiZTQzIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9teW9yZyIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0NmQyZTg4OS0yYmFjLTQ5ZjYtOThmOS1lYjVkMzhmNjhmZjgiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJ0ZXN0X2FwaV9jbGllbnQiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtbXlvcmciLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7InRlc3RfYXBpX2NsaWVudCI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIHRlc3RfYXBpX2FjY2VzcyIsImNsaWVudEhvc3QiOiIxMjcuMC4wLjEiLCJjbGllbnRJZCI6InRlc3RfYXBpX2NsaWVudCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXRlc3RfYXBpX2NsaWVudCIsImNsaWVudEFkZHJlc3MiOiIxMjcuMC4wLjEifQ.kCHuOR1gK6tuZfWRv-p7baWq0Kc-gLvGYaaxQBKEfE9dG-heEVvelX3vF2b5napIAkP0hCDxrGs0Xh3z2-0xhw7A3coGuNFfFCTzaV3ROg_B97TT3ja4sjIdZuHSPEuWE-ElllnkGL8PncF1t3LuJ7cxKtjVBV_JkBfuBQW_CSPFD1O7bZxZR7ikY4Xg2iYjg3n3sDz7tWND-xi9LbIndDvfnMDIDMsXADWXKFCDPnHUrRts8QJ1nnZu7W2KEuPSf4fUt0GmxSOUNj9jp5BSTh3hRbYls1KHcB6-535q28_jE09LRyaTUYkGCIX3GzSmzc28827Ni5Sh7f0o1fbusg
 ```
-* The header, payload and hash can be derived by splitting the JWT string by "."
+* The header, payload and signature can be derived by splitting the JWT string by "."
 * So the header string would be `eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1WdFdLVU1aOFkwTnAxYi12TV8yMkJJIn0`. The base64 decoded header would be 
 ```json
 {
@@ -67,7 +67,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
   "kid": "GrmlgRPIFuyn2rWUk9z1mVtWKUMZ8Y0Np1b-vM_22BI"
 }
 ```
-* The hashing algorithm and public key id of the OAuth 2.0 server required for verifying the payload hash is present in the header. 
+* The encryption algorithm and public key id of the OAuth 2.0 server required for verifying the payload signature is present in the header. 
 * The payload would be `eyJleHAiOjE2ODA1OTk2OTEsImlhdCI6MTY4MDU5OTM5MSwianRpIjoiOTkwMDU0ZTQtM2UzNS00ODI1LTllMDItNmMzZDZjZWZiZTQzIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9teW9yZyIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI0NmQyZTg4OS0yYmFjLTQ5ZjYtOThmOS1lYjVkMzhmNjhmZjgiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJ0ZXN0X2FwaV9jbGllbnQiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtbXlvcmciLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7InRlc3RfYXBpX2NsaWVudCI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIHRlc3RfYXBpX2FjY2VzcyIsImNsaWVudEhvc3QiOiIxMjcuMC4wLjEiLCJjbGllbnRJZCI6InRlc3RfYXBpX2NsaWVudCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LXRlc3RfYXBpX2NsaWVudCIsImNsaWVudEFkZHJlc3MiOiIxMjcuMC4wLjEifQ`. The base 64 decoded payload would be 
 ```json
 {
@@ -110,7 +110,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 ```
 
 ### Verifying the JWT signature
-* The access token's integrity (whether it was tampered) can be verified by hashing the JWT payload
+* The access token's integrity (whether it was tampered) can be verified by deriving the signature the JWT payload a
 
 
 ## References
@@ -123,8 +123,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzA2MjQ1NywtMzYzMDkwMDU1LDc2MT
-Q5MTg1OSwxMzMzNDI1MTAzLC0xMzk1MTc3OTg5LDE4MDg1NTQ3
-NDMsMTczNjcwNDU4LDExNzg5ODcyOTIsLTEyNDYwMjg2ODldfQ
-==
+eyJoaXN0b3J5IjpbNjk3NDcwOTYyLC0zNjMwOTAwNTUsNzYxND
+kxODU5LDEzMzM0MjUxMDMsLTEzOTUxNzc5ODksMTgwODU1NDc0
+MywxNzM2NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAyODY4OV19
 -->
