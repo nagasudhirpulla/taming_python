@@ -116,7 +116,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
-- JWT decoder and verifier online -  
+- JWT decoder and verifier online - https://jwt.io 
 
 <hr/>
 
@@ -124,8 +124,8 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NjM5MjEzMSwtMTI4NTU4NTE3MSwtMT
-kxMTExMDg4LC05MDA0MzQ2NDYsLTM2MzA5MDA1NSw3NjE0OTE4
-NTksMTMzMzQyNTEwMywtMTM5NTE3Nzk4OSwxODA4NTU0NzQzLD
-E3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbLTE1OTUyMzUwMDksLTEyODU1ODUxNzEsLT
+E5MTExMTA4OCwtOTAwNDM0NjQ2LC0zNjMwOTAwNTUsNzYxNDkx
+ODU5LDEzMzM0MjUxMDMsLTEzOTUxNzc5ODksMTgwODU1NDc0My
+wxNzM2NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAyODY4OV19
 -->
