@@ -24,7 +24,8 @@
 ![oauth_well_known_endpoint.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_well_known_endpoint.png)
 ### Fetching access_tokens from the token_endpoint
 *  Access tokens can be fetched from the token_endpoint URL. The token_endpoint URL can also be found in the well-known URL
-* For example, to fetch a token fr
+* For example, to fetch a token from keycloak realm, say myorg, the token endpoint would be "http://localhost:8080/realms/myorg/protocol/openid-connect/token"
+* A POST request should be made to the token_endpoint URL to get the access token. The POST request body should contain the client ID, clin 
 
 
 
@@ -38,6 +39,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzkxNDg5NiwxODA4NTU0NzQzLDE3Mz
-Y3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbLTEyNTYxMDY2MjMsMTgwODU1NDc0MywxNz
+M2NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAyODY4OV19
 -->
