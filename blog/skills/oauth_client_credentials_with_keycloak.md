@@ -143,6 +143,12 @@ Content-Type:  application/x-www-form-urlencoded
 
 client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token=<access_token>
 ```
+* If the token is invalid or revoked, the response would be 
+```json
+{
+	"active": false
+}
+```
 
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
@@ -154,9 +160,9 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTQ2MzU4Miw0OTE2MjI3NDYsMTUxNz
-A1NjcyMCwtMTI4NTU4NTE3MSwtMTkxMTExMDg4LC05MDA0MzQ2
-NDYsLTM2MzA5MDA1NSw3NjE0OTE4NTksMTMzMzQyNTEwMywtMT
-M5NTE3Nzk4OSwxODA4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3
-MjkyLC0xMjQ2MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbNTk2OTUzMTA2LDQ5MTYyMjc0NiwxNTE3MD
+U2NzIwLC0xMjg1NTg1MTcxLC0xOTExMTEwODgsLTkwMDQzNDY0
+NiwtMzYzMDkwMDU1LDc2MTQ5MTg1OSwxMzMzNDI1MTAzLC0xMz
+k1MTc3OTg5LDE4MDg1NTQ3NDMsMTczNjcwNDU4LDExNzg5ODcy
+OTIsLTEyNDYwMjg2ODldfQ==
 -->
