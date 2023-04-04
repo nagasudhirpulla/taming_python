@@ -3,7 +3,7 @@
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <br>
 * In this post we will learn how can we secure machine to machine communication with OAuth 2.0 Client Credentials flow
-* We will also demonstrate client credentials flow in action using keycloak
+* We will also demonstrate OAuth 2.0 client credentials flow in action using keycloak
 
 - The main component of an OAuth 2.0 flow is the OAuth 2.0 server or the STS (Security Token Service)
 - [Keycloak](https://www.keycloak.org/) is an open-source Identity and Access Management (IAM) solution by RedHat that can be used as an OAuth 2.0 server.
@@ -68,5 +68,5 @@ Video for this post can be found [here](https://youtu.be/vOsYE_rTikQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTczMTkzMF19
+eyJoaXN0b3J5IjpbMTY4Mzg1OTI0N119
 -->
