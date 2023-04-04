@@ -22,7 +22,7 @@
 * Create a client with client_id "test_api_client". Keep Client authentication as "ON" and Authentication flow as only "Service accounts roles". This will set the client application authorization flow as client credentials flow.
 
 ![keycloak_client_credentials_settings.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_client_credentials_settings.png)
-* In the client scopes tab of the client, add the scope "test_api_access". If the scope is made optional, the access token will include this scope only if explicitly requested b t 
+* In the client scopes tab of the client, add the scope "test_api_access". If the scope is made optional, the access token will include this scope only if explicitly requested by the client application 
  
 
 #### The "well-known" configuration endpoint
@@ -134,9 +134,9 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjEyMjMxOCwxNTE3MDU2NzIwLC0xMj
-g1NTg1MTcxLC0xOTExMTEwODgsLTkwMDQzNDY0NiwtMzYzMDkw
-MDU1LDc2MTQ5MTg1OSwxMzMzNDI1MTAzLC0xMzk1MTc3OTg5LD
-E4MDg1NTQ3NDMsMTczNjcwNDU4LDExNzg5ODcyOTIsLTEyNDYw
-Mjg2ODldfQ==
+eyJoaXN0b3J5IjpbNDU1MDM3ODA5LDE1MTcwNTY3MjAsLTEyOD
+U1ODUxNzEsLTE5MTExMTA4OCwtOTAwNDM0NjQ2LC0zNjMwOTAw
+NTUsNzYxNDkxODU5LDEzMzM0MjUxMDMsLTEzOTUxNzc5ODksMT
+gwODU1NDc0MywxNzM2NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAy
+ODY4OV19
 -->
