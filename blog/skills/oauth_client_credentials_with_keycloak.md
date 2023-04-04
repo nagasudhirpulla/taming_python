@@ -1,6 +1,13 @@
 ## Secure machine to machine communication with OAuth 2.0 Client Credentials flow
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
+
+#### Skills Required
+
+-   [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
+-   [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
+-   [Flask Blueprints for modular MVC like web applications](https://nagasudhir.blogspot.com/2022/08/flask-blueprints-for-modular-mvc-like.html)
+
 <br>
 * In this post we will learn how can we secure machine to machine communication with OAuth 2.0 Client Credentials flow
 * We will also demonstrate OAuth 2.0 client credentials flow with keycloak
@@ -161,9 +168,9 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODI1MDU2MCw0OTE2MjI3NDYsMTUxNz
-A1NjcyMCwtMTI4NTU4NTE3MSwtMTkxMTExMDg4LC05MDA0MzQ2
-NDYsLTM2MzA5MDA1NSw3NjE0OTE4NTksMTMzMzQyNTEwMywtMT
-M5NTE3Nzk4OSwxODA4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3
-MjkyLC0xMjQ2MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbLTE4NTIwNTU2NDUsNDkxNjIyNzQ2LDE1MT
+cwNTY3MjAsLTEyODU1ODUxNzEsLTE5MTExMTA4OCwtOTAwNDM0
+NjQ2LC0zNjMwOTAwNTUsNzYxNDkxODU5LDEzMzM0MjUxMDMsLT
+EzOTUxNzc5ODksMTgwODU1NDc0MywxNzM2NzA0NTgsMTE3ODk4
+NzI5MiwtMTI0NjAyODY4OV19
 -->
