@@ -17,7 +17,7 @@
 
 ## Client credentials flow demo with Keycloak
 
-### Creating a client in keycloak for demo
+### Registering a client in keycloak for demo
 * Create a realm named "myorg" in keycloak
 * Create a client scope named "test_api_access"
 * Create a client with client_id "test_api_client". Keep Client authentication as "ON" and Authentication flow as only "Service accounts roles". This will set the client application authorization flow as client credentials flow.
@@ -25,9 +25,9 @@
 ![keycloak_client_credentials_settings.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_client_credentials_settings.png)
 * In the client scopes tab of the client, add the scope "test_api_access". If the scope is made optional, the access token will include this scope only if explicitly requested by the client application 
  
-#### The "well-known" configuration endpoint
-* To get the STS URLs for various tasks like getting public keys, fetching, validating, revoking, verifying tokens etc., the STS provides a URL called "well-known" URL as per the OAuth 2.0 specification
-* In keycloak, the well-known endpoint for a realm named "myorg" would be something like http://localhost:8080/realms/myorg/.well-known/openid-configuration . The well-known URL can also be found in the Realm settings page of keycloak
+#### The "well-known" configuration endpoint of OAuth server
+* To get the URLs for various tasks like getting public keys, fetching, validating, revoking, verifying tokens etc., the OAuth server provides a URL called "well-known" URL as per the OAuth 2.0 specification
+* In keycloak, the well-known endpoint for a realm named "myorg" would be something like http://localhost:8080/realms/myorg/.well-known/openid-configuration . The well-known URL can also be found in the Realm settings section of keycloak
 * The well-known URL will return a JSON that contains URLs for various endpoints like certificates, tokens, token revocation etc as shown in the below image
 
 ![oauth_well_known_endpoint.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_well_known_endpoint.png)
@@ -161,7 +161,7 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjAxNTgzMyw0OTE2MjI3NDYsMTUxNz
+eyJoaXN0b3J5IjpbLTg1ODI1MDU2MCw0OTE2MjI3NDYsMTUxNz
 A1NjcyMCwtMTI4NTU4NTE3MSwtMTkxMTExMDg4LC05MDA0MzQ2
 NDYsLTM2MzA5MDA1NSw3NjE0OTE4NTksMTMzMzQyNTEwMywtMT
 M5NTE3Nzk4OSwxODA4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3
