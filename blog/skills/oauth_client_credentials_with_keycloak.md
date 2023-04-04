@@ -50,6 +50,7 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
 
 ### Access Token as a JWT (JSON Web Token)
 * JWT is a string that contains a header, payload (the main JSON) and hash of the payload.
+* The integrity of JWT can be checked by verifying the hash of the payload and matching it with the hash of JWT. If the payload was tampered, the hash of payload and the hash of JWT will not match
 * JWT will be in the format of `<header>.<payload>.<hash>`
 *    
 
@@ -64,7 +65,7 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTQ2NjE4NSwtMTM5NTE3Nzk4OSwxOD
-A4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4
-Njg5XX0=
+eyJoaXN0b3J5IjpbLTIxMTgzMzU5NTMsLTEzOTUxNzc5ODksMT
+gwODU1NDc0MywxNzM2NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAy
+ODY4OV19
 -->
