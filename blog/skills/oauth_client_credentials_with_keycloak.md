@@ -17,7 +17,7 @@
 
 ### Implementation of client credentials flow
 #### The "well-known" configuration endpoint
-* To easily discover the OAUthendpoints for 
+* To get the STS URLs for various tasks like fetching tokens, validating tokens, revoking token, verifying tokens etc.  
 
 
 ## References
@@ -30,6 +30,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzU5MjQzLDExNzg5ODcyOTIsLTEyND
-YwMjg2ODldfQ==
+eyJoaXN0b3J5IjpbLTMxNzYzOTE0NCwxMTc4OTg3MjkyLC0xMj
+Q2MDI4Njg5XX0=
 -->
