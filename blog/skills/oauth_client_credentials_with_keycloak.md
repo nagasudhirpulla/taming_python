@@ -109,7 +109,8 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 }
 ```
 
-### Veri
+### Verifying the JWT hash
+* The access token's integrity (whether it was tampered) can be verified by hashing the JWT payload
 
 
 ## References
@@ -122,7 +123,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4ODA1MTEyNyw3NjE0OTE4NTksMTMzMz
+eyJoaXN0b3J5IjpbLTM2MzA5MDA1NSw3NjE0OTE4NTksMTMzMz
 QyNTEwMywtMTM5NTE3Nzk4OSwxODA4NTU0NzQzLDE3MzY3MDQ1
 OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
 -->
