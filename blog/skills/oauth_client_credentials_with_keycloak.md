@@ -114,7 +114,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 * The scopes of the client application requesting authorization can be verified in the "scope" attribute of the access token JWT payload
 * The expiry of the access token can also be verified using the "exp" attribute of the access token JWT payload
 
-
+### Invalidating or revoking the 
 
 
 ## References
@@ -127,8 +127,8 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwNzc3Mzg4LC0xMjg1NTg1MTcxLC0xOT
-ExMTEwODgsLTkwMDQzNDY0NiwtMzYzMDkwMDU1LDc2MTQ5MTg1
-OSwxMzMzNDI1MTAzLC0xMzk1MTc3OTg5LDE4MDg1NTQ3NDMsMT
-czNjcwNDU4LDExNzg5ODcyOTIsLTEyNDYwMjg2ODldfQ==
+eyJoaXN0b3J5IjpbLTg4NDM1NzY0MiwtMTI4NTU4NTE3MSwtMT
+kxMTExMDg4LC05MDA0MzQ2NDYsLTM2MzA5MDA1NSw3NjE0OTE4
+NTksMTMzMzQyNTEwMywtMTM5NTE3Nzk4OSwxODA4NTU0NzQzLD
+E3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
 -->
