@@ -17,7 +17,7 @@
 
 ### Implementation of client credentials flow
 #### The "well-known" configuration endpoint
-* To get the STS URLs for various tasks like fetching tokens, validating tokens, revoking token, verifying tokens etc.  
+* To get the STS URLs for various tasks like getting public keys, fetching tokens, validating tokens, revoking token, verifying tokens etc., the STS provides a URL called "well-known" URL as per the OAuth 2.0 specification
 
 
 ## References
@@ -30,6 +30,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzYzOTE0NCwxMTc4OTg3MjkyLC0xMj
-Q2MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbLTE2NTc3NTgwNjgsMTE3ODk4NzI5MiwtMT
+I0NjAyODY4OV19
 -->
