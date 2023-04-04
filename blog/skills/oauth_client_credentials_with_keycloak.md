@@ -9,7 +9,8 @@
 ### Workflow of Client Credentials flow
 
 ![oauth_client_credentials_flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_client_credentials_flow.png)
-* 
+* First, the client should be c
+* The client application sends request token from OAuth 2.0 server or Secure Token Service (STS) with its client ID and client secret in the request body
 
 
 ## References
@@ -22,5 +23,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2OTExMzgzLC0xMjQ2MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbMTY4NTUwMDg5LC0xMjQ2MDI4Njg5XX0=
 -->
