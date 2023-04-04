@@ -23,7 +23,8 @@
 
 ![oauth_well_known_endpoint.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_well_known_endpoint.png)
 ### Fetching access_tokens from the token_endpoint
-*  
+*  Access tokens can be fetched from the token_endpoint URL. The token_endpoint URL can also be found in the well-known URL
+* For example, to fetch a token fr
 
 
 
@@ -37,6 +38,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODU1NDc0MywxNzM2NzA0NTgsMTE3OD
-k4NzI5MiwtMTI0NjAyODY4OV19
+eyJoaXN0b3J5IjpbMTA1NzkxNDg5NiwxODA4NTU0NzQzLDE3Mz
+Y3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
 -->
