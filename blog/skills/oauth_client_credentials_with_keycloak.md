@@ -7,7 +7,9 @@
 
 
 ### Workflow of Client Credentials flow
+
 ![oauth_client_credentials_flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_client_credentials_flow.png)
+* 
 
 
 ## References
@@ -20,5 +22,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2NTk1NzczLC0xMjQ2MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbNTE2OTExMzgzLC0xMjQ2MDI4Njg5XX0=
 -->
