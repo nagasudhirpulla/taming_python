@@ -141,7 +141,7 @@ client_id=test_api_client&client_secret=zoRdC3erP6p9fci6FgzStDiRlMHkupw6&token_t
 POST http://localhost:8080/realms/myorg/protocol/openid-connect/token/introspect
 Content-Type:  application/x-www-form-urlencoded
 
-client_id=test_api_client&client_secret=zoRdC3erP6p9fci6FgzStDiRlMHkupw6&token=<access_token>
+client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token=<access_token>
 ```
 
 ## References
@@ -154,9 +154,9 @@ client_id=test_api_client&client_secret=zoRdC3erP6p9fci6FgzStDiRlMHkupw6&token=<
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxNjIyNzQ2LDE1MTcwNTY3MjAsLTEyOD
-U1ODUxNzEsLTE5MTExMTA4OCwtOTAwNDM0NjQ2LC0zNjMwOTAw
-NTUsNzYxNDkxODU5LDEzMzM0MjUxMDMsLTEzOTUxNzc5ODksMT
-gwODU1NDc0MywxNzM2NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAy
-ODY4OV19
+eyJoaXN0b3J5IjpbMTEwMDY5NjE0Niw0OTE2MjI3NDYsMTUxNz
+A1NjcyMCwtMTI4NTU4NTE3MSwtMTkxMTExMDg4LC05MDA0MzQ2
+NDYsLTM2MzA5MDA1NSw3NjE0OTE4NTksMTMzMzQyNTEwMywtMT
+M5NTE3Nzk4OSwxODA4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3
+MjkyLC0xMjQ2MDI4Njg5XX0=
 -->
