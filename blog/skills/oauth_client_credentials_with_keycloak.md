@@ -129,13 +129,14 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 * So to accommodate scenarios like token revocation at OAuth server before expiry, the resource server can ask the OAuth server to validate the token using the token introspection endpoint of the OAuth server. The token introspection endpoint URL can be located in the well-known configuration using the "introspection_endpoint" attribute.
 * Let us consider and example to demonstrate the above scenario
 * Let us assume a token `<access_token>` was issued to a client application and it expires in 5 minutes
-* The client application revokes the token using the following POST request to "revocation_endpoint" URL
+* The client application revokes the token using the following POST request to "revocation_endpoint" URL before 5 mins
 ```
 POST http://localhost:8080/realms/myorg/protocol/openid-connect/revoke
 Content-Type:  application/x-www-form-urlencoded
 
 client_id=test_api_client&client_secret=zoRdC3erP6p9fci6FgzStDiRlMHkupw6&token_type_hint=access_token&token=<access_token>
-``` 
+```
+* 
 
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
@@ -147,9 +148,9 @@ client_id=test_api_client&client_secret=zoRdC3erP6p9fci6FgzStDiRlMHkupw6&token_t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Nzk5MjE1MiwxNTE3MDU2NzIwLC0xMj
-g1NTg1MTcxLC0xOTExMTEwODgsLTkwMDQzNDY0NiwtMzYzMDkw
-MDU1LDc2MTQ5MTg1OSwxMzMzNDI1MTAzLC0xMzk1MTc3OTg5LD
-E4MDg1NTQ3NDMsMTczNjcwNDU4LDExNzg5ODcyOTIsLTEyNDYw
-Mjg2ODldfQ==
+eyJoaXN0b3J5IjpbLTIwMjM0MzE0MDUsMTUxNzA1NjcyMCwtMT
+I4NTU4NTE3MSwtMTkxMTExMDg4LC05MDA0MzQ2NDYsLTM2MzA5
+MDA1NSw3NjE0OTE4NTksMTMzMzQyNTEwMywtMTM5NTE3Nzk4OS
+wxODA4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2
+MDI4Njg5XX0=
 -->
