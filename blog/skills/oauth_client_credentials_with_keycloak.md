@@ -10,10 +10,10 @@
 
 ![oauth_client_credentials_flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_client_credentials_flow.png)
 - As a one time activity, the client application will be registered in the STS (Secure Token Service or OAuth 2.0 server) with the required API scopes. The client will be given “client id” and “client secret” by the STS
-- The client sends “client id” and “client secret” and requests access token from the STS
-- The STS validates the client ID and client secret and issues an access token to the client
-- The client sends request to resource API with access token attached to the request
-- The resource API validates the access token (and the client scopes if required) and sends the response to the client
+- Step 1 - The client sends “client id” and “client secret” and requests access token from the STS
+- Step 2 - The STS validates the client ID and client secret and issues an access token to the client
+- Step 3 - The client sends request to resource API with access token attached to the request
+- Step 4 - The resource API validates the access token (and the client scopes if required) and sends the response to the client
 
 
 ## References
@@ -26,6 +26,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzY3NjMxNjYsMTE3ODk4NzI5MiwtMT
+eyJoaXN0b3J5IjpbLTEyMzg1MDY4OTQsMTE3ODk4NzI5MiwtMT
 I0NjAyODY4OV19
 -->
