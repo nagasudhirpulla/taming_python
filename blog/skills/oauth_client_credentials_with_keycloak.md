@@ -27,13 +27,14 @@
 * For example, to fetch a token from keycloak realm, say myorg, the token endpoint would be "http://localhost:8080/realms/myorg/protocol/openid-connect/token"
 * A POST request should be made to the token_endpoint URL to get the access token. The POST request body should contain the client ID, client secret, grant type (client_credentials) and scope (optional)
 * An example request to fetch access token from OAuth server can be
+
 ```
 POST http://localhost:8080/realms/myorg/protocol/openid-connect/token
 Content-Type:  application/x-www-form-urlencoded
 
 grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6p9fci6FgzStDiRlMHkupw6&scope=test_api_access
 ```
-
+* The response would be a JSON that contains the access token as sh
 
 
 ## References
@@ -46,6 +47,6 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzIwMTY3OTYsMTgwODU1NDc0MywxNz
-M2NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAyODY4OV19
+eyJoaXN0b3J5IjpbMTAzNjM0OTM3OCwxODA4NTU0NzQzLDE3Mz
+Y3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
 -->
