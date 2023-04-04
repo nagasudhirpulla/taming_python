@@ -136,7 +136,7 @@ Content-Type:  application/x-www-form-urlencoded
 
 client_id=test_api_client&client_secret=zoRdC3erP6p9fci6FgzStDiRlMHkupw6&token_type_hint=access_token&token=<access_token>
 ```
-* The resource server can check the validity of the token using the "introspection_endpoint" as shown below
+* The resource server can check the validity of the token using the "introspection_endpoint" as shown below. Notice that for using the introspect endpoint, the resource server should also be registered as a client in the OAuth server
 ```
 POST http://localhost:8080/realms/myorg/protocol/openid-connect/token/introspect
 Content-Type:  application/x-www-form-urlencoded
@@ -154,7 +154,7 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDY5NjE0Niw0OTE2MjI3NDYsMTUxNz
+eyJoaXN0b3J5IjpbLTMxNTQ2MzU4Miw0OTE2MjI3NDYsMTUxNz
 A1NjcyMCwtMTI4NTU4NTE3MSwtMTkxMTExMDg4LC05MDA0MzQ2
 NDYsLTM2MzA5MDA1NSw3NjE0OTE4NTksMTMzMzQyNTEwMywtMT
 M5NTE3Nzk4OSwxODA4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3
