@@ -19,7 +19,7 @@
 ### Creating a client in keycloak for demo
 * Create a realm named "myorg" in keycloak
 * Create a client scope named "test_api_access"
-* Create a client with client_id "test_api_client" 
+* Create a client with client_id "test_api_client". Keep Client authentication as "ON" and Authentication flow as only "Service accounts roles". This will make the client to authorize a 
 
 #### The "well-known" configuration endpoint
 * To get the STS URLs for various tasks like getting public keys, fetching, validating, revoking token, verifying tokens etc., the STS provides a URL called "well-known" URL as per the OAuth 2.0 specification
@@ -130,9 +130,9 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTM2MjMwODIsMTUxNzA1NjcyMCwtMT
-I4NTU4NTE3MSwtMTkxMTExMDg4LC05MDA0MzQ2NDYsLTM2MzA5
-MDA1NSw3NjE0OTE4NTksMTMzMzQyNTEwMywtMTM5NTE3Nzk4OS
-wxODA4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2
-MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbMzQyMzgyMDE3LDE1MTcwNTY3MjAsLTEyOD
+U1ODUxNzEsLTE5MTExMTA4OCwtOTAwNDM0NjQ2LC0zNjMwOTAw
+NTUsNzYxNDkxODU5LDEzMzM0MjUxMDMsLTEzOTUxNzc5ODksMT
+gwODU1NDc0MywxNzM2NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAy
+ODY4OV19
 -->
