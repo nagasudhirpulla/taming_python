@@ -16,7 +16,7 @@
 - Step 4 - The resource API validates the access token (and the client scopes if required) and sends the response to the client
 
 ### Implementation of client credentials flow
-
+#### W
 
 
 ## References
@@ -29,6 +29,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjY2NjE1MSwxMTc4OTg3MjkyLC0xMj
+eyJoaXN0b3J5IjpbMTUwNTYzMTMyNiwxMTc4OTg3MjkyLC0xMj
 Q2MDI4Njg5XX0=
 -->
