@@ -10,8 +10,8 @@
 
 ![oauth_client_credentials_flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_client_credentials_flow.png)
 * Before requesting for tokens, the client application should be registered in the OAuth 2.0 server. After registration, the client will get a client ID and client secret.
-* The client application sends request token from OAuth 2.0 server or Secure Token Service (STS) with its client ID and client secret in the request body
-* 
+* Step 1 - The client application sends request token from OAuth 2.0 server or Secure Token Service (STS) with its client ID and client secret in the request body
+* Step 2 - The OAuth 2.0 server will validate client id and client secret
 
 
 ## References
@@ -24,6 +24,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzgzNTM0MSwxMTc4OTg3MjkyLC0xMj
-Q2MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbLTE1NDgxOTQxOTMsMTE3ODk4NzI5MiwtMT
+I0NjAyODY4OV19
 -->
