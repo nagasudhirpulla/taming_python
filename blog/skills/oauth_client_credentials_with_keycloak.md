@@ -110,7 +110,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 ```
 
 ### Verifying the JWT signature
-* The access token's integrity (whether it was tampered) can be verified by deriving the signature the JWT payload using the information in the JWT header
+* The access token's integrity (whether it was tampered) can be verified by deriving the signature the JWT payload using the information in the JWT header.
 * 
 
 
@@ -124,8 +124,8 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDQzNDY0NiwtMzYzMDkwMDU1LDc2MT
-Q5MTg1OSwxMzMzNDI1MTAzLC0xMzk1MTc3OTg5LDE4MDg1NTQ3
-NDMsMTczNjcwNDU4LDExNzg5ODcyOTIsLTEyNDYwMjg2ODldfQ
-==
+eyJoaXN0b3J5IjpbLTE5MTExMTA4OCwtOTAwNDM0NjQ2LC0zNj
+MwOTAwNTUsNzYxNDkxODU5LDEzMzM0MjUxMDMsLTEzOTUxNzc5
+ODksMTgwODU1NDc0MywxNzM2NzA0NTgsMTE3ODk4NzI5MiwtMT
+I0NjAyODY4OV19
 -->
