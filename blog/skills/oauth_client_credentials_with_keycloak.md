@@ -49,7 +49,7 @@ grant_type=client_credentials&client_id=test_api_client&client_secret=zoRdC3erP6
 * The access token fetched from the token endpoint can be attached in the requests being made to resource server by the client application. The resource server will validate the access token present in the request for authorizing the request from client application.
 
 ### Parsing access token as a JWT (JSON Web Token)
-* JWT is a string that contains a header, payload (the main JSON) and hash of the payload.
+* JWT is a string that contains a header, payload (the main JSON) and signature of the payload.
 * The integrity of JWT can be checked by verifying the signature of the payload and matching it with the signature of JWT. If the payload was tampered, the signature of payload and the hash of JWT will not match
 * JWT is a string in the format of `<header>.<payload>.<signature>`. The header and payload will be base64 encoded in the JWT string
 * The signature of the payload can be derived using the public key of the OAuth 2.0 server and the hashing algorithm defined in the JWT header. 
@@ -109,7 +109,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 }
 ```
 
-### Verifying the JWT signature by the resource server
+### Verifying the JWT signature
 * The access token's integrity (whether it was tampered) can be verified by deriving the signature the JWT payload using the information in the JWT header.
 * For example, as per the JWT received in the above example, the signature of the `<header>.<payload>` part of JWT can be signed and compared with the JWT signature to verify the integrity of the payload
 
@@ -124,8 +124,8 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTE0NDk1NywtMTI4NTU4NTE3MSwtMT
-kxMTExMDg4LC05MDA0MzQ2NDYsLTM2MzA5MDA1NSw3NjE0OTE4
-NTksMTMzMzQyNTEwMywtMTM5NTE3Nzk4OSwxODA4NTU0NzQzLD
-E3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbLTIwNTQyODgxNDYsLTEyODU1ODUxNzEsLT
+E5MTExMTA4OCwtOTAwNDM0NjQ2LC0zNjMwOTAwNTUsNzYxNDkx
+ODU5LDEzMzM0MjUxMDMsLTEzOTUxNzc5ODksMTgwODU1NDc0My
+wxNzM2NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAyODY4OV19
 -->
