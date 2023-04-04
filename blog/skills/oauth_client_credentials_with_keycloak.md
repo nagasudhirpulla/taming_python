@@ -123,7 +123,8 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 * The **expiry** of the access token can also be verified using the "exp" attribute of the access token JWT payload
 * Once all the validation on access token is completed, the resource server can authorize client application and send the desired response to client application
 
-
+### Validating the access token using token introspection endpoint
+* 
 
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
@@ -135,9 +136,9 @@ eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHcm1sZ1JQSUZ1eW4ycldVazl6MW1W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjQ0NDIxLDE1MTcwNTY3MjAsLTEyOD
-U1ODUxNzEsLTE5MTExMTA4OCwtOTAwNDM0NjQ2LC0zNjMwOTAw
-NTUsNzYxNDkxODU5LDEzMzM0MjUxMDMsLTEzOTUxNzc5ODksMT
-gwODU1NDc0MywxNzM2NzA0NTgsMTE3ODk4NzI5MiwtMTI0NjAy
-ODY4OV19
+eyJoaXN0b3J5IjpbLTIwNjE0NzQzMDgsMTUxNzA1NjcyMCwtMT
+I4NTU4NTE3MSwtMTkxMTExMDg4LC05MDA0MzQ2NDYsLTM2MzA5
+MDA1NSw3NjE0OTE4NTksMTMzMzQyNTEwMywtMTM5NTE3Nzk4OS
+wxODA4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2
+MDI4Njg5XX0=
 -->
