@@ -136,7 +136,14 @@ Content-Type:  application/x-www-form-urlencoded
 
 client_id=test_api_client&client_secret=zoRdC3erP6p9fci6FgzStDiRlMHkupw6&token_type_hint=access_token&token=<access_token>
 ```
-* 
+* The resource server can check the validity of the token using the "introspection_endpoint" as shown below
+```
+POST http://localhost:8080/realms/myorg/protocol/openid-connect/token/introspect
+Content-Type:  application/x-www-form-urlencoded
+
+
+client_id=test_api_client&client_secret=zoRdC3erP6p9fci6FgzStDiRlMHkupw6&token=<access_token>
+```
 
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
@@ -148,9 +155,9 @@ client_id=test_api_client&client_secret=zoRdC3erP6p9fci6FgzStDiRlMHkupw6&token_t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjM0MzE0MDUsMTUxNzA1NjcyMCwtMT
-I4NTU4NTE3MSwtMTkxMTExMDg4LC05MDA0MzQ2NDYsLTM2MzA5
-MDA1NSw3NjE0OTE4NTksMTMzMzQyNTEwMywtMTM5NTE3Nzk4OS
-wxODA4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2
-MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbMTgzMTg4MTIyNCwxNTE3MDU2NzIwLC0xMj
+g1NTg1MTcxLC0xOTExMTEwODgsLTkwMDQzNDY0NiwtMzYzMDkw
+MDU1LDc2MTQ5MTg1OSwxMzMzNDI1MTAzLC0xMzk1MTc3OTg5LD
+E4MDg1NTQ3NDMsMTczNjcwNDU4LDExNzg5ODcyOTIsLTEyNDYw
+Mjg2ODldfQ==
 -->
