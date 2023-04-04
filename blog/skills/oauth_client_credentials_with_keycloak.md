@@ -1,4 +1,4 @@
-## Protecting API endpoints for machine to machine communication with OAuth 2.0 Client Credentials flow
+## Secure machine to machine communication with OAuth 2.0 Client Credentials flow
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <br>
@@ -67,5 +67,5 @@ Video for this post can be found [here](https://youtu.be/vOsYE_rTikQ)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTg4MTEyOTldfQ==
+eyJoaXN0b3J5IjpbLTk1Nzg4NTgyNF19
 -->
