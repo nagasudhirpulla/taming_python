@@ -15,7 +15,7 @@
 - Step 3 - The client sends request to resource API with access token attached to the request
 - Step 4 - The resource API validates the access token (and the client scopes if required) and sends the response to the client
 
-### Implementation of client credentials flow
+## Client credentials flow demo
 ### Creating a client in keycloak for demo
 * Create a realm named "myorg" in keycloak
 * Create a client scope named "test_api_access"
@@ -160,7 +160,7 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDYxNTM5NSw0OTE2MjI3NDYsMTUxNz
+eyJoaXN0b3J5IjpbMTUwODg5OTcwMiw0OTE2MjI3NDYsMTUxNz
 A1NjcyMCwtMTI4NTU4NTE3MSwtMTkxMTExMDg4LC05MDA0MzQ2
 NDYsLTM2MzA5MDA1NSw3NjE0OTE4NTksMTMzMzQyNTEwMywtMT
 M5NTE3Nzk4OSwxODA4NTU0NzQzLDE3MzY3MDQ1OCwxMTc4OTg3
