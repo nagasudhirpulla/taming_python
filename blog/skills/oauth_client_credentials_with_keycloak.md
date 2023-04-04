@@ -19,7 +19,8 @@
 #### The "well-known" configuration endpoint
 * To get the STS URLs for various tasks like getting public keys, fetching, validating, revoking token, verifying tokens etc., the STS provides a URL called "well-known" URL as per the OAuth 2.0 specification
 * In keycloak the well-known endpoint for a realm named "myorg" would be something like "http://localhost:8080/realms/myorg/.well-known/openid-configuration". The well-known URL can be found in the Realm settings page of keycloak
-* 
+* The well-known URL will return a JSON that contains URLs for various endpoints like certificates, tokens, authen
+* ![oauth_well_known_endpoint.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_well_known_endpoint.png)
 
 
 ## References
@@ -32,6 +33,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjcwNDU4LDExNzg5ODcyOTIsLTEyND
-YwMjg2ODldfQ==
+eyJoaXN0b3J5IjpbLTcxNDE1MTI2NCwxNzM2NzA0NTgsMTE3OD
+k4NzI5MiwtMTI0NjAyODY4OV19
 -->
