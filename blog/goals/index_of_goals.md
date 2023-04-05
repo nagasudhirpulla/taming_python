@@ -164,6 +164,7 @@ Here are the goals and skills in this tutorial series
 #### OAuth 2.0
 * [OAuth 2.0 for centralized Authorization and Authentication of users and applications](https://nagasudhir.blogspot.com/2023/03/oauth-20-for-centralized-authorization.html)
 * [Setup Keycloak as OAuth 2.0 server in Windows for testing and development](https://nagasudhir.blogspot.com/2023/04/setup-keycloak-as-oauth-20-server-in.html)
+* [Secure machine to machine communication with OAuth 2.0 Client Credentials flow](https://nagasudhir.blogspot.com/2023/04/secure-machine-to-machine-communication.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -171,11 +172,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTI5NTUwMTkzNiwtMjIyMT
-IzMDM1LC0xMDgwNTM2NTU3LDExMzk1MjEwLC0zMzM3ODE5NjEs
-MTc1MTcxMzkzMSw2NTMwMjk4NTgsOTY5NjA4ODY0LC0xNTI2Mj
-YwNDY0LC05NTEzMDIxMDEsMjEzNzU1MDg5Myw4MDk1NDI3LDQ4
-MDYwODgzNCw5MzA5NzEzMzgsLTM5OTk1NDg3NywxMTUyMzIzMD
-c1LDE3Mzk4MTkwMzIsMTI4MDU5ODkwOCw1NjY0ODEwMzYsLTE5
-MDY1MzgxNjRdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMjEzODQ4Nzg2LC0yOTU1MD
+E5MzYsLTIyMjEyMzAzNSwtMTA4MDUzNjU1NywxMTM5NTIxMCwt
+MzMzNzgxOTYxLDE3NTE3MTM5MzEsNjUzMDI5ODU4LDk2OTYwOD
+g2NCwtMTUyNjI2MDQ2NCwtOTUxMzAyMTAxLDIxMzc1NTA4OTMs
+ODA5NTQyNyw0ODA2MDg4MzQsOTMwOTcxMzM4LC0zOTk5NTQ4Nz
+csMTE1MjMyMzA3NSwxNzM5ODE5MDMyLDEyODA1OTg5MDgsNTY2
+NDgxMDM2XX0=
 -->
