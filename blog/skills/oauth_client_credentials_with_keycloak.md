@@ -160,6 +160,11 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 }
 ```
 
+### Video
+You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs) 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V4j-cPJxRJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
 - JWT decoder and verifier online - https://jwt.io 
@@ -170,9 +175,10 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODQ2NjU3NiwtMTg5NzY1MzYxMCw0OT
-E2MjI3NDYsMTUxNzA1NjcyMCwtMTI4NTU4NTE3MSwtMTkxMTEx
-MDg4LC05MDA0MzQ2NDYsLTM2MzA5MDA1NSw3NjE0OTE4NTksMT
-MzMzQyNTEwMywtMTM5NTE3Nzk4OSwxODA4NTU0NzQzLDE3MzY3
-MDQ1OCwxMTc4OTg3MjkyLC0xMjQ2MDI4Njg5XX0=
+eyJoaXN0b3J5IjpbLTcxMzU3MjA0OCwtODI4NDY2NTc2LC0xOD
+k3NjUzNjEwLDQ5MTYyMjc0NiwxNTE3MDU2NzIwLC0xMjg1NTg1
+MTcxLC0xOTExMTEwODgsLTkwMDQzNDY0NiwtMzYzMDkwMDU1LD
+c2MTQ5MTg1OSwxMzMzNDI1MTAzLC0xMzk1MTc3OTg5LDE4MDg1
+NTQ3NDMsMTczNjcwNDU4LDExNzg5ODcyOTIsLTEyNDYwMjg2OD
+ldfQ==
 -->
