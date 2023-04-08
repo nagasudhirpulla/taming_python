@@ -155,7 +155,7 @@ def private_scoped():
 APP.run("0.0.0.0", 50100, debug=True)
 
 ```
-* As shown in the above example, the decorator `require_auth` for authorizing the requests based on client credentials flow is created very easily using the `auth`
+* As shown in the above example, the decorator `require_auth` for authorizing the requests based on client credentials flow is created very easily using the classes `ResourceProtector` and `` of the `authlib` python module
 
 ### Fetching access_tokens from the token_endpoint
 *  Access tokens can be fetched from the token_endpoint URL. The token_endpoint URL can also be found in the well-known URL
@@ -298,6 +298,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTkzNzA3MSwxMjkwMzMwODg3LC0xMD
+eyJoaXN0b3J5IjpbLTU2MTA1OTExMSwxMjkwMzMwODg3LC0xMD
 cwMDUwODkxLDE3ODQxNzYzODRdfQ==
 -->
