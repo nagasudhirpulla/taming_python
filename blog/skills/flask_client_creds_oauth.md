@@ -17,7 +17,7 @@
 - This the workflow of client credentials flow in OAuth 2.0
 - A complete blog post explaining this workflow can be found [here](https://nagasudhir.blogspot.com/2023/04/secure-machine-to-machine-communication.html)
 
-## Client credentials flow demo with Keycloak
+## Register a client in Keycloak OAuth server 
 
 ### Registering a client in keycloak for demo
 * Create a realm named "myorg" in keycloak
@@ -174,5 +174,5 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQ5NDUzNTZdfQ==
+eyJoaXN0b3J5IjpbLTUzOTM4OTE1MF19
 -->
