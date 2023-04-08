@@ -152,7 +152,7 @@ def private_scoped():
     )
     return jsonify(message=response)
 
-APP.run("0.0.0.0", 50100, debug=True)
+APP.run(host="0.0.0.0", port=50100, debug=True)
 
 ```
 * As shown in the above example, the decorator `require_auth` for authorizing the requests based on client credentials flow is created very easily using the classes `ResourceProtector` and `` of the `authlib` python module
@@ -298,6 +298,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3Njk4NDUxOSwxMjkwMzMwODg3LC0xMD
-cwMDUwODkxLDE3ODQxNzYzODRdfQ==
+eyJoaXN0b3J5IjpbLTE1NjUzNTA4LDEyOTAzMzA4ODcsLTEwNz
+AwNTA4OTEsMTc4NDE3NjM4NF19
 -->
