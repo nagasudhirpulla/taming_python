@@ -90,7 +90,9 @@ print("execution complete!")
 * For this demo, a flask server will be the resource server 
 * Some endpoints will be authorize requests using the client credentials flow
 * A flask decorator that acts as a request middle-ware will be used to add authorization to the flask server endpoint. So just by adding the decorator, authorization can be added to the flask endpoint 
-* The workflow
+* The workflow of the request authorization in resource server is as follows:
+	* Extract the access token from request authorization header
+	* Fetch the public key from  
 
 ### Fetching access_tokens from the token_endpoint
 *  Access tokens can be fetched from the token_endpoint URL. The token_endpoint URL can also be found in the well-known URL
@@ -233,6 +235,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjIzMDQ3OCwtMTA3MDA1MDg5MSwxNz
+eyJoaXN0b3J5IjpbMTk5NTMzMzUyMywtMTA3MDA1MDg5MSwxNz
 g0MTc2Mzg0XX0=
 -->
