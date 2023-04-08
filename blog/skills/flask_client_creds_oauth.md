@@ -175,11 +175,9 @@ APP.run(host="0.0.0.0", port=50100, debug=True)
 # authdecorator.py
 import json
 from functools import wraps
-
 import jwt
 import requests
 from flask import abort, request
-
 
 def requireClientCredsDecoratorFactory(issuer=None):
     def req_client_creds(scopes=None):
@@ -251,6 +249,6 @@ def requireClientCredsDecoratorFactory(issuer=None):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY0NTk0MjA3LDEyOTAzMzA4ODcsLTEwNz
+eyJoaXN0b3J5IjpbNDY1MjA1MjE1LDEyOTAzMzA4ODcsLTEwNz
 AwNTA4OTEsMTc4NDE3NjM4NF19
 -->
