@@ -174,7 +174,7 @@ APP.run(host="0.0.0.0", port=50100, debug=True)
 * `pyjwt` python module can be installed using the command `python -m pip install pyjwt[crypto]`
 
 ```py	
-# authdecorator.py
+# authDecorator.py
 import json
 from functools import wraps
 import jwt
@@ -253,6 +253,6 @@ def requireClientCredsDecoratorFactory(issuer=None):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjcyMTcwMCwxMjkwMzMwODg3LC0xMD
-cwMDUwODkxLDE3ODQxNzYzODRdfQ==
+eyJoaXN0b3J5IjpbLTE0MDQ1MjcxNzIsLTYzNjcyMTcwMCwxMj
+kwMzMwODg3LC0xMDcwMDUwODkxLDE3ODQxNzYzODRdfQ==
 -->
