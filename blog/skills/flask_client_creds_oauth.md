@@ -28,7 +28,7 @@ For this demo, we will run a Keycloak server as an OAuth server and register the
  
 ## The Python client
 * In this demo, a python script will act as a client and fetch data from the resource server
-*  
+* `requests` python module is used to fetch data from the OAuth server and resource servers. The `requests` module can be installed using the command `pyhon -m pip install requests` 
 
 
 
@@ -174,5 +174,5 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzU4NDg1Nl19
+eyJoaXN0b3J5IjpbMTEzNjgyMDU3NF19
 -->
