@@ -159,7 +159,7 @@ APP.run(host="0.0.0.0", port=50100, debug=True)
 * If the client gets authorized the resource server, the result will be printed in the console without any errors
 
 ## Implementing own JWT validation flask decorator using pyjwt
-* `authlib` python module uses `pyjwt` under the hood to implement the access token validation flask decorator
+* `authlib` python module uses `pyjwt` under the hood to parse and validate the JWT access token in the flask decorator
 * A JWT validation flask decorator from scratch can also be created as shown below.
 * However we do not recommend this approach unless required since the authlib implementation of JWT validation decorator is more robust and less error prone
 * `pyjwt` python module can be installed using the command `python -m pip install pyjwt[crypto]`
@@ -262,7 +262,7 @@ def private():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTU4Mjc1MzAsLTIxNDI5NjcyMTEsMT
+eyJoaXN0b3J5IjpbLTE2Mjk2MDI1NTMsLTIxNDI5NjcyMTEsMT
 AyOTgyOTQ2MCwtNjM2NzIxNzAwLDEyOTAzMzA4ODcsLTEwNzAw
 NTA4OTEsMTc4NDE3NjM4NF19
 -->
