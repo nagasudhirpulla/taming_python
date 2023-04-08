@@ -31,6 +31,11 @@ For this demo, we will run a Keycloak server as an OAuth server and register the
 * `requests` python module is used to fetch access token from the OAuth server and data from resource server using HTTP GET and POST requests. The `requests` module can be installed using the command `pyhon -m pip install requests`
 * The following is the workflow of the python client
 	* Fetch access token from OAuth server by providing client credentials
+	* Perform data request to resource server URL by including the access token in the "Authorization" header of the request
+
+```py
+
+```
 
 
 
@@ -176,5 +181,5 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODMwMzgwMV19
+eyJoaXN0b3J5IjpbMTc4NDE3NjM4NF19
 -->
