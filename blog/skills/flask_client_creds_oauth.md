@@ -1,4 +1,4 @@
-## Implement python client and flask server for OAuth 2.0 client credentials flow
+## Implement flask server and python client for OAuth 2.0 client credentials flow
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -259,7 +259,8 @@ def private_scoped():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjcyNjI3OSw2Mjg4MzkxNTYsLTIxND
-I5NjcyMTEsMTAyOTgyOTQ2MCwtNjM2NzIxNzAwLDEyOTAzMzA4
-ODcsLTEwNzAwNTA4OTEsMTc4NDE3NjM4NF19
+eyJoaXN0b3J5IjpbMTAxMDk2MTcwOSwtNTIyNzI2Mjc5LDYyOD
+gzOTE1NiwtMjE0Mjk2NzIxMSwxMDI5ODI5NDYwLC02MzY3MjE3
+MDAsMTI5MDMzMDg4NywtMTA3MDA1MDg5MSwxNzg0MTc2Mzg0XX
+0=
 -->
