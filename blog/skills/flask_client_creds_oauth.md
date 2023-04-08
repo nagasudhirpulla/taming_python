@@ -98,6 +98,25 @@ print("execution complete!")
 
 ```py
 # validator.py
+import json
+from urllib.request import urlopen
+from authlib.jose.rfc7517.jwk import JsonWebKey
+from authlib.oauth2.rfc7523 import JWTBearerTokenValidator
+
+class Auth0JWTBearerTokenValidator(JWTBearerTokenValidator):
+    def __init__(self, issuer):
+        jsonurl = urlopen(f"{issuer}/protocol/openid-connect/certs")
+        public_key = JsonWebKey.import_key_set(
+            json.loads(jsonurl.read())
+        )
+        super(Auth0JWTBearerTokenValidator, self).__init__(
+            public_key
+        )
+        self.claims_options = {
+            "exp": {"essential": True},
+            "iss": {"essential": True, "value": issuer}
+        }
+
 ```
 
 ### Fetching access_tokens from the token_endpoint
@@ -241,6 +260,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3MDY2MTg3LC0xMDcwMDUwODkxLDE3OD
-QxNzYzODRdfQ==
+eyJoaXN0b3J5IjpbMTI5MDMzMDg4NywtMTA3MDA1MDg5MSwxNz
+g0MTc2Mzg0XX0=
 -->
