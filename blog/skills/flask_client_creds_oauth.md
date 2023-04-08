@@ -18,7 +18,7 @@
 - A complete blog post explaining this workflow can be found [here](https://nagasudhir.blogspot.com/2023/04/secure-machine-to-machine-communication.html)
 
 ## Registering a client in Keycloak OAuth server 
-* For this demo, we will run a Keycloak server as an OAuth serv
+For this demo, we will run a Keycloak server as an OAuth server and register the client application in it. The following are the steps to register a client
 * Create a realm named "myorg" in keycloak
 * Create a client scope named "test_api_access"
 * Create a client with client_id "test_api_client". Keep Client authentication as "ON" and Authentication flow as only "Service accounts roles". This will set the client application authorization flow as client credentials flow.
@@ -173,5 +173,5 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTUzNjg3NF19
+eyJoaXN0b3J5IjpbLTc2MDE1MTQ2NV19
 -->
