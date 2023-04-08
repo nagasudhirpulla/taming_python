@@ -93,7 +93,7 @@ print("execution complete!")
 * The workflow of the request authorization in resource server is as follows:
 	* Extract the access token from request authorization header
 	* Fetch the public key from OAuth server for verifying the access token JWT signature
-	*  
+	*  Validate the JWT signature, expiration time, scope etc. If all the criteria are satisfied, then authorize the request
 
 ### Fetching access_tokens from the token_endpoint
 *  Access tokens can be fetched from the token_endpoint URL. The token_endpoint URL can also be found in the well-known URL
@@ -236,6 +236,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDMyMTI0NCwtMTA3MDA1MDg5MSwxNz
-g0MTc2Mzg0XX0=
+eyJoaXN0b3J5IjpbMTEwMjA1ODA2LC0xMDcwMDUwODkxLDE3OD
+QxNzYzODRdfQ==
 -->
