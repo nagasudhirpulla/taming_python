@@ -14,11 +14,8 @@
 
 ### Workflow of Client Credentials flow
 ![oauth_client_credentials_flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_client_credentials_flow.png)
-- As a one time activity, the client application will be registered in the STS (Secure Token Service or OAuth server) with the required API scopes. The client will be given “client id” and “client secret” by the STS
-- Step 1 - The client sends “client id” and “client secret” and requests access token from the STS
-- Step 2 - The STS validates the client ID and client secret and issues an access token to the client
-- Step 3 - The client sends request to resource API with access token attached to the request
-- Step 4 - The resource API validates the access token (and the client scopes if required) and sends the response to the client
+- This the workflow of client credentials flow in OAuth 2.0
+- A complete blog post explaining this workflow can be found [here](https://nagasudhir.blogspot.com/2023/04/secure-machine-to-machine-communication.html)
 
 ## Client credentials flow demo with Keycloak
 
@@ -177,5 +174,5 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODY5NDk2OF19
+eyJoaXN0b3J5IjpbLTE0NzQ5NDUzNTZdfQ==
 -->
