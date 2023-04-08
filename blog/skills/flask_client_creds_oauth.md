@@ -5,6 +5,7 @@
 #### Skills Required
 -   [OAuth 2.0 for centralized Authorization and Authentication of users and applications](https://nagasudhir.blogspot.com/2023/03/oauth-20-for-centralized-authorization.html)
 - [Setup Keycloak as OAuth 2.0 server in Windows for testing and development](https://nagasudhir.blogspot.com/2023/04/setup-keycloak-as-oauth-20-server-in.html)
+- 
 
 <br>
 
@@ -168,6 +169,8 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
 - JWT decoder and verifier online - https://jwt.io 
+- Authlib Docs - https://docs.authlib.org/en/latest/#authlib-python-authentication
+- 
 
 <hr/>
 
@@ -176,5 +179,5 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1Mjg0NjAyXX0=
+eyJoaXN0b3J5IjpbMTE0NDAyNDQyNF19
 -->
