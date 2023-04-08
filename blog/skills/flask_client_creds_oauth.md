@@ -97,7 +97,7 @@ print("execution complete!")
 	*  Validate the JWT signature, expiration time, scope etc. If all the criteria are satisfied, then authorize the request
 
 ```py
-
+# validator.py
 ```
 
 ### Fetching access_tokens from the token_endpoint
@@ -241,6 +241,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDU4MDA0NSwtMTA3MDA1MDg5MSwxNz
-g0MTc2Mzg0XX0=
+eyJoaXN0b3J5IjpbODA3MDY2MTg3LC0xMDcwMDUwODkxLDE3OD
+QxNzYzODRdfQ==
 -->
