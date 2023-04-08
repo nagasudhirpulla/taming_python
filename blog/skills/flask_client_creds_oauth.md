@@ -238,6 +238,11 @@ def requireClientCredsDecoratorFactory(issuer=None):
 ```  
 
 * In the above example, a flask decorator that validates and authorizes access token is created using the `pyjwt` module
+* The above decorator can be used in a flask application as shown below
+```py
+# server.py
+from authDecorator import 
+```
 
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
@@ -253,6 +258,6 @@ def requireClientCredsDecoratorFactory(issuer=None):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQ1MjcxNzIsLTYzNjcyMTcwMCwxMj
-kwMzMwODg3LC0xMDcwMDUwODkxLDE3ODQxNzYzODRdfQ==
+eyJoaXN0b3J5IjpbMTk2MTgyMzY0NCwtNjM2NzIxNzAwLDEyOT
+AzMzA4ODcsLTEwNzAwNTA4OTEsMTc4NDE3NjM4NF19
 -->
