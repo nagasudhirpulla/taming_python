@@ -241,7 +241,9 @@ def requireClientCredsDecoratorFactory(issuer=None):
 * The above decorator can be used in a flask application as shown below
 ```py
 # server.py
-from authDecorator import 
+from authDecorator import requireClientCredsDecoratorFactory
+require_auth = requireClientCredsDecoratorFactory("http://localhost:8080/realms/myorg")
+
 ```
 
 ## References
@@ -258,6 +260,6 @@ from authDecorator import
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTgyMzY0NCwtNjM2NzIxNzAwLDEyOT
-AzMzA4ODcsLTEwNzAwNTA4OTEsMTc4NDE3NjM4NF19
+eyJoaXN0b3J5IjpbLTExMDQ3NjAwMjEsLTYzNjcyMTcwMCwxMj
+kwMzMwODg3LC0xMDcwMDUwODkxLDE3ODQxNzYzODRdfQ==
 -->
