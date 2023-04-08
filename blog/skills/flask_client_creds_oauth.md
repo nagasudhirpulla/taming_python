@@ -167,7 +167,7 @@ APP.run(host="0.0.0.0", port=50100, debug=True)
 * Run the client script
 * If the client gets authorized the resource server, the result will be printed in the console without any errors
 
-
+## Implementing own jwt validation
 
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
@@ -183,6 +183,6 @@ APP.run(host="0.0.0.0", port=50100, debug=True)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTQ1NjcxNywxMjkwMzMwODg3LC0xMD
-cwMDUwODkxLDE3ODQxNzYzODRdfQ==
+eyJoaXN0b3J5IjpbOTczODk3NjI2LDEyOTAzMzA4ODcsLTEwNz
+AwNTA4OTEsMTc4NDE3NjM4NF19
 -->
