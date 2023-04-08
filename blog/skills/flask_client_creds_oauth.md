@@ -155,6 +155,7 @@ def private_scoped():
 APP.run(host="0.0.0.0", port=50100, debug=True)
 
 ```
+
 * As shown in the above example, the decorator `require_auth` for authorizing the requests based on client credentials flow is created very easily using the classes `ResourceProtector` and `` of the `authlib` python module
 
 ### Fetching access_tokens from the token_endpoint
@@ -298,6 +299,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjUzNTA4LDEyOTAzMzA4ODcsLTEwNz
-AwNTA4OTEsMTc4NDE3NjM4NF19
+eyJoaXN0b3J5IjpbLTIwNjIwMzE5MjIsMTI5MDMzMDg4NywtMT
+A3MDA1MDg5MSwxNzg0MTc2Mzg0XX0=
 -->
