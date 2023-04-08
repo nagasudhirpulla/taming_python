@@ -163,7 +163,11 @@ APP.run(host="0.0.0.0", port=50100, debug=True)
 
 ## Running the demo
 * Run the Keycloak server with the required realm, client, client credentials and client scope
-* 
+* Run the flask resource server
+* Run the client script
+* If the client gets authorized the resource server, the result will be printed in the console without any errors
+
+
 
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
@@ -178,6 +182,6 @@ APP.run(host="0.0.0.0", port=50100, debug=True)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjcyMDk4MjEsMTI5MDMzMDg4NywtMT
-A3MDA1MDg5MSwxNzg0MTc2Mzg0XX0=
+eyJoaXN0b3J5IjpbLTY5MTQzODY3NywxMjkwMzMwODg3LC0xMD
+cwMDUwODkxLDE3ODQxNzYzODRdfQ==
 -->
