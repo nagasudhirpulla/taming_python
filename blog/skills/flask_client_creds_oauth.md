@@ -87,8 +87,8 @@ print("execution complete!")
 ```
 
 ## The Resource server
+*  
 
-![oauth_well_known_endpoint.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_well_known_endpoint.png)
 ### Fetching access_tokens from the token_endpoint
 *  Access tokens can be fetched from the token_endpoint URL. The token_endpoint URL can also be found in the well-known URL
 * For example, to fetch a token from keycloak realm, say myorg, the token endpoint would be http://localhost:8080/realms/myorg/protocol/openid-connect/token
@@ -230,6 +230,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTcwMzk4NSwtMTA3MDA1MDg5MSwxNz
-g0MTc2Mzg0XX0=
+eyJoaXN0b3J5IjpbLTE1NDQ2MDYyOTgsLTEwNzAwNTA4OTEsMT
+c4NDE3NjM4NF19
 -->
