@@ -151,9 +151,7 @@ def private_scoped():
     )
     return jsonify(message=response)
 
-
 APP.run("0.0.0.0", 50100, debug=True)
-
 
 ```
 
@@ -298,6 +296,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODY3NjA1NSwxMjkwMzMwODg3LC0xMD
+eyJoaXN0b3J5IjpbLTU2MjE4MDA1NSwxMjkwMzMwODg3LC0xMD
 cwMDUwODkxLDE3ODQxNzYzODRdfQ==
 -->
