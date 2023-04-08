@@ -106,13 +106,13 @@ from authlib.jose.rfc7517.jwk import JsonWebKey
 from authlib.oauth2.rfc7523 import JWTBearerTokenValidator
 from flask import Flask, jsonify
 
-class Auth0JWTBearerTokenValidator(JWTBearerTokenValidator):
+class ClientCredsTokenValidator(JWTBearerTokenValidator):
     def __init__(self, issuer):
         jsonurl = urlopen(f"{issuer}/protocol/openid-connect/certs")
         public_key = JsonWebKey.import_key_set(
             json.loads(jsonurl.read())
         )
-        super(Auth0JWTBearerTokenValidator, self).__init__(
+        super(ClientCredsTokenValidator, self).__init__(
             public_key
         )
         self.claims_options = {
@@ -121,7 +121,7 @@ class Auth0JWTBearerTokenValidator(JWTBearerTokenValidator):
         }
 
 require_auth = ResourceProtector()
-validator = Auth0JWTBearerTokenValidator("http://localhost:8080/realms/myorg")
+validator = ClientCredsTokenValidator("http://localhost:8080/realms/myorg")
 require_auth.register_token_validator(validator)
 
 APP = Flask(__name__)
@@ -298,6 +298,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTA1OTExMSwxMjkwMzMwODg3LC0xMD
+eyJoaXN0b3J5IjpbLTU3Njk4NDUxOSwxMjkwMzMwODg3LC0xMD
 cwMDUwODkxLDE3ODQxNzYzODRdfQ==
 -->
