@@ -173,6 +173,7 @@ APP.run(host="0.0.0.0", port=50100, debug=True)
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
 - JWT decoder and verifier online - https://jwt.io 
 - Authlib Docs - https://docs.authlib.org/en/latest/#authlib-python-authentication
+- pyjwt docs - https://pyjwt.readthedocs.io/en/latest/api.html#jwt.decode
 - 
 
 <hr/>
@@ -182,6 +183,6 @@ APP.run(host="0.0.0.0", port=50100, debug=True)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTQzODY3NywxMjkwMzMwODg3LC0xMD
+eyJoaXN0b3J5IjpbMTEyOTQ1NjcxNywxMjkwMzMwODg3LC0xMD
 cwMDUwODkxLDE3ODQxNzYzODRdfQ==
 -->
