@@ -9,12 +9,10 @@
 
 <br>
 
-* In this post we will learn how can we secure machine to machine communication with OAuth 2.0 Client Credentials flow
-* We will also demonstrate OAuth 2.0 client credentials flow with keycloak
+* In this post we will learn how to create a client and flask server for client credentials flow based authorization
 
 
 ### Workflow of Client Credentials flow
-
 ![oauth_client_credentials_flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_client_credentials_flow.png)
 - As a one time activity, the client application will be registered in the STS (Secure Token Service or OAuth server) with the required API scopes. The client will be given “client id” and “client secret” by the STS
 - Step 1 - The client sends “client id” and “client secret” and requests access token from the STS
@@ -179,5 +177,5 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDAwNjk5MDJdfQ==
+eyJoaXN0b3J5IjpbLTg4ODY5NDk2OF19
 -->
