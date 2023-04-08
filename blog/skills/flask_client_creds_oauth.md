@@ -244,7 +244,7 @@ def requireClientCredsDecoratorFactory(issuer=None):
 from authDecorator import requireClientCredsDecoratorFactory
 require_auth = requireClientCredsDecoratorFactory("http://localhost:8080/realms/myorg")
 
-# ....flask application setup code
+# ...flask application setup code
 
 @APP.route("/api/private")
 @require_auth(None)
@@ -255,7 +255,7 @@ def private():
     )
     return jsonify(message=response)
 
-#...other flask application code
+# ...other flask application code
 ```
 
 ## References
@@ -272,6 +272,6 @@ def private():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjcyNjU2MiwtNjM2NzIxNzAwLDEyOT
+eyJoaXN0b3J5IjpbMTAyOTgyOTQ2MCwtNjM2NzIxNzAwLDEyOT
 AzMzA4ODcsLTEwNzAwNTA4OTEsMTc4NDE3NjM4NF19
 -->
