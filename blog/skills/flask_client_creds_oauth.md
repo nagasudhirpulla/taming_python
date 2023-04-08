@@ -17,7 +17,7 @@
 - This the workflow of client credentials flow in OAuth 2.0
 - A complete blog post explaining this workflow can be found [here](https://nagasudhir.blogspot.com/2023/04/secure-machine-to-machine-communication.html)
 
-## Registering a client in Keycloak OAuth server 
+## The OAuth server 
 For this demo, we will run a Keycloak server as an OAuth server and register the client application in it. The following are the steps to register a client
 * Create a realm named "myorg" in keycloak
 * Create a client scope named "test_api_access"
@@ -230,5 +230,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzAwNTA4OTEsMTc4NDE3NjM4NF19
+eyJoaXN0b3J5IjpbMjEwNDU5NTA0OSwtMTA3MDA1MDg5MSwxNz
+g0MTc2Mzg0XX0=
 -->
