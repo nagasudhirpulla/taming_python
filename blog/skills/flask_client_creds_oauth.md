@@ -95,6 +95,10 @@ print("execution complete!")
 	* Fetch the public key from OAuth server for verifying the access token JWT signature
 	*  Validate the JWT signature, expiration time, scope etc. If all the criteria are satisfied, then authorize the request
 
+```py
+
+```
+
 ### Fetching access_tokens from the token_endpoint
 *  Access tokens can be fetched from the token_endpoint URL. The token_endpoint URL can also be found in the well-known URL
 * For example, to fetch a token from keycloak realm, say myorg, the token endpoint would be http://localhost:8080/realms/myorg/protocol/openid-connect/token
@@ -236,6 +240,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjA1ODA2LC0xMDcwMDUwODkxLDE3OD
-QxNzYzODRdfQ==
+eyJoaXN0b3J5IjpbLTEyNTAzMTYxMSwtMTA3MDA1MDg5MSwxNz
+g0MTc2Mzg0XX0=
 -->
