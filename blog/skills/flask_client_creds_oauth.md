@@ -86,7 +86,7 @@ print("execution complete!")
 
 ```
 
-
+## The Resource server
 
 ![oauth_well_known_endpoint.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_well_known_endpoint.png)
 ### Fetching access_tokens from the token_endpoint
@@ -230,6 +230,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDU5NTA0OSwtMTA3MDA1MDg5MSwxNz
+eyJoaXN0b3J5IjpbLTY0NTcwMzk4NSwtMTA3MDA1MDg5MSwxNz
 g0MTc2Mzg0XX0=
 -->
