@@ -90,7 +90,7 @@ print("execution complete!")
 * For this demo, a flask server will be the resource server 
 * Some endpoints will be authorize requests using the client credentials flow
 * A flask decorator that acts as a request middle-ware will be used to add authorization to the flask server endpoint. So just by adding the decorator, authorization can be added to the flask endpoint
-* The decorator for authorizing the request is created using the `authlib` python module. It can be 
+* The decorator for authorizing the request is created using the `authlib` python module. It can be installed using the command `pip install Authlib`
 * The workflow of the request authorization in resource server is as follows:
 	* Extract the access token from request authorization header
 	* Fetch the public key from OAuth server for verifying the access token JWT signature
@@ -241,6 +241,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDEwNDY1NTIsLTEwNzAwNTA4OTEsMT
+eyJoaXN0b3J5IjpbLTE5NjkzOTc0ODcsLTEwNzAwNTA4OTEsMT
 c4NDE3NjM4NF19
 -->
