@@ -1,4 +1,4 @@
-## Implement python client and server for OAuth 2.0 Client credentials using authlib and Flask
+## Implement python client and flask server for OAuth 2.0 client credentials flow
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -176,5 +176,5 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Mzc4OTIxMl19
+eyJoaXN0b3J5IjpbMjI1Mjg0NjAyXX0=
 -->
