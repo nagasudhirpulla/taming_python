@@ -17,9 +17,8 @@
 - This the workflow of client credentials flow in OAuth 2.0
 - A complete blog post explaining this workflow can be found [here](https://nagasudhir.blogspot.com/2023/04/secure-machine-to-machine-communication.html)
 
-## Register a client in Keycloak OAuth server 
-
-### Registering a client in keycloak for demo
+## Registering a client in Keycloak OAuth server 
+* For this demo, we will run a Keycloak server as an OAuth serv
 * Create a realm named "myorg" in keycloak
 * Create a client scope named "test_api_access"
 * Create a client with client_id "test_api_client". Keep Client authentication as "ON" and Authentication flow as only "Service accounts roles". This will set the client application authorization flow as client credentials flow.
@@ -174,5 +173,5 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTM4OTE1MF19
+eyJoaXN0b3J5IjpbMjA3MTUzNjg3NF19
 -->
