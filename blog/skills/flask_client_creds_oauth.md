@@ -249,7 +249,6 @@ require_auth = requireClientCredsDecoratorFactory("http://localhost:8080/realms/
 @APP.route("/api/private")
 @require_auth(None)
 def private():
-    """A valid access token is required."""
     response = (
         "Authorization is required to see this"
     )
@@ -272,6 +271,7 @@ def private():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTgyOTQ2MCwtNjM2NzIxNzAwLDEyOT
-AzMzA4ODcsLTEwNzAwNTA4OTEsMTc4NDE3NjM4NF19
+eyJoaXN0b3J5IjpbLTIxNDI5NjcyMTEsMTAyOTgyOTQ2MCwtNj
+M2NzIxNzAwLDEyOTAzMzA4ODcsLTEwNzAwNTA4OTEsMTc4NDE3
+NjM4NF19
 -->
