@@ -128,28 +128,19 @@ APP = Flask(__name__)
 
 @APP.route("/api/public")
 def public():
-    """No access token required."""
-    response = (
-        "No need of Authorization to see this"
-    )
+    response = "No need of Authorization to see this"
     return jsonify(message=response)
 
 @APP.route("/api/private")
 @require_auth(None)
 def private():
-    """A valid access token is required."""
-    response = (
-        "Authorization is required to see this"
-    )
+    response = "Authorization is required to see this"
     return jsonify(message=response)
 
 @APP.route("/api/private-scoped")
 @require_auth("test_api_access")
 def private_scoped():
-    """A valid access token and scope are required."""
-    response = (
-        "Authorization with a scope named test_api_access is required to see this"
-    )
+    response = "Authorization with a scope named test_api_access is required to see this"
     return jsonify(message=response)
 
 APP.run(host="0.0.0.0", port=50100, debug=True)
@@ -271,7 +262,7 @@ def private():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI5NjcyMTEsMTAyOTgyOTQ2MCwtNj
-M2NzIxNzAwLDEyOTAzMzA4ODcsLTEwNzAwNTA4OTEsMTc4NDE3
-NjM4NF19
+eyJoaXN0b3J5IjpbMTQ1NDYzNTk1NiwtMjE0Mjk2NzIxMSwxMD
+I5ODI5NDYwLC02MzY3MjE3MDAsMTI5MDMzMDg4NywtMTA3MDA1
+MDg5MSwxNzg0MTc2Mzg0XX0=
 -->
