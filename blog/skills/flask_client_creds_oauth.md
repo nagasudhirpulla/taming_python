@@ -27,7 +27,8 @@ For this demo, we will run a Keycloak server as an OAuth server and register the
 * In the client scopes tab of the client, add the scope "test_api_access". If the scope is made optional, the access token will include this scope only if explicitly requested by the client application 
  
 ## The Python client
-
+* In this demo, a python script will act as a client and fetch data from the resource server
+*  
 
 
 
@@ -173,5 +174,5 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1Mzg4MzI0N119
+eyJoaXN0b3J5IjpbMTgzMzU4NDg1Nl19
 -->
