@@ -97,11 +97,13 @@ print("execution complete!")
 	*  Validate the JWT signature, expiration time, scope etc. If all the criteria are satisfied, then authorize the request
 
 ```py
-# validator.py
+# server.py
 import json
 from urllib.request import urlopen
+from authlib.integrations.flask_oauth2 import ResourceProtector
 from authlib.jose.rfc7517.jwk import JsonWebKey
 from authlib.oauth2.rfc7523 import JWTBearerTokenValidator
+from flask import Flask, jsonify
 
 class Auth0JWTBearerTokenValidator(JWTBearerTokenValidator):
     def __init__(self, issuer):
@@ -116,6 +118,42 @@ class Auth0JWTBearerTokenValidator(JWTBearerTokenValidator):
             "exp": {"essential": True},
             "iss": {"essential": True, "value": issuer}
         }
+
+require_auth = ResourceProtector()
+validator = Auth0JWTBearerTokenValidator("http://localhost:8080/realms/myorg")
+require_auth.register_token_validator(validator)
+
+APP = Flask(__name__)
+
+@APP.route("/api/public")
+def public():
+    """No access token required."""
+    response = (
+        "No need of Authorization to see this"
+    )
+    return jsonify(message=response)
+
+@APP.route("/api/private")
+@require_auth(None)
+def private():
+    """A valid access token is required."""
+    response = (
+        "Authorization is required to see this"
+    )
+    return jsonify(message=response)
+
+@APP.route("/api/private-scoped")
+@require_auth("test_api_access")
+def private_scoped():
+    """A valid access token and scope are required."""
+    response = (
+        "Authorization with a scope named test_api_access is required to see this"
+    )
+    return jsonify(message=response)
+
+
+APP.run("0.0.0.0", 50100, debug=True)
+
 
 ```
 
@@ -260,6 +298,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDMzMDg4NywtMTA3MDA1MDg5MSwxNz
-g0MTc2Mzg0XX0=
+eyJoaXN0b3J5IjpbLTgxODY3NjA1NSwxMjkwMzMwODg3LC0xMD
+cwMDUwODkxLDE3ODQxNzYzODRdfQ==
 -->
