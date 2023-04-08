@@ -173,6 +173,67 @@ APP.run(host="0.0.0.0", port=50100, debug=True)
 * However we do not recommend this approach unless required since the authlib implementation of JWT validation decorator is more robust and less error prone
 ```py	
 # authdecorator.py
+import json
+from functools import wraps
+
+import jwt
+import requests
+from flask import abort, request
+
+
+def requireClientCredsDecoratorFactory(issuer=None):
+    def req_client_creds(scopes=None):
+        def decorator(f):
+            @wraps(f)
+            def decorated_function(*args, **kwargs):
+                # print(f"Decorator hit with scopes as {scopes}...")
+                # read access token from bearer token of authorization header
+                accessToken = request.headers.get(
+                    'Authorization', "").replace("Bearer ", "")
+
+                if accessToken == "":
+                    abort(401)
+
+                # read the jwt header and derive algorithm and keyId for jwt validation
+                jwtHeader = jwt.get_unverified_header(accessToken)
+                jwtAlg = jwtHeader['alg']
+                keyId = jwtHeader['kid']
+
+                # fetch required public key for jwt validation
+                pubKeysUrl = f"{issuer}/protocol/openid-connect/certs"
+                allPubKeys = requests.get(pubKeysUrl).json()["keys"]
+                reqPubKeyJwk = [x for x in allPubKeys if x["kid"] == keyId][0]
+                reqPubKey = jwt.algorithms.RSAAlgorithm.from_jwk(
+                    json.dumps(reqPubKeyJwk))
+
+                # validate jwt payload
+                # jwt.decode also validates the audience and expiry time
+                # https://pyjwt.readthedocs.io/en/latest/api.html#jwt.decode
+                jwtPayload = jwt.decode(
+                    accessToken,
+                    key=reqPubKey,
+                    algorithms=[jwtAlg, ],
+                    options={"verify_aud":False}
+                )
+
+                # validate client scopes for authorization
+                # derive the required scopes for authorization
+                reqScopes = []
+                if isinstance(scopes, str):
+                    reqScopes = scopes.split(" ")
+                elif isinstance(scopes, list):
+                    reqScopes = scopes
+
+                if len(reqScopes) > 0:
+                    jwtScopes = jwtPayload["scope"].split(" ")
+                    isAnyReqScopeAbsent = len(
+                        [x for x in reqScopes if x not in jwtScopes]) > 0
+                    if isAnyReqScopeAbsent:
+                        abort(401)
+                return f(*args, **kwargs)
+            return decorated_function
+        return decorator
+    return req_client_creds
 
 ```  
 
@@ -190,6 +251,6 @@ APP.run(host="0.0.0.0", port=50100, debug=True)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjY5MTI0OTksMTI5MDMzMDg4NywtMT
-A3MDA1MDg5MSwxNzg0MTc2Mzg0XX0=
+eyJoaXN0b3J5IjpbODY0NTk0MjA3LDEyOTAzMzA4ODcsLTEwNz
+AwNTA4OTEsMTc4NDE3NjM4NF19
 -->
