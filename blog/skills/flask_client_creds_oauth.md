@@ -169,7 +169,7 @@ APP.run(host="0.0.0.0", port=50100, debug=True)
 
 ## Implementing own jwt validation flask decorator using pyjwt
 * authlib python module uses pyjwt under the hood to implement the access token validation decorator
-* A JWT validator decorator from scratch can also be created as shown in the below code.
+* A JWT validation flask decorator from scratch can also be created as shown in the below code.
 * However we do not recommend this approach unless required since the authlib implementation of JWT validation decorator is more robust and less error prone
 ```py	
 # authdecorator.py
@@ -251,6 +251,6 @@ def requireClientCredsDecoratorFactory(issuer=None):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTIyNDc2MSwxMjkwMzMwODg3LC0xMD
+eyJoaXN0b3J5IjpbMjA2NjQwOTAwMSwxMjkwMzMwODg3LC0xMD
 cwMDUwODkxLDE3ODQxNzYzODRdfQ==
 -->
