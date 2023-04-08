@@ -27,9 +27,9 @@ For this demo, we will run a Keycloak server as an OAuth server and register the
 * In the client scopes tab of the client, add the scope "test_api_access". If the scope is made optional, the access token will include this scope only if explicitly requested by the client application 
  
 ## The Python client
-* To get the URLs for various tasks like getting public keys, fetching, validating, revoking, verifying tokens etc., the OAuth server provides a URL called "well-known" URL as per the OAuth 2.0 specification
-* In keycloak, the well-known endpoint for a realm named "myorg" would be something like http://localhost:8080/realms/myorg/.well-known/openid-configuration . The well-known URL can also be found in the Realm settings section of keycloak
-* The well-known URL will return a JSON that contains URLs for various endpoints like certificates, tokens, token revocation etc as shown in the below image
+
+
+
 
 ![oauth_well_known_endpoint.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_well_known_endpoint.png)
 ### Fetching access_tokens from the token_endpoint
@@ -173,5 +173,5 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjExMzc2MzBdfQ==
+eyJoaXN0b3J5IjpbMTE1Mzg4MzI0N119
 -->
