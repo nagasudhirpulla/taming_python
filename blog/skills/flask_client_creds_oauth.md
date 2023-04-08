@@ -28,7 +28,7 @@ For this demo, we will run a Keycloak server as an OAuth server and register the
  
 ## The Python client
 * In this demo, a python script will act as a client and fetch data from the resource server
-* `requests` python module is used to fetch access token from the OAuth server and data from resource server using HTTP GET and POST requests. The `requests` module can be installed using the command `pyhon -m pip install requests`
+* `requests` python module is used to fetch access token from the OAuth server and data from resource server using HTTP GET and POST requests. It can be installed using the command `pyhon -m pip install requests`
 * The following is the workflow of the python client
 	* Fetch access token from OAuth server by providing client credentials
 	* Perform data request to resource server URL by including the access token in the "Authorization" header of the request
@@ -89,7 +89,8 @@ print("execution complete!")
 ## The Resource server
 * For this demo, a flask server will be the resource server 
 * Some endpoints will be authorize requests using the client credentials flow
-* A flask decorator that acts as a request middle-ware will be used to add authorization to the flask server endpoint. So just by adding the decorator, authorization can be added to the flask endpoint 
+* A flask decorator that acts as a request middle-ware will be used to add authorization to the flask server endpoint. So just by adding the decorator, authorization can be added to the flask endpoint
+* The decorator for authorizing the request is created using the `authlib` python module. It can be 
 * The workflow of the request authorization in resource server is as follows:
 	* Extract the access token from request authorization header
 	* Fetch the public key from OAuth server for verifying the access token JWT signature
@@ -240,6 +241,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTAzMTYxMSwtMTA3MDA1MDg5MSwxNz
-g0MTc2Mzg0XX0=
+eyJoaXN0b3J5IjpbLTEwNDEwNDY1NTIsLTEwNzAwNTA4OTEsMT
+c4NDE3NjM4NF19
 -->
