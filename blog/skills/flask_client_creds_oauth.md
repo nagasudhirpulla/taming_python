@@ -1,4 +1,4 @@
-## Implement OAuth 2.0 Client credentials flow client and server in 
+## Implement OAuth 2.0 Client credentials flow client and server in python
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -176,5 +176,5 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTg2NzUwNV19
+eyJoaXN0b3J5IjpbOTI3MjgwMTE1XX0=
 -->
