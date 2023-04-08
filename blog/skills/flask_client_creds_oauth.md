@@ -162,7 +162,7 @@ APP.run(host="0.0.0.0", port=50100, debug=True)
 * `@require_auth(["test_api_access", "email"])` means, both the scopes "test_api_access" and "email" are required for authorizing the request
 
 ## Running the demo
-* 
+* Run the keycloak server with the required realm, client, client credentials, client scope and 
 
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
@@ -177,6 +177,6 @@ APP.run(host="0.0.0.0", port=50100, debug=True)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTkxNjA5NDAsMTI5MDMzMDg4NywtMT
-A3MDA1MDg5MSwxNzg0MTc2Mzg0XX0=
+eyJoaXN0b3J5IjpbMTI3MTYzMzExNywxMjkwMzMwODg3LC0xMD
+cwMDUwODkxLDE3ODQxNzYzODRdfQ==
 -->
