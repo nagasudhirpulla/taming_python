@@ -158,7 +158,8 @@ APP.run(host="0.0.0.0", port=50100, debug=True)
 
 * As shown in the above example, the decorator `require_auth` for authorizing the requests based on client credentials flow is created very easily using the `ResourceProtector` and `JWTBearerTokenValidator` classes of `authlib` python module
 * `@require_auth(None)` means, no specific scopes are required for authorization
-* `@require_auth("test_api_access")` means, a scope named "test_api_access" is required for authorization
+* `@require_auth("test_api_access")` means, a scope named "test_api_access" is required for authorizing the request
+* 
 
 ### Fetching access_tokens from the token_endpoint
 *  Access tokens can be fetched from the token_endpoint URL. The token_endpoint URL can also be found in the well-known URL
@@ -301,6 +302,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzA1NjkyNiwxMjkwMzMwODg3LC0xMD
-cwMDUwODkxLDE3ODQxNzYzODRdfQ==
+eyJoaXN0b3J5IjpbNjg0MjkzNzgzLDEyOTAzMzA4ODcsLTEwNz
+AwNTA4OTEsMTc4NDE3NjM4NF19
 -->
