@@ -251,7 +251,6 @@ def private_scoped():
 - JWT decoder and verifier online - https://jwt.io 
 - Authlib Docs - https://docs.authlib.org/en/latest/#authlib-python-authentication
 - pyjwt docs - https://pyjwt.readthedocs.io/en/latest/api.html#jwt.decode
-- 
 
 <hr/>
 
@@ -260,7 +259,7 @@ def private_scoped():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4ODM5MTU2LC0yMTQyOTY3MjExLDEwMj
-k4Mjk0NjAsLTYzNjcyMTcwMCwxMjkwMzMwODg3LC0xMDcwMDUw
-ODkxLDE3ODQxNzYzODRdfQ==
+eyJoaXN0b3J5IjpbLTUyMjcyNjI3OSw2Mjg4MzkxNTYsLTIxND
+I5NjcyMTEsMTAyOTgyOTQ2MCwtNjM2NzIxNzAwLDEyOTAzMzA4
+ODcsLTEwNzAwNTA4OTEsMTc4NDE3NjM4NF19
 -->
