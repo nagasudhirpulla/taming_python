@@ -87,7 +87,7 @@ print("execution complete!")
 ```
 
 ## The Resource server
-* For this demo, a flask server is being used as a resource server 
+* For this demo, a flask server will be th resource server 
 
 ### Fetching access_tokens from the token_endpoint
 *  Access tokens can be fetched from the token_endpoint URL. The token_endpoint URL can also be found in the well-known URL
@@ -230,6 +230,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDAyMjQwMywtMTA3MDA1MDg5MSwxNz
-g0MTc2Mzg0XX0=
+eyJoaXN0b3J5IjpbLTIwMTg3MDM2ODEsLTEwNzAwNTA4OTEsMT
+c4NDE3NjM4NF19
 -->
