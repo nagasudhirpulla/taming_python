@@ -237,12 +237,10 @@ require_auth = requireClientCredsDecoratorFactory("http://localhost:8080/realms/
 
 # ...flask application setup code
 
-@APP.route("/api/private")
-@require_auth(None)
-def private():
-    response = (
-        "Authorization is required to see this"
-    )
+@APP.route("/api/private-scoped")
+@require_auth("test_api_access")
+def private_scoped():
+    response = "Authorization with a scope named test_api_access is required to see this"
     return jsonify(message=response)
 
 # ...other flask application code
@@ -262,7 +260,7 @@ def private():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDUzNDg2NywtMjE0Mjk2NzIxMSwxMD
-I5ODI5NDYwLC02MzY3MjE3MDAsMTI5MDMzMDg4NywtMTA3MDA1
-MDg5MSwxNzg0MTc2Mzg0XX0=
+eyJoaXN0b3J5IjpbNjI4ODM5MTU2LC0yMTQyOTY3MjExLDEwMj
+k4Mjk0NjAsLTYzNjcyMTcwMCwxMjkwMzMwODg3LC0xMDcwMDUw
+ODkxLDE3ODQxNzYzODRdfQ==
 -->
