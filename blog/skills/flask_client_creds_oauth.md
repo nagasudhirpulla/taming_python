@@ -34,6 +34,7 @@ For this demo, we will run a Keycloak server as an OAuth server and register the
 	* Perform data request to resource server URL by including the access token in the "Authorization" header of the request
 
 ```py
+# client.py
 import requests
 
 tokenUrl = "http://localhost:8080/realms/myorg/protocol/openid-connect/token"
@@ -296,6 +297,6 @@ You can see the video on this post [here](https://youtu.be/V4j-cPJxRJs)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjE4MDA1NSwxMjkwMzMwODg3LC0xMD
-cwMDUwODkxLDE3ODQxNzYzODRdfQ==
+eyJoaXN0b3J5IjpbLTE3MTE1MjY5NDgsMTI5MDMzMDg4NywtMT
+A3MDA1MDg5MSwxNzg0MTc2Mzg0XX0=
 -->
