@@ -246,6 +246,11 @@ def private_scoped():
 # ...other flask application code
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/Bk4IAAFopc8)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Bk4IAAFopc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## References
 - OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
 - JWT decoder and verifier online - https://jwt.io 
@@ -254,13 +259,14 @@ def private_scoped():
 
 <hr/>
 
+
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5OTc2ODQ2NywxMDEwOTYxNzA5LC01Mj
-I3MjYyNzksNjI4ODM5MTU2LC0yMTQyOTY3MjExLDEwMjk4Mjk0
-NjAsLTYzNjcyMTcwMCwxMjkwMzMwODg3LC0xMDcwMDUwODkxLD
-E3ODQxNzYzODRdfQ==
+eyJoaXN0b3J5IjpbLTEzMTYzMDk2MjEsLTU5OTc2ODQ2NywxMD
+EwOTYxNzA5LC01MjI3MjYyNzksNjI4ODM5MTU2LC0yMTQyOTY3
+MjExLDEwMjk4Mjk0NjAsLTYzNjcyMTcwMCwxMjkwMzMwODg3LC
+0xMDcwMDUwODkxLDE3ODQxNzYzODRdfQ==
 -->
