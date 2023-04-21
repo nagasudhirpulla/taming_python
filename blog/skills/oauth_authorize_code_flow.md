@@ -12,9 +12,9 @@
 
 ## Why use OAuth 2.0 Authorization Code flow
 * The users information can be managed and stored securely in the OAuth server and need not be created separately in each web application
-* The login screen, user account management, user administration pages are implemented by the OAuth server
+* The login screen, user account management, user administration pages are implemented by the OAuth server. Hence web applications can choose not to store users information in a database or implement login, account management and user administration pages.
 * Since the users information is centrally stored in the OAuth server, multiple web applications can make users login with same credentials in a single login screen, thus facilitating Single-Sign-On (SSO)
-* Web applications can choose not store users information in a database or implement login, account management, users administration pages since it is already implemented in OAuth server
+
 
 
 ### Workflow of Client Credentials flow
@@ -176,6 +176,5 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjMzNTEwOTUsLTE5NzYwMjY1NDldfQ
-==
+eyJoaXN0b3J5IjpbMTQzMDY1MTI3NSwtMTk3NjAyNjU0OV19
 -->
