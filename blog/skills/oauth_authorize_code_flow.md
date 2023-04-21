@@ -9,9 +9,10 @@
 <br>
 
 * In this post we will learn how can we secure server-side web applications with **OAuth 2.0 Authorization Code flow**
-* The users information can be managed in the OAuth server
+* The users information can be managed and stored securely in the OAuth server
 * The login screen and user account management screen are implemented by the OAuth server
 * Since the users information is centrally stored in the OAuth server, multiple web applications can make users login with same credentials in a single login screen, thus facilitating Single-Sign-On (SSO)
+* 
 
 
 ### Workflow of Client Credentials flow
@@ -173,6 +174,5 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzA5MzQ5ODIsLTE5NzYwMjY1NDldfQ
-==
+eyJoaXN0b3J5IjpbODA3OTU5NDY2LC0xOTc2MDI2NTQ5XX0=
 -->
