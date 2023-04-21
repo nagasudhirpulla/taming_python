@@ -1,4 +1,4 @@
-## OAuth 2.0 Authorize Code flow for securing Servi
+## OAuth 2.0 Authorize Code flow for securing Server side web applications
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -171,5 +171,5 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1ODIwOTE1XX0=
+eyJoaXN0b3J5IjpbMTQ4NDUyODY5OV19
 -->
