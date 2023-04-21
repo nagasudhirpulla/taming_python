@@ -1,5 +1,4 @@
-
-## Secure machine to machine communication with OAuth 2.0 Client Credentials flow
+## OAuth 2.0 Authorize Code flow for securing Servi
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -172,5 +171,5 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDQ3NTA4OF19
+eyJoaXN0b3J5IjpbNzc1ODIwOTE1XX0=
 -->
