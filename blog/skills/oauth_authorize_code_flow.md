@@ -14,10 +14,9 @@
 * The users information can be managed and stored securely in the OAuth server and need not be created separately in each web application
 * The login screen, user account management, user administration pages are implemented by the OAuth server. Hence web applications can choose not to store users information in a database or implement login, account management and user administration pages.
 * Since the users information is centrally stored in the OAuth server, multiple web applications can make users login with same credentials in a single login screen, thus facilitating Single-Sign-On (SSO)
-* Only necessary user information can be made accessible to web application 
+* Web applications can be restricted to access only necessary user identity information from OAuth server
 
-
-### Workflow of Client Credentials flow
+### Workflow of Authorization Code flow
 
 ![oauth_client_credentials_flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_client_credentials_flow.png)
 - As a one time activity, the client application will be registered in the STS (Secure Token Service or OAuth server) with the required API scopes. The client will be given “client id” and “client secret” by the STS
@@ -176,5 +175,5 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjc1MTMzMiwtMTk3NjAyNjU0OV19
+eyJoaXN0b3J5IjpbMTg1MDA3MzkzMiwtMTk3NjAyNjU0OV19
 -->
