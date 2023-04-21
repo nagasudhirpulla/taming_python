@@ -9,7 +9,9 @@
 <br>
 
 * In this post we will learn how can we secure server-side web applications with OAuth 2.0 Authorization Code flow
-* The users can be managed and 
+* The users can be managed and maintained in the OAuth server
+* The login screen and user account management screen are implemented by the OAuth server
+*  
 
 
 ### Workflow of Client Credentials flow
@@ -171,6 +173,5 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzcxNTY2NjUsLTE5NzYwMjY1NDldfQ
-==
+eyJoaXN0b3J5IjpbNjg1MTkzMTEzLC0xOTc2MDI2NTQ5XX0=
 -->
