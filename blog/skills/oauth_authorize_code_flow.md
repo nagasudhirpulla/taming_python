@@ -15,7 +15,7 @@
 * The login screen, user account management, user administration pages are implemented by the OAuth server. Hence web applications can choose not to store users information in a database or implement login, account management and user administration pages.
 * Since the users information is centrally stored in the OAuth server, multiple web applications can make users login with same credentials in a single login screen, thus facilitating Single-Sign-On (SSO)
 * Web applications can be restricted to access only necessary user identity information from OAuth server
-* Other APIs can be called by the web application on behalf of the logged n
+* Other APIs can be called by the web application on behalf of the logged in user using the access token issued by the OAuth server after user login
 
 ### Workflow of Authorization Code flow
 
@@ -176,6 +176,6 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5OTU2MDcsOTY1NjEzNTAwLDE4NTAwNz
-M5MzIsLTE5NzYwMjY1NDldfQ==
+eyJoaXN0b3J5IjpbNTQzMjczNjgyLDk2NTYxMzUwMCwxODUwMD
+czOTMyLC0xOTc2MDI2NTQ5XX0=
 -->
