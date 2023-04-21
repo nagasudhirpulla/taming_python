@@ -8,8 +8,8 @@
 
 <br>
 
-* In this post we will learn how can we secure machine to machine communication with OAuth 2.0 Client Credentials flow
-* We will also demonstrate OAuth 2.0 client credentials flow with keycloak
+* In this post we will learn how can we secure server-side web applications with OAuth 2.0 Authorization Code flow
+* The users can be managed and 
 
 
 ### Workflow of Client Credentials flow
@@ -171,5 +171,6 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzYwMjY1NDldfQ==
+eyJoaXN0b3J5IjpbLTIxMzcxNTY2NjUsLTE5NzYwMjY1NDldfQ
+==
 -->
