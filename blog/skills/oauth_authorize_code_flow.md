@@ -19,7 +19,7 @@
 ### Workflow of Authorization Code flow
 
 ![Oauth%20Authorize%20Code%20flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/Oauth%20Authorize%20Code%20flow.png)
-- As a one time activity, the client application will be registered in the OAuth server. The client will be given “client id” and “client secret” by the STS
+- As a one time activity, the client application will be registered in the OAuth server. The client will be given “client id” and “client secret” by the OAuth server
 - Step 1 - The client sends “client id” and “client secret” and requests access token from the STS
 - Step 2 - The STS validates the client ID and client secret and issues an access token to the client
 - Step 3 - The client sends request to resource API with access token attached to the request
@@ -175,6 +175,6 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTMyOTExNCwxODUwMDczOTMyLC0xOT
-c2MDI2NTQ5XX0=
+eyJoaXN0b3J5IjpbOTY1NjEzNTAwLDE4NTAwNzM5MzIsLTE5Nz
+YwMjY1NDldfQ==
 -->
