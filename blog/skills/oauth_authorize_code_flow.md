@@ -143,7 +143,7 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 ### Logging out the user
 * Just clearing the user session in the client application will not log out the user from the OAuth server
 * So after clearing the user session in the client application, the user will be redirected the logout endpoint URL of the OAuth server. The URL will have the id_token and post logout redirect URL as the query parameters.
-* After the logging ou  
+* After the logging out the user, the OAuth server will redirect the user to the post logout redirect URL of the client application
 
 ## Client application implementation in python flask
 * All the OAuth 2.0 workflow is implemented in the server using the `authlib` module
@@ -250,11 +250,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTc1OTM2NiwtMTU0Njk5MDAyOCw1OD
-E4NDcwOSwtMTYxNjkxNjI5NSwtOTU1OTk4Nzk0LDE3ODQ2Njk0
-NTksMTI1NDY3NzUzNywtNDQyNDY0MzE4LC03MjQ4OTIwMTgsLT
-EzNDQ5OTYwNDYsLTIwNjQwNDg5OTQsLTQ2NzgzMDAwOSwyNDE3
-NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3MjUsMjE5NjA4NjAyLD
-EwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLTM2OTI3NzkxMywtMzc1
-MDI2MDM1XX0=
+eyJoaXN0b3J5IjpbMTI4NTMwNzc5LC0xNTQ2OTkwMDI4LDU4MT
+g0NzA5LC0xNjE2OTE2Mjk1LC05NTU5OTg3OTQsMTc4NDY2OTQ1
+OSwxMjU0Njc3NTM3LC00NDI0NjQzMTgsLTcyNDg5MjAxOCwtMT
+M0NDk5NjA0NiwtMjA2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1
+NTI3NCwtMzI4OTc5NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIsMT
+A5MzE4NDYxNiwtMTAzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNzUw
+MjYwMzVdfQ==
 -->
