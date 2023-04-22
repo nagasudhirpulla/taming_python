@@ -38,7 +38,7 @@
 ### Register a client and user in a keycloak realm
 * Create a realm in keycloak named *myorg*
 * Create a client with id "test_web_app" and note the client id and client secret for use in the client application. Modify the client settings to support authorization flow and specify the required inputs like root URL, redirect URL, post-logout redirect URL
-*    
+* Create a user with username "test_user" and set a password under the credentials section
 
 
 ## References
@@ -52,9 +52,9 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDE5ODQzOTQsMjQxNzU1Mjc0LC0zMj
-g5Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMiwxMDkzMTg0NjE2
-LC0xMDMxMjQ5NDAwLC0zNjkyNzc5MTMsLTM3NTAyNjAzNSwtMT
-MxNDYzODMzLDk2NTYxMzUwMCwxODUwMDczOTMyLC0xOTc2MDI2
-NTQ5XX0=
+eyJoaXN0b3J5IjpbLTgwNDM0Mjc4MywyNDE3NTUyNzQsLTMyOD
+k3OTQ5NCw5OTY3ODc3MjUsMjE5NjA4NjAyLDEwOTMxODQ2MTYs
+LTEwMzEyNDk0MDAsLTM2OTI3NzkxMywtMzc1MDI2MDM1LC0xMz
+E0NjM4MzMsOTY1NjEzNTAwLDE4NTAwNzM5MzIsLTE5NzYwMjY1
+NDldfQ==
 -->
