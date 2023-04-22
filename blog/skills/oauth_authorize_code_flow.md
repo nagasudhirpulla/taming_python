@@ -140,7 +140,6 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 ![oauth_authorization_code_login_complete_page.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_authorization_code_login_complete_page.png)
 
-
 ## References
 - JWT decoder and verifier online - https://jwt.io
 - purpose of nonce and state in authorization code flow - https://stackoverflow.com/a/48655220/2746323
@@ -152,7 +151,7 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MjA0NjAwNiwtMTYxNjkxNjI5NSwtOT
+eyJoaXN0b3J5IjpbLTQ1Nzc4MzY4OCwtMTYxNjkxNjI5NSwtOT
 U1OTk4Nzk0LDE3ODQ2Njk0NTksMTI1NDY3NzUzNywtNDQyNDY0
 MzE4LC03MjQ4OTIwMTgsLTEzNDQ5OTYwNDYsLTIwNjQwNDg5OT
 QsLTQ2NzgzMDAwOSwyNDE3NTUyNzQsLTMyODk3OTQ5NCw5OTY3
