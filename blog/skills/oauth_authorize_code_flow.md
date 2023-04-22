@@ -53,7 +53,7 @@ Using these URL parameters, the OAuth server will know the client application de
 	* `response_type=code`, means an authorization code is expected upon user login
 	* `client_id` is provided for OAuth server to identify the client application
 	* `scope` is the scopes requested by the client application to be present in the access token. All the specified scopes should be configured in the OAuth server while registering the client application
-	*   
+	*  `redirect_uri` spethe client application URL to redirect the user after successfully logging in into the OAuth server. The 
 
 
 ## References
@@ -67,7 +67,7 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDA0ODA0OTAsLTIwNjQwNDg5OTQsLT
+eyJoaXN0b3J5IjpbLTIwMTI2NzU0NzQsLTIwNjQwNDg5OTQsLT
 Q2NzgzMDAwOSwyNDE3NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3
 MjUsMjE5NjA4NjAyLDEwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLT
 M2OTI3NzkxMywtMzc1MDI2MDM1LC0xMzE0NjM4MzMsOTY1NjEz
