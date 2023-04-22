@@ -138,6 +138,7 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 * Since the id token is a JWT, token the integrity can also be checked by client application using the OAuth server public key
 * The user information from the id token can be used by the client application to create a user session
 
+oauth_authorization_code_login_complete_page
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -150,11 +151,11 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTY5MTYyOTUsLTk1NTk5ODc5NCwxNz
-g0NjY5NDU5LDEyNTQ2Nzc1MzcsLTQ0MjQ2NDMxOCwtNzI0ODky
-MDE4LC0xMzQ0OTk2MDQ2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMD
-ksMjQxNzU1Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1LDIxOTYw
-ODYwMiwxMDkzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNjkyNzc5MT
-MsLTM3NTAyNjAzNSwtMTMxNDYzODMzLDk2NTYxMzUwMCwxODUw
-MDczOTMyXX0=
+eyJoaXN0b3J5IjpbNjQ3NjE4MDIyLC0xNjE2OTE2Mjk1LC05NT
+U5OTg3OTQsMTc4NDY2OTQ1OSwxMjU0Njc3NTM3LC00NDI0NjQz
+MTgsLTcyNDg5MjAxOCwtMTM0NDk5NjA0NiwtMjA2NDA0ODk5NC
+wtNDY3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5NDk0LDk5Njc4
+NzcyNSwyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMTAzMTI0OTQwMC
+wtMzY5Mjc3OTEzLC0zNzUwMjYwMzUsLTEzMTQ2MzgzMyw5NjU2
+MTM1MDBdfQ==
 -->
