@@ -61,7 +61,8 @@ Using these URL parameters, the OAuth server will know the client application de
 	* `nonce` is a string passed in the request by client application to OAuth server. OAuth server should provide this nonce in the id token issued to the client application to prove that the id token corresponds to that request only
 * Both the `state` and `nonce` are used to ensure that the communication between client application and OAuth server is not hijacked by malicious actors 
 
-### Step 2 - Authorization code is sent to the w
+### Step 2 - Authorization code is sent to the client application by the OAuth server
+
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -74,10 +75,10 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjAxNTg5NjUsLTEzNDQ5OTYwNDYsLT
-IwNjQwNDg5OTQsLTQ2NzgzMDAwOSwyNDE3NTUyNzQsLTMyODk3
-OTQ5NCw5OTY3ODc3MjUsMjE5NjA4NjAyLDEwOTMxODQ2MTYsLT
-EwMzEyNDk0MDAsLTM2OTI3NzkxMywtMzc1MDI2MDM1LC0xMzE0
-NjM4MzMsOTY1NjEzNTAwLDE4NTAwNzM5MzIsLTE5NzYwMjY1ND
-ldfQ==
+eyJoaXN0b3J5IjpbMjEwMDQ4NjUyMywtMTM0NDk5NjA0NiwtMj
+A2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5
+NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMT
+AzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNzUwMjYwMzUsLTEzMTQ2
+MzgzMyw5NjU2MTM1MDAsMTg1MDA3MzkzMiwtMTk3NjAyNjU0OV
+19
 -->
