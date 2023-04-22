@@ -22,7 +22,7 @@
 ![Oauth%20Authorize%20Code%20flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/Oauth%20Authorize%20Code%20flow.png)
 - As a one time activity, the client application will be registered in the OAuth server. The client will be given “client id” and “client secret” by the OAuth server
 - Step 1 - User clicks login button in the client application
-- Step 2 - Client application redirects the user to the OAuth server authorization pag 
+- Step 2 - Client application redirects the user to the OAuth server authorization page to perform authentication. Required information like callback UR While redirecting the user to OAuth server, the client application also sends other   
 
 ## Client credentials flow demo with Keycloak
 
@@ -174,7 +174,7 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODE1MzQ0ODcsLTM3NTAyNjAzNSwtMT
-MxNDYzODMzLDk2NTYxMzUwMCwxODUwMDczOTMyLC0xOTc2MDI2
-NTQ5XX0=
+eyJoaXN0b3J5IjpbODIxMzY3MzM2LC0zNzUwMjYwMzUsLTEzMT
+Q2MzgzMyw5NjU2MTM1MDAsMTg1MDA3MzkzMiwtMTk3NjAyNjU0
+OV19
 -->
