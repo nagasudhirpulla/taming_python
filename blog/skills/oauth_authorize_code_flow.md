@@ -141,7 +141,7 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 ![oauth_authorization_code_login_complete_page.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_authorization_code_login_complete_page.png)
 ## Implement the client application in flask
-* Tb
+* The server code 
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -154,11 +154,11 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDkzODYwNyw1ODE4NDcwOSwtMTYxNj
-kxNjI5NSwtOTU1OTk4Nzk0LDE3ODQ2Njk0NTksMTI1NDY3NzUz
-NywtNDQyNDY0MzE4LC03MjQ4OTIwMTgsLTEzNDQ5OTYwNDYsLT
-IwNjQwNDg5OTQsLTQ2NzgzMDAwOSwyNDE3NTUyNzQsLTMyODk3
-OTQ5NCw5OTY3ODc3MjUsMjE5NjA4NjAyLDEwOTMxODQ2MTYsLT
-EwMzEyNDk0MDAsLTM2OTI3NzkxMywtMzc1MDI2MDM1LC0xMzE0
-NjM4MzNdfQ==
+eyJoaXN0b3J5IjpbLTIxMjMzMjU3NTQsNTgxODQ3MDksLTE2MT
+Y5MTYyOTUsLTk1NTk5ODc5NCwxNzg0NjY5NDU5LDEyNTQ2Nzc1
+MzcsLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC0xMzQ0OTk2MDQ2LC
+0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQxNzU1Mjc0LC0zMjg5
+Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMiwxMDkzMTg0NjE2LC
+0xMDMxMjQ5NDAwLC0zNjkyNzc5MTMsLTM3NTAyNjAzNSwtMTMx
+NDYzODMzXX0=
 -->
