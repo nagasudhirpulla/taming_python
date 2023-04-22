@@ -47,7 +47,8 @@
 * TODO login page
 * Notice that the URL of the login page looks something like this 
 http://localhost:8080/realms/myorg/protocol/openid-connect/auth?response_type=code&client_id=test_web_app&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&scope=openid+profile+email&state=fmrXezEZQO6xCUDdJH4bbX7AW66gWm&nonce=lcnKjZAnpYSqldG6amqk
-* The URL parameters response_type, client_id, redirect_uri, scope, state, nonce are passed in the user login screen by the client application while redirecting the user to the OAuth login screen.  
+* The URL parameters *response_type, client_id, redirect_uri, scope, state, nonce* are passed in the user login page URL by the client application while redirecting the user to the OAuth login screen. 
+Using these URL parameters, the OAuth server will know the client application details and requirements while authenticating the user. 
 
 
 ## References
@@ -61,9 +62,9 @@ http://localhost:8080/realms/myorg/protocol/openid-connect/auth?response_type=co
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3NTU1NzAxLC0yMDY0MDQ4OTk0LC00Nj
-c4MzAwMDksMjQxNzU1Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1
-LDIxOTYwODYwMiwxMDkzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNj
-kyNzc5MTMsLTM3NTAyNjAzNSwtMTMxNDYzODMzLDk2NTYxMzUw
-MCwxODUwMDczOTMyLC0xOTc2MDI2NTQ5XX0=
+eyJoaXN0b3J5IjpbMTI3MzEwMzc4NSwtMjA2NDA0ODk5NCwtND
+Y3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5NDk0LDk5Njc4Nzcy
+NSwyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMTAzMTI0OTQwMCwtMz
+Y5Mjc3OTEzLC0zNzUwMjYwMzUsLTEzMTQ2MzgzMyw5NjU2MTM1
+MDAsMTg1MDA3MzkzMiwtMTk3NjAyNjU0OV19
 -->
