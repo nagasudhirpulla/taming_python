@@ -25,7 +25,7 @@
 - Client application redirects the user to the OAuth server authorization page to perform authentication. Information like callback URL is sent by the client application to OAuth server while redirecting the user.
 - After logging in the user, the OAuth server redirects the user to the callback URL of the client application along with additional information like authorization code.
 - Client application sends the authorization code, client id and client secret to the OAuth server for obtaining access token and id token
-- OAuth server validates the authorization code, client id and client secret and issues access token and id token to the  
+- OAuth server validates the authorization code, client id and client secret and issues access token and id token to the client 
 
 ## Client credentials flow demo with Keycloak
 
@@ -177,7 +177,7 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjM2OTEwLC0zNzUwMjYwMzUsLTEzMT
-Q2MzgzMyw5NjU2MTM1MDAsMTg1MDA3MzkzMiwtMTk3NjAyNjU0
-OV19
+eyJoaXN0b3J5IjpbLTM2OTI3NzkxMywtMzc1MDI2MDM1LC0xMz
+E0NjM4MzMsOTY1NjEzNTAwLDE4NTAwNzM5MzIsLTE5NzYwMjY1
+NDldfQ==
 -->
