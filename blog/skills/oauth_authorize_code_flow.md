@@ -10,7 +10,7 @@
 
 In this post we will learn how to secure server-side web applications with **OAuth 2.0 Authorization Code flow**
 
-## Why use OAuth 2.0 Authorization Code flow
+### Why use OAuth 2.0 Authorization Code flow
 * The users information (name, email, roles etc.,) can be managed and stored securely in the OAuth server and need not be created separately in each web application
 * The login screen, user account management, user administration pages are implemented by the OAuth server. Hence web applications can choose not to store users information in a database or implement login, account management and user administration pages.
 * Since the users information is centrally stored in the OAuth server, multiple web applications can make users login with same credentials in a single login screen, thus facilitating Single-Sign-On (SSO)
@@ -20,11 +20,11 @@ In this post we will learn how to secure server-side web applications with **OAu
 ### Workflow of Authorization Code flow
 
 ![Oauth%20Authorize%20Code%20flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/Oauth%20Authorize%20Code%20flow.png)
-### Client and user registration in OAuth server
+#### Client and user registration in OAuth server
 - Client application will be registered in the OAuth server. The client will be given “client id” and “client secret” by the OAuth server
 - Users will be registered in the OAuth server
 
-### Steps
+#### Steps
 - User clicks login button in the client application
 - Client application redirects the user to the OAuth server authorization page to perform authentication. Information like callback URL is sent by the client application to OAuth server while redirecting the user.
 - After logging in the user, the OAuth server redirects the user to the callback URL of the client application along with additional information like authorization code.
@@ -33,16 +33,16 @@ In this post we will learn how to secure server-side web applications with **OAu
 - Client application can access user information using id_token and call other APIs on behalf of the user using access_token
 - Client application can authenticate and login the user with the details present in the id_token (like username, email etc) 
 
-## Authorization code flow demo with Keycloak
+### Authorization code flow demo with Keycloak
 
-### Register a client and user in a keycloak realm
+#### Register a client and user in a keycloak realm
 * Create a realm in keycloak named *myorg*
 * Create a client with id "test_web_app" and note the client id and client secret for use in the client application. Modify the client settings to support authorization flow and specify the required inputs like home URL, redirect URL, post-logout redirect URL
 ![keycloak_web_client_administration.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_web_client_administration.png)
 * Create a user with username "test_user" and set a password under the credentials section
 * Users can login and manage their account at "http://localhost:8080/realms/myorg/account"
 ![keycloak_user_admin_page.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_user_admin_page.png)
-### Step 1 - Click the login button to be redirected to the OAuth Login screen
+#### Step 1 - Click the login button to be redirected to the OAuth Login screen
 * We will use a flask web application as a client application to demonstrate the authorization code flow  
 
 ![oauth_authorization_code_flow_login_link.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_authorization_code_flow_login_link.png) 
@@ -62,7 +62,7 @@ Using these URL parameters, the OAuth server will know the client application de
 	* `nonce` is a string passed in the request by client application to OAuth server. OAuth server should provide this nonce in the id token issued to the client application to prove that the id token corresponds to that request only
 * Both the `state` and `nonce` are used to ensure that the communication between client application and OAuth server is not hijacked by malicious actors 
 
-### Step 2 - OAuth server sends Authorization code to client application 
+#### Step 2 - OAuth server sends Authorization code to client application 
 * After the user logs in the OAuth server redirects the user to the client application's redirect URL as shown below
 `http://localhost:3000/callback?state=XchdBv68AuOBJ1nEcJm4gGu2FqqNJd&session_state=3d3e12f0-f19c-4cf1-a39d-71ac90236c76&code=44f2e080-f5ea-4331-a762-2e3de3aef67f.3d3e12f0-f19c-4cf1-a39d-71ac90236c76.bc451cba-2043-447f-afc7-5176e2331517`
 * The URL parameters `state, session_state, code` are added in the redirection URL. These URL parameters are the response from the OAuth server
@@ -71,7 +71,7 @@ Using these URL parameters, the OAuth server will know the client application de
 	* `state` is the string passed by the client application while requesting authorization code. This will matched by the client application for validating the response
 	*  `session_state` is the session identifier maintained by the OAuth server for the ongoing login process. This needs to be sent by the client application while requesting access token and id token from OAuth server
 
-### Step 3 - Client application gets the access token and ID token from OAuth server
+#### Step 3 - Client application gets the access token and ID token from OAuth server
 * After getting the authorization code from OAuth server, the client application sends a request to OAuth server for access token and id token.
 * In our example, a POST request is sent by client application to the OAuth server's token endpoint URL as shown below
 ```
@@ -279,11 +279,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQyMzEwMzAsLTE1NDY5OTAwMjgsNT
-gxODQ3MDksLTE2MTY5MTYyOTUsLTk1NTk5ODc5NCwxNzg0NjY5
-NDU5LDEyNTQ2Nzc1MzcsLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC
-0xMzQ0OTk2MDQ2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQx
-NzU1Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMi
-wxMDkzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNjkyNzc5MTMsLTM3
-NTAyNjAzNV19
+eyJoaXN0b3J5IjpbODk5NDIxMDgyLC0xMDg0MjMxMDMwLC0xNT
+Q2OTkwMDI4LDU4MTg0NzA5LC0xNjE2OTE2Mjk1LC05NTU5OTg3
+OTQsMTc4NDY2OTQ1OSwxMjU0Njc3NTM3LC00NDI0NjQzMTgsLT
+cyNDg5MjAxOCwtMTM0NDk5NjA0NiwtMjA2NDA0ODk5NCwtNDY3
+ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5NDk0LDk5Njc4NzcyNS
+wyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMTAzMTI0OTQwMCwtMzY5
+Mjc3OTEzXX0=
 -->
