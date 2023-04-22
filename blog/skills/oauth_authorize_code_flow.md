@@ -33,7 +33,7 @@
 - Client application can access user information using id_token and call other APIs on behalf of the user using access_token
 - Client application can authenticate and login the user with the details present in the id_token (like username, email etc) 
 
-## Client credentials flow demo with Keycloak
+## Authorization code flow demo with Keycloak
 
 
 
@@ -48,8 +48,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2Nzg3NzI1LDIxOTYwODYwMiwxMDkzMT
-g0NjE2LC0xMDMxMjQ5NDAwLC0zNjkyNzc5MTMsLTM3NTAyNjAz
-NSwtMTMxNDYzODMzLDk2NTYxMzUwMCwxODUwMDczOTMyLC0xOT
-c2MDI2NTQ5XX0=
+eyJoaXN0b3J5IjpbLTMyODk3OTQ5NCw5OTY3ODc3MjUsMjE5Nj
+A4NjAyLDEwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLTM2OTI3Nzkx
+MywtMzc1MDI2MDM1LC0xMzE0NjM4MzMsOTY1NjEzNTAwLDE4NT
+AwNzM5MzIsLTE5NzYwMjY1NDldfQ==
 -->
