@@ -50,7 +50,9 @@
 * The URL parameters *response_type, client_id, redirect_uri, scope, state, nonce* are passed in the user login page URL by the client application while redirecting the user to the OAuth login screen. 
 Using these URL parameters, the OAuth server will know the client application details and requirements while authenticating the user.
 * The following is the explanation for each parameter
-	* `response_type=code`, means an aut 
+	* `response_type=code`, means an authorization code is expected upon user login
+	* `client_id` is passed for OAuth server to identify the client application
+	* `scope` is the 
 
 
 ## References
@@ -64,7 +66,7 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTk1MDk1MywtMjA2NDA0ODk5NCwtND
+eyJoaXN0b3J5IjpbLTYxMzcyMDc1OSwtMjA2NDA0ODk5NCwtND
 Y3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5NDk0LDk5Njc4Nzcy
 NSwyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMTAzMTI0OTQwMCwtMz
 Y5Mjc3OTEzLC0zNzUwMjYwMzUsLTEzMTQ2MzgzMyw5NjU2MTM1
