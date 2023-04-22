@@ -72,7 +72,8 @@ Using these URL parameters, the OAuth server will know the client application de
 
 ### Step 3 - Client application gets the access token and ID token from OAuth server
 ```json
-{'grant_type': 'authorization_code', 
+{
+'grant_type': 'authorization_code', 
 'redirect_uri': 'http://localhost:3000/callback', 
 'code': 'efcb5789-12ad-4f2c-9728-8f646cdf4858.eb2f2d09-4795-48b2-87b6-21d0bee29473.bc451cba-2043-447f-afc7-5176e2331517'
 }
@@ -89,10 +90,10 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU1OTc5ODYsLTcyNDg5MjAxOCwtMTM0ND
-k5NjA0NiwtMjA2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1NTI3
-NCwtMzI4OTc5NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIsMTA5Mz
-E4NDYxNiwtMTAzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNzUwMjYw
-MzUsLTEzMTQ2MzgzMyw5NjU2MTM1MDAsMTg1MDA3MzkzMiwtMT
-k3NjAyNjU0OV19
+eyJoaXN0b3J5IjpbMTE2MDAwMzg5MiwtNzI0ODkyMDE4LC0xMz
+Q0OTk2MDQ2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQxNzU1
+Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMiwxMD
+kzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNjkyNzc5MTMsLTM3NTAy
+NjAzNSwtMTMxNDYzODMzLDk2NTYxMzUwMCwxODUwMDczOTMyLC
+0xOTc2MDI2NTQ5XX0=
 -->
