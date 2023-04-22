@@ -49,7 +49,7 @@
 ![oauth_authorization_code_flow_login_screen.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_authorization_code_flow_login_screen.png)
 
 * Notice that the URL of the login page looks something like:
-`http://localhost:8080/realms/myorg/protocol/openid-connect/auth?response_type=code&client_id=test_web_app&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&scope=openid+profile+email&state=fmrXezEZQO6xCUDdJH4bbX7AW66gWm&nonce=lcnKjZAnpYSqldG6amqk`
+`http://localhost:8080/realms/myorg/protocol/openid-connect/auth?response_type=code&client_id=test_web_app&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&scope=openid+profile+email&state=XchdBv68AuOBJ1nEcJm4gGu2FqqNJd&nonce=QLKWRrW9aaSiZaKTEUMi`
 * The URL parameters *response_type, client_id, redirect_uri, scope, state, nonce* are passed in the user login page URL by the client application while redirecting the user to the OAuth login screen. 
 Using these URL parameters, the OAuth server will know the client application details and requirements while authenticating the user.
 * The following is the explanation for each URL parameter
@@ -150,11 +150,11 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTg4NDk1MSwtOTU1OTk4Nzk0LDE3OD
-Q2Njk0NTksMTI1NDY3NzUzNywtNDQyNDY0MzE4LC03MjQ4OTIw
-MTgsLTEzNDQ5OTYwNDYsLTIwNjQwNDg5OTQsLTQ2NzgzMDAwOS
-wyNDE3NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3MjUsMjE5NjA4
-NjAyLDEwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLTM2OTI3NzkxMy
-wtMzc1MDI2MDM1LC0xMzE0NjM4MzMsOTY1NjEzNTAwLDE4NTAw
-NzM5MzJdfQ==
+eyJoaXN0b3J5IjpbLTE2MTY5MTYyOTUsLTk1NTk5ODc5NCwxNz
+g0NjY5NDU5LDEyNTQ2Nzc1MzcsLTQ0MjQ2NDMxOCwtNzI0ODky
+MDE4LC0xMzQ0OTk2MDQ2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMD
+ksMjQxNzU1Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1LDIxOTYw
+ODYwMiwxMDkzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNjkyNzc5MT
+MsLTM3NTAyNjAzNSwtMTMxNDYzODMzLDk2NTYxMzUwMCwxODUw
+MDczOTMyXX0=
 -->
