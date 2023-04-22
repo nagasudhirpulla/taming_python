@@ -35,6 +35,10 @@
 
 ## Authorization code flow demo with Keycloak
 
+### Register a client and user in a keycloak realm
+* Create a realm in keycloak named *myorg*
+* Create a client with id "test_web_app" and note the client id and client secret for use in the client application
+*    
 
 
 ## References
@@ -48,8 +52,8 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODk3OTQ5NCw5OTY3ODc3MjUsMjE5Nj
-A4NjAyLDEwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLTM2OTI3Nzkx
-MywtMzc1MDI2MDM1LC0xMzE0NjM4MzMsOTY1NjEzNTAwLDE4NT
-AwNzM5MzIsLTE5NzYwMjY1NDldfQ==
+eyJoaXN0b3J5IjpbMjQxNzU1Mjc0LC0zMjg5Nzk0OTQsOTk2Nz
+g3NzI1LDIxOTYwODYwMiwxMDkzMTg0NjE2LC0xMDMxMjQ5NDAw
+LC0zNjkyNzc5MTMsLTM3NTAyNjAzNSwtMTMxNDYzODMzLDk2NT
+YxMzUwMCwxODUwMDczOTMyLC0xOTc2MDI2NTQ5XX0=
 -->
