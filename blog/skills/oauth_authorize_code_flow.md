@@ -111,9 +111,31 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 ### Step 4 - Client application parses the id token and authenticates user
 * The id token returned by the OAuth server is a JWT that contains the user information in the JWT payload as shown below
 
-```
+```json
+{
+  "exp": 1682168586,
+  "iat": 1682168286,
+  "auth_time": 1682168284,
+  "jti": "8f19dd2a-55d0-4bd1-802f-865a45e6fbb0",
+  "iss": "http://localhost:8080/realms/myorg",
+  "aud": "test_web_app",
+  "sub": "35cdeb67-99ee-4d0a-b78b-8e9c9b6139e0",
+  "typ": "ID",
+  "azp": "test_web_app",
+  "nonce": "QLKWRrW9aaSiZaKTEUMi",
+  "session_state": "3d3e12f0-f19c-4cf1-a39d-71ac90236c76",
+  "at_hash": "KuwaB7dW8cBg3335q4WPRQ",
+  "acr": "1",
+  "sid": "3d3e12f0-f19c-4cf1-a39d-71ac90236c76",
+  "email_verified": false,
+  "name": "Test User",
+  "preferred_username": "test_user",
+  "given_name": "Test",
+  "family_name": "User"
+}
 ```
 
+*
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -126,7 +148,7 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0Mzk3MjA0MCwxNzg0NjY5NDU5LDEyNT
+eyJoaXN0b3J5IjpbLTg0NDM2MDA1MywxNzg0NjY5NDU5LDEyNT
 Q2Nzc1MzcsLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC0xMzQ0OTk2
 MDQ2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQxNzU1Mjc0LC
 0zMjg5Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMiwxMDkzMTg0
