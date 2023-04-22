@@ -8,7 +8,7 @@
 
 <br>
 
-* In this post we will learn how can we secure server-side web applications with **OAuth 2.0 Authorization Code flow**
+In this post we will learn how to secure server-side web applications with **OAuth 2.0 Authorization Code flow**
 
 ## Why use OAuth 2.0 Authorization Code flow
 * The users information (name, email, roles etc.,) can be managed and stored securely in the OAuth server and need not be created separately in each web application
@@ -151,11 +151,11 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1Nzc4MzY4OCwtMTYxNjkxNjI5NSwtOT
-U1OTk4Nzk0LDE3ODQ2Njk0NTksMTI1NDY3NzUzNywtNDQyNDY0
-MzE4LC03MjQ4OTIwMTgsLTEzNDQ5OTYwNDYsLTIwNjQwNDg5OT
-QsLTQ2NzgzMDAwOSwyNDE3NTUyNzQsLTMyODk3OTQ5NCw5OTY3
-ODc3MjUsMjE5NjA4NjAyLDEwOTMxODQ2MTYsLTEwMzEyNDk0MD
-AsLTM2OTI3NzkxMywtMzc1MDI2MDM1LC0xMzE0NjM4MzMsOTY1
-NjEzNTAwXX0=
+eyJoaXN0b3J5IjpbNTgxODQ3MDksLTE2MTY5MTYyOTUsLTk1NT
+k5ODc5NCwxNzg0NjY5NDU5LDEyNTQ2Nzc1MzcsLTQ0MjQ2NDMx
+OCwtNzI0ODkyMDE4LC0xMzQ0OTk2MDQ2LC0yMDY0MDQ4OTk0LC
+00Njc4MzAwMDksMjQxNzU1Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3
+NzI1LDIxOTYwODYwMiwxMDkzMTg0NjE2LC0xMDMxMjQ5NDAwLC
+0zNjkyNzc5MTMsLTM3NTAyNjAzNSwtMTMxNDYzODMzLDk2NTYx
+MzUwMF19
 -->
