@@ -23,6 +23,8 @@
 - As a one time activity, the client application will be registered in the OAuth server. The client will be given “client id” and “client secret” by the OAuth server
 - Step 1 - User clicks login button in the client application
 - Step 2 - Client application redirects the user to the OAuth server authorization page to perform authentication. Information like callback URL is sent by the client application to OAuth server while redirecting the user.
+- Step 3 - After logging in the user, the OAuth server redirects the user to the callback URL of the client application along with additional information like authorization code.
+- 
 
 ## Client credentials flow demo with Keycloak
 
@@ -174,7 +176,7 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxNDExNjUwLC0zNzUwMjYwMzUsLTEzMT
-Q2MzgzMyw5NjU2MTM1MDAsMTg1MDA3MzkzMiwtMTk3NjAyNjU0
-OV19
+eyJoaXN0b3J5IjpbMTgxNjU5NzU2OCwtMzc1MDI2MDM1LC0xMz
+E0NjM4MzMsOTY1NjEzNTAwLDE4NTAwNzM5MzIsLTE5NzYwMjY1
+NDldfQ==
 -->
