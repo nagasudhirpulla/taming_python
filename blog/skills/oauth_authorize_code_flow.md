@@ -238,6 +238,12 @@ if __name__ == "__main__":
     app.run(host="0.0.0.0", port=appConf.get("FLASK_PORT", 3000), debug=True)
 
 ```
+
+```html
+<!-- templates/home.html file-->
+
+```
+
 * The user login URL is implemented in the "/login" route of the flask server. The  `authorize_redirect` function will create the login URL and redirect the user to the login page of the OAuth server
 * The login redirect endpoint is implemented in "/callback" route of the flask server. The `authorize_access_token` function will fetch and validate the access token and id token using the authorization code sent from the OAuth server
 * 
@@ -253,7 +259,7 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTc4MDQ0NSwtMTU0Njk5MDAyOCw1OD
+eyJoaXN0b3J5IjpbLTc5NzMwMTEyNywtMTU0Njk5MDAyOCw1OD
 E4NDcwOSwtMTYxNjkxNjI5NSwtOTU1OTk4Nzk0LDE3ODQ2Njk0
 NTksMTI1NDY3NzUzNywtNDQyNDY0MzE4LC03MjQ4OTIwMTgsLT
 EzNDQ5OTYwNDYsLTIwNjQwNDg5OTQsLTQ2NzgzMDAwOSwyNDE3
