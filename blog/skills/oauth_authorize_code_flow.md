@@ -20,8 +20,11 @@
 ### Workflow of Authorization Code flow
 
 ![Oauth%20Authorize%20Code%20flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/Oauth%20Authorize%20Code%20flow.png)
-Client and user registration in OAuth server
-- As a one time activity, the client application will be registered in the OAuth server. The client will be given “client id” and “client secret” by the OAuth server
+### Client and user registration in OAuth server
+- Client application will be registered in the OAuth server. The client will be given “client id” and “client secret” by the OAuth server
+- Users will be registered in the OAuth server
+
+### Steps
 - User clicks login button in the client application
 - Client application redirects the user to the OAuth server authorization page to perform authentication. Information like callback URL is sent by the client application to OAuth server while redirecting the user.
 - After logging in the user, the OAuth server redirects the user to the callback URL of the client application along with additional information like authorization code.
@@ -181,7 +184,7 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyNDQxMTkxLDEwOTMxODQ2MTYsLTEwMz
+eyJoaXN0b3J5IjpbMjE5NjA4NjAyLDEwOTMxODQ2MTYsLTEwMz
 EyNDk0MDAsLTM2OTI3NzkxMywtMzc1MDI2MDM1LC0xMzE0NjM4
 MzMsOTY1NjEzNTAwLDE4NTAwNzM5MzIsLTE5NzYwMjY1NDldfQ
 ==
