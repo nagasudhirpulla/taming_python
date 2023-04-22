@@ -142,7 +142,7 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 ![oauth_authorization_code_login_complete_page.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_authorization_code_login_complete_page.png)
 ### Logging out the user
 * Just clearing the user session in the client application will not log out the user from the OAuth server
-* So after clearing the user session in the client application, the user will be redirected the logout endpoint URL of the OAuth server. The URL will have the id_token and post logout redirect URL as the query parameters.
+* So after clearing the user session in the client application, the user will be redirected the logout endpoint URL (for example, http://localhost:8080/protocol/openid-connect/logout) of the OAuth server. The URL will have the id_token and post logout redirect URL as the query parameters.
 * After the logging out the user, the OAuth server will redirect the user to the post logout redirect URL of the client application
 
 ## Client application implementation in python flask
@@ -250,11 +250,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTMwNzc5LC0xNTQ2OTkwMDI4LDU4MT
-g0NzA5LC0xNjE2OTE2Mjk1LC05NTU5OTg3OTQsMTc4NDY2OTQ1
-OSwxMjU0Njc3NTM3LC00NDI0NjQzMTgsLTcyNDg5MjAxOCwtMT
-M0NDk5NjA0NiwtMjA2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1
-NTI3NCwtMzI4OTc5NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIsMT
-A5MzE4NDYxNiwtMTAzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNzUw
-MjYwMzVdfQ==
+eyJoaXN0b3J5IjpbLTEzMTM1MzMxNjEsLTE1NDY5OTAwMjgsNT
+gxODQ3MDksLTE2MTY5MTYyOTUsLTk1NTk5ODc5NCwxNzg0NjY5
+NDU5LDEyNTQ2Nzc1MzcsLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC
+0xMzQ0OTk2MDQ2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQx
+NzU1Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMi
+wxMDkzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNjkyNzc5MTMsLTM3
+NTAyNjAzNV19
 -->
