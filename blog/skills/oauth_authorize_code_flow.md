@@ -38,7 +38,6 @@ In this post we will learn how to secure server-side web applications with **OAu
 #### Register a client and user in a keycloak realm
 * Create a realm in keycloak named *myorg*
 * Create a client with id "test_web_app" and note the client id and client secret for use in the client application. Modify the client settings to support authorization flow and specify the required inputs like home URL, redirect URL, post-logout redirect URL
-![keycloak_web_client_administration.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_web_client_administration.png)
 
 ![keycloak_client_authorization_code_settings.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_client_authorization_code_settings.png)
 
@@ -283,11 +282,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDAxMTExOSw5Nzk2NzYxMDIsMzI5OT
-A0MjAyLC0xMDg0MjMxMDMwLC0xNTQ2OTkwMDI4LDU4MTg0NzA5
-LC0xNjE2OTE2Mjk1LC05NTU5OTg3OTQsMTc4NDY2OTQ1OSwxMj
-U0Njc3NTM3LC00NDI0NjQzMTgsLTcyNDg5MjAxOCwtMTM0NDk5
-NjA0NiwtMjA2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1NTI3NC
-wtMzI4OTc5NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIsMTA5MzE4
-NDYxNl19
+eyJoaXN0b3J5IjpbMjA5ODYxOTM2LC04NTAwMTExMTksOTc5Nj
+c2MTAyLDMyOTkwNDIwMiwtMTA4NDIzMTAzMCwtMTU0Njk5MDAy
+OCw1ODE4NDcwOSwtMTYxNjkxNjI5NSwtOTU1OTk4Nzk0LDE3OD
+Q2Njk0NTksMTI1NDY3NzUzNywtNDQyNDY0MzE4LC03MjQ4OTIw
+MTgsLTEzNDQ5OTYwNDYsLTIwNjQwNDg5OTQsLTQ2NzgzMDAwOS
+wyNDE3NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3MjUsMjE5NjA4
+NjAyXX0=
 -->
