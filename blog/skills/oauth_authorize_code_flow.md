@@ -54,6 +54,7 @@ Using these URL parameters, the OAuth server will know the client application de
 	* `client_id` is provided for OAuth server to identify the client application
 	* `scope` is the scopes requested by the client application to be present in the access token. All the specified scopes should be configured in the OAuth server while registering the client application
 	*  `redirect_uri` specifies the client application URL to redirect the user after successfully logging in into the OAuth server. The redirect URL should be configured in the OAuth server while registering the client under the section "Valid redirect URIs"
+	* `state` is an arbitrary string passed by client application to the OAuth server. While returning the authorization code to the client application, the OAuth server should return this state 
 
 
 ## References
@@ -67,9 +68,9 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyNTAwMzE5LC0yMDY0MDQ4OTk0LC00Nj
-c4MzAwMDksMjQxNzU1Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1
-LDIxOTYwODYwMiwxMDkzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNj
-kyNzc5MTMsLTM3NTAyNjAzNSwtMTMxNDYzODMzLDk2NTYxMzUw
-MCwxODUwMDczOTMyLC0xOTc2MDI2NTQ5XX0=
+eyJoaXN0b3J5IjpbMTIzMjk1MzcwNCwtMjA2NDA0ODk5NCwtND
+Y3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5NDk0LDk5Njc4Nzcy
+NSwyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMTAzMTI0OTQwMCwtMz
+Y5Mjc3OTEzLC0zNzUwMjYwMzUsLTEzMTQ2MzgzMyw5NjU2MTM1
+MDAsMTg1MDA3MzkzMiwtMTk3NjAyNjU0OV19
 -->
