@@ -90,7 +90,7 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 * The client id and client secret are sent as base 64 encoded bearer string in the POST request's authorization header
 * The POST request body contains the parameters `grant_type, code, redirect_uri`  
 	* `grant_type=authorization_code` specifies the authorization flow
-	* `code` means the authorization code rec
+	* `code` is the authorization code received by the client application 
 	* `redirect_uri` specifies the URL to which the authorization code was provided by the OAuth server
 
 ## References
@@ -104,10 +104,10 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTYyNjgwNTEsLTQ0MjQ2NDMxOCwtNz
-I0ODkyMDE4LC0xMzQ0OTk2MDQ2LC0yMDY0MDQ4OTk0LC00Njc4
-MzAwMDksMjQxNzU1Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1LD
-IxOTYwODYwMiwxMDkzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNjky
-Nzc5MTMsLTM3NTAyNjAzNSwtMTMxNDYzODMzLDk2NTYxMzUwMC
-wxODUwMDczOTMyLC0xOTc2MDI2NTQ5XX0=
+eyJoaXN0b3J5IjpbMTI1NDY3NzUzNywtNDQyNDY0MzE4LC03Mj
+Q4OTIwMTgsLTEzNDQ5OTYwNDYsLTIwNjQwNDg5OTQsLTQ2Nzgz
+MDAwOSwyNDE3NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3MjUsMj
+E5NjA4NjAyLDEwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLTM2OTI3
+NzkxMywtMzc1MDI2MDM1LC0xMzE0NjM4MzMsOTY1NjEzNTAwLD
+E4NTAwNzM5MzIsLTE5NzYwMjY1NDldfQ==
 -->
