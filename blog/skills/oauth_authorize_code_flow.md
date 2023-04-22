@@ -63,7 +63,7 @@ Using these URL parameters, the OAuth server will know the client application de
 
 ### Step 2 - OAuth server sends Authorization code to client application 
 * After the user logs in the OAuth server redirects the user to the client application's redirect URL as shown below
-`http://localhost:3000/callback?state=fmrXezEZQO6xCUDdJH4bbX7AW66gWm&session_state=e19eb006-2f55-48a7-a80e-7704be54d634&code=4bb15df2-ed0d-40a8-a85b-4ffb9cbd0d9f.e19eb006-2f55-48a7-a80e-7704be54d634.bc451cba-2043-447f-afc7-5176e2331517`
+`http://localhost:3000/callback?state=XchdBv68AuOBJ1nEcJm4gGu2FqqNJd&session_state=3d3e12f0-f19c-4cf1-a39d-71ac90236c76&code=44f2e080-f5ea-4331-a762-2e3de3aef67f.3d3e12f0-f19c-4cf1-a39d-71ac90236c76.bc451cba-2043-447f-afc7-5176e2331517`
 * The URL parameters `state, session_state, code` are added in the redirection URL. These URL parameters are the response from the OAuth server
 * The following is the explanation for each URL parameter
 	* `code` is the authorization code received from the OAuth server after authenticating the user. This will used by the client application to request the access token and id token from OAuth server. 
@@ -150,11 +150,11 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTk5ODc5NCwxNzg0NjY5NDU5LDEyNT
-Q2Nzc1MzcsLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC0xMzQ0OTk2
-MDQ2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQxNzU1Mjc0LC
-0zMjg5Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMiwxMDkzMTg0
-NjE2LC0xMDMxMjQ5NDAwLC0zNjkyNzc5MTMsLTM3NTAyNjAzNS
-wtMTMxNDYzODMzLDk2NTYxMzUwMCwxODUwMDczOTMyLC0xOTc2
-MDI2NTQ5XX0=
+eyJoaXN0b3J5IjpbMTA1OTg4NDk1MSwtOTU1OTk4Nzk0LDE3OD
+Q2Njk0NTksMTI1NDY3NzUzNywtNDQyNDY0MzE4LC03MjQ4OTIw
+MTgsLTEzNDQ5OTYwNDYsLTIwNjQwNDg5OTQsLTQ2NzgzMDAwOS
+wyNDE3NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3MjUsMjE5NjA4
+NjAyLDEwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLTM2OTI3NzkxMy
+wtMzc1MDI2MDM1LC0xMzE0NjM4MzMsOTY1NjEzNTAwLDE4NTAw
+NzM5MzJdfQ==
 -->
