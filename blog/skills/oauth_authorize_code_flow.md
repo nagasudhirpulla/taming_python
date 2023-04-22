@@ -135,7 +135,8 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 }
 ```
 
-*
+* Since the id token is a JWT, token the integrity can also be checked by client application using the OAuth server public key
+* 
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -148,7 +149,7 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDM2MDA1MywxNzg0NjY5NDU5LDEyNT
+eyJoaXN0b3J5IjpbLTMxMzYwNTU3MSwxNzg0NjY5NDU5LDEyNT
 Q2Nzc1MzcsLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC0xMzQ0OTk2
 MDQ2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQxNzU1Mjc0LC
 0zMjg5Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMiwxMDkzMTg0
