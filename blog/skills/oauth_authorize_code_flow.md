@@ -168,7 +168,7 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 ## References
-- JWT decoder and verifier online - https://jwt.io 
+- JWT decoder and verifier online - https://jwt.io
 - purpose of nonce and state in authorization code flow - https://stackoverflow.com/a/48655220/2746323
 
 
@@ -178,7 +178,7 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQzOTM0MzIsLTM2OTI3NzkxMywtMz
+eyJoaXN0b3J5IjpbLTEwMzEyNDk0MDAsLTM2OTI3NzkxMywtMz
 c1MDI2MDM1LC0xMzE0NjM4MzMsOTY1NjEzNTAwLDE4NTAwNzM5
 MzIsLTE5NzYwMjY1NDldfQ==
 -->
