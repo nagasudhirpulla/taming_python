@@ -41,7 +41,6 @@ In this post we will learn how to secure server-side web applications with **OAu
 
 ![keycloak_client_authorization_code_settings.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_client_authorization_code_settings.png)
 
-
 * Create a user with username "test_user" and set a password under the credentials section
 * Users can login and manage their account at "http://localhost:8080/realms/myorg/account"
 ![keycloak_user_admin_page.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_user_admin_page.png)
@@ -282,11 +281,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODYxOTM2LC04NTAwMTExMTksOTc5Nj
-c2MTAyLDMyOTkwNDIwMiwtMTA4NDIzMTAzMCwtMTU0Njk5MDAy
-OCw1ODE4NDcwOSwtMTYxNjkxNjI5NSwtOTU1OTk4Nzk0LDE3OD
-Q2Njk0NTksMTI1NDY3NzUzNywtNDQyNDY0MzE4LC03MjQ4OTIw
-MTgsLTEzNDQ5OTYwNDYsLTIwNjQwNDg5OTQsLTQ2NzgzMDAwOS
-wyNDE3NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3MjUsMjE5NjA4
-NjAyXX0=
+eyJoaXN0b3J5IjpbLTEzMDc1NzgzMDIsLTg1MDAxMTExOSw5Nz
+k2NzYxMDIsMzI5OTA0MjAyLC0xMDg0MjMxMDMwLC0xNTQ2OTkw
+MDI4LDU4MTg0NzA5LC0xNjE2OTE2Mjk1LC05NTU5OTg3OTQsMT
+c4NDY2OTQ1OSwxMjU0Njc3NTM3LC00NDI0NjQzMTgsLTcyNDg5
+MjAxOCwtMTM0NDk5NjA0NiwtMjA2NDA0ODk5NCwtNDY3ODMwMD
+A5LDI0MTc1NTI3NCwtMzI4OTc5NDk0LDk5Njc4NzcyNSwyMTk2
+MDg2MDJdfQ==
 -->
