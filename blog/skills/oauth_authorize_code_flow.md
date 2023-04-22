@@ -72,7 +72,7 @@ Using these URL parameters, the OAuth server will know the client application de
 
 ### Step 3 - Client application gets the access token and ID token from OAuth server
 * After getting the authorization code from OAuth server, the client application sends a request to OAuth server for access token and id token.
-* In our example, a POST request is sent by client application to the OAuth server with the authorization code, client id and client secret
+* In our example, a POST request is sent by client application to the OAuth server's token endpoint URL as shown below
 ```
 POST /realms/myorg/protocol/openid-connect/token HTTP/1.1
 Host: localhost:8080
@@ -85,7 +85,8 @@ Content-Length: 199
 Authorization: Basic dGVzdF93ZWJfYXBwOm1paVlMWWFEVDcya2pjZkRQTjFPWWo4a0hzOHJEZzNT
 
 grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&code=44f2e080-f5ea-4331-a762-2e3de3aef67f.3d3e12f0-f19c-4cf1-a39d-71ac90236c76.bc451cba-2043-447f-afc7-5176e2331517
-```  
+```
+* The client id and client secret are included as  
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -98,10 +99,10 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODc0NzIyMTgsLTQ0MjQ2NDMxOCwtNz
-I0ODkyMDE4LC0xMzQ0OTk2MDQ2LC0yMDY0MDQ4OTk0LC00Njc4
-MzAwMDksMjQxNzU1Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1LD
-IxOTYwODYwMiwxMDkzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNjky
-Nzc5MTMsLTM3NTAyNjAzNSwtMTMxNDYzODMzLDk2NTYxMzUwMC
-wxODUwMDczOTMyLC0xOTc2MDI2NTQ5XX0=
+eyJoaXN0b3J5IjpbMTQyNjU1NDYxMywtNDQyNDY0MzE4LC03Mj
+Q4OTIwMTgsLTEzNDQ5OTYwNDYsLTIwNjQwNDg5OTQsLTQ2Nzgz
+MDAwOSwyNDE3NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3MjUsMj
+E5NjA4NjAyLDEwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLTM2OTI3
+NzkxMywtMzc1MDI2MDM1LC0xMzE0NjM4MzMsOTY1NjEzNTAwLD
+E4NTAwNzM5MzIsLTE5NzYwMjY1NDldfQ==
 -->
