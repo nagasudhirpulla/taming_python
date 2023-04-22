@@ -109,7 +109,11 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 ```
 
 ### Step 4 - Client application parses the id token and authenticates user
-* The id token returned by the OAu
+* The id token returned by the OAuth server is a JWT that contains the user information in the JWT payload as shown below
+
+```
+```
+
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -122,7 +126,7 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzE0MzE1NCwxNzg0NjY5NDU5LDEyNT
+eyJoaXN0b3J5IjpbMTI0Mzk3MjA0MCwxNzg0NjY5NDU5LDEyNT
 Q2Nzc1MzcsLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC0xMzQ0OTk2
 MDQ2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQxNzU1Mjc0LC
 0zMjg5Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMiwxMDkzMTg0
