@@ -43,6 +43,11 @@
 * Users can login and manage their account at "http://localhost:8080/realms/myorg/account"
 ![keycloak_user_admin_page.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_user_admin_page.png)
 ### Step 1 - Click the login button to be redirected to the OAuth Login screen
+* TODO login link image
+* TODO login page
+* Notice that the URL of the login page looks something like this 
+http://localhost:8080/realms/myorg/protocol/openid-connect/auth?response_type=code&client_id=test_web_app&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&scope=openid+profile+email&state=fmrXezEZQO6xCUDdJH4bbX7AW66gWm&nonce=lcnKjZAnpYSqldG6amqk
+* The url parameters response_type, client_id, redirect_uri, scope
 
 
 ## References
@@ -56,9 +61,9 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQwNDg5OTQsLTQ2NzgzMDAwOSwyND
-E3NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3MjUsMjE5NjA4NjAy
-LDEwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLTM2OTI3NzkxMywtMz
-c1MDI2MDM1LC0xMzE0NjM4MzMsOTY1NjEzNTAwLDE4NTAwNzM5
-MzIsLTE5NzYwMjY1NDldfQ==
+eyJoaXN0b3J5IjpbODAyNDgzMzY3LC0yMDY0MDQ4OTk0LC00Nj
+c4MzAwMDksMjQxNzU1Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1
+LDIxOTYwODYwMiwxMDkzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNj
+kyNzc5MTMsLTM3NTAyNjAzNSwtMTMxNDYzODMzLDk2NTYxMzUw
+MCwxODUwMDczOTMyLC0xOTc2MDI2NTQ5XX0=
 -->
