@@ -168,8 +168,9 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 ## References
-- OAuth 2.0 Client credentials flow explained - https://auth0.com/docs/get-started/authentication-and-authorization-flow/client-credentials-flow
 - JWT decoder and verifier online - https://jwt.io 
+- purpose of nonce and state in authorization code flow - https://stackoverflow.com/a/48655220/2746323
+
 
 <hr/>
 
@@ -177,7 +178,7 @@ client_id=test_api_resource&client_secret=VA6tB3MBMI2YOrRhOVYM3M80JHfEhLhH&token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTI3NzkxMywtMzc1MDI2MDM1LC0xMz
-E0NjM4MzMsOTY1NjEzNTAwLDE4NTAwNzM5MzIsLTE5NzYwMjY1
-NDldfQ==
+eyJoaXN0b3J5IjpbLTE2ODQzOTM0MzIsLTM2OTI3NzkxMywtMz
+c1MDI2MDM1LC0xMzE0NjM4MzMsOTY1NjEzNTAwLDE4NTAwNzM5
+MzIsLTE5NzYwMjY1NDldfQ==
 -->
