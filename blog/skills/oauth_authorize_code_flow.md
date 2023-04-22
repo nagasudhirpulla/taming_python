@@ -49,10 +49,10 @@
 `http://localhost:8080/realms/myorg/protocol/openid-connect/auth?response_type=code&client_id=test_web_app&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&scope=openid+profile+email&state=fmrXezEZQO6xCUDdJH4bbX7AW66gWm&nonce=lcnKjZAnpYSqldG6amqk`
 * The URL parameters *response_type, client_id, redirect_uri, scope, state, nonce* are passed in the user login page URL by the client application while redirecting the user to the OAuth login screen. 
 Using these URL parameters, the OAuth server will know the client application details and requirements while authenticating the user.
-* The following is the explanation for each parameter
+* The following is the explanation for each URL parameter
 	* `response_type=code`, means an authorization code is expected upon user login
-	* `client_id` is passed for OAuth server to identify the client application
-	* `scope` is the 
+	* `client_id` is provided for OAuth server to identify the client application
+	* `scope` is the scopes requested by the client application. All the requ  
 
 
 ## References
@@ -66,7 +66,7 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzcyMDc1OSwtMjA2NDA0ODk5NCwtND
+eyJoaXN0b3J5IjpbMTE1NTgyOTQzOCwtMjA2NDA0ODk5NCwtND
 Y3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5NDk0LDk5Njc4Nzcy
 NSwyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMTAzMTI0OTQwMCwtMz
 Y5Mjc3OTEzLC0zNzUwMjYwMzUsLTEzMTQ2MzgzMyw5NjU2MTM1
