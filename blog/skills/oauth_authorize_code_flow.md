@@ -262,10 +262,11 @@ if __name__ == "__main__":
 </html>
 ```
 
-* The user login URL is implemented in the "/login" route of the flask server. The  `authorize_redirect` function will create the login URL and redirect the user to the login page of the OAuth server
-* The login redirect endpoint is implemented in "/callback" route of the flask server. The `authorize_access_token` function will fetch and validate the access token and id token using the authorization code sent from the OAuth server
-* The logout URL is implemented in the "/logout" route of the flask server. The client application user session is cleared and the user is redirected to the OAuth server logout URL for logging out from the OAuth server also
-* The post logout redirect URL is implemented in the "loggedout" route of the flask server. After logging out the user, the OAuth server will redirect the user to this URL of the client applicati 
+* The user login URL is implemented in the ***/login*** route of the flask server. The  `authorize_redirect` function will create the login URL and redirect the user to the login page of the OAuth server
+* The login redirect endpoint is implemented in ***/callback*** route of the flask server. The `authorize_access_token` function will fetch and validate the access token and id token using the authorization code sent from the OAuth server
+* The logout URL is implemented in the ***/logout*** route of the flask server. The client application user session is cleared and the user is redirected to the OAuth server logout URL for logging out from the OAuth server also
+* The post logout redirect URL is implemented in the ***/loggedout*** route of the flask server. After logging out the user, the OAuth server will redirect the user to this URL of the client application
+* In this flask server, flask session is used for managing
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -278,11 +279,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2NDIzODEyLC0xNTQ2OTkwMDI4LDU4MT
-g0NzA5LC0xNjE2OTE2Mjk1LC05NTU5OTg3OTQsMTc4NDY2OTQ1
-OSwxMjU0Njc3NTM3LC00NDI0NjQzMTgsLTcyNDg5MjAxOCwtMT
-M0NDk5NjA0NiwtMjA2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1
-NTI3NCwtMzI4OTc5NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIsMT
-A5MzE4NDYxNiwtMTAzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNzUw
-MjYwMzVdfQ==
+eyJoaXN0b3J5IjpbLTExMTg1MzEzMDgsLTE1NDY5OTAwMjgsNT
+gxODQ3MDksLTE2MTY5MTYyOTUsLTk1NTk5ODc5NCwxNzg0NjY5
+NDU5LDEyNTQ2Nzc1MzcsLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC
+0xMzQ0OTk2MDQ2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQx
+NzU1Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMi
+wxMDkzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNjkyNzc5MTMsLTM3
+NTAyNjAzNV19
 -->
