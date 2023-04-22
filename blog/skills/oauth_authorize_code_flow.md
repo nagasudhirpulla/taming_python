@@ -43,6 +43,7 @@ In this post we will learn how to secure server-side web applications with **OAu
 * Users can login and manage their account at "http://localhost:8080/realms/myorg/account"
 ![keycloak_user_admin_page.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_user_admin_page.png)
 ### Step 1 - Click the login button to be redirected to the OAuth Login screen
+* We will use a flask web application as a client application to demonstrate the authorization code flow  
 
 ![oauth_authorization_code_flow_login_link.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_authorization_code_flow_login_link.png) 
 
@@ -151,11 +152,11 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxODQ3MDksLTE2MTY5MTYyOTUsLTk1NT
-k5ODc5NCwxNzg0NjY5NDU5LDEyNTQ2Nzc1MzcsLTQ0MjQ2NDMx
-OCwtNzI0ODkyMDE4LC0xMzQ0OTk2MDQ2LC0yMDY0MDQ4OTk0LC
-00Njc4MzAwMDksMjQxNzU1Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3
-NzI1LDIxOTYwODYwMiwxMDkzMTg0NjE2LC0xMDMxMjQ5NDAwLC
-0zNjkyNzc5MTMsLTM3NTAyNjAzNSwtMTMxNDYzODMzLDk2NTYx
-MzUwMF19
+eyJoaXN0b3J5IjpbMTk0OTMyMDY2Miw1ODE4NDcwOSwtMTYxNj
+kxNjI5NSwtOTU1OTk4Nzk0LDE3ODQ2Njk0NTksMTI1NDY3NzUz
+NywtNDQyNDY0MzE4LC03MjQ4OTIwMTgsLTEzNDQ5OTYwNDYsLT
+IwNjQwNDg5OTQsLTQ2NzgzMDAwOSwyNDE3NTUyNzQsLTMyODk3
+OTQ5NCw5OTY3ODc3MjUsMjE5NjA4NjAyLDEwOTMxODQ2MTYsLT
+EwMzEyNDk0MDAsLTM2OTI3NzkxMywtMzc1MDI2MDM1LC0xMzE0
+NjM4MzNdfQ==
 -->
