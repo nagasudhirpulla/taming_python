@@ -74,7 +74,17 @@ Using these URL parameters, the OAuth server will know the client application de
 * After getting the authorization code from OAuth server, the client application sends a request to OAuth server for access token and id token.
 * In our example, a POST request is sent by client application to the OAuth server with the authorization code, client id and client secret
 ```
+POST /realms/myorg/protocol/openid-connect/token HTTP/1.1
+Host: localhost:8080
+User-Agent: Authlib/1.2.0 (+https://authlib.org/)
+Accept-Encoding: gzip, deflate
+Accept: application/json
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+Content-Length: 199
+Authorization: Basic dGVzdF93ZWJfYXBwOm1paVlMWWFEVDcya2pjZkRQTjFPWWo4a0hzOHJEZzNT
 
+grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&code=44f2e080-f5ea-4331-a762-2e3de3aef67f.3d3e12f0-f19c-4cf1-a39d-71ac90236c76.bc451cba-2043-447f-afc7-5176e2331517
 ```  
 
 ## References
@@ -88,7 +98,7 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTM5MTAyNTIsLTQ0MjQ2NDMxOCwtNz
+eyJoaXN0b3J5IjpbLTEyODc0NzIyMTgsLTQ0MjQ2NDMxOCwtNz
 I0ODkyMDE4LC0xMzQ0OTk2MDQ2LC0yMDY0MDQ4OTk0LC00Njc4
 MzAwMDksMjQxNzU1Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1LD
 IxOTYwODYwMiwxMDkzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNjky
