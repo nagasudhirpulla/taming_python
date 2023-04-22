@@ -56,7 +56,7 @@ Using these URL parameters, the OAuth server will know the client application de
 	*  `redirect_uri` specifies the client application URL to redirect the user after successfully logging in into the OAuth server. The redirect URL should be configured in the OAuth server while registering the client under the section "Valid redirect URIs"
 	* `state` is a string passed in the request by client application to the OAuth server. OAuth server should respond with this `state` along with authorization code to prove that the response sent corresponds to that request only
 	* `nonce` is a string passed in the request by client application to OAuth server. OAuth server should provide this nonce in the id token issued to the client application to prove that the id token corresponds to that request only
-* Both the `state` and `nonce` are used 
+* Both the `state` and `nonce` are used to ensure that the communication between client application and OAuth server is not hijacked by malicious actors 
 
 
 ## References
@@ -70,9 +70,9 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg2NjY0MCwtMjA2NDA0ODk5NCwtND
-Y3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5NDk0LDk5Njc4Nzcy
-NSwyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMTAzMTI0OTQwMCwtMz
-Y5Mjc3OTEzLC0zNzUwMjYwMzUsLTEzMTQ2MzgzMyw5NjU2MTM1
-MDAsMTg1MDA3MzkzMiwtMTk3NjAyNjU0OV19
+eyJoaXN0b3J5IjpbLTEzNDQ5OTYwNDYsLTIwNjQwNDg5OTQsLT
+Q2NzgzMDAwOSwyNDE3NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3
+MjUsMjE5NjA4NjAyLDEwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLT
+M2OTI3NzkxMywtMzc1MDI2MDM1LC0xMzE0NjM4MzMsOTY1NjEz
+NTAwLDE4NTAwNzM5MzIsLTE5NzYwMjY1NDldfQ==
 -->
