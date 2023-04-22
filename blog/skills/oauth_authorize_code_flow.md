@@ -68,7 +68,7 @@ Using these URL parameters, the OAuth server will know the client application de
 * The following is the explanation for each URL parameter
 	* `code` is the authorization code received from the OAuth server after authenticating the user. This will used by the client application to request the access token and id token from OAuth server. 
 	* `state` is the string passed by the client application while requesting authorization code. This will matched by the client application for validating the response
-	*  
+	*  `session_state` is the session identifier maintained by the OAuth server for the ongoing login process. This needs to be sent by the client application while requesting access token and id token from OAuth server
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -81,7 +81,7 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzY5Mzg3NywtMTM0NDk5NjA0NiwtMj
+eyJoaXN0b3J5IjpbLTcyNDg5MjAxOCwtMTM0NDk5NjA0NiwtMj
 A2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5
 NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMT
 AzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNzUwMjYwMzUsLTEzMTQ2
