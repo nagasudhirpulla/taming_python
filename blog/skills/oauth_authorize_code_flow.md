@@ -38,9 +38,10 @@
 ### Register a client and user in a keycloak realm
 * Create a realm in keycloak named *myorg*
 * Create a client with id "test_web_app" and note the client id and client secret for use in the client application. Modify the client settings to support authorization flow and specify the required inputs like root URL, redirect URL, post-logout redirect URL
+![keycloak_user_admin_page.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_user_admin_page.png)
 * Create a user with username "test_user" and set a password under the credentials section
 * Users can login and manage their account at "http://localhost:8080/realms/myorg/account"
-
+![keycloak_user_admin_page.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_user_admin_page.png)
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -53,9 +54,9 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NzgzMDAwOSwyNDE3NTUyNzQsLTMyOD
-k3OTQ5NCw5OTY3ODc3MjUsMjE5NjA4NjAyLDEwOTMxODQ2MTYs
-LTEwMzEyNDk0MDAsLTM2OTI3NzkxMywtMzc1MDI2MDM1LC0xMz
-E0NjM4MzMsOTY1NjEzNTAwLDE4NTAwNzM5MzIsLTE5NzYwMjY1
-NDldfQ==
+eyJoaXN0b3J5IjpbLTMxNTg3ODkyNSwtNDY3ODMwMDA5LDI0MT
+c1NTI3NCwtMzI4OTc5NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIs
+MTA5MzE4NDYxNiwtMTAzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNz
+UwMjYwMzUsLTEzMTQ2MzgzMyw5NjU2MTM1MDAsMTg1MDA3Mzkz
+MiwtMTk3NjAyNjU0OV19
 -->
