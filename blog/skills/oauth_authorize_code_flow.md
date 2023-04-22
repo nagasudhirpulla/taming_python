@@ -71,7 +71,7 @@ Using these URL parameters, the OAuth server will know the client application de
 	*  `session_state` is the session identifier maintained by the OAuth server for the ongoing login process. This needs to be sent by the client application while requesting access token and id token from OAuth server
 
 ### Step 3 - Client application gets the access token and ID token from OAuth server
-
+* After getting the authorization code from OAuth server, the client application sends a request to OAuth server for access token and id token. The  
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -84,10 +84,10 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC0xMz
-Q0OTk2MDQ2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQxNzU1
-Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMiwxMD
-kzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNjkyNzc5MTMsLTM3NTAy
-NjAzNSwtMTMxNDYzODMzLDk2NTYxMzUwMCwxODUwMDczOTMyLC
-0xOTc2MDI2NTQ5XX0=
+eyJoaXN0b3J5IjpbMTA1MzY5MzQyMSwtNDQyNDY0MzE4LC03Mj
+Q4OTIwMTgsLTEzNDQ5OTYwNDYsLTIwNjQwNDg5OTQsLTQ2Nzgz
+MDAwOSwyNDE3NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3MjUsMj
+E5NjA4NjAyLDEwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLTM2OTI3
+NzkxMywtMzc1MDI2MDM1LC0xMzE0NjM4MzMsOTY1NjEzNTAwLD
+E4NTAwNzM5MzIsLTE5NzYwMjY1NDldfQ==
 -->
