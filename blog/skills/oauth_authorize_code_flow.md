@@ -87,7 +87,7 @@ Authorization: Basic dGVzdF93ZWJfYXBwOm1paVlMWWFEVDcya2pjZkRQTjFPWWo4a0hzOHJEZzN
 grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&code=44f2e080-f5ea-4331-a762-2e3de3aef67f.3d3e12f0-f19c-4cf1-a39d-71ac90236c76.bc451cba-2043-447f-afc7-5176e2331517
 ```
 
-* The client id and client secret are sent as base 64 encoded bearer string in the POST request's authorization header
+* The client id and client secret are sent as base 64 encoded bearer string [Basi base64encode(client_id:client_secret)] in the POST request's authorization header
 * The POST request body contains the parameters `grant_type, code, redirect_uri`  
 	* `grant_type=authorization_code` specifies the authorization flow
 	* `code` is the authorization code received by the client application 
@@ -104,10 +104,10 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDY3NzUzNywtNDQyNDY0MzE4LC03Mj
-Q4OTIwMTgsLTEzNDQ5OTYwNDYsLTIwNjQwNDg5OTQsLTQ2Nzgz
-MDAwOSwyNDE3NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3MjUsMj
-E5NjA4NjAyLDEwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLTM2OTI3
-NzkxMywtMzc1MDI2MDM1LC0xMzE0NjM4MzMsOTY1NjEzNTAwLD
-E4NTAwNzM5MzIsLTE5NzYwMjY1NDldfQ==
+eyJoaXN0b3J5IjpbMTM3MDg2ODQwNSwxMjU0Njc3NTM3LC00ND
+I0NjQzMTgsLTcyNDg5MjAxOCwtMTM0NDk5NjA0NiwtMjA2NDA0
+ODk5NCwtNDY3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5NDk0LD
+k5Njc4NzcyNSwyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMTAzMTI0
+OTQwMCwtMzY5Mjc3OTEzLC0zNzUwMjYwMzUsLTEzMTQ2MzgzMy
+w5NjU2MTM1MDAsMTg1MDA3MzkzMiwtMTk3NjAyNjU0OV19
 -->
