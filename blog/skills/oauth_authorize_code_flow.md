@@ -264,7 +264,7 @@ if __name__ == "__main__":
 
 * The user login URL is implemented in the "/login" route of the flask server. The  `authorize_redirect` function will create the login URL and redirect the user to the login page of the OAuth server
 * The login redirect endpoint is implemented in "/callback" route of the flask server. The `authorize_access_token` function will fetch and validate the access token and id token using the authorization code sent from the OAuth server
-* 
+* The logout URL is implemented in the "/logout" route of the flask server. The client application user session is cleared and the user is redirected to the OAuth server logout URL o
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -277,11 +277,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwMTg0NjcsLTE1NDY5OTAwMjgsNTgxOD
-Q3MDksLTE2MTY5MTYyOTUsLTk1NTk5ODc5NCwxNzg0NjY5NDU5
-LDEyNTQ2Nzc1MzcsLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC0xMz
-Q0OTk2MDQ2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQxNzU1
-Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMiwxMD
-kzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNjkyNzc5MTMsLTM3NTAy
-NjAzNV19
+eyJoaXN0b3J5IjpbLTc0MjYwMjc4MCwtMTU0Njk5MDAyOCw1OD
+E4NDcwOSwtMTYxNjkxNjI5NSwtOTU1OTk4Nzk0LDE3ODQ2Njk0
+NTksMTI1NDY3NzUzNywtNDQyNDY0MzE4LC03MjQ4OTIwMTgsLT
+EzNDQ5OTYwNDYsLTIwNjQwNDg5OTQsLTQ2NzgzMDAwOSwyNDE3
+NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3MjUsMjE5NjA4NjAyLD
+EwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLTM2OTI3NzkxMywtMzc1
+MDI2MDM1XX0=
 -->
