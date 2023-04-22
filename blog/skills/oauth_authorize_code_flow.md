@@ -42,7 +42,8 @@
 * Create a user with username "test_user" and set a password under the credentials section
 * Users can login and manage their account at "http://localhost:8080/realms/myorg/account"
 ![keycloak_user_admin_page.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_user_admin_page.png)
-### 
+### Step 1 - Click the login button to be redirected to the OAuth Login screen
+
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -55,9 +56,9 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMjQwODk1OSwtNDY3ODMwMDA5LDI0MT
-c1NTI3NCwtMzI4OTc5NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIs
-MTA5MzE4NDYxNiwtMTAzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNz
-UwMjYwMzUsLTEzMTQ2MzgzMyw5NjU2MTM1MDAsMTg1MDA3Mzkz
-MiwtMTk3NjAyNjU0OV19
+eyJoaXN0b3J5IjpbLTIwNjQwNDg5OTQsLTQ2NzgzMDAwOSwyND
+E3NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3MjUsMjE5NjA4NjAy
+LDEwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLTM2OTI3NzkxMywtMz
+c1MDI2MDM1LC0xMzE0NjM4MzMsOTY1NjEzNTAwLDE4NTAwNzM5
+MzIsLTE5NzYwMjY1NDldfQ==
 -->
