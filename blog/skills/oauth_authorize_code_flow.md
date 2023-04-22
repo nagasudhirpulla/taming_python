@@ -70,6 +70,14 @@ Using these URL parameters, the OAuth server will know the client application de
 	* `state` is the string passed by the client application while requesting authorization code. This will matched by the client application for validating the response
 	*  `session_state` is the session identifier maintained by the OAuth server for the ongoing login process. This needs to be sent by the client application while requesting access token and id token from OAuth server
 
+### Step 3 - Client application gets the access token and ID token from OAuth server
+```json
+{'grant_type': 'authorization_code', 
+'redirect_uri': 'http://localhost:3000/callback', 
+'code': 'efcb5789-12ad-4f2c-9728-8f646cdf4858.eb2f2d09-4795-48b2-87b6-21d0bee29473.bc451cba-2043-447f-afc7-5176e2331517'
+}
+```
+
 ## References
 - JWT decoder and verifier online - https://jwt.io
 - purpose of nonce and state in authorization code flow - https://stackoverflow.com/a/48655220/2746323
@@ -81,10 +89,10 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDg5MjAxOCwtMTM0NDk5NjA0NiwtMj
-A2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5
-NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMT
-AzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNzUwMjYwMzUsLTEzMTQ2
-MzgzMyw5NjU2MTM1MDAsMTg1MDA3MzkzMiwtMTk3NjAyNjU0OV
-19
+eyJoaXN0b3J5IjpbMzU1OTc5ODYsLTcyNDg5MjAxOCwtMTM0ND
+k5NjA0NiwtMjA2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1NTI3
+NCwtMzI4OTc5NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIsMTA5Mz
+E4NDYxNiwtMTAzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNzUwMjYw
+MzUsLTEzMTQ2MzgzMyw5NjU2MTM1MDAsMTg1MDA3MzkzMiwtMT
+k3NjAyNjU0OV19
 -->
