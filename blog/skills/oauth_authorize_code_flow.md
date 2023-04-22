@@ -43,8 +43,10 @@
 * Users can login and manage their account at "http://localhost:8080/realms/myorg/account"
 ![keycloak_user_admin_page.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_user_admin_page.png)
 ### Step 1 - Click the login button to be redirected to the OAuth Login screen
-* ![oauth_authorization_code_flow_login_link.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_authorization_code_flow_login_link.png) 
-* ![oauth_authorization_code_flow_login_screen.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_authorization_code_flow_login_screen.png)
+
+![oauth_authorization_code_flow_login_link.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_authorization_code_flow_login_link.png) 
+
+![oauth_authorization_code_flow_login_screen.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_authorization_code_flow_login_screen.png)
 
 * Notice that the URL of the login page looks something like:
 `http://localhost:8080/realms/myorg/protocol/openid-connect/auth?response_type=code&client_id=test_web_app&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&scope=openid+profile+email&state=fmrXezEZQO6xCUDdJH4bbX7AW66gWm&nonce=lcnKjZAnpYSqldG6amqk`
@@ -59,6 +61,7 @@ Using these URL parameters, the OAuth server will know the client application de
 	* `nonce` is a string passed in the request by client application to OAuth server. OAuth server should provide this nonce in the id token issued to the client application to prove that the id token corresponds to that request only
 * Both the `state` and `nonce` are used to ensure that the communication between client application and OAuth server is not hijacked by malicious actors 
 
+### Step 2 - Authorization code is sent to the w
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -71,10 +74,10 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTY1MzU4NCwtMTM0NDk5NjA0NiwtMj
-A2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5
-NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMT
-AzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNzUwMjYwMzUsLTEzMTQ2
-MzgzMyw5NjU2MTM1MDAsMTg1MDA3MzkzMiwtMTk3NjAyNjU0OV
-19
+eyJoaXN0b3J5IjpbLTE4NjAxNTg5NjUsLTEzNDQ5OTYwNDYsLT
+IwNjQwNDg5OTQsLTQ2NzgzMDAwOSwyNDE3NTUyNzQsLTMyODk3
+OTQ5NCw5OTY3ODc3MjUsMjE5NjA4NjAyLDEwOTMxODQ2MTYsLT
+EwMzEyNDk0MDAsLTM2OTI3NzkxMywtMzc1MDI2MDM1LC0xMzE0
+NjM4MzMsOTY1NjEzNTAwLDE4NTAwNzM5MzIsLTE5NzYwMjY1ND
+ldfQ==
 -->
