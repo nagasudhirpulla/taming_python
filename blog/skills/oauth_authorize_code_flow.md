@@ -39,6 +39,7 @@
 * Create a realm in keycloak named *myorg*
 * Create a client with id "test_web_app" and note the client id and client secret for use in the client application. Modify the client settings to support authorization flow and specify the required inputs like root URL, redirect URL, post-logout redirect URL
 * Create a user with username "test_user" and set a password under the credentials section
+* Users can login and manage their account at "http://localhost:8080/realms/myorg/account"
 
 
 ## References
@@ -52,7 +53,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDM0Mjc4MywyNDE3NTUyNzQsLTMyOD
+eyJoaXN0b3J5IjpbLTQ2NzgzMDAwOSwyNDE3NTUyNzQsLTMyOD
 k3OTQ5NCw5OTY3ODc3MjUsMjE5NjA4NjAyLDEwOTMxODQ2MTYs
 LTEwMzEyNDk0MDAsLTM2OTI3NzkxMywtMzc1MDI2MDM1LC0xMz
 E0NjM4MzMsOTY1NjEzNTAwLDE4NTAwNzM5MzIsLTE5NzYwMjY1
