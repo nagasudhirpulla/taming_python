@@ -39,9 +39,12 @@ In this post we will learn how to secure server-side web applications with **OAu
 * Create a realm in keycloak named *myorg*
 * Create a client with id "test_web_app" and note the client id and client secret for use in the client application. Modify the client settings to support authorization flow and specify the required inputs like home URL, redirect URL, post-logout redirect URL
 ![keycloak_web_client_administration.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_web_client_administration.png)
+
+![keycloak_web_client_administration.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_web_client_administration.png
+
 * Create a user with username "test_user" and set a password under the credentials section
 * Users can login and manage their account at "http://localhost:8080/realms/myorg/account"
-![keycloak_user_admin_page.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_user_admin_page.png)
+![keycloak_client_authorization_code_settings.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_client_authorization_code_settings.png)
 #### Step 1 - Click the login button to be redirected to the OAuth Login screen
 * We will use a flask web application as a client application to demonstrate the authorization code flow  
 
@@ -279,11 +282,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5OTA0MjAyLC0xMDg0MjMxMDMwLC0xNT
-Q2OTkwMDI4LDU4MTg0NzA5LC0xNjE2OTE2Mjk1LC05NTU5OTg3
-OTQsMTc4NDY2OTQ1OSwxMjU0Njc3NTM3LC00NDI0NjQzMTgsLT
-cyNDg5MjAxOCwtMTM0NDk5NjA0NiwtMjA2NDA0ODk5NCwtNDY3
-ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5NDk0LDk5Njc4NzcyNS
-wyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMTAzMTI0OTQwMCwtMzY5
-Mjc3OTEzXX0=
+eyJoaXN0b3J5IjpbOTc5Njc2MTAyLDMyOTkwNDIwMiwtMTA4ND
+IzMTAzMCwtMTU0Njk5MDAyOCw1ODE4NDcwOSwtMTYxNjkxNjI5
+NSwtOTU1OTk4Nzk0LDE3ODQ2Njk0NTksMTI1NDY3NzUzNywtND
+QyNDY0MzE4LC03MjQ4OTIwMTgsLTEzNDQ5OTYwNDYsLTIwNjQw
+NDg5OTQsLTQ2NzgzMDAwOSwyNDE3NTUyNzQsLTMyODk3OTQ5NC
+w5OTY3ODc3MjUsMjE5NjA4NjAyLDEwOTMxODQ2MTYsLTEwMzEy
+NDk0MDBdfQ==
 -->
