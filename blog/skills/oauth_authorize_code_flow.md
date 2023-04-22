@@ -140,6 +140,8 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 * The user information from the id token can be used by the client application to create a user session
 
 ![oauth_authorization_code_login_complete_page.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_authorization_code_login_complete_page.png)
+## Implement the client application in flask
+* Tb
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -152,7 +154,7 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTMyMDY2Miw1ODE4NDcwOSwtMTYxNj
+eyJoaXN0b3J5IjpbMTczNDkzODYwNyw1ODE4NDcwOSwtMTYxNj
 kxNjI5NSwtOTU1OTk4Nzk0LDE3ODQ2Njk0NTksMTI1NDY3NzUz
 NywtNDQyNDY0MzE4LC03MjQ4OTIwMTgsLTEzNDQ5OTYwNDYsLT
 IwNjQwNDg5OTQsLTQ2NzgzMDAwOSwyNDE3NTUyNzQsLTMyODk3
