@@ -61,7 +61,7 @@ Using these URL parameters, the OAuth server will know the client application de
 	* `nonce` is a string passed in the request by client application to OAuth server. OAuth server should provide this nonce in the id token issued to the client application to prove that the id token corresponds to that request only
 * Both the `state` and `nonce` are used to ensure that the communication between client application and OAuth server is not hijacked by malicious actors 
 
-### Step 2 - Authorization code is sent to the client application by the OAuth server
+### Step 2 - OAuth server sends Authorization code to client application 
 * After the user logs in the OAuth server redirects the user to the client application's redirect URL as shown below
 `http://localhost:3000/callback?state=fmrXezEZQO6xCUDdJH4bbX7AW66gWm&session_state=e19eb006-2f55-48a7-a80e-7704be54d634&code=4bb15df2-ed0d-40a8-a85b-4ffb9cbd0d9f.e19eb006-2f55-48a7-a80e-7704be54d634.bc451cba-2043-447f-afc7-5176e2331517`
 * The URL parameters `state, session_state, code` are added in the redirection URL. These URL parameters are the response from the OAuth server
@@ -80,10 +80,10 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTUzMDAzMiwtMTM0NDk5NjA0NiwtMj
-A2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5
-NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMT
-AzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNzUwMjYwMzUsLTEzMTQ2
-MzgzMyw5NjU2MTM1MDAsMTg1MDA3MzkzMiwtMTk3NjAyNjU0OV
-19
+eyJoaXN0b3J5IjpbLTIwNzE3ODM0OTAsLTEzNDQ5OTYwNDYsLT
+IwNjQwNDg5OTQsLTQ2NzgzMDAwOSwyNDE3NTUyNzQsLTMyODk3
+OTQ5NCw5OTY3ODc3MjUsMjE5NjA4NjAyLDEwOTMxODQ2MTYsLT
+EwMzEyNDk0MDAsLTM2OTI3NzkxMywtMzc1MDI2MDM1LC0xMzE0
+NjM4MzMsOTY1NjEzNTAwLDE4NTAwNzM5MzIsLTE5NzYwMjY1ND
+ldfQ==
 -->
