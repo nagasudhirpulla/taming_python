@@ -237,7 +237,8 @@ def logout():
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=appConf.get("FLASK_PORT", 3000), debug=True)
 
-``` 
+```
+* The user login URL is implemented in the "/login" route of the flask server. The  `authorize_redirect` function will do 
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -250,11 +251,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODk5ODc3NywtMTU0Njk5MDAyOCw1OD
-E4NDcwOSwtMTYxNjkxNjI5NSwtOTU1OTk4Nzk0LDE3ODQ2Njk0
-NTksMTI1NDY3NzUzNywtNDQyNDY0MzE4LC03MjQ4OTIwMTgsLT
-EzNDQ5OTYwNDYsLTIwNjQwNDg5OTQsLTQ2NzgzMDAwOSwyNDE3
-NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3MjUsMjE5NjA4NjAyLD
-EwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLTM2OTI3NzkxMywtMzc1
-MDI2MDM1XX0=
+eyJoaXN0b3J5IjpbNTA1MzY3NjQ4LC0xNTQ2OTkwMDI4LDU4MT
+g0NzA5LC0xNjE2OTE2Mjk1LC05NTU5OTg3OTQsMTc4NDY2OTQ1
+OSwxMjU0Njc3NTM3LC00NDI0NjQzMTgsLTcyNDg5MjAxOCwtMT
+M0NDk5NjA0NiwtMjA2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1
+NTI3NCwtMzI4OTc5NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIsMT
+A5MzE4NDYxNiwtMTAzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNzUw
+MjYwMzVdfQ==
 -->
