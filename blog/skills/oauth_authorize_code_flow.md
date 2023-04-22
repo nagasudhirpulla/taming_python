@@ -109,7 +109,7 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 }
 ```
 
-### Step 4 - Client application parses the id token and authenticates user
+#### Step 4 - Client application parses the id token and authenticates user
 * The id token returned by the OAuth server is a JWT that contains the user information in the JWT payload as shown below
 
 ```json
@@ -140,12 +140,12 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 * The user information from the id token can be used by the client application to create a user session
 
 ![oauth_authorization_code_login_complete_page.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_authorization_code_login_complete_page.png)
-### Logging out the user
+#### Logging out the user
 * Just clearing the user session in the client application will not log out the user from the OAuth server
 * So after clearing the user session in the client application, the user will be redirected the logout endpoint URL (for example, http://localhost:8080/realms/myorg/protocol/openid-connect/logout) of the OAuth server. The URL will have the id_token and post logout redirect URL as the query parameters.
 * After the logging out the user, the OAuth server will redirect the user to the post logout redirect URL of the client application
 
-## Client application implementation in python flask
+### Client application implementation in python flask
 * All the OAuth 2.0 workflow is implemented in the server using the `authlib` module
 * Ensure flask, authlib and requests modules are installed using the command `python -m pip install flask authlib requests`
 * The server uses flask session to create a user login session in the flask application after successful user login at the OAuth server
@@ -268,7 +268,7 @@ if __name__ == "__main__":
 * The post logout redirect URL is implemented in the ***/loggedout*** route of the flask server. After logging out the user, the OAuth server will redirect the user to this URL of the client application
 * In this flask server, flask session is used for managing the user session. Other approaches for managing user sessions like using ***flask-login*** can also be adopted.
 
-## References
+### References
 - JWT decoder and verifier online - https://jwt.io
 - purpose of nonce and state in authorization code flow - https://stackoverflow.com/a/48655220/2746323
 
@@ -279,7 +279,7 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk5NDIxMDgyLC0xMDg0MjMxMDMwLC0xNT
+eyJoaXN0b3J5IjpbMzI5OTA0MjAyLC0xMDg0MjMxMDMwLC0xNT
 Q2OTkwMDI4LDU4MTg0NzA5LC0xNjE2OTE2Mjk1LC05NTU5OTg3
 OTQsMTc4NDY2OTQ1OSwxMjU0Njc3NTM3LC00NDI0NjQzMTgsLT
 cyNDg5MjAxOCwtMTM0NDk5NjA0NiwtMjA2NDA0ODk5NCwtNDY3
