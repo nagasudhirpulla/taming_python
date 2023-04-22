@@ -62,7 +62,8 @@ Using these URL parameters, the OAuth server will know the client application de
 * Both the `state` and `nonce` are used to ensure that the communication between client application and OAuth server is not hijacked by malicious actors 
 
 ### Step 2 - Authorization code is sent to the client application by the OAuth server
-
+* After the user logs in the OAuth server redirects the user to the client application's redirect URL as shown below
+`http://localhost:3000/callback?state=fmrXezEZQO6xCUDdJH4bbX7AW66gWm&session_state=e19eb006-2f55-48a7-a80e-7704be54d634&code=4bb15df2-ed0d-40a8-a85b-4ffb9cbd0d9f.e19eb006-2f55-48a7-a80e-7704be54d634.bc451cba-2043-447f-afc7-5176e2331517`
 
 ## References
 - JWT decoder and verifier online - https://jwt.io
@@ -75,10 +76,10 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDQ4NjUyMywtMTM0NDk5NjA0NiwtMj
-A2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5
-NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMT
-AzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNzUwMjYwMzUsLTEzMTQ2
-MzgzMyw5NjU2MTM1MDAsMTg1MDA3MzkzMiwtMTk3NjAyNjU0OV
-19
+eyJoaXN0b3J5IjpbNDc1ODI3MzUzLC0xMzQ0OTk2MDQ2LC0yMD
+Y0MDQ4OTk0LC00Njc4MzAwMDksMjQxNzU1Mjc0LC0zMjg5Nzk0
+OTQsOTk2Nzg3NzI1LDIxOTYwODYwMiwxMDkzMTg0NjE2LC0xMD
+MxMjQ5NDAwLC0zNjkyNzc5MTMsLTM3NTAyNjAzNSwtMTMxNDYz
+ODMzLDk2NTYxMzUwMCwxODUwMDczOTMyLC0xOTc2MDI2NTQ5XX
+0=
 -->
