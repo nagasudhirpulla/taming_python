@@ -45,8 +45,8 @@
 ### Step 1 - Click the login button to be redirected to the OAuth Login screen
 * TODO login link image
 * TODO login page
-* Notice that the URL of the login page looks something like this 
-http://localhost:8080/realms/myorg/protocol/openid-connect/auth?response_type=code&client_id=test_web_app&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallback&scope=openid+profile+email&state=fmrXezEZQO6xCUDdJH4bbX7AW66gWm&nonce=lcnKjZAnpYSqldG6amqk
+* Notice that the URL of the login page looks something like:
+```http://localhost:8080/realms/myorg/protocol/openid-connect/auth?response_type=code&client_id=test_web_app&redirect_uri=http://localhost:3000/callback&scope=openid profile email&state=fmrXezEZQO6xCUDdJH4bbX7AW66gWm&nonce=lcnKjZAnpYSqldG6amqk```
 * The URL parameters *response_type, client_id, redirect_uri, scope, state, nonce* are passed in the user login page URL by the client application while redirecting the user to the OAuth login screen. 
 Using these URL parameters, the OAuth server will know the client application details and requirements while authenticating the user. 
 
@@ -62,9 +62,9 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzEwMzc4NSwtMjA2NDA0ODk5NCwtND
-Y3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5NDk0LDk5Njc4Nzcy
-NSwyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMTAzMTI0OTQwMCwtMz
-Y5Mjc3OTEzLC0zNzUwMjYwMzUsLTEzMTQ2MzgzMyw5NjU2MTM1
-MDAsMTg1MDA3MzkzMiwtMTk3NjAyNjU0OV19
+eyJoaXN0b3J5IjpbLTExMTk1OTgzMzcsLTIwNjQwNDg5OTQsLT
+Q2NzgzMDAwOSwyNDE3NTUyNzQsLTMyODk3OTQ5NCw5OTY3ODc3
+MjUsMjE5NjA4NjAyLDEwOTMxODQ2MTYsLTEwMzEyNDk0MDAsLT
+M2OTI3NzkxMywtMzc1MDI2MDM1LC0xMzE0NjM4MzMsOTY1NjEz
+NTAwLDE4NTAwNzM5MzIsLTE5NzYwMjY1NDldfQ==
 -->
