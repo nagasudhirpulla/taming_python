@@ -75,7 +75,7 @@ Using these URL parameters, the OAuth server will know the client application de
 {
 'grant_type': 'authorization_code', 
 'redirect_uri': 'http://localhost:3000/callback', 
-'code': 'efcb5789-12ad-4f2c-9728-8f646cdf4858.eb2f2d09-4795-48b2-87b6-21d0bee29473.bc451cba-2043-447f-afc7-5176e2331517'
+'code': '4bb15df2-ed0d-40a8-a85b-4ffb9cbd0d9f.e19eb006-2f55-48a7-a80e-7704be54d634.bc451cba-2043-447f-afc7-5176e2331517'
 }
 ```
 
@@ -90,10 +90,10 @@ Using these URL parameters, the OAuth server will know the client application de
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDAwMzg5MiwtNzI0ODkyMDE4LC0xMz
-Q0OTk2MDQ2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQxNzU1
-Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMiwxMD
-kzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNjkyNzc5MTMsLTM3NTAy
-NjAzNSwtMTMxNDYzODMzLDk2NTYxMzUwMCwxODUwMDczOTMyLC
-0xOTc2MDI2NTQ5XX0=
+eyJoaXN0b3J5IjpbLTExNzE0MjI0NjAsLTcyNDg5MjAxOCwtMT
+M0NDk5NjA0NiwtMjA2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1
+NTI3NCwtMzI4OTc5NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIsMT
+A5MzE4NDYxNiwtMTAzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNzUw
+MjYwMzUsLTEzMTQ2MzgzMyw5NjU2MTM1MDAsMTg1MDA3MzkzMi
+wtMTk3NjAyNjU0OV19
 -->
