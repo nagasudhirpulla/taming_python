@@ -140,6 +140,10 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 * The user information from the id token can be used by the client application to create a user session
 
 ![oauth_authorization_code_login_complete_page.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/oauth_authorization_code_login_complete_page.png)
+### Logging out the user
+* Just clearing the user session in the client application will not log out the user from the OAuth server
+* So after clearing the user session in the client application, the 
+
 ## Client application implementation in python flask
 * All the OAuth 2.0 workflow is implemented in the server using the `authlib` module
 * Ensure flask, authlib and requests modules are installed using the command `python -m pip install flask authlib requests`
@@ -245,11 +249,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDY5OTAwMjgsNTgxODQ3MDksLTE2MT
-Y5MTYyOTUsLTk1NTk5ODc5NCwxNzg0NjY5NDU5LDEyNTQ2Nzc1
-MzcsLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC0xMzQ0OTk2MDQ2LC
-0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQxNzU1Mjc0LC0zMjg5
-Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMiwxMDkzMTg0NjE2LC
-0xMDMxMjQ5NDAwLC0zNjkyNzc5MTMsLTM3NTAyNjAzNSwtMTMx
-NDYzODMzXX0=
+eyJoaXN0b3J5IjpbLTE0NTk0Nzc2ODMsLTE1NDY5OTAwMjgsNT
+gxODQ3MDksLTE2MTY5MTYyOTUsLTk1NTk5ODc5NCwxNzg0NjY5
+NDU5LDEyNTQ2Nzc1MzcsLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC
+0xMzQ0OTk2MDQ2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQx
+NzU1Mjc0LC0zMjg5Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMi
+wxMDkzMTg0NjE2LC0xMDMxMjQ5NDAwLC0zNjkyNzc5MTMsLTM3
+NTAyNjAzNV19
 -->
