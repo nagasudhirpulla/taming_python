@@ -143,7 +143,7 @@ grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fcallb
 ## Client application implementation in python flask
 * All the OAuth 2.0 workflow is implemented in the server using the `authlib` module
 * Ensure flask, authlib and requests modules are installed using the command `python -m pip install flask authlib requests`
-* The server uses flask session to login the user into the 
+* The server uses flask session to create a user login session in the flask application after successful user login at the OAuth server
 
 ```py
 """Python Flask WebApp OAuth 2.0 Authorization code flow example
@@ -245,11 +245,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwMzQyNjY2LDU4MTg0NzA5LC0xNjE2OT
-E2Mjk1LC05NTU5OTg3OTQsMTc4NDY2OTQ1OSwxMjU0Njc3NTM3
-LC00NDI0NjQzMTgsLTcyNDg5MjAxOCwtMTM0NDk5NjA0NiwtMj
-A2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5
-NDk0LDk5Njc4NzcyNSwyMTk2MDg2MDIsMTA5MzE4NDYxNiwtMT
-AzMTI0OTQwMCwtMzY5Mjc3OTEzLC0zNzUwMjYwMzUsLTEzMTQ2
-MzgzM119
+eyJoaXN0b3J5IjpbLTE1NDY5OTAwMjgsNTgxODQ3MDksLTE2MT
+Y5MTYyOTUsLTk1NTk5ODc5NCwxNzg0NjY5NDU5LDEyNTQ2Nzc1
+MzcsLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC0xMzQ0OTk2MDQ2LC
+0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQxNzU1Mjc0LC0zMjg5
+Nzk0OTQsOTk2Nzg3NzI1LDIxOTYwODYwMiwxMDkzMTg0NjE2LC
+0xMDMxMjQ5NDAwLC0zNjkyNzc5MTMsLTM3NTAyNjAzNSwtMTMx
+NDYzODMzXX0=
 -->
