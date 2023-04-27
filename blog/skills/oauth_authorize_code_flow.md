@@ -270,6 +270,11 @@ if __name__ == "__main__":
 * The post logout redirect URL is implemented in the ***/loggedout*** route of the flask server. After logging out the user, the OAuth server will redirect the user to this URL of the client application
 * In this flask server, flask session is used for managing the user session. Other approaches for managing user sessions like using ***flask-login*** can also be adopted.
 
+### Video
+You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K7aC4nZEepk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### References
 - JWT decoder and verifier online - https://jwt.io
 - purpose of nonce and state in authorization code flow - https://stackoverflow.com/a/48655220/2746323
@@ -281,11 +286,11 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc1NzgzMDIsLTg1MDAxMTExOSw5Nz
-k2NzYxMDIsMzI5OTA0MjAyLC0xMDg0MjMxMDMwLC0xNTQ2OTkw
-MDI4LDU4MTg0NzA5LC0xNjE2OTE2Mjk1LC05NTU5OTg3OTQsMT
-c4NDY2OTQ1OSwxMjU0Njc3NTM3LC00NDI0NjQzMTgsLTcyNDg5
-MjAxOCwtMTM0NDk5NjA0NiwtMjA2NDA0ODk5NCwtNDY3ODMwMD
-A5LDI0MTc1NTI3NCwtMzI4OTc5NDk0LDk5Njc4NzcyNSwyMTk2
-MDg2MDJdfQ==
+eyJoaXN0b3J5IjpbLTE3Mjg1NjMxMDYsLTEzMDc1NzgzMDIsLT
+g1MDAxMTExOSw5Nzk2NzYxMDIsMzI5OTA0MjAyLC0xMDg0MjMx
+MDMwLC0xNTQ2OTkwMDI4LDU4MTg0NzA5LC0xNjE2OTE2Mjk1LC
+05NTU5OTg3OTQsMTc4NDY2OTQ1OSwxMjU0Njc3NTM3LC00NDI0
+NjQzMTgsLTcyNDg5MjAxOCwtMTM0NDk5NjA0NiwtMjA2NDA0OD
+k5NCwtNDY3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5NDk0LDk5
+Njc4NzcyNV19
 -->
