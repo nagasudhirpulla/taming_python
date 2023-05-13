@@ -270,6 +270,8 @@ if __name__ == "__main__":
 * The post logout redirect URL is implemented in the ***/loggedout*** route of the flask server. After logging out the user, the OAuth server will redirect the user to this URL of the client application
 * In this flask server, flask session is used for managing the user session. Other approaches for managing user sessions like using ***flask-login*** can also be adopted.
 
+### PKCE in OAuth 2.0 Authori
+
 ### Video
 You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) 
 
@@ -286,11 +288,11 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjg1NjMxMDYsLTEzMDc1NzgzMDIsLT
-g1MDAxMTExOSw5Nzk2NzYxMDIsMzI5OTA0MjAyLC0xMDg0MjMx
-MDMwLC0xNTQ2OTkwMDI4LDU4MTg0NzA5LC0xNjE2OTE2Mjk1LC
-05NTU5OTg3OTQsMTc4NDY2OTQ1OSwxMjU0Njc3NTM3LC00NDI0
-NjQzMTgsLTcyNDg5MjAxOCwtMTM0NDk5NjA0NiwtMjA2NDA0OD
-k5NCwtNDY3ODMwMDA5LDI0MTc1NTI3NCwtMzI4OTc5NDk0LDk5
-Njc4NzcyNV19
+eyJoaXN0b3J5IjpbMTE1NTgyMjQ5NCwtMTcyODU2MzEwNiwtMT
+MwNzU3ODMwMiwtODUwMDExMTE5LDk3OTY3NjEwMiwzMjk5MDQy
+MDIsLTEwODQyMzEwMzAsLTE1NDY5OTAwMjgsNTgxODQ3MDksLT
+E2MTY5MTYyOTUsLTk1NTk5ODc5NCwxNzg0NjY5NDU5LDEyNTQ2
+Nzc1MzcsLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC0xMzQ0OTk2MD
+Q2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQxNzU1Mjc0LC0z
+Mjg5Nzk0OTRdfQ==
 -->
