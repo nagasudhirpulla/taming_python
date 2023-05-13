@@ -271,6 +271,7 @@ if __name__ == "__main__":
 * In this flask server, flask session is used for managing the user session. Other approaches for managing user sessions like using ***flask-login*** can also be adopted.
 
 ### PKCE in OAuth 2.0 Authorization code flow
+
 ![OAuth authorization code flow with PKCE workflow](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/oauth%20authorization%20code%20flow%20with%20pkce%20workflow.png?raw=true)
 
 ### Video
@@ -289,11 +290,11 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTk2OTg0OSwtMTcyODU2MzEwNiwtMT
-MwNzU3ODMwMiwtODUwMDExMTE5LDk3OTY3NjEwMiwzMjk5MDQy
-MDIsLTEwODQyMzEwMzAsLTE1NDY5OTAwMjgsNTgxODQ3MDksLT
-E2MTY5MTYyOTUsLTk1NTk5ODc5NCwxNzg0NjY5NDU5LDEyNTQ2
-Nzc1MzcsLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC0xMzQ0OTk2MD
-Q2LC0yMDY0MDQ4OTk0LC00Njc4MzAwMDksMjQxNzU1Mjc0LC0z
-Mjg5Nzk0OTRdfQ==
+eyJoaXN0b3J5IjpbLTEwODI4MTEwMTksLTE3Mjg1NjMxMDYsLT
+EzMDc1NzgzMDIsLTg1MDAxMTExOSw5Nzk2NzYxMDIsMzI5OTA0
+MjAyLC0xMDg0MjMxMDMwLC0xNTQ2OTkwMDI4LDU4MTg0NzA5LC
+0xNjE2OTE2Mjk1LC05NTU5OTg3OTQsMTc4NDY2OTQ1OSwxMjU0
+Njc3NTM3LC00NDI0NjQzMTgsLTcyNDg5MjAxOCwtMTM0NDk5Nj
+A0NiwtMjA2NDA0ODk5NCwtNDY3ODMwMDA5LDI0MTc1NTI3NCwt
+MzI4OTc5NDk0XX0=
 -->
