@@ -271,7 +271,10 @@ if __name__ == "__main__":
 * In this flask server, flask session is used for managing the user session. Other approaches for managing user sessions like using ***flask-login*** can also be adopted.
 
 ### PKCE in OAuth 2.0 Authorization code flow
-Proof Key for Code Exchange (PKCE) add additional security while 
+
+* Proof Key for Code Exchange (PKCE) adds additional security while exchanging authorization code between client and OAuth server
+* While sending the login   
+  
 ![OAuth authorization code flow with PKCE workflow](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/oauth%20authorization%20code%20flow%20with%20pkce%20workflow.png?raw=true)
 
 ### Video
@@ -290,11 +293,11 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODEzNDcwMjYsLTE5NjAwNDc3MjUsLT
-E3Mjg1NjMxMDYsLTEzMDc1NzgzMDIsLTg1MDAxMTExOSw5Nzk2
-NzYxMDIsMzI5OTA0MjAyLC0xMDg0MjMxMDMwLC0xNTQ2OTkwMD
-I4LDU4MTg0NzA5LC0xNjE2OTE2Mjk1LC05NTU5OTg3OTQsMTc4
-NDY2OTQ1OSwxMjU0Njc3NTM3LC00NDI0NjQzMTgsLTcyNDg5Mj
-AxOCwtMTM0NDk5NjA0NiwtMjA2NDA0ODk5NCwtNDY3ODMwMDA5
-LDI0MTc1NTI3NF19
+eyJoaXN0b3J5IjpbLTE1NjA5MTQ1MDgsLTE2ODEzNDcwMjYsLT
+E5NjAwNDc3MjUsLTE3Mjg1NjMxMDYsLTEzMDc1NzgzMDIsLTg1
+MDAxMTExOSw5Nzk2NzYxMDIsMzI5OTA0MjAyLC0xMDg0MjMxMD
+MwLC0xNTQ2OTkwMDI4LDU4MTg0NzA5LC0xNjE2OTE2Mjk1LC05
+NTU5OTg3OTQsMTc4NDY2OTQ1OSwxMjU0Njc3NTM3LC00NDI0Nj
+QzMTgsLTcyNDg5MjAxOCwtMTM0NDk5NjA0NiwtMjA2NDA0ODk5
+NCwtNDY3ODMwMDA5XX0=
 -->
