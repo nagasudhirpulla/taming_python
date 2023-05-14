@@ -274,7 +274,8 @@ if __name__ == "__main__":
 
 * Proof Key for Code Exchange (PKCE) adds additional security while exchanging authorization code between client and OAuth server
 * A random string (called code verifier) is generated and the hash of it (called code challenge) is sent along the login request to OAuth server.
-* After successful  
+* After successful login by the user and receiving authorization code by client, the client sends the code verifier along with the client credentials in the token request. The OAuth server validates the token request by verifyin
+*   
   
 ![OAuth authorization code flow with PKCE workflow](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/oauth%20authorization%20code%20flow%20with%20pkce%20workflow.png?raw=true)
 
@@ -294,11 +295,11 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4MTI5MDg3LC0xNjgxMzQ3MDI2LC0xOT
-YwMDQ3NzI1LC0xNzI4NTYzMTA2LC0xMzA3NTc4MzAyLC04NTAw
-MTExMTksOTc5Njc2MTAyLDMyOTkwNDIwMiwtMTA4NDIzMTAzMC
-wtMTU0Njk5MDAyOCw1ODE4NDcwOSwtMTYxNjkxNjI5NSwtOTU1
-OTk4Nzk0LDE3ODQ2Njk0NTksMTI1NDY3NzUzNywtNDQyNDY0Mz
-E4LC03MjQ4OTIwMTgsLTEzNDQ5OTYwNDYsLTIwNjQwNDg5OTQs
-LTQ2NzgzMDAwOV19
+eyJoaXN0b3J5IjpbMTM4NDk3MjYyOCwtMTY4MTM0NzAyNiwtMT
+k2MDA0NzcyNSwtMTcyODU2MzEwNiwtMTMwNzU3ODMwMiwtODUw
+MDExMTE5LDk3OTY3NjEwMiwzMjk5MDQyMDIsLTEwODQyMzEwMz
+AsLTE1NDY5OTAwMjgsNTgxODQ3MDksLTE2MTY5MTYyOTUsLTk1
+NTk5ODc5NCwxNzg0NjY5NDU5LDEyNTQ2Nzc1MzcsLTQ0MjQ2ND
+MxOCwtNzI0ODkyMDE4LC0xMzQ0OTk2MDQ2LC0yMDY0MDQ4OTk0
+LC00Njc4MzAwMDldfQ==
 -->
