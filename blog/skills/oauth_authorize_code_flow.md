@@ -277,7 +277,7 @@ if __name__ == "__main__":
 * After successful login by the user and receiving authorization code by client, the client sends the code verifier along with the client credentials in the token request. The OAuth server validates the token request by verifying the code challenge and code verifier
 * By adopting PKCE, even if the authorization code is sniffed by the malicious parties, they cannot impersonate the client since the code verifier does not leave the client till the token request
 * PKCE can be added in a python OAuth client just by adding `'code_challenge_method': 'S256'` in the client_kwargs while using the authlib module
-*   
+
   
 ![OAuth authorization code flow with PKCE workflow](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/oauth%20authorization%20code%20flow%20with%20pkce%20workflow.png?raw=true)
 
@@ -297,11 +297,11 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjc0MDc2NywtMTY4MTM0NzAyNiwtMT
-k2MDA0NzcyNSwtMTcyODU2MzEwNiwtMTMwNzU3ODMwMiwtODUw
-MDExMTE5LDk3OTY3NjEwMiwzMjk5MDQyMDIsLTEwODQyMzEwMz
-AsLTE1NDY5OTAwMjgsNTgxODQ3MDksLTE2MTY5MTYyOTUsLTk1
-NTk5ODc5NCwxNzg0NjY5NDU5LDEyNTQ2Nzc1MzcsLTQ0MjQ2ND
-MxOCwtNzI0ODkyMDE4LC0xMzQ0OTk2MDQ2LC0yMDY0MDQ4OTk0
-LC00Njc4MzAwMDldfQ==
+eyJoaXN0b3J5IjpbLTE0NTE1NTk2NTksLTE2ODEzNDcwMjYsLT
+E5NjAwNDc3MjUsLTE3Mjg1NjMxMDYsLTEzMDc1NzgzMDIsLTg1
+MDAxMTExOSw5Nzk2NzYxMDIsMzI5OTA0MjAyLC0xMDg0MjMxMD
+MwLC0xNTQ2OTkwMDI4LDU4MTg0NzA5LC0xNjE2OTE2Mjk1LC05
+NTU5OTg3OTQsMTc4NDY2OTQ1OSwxMjU0Njc3NTM3LC00NDI0Nj
+QzMTgsLTcyNDg5MjAxOCwtMTM0NDk5NjA0NiwtMjA2NDA0ODk5
+NCwtNDY3ODMwMDA5XX0=
 -->
