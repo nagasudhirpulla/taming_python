@@ -282,9 +282,11 @@ if __name__ == "__main__":
 ![OAuth authorization code flow with PKCE workflow](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/oauth%20authorization%20code%20flow%20with%20pkce%20workflow.png?raw=true)
 
 ### Video
-You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) 
+You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [here](https://youtu.be/O065sJQs51U)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K7aC4nZEepk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O065sJQs51U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### References
 - JWT decoder and verifier online - https://jwt.io
@@ -297,11 +299,11 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTE1NTk2NTksLTE2ODEzNDcwMjYsLT
-E5NjAwNDc3MjUsLTE3Mjg1NjMxMDYsLTEzMDc1NzgzMDIsLTg1
-MDAxMTExOSw5Nzk2NzYxMDIsMzI5OTA0MjAyLC0xMDg0MjMxMD
-MwLC0xNTQ2OTkwMDI4LDU4MTg0NzA5LC0xNjE2OTE2Mjk1LC05
-NTU5OTg3OTQsMTc4NDY2OTQ1OSwxMjU0Njc3NTM3LC00NDI0Nj
-QzMTgsLTcyNDg5MjAxOCwtMTM0NDk5NjA0NiwtMjA2NDA0ODk5
-NCwtNDY3ODMwMDA5XX0=
+eyJoaXN0b3J5IjpbMTQzNzA2NjY4MSwtMTQ1MTU1OTY1OSwtMT
+Y4MTM0NzAyNiwtMTk2MDA0NzcyNSwtMTcyODU2MzEwNiwtMTMw
+NzU3ODMwMiwtODUwMDExMTE5LDk3OTY3NjEwMiwzMjk5MDQyMD
+IsLTEwODQyMzEwMzAsLTE1NDY5OTAwMjgsNTgxODQ3MDksLTE2
+MTY5MTYyOTUsLTk1NTk5ODc5NCwxNzg0NjY5NDU5LDEyNTQ2Nz
+c1MzcsLTQ0MjQ2NDMxOCwtNzI0ODkyMDE4LC0xMzQ0OTk2MDQ2
+LC0yMDY0MDQ4OTk0XX0=
 -->
