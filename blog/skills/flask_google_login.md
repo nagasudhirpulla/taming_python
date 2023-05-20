@@ -43,9 +43,7 @@ The following is the procedure to register our flask application and obtain the 
 ![google_oauth_web_app_credentials_settings.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/google_oauth_web_app_credentials_settings.png)
 
 #### Logging out the user
-* Just clearing the user session in the client application will not log out the user from the OAuth server
-* So after clearing the user session in the client application, the user will be redirected the logout endpoint URL (for example, http://localhost:8080/realms/myorg/protocol/openid-connect/logout) of the OAuth server. The URL will have the id_token and post logout redirect URL as the query parameters.
-* After the logging out the user, the OAuth server will redirect the user to the post logout redirect URL of the client application
+* When user clicks the logout button, the flask user session will be cleared  
 
 ### Client application implementation in python flask
 * All the OAuth 2.0 workflow is implemented in the server using the `authlib` module
@@ -199,7 +197,7 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjQ1NzUzNiwtMTQ1NzU3MjE3MSwxMD
-c3OTAxNDEzLC01OTY3OTgxNTgsNjE1MzMwMDk0LC0xOTc5MDU4
-MjE5LDIxMzkwNzM5NzRdfQ==
+eyJoaXN0b3J5IjpbMTcyNjM0MDkwLC0xNDU3NTcyMTcxLDEwNz
+c5MDE0MTMsLTU5Njc5ODE1OCw2MTUzMzAwOTQsLTE5NzkwNTgy
+MTksMjEzOTA3Mzk3NF19
 -->
