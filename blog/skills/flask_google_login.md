@@ -26,6 +26,7 @@
 - Open Google Developer Console
 - Click on "Create Project" and create a project
 - Go to "APIs & Services" in the left navigation bar
+- Click on the "Enabled APIs & Services" menu in the left navigation bar and click the "ENABLE APIs AND SERVICES" button.  
 - Click on "Credentials" in the left menu
 - Click on "Create Credentials" button at the top. Select OAuth Client ID
 
@@ -304,6 +305,6 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1MzMwMDk0LC0xOTc5MDU4MjE5LDIxMz
-kwNzM5NzRdfQ==
+eyJoaXN0b3J5IjpbMTgxNTA5ODA2OSw2MTUzMzAwOTQsLTE5Nz
+kwNTgyMTksMjEzOTA3Mzk3NF19
 -->
