@@ -155,13 +155,6 @@ if __name__ == "__main__":
 ```
 
 
-### Video
-You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [here](https://youtu.be/O065sJQs51U)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/K7aC4nZEepk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O065sJQs51U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ### References
 - JWT decoder and verifier online - https://jwt.io
 - purpose of nonce and state in authorization code flow - https://stackoverflow.com/a/48655220/2746323
@@ -173,8 +166,8 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY4OTYyNjczLC00MjI5MjM1NCwtMTYzNj
-U4ODY2NSwtMTQ1NzU3MjE3MSwxMDc3OTAxNDEzLC01OTY3OTgx
-NTgsNjE1MzMwMDk0LC0xOTc5MDU4MjE5LDIxMzkwNzM5NzRdfQ
-==
+eyJoaXN0b3J5IjpbMTc0MDM2MDcwNSwtNDIyOTIzNTQsLTE2Mz
+Y1ODg2NjUsLTE0NTc1NzIxNzEsMTA3NzkwMTQxMywtNTk2Nzk4
+MTU4LDYxNTMzMDA5NCwtMTk3OTA1ODIxOSwyMTM5MDczOTc0XX
+0=
 -->
