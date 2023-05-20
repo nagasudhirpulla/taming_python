@@ -26,7 +26,8 @@
 - Open Google Developer Console
 - Click on "Create Project" and create a project
 - Go to "APIs & Services" in the left navigation bar
-- Click on the "Enabled APIs & Services" menu in the left navigation bar and click the "ENABLE APIs AND SERVICES" button.  
+- Click on the "Enabled APIs & Services" menu in the left navigation bar and click the "ENABLE APIs AND SERVICES" button. Since we want to access the user's birthday and gender, we need to enable the "Google People API"
+- Click om  
 - Click on "Credentials" in the left menu
 - Click on "Create Credentials" button at the top. Select OAuth Client ID
 
@@ -305,6 +306,6 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTA5ODA2OSw2MTUzMzAwOTQsLTE5Nz
-kwNTgyMTksMjEzOTA3Mzk3NF19
+eyJoaXN0b3J5IjpbNzE3NzM2NTExLDYxNTMzMDA5NCwtMTk3OT
+A1ODIxOSwyMTM5MDczOTc0XX0=
 -->
