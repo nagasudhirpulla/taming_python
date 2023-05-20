@@ -25,8 +25,9 @@
 ### Registering the flask application in Google Developer Console
 - Open Google Developer Console
 - Click on "Create Project" and create a project
-- Go to "APIs & Services" in the left menu
-- 
+- Go to "APIs & Services" in the left navigation bar
+- Click on "Credentials" in the left menu
+- Click on "Create Credentials" button at the top. Select 
 
 #### Steps
 - User clicks login button in the client application
@@ -303,6 +304,6 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTI4MDY3NSwtMTk3OTA1ODIxOSwyMT
+eyJoaXN0b3J5IjpbMTkzOTM2ODk4NywtMTk3OTA1ODIxOSwyMT
 M5MDczOTc0XX0=
 -->
