@@ -49,7 +49,7 @@ The following is the procedure to register our flask application and obtain the 
 * All the OAuth 2.0 workflow is implemented in the server using the `authlib` module
 * Ensure flask, authlib and requests modules are installed using the command `python -m pip install flask authlib requests`
 * The server uses flask session to create a user login session in the flask application after successful user login at the Google server
-* In this source code, an instance of OAuth app is initialized using authlib and the 
+* In this python , an instance of OAuth app is initialized using authlib and the login, callback and logout endpoints are implemented. The user is redirected in the login endpoint and the user information and tokens are fetched in the callback endpoint.
 
 ```py
 # server.py
@@ -187,7 +187,7 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTI3NjQ5NywtMTYzNjU4ODY2NSwtMT
+eyJoaXN0b3J5IjpbLTk5Mjk1MzQxMCwtMTYzNjU4ODY2NSwtMT
 Q1NzU3MjE3MSwxMDc3OTAxNDEzLC01OTY3OTgxNTgsNjE1MzMw
 MDk0LC0xOTc5MDU4MjE5LDIxMzkwNzM5NzRdfQ==
 -->
