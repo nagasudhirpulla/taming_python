@@ -162,7 +162,7 @@ Here are the goals and skills in this tutorial series
 * [Setup Keycloak as OAuth 2.0 server in Windows for testing and development](https://nagasudhir.blogspot.com/2023/04/setup-keycloak-as-oauth-20-server-in.html)
 * [Secure machine to machine communication with OAuth 2.0 Client Credentials flow](https://nagasudhir.blogspot.com/2023/04/secure-machine-to-machine-communication.html)
 * [Implement flask server and python client for OAuth 2.0 client credentials flow](https://nagasudhir.blogspot.com/2023/04/implement-flask-server-and-python.html)
-* 
+* [## OAuth 2.0 Authorization Code flow for securing server side web applications]
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -170,11 +170,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMjI3ODI4ODYsMjEzODQ4Nz
-g2LC0yOTU1MDE5MzYsLTIyMjEyMzAzNSwtMTA4MDUzNjU1Nywx
-MTM5NTIxMCwtMzMzNzgxOTYxLDE3NTE3MTM5MzEsNjUzMDI5OD
-U4LDk2OTYwODg2NCwtMTUyNjI2MDQ2NCwtOTUxMzAyMTAxLDIx
-Mzc1NTA4OTMsODA5NTQyNyw0ODA2MDg4MzQsOTMwOTcxMzM4LC
-0zOTk5NTQ4NzcsMTE1MjMyMzA3NSwxNzM5ODE5MDMyLDEyODA1
-OTg5MDhdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTI5MDkwMzI5LDIyNzgyOD
+g2LDIxMzg0ODc4NiwtMjk1NTAxOTM2LC0yMjIxMjMwMzUsLTEw
+ODA1MzY1NTcsMTEzOTUyMTAsLTMzMzc4MTk2MSwxNzUxNzEzOT
+MxLDY1MzAyOTg1OCw5Njk2MDg4NjQsLTE1MjYyNjA0NjQsLTk1
+MTMwMjEwMSwyMTM3NTUwODkzLDgwOTU0MjcsNDgwNjA4ODM0LD
+kzMDk3MTMzOCwtMzk5OTU0ODc3LDExNTIzMjMwNzUsMTczOTgx
+OTAzMl19
 -->
