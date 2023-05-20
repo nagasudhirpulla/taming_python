@@ -39,13 +39,7 @@ The following is the procedure to register our flask application and obtain the 
 - After creating the credentials the client id and client secret are displayed on the screen. These are required in the flask application
 
 
-### Authorization code flow demo with Keycloak
-
-#### Register a client and user in a keycloak realm
-* Create a realm in keycloak named *myorg*
-* Create a client with id "test_web_app" and note the client id and client secret for use in the client application. Modify the client settings to support authorization flow and specify the required inputs like home URL, redirect URL, post-logout redirect URL
-
-![keycloak_client_authorization_code_settings.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/keycloak_client_authorization_code_settings.png)
+![google_oauth_web_app_credentials_settings.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/google_oauth_web_app_credentials_settings.png)
 
 * Create a user with username "test_user" and set a password under the credentials section
 * Users can login and manage their account at "http://localhost:8080/realms/myorg/account"
@@ -305,7 +299,7 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc1NzIxNzEsMTA3NzkwMTQxMywtNT
-k2Nzk4MTU4LDYxNTMzMDA5NCwtMTk3OTA1ODIxOSwyMTM5MDcz
-OTc0XX0=
+eyJoaXN0b3J5IjpbLTE3Mjg3ODE0OTIsLTE0NTc1NzIxNzEsMT
+A3NzkwMTQxMywtNTk2Nzk4MTU4LDYxNTMzMDA5NCwtMTk3OTA1
+ODIxOSwyMTM5MDczOTc0XX0=
 -->
