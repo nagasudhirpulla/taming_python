@@ -163,6 +163,7 @@ Here are the goals and skills in this tutorial series
 * [Secure machine to machine communication with OAuth 2.0 Client Credentials flow](https://nagasudhir.blogspot.com/2023/04/secure-machine-to-machine-communication.html)
 * [Implement flask server and python client for OAuth 2.0 client credentials flow](https://nagasudhir.blogspot.com/2023/04/implement-flask-server-and-python.html)
 * [OAuth 2.0 Authorization Code flow for securing server side web applications](https://nagasudhir.blogspot.com/2023/04/oauth-20-authorization-code-flow-for.html)
+* [Implement login with google in python flask applications](https://nagasudhir.blogspot.com/2023/05/implement-login-with-google-in-python.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -170,11 +171,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTk2ODUwMjc2LDIyNzgyOD
-g2LDIxMzg0ODc4NiwtMjk1NTAxOTM2LC0yMjIxMjMwMzUsLTEw
-ODA1MzY1NTcsMTEzOTUyMTAsLTMzMzc4MTk2MSwxNzUxNzEzOT
-MxLDY1MzAyOTg1OCw5Njk2MDg4NjQsLTE1MjYyNjA0NjQsLTk1
-MTMwMjEwMSwyMTM3NTUwODkzLDgwOTU0MjcsNDgwNjA4ODM0LD
-kzMDk3MTMzOCwtMzk5OTU0ODc3LDExNTIzMjMwNzUsMTczOTgx
-OTAzMl19
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTU3NjM1ODc2NiwxOTY4NT
+AyNzYsMjI3ODI4ODYsMjEzODQ4Nzg2LC0yOTU1MDE5MzYsLTIy
+MjEyMzAzNSwtMTA4MDUzNjU1NywxMTM5NTIxMCwtMzMzNzgxOT
+YxLDE3NTE3MTM5MzEsNjUzMDI5ODU4LDk2OTYwODg2NCwtMTUy
+NjI2MDQ2NCwtOTUxMzAyMTAxLDIxMzc1NTA4OTMsODA5NTQyNy
+w0ODA2MDg4MzQsOTMwOTcxMzM4LC0zOTk5NTQ4NzcsMTE1MjMy
+MzA3NV19
 -->
