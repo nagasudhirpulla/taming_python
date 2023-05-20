@@ -7,7 +7,7 @@
 - [Setup Keycloak as OAuth 2.0 server in Windows for testing and development](https://nagasudhir.blogspot.com/2023/04/setup-keycloak-as-oauth-20-server-in.html)
 - [OAuth 2.0 Authorization Code flow for securing server side web applications](https://nagasudhir.blogspot.com/2023/04/oauth-20-authorization-code-flow-for.html)
 
-<br>
+<hr>
 
 * In this post we will learn how to implement login with google in flask applications
 * Also we will fetch user's personal information like age and gender from google after the user logs in
@@ -39,11 +39,13 @@ The following is the procedure to register our flask application and obtain the 
 - After creating the credentials the client id and client secret are displayed on the screen. These are required in the flask application
 
 
-![google_oauth_web_app_credentials.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/google_oauth_web_app_credentials.png)
+![google_oauth_web_app_credentials.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/google_oauth_web_app_credentials.png)<br>
+<br>
+
 ![google_oauth_web_app_credentials_settings.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/google_oauth_web_app_credentials_settings.png)
 
 #### Logging out the user
-* When user clicks the logout button, the flask user session will be cleared  
+* When user clicks the logout button, the flask user session will be cleared at the server, resulting in logging out the user
 
 ### Flask server python Code
 * All the OAuth 2.0 workflow is implemented in the server using the `authlib` module
@@ -168,8 +170,8 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4Njk0MDI5LC00MjI5MjM1NCwtMTYzNj
-U4ODY2NSwtMTQ1NzU3MjE3MSwxMDc3OTAxNDEzLC01OTY3OTgx
-NTgsNjE1MzMwMDk0LC0xOTc5MDU4MjE5LDIxMzkwNzM5NzRdfQ
-==
+eyJoaXN0b3J5IjpbLTEyNTg2OTIyMjksMjY4Njk0MDI5LC00Mj
+I5MjM1NCwtMTYzNjU4ODY2NSwtMTQ1NzU3MjE3MSwxMDc3OTAx
+NDEzLC01OTY3OTgxNTgsNjE1MzMwMDk0LC0xOTc5MDU4MjE5LD
+IxMzkwNzM5NzRdfQ==
 -->
