@@ -24,7 +24,9 @@
 ![Oauth%20Authorize%20Code%20flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/Oauth%20Authorize%20Code%20flow.png)
 ### Registering the flask application in Google Developer Console
 - Open Google Developer Console
-- Click on "Create Project"
+- Click on "Create Project" and create a project
+- Go to "APIs & Services" in the left menu
+- 
 
 #### Steps
 - User clicks login button in the client application
@@ -301,6 +303,6 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzA3Nzg2LC0xOTc5MDU4MjE5LDIxMz
-kwNzM5NzRdfQ==
+eyJoaXN0b3J5IjpbLTUwMTI4MDY3NSwtMTk3OTA1ODIxOSwyMT
+M5MDczOTc0XX0=
 -->
