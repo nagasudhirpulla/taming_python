@@ -18,7 +18,8 @@
 
 ### How google login work
 * Google supports OAuth 2.0 Authorization code flow for logging in users from external applications like the flask application in our example
-* OAuth 2.0 Authorization code flow is a workflow for delegated  authorization where the OAuth server issues tokens for logging in the users 
+* OAuth 2.0 Authorization code flow is a workflow for delegated  authorization where the OAuth server issues tokens to external applications for accessing user data after the user logs in
+* The following is how the   
 
 ### Workflow of Authorization Code flow
 
@@ -302,5 +303,5 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQyMDQ4MDYsMjEzOTA3Mzk3NF19
+eyJoaXN0b3J5IjpbMzU1OTk3NjE4LDIxMzkwNzM5NzRdfQ==
 -->
