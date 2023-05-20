@@ -38,14 +38,6 @@ The following is the procedure to register our flask application and obtain the 
 - Authorized redirect URI is the URL the user will be redirected to after successful login
 - After creating the credentials the client id and client secret are displayed on the screen. These are required in the flask application
 
-#### Steps
-- User clicks login button in the client application
-- Client application redirects the user to the OAuth server authorization page to perform authentication. Information like callback URL is sent by the client application to OAuth server while redirecting the user.
-- After logging in the user, the OAuth server redirects the user to the callback URL of the client application along with additional information like authorization code.
-- Client application sends the authorization code, client id and client secret to the OAuth server for obtaining access token and id token
-- OAuth server validates the authorization code, client id and client secret and issues access token and id token to the client
-- Client application can access user information using id_token and call other APIs on behalf of the user using access_token
-- Client application can authenticate and login the user with the details present in the id_token (like username, email etc) 
 
 ### Authorization code flow demo with Keycloak
 
@@ -313,7 +305,7 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NzkyNzg0LDEwNzc5MDE0MTMsLTU5Nj
-c5ODE1OCw2MTUzMzAwOTQsLTE5NzkwNTgyMTksMjEzOTA3Mzk3
-NF19
+eyJoaXN0b3J5IjpbLTE0NTc1NzIxNzEsMTA3NzkwMTQxMywtNT
+k2Nzk4MTU4LDYxNTMzMDA5NCwtMTk3OTA1ODIxOSwyMTM5MDcz
+OTc0XX0=
 -->
