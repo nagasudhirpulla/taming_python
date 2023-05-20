@@ -16,10 +16,12 @@
 * One of the use case can be to easily sign up users by extracting data like name, profile picture, gender and date of birth from google
 * For locally hosted flask applications or simple flask applications, implementing robust security is more difficult than the application itself. Maintaining the users information securely, implementing the login and logout screens with robust security is difficult in flask applications. For such scenarios, the server can have a list of allowed gmail emails and make the users to login using google. This makes the login implementation very simple and highly secure
 
-### How google login work
+### How google login works
 * Google supports OAuth 2.0 Authorization code flow for logging in users from external applications like the flask application in our example
 * OAuth 2.0 Authorization code flow is a workflow for delegated  authorization where the OAuth server issues tokens to external applications for accessing user data after the user logs in
 * The following is the workflow of Authorization Code flow
+	* User clicks the login button and will be redirected to google login screen by our flask application. The login url will also contains additional required parameters like client id, client secret, scopes, callback URL
+	*  After the user logs in, the user will be redirected to our flask application callback URL
 
 ![Oauth%20Authorize%20Code%20flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/Oauth%20Authorize%20Code%20flow.png)
 ### Registering the flask application in Google Developer Console
@@ -308,6 +310,7 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzkwMTQxMywtNTk2Nzk4MTU4LDYxNT
-MzMDA5NCwtMTk3OTA1ODIxOSwyMTM5MDczOTc0XX0=
+eyJoaXN0b3J5IjpbLTYxNzc1Njc4NiwxMDc3OTAxNDEzLC01OT
+Y3OTgxNTgsNjE1MzMwMDk0LC0xOTc5MDU4MjE5LDIxMzkwNzM5
+NzRdfQ==
 -->
