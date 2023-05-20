@@ -13,7 +13,8 @@
 * Also we will fetch user's personal information like age and gender from google after the user logs in
 
 ### Why use Google Login
-* ONe of 
+* One of the use case can be to easily sign up users by extracting data like name, profile picture, gender and date of birth from google
+* Inm
 
 ### Workflow of Authorization Code flow
 
@@ -297,5 +298,5 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTM4NDM5MywyMTM5MDczOTc0XX0=
+eyJoaXN0b3J5IjpbLTgyOTEzOTAyNCwyMTM5MDczOTc0XX0=
 -->
