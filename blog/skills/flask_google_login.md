@@ -17,7 +17,8 @@
 * For locally hosted flask applications or simple flask applications, implementing robust security is more difficult than the application itself. Maintaining the users information securely, implementing the login and logout screens with robust security is difficult in flask applications. For such scenarios, the server can have a list of allowed gmail emails and make the users to login using google. This makes the login implementation very simple and highly secure
 
 ### How google login work
-* Google supports OAuth 2.0 Authorization code flow 
+* Google supports OAuth 2.0 Authorization code flow for logging in users from external applications like the flask application in our example
+*   OAuth 2.0 Authorization code flow is a delegated authorization protocol 
 
 ### Workflow of Authorization Code flow
 
@@ -301,5 +302,5 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzU1NDQ1MywyMTM5MDczOTc0XX0=
+eyJoaXN0b3J5IjpbNjUzNDQwMjkyLDIxMzkwNzM5NzRdfQ==
 -->
