@@ -156,8 +156,10 @@ if __name__ == "__main__":
 
 
 ### References
-- JWT decoder and verifier online - https://jwt.io
-- purpose of nonce and state in authorization code flow - https://stackoverflow.com/a/48655220/2746323
+- Google developer console - https://console.cloud.google.com/
+- List of google scopes - [](https://developers.google.com/identity/protocols/oauth2/scopes)[https://developers.google.com/identity/protocols/oauth2/scopes](https://developers.google.com/identity/protocols/oauth2/scopes)
+- Google People API documentation - [](https://developers.google.com/people/api/rest/v1/people/get)[https://developers.google.com/people/api/rest/v1/people/get](https://developers.google.com/people/api/rest/v1/people/get)
+- Google OAuth 2.0 playground - [](https://developers.google.com/oauthplayground)[https://developers.google.com/oauthplayground](https://developers.google.com/oauthplayground)
 
 
 <hr/>
@@ -166,8 +168,8 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDM2MDcwNSwtNDIyOTIzNTQsLTE2Mz
-Y1ODg2NjUsLTE0NTc1NzIxNzEsMTA3NzkwMTQxMywtNTk2Nzk4
-MTU4LDYxNTMzMDA5NCwtMTk3OTA1ODIxOSwyMTM5MDczOTc0XX
-0=
+eyJoaXN0b3J5IjpbMjY4Njk0MDI5LC00MjI5MjM1NCwtMTYzNj
+U4ODY2NSwtMTQ1NzU3MjE3MSwxMDc3OTAxNDEzLC01OTY3OTgx
+NTgsNjE1MzMwMDk0LC0xOTc5MDU4MjE5LDIxMzkwNzM5NzRdfQ
+==
 -->
