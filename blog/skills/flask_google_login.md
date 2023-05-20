@@ -14,7 +14,7 @@
 
 ### Why use Google Login
 * One of the use case can be to easily sign up users by extracting data like name, profile picture, gender and date of birth from google
-* For locally hosted flask applications or simple flask applications, implementing robust security is more difficult than the application itself. Maintaining the users information securely, implementing the login and logout screens with robust security is difficult in flask applications.   
+* For locally hosted flask applications or simple flask applications, implementing robust security is more difficult than the application itself. Maintaining the users information securely, implementing the login and logout screens with robust security is difficult in flask applications. For such scenarios, the server can have a list of allowed gmail emails and make the users to login using google. This makes tlogin 
 
 ### Workflow of Authorization Code flow
 
@@ -298,5 +298,5 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjY3MTI0MDQsMjEzOTA3Mzk3NF19
+eyJoaXN0b3J5IjpbNTc0NDU0NzU1LDIxMzkwNzM5NzRdfQ==
 -->
