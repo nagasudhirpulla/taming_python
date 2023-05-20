@@ -49,7 +49,9 @@ The following is the procedure to register our flask application and obtain the 
 * All the OAuth 2.0 workflow is implemented in the server using the `authlib` module
 * Ensure flask, authlib and requests modules are installed using the command `python -m pip install flask authlib requests`
 * The server uses flask session to create a user login session in the flask application after successful user login at the Google server
-* In this python server code, an instance of OAuth app is initialized using authlib and the login, callback and logout endpoints are implemented. The user is redirected in the login endpoint and the user information and tokens are fetched in the callback endpoint. The user information and tokens are displayed in the home page after logging in by injecting session data into the jinja template by the server
+* In this python server code, an instance of OAuth app is initialized using authlib and the login, callback and logout endpoints are implemented. The user is redirected in the login endpoint and the user information and tokens are fetched in the callback endpoint. 
+* The user login session is created in the callback endpoint. 
+* The user information and tokens are displayed in the home page after logging in by injecting session data into the jinja template by the server
 
 ```py
 # server.py
@@ -152,22 +154,6 @@ if __name__ == "__main__":
 </html>
 ```
 
-* The user login URL is implemented in the ***/login*** route of the flask server. The  `authorize_redirect` function will create the login URL and redirect the user to the login page of the OAuth server
-* The login redirect endpoint is implemented in ***/callback*** route of the flask server. The `authorize_access_token` function will fetch and validate the access token and id token using the authorization code sent from the OAuth server
-* The logout URL is implemented in the ***/logout*** route of the flask server. The client application user session is cleared and the user is redirected to the OAuth server logout URL for logging out from the OAuth server also
-* The post logout redirect URL is implemented in the ***/loggedout*** route of the flask server. After logging out the user, the OAuth server will redirect the user to this URL of the client application
-* In this flask server, flask session is used for managing the user session. Other approaches for managing user sessions like using ***flask-login*** can also be adopted.
-
-### PKCE in OAuth 2.0 Authorization code flow
-
-* Proof Key for Code Exchange (PKCE) adds additional security while exchanging authorization code between client and OAuth server
-* A random string (called code verifier) is generated and the hash of it (called code challenge) is sent along the login request to OAuth server
-* After successful login by the user and receiving authorization code by client, the client sends the code verifier along with the client credentials in the token request. The OAuth server validates the token request by verifying the code challenge and code verifier
-* By adopting PKCE, even if the authorization code is sniffed by the malicious parties, they cannot impersonate the client since the code verifier does not leave the client till the token request
-* PKCE can be added in a python OAuth client just by adding `'code_challenge_method': 'S256'` in the client_kwargs while using the authlib module
-
-  
-![OAuth authorization code flow with PKCE workflow](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/oauth%20authorization%20code%20flow%20with%20pkce%20workflow.png?raw=true)
 
 ### Video
 You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [here](https://youtu.be/O065sJQs51U)
@@ -187,7 +173,8 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjkyMzU0LC0xNjM2NTg4NjY1LC0xND
-U3NTcyMTcxLDEwNzc5MDE0MTMsLTU5Njc5ODE1OCw2MTUzMzAw
-OTQsLTE5NzkwNTgyMTksMjEzOTA3Mzk3NF19
+eyJoaXN0b3J5IjpbNzY4OTYyNjczLC00MjI5MjM1NCwtMTYzNj
+U4ODY2NSwtMTQ1NzU3MjE3MSwxMDc3OTAxNDEzLC01OTY3OTgx
+NTgsNjE1MzMwMDk0LC0xOTc5MDU4MjE5LDIxMzkwNzM5NzRdfQ
+==
 -->
