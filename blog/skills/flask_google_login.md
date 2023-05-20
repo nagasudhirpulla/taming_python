@@ -49,6 +49,7 @@ The following is the procedure to register our flask application and obtain the 
 * All the OAuth 2.0 workflow is implemented in the server using the `authlib` module
 * Ensure flask, authlib and requests modules are installed using the command `python -m pip install flask authlib requests`
 * The server uses flask session to create a user login session in the flask application after successful user login at the Google server
+* In this source code, an instance of OAuth app is initialized using authlib and the 
 
 ```py
 # server.py
@@ -135,17 +136,16 @@ if __name__ == "__main__":
 
 <head>
     <meta charset="utf-8" />
-    <title>Authorization Code Flow Flask Example Web app</title>
+    <title>Flask Google Login Example Web Application</title>
 </head>
 
 <body>
     {% if session %}
-    <h1>Welcome {{session.userinfo.name}}!</h1>
-    <p><a href="/logout">Logout</a></p>
+    <h1>Welcome {{session.userinfo.preferred_username}}!</h1>
+    <p><a href="{{url_for('logout')}}">Logout</a></p>
     <div><pre>{{pretty}}</pre></div>
     {% else %}
-    <h1>Welcome Guest</h1>
-    <p><a href="/login">Login</a></p>
+    <p><a href="{{url_for('googleLogin')}}">Login with Google</a></p>
     {% endif %}
 </body>
 
@@ -187,7 +187,7 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzY1ODg2NjUsLTE0NTc1NzIxNzEsMT
-A3NzkwMTQxMywtNTk2Nzk4MTU4LDYxNTMzMDA5NCwtMTk3OTA1
-ODIxOSwyMTM5MDczOTc0XX0=
+eyJoaXN0b3J5IjpbMTQxOTI3NjQ5NywtMTYzNjU4ODY2NSwtMT
+Q1NzU3MjE3MSwxMDc3OTAxNDEzLC01OTY3OTgxNTgsNjE1MzMw
+MDk0LC0xOTc5MDU4MjE5LDIxMzkwNzM5NzRdfQ==
 -->
