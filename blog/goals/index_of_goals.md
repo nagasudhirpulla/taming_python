@@ -5,11 +5,6 @@ Here are the goals and skills in this tutorial series
 
 ## Table of Contents
 
-### Challenges
-* [Print "Hello World!"](https://nagasudhir.blogspot.com/2020/04/print-hello-world_54.html)
-* [Implement RS flip-flop logic using if statement and variables](https://nagasudhir.blogspot.com/2020/07/implement-rs-flip-flop-logic-using-if.html)
-
-### Skills
 #### Setup for working with python
 * [Setup Python Development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
 * [Using Jupyter Notebooks in Visual Studio Code](https://nagasudhir.blogspot.com/2020/06/using-jupyter-notebooks-in-visual.html)
@@ -167,6 +162,7 @@ Here are the goals and skills in this tutorial series
 * [Setup Keycloak as OAuth 2.0 server in Windows for testing and development](https://nagasudhir.blogspot.com/2023/04/setup-keycloak-as-oauth-20-server-in.html)
 * [Secure machine to machine communication with OAuth 2.0 Client Credentials flow](https://nagasudhir.blogspot.com/2023/04/secure-machine-to-machine-communication.html)
 * [Implement flask server and python client for OAuth 2.0 client credentials flow](https://nagasudhir.blogspot.com/2023/04/implement-flask-server-and-python.html)
+* 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -174,11 +170,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEyNTYzNzQ0NDYsMjEzOD
-Q4Nzg2LC0yOTU1MDE5MzYsLTIyMjEyMzAzNSwtMTA4MDUzNjU1
-NywxMTM5NTIxMCwtMzMzNzgxOTYxLDE3NTE3MTM5MzEsNjUzMD
-I5ODU4LDk2OTYwODg2NCwtMTUyNjI2MDQ2NCwtOTUxMzAyMTAx
-LDIxMzc1NTA4OTMsODA5NTQyNyw0ODA2MDg4MzQsOTMwOTcxMz
-M4LC0zOTk5NTQ4NzcsMTE1MjMyMzA3NSwxNzM5ODE5MDMyLDEy
-ODA1OTg5MDhdfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMjI3ODI4ODYsMjEzODQ4Nz
+g2LC0yOTU1MDE5MzYsLTIyMjEyMzAzNSwtMTA4MDUzNjU1Nywx
+MTM5NTIxMCwtMzMzNzgxOTYxLDE3NTE3MTM5MzEsNjUzMDI5OD
+U4LDk2OTYwODg2NCwtMTUyNjI2MDQ2NCwtOTUxMzAyMTAxLDIx
+Mzc1NTA4OTMsODA5NTQyNyw0ODA2MDg4MzQsOTMwOTcxMzM4LC
+0zOTk5NTQ4NzcsMTE1MjMyMzA3NSwxNzM5ODE5MDMyLDEyODA1
+OTg5MDhdfQ==
 -->
