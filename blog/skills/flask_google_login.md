@@ -23,8 +23,7 @@
 
 ![Oauth%20Authorize%20Code%20flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/Oauth%20Authorize%20Code%20flow.png)
 ### Registering the flask application in Google Developer Console
-- Client application will be registered in the OAuth server. The client will be given “client id” and “client secret” by the OAuth server
-- Users will be registered in the OAuth server
+- 
 
 #### Steps
 - User clicks login button in the client application
@@ -301,5 +300,5 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4NDAyOTI3LDIxMzkwNzM5NzRdfQ==
+eyJoaXN0b3J5IjpbLTE5NzkwNTgyMTksMjEzOTA3Mzk3NF19
 -->
