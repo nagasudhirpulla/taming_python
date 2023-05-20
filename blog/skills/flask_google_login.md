@@ -61,8 +61,8 @@ from flask import Flask, abort, redirect, render_template, session, url_for
 app = Flask(__name__)
 
 appConf = {
-    "OAUTH2_CLIENT_ID": "925473950572-rhu5l76279kuse15d10vqh0opdl4vqo9.apps.googleusercontent.com",
-    "OAUTH2_CLIENT_SECRET": "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",
+    "OAUTH2_CLIENT_ID": "paste_client_id_here",
+    "OAUTH2_CLIENT_SECRET": "paste_client_secret_here",
     "OAUTH2_META_URL": "https://accounts.google.com/.well-known/openid-configuration",
     "FLASK_SECRET": "ALongRandomlyGeneratedString",
     "FLASK_PORT": 5000
@@ -127,7 +127,6 @@ if __name__ == "__main__":
     app.run(host="0.0.0.0", port=appConf.get(
         "FLASK_PORT"), debug=True)
 
-
 ```
 
 ```html
@@ -188,7 +187,7 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1MTE3MzYsLTE0NTc1NzIxNzEsMTA3Nz
-kwMTQxMywtNTk2Nzk4MTU4LDYxNTMzMDA5NCwtMTk3OTA1ODIx
-OSwyMTM5MDczOTc0XX0=
+eyJoaXN0b3J5IjpbLTE2MzY1ODg2NjUsLTE0NTc1NzIxNzEsMT
+A3NzkwMTQxMywtNTk2Nzk4MTU4LDYxNTMzMDA5NCwtMTk3OTA1
+ODIxOSwyMTM5MDczOTc0XX0=
 -->
