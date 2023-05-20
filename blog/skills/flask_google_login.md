@@ -23,7 +23,8 @@
 	* User clicks the login button and will be redirected to google login screen by our flask application. The login url will also contains additional required parameters like client id, client secret, scopes, callback URL
 	*  After the user logs in, the user will be redirected to our flask application callback URL with the authorization code in the request URL
 	* Our flask application will use the authorization code to fetch the id toke and access token from google
-	* After fetching the id token and access token, the user's birthday and gender will be accessed by calling the Google People API with the access token 
+	* After fetching the id token and access token, the user's birthday and gender will be accessed by calling the Google People API with the access token attached to the request
+	* The user will now be logged into our flask application by creating a flask session
 
 ![Oauth%20Authorize%20Code%20flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/Oauth%20Authorize%20Code%20flow.png)
 ### Registering the flask application in Google Developer Console
@@ -312,7 +313,7 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQ4Nzg4NDcsMTA3NzkwMTQxMywtNT
-k2Nzk4MTU4LDYxNTMzMDA5NCwtMTk3OTA1ODIxOSwyMTM5MDcz
-OTc0XX0=
+eyJoaXN0b3J5IjpbLTI3NzkyNzg0LDEwNzc5MDE0MTMsLTU5Nj
+c5ODE1OCw2MTUzMzAwOTQsLTE5NzkwNTgyMTksMjEzOTA3Mzk3
+NF19
 -->
