@@ -29,7 +29,9 @@ The following is the procedure to register our flask application and obtain the 
 - Go to the project and click "APIs & Services" in the left navigation bar
 - Click on the "Enabled APIs & Services" menu in the left navigation bar and click the "ENABLE APIs AND SERVICES" button. Since we want to access the user's birthday and gender, we need to enable the "Google People API"
 -  Go to the project and click "OAuth consent screen" in the left navigation bar. Setup the consent screen by filling in the required details. Set the Publishing status to Production instead of testing. In testing mode, only selected emails can login. In Production mode, any gmail email can login. 
-- Go to the project and click on "Credentials" in the left menu. Click on "CREATE CREDENTIALS" button at the top. Select OAuth Client ID. Select the application type as Web application and provide a name and an "Authorized redirect URIs". In our example the "Authorized redirect URI" is "http://localhost:5000/sign-in	"
+- Go to the project and click on "Credentials" in the left menu. Click on "CREATE CREDENTIALS" button at the top. Select OAuth Client ID. Select the application type as Web application and provide a name and an "Authorized redirect URIs". In our example the "Authorized redirect URI" is "http://localhost:5000/signin-google".
+- Authorized redirect URI is the URL the user will be redirected to after successful login
+- After creating the credentials the client id and client secret are displayed on the screen. These are required in the flask application
 
 #### Steps
 - User clicks login button in the client application
@@ -306,6 +308,6 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDQ3MDYyNzUsNjE1MzMwMDk0LC0xOT
-c5MDU4MjE5LDIxMzkwNzM5NzRdfQ==
+eyJoaXN0b3J5IjpbMTk5NDgyOTkzMCw2MTUzMzAwOTQsLTE5Nz
+kwNTgyMTksMjEzOTA3Mzk3NF19
 -->
