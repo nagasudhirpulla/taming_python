@@ -27,7 +27,7 @@
 - Click on "Create Project" and create a project
 - Go to "APIs & Services" in the left navigation bar
 - Click on "Credentials" in the left menu
-- Click on "Create Credentials" button at the top. Select 
+- Click on "Create Credentials" button at the top. Select OAuth Client ID
 
 #### Steps
 - User clicks login button in the client application
@@ -304,6 +304,6 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTM2ODk4NywtMTk3OTA1ODIxOSwyMT
-M5MDczOTc0XX0=
+eyJoaXN0b3J5IjpbNjE1MzMwMDk0LC0xOTc5MDU4MjE5LDIxMz
+kwNzM5NzRdfQ==
 -->
