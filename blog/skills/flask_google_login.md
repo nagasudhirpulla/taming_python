@@ -9,7 +9,7 @@
 
 <br>
 
-In this post we will learn how to secure server-side web applications with **OAuth 2.0 Authorization Code flow**
+In this post we will learn how to implement login with google 
 
 ### Why use OAuth 2.0 Authorization Code flow
 * The users information (name, email, roles etc.,) can be managed and stored securely in the OAuth server and need not be created separately in each web application
@@ -300,5 +300,5 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDc0OTQ5NV19
+eyJoaXN0b3J5IjpbMjEzOTA3Mzk3NF19
 -->
