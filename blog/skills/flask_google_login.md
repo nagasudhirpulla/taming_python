@@ -9,14 +9,11 @@
 
 <br>
 
-In this post we will learn how to implement login with google 
+* In this post we will learn how to implement login with google in flask applications
+* Also we will fetch user's personal information like age and gender from google after the user logs in
 
-### Why use OAuth 2.0 Authorization Code flow
-* The users information (name, email, roles etc.,) can be managed and stored securely in the OAuth server and need not be created separately in each web application
-* The login screen, user account management, user administration pages are implemented by the OAuth server. Hence web applications can choose not to store users information in a database or implement login, account management and user administration pages.
-* Since the users information is centrally stored in the OAuth server, multiple web applications can make users login with same credentials in a single login screen, thus facilitating Single-Sign-On (SSO)
-* Web applications can be restricted to access only necessary user identity information from OAuth server
-* Web application can call other APIs on behalf of the logged in user using the access token issued by the OAuth server while logging in the user
+### Why use Google Login
+* ONe of 
 
 ### Workflow of Authorization Code flow
 
@@ -300,5 +297,5 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTA3Mzk3NF19
+eyJoaXN0b3J5IjpbMTM2NTM4NDM5MywyMTM5MDczOTc0XX0=
 -->
