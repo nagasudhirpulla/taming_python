@@ -14,7 +14,7 @@
 
 ### Why use Google Login
 * One of the use case can be to easily sign up users by extracting data like name, profile picture, gender and date of birth from google
-* Inm
+* For locally hosted flask applications or simple flask applications, implementing robust security is more difficult than imp  
 
 ### Workflow of Authorization Code flow
 
@@ -298,5 +298,5 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTEzOTAyNCwyMTM5MDczOTc0XX0=
+eyJoaXN0b3J5IjpbLTE5NjYyMjE2MywyMTM5MDczOTc0XX0=
 -->
