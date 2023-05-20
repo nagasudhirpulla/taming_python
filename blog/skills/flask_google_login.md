@@ -23,11 +23,12 @@
 
 ![Oauth%20Authorize%20Code%20flow.png](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/Oauth%20Authorize%20Code%20flow.png)
 ### Registering the flask application in Google Developer Console
+The following is the procedure to register our flask application and obtain the client id and client secret from Google Developer Console: 
 - Open Google Developer Console
 - Click on "Create Project" and create a project
 - Go to the project and click "APIs & Services" in the left navigation bar
 - Click on the "Enabled APIs & Services" menu in the left navigation bar and click the "ENABLE APIs AND SERVICES" button. Since we want to access the user's birthday and gender, we need to enable the "Google People API"
--  Go to the project and click "OAuth consent screen" in the left navigation bar. Setup the consent screen by filling inn
+-  Go to the project and click "OAuth consent screen" in the left navigation bar. Setup the consent screen by filling in the required details. Set the Publishing status to Production instead of testing. In production mode 
 - Click on "Credentials" in the left menu
 - Click on "Create Credentials" button at the top. Select OAuth Client ID
 
@@ -306,6 +307,6 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc0Njk4OTgsNjE1MzMwMDk0LC0xOTc5MD
-U4MjE5LDIxMzkwNzM5NzRdfQ==
+eyJoaXN0b3J5IjpbLTE4NzkwMjM0MDAsNjE1MzMwMDk0LC0xOT
+c5MDU4MjE5LDIxMzkwNzM5NzRdfQ==
 -->
