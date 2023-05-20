@@ -45,97 +45,88 @@ The following is the procedure to register our flask application and obtain the 
 #### Logging out the user
 * When user clicks the logout button, the flask user session will be cleared  
 
-### Client application implementation in python flask
+### Flask server python Code
 * All the OAuth 2.0 workflow is implemented in the server using the `authlib` module
 * Ensure flask, authlib and requests modules are installed using the command `python -m pip install flask authlib requests`
-* The server uses flask session to create a user login session in the flask application after successful user login at the OAuth server
+* The server uses flask session to create a user login session in the flask application after successful user login at the Google server
 
 ```py
-"""Python Flask WebApp OAuth 2.0 Authorization code flow example
-"""
-
+# server.py
 import json
-from urllib.parse import quote_plus, urlencode
 
+import requests
 from authlib.integrations.flask_client import OAuth
 from flask import Flask, abort, redirect, render_template, session, url_for
 
+app = Flask(__name__)
+
 appConf = {
-    "OAUTH2_CLIENT_ID": "test_web_app",
-    "OAUTH2_CLIENT_SECRET": "miiYLYaDT72kjcfDPN1OYj8kHs8rDg3S",
-    "OAUTH2_ISSUER": "http://localhost:8080/realms/myorg",
+    "OAUTH2_CLIENT_ID": "925473950572-rhu5l76279kuse15d10vqh0opdl4vqo9.apps.googleusercontent.com",
+    "OAUTH2_CLIENT_SECRET": "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",
+    "OAUTH2_META_URL": "https://accounts.google.com/.well-known/openid-configuration",
     "FLASK_SECRET": "ALongRandomlyGeneratedString",
-    "FLASK_PORT": 3000
+    "FLASK_PORT": 5000
 }
 
-app = Flask(__name__)
 app.secret_key = appConf.get("FLASK_SECRET")
 
 oauth = OAuth(app)
+# list of google scopes - https://developers.google.com/identity/protocols/oauth2/scopes
 oauth.register(
     "myApp",
     client_id=appConf.get("OAUTH2_CLIENT_ID"),
     client_secret=appConf.get("OAUTH2_CLIENT_SECRET"),
     client_kwargs={
-        "scope": "openid profile email",
+        "scope": "openid profile email https://www.googleapis.com/auth/user.birthday.read https://www.googleapis.com/auth/user.gender.read",
         # 'code_challenge_method': 'S256'  # enable PKCE
     },
-    server_metadata_url=f'{appConf.get("OAUTH2_ISSUER")}/.well-known/openid-configuration',
+    server_metadata_url=f'{appConf.get("OAUTH2_META_URL")}',
 )
 
 
 @app.route("/")
 def home():
-    return render_template(
-        "home.html",
-        session=session.get("user"),
-        pretty=json.dumps(session.get("user"), indent=4),
-    )
+    return render_template("home.html", session=session.get("user"),
+                           pretty=json.dumps(session.get("user"), indent=4))
 
 
-@app.route("/callback")
-def callback():
+@app.route("/signin-google")
+def googleCallback():
+    # fetch access token and id token using authorization code
     token = oauth.myApp.authorize_access_token()
+
+    # google people API - https://developers.google.com/people/api/rest/v1/people/get
+    # Google OAuth 2.0 playground - https://developers.google.com/oauthplayground
+    # make sure you enable the Google People API in the Google Developers console under "Enabled APIs & services" section
+
+    # fetch user data with access token
+    personDataUrl = "https://people.googleapis.com/v1/people/me?personFields=genders,birthdays"
+    personData = requests.get(personDataUrl, headers={
+        "Authorization": f"Bearer {token['access_token']}"
+    }).json()
+    token["personData"] = personData
+    # set complete user information in the session
     session["user"] = token
     return redirect(url_for("home"))
 
 
-@app.route("/login")
-def login():
-    # check if session already present
+@app.route("/google-login")
+def googleLogin():
     if "user" in session:
         abort(404)
-    return oauth.myApp.authorize_redirect(redirect_uri=url_for("callback", _external=True))
-
-
-@app.route("/loggedout")
-def loggedOut():
-    # check if session already present
-    if "user" in session:
-        abort(404)
-    return redirect(url_for("home"))
+    return oauth.myApp.authorize_redirect(redirect_uri=url_for("googleCallback", _external=True))
 
 
 @app.route("/logout")
 def logout():
-    # https://stackoverflow.com/a/72011979/2746323
-    id_token = session["user"]["id_token"]
-    session.clear()
-    return redirect(
-        appConf.get("OAUTH2_ISSUER")
-        + "/protocol/openid-connect/logout?"
-        + urlencode(
-            {
-                "post_logout_redirect_uri": url_for("loggedOut", _external=True),
-                "id_token_hint": id_token
-            },
-            quote_via=quote_plus,
-        )
-    )
+    session.pop("user", None)
+    return redirect(url_for("home"))
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=appConf.get("FLASK_PORT", 3000), debug=True)
+    app.run(host="0.0.0.0", port=appConf.get(
+        "FLASK_PORT"), debug=True)
+
 
 ```
 
@@ -197,7 +188,7 @@ You can see the video on this post [here](https://youtu.be/K7aC4nZEepk) and [her
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjM0MDkwLC0xNDU3NTcyMTcxLDEwNz
-c5MDE0MTMsLTU5Njc5ODE1OCw2MTUzMzAwOTQsLTE5NzkwNTgy
-MTksMjEzOTA3Mzk3NF19
+eyJoaXN0b3J5IjpbOTM1MTE3MzYsLTE0NTc1NzIxNzEsMTA3Nz
+kwMTQxMywtNTk2Nzk4MTU4LDYxNTMzMDA5NCwtMTk3OTA1ODIx
+OSwyMTM5MDczOTc0XX0=
 -->
