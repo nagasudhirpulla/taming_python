@@ -156,6 +156,11 @@ if __name__ == "__main__":
 </html>
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/fZLWO3_V06Q)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fZLWO3_V06Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ### References
 - Google developer console - https://console.cloud.google.com/
@@ -170,8 +175,8 @@ if __name__ == "__main__":
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTg2OTIyMjksMjY4Njk0MDI5LC00Mj
-I5MjM1NCwtMTYzNjU4ODY2NSwtMTQ1NzU3MjE3MSwxMDc3OTAx
-NDEzLC01OTY3OTgxNTgsNjE1MzMwMDk0LC0xOTc5MDU4MjE5LD
-IxMzkwNzM5NzRdfQ==
+eyJoaXN0b3J5IjpbMTY0MzU0MzYzMSwtMTI1ODY5MjIyOSwyNj
+g2OTQwMjksLTQyMjkyMzU0LC0xNjM2NTg4NjY1LC0xNDU3NTcy
+MTcxLDEwNzc5MDE0MTMsLTU5Njc5ODE1OCw2MTUzMzAwOTQsLT
+E5NzkwNTgyMTksMjEzOTA3Mzk3NF19
 -->
