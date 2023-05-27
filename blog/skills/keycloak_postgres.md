@@ -22,6 +22,8 @@ create user keycloak_user with password 'keycloak123';
 grant all privileges on database keycloak to keycloak_user;
 
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTM4NjQxMDddfQ==
+eyJoaXN0b3J5IjpbLTU1OTY3NTQ3MSwtMTQ5Mzg2NDEwN119
 -->
