@@ -1,11 +1,13 @@
-## Skill - Setup PostgreSQL database for keycloak
+## Setup PostgreSQL database for keycloak
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <br>
 
 #### Skills required
 - [Installing and managing a PostgreSQL database](https://nagasudhir.blogspot.com/2021/12/installing-and-managing-postgresql.html)
-- 
+- [Setup Keycloak as OAuth 2.0 server in Windows for testing and development](https://nagasudhir.blogspot.com/2023/04/setup-keycloak-as-oauth-20-server-in.html)
+
+<hr>
 
 - In this post we will learn how to setup a PostgreSQL database for Keycloak and configure Keycloak to use that database
 -   By default keycloak comes with a file based database to store the data like users, clients, credentials etc. on the disk
@@ -61,6 +63,5 @@ db-password=keycloak123
 -   https://www.keycloak.org/server/db
 -   https://www.tutorialsbuddy.com/keycloak-postgresql-setup
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzAxNDQ5MDQsLTE0OTM4NjQxMDddfQ
-==
+eyJoaXN0b3J5IjpbOTEyMjEyMjAsLTE0OTM4NjQxMDddfQ==
 -->
