@@ -54,9 +54,8 @@ db-password=keycloak123
 -   After saving the configuration file, restart the Keycloak server. Then Keycloak should use the PostgreSQL database to store its data
 
 ### References
-
 -   https://www.keycloak.org/server/db
 -   https://www.tutorialsbuddy.com/keycloak-postgresql-setup
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTI2MjY3LC0xNDkzODY0MTA3XX0=
+eyJoaXN0b3J5IjpbMTU2NTUzNjM5NywtMTQ5Mzg2NDEwN119
 -->
