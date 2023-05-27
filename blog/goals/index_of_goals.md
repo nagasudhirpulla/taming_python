@@ -164,7 +164,6 @@ Here are the goals and skills in this tutorial series
 * [Implement flask server and python client for OAuth 2.0 client credentials flow](https://nagasudhir.blogspot.com/2023/04/implement-flask-server-and-python.html)
 * [OAuth 2.0 Authorization Code flow for securing server side web applications](https://nagasudhir.blogspot.com/2023/04/oauth-20-authorization-code-flow-for.html)
 * [Implement login with google in python flask applications](https://nagasudhir.blogspot.com/2023/05/implement-login-with-google-in-python.html)
-* [Implement login with google in python flask applications](https://nagasudhir.blogspot.com/2023/05/implement-login-with-google-in-python.html)
 * [Setup PostgreSQL database for keycloak](https://nagasudhir.blogspot.com/2023/05/setup-postgresql-database-for-keycloak.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
@@ -173,11 +172,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE1NTA3NDc2MjcsLTU3Nj
-M1ODc2NiwxOTY4NTAyNzYsMjI3ODI4ODYsMjEzODQ4Nzg2LC0y
-OTU1MDE5MzYsLTIyMjEyMzAzNSwtMTA4MDUzNjU1NywxMTM5NT
-IxMCwtMzMzNzgxOTYxLDE3NTE3MTM5MzEsNjUzMDI5ODU4LDk2
-OTYwODg2NCwtMTUyNjI2MDQ2NCwtOTUxMzAyMTAxLDIxMzc1NT
-A4OTMsODA5NTQyNyw0ODA2MDg4MzQsOTMwOTcxMzM4LC0zOTk5
-NTQ4NzddfQ==
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE1NzQyMDk3ODksLTE1NT
+A3NDc2MjcsLTU3NjM1ODc2NiwxOTY4NTAyNzYsMjI3ODI4ODYs
+MjEzODQ4Nzg2LC0yOTU1MDE5MzYsLTIyMjEyMzAzNSwtMTA4MD
+UzNjU1NywxMTM5NTIxMCwtMzMzNzgxOTYxLDE3NTE3MTM5MzEs
+NjUzMDI5ODU4LDk2OTYwODg2NCwtMTUyNjI2MDQ2NCwtOTUxMz
+AyMTAxLDIxMzc1NTA4OTMsODA5NTQyNyw0ODA2MDg4MzQsOTMw
+OTcxMzM4XX0=
 -->
