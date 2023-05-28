@@ -59,9 +59,15 @@ db-password=keycloak123
 -   The above configuration specifies the database type, database name, database host and database host. Alternatively, a single JDBC connection string can also be used instead of these options to specify connection configuration in one line. All the possible database configuration options are documented at https://www.keycloak.org/server/db
 -   After saving the configuration file, restart the Keycloak server. Then Keycloak should use the PostgreSQL database to store its data
 
+### Video
+You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7404ir5oq4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### References
 -   https://www.keycloak.org/server/db
 -   https://www.tutorialsbuddy.com/keycloak-postgresql-setup
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyMjEyMjAsLTE0OTM4NjQxMDddfQ==
+eyJoaXN0b3J5IjpbMTgzOTE0OTExOCw5MTIyMTIyMCwtMTQ5Mz
+g2NDEwN119
 -->
