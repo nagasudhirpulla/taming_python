@@ -14,7 +14,6 @@
 -   Configuring a better password policy and two factor authentication helps in drastically improving the security of the user login process 
 
 ### Creating and managing users in keycloak
-
 * 
 
 ### Configure Keycloak to use the PostgreSQL database
@@ -57,5 +56,5 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   https://www.tutorialsbuddy.com/keycloak-postgresql-setup
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzIyNzU0NV19
+eyJoaXN0b3J5IjpbMTk5MjY0OTc3MSwxMTIzMjI3NTQ1XX0=
 -->
