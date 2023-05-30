@@ -1,4 +1,4 @@
-## Setup Password policy and OTP policy in keycloak
+## Manage Users, Password policy and Two factor authentication in keycloak
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <br>
@@ -10,8 +10,8 @@
 <hr>
 
 - In this post we will learn how to setup Password policy and Two factor authentication in keycloak
--   By default keycloak comes with a file based database to store the data like users, clients, credentials etc. on the disk
--   However in production scenarios, it is advisable to use a robust database like PostgreSQL database for storing the Keycloak data
+-   By default two factor authentication is disabled and no password policy is configured in keycloak
+-   Configuring a better password policy and two factor authenri 
 
 ### Setup PostgreSQL database to store Keycloak data
 -   In Windows, the PostgreSQL command line session can be activated by running the psql application (it can be searched in the task bar). In Ubuntu, PostgreSQL command line session can be accessed by running the commands `sudo -i -u postgres` and then `psql`
@@ -69,5 +69,5 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   https://www.tutorialsbuddy.com/keycloak-postgresql-setup
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjUwNzExXX0=
+eyJoaXN0b3J5IjpbLTE5NDE5NDMzMjNdfQ==
 -->
