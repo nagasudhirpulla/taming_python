@@ -13,14 +13,9 @@
 -   By default two factor authentication is disabled and no password policy is configured in keycloak
 -   Configuring a better password policy and two factor authentication helps in drastically improving the security of the user login process 
 
-### Creating and M
+### Creating and managing users in keycloak
 
-```sql
-create database keycloak;
-create user keycloak_user with password 'keycloak123';
-grant all privileges on database keycloak to keycloak_user;
-
-```
+* 
 
 ### Configure Keycloak to use the PostgreSQL database
 -   After setting up the database, Keycloak needs to be configured to use the PostgreSQL database
@@ -62,5 +57,5 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   https://www.tutorialsbuddy.com/keycloak-postgresql-setup
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NDk2ODUzNV19
+eyJoaXN0b3J5IjpbMTEyMzIyNzU0NV19
 -->
