@@ -1,4 +1,4 @@
-## Setup PostgreSQL database for keycloak
+## Setup Password policy and OTP policy in keycloak
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <br>
@@ -9,7 +9,7 @@
 
 <hr>
 
-- In this post we will learn how to setup a PostgreSQL database for Keycloak and configure Keycloak to use that database
+- In this post we will learn how to setup Password policy and Two factor authentication in keycloak
 -   By default keycloak comes with a file based database to store the data like users, clients, credentials etc. on the disk
 -   However in production scenarios, it is advisable to use a robust database like PostgreSQL database for storing the Keycloak data
 
@@ -69,5 +69,5 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   https://www.tutorialsbuddy.com/keycloak-postgresql-setup
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjM3ODQ0XX0=
+eyJoaXN0b3J5IjpbLTIzMjUwNzExXX0=
 -->
