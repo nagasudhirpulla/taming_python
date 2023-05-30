@@ -11,16 +11,9 @@
 
 - In this post we will learn how to setup Password policy and Two factor authentication in keycloak
 -   By default two factor authentication is disabled and no password policy is configured in keycloak
--   Configuring a better password policy and two factor authenri 
+-   Configuring a better password policy and two factor authentication helps in drastically improving the security of the user login process 
 
-### Setup PostgreSQL database to store Keycloak data
--   In Windows, the PostgreSQL command line session can be activated by running the psql application (it can be searched in the task bar). In Ubuntu, PostgreSQL command line session can be accessed by running the commands `sudo -i -u postgres` and then `psql`
--   Open PostgreSQL command prompt and run the commands to
-    -   create a database
-    -   create a database user
-    -   grant permissions of the newly created user to the newly created database.
-
-The following commands can run in the PostgreSQL command line session. A database named `keycloak` and a database user named `keycloak_user`
+### Creating and M
 
 ```sql
 create database keycloak;
@@ -69,5 +62,5 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   https://www.tutorialsbuddy.com/keycloak-postgresql-setup
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDE5NDMzMjNdfQ==
+eyJoaXN0b3J5IjpbMTE1NDk2ODUzNV19
 -->
