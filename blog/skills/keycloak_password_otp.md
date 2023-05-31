@@ -31,11 +31,14 @@
 ![keycloak_otp_enable.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_otp_enable.png?raw=true)
 - Two factor authentication policy can be configured from Authentication menu, Policies tab, OTP Policy tab as shown below
 
-![keycloak_otp_enable.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_otp_policy.png?raw=true)
+![keycloak_otp_policy.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_otp_policy.png?raw=true)
 
 ### Using Two factor authentication by the users
 * For Two factor authentication, users can use any one of the FreeOTP, Google Authenticator, Microsoft Authenticator apps
 * After logging in for the first time,  user will be shown a QR code to configure his Authenticator app as shown below
+
+![keycloak_otp_qr_code_setup.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_otp_qr_code_setup.png?raw=true)
+
 * 
 
 
@@ -50,8 +53,8 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQ4MzQ1MDIsLTg0OTYzMzgxLC0xMj
-M1NjczODU1LC0xMDc2MjU1MDc4LDQxMzMzOTY3LC02NjQ3OTEw
-MjYsMTExOTg3ODYwMCwtMjA3ODQ4NTk3MywxMTIzMjI3NTQ1XX
-0=
+eyJoaXN0b3J5IjpbLTExMjk0NzE0OTEsLTEwNDQ4MzQ1MDIsLT
+g0OTYzMzgxLC0xMjM1NjczODU1LC0xMDc2MjU1MDc4LDQxMzMz
+OTY3LC02NjQ3OTEwMjYsMTExOTg3ODYwMCwtMjA3ODQ4NTk3My
+wxMTIzMjI3NTQ1XX0=
 -->
