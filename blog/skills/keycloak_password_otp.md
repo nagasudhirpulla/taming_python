@@ -38,7 +38,9 @@
 * After logging in for the first time,  user will be shown a QR code to configure his Authenticator app as shown below
 
 ![keycloak_otp_qr_code_setup.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_otp_qr_code_setup.png?raw=true)
-* After setting up the Two factor authentication using an Authenticator app (like Microsoft Authenticator), the user will be asked for an OTP after logging in as shown below 
+* After setting up the Two factor authentication using an Authenticator app (like Microsoft Authenticator), the user will be asked for an OTP after logging in as shown below
+
+ ![keycloak_login_otp.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_login_otp.png?raw=true)
 
 
 
@@ -52,8 +54,8 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODY2MjU1MCwtMTA0NDgzNDUwMiwtOD
-Q5NjMzODEsLTEyMzU2NzM4NTUsLTEwNzYyNTUwNzgsNDEzMzM5
-NjcsLTY2NDc5MTAyNiwxMTE5ODc4NjAwLC0yMDc4NDg1OTczLD
-ExMjMyMjc1NDVdfQ==
+eyJoaXN0b3J5IjpbMTQ0OTcwODUyLC0xMDQ0ODM0NTAyLC04ND
+k2MzM4MSwtMTIzNTY3Mzg1NSwtMTA3NjI1NTA3OCw0MTMzMzk2
+NywtNjY0NzkxMDI2LDExMTk4Nzg2MDAsLTIwNzg0ODU5NzMsMT
+EyMzIyNzU0NV19
 -->
