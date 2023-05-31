@@ -34,35 +34,11 @@
 ![keycloak_otp_enable.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_otp_policy.png?raw=true)
 
 ### Using Two factor authentication by the users
-* Two factor authentication can be performed by the users using any of the FreeOTP, Google Authenticator, Microsoft Authenticator apps
-* 
+* For Two factor authentication, users can use any on of the FreeOTP, Google Authenticator, Microsoft Authenticator apps
+* User needs to install any of the 
 
 
-```bash
-# Database
 
-# The database vendor.
-db=postgres
-db-url-database=keycloak
-db-url-host=localhost
-db-url-port=5432
-
-# Use jdbc url to specify the postgresql connection in one line instead of the above options
-# db-url=jdbc:postgresql://localhost/keycloak
-
-# The username of the database user.
-db-username=keycloak_user
-
-# The password of the database user.
-db-password=keycloak123
-
-# The full database JDBC URL. If not provided, a default URL is set based on the selected database vendor.
-#db-url=jdbc:postgresql://localhost/keycloak
-
-```
-
--   The above configuration specifies the database type, database name, database host and database host. Alternatively, a single JDBC connection string can also be used instead of these options to specify connection configuration in one line. All the possible database configuration options are documented at https://www.keycloak.org/server/db
--   After saving the configuration file, restart the Keycloak server. Then Keycloak should use the PostgreSQL database to store its data
 
 ### Video
 You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
@@ -73,8 +49,8 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTQ2MzMwMywtODQ5NjMzODEsLTEyMz
-U2NzM4NTUsLTEwNzYyNTUwNzgsNDEzMzM5NjcsLTY2NDc5MTAy
-NiwxMTE5ODc4NjAwLC0yMDc4NDg1OTczLDExMjMyMjc1NDVdfQ
-==
+eyJoaXN0b3J5IjpbLTE4MjMzODExMTMsLTg0OTYzMzgxLC0xMj
+M1NjczODU1LC0xMDc2MjU1MDc4LDQxMzMzOTY3LC02NjQ3OTEw
+MjYsMTExOTg3ODYwMCwtMjA3ODQ4NTk3MywxMTIzMjI3NTQ1XX
+0=
 -->
