@@ -19,7 +19,7 @@
 - Password can be set in the "Credentials" tab of the user
 ![users_password_keycloak.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/users_password_keycloak.png?raw=true)
 ### Set Password Policy
-- Password policy of a keycloak realm can be configured in the Authentication menu, Policies tab as shown below 
+- Password policy of a keycloak realm can be easily configured in the Authentication menu, Policies tab as shown below 
 ![password_policy_keycloak_setting.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/password_policy_keycloak_setting.png?raw=true)
 - Password blacklist file should be kept in the `data\password-blacklists\` folder of the keycloak folder. Also the password blacklist text file should have Unix style line endings (This needs to checked in windows)
 
@@ -62,7 +62,7 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjkwNjM1NDIsNDEzMzM5NjcsLTY2ND
-c5MTAyNiwxMTE5ODc4NjAwLC0yMDc4NDg1OTczLDExMjMyMjc1
-NDVdfQ==
+eyJoaXN0b3J5IjpbMTQzODc2ODk3NSw0MTMzMzk2NywtNjY0Nz
+kxMDI2LDExMTk4Nzg2MDAsLTIwNzg0ODU5NzMsMTEyMzIyNzU0
+NV19
 -->
