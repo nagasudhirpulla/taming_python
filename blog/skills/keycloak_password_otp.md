@@ -14,7 +14,7 @@
 -   Configuring a better password policy and two factor authentication helps in drastically improving the security of the user login process 
 
 ### Creating and managing users in keycloak
-* Users can be managed from the "Users" tab of the keycloak realm as shown below
+* Users can be managed from the "Users" tab of a keycloak realm as shown below
 ![users_tab_in_keycloak](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/users_tab_in_keycloak.png?raw=true)
 ![users_password_keycloak.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/users_password_keycloak.png?raw=true)
 
@@ -58,6 +58,6 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   https://www.tutorialsbuddy.com/keycloak-postgresql-setup
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDc5MTAyNiwxMTE5ODc4NjAwLC0yMD
-c4NDg1OTczLDExMjMyMjc1NDVdfQ==
+eyJoaXN0b3J5IjpbMTI1NDUxNDcxOCwtNjY0NzkxMDI2LDExMT
+k4Nzg2MDAsLTIwNzg0ODU5NzMsMTEyMzIyNzU0NV19
 -->
