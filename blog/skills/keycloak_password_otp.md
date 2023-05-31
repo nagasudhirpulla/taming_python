@@ -16,6 +16,7 @@
 ### Creating and managing users in keycloak
 * Users can be managed from the "Users" tab of a keycloak realm as shown below
 ![users_tab_in_keycloak](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/users_tab_in_keycloak.png?raw=true)
+- Password can be set in the "Credentials" tab of the user
 ![users_password_keycloak.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/users_password_keycloak.png?raw=true)
 
 ### Configure Keycloak to use the PostgreSQL database
@@ -58,6 +59,6 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   https://www.tutorialsbuddy.com/keycloak-postgresql-setup
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDUxNDcxOCwtNjY0NzkxMDI2LDExMT
+eyJoaXN0b3J5IjpbMTE3MDE3NTM2OSwtNjY0NzkxMDI2LDExMT
 k4Nzg2MDAsLTIwNzg0ODU5NzMsMTEyMzIyNzU0NV19
 -->
