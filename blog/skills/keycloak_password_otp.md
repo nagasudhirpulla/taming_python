@@ -57,10 +57,10 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7404ir5oq4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### References
--   https://www.keycloak.org/server/db
--   https://www.tutorialsbuddy.com/keycloak-postgresql-setup
+-   Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzMzM5NjcsLTY2NDc5MTAyNiwxMTE5OD
-c4NjAwLC0yMDc4NDg1OTczLDExMjMyMjc1NDVdfQ==
+eyJoaXN0b3J5IjpbLTY3MjAwNTQ0NCw0MTMzMzk2NywtNjY0Nz
+kxMDI2LDExMTk4Nzg2MDAsLTIwNzg0ODU5NzMsMTEyMzIyNzU0
+NV19
 -->
