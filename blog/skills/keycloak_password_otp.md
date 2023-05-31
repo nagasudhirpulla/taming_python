@@ -32,7 +32,11 @@
 - Two factor authentication policy can be configured from Authentication menu, Policies tab, OTP Policy tab as shown below
 
 ![keycloak_otp_enable.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_otp_policy.png?raw=true)
+
+### Using Two factor authentication by the users
 * Two factor authentication can be performed by the users using any of the FreeOTP, Google Authenticator, Microsoft Authenticator apps
+* 
+
 
 ```bash
 # Database
@@ -69,7 +73,7 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODcxOTA1MSwtODQ5NjMzODEsLTEyMz
+eyJoaXN0b3J5IjpbMTI0MTQ2MzMwMywtODQ5NjMzODEsLTEyMz
 U2NzM4NTUsLTEwNzYyNTUwNzgsNDEzMzM5NjcsLTY2NDc5MTAy
 NiwxMTE5ODc4NjAwLC0yMDc4NDg1OTczLDExMjMyMjc1NDVdfQ
 ==
