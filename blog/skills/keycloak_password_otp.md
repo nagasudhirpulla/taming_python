@@ -44,11 +44,11 @@
 
 
 ### References
--   Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
-
+- Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
+- Official docs for OTP policy -https://www.keycloak.org/docs/latest/server_admin/#one-time-password-otp-policies
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTU4NzQyMzQsMTE4ODY3ODAzMiwtMT
-A0NDgzNDUwMiwtODQ5NjMzODEsLTEyMzU2NzM4NTUsLTEwNzYy
-NTUwNzgsNDEzMzM5NjcsLTY2NDc5MTAyNiwxMTE5ODc4NjAwLC
-0yMDc4NDg1OTczLDExMjMyMjc1NDVdfQ==
+eyJoaXN0b3J5IjpbLTM2MjkxNjYyMCwxMTg4Njc4MDMyLC0xMD
+Q0ODM0NTAyLC04NDk2MzM4MSwtMTIzNTY3Mzg1NSwtMTA3NjI1
+NTA3OCw0MTMzMzk2NywtNjY0NzkxMDI2LDExMTk4Nzg2MDAsLT
+IwNzg0ODU5NzMsMTEyMzIyNzU0NV19
 -->
