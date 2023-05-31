@@ -35,7 +35,8 @@
 
 ### Using Two factor authentication by the users
 * For Two factor authentication, users can use any one of the FreeOTP, Google Authenticator, Microsoft Authenticator apps
-* User needs to install any of the 
+* After logging in for the first time,  user will be shown a QR code to configure his Authenticator app as shown below
+* 
 
 
 
@@ -49,7 +50,7 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI3NzU0NTIsLTg0OTYzMzgxLC0xMj
+eyJoaXN0b3J5IjpbLTEwNDQ4MzQ1MDIsLTg0OTYzMzgxLC0xMj
 M1NjczODU1LC0xMDc2MjU1MDc4LDQxMzMzOTY3LC02NjQ3OTEw
 MjYsMTExOTg3ODYwMCwtMjA3ODQ4NTk3MywxMTIzMjI3NTQ1XX
 0=
