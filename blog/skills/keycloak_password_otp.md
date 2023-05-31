@@ -19,7 +19,7 @@
 - Password can be set in the "Credentials" tab of the user
 ![users_password_keycloak.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/users_password_keycloak.png?raw=true)
 ### Set Password Policy
-
+![password_policy_keycloak_setting.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/password_policy_keycloak_setting.png?raw=true)
 
 ### Configure Keycloak to use the PostgreSQL database
 -   After setting up the database, Keycloak needs to be configured to use the PostgreSQL database
@@ -60,7 +60,7 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjAwNTQ0NCw0MTMzMzk2NywtNjY0Nz
+eyJoaXN0b3J5IjpbMTY4OTYzNjg5OCw0MTMzMzk2NywtNjY0Nz
 kxMDI2LDExMTk4Nzg2MDAsLTIwNzg0ODU5NzMsMTEyMzIyNzU0
 NV19
 -->
