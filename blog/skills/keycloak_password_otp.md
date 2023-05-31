@@ -43,19 +43,12 @@
  ![keycloak_login_otp.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_login_otp.png?raw=true)
 
 
-
-
-### Video
-You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7404ir5oq4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ### References
 -   Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4ODY3ODAzMiwtMTA0NDgzNDUwMiwtOD
-Q5NjMzODEsLTEyMzU2NzM4NTUsLTEwNzYyNTUwNzgsNDEzMzM5
-NjcsLTY2NDc5MTAyNiwxMTE5ODc4NjAwLC0yMDc4NDg1OTczLD
-ExMjMyMjc1NDVdfQ==
+eyJoaXN0b3J5IjpbLTE1NTU4NzQyMzQsMTE4ODY3ODAzMiwtMT
+A0NDgzNDUwMiwtODQ5NjMzODEsLTEyMzU2NzM4NTUsLTEwNzYy
+NTUwNzgsNDEzMzM5NjcsLTY2NDc5MTAyNiwxMTE5ODc4NjAwLC
+0yMDc4NDg1OTczLDExMjMyMjc1NDVdfQ==
 -->
