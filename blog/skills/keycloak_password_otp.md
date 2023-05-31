@@ -28,7 +28,7 @@
 -  By default two factor authentication is disabled in a Keycloak realm
 - Two factor authentication can be enabled in the Authentication menu, Flows tab, browser flow as shown below  
 
-
+![keycloak_otp_enable.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_otp_enable.png?raw=true)
 
 ```bash
 # Database
@@ -65,7 +65,7 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MjYzMzQxNSwtMTA3NjI1NTA3OCw0MT
-MzMzk2NywtNjY0NzkxMDI2LDExMTk4Nzg2MDAsLTIwNzg0ODU5
-NzMsMTEyMzIyNzU0NV19
+eyJoaXN0b3J5IjpbLTEyMzU2NzM4NTUsLTEwNzYyNTUwNzgsND
+EzMzM5NjcsLTY2NDc5MTAyNiwxMTE5ODc4NjAwLC0yMDc4NDg1
+OTczLDExMjMyMjc1NDVdfQ==
 -->
