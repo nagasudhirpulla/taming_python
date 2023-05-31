@@ -24,9 +24,9 @@
 - A variety of useful settings like password expiry days, recent passwords usage, password blacklist, minimum and maximum password length, minimum number of uppercase, lowercase and special characters can be specified easily in the password policy page
 - Password blacklist file should be kept in the `data\password-blacklists\` folder of the keycloak folder. Also the password blacklist text file should have Unix style line endings (This needs to checked in windows)
 
-### Configure Keycloak to use the PostgreSQL database
--   After setting up the database, Keycloak needs to be configured to use the PostgreSQL database
--   The database configuration can be changed in the conf/keycloak.conf file. The following configuration can be used to configure PostgreSQL database
+### Enable and configure Two factor Authentication in Keycloak
+-  By default two factor authentication is disabled in a Keycloak realm
+- Two factor authentication can be enabled in the Authentication menu, Flows tab, browser f  
 
 ```bash
 # Database
@@ -63,7 +63,7 @@ You can see the video for this post [here](https://youtu.be/7404ir5oq4Q)
 -   Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzYyNTUwNzgsNDEzMzM5NjcsLTY2ND
-c5MTAyNiwxMTE5ODc4NjAwLC0yMDc4NDg1OTczLDExMjMyMjc1
-NDVdfQ==
+eyJoaXN0b3J5IjpbMTE3MjE0NDcyNSwtMTA3NjI1NTA3OCw0MT
+MzMzk2NywtNjY0NzkxMDI2LDExMTk4Nzg2MDAsLTIwNzg0ODU5
+NzMsMTEyMzIyNzU0NV19
 -->
