@@ -34,7 +34,7 @@
 ![keycloak_otp_policy.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_otp_policy.png?raw=true)
 
 ### Using Two factor authentication by the users
-* For Two factor authentication, users can use any one of the FreeOTP, Google Authenticator, Microsoft Authenticator apps
+* For Two factor authentication, users can use any one of the FreeOTP, Google Authenticator, Microsoft Authenticator apps. In this demo, we are using Microsoft Authenticator.
 * After logging in for the first time,  user will be shown a QR code to configure the Authenticator app as shown below. The one time code can be entered using the authenticator app by adding a new account in the authenticator app
 
 ![keycloak_otp_qr_code_setup.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_otp_qr_code_setup.png?raw=true)
@@ -47,8 +47,8 @@
 - Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 - Official docs for OTP policy -https://www.keycloak.org/docs/latest/server_admin/#one-time-password-otp-policies
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDIzNjE0OSwtMzYyOTE2NjIwLDExOD
-g2NzgwMzIsLTEwNDQ4MzQ1MDIsLTg0OTYzMzgxLC0xMjM1Njcz
-ODU1LC0xMDc2MjU1MDc4LDQxMzMzOTY3LC02NjQ3OTEwMjYsMT
-ExOTg3ODYwMCwtMjA3ODQ4NTk3MywxMTIzMjI3NTQ1XX0=
+eyJoaXN0b3J5IjpbLTE2MzMzNzc1NzYsLTM2MjkxNjYyMCwxMT
+g4Njc4MDMyLC0xMDQ0ODM0NTAyLC04NDk2MzM4MSwtMTIzNTY3
+Mzg1NSwtMTA3NjI1NTA3OCw0MTMzMzk2NywtNjY0NzkxMDI2LD
+ExMTk4Nzg2MDAsLTIwNzg0ODU5NzMsMTEyMzIyNzU0NV19
 -->
