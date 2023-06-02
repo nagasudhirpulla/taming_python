@@ -36,10 +36,12 @@
 ### Using Two factor authentication by the users
 * For Two factor authentication, users can use any one of the FreeOTP, Google Authenticator, Microsoft Authenticator apps. In this demo, we are using Microsoft Authenticator app.
 * Since our realm name is 'myorg', go to the URL http://localhost:8080/realms/myorg/account for login screen.
-* After logging in for the first time with password,  user will be shown a QR code to configure the Authenticator app as shown below. The one time code can be entered using the authenticator app by adding a new account in the Authenticator app
-* 
+* After logging in for the first time with password,  user will be shown a QR code to configure the Authenticator app as shown below
 
 ![keycloak_otp_qr_code_setup.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_otp_qr_code_setup.png?raw=true)
+* The one time code can be entered using the authenticator app by adding a new account in the Authenticator app as shown below
+
+![keycloak_microsoft_authenticator_steps.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_microsoft_authenticator_steps.png?raw=true)
 * After setting up the Two factor authentication using an Authenticator app (like Microsoft Authenticator), the user will be asked for an OTP after logging in as shown below
 
  ![keycloak_login_otp.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_login_otp.png?raw=true)
@@ -49,8 +51,8 @@
 - Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 - Official docs for OTP policy -https://www.keycloak.org/docs/latest/server_admin/#one-time-password-otp-policies
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDUyMTg3OCwtMzYyOTE2NjIwLDExOD
-g2NzgwMzIsLTEwNDQ4MzQ1MDIsLTg0OTYzMzgxLC0xMjM1Njcz
-ODU1LC0xMDc2MjU1MDc4LDQxMzMzOTY3LC02NjQ3OTEwMjYsMT
-ExOTg3ODYwMCwtMjA3ODQ4NTk3MywxMTIzMjI3NTQ1XX0=
+eyJoaXN0b3J5IjpbLTE1NTIyNzI5NzYsLTM2MjkxNjYyMCwxMT
+g4Njc4MDMyLC0xMDQ0ODM0NTAyLC04NDk2MzM4MSwtMTIzNTY3
+Mzg1NSwtMTA3NjI1NTA3OCw0MTMzMzk2NywtNjY0NzkxMDI2LD
+ExMTk4Nzg2MDAsLTIwNzg0ODU5NzMsMTEyMzIyNzU0NV19
 -->
