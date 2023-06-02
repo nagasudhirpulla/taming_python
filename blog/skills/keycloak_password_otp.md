@@ -44,15 +44,14 @@
 ![keycloak_microsoft_authenticator_steps.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_microsoft_authenticator_steps.png?raw=true)
 * After completing the Two factor authentication setup with an Authenticator app, the user will be asked for an OTP to login as shown below
 
- ![keycloak_login_otp.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_login_otp.png?raw=true)
-
+![keycloak_login_otp.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_login_otp.png?raw=true)
 
 ### References
 - Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 - Official docs for OTP policy -https://www.keycloak.org/docs/latest/server_admin/#one-time-password-otp-policies
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDE4Mjc4MywtMzYyOTE2NjIwLDExOD
-g2NzgwMzIsLTEwNDQ4MzQ1MDIsLTg0OTYzMzgxLC0xMjM1Njcz
-ODU1LC0xMDc2MjU1MDc4LDQxMzMzOTY3LC02NjQ3OTEwMjYsMT
-ExOTg3ODYwMCwtMjA3ODQ4NTk3MywxMTIzMjI3NTQ1XX0=
+eyJoaXN0b3J5IjpbODg0ODMxMjIxLC0zNjI5MTY2MjAsMTE4OD
+Y3ODAzMiwtMTA0NDgzNDUwMiwtODQ5NjMzODEsLTEyMzU2NzM4
+NTUsLTEwNzYyNTUwNzgsNDEzMzM5NjcsLTY2NDc5MTAyNiwxMT
+E5ODc4NjAwLC0yMDc4NDg1OTczLDExMjMyMjc1NDVdfQ==
 -->
