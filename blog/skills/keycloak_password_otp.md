@@ -21,7 +21,7 @@
 ### User Login screen settings
 * Forgot password, Remember me, Email verification, User registration can be enabled or disabled in the Reals Settings menu, Login tab as shown below
 
-![users_password_keycloak.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/users_password_keycloak.png?raw=true)
+![keycloak_login_screen_settings.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_login_screen_settings.png?raw=true)
 
 ### Set Password Policy
 - Password policy of a keycloak realm can be easily configured in the Authentication menu, Policies tab as shown below 
@@ -55,9 +55,9 @@
 - Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 - Official docs for OTP policy -https://www.keycloak.org/docs/latest/server_admin/#one-time-password-otp-policies
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjM3MzY2OSw4ODQ4MzEyMjEsLTM2Mj
-kxNjYyMCwxMTg4Njc4MDMyLC0xMDQ0ODM0NTAyLC04NDk2MzM4
-MSwtMTIzNTY3Mzg1NSwtMTA3NjI1NTA3OCw0MTMzMzk2NywtNj
-Y0NzkxMDI2LDExMTk4Nzg2MDAsLTIwNzg0ODU5NzMsMTEyMzIy
-NzU0NV19
+eyJoaXN0b3J5IjpbMzQyMTQ1MTI3LDg4NDgzMTIyMSwtMzYyOT
+E2NjIwLDExODg2NzgwMzIsLTEwNDQ4MzQ1MDIsLTg0OTYzMzgx
+LC0xMjM1NjczODU1LC0xMDc2MjU1MDc4LDQxMzMzOTY3LC02Nj
+Q3OTEwMjYsMTExOTg3ODYwMCwtMjA3ODQ4NTk3MywxMTIzMjI3
+NTQ1XX0=
 -->
