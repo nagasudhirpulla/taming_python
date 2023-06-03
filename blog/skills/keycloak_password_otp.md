@@ -22,7 +22,7 @@
 * Forgot password, Remember me, Email verification, User registration can be enabled or disabled in the Reals Settings menu, Login tab as shown below. 
 
 ![keycloak_login_screen_settings.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_login_screen_settings.png?raw=true)
-* But to send the emails from keycloak, the email server settings are to be configured in the Email tab of the realm settings as shown below
+* But to send the emails from keycloak, the email server settings are to be configured in the Email tab of the realm settings as shown below. In case of gmail, use app password instead of the original account password. A blog on how to use Gmail App passwords can be fount at https://nagasudhir.blogspot.com/2022/01/send-email-with-attachments-in-python.html
 
 ![keycloak_email_settings.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_email_settings.png?raw=true)
 ### Set Password Policy
@@ -57,7 +57,7 @@
 - Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 - Official docs for OTP policy -https://www.keycloak.org/docs/latest/server_admin/#one-time-password-otp-policies
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODAxMDU0NjgsLTE4OTg2MzU0OTgsOD
+eyJoaXN0b3J5IjpbLTEyNjE4MDg4NTAsLTE4OTg2MzU0OTgsOD
 g0ODMxMjIxLC0zNjI5MTY2MjAsMTE4ODY3ODAzMiwtMTA0NDgz
 NDUwMiwtODQ5NjMzODEsLTEyMzU2NzM4NTUsLTEwNzYyNTUwNz
 gsNDEzMzM5NjcsLTY2NDc5MTAyNiwxMTE5ODc4NjAwLC0yMDc4
