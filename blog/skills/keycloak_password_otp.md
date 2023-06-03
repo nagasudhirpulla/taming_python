@@ -1,4 +1,4 @@
-## Manage Users, Password policy and Two factor authentication in keycloak
+## Manage Users, Login Screen, Password policy and Two factor authentication in keycloak
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 <br>
@@ -57,9 +57,9 @@
 - Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 - Official docs for OTP policy -https://www.keycloak.org/docs/latest/server_admin/#one-time-password-otp-policies
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjE4MDg4NTAsLTE4OTg2MzU0OTgsOD
-g0ODMxMjIxLC0zNjI5MTY2MjAsMTE4ODY3ODAzMiwtMTA0NDgz
-NDUwMiwtODQ5NjMzODEsLTEyMzU2NzM4NTUsLTEwNzYyNTUwNz
-gsNDEzMzM5NjcsLTY2NDc5MTAyNiwxMTE5ODc4NjAwLC0yMDc4
-NDg1OTczLDExMjMyMjc1NDVdfQ==
+eyJoaXN0b3J5IjpbODI4MTc2NzkxLC0xMjYxODA4ODUwLC0xOD
+k4NjM1NDk4LDg4NDgzMTIyMSwtMzYyOTE2NjIwLDExODg2Nzgw
+MzIsLTEwNDQ4MzQ1MDIsLTg0OTYzMzgxLC0xMjM1NjczODU1LC
+0xMDc2MjU1MDc4LDQxMzMzOTY3LC02NjQ3OTEwMjYsMTExOTg3
+ODYwMCwtMjA3ODQ4NTk3MywxMTIzMjI3NTQ1XX0=
 -->
