@@ -18,6 +18,8 @@
 ![users_tab_in_keycloak](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/users_tab_in_keycloak.png?raw=true)
 - Password can be set in the "Credentials" tab of the user
 ![users_password_keycloak.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/users_password_keycloak.png?raw=true)
+### Forgot password, Remember me, Email verification, screen settings
+
 ### Set Password Policy
 - Password policy of a keycloak realm can be easily configured in the Authentication menu, Policies tab as shown below 
 ![password_policy_keycloak_setting.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/password_policy_keycloak_setting.png?raw=true)
@@ -50,8 +52,9 @@
 - Official docs for password policy - https://www.keycloak.org/docs/latest/server_admin/#_password-policies
 - Official docs for OTP policy -https://www.keycloak.org/docs/latest/server_admin/#one-time-password-otp-policies
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0ODMxMjIxLC0zNjI5MTY2MjAsMTE4OD
-Y3ODAzMiwtMTA0NDgzNDUwMiwtODQ5NjMzODEsLTEyMzU2NzM4
-NTUsLTEwNzYyNTUwNzgsNDEzMzM5NjcsLTY2NDc5MTAyNiwxMT
-E5ODc4NjAwLC0yMDc4NDg1OTczLDExMjMyMjc1NDVdfQ==
+eyJoaXN0b3J5IjpbMjA5ODU3NTk0Myw4ODQ4MzEyMjEsLTM2Mj
+kxNjYyMCwxMTg4Njc4MDMyLC0xMDQ0ODM0NTAyLC04NDk2MzM4
+MSwtMTIzNTY3Mzg1NSwtMTA3NjI1NTA3OCw0MTMzMzk2NywtNj
+Y0NzkxMDI2LDExMTk4Nzg2MDAsLTIwNzg0ODU5NzMsMTEyMzIy
+NzU0NV19
 -->
