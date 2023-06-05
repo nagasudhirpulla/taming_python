@@ -1,4 +1,3 @@
-
 ## Automate word to PDF conversion in python using LibreOffice
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
@@ -104,5 +103,5 @@ Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1ODA1MzUwXX0=
+eyJoaXN0b3J5IjpbMTM4Mjc5NjY5Ml19
 -->
