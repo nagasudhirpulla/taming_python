@@ -7,76 +7,106 @@
 -   LibreOffice provides a command line interface to to convert word files to PDF
 -   The conversion commands can be run in python scripts using the `subprocess` python module
 
-### Install docx2pdf python module
-* Open command prompt
-* Run the command ```python -m pip install docx2pdf```
-* Now docx2pdf should be installed in your python environment
+## Windows
 
-### Prerequisites
-docx2pdf requires Microsoft Word to be installed in the computer
+### Installation
 
-### Python example
+-   Install manually from the website [](https://www.libreoffice.org/download/download-libreoffice/)[https://www.libreoffice.org/download/download-libreoffice/](https://www.libreoffice.org/download/download-libreoffice/)
+
+### Conversion command
+
+```powershell
+"C:\\Program Files\\LibreOffice\\program\\swriter.exe" --headless --convert-to pdf --outdir "C:\\Users\\Abcd\\Documents\\liber_test\\out" "C:\\Users\\Abcd\\Documents\\liber_test\\in\\test1.docx"
+
+```
+
+## Ubuntu
+
+### Installation
+
+-   Install from command line using the following commands
+
+```bash
+# install packages
+sudo apt update
+
+# install java runtime if not present. 
+# Java installation can be verified using "java -version" command
+# libreoffice-java-common may be required if you get warning like "Warning: failed to launch javaldx - java may not function correctly"
+sudo apt install default-jre libreoffice-java-common
+
+# install libreoffice for word to pdf conversion purpose
+sudo apt install libreoffice --no-install-recommends
+```
+
+### Conversion command
+
+```bash
+libreoffice --headless --convert-to pdf "/home/james/in/test1.docx" --outdir "/home/james/out/"
+
+```
+
+## Python code in windows
+
 ```python
-import docx2pdf
-# convert "abcd.docx" file to pdf in the same folder
-docx2pdf.convert("abcd.docx")
+# LibreOffice command line - <https://help.libreoffice.org/latest/he/text/shared/guide/start_parameters.html>
 
-# convert "abcd.docx" file to pdf with custom name and folder location
-docx2pdf.convert("abcd.docx", "out/abc.pdf")
+import subprocess
 
-# convert all the docx files in a folder. 
-# Output files will also be in the same folder
-docx2pdf.convert("inp/")
+documentPath = r"C:\\Users\\Nagasudhir\\Documents\\Python Projects\\taming_python\\liber_pdf_convert\\in\\test1.docx"
+outFolder = r"C:\\Users\\Nagasudhir\\Documents\\Python Projects\\taming_python\\liber_pdf_convert\\out"
 
-# convert all the docx files in a folder and keep the pdfs in another folder
-docx2pdf.convert("inp/", "out/")
+# if running in Ubuntu, libreOfficePath = "libreoffice"
+libreOfficePath = r"C:\\Program Files\\LibreOffice\\program\\swriter.exe"
+
+commandStrings = [libreOfficePath, "--headless", "--convert-to", "pdf", "--outdir", outFolder, documentPath]
+# print(" ".join(commandStrings))
+
+retCode = subprocess.call(commandStrings)
+# print(retCode)
+
+if retCode == 0:
+    print("PDF conversion completed!")
+else:
+    print(f"Looks like there is an error in pdf conversion process with return code {retCode}")
+
+
 ```
 
-### Command line interface
-* Convert a single word file to pdf
-```batch
-docx2pdf file1.docx
-```
-The above command converts file1.docx to file1.pdf 
-* convert all word files in a folder to pdf files
-```batch
-docx2pdf folder1/
-```
-The above command converts all the word files in folder1 to pdf files
-* Convert single docx file and output to a different explicit folder:
-```batch
-docx2pdf inputFile.docx outputFolder/
-```
-* Batch convert docx folder. Output PDFs will go to a different explicit folder:
-```batch
-docx2pdf inpFoldr/ outDir/
-```
+-   The output PDF file name cannot be controlled. So if required, the output file can be renamed as per requirement separately.
+-   The output folder and the input file paths can also be relative paths like `.\\out` and `.\\in\\test1.docx`
+-   use `soffice.com` instead of `swriter.exe` if you want to display the LibreOffice output in command line
 
-### Issues while packaging the code to exe with pyinstaller
-* After packaging the code with pyinstaller you can get errors like ```
-importlib.metadata.PackageNotFoundError: docx2pdf```. To resolve this issue, create a virtual environment, and goto the ```Lib\site-packages\docx2pdf\__init__.py``` file and remove the following lines in line 7 to 13 
+### Python code in Ubuntu
+
 ```python
-try:
-     # 3.8+
-     from importlib.metadata import version
-except ImportError:
-     from importlib_metadata import version
+# LibreOffice command line - <https://help.libreoffice.org/latest/he/text/shared/guide/start_parameters.html>
 
-__version__ = version(__package__)
+import subprocess
+
+documentPath = "/home/james/libre_test/in/test1.docx"
+outFolder = "/home/james/libre_test/out"
+
+# if running in Ubuntu, libreOfficePath = "libreoffice"
+libreOfficePath = "libreoffice"
+
+commandStrings = [libreOfficePath, "--headless", "--convert-to", "pdf", "--outdir", f"{outFolder}", f"{documentPath}"]
+# print(" ".join(commandStrings))
+
+retCode = subprocess.call(commandStrings)
+# print(retCode)
+
+if retCode == 0:
+    print("PDF conversion completed!")
+else:
+    print(f"Looks like there is an error in pdf conversion process with return code {retCode}")
+
 ```
-and remove line 119
-```python
-        print(__version__)
-```
-Now again convert your script to exe file in your virtual environment, then the issue of package not found error should be resolved. 
-* After you fixed the package not found error, you might get errors like ```ImportError with cx_freeze and pywin32: Module 'pythoncom' isn't in frozen sys.path```
-Then this might be due to the packages incompatibility, in such case use the following versions of pyinstaller, pywin32 and docx2pdf in your python environment
-```
-pyinstaller==4.3
-pywin32==302
-docx2pdf==0.1.7
-```
-After installing the above package versions in your python environment, again convert your script to exe file using pyinstaller, then the Import error should be resolved 
+
+-   The output folder and the input file paths can also be relative paths like `./out` and `./in/test1.docx`
+
+
+ 
 ### Video
 Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
 
@@ -94,5 +124,5 @@ Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3OTcwMjYxLDEzODI3OTY2OTJdfQ==
+eyJoaXN0b3J5IjpbLTEzNTAwMjA3NywxMzgyNzk2NjkyXX0=
 -->
