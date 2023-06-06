@@ -49,7 +49,7 @@ libreoffice --headless --convert-to pdf "/home/james/in/test1.docx" --outdir "/h
 ## Python code in windows
 
 ```python
-# LibreOffice command line - <https://help.libreoffice.org/latest/he/text/shared/guide/start_parameters.html>
+# LibreOffice command line - https://help.libreoffice.org/latest/he/text/shared/guide/start_parameters.html
 
 import subprocess
 
@@ -124,5 +124,5 @@ Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTAwMjA3NywxMzgyNzk2NjkyXX0=
+eyJoaXN0b3J5IjpbNTgwNzk4NjQ1LDEzODI3OTY2OTJdfQ==
 -->
