@@ -5,7 +5,7 @@
 <hr/>
 
 -   LibreOffice provides a command line interface to to convert word files to PDF
--   The conversion commands can be run in python scripts using the subprocess python module
+-   The conversion commands can be run in python scripts using the `subprocess` python module
 
 ### Install docx2pdf python module
 * Open command prompt
@@ -94,5 +94,5 @@ Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjkzNjAwNDEsMTM4Mjc5NjY5Ml19
+eyJoaXN0b3J5IjpbNjA3OTcwMjYxLDEzODI3OTY2OTJdfQ==
 -->
