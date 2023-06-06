@@ -70,7 +70,6 @@ if retCode == 0:
 else:
     print(f"Looks like there is an error in pdf conversion process with return code {retCode}")
 
-
 ```
 
 -   The output PDF file name cannot be controlled. So if required, the output file can be renamed as per requirement separately.
@@ -105,16 +104,8 @@ else:
 
 -   The output folder and the input file paths can also be relative paths like `./out` and `./in/test1.docx`
 
-
- 
-### Video
-Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RxBDJZhQ_D4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### References
-* Official documentation - https://github.com/AlJohri/docx2pdf
-* Fix for docx2pdf pyinstaller issue - https://stackoverflow.com/a/67393186/2746323
+* LibreOffice command line documentation - https://help.libreoffice.org/latest/he/text/shared/guide/start_parameters.html
 
 <hr/>
 
@@ -124,5 +115,5 @@ Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTMzMjkwMjMsMTM4Mjc5NjY5Ml19
+eyJoaXN0b3J5IjpbMTYxMjc4NjQyNywxMzgyNzk2NjkyXX0=
 -->
