@@ -53,8 +53,8 @@ libreoffice --headless --convert-to pdf "/home/james/in/test1.docx" --outdir "/h
 
 import subprocess
 
-documentPath = r"C:\\Users\\Nagasudhir\\Documents\\Python Projects\\taming_python\\liber_pdf_convert\\in\\test1.docx"
-outFolder = r"C:\\Users\\Nagasudhir\\Documents\\Python Projects\\taming_python\\liber_pdf_convert\\out"
+documentPath = r"C:\\Users\\Abcd\\Documents\\Python Projects\\taming_python\\liber_pdf_convert\\in\\test1.docx"
+outFolder = r"C:\\Users\\Abcd\\Documents\\Python Projects\\taming_python\\liber_pdf_convert\\out"
 
 # if running in Ubuntu, libreOfficePath = "libreoffice"
 libreOfficePath = r"C:\\Program Files\\LibreOffice\\program\\swriter.exe"
@@ -124,5 +124,5 @@ Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwNzk4NjQ1LDEzODI3OTY2OTJdfQ==
+eyJoaXN0b3J5IjpbLTIwNTMzMjkwMjMsMTM4Mjc5NjY5Ml19
 -->
