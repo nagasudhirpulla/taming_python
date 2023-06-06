@@ -2,19 +2,10 @@
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
-#### Skills Required
-* [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
-* [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
-* [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
-* [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
-
-Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
-
 <hr/>
 
-* **docx2pdf** is a python library for converting word file to pdf file
-* This helps in automating word files to pdf files in bulk and without manual intervention 
-* docx2pdf can be used as a command line tool and also in python program
+-   LibreOffice provides a command line interface to to convert word files to PDF
+-   The conversion commands can be run in python scripts using the subprocess python module
 
 ### Install docx2pdf python module
 * Open command prompt
@@ -103,5 +94,5 @@ Video for this post can be found [here](https://youtu.be/RxBDJZhQ_D4)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Mjc5NjY5Ml19
+eyJoaXN0b3J5IjpbLTE0MjkzNjAwNDEsMTM4Mjc5NjY5Ml19
 -->
