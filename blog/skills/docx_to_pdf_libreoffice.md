@@ -104,6 +104,11 @@ else:
 
 -   The output folder and the input file paths can also be relative paths like `./out` and `./in/test1.docx`
 
+### Video
+Video for this post can be found [here](https://youtu.be/R0YTftx047g)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R0YTftx047g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### References
 * LibreOffice command line documentation - https://help.libreoffice.org/latest/he/text/shared/guide/start_parameters.html
 
@@ -115,5 +120,6 @@ else:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjc4NjQyNywxMzgyNzk2NjkyXX0=
+eyJoaXN0b3J5IjpbNjE4MzQzMjMsMTYxMjc4NjQyNywxMzgyNz
+k2NjkyXX0=
 -->
