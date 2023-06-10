@@ -110,6 +110,7 @@ Here are the goals and skills in this tutorial series
 * [Conditional statements, nested for loops and loop.index0 in docxtpl automated reports](https://nagasudhir.blogspot.com/2022/01/conditional-statements-nested-for-loops.html)
 * [Send email with attachments in python without compromising on gmail two factor authentication](https://nagasudhir.blogspot.com/2022/01/send-email-with-attachments-in-python.html)
 * [Requests module in python](https://nagasudhir.blogspot.com/2023/03/requests-module-in-python.html)
+* [##Automate word to PDF conversion in python using LibreOffice](https://nagasudhir.blogspot.com/2023/06/automate-word-to-pdf-conversion-in.html)
 
 #### Interactive Maps with folium
 * [Introduction to Folium for interactive maps](https://nagasudhir.blogspot.com/2021/07/introduction-to-folium-for-interactive.html)
@@ -174,11 +175,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMTYzMTMwODQwMyw1MDU1Nz
-Q1NTAsLTIxNTE2MTAyNSwtMTU3NDIwOTc4OSwtMTU1MDc0NzYy
-NywtNTc2MzU4NzY2LDE5Njg1MDI3NiwyMjc4Mjg4NiwyMTM4ND
-g3ODYsLTI5NTUwMTkzNiwtMjIyMTIzMDM1LC0xMDgwNTM2NTU3
-LDExMzk1MjEwLC0zMzM3ODE5NjEsMTc1MTcxMzkzMSw2NTMwMj
-k4NTgsOTY5NjA4ODY0LC0xNTI2MjYwNDY0LC05NTEzMDIxMDEs
-MjEzNzU1MDg5M119
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE1ODEyODI4NTgsMTYzMT
+MwODQwMyw1MDU1NzQ1NTAsLTIxNTE2MTAyNSwtMTU3NDIwOTc4
+OSwtMTU1MDc0NzYyNywtNTc2MzU4NzY2LDE5Njg1MDI3NiwyMj
+c4Mjg4NiwyMTM4NDg3ODYsLTI5NTUwMTkzNiwtMjIyMTIzMDM1
+LC0xMDgwNTM2NTU3LDExMzk1MjEwLC0zMzM3ODE5NjEsMTc1MT
+cxMzkzMSw2NTMwMjk4NTgsOTY5NjA4ODY0LC0xNTI2MjYwNDY0
+LC05NTEzMDIxMDFdfQ==
 -->
