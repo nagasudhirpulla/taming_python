@@ -2,6 +2,12 @@
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
+## What is Apache web server
+
+-   It is an opensource HTTP web server that can deliver web content
+-   It is one of the most used web servers
+-   It is known for its security, modularity and reliability
+
 ## Why use Apache web server
 
 Some of the use cases for using Apache web server is
@@ -291,5 +297,5 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjgxNzg4NzBdfQ==
+eyJoaXN0b3J5IjpbMjcwMjUxODBdfQ==
 -->
