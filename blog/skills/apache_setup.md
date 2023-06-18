@@ -229,7 +229,8 @@ SSLSessionCacheTimeout  300
 
 ## Configure HTTPS redirection
 * HTTPS redirection is redirecting the traffic on HTTP to HTTPS
-* To acheive HTTPS redirection, 
+* To acheive HTTPS redirection, a virtual host over HTTP and HTTPS
+* The virtual host for HTTP (port 80) will just redirect all the requests to HTTPS virtual host  
 
 ```bash
 <VirtualHost *:80> 
@@ -313,5 +314,5 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTg3MjY4MiwyNzAyNTE4MF19
+eyJoaXN0b3J5IjpbLTE2MjY2NTI0MiwyNzAyNTE4MF19
 -->
