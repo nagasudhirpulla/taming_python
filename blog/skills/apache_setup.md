@@ -42,7 +42,7 @@ httpd.exe -t
 -   Now a web page should be displayed in the browser at [http://locahost](http://locahost)
 -   The static content is served from htdocs folder
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a8438548-059b-46f7-ae8b-dbf497d7bb77/Untitled.png)
+![apache_default_page.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/apache_default_page.png?raw=true)
 
 ## Configure server with httpd.conf file
 
@@ -317,6 +317,6 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njk4NzI1NDksLTE0NDI3NjExMTEsMj
-cwMjUxODBdfQ==
+eyJoaXN0b3J5IjpbMjE0NTE5Njc3MSwtMTc2OTg3MjU0OSwtMT
+Q0Mjc2MTExMSwyNzAyNTE4MF19
 -->
