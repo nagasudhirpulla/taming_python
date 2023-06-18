@@ -231,7 +231,7 @@ SSLSessionCacheTimeout  300
 * HTTPS redirection is redirecting the traffic on HTTP to HTTPS
 * To acheive HTTPS redirection, a virtual host over HTTP and HTTPS
 * All the configuration of the website will be present in the HTTPS (port 443) virtual host
-* The virtual host for HTTP (port 80) will just redirect all the requests to HTTPS virtual host using the `Redirect permanent` directive  
+* The virtual host for HTTP (port 80) will just redirect all the requests to HTTPS virtual host using the `Redirect permanent` directive  as shown below
 
 ```bash
 <VirtualHost *:80> 
@@ -244,6 +244,8 @@ SSLSessionCacheTimeout  300
   # SSL and other apache configurations
 </VirtualHost>
 ```
+
+* HTTPS redirection can be achieved using other approaches using `mod_rewrite`
 
 ## Configure reverse proxy
 
@@ -315,5 +317,5 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDAwMDM5NiwyNzAyNTE4MF19
+eyJoaXN0b3J5IjpbMTQzNzI5MjQxNCwyNzAyNTE4MF19
 -->
