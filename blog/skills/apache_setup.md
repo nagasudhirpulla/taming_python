@@ -245,7 +245,7 @@ SSLSessionCacheTimeout  300
 </VirtualHost>
 ```
 
-* HTTPS redirection can be achieved using other approaches using `mod_rewrite`
+* HTTPS redirection can be achieved using other approaches using `mod_rewrite` module, but the above approach is simple and fits almost all use cases
 
 ## Configure reverse proxy
 
@@ -317,5 +317,5 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzI5MjQxNCwyNzAyNTE4MF19
+eyJoaXN0b3J5IjpbLTE0NDI3NjExMTEsMjcwMjUxODBdfQ==
 -->
