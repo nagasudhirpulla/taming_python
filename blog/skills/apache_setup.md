@@ -233,21 +233,12 @@ SSLSessionCacheTimeout  300
 ```apache
 <VirtualHost *:80> 
   ServerName example.com
-  ServerAlias www.example.com
-
   Redirect permanent / https://example.com/
 </VirtualHost>
 
 <VirtualHost *:443>
   ServerName example.com
-  ServerAlias www.example.com
-
-  Protocols h2 http/1.1
-
-  # SSL Configuration
-
-  # Other Apache Configuration
-
+  # SSL and other apache configurations
 </VirtualHost>
 
 ```
@@ -323,5 +314,5 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2ODY4MjgwLDI3MDI1MTgwXX0=
+eyJoaXN0b3J5IjpbMjMyMDM0MzI5LDI3MDI1MTgwXX0=
 -->
