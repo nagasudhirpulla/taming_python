@@ -228,9 +228,10 @@ SSLSessionCacheTimeout  300
     -   In the virtual host section we have configured the log files location, SSL certificates and directory hosting location, enabled directory listing of the folder.
 
 ## Configure HTTPS redirection
-* 
+* HTTPS redirection is redirecting the traffic on HTTP to HTTPS
+* To acheive HTTPS redirection, 
+
 ```bash
-```apache
 <VirtualHost *:80> 
   ServerName example.com
   Redirect permanent / https://example.com/
@@ -240,8 +241,6 @@ SSLSessionCacheTimeout  300
   ServerName example.com
   # SSL and other apache configurations
 </VirtualHost>
-
-```
 ```
 
 ## Configure reverse proxy
@@ -314,5 +313,5 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyMDM0MzI5LDI3MDI1MTgwXX0=
+eyJoaXN0b3J5IjpbLTczNTg3MjY4MiwyNzAyNTE4MF19
 -->
