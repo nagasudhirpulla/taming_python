@@ -227,6 +227,9 @@ SSLSessionCacheTimeout  300
     -   In this example, we are serving a folder “C:\Users\James\Pictures”. But the folder access needs to be explicitly given to the Apache server. We have granted permission to access the folder using the “<Directory "C:\Users\James\Pictures">” section.
     -   In the virtual host section we have configured the log files location, SSL certificates and directory hosting location, enabled directory listing of the folder.
 
+## Configure HTTPS redirection
+* 
+
 ## Configure reverse proxy
 
 ### Modules to be enabled
@@ -297,5 +300,5 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwMjUxODBdfQ==
+eyJoaXN0b3J5IjpbNTI5OTk3NTg3LDI3MDI1MTgwXX0=
 -->
