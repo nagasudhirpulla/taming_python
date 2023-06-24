@@ -142,7 +142,33 @@ DocumentRoot "${SRVROOT}/htdocs"
 -   The second virtual host serves the folder “/docs/dummy2”
 -   Different ports can also be linked to multiple virtual hosts based on the requirement
 
-- Below is an exmpl
+- Below is an example of two virtual hosts listening on two different ports at localhost
+
+```bash
+<Directory "${SRVROOT}/docs/dummy1">
+    Require all granted
+</Directory>
+Listen 81
+<VirtualHost *:81>
+    ServerAdmin webmaster@dummy-host.example.com
+    DocumentRoot "${SRVROOT}/docs/dummy1"
+    ServerName localhost
+    Options Indexes
+    ErrorLog "logs/dummy-host.example.com-error.log"
+</VirtualHost>
+
+Listen 82
+<VirtualHost *:82>
+    ServerAdmin webmaster@dummy-host2.example.com
+    DocumentRoot "${SRVROOT}/docs/dummy2"
+    ServerName localhost
+    ErrorLog "logs/dummy-host2.example.com-error.log"
+    Options Indexes
+    <Directory "${SRVROOT}/docs/dummy2">
+        Require all granted
+    </Directory>
+</VirtualHost>
+```
 
 ## Enable modules in Apache server using httpd.conf file
 
@@ -327,7 +353,7 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTE0NjM4OTgsLTMyNjYzNDY4OSwyMT
-Q1MTk2NzcxLC0xNzY5ODcyNTQ5LC0xNDQyNzYxMTExLDI3MDI1
-MTgwXX0=
+eyJoaXN0b3J5IjpbLTUyMzg0NTIsLTMyNjYzNDY4OSwyMTQ1MT
+k2NzcxLC0xNzY5ODcyNTQ5LC0xNDQyNzYxMTExLDI3MDI1MTgw
+XX0=
 -->
