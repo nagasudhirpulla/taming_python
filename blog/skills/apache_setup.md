@@ -142,7 +142,7 @@ DocumentRoot "${SRVROOT}/htdocs"
 -   The second virtual host serves the folder “/docs/dummy2”
 -   Different ports can also be linked to multiple virtual hosts based on the requirement
 
-- Below is an example of two virtual hosts listening on two different ports at localhost
+- Below is an example configuration of two virtual hosts listening on two different ports at localhost
 
 ```bash
 <Directory "${SRVROOT}/docs/dummy1">
@@ -353,7 +353,7 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzg0NTIsLTMyNjYzNDY4OSwyMTQ1MT
-k2NzcxLC0xNzY5ODcyNTQ5LC0xNDQyNzYxMTExLDI3MDI1MTgw
-XX0=
+eyJoaXN0b3J5IjpbMTgwMDMzMjAyMiwtNTIzODQ1MiwtMzI2Nj
+M0Njg5LDIxNDUxOTY3NzEsLTE3Njk4NzI1NDksLTE0NDI3NjEx
+MTEsMjcwMjUxODBdfQ==
 -->
