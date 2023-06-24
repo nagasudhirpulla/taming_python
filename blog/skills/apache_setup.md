@@ -111,7 +111,7 @@ DocumentRoot "${SRVROOT}/htdocs"
 -   Virtual hosts are a way to run multiple servers each with different server name or listening port in a single Apache server
 -   For example, the below configuration can host two directories each listening for different hostnames on port 80
 
-```xml
+```bash
 <Directory "${SRVROOT}/docs/dummy1">
     Require all granted
 </Directory>
@@ -325,6 +325,6 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODM2OTM2NiwyMTQ1MTk2NzcxLC0xNz
+eyJoaXN0b3J5IjpbLTMyNjYzNDY4OSwyMTQ1MTk2NzcxLC0xNz
 Y5ODcyNTQ5LC0xNDQyNzYxMTExLDI3MDI1MTgwXX0=
 -->
