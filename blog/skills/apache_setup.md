@@ -112,11 +112,15 @@ DocumentRoot "${SRVROOT}/htdocs"
 -   For example, the below configuration can host two directories each listening for different hostnames on port 80
 
 ```xml
+<Directory "${SRVROOT}/docs/dummy1">
+    Require all granted
+</Directory>
 <VirtualHost *:80>
     ServerAdmin webmaster@dummy-host.example.com
     DocumentRoot "${SRVROOT}/docs/dummy1"
     ServerName dummy-host.example.com
     ServerAlias www.dummy-host.example.com
+    Options Indexes
     ErrorLog "logs/dummy-host.example.com-error.log"
 </VirtualHost>
 
@@ -125,6 +129,10 @@ DocumentRoot "${SRVROOT}/htdocs"
     DocumentRoot "${SRVROOT}/docs/dummy2"
     ServerName dummy-host2.example.com
     ErrorLog "logs/dummy-host2.example.com-error.log"
+    Options Indexes
+    <Directory "${SRVROOT}/docs/dummy2">
+        Require all granted
+    </Directory>
 </VirtualHost>
 
 ```
@@ -317,6 +325,6 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTE5Njc3MSwtMTc2OTg3MjU0OSwtMT
-Q0Mjc2MTExMSwyNzAyNTE4MF19
+eyJoaXN0b3J5IjpbMTg0ODM2OTM2NiwyMTQ1MTk2NzcxLC0xNz
+Y5ODcyNTQ5LC0xNDQyNzYxMTExLDI3MDI1MTgwXX0=
 -->
