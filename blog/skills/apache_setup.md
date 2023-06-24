@@ -142,6 +142,8 @@ DocumentRoot "${SRVROOT}/htdocs"
 -   The second virtual host serves the folder “/docs/dummy2”
 -   Different ports can also be linked to multiple virtual hosts based on the requirement
 
+- Below is an exmpl
+
 ## Enable modules in Apache server using httpd.conf file
 
 -   Just un-comment the relevant line in httpd.conf file to enable modules in Apache server. Remove “#” at the start of the line to un-comment it.
@@ -325,6 +327,7 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjYzNDY4OSwyMTQ1MTk2NzcxLC0xNz
-Y5ODcyNTQ5LC0xNDQyNzYxMTExLDI3MDI1MTgwXX0=
+eyJoaXN0b3J5IjpbLTEwNTE0NjM4OTgsLTMyNjYzNDY4OSwyMT
+Q1MTk2NzcxLC0xNzY5ODcyNTQ5LC0xNDQyNzYxMTExLDI3MDI1
+MTgwXX0=
 -->
