@@ -170,6 +170,8 @@ Listen 82
 </VirtualHost>
 ```
 
+- Notice that `Listen 81` and `Listen 82` are written explicitly so that apache  
+
 ## Enable modules in Apache server using httpd.conf file
 
 -   Just un-comment the relevant line in httpd.conf file to enable modules in Apache server. Remove “#” at the start of the line to un-comment it.
@@ -353,7 +355,7 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTQ2MTkyMDUsLTUyMzg0NTIsLTMyNj
-YzNDY4OSwyMTQ1MTk2NzcxLC0xNzY5ODcyNTQ5LC0xNDQyNzYx
-MTExLDI3MDI1MTgwXX0=
+eyJoaXN0b3J5IjpbLTEyMDQ5MTUwNTgsLTE2NTQ2MTkyMDUsLT
+UyMzg0NTIsLTMyNjYzNDY4OSwyMTQ1MTk2NzcxLC0xNzY5ODcy
+NTQ5LC0xNDQyNzYxMTExLDI3MDI1MTgwXX0=
 -->
