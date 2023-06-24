@@ -170,7 +170,7 @@ Listen 82
 </VirtualHost>
 ```
 
-- Notice that `Listen 81` and `Listen 82` are written explicitly so that apache  
+- Notice that `Listen 81` and `Listen 82` are written explicitly so that Apache server listens on ports 81 and 82.  
 
 ## Enable modules in Apache server using httpd.conf file
 
@@ -355,7 +355,7 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQ5MTUwNTgsLTE2NTQ2MTkyMDUsLT
+eyJoaXN0b3J5IjpbLTE1MDAzMTk5OTQsLTE2NTQ2MTkyMDUsLT
 UyMzg0NTIsLTMyNjYzNDY4OSwyMTQ1MTk2NzcxLC0xNzY5ODcy
 NTQ5LC0xNDQyNzYxMTExLDI3MDI1MTgwXX0=
 -->
