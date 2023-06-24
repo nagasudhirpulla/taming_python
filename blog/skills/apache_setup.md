@@ -154,7 +154,7 @@ Listen 81
     DocumentRoot "${SRVROOT}/docs/dummy1"
     ServerName localhost
     Options Indexes
-    ErrorLog "logs/dummy-host.example.com-error.log"
+    ErrorLog "logs/dummy-host1-error.log"
 </VirtualHost>
 
 Listen 82
@@ -162,7 +162,7 @@ Listen 82
     ServerAdmin webmaster@dummy-host2.example.com
     DocumentRoot "${SRVROOT}/docs/dummy2"
     ServerName localhost
-    ErrorLog "logs/dummy-host2.example.com-error.log"
+    ErrorLog "logs/dummy-host2-error.log"
     Options Indexes
     <Directory "${SRVROOT}/docs/dummy2">
         Require all granted
@@ -353,7 +353,7 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDMzMjAyMiwtNTIzODQ1MiwtMzI2Nj
-M0Njg5LDIxNDUxOTY3NzEsLTE3Njk4NzI1NDksLTE0NDI3NjEx
-MTEsMjcwMjUxODBdfQ==
+eyJoaXN0b3J5IjpbLTE2NTQ2MTkyMDUsLTUyMzg0NTIsLTMyNj
+YzNDY4OSwyMTQ1MTk2NzcxLC0xNzY5ODcyNTQ5LC0xNDQyNzYx
+MTExLDI3MDI1MTgwXX0=
 -->
