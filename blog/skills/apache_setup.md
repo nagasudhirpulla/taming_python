@@ -346,6 +346,12 @@ SSLSessionCacheTimeout  300
 -   **SSLProxyCheckPeerCN on** means Apache will check if request URL hostname and server certificate CN (common name) are the same. If both are not same, 502 (bad gateway) response will be given
 -   **SSLProxyCheckPeerExpire on** means Apache will check if the server certificate is expired. If expired, 502 (Bad gateway) response will be given
 
+### Video
+The video for this post can be seen [here](https://youtu.be/INATnpdcuZY)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/INATnpdcuZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 ## References
 
 -   Tutorial to setup reverse proxy in Apache config - [](http://www.apachetutor.org/admin/reverseproxies)[http://www.apachetutor.org/admin/reverseproxies](http://www.apachetutor.org/admin/reverseproxies)
@@ -355,7 +361,8 @@ SSLSessionCacheTimeout  300
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDAzMTk5OTQsLTE2NTQ2MTkyMDUsLT
-UyMzg0NTIsLTMyNjYzNDY4OSwyMTQ1MTk2NzcxLC0xNzY5ODcy
-NTQ5LC0xNDQyNzYxMTExLDI3MDI1MTgwXX0=
+eyJoaXN0b3J5IjpbMjA0NzExMzYwOCwtMTUwMDMxOTk5NCwtMT
+Y1NDYxOTIwNSwtNTIzODQ1MiwtMzI2NjM0Njg5LDIxNDUxOTY3
+NzEsLTE3Njk4NzI1NDksLTE0NDI3NjExMTEsMjcwMjUxODBdfQ
+==
 -->
