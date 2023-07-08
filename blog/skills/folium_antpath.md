@@ -34,7 +34,7 @@ mapObj.save('output.html')
 ```
 
 -   As shown in the above code, using “Antpath” class, antpath objects can be created and added to map object
--   Some of the parameters are
+-   Some of the parameters of the antpath line are
     -   delay - configures speed to animation, smaller value will increase speed
     -   color - color of the line
     -   pulse_color - color of the moving ants on the line
@@ -49,6 +49,6 @@ mapObj.save('output.html')
 -   Antpath github page - [https://github.com/rubenspgcavalcante/leaflet-ant-path](https://github.com/rubenspgcavalcante/leaflet-ant-path)
 -   Antpath interactive configuration options page - [https://rubenspgcavalcante.github.io/leaflet-ant-path/](https://rubenspgcavalcante.github.io/leaflet-ant-path/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTY4NTI4MDIsLTIwODg3NDY2MTJdfQ
+eyJoaXN0b3J5IjpbLTE3NDYxOTE5MDYsLTIwODg3NDY2MTJdfQ
 ==
 -->
