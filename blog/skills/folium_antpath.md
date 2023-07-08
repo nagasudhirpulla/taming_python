@@ -10,14 +10,13 @@
 In this post we will learn how to draw animated lines with moving ants animation effect in python folium maps using **antpath** plugin of folium python module
 
 
-
 ```python
 import folium
 from folium.plugins import AntPath
 
 # create a map object
 mapObj = folium.Map(location=[18.906286495910905, 79.40917968750001],
-                    zoom_start=6)
+                    zoom_start=5)
 
 # latitude longitude coordinates of the lines
 pathLatLngs = [(19.082502,72.7163773), (12.9541467,77.3191065), (23.199546,77.3234906), (19.0860154,82.0145882), (22.5355649,88.2649519)]
@@ -43,12 +42,14 @@ mapObj.save('output.html')
     -   dash_array - the first number determines the length of each ant and the second number determines the distance between 2 ants
 -   The configuration options can be interactively previewed at [https://rubenspgcavalcante.github.io/leaflet-ant-path/](https://rubenspgcavalcante.github.io/leaflet-ant-path/)
 
+![folium_antpath_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/folium_antpath_demo.png?raw=true)
+
 ## References
 
 -   folium antpath plugin docs - [https://python-visualization.github.io/folium/plugins.html#folium.plugins.AntPath](https://python-visualization.github.io/folium/plugins.html#folium.plugins.AntPath)
 -   Antpath github page - [https://github.com/rubenspgcavalcante/leaflet-ant-path](https://github.com/rubenspgcavalcante/leaflet-ant-path)
 -   Antpath interactive configuration options page - [https://rubenspgcavalcante.github.io/leaflet-ant-path/](https://rubenspgcavalcante.github.io/leaflet-ant-path/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDYxOTE5MDYsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTEyNzI5Mjc2ODksLTE3NDYxOTE5MDYsLT
+IwODg3NDY2MTJdfQ==
 -->
