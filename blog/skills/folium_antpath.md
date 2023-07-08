@@ -7,7 +7,7 @@
 
 <hr/>
 
-In this post we will learn how to draw animated lines in python folium maps using **antpath**
+In this post we will learn how to draw animated lines in python folium maps using **antpath** plugin of folium python module
 
 ## Challenge
 * Plot the capacities of power plants provided in an excel file on a geographical bubble map
@@ -125,5 +125,5 @@ The video for this post can be seen [here](https://youtu.be/lHuHrm8awbw)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzNjUyOTIxLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTY4NzIxMjgxMywtMjA4ODc0NjYxMl19
 -->
