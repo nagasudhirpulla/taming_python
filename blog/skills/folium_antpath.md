@@ -42,7 +42,7 @@ mapObj.save('output.html')
     -   dash_array - the first number determines the length of each ant and the second number determines the distance between 2 ants
 -   The configuration options can be interactively previewed at [https://rubenspgcavalcante.github.io/leaflet-ant-path/](https://rubenspgcavalcante.github.io/leaflet-ant-path/)
 
-![folium_antpath_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/folium_antpath_demo.png?raw=true)
+![folium_antpath_demo.gif](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/folium_antpath_demo.gif?raw=true)
 
 ## References
 
@@ -50,6 +50,6 @@ mapObj.save('output.html')
 -   Antpath github page - [https://github.com/rubenspgcavalcante/leaflet-ant-path](https://github.com/rubenspgcavalcante/leaflet-ant-path)
 -   Antpath interactive configuration options page - [https://rubenspgcavalcante.github.io/leaflet-ant-path/](https://rubenspgcavalcante.github.io/leaflet-ant-path/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzI5Mjc2ODksLTE3NDYxOTE5MDYsLT
-IwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNTgwMDY1ODE1LC0xMjcyOTI3Njg5LC0xNz
+Q2MTkxOTA2LC0yMDg4NzQ2NjEyXX0=
 -->
