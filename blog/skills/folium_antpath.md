@@ -44,12 +44,18 @@ mapObj.save('output.html')
 
 ![folium_antpath_demo.gif](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/folium_antpath_demo.gif?raw=true)
 
+### Video
+The video for this post can be seen [here](https://youtu.be/pDRN3ORUi0o)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pDRN3ORUi0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 ## References
 
 -   folium antpath plugin docs - [https://python-visualization.github.io/folium/plugins.html#folium.plugins.AntPath](https://python-visualization.github.io/folium/plugins.html#folium.plugins.AntPath)
 -   Antpath github page - [https://github.com/rubenspgcavalcante/leaflet-ant-path](https://github.com/rubenspgcavalcante/leaflet-ant-path)
 -   Antpath interactive configuration options page - [https://rubenspgcavalcante.github.io/leaflet-ant-path/](https://rubenspgcavalcante.github.io/leaflet-ant-path/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgwMDY1ODE1LC0xMjcyOTI3Njg5LC0xNz
-Q2MTkxOTA2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTM5ODUzMDU4MSw1ODAwNjU4MTUsLTEyNz
+I5Mjc2ODksLTE3NDYxOTE5MDYsLTIwODg3NDY2MTJdfQ==
 -->
