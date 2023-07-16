@@ -158,6 +158,7 @@ Here are the goals and skills in this tutorial series
 * [Waitress as Flask server WSGI](https://nagasudhir.blogspot.com/2022/10/waitress-as-flask-server-wsgi.html)
 * [Logging in python Flask applications](https://nagasudhir.blogspot.com/2022/12/logging-in-python-flask-applications.html)
 * [Integrate swagger and model validation to flask APIs with flask-restx](https://nagasudhir.blogspot.com/2023/03/integrate-swagger-and-many-other.html)
+* [Render folium maps in python flask server](https://nagasudhir.blogspot.com/2023/07/render-folium-maps-in-python-flask.html)
 * [Implement flask server and python client for OAuth 2.0 client credentials flow](https://nagasudhir.blogspot.com/2023/04/implement-flask-server-and-python.html)
 
 #### OAuth 2.0
@@ -176,11 +177,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTUyMjA3NzUxMiwxNjMxMz
-A4NDAzLDUwNTU3NDU1MCwtMjE1MTYxMDI1LC0xNTc0MjA5Nzg5
-LC0xNTUwNzQ3NjI3LC01NzYzNTg3NjYsMTk2ODUwMjc2LDIyNz
-gyODg2LDIxMzg0ODc4NiwtMjk1NTAxOTM2LC0yMjIxMjMwMzUs
-LTEwODA1MzY1NTcsMTEzOTUyMTAsLTMzMzc4MTk2MSwxNzUxNz
-EzOTMxLDY1MzAyOTg1OCw5Njk2MDg4NjQsLTE1MjYyNjA0NjQs
-LTk1MTMwMjEwMV19
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTczNjk1NDgzNSwtNTIyMD
+c3NTEyLDE2MzEzMDg0MDMsNTA1NTc0NTUwLC0yMTUxNjEwMjUs
+LTE1NzQyMDk3ODksLTE1NTA3NDc2MjcsLTU3NjM1ODc2NiwxOT
+Y4NTAyNzYsMjI3ODI4ODYsMjEzODQ4Nzg2LC0yOTU1MDE5MzYs
+LTIyMjEyMzAzNSwtMTA4MDUzNjU1NywxMTM5NTIxMCwtMzMzNz
+gxOTYxLDE3NTE3MTM5MzEsNjUzMDI5ODU4LDk2OTYwODg2NCwt
+MTUyNjI2MDQ2NF19
 -->
