@@ -1,4 +1,4 @@
-## Skill - Custom Error Pages in python Flask application
+## Render folium maps in python flask server
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
@@ -178,11 +178,6 @@ app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 * In the above python server code, visiting the URL `/simulate500` will call the `abort(500)` method which throws the HTTP exception with status code 500
 
-### Video
-The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FlSDIqauUDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## References
 * Official flask error handling guide - https://flask.palletsprojects.com/en/2.2.x/errorhandling/
 * Flask abort method - https://flask.palletsprojects.com/en/2.2.x/api/#flask.abort
@@ -191,5 +186,5 @@ The video for this post can be seen [here](https://youtu.be/FlSDIqauUDY)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2Njg1ODI1XX0=
+eyJoaXN0b3J5IjpbNDE0NjQ0OTk1XX0=
 -->
