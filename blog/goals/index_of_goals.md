@@ -124,6 +124,7 @@ Here are the goals and skills in this tutorial series
 * [Draw Rectangle, Polyline, Polygon in python folium](https://nagasudhir.blogspot.com/2021/08/draw-rectangle-polyline-polygon-in.html)
 * [Draw heatmap on a python folium map](https://nagasudhir.blogspot.com/2021/08/draw-heatmap-on-python-folium-map.html)
 * [Animated lines in python folium maps](https://nagasudhir.blogspot.com/2023/07/animated-lines-in-python-folium-maps.html)
+* [Render folium maps in python flask server](https://nagasudhir.blogspot.com/2023/07/render-folium-maps-in-python-flask.html)
 
 #### Logging
 * [Logging in Python](https://nagasudhir.blogspot.com/2022/11/logging-in-python.html)
@@ -177,7 +178,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTczNjk1NDgzNSwtNTIyMD
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTQ5Mjk3MDc4MiwtNTIyMD
 c3NTEyLDE2MzEzMDg0MDMsNTA1NTc0NTUwLC0yMTUxNjEwMjUs
 LTE1NzQyMDk3ODksLTE1NTA3NDc2MjcsLTU3NjM1ODc2NiwxOT
 Y4NTAyNzYsMjI3ODI4ODYsMjEzODQ4Nzg2LC0yOTU1MDE5MzYs
