@@ -7,184 +7,146 @@
 * [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
 * [Serve static files in flask](https://nagasudhir.blogspot.com/2022/04/serve-static-files-in-flask.html)
 
-Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
-
 <hr/>
 
-* In this post we will learn how to create custom error pages in a flask application and simulate errors in a flask application
 
-![flask_custom_error_poster](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/flask_custom_error_poster.png)
+-   Folium maps can be served from python flask web applications
 
-## Use cases
-We can serve custom error pages for
-* Providing additional content in the error pages like links to other pages etc
-* Custom styling of error pages
+## Components required for a folium map
 
-## Sample Server setup
-The following python code serves a page `home.html` from the `templates` folder at the root URL. Also the `theme.css` is linked from the `static/styles` folder
-```py
-# server.py file
-from flask import Flask, render_template
+### script and style tags for linking dependencies
 
+This script and style tags required to be placed in the HTML head tag can be rendered using `mapObj.get_root().header.render()`, where `mapObj` is the python map object
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6a42235a-e071-404f-b07f-53eadc948ff8/Untitled.png)
+
+### div for map container
+
+The HTML div container of the map can be rendered in the HTML body using `mapObj.get_root().html.render()`
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/687f2bbd-f16e-487e-952f-45527613e28c/Untitled.png)
+
+### JavaScript for initializing and rendering the map
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/579c1ba6-31bd-426c-b750-3dd8d7ec334e/Untitled.png)
+
+The JavaScript required to initialize and render the folium map can be rendered in the HTML script tag using `m.get_root().script.render()`
+
+## Example
+
+```python
+from flask import Flask, render_template_string
+import folium
+
+# create a flask application
 app = Flask(__name__)
 
-@app.route('/')
-def index():
-    return render_template("home.html")
+@app.route("/")
+def home():
+    """Create a map object"""
+    mapObj = folium.Map(location=[18.906286495910905, 79.40917968750001],
+                        zoom_start=5, width=800, height=500)
 
-app.run(host="0.0.0.0", port=50100, debug=True)
+    # add a marker to the map object
+    folium.Marker([17.4127332, 78.078362],
+                  popup="<i>This a marker</i>").add_to(mapObj)
+
+    # render the map object
+    mapObj.get_root().render()
+
+    # derive the script and style tags to be rendered in HTML head
+    header = mapObj.get_root().header.render()
+
+    # derive the div container to be rendered in the HTML body
+    body_html = mapObj.get_root().html.render()
+
+    # derive the JavaScript to be rendered in the HTML body
+    script = mapObj.get_root().script.render()
+
+    # return a web page with folium map components embeded in it. You can also use render_template.
+    return render_template_string(
+        """
+            <!DOCTYPE html>
+            <html>
+                <head>
+                    {{ header|safe }}
+                </head>
+                <body>
+                    <h1>Embed folium map in HTML page</h1>
+                    {{ body_html|safe }}
+                    <h3>This map is embeded in a flask server web page !</h3>
+                    <script>
+                        {{ script|safe }}
+                    </script>
+                </body>
+            </html>
+        """,
+        header=header,
+        body_html=body_html,
+        script=script,
+    )
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=50100, debug=True)
+
 ```
 
-### templates/home.html file
-```html
-<!-- templates/home.html file -->
-<!DOCTYPE html>
-<html lang="en">
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f3fe179d-6bba-4072-be08-de62c66c4e58/Untitled.png)
 
-<head>
-    <link rel="stylesheet" href="{{url_for('static', filename='styles/theme.css')}}">
-    <title>Home</title>
-</head>
+## Render map in an iframe
 
-<body>
-    <h2>Hello World!!!</h2>
-</body>
+-   `m.get_root()._repr_html_()` can be used to render the map in an iframe of a webpage
 
-</html>
-```
+```python
+from flask import Flask, render_template_string
+import folium
 
-### static/styles/theme.css file
-```css
-/* static/styles/theme.css file */
-body {
-    color: rgb(201, 209, 217);
-    background-color: rgb(13, 17, 23);
-}
-
-a {
-    color: rgb(83, 189, 235);
-}
-```
-
-## 'register_error_handler' method or 'errorhandler' decorator for custom error pages
-```py
-# server.py file
-from flask import Flask, render_template
-
+# create a flask application
 app = Flask(__name__)
 
-@app.route('/')
-def index():
-    return render_template("home.html")
+@app.route("/")
+def home():
+    """Create a map object"""
+    mapObj = folium.Map(location=[18.906286495910905, 79.40917968750001],
+                        zoom_start=5)
 
-def genericErrorHandler(error):
-    return render_template("message.html", title=error.name, message=error.description), error.code
+    # add a marker to the map object
+    folium.Marker([17.4127332, 78.078362],
+                  popup="<i>This a marker</i>").add_to(mapObj)
 
-for errCode in [400, 401, 403, 404]:
-    app.register_error_handler(errCode, genericErrorHandler)
+    # set iframe width and height
+    mapObj.get_root().width = "700px"
+    mapObj.get_root().height = "500px"
 
+    # derive the iframe content to be rendered in the HTML body
+    iframe = mapObj.get_root()._repr_html_()
 
-@app.errorhandler(500)
-@app.errorhandler(501)
-def serverError(error):
-    return render_template("message.html", title="Internal Server Error", message="Some Internal Error occured..."), error.code
+    # return a web page with folium map components embeded in it. You can also use render_template.
+    return render_template_string(
+        """
+            <!DOCTYPE html>
+            <html>
+                <head></head>
+                <body>
+                    <h1>Using iframe to render folium map in HTML page</h1>
+                    {{ iframe|safe }}
+                    <h3>This map is place in an iframe of the page!</h3>
+                </body>
+            </html>
+        """,
+        iframe=iframe,
+    )
 
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=50100, debug=True)
 
-app.run(host="0.0.0.0", port=50100, debug=True)
 ```
 
-* As shown in the above code, using the `app.register_error_handler` method or `errorhandler` decorator, we can render error page for a specific HTTP error codes
-* The error handler function takes in an error object. Each error object contains `code`, `name`, `description` properties
-* A template located at `templates/message.html` is rendered while handling the error
-
-### templates/message.html file
-```html
-<!-- templates/message.html file -->
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <link rel="stylesheet" href="{{url_for('static', filename='styles/theme.css')}}">
-    <title>{{ title }}</title>
-</head>
-
-<body>
-    <h2>{{ title }}</h2>
-    <h4>{{ message }}</h4>
-    <a href="{{ url_for('index') }}">Click here</a> to go to Home page
-</body>
-
-</html>
-```
-* This is the template for our custom error page
-* We are able to control the styling 
-* Link to home page is also added 
-
-## Default error handler for all HTTP errors
-* Instead of explicitly specifying the error handler for each HTTP error code, we can define a default error handler for all HTTP exceptions as shown below
-
-```py
-# server.py file
-from flask import Flask, render_template
-from werkzeug.exceptions import HTTPException
-
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return render_template("home.html")
-
-
-@app.errorhandler(HTTPException)
-def handleException(error):
-    return render_template("message.html", title=error.name, message=error.description), error.code
-
-
-@app.errorhandler(500)
-def serverError(error):
-    return render_template("message.html", title="Server Error", message="Oops, some error occured..."), error.code
-
-
-app.run(host="0.0.0.0", port=50100, debug=True)
-```
-
-* In the above example, using the `@app.errorhandler(HTTPException)` decorator, all the HTTP errors are handled by the `handleException` method by default
-* However for error code 500, since we have specifically mentioned a method with decorator `@app.errorhandler(500)`, the `serverError` method will be called for handling HTTP error with status code 500
-
-## Simulate HTTP errors using 'abort' method
-* To check the rendering of error pages, we can throw HTTP errors using the `abort` function from the flask module as shown below  
-
-```py
-from flask import Flask, abort, render_template
-from werkzeug.exceptions import HTTPException
-
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return render_template("home.html")
-
-
-@app.route('/simulate500')
-def simulate500():
-    return abort(500)
-
-
-@app.errorhandler(HTTPException)
-def handleException(error):
-    return render_template("message.html", title=error.name, message=error.description), error.code
-
-app.run(host="0.0.0.0", port=50100, debug=True)
-```
-* In the above python server code, visiting the URL `/simulate500` will call the `abort(500)` method which throws the HTTP exception with status code 500
+-   When the map is rendered in an iframe, the webpage cannot interact with the map via JavaScript
 
 ## References
-* Official flask error handling guide - https://flask.palletsprojects.com/en/2.2.x/errorhandling/
-* Flask abort method - https://flask.palletsprojects.com/en/2.2.x/api/#flask.abort
-* Flask errorhandler decorator - https://flask.palletsprojects.com/en/2.2.x/api/#flask.Flask.errorhandler
-* Flask register_error_handler method - https://flask.palletsprojects.com/en/2.2.x/api/#flask.Flask.register_error_handler
 
-
+-   [https://python-visualization.github.io/folium/flask.html#:~:text=A common use case is,map components and use those](https://python-visualization.github.io/folium/flask.html#:~:text=A%20common%20use%20case%20is,map%20components%20and%20use%20those).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzcyNjQ2MDVdfQ==
+eyJoaXN0b3J5IjpbNTA1OTM0MTNdfQ==
 -->
