@@ -123,6 +123,7 @@ Here are the goals and skills in this tutorial series
 * [Create a bubble map from excel data using python folium and pandas](https://nagasudhir.blogspot.com/2021/08/create-bubble-map-from-excel-data-using.html)
 * [Draw Rectangle, Polyline, Polygon in python folium](https://nagasudhir.blogspot.com/2021/08/draw-rectangle-polyline-polygon-in.html)
 * [Draw heatmap on a python folium map](https://nagasudhir.blogspot.com/2021/08/draw-heatmap-on-python-folium-map.html)
+* [Animated lines in python folium maps](https://nagasudhir.blogspot.com/2023/07/animated-lines-in-python-folium-maps.html)
 
 #### Logging
 * [Logging in Python](https://nagasudhir.blogspot.com/2022/11/logging-in-python.html)
@@ -175,7 +176,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTcxNjE0OTE5NCwxNjMxMz
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTUyMjA3NzUxMiwxNjMxMz
 A4NDAzLDUwNTU3NDU1MCwtMjE1MTYxMDI1LC0xNTc0MjA5Nzg5
 LC0xNTUwNzQ3NjI3LC01NzYzNTg3NjYsMTk2ODUwMjc2LDIyNz
 gyODg2LDIxMzg0ODc4NiwtMjk1NTAxOTM2LC0yMjIxMjMwMzUs
