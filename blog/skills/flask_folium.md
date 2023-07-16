@@ -18,7 +18,7 @@
 
 This script and style tags required to be placed in the HTML head tag can be rendered using `mapObj.get_root().header.render()`, where `mapObj` is the python map object
 
-![flask_folium_body_component.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/flask_folium_h_component.png?raw=true)
+![flask_folium_head_component.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/flask_folium_head_component.png?raw=true)
 
 ### div for map container
 
@@ -27,7 +27,7 @@ The HTML div container of the map can be rendered in the HTML body using `mapObj
 
 ### JavaScript for initializing and rendering the map
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/579c1ba6-31bd-426c-b750-3dd8d7ec334e/Untitled.png)
+![flask_folium_script_component.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/flask_folium_script_component.png?raw=true)
 
 The JavaScript required to initialize and render the folium map can be rendered in the HTML script tag using `m.get_root().script.render()`
 
@@ -90,7 +90,7 @@ if __name__ == "__main__":
 
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f3fe179d-6bba-4072-be08-de62c66c4e58/Untitled.png)
+![flask_folium_script_component.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/flask_folium_script_component.png?raw=true
 
 ## Render map in an iframe
 
@@ -147,5 +147,5 @@ if __name__ == "__main__":
 
 -   [https://python-visualization.github.io/folium/flask.html#:~:text=A common use case is,map components and use those](https://python-visualization.github.io/folium/flask.html#:~:text=A%20common%20use%20case%20is,map%20components%20and%20use%20those).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTQwNzE3Nyw1MDU5MzQxM119
+eyJoaXN0b3J5IjpbLTEyNzA5MTUyMjEsNTA1OTM0MTNdfQ==
 -->
