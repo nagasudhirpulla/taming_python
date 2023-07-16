@@ -143,9 +143,15 @@ if __name__ == "__main__":
 
 -   When the map is rendered in an iframe, the webpage cannot interact with the map via JavaScript
 
+### Video
+The video for this blog can be seen [here](https://youtu.be/zctCsvSSYu8)
+
+
+
 ## References
 
 -   [https://python-visualization.github.io/folium/flask.html#:~:text=A common use case is,map components and use those](https://python-visualization.github.io/folium/flask.html#:~:text=A%20common%20use%20case%20is,map%20components%20and%20use%20those).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDM1NzgzOCw1MDU5MzQxM119
+eyJoaXN0b3J5IjpbMTc5Njc0Njk1MCwtODM0MzU3ODM4LDUwNT
+kzNDEzXX0=
 -->
