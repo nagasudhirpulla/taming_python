@@ -90,7 +90,7 @@ if __name__ == "__main__":
 
 ```
 
-![flask_folium_script_component.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/flask_folium_script_component.png?raw=true
+![flask_folium_embed_example.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/flask_folium_embed_example.png?raw=true)
 
 ## Render map in an iframe
 
@@ -147,5 +147,5 @@ if __name__ == "__main__":
 
 -   [https://python-visualization.github.io/folium/flask.html#:~:text=A common use case is,map components and use those](https://python-visualization.github.io/folium/flask.html#:~:text=A%20common%20use%20case%20is,map%20components%20and%20use%20those).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzA5MTUyMjEsNTA1OTM0MTNdfQ==
+eyJoaXN0b3J5IjpbLTgzNDM1NzgzOCw1MDU5MzQxM119
 -->
