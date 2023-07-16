@@ -18,13 +18,12 @@
 
 This script and style tags required to be placed in the HTML head tag can be rendered using `mapObj.get_root().header.render()`, where `mapObj` is the python map object
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6a42235a-e071-404f-b07f-53eadc948ff8/Untitled.png)
+![flask_folium_body_component.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/flask_folium_h_component.png?raw=true)
 
 ### div for map container
 
 The HTML div container of the map can be rendered in the HTML body using `mapObj.get_root().html.render()`
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/687f2bbd-f16e-487e-952f-45527613e28c/Untitled.png)
+![flask_folium_body_component.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/flask_folium_body_component.png?raw=true)
 
 ### JavaScript for initializing and rendering the map
 
@@ -148,5 +147,5 @@ if __name__ == "__main__":
 
 -   [https://python-visualization.github.io/folium/flask.html#:~:text=A common use case is,map components and use those](https://python-visualization.github.io/folium/flask.html#:~:text=A%20common%20use%20case%20is,map%20components%20and%20use%20those).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1OTM0MTNdfQ==
+eyJoaXN0b3J5IjpbMTM1NTQwNzE3Nyw1MDU5MzQxM119
 -->
