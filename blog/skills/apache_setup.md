@@ -347,9 +347,11 @@ SSLSessionCacheTimeout  300
 -   **SSLProxyCheckPeerExpire on** means Apache will check if the server certificate is expired. If expired, 502 (Bad gateway) response will be given
 
 ### Video
-The video for this post can be seen [here](https://youtu.be/INATnpdcuZY)
+The video for this post can be seen [here](https://youtu.be/INATnpdcuZY) and [here](https://youtu.be/iWhapnLuEhM)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/INATnpdcuZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iWhapnLuEhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## References
@@ -361,8 +363,8 @@ The video for this post can be seen [here](https://youtu.be/INATnpdcuZY)
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzExMzYwOCwtMTUwMDMxOTk5NCwtMT
-Y1NDYxOTIwNSwtNTIzODQ1MiwtMzI2NjM0Njg5LDIxNDUxOTY3
-NzEsLTE3Njk4NzI1NDksLTE0NDI3NjExMTEsMjcwMjUxODBdfQ
-==
+eyJoaXN0b3J5IjpbLTMxMDYxNjM5MCwyMDQ3MTEzNjA4LC0xNT
+AwMzE5OTk0LC0xNjU0NjE5MjA1LC01MjM4NDUyLC0zMjY2MzQ2
+ODksMjE0NTE5Njc3MSwtMTc2OTg3MjU0OSwtMTQ0Mjc2MTExMS
+wyNzAyNTE4MF19
 -->
