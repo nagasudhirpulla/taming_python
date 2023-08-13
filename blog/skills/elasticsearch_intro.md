@@ -110,7 +110,7 @@ POST _aliases
 -   Data stream is an abstraction on top of index designed for append only time-series documents. The clients interact with data stream for updating documents. The data stream stores data in backing indexes (also called hidden indices).
 -   New index will be created as per the configured index lifecycle policy thresholds (like threshold age, threshold size etc.). Data can be queried from all indices but can be written only to the latest index.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b8179167-efed-4936-871c-90320a793a4b/Untitled.png)
+![elasticsearch_datastreams.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/elasticsearch_datastreams.png?raw=true)
 
 ### References
 
@@ -123,5 +123,5 @@ POST _aliases
 -   Elasticsearch datastreams - [](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)[https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)
 -   Scalability and resilience - [https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each document in an index,searching or retrieving a document](https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each%20document%20in%20an%20index,searching%20or%20retrieving%20a%20document).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDQzMjY1NiwtMjkwMzc2OTc1XX0=
+eyJoaXN0b3J5IjpbLTc5MjM2NzIwMiwtMjkwMzc2OTc1XX0=
 -->
