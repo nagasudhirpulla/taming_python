@@ -36,7 +36,7 @@
 -   There are two types of shards: primary and replicas. Replica shards are for redundancy and serving data queries.
 -   The shards, data and queries are distributed among nodes to facilitate availability and scalability in a multi-node (multiple servers) cluster. The shards and data are automatically re-balanced when a node is added or removed
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aec3928b-2c53-4f26-ba05-b247833ccaca/Untitled.png)
+![elasticsearch_index_shards_nodes.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/elasticsearch_index_shards_nodes.png?raw=true)
 
 ## Index Template
 
@@ -123,5 +123,5 @@ POST _aliases
 -   Elasticsearch datastreams - [](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)[https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)
 -   Scalability and resilience - [https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each document in an index,searching or retrieving a document](https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each%20document%20in%20an%20index,searching%20or%20retrieving%20a%20document).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjUwNDMwNzAsLTI5MDM3Njk3NV19
+eyJoaXN0b3J5IjpbMTEyNTY5OTMyNywtMjkwMzc2OTc1XX0=
 -->
