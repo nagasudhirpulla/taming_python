@@ -24,7 +24,7 @@
 
 
 
-![elasticsearch_rdms_mapping](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/elasticsearch_rdms_mapping.png?raw=true)
+![elasticsearch_rdms_mapping.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/elasticsearch_rdms_mapping.png?raw=true)
 
 ## Nodes, Indexes and Shards
 
@@ -123,5 +123,5 @@ POST _aliases
 -   Elasticsearch datastreams - [](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)[https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)
 -   Scalability and resilience - [https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each document in an index,searching or retrieving a document](https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each%20document%20in%20an%20index,searching%20or%20retrieving%20a%20document).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3MDY0MzQxLC0yOTAzNzY5NzVdfQ==
+eyJoaXN0b3J5IjpbLTEwNDA0MzIwNiwtMjkwMzc2OTc1XX0=
 -->
