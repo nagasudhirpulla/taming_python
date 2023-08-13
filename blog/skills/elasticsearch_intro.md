@@ -83,7 +83,7 @@ PUT _index_template/template_1
 
 ## Index alias in Elasticsearch
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0676202f-b529-4a39-8715-d429a4c095b4/Untitled.png)
+![elasticsearch_index_alias.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/elasticsearch_index_alias.png?raw=true)
 
 -   An index alias is a group of indices. Documents can be inserted into an index group using alias. Only the index marked as write index can accept documents for insertion
 -   An alias can be specified to include all the indices following an index pattern (like mylogs-*). The following command creates an alias named “logs” that groups all indices starting with “logs-”
@@ -123,5 +123,5 @@ POST _aliases
 -   Elasticsearch datastreams - [](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)[https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)
 -   Scalability and resilience - [https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each document in an index,searching or retrieving a document](https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each%20document%20in%20an%20index,searching%20or%20retrieving%20a%20document).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTY5OTMyNywtMjkwMzc2OTc1XX0=
+eyJoaXN0b3J5IjpbLTQwMDQzMjY1NiwtMjkwMzc2OTc1XX0=
 -->
