@@ -2,8 +2,6 @@
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
-![elasticsearch_db.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/elasticsearch_db.png?raw=true)
-
 -   Elasticsearch is a distributed database where data is stored as JSON documents
 -   Elasticsearch is horizontally scalable, i.e., the database can run in multiple servers (nodes)
 -   Elasticsearch supports many data types like text, number, Geo-spatial, IP addresses etc
@@ -125,6 +123,6 @@ POST _aliases
 -   Elasticsearch datastreams - [](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)[https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)
 -   Scalability and resilience - [https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each document in an index,searching or retrieving a document](https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each%20document%20in%20an%20index,searching%20or%20retrieving%20a%20document).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTY1NDg5NCwtNzkyMzY3MjAyLC0yOT
+eyJoaXN0b3J5IjpbLTc5MjM2NzIwMiwtNzkyMzY3MjAyLC0yOT
 AzNzY5NzVdfQ==
 -->
