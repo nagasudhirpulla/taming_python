@@ -7,9 +7,9 @@
 -   Elasticsearch supports many data types like text, number, Geo-spatial, IP addresses etc
 -   Elasticsearch stores data in a data structure called _inverted index_, where data is literally stored as searches. This makes querying very fast even if vast amounts of data storage
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/754a470c-3e32-4c86-a76d-6fa8efc0a7bd/Untitled.png)
+![inverted_index_example1](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/inverted_index_example1.png?raw=true)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b16481b0-ee12-4be5-b57f-b87a4161a467/Untitled.svg)
+![inverted_index_example2](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/inverted_index_example2.png?raw=true)
 
 ## Analogy to Relational database
 
@@ -123,5 +123,5 @@ POST _aliases
 -   Elasticsearch datastreams - [](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)[https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)
 -   Scalability and resilience - [https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each document in an index,searching or retrieving a document](https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each%20document%20in%20an%20index,searching%20or%20retrieving%20a%20document).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDM3Njk3NV19
+eyJoaXN0b3J5IjpbMTcyNTY4NjIxNSwtMjkwMzc2OTc1XX0=
 -->
