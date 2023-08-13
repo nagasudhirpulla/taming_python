@@ -1,0 +1,132 @@
+# Elasticsearch database concepts
+
+-   Elasticsearch is a distributed database where data is stored as JSON documents
+-   Elasticsearch is horizontally scalable, i.e., the database can run in multiple servers (nodes)
+-   Elasticsearch supports many data types like text, number, Geo-spatial, IP addresses etc
+-   Elasticsearch stores data in a data structure called _inverted index_, where data is literally stored as searches. This makes querying very fast even if vast amounts of data storage
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/754a470c-3e32-4c86-a76d-6fa8efc0a7bd/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b16481b0-ee12-4be5-b57f-b87a4161a467/Untitled.svg)
+
+## Analogy to Relational database
+
+-   Index is a collection of documents. It is like an RDBMS table.
+
+RDMS
+
+Elasticsearch
+
+Table
+
+Index
+
+Row
+
+JSON document
+
+columns in a row
+
+attributes of JSON document
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ea2e0469-7de0-4f1e-b7ea-3e59fd3b06e9/Untitled.png)
+
+## Nodes, Indexes and Shards
+
+-   Node means a computer (server) running Elasticsearch
+-   An Index is a logical group of one or more physical shards. Each shard is a Lucene index (a self-contained index)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8f3d044f-6f17-42de-aa72-cb2cf5ee5e0c/Untitled.png)
+
+-   There are two types of shards: primary and replicas. Replica shards are for redundancy and serving data queries.
+-   The shards, data and queries are distributed among nodes to facilitate availability and scalability in a multi-node (multiple servers) cluster. The shards and data are automatically re-balanced when a node is added or removed
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aec3928b-2c53-4f26-ba05-b247833ccaca/Untitled.png)
+
+## Index Template
+
+-   Index template is the settings applied to the index while creation. It is like a blueprint for creating an index
+-   Index template contains settings like number of shards and replicas, data mapping, priority etc.
+-   **Index data mapping** of an index template defines the schema of documents stored in the index. Index data mapping can be set to _dynamic_, so that the schema will be derived while the data is being ingested. This is also called _Schema on Write_. If the index data mapping is set to _strict_, just like an RDBMS, the index will reject the incoming documents not complying to the index data mapping properties.
+-   The following is an example console command to create an Index template
+
+```bash
+PUT _index_template/template_1
+{
+  "index_patterns": ["te*", "bar*"],
+  "template": {
+    "settings": {
+      "number_of_shards": 1
+    },
+    "mappings": {
+      "_source": {
+        "enabled": true
+      },
+      "properties": {
+        "host_name": {
+          "type": "keyword"
+        },
+        "created_at": {
+          "type": "date",
+          "format": "EEE MMM dd HH:mm:ss Z yyyy"
+        }
+      }
+    },
+    "aliases": {
+      "mydata": { }
+    }
+  },
+  "priority": 500,
+  "composed_of": ["component_template1", "runtime_component_template"], 
+  "version": 3,
+  "_meta": {
+    "description": "my custom"
+  }
+}
+
+```
+
+## Index alias in Elasticsearch
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0676202f-b529-4a39-8715-d429a4c095b4/Untitled.png)
+
+-   An index alias is a group of indices. Documents can be inserted into an index group using alias. Only the index marked as write index can accept documents for insertion
+-   An alias can be specified to include all the indices following an index pattern (like mylogs-*). The following command creates an alias named “logs” that groups all indices starting with “logs-”
+
+```bash
+POST _aliases
+{
+  "actions": [
+    {
+      "add": {
+        "index": "logs-*",
+        "alias": "logs"
+      }
+    }
+  ]
+}
+
+```
+
+-   Using index alias with index lifecycle management, data of an index can be automated to roll over into new index based on a threshold age or size, so that the data of an index can be split into multiple indices for efficiency and tiered storage. Also splitting data into multiple indices also can utilize multi node cluster resources for parallel data queries
+
+## Data streams in Elasticsearch
+
+-   Data stream is an abstraction on top of index designed for append only time-series documents. The clients interact with data stream for updating documents. The data stream stores data in backing indexes (also called hidden indices).
+-   New index will be created as per the configured index lifecycle policy thresholds (like threshold age, threshold size etc.). Data can be queried from all indices but can be written only to the latest index.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b8179167-efed-4936-871c-90320a793a4b/Untitled.png)
+
+### References
+
+-   What is Elasticsearch - [](https://www.elastic.co/what-is/elasticsearch)[https://www.elastic.co/what-is/elasticsearch](https://www.elastic.co/what-is/elasticsearch)
+-   Mapping database concepts with elastic search - [](https://www.elastic.co/guide/en/elasticsearch/reference/current/_mapping_concepts_across_sql_and_elasticsearch.html)[https://www.elastic.co/guide/en/elasticsearch/reference/current/_mapping_concepts_across_sql_and_elasticsearch.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/_mapping_concepts_across_sql_and_elasticsearch.html)
+-   [](https://aravind.dev/everything-index-elastic/)[https://aravind.dev/everything-index-elastic/](https://aravind.dev/everything-index-elastic/)
+-   Elasticsearch from the bottom up - [](https://youtu.be/PpX7J-G2PEo)[https://youtu.be/PpX7J-G2PEo](https://youtu.be/PpX7J-G2PEo)
+-   Elasticsearch Index templates - [](https://www.elastic.co/guide/en/elasticsearch/reference/current/index-templates.html)[https://www.elastic.co/guide/en/elasticsearch/reference/current/index-templates.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/index-templates.html)
+-   Elasticsearch alias - [](https://www.elastic.co/guide/en/elasticsearch/reference/current/aliases.html)[https://www.elastic.co/guide/en/elasticsearch/reference/current/aliases.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/aliases.html)
+-   Elasticsearch datastreams - [](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)[https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)
+-   Scalability and resilience - [https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each document in an index,searching or retrieving a document](https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each%20document%20in%20an%20index,searching%20or%20retrieving%20a%20document).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTY5MjE5MzE3Ml19
+-->
