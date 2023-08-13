@@ -15,9 +15,13 @@
 
 -   Index is a collection of documents. It is like an RDBMS table.
 
-|  |  |
+| RDBMS | Elasticsearch |
 |--|--|
-|  |  |
+| Table | Index |
+| Row | JSON Document |
+| Table | Index |
+
+
 
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ea2e0469-7de0-4f1e-b7ea-3e59fd3b06e9/Untitled.png)
@@ -119,5 +123,5 @@ POST _aliases
 -   Elasticsearch datastreams - [](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)[https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)
 -   Scalability and resilience - [https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each document in an index,searching or retrieving a document](https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each%20document%20in%20an%20index,searching%20or%20retrieving%20a%20document).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA1ODQ2MzVdfQ==
+eyJoaXN0b3J5IjpbLTI2NzY0MDE0OV19
 -->
