@@ -171,6 +171,9 @@ Here are the goals and skills in this tutorial series
 * [Implement login with google in python flask applications](https://nagasudhir.blogspot.com/2023/05/implement-login-with-google-in-python.html)
 * [Setup PostgreSQL database for keycloak](https://nagasudhir.blogspot.com/2023/05/setup-postgresql-database-for-keycloak.html)
 * [Manage Users, Login screen, Password policy and Two factor authentication in keycloak](https://nagasudhir.blogspot.com/2023/06/manage-users-password-policy-and-two.html)
+
+#### Elasticsearch
+* [Elasticsearch database concepts](https://nagasudhir.blogspot.com/2023/08/elasticsearch-database-concepts.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -178,11 +181,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTQ5Mjk3MDc4MiwtNTIyMD
-c3NTEyLDE2MzEzMDg0MDMsNTA1NTc0NTUwLC0yMTUxNjEwMjUs
-LTE1NzQyMDk3ODksLTE1NTA3NDc2MjcsLTU3NjM1ODc2NiwxOT
-Y4NTAyNzYsMjI3ODI4ODYsMjEzODQ4Nzg2LC0yOTU1MDE5MzYs
-LTIyMjEyMzAzNSwtMTA4MDUzNjU1NywxMTM5NTIxMCwtMzMzNz
-gxOTYxLDE3NTE3MTM5MzEsNjUzMDI5ODU4LDk2OTYwODg2NCwt
-MTUyNjI2MDQ2NF19
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE4MzA0NDAyMTcsLTQ5Mj
+k3MDc4MiwtNTIyMDc3NTEyLDE2MzEzMDg0MDMsNTA1NTc0NTUw
+LC0yMTUxNjEwMjUsLTE1NzQyMDk3ODksLTE1NTA3NDc2MjcsLT
+U3NjM1ODc2NiwxOTY4NTAyNzYsMjI3ODI4ODYsMjEzODQ4Nzg2
+LC0yOTU1MDE5MzYsLTIyMjEyMzAzNSwtMTA4MDUzNjU1NywxMT
+M5NTIxMCwtMzMzNzgxOTYxLDE3NTE3MTM5MzEsNjUzMDI5ODU4
+LDk2OTYwODg2NF19
 -->
