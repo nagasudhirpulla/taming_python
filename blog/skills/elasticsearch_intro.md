@@ -7,9 +7,9 @@
 -   Elasticsearch supports many data types like text, number, Geo-spatial, IP addresses etc
 -   Elasticsearch stores data in a data structure called _inverted index_, where data is literally stored as searches. This makes querying very fast even if vast amounts of data storage
 
-![inverted_index_example1](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/inverted_index_example1.png?raw=true)
+![inverted_index_example1.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/inverted_index_example1.png?raw=true)
 
-![inverted_index_example2](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/inverted_index_example2.png?raw=true)
+![inverted_index_example2.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/inverted_index_example2.png?raw=true)
 
 ## Analogy to Relational database
 
@@ -31,7 +31,7 @@
 -   Node means a computer (server) running Elasticsearch
 -   An Index is a logical group of one or more physical shards. Each shard is a Lucene index (a self-contained index)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8f3d044f-6f17-42de-aa72-cb2cf5ee5e0c/Untitled.png)
+![elasticsearch_index.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8f3d044f-6f17-42de-aa72-cb2cf5ee5e0c/elasticsearch_index.png)
 
 -   There are two types of shards: primary and replicas. Replica shards are for redundancy and serving data queries.
 -   The shards, data and queries are distributed among nodes to facilitate availability and scalability in a multi-node (multiple servers) cluster. The shards and data are automatically re-balanced when a node is added or removed
@@ -123,5 +123,5 @@ POST _aliases
 -   Elasticsearch datastreams - [](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)[https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)
 -   Scalability and resilience - [https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each document in an index,searching or retrieving a document](https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each%20document%20in%20an%20index,searching%20or%20retrieving%20a%20document).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDA0MzIwNiwtMjkwMzc2OTc1XX0=
+eyJoaXN0b3J5IjpbLTExNTQzNDM4MzUsLTI5MDM3Njk3NV19
 -->
