@@ -112,6 +112,11 @@ POST _aliases
 
 ![elasticsearch_datastreams.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/elasticsearch_datastreams.png?raw=true)
 
+### Video
+Video for this post can be found [here](https://youtu.be/LqXj1oC1FH0)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LqXj1oC1FH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### References
 
 -   What is Elasticsearch - [](https://www.elastic.co/what-is/elasticsearch)[https://www.elastic.co/what-is/elasticsearch](https://www.elastic.co/what-is/elasticsearch)
@@ -123,6 +128,6 @@ POST _aliases
 -   Elasticsearch datastreams - [](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)[https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)
 -   Scalability and resilience - [https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each document in an index,searching or retrieving a document](https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each%20document%20in%20an%20index,searching%20or%20retrieving%20a%20document).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODc2NDkxNzksLTc5MjM2NzIwMiwtNz
-kyMzY3MjAyLC0yOTAzNzY5NzVdfQ==
+eyJoaXN0b3J5IjpbLTE1MjU4NDgzMTksLTE5ODc2NDkxNzksLT
+c5MjM2NzIwMiwtNzkyMzY3MjAyLC0yOTAzNzY5NzVdfQ==
 -->
