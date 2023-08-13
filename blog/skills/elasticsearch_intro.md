@@ -19,7 +19,7 @@
 |--|--|
 | Table | Index |
 | Row | JSON Document |
-| Table | Index |
+| Columns in a row | attributes of JSON document |
 
 
 
@@ -123,5 +123,5 @@ POST _aliases
 -   Elasticsearch datastreams - [](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)[https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/data-streams.html)
 -   Scalability and resilience - [https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each document in an index,searching or retrieving a document](https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html#:~:text=Each%20document%20in%20an%20index,searching%20or%20retrieving%20a%20document).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzY0MDE0OV19
+eyJoaXN0b3J5IjpbLTI5MDM3Njk3NV19
 -->
