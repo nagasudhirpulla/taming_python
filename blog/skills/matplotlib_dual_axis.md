@@ -12,6 +12,8 @@
 
 <hr/>
 
+![matplotlib_secondary_axis_twinx_demo.](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/matplotlib_secondary_axis_twinx_demo.png?raw=true)
+
 ```python
 import matplotlib.pyplot as plt
 x = [-5, -4, 5, 8]
@@ -68,5 +70,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzNzQxODExXX0=
+eyJoaXN0b3J5IjpbMTIxMjA5NDRdfQ==
 -->
