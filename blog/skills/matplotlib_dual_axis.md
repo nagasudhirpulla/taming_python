@@ -11,28 +11,44 @@
 ## Demo output
 
 ![matplotlib_secondary_axis_twinx_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/matplotlib_secondary_axis_twinx_demo.png?raw=true)
+## Sample code
 
 ```python
 import matplotlib.pyplot as plt
-x = [-5, -4, 5, 8]
-y = [-6, 5, 8,-10]
+import datetime as dt
 
-# create a plotting area and get the figure, axes handle in return
-fig, ax = plt.subplots()
+t = list(range(1, 11))
+tempVals = [20, 19, 19, 21, 23, 22, 21, 24, 20, 22]
+salesVals = [98000, 80000, 76000, 85000, 85000, 90000, 92000, 90000, 96000, 86000]
 
-# plot data on the axes handle
-ax.plot(x, y)
+fig, ax1 = plt.subplots()
 
-# Move left y-axis and bottim x-axis to centre by setting position as 'center'
-ax.spines['left'].set_position('zero')
-ax.spines['bottom'].set_position('zero')
+color = 'tab:red'
+ax1.set_xlabel('days')
+ax1.set_ylabel('centigrade temp', color=color)
+ax1.plot(t, tempVals, color=color)
+ax1.tick_params(axis='y', labelcolor=color)
 
-# Eliminate top and right axes by setting spline color as 'none'
-ax.spines['right'].set_color('none')
-ax.spines['top'].set_color('none')
+def celsius_to_fahrenheit(x):
+    return x * 1.8 + 32
 
-# print the plot
-plt.show()
+def fahrenheit_to_celsius(x):
+    return (x - 32) / 1.8
+
+axFahren = ax1.secondary_yaxis(-0.25, functions=(celsius_to_fahrenheit, fahrenheit_to_celsius))
+
+axFahren.set_ylabel('fahrenheit temp', color=color)
+axFahren.tick_params(axis='y', labelcolor=color)
+
+ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
+
+color = 'tab:green'
+ax2.set_ylabel('sales', color=color)  # we already handled the x-label with ax1
+ax2.plot(t, salesVals, color=color)
+ax2.tick_params(axis='y', labelcolor=color)
+
+fig.tight_layout()
+fig.savefig("output.png")
 ```
 
 
@@ -68,5 +84,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwMzc0ODA2XX0=
+eyJoaXN0b3J5IjpbLTcxMjgyMzMzMCw0NTAzNzQ4MDZdfQ==
 -->
