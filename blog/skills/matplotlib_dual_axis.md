@@ -32,13 +32,12 @@ ax1.set_ylabel('centigrade temp', color=color)
 ax1.plot(t, celciusVals, color=color)
 ax1.tick_params(axis='y', labelcolor=color)
 
-# conversion functions to create the fahrenheit axes
+# conversion functions for fahrenheit axes
 def celsius_to_fahrenheit(x):
     return x * 1.8 + 32
 
 def fahrenheit_to_celsius(x):
     return (x - 32) / 1.8
-
 
 # derive a fahrenheit axes from celcius axes using secondary_yaxis
 axFahren = ax1.secondary_yaxis(-0.25, functions=(celsius_to_fahrenheit, fahrenheit_to_celsius))
@@ -77,6 +76,6 @@ fig.savefig("output.png")
 -   Twinx function matplotlib - [](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx)[https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx)
 -   Secondary y axis matplotlib - [](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis)[https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5Nzk4Mzk5MywtMjAzMjg3NDcyMSw0NT
-AzNzQ4MDZdfQ==
+eyJoaXN0b3J5IjpbNzE2MjYyNTE2LC0yMDMyODc0NzIxLDQ1MD
+M3NDgwNl19
 -->
