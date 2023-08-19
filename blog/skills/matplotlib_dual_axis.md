@@ -15,38 +15,47 @@
 
 ```python
 import matplotlib.pyplot as plt
-import datetime as dt
 
+# data for plotting
 t = list(range(1, 11))
-tempVals = [20, 19, 19, 21, 23, 22, 21, 24, 20, 22]
-salesVals = [98000, 80000, 76000, 85000, 85000, 90000, 92000, 90000, 96000, 86000]
+celciusVals = [20, 19, 19, 21, 23, 22, 21, 24, 20, 22]
+salesVals = [98000, 80000, 76000, 85000,
+             85000, 90000, 92000, 90000, 96000, 86000]
 
+# create a figure and axes handle to plot celcius data
 fig, ax1 = plt.subplots()
 
+# plot celcius data
 color = 'tab:red'
 ax1.set_xlabel('days')
 ax1.set_ylabel('centigrade temp', color=color)
-ax1.plot(t, tempVals, color=color)
+ax1.plot(t, celciusVals, color=color)
 ax1.tick_params(axis='y', labelcolor=color)
 
+# conversion functions to create the fahrenheit axes
 def celsius_to_fahrenheit(x):
     return x * 1.8 + 32
 
 def fahrenheit_to_celsius(x):
     return (x - 32) / 1.8
 
+
+# derive a fahrenheit axes from celcius axes using secondary_yaxis
 axFahren = ax1.secondary_yaxis(-0.25, functions=(celsius_to_fahrenheit, fahrenheit_to_celsius))
 
 axFahren.set_ylabel('fahrenheit temp', color=color)
 axFahren.tick_params(axis='y', labelcolor=color)
 
-ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
+# create twin axes to celcius axes for plotting sales data
+ax2 = ax1.twinx()  # shares the same x-axis with celsius axis
 
+# plot sales data on the twin axis
 color = 'tab:green'
 ax2.set_ylabel('sales', color=color)  # we already handled the x-label with ax1
 ax2.plot(t, salesVals, color=color)
 ax2.tick_params(axis='y', labelcolor=color)
 
+# export the figure as a png image
 fig.tight_layout()
 fig.savefig("output.png")
 ```
@@ -68,5 +77,6 @@ fig.savefig("output.png")
 -   Twinx function matplotlib - [](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx)[https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx)
 -   Secondary y axis matplotlib - [](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis)[https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzI4NzQ3MjEsNDUwMzc0ODA2XX0=
+eyJoaXN0b3J5IjpbMTI5Nzk4Mzk5MywtMjAzMjg3NDcyMSw0NT
+AzNzQ4MDZdfQ==
 -->
