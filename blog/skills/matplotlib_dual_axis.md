@@ -35,7 +35,6 @@ ax.spines['top'].set_color('none')
 plt.show()
 ```
 
-![matplotlib_center_axes_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_center_axes_0_0_demo.PNG)
 
 As shown above the spines/axis lines of an axes handle `ax` can be controlled by `ax.spines`
 
@@ -69,5 +68,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxOTEzMjc3XX0=
+eyJoaXN0b3J5IjpbMzIzNzQxODExXX0=
 -->
