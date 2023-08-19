@@ -102,7 +102,7 @@ Here are the goals and skills in this tutorial series
 * [Format axis ticks using TickFormatters in matplotlib](https://nagasudhir.blogspot.com/2020/05/format-axis-ticks-using-tickformatters.html)
 * [Positioning the legend at the bottom of a Matplotlib plot in python](https://nagasudhir.blogspot.com/2021/05/matplotlib-legend-at-bottom-of-plot.html)
 * [Duration Curve using Matplotlib](http://nagasudhir.blogspot.com/2021/05/duration-curve-using-matplotlib.html)
-* []()
+* [Secondary axis and twin axis in python matplotlib plots](https://nagasudhir.blogspot.com/2023/08/secondary-axis-and-twin-axis-in-python.html)
 
 #### Reports Automation
 * [docxtpl python library for creating automated reports as word and pdf files from templates](https://nagasudhir.blogspot.com/2021/10/docxtpl-python-library-for-creating.html)
@@ -182,11 +182,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTEyNjUwNzI3NDAsLTE4Mz
-A0NDAyMTcsLTQ5Mjk3MDc4MiwtNTIyMDc3NTEyLDE2MzEzMDg0
-MDMsNTA1NTc0NTUwLC0yMTUxNjEwMjUsLTE1NzQyMDk3ODksLT
-E1NTA3NDc2MjcsLTU3NjM1ODc2NiwxOTY4NTAyNzYsMjI3ODI4
-ODYsMjEzODQ4Nzg2LC0yOTU1MDE5MzYsLTIyMjEyMzAzNSwtMT
-A4MDUzNjU1NywxMTM5NTIxMCwtMzMzNzgxOTYxLDE3NTE3MTM5
-MzEsNjUzMDI5ODU4XX0=
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbMzk1NzkwODQ1LC0xODMwND
+QwMjE3LC00OTI5NzA3ODIsLTUyMjA3NzUxMiwxNjMxMzA4NDAz
+LDUwNTU3NDU1MCwtMjE1MTYxMDI1LC0xNTc0MjA5Nzg5LC0xNT
+UwNzQ3NjI3LC01NzYzNTg3NjYsMTk2ODUwMjc2LDIyNzgyODg2
+LDIxMzg0ODc4NiwtMjk1NTAxOTM2LC0yMjIxMjMwMzUsLTEwOD
+A1MzY1NTcsMTEzOTUyMTAsLTMzMzc4MTk2MSwxNzUxNzEzOTMx
+LDY1MzAyOTg1OF19
 -->
