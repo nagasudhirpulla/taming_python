@@ -51,38 +51,22 @@ fig.tight_layout()
 fig.savefig("output.png")
 ```
 
+## Twin axis
 
-As shown above the spines/axis lines of an axes handle `ax` can be controlled by `ax.spines`
+-   Twin axis can be used to visually depict patterns or correlation between two plots even if they are of different scales
+-   Twin axis can be used to display two plots with different scales so that both the plots are aligned
+-   In the above example, the sales data and temperature data are shown on different axis. A new axis for showing temperature data is created using the `twinx` function.
 
-If we want the axis lines to be intersecting at center of the subplot instead of (0,0). 
+## Secondary Y axis
 
-In such case we can use the following 
-```python
-ax.spines['left'].set_position('center')
-ax.spines['bottom'].set_position('center')
-```
-The output would be like the image below
-![matplotlib_center_axes_demo](https://github.com/nagasudhirpulla/taming_python/raw/master/blog/skills/assets/img/matplotlib_center_axes_demo.PNG)
+-   A secondary Y axis can be derived from an existing axis using conversion functions
+-   As shown in the example, a Fahrenheit axis can be derived from Celsius axis
+-   The conversion functions for primary to secondary axis values and secondary to primary axis values are to be mentioned
 
-### Video
-You can the video on this post [here](https://youtu.be/qzFOFP1hxvg)
+## References
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qzFOFP1hxvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<hr/>
-
-### Online Interpreter
-Although we recommend to practice the above examples in Visual Studio Code, you can run these examples online at https://pynative.com/online-python-code-editor-to-execute-python-code/
-
-### References
-* Solution from stackoverflow post - https://stackoverflow.com/questions/31556446/how-to-draw-axis-in-the-middle-of-the-figure
-* Spine placement demo - https://matplotlib.org/3.1.0/gallery/ticks_and_spines/spine_placement_demo.html
-
-<hr/>
-
-[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
-
-
-
+-   Twinx function matplotlib - [](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx)[https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx)
+-   Secondary y axis matplotlib - [](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis)[https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjgyMzMzMCw0NTAzNzQ4MDZdfQ==
+eyJoaXN0b3J5IjpbMTc1MjAzNDc5Nyw0NTAzNzQ4MDZdfQ==
 -->
