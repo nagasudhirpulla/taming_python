@@ -34,7 +34,7 @@ ax1.tick_params(axis='y', labelcolor=color)
 
 # conversion functions for fahrenheit axes
 def celsius_to_fahrenheit(x):
-    return x * 1.8 + 32  # x is of type numpy.ndarray
+    return x * 1.8 + 32  # x is of type numpy.ndarray, like array([18.75, 24.25])
 
 def fahrenheit_to_celsius(x):
     return (x - 32) / 1.8
@@ -76,6 +76,6 @@ fig.savefig("output.png")
 -   Twinx function matplotlib - [](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx)[https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx)
 -   Secondary y axis matplotlib - [](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis)[https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDYwODU5ODYsLTIwMzI4NzQ3MjEsND
-UwMzc0ODA2XX0=
+eyJoaXN0b3J5IjpbLTE5MjY1NTQxOSwtMjAzMjg3NDcyMSw0NT
+AzNzQ4MDZdfQ==
 -->
