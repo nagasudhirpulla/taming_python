@@ -8,9 +8,7 @@
 
 <hr/>
 
-**Matplotlib** is a plotting library tn the scipy ecosystem of libraries.
-
-<hr/>
+## Demo output
 
 ![matplotlib_secondary_axis_twinx_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/matplotlib_secondary_axis_twinx_demo.png?raw=true)
 
@@ -70,5 +68,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3MTc2MTFdfQ==
+eyJoaXN0b3J5IjpbNDUwMzc0ODA2XX0=
 -->
