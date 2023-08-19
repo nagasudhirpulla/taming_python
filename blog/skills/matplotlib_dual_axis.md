@@ -1,23 +1,16 @@
 ## Secondary axis and twin axis in python matplotlib plots
+
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
+
 #### Skills Required
-* [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
-* [Basic Printing in Python](https://nagasudhir.blogspot.com/2020/04/basic-printing-in-python.html)
-* [Commenting in Python](https://nagasudhir.blogspot.com/2020/04/comments-in-python.html)
-* [Managing Variables in python](https://nagasudhir.blogspot.com/2020/04/managing-variables-in-python.html)
 * [Introduction to Matplotlib plotting library](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 * [Styling Matplotlib plots](https://nagasudhir.blogspot.com/2020/05/styling-matplotlib-plots.html)
-
-Please make sure to have all the skills mentioned above to understand and execute the code mentioned below. Go through the above skills if necessary for reference or revision
 
 <hr/>
 
 **Matplotlib** is a plotting library tn the scipy ecosystem of libraries.
 
-Please make sure that you covered the [post on basics](https://nagasudhir.blogspot.com/2020/05/intro-to-matplotlib.html)
 <hr/>
-
-Sometimes we may require to have the main axis lines to be intersecting at (0,0) of the subplot. We will control the positioning of `spines` to achieve this.
 
 ```python
 import matplotlib.pyplot as plt
@@ -76,5 +69,5 @@ Although we recommend to practice the above examples in Visual Studio Code, you 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODcwMTc5MjddfQ==
+eyJoaXN0b3J5IjpbNjYxOTEzMjc3XX0=
 -->
