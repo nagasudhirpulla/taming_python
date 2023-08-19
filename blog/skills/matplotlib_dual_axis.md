@@ -8,7 +8,7 @@
 
 <hr/>
 
-## Demo output
+## Demo
 
 ![matplotlib_secondary_axis_twinx_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/matplotlib_secondary_axis_twinx_demo.png?raw=true)
 ## Sample code
@@ -77,6 +77,6 @@ fig.savefig("output.png")
 -   Twinx function matplotlib - [](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx)[https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx)
 -   Secondary y axis matplotlib - [](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis)[https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDA1NTc4MiwtMjAzMjg3NDcyMSw0NT
-AzNzQ4MDZdfQ==
+eyJoaXN0b3J5IjpbLTk4OTQzOTA5NSwtOTgwMDU1NzgyLC0yMD
+MyODc0NzIxLDQ1MDM3NDgwNl19
 -->
