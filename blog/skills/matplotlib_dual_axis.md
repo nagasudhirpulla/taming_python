@@ -60,7 +60,7 @@ fig.savefig("output.png")
 ## Secondary Y axis
 
 -   A secondary Y axis can be derived from an existing axis using conversion functions
--   As shown in the example, a Fahrenheit axis can be derived from Celsius axis
+-   As shown in the example, a Fahrenheit axis can be derived from Celsius axis using the `secondary_yaxis` funcion
 -   The conversion functions for primary to secondary axis values and secondary to primary axis values are to be mentioned
 
 ## References
@@ -68,5 +68,5 @@ fig.savefig("output.png")
 -   Twinx function matplotlib - [](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx)[https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx)
 -   Secondary y axis matplotlib - [](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis)[https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MjAzNDc5Nyw0NTAzNzQ4MDZdfQ==
+eyJoaXN0b3J5IjpbMTQ5ODY3NDMsNDUwMzc0ODA2XX0=
 -->
