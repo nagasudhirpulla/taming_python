@@ -72,11 +72,16 @@ fig.savefig("output.png")
 - The position of the secondary axis with respect to the existing axis is to be mentioned (In this example, it is mentioned as -0.25)
 -   The conversion functions for primary to secondary axis values and secondary to primary axis values are to be mentioned
 
+### Video
+You can the video on this post [here](https://youtu.be/fuI0DLFBPjA)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fuI0DLFBPjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## References
 
 -   Twinx function matplotlib - [](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx)[https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.twinx.html#matplotlib-axes-axes-twinx)
 -   Secondary y axis matplotlib - [](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis)[https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis](https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.secondary_yaxis.html#matplotlib.axes.Axes.secondary_yaxis)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4OTQzOTA5NSwtOTgwMDU1NzgyLC0yMD
-MyODc0NzIxLDQ1MDM3NDgwNl19
+eyJoaXN0b3J5IjpbLTY5MTgxNzY4NCwtOTg5NDM5MDk1LC05OD
+AwNTU3ODIsLTIwMzI4NzQ3MjEsNDUwMzc0ODA2XX0=
 -->
