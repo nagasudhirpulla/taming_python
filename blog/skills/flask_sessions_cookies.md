@@ -18,7 +18,7 @@ Go through the above skills if necessary for reference or revision
 ## Cookie
 
 ![cookies_working.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/cookies_working.png?raw=true)
--   Cookies are set by the server in the browser. Hence the cookies are stored in the browser
+-   Cookies are set by the server and stored in the browser
 -   Since Cookies are stored as plain text in the browser, they can be tampered by malicious actors
 -   Cookie can be set by the server by adding the `Set-Cookie` header in the response. For example, the server can send a response header with cookie like `Set-Cookie: theme=dark` . This will set a cookie in the browser named `theme` with a value `dark` for the website
 -   Once a cookie is set, it will be attached in the subsequent requests in the `Cookie` request header
@@ -130,5 +130,5 @@ if __name__ == '__main__':
 -   Flask-Session module docs - https://flask-session.readthedocs.io/en/latest/quickstart.htm
 -   https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5MjQ2NjY2LC03NDAyMjI3MTNdfQ==
+eyJoaXN0b3J5IjpbLTY1NjE2Njc3NCwtNzQwMjIyNzEzXX0=
 -->
