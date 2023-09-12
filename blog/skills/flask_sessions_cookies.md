@@ -80,6 +80,7 @@ if __name__ == '__main__':
 
 ## Default Sessions Implementation in Flask
 
+![flask_session_module_working.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/flask_session_module_working.png?raw=true)
 -   Sessions are implemented as a signed cookies in flask. That means the whole session data is stored in the browser as a cookie.
 -   However, the session cookie is signed cryptographically with the server secret key. So the server can easily detect if a session is tampered in the session cookie using the signature
 -   Since the whole session data is visible in the browser cookie, secret and sensitive information should not be stored in flask sessions
@@ -129,5 +130,5 @@ if __name__ == '__main__':
 -   [](https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce)[https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce](https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce)
 -   Flask-Session docs - [](https://flask-session.readthedocs.io/en/latest/quickstart.html)[https://flask-session.readthedocs.io/en/latest/quickstart.htm](https://flask-session.readthedocs.io/en/latest/quickstart.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjExMDA0OSwtNzQwMjIyNzEzXX0=
+eyJoaXN0b3J5IjpbMTI1MTkwNzg2NSwtNzQwMjIyNzEzXX0=
 -->
