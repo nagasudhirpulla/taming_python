@@ -162,6 +162,7 @@ Here are the goals and skills in this tutorial series
 * [Integrate swagger and model validation to flask APIs with flask-restx](https://nagasudhir.blogspot.com/2023/03/integrate-swagger-and-many-other.html)
 * [Render folium maps in python flask server](https://nagasudhir.blogspot.com/2023/07/render-folium-maps-in-python-flask.html)
 * [Implement flask server and python client for OAuth 2.0 client credentials flow](https://nagasudhir.blogspot.com/2023/04/implement-flask-server-and-python.html)
+* [Sessions and cookies in flask](https://nagasudhir.blogspot.com/2023/09/sessions-and-cookies-in-flask.html)
 
 #### OAuth 2.0
 * [OAuth 2.0 for centralized Authorization and Authentication of users and applications](https://nagasudhir.blogspot.com/2023/03/oauth-20-for-centralized-authorization.html)
@@ -182,7 +183,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbMzk1NzkwODQ1LC0xODMwND
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbNTk2NzMwNzI4LC0xODMwND
 QwMjE3LC00OTI5NzA3ODIsLTUyMjA3NzUxMiwxNjMxMzA4NDAz
 LDUwNTU3NDU1MCwtMjE1MTYxMDI1LC0xNTc0MjA5Nzg5LC0xNT
 UwNzQ3NjI3LC01NzYzNTg3NjYsMTk2ODUwMjc2LDIyNzgyODg2
