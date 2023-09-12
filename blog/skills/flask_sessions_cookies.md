@@ -48,6 +48,7 @@ if __name__ == '__main__':
 
 ## Session
 
+![sessions_working.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/sessions_working.png?raw=true)
 -   Sessions are used store data across requests at the server-side.
 -   Sessions are more secure compared to cookies since data is stored in the server
 -   Once a session is created, it will be assigned a unique id. This session id will be set as a cookie in the browser by the server. During the subsequent requests, the request session data will be retrieved by the server by looking up the session id
@@ -128,5 +129,5 @@ if __name__ == '__main__':
 -   [](https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce)[https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce](https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce)
 -   Flask-Session docs - [](https://flask-session.readthedocs.io/en/latest/quickstart.html)[https://flask-session.readthedocs.io/en/latest/quickstart.htm](https://flask-session.readthedocs.io/en/latest/quickstart.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTI5MDc4MywtNzQwMjIyNzEzXX0=
+eyJoaXN0b3J5IjpbMTkxMjExMDA0OSwtNzQwMjIyNzEzXX0=
 -->
