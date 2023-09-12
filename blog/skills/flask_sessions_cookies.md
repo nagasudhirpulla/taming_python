@@ -124,11 +124,11 @@ if __name__ == '__main__':
 
 ## References
 
--   [](https://www.javatpoint.com/session-vs-cookies)[https://www.javatpoint.com/session-vs-cookies](https://www.javatpoint.com/session-vs-cookies)
--   Flask sessions docs - [](https://flask.palletsprojects.com/en/2.3.x/quickstart/#sessions)[https://flask.palletsprojects.com/en/2.3.x/quickstart/#sessions](https://flask.palletsprojects.com/en/2.3.x/quickstart/#sessions)
--   Flask cookies docs - [](https://flask.palletsprojects.com/en/2.3.x/quickstart/#cookies)[https://flask.palletsprojects.com/en/2.3.x/quickstart/#cookies](https://flask.palletsprojects.com/en/2.3.x/quickstart/#cookies)
--   [](https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce)[https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce](https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce)
--   Flask-Session docs - [](https://flask-session.readthedocs.io/en/latest/quickstart.html)[https://flask-session.readthedocs.io/en/latest/quickstart.htm](https://flask-session.readthedocs.io/en/latest/quickstart.htm)
+-   https://www.javatpoint.com/session-vs-cookies
+-   Flask sessions docs - https://flask.palletsprojects.com/en/2.3.x/quickstart/#sessions
+-   Flask cookies docs - https://flask.palletsprojects.com/en/2.3.x/quickstart/#cookies
+-   https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce
+-   Flask-Session module docs - https://flask-session.readthedocs.io/en/latest/quickstart.htm](https://flask-session.readthedocs.io/en/latest/quickstart.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTkwNzg2NSwtNzQwMjIyNzEzXX0=
+eyJoaXN0b3J5IjpbNjMwMTkwNzQ5LC03NDAyMjI3MTNdfQ==
 -->
