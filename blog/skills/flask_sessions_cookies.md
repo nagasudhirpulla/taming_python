@@ -1,4 +1,4 @@
-Sessions and cookies in flask
+## Sessions and cookies in flask
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 #### Skills Required
@@ -124,5 +124,5 @@ if __name__ == '__main__':
 -   [](https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce)[https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce](https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce)
 -   Flask-Session docs - [](https://flask-session.readthedocs.io/en/latest/quickstart.html)[https://flask-session.readthedocs.io/en/latest/quickstart.htm](https://flask-session.readthedocs.io/en/latest/quickstart.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzgxMTE2ODddfQ==
+eyJoaXN0b3J5IjpbNDAyMTQ0NTNdfQ==
 -->
