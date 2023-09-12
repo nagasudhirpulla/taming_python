@@ -1,6 +1,10 @@
 
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
+#### Skills Required
+* [Setup python development environment](https://nagasudhir.blogspot.com/2020/04/setup-python-development-environment_14.html)
+* [Flask python module introduction](https://nagasudhir.blogspot.com/2022/04/flask-python-module-introduction-for.html)
+
 -   HTTP protocol is stateless, i.e., each request does not have any context about the previous request
 -   Cookies and sessions are used by the servers to store data across different pages of the website
 
@@ -116,5 +120,5 @@ if __name__ == '__main__':
 -   [](https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce)[https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce](https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce)
 -   Flask-Session docs - [](https://flask-session.readthedocs.io/en/latest/quickstart.html)[https://flask-session.readthedocs.io/en/latest/quickstart.htm](https://flask-session.readthedocs.io/en/latest/quickstart.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Njc2ODIyN119
+eyJoaXN0b3J5IjpbLTExMDIwMjA1MF19
 -->
