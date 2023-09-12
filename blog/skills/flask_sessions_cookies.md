@@ -128,7 +128,7 @@ if __name__ == '__main__':
 -   Flask sessions docs - https://flask.palletsprojects.com/en/2.3.x/quickstart/#sessions
 -   Flask cookies docs - https://flask.palletsprojects.com/en/2.3.x/quickstart/#cookies
 -   https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce
--   Flask-Session module docs - https://flask-session.readthedocs.io/en/latest/quickstart.htm](https://flask-session.readthedocs.io/en/latest/quickstart.htm)
+-   Flask-Session module docs - https://flask-session.readthedocs.io/en/latest/quickstart.htm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwMTkwNzQ5LC03NDAyMjI3MTNdfQ==
+eyJoaXN0b3J5IjpbLTEyNjIyODM0NjUsLTc0MDIyMjcxM119
 -->
