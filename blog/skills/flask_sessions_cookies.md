@@ -9,7 +9,7 @@ Go through the above skills if necessary for reference or revision
 
 <hr/>
 
-## Why are Cookies and Sessions used
+## Why Cookies and Sessions
 
 ![http_is_stateless.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/http_is_stateless.png?raw=true)
 -   HTTP protocol is stateless, i.e., each request does not have any context about the previous request
@@ -130,5 +130,5 @@ if __name__ == '__main__':
 -   Flask-Session module docs - https://flask-session.readthedocs.io/en/latest/quickstart.htm
 -   https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDA2NDg4MSwtNzQwMjIyNzEzXX0=
+eyJoaXN0b3J5IjpbMzE5MjQ2NjY2LC03NDAyMjI3MTNdfQ==
 -->
