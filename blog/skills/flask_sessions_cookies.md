@@ -12,12 +12,12 @@ Go through the above skills if necessary for reference or revision
 ## Why are Cookies and Sessions used
 
 ![http_is_stateless.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/http_is_stateless.png?raw=true)
-
 -   HTTP protocol is stateless, i.e., each request does not have any context about the previous request
 -   Cookies and sessions are used by the servers to store data across different pages of the website
 
 ## Cookie
 
+![cookies_working.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/cookies_working.png?raw=true)
 -   Cookies are set by the server in the browser. Hence the cookies are stored in the browser
 -   Since Cookies are stored as plain text in the browser, they can be tampered by malicious actors
 -   Cookie can be set by the server by adding the `Set-Cookie` header in the response. For example, the server can send a response header with cookie like `Set-Cookie: theme=dark` . This will set a cookie in the browser named `theme` with a value `dark` for the website
@@ -128,5 +128,5 @@ if __name__ == '__main__':
 -   [](https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce)[https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce](https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce)
 -   Flask-Session docs - [](https://flask-session.readthedocs.io/en/latest/quickstart.html)[https://flask-session.readthedocs.io/en/latest/quickstart.htm](https://flask-session.readthedocs.io/en/latest/quickstart.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQxODU2NDEsLTc0MDIyMjcxM119
+eyJoaXN0b3J5IjpbLTYyMTI5MDc4MywtNzQwMjIyNzEzXX0=
 -->
