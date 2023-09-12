@@ -8,7 +8,7 @@ Go through the above skills if necessary for reference or revision
 
 <hr/>
 
-## Why are Cookies or Sessions used
+## Why are Cookies and Sessions used
 -   HTTP protocol is stateless, i.e., each request does not have any context about the previous request
 -   Cookies and sessions are used by the servers to store data across different pages of the website
 
@@ -124,5 +124,5 @@ if __name__ == '__main__':
 -   [](https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce)[https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce](https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce)
 -   Flask-Session docs - [](https://flask-session.readthedocs.io/en/latest/quickstart.html)[https://flask-session.readthedocs.io/en/latest/quickstart.htm](https://flask-session.readthedocs.io/en/latest/quickstart.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTYzMDM3MF19
+eyJoaXN0b3J5IjpbLTE4NjM3NzU1MjBdfQ==
 -->
