@@ -122,6 +122,11 @@ if __name__ == '__main__':
 
 -   Other session storage approaches like redis, memcached, sqlalchemy, mongodb can also be used
 
+### Video
+The video for this post can be seen [here](https://youtu.be/Y4qHNcl4f0Y?si=d7KyaCcFxuLsllKd)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G4Tng6666SI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## References
 
 -   https://www.javatpoint.com/session-vs-cookies
@@ -130,5 +135,6 @@ if __name__ == '__main__':
 -   Flask-Session module docs - https://flask-session.readthedocs.io/en/latest/quickstart.htm
 -   https://blog.paradoxis.nl/defeating-flasks-session-management-65706ba9d3ce
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjE2Njc3NCwtNzQwMjIyNzEzXX0=
+eyJoaXN0b3J5IjpbMjE0MTYxODYzNSwtNjU2MTY2Nzc0LC03ND
+AyMjI3MTNdfQ==
 -->
