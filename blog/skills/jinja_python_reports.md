@@ -1,4 +1,4 @@
-Automated reports with rich styling and interactivity using python and jinja2 HTML templates
+## Automated reports with rich styling and interactivity using python and jinja2 HTML templates
 
 ## Jinja templates
 
@@ -553,5 +553,5 @@ Plotly.newPlot('revenueBarChart', data);
 -   [](https://linlinzhao.com/tech/2021/01/20/jinja-report.html)[https://linlinzhao.com/tech/2021/01/20/jinja-report.html](https://linlinzhao.com/tech/2021/01/20/jinja-report.html)
 -   [](https://stackoverflow.com/a/70881619/2746323)[https://stackoverflow.com/a/70881619/2746323](https://stackoverflow.com/a/70881619/2746323)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTIxNDM3XX0=
+eyJoaXN0b3J5IjpbLTM4Njg0MDYxNV19
 -->
