@@ -1,5 +1,8 @@
 ## Automated reports using python and jinja2 HTML templates
+
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
+
+<hr/>
 
 ## Jinja templates
 
@@ -554,5 +557,5 @@ Plotly.newPlot('revenueBarChart', data);
 -   [](https://linlinzhao.com/tech/2021/01/20/jinja-report.html)[https://linlinzhao.com/tech/2021/01/20/jinja-report.html](https://linlinzhao.com/tech/2021/01/20/jinja-report.html)
 -   [](https://stackoverflow.com/a/70881619/2746323)[https://stackoverflow.com/a/70881619/2746323](https://stackoverflow.com/a/70881619/2746323)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4MzQyODRdfQ==
+eyJoaXN0b3J5IjpbMTI4MjgwMjUwN119
 -->
