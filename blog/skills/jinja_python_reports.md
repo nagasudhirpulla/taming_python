@@ -236,7 +236,7 @@ with open(reportPath, mode='w') as f:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Report for {{reportDtStr}}</title>
-    <link href="<https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css>" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- <style>
         {{bootstrapCss}}
     </style> -->
@@ -290,7 +290,7 @@ with open(reportPath, mode='w') as f:
     <p style="page-break-after: always;">&nbsp;</p>
     <h2>Revenue Bar Chart</h2>
     <img class="img-fluid" src="data:image/jpeg;base64, {{salesBarChartImg}}" alt="Revenue Bar Chart Image">
-    <script src="<https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js>"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- <script type="text/application">
         {{bootstrapJs}}
     </script> -->
@@ -345,8 +345,8 @@ context = {
     "salesBarChartImg": plotImgStr,
     "logoImg": logoImg,
     # "templatesFolderPath": pathlib.Path(os.path.abspath("templates")).as_uri(),
-    # "bootstrapCss": requests.get("<https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css>").text,
-    # "bootstrapJs": requests.get("<https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js>").text
+    # "bootstrapCss": requests.get("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css").text,
+    # "bootstrapJs": requests.get("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js").text
 }
 
 # Step 2 - create jinja template object from file
@@ -377,7 +377,7 @@ with open(reportPath) as f:
 
 -   The HTML template in the above example uses bootstrap for CSS styling framework
 -   The CSS and JS links can be local filesystem URLs (like `file:///C:/Users/James/jinja_python_reports/templates/bootstrap.min.css`) or external web URLs (like `https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css`)
--   To remove the dependency of external links from generated reports, the CSS and JS can be injected using style and script tags. For example the content of bootstrap CSS can be set a jinja variable string in python using `bootstrapCss = requests.get("<https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css>").text` and this content can be injected into the generated HTML using style tag as shown below. But while injecting external libraries, the autoescape option of jinja environment needs to be set to `False`
+-   To remove the dependency of external links from generated reports, the CSS and JS can be injected using style and script tags. For example the content of bootstrap CSS can be set a jinja variable string in python using `bootstrapCss = requests.get("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css").text` and this content can be injected into the generated HTML using style tag as shown below. But while injecting external libraries, the autoescape option of jinja environment needs to be set to `False`
 
 ```html
 <style>
@@ -469,7 +469,7 @@ with open(reportPath, mode='w') as f:
             padding: 0.25em;
         }
     </style>
-    <script src="<https://cdn.plot.ly/plotly-2.26.0.min.js>" charset="utf-8"></script>
+    <script src="https://cdn.plot.ly/plotly-2.26.0.min.js" charset="utf-8"></script>
 </head>
 
 <body class="container">
@@ -555,5 +555,5 @@ Plotly.newPlot('revenueBarChart', data);
 -   [](https://linlinzhao.com/tech/2021/01/20/jinja-report.html)[https://linlinzhao.com/tech/2021/01/20/jinja-report.html](https://linlinzhao.com/tech/2021/01/20/jinja-report.html)
 -   [](https://stackoverflow.com/a/70881619/2746323)[https://stackoverflow.com/a/70881619/2746323](https://stackoverflow.com/a/70881619/2746323)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE4NzkzNjJdfQ==
+eyJoaXN0b3J5IjpbNzE1MzYwNzA4LC0xNzYxODc5MzYyXX0=
 -->
