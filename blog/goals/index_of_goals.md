@@ -176,6 +176,7 @@ Here are the goals and skills in this tutorial series
 
 #### Elasticsearch
 * [Elasticsearch database concepts](https://nagasudhir.blogspot.com/2023/08/elasticsearch-database-concepts.html)
+* [](https://nagasudhir.blogspot.com/2023/09/setup-elasticsearch-in-windows.html)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IFRhbWluZyBweXRob24gVG
 FibGUgb2YgQ29udGVudHNcbmF1dGhvcjogTmFnYXN1ZGhpciBQ
@@ -183,11 +184,11 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbNTk2NzMwNzI4LC0xODMwND
-QwMjE3LC00OTI5NzA3ODIsLTUyMjA3NzUxMiwxNjMxMzA4NDAz
-LDUwNTU3NDU1MCwtMjE1MTYxMDI1LC0xNTc0MjA5Nzg5LC0xNT
-UwNzQ3NjI3LC01NzYzNTg3NjYsMTk2ODUwMjc2LDIyNzgyODg2
-LDIxMzg0ODc4NiwtMjk1NTAxOTM2LC0yMjIxMjMwMzUsLTEwOD
-A1MzY1NTcsMTEzOTUyMTAsLTMzMzc4MTk2MSwxNzUxNzEzOTMx
-LDY1MzAyOTg1OF19
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE4MDcxNTYwNDAsNTk2Nz
+MwNzI4LC0xODMwNDQwMjE3LC00OTI5NzA3ODIsLTUyMjA3NzUx
+MiwxNjMxMzA4NDAzLDUwNTU3NDU1MCwtMjE1MTYxMDI1LC0xNT
+c0MjA5Nzg5LC0xNTUwNzQ3NjI3LC01NzYzNTg3NjYsMTk2ODUw
+Mjc2LDIyNzgyODg2LDIxMzg0ODc4NiwtMjk1NTAxOTM2LC0yMj
+IxMjMwMzUsLTEwODA1MzY1NTcsMTEzOTUyMTAsLTMzMzc4MTk2
+MSwxNzUxNzEzOTMxXX0=
 -->
