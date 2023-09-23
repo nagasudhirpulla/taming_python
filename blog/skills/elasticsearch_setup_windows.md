@@ -42,9 +42,9 @@
 
 ## Change the folder where data is stored
 * By default Elasticsearch data is stored in the data folder of Elasticsearch folder
-* Additional data folders or modification of exisiting data folder can be done using the `elasticsearch.yml` file  
+* Additional data folders or modification of existing data folder can be done using the `elasticsearch.yml` file  
 * Open `elasticsearch.yml` file in the config folder of Elasticsearch folder
-* 
+* Search for `path.data` and set it to a single data folder or multiple data folder paths. For example, you can write  `path.data: C:\elasticsearch-8.10.2\data` or 
 
 ## Set the memory limit of Elasticsearch windows service
 
@@ -76,5 +76,5 @@
 - Elasticsearch configuration official docs - [https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html)
 - difference between http.host and network.host in Elasticsearch configuration - [https://discuss.elastic.co/t/difference-between-network-host-transport-host-and-http-host-settings/308215/2](https://discuss.elastic.co/t/difference-between-network-host-transport-host-and-http-host-settings/308215/2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE0NzE2NTQsMTk0MDQxNzQzMV19
+eyJoaXN0b3J5IjpbMzM1NTg0MzM5LDE5NDA0MTc0MzFdfQ==
 -->
