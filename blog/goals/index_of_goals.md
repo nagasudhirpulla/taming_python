@@ -1,8 +1,6 @@
 ## Welcome to Taming Python tutorial series
 The motivation for this tutorial series can be found [here](https://nagasudhir.blogspot.com/2020/04/intro-to-taming-python-series_99.html)
 
-Here are the goals and skills in this tutorial series
-
 ## Table of Contents
 
 #### Setup for working with python
@@ -184,7 +182,7 @@ dWxsYVxuZGF0ZTogJzIwMjAtMDQtMTUnXG50YWdzOiAncHl0aG
 9uLCBsZWFybmluZywgdHV0b3JpYWwsIHRhbWluZ19weXRob25f
 Z29hbCwgdGFtaW5nX3B5dGhvbl9za2lsbCdcbmNhdGVnb3JpZX
 M6ICd0YW1pbmdfcHl0aG9uX2dvYWwsIHRhbWluZ19weXRob25f
-c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTE3NDI3OTU4OTQsNTk2Nz
+c2tpbGwnXG4iLCJoaXN0b3J5IjpbLTIxMjk3NjUyMzIsNTk2Nz
 MwNzI4LC0xODMwNDQwMjE3LC00OTI5NzA3ODIsLTUyMjA3NzUx
 MiwxNjMxMzA4NDAzLDUwNTU3NDU1MCwtMjE1MTYxMDI1LC0xNT
 c0MjA5Nzg5LC0xNTUwNzQ3NjI3LC01NzYzNTg3NjYsMTk2ODUw
