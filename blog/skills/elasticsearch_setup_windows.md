@@ -1,6 +1,5 @@
 # Setup Elasticsearch in Windows
 
-
 [Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 ### Prerequisites
@@ -71,5 +70,5 @@
 - Elasticsearch configuration official docs - [https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html)
 - difference between http.host and network.host in Elasticsearch configuration - [https://discuss.elastic.co/t/difference-between-network-host-transport-host-and-http-host-settings/308215/2](https://discuss.elastic.co/t/difference-between-network-host-transport-host-and-http-host-settings/308215/2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMDEzOTUyNV19
+eyJoaXN0b3J5IjpbMTk0MDQxNzQzMV19
 -->
