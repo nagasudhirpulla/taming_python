@@ -40,6 +40,10 @@
 - Enter the username and password of the ***elastic*** user
 - Elasticsearch database details should be displayed. This means that the database is running with the desired ***elastic*** user credentials
 
+## Change the folder where data is stored
+* By default Elasticsearch data is stored in the data folder of Elasticsearch folder
+* Additional data folders or modification of exi 
+
 ## Set the memory limit of Elasticsearch windows service
 
 - By default only 1 GB is allotted to elasticsearch windows service which can result in errors while running multiple queries or large data queries.
@@ -70,5 +74,5 @@
 - Elasticsearch configuration official docs - [https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html)
 - difference between http.host and network.host in Elasticsearch configuration - [https://discuss.elastic.co/t/difference-between-network-host-transport-host-and-http-host-settings/308215/2](https://discuss.elastic.co/t/difference-between-network-host-transport-host-and-http-host-settings/308215/2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDQxNzQzMV19
+eyJoaXN0b3J5IjpbLTEwNDcwOTU1MTYsMTk0MDQxNzQzMV19
 -->
