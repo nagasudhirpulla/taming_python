@@ -8,8 +8,9 @@
 
 <hr>
 
-- Elasticsearch database can be installed to run as a windows service like any other database like Oracle or PostgreSQL
 - In this post we will setup a simple single-node Elasticsearch database in windows using the Elasticsearch zip file
+- Elasticsearch database can be installed to run as a windows service like any other database like Oracle or PostgreSQL
+
 
 ## Step 1 - Download Elasticsearch
 
@@ -71,5 +72,5 @@
 - Elasticsearch configuration official docs - [https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html)
 - difference between http.host and network.host in Elasticsearch configuration - [https://discuss.elastic.co/t/difference-between-network-host-transport-host-and-http-host-settings/308215/2](https://discuss.elastic.co/t/difference-between-network-host-transport-host-and-http-host-settings/308215/2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQ1NjkyNTFdfQ==
+eyJoaXN0b3J5IjpbLTM1Nzg2MTE5N119
 -->
