@@ -70,11 +70,17 @@
 - Open `elasticsearch.yml` file in the config folder of Elasticsearch folder
 - Change http.port to the desired value if required
 
+### Video
+Video for this post can be found [here](https://youtu.be/MDEXYjKv7v4?si=cLNVFegRiEnSjUxU)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MDEXYjKv7v4?si=9xJuajC1Lf_fcLsT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### References
 
 - Elasticsearch official docs for installation - [https://www.elastic.co/guide/en/elasticsearch/reference/current/zip-windows.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/zip-windows.html)
 - Elasticsearch configuration official docs - [https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html)
 - difference between http.host and network.host in Elasticsearch configuration - [https://discuss.elastic.co/t/difference-between-network-host-transport-host-and-http-host-settings/308215/2](https://discuss.elastic.co/t/difference-between-network-host-transport-host-and-http-host-settings/308215/2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTEyMTc3OCwxOTQwNDE3NDMxXX0=
+eyJoaXN0b3J5IjpbLTc4NTU5NzQwMCwxMTA1MTIxNzc4LDE5ND
+A0MTc0MzFdfQ==
 -->
