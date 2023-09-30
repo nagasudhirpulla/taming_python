@@ -59,7 +59,7 @@ with sync_playwright() as p:
 The above script does the following
 
 -   Derive the URL of the HTML file to be printed
--   Open the HTML file in a playwright browser tab using the url
+-   Open the HTML file in a playwright browser tab using the URL
 -   Print the HTML page as a PDF and save it in the desired location
 
 ## References
@@ -67,5 +67,6 @@ The above script does the following
 -   Playwright docs - [https://playwright.dev/python/docs/intro](https://playwright.dev/python/docs/intro)
 -   Playwright `pdf` function - [https://playwright.dev/python/docs/api/class-page#page-pdf](https://playwright.dev/python/docs/api/class-page#page-pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTI3MjA1MCwtOTQ0Nzk0ODAxXX0=
+eyJoaXN0b3J5IjpbLTE4MTI0NDAzNjYsMTIwOTI3MjA1MCwtOT
+Q0Nzk0ODAxXX0=
 -->
