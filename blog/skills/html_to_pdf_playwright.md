@@ -62,11 +62,16 @@ The above script does the following
 -   Open the HTML file in a playwright browser tab using the URL
 -   Print the HTML page as a PDF and save it in the desired location
 
+### Video
+Video on this post can be seen [here](https://youtu.be/_L6ELUJN-9Q?si=Zel1XwhS9qACl90I)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_L6ELUJN-9Q?si=nfdzNgUb5dhPZHRn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## References
 
 -   Playwright docs - [https://playwright.dev/python/docs/intro](https://playwright.dev/python/docs/intro)
 -   Playwright `pdf` function - [https://playwright.dev/python/docs/api/class-page#page-pdf](https://playwright.dev/python/docs/api/class-page#page-pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTI0NDAzNjYsMTIwOTI3MjA1MCwtOT
-Q0Nzk0ODAxXX0=
+eyJoaXN0b3J5IjpbNjI5Nzg1MjU2LC0xODEyNDQwMzY2LDEyMD
+kyNzIwNTAsLTk0NDc5NDgwMV19
 -->
