@@ -1,4 +1,5 @@
 # HTML to PDF conversion in python with playwright
+
 -   We can convert a HTML to PDF by printing it in a browser window
 -   playwright python module for browser automation that can be used to automate the task of printing a HTML page to pdf in browser
 -   The required browser (like chromium, Firefox etc.) can also be installed using playwright
@@ -64,5 +65,5 @@ The above script does the following
 -   Playwright docs - [https://playwright.dev/python/docs/intro](https://playwright.dev/python/docs/intro)
 -   Playwright `pdf` function - [https://playwright.dev/python/docs/api/class-page#page-pdf](https://playwright.dev/python/docs/api/class-page#page-pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA1NDgwOTBdfQ==
+eyJoaXN0b3J5IjpbMTAyMTYzMjA4OF19
 -->
