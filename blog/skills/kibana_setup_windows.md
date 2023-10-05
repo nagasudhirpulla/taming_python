@@ -7,6 +7,8 @@
 -   Interactive dashboards with customizable visualizations like line chart, bar chart, pie chart, maps, heatmap etc. can be created with Kibana over Elasticsearch data
 -   Users can use Kibana to gain valuable insights on Elasticsearch data without any coding skills
 
+![elasticsearch_kibana_beats_dataflow.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/elasticsearch_kibana_beats_dataflow.png?raw=true)
+
 ## Download Kibana
 
 -   Kibana is basically a web server. It can be downloaded as a zip file
@@ -72,5 +74,5 @@
 -   Kibana install as service with sc command - [https://stackoverflow.com/questions/29261809/elastic-kibana-install-as-windows-service](https://stackoverflow.com/questions/29261809/elastic-kibana-install-as-windows-service)
 -   official Kibana learning videos - [https://www.elastic.co/videos/training-how-to-series-stack?elektra=kibana-dashboard&storm=hero](https://www.elastic.co/videos/training-how-to-series-stack?elektra=kibana-dashboard&storm=hero)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDI5MjcxNV19
+eyJoaXN0b3J5IjpbMTE1MDc1NDExMSwxNzgwMjkyNzE1XX0=
 -->
