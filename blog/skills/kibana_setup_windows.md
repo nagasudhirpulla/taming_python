@@ -1,3 +1,5 @@
+# Setup Kibana in windows
+
 ## What is Kibana
 
 -   Kibana is the data exploration and visualization tool for the Elasticsearch database
@@ -70,5 +72,5 @@
 -   Kibana install as service with sc command - [https://stackoverflow.com/questions/29261809/elastic-kibana-install-as-windows-service](https://stackoverflow.com/questions/29261809/elastic-kibana-install-as-windows-service)
 -   official Kibana learning videos - [https://www.elastic.co/videos/training-how-to-series-stack?elektra=kibana-dashboard&storm=hero](https://www.elastic.co/videos/training-how-to-series-stack?elektra=kibana-dashboard&storm=hero)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDE3MTMxN119
+eyJoaXN0b3J5IjpbMTc4MDI5MjcxNV19
 -->
