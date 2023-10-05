@@ -20,7 +20,7 @@
 
 ## Configure Kibana
 
--   Extract the Kibana zip file contents to C drive. For example `C:\\Kibana-8.10.2`
+-   Extract the Kibana zip file contents to C drive. For example `C:\Kibana-8.10.2`
 -   In the config folder, open `kibana.yml` file
 -   The following configurations can be done in the `kibana.yml` file
 
@@ -47,7 +47,7 @@
 
 ## Setup Kibana as a windows background service with nssm
 
--   Download nssm exe file from [https://nssm.cc/download](https://nssm.cc/download) and place it in C drive (Example: `C:\\nssm\\nssm.exe`)
+-   Download nssm exe file from [https://nssm.cc/download](https://nssm.cc/download) and place it in C drive (Example: `C:\nssm\nssm.exe`)
 -   Open a command line with administrative privilege in the folder with nssm.exe and run the command `nssm install kibana_service`. A popup will open to create a windows service.
 -   In the `Application` tab, Enter the path of kibana.bat and the folder of kibana.bat as shown below
 
@@ -74,6 +74,6 @@
 -   Kibana install as service with sc command - [https://stackoverflow.com/questions/29261809/elastic-kibana-install-as-windows-service](https://stackoverflow.com/questions/29261809/elastic-kibana-install-as-windows-service)
 -   official Kibana learning videos - [https://www.elastic.co/videos/training-how-to-series-stack?elektra=kibana-dashboard&storm=hero](https://www.elastic.co/videos/training-how-to-series-stack?elektra=kibana-dashboard&storm=hero)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTQzNDI5LDExNTA3NTQxMTEsMTc4MD
-I5MjcxNV19
+eyJoaXN0b3J5IjpbLTEyNDU5MDU1NDEsLTY3NTQzNDI5LDExNT
+A3NTQxMTEsMTc4MDI5MjcxNV19
 -->
