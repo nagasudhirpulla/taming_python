@@ -2,7 +2,7 @@
 
 ## What is Kibana
 
--   Kibana is the data exploration and visualization tool for the Elasticsearch database
+-   Kibana is the data exploration, visualization and administration tool for the Elasticsearch database
 -   Kibana for Elasticsearch is just like sqldeveloper for Oracle, pgAdmin for PostgreSQL, phpMyAdmin for MySQL
 -   Interactive dashboards with customizable visualizations like line chart, bar chart, pie chart, maps, heatmap etc. can be created with Kibana over Elasticsearch data
 -   Users can use Kibana to gain valuable insights on Elasticsearch data without any coding skills
@@ -74,5 +74,6 @@
 -   Kibana install as service with sc command - [https://stackoverflow.com/questions/29261809/elastic-kibana-install-as-windows-service](https://stackoverflow.com/questions/29261809/elastic-kibana-install-as-windows-service)
 -   official Kibana learning videos - [https://www.elastic.co/videos/training-how-to-series-stack?elektra=kibana-dashboard&storm=hero](https://www.elastic.co/videos/training-how-to-series-stack?elektra=kibana-dashboard&storm=hero)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDc1NDExMSwxNzgwMjkyNzE1XX0=
+eyJoaXN0b3J5IjpbLTY3NTQzNDI5LDExNTA3NTQxMTEsMTc4MD
+I5MjcxNV19
 -->
