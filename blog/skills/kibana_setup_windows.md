@@ -66,6 +66,11 @@
 -   Right click on the service and open the properties to change the startup type as **Automatic** to make the Kibana service run automatically upon system startup
 -   Verify if Kibana is running in the browser (say `localhost:5601`)
 
+### Video
+You can see the video for this post [here](https://youtu.be/utpIFNkAJhA?si=Gg7FJwh57G09WfXh)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/utpIFNkAJhA?si=Q6pwp8-1X2vBa2Mh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## References
 
 -   Kibana installation guide - [https://www.elastic.co/guide/en/kibana/current/windows.html](https://www.elastic.co/guide/en/kibana/current/windows.html)
@@ -74,6 +79,6 @@
 -   Kibana install as service with sc command - [https://stackoverflow.com/questions/29261809/elastic-kibana-install-as-windows-service](https://stackoverflow.com/questions/29261809/elastic-kibana-install-as-windows-service)
 -   official Kibana learning videos - [https://www.elastic.co/videos/training-how-to-series-stack?elektra=kibana-dashboard&storm=hero](https://www.elastic.co/videos/training-how-to-series-stack?elektra=kibana-dashboard&storm=hero)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDU5MDU1NDEsLTY3NTQzNDI5LDExNT
-A3NTQxMTEsMTc4MDI5MjcxNV19
+eyJoaXN0b3J5IjpbLTE3MTQ2MDk4OTYsLTEyNDU5MDU1NDEsLT
+Y3NTQzNDI5LDExNTA3NTQxMTEsMTc4MDI5MjcxNV19
 -->
