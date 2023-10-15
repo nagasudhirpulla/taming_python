@@ -196,6 +196,10 @@ output.elasticsearch:
 ![https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Kibana Index Management page.png?raw=true](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Kibana%20Index%20Management%20page.png?raw=true)
 
 ![https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Kibana Index template editing page.png?raw=true](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Kibana%20Index%20template%20editing%20page.png?raw=true)
+### Video
+Video on this post can be seen [here](https://youtu.be/sj4XF0ZRY-g?si=8FSInMc1XdJlx2W3)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sj4XF0ZRY-g?si=8FSInMc1XdJlx2W3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## References
 
@@ -203,5 +207,5 @@ output.elasticsearch:
 -   Elasticsearch connectivity options in heartbeat.yml - [https://www.elastic.co/guide/en/beats/heartbeat/current/elasticsearch-output.html](https://www.elastic.co/guide/en/beats/heartbeat/current/elasticsearch-output.html)
 -   heartbeat yml reference configuration - [https://www.elastic.co/guide/en/beats/heartbeat/current/heartbeat-reference-yml.html](https://www.elastic.co/guide/en/beats/heartbeat/current/heartbeat-reference-yml.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDk0NjI2MSwtODgwODgzMjc3XX0=
+eyJoaXN0b3J5IjpbLTEzMDMzMDMzMzIsLTg4MDg4MzI3N119
 -->
