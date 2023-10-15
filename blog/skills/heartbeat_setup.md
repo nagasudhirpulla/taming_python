@@ -122,7 +122,7 @@ output.elasticsearch:
   enabled: true
   schedule: '@every 5s' # every 5 seconds from start of beat
   
-  hosts: ["<https://example.com>"]
+  hosts: ["https://example.com"]
 
   # Ping all resolvable IPs if `mode` is `all`, or only one IP if `mode` is `any`.
   ipv4: true
@@ -141,7 +141,7 @@ output.elasticsearch:
   name: "Site 1"
   enabled: true
   schedule: '@every 300s'
-  hosts: ["<https://example.com>"]
+  hosts: ["https://example.com"]
   ipv4: true
   ipv6: false
   mode: any
@@ -152,7 +152,7 @@ output.elasticsearch:
   name: "Site 2"
   enabled: true
   schedule: '@every 300s'
-  hosts: ["<https://www.google.com>"]
+  hosts: ["https://www.google.com"]
   ipv4: true
   ipv6: false
   mode: any
@@ -203,5 +203,5 @@ output.elasticsearch:
 -   Elasticsearch connectivity options in heartbeat.yml - [https://www.elastic.co/guide/en/beats/heartbeat/current/elasticsearch-output.html](https://www.elastic.co/guide/en/beats/heartbeat/current/elasticsearch-output.html)
 -   heartbeat yml reference configuration - [https://www.elastic.co/guide/en/beats/heartbeat/current/heartbeat-reference-yml.html](https://www.elastic.co/guide/en/beats/heartbeat/current/heartbeat-reference-yml.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDE4NTIyOSwtODgwODgzMjc3XX0=
+eyJoaXN0b3J5IjpbMTEyMDk0NjI2MSwtODgwODgzMjc3XX0=
 -->
