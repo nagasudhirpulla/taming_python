@@ -12,7 +12,7 @@
 
 -   Download the heartbeat zip file from [https://artifacts.elastic.co/downloads/beats/heartbeat/heartbeat-8.10.2-windows-x86_64.zip](https://artifacts.elastic.co/downloads/beats/heartbeat/heartbeat-8.10.2-windows-x86_64.zip) or [https://www.elastic.co/guide/en/beats/heartbeat/current/heartbeat-installation-configuration.html#installation](https://www.elastic.co/guide/en/beats/heartbeat/current/heartbeat-installation-configuration.html#installation)
 -   Extract the zip file and place it in C:\Program Files (like C:\Program Files\heartbeart-8.10.2)
--   Open a Powershell command line in the heartbeat folder and run the command `.\\install-service-heartbeat.ps1` . If the command did not run due to script execution restriction policy, run the command `PowerShell.exe -ExecutionPolicy UnRestricted -File .\\install-service-heartbeat.ps1` instead. This will allow script execution only for the current session
+-   Open a Powershell command line in the heartbeat folder and run the command `.\install-service-heartbeat.ps1` . If the command did not run due to script execution restriction policy, run the command `PowerShell.exe -ExecutionPolicy UnRestricted -File .\install-service-heartbeat.ps1` instead. This will allow script execution only for the current session
 
 ## Configure heartbeat
 
@@ -38,7 +38,7 @@ output.elasticsearch:
 -   After specifying Elasticsearch connectivity information in `heartbeat.yml` file, open a command line in the heartbeat folder and run the following command to create the index template for heartbeat data in Elasticsearch
 
 ```powershell
-.\\heartbeat.exe setup -e
+.\heartbeat.exe setup -e
 
 ```
 
@@ -203,5 +203,5 @@ output.elasticsearch:
 -   Elasticsearch connectivity options in heartbeat.yml - [https://www.elastic.co/guide/en/beats/heartbeat/current/elasticsearch-output.html](https://www.elastic.co/guide/en/beats/heartbeat/current/elasticsearch-output.html)
 -   heartbeat yml reference configuration - [https://www.elastic.co/guide/en/beats/heartbeat/current/heartbeat-reference-yml.html](https://www.elastic.co/guide/en/beats/heartbeat/current/heartbeat-reference-yml.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDg4MzI3N119
+eyJoaXN0b3J5IjpbLTc2MDE4NTIyOSwtODgwODgzMjc3XX0=
 -->
