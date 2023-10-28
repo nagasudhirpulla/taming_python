@@ -1,4 +1,5 @@
 
+# 
 ## Topics Covered
 
 -   What is pyscript
@@ -45,9 +46,9 @@
 
 <head>
     <!-- PyScript CSS -->
-    <link rel="stylesheet" href="<https://pyscript.net/snapshots/2023.09.1.RC2/core.css>">
+    <link rel="stylesheet" href="https://pyscript.net/snapshots/2023.09.1.RC2/core.css">
     <!-- This script tag bootstraps PyScript -->
-    <script type="module" src="<https://pyscript.net/snapshots/2023.09.1.RC2/core.js>"></script>
+    <script type="module" src="https://pyscript.net/snapshots/2023.09.1.RC2/core.js"></script>
 </head>
 
 <body>
@@ -111,8 +112,8 @@ packages = ["matplotlib", "pandas"]
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="<https://pyscript.net/snapshots/2023.09.1.RC2/core.css>">
-    <script type="module" src="<https://pyscript.net/snapshots/2023.09.1.RC2/core.js>"></script>
+    <link rel="stylesheet" href="https://pyscript.net/snapshots/2023.09.1.RC2/core.css">
+    <script type="module" src="https://pyscript.net/snapshots/2023.09.1.RC2/core.js"></script>
 </head>
 <body>
     <py-config>
@@ -158,12 +159,12 @@ packages = ["matplotlib", "pandas"]
 
 <head>
     <!-- PyScript CSS -->
-    <link rel="stylesheet" href="<https://pyscript.net/snapshots/2023.09.1.RC2/core.css>">
-    <script type="module" src="<https://pyscript.net/snapshots/2023.09.1.RC2/core.js>"></script>
+    <link rel="stylesheet" href="https://pyscript.net/snapshots/2023.09.1.RC2/core.css">
+    <script type="module" src="https://pyscript.net/snapshots/2023.09.1.RC2/core.js"></script>
 
-    <link rel="stylesheet" href="<https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css>">
-    <script type="module" src="<https://code.jquery.com/jquery-3.7.0.js>"></script>
-    <script type="module" src="<https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js>"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script type="module" src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script type="module" src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 </head>
 
 <body>
@@ -225,9 +226,9 @@ packages = ["matplotlib", "pandas"]
 
 <head>
     <!-- PyScript CSS -->
-    <link rel="stylesheet" href="<https://pyscript.net/snapshots/2023.09.1.RC2/core.css>">
+    <link rel="stylesheet" href="https://pyscript.net/snapshots/2023.09.1.RC2/core.css">
     <!-- This script tag bootstraps PyScript -->
-    <script type="module" src="<https://pyscript.net/snapshots/2023.09.1.RC2/core.js>"></script>
+    <script type="module" src="https://pyscript.net/snapshots/2023.09.1.RC2/core.js"></script>
 </head>
 
 <body>
@@ -274,9 +275,9 @@ packages = ["matplotlib", "pandas"]
 <head>
     <meta charset="UTF-8">
     <!-- PyScript CSS -->
-    <link rel="stylesheet" href="<https://pyscript.net/snapshots/2023.09.1.RC2/core.css>">
+    <link rel="stylesheet" href="https://pyscript.net/snapshots/2023.09.1.RC2/core.css">
     <!-- This script tag bootstraps PyScript -->
-    <script type="module" src="<https://pyscript.net/snapshots/2023.09.1.RC2/core.js>"></script>
+    <script type="module" src="https://pyscript.net/snapshots/2023.09.1.RC2/core.js"></script>
 </head>
 
 <body>
@@ -331,8 +332,8 @@ def when_demo(event):
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="<https://pyscript.net/snapshots/2023.09.1.RC2/core.css>">
-    <script type="module" src="<https://pyscript.net/snapshots/2023.09.1.RC2/core.js>"></script>
+    <link rel="stylesheet" href="https://pyscript.net/snapshots/2023.09.1.RC2/core.css">
+    <script type="module" src="https://pyscript.net/snapshots/2023.09.1.RC2/core.js"></script>
 </head>
 <body>
 		<h2>Simple Todo App with pyscript</h2>
@@ -419,6 +420,6 @@ def createTodoElement(todoTxt:str):
 -   pyscript docs - [https://docs.pyscript.net/2023.09.1.RC2/user-guide/](https://docs.pyscript.net/2023.09.1.RC2/user-guide/)
 -   pyscript demos - [https://pyscript.net/examples/](https://pyscript.net/examples/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjE4NDU1NzQsMTM1MTYxNTE0NCwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTM3NzE2MjkwMSwxMzUxNjE1MTQ0LC0yMD
+g4NzQ2NjEyXX0=
 -->
