@@ -1,4 +1,3 @@
-
 # Run python in browser with pyscript
 
 ## Topics Covered
@@ -421,6 +420,6 @@ def createTodoElement(todoTxt:str):
 -   pyscript docs - [https://docs.pyscript.net/2023.09.1.RC2/user-guide/](https://docs.pyscript.net/2023.09.1.RC2/user-guide/)
 -   pyscript demos - [https://pyscript.net/examples/](https://pyscript.net/examples/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxMzg2ODI5LDEzNTE2MTUxNDQsLTIwOD
-g3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTIyOTg2ODQ0Nyw4NDEzODY4MjksMTM1MT
+YxNTE0NCwtMjA4ODc0NjYxMl19
 -->
