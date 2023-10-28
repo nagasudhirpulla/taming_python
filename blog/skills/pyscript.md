@@ -1,4 +1,5 @@
 # Run python in browser with pyscript
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
 
 ## Topics Covered
 
@@ -420,6 +421,6 @@ def createTodoElement(todoTxt:str):
 -   pyscript docs - [https://docs.pyscript.net/2023.09.1.RC2/user-guide/](https://docs.pyscript.net/2023.09.1.RC2/user-guide/)
 -   pyscript demos - [https://pyscript.net/examples/](https://pyscript.net/examples/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTg2ODQ0Nyw4NDEzODY4MjksMTM1MT
-YxNTE0NCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTEyMTM1MTE2NCwxMjI5ODY4NDQ3LDg0MT
+M4NjgyOSwxMzUxNjE1MTQ0LC0yMDg4NzQ2NjEyXX0=
 -->
