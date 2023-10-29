@@ -414,6 +414,12 @@ def createTodoElement(todoTxt:str):
 -   In the above example, `document.querySelector` is used to reference HTML elements in python. `event.target` is used in python event listener to reference the event originating element (the button)
 -   functions or attributes like `appendChild`, `removeChild`, `value`, `parentNode`, `innerText`, `classList`, `style` are called in python on elements just like python
 
+### Video
+
+You can the video on this post [here](https://youtu.be/9mg5DfUpjlA?si=poLWbzzsDmAs2BpQ)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9mg5DfUpjlA?si=mJSls68BjDTCQ4p0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## References
 
 -   pyscript site - [https://pyscript.net/](https://pyscript.net/)
@@ -421,6 +427,7 @@ def createTodoElement(todoTxt:str):
 -   pyscript docs - [https://docs.pyscript.net/2023.09.1.RC2/user-guide/](https://docs.pyscript.net/2023.09.1.RC2/user-guide/)
 -   pyscript demos - [https://pyscript.net/examples/](https://pyscript.net/examples/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTM1MTE2NCwxMjI5ODY4NDQ3LDg0MT
-M4NjgyOSwxMzUxNjE1MTQ0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTExNjMwNzUzNjksMTEyMTM1MTE2NCwxMj
+I5ODY4NDQ3LDg0MTM4NjgyOSwxMzUxNjE1MTQ0LC0yMDg4NzQ2
+NjEyXX0=
 -->
