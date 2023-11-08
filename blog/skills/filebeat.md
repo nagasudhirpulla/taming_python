@@ -73,7 +73,7 @@ filebeat.inputs:
 -   A text file line stored as a log file is shown in the image below. The text of line can be seen in the _source.message field of JSON
 -   The logs as shown in the below image can be seen in Kibana Discover page with `filebeat-*` index pattern selected
 
-![filebeat_json_logs_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/filebeat_json_logs_demo.png?raw=true)
+![filebeat_text_lines_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/filebeat_text_lines_demo.png?raw=true)
 
 ### Parsers
 
@@ -111,7 +111,7 @@ filebeat.inputs:
 
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/ace32c28-7986-4890-91bd-b37bea400b37/Untitled.png)
+![filebeat_json_logs_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/filebeat_json_logs_demo.png?raw=true)
 
 -   The documentation for filestream parsers can be found at [https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-input-filestream.html#_parsers](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-input-filestream.html#_parsers)
 -   The documentation on filebeat filestream input can be found at [https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-input-filestream.html](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-input-filestream.html)
@@ -131,5 +131,5 @@ filebeat.inputs:
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyNzQ0ODU4LDIwNTcxMDIwOTZdfQ==
+eyJoaXN0b3J5IjpbMTgxNTgzOTY4MCwyMDU3MTAyMDk2XX0=
 -->
