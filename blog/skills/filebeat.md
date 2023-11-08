@@ -1,4 +1,4 @@
-## What is filebeat
+### What is filebeat
 
 -   filebeat is an agent that can ship logs from files into Elasticsearch
 -   filebeat can be installed as a windows background service that sends logs from various files or syslog into Elasticsearch
@@ -136,5 +136,6 @@ filebeat.inputs:
 -   official filebeat installation guide - [https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-installation-configuration.html](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-installation-configuration.html)
 -   filebeat syslog input docs - [https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-input-syslog.html](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-input-syslog.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDk1MzIwMywyMDU3MTAyMDk2XX0=
+eyJoaXN0b3J5IjpbLTQwNjkyNzQ0NCwxMDQwOTUzMjAzLDIwNT
+cxMDIwOTZdfQ==
 -->
