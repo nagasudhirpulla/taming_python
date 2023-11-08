@@ -3,7 +3,7 @@
 -   filebeat is an agent that can ship logs from files into Elasticsearch
 -   filebeat can be installed as a windows background service that sends logs from various files or syslog into Elasticsearch
 
-![filebeat_architecture.png](https://github.com/nagasudhirpulla/taming_python/blob/d5a7e0ab99cec19ba39f07c5b97a9dc603a66f91/blog/skills/assets/img/filebeat_architecture.png?raw=true)
+![filebeat_architecture.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/filebeat_architecture.png?raw=true)
 
 ## Install filebeat in windows
 
@@ -73,7 +73,7 @@ filebeat.inputs:
 -   A text file line stored as a log file is shown in the image below. The text of line can be seen in the _source.message field of JSON
 -   The logs as shown in the below image can be seen in Kibana Discover page with `filebeat-*` index pattern selected
 
-![filebeat_architecture.png](https://github.com/nagasudhirpulla/taming_python/blob/d5a7e0ab99cec19ba39f07c5b97a9dc603a66f91/blog/skills/assets/img/filebeat_architecture.png?raw=true)
+![filebeat_json_logs_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/filebeat_json_logs_demo.png?raw=true)
 
 ### Parsers
 
@@ -131,5 +131,5 @@ filebeat.inputs:
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDIxOTU3NiwyMDU3MTAyMDk2XX0=
+eyJoaXN0b3J5IjpbOTEyNzQ0ODU4LDIwNTcxMDIwOTZdfQ==
 -->
