@@ -8,8 +8,8 @@
 ## Install filebeat in windows
 
 -   Download filebeat zip file from [https://www.elastic.co/downloads/beats/filebeat](https://www.elastic.co/downloads/beats/filebeat)
--   Extract filebeat contents from zip file into a folder `C:\\Program Files\\Filebeat`
--   Open a command prompt with administrative privileges in the folder `C:\\Program Files\\Filebeat` and run the command `.\\install-service-filebeat.ps1`. If script execution is disabled, run the command `PowerShell.exe -ExecutionPolicy UnRestricted -File .\\install-service-filebeat.ps1` instead
+-   Extract filebeat contents from zip file into a folder `C:\Program Files\Filebeat`
+-   Open a command prompt with administrative privileges in the folder `C:\Program Files\Filebeat` and run the command `.\install-service-filebeat.ps1`. If script execution is disabled, run the command `PowerShell.exe -ExecutionPolicy UnRestricted -File .\install-service-filebeat.ps1` instead
 -   Now filebeat is installed as a windows service
 
 ## Configure Elasticsearch and Kibana connectivity in filebeat
@@ -47,7 +47,7 @@ setup.kibana:
 
 ```
 
--   Open a command window in the filebeat folder and run the command `.\\filebeat.exe setup -e` . Now the Elasticsearch index template and sample kibana dashboards are loaded
+-   Open a command window in the filebeat folder and run the command `.\filebeat.exe setup -e` . Now the Elasticsearch index template and sample kibana dashboards are loaded
 
 ## Configure filebeat with files as log source
 
@@ -60,7 +60,7 @@ filebeat.inputs:
 	enabled: true
   id: app1-logs-id
   paths:
-    - C:\\path\\to\\required folder\\*.log
+    - C:\path\to\required folder\*.log
 	fields:
 	    data_type: "text_lines"
 
@@ -131,5 +131,5 @@ filebeat.inputs:
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1NTUyNzgyLDIwNTcxMDIwOTZdfQ==
+eyJoaXN0b3J5IjpbLTE4OTkzNDQxNzgsMjA1NzEwMjA5Nl19
 -->
