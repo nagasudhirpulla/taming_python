@@ -49,7 +49,7 @@ setup.kibana:
 
 -   Open a command window in the filebeat folder and run the command `.\filebeat.exe setup -e` . Now the Elasticsearch index template and sample kibana dashboards are loaded
 
-## Configure filebeat with files as log source
+## Configure filebeat with files as data source
 
 -   Open `filebeat.yml` file in the filebeat folder
 -   Setup files to be read can be configured in the `filebeat.inputs` section as shown below
@@ -130,6 +130,13 @@ filebeat.inputs:
     host: "localhost:9000"
 
 ```
+
+## References
+
+-   [https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-installation-configuration.html](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-installation-configuration.html)
+-   [https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-input-syslog.html](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-input-syslog.html)
+-   [https://www.herongyang.com/Windows/Web-Log-File-IIS-Apache-Sample.html](https://www.herongyang.com/Windows/Web-Log-File-IIS-Apache-Sample.html)
+-   [https://github.com/elastic/examples/blob/master/Common Data Formats/apache_logs/apache_logs](https://github.com/elastic/examples/blob/master/Common%20Data%20Formats/apache_logs/apache_logs)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTgzOTY4MCwyMDU3MTAyMDk2XX0=
+eyJoaXN0b3J5IjpbNjYxODQ1ODAyLDIwNTcxMDIwOTZdfQ==
 -->
