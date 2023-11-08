@@ -1,4 +1,4 @@
-# Send data from 
+# Send data from files or syslog to Elasticsearch with Filebeat
 
 ## What is filebeat
 
@@ -138,6 +138,6 @@ filebeat.inputs:
 -   official filebeat installation guide - [https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-installation-configuration.html](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-installation-configuration.html)
 -   filebeat syslog input docs - [https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-input-syslog.html](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-input-syslog.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MjAxNTYzMiwxMDQwOTUzMjAzLDIwNT
-cxMDIwOTZdfQ==
+eyJoaXN0b3J5IjpbNTY3ODYwMjQ3LC0zOTIwMTU2MzIsMTA0MD
+k1MzIwMywyMDU3MTAyMDk2XX0=
 -->
