@@ -86,7 +86,7 @@ filebeat.inputs:
   id: app2-logs-id
   enabled: true
   paths:
-    - C:\\Users\\Nagasudhir\\Documents\\Python Projects\\taming_python\\filebeat\\logs\\*.txt
+    - C:\Users\Nagasudhir\Documents\Python Projects\taming_python\filebeat\logs\*.txt
   parsers:
   - syslog:
       format: rfc3164
@@ -102,7 +102,7 @@ filebeat.inputs:
   id: app3-logs-id
   enabled: true
   paths:
-    - C:\\Users\\Nagasudhir\\Documents\\Python Projects\\taming_python\\filebeat\\logs\\*.ndjson
+    - C:\Users\Nagasudhir\Documents\Python Projects\taming_python\filebeat\logs\*.ndjson
   parsers:
   - ndjson:
       target: "msg_json"
@@ -131,5 +131,5 @@ filebeat.inputs:
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTkzNDQxNzgsMjA1NzEwMjA5Nl19
+eyJoaXN0b3J5IjpbNzI2NzY5NjE0LDIwNTcxMDIwOTZdfQ==
 -->
