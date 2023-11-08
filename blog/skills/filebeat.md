@@ -73,7 +73,7 @@ filebeat.inputs:
 -   A text file line stored as a log file is shown in the image below. The text of line can be seen in the _source.message field of JSON
 -   The logs as shown in the below image can be seen in Kibana Discover page with `filebeat-*` index pattern selected
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/39b23dcd-5810-44f3-b1b9-5afa59d0540b/Untitled.png)
+![filebeat_architecture.png](https://github.com/nagasudhirpulla/taming_python/blob/d5a7e0ab99cec19ba39f07c5b97a9dc603a66f91/blog/skills/assets/img/filebeat_architecture.png?raw=true)
 
 ### Parsers
 
@@ -131,5 +131,5 @@ filebeat.inputs:
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2NzY5NjE0LDIwNTcxMDIwOTZdfQ==
+eyJoaXN0b3J5IjpbMTQyMDIxOTU3NiwyMDU3MTAyMDk2XX0=
 -->
