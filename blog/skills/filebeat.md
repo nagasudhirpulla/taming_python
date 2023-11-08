@@ -3,7 +3,7 @@
 -   filebeat is an agent that can ship logs from files into Elasticsearch
 -   filebeat can be installed as a windows background service that sends logs from various files or syslog into Elasticsearch
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/84ed98fd-35fd-4966-ad70-e06b264e035f/Untitled.png)
+![filebeat_architecture.png](https://github.com/nagasudhirpulla/taming_python/blob/d5a7e0ab99cec19ba39f07c5b97a9dc603a66f91/blog/skills/assets/img/filebeat_architecture.png?raw=true)
 
 ## Install filebeat in windows
 
@@ -131,5 +131,5 @@ filebeat.inputs:
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzEwMjA5Nl19
+eyJoaXN0b3J5IjpbNTY1NTUyNzgyLDIwNTcxMDIwOTZdfQ==
 -->
