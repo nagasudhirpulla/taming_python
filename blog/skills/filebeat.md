@@ -133,11 +133,16 @@ filebeat.inputs:
 
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/JHcknjx7MP0?si=14u2iNs8lb5_SmCs)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JHcknjx7MP0?si=14u2iNs8lb5_SmCs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## References
 
 -   official filebeat installation guide - [https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-installation-configuration.html](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-installation-configuration.html)
 -   filebeat syslog input docs - [https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-input-syslog.html](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-input-syslog.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3ODYwMjQ3LC0zOTIwMTU2MzIsMTA0MD
-k1MzIwMywyMDU3MTAyMDk2XX0=
+eyJoaXN0b3J5IjpbLTIwOTIzOTM4MjEsNTY3ODYwMjQ3LC0zOT
+IwMTU2MzIsMTA0MDk1MzIwMywyMDU3MTAyMDk2XX0=
 -->
