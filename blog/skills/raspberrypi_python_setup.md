@@ -23,7 +23,7 @@
 -   Plug in the Raspberry Pi’s SD card into the computer using an SD card reader. Format the SD card.
 -   Open the Raspberry Pi imager and select the Raspberry Pi device type, OS and SD card as shown below and click Next
 
-![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Micro%20SD%20card%20to%20USB%20converter.png?raw=true)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Micro%20SD%20card%20connectors.png?raw=true)
 
 ![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Micro%20SD%20card%20reader.png?raw=true)
 
@@ -172,5 +172,6 @@ nohup python3 demo_server.py > /dev/null 2>&1 &
 -   Raspberry Pi docs - [https://www.raspberrypi.com/documentation/](https://www.raspberrypi.com/documentation/)
 -   Use nohup without generating output file - [https://stackoverflow.com/a/10708326/2746323](https://stackoverflow.com/a/10708326/2746323)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDUxNjgzOTZdfQ==
+eyJoaXN0b3J5IjpbLTIwNzc0MzQ0ODksLTE1NDUxNjgzOTZdfQ
+==
 -->
