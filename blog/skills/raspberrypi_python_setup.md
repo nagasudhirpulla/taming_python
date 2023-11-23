@@ -165,11 +165,16 @@ nohup python3 demo_server.py > /dev/null 2>&1 &
     -   `20 18 * * 0-2 python3 /path/to/index.py` will run the python script [index.py](http://index.py) at 18:20 hrs on Sunday, Monday, Tuesday.
 -   Cron jobs can be registered in a crontab file. The file can be edited using the command `crontab -e`. The required jobs can be written in this crontab file
 
+#### Video
+The video tutorial for this post can be found [here](https://youtu.be/tF85BpXs5nA?si=uzSyoXj9-Gw-nxJ_)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tF85BpXs5nA?si=uzSyoXj9-Gw-nxJ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## References
 
 -   Raspberry Pi docs - [https://www.raspberrypi.com/documentation/](https://www.raspberrypi.com/documentation/)
 -   Use nohup without generating output file - [https://stackoverflow.com/a/10708326/2746323](https://stackoverflow.com/a/10708326/2746323)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI1MDg5MjAsLTE1NDUxNjgzOTZdfQ
-==
+eyJoaXN0b3J5IjpbMTE5NzI4NjYzNiwtMTcxMjUwODkyMCwtMT
+U0NTE2ODM5Nl19
 -->
