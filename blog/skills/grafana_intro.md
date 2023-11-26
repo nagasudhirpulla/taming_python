@@ -21,12 +21,10 @@
 * Transformations - New data from existing data based on calculations
 * Alerts - Alerts from data based on user-defined conditions
 
-## Setup Grafana in Windows
-
 ## References
 
 -   Grafana showcase - [https://grafana.com/grafana](https://grafana.com/grafana)
--   Grafana playground - [](https://play.grafana.org/)[https://play.grafana.org](https://play.grafana.org)
+-   Grafana playground - [https://play.grafana.org](https://play.grafana.org)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODI4NjIwMjVdfQ==
+eyJoaXN0b3J5IjpbMTQ3NTA5ODA1OV19
 -->
