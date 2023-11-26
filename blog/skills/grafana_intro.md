@@ -15,30 +15,11 @@
 -   Avoid licensing costs opensource data analytics platform
 
 ## Main Components of Grafana dashboards
-| Panels | Display data |
-|Data Source|--|
-|  |  |
-
-
-Panels
-
-Display data
-
-Data Source
-
-Provide data to panels
-
-Plugins
-
-Add more panels and data sources
-
-Transformations
-
-New data from existing data based on calculations
-
-Alerts
-
-Alerts from data based on user-defined conditions
+* Panels - Display data
+* Data Source - Provide data to panels
+* Plugins - Add more panels and data sources
+* Transformations - New data from existing data based on calculations
+* Alerts - Alerts from data based on user-defined conditions
 
 ## Setup Grafana in Windows
 
@@ -47,5 +28,5 @@ Alerts from data based on user-defined conditions
 -   Grafana showcase - [https://grafana.com/grafana](https://grafana.com/grafana)
 -   Grafana playground - [](https://play.grafana.org/)[https://play.grafana.org](https://play.grafana.org)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzY0NDY4Ml19
+eyJoaXN0b3J5IjpbLTE4ODI4NjIwMjVdfQ==
 -->
