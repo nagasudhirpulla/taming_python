@@ -1,6 +1,6 @@
 ## What is Grafana
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/f5b7dc78-fc20-42cd-92f3-077907f9f53b/Untitled.png)
+![grafana_demo_snap.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_demo_snap.png?raw=true)
 
 -   Grafana is a data visualization, analytics and alerting platform
 -   Interactive dashboards can be created in Grafana for this purpose
@@ -26,5 +26,5 @@
 -   Grafana showcase - [https://grafana.com/grafana](https://grafana.com/grafana)
 -   Grafana playground - [https://play.grafana.org](https://play.grafana.org)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTA5ODA1OV19
+eyJoaXN0b3J5IjpbLTIxMDQ1Mzc0OTBdfQ==
 -->
