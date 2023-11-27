@@ -21,10 +21,15 @@
 * Transformations - New data from existing data based on calculations
 * Alerts - Alerts from data based on user-defined conditions
 
+### Video
+Video on this post can be seen [here](https://youtu.be/toTCBapaTwg?si=-BevFS6SPP5hJWLO)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/toTCBapaTwg?si=-BevFS6SPP5hJWLO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## References
 
 -   Grafana showcase - [https://grafana.com/grafana](https://grafana.com/grafana)
 -   Grafana playground - [https://play.grafana.org](https://play.grafana.org)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQ1Mzc0OTBdfQ==
+eyJoaXN0b3J5IjpbOTM2MjEwOTI5LC0yMTA0NTM3NDkwXX0=
 -->
