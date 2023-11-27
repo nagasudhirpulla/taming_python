@@ -1,3 +1,5 @@
+# Intro to Grafana
+
 ## What is Grafana
 
 ![grafana_demo_snap.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_demo_snap.png?raw=true)
@@ -31,5 +33,5 @@ Video on this post can be seen [here](https://youtu.be/toTCBapaTwg?si=-BevFS6SPP
 -   Grafana showcase - [https://grafana.com/grafana](https://grafana.com/grafana)
 -   Grafana playground - [https://play.grafana.org](https://play.grafana.org)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM2MjEwOTI5LC0yMTA0NTM3NDkwXX0=
+eyJoaXN0b3J5IjpbNTAwNTA3MDEzLC0yMTA0NTM3NDkwXX0=
 -->
