@@ -55,6 +55,7 @@ python -m pip install Frozen-Flask
 -   Below is a simple python flask application in a variable named `app`
 
 ```python
+# app/__init__.py
 from flask import Flask, render_template
 
 # Initialize the app
@@ -114,5 +115,5 @@ if __name__ == '__main__':
 
 -   frozen-flask docs - [https://frozen-flask.readthedocs.io/en/latest/](https://frozen-flask.readthedocs.io/en/latest/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxMzMyOTg3XX0=
+eyJoaXN0b3J5IjpbMjA2NDA0NjM0M119
 -->
