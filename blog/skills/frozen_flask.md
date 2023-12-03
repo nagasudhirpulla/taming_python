@@ -113,10 +113,15 @@ if __name__ == '__main__':
 -   For example, declare a route as `/about/` so that the static file be generated in the path `/about/index.html`
 -   Otherwise each route should be named with `.html` at the end. For example, the flask route should be defined as `/about.html` instead of `/about`
 
+### Video
+Video for this post can be found [here](https://youtu.be/W09zIet38kI?si=xL6zuIXwckhtXkHI)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W09zIet38kI?si=f0-oBc6e4IrAeolF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## References
 
 -   frozen-flask docs - [https://frozen-flask.readthedocs.io/en/latest/](https://frozen-flask.readthedocs.io/en/latest/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxNjU5MTA2LC0yMDM3ODA1MzA3LDIwNj
-QwNDYzNDNdfQ==
+eyJoaXN0b3J5IjpbMjEyMjM5MzI1Myw4OTE2NTkxMDYsLTIwMz
+c4MDUzMDcsMjA2NDA0NjM0M119
 -->
