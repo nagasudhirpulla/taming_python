@@ -5,6 +5,8 @@
 -   A static website will deliver the content as is to the client with out any server-side rendering
 -   For example, a static website can just serve HTML, JavaScript and CSS files
 
+![https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/static%20website.png?raw=true](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/static%20website.png?raw=true)
+
 ## Where can static websites be used
 
 -   Static websites can be used for websites where user inputs are not required. For example, an organization’s website, resume website, portfolio websites etc
@@ -115,5 +117,5 @@ if __name__ == '__main__':
 
 -   frozen-flask docs - [https://frozen-flask.readthedocs.io/en/latest/](https://frozen-flask.readthedocs.io/en/latest/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NDA0NjM0M119
+eyJoaXN0b3J5IjpbLTIwMzc4MDUzMDcsMjA2NDA0NjM0M119
 -->
