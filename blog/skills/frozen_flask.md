@@ -1,4 +1,4 @@
-# Generating a static website from python flask application using Frozen-Flask
+# Generate a static website from python flask application using Frozen-Flask
 
 ## What is a static website
 
@@ -117,5 +117,6 @@ if __name__ == '__main__':
 
 -   frozen-flask docs - [https://frozen-flask.readthedocs.io/en/latest/](https://frozen-flask.readthedocs.io/en/latest/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzc4MDUzMDcsMjA2NDA0NjM0M119
+eyJoaXN0b3J5IjpbODkxNjU5MTA2LC0yMDM3ODA1MzA3LDIwNj
+QwNDYzNDNdfQ==
 -->
