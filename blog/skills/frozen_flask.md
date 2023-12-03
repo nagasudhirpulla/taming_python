@@ -113,8 +113,6 @@ if __name__ == '__main__':
 ## References
 
 -   frozen-flask docs - [https://frozen-flask.readthedocs.io/en/latest/](https://frozen-flask.readthedocs.io/en/latest/)
--   [https://github.com/sdhutchins/flask-demo/tree/master](https://github.com/sdhutchins/flask-demo/tree/master)
--   [https://claytonerrington.com/blog/creating-a-static-site-using-python-and-flask/#:~:text=First install Frozen Flask with pip.&text=Now we need a freeze,hosting on Netlify for example.&text=When running the freeze.py,files of your Flask app](https://claytonerrington.com/blog/creating-a-static-site-using-python-and-flask/#:~:text=First%20install%20Frozen%20Flask%20with%20pip.&text=Now%20we%20need%20a%20freeze,hosting%20on%20Netlify%20for%20example.&text=When%20running%20the%20freeze.py,files%20of%20your%20Flask%20app).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTAyNjg5MTddfQ==
+eyJoaXN0b3J5IjpbOTAxMzMyOTg3XX0=
 -->
