@@ -1,5 +1,9 @@
 # Generating a static website from python flask application using Frozen-Flask
 
+[Table of Contents](https://nagasudhir.blogspot.com/2020/04/taming-python-table-of-contents.html)
+
+<hr/>
+
 ## What is a static website
 
 -   A static website will deliver the content as is to the client with out any server-side rendering
@@ -114,5 +118,5 @@ if __name__ == '__main__':
 
 -   frozen-flask docs - [https://frozen-flask.readthedocs.io/en/latest/](https://frozen-flask.readthedocs.io/en/latest/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxMzMyOTg3XX0=
+eyJoaXN0b3J5IjpbLTE5ODk0MjUyNjFdfQ==
 -->
