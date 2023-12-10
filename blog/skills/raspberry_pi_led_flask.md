@@ -1,4 +1,5 @@
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/f205638f-cf9d-4f85-8786-a42d8e08d017/Untitled.png)
+
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/raspberry%20pi%20led%20flask%20schematic.png?raw=true)
 
 -   The GPIO (General Purpose Input Output) pins of Raspberry Pi can be controlled by its operating system
 -   Let us control an LED connected to Raspberry Pi Zero W from the buttons on a web page served from a python flask web server hosted by the Raspberry Pi
@@ -8,11 +9,11 @@
 -   Following is the pin layout of Raspberry pi zero w. For this project, we will use the Ground (pin 39) and GPIO18 (6th pin on the right).
 -   The GPIO18 pin voltage will be controlled by the python code which will be connected to the LED
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/662fbaef-bd3f-4b30-8a16-6fae8366e937/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/raspberry%20pi%20GPIO%20layout.png?raw=true)
 
 ## Simple LED blinking python code
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/725c75e9-7c43-4ea6-8c03-ea8dae31faf2/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/raspberry%20pi%20led%20circuit.png?raw=true)
 
 -   Let us create a simple python code to blink an LED indefinitely
 -   We can use a mini breadboard and jumper wires as shown above to create the connections of the circuit
@@ -43,7 +44,7 @@ while True:
 
 -   Let us create a flask web server that serves a web page using which the user can control the LED state with buttons in the web page. Any device with a web browser in the WiFi network of Raspberry pi can access the webpage of the flask server and control the LED state.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/9959931d-85f6-4d1e-9ab1-9d8652c0c3ba/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/raspberry%20pi%20led%20flask%20circuit.png?raw=true)
 
 -   The file `[piUtils.py](<http://piUtils.py>)` exports a function `setLedState` which can turn on or turn off the LED connected to GPIO pin 18. This function will be used by the flask server to control the LED based on the button click in the web page
 
@@ -187,5 +188,5 @@ if __name__ == '__main__':
 -   Raspberry Pi docs - [https://www.raspberrypi.com/documentation/](https://www.raspberrypi.com/documentation/)
 -   Raspberry pi GPIO pins docs - [https://www.raspberrypi.com/documentation/computers/raspberry-pi.html](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDE4NzI0Nl19
+eyJoaXN0b3J5IjpbMTY0MDY1NDM2OCwtODQ0MTg3MjQ2XX0=
 -->
