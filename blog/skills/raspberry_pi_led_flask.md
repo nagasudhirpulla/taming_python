@@ -1,3 +1,4 @@
+Control an LED with flask web server hosted on Raspberry pi
 
 ![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/raspberry%20pi%20led%20flask%20schematic.png?raw=true)
 
@@ -188,5 +189,5 @@ if __name__ == '__main__':
 -   Raspberry Pi docs - [https://www.raspberrypi.com/documentation/](https://www.raspberrypi.com/documentation/)
 -   Raspberry pi GPIO pins docs - [https://www.raspberrypi.com/documentation/computers/raspberry-pi.html](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDY1NDM2OCwtODQ0MTg3MjQ2XX0=
+eyJoaXN0b3J5IjpbLTExODA5MTIzNDgsLTg0NDE4NzI0Nl19
 -->
