@@ -13,7 +13,7 @@
 ![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/raspberry%20pi%20GPIO%20layout.png?raw=true)
 
 ## Simple LED blinking python code
-
+![enter image description here](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/raspberry%20pi%20led%20flask%20project%20parts.jpg?raw=true)
 ![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/raspberry%20pi%20led%20circuit.png?raw=true)
 
 -   Let us create a simple python code to blink an LED indefinitely
@@ -189,5 +189,6 @@ if __name__ == '__main__':
 -   Raspberry Pi docs - [https://www.raspberrypi.com/documentation/](https://www.raspberrypi.com/documentation/)
 -   Raspberry pi GPIO pins docs - [https://www.raspberrypi.com/documentation/computers/raspberry-pi.html](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDIwNjk1MDMsLTg0NDE4NzI0Nl19
+eyJoaXN0b3J5IjpbLTIzNzcyMTcwNiwtMjE0MjA2OTUwMywtOD
+Q0MTg3MjQ2XX0=
 -->
