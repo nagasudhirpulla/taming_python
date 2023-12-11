@@ -186,6 +186,7 @@ if __name__ == '__main__':
 
 #### Video
 The video tutorial for this post can be found [here](https://youtu.be/tAcWKqwifqA?si=AK-xHDVRXwvvDlGh)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tAcWKqwifqA?si=CQYBl9PmkrzMyYfK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## References
@@ -193,6 +194,6 @@ The video tutorial for this post can be found [here](https://youtu.be/tAcWKqwifq
 -   Raspberry Pi docs - [https://www.raspberrypi.com/documentation/](https://www.raspberrypi.com/documentation/)
 -   Raspberry pi GPIO pins docs - [https://www.raspberrypi.com/documentation/computers/raspberry-pi.html](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NjA3MjgzNSwtMjM3NzIxNzA2LC0yMT
+eyJoaXN0b3J5IjpbMjExNTYzNjY1NywtMjM3NzIxNzA2LC0yMT
 QyMDY5NTAzLC04NDQxODcyNDZdfQ==
 -->
