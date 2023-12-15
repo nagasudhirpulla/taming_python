@@ -78,7 +78,7 @@
 -   Click the New dashboard button to create a new dashboard
 -   Add Visualizations to the dashboard and save the dashboard
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/b1aff598-1205-4315-90f0-f802410afb51/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Grafana%20dashboards%20page.png?raw=true)
 
 ## Install Grafana plugins with grafana-cli
 
@@ -99,5 +99,5 @@
 -   grafana-cli plugins docs - [https://grafana.com/docs/grafana/latest/cli/#plugins-commands](https://grafana.com/docs/grafana/latest/cli/#plugins-commands)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjc2OTIzMCw0MjM0NzgzMzldfQ==
+eyJoaXN0b3J5IjpbLTQ2MDIzNTc5Niw0MjM0NzgzMzldfQ==
 -->
