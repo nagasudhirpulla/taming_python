@@ -1,5 +1,4 @@
-
-## Setup Grafana in Windows
+# Setup Grafana in Windows
 
 -   Go to Grafana website and download Grafana installer from `Products` section at [https://grafana.com/grafana/download](https://grafana.com/grafana/download)
 -   Select the edition as OSS (Open Source Software) and select the version from the drop down menus
@@ -99,5 +98,5 @@
 -   grafana-cli plugins docs - [https://grafana.com/docs/grafana/latest/cli/#plugins-commands](https://grafana.com/docs/grafana/latest/cli/#plugins-commands)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDIzNTc5Niw0MjM0NzgzMzldfQ==
+eyJoaXN0b3J5IjpbMjEzODc2ODM1Myw0MjM0NzgzMzldfQ==
 -->
