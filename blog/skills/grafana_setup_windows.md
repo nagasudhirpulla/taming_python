@@ -47,7 +47,7 @@
 
 -   Grafana can be configured with the configuration file located at `C:\Program Files\GrafanaLabs\grafana\conf\defaults.ini` file
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/0668247b-7cf5-4e53-8e02-4fd35bfac622/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Grafana%20configuration%20file.png?raw=true)
 
 -   There are many sections in the defaults.ini file for configuring grafana
     
@@ -99,5 +99,5 @@
 -   grafana-cli plugins docs - [https://grafana.com/docs/grafana/latest/cli/#plugins-commands](https://grafana.com/docs/grafana/latest/cli/#plugins-commands)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTgyOTA0Miw0MjM0NzgzMzldfQ==
+eyJoaXN0b3J5IjpbMTUzMjc2OTIzMCw0MjM0NzgzMzldfQ==
 -->
