@@ -41,7 +41,7 @@
 -   In Grafana portal, search for **Preferences** section in the search bar and open the Default Preferences page
 -   Change the Organization name, Timezone, Dark or Light theme in this preferences page
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/0d618758-7165-417c-b802-4e0ae16f8fa1/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Grafana%20preferences%20page.png?raw=true)
 
 ## Configure Grafana
 
@@ -99,5 +99,5 @@
 -   grafana-cli plugins docs - [https://grafana.com/docs/grafana/latest/cli/#plugins-commands](https://grafana.com/docs/grafana/latest/cli/#plugins-commands)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODcwMjU4MCw0MjM0NzgzMzldfQ==
+eyJoaXN0b3J5IjpbMjA0OTgyOTA0Miw0MjM0NzgzMzldfQ==
 -->
