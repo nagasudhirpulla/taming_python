@@ -17,7 +17,7 @@
 -   The default username is `admin` and password is `admin`. Change the password to a better one after logging in with default password
 -   A home page as shown below should be displayed after logging in
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/d863c1fd-3554-443a-b6ab-f3466222a929/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Grafana%20home%20page.png?raw=true)
 
 ## Restart, Stop, Disable Grafana windows service
 
@@ -99,5 +99,5 @@
 -   grafana-cli plugins docs - [https://grafana.com/docs/grafana/latest/cli/#plugins-commands](https://grafana.com/docs/grafana/latest/cli/#plugins-commands)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4NjEzOTMyLDQyMzQ3ODMzOV19
+eyJoaXN0b3J5IjpbMTIzODk1ODE2NSw0MjM0NzgzMzldfQ==
 -->
