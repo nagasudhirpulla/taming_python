@@ -6,13 +6,13 @@
 -   Download the windows Grafana installer
 -   Run the installer to install Grafana
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/503ec3a9-35de-45f7-a785-633b9fb26c22/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Grafana%20install%20wizard%20snap.png?raw=true)
 
 ## Access Grafana in browser for first use
 
 -   Grafana by default runs on port 3000. So it can opened in the browser at `http://localhost:3000`. The login screen will appear
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/244e74d3-8a17-44ae-835b-e96f7073b8f8/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Grafana%20login%20page.png?raw=true)
 
 -   The default username is `admin` and password is `admin`. Change the password to a better one after logging in with default password
 -   A home page as shown below should be displayed after logging in
@@ -99,5 +99,5 @@
 -   grafana-cli plugins docs - [https://grafana.com/docs/grafana/latest/cli/#plugins-commands](https://grafana.com/docs/grafana/latest/cli/#plugins-commands)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzNDc4MzM5XX0=
+eyJoaXN0b3J5IjpbNzk4NjEzOTMyLDQyMzQ3ODMzOV19
 -->
