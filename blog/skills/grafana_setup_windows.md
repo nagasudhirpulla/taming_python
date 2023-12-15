@@ -27,7 +27,7 @@
 -   Grafana is located in the services list with the name “Grafana”
 -   The start up behavior of Grafana can also be changed from the properties of the service by double clicking the service in the list
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/d6c77114-bfd6-4aca-b09b-08468a21df8f/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Grafana%20windows%20service.png?raw=true)
 
 ## View Grafana logs
 
@@ -99,5 +99,5 @@
 -   grafana-cli plugins docs - [https://grafana.com/docs/grafana/latest/cli/#plugins-commands](https://grafana.com/docs/grafana/latest/cli/#plugins-commands)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODk1ODE2NSw0MjM0NzgzMzldfQ==
+eyJoaXN0b3J5IjpbMTg1MzQ2MDU2Miw0MjM0NzgzMzldfQ==
 -->
