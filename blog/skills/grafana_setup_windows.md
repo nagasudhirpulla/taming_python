@@ -34,7 +34,7 @@
 -   Grafana logs are stored in `C:\Program Files\GrafanaLabs\grafana\data\log` folder
 -   These logs can be useful to debug the errors in Grafana installation
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/dd4350fc-e49a-4a52-b232-58484a9d6d97/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Grafana%20log%20file.png?raw=true)
 
 ## Change Theme, Timezone, Organization name
 
@@ -99,5 +99,5 @@
 -   grafana-cli plugins docs - [https://grafana.com/docs/grafana/latest/cli/#plugins-commands](https://grafana.com/docs/grafana/latest/cli/#plugins-commands)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MzQ2MDU2Miw0MjM0NzgzMzldfQ==
+eyJoaXN0b3J5IjpbLTIwODcwMjU4MCw0MjM0NzgzMzldfQ==
 -->
