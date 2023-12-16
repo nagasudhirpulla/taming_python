@@ -93,9 +93,9 @@
 -   After un-installation, the folder `C:\Program Files\GrafanaLabs` can also be deleted
 
 ### Video
-Video on this post can be seen [here](https://youtu.be/toTCBapaTwg?si=-BevFS6SPP5hJWLO)
+Video on this post can be seen [here](https://youtu.be/zN1IcwlodnA?si=hvG9-XYXVOQFDRXE)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/toTCBapaTwg?si=-BevFS6SPP5hJWLO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zN1IcwlodnA?si=W1sDE_vi9mWTfwwz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## References
 
@@ -103,6 +103,6 @@ Video on this post can be seen [here](https://youtu.be/toTCBapaTwg?si=-BevFS6SPP
 -   grafana-cli plugins docs - [https://grafana.com/docs/grafana/latest/cli/#plugins-commands](https://grafana.com/docs/grafana/latest/cli/#plugins-commands)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjYzMzAxMCwyMTM4NzY4MzUzLDQyMz
-Q3ODMzOV19
+eyJoaXN0b3J5IjpbNDM2OTA5NDA0LDIxMzg3NjgzNTMsNDIzND
+c4MzM5XX0=
 -->
