@@ -92,11 +92,17 @@
 -   Grafana can be uninstalled just like other programs in the Control panel
 -   After un-installation, the folder `C:\Program Files\GrafanaLabs` can also be deleted
 
+### Video
+Video on this post can be seen [here](https://youtu.be/toTCBapaTwg?si=-BevFS6SPP5hJWLO)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/toTCBapaTwg?si=-BevFS6SPP5hJWLO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## References
 
 -   Grafana configuration file docs - [https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/)
 -   grafana-cli plugins docs - [https://grafana.com/docs/grafana/latest/cli/#plugins-commands](https://grafana.com/docs/grafana/latest/cli/#plugins-commands)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODc2ODM1Myw0MjM0NzgzMzldfQ==
+eyJoaXN0b3J5IjpbMTc2MjYzMzAxMCwyMTM4NzY4MzUzLDQyMz
+Q3ODMzOV19
 -->
