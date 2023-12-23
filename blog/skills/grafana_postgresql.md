@@ -10,7 +10,7 @@ Let us connect Grafana with a PostgreSQL database and visualize time series data
 -   Configure the PostgreSQL data source with required settings like database host URL, database name, username, password etc
 -   Click on Save & Test button. If all the settings are ok, then a “database connection ok” message will be shown
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/b9a9db4e-49f5-48a9-ab49-3d5c20ca4007/Untitled.png)
+![grafana_postgres_datasource_config.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_postgres_datasource_config.png?raw=true)
 
 ## Example database table for data visualization
 
@@ -61,7 +61,7 @@ end; $$
 
 ## Query in Grafana panel editor
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/8f0e83ae-0829-4ebe-97b9-ca272dd86e20/Untitled.png)
+![grafana_postgres_query_editor](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_postgres_query_editor.png?raw=true)
 
 -   Let us visualize the temperature of sensor ‘s1’ for the last 5 hours
 -   Create a dashboard and add a visualization panel. In the query editor, select the data source as the PostgreSQL data source configured to connect to the desired database
@@ -88,5 +88,5 @@ where
 -   Grafana documentation on macros for time series queries - [https://grafana.com/docs/grafana/latest/datasources/postgres/#macros](https://grafana.com/docs/grafana/latest/datasources/postgres/#macros)
 -   Documentation on time series queries options in Grafana PostgreSQL data source - [https://grafana.com/docs/grafana/latest/datasources/postgres/#time-series-queries](https://grafana.com/docs/grafana/latest/datasources/postgres/#time-series-queries)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjg1NzQzMV19
+eyJoaXN0b3J5IjpbLTEwNTU3MDg5MDZdfQ==
 -->
