@@ -1,5 +1,6 @@
 
 # Connect Grafana with PostgreSQL for time series visualization
+
 Let us connect Grafana with a PostgreSQL database and visualize time series data from the database in Grafana dashboards
 
 ## Configure PostgreSQL Grafana data source
@@ -87,5 +88,5 @@ where
 -   Grafana documentation on macros for time series queries - [https://grafana.com/docs/grafana/latest/datasources/postgres/#macros](https://grafana.com/docs/grafana/latest/datasources/postgres/#macros)
 -   Documentation on time series queries options in Grafana PostgreSQL data source - [https://grafana.com/docs/grafana/latest/datasources/postgres/#time-series-queries](https://grafana.com/docs/grafana/latest/datasources/postgres/#time-series-queries)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzQ2MjM0MV19
+eyJoaXN0b3J5IjpbMjAxNjg1NzQzMV19
 -->
