@@ -83,10 +83,16 @@ where
 -   Notice that the database column “data_time” is aliased as “time” in the SELECT SQL statement. This is because the SQL output should contain a column named “time” which contains the timestamps for time series visualization in Grafana
 -   Notice that the macro `$__timeFilter(data_time)` is used in the SQL WHERE condition. If this condition is not used, all the table values will be fetched without considering the user defined time range selection in Grafana
 
+### Video
+Video on this post can be seen [here](https://youtu.be/XR78JNmx4DM?si=Iay4L-3sDEmQXJsh)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/toTCBapaTwg?si=-BevFS6SPP5hJWLO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 ## References
 
 -   Grafana documentation on macros for time series queries - [https://grafana.com/docs/grafana/latest/datasources/postgres/#macros](https://grafana.com/docs/grafana/latest/datasources/postgres/#macros)
 -   Documentation on time series queries options in Grafana PostgreSQL data source - [https://grafana.com/docs/grafana/latest/datasources/postgres/#time-series-queries](https://grafana.com/docs/grafana/latest/datasources/postgres/#time-series-queries)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTU3MDg5MDZdfQ==
+eyJoaXN0b3J5IjpbMTcxODM2NDAzNSwtMTA1NTcwODkwNl19
 -->
