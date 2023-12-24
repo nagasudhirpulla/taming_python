@@ -86,7 +86,7 @@ where
 ### Video
 Video on this post can be seen [here](https://youtu.be/XR78JNmx4DM?si=Iay4L-3sDEmQXJsh)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/toTCBapaTwg?si=-BevFS6SPP5hJWLO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XR78JNmx4DM?si=S9F6mo8ASMQn7iHR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## References
@@ -94,5 +94,5 @@ Video on this post can be seen [here](https://youtu.be/XR78JNmx4DM?si=Iay4L-3sDE
 -   Grafana documentation on macros for time series queries - [https://grafana.com/docs/grafana/latest/datasources/postgres/#macros](https://grafana.com/docs/grafana/latest/datasources/postgres/#macros)
 -   Documentation on time series queries options in Grafana PostgreSQL data source - [https://grafana.com/docs/grafana/latest/datasources/postgres/#time-series-queries](https://grafana.com/docs/grafana/latest/datasources/postgres/#time-series-queries)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODM2NDAzNSwtMTA1NTcwODkwNl19
+eyJoaXN0b3J5IjpbLTUyMTk0MzY5OSwtMTA1NTcwODkwNl19
 -->
