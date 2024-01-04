@@ -43,6 +43,8 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   Notification policies define which contact points will be used by alerting instances to notify the alert state change
 -   Alert rule labels are used to define what contact points will be used by an alert rule
 
+![grafana_notification_policy_architecture](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_notification_policy_architecture.png?raw=true)
+
 ## Alerts demo in Grafana
 
 -   Let us demonstrate a simple alert with email notification in Grafana
@@ -126,5 +128,5 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   [https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S](https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjgzOTczMCwtMTAyNjM0MjY1Nl19
+eyJoaXN0b3J5IjpbMTI0MDA1ODg5MSwtMTAyNjM0MjY1Nl19
 -->
