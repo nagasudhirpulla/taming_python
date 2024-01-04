@@ -90,7 +90,7 @@ Based on the result of the alerting condition, the state of an alert can be one 
 
 -   Add labels (key-value pairs) to the alert rule as shown below.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/51172f29-cc27-40aa-b4fa-8b50f2f601be/Untitled.png)
+![grafana_alert_labels](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alert_labels.png?raw=true)
 
 -   Notifications policies will use alert rule labels to determine the contact points to deliver the alert notifications
 
@@ -122,5 +122,5 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   [https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S](https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzOTk2MjU5Ml19
+eyJoaXN0b3J5IjpbNjU4NjM3NTk1XX0=
 -->
