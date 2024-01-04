@@ -73,7 +73,7 @@ Based on the result of the alerting condition, the state of an alert can be one 
 
 -   After defining the alert conditions, define the evaluation behavior as shown below
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/49018a06-24be-4d41-8510-e4cb5e9a6562/Untitled.png)
+![grafana_alert_evaluation_behaviour](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alert_evaluation_behaviour.png?raw=true)
 
 -   Select a folder and evaluation group from the drop down (Create if not present)
 -   The periodicity of alert condition evaluation is defined in the evaluation group
@@ -122,5 +122,5 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   [https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S](https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzU2MzYxMzBdfQ==
+eyJoaXN0b3J5IjpbLTIxMzM2OTE4MzddfQ==
 -->
