@@ -4,6 +4,8 @@
 
 -   An alert can be configured in Grafana to continuously monitor a data point based on user defined alerting conditions.
 
+![grafana_alerts_panel_annotations](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alerts_panel_annotations.png?raw=true)
+
 ## Grafana alerts concepts
 
 We need to understand the following concepts to understand the alerting mechanism in Grafana
@@ -129,6 +131,6 @@ Based on the result of the alerting condition, the state of an alert can be one 
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTc3NzkwNDQsMTI0MDA1ODg5MSwtMT
-AyNjM0MjY1Nl19
+eyJoaXN0b3J5IjpbOTg2MDIwNjg1LC0yMDE3Nzc5MDQ0LDEyND
+AwNTg4OTEsLTEwMjYzNDI2NTZdfQ==
 -->
