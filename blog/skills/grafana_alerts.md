@@ -84,7 +84,7 @@ Based on the result of the alerting condition, the state of an alert can be one 
 
 -   Provide the alert summary in the annotations section as shown below
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/d862eda2-6e85-4099-848f-313647b76830/Untitled.png)
+![grafana_alert_description_inputs](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alert_description_inputs.png?raw=true)
 
 ### Define labels
 
@@ -122,5 +122,5 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   [https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S](https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzM2OTE4MzddfQ==
+eyJoaXN0b3J5IjpbLTMzOTk2MjU5Ml19
 -->
