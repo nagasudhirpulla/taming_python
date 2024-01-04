@@ -29,10 +29,14 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   No Data - Data required for evaluating the alert rule is not present.
 -   Error - Error occurred while evaluating the alert rule.
 
+![grafana_alert_states_sketch](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alert_states_sketch.png?raw=true)
+
 ### Contact Points
 
 -   Contact Points can be used to create notifications when an alert instance changes its alert state
 -   Contact points can be emails, slack, discord, webhooks etc.
+
+![grafana_alert_states_sketch](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alert_states_sketch.png?raw=true)
 
 ### Notification Policies
 
@@ -122,5 +126,5 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   [https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S](https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjYzNDI2NTZdfQ==
+eyJoaXN0b3J5IjpbLTQ0NDI1MDcwMiwtMTAyNjM0MjY1Nl19
 -->
