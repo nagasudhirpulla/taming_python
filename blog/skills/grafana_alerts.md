@@ -125,8 +125,10 @@ Based on the result of the alerting condition, the state of an alert can be one 
 
 ## References
 
--   [https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S](https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S)
+-   Official demo - https://vimeo.com/720001629
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDA1ODg5MSwtMTAyNjM0MjY1Nl19
+eyJoaXN0b3J5IjpbLTIwMTc3NzkwNDQsMTI0MDA1ODg5MSwtMT
+AyNjM0MjY1Nl19
 -->
