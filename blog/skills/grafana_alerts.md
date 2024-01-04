@@ -54,7 +54,7 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   Enter the required data fetching query in the “Define query and alert condition” section
 -   First select the relevant data source and write the query as shown below. Use the “Options” drop-down beside the data source drop-down to specify the data fetch time interval
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/09f38217-65aa-4199-ba0f-f66feded2a56/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_define_alert_query.png?raw=true)
 
 -   Define expressions to create an alerting condition. Multiple expressions can be chained to create an alerting condition as shown below.
 
@@ -122,5 +122,5 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   [https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S](https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUxMzg1ODczXX0=
+eyJoaXN0b3J5IjpbLTE5Mjk3OTQ3OThdfQ==
 -->
