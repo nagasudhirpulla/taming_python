@@ -99,7 +99,7 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   Contact points are notification channels for delivering alert notifications. Let us create an email contact point.
 -   For this example, Gmail is configured in the smtp section of Grafana defaults.ini file. So Grafana will use this Gmail account to send emails.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/ad7deeba-c7b3-44af-9e65-19aea478e5b7/Untitled.png)
+![grafana_mail_config_gmail](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_mail_config_gmail.png?raw=true)
 
 -   Gmail Password for Grafana can be generated in the “App Passwords” section of google account as shown below
 
@@ -122,5 +122,5 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   [https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S](https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU4NjM3NTk1XX0=
+eyJoaXN0b3J5IjpbMTIxMjQ4MDU1M119
 -->
