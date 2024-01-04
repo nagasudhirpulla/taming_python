@@ -103,11 +103,11 @@ Based on the result of the alerting condition, the state of an alert can be one 
 
 -   Gmail Password for Grafana can be generated in the “App Passwords” section of google account as shown below
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/39024e35-eebe-4e86-8ca6-b65ec88c8c6b/Untitled.png)
+![grafana_gmail_app_passwords](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_gmail_app_passwords.png?raw=true)
 
 -   Now create a contact point as shown below from the “Contact points” page. Notice that multiple emails or other type of integrations can be kept in a single contact point
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/e8eb71df-ae31-4b92-a2b1-32c71916fbf8/Untitled.png)
+![grafana_alert_contact_points](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alert_contact_points.png?raw=true)
 
 ## Notification Policies
 
@@ -122,5 +122,5 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   [https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S](https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjQ4MDU1M119
+eyJoaXN0b3J5IjpbLTE0NzUzODQ5NDBdfQ==
 -->
