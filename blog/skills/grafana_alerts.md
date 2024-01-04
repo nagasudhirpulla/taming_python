@@ -36,7 +36,7 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   Contact Points can be used to create notifications when an alert instance changes its alert state
 -   Contact points can be emails, slack, discord, webhooks etc.
 
-![grafana_contact_points_examples](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/v.png?raw=true)
+![grafana_contact_points_examples](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_contact_points_examples.png?raw=true)
 
 ### Notification Policies
 
@@ -126,6 +126,5 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   [https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S](https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjA2MzkwMDEsLTEwMjYzNDI2NTZdfQ
-==
+eyJoaXN0b3J5IjpbMTMwMjgzOTczMCwtMTAyNjM0MjY1Nl19
 -->
