@@ -54,18 +54,18 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   Enter the required data fetching query in the “Define query and alert condition” section
 -   First select the relevant data source and write the query as shown below. Use the “Options” drop-down beside the data source drop-down to specify the data fetch time interval
 
-![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_define_alert_query.png?raw=true)
+![grafana_define_alert_query](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_define_alert_query.png?raw=true)
 
 -   Define expressions to create an alerting condition. Multiple expressions can be chained to create an alerting condition as shown below.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/7275593b-9663-4993-8cac-58030a9084c1/Untitled.png)
+![grafana_alert_expressions](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alert_expressions.png?raw=true)
 
 -   The expression “B” is of type “Reduce” that uses the data source query “A” to get the maximum value of the fetched data. The expression “C” is of type “Threshold” that evaluates the value generated from expression “B”
 -   If the expression outcome is 0, the alert state would be OK. If the expression outcome is 1, the alert state would be Alerting. Hence the “Threshold” expression creates an output of 1 when the input value crosses the specified threshold.
 -   The “Preview” button can be used to see the alert rule evaluation results.
 -   Instead of creating “Reduce” and “Threshold” expressions, a simple “Classic” expression can also be defined as shown below
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/99d21ff5-ff94-49e0-a0df-10adda201144/Untitled.png)
+![grafana_alert_expression_classic](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alert_expression_classic.png?raw=true)
 
 -   “Math” expressions can also be used to transform data or combine multiple expressions (like $A+$B) if required
 
@@ -122,5 +122,5 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   [https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S](https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk3OTQ3OThdfQ==
+eyJoaXN0b3J5IjpbLTE0MzU2MzYxMzBdfQ==
 -->
