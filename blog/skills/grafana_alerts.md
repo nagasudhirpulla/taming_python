@@ -113,7 +113,7 @@ Based on the result of the alerting condition, the state of an alert can be one 
 
 -   Go to the “Notification policies” page and create a new nested policy as shown below
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/79b02ff7-e7d8-4c74-a54d-0ecde9f839e3/Untitled.png)
+![grafana_notification_policies](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_notification_policies.png?raw=true)
 
 -   All the alert rules that contain the label “team=infra” will use the contact point “Infra Team Email” using the above notification policy
 
@@ -122,5 +122,5 @@ Based on the result of the alerting condition, the state of an alert can be one 
 -   [https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S](https://youtu.be/n6yZuRr36uI?si=VJxdI-BKUuEk3P0S)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzUzODQ5NDBdfQ==
+eyJoaXN0b3J5IjpbLTEwMjYzNDI2NTZdfQ==
 -->
