@@ -128,13 +128,18 @@ Based on the result of the alerting condition, the state of an alert can be one 
 
 -   All the alert rules that contain the label “team=infra” will use the contact point “Infra Team Email” using the above notification policy
 
+### Video
+Video on this post can be seen [here](https://youtu.be/nW5AuEtSqVc?si=eLGKLSDsIJw9U2Ba)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nW5AuEtSqVc?si=eLGKLSDsIJw9U2Ba" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## References
 
 -   Official demo - https://vimeo.com/720001629
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjE4Njk3OTksMTQ3NzEyODM1NCw5OD
-YwMjA2ODUsLTIwMTc3NzkwNDQsMTI0MDA1ODg5MSwtMTAyNjM0
-MjY1Nl19
+eyJoaXN0b3J5IjpbMjA5MDMyOTI5OCwtMTMyMTg2OTc5OSwxND
+c3MTI4MzU0LDk4NjAyMDY4NSwtMjAxNzc3OTA0NCwxMjQwMDU4
+ODkxLC0xMDI2MzQyNjU2XX0=
 -->
