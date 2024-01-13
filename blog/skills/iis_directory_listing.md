@@ -1,25 +1,13 @@
 # Static file hosting with directory browsing in IIS
 
   
-
-Date Created: December 28, 2023 10:29 AM
-
-Status: Doing
-
-  
-
 ## What is static file hosting
-
-  
 
 - Files in the server folder can be served over HTTP based on the URL. (Example: http://localhost/sample.txt)
 
 ![enter image description here](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis%20directory%20listing%20website%20sample.png?raw=true)
   
 ## What is directory browsing
-
-  
-
 - The server folder contents can be viewed and navigated in a web browser over HTTP
 
   
@@ -822,5 +810,6 @@ Array.prototype.slice.call(table.querySelectorAll('tr:nth-child(n+2)'))
 
 - [https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis](https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTY1NTQ1NCwtOTk2OTQ0MTgxXX0=
+eyJoaXN0b3J5IjpbLTE4MDIzMzY4MzEsLTYxMTY1NTQ1NCwtOT
+k2OTQ0MTgxXX0=
 -->
