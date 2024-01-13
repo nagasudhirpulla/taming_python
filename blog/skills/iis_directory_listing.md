@@ -387,7 +387,7 @@ namespace Files
             }
         };
 
-        // do the work...
+        // setup table sorting
         Array.prototype.slice.call(document.querySelectorAll('th')).forEach(function (th) {
             th.addEventListener('click', function () {
                 var table = th.parentNode
@@ -414,6 +414,6 @@ namespace Files
 -   [https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis](https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU3OTgyNjAsMTg0NDYzMDA2MCwtNj
-ExNjU1NDU0LC05OTY5NDQxODFdfQ==
+eyJoaXN0b3J5IjpbMTU2Nzg1NTYzNiwxODQ0NjMwMDYwLC02MT
+E2NTU0NTQsLTk5Njk0NDE4MV19
 -->
