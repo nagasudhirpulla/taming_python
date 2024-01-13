@@ -90,7 +90,7 @@ Start /w pkgmgr /iu:IIS-WebServerRole;IIS-WebServer;IIS-CommonHttpFeatures;IIS-S
 
 -   Request Filtering module can be used to restrict file downloads based on configurable rules.
 
-[Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis)
+![enter image description here](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis%20website%20request%20filtering%20icon.png?raw=true)
 
 -   File extensions, HTTP verbs, file content length, query string length, URL length can be configured to limit the type of files downloadable to the users as shown below.
 
@@ -415,6 +415,6 @@ namespace Files
 -   [https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis](https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODkwNzY4OTEsMTg0NDYzMDA2MCwtNj
-ExNjU1NDU0LC05OTY5NDQxODFdfQ==
+eyJoaXN0b3J5IjpbLTI5MDgxNTU3NiwxODQ0NjMwMDYwLC02MT
+E2NTU0NTQsLTk5Njk0NDE4MV19
 -->
