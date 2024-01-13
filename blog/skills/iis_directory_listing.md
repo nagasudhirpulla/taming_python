@@ -16,7 +16,7 @@ Status: Doing
 
   
 
-[Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis)
 
   
 
@@ -826,5 +826,5 @@ Array.prototype.slice.call(table.querySelectorAll('tr:nth-child(n+2)'))
 
 - [https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis](https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjU2NTU5MiwtOTk2OTQ0MTgxXX0=
+eyJoaXN0b3J5IjpbLTIwNTc5NDE5MDksLTk5Njk0NDE4MV19
 -->
