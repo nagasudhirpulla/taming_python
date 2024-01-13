@@ -190,6 +190,7 @@ namespace Files
                 listing.Sort(DirectoryListingEntry.CompareFileSizesReverse);
             }
 
+
             //
             //  Prepare the file counter label
             //
@@ -289,6 +290,7 @@ namespace Files
             }
             return -1 * ((FileInfo)x.FileSystemInfo).Length.CompareTo(((FileInfo)y.FileSystemInfo).Length);
         }
+
 
     }
 }
@@ -414,6 +416,6 @@ namespace Files
 -   [https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis](https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2Nzg1NTYzNiwxODQ0NjMwMDYwLC02MT
-E2NTU0NTQsLTk5Njk0NDE4MV19
+eyJoaXN0b3J5IjpbNDEzMzk2OTc2LDE4NDQ2MzAwNjAsLTYxMT
+Y1NTQ1NCwtOTk2OTQ0MTgxXX0=
 -->
