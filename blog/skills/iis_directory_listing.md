@@ -63,15 +63,15 @@ Start /w pkgmgr /iu:IIS-WebServerRole;IIS-WebServer;IIS-CommonHttpFeatures;IIS-S
 
 -   Open IIS Manager. In the left pane, Right click on the Sites folder and create a new website. Select the desired server port, folder path as shown below
 
-[Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis)
+![enter image description here](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis%20static%20folder%20hosting%20add%20website%20dialog.png?raw=true)
 
 -   After creating the website, it will shown in the left pane of IIS under sites folder. The site can be started or stopped or opened in browser using “Manage Website” menu as shown below. The folder of the website can be opened in file explorer using the “Explore” menu
 
-[Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis)
+![enter image description here](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis%20website%20control%20menu.png?raw=true)
 
 -   If the website is configured correctly, the folder can be viewed in the web browser as shown below
 
-[Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis)
+![enter image description here](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis%20directory%20listing%20website%20sample.png?raw=true)
 
 ## Default document setting
 
@@ -94,13 +94,13 @@ Start /w pkgmgr /iu:IIS-WebServerRole;IIS-WebServer;IIS-CommonHttpFeatures;IIS-S
 
 -   File extensions, HTTP verbs, file content length, query string length, URL length can be configured to limit the type of files downloadable to the users as shown below.
 
-[Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis)
+![enter image description here](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis%20request%20filtering%20extensions%20restrict.png?raw=true)
 
 ## Directory browsing with sorting and extra columns using aspx
 
 -   Instead of IIS built in directory listing, the folder contents can be rendered as an interactive HTML table with column sorting and extra columns as shown below using aspx server-side scripting. The table sorting is done using JavaScript on the client side. Hence page is not reloaded every time sorting is changed. Also the folder contents are sorted on date by default instead of sorting on filename. Files will be opened in new tab upon clicking on them. Folder or Files marked hidden are also not shown.
 
-[Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis)
+![enter image description here](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis%20directory%20listing%20with%20aspx%20sample.png?raw=true)
 
 -   To enable aspx rendering in IIS websites, ensure [ASP.NET](http://ASP.NET) latest version is enabled in windows features as shown below
 
@@ -405,7 +405,7 @@ namespace Files
 
 -   Instead of opening `Files.aspx` explicitly in the URL, it can be configured as a default document as shown below
 
-[Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis)
+![enter image description here](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis%20static%20website%20default%20document%20for%20aspx.png?raw=true)
 
 -   Since we are using Files.aspx for rendering the directory contents, directory browsing feature in the website can be disabled if required.
 -   Now the aspx based directory browsing can be used for the website
@@ -415,6 +415,6 @@ namespace Files
 -   [https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis](https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODk1NTQ0LDE4NDQ2MzAwNjAsLTYxMT
-Y1NTQ1NCwtOTk2OTQ0MTgxXX0=
+eyJoaXN0b3J5IjpbLTE5ODkwNzY4OTEsMTg0NDYzMDA2MCwtNj
+ExNjU1NDU0LC05OTY5NDQxODFdfQ==
 -->
