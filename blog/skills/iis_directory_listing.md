@@ -83,7 +83,8 @@ Start /w pkgmgr /iu:IIS-WebServerRole;IIS-WebServer;IIS-CommonHttpFeatures;IIS-S
 ![enter image description here](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis%20default%20document%20icon.png?raw=true)
 
 -   Default document feature can be disabled or the default document names along with priority can be configured as shown below
-https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis%20default%20document%20setting%20screen.png?raw=true
+
+![enter image description here](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis%20default%20document%20setting%20screen.png?raw=true)
 
 ## Request filtering module for rule based restrictions
 
@@ -414,6 +415,6 @@ namespace Files
 -   [https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis](https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzkyMDAxNywxODQ0NjMwMDYwLC02MT
-E2NTU0NTQsLTk5Njk0NDE4MV19
+eyJoaXN0b3J5IjpbMTI4ODk1NTQ0LDE4NDQ2MzAwNjAsLTYxMT
+Y1NTQ1NCwtOTk2OTQ0MTgxXX0=
 -->
