@@ -33,7 +33,7 @@
     -   [Static Content Compression](https://learn.microsoft.com/en-us/iis/configuration/system.webserver/httpcompression/) - Compress and serve static content for faster delivery
     -   [Request Filtering](https://learn.microsoft.com/en-us/iis/manage/configuring-security/configure-request-filtering-in-iis) - restrict requests based on the HTTP verbs, file extensions, content length, URL length, query string length etc
 
-[Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis)
+![enter image description here](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis%20windows%20features.png?raw=true)
 
 ## Install IIS from command line
 
@@ -104,7 +104,7 @@ Start /w pkgmgr /iu:IIS-WebServerRole;IIS-WebServer;IIS-CommonHttpFeatures;IIS-S
 
 -   To enable aspx rendering in IIS websites, ensure [ASP.NET](http://ASP.NET) latest version is enabled in windows features as shown below
 
-
+![enter image description here](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis%20windows%20features%20for%20aspx%20rendering.png?raw=true)
 
 -   Paste the two files files `Files.aspx` and `Files.aspx.cs` in the server folder.
 
@@ -415,6 +415,6 @@ namespace Files
 -   [https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis](https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjkxOTI0NTcsMTg0NDYzMDA2MCwtNj
-ExNjU1NDU0LC05OTY5NDQxODFdfQ==
+eyJoaXN0b3J5IjpbLTg1NTk4Mzc5NiwxODQ0NjMwMDYwLC02MT
+E2NTU0NTQsLTk5Njk0NDE4MV19
 -->
