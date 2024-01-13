@@ -459,7 +459,7 @@ return v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toStrin
 
 };
 
-// do the work...
+// wire up the table sorting
 
 Array.prototype.slice.call(document.querySelectorAll('th')).forEach(function (th) {
 
@@ -498,6 +498,6 @@ Array.prototype.slice.call(table.querySelectorAll('tr:nth-child(n+2)'))
 -   [https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis](https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3MTE5NzI0LDE4NDQ2MzAwNjAsLTYxMT
+eyJoaXN0b3J5IjpbOTcyNjE4NzkwLDE4NDQ2MzAwNjAsLTYxMT
 Y1NTQ1NCwtOTk2OTQ0MTgxXX0=
 -->
