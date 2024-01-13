@@ -5,7 +5,7 @@
 
 -   Files in the server folder can be served over HTTP based on the URL. (Example: [http://localhost/sample.txt](http://localhost/sample.txt))
 
-[Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis)
+
 
 ## What is directory browsing
 
@@ -415,6 +415,6 @@ namespace Files
 
 -   [https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis](https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyNDM5ODA4LC02MTE2NTU0NTQsLTk5Nj
+eyJoaXN0b3J5IjpbMjI2NzM0MDY1LC02MTE2NTU0NTQsLTk5Nj
 k0NDE4MV19
 -->
