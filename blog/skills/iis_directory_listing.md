@@ -300,189 +300,105 @@ namespace Files
 <%@ Page Language="C#" AutoEventWireup="true" CodeFile="Files.aspx.cs" Inherits="Files.FilesPage" %>
 
 <%@ Import Namespace="System.Collections.Generic" %>
-
 <%@ Import Namespace="System.IO" %>
-
 <%@ Import Namespace="Files" %>
-
 <!DOCTYPE html>
-
 <html>
-
 <head>
+    <title>Contents of <%= path %></title>
+    <style type="text/css">
+        a {
+            text-decoration: none;
+        }
 
-<title>Contents of <%= path %></title>
+            a:hover {
+                text-decoration: underline;
+            }
 
-<style type="text/css">
+        p {
+            font-family: verdana;
+            font-size: 10pt;
+        }
 
-a {
+        h2 {
+            font-family: verdana;
+        }
 
-text-decoration: none;
+        td, th {
+            font-family: verdana;
+            font-size: 10pt;
+            padding-left: 1em;
+        }
 
-}
-
-a:hover {
-
-text-decoration: underline;
-
-}
-
-p {
-
-font-family: verdana;
-
-font-size: 10pt;
-
-}
-
-h2 {
-
-font-family: verdana;
-
-}
-
-td, th {
-
-font-family: verdana;
-
-font-size: 10pt;
-
-padding-left: 1em;
-
-}
-
-th {
-
-text-align: left;
-
-text-decoration: underline;
-
-}
-
-</style>
-
+        th {
+            text-align: left;
+            text-decoration: underline;
+        }
+    </style>
 </head>
-
 <body>
+    <h2>
+        <asp:HyperLink runat="server" ID="NavigateUpLink">[To Parent Directory]</asp:HyperLink>
+        <%= path %>
+    </h2>
+    <hr />
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Last Modified</th>
+            <th>Size (KB)</th>
+            <th>Extension</th>
+            <th>Type</th>
+        </tr>
+        <% foreach (DirectoryListingEntry fItem in listing)
+            { %>
+        <tr>
+            <td>
+                <% if (fItem.FileSystemInfo is DirectoryInfo)
+                    {%>
+                <a href="?path=<%=fItem.VirtualPath%>"><%=fItem.Filename%></a>
+                <%}
+                    else
+                    {%>
+                <a href="<%=fItem.VirtualPath%>" target="_blank"><%=fItem.Filename%></a>
+                <%}%>
+            </td>
+            <td><%= fItem.FileSystemInfo.LastWriteTime.ToString("yyyy-MMM-dd HH:mm")%></td>
+            <td><%= GetFileSizeString(fItem.FileSystemInfo) %></td>
+            <td><%=fItem.FileSystemInfo.Extension %></td>
+            <td><%=(fItem.FileSystemInfo is DirectoryInfo)?"folder":"file" %></td>
+        </tr>
+        <% } %>
+    </table>
 
-<h2>
+    <hr />
+    <p>
+        <asp:Label runat="Server" ID="FileCount" />
+    </p>
+    <script>
+        // https://stackoverflow.com/questions/14267781/sorting-html-table-with-javascript
+        var getCellValue = function (tr, idx) { return tr.children[idx].innerText || tr.children[idx].textContent; }
 
-<asp:HyperLink runat="server" ID="NavigateUpLink">[To Parent Directory]</asp:HyperLink>
+        var comparer = function (idx, asc) {
+            return function (a, b) {
+                return function (v1, v2) {
+                    return v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2);
+                }(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+            }
+        };
 
-<%= path %>
-
-</h2>
-
-<hr />
-
-<table>
-
-<tr>
-
-<th>Name</th>
-
-<th>Last Modified</th>
-
-<th>Size (KB)</th>
-
-<th>Extension</th>
-
-<th>Type</th>
-
-</tr>
-
-<% foreach (DirectoryListingEntry fItem in listing)
-
-{ %>
-
-<tr>
-
-<td>
-
-<% if (fItem.FileSystemInfo is DirectoryInfo)
-
-{%>
-
-<a href="?path=<%=fItem.VirtualPath%>"><%=fItem.Filename%></a>
-
-<%}
-
-else
-
-{%>
-
-<a href="<%=fItem.VirtualPath%>" target="_blank"><%=fItem.Filename%></a>
-
-<%}%>
-
-</td>
-
-<td><%= fItem.FileSystemInfo.LastWriteTime.ToString("yyyy-MMM-dd HH:mm")%></td>
-
-<td><%= GetFileSizeString(fItem.FileSystemInfo) %></td>
-
-<td><%=fItem.FileSystemInfo.Extension %></td>
-
-<td><%=(fItem.FileSystemInfo is DirectoryInfo)?"folder":"file" %></td>
-
-</tr>
-
-<% } %>
-
-</table>
-
-<hr />
-
-<p>
-
-<asp:Label runat="Server" ID="FileCount" />
-
-</p>
-
-<script>
-
-// https://stackoverflow.com/questions/14267781/sorting-html-table-with-javascript
-
-var getCellValue = function (tr, idx) { return tr.children[idx].innerText || tr.children[idx].textContent; }
-
-var comparer = function (idx, asc) {
-
-return function (a, b) {
-
-return function (v1, v2) {
-
-return v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2);
-
-}(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
-
-}
-
-};
-
-// wire up the table sorting
-
-Array.prototype.slice.call(document.querySelectorAll('th')).forEach(function (th) {
-
-th.addEventListener('click', function () {
-
-var table = th.parentNode
-
-while (table.tagName.toUpperCase() != 'TABLE') table = table.parentNode;
-
-Array.prototype.slice.call(table.querySelectorAll('tr:nth-child(n+2)'))
-
-.sort(comparer(Array.prototype.slice.call(th.parentNode.children).indexOf(th), this.asc = !this.asc))
-
-.forEach(function (tr) { table.appendChild(tr) });
-
-})
-
-});
-
-</script>
-
+        // do the work...
+        Array.prototype.slice.call(document.querySelectorAll('th')).forEach(function (th) {
+            th.addEventListener('click', function () {
+                var table = th.parentNode
+                while (table.tagName.toUpperCase() != 'TABLE') table = table.parentNode;
+                Array.prototype.slice.call(table.querySelectorAll('tr:nth-child(n+2)'))
+                    .sort(comparer(Array.prototype.slice.call(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+                    .forEach(function (tr) { table.appendChild(tr) });
+            })
+        });
+    </script>
 </body>
-
 </html>
 ```
 
@@ -498,6 +414,6 @@ Array.prototype.slice.call(table.querySelectorAll('tr:nth-child(n+2)'))
 -   [https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis](https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyNjE4NzkwLDE4NDQ2MzAwNjAsLTYxMT
-Y1NTQ1NCwtOTk2OTQ0MTgxXX0=
+eyJoaXN0b3J5IjpbLTIwMDU3OTgyNjAsMTg0NDYzMDA2MCwtNj
+ExNjU1NDU0LC05OTY5NDQxODFdfQ==
 -->
