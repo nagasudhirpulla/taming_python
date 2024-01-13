@@ -104,7 +104,7 @@ Start /w pkgmgr /iu:IIS-WebServerRole;IIS-WebServer;IIS-CommonHttpFeatures;IIS-S
 
 -   To enable aspx rendering in IIS websites, ensure [ASP.NET](http://ASP.NET) latest version is enabled in windows features as shown below
 
-[Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/iis)
+
 
 -   Paste the two files files `Files.aspx` and `Files.aspx.cs` in the server folder.
 
@@ -415,6 +415,6 @@ namespace Files
 -   [https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis](https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDgxNTU3NiwxODQ0NjMwMDYwLC02MT
-E2NTU0NTQsLTk5Njk0NDE4MV19
+eyJoaXN0b3J5IjpbLTEyNjkxOTI0NTcsMTg0NDYzMDA2MCwtNj
+ExNjU1NDU0LC05OTY5NDQxODFdfQ==
 -->
