@@ -1,3 +1,5 @@
+# Static file hosting with directory browsing in IIS
+
 ## What is static file hosting
 
 - Files in the server folder can be served over HTTP based on the URL. (Example: http://localhost/sample.txt)
@@ -408,5 +410,5 @@ namespace Files
 
 - https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDg3NDQ4OF19
+eyJoaXN0b3J5IjpbLTk5Njk0NDE4MV19
 -->
