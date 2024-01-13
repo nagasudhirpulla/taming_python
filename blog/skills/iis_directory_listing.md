@@ -300,107 +300,190 @@ namespace Files
 <%@ Page Language="C#" AutoEventWireup="true" CodeFile="Files.aspx.cs" Inherits="Files.FilesPage" %>
 
 <%@ Import Namespace="System.Collections.Generic" %>
+
 <%@ Import Namespace="System.IO" %>
+
 <%@ Import Namespace="Files" %>
+
 <!DOCTYPE html>
+
 <html>
+
 <head>
-    <title>Contents of <%= path %></title>
-    <style type="text/css">
-        a {
-            text-decoration: none;
-        }
 
-            a:hover {
-                text-decoration: underline;
-            }
+<title>Contents of <%= path %></title>
 
-        p {
-            font-family: verdana;
-            font-size: 10pt;
-        }
+<style type="text/css">
 
-        h2 {
-            font-family: verdana;
-        }
+a {
 
-        td, th {
-            font-family: verdana;
-            font-size: 10pt;
-            padding-left: 1em;
-        }
+text-decoration: none;
 
-        th {
-            text-align: left;
-            text-decoration: underline;
-        }
-    </style>
+}
+
+a:hover {
+
+text-decoration: underline;
+
+}
+
+p {
+
+font-family: verdana;
+
+font-size: 10pt;
+
+}
+
+h2 {
+
+font-family: verdana;
+
+}
+
+td, th {
+
+font-family: verdana;
+
+font-size: 10pt;
+
+padding-left: 1em;
+
+}
+
+th {
+
+text-align: left;
+
+text-decoration: underline;
+
+}
+
+</style>
+
 </head>
+
 <body>
-    <h2>
-        <asp:HyperLink runat="server" ID="NavigateUpLink">[To Parent Directory]</asp:HyperLink>
-        <%= path %>
-    </h2>
-    <hr />
-    <table>
-        <tr>
-            <th id="abcd">Name</th>
-            <th>Last Modified</th>
-            <th>Size (KB)</th>
-            <th>Extension</th>
-            <th>Type</th>
-        </tr>
-        <% foreach (DirectoryListingEntry fItem in listing)
-            { %>
-        <tr>
-            <td>
-                <% if (fItem.FileSystemInfo is DirectoryInfo)
-                    {%>
-                <a href="?path=<%=fItem.VirtualPath%>"><%=fItem.Filename%></a>
-                <%}
-                    else
-                    {%>
-                <a href="<%=fItem.VirtualPath%>" target="_blank"><%=fItem.Filename%></a>
-                <%}%>
-            </td>
-            <td><%= fItem.FileSystemInfo.LastWriteTime.ToString("yyyy-MMM-dd HH:mm")%></td>
-            <td><%= GetFileSizeString(fItem.FileSystemInfo) %></td>
-            <td><%=fItem.FileSystemInfo.Extension %></td>
-            <td><%=(fItem.FileSystemInfo is DirectoryInfo)?"folder":"file" %></td>
-        </tr>
-        <% } %>
-    </table>
 
-    <hr />
-    <p>
-        <asp:Label runat="Server" ID="FileCount" />
-    </p>
-    <script>
-        // <https://stackoverflow.com/questions/14267781/sorting-html-table-with-javascript>
-        var getCellValue = function (tr, idx) { return tr.children[idx].innerText || tr.children[idx].textContent; }
+<h2>
 
-        var comparer = function (idx, asc) {
-            return function (a, b) {
-                return function (v1, v2) {
-                    return v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2);
-                }(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
-            }
-        };
+<asp:HyperLink runat="server" ID="NavigateUpLink">[To Parent Directory]</asp:HyperLink>
 
-        // wire up the table sorting feature
-        Array.prototype.slice.call(document.querySelectorAll('th')).forEach(function (th) {
-            th.addEventListener('click', function () {
-                var table = th.parentNode
-                while (table.tagName.toUpperCase() != 'TABLE') table = table.parentNode;
-                Array.prototype.slice.call(table.querySelectorAll('tr:nth-child(n+2)'))
-                    .sort(comparer(Array.prototype.slice.call(th.parentNode.children).indexOf(th), this.asc = !this.asc))
-                    .forEach(function (tr) { table.appendChild(tr) });
-            })
-        });
-    </script>
+<%= path %>
+
+</h2>
+
+<hr />
+
+<table>
+
+<tr>
+
+<th>Name</th>
+
+<th>Last Modified</th>
+
+<th>Size (KB)</th>
+
+<th>Extension</th>
+
+<th>Type</th>
+
+</tr>
+
+<% foreach (DirectoryListingEntry fItem in listing)
+
+{ %>
+
+<tr>
+
+<td>
+
+<% if (fItem.FileSystemInfo is DirectoryInfo)
+
+{%>
+
+<a href="?path=<%=fItem.VirtualPath%>"><%=fItem.Filename%></a>
+
+<%}
+
+else
+
+{%>
+
+<a href="<%=fItem.VirtualPath%>" target="_blank"><%=fItem.Filename%></a>
+
+<%}%>
+
+</td>
+
+<td><%= fItem.FileSystemInfo.LastWriteTime.ToString("yyyy-MMM-dd HH:mm")%></td>
+
+<td><%= GetFileSizeString(fItem.FileSystemInfo) %></td>
+
+<td><%=fItem.FileSystemInfo.Extension %></td>
+
+<td><%=(fItem.FileSystemInfo is DirectoryInfo)?"folder":"file" %></td>
+
+</tr>
+
+<% } %>
+
+</table>
+
+<hr />
+
+<p>
+
+<asp:Label runat="Server" ID="FileCount" />
+
+</p>
+
+<script>
+
+// https://stackoverflow.com/questions/14267781/sorting-html-table-with-javascript
+
+var getCellValue = function (tr, idx) { return tr.children[idx].innerText || tr.children[idx].textContent; }
+
+var comparer = function (idx, asc) {
+
+return function (a, b) {
+
+return function (v1, v2) {
+
+return v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2);
+
+}(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+
+}
+
+};
+
+// do the work...
+
+Array.prototype.slice.call(document.querySelectorAll('th')).forEach(function (th) {
+
+th.addEventListener('click', function () {
+
+var table = th.parentNode
+
+while (table.tagName.toUpperCase() != 'TABLE') table = table.parentNode;
+
+Array.prototype.slice.call(table.querySelectorAll('tr:nth-child(n+2)'))
+
+.sort(comparer(Array.prototype.slice.call(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+
+.forEach(function (tr) { table.appendChild(tr) });
+
+})
+
+});
+
+</script>
+
 </body>
-</html>
 
+</html>
 ```
 
 -   Instead of opening `Files.aspx` explicitly in the URL, it can be configured as a default document as shown below
@@ -415,6 +498,6 @@ namespace Files
 -   [https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis](https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTk4Mzc5NiwxODQ0NjMwMDYwLC02MT
-E2NTU0NTQsLTk5Njk0NDE4MV19
+eyJoaXN0b3J5IjpbMzM3MTE5NzI0LDE4NDQ2MzAwNjAsLTYxMT
+Y1NTQ1NCwtOTk2OTQ0MTgxXX0=
 -->
