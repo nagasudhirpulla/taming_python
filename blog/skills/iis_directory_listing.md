@@ -59,7 +59,7 @@ Start /w pkgmgr /iu:IIS-WebServerRole;IIS-WebServer;IIS-CommonHttpFeatures;IIS-S
 
 -   Right click on the hosted folder and open the Properties dialog. Under the security tab, make sure that the user named “IUSR” and the user group “IIS_IUSRS” has the permissions Read & execute, List folder contents, Read.
 
-[Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/IIS)
+
 
 -   Open IIS Manager. In the left pane, Right click on the Sites folder and create a new website. Select the desired server port, folder path as shown below
 
@@ -416,6 +416,6 @@ namespace Files
 -   [https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis](https://learn.microsoft.com/en-us/iis/manage/creating-websites/scenario-build-a-static-website-on-iis)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzMzk2OTc2LDE4NDQ2MzAwNjAsLTYxMT
-Y1NTQ1NCwtOTk2OTQ0MTgxXX0=
+eyJoaXN0b3J5IjpbMTM4NDc2NTQ4Myw0MTMzOTY5NzYsMTg0ND
+YzMDA2MCwtNjExNjU1NDU0LC05OTY5NDQxODFdfQ==
 -->
