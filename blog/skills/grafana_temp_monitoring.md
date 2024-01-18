@@ -7,13 +7,13 @@
 
 - DHT22 can be used as a temperature and humidity sensor. Two pins should be connected to 3.3 Volts and ground. The data pin can provides the temperature and humidity information
 
-![DHT22_sensor](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/dcdb11af-65cb-47bd-b709-6a92fcca0ee1/Untitled.png)
+![DHT22_sensor](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/DHT22_sensor.png?raw=true)
 
 ## Read temperature and humidity data from DHT22 with Raspberry pi
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/ebc575f1-2bd2-4b9b-b6eb-7bec2a05708d/Untitled.png)
+![DHT22_rasp_schematic](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/DHT22_rasp_schematic.png?raw=true)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/f4ada004-19d7-46e9-9b9f-71901f8c6397/Untitled.jpeg)
+![DHT22_rasp_connection](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/DHT22_rasp_connection.jpeg?raw=true)
 
 - DHT22 sensor data can be read by python script running on a Raspberry pi.
 - The VCC pin and ground pin of the sensor can be connecting to VCC and ground pins of Raspberry pin as shown above
@@ -284,5 +284,5 @@ where
 - run psycopg2 in debain distros - https://stackoverflow.com/a/71831274/2746323
 - Schedule tasks with less than 1 min interval using systemd - https://stackoverflow.com/a/53557536/2746323
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDkyMzQ2MCwtMTg5ODg0ODEyMF19
+eyJoaXN0b3J5IjpbMTgyMTE3OTM1LC0xODk4ODQ4MTIwXX0=
 -->
