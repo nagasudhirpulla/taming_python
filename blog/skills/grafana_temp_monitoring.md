@@ -1,3 +1,4 @@
+
 - In this post we will create a Temperature monitoring and alerting system.
 - Grafana can be configured to monitor the temperature continuously and generate alerts if the temperature crosses a defined threshold.
 - The historical temperature can be visualized in Grafana dashboards.
@@ -307,5 +308,5 @@ for row in rows:
 cur.close()conn.close()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjI1MDU2OV19
+eyJoaXN0b3J5IjpbLTExMjI4NTI0MDddfQ==
 -->
