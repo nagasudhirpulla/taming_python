@@ -93,7 +93,7 @@ set
   tmp = excluded.tmp;
 ```
 
-!https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/postgreSQL%20temperature%20humidity%20table.png?raw=true
+![postgreSQL%20temperature%20humidity%20table](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/postgreSQL%20temperature%20humidity%20table.png?raw=true)
 
 ## Python code to push sensor data to database
 
@@ -224,13 +224,13 @@ tmpHumDb.insertData(tmpHumDict["tmp"], tmpHumDict["hum"], sensorId)
 
 - PostgreSQL Grafana datasource can be created in Grafana to integrate the database with Grafana for visualization and alerting as shown below
 
-!https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_postgres_datasource_config.png?raw=true
+![grafana_postgres_datasource_config](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_postgres_datasource_config.png?raw=true)
 
 - Click on the “Save & Test” button. If all the settings are ok, then a “database connection ok” message will be shown
 
 ### Data visualization in Grafana
 
-!https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Temperature%20monitoring%20grafana%20dashboard%20query%20editor.png?raw=true
+![Temperature%20monitoring%20grafana%20dashboard%20query%20editor](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Temperature%20monitoring%20grafana%20dashboard%20query%20editor.png?raw=true)
 
 - Create a Grafana dashboard. Create a time-series panel with the sensor data PostgreSQL database as a datasource. Use the following query to fetch the sensor data from database.
 
@@ -284,5 +284,5 @@ where
 - run psycopg2 in debain distros - https://stackoverflow.com/a/71831274/2746323
 - Schedule tasks with less than 1 min interval using systemd - https://stackoverflow.com/a/53557536/2746323
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0NzU4MjE0XX0=
+eyJoaXN0b3J5IjpbLTE4OTg4NDgxMjBdfQ==
 -->
