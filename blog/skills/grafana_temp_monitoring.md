@@ -7,7 +7,7 @@
 
 - DHT22 can be used as a temperature and humidity sensor. Two pins should be connected to 3.3 Volts and ground. The data pin can provides the temperature and humidity information
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/dcdb11af-65cb-47bd-b709-6a92fcca0ee1/Untitled.png)
+![DHT22_sensor](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/dcdb11af-65cb-47bd-b709-6a92fcca0ee1/Untitled.png)
 
 ## Read temperature and humidity data from DHT22 with Raspberry pi
 
@@ -284,5 +284,5 @@ where
 - run psycopg2 in debain distros - https://stackoverflow.com/a/71831274/2746323
 - Schedule tasks with less than 1 min interval using systemd - https://stackoverflow.com/a/53557536/2746323
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTg4NDgxMjBdfQ==
+eyJoaXN0b3J5IjpbMTA2NDkyMzQ2MCwtMTg5ODg0ODEyMF19
 -->
