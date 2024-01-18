@@ -281,32 +281,8 @@ where
 ## References
 
 - DHT22 temperature sensor python library - [https://github.com/adafruit/Adafruit_CircuitPython_DHT](https://github.com/adafruit/Adafruit_Python_DHT/)
-- https://stackoverflow.com/a/71831274/2746323
+- run psycopg2 in debain distros - https://stackoverflow.com/a/71831274/2746323
 - Schedule tasks with less than 1 min interval using systemd - https://stackoverflow.com/a/53557536/2746323
-
-https://www.donskytech.com/raspberry-pi-how-to-interface-with-a-dht22-sensor/
-
-https://devdojo.com/saeedkhankuetcse/python-postgresql-integration
-
-```python
-import psycopg2
-# Replace these with your own Supabase credentials
-SUPABASE_URL = "db.hrbklzzfynteyhryowbt.supabase.co"
-SUPABASE_KEY = "s1EIf2Gl4g4bWsrX"
-# Connect to the database
-conn = psycopg2.connect(host=SUPABASE_URL,database="postgres",user="postgres",password=SUPABASE_KEY,)
-# Create a cursor
-cur = conn.cursor()
-# Execute a query
-cur.execute("SELECT * FROM users")
-# Fetch the results
-rows = cur.fetchall()
-# Print the results
-for row in rows:
-    print(row)
-# Close the cursor and the connection
-cur.close()conn.close()
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjI4NTI0MDddfQ==
+eyJoaXN0b3J5IjpbNjkwMTU2MDYzXX0=
 -->
