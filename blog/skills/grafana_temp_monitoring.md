@@ -1,4 +1,6 @@
 
+# Raspberry pi based temperature monitoring and alerting system
+
 - In this post we will create a Temperature monitoring and alerting system.
 - Grafana can be configured to monitor the temperature continuously and generate alerts if the temperature crosses a defined threshold.
 - The historical temperature can be visualized in Grafana dashboards.
@@ -284,6 +286,5 @@ where
 - run psycopg2 in debain distros - https://stackoverflow.com/a/71831274/2746323
 - Schedule tasks with less than 1 min interval using systemd - https://stackoverflow.com/a/53557536/2746323
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQ4NDExODMsLTE4OTg4NDgxMjBdfQ
-==
+eyJoaXN0b3J5IjpbLTY2OTA0NDg1NiwtMTg5ODg0ODEyMF19
 -->
