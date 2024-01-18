@@ -259,7 +259,7 @@ where
 
 ## Temperature alert setup in Grafana
 
-!https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_temperature_sensor_alert_rule.png?raw=true
+!https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_temperature_sensor_alert_rule.png?raw=true)
 
 - Search for “Alert Rules” page in Grafana. Create a new alert rule for monitoring the sensor temperature as shown in the above image
 - Define the alerting condition data fetch query and threshold evaluation in the “Define query and alert condition” section
@@ -268,15 +268,15 @@ where
 - Add labels to alert rule for linking the alert rule with a contact point in the notification policy screen. For this example, we added the label team=infra to the alert rule
 - Go to the “Notification policies” page and create a new nested policy as shown below. The alert rule will use the email contact point for sending alert notifications
 
-!https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_notification_policies.png?raw=true
+![grafana_notification_policies](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_notification_policies.png?raw=true)
 
 - The alerts would be overlaid on the dashboard as shown below
 
-!https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Temperature%20monitoring%20grafana%20dashboard.png?raw=true
+![Temperature%20monitoring%20grafana%20dashboard](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Temperature%20monitoring%20grafana%20dashboard.png?raw=true)
 
 - An email would be sent as shown below when an alert is fired
 
-!https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_temperature_sensor_email.png?raw=true
+![grafana_temperature_sensor_email](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_temperature_sensor_email.png?raw=true)
 
 ## References
 
@@ -284,5 +284,5 @@ where
 - run psycopg2 in debain distros - https://stackoverflow.com/a/71831274/2746323
 - Schedule tasks with less than 1 min interval using systemd - https://stackoverflow.com/a/53557536/2746323
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkwMTU2MDYzXX0=
+eyJoaXN0b3J5IjpbNTA1MzIxNzRdfQ==
 -->
