@@ -250,16 +250,16 @@ where
 
 ## Email Contact point in Grafana
 
-!https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alert_contact_points.png?raw=true
+![grafana_alert_contact_points](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alert_contact_points.png?raw=true)
 
 - Search for “Contact Points” page in Grafana. Create a new email contact point with the desired receiver email addresses as shown above
 - Make sure that valid smtp settings are configure in the defaults.ini file of Grafana. For this example we are configuring a Gmail account with app password in the smtp settings as shown below. Grafana will use this Gmail account to send emails
 
-!https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_mail_config_gmail.png?raw=true
+![grafana_mail_config_gmail](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_mail_config_gmail.png?raw=true)
 
 ## Temperature alert setup in Grafana
 
-!https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_temperature_sensor_alert_rule.png?raw=true)
+![grafana_temperature_sensor_alert_rule](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_temperature_sensor_alert_rule.png?raw=true)
 
 - Search for “Alert Rules” page in Grafana. Create a new alert rule for monitoring the sensor temperature as shown in the above image
 - Define the alerting condition data fetch query and threshold evaluation in the “Define query and alert condition” section
@@ -284,5 +284,5 @@ where
 - run psycopg2 in debain distros - https://stackoverflow.com/a/71831274/2746323
 - Schedule tasks with less than 1 min interval using systemd - https://stackoverflow.com/a/53557536/2746323
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1MzIxNzRdfQ==
+eyJoaXN0b3J5IjpbNjI0NzU4MjE0XX0=
 -->
