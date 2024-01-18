@@ -50,7 +50,7 @@ while True:
 
 - The above python script reads the temperature and humidity from DHT22 sensor every second and prints it on the command line as shown below
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/d9fa2d7d-2a7e-49ce-821c-bafe6077dea3/Untitled.png)
+![DHT22_python_output](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/DHT22_python_output.png?raw=true)
 
 ## Data pipeline for storing sensor data in real time
 
@@ -284,5 +284,5 @@ where
 - run psycopg2 in debain distros - https://stackoverflow.com/a/71831274/2746323
 - Schedule tasks with less than 1 min interval using systemd - https://stackoverflow.com/a/53557536/2746323
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTE3OTM1LC0xODk4ODQ4MTIwXX0=
+eyJoaXN0b3J5IjpbLTEzNzM3MzkwMiwtMTg5ODg0ODEyMF19
 -->
