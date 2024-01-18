@@ -54,7 +54,7 @@ while True:
 
 ## Data pipeline for storing sensor data in real time
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/0dde9330-0cd2-4f03-b210-e1d9495f34ef/Untitled.png)
+![DHT22_data_pipeline](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/DHT22_data_pipeline.png?raw=true)
 
 - At regular intervals (say 5 mins), raspberry pi will read temperature and humidity data from DHT22 sensor and store it in a database server. This data can be used for visualization and alerting
 - The database server will be in the same WiFi network of the Raspberry Pi
@@ -284,5 +284,6 @@ where
 - run psycopg2 in debain distros - https://stackoverflow.com/a/71831274/2746323
 - Schedule tasks with less than 1 min interval using systemd - https://stackoverflow.com/a/53557536/2746323
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzM3MzkwMiwtMTg5ODg0ODEyMF19
+eyJoaXN0b3J5IjpbLTEyNTQ4NDExODMsLTE4OTg4NDgxMjBdfQ
+==
 -->
