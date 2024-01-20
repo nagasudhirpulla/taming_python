@@ -279,6 +279,10 @@ where
 - An email would be sent as shown below when an alert is fired
 
 ![grafana_temperature_sensor_email](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_temperature_sensor_email.png?raw=true)
+### Video
+Video on this post can be seen [here](https://youtu.be/11Zl6E_i0AY?si=yGFgKHyFXUjYBq3l)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/11Zl6E_i0AY?si=VBrIcnChqXLqw1WI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## References
 
@@ -286,5 +290,6 @@ where
 - run psycopg2 in debain distros - https://stackoverflow.com/a/71831274/2746323
 - Schedule tasks with less than 1 min interval using systemd - https://stackoverflow.com/a/53557536/2746323
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTA0NDg1NiwtMTg5ODg0ODEyMF19
+eyJoaXN0b3J5IjpbNzAwNzI5NTE1LC02NjkwNDQ4NTYsLTE4OT
+g4NDgxMjBdfQ==
 -->
