@@ -55,7 +55,7 @@
 
 ### Configure Elasticsearch connectivity
 
-- Elasticsearch url and credentials can be specified in the `output.elasticsearch` section of winlogbeat.yml file as shown below
+- Elasticsearch URL and credentials can be specified in the `output.elasticsearch` section of winlogbeat.yml file as shown below
 
 ```yaml
 output.elasticsearch:
@@ -88,7 +88,7 @@ winlogbeat.event_logs:
 
 - The name of the desired log can be specified using “name” field. To know the name of the log in event viewer, right click on the log in the left pane and view properties as shown below
 
-!https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/windows event viewer view log name.png?raw=true
+![windows event viewer view log name](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/windows%20event%20viewer%20view%20log%20name.png?raw=true)
 
 - `ignore_older` attribute can be used to ignore logs older than specified time. This helps to avoid unnecessary old logs while running Winlogbeat for the first time
 - `event_id` attribute can be used to what specific event ids are to be included or excluded. For example `4624, 4700-4800, -4735` means, only event ids 4624 and event ids between 4700 and 4800 would be shipped but 4735 will not be shipped.
@@ -120,5 +120,5 @@ winlogbeat.event_logs:
 - Excellent explanation to each of windows security events - https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/Default.aspx?catid=2&subcatid=8
 - About windows event logs and terminology - https://www.solarwinds.com/resources/it-glossary/windows-event-log
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTAwNjAyMF19
+eyJoaXN0b3J5IjpbLTE2MjU1NDI5MzddfQ==
 -->
