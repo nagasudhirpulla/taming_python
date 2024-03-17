@@ -5,7 +5,7 @@
 - Winlogbeat runs as a windows background service
 - Winlogbeat can be configured with a .yml file to control what logs are sent to Elasticsearch
 
-
+![winlogbeat architecture](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/winlogbeat%20architecture.png?raw=true)
 
 ## About windows event logs
 
@@ -119,5 +119,5 @@ winlogbeat.event_logs:
 - Excellent explanation to each of windows security events - https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/Default.aspx?catid=2&subcatid=8
 - About windows event logs and terminology - https://www.solarwinds.com/resources/it-glossary/windows-event-log
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjUyNjgyNl19
+eyJoaXN0b3J5IjpbLTM5NjM1Njc5Nl19
 -->
