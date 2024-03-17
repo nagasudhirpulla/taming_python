@@ -93,7 +93,7 @@ winlogbeat.event_logs:
 - `level` attribute can be used to specify which log levels would be shipped
 - `tags` attribute can be used to mention a list of tags that will be attached to the logs while shipping. This can be useful to easily search logs in Elasticsearch
 
-### Load sample Kibana dashboards and index templates
+### Load sample Kibana dashboards and index patterns
 
 - Ensure `setup.dashboards.enabled: true` in `winlogbeat.yml` to load sample Winlogbeat dashboards in Kibana. Kibana connectivity can be configured in the `setup.kibana` section
 
@@ -118,5 +118,5 @@ winlogbeat.event_logs:
 - Excellent explanation to each of windows security events - https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/Default.aspx?catid=2&subcatid=8
 - About windows event logs and terminology - https://www.solarwinds.com/resources/it-glossary/windows-event-log
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5Mzg3NTldfQ==
+eyJoaXN0b3J5IjpbMTkxNzA4MDU1N119
 -->
