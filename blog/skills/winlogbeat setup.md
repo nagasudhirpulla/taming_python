@@ -105,14 +105,14 @@ winlogbeat.event_logs:
 - Select the index pattern / data view as winlogbeat-*. Create the index pattern / data view if not present
 - Now all the raw windows logs can be seen as shown below
 
-!https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/winlogbeat kibana discover demo.png?raw=true
+![winlogbeat kibana discover demo](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/winlogbeat%20kibana%20discover%20demo.png?raw=true)
 
 ## Kibana dashboards for Winlogbeat
 
 - Go to the Dashboard page in Kibana
 - Search for Winlogbeat dashboards. A sample Winlogbeat dashboard can be seen below
 
-!https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/winlogbeat kibana dashboards demo.png?raw=true
+![winlogbeat kibana dashboards demo](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/winlogbeat%20kibana%20dashboards%20demo.png?raw=true)
 
 ## References
 
@@ -120,5 +120,5 @@ winlogbeat.event_logs:
 - Excellent explanation to each of windows security events - https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/Default.aspx?catid=2&subcatid=8
 - About windows event logs and terminology - https://www.solarwinds.com/resources/it-glossary/windows-event-log
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjU1NDI5MzddfQ==
+eyJoaXN0b3J5IjpbLTEyMDk2NTYzMV19
 -->
