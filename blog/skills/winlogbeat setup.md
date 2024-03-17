@@ -38,7 +38,7 @@
 - Windows event logs can be viewed using the “Event viewer” application as shown below
 - Windows event logs can be viewed in Event viewer, but complex logs filtering with queries or analyzing event logs is not easy
 
-!https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/windows event viewer demo.png?raw=true
+![windows event viewer demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/windows%20event%20viewer%20demo.png?raw=true)
 
 ## Install and run Winlogbeat
 
@@ -120,5 +120,5 @@ winlogbeat.event_logs:
 - Excellent explanation to each of windows security events - https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/Default.aspx?catid=2&subcatid=8
 - About windows event logs and terminology - https://www.solarwinds.com/resources/it-glossary/windows-event-log
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTExNDA0ODJdfQ==
+eyJoaXN0b3J5IjpbMTk2ODE3ODYxNV19
 -->
