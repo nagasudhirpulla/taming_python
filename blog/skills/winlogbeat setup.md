@@ -14,6 +14,7 @@
 - Windows event logs can be used by administrators and security professionals to investigate about the security threats, performance issues, errors in the Windows operating system
 
 ### Types of Windows event logs
+
 Windows event logs can be of types Security, System, Setup and Application
 - Security logs - related to system safety. Example: Login attempts, object access etc.
 - System logs - related to system and its components. Example: startup, shutdown, system time changed etc.
@@ -117,5 +118,5 @@ winlogbeat.event_logs:
 - Excellent explanation to each of windows security events - https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/Default.aspx?catid=2&subcatid=8
 - About windows event logs and terminology - https://www.solarwinds.com/resources/it-glossary/windows-event-log
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODg1OTQ2OV19
+eyJoaXN0b3J5IjpbMTY2MTEzMDYyOV19
 -->
