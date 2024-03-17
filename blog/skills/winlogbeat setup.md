@@ -1,3 +1,4 @@
+# Winlogbeat setup in windows
 
 ## What is Winlogbeat
 
@@ -119,5 +120,5 @@ winlogbeat.event_logs:
 - Excellent explanation to each of windows security events - https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/Default.aspx?catid=2&subcatid=8
 - About windows event logs and terminology - https://www.solarwinds.com/resources/it-glossary/windows-event-log
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjM1Njc5Nl19
+eyJoaXN0b3J5IjpbLTIxMTExNDA0ODJdfQ==
 -->
