@@ -111,6 +111,10 @@ winlogbeat.event_logs:
 - Search for Winlogbeat. A sample Winlogbeat dashboard can be seen below
 
 ![winlogbeat kibana dashboards demo](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/winlogbeat%20kibana%20dashboards%20demo.png?raw=true)
+### Video
+The video for this post can be found [here](https://youtu.be/QVRvrrjrxlM?si=0R0j5Jq59w0FmYKH)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QVRvrrjrxlM?si=NdXHEOiBdP54xx-D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## References
 
@@ -118,5 +122,5 @@ winlogbeat.event_logs:
 - Excellent explanation to each of windows security events - https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/Default.aspx?catid=2&subcatid=8
 - About windows event logs and terminology - https://www.solarwinds.com/resources/it-glossary/windows-event-log
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjg2ODA5NzZdfQ==
+eyJoaXN0b3J5IjpbLTc3MjY4NDYwLC0xMjI4NjgwOTc2XX0=
 -->
