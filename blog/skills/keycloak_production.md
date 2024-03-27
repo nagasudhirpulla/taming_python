@@ -15,7 +15,11 @@
 * Unzip into a folder like `C:\keycloak-24.0.2`
 * Now Keycloak is ready to run
 
+## Run keycloak in development mode
+* Open a command prompt in the Keycloak folder
+* Run the command `.\bin\kc.bat start-dev` to run Keycloak in development mode
+
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMjQ3Mjg3OCw3MDkxNzIyOF19
+eyJoaXN0b3J5IjpbMTE5MjExODU0MSw3MDkxNzIyOF19
 -->
