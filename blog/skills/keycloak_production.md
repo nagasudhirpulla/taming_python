@@ -31,12 +31,13 @@
 ### Setup the certificate
 *  Keycloak requires the certificate for running in production mode
 * Certificate is used by Keycloak for public and private keys
-* Use openssl to generate the certificate file and key file using the below command. openssl can be accessed from a git bash. Run the below command in the conf folder of Keycloak so that the files are generated there. 
+* Certificate can be taken from a certificate authority or a self-signed certificate can be generated. 
+* A self-signed certificate can be generated Use openssl to generate the certificate file and key file using the below command. openssl can be accessed from a git bash. Run the below command in the conf folder of Keycloak so that the files are generated there. 
 ```bash
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout kc.key.pem -out kc.crt.pem
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1NzA5MTE1LDMyNTk3MDAxNCwtMTg5MT
-kyNDc1MCw3MDkxNzIyOF19
+eyJoaXN0b3J5IjpbNDkzMjc4MjIsMzI1OTcwMDE0LC0xODkxOT
+I0NzUwLDcwOTE3MjI4XX0=
 -->
