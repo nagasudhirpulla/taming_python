@@ -38,7 +38,6 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout kc.key.pem -out kc.c
 ```
 * The command will generate two pem files each for certificate identity and private encryption key of the certificate. 
 * The certificate files can be configured in `keycloak.conf` file using the below lines
-* 
 
 ```bash
 # The file path to a server certificate or certificate chain in PEM format.
@@ -48,7 +47,12 @@ https-certificate-file=${kc.home.dir}/conf/kc.crt.pem
 https-certificate-key-file=${kc.home.dir}/conf/kc.key.pem
 ```
 
+### Run keycloak in production mode
+* Open a command prompt in Keycloak folder and the following command
+```b
+.\bin\kc.bat
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzMTg1OTI1LDMyNTk3MDAxNCwtMTg5MT
-kyNDc1MCw3MDkxNzIyOF19
+eyJoaXN0b3J5IjpbLTE5OTYzNzk0NTksMzI1OTcwMDE0LC0xOD
+kxOTI0NzUwLDcwOTE3MjI4XX0=
 -->
