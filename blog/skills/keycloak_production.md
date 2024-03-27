@@ -25,11 +25,11 @@
 ### Setup the Keycloak hostname
 * Add the hostname information in the `keycloak.conf` file with the setting `hostname=localhost`. 
 * The hostname can be localhost or IP address or hostname or domain name.
-* This makes Keycloak to allow only the requests with the configured hostname
-* If we desire to allow all hostnames,
+* This makes Keycloak to allow only the requests with the configured hostname in the request header
+* To allow all hostnames, the setting `hostname-strict=false` can be kept in the `keycloak.conf` file
 
 ### Setup the certificates
 *  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTg1MDYyLDcwOTE3MjI4XX0=
+eyJoaXN0b3J5IjpbLTk0MTA4NzE5LDcwOTE3MjI4XX0=
 -->
