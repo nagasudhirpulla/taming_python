@@ -69,8 +69,8 @@ http-enabled=true
 http-port=8080
 ```
 
-### Admin panel
+### Admin 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQ2MTk4OTAsMzI1OTcwMDE0LC0xOD
-kxOTI0NzUwLDcwOTE3MjI4XX0=
+eyJoaXN0b3J5IjpbLTEzNjU0NTU5OTgsLTE5NjQ2MTk4OTAsMz
+I1OTcwMDE0LC0xODkxOTI0NzUwLDcwOTE3MjI4XX0=
 -->
