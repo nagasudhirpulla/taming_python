@@ -36,8 +36,9 @@
 ```bash
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout kc.key.pem -out kc.crt.pem
 ```
+* The command will generate two pem files for certificate and key of the certificate
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTcyNTc5MSwzMjU5NzAwMTQsLTE4OT
-E5MjQ3NTAsNzA5MTcyMjhdfQ==
+eyJoaXN0b3J5IjpbLTEyMjI1NTIzNDQsMzI1OTcwMDE0LC0xOD
+kxOTI0NzUwLDcwOTE3MjI4XX0=
 -->
