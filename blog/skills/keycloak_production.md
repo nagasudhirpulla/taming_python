@@ -47,7 +47,7 @@ https-certificate-file=${kc.home.dir}/conf/kc.crt.pem
 https-certificate-key-file=${kc.home.dir}/conf/kc.key.pem
 ```
 
-### Run keycloak in production mode
+### Run keycloak
 * Open a command prompt in Keycloak folder and the following command
 ```powershell
 .\bin\kc.bat start
@@ -79,7 +79,7 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak installation guide - https://www.keycloak.org/getting-started/getting-started-zip
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjMwMDA1OTUsLTk2Nzk3NDE5NSwyMT
-E4MTA0OTI0LDQxMDAyMDQzOSwtMTk2NDYxOTg5MCwzMjU5NzAw
-MTQsLTE4OTE5MjQ3NTAsNzA5MTcyMjhdfQ==
+eyJoaXN0b3J5IjpbLTQ3NTI2ODU1MiwtOTY3OTc0MTk1LDIxMT
+gxMDQ5MjQsNDEwMDIwNDM5LC0xOTY0NjE5ODkwLDMyNTk3MDAx
+NCwtMTg5MTkyNDc1MCw3MDkxNzIyOF19
 -->
