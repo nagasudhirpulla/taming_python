@@ -31,7 +31,8 @@
 ### Setup the certificate
 *  Keycloak requires the certificate for running in production mode
 * Certificate is used by Keycloak for public and private keys
-* 
+* Use openssl to generate the certificate file andk 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTE5MjQ3NTAsNzA5MTcyMjhdfQ==
+eyJoaXN0b3J5IjpbLTIxNDM0OTg2OTksLTE4OTE5MjQ3NTAsNz
+A5MTcyMjhdfQ==
 -->
