@@ -77,8 +77,9 @@ http-port=8080
 ## References
 * Refer the official guides under the "Server" section for further reading at https://www.keycloak.org/guides
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzIwOTQ2OTUsMjExODEwNDkyNCw0MT
-AwMjA0MzksLTE5NjQ2MTk4OTAsMzI1OTcwMDE0LC0xODkxOTI0
-NzUwLDcwOTE3MjI4XX0=
+eyJoaXN0b3J5IjpbLTI0MDgzNjI3MSwyMTE4MTA0OTI0LDQxMD
+AyMDQzOSwtMTk2NDYxOTg5MCwzMjU5NzAwMTQsLTE4OTE5MjQ3
+NTAsNzA5MTcyMjhdfQ==
 -->
