@@ -7,6 +7,7 @@
 * Download OpenJDK zip file. Refer to Keycloak documentation for the minimum JDK version required for the Keycloak being installed (https://www.keycloak.org/getting-started/getting-started-zip)
 * Extract the zip file to a folder like `C:\Program Files\Java\jdk-22`
 * Set the environment variable named JAVA_HOME and assign the jdk folder path to it (Example  `C:\Program Files\Java\jdk-22`)
+![keycloak_openjdk_java_home_env_var](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_openjdk_java_home_env_var.png?raw=true)
 * Add the java bin folder path to the environment variable PATH (Example: `C:\Program Files\Java\jdk-22\bin`)
 
 
@@ -79,7 +80,7 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak installation guide - https://www.keycloak.org/getting-started/getting-started-zip
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTI2ODU1MiwtOTY3OTc0MTk1LDIxMT
-gxMDQ5MjQsNDEwMDIwNDM5LC0xOTY0NjE5ODkwLDMyNTk3MDAx
-NCwtMTg5MTkyNDc1MCw3MDkxNzIyOF19
+eyJoaXN0b3J5IjpbOTE4NTc5MjI1LC00NzUyNjg1NTIsLTk2Nz
+k3NDE5NSwyMTE4MTA0OTI0LDQxMDAyMDQzOSwtMTk2NDYxOTg5
+MCwzMjU5NzAwMTQsLTE4OTE5MjQ3NTAsNzA5MTcyMjhdfQ==
 -->
