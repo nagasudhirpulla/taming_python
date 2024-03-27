@@ -15,6 +15,7 @@
 * Unzip into a folder like `C:\keycloak-24.0.2`
 * Now Keycloak is ready to run
 
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4ODQ0MzE0NCw3MDkxNzIyOF19
+eyJoaXN0b3J5IjpbMTUxMjQ3Mjg3OCw3MDkxNzIyOF19
 -->
