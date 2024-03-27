@@ -54,14 +54,21 @@ https-certificate-key-file=${kc.home.dir}/conf/kc.key.pem
 ```
 * Now keycloak will run in production mode
 
+### Configure HTTPS port
+* By default Keycloak listens on 8443 port over HTTPS
+* To configure HTTPS port, write the following in `keycloak.conf` file
+```bash
+https-port=8443
+```
+
 ### Enable HTTP
 * By default Keycloak does not run over HTTP in production mode
 * To enable HTTP and control the HTTP port, write the following in `keycloak.conf` file
 ```bash
 http-enabled=true
 http-port=8080
-```   
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwOTUxMDUxMywzMjU5NzAwMTQsLTE4OT
-E5MjQ3NTAsNzA5MTcyMjhdfQ==
+eyJoaXN0b3J5IjpbMjM0OTUwOTY0LDMyNTk3MDAxNCwtMTg5MT
+kyNDc1MCw3MDkxNzIyOF19
 -->
