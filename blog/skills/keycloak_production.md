@@ -49,10 +49,10 @@ https-certificate-key-file=${kc.home.dir}/conf/kc.key.pem
 
 ### Run keycloak in production mode
 * Open a command prompt in Keycloak folder and the following command
-```b
-.\bin\kc.bat
+```powershell
+.\bin\kc.bat start
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTYzNzk0NTksMzI1OTcwMDE0LC0xOD
+eyJoaXN0b3J5IjpbLTE1NzcyMzI1OTIsMzI1OTcwMDE0LC0xOD
 kxOTI0NzUwLDcwOTE3MjI4XX0=
 -->
