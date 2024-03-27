@@ -28,8 +28,9 @@
 * This makes Keycloak to allow only the requests with the configured hostname in the request header
 * To allow all hostnames, the setting `hostname-strict=false` can be kept in the `keycloak.conf` file
 
-### Setup the certificates
-*  
+### Setup the certificate
+*  Keycloak requires the certificate for running in production mode
+* Cerficate  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTA4NzE5LDcwOTE3MjI4XX0=
+eyJoaXN0b3J5IjpbLTE5NjU0MDE2NzQsNzA5MTcyMjhdfQ==
 -->
