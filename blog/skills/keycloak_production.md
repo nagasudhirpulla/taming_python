@@ -23,10 +23,10 @@
 * Keycloak can be configured from the `conf/keycloak.conf` file present in the Keycloak folder
 
 ### Setup the Keycloak hostname
-* 
+* Add the hostname information in the `keycloak.conf` file with the setting `hostname=localhost`
 
 ### Setup the certificates
 *  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDYwMDAyOSw3MDkxNzIyOF19
+eyJoaXN0b3J5IjpbMTI3OTk3Mjk5Myw3MDkxNzIyOF19
 -->
