@@ -4,7 +4,8 @@
 
 ## Install Keycloak
 * Let us install keycloak in windows
-* Download and install openJDK. Refer to 
+* Download OpenJDK zip file. Refer to Keycloak documentation for the minimum JDK version required for the Keycloak being installed.
+* To install OpenJDK, extract the zip file to a fi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzMTc2MDEzXX0=
+eyJoaXN0b3J5IjpbMTg0MzIxMTc0MF19
 -->
