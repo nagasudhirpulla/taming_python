@@ -1,4 +1,4 @@
-# Run keycloak in production mode in windows with HTTPS
+# Run Keycloak in production mode in windows with HTTPS
 
 * To run keycloak in production mode, certificates and hostname are to be configured at the least
 * Let us setup keycloak in windows
@@ -79,7 +79,7 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak installation guide - https://www.keycloak.org/getting-started/getting-started-zip
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2Nzk3NDE5NSwyMTE4MTA0OTI0LDQxMD
-AyMDQzOSwtMTk2NDYxOTg5MCwzMjU5NzAwMTQsLTE4OTE5MjQ3
-NTAsNzA5MTcyMjhdfQ==
+eyJoaXN0b3J5IjpbLTE5MjMwMDA1OTUsLTk2Nzk3NDE5NSwyMT
+E4MTA0OTI0LDQxMDAyMDQzOSwtMTk2NDYxOTg5MCwzMjU5NzAw
+MTQsLTE4OTE5MjQ3NTAsNzA5MTcyMjhdfQ==
 -->
