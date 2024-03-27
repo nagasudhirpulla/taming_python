@@ -73,10 +73,12 @@ http-port=8080
 * To verify the Keycloak settings in command line, use `.\bin\kc.bat show-config`
 * See more information about errors using --verbose in the command. Like `.\bin\kc.bat --verbose start` 
 * Write --help at the end of any command to see the options in command line. Like `.\bin\kc.bat start --help`
+
+## References
 * Refer the official guides under the "Server" section for further reading at https://www.keycloak.org/guides
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1ODU2Njg1MywyMTE4MTA0OTI0LDQxMD
-AyMDQzOSwtMTk2NDYxOTg5MCwzMjU5NzAwMTQsLTE4OTE5MjQ3
-NTAsNzA5MTcyMjhdfQ==
+eyJoaXN0b3J5IjpbLTIwNzIwOTQ2OTUsMjExODEwNDkyNCw0MT
+AwMjA0MzksLTE5NjQ2MTk4OTAsMzI1OTcwMDE0LC0xODkxOTI0
+NzUwLDcwOTE3MjI4XX0=
 -->
