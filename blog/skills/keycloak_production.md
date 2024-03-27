@@ -30,7 +30,8 @@
 
 ### Setup the certificate
 *  Keycloak requires the certificate for running in production mode
-* Cerficate  
+* Certificate is used by Keycloak for public and private keys
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjU0MDE2NzQsNzA5MTcyMjhdfQ==
+eyJoaXN0b3J5IjpbLTE4OTE5MjQ3NTAsNzA5MTcyMjhdfQ==
 -->
