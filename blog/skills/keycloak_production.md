@@ -54,8 +54,13 @@ https-certificate-key-file=${kc.home.dir}/conf/kc.key.pem
 ```
 * Now keycloak will run in production mode
 
-### Enable HT 
+### Enable HTTP
+* By default Keycloak does not run over HTTP in production mode
+* To enable HTTP and control the HTTP port, write the following in `keycloak.conf` file
+```bash
+
+```   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3MzkyODcsMzI1OTcwMDE0LC0xODkxOT
-I0NzUwLDcwOTE3MjI4XX0=
+eyJoaXN0b3J5IjpbMTM4MjMyNDUzNSwzMjU5NzAwMTQsLTE4OT
+E5MjQ3NTAsNzA5MTcyMjhdfQ==
 -->
