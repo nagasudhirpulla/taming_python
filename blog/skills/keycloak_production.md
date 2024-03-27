@@ -12,7 +12,8 @@
 
 ## Install Keycloak
 * Download Keycloak zip file from https://www.keycloak.org/downloads
-* Unzip into a folder like ``
+* Unzip into a folder like `C:\keycloak-24.0.2`
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDQxMzA2MSw3MDkxNzIyOF19
+eyJoaXN0b3J5IjpbLTE3ODE2NDMzOTQsNzA5MTcyMjhdfQ==
 -->
