@@ -9,8 +9,9 @@
 * Set the environment variable named JAVA_HOME and assign the jdk folder path to it (Example  `C:\Program Files\Java\jdk-22`)
 * Add the java bin folder path to the environment variable PATH (Example: `C:\Program Files\Java\jdk-22\bin`)
 
+
 ## Install Keycloak
 * To install OpenJDK, extract the zip file to a folder like `C:\Program Files\Java\jdk-22` . Set the environment variable named JAVA_HOME and assign the jdk folder path to it (Example  `C:\Program Files\Java\jdk-22`). Set the environment variable
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyNDE4MjY2XX0=
+eyJoaXN0b3J5IjpbNzA5MTcyMjhdfQ==
 -->
