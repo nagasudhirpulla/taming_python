@@ -40,17 +40,13 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout kc.key.pem -out kc.c
 * The certificate files can be configured in `keycloak.conf` file using the below lines
 ```bash
 # The file path to a server certificate or certificate chain in PEM format.
-
 https-certificate-file=${kc.home.dir}/conf/kc.crt.pem
 
-  
-
 # The file path to a private key in PEM format.
-
 https-certificate-key-file=${kc.home.dir}/conf/kc.key.pem
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMzMxMzExOSwzMjU5NzAwMTQsLTE4OT
-E5MjQ3NTAsNzA5MTcyMjhdfQ==
+eyJoaXN0b3J5IjpbMjA1NzIwNDc5LDMyNTk3MDAxNCwtMTg5MT
+kyNDc1MCw3MDkxNzIyOF19
 -->
