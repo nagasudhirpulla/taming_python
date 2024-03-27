@@ -20,9 +20,13 @@
 * Run the command `.\bin\kc.bat start-dev` to run Keycloak in development mode
 
 ## Run Keycloak in production mode
+* Keycloak can be configured from the `conf/keycloak.conf` file present in the Keycloak folder
+
+### Setup the Keycloak hostname
+* 
 
 ### Setup the certificates
 *  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODI1NjU4OSw3MDkxNzIyOF19
+eyJoaXN0b3J5IjpbMTU5MDYwMDAyOSw3MDkxNzIyOF19
 -->
