@@ -36,6 +36,7 @@
 ```bash
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout kc.key.pem -out kc.crt.pem
 ```
+![keycloak_openssl_cert_generate](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_openssl_cert_generate.png?raw=true)
 * The command will generate two pem files each for certificate identity and private encryption key of the certificate. 
 * The certificate files can be configured in `keycloak.conf` file using the below lines
 
@@ -79,7 +80,7 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak installation guide - https://www.keycloak.org/getting-started/getting-started-zip
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQyOTYwNDksLTQ3NTI2ODU1MiwtOT
-Y3OTc0MTk1LDIxMTgxMDQ5MjQsNDEwMDIwNDM5LC0xOTY0NjE5
-ODkwLDMyNTk3MDAxNCwtMTg5MTkyNDc1MCw3MDkxNzIyOF19
+eyJoaXN0b3J5IjpbMTYxNDQ1Mzg4NiwtNDc1MjY4NTUyLC05Nj
+c5NzQxOTUsMjExODEwNDkyNCw0MTAwMjA0MzksLTE5NjQ2MTk4
+OTAsMzI1OTcwMDE0LC0xODkxOTI0NzUwLDcwOTE3MjI4XX0=
 -->
