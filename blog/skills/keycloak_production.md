@@ -19,7 +19,10 @@
 * Open a command prompt in the Keycloak folder
 * Run the command `.\bin\kc.bat start-dev` to run Keycloak in development mode
 
-## 
+## Run Keycloak in production mode
+
+### Setup the certificates
+*  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjExODU0MSw3MDkxNzIyOF19
+eyJoaXN0b3J5IjpbMTg5ODI1NjU4OSw3MDkxNzIyOF19
 -->
