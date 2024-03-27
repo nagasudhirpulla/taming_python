@@ -51,8 +51,11 @@ https-certificate-key-file=${kc.home.dir}/conf/kc.key.pem
 * Open a command prompt in Keycloak folder and the following command
 ```powershell
 .\bin\kc.bat start
-``` 
+```
+* Now keycloak will run in production mode
+
+### Enable HT 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzcyMzI1OTIsMzI1OTcwMDE0LC0xOD
-kxOTI0NzUwLDcwOTE3MjI4XX0=
+eyJoaXN0b3J5IjpbNjc3MzkyODcsMzI1OTcwMDE0LC0xODkxOT
+I0NzUwLDcwOTE3MjI4XX0=
 -->
