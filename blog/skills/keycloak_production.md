@@ -11,7 +11,8 @@
 
 
 ## Install Keycloak
-* To install OpenJDK, extract the zip file to a folder like `C:\Program Files\Java\jdk-22` . Set the environment variable named JAVA_HOME and assign the jdk folder path to it (Example  `C:\Program Files\Java\jdk-22`). Set the environment variable
+* Download Keycloak zip file from https://www.keycloak.org/downloads
+* Unzip into a folder like ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5MTcyMjhdfQ==
+eyJoaXN0b3J5IjpbLTM2MDQxMzA2MSw3MDkxNzIyOF19
 -->
