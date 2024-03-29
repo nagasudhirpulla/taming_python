@@ -75,12 +75,19 @@ http-port=8080
 * See more information about errors using --verbose in the command. Like `.\bin\kc.bat --verbose start` 
 * Write --help at the end of any command to see the options in command line. Like `.\bin\kc.bat start --help`
 
+### Video
+You can see the video for this post [here](https://youtu.be/cRizDaWDQhE?si=HHNPP5TLCn85RFO3)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cRizDaWDQhE?si=HHNPP5TLCn85RFO3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## References
 * Refer the official guides under the "Server" section for further reading at https://www.keycloak.org/guides
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak installation guide - https://www.keycloak.org/getting-started/getting-started-zip
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1Nzk0NDc3NiwtNDc1MjY4NTUyLC05Nj
-c5NzQxOTUsMjExODEwNDkyNCw0MTAwMjA0MzksLTE5NjQ2MTk4
-OTAsMzI1OTcwMDE0LC0xODkxOTI0NzUwLDcwOTE3MjI4XX0=
+eyJoaXN0b3J5IjpbLTEyMTA1MTI0NTcsMTk1Nzk0NDc3NiwtND
+c1MjY4NTUyLC05Njc5NzQxOTUsMjExODEwNDkyNCw0MTAwMjA0
+MzksLTE5NjQ2MTk4OTAsMzI1OTcwMDE0LC0xODkxOTI0NzUwLD
+cwOTE3MjI4XX0=
 -->
