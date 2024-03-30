@@ -56,7 +56,7 @@ http-port=8080
 
 ## Apache configuration to run as a reverse proxy
 * Enable mod_proxy, mod_proxy_http, mod_ssl, mod_headers, mod_socache_shmcb modules in the httpd.conf file
-* Add a new line `Include conf/extra/kc_reverse_proxy.conf` in the httpd.conf file of the Apache server
+* Add a line `Include conf/extra/kc_reverse_proxy.conf` in the httpd.conf file of the Apache server
 * Create a file named `kc_reverse_proxy.conf` in the conf/extra folder of Apache server as shown below
 
 ```bash
@@ -107,6 +107,7 @@ SSLSessionCacheTimeout  300
 </VirtualHost>
 ```
 * Using the above configuration, a virtual host is created that listens on port 443 over HTTPS
+* 
 *  `RequestHeader set X-Forwarded-Proto https` and `RequestHeader set X-Forwarded-Port 443` are configured to pass the client request protocol and port information to Keycloak server
 *  `ProxyAddHeaders On` will add additional headers (X-Forwarded-For, X-Forwarded-Host and X-Forwarded-Server) to the request and pass them to Keycloak server
 * `ProxyPreserveHost On` will set the same hostname as the client request header in the proxied request `Host` header
@@ -116,8 +117,8 @@ SSLSessionCacheTimeout  300
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTk0MDc4Myw1NjQ5NTQ0NDEsLTQ2ND
-U5NDYxOSwxMDkwODI0NzYzLC0xMzM0MTUxNjAsLTI0NzQ2Mjg1
-MSwxNjQ1OTMwODgwLC04NDg3MjkwNjMsMTQ0OTYwMTEyNCwtOD
-EzMDk3MDM1LC0xNzc4MDU1NTEyXX0=
+eyJoaXN0b3J5IjpbOTc3ODExOTc3LDU2NDk1NDQ0MSwtNDY0NT
+k0NjE5LDEwOTA4MjQ3NjMsLTEzMzQxNTE2MCwtMjQ3NDYyODUx
+LDE2NDU5MzA4ODAsLTg0ODcyOTA2MywxNDQ5NjAxMTI0LC04MT
+MwOTcwMzUsLTE3NzgwNTU1MTJdfQ==
 -->
