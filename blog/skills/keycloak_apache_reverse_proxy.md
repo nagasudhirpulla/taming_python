@@ -115,13 +115,15 @@ SSLSessionCacheTimeout  300
 * `SSLProxyCheckPeerCN on` means Apache will check if request URL hostname and server certificate CN (common name) are the same. If both are not same, 502 (bad gateway) response will be given.
 * `SSLProxyCheckPeerExpire on` means Apache will check if the server certificate is expired. If expired, 502 (Bad gateway).
 
+### Exposing only selected paths from
+
 ## References
 * Refer the official guides under the "Server" section for further reading at https://www.keycloak.org/guides
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxMjIzNTYsMTg2NTY3NjYxMyw1NjQ5NT
-Q0NDEsLTQ2NDU5NDYxOSwxMDkwODI0NzYzLC0xMzM0MTUxNjAs
-LTI0NzQ2Mjg1MSwxNjQ1OTMwODgwLC04NDg3MjkwNjMsMTQ0OT
-YwMTEyNCwtODEzMDk3MDM1LC0xNzc4MDU1NTEyXX0=
+eyJoaXN0b3J5IjpbMTUzNjU1Mjk2OSwxODY1Njc2NjEzLDU2ND
+k1NDQ0MSwtNDY0NTk0NjE5LDEwOTA4MjQ3NjMsLTEzMzQxNTE2
+MCwtMjQ3NDYyODUxLDE2NDU5MzA4ODAsLTg0ODcyOTA2MywxND
+Q5NjAxMTI0LC04MTMwOTcwMzUsLTE3NzgwNTU1MTJdfQ==
 -->
