@@ -57,7 +57,7 @@ httpd.exe -t
 
 -   The following configuration in the httpd.conf file configures the web server to serve static content from htdocs folder
 
-```bash
+```apacheconf
 # DocumentRoot: The directory out of which you will serve your
 # documents. By default, all requests are taken from this directory, but
 # symbolic links and aliases may be used to point to other locations.
@@ -111,7 +111,7 @@ DocumentRoot "${SRVROOT}/htdocs"
 -   Virtual hosts are a way to run multiple servers each with different server name or listening port in a single Apache server
 -   For example, the below configuration can host two directories each listening for different hostnames on port 80
 
-```bash
+```apacheconf
 <Directory "${SRVROOT}/docs/dummy1">
     Require all granted
 </Directory>
@@ -144,7 +144,7 @@ DocumentRoot "${SRVROOT}/htdocs"
 
 - Below is an example configuration of two virtual hosts listening on two different ports at localhost
 
-```bash
+```apacheconf
 <Directory "${SRVROOT}/docs/dummy1">
     Require all granted
 </Directory>
@@ -196,7 +196,7 @@ Listen 82
 
 ### Configuration for HTTPS in a virtual host
 
-```bash
+```apacheconf
 # test_ssl.conf
 Listen 443
 
@@ -271,7 +271,7 @@ SSLSessionCacheTimeout  300
 * All the configuration of the website will be present in the HTTPS (port 443) virtual host
 * The virtual host for HTTP (port 80) will just redirect all the requests to HTTPS virtual host using the `Redirect permanent` directive  as shown below
 
-```bash
+```apacheconf
 <VirtualHost *:80> 
   ServerName example.com
   Redirect permanent / https://example.com/
@@ -291,7 +291,7 @@ SSLSessionCacheTimeout  300
 
 -   Enable the modules mod_proxy, mod_proxy_http, mod_ssl, mod_headers, mod_socache_shmcb in the httpd.conf file
 
-```bash
+```apacheconf
 # test_reverse_proxy.conf
 Listen 443
 
@@ -365,8 +365,8 @@ The video for this post can be seen [here](https://youtu.be/INATnpdcuZY) and [he
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjUxMjcwNjQsLTMxMDYxNjM5MCwyMD
-Q3MTEzNjA4LC0xNTAwMzE5OTk0LC0xNjU0NjE5MjA1LC01MjM4
-NDUyLC0zMjY2MzQ2ODksMjE0NTE5Njc3MSwtMTc2OTg3MjU0OS
-wtMTQ0Mjc2MTExMSwyNzAyNTE4MF19
+eyJoaXN0b3J5IjpbMTY5OTgwNzQ2NCwtMTEyNTEyNzA2NCwtMz
+EwNjE2MzkwLDIwNDcxMTM2MDgsLTE1MDAzMTk5OTQsLTE2NTQ2
+MTkyMDUsLTUyMzg0NTIsLTMyNjYzNDY4OSwyMTQ1MTk2NzcxLC
+0xNzY5ODcyNTQ5LC0xNDQyNzYxMTExLDI3MDI1MTgwXX0=
 -->
