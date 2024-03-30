@@ -201,17 +201,18 @@ SSLSessionCacheTimeout  300
 </VirtualHost>
 ```
 * As shown above, two virtual hosts are created in Apache. 
-* One virtual host exposes all paths of keycloak but listens only on localhost
-* Another virtual host exposes only recommended paths. This can be accessed by clients 
+* One virtual host exposes all paths of keycloak but listens only on localhost.
+* Another virtual host exposes only recommended paths. This can be accessed by clients.
 
 ## References
+* Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 * Refer the official guides under the "Server" section for further reading at https://www.keycloak.org/guides
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
-* Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzE0OTE3NiwxNTMyMjA3Mjc0LC00ND
-I2NjEzMDQsLTUxMjc0MTU5MiwxODY1Njc2NjEzLDU2NDk1NDQ0
-MSwtNDY0NTk0NjE5LDEwOTA4MjQ3NjMsLTEzMzQxNTE2MCwtMj
-Q3NDYyODUxLDE2NDU5MzA4ODAsLTg0ODcyOTA2MywxNDQ5NjAx
-MTI0LC04MTMwOTcwMzUsLTE3NzgwNTU1MTJdfQ==
+eyJoaXN0b3J5IjpbODIwNTkwOTMwLDE1MzIyMDcyNzQsLTQ0Mj
+Y2MTMwNCwtNTEyNzQxNTkyLDE4NjU2NzY2MTMsNTY0OTU0NDQx
+LC00NjQ1OTQ2MTksMTA5MDgyNDc2MywtMTMzNDE1MTYwLC0yND
+c0NjI4NTEsMTY0NTkzMDg4MCwtODQ4NzI5MDYzLDE0NDk2MDEx
+MjQsLTgxMzA5NzAzNSwtMTc3ODA1NTUxMl19
 -->
