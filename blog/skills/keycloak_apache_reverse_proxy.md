@@ -60,6 +60,7 @@ http-port=8080
 
 ```bash
 ## conf/extra/kc_reverse_proxy.conf file
+
 Listen 443
 
 #   SSL Cipher Suite:
@@ -110,7 +111,7 @@ SSLSessionCacheTimeout  300
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzMxNDY1OCwtNDY0NTk0NjE5LDEwOT
+eyJoaXN0b3J5IjpbMTc4MTIzMTgyMCwtNDY0NTk0NjE5LDEwOT
 A4MjQ3NjMsLTEzMzQxNTE2MCwtMjQ3NDYyODUxLDE2NDU5MzA4
 ODAsLTg0ODcyOTA2MywxNDQ5NjAxMTI0LC04MTMwOTcwMzUsLT
 E3NzgwNTU1MTJdfQ==
