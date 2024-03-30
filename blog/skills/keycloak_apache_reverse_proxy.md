@@ -199,14 +199,16 @@ SSLSessionCacheTimeout  300
     ProxyPassReverse /robots.txt http://127.0.0.1:8080/robots.txt
 </VirtualHost>
 ```
-
+* As shown above, two virtual hosts are created in Apache. 
+* One virtual host exposes all paths of keycloak but listens only on localhost
+* Another virtual host exposes only recommended paths  
 
 ## References
 * Refer the official guides under the "Server" section for further reading at https://www.keycloak.org/guides
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzg2NDU0MCwtNTEyNzQxNTkyLDE4Nj
+eyJoaXN0b3J5IjpbLTYwNTY5NTAwMSwtNTEyNzQxNTkyLDE4Nj
 U2NzY2MTMsNTY0OTU0NDQxLC00NjQ1OTQ2MTksMTA5MDgyNDc2
 MywtMTMzNDE1MTYwLC0yNDc0NjI4NTEsMTY0NTkzMDg4MCwtOD
 Q4NzI5MDYzLDE0NDk2MDExMjQsLTgxMzA5NzAzNSwtMTc3ODA1
