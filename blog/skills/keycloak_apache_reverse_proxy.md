@@ -8,8 +8,9 @@
 
 ## Keycloak configuration for running behind Reverse Proxy
 
-### Reverse Proxy Mode - SSL Termination
-
+### Reverse Proxy Mode - Edge
+* We will use "edge" mode or SSL Termination mode of Reverse Proxy for this scenario.
+* 
 
 ```bash
 # The file path to a server certificate or certificate chain in PEM format.
@@ -42,7 +43,7 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDE1MDE2OCwtMTMzNDE1MTYwLC0yND
-c0NjI4NTEsMTY0NTkzMDg4MCwtODQ4NzI5MDYzLDE0NDk2MDEx
-MjQsLTgxMzA5NzAzNSwtMTc3ODA1NTUxMl19
+eyJoaXN0b3J5IjpbLTIxMDQxMzQ4NzAsLTEzMzQxNTE2MCwtMj
+Q3NDYyODUxLDE2NDU5MzA4ODAsLTg0ODcyOTA2MywxNDQ5NjAx
+MTI0LC04MTMwOTcwMzUsLTE3NzgwNTU1MTJdfQ==
 -->
