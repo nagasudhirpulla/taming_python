@@ -26,7 +26,8 @@
 * `http-enabled=true` and `http-port=8080` is used since Apache communicated to Keycloak over HTTP
 * `proxy-headers=xforwarded` is used since Apache sets the "X-Forwarded-*" headers (In older versions of keycloak, `proxy=edge` can be used).
 * Certificate file paths are configured for running keycloak in production mode
-* Hostname is configured as dynamic using  `hostname-strict=false` (
+* Hostname is configured as dynamic using  `hostname-strict=false` (Single hostname like `hostname=localhost` can also be used).
+* 
 
 ```bash
 # The file path to a server certificate or certificate chain in PEM format.
@@ -59,8 +60,8 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxMTQ2NjEsLTQ2NDU5NDYxOSwxMDkwOD
-I0NzYzLC0xMzM0MTUxNjAsLTI0NzQ2Mjg1MSwxNjQ1OTMwODgw
-LC04NDg3MjkwNjMsMTQ0OTYwMTEyNCwtODEzMDk3MDM1LC0xNz
-c4MDU1NTEyXX0=
+eyJoaXN0b3J5IjpbMzYxNjA1MDE2LC00NjQ1OTQ2MTksMTA5MD
+gyNDc2MywtMTMzNDE1MTYwLC0yNDc0NjI4NTEsMTY0NTkzMDg4
+MCwtODQ4NzI5MDYzLDE0NDk2MDExMjQsLTgxMzA5NzAzNSwtMT
+c3ODA1NTUxMl19
 -->
