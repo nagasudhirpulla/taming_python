@@ -57,8 +57,51 @@ http-port=8080
 ## Apache configuration to run as a reverse proxy
 * Add a new line `Include conf/extra/kc_reverse_proxy.conf` in the httpd.conf file of the Apache server
 * Create a file named `kc_reverse_proxy.conf` in the conf/extra folder of Apache server as shown below
-```bash
 
+```bash
+Listen 443
+
+#   SSL Cipher Suite:
+SSLCipherSuite HIGH:MEDIUM:!MD5:!RC4:!3DES
+SSLProxyCipherSuite HIGH:MEDIUM:!MD5:!RC4:!3DES
+
+#   SSL Protocol support:
+SSLProtocol all -SSLv3 -TLSv1
+SSLProxyProtocol all -SSLv3 -TLSv1
+
+#   Pass Phrase Dialog:
+SSLPassPhraseDialog  builtin
+
+#   Inter-Process Session Cache:
+#SSLSessionCache         "dbm:${SRVROOT}/logs/ssl_scache"
+SSLSessionCache        "shmcb:${SRVROOT}/logs/ssl_scache(512000)"
+SSLSessionCacheTimeout  300
+
+<VirtualHost _default_:443>
+    ServerName catchall
+    ServerAdmin admin@example.com
+
+    ErrorLog "${SRVROOT}/logs/error.log"
+    TransferLog "${SRVROOT}/logs/access.log"
+    
+    SSLEngine on
+    SSLCertificateFile "${SRVROOT}/conf/server.crt"
+    SSLCertificateKeyFile "${SRVROOT}/conf/server.key"
+
+    ProxyRequests Off
+    ProxyPreserveHost On
+    ProxyAddHeaders On
+    
+    SSLProxyEngine On
+    SSLProxyCheckPeerCN on
+    SSLProxyCheckPeerExpire on
+
+    RequestHeader set X-Forwarded-Proto https
+    RequestHeader set X-Forwarded-Port 443
+
+    ProxyPass / http://127.0.0.1:8080/
+    ProxyPassReverse / http://127.0.0.1:8080/
+</VirtualHost>
 ```
 
 ## References
@@ -66,7 +109,7 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzcxNzM2MzEsLTQ2NDU5NDYxOSwxMD
+eyJoaXN0b3J5IjpbLTE2OTc1Mjc5MjIsLTQ2NDU5NDYxOSwxMD
 kwODI0NzYzLC0xMzM0MTUxNjAsLTI0NzQ2Mjg1MSwxNjQ1OTMw
 ODgwLC04NDg3MjkwNjMsMTQ0OTYwMTEyNCwtODEzMDk3MDM1LC
 0xNzc4MDU1NTEyXX0=
