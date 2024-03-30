@@ -118,14 +118,95 @@ SSLSessionCacheTimeout  300
 ### Exposing only selected paths via Apache (Reverse Proxy)
 * Admin console can be hidden from clients via Reverse Proxy to avoid security risks. If required, admin panel can be accessed via localhost or internal LAN.
 * The following Apache (Reverse Proxy) configuration can be used to expose only required paths to clients and expose all paths only on localhost
-* 
+
+```bash
+Listen 443
+
+#   SSL Cipher Suite:
+SSLCipherSuite HIGH:MEDIUM:!MD5:!RC4:!3DES
+SSLProxyCipherSuite HIGH:MEDIUM:!MD5:!RC4:!3DES
+
+#   SSL Protocol support:
+SSLProtocol all -SSLv3 -TLSv1
+SSLProxyProtocol all -SSLv3 -TLSv1
+
+#   Pass Phrase Dialog:
+SSLPassPhraseDialog  builtin
+
+#   Inter-Process Session Cache:
+#SSLSessionCache         "dbm:${SRVROOT}/logs/ssl_scache"
+SSLSessionCache        "shmcb:${SRVROOT}/logs/ssl_scache(512000)"
+SSLSessionCacheTimeout  300
+
+<VirtualHost localhost:443>
+    ServerName localhost
+    ServerAdmin admin@example.com
+
+    ErrorLog "${SRVROOT}/logs/error.log"
+    TransferLog "${SRVROOT}/logs/access.log"
+    
+    SSLEngine on
+    SSLCertificateFile "${SRVROOT}/conf/server.crt"
+    SSLCertificateKeyFile "${SRVROOT}/conf/server.key"
+
+    ProxyRequests Off
+    ProxyPreserveHost On
+    ProxyAddHeaders On
+    
+    SSLProxyEngine On
+    SSLProxyCheckPeerCN on
+    SSLProxyCheckPeerExpire on
+
+    RequestHeader set X-Forwarded-Proto https
+    RequestHeader set X-Forwarded-Port 443
+
+    ProxyPass / http://127.0.0.1:8080/
+    ProxyPassReverse / http://127.0.0.1:8080/
+</VirtualHost>
+
+<VirtualHost _default_:443>
+    ServerName catchall
+    ServerAdmin admin@example.com
+
+    ErrorLog "${SRVROOT}/logs/error.log"
+    TransferLog "${SRVROOT}/logs/access.log"
+    
+    SSLEngine on
+    SSLCertificateFile "${SRVROOT}/conf/server.crt"
+    SSLCertificateKeyFile "${SRVROOT}/conf/server.key"
+
+    ProxyRequests Off
+    ProxyPreserveHost On
+    ProxyAddHeaders On
+    
+    SSLProxyEngine On
+    SSLProxyCheckPeerCN on
+    SSLProxyCheckPeerExpire on
+
+    RequestHeader set X-Forwarded-Proto https
+    RequestHeader set X-Forwarded-Port 443
+
+    ProxyPass /js/ http://127.0.0.1:8080/js/
+    ProxyPassReverse /js/ http://127.0.0.1:8080/js/
+
+    ProxyPass /realms/ http://127.0.0.1:8080/realms/
+    ProxyPassReverse /realms/ http://127.0.0.1:8080/realms/
+
+    ProxyPass /resources/ http://127.0.0.1:8080/resources/
+    ProxyPassReverse /resources/ http://127.0.0.1:8080/resources/
+
+    ProxyPass /robots.txt http://127.0.0.1:8080/robots.txt
+    ProxyPassReverse /robots.txt http://127.0.0.1:8080/robots.txt
+</VirtualHost>
+```
+
 
 ## References
 * Refer the official guides under the "Server" section for further reading at https://www.keycloak.org/guides
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzAzODc4OCwtNTEyNzQxNTkyLDE4Nj
+eyJoaXN0b3J5IjpbMTYxMzg2NDU0MCwtNTEyNzQxNTkyLDE4Nj
 U2NzY2MTMsNTY0OTU0NDQxLC00NjQ1OTQ2MTksMTA5MDgyNDc2
 MywtMTMzNDE1MTYwLC0yNDc0NjI4NTEsMTY0NTkzMDg4MCwtOD
 Q4NzI5MDYzLDE0NDk2MDExMjQsLTgxMzA5NzAzNSwtMTc3ODA1
