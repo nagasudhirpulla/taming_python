@@ -19,7 +19,7 @@
 * In reencypt mode, clients connect to reverse proxy via HTTPS and reverse proxy also connects to Keycloak via HTTPS. Hence SSL certificates are needed to be configured in reverse proxy and Keycloak.
 
 ### Request headers from reverse proxy to Keycloak
-* To know the information about the client, keycloak expects Apache (reverse proxy) to set the either the "Forwared" headers (as per [RFC7239](https://www.rfc-editor.org/rfc/rfc7239.html)) or the "X-Forwarded-*" headers.
+* To know the information about the client, Keycloak expects Apache (reverse proxy) to set the either the "Forwared" headers (as per [RFC7239](https://www.rfc-editor.org/rfc/rfc7239.html)) or the "X-Forwarded-*" headers.
 * Apache sets "X-Forwarded-*" headers when acting as a reverse proxy. So we can configure Keycloak accordingly.
 
 ### Settings in keycloak.conf file
@@ -209,9 +209,9 @@ SSLSessionCacheTimeout  300
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5MTUyODgsMTUzMjIwNzI3NCwtNDQyNj
-YxMzA0LC01MTI3NDE1OTIsMTg2NTY3NjYxMyw1NjQ5NTQ0NDEs
-LTQ2NDU5NDYxOSwxMDkwODI0NzYzLC0xMzM0MTUxNjAsLTI0Nz
-Q2Mjg1MSwxNjQ1OTMwODgwLC04NDg3MjkwNjMsMTQ0OTYwMTEy
-NCwtODEzMDk3MDM1LC0xNzc4MDU1NTEyXX0=
+eyJoaXN0b3J5IjpbMTkzNzE0OTE3NiwxNTMyMjA3Mjc0LC00ND
+I2NjEzMDQsLTUxMjc0MTU5MiwxODY1Njc2NjEzLDU2NDk1NDQ0
+MSwtNDY0NTk0NjE5LDEwOTA4MjQ3NjMsLTEzMzQxNTE2MCwtMj
+Q3NDYyODUxLDE2NDU5MzA4ODAsLTg0ODcyOTA2MywxNDQ5NjAx
+MTI0LC04MTMwOTcwMzUsLTE3NzgwNTU1MTJdfQ==
 -->
