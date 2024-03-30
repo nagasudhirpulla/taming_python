@@ -14,7 +14,8 @@
 
 ![keycloak_edge_mode_proxy.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_edge_mode_proxy.png?raw=true)
 ### Other Reverse Proxy Modes
-* Passthrough mode passes HTTPS connections from clients to keycloak directly to keyclpa
+* In Passthrough mode, HTTPS connections from clients are passed to keycloak directly without SSL termination at Reverse Proxy
+* Reencypt mode 
 
 ```bash
 # The file path to a server certificate or certificate chain in PEM format.
@@ -47,8 +48,8 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MjI3MTgzNiwxMDkwODI0NzYzLC0xMz
-M0MTUxNjAsLTI0NzQ2Mjg1MSwxNjQ1OTMwODgwLC04NDg3Mjkw
-NjMsMTQ0OTYwMTEyNCwtODEzMDk3MDM1LC0xNzc4MDU1NTEyXX
-0=
+eyJoaXN0b3J5IjpbMzczNDUyNDA4LDEwOTA4MjQ3NjMsLTEzMz
+QxNTE2MCwtMjQ3NDYyODUxLDE2NDU5MzA4ODAsLTg0ODcyOTA2
+MywxNDQ5NjAxMTI0LC04MTMwOTcwMzUsLTE3NzgwNTU1MTJdfQ
+==
 -->
