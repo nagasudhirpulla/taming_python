@@ -9,7 +9,7 @@
 
 ## Keycloak Configuration to run behind reverse proxy
 
-### reverse proxy Mode - Edge
+### Reverse proxy Mode - Edge
 * We will use "edge" mode or SSL Termination mode of reverse proxy for this scenario.
 * The requests would be in HTTPS till Apache server (reverse proxy) and Apache will send HTTP requests to Keycloak
 
@@ -209,9 +209,9 @@ SSLSessionCacheTimeout  300
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDA2NDA1NiwxNTMyMjA3Mjc0LC00ND
-I2NjEzMDQsLTUxMjc0MTU5MiwxODY1Njc2NjEzLDU2NDk1NDQ0
-MSwtNDY0NTk0NjE5LDEwOTA4MjQ3NjMsLTEzMzQxNTE2MCwtMj
-Q3NDYyODUxLDE2NDU5MzA4ODAsLTg0ODcyOTA2MywxNDQ5NjAx
-MTI0LC04MTMwOTcwMzUsLTE3NzgwNTU1MTJdfQ==
+eyJoaXN0b3J5IjpbODY5MTUyODgsMTUzMjIwNzI3NCwtNDQyNj
+YxMzA0LC01MTI3NDE1OTIsMTg2NTY3NjYxMyw1NjQ5NTQ0NDEs
+LTQ2NDU5NDYxOSwxMDkwODI0NzYzLC0xMzM0MTUxNjAsLTI0Nz
+Q2Mjg1MSwxNjQ1OTMwODgwLC04NDg3MjkwNjMsMTQ0OTYwMTEy
+NCwtODEzMDk3MDM1LC0xNzc4MDU1NTEyXX0=
 -->
