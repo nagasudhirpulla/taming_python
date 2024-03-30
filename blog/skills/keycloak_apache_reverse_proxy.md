@@ -24,7 +24,8 @@
 ### Settings in keycloak.conf file
 * The following settings can be used in the keycloak.conf file for running behind an Apache Reverse proxy
 * `http-enabled=true` and `http-port=8080` is used since Apache communicated to Keycloak over HTTP
-* 
+* `proxy-headers=xforwarded` is used since Apache sets the "X-Forwarded-*" headers. In older versions of keycloak, `proxy=edge` can be used.
+
 ```bash
 # The file path to a server certificate or certificate chain in PEM format.
 https-certificate-file=${kc.home.dir}/conf/kc.crt.pem
@@ -56,8 +57,8 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzI1MzE1MSwtNDY0NTk0NjE5LDEwOT
-A4MjQ3NjMsLTEzMzQxNTE2MCwtMjQ3NDYyODUxLDE2NDU5MzA4
-ODAsLTg0ODcyOTA2MywxNDQ5NjAxMTI0LC04MTMwOTcwMzUsLT
-E3NzgwNTU1MTJdfQ==
+eyJoaXN0b3J5IjpbNTAxMjMyODQsLTQ2NDU5NDYxOSwxMDkwOD
+I0NzYzLC0xMzM0MTUxNjAsLTI0NzQ2Mjg1MSwxNjQ1OTMwODgw
+LC04NDg3MjkwNjMsMTQ0OTYwMTEyNCwtODEzMDk3MDM1LC0xNz
+c4MDU1NTEyXX0=
 -->
