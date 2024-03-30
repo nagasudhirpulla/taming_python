@@ -28,7 +28,7 @@
 * Certificate file paths are configured for running keycloak in production mode
 * Hostname is configured as dynamic using  `hostname-strict=false` (Single hostname like `hostname=localhost` can also be used).
 
-```bash
+```apacheconf
 ## keycloak.conf file
 
 # The file path to a server certificate or certificate chain in PEM format.
@@ -59,7 +59,7 @@ http-port=8080
 * Add a line `Include conf/extra/kc_reverse_proxy.conf` in the httpd.conf file of the Apache server
 * Create a file named `kc_reverse_proxy.conf` in the conf/extra folder of Apache server as shown below
 
-```bash
+```apacheconf
 ## conf/extra/kc_reverse_proxy.conf file
 
 Listen 443
@@ -208,7 +208,7 @@ SSLSessionCacheTimeout  300
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODExNDQ3NCwtNDQyNjYxMzA0LC01MT
+eyJoaXN0b3J5IjpbMTUzMjIwNzI3NCwtNDQyNjYxMzA0LC01MT
 I3NDE1OTIsMTg2NTY3NjYxMyw1NjQ5NTQ0NDEsLTQ2NDU5NDYx
 OSwxMDkwODI0NzYzLC0xMzM0MTUxNjAsLTI0NzQ2Mjg1MSwxNj
 Q1OTMwODgwLC04NDg3MjkwNjMsMTQ0OTYwMTEyNCwtODEzMDk3
