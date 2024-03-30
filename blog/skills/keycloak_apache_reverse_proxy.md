@@ -21,7 +21,7 @@
 * To know the information about the client, keycloak expects Apache (Reverse Proxy) to set the either the "Forwared" headers (as per [RFC7239](https://www.rfc-editor.org/rfc/rfc7239.html)) or the "X-Forwarded-*" headers.
 * Apache sets "X-Forwarded-*" headers when acting as a Reverse Proxy. So we can configure Keycloak accordingly.
 
-##
+### Settings in keycloak.conf file 
 ```bash
 # The file path to a server certificate or certificate chain in PEM format.
 https-certificate-file=${kc.home.dir}/conf/kc.crt.pem
@@ -53,8 +53,8 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzcyNzA2OSwtNDY0NTk0NjE5LDEwOT
-A4MjQ3NjMsLTEzMzQxNTE2MCwtMjQ3NDYyODUxLDE2NDU5MzA4
-ODAsLTg0ODcyOTA2MywxNDQ5NjAxMTI0LC04MTMwOTcwMzUsLT
-E3NzgwNTU1MTJdfQ==
+eyJoaXN0b3J5IjpbNjQ5OTc5MTkzLC00NjQ1OTQ2MTksMTA5MD
+gyNDc2MywtMTMzNDE1MTYwLC0yNDc0NjI4NTEsMTY0NTkzMDg4
+MCwtODQ4NzI5MDYzLDE0NDk2MDExMjQsLTgxMzA5NzAzNSwtMT
+c3ODA1NTUxMl19
 -->
