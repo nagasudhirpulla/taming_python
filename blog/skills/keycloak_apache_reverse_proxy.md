@@ -4,7 +4,7 @@
 * A reverse proxy like Apache can be used with Keycloak
 * A reverse proxy sits in between the clients and server and forwards the client request to the server
 
-![reverse_proxy_architecture.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_apache_architecture.png?raw=true)
+![keycloak_apache_architecture.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_apache_architecture.png?raw=true?raw=true)
 
 
 
@@ -14,6 +14,6 @@
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODcyOTA2MywxNDQ5NjAxMTI0LC04MT
-MwOTcwMzUsLTE3NzgwNTU1MTJdfQ==
+eyJoaXN0b3J5IjpbMTY0NTkzMDg4MCwtODQ4NzI5MDYzLDE0ND
+k2MDExMjQsLTgxMzA5NzAzNSwtMTc3ODA1NTUxMl19
 -->
