@@ -59,6 +59,7 @@ http-port=8080
 * Create a file named `kc_reverse_proxy.conf` in the conf/extra folder of Apache server as shown below
 
 ```bash
+## conf/extra/kc_reverse_proxy.conf file
 Listen 443
 
 #   SSL Cipher Suite:
@@ -109,8 +110,8 @@ SSLSessionCacheTimeout  300
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTc1Mjc5MjIsLTQ2NDU5NDYxOSwxMD
-kwODI0NzYzLC0xMzM0MTUxNjAsLTI0NzQ2Mjg1MSwxNjQ1OTMw
-ODgwLC04NDg3MjkwNjMsMTQ0OTYwMTEyNCwtODEzMDk3MDM1LC
-0xNzc4MDU1NTEyXX0=
+eyJoaXN0b3J5IjpbLTI2MzMxNDY1OCwtNDY0NTk0NjE5LDEwOT
+A4MjQ3NjMsLTEzMzQxNTE2MCwtMjQ3NDYyODUxLDE2NDU5MzA4
+ODAsLTg0ODcyOTA2MywxNDQ5NjAxMTI0LC04MTMwOTcwMzUsLT
+E3NzgwNTU1MTJdfQ==
 -->
