@@ -29,6 +29,8 @@
 * Hostname is configured as dynamic using  `hostname-strict=false` (Single hostname like `hostname=localhost` can also be used).
 
 ```bash
+## keycloak.conf file
+
 # The file path to a server certificate or certificate chain in PEM format.
 https-certificate-file=${kc.home.dir}/conf/kc.crt.pem
 
@@ -53,7 +55,8 @@ http-port=8080
 ```
 
 ## Apache configuration to run as a reverse proxy
-* Add a new line `Include conf/extra/kc_reverse_proxy.conf` in the httpd.conf file of
+* Add a new line `Include conf/extra/kc_reverse_proxy.conf` in the httpd.conf file of the Apache server
+* Create a file named `kc_reverse_proxy.conf` in the conf/extra folder of Apache server as shown below
 
 
 ## References
@@ -61,8 +64,8 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjU1MjMxMywtNDY0NTk0NjE5LDEwOT
-A4MjQ3NjMsLTEzMzQxNTE2MCwtMjQ3NDYyODUxLDE2NDU5MzA4
-ODAsLTg0ODcyOTA2MywxNDQ5NjAxMTI0LC04MTMwOTcwMzUsLT
-E3NzgwNTU1MTJdfQ==
+eyJoaXN0b3J5IjpbLTE5NjAwMDIzMTEsLTQ2NDU5NDYxOSwxMD
+kwODI0NzYzLC0xMzM0MTUxNjAsLTI0NzQ2Mjg1MSwxNjQ1OTMw
+ODgwLC04NDg3MjkwNjMsMTQ0OTYwMTEyNCwtODEzMDk3MDM1LC
+0xNzc4MDU1NTEyXX0=
 -->
