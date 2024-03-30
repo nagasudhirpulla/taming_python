@@ -331,8 +331,8 @@ SSLSessionCacheTimeout  300
 
     RequestHeader set X-Forwarded-Proto "https"
     RequestHeader set X-Forwarded-Port "443"
-    ProxyPass /test <http://127.0.0.1:8080/>
-    ProxyPassReverse /test <http://127.0.0.1:8080/>
+    ProxyPass /test http://127.0.0.1:8080
+    ProxyPassReverse /test http://127.0.0.1:8080
 </VirtualHost>
 
 ```
@@ -365,7 +365,7 @@ The video for this post can be seen [here](https://youtu.be/INATnpdcuZY) and [he
 -   SSLProxyCheckPeerCN on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeercn)
 -   SSLProxyCheckPeerExpire on - [](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)[https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html#sslproxycheckpeerexpire)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTgwNzQ2NCwtMTEyNTEyNzA2NCwtMz
+eyJoaXN0b3J5IjpbLTY3NDE1MDk3OCwtMTEyNTEyNzA2NCwtMz
 EwNjE2MzkwLDIwNDcxMTM2MDgsLTE1MDAzMTk5OTQsLTE2NTQ2
 MTkyMDUsLTUyMzg0NTIsLTMyNjYzNDY4OSwyMTQ1MTk2NzcxLC
 0xNzY5ODcyNTQ5LC0xNDQyNzYxMTExLDI3MDI1MTgwXX0=
