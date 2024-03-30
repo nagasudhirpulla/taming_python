@@ -12,6 +12,9 @@
 * We will use "edge" mode or SSL Termination mode of Reverse Proxy for this scenario.
 * The requests would be in HTTPS till Apache server (Reverse Proxy) and Apache will send HTTP requests to Keycloak
 
+![keycloak_edge_mode_proxy.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_edge_mode_proxy.png?raw=true)
+### Other Reverse Proxy Modes
+* Passthrough mode passes HTTPS connections from clients to keycloak directly to keyclpa
 
 ```bash
 # The file path to a server certificate or certificate chain in PEM format.
@@ -44,8 +47,8 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzY2NzUwMDMsMTA5MDgyNDc2MywtMT
-MzNDE1MTYwLC0yNDc0NjI4NTEsMTY0NTkzMDg4MCwtODQ4NzI5
-MDYzLDE0NDk2MDExMjQsLTgxMzA5NzAzNSwtMTc3ODA1NTUxMl
-19
+eyJoaXN0b3J5IjpbMTM2MjI3MTgzNiwxMDkwODI0NzYzLC0xMz
+M0MTUxNjAsLTI0NzQ2Mjg1MSwxNjQ1OTMwODgwLC04NDg3Mjkw
+NjMsMTQ0OTYwMTEyNCwtODEzMDk3MDM1LC0xNzc4MDU1NTEyXX
+0=
 -->
