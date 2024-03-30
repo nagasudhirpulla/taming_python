@@ -5,8 +5,13 @@
 * A reverse proxy sits in between the clients and server and forwards the client requests to the server
 
 ![keycloak_apache_architecture.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_apache_architecture.png?raw=true?raw=true)
+
 ## Keycloak configuration for running behind Reverse Proxy
-```ini
+
+### Reverse Proxy Mode - SSL Termination
+
+
+```bash
 # The file path to a server certificate or certificate chain in PEM format.
 https-certificate-file=${kc.home.dir}/conf/kc.crt.pem
 
@@ -37,7 +42,7 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzE5MzE2NTcsLTEzMzQxNTE2MCwtMj
-Q3NDYyODUxLDE2NDU5MzA4ODAsLTg0ODcyOTA2MywxNDQ5NjAx
-MTI0LC04MTMwOTcwMzUsLTE3NzgwNTU1MTJdfQ==
+eyJoaXN0b3J5IjpbLTU3MDE1MDE2OCwtMTMzNDE1MTYwLC0yND
+c0NjI4NTEsMTY0NTkzMDg4MCwtODQ4NzI5MDYzLDE0NDk2MDEx
+MjQsLTgxMzA5NzAzNSwtMTc3ODA1NTUxMl19
 -->
