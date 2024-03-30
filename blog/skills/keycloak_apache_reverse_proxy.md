@@ -55,6 +55,7 @@ http-port=8080
 ```
 
 ## Apache configuration to run as a reverse proxy
+* Enable mod_proxy, mod_proxy_http, mod_ssl, mod_headers, mod_socache_shmcb modules in the httpd.conf file
 * Add a new line `Include conf/extra/kc_reverse_proxy.conf` in the httpd.conf file of the Apache server
 * Create a file named `kc_reverse_proxy.conf` in the conf/extra folder of Apache server as shown below
 
@@ -115,8 +116,8 @@ SSLSessionCacheTimeout  300
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0OTU0NDQxLC00NjQ1OTQ2MTksMTA5MD
-gyNDc2MywtMTMzNDE1MTYwLC0yNDc0NjI4NTEsMTY0NTkzMDg4
-MCwtODQ4NzI5MDYzLDE0NDk2MDExMjQsLTgxMzA5NzAzNSwtMT
-c3ODA1NTUxMl19
+eyJoaXN0b3J5IjpbLTgyOTk0MDc4Myw1NjQ5NTQ0NDEsLTQ2ND
+U5NDYxOSwxMDkwODI0NzYzLC0xMzM0MTUxNjAsLTI0NzQ2Mjg1
+MSwxNjQ1OTMwODgwLC04NDg3MjkwNjMsMTQ0OTYwMTEyNCwtOD
+EzMDk3MDM1LC0xNzc4MDU1NTEyXX0=
 -->
