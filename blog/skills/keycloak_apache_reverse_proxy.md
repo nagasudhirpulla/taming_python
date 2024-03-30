@@ -107,7 +107,7 @@ SSLSessionCacheTimeout  300
 </VirtualHost>
 ```
 * Using the above configuration, a virtual host is created that listens on port 443 over HTTPS
-* 
+* All the requests are being passes to the Keycloak server running at `http://127.0.0.1:8080/`
 *  `RequestHeader set X-Forwarded-Proto https` and `RequestHeader set X-Forwarded-Port 443` are configured to pass the client request protocol and port information to Keycloak server
 *  `ProxyAddHeaders On` will add additional headers (X-Forwarded-For, X-Forwarded-Host and X-Forwarded-Server) to the request and pass them to Keycloak server
 * `ProxyPreserveHost On` will set the same hostname as the client request header in the proxied request `Host` header
@@ -117,8 +117,8 @@ SSLSessionCacheTimeout  300
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3ODExOTc3LDU2NDk1NDQ0MSwtNDY0NT
-k0NjE5LDEwOTA4MjQ3NjMsLTEzMzQxNTE2MCwtMjQ3NDYyODUx
-LDE2NDU5MzA4ODAsLTg0ODcyOTA2MywxNDQ5NjAxMTI0LC04MT
-MwOTcwMzUsLTE3NzgwNTU1MTJdfQ==
+eyJoaXN0b3J5IjpbLTEzNTcyMjI2NzksNTY0OTU0NDQxLC00Nj
+Q1OTQ2MTksMTA5MDgyNDc2MywtMTMzNDE1MTYwLC0yNDc0NjI4
+NTEsMTY0NTkzMDg4MCwtODQ4NzI5MDYzLDE0NDk2MDExMjQsLT
+gxMzA5NzAzNSwtMTc3ODA1NTUxMl19
 -->
