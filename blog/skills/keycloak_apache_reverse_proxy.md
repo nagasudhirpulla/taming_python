@@ -1,4 +1,5 @@
 
+
 # Apache as reverse proxy for keycloak 
 
 * A reverse proxy like Apache can be used with Keycloak
@@ -6,23 +7,23 @@
 
 ![keycloak_apache_architecture.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_apache_architecture.png?raw=true?raw=true)
 
-## Keycloak Configuration to run behind Reverse Proxy
+## Keycloak Configuration to run behind reverse proxy
 
-### Reverse Proxy Mode - Edge
-* We will use "edge" mode or SSL Termination mode of Reverse Proxy for this scenario.
-* The requests would be in HTTPS till Apache server (Reverse Proxy) and Apache will send HTTP requests to Keycloak
+### reverse proxy Mode - Edge
+* We will use "edge" mode or SSL Termination mode of reverse proxy for this scenario.
+* The requests would be in HTTPS till Apache server (reverse proxy) and Apache will send HTTP requests to Keycloak
 
 ![keycloak_edge_mode_proxy.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_edge_mode_proxy.png?raw=true)
-### Other Reverse Proxy Modes
-* In passthrough mode, HTTPS connections from clients are passed to keycloak directly without SSL termination at Reverse Proxy
-* In reencypt mode, clients connect to Reverse Proxy via HTTPS and reverse proxy also connects to Keycloak via HTTPS. Hence SSL certificates are needed to be configured in Reverse Proxy and Keycloak.
+### Other reverse proxy Modes
+* In passthrough mode, HTTPS connections from clients are passed to keycloak directly without SSL termination at reverse proxy
+* In reencypt mode, clients connect to reverse proxy via HTTPS and reverse proxy also connects to Keycloak via HTTPS. Hence SSL certificates are needed to be configured in reverse proxy and Keycloak.
 
 ### Request headers from reverse proxy to Keycloak
-* To know the information about the client, keycloak expects Apache (Reverse Proxy) to set the either the "Forwared" headers (as per [RFC7239](https://www.rfc-editor.org/rfc/rfc7239.html)) or the "X-Forwarded-*" headers.
-* Apache sets "X-Forwarded-*" headers when acting as a Reverse Proxy. So we can configure Keycloak accordingly.
+* To know the information about the client, keycloak expects Apache (reverse proxy) to set the either the "Forwared" headers (as per [RFC7239](https://www.rfc-editor.org/rfc/rfc7239.html)) or the "X-Forwarded-*" headers.
+* Apache sets "X-Forwarded-*" headers when acting as a reverse proxy. So we can configure Keycloak accordingly.
 
 ### Settings in keycloak.conf file
-* The following settings can be used in the `keycloak.conf` file for running behind an Apache Reverse proxy
+* The following settings can be used in the `keycloak.conf` file for running behind an Apache reverse proxy
 * `http-enabled=true` and `http-port=8080` is used since Apache communicated to Keycloak over HTTP
 * `proxy-headers=xforwarded` is used since Apache sets the "X-Forwarded-*" headers (In older versions of keycloak, `proxy=edge` can be used).
 * Certificate file paths are configured for running keycloak in production mode
@@ -115,9 +116,9 @@ SSLSessionCacheTimeout  300
 * `SSLProxyCheckPeerCN on` means Apache will check if request URL hostname and server certificate CN (common name) are the same. If both are not same, 502 (bad gateway) response will be given.
 * `SSLProxyCheckPeerExpire on` means Apache will check if the server certificate is expired. If expired, 502 (Bad gateway).
 
-### Exposing only selected paths via Apache (Reverse Proxy)
-* Admin console can be hidden from clients via Reverse Proxy to avoid security risks. If required, admin panel can be accessed via localhost or internal LAN.
-* The following Apache (Reverse Proxy) configuration can be used to expose only required paths to clients and expose all paths only on localhost
+### Exposing only selected paths via Apache (reverse proxy)
+* Admin console can be hidden from clients via reverse proxy to avoid security risks. If required, admin panel can be accessed via localhost or internal LAN.
+* The following Apache (reverse proxy) configuration can be used to expose only required paths to clients and expose all paths only on localhost
 
 ```apacheconf
 Listen 443
@@ -208,9 +209,9 @@ SSLSessionCacheTimeout  300
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjIwNzI3NCwtNDQyNjYxMzA0LC01MT
-I3NDE1OTIsMTg2NTY3NjYxMyw1NjQ5NTQ0NDEsLTQ2NDU5NDYx
-OSwxMDkwODI0NzYzLC0xMzM0MTUxNjAsLTI0NzQ2Mjg1MSwxNj
-Q1OTMwODgwLC04NDg3MjkwNjMsMTQ0OTYwMTEyNCwtODEzMDk3
-MDM1LC0xNzc4MDU1NTEyXX0=
+eyJoaXN0b3J5IjpbMjAxMDA2NDA1NiwxNTMyMjA3Mjc0LC00ND
+I2NjEzMDQsLTUxMjc0MTU5MiwxODY1Njc2NjEzLDU2NDk1NDQ0
+MSwtNDY0NTk0NjE5LDEwOTA4MjQ3NjMsLTEzMzQxNTE2MCwtMj
+Q3NDYyODUxLDE2NDU5MzA4ODAsLTg0ODcyOTA2MywxNDQ5NjAx
+MTI0LC04MTMwOTcwMzUsLTE3NzgwNTU1MTJdfQ==
 -->
