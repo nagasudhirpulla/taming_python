@@ -106,22 +106,22 @@ SSLSessionCacheTimeout  300
     ProxyPassReverse / http://127.0.0.1:8080/
 </VirtualHost>
 ```
-* Using the above configuration, a virtual host is created that listens on port 443 over HTTPS
-* All the requests are being passes to the Keycloak server running at `http://127.0.0.1:8080/`
-*  `RequestHeader set X-Forwarded-Proto https` and `RequestHeader set X-Forwarded-Port 443` are configured to pass the client request protocol and port information to Keycloak server
-* `ProxyAddHeaders On` will add additional headers (X-Forwarded-For, X-Forwarded-Host and X-Forwarded-Server) to the request and pass them to Keycloak server
-* `ProxyPreserveHost On` will set the same hostname as the client request header in the proxied request `Host` header
-* `SSLProxyEngine on` is used to enable HTTPS in reverse proxy
-* `SSLProxyCheckPeerCN on` means Apache will check if request URL hostname and server certificate CN (common name) are the same. If both are not same, 502 (bad gateway) response will be given
-* `SSLProxyCheckPeerExpire on` means Apache will check if the server certificate is expired. If expired, 502 (Bad gateway) 
+* Using the above configuration, a virtual host is created that listens on port 443 over HTTPS.
+* All the requests are being passes to the Keycloak server running at `http://127.0.0.1:8080/`.
+*  `RequestHeader set X-Forwarded-Proto https` and `RequestHeader set X-Forwarded-Port 443` are configured to pass the client request protocol and port information to Keycloak server.
+* `ProxyAddHeaders On` will add additional headers (X-Forwarded-For, X-Forwarded-Host and X-Forwarded-Server) to the request and pass them to Keycloak server.
+* `ProxyPreserveHost On` will set the same hostname as the client request header in the proxied request `Host` header.
+* `SSLProxyEngine on` is used to enable HTTPS in reverse proxy.
+* `SSLProxyCheckPeerCN on` means Apache will check if request URL hostname and server certificate CN (common name) are the same. If both are not same, 502 (bad gateway) response will be given.
+* `SSLProxyCheckPeerExpire on` means Apache will check if the server certificate is expired. If expired, 502 (Bad gateway).
 
 ## References
 * Refer the official guides under the "Server" section for further reading at https://www.keycloak.org/guides
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjkxOTQ1MjIsMTg2NTY3NjYxMyw1Nj
-Q5NTQ0NDEsLTQ2NDU5NDYxOSwxMDkwODI0NzYzLC0xMzM0MTUx
-NjAsLTI0NzQ2Mjg1MSwxNjQ1OTMwODgwLC04NDg3MjkwNjMsMT
-Q0OTYwMTEyNCwtODEzMDk3MDM1LC0xNzc4MDU1NTEyXX0=
+eyJoaXN0b3J5IjpbNTgxMjIzNTYsMTg2NTY3NjYxMyw1NjQ5NT
+Q0NDEsLTQ2NDU5NDYxOSwxMDkwODI0NzYzLC0xMzM0MTUxNjAs
+LTI0NzQ2Mjg1MSwxNjQ1OTMwODgwLC04NDg3MjkwNjMsMTQ0OT
+YwMTEyNCwtODEzMDk3MDM1LC0xNzc4MDU1NTEyXX0=
 -->
