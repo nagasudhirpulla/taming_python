@@ -6,7 +6,7 @@
 
 ![keycloak_apache_architecture.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_apache_architecture.png?raw=true?raw=true)
 
-## Configuration for Keycloak behind Reverse Proxy
+## Keycloak Configuration to run behind Reverse Proxy
 
 ### Reverse Proxy Mode - Edge
 * We will use "edge" mode or SSL Termination mode of Reverse Proxy for this scenario.
@@ -59,8 +59,8 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTI0NTA0NTAsLTQ2NDU5NDYxOSwxMD
-kwODI0NzYzLC0xMzM0MTUxNjAsLTI0NzQ2Mjg1MSwxNjQ1OTMw
-ODgwLC04NDg3MjkwNjMsMTQ0OTYwMTEyNCwtODEzMDk3MDM1LC
-0xNzc4MDU1NTEyXX0=
+eyJoaXN0b3J5IjpbLTU2MTY2MTYwMywtNDY0NTk0NjE5LDEwOT
+A4MjQ3NjMsLTEzMzQxNTE2MCwtMjQ3NDYyODUxLDE2NDU5MzA4
+ODAsLTg0ODcyOTA2MywxNDQ5NjAxMTI0LC04MTMwOTcwMzUsLT
+E3NzgwNTU1MTJdfQ==
 -->
