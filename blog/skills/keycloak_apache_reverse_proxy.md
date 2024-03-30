@@ -6,7 +6,9 @@
 
 ![keycloak_apache_architecture.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_apache_architecture.png?raw=true?raw=true)
 ## Keycloak configuration for running behind Reverse Proxy
+```ini
 
+```
 
 
 
@@ -15,7 +17,7 @@
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwNDc4MTgsLTI0NzQ2Mjg1MSwxNjQ1OT
-MwODgwLC04NDg3MjkwNjMsMTQ0OTYwMTEyNCwtODEzMDk3MDM1
-LC0xNzc4MDU1NTEyXX0=
+eyJoaXN0b3J5IjpbLTEzMzQxNTE2MCwtMjQ3NDYyODUxLDE2ND
+U5MzA4ODAsLTg0ODcyOTA2MywxNDQ5NjAxMTI0LC04MTMwOTcw
+MzUsLTE3NzgwNTU1MTJdfQ==
 -->
