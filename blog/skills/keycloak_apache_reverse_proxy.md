@@ -116,7 +116,8 @@ SSLSessionCacheTimeout  300
 * `SSLProxyCheckPeerExpire on` means Apache will check if the server certificate is expired. If expired, 502 (Bad gateway).
 
 ### Exposing only selected paths via Reverse proxy
-* Admin console can be hidden from clients via Reverse Proxy to avoid security risks
+* Admin console can be hidden from clients via Reverse Proxy to avoid security risks. If required, admin panel can be accessed via localhost or internal LAN based on the Keycloak hostname setting
+* 
 * 
 
 ## References
@@ -124,8 +125,9 @@ SSLSessionCacheTimeout  300
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjc0MTU5MiwxODY1Njc2NjEzLDU2ND
-k1NDQ0MSwtNDY0NTk0NjE5LDEwOTA4MjQ3NjMsLTEzMzQxNTE2
-MCwtMjQ3NDYyODUxLDE2NDU5MzA4ODAsLTg0ODcyOTA2MywxND
-Q5NjAxMTI0LC04MTMwOTcwMzUsLTE3NzgwNTU1MTJdfQ==
+eyJoaXN0b3J5IjpbMTc3MzMwMTEwLC01MTI3NDE1OTIsMTg2NT
+Y3NjYxMyw1NjQ5NTQ0NDEsLTQ2NDU5NDYxOSwxMDkwODI0NzYz
+LC0xMzM0MTUxNjAsLTI0NzQ2Mjg1MSwxNjQ1OTMwODgwLC04ND
+g3MjkwNjMsMTQ0OTYwMTEyNCwtODEzMDk3MDM1LC0xNzc4MDU1
+NTEyXX0=
 -->
