@@ -17,6 +17,8 @@
 * In passthrough mode, HTTPS connections from clients are passed to keycloak directly without SSL termination at Reverse Proxy
 * In reencypt mode, clients connect to Reverse Proxy via HTTPS and reverse proxy also connects to Keycloak via HTTPS. Hence SSL certificates are needed to be configured in Reverse Proxy and Keycloak.
 
+
+
 ```bash
 # The file path to a server certificate or certificate chain in PEM format.
 https-certificate-file=${kc.home.dir}/conf/kc.crt.pem
@@ -48,8 +50,8 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1NTUzMTIwLC00NjQ1OTQ2MTksMTA5MD
-gyNDc2MywtMTMzNDE1MTYwLC0yNDc0NjI4NTEsMTY0NTkzMDg4
-MCwtODQ4NzI5MDYzLDE0NDk2MDExMjQsLTgxMzA5NzAzNSwtMT
-c3ODA1NTUxMl19
+eyJoaXN0b3J5IjpbMTAwNTY4NTM4MCwtNDY0NTk0NjE5LDEwOT
+A4MjQ3NjMsLTEzMzQxNTE2MCwtMjQ3NDYyODUxLDE2NDU5MzA4
+ODAsLTg0ODcyOTA2MywxNDQ5NjAxMTI0LC04MTMwOTcwMzUsLT
+E3NzgwNTU1MTJdfQ==
 -->
