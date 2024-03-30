@@ -111,14 +111,17 @@ SSLSessionCacheTimeout  300
 *  `RequestHeader set X-Forwarded-Proto https` and `RequestHeader set X-Forwarded-Port 443` are configured to pass the client request protocol and port information to Keycloak server
 *  `ProxyAddHeaders On` will add additional headers (X-Forwarded-For, X-Forwarded-Host and X-Forwarded-Server) to the request and pass them to Keycloak server
 * `ProxyPreserveHost On` will set the same hostname as the client request header in the proxied request `Host` header
+* **SSLProxyEngine on** is used to enable SSL in reverse proxy
+* **SSLProxyCheckPeerCN on** means Apache will check if request URL hostname and server certificate CN (common name) are the same. If both are not same, 502 (bad gateway) response will be given
+* **SSLProxyCheckPeerExpire on** means Apache will check if the server certificate is expired. If expired, 502 (Bad gateway) response will be given
 
 ## References
 * Refer the official guides under the "Server" section for further reading at https://www.keycloak.org/guides
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTcyMjI2NzksNTY0OTU0NDQxLC00Nj
-Q1OTQ2MTksMTA5MDgyNDc2MywtMTMzNDE1MTYwLC0yNDc0NjI4
-NTEsMTY0NTkzMDg4MCwtODQ4NzI5MDYzLDE0NDk2MDExMjQsLT
-gxMzA5NzAzNSwtMTc3ODA1NTUxMl19
+eyJoaXN0b3J5IjpbNzg4MzMyMTQ2LDU2NDk1NDQ0MSwtNDY0NT
+k0NjE5LDEwOTA4MjQ3NjMsLTEzMzQxNTE2MCwtMjQ3NDYyODUx
+LDE2NDU5MzA4ODAsLTg0ODcyOTA2MywxNDQ5NjAxMTI0LC04MT
+MwOTcwMzUsLTE3NzgwNTU1MTJdfQ==
 -->
