@@ -1,6 +1,6 @@
 
 
-# Apache as reverse proxy for keycloak 
+# Apache as reverse proxy for Keycloak 
 
 * A reverse proxy like Apache can be used with Keycloak
 * A reverse proxy sits in between the clients and server and forwards the client requests to the server
@@ -210,9 +210,10 @@ SSLSessionCacheTimeout  300
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwNTkwOTMwLDE1MzIyMDcyNzQsLTQ0Mj
-Y2MTMwNCwtNTEyNzQxNTkyLDE4NjU2NzY2MTMsNTY0OTU0NDQx
-LC00NjQ1OTQ2MTksMTA5MDgyNDc2MywtMTMzNDE1MTYwLC0yND
-c0NjI4NTEsMTY0NTkzMDg4MCwtODQ4NzI5MDYzLDE0NDk2MDEx
-MjQsLTgxMzA5NzAzNSwtMTc3ODA1NTUxMl19
+eyJoaXN0b3J5IjpbLTQwNjIwNTA3MCw4MjA1OTA5MzAsMTUzMj
+IwNzI3NCwtNDQyNjYxMzA0LC01MTI3NDE1OTIsMTg2NTY3NjYx
+Myw1NjQ5NTQ0NDEsLTQ2NDU5NDYxOSwxMDkwODI0NzYzLC0xMz
+M0MTUxNjAsLTI0NzQ2Mjg1MSwxNjQ1OTMwODgwLC04NDg3Mjkw
+NjMsMTQ0OTYwMTEyNCwtODEzMDk3MDM1LC0xNzc4MDU1NTEyXX
+0=
 -->
