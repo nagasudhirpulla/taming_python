@@ -119,7 +119,7 @@ SSLSessionCacheTimeout  300
 * Admin console can be hidden from clients via Reverse Proxy to avoid security risks. If required, admin panel can be accessed via localhost or internal LAN.
 * The following Apache (Reverse Proxy) configuration can be used to expose only required paths to clients and expose all paths only on localhost
 
-```bash
+```apacheconf
 Listen 443
 
 #   SSL Cipher Suite:
@@ -208,9 +208,9 @@ SSLSessionCacheTimeout  300
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjY2MTMwNCwtNTEyNzQxNTkyLDE4Nj
-U2NzY2MTMsNTY0OTU0NDQxLC00NjQ1OTQ2MTksMTA5MDgyNDc2
-MywtMTMzNDE1MTYwLC0yNDc0NjI4NTEsMTY0NTkzMDg4MCwtOD
-Q4NzI5MDYzLDE0NDk2MDExMjQsLTgxMzA5NzAzNSwtMTc3ODA1
-NTUxMl19
+eyJoaXN0b3J5IjpbMTYyODExNDQ3NCwtNDQyNjYxMzA0LC01MT
+I3NDE1OTIsMTg2NTY3NjYxMyw1NjQ5NTQ0NDEsLTQ2NDU5NDYx
+OSwxMDkwODI0NzYzLC0xMzM0MTUxNjAsLTI0NzQ2Mjg1MSwxNj
+Q1OTMwODgwLC04NDg3MjkwNjMsMTQ0OTYwMTEyNCwtODEzMDk3
+MDM1LC0xNzc4MDU1NTEyXX0=
 -->
