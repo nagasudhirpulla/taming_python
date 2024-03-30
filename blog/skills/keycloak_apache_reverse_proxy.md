@@ -53,7 +53,7 @@ http-port=8080
 ```
 
 ## Apache configuration to run as a reverse proxy
-
+* Add a new line `Include conf/extra/kc_reverse_proxy.conf` in the httpd.conf file of
 
 
 ## References
@@ -61,7 +61,7 @@ http-port=8080
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTM0MjUwMiwtNDY0NTk0NjE5LDEwOT
+eyJoaXN0b3J5IjpbMTEwNjU1MjMxMywtNDY0NTk0NjE5LDEwOT
 A4MjQ3NjMsLTEzMzQxNTE2MCwtMjQ3NDYyODUxLDE2NDU5MzA4
 ODAsLTg0ODcyOTA2MywxNDQ5NjAxMTI0LC04MTMwOTcwMzUsLT
 E3NzgwNTU1MTJdfQ==
