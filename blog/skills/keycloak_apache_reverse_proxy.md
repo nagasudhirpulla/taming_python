@@ -204,16 +204,22 @@ SSLSessionCacheTimeout  300
 * One virtual host exposes all paths of keycloak but listens only on localhost.
 * Another virtual host exposes only recommended paths. This can be accessed by clients.
 
+### Video
+You can see the video for this post [here](https://youtu.be/YCQJtj0YvR8?si=8ff3_r0qD1R25m3q)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YCQJtj0YvR8?si=i7fssgtgMkGUSNki" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## References
 * Official Keycloak reverse proxy guide - https://www.keycloak.org/server/reverseproxy
 * Refer the official guides under the "Server" section for further reading at https://www.keycloak.org/guides
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjIwNTA3MCw4MjA1OTA5MzAsMTUzMj
-IwNzI3NCwtNDQyNjYxMzA0LC01MTI3NDE1OTIsMTg2NTY3NjYx
-Myw1NjQ5NTQ0NDEsLTQ2NDU5NDYxOSwxMDkwODI0NzYzLC0xMz
-M0MTUxNjAsLTI0NzQ2Mjg1MSwxNjQ1OTMwODgwLC04NDg3Mjkw
-NjMsMTQ0OTYwMTEyNCwtODEzMDk3MDM1LC0xNzc4MDU1NTEyXX
-0=
+eyJoaXN0b3J5IjpbNDg0OTQ1MzU4LC00MDYyMDUwNzAsODIwNT
+kwOTMwLDE1MzIyMDcyNzQsLTQ0MjY2MTMwNCwtNTEyNzQxNTky
+LDE4NjU2NzY2MTMsNTY0OTU0NDQxLC00NjQ1OTQ2MTksMTA5MD
+gyNDc2MywtMTMzNDE1MTYwLC0yNDc0NjI4NTEsMTY0NTkzMDg4
+MCwtODQ4NzI5MDYzLDE0NDk2MDExMjQsLTgxMzA5NzAzNSwtMT
+c3ODA1NTUxMl19
 -->
