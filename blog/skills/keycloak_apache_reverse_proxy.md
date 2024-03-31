@@ -181,8 +181,8 @@ SSLSessionCacheTimeout  300
     ProxyAddHeaders On
     
     SSLProxyEngine On
-    SSLProxyCheckPeerCN on
-    SSLProxyCheckPeerExpire on
+    SSLProxyCheckPeerCN On
+    SSLProxyCheckPeerExpire On
 
     RequestHeader set X-Forwarded-Proto https
     RequestHeader set X-Forwarded-Port 443
@@ -216,10 +216,10 @@ You can see the video for this post [here](https://youtu.be/YCQJtj0YvR8?si=8ff3_
 * All the keycloak configuration (`keycloak.conf` file) options can be found at https://www.keycloak.org/server/all-config 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0OTQ1MzU4LC00MDYyMDUwNzAsODIwNT
-kwOTMwLDE1MzIyMDcyNzQsLTQ0MjY2MTMwNCwtNTEyNzQxNTky
-LDE4NjU2NzY2MTMsNTY0OTU0NDQxLC00NjQ1OTQ2MTksMTA5MD
-gyNDc2MywtMTMzNDE1MTYwLC0yNDc0NjI4NTEsMTY0NTkzMDg4
-MCwtODQ4NzI5MDYzLDE0NDk2MDExMjQsLTgxMzA5NzAzNSwtMT
-c3ODA1NTUxMl19
+eyJoaXN0b3J5IjpbMTg0MzU4MjQ3OCwtNDA2MjA1MDcwLDgyMD
+U5MDkzMCwxNTMyMjA3Mjc0LC00NDI2NjEzMDQsLTUxMjc0MTU5
+MiwxODY1Njc2NjEzLDU2NDk1NDQ0MSwtNDY0NTk0NjE5LDEwOT
+A4MjQ3NjMsLTEzMzQxNTE2MCwtMjQ3NDYyODUxLDE2NDU5MzA4
+ODAsLTg0ODcyOTA2MywxNDQ5NjAxMTI0LC04MTMwOTcwMzUsLT
+E3NzgwNTU1MTJdfQ==
 -->
