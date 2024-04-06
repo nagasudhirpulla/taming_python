@@ -21,12 +21,13 @@
 -   For example, to create a new theme named “acme”, create a new folder named “acme” in the themes folder of Keycloak folder.
 
 ## Anatomy of a new theme folder
-* Inside the new theme folder there can be one or more folders named 'login', 'admin', 'account'
+* Inside the new theme folder there can be one or more folders named 'login', 'admin', 'account', 'email'
+* The theme for the respective parts can be defined in these folders 
 
 ## References
 
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE4MjYzMzYsMTQwOTkxMTgwMl19
+eyJoaXN0b3J5IjpbLTg0NDc5NTczMywxNDA5OTExODAyXX0=
 -->
