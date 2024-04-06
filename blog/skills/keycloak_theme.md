@@ -23,12 +23,13 @@
 ## Anatomy of a new theme folder
 * Inside the new theme folder there can be one or more folders named 'login', 'admin', 'account', 'email'.
 * The theme for the respective parts can be defined in these folders.
-* In this new 'acme' theme example, we will create folders for login admin and account.  
+* In this new 'acme' theme example, we will create folders for login admin and account.
+* 
 
 ## References
 
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzNzgyNTM3LDE0MDk5MTE4MDJdfQ==
+eyJoaXN0b3J5IjpbODY4ODgxNjgxLDE0MDk5MTE4MDJdfQ==
 -->
