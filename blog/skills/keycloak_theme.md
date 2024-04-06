@@ -25,15 +25,52 @@
 * The theme for the respective parts can be defined in these folders.
 * In this new 'acme' theme example, we will create folders for login admin and account.
 * The final folder structure of this example would be as follows
-```bash
+
+```
+    acme
+    ├───account
+    │   │   theme.properties
+    │   │
+    │   └───resources
+    │       │   favicon.svg
+    │       │   logo.svg
+    │       │
+    │       └───css
+    │               styles.css
+    │
+    ├───admin
+    │   │   theme.properties
+    │   │
+    │   └───resources
+    │       │   favicon.svg
+    │       │   logo.svg
+    │       │
+    │       └───css
+    │               styles.css
+    │
+    └───login
+        │   theme.properties
+        │
+        ├───messages
+        │       messages_en.properties
+        │
+        └───resources
+            ├───css
+            │       styles.css
+            │
+            └───img
+                    favicon.ico
+                    keycloak-bg.png
+                    keycloak-logo-text.png
 ```
 ### theme.properties file
-* This file
+* This file defines the theme 
 
 ## References
 
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1NTc4MTI3LDE0MDk5MTE4MDJdfQ==
+eyJoaXN0b3J5IjpbLTQ4NTkyOTI5MCwzMTU1NzgxMjcsMTQwOT
+kxMTgwMl19
 -->
