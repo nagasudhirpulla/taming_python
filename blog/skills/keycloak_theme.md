@@ -75,13 +75,13 @@ styles=css/login.css css/styles.css
 ``` 
 
 * `parent` means the parent theme from which the theme is being extended from.
-*  `import` used to define the parent theme folder to import resources  
+*  `import` used to define the parent theme folder to import resources from 
 
 ## References
 
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzkyMTcwNzcsMzE1NTc4MTI3LDE0MD
-k5MTE4MDJdfQ==
+eyJoaXN0b3J5IjpbNzk2NzUwNTYxLDMxNTU3ODEyNywxNDA5OT
+ExODAyXX0=
 -->
