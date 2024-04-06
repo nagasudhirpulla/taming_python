@@ -12,6 +12,8 @@
 
 ## Change Theme in Keycloak
 * In the Keycloak admin console, go to Realm settings and select the "Themes" tab
+* Here the theme for login, account, admin and email can be changed.
+
 ![keycloak_theme_settings.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_theme_settings.png?raw=true)
 
 ## Parts of a theme
@@ -25,5 +27,5 @@
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTkxMTgwMl19
+eyJoaXN0b3J5IjpbMTk0OTIyNTAwMCwxNDA5OTExODAyXX0=
 -->
