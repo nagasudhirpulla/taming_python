@@ -20,15 +20,13 @@
 
 ![keycloak_theme_settings.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_theme_settings.png?raw=true)
 
-
-
-
-## Components of a theme
+## Anatomy of a new theme
+* 
 
 ## References
 
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NjcyMjMyOCwxNDA5OTExODAyXX0=
+eyJoaXN0b3J5IjpbMTk1NDE3NDgyMywxNDA5OTExODAyXX0=
 -->
