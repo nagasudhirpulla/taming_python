@@ -8,7 +8,7 @@
 
 ## Parts of a theme
 
--   A theme can have 4 parts: Login, Account, Admin, Welcome, Email for customization of login page, account page, welcome page and email content respectively
+-   A theme can have 4 parts: Login, Account, Admin, Email for customization of login page, account page, admin page and email content respectively
 
 ## Change Theme in Keycloak
 * In the Keycloak admin console, go to Realm settings and select the "Themes" tab.
@@ -28,5 +28,5 @@
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjkzMTIzODgsMTQwOTkxMTgwMl19
+eyJoaXN0b3J5IjpbLTYyNjkyMzUxMywxNDA5OTExODAyXX0=
 -->
