@@ -77,13 +77,15 @@ styles=css/login.css css/styles.css
 * `parent` means the parent theme from which the theme is being extended from.
 *  `import` is used to define the parent theme folder to import resources from.
 * `styles` is used to define the css files to be used in the theme. Note that we have defined only styles.css file. But we need to also mention the css file path being used in parent theme also. Hence the value of `styles` is kept as `css/login.css css/styles.css` . Multiple css file paths should be separated by a space and the order should start from parent files to child files since the file paths in the right override the file paths in the left.
-*   `scripts` - JavaScript files can also be added to theme using `script`. 
+*   `scripts` - JavaScript files can also be added to theme using `script`. This can be used add additional JavaScript code to browser 
+
+
 
 ## References
 
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTIwNTk1NSwzMTU1NzgxMjcsMTQwOT
-kxMTgwMl19
+eyJoaXN0b3J5IjpbLTExNTkxNDg4NjIsLTE3MTIwNTk1NSwzMT
+U1NzgxMjcsMTQwOTkxMTgwMl19
 -->
