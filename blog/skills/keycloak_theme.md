@@ -64,13 +64,14 @@
                     keycloak-logo-text.png
 ```
 ### theme.properties file
-* This file defines the theme 
+* This file defines the theme type
+* 
 
 ## References
 
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTkyOTI5MCwzMTU1NzgxMjcsMTQwOT
+eyJoaXN0b3J5IjpbLTkwMjc4MTI1NiwzMTU1NzgxMjcsMTQwOT
 kxMTgwMl19
 -->
