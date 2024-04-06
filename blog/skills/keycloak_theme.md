@@ -65,13 +65,20 @@
 ```
 ### theme.properties file
 * This file defines the theme type
-* 
+* The `theme.properties` file of login folder of acme theme in this example is as follows
+
+```bash
+parent=keycloak
+import=common/keycloak
+
+styles=css/login.css css/styles.css
+``` 
 
 ## References
 
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMjc4MTI1NiwzMTU1NzgxMjcsMTQwOT
-kxMTgwMl19
+eyJoaXN0b3J5IjpbOTM0NjYzODI5LDMxNTU3ODEyNywxNDA5OT
+ExODAyXX0=
 -->
