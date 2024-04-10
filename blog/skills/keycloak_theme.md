@@ -89,7 +89,7 @@ styles=css/login.css css/styles.css
 
 ## Customize login screen
 
-![keycloak_custom_login_page_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_custom_login_page_demo.png)
+![keycloak_custom_login_page_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_custom_login_page_demo.png?raw=true)
 
 * In the new theme (acme) folder create, a new folder named `login`. This will define the login screen of the theme
 * Create a file named `theme.properties` in the login folder as shown below
@@ -105,12 +105,12 @@ styles=css/login.css css/styles.css
 * The default theme used for login is `keycloak`. Hence we are extending the `keycloak` theme using `parent=keycloak`.
 * The files for the keycloak theme can be found in the path "ib\lib\main\org.keycloak.keycloak-themes-24.0.2.jar\theme\keycloak\login\" folder as shown below. Use 7zip or winrar to see the files within the jar file.
 
-![keycloak_login_theme_files](keycloak_login_theme_files.png)
+![keycloak_login_theme_files.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_login_theme_files.png?raw=true)
 
 ### Change heading
 * By inspecting the login.ftl file of `base` keycloak theme, it is found that the the login page heading is set by the variable `loginAccountTitle`
 
-![keycloak_login_page_header_variable](keycloak_login_page_header_variable.png)
+![keycloak_login_page_header_variable.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_login_page_header_variable.png?raw=true)
 
 * Create a `messages` folder in the login folder and create a file named `messages_en.properties` as shown below
 
@@ -125,7 +125,7 @@ loginAccountTitle=Let us go
 * Upon inspecting the html page source code of Keycloak login screen, it can be seen that the favicon is loaded from the path `img/favicon.ico`.
 * By seeing the image URLs of login page logo and background, it can be understood that the logo file can be overwritten using the `img/keycloak-logo-text.png` file and the background image can be overwritten using the `img/keycloak-bg.png` file
 
-![keycloak_login_screen_custom_images](keycloak_login_screen_custom_images.png)
+![keycloak_login_screen_custom_images.png](keycloak_login_screen_custom_images.png)
 
 ### Change the colors
 
@@ -239,7 +239,7 @@ styles=css/styles.css
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcwNzc0MTMyLDIwNjE5NzcxOTUsLTE4Mj
+eyJoaXN0b3J5IjpbLTU5NDkzNTIxLDIwNjE5NzcxOTUsLTE4Mj
 I5NjAzMDAsLTExNTkxNDg4NjIsLTE3MTIwNTk1NSwzMTU1Nzgx
 MjcsMTQwOTkxMTgwMl19
 -->
