@@ -216,7 +216,7 @@ styles=css/styles.css
 ### Change favicon and menu logo
 * Upon inspecting the HTML page source and the image URL in the admin screen, it can be seen that the favicon can be overwritten with `resources/favicon.svg` and menu logo can be overwritten with `resources/logo.svg`
 
-![keycloak_admin_theme_image_files](keycloak_admin_theme_image_files.png)
+![keycloak_admin_theme_image_files.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_admin_theme_image_files.png?raw=true)
 
 ### Change the colors
 * Create a new file named `styles.css` in the `admin/resources/css` folder and link it in the `theme.properties` file using `styles=css/styles.css`
@@ -239,7 +239,7 @@ styles=css/styles.css
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjMxNjY5OSwyMDYxOTc3MTk1LC0xOD
+eyJoaXN0b3J5IjpbMTk4MjQ0OTY3NCwyMDYxOTc3MTk1LC0xOD
 IyOTYwMzAwLC0xMTU5MTQ4ODYyLC0xNzEyMDU5NTUsMzE1NTc4
 MTI3LDE0MDk5MTE4MDJdfQ==
 -->
