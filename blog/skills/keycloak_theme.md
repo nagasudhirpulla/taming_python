@@ -79,7 +79,13 @@ styles=css/login.css css/styles.css
 * `styles` is used to define the css files to be used in the theme. Note that we have defined only styles.css file. But we need to also mention the css file path being used in parent theme also. Hence the value of `styles` is kept as `css/login.css css/styles.css` . Multiple css file paths should be separated by a space and the order should start from parent files to child files since the file paths in the right override the file paths in the left.
 *   `scripts` - JavaScript files can also be added to theme using `script`. This can be used add additional JavaScript code to browser 
 
+## View existing keycloak themes for inspiration
 
+- In the lib\lib\main\ folder of keycloak installation folder, keycloak theme jar files can be found.
+- Use a tool like 7zip or winrar to see the files inside the jar file.
+- In the jar file with name like `org.keycloak.keycloak-themes-24.0.2.jar`, the login and email theme files of “keycloak” and the "base" theme can be found. These themes can be used to extend the login and email theme types in the new theme.
+- In the jar file with name like `org.keycloak.keycloak-admin-ui-24.0.2.jar`, the admin theme files of “keycloak-v2” theme can be found.
+- In the jar file with name like `org.keycloak.keycloak-account-ui-24.0.2.jar`, the account theme files of “keycloak-v3” theme can be found.
 
 
 ## References
@@ -87,6 +93,7 @@ styles=css/login.css css/styles.css
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjI5NjAzMDAsLTExNTkxNDg4NjIsLT
-E3MTIwNTk1NSwzMTU1NzgxMjcsMTQwOTkxMTgwMl19
+eyJoaXN0b3J5IjpbLTE4NTAxMDY1MDIsLTE4MjI5NjAzMDAsLT
+ExNTkxNDg4NjIsLTE3MTIwNTk1NSwzMTU1NzgxMjcsMTQwOTkx
+MTgwMl19
 -->
