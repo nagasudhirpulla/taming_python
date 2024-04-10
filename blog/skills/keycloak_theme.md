@@ -81,11 +81,12 @@ styles=css/login.css css/styles.css
 
 
 
+
 ## References
 
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTkxNDg4NjIsLTE3MTIwNTk1NSwzMT
-U1NzgxMjcsMTQwOTkxMTgwMl19
+eyJoaXN0b3J5IjpbLTE4MjI5NjAzMDAsLTExNTkxNDg4NjIsLT
+E3MTIwNTk1NSwzMTU1NzgxMjcsMTQwOTkxMTgwMl19
 -->
