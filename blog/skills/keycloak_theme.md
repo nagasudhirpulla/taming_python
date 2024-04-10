@@ -89,7 +89,7 @@ styles=css/login.css css/styles.css
 
 ## Customize login screen
 
-![keycloak_custom_login_page_demo](keycloak_custom_login_page_demo.png)
+![keycloak_custom_login_page_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_custom_login_page_demo.png)
 
 * In the new theme (acme) folder create, a new folder named `login`. This will define the login screen of the theme
 * Create a file named `theme.properties` in the login folder as shown below
@@ -239,7 +239,7 @@ styles=css/styles.css
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTk3NzE5NSwtMTgyMjk2MDMwMCwtMT
-E1OTE0ODg2MiwtMTcxMjA1OTU1LDMxNTU3ODEyNywxNDA5OTEx
-ODAyXX0=
+eyJoaXN0b3J5IjpbODcwNzc0MTMyLDIwNjE5NzcxOTUsLTE4Mj
+I5NjAzMDAsLTExNTkxNDg4NjIsLTE3MTIwNTk1NSwzMTU1Nzgx
+MjcsMTQwOTkxMTgwMl19
 -->
