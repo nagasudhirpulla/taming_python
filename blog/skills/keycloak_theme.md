@@ -125,11 +125,11 @@ loginAccountTitle=Let us go
 * Upon inspecting the html page source code of Keycloak login screen, it can be seen that the favicon is loaded from the path `img/favicon.ico`.
 * By seeing the image URLs of login page logo and background, it can be understood that the logo file can be overwritten using the `img/keycloak-logo-text.png` file and the background image can be overwritten using the `img/keycloak-bg.png` file
 
-![keycloak_login_screen_custom_images.png](keycloak_login_screen_custom_images.png)
+![keycloak_login_screen_custom_images.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_login_screen_custom_images.png?raw=true)
 
 ### Change the colors
 
-![keycloak_login_theme_style_file](keycloak_login_theme_style_file.png)
+![keycloak_login_theme_style_file.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_login_theme_style_file.png?raw=true)
 
 * Upon inspecting the `keycloak` login theme, it can be found that the css styles are defined in the `resources/css/login.css` file
 * To add new additional styling over the existing style, create a new file named styles.css and decalre in the theme.properties file like `styles=login.css styles.css`. This means that the style login.css of the parent theme is used over which the styles.css will be overwritten.
@@ -166,7 +166,7 @@ loginAccountTitle=Let us go
 
 ## Customize account screen
 
-![keycloak_custom_account_page_demo](keycloak_custom_account_page_demo.png)
+![keycloak_custom_account_page_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_custom_account_page_demo.png?raw=true)
 
 * The default keycloak account theme files can be seen in the "lib\lib\main\org.keycloak.keycloak-account-ui-24.0.2.jar\theme\keycloak.v3\account" folder of the keycloak folder. Use 7zip or winrar to view the files inside jar file.
 * Create a folder named account in the new theme (acme) folder and create a `theme.properties` file as shown below.
@@ -181,7 +181,7 @@ styles=css/styles.css
 ### Change favicon and menu logo
 * Upon inspecting the HTML page source and the image URL in the account screen, it can be seen that the favicon can be overwritten with `resources/favicon.svg` and menu logo can be overwritten with `resources/logo.svg`
 
-![keycloak_account_theme_image_files](keycloak_account_theme_image_files.png)
+![keycloak_account_theme_image_files.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_account_theme_image_files.png?raw=true)
 
 ### Change the colors
 * Create a new file named `styles.css` in the `account/resources/css` folder and link it in the `theme.properties` file using `styles=css/styles.css`
@@ -201,7 +201,7 @@ styles=css/styles.css
 
 ## Customize the admin screen
 
-![keycloak_custom_admin_screen_demo](keycloak_custom_admin_screen_demo.png)
+![keycloak_custom_admin_screen_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_custom_admin_screen_demo.png?raw=true)
 
 * The default keycloak admin theme files can be seen in the "lib\lib\main\org.keycloak.keycloak-admin-ui-24.0.2.jar\theme\keycloak.v2\admin\" folder of the keycloak folder. Use 7zip or winrar to view the files inside jar file.
 * Create a folder named admin in the new theme (acme) folder and create a `theme.properties` file as shown below.
@@ -239,7 +239,7 @@ styles=css/styles.css
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDkzNTIxLDIwNjE5NzcxOTUsLTE4Mj
-I5NjAzMDAsLTExNTkxNDg4NjIsLTE3MTIwNTk1NSwzMTU1Nzgx
-MjcsMTQwOTkxMTgwMl19
+eyJoaXN0b3J5IjpbMTEyNjMxNjY5OSwyMDYxOTc3MTk1LC0xOD
+IyOTYwMzAwLC0xMTU5MTQ4ODYyLC0xNzEyMDU5NTUsMzE1NTc4
+MTI3LDE0MDk5MTE4MDJdfQ==
 -->
