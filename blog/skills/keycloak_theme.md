@@ -234,12 +234,18 @@ styles=css/styles.css
 }
 ``` 
 
+### Video
+You can see the video for this post [here](https://youtu.be/idMolacFVjI?si=1yO0jwehKnB7dhNd)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/idMolacFVjI?si=1ROFK4pUQhtsMseh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## References
 
 -   Official documentation on Keycloak themes - [https://www.keycloak.org/docs/24.0.2/server_development/#_themes](https://www.keycloak.org/docs/24.0.2/server_development/#_themes)
 -   [https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/](https://www.mastertheboss.com/keycloak/how-to-create-a-custom-keycloak-theme/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MjQ0OTY3NCwyMDYxOTc3MTk1LC0xOD
-IyOTYwMzAwLC0xMTU5MTQ4ODYyLC0xNzEyMDU5NTUsMzE1NTc4
-MTI3LDE0MDk5MTE4MDJdfQ==
+eyJoaXN0b3J5IjpbLTE5ODI2MDAzMDcsMTk4MjQ0OTY3NCwyMD
+YxOTc3MTk1LC0xODIyOTYwMzAwLC0xMTU5MTQ4ODYyLC0xNzEy
+MDU5NTUsMzE1NTc4MTI3LDE0MDk5MTE4MDJdfQ==
 -->
