@@ -43,7 +43,7 @@ grafana-cli.exe plugins install grafana-image-renderer
 * Open the `grafana.log` file in the grafana→data→log folder of Grafana installation (For example “C:\Program Files\GrafanaLabs\data\log")
 * Search for "grafana-image-renderer" in the `grafana.log` file to see the logs related to the plugin
 
-## Setup Remote rendering service
+## Setup remote rendering service
 
 -   Grafana Image renderer plugin renders the images itself by default using the chromium browser bundled with it
 -   But the plugin can also use a remote rendering service to offload the job of image rendering. This can be useful when the server running Grafana has some missing dependencies or incompatibilities.
@@ -83,6 +83,6 @@ grafana-cli.exe plugins install grafana-image-renderer
 -   unified alerting screenshots configuration - [https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots)
 -   Grafana remote rendering service - [https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation](https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTk0OTM1NywxOTI3OTYxOTIxLC0xNz
+eyJoaXN0b3J5IjpbMTU1OTM5NjQ5MywxOTI3OTYxOTIxLC0xNz
 c2NTM1NjE1LC03NTUyMzU1OF19
 -->
