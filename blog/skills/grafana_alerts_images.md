@@ -1,5 +1,5 @@
 # Grafana alert emails with images
-Images can be embedded in Grafana alerts using the Grafana Image Renderer Plugin
+Images can be embedded in Grafana alerts using the **Grafana Image Renderer** Plugin
 
 ![grafana_alert_email_image_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alert_email_image_demo.png?raw=true)
 
@@ -79,5 +79,6 @@ grafana-cli.exe plugins install grafana-image-renderer
 -   unified alerting screenshots configuration - [https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots)
 -   Grafana remote rendering service - [https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation](https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzY1MzU2MTUsLTc1NTIzNTU4XX0=
+eyJoaXN0b3J5IjpbMTkyNzk2MTkyMSwtMTc3NjUzNTYxNSwtNz
+U1MjM1NThdfQ==
 -->
