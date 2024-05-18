@@ -40,7 +40,7 @@ grafana-cli.exe plugins install grafana-image-renderer
 ![grafana_alert_panel_link_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alert_panel_link_demo.png?raw=true)
 ## Debug Image rendering problems
 * Grafana logs can be super useful to check if Grafana Image Renderer plugin is running without any problems
-* Open the `grafana.log` file in the 
+* Open the `grafana.log` file in the grafana→data→log folder of Grafana installation (For example “C:\Program Files\GrafanaLabs\data\log")
 * 
 
 ## Setup Remote rendering service
@@ -83,6 +83,6 @@ grafana-cli.exe plugins install grafana-image-renderer
 -   unified alerting screenshots configuration - [https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots)
 -   Grafana remote rendering service - [https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation](https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY2MzgzOSwxOTI3OTYxOTIxLC0xNz
+eyJoaXN0b3J5IjpbLTQ5OTk1ODkzMCwxOTI3OTYxOTIxLC0xNz
 c2NTM1NjE1LC03NTUyMzU1OF19
 -->
