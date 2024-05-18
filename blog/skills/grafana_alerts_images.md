@@ -29,7 +29,7 @@ grafana-cli.exe plugins install grafana-image-renderer
 
 ## Configure Grafana Image renderer
 
--   In the defaults.ini file [unified_alerting.screenshots] section, keep `cature = true`
+-   In the defaults.ini file [unified_alerting.screenshots] section, keep `capture = true`
 -   Some settings are also present in the [plugin.grafana-image-renderer] section of the defaults.ini Grafana config file’s (Example: “C:\Program Files\GrafanaLabs\grafana\conf\defaults.ini”)
 -   The plugin.json file present in the plugins folder (Example: C:\Program Files\GrafanaLabs\data\plugins\grafana-image-renderer\plugin.json") can be used for plugin configuration
 
@@ -38,6 +38,9 @@ grafana-cli.exe plugins install grafana-image-renderer
 -   After setting up Grafana Image Renderer, Grafana dashboard panel should be linked in the alert rule as shown below for the image to be created for email
 
 ![grafana_alert_panel_link_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alert_panel_link_demo.png?raw=true)
+## Debug issues
+* 
+* 
 
 ## Setup Remote rendering service
 
@@ -79,6 +82,6 @@ grafana-cli.exe plugins install grafana-image-renderer
 -   unified alerting screenshots configuration - [https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots)
 -   Grafana remote rendering service - [https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation](https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzk2MTkyMSwtMTc3NjUzNTYxNSwtNz
-U1MjM1NThdfQ==
+eyJoaXN0b3J5IjpbMTQ2OTMyNzM0MiwxOTI3OTYxOTIxLC0xNz
+c2NTM1NjE1LC03NTUyMzU1OF19
 -->
