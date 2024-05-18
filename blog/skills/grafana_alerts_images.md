@@ -38,8 +38,8 @@ grafana-cli.exe plugins install grafana-image-renderer
 -   After setting up Grafana Image Renderer, Grafana dashboard panel should be linked in the alert rule as shown below for the image to be created for email
 
 ![grafana_alert_panel_link_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alert_panel_link_demo.png?raw=true)
-## Debug issues
-* 
+## Debug Image rendering problems
+* The l
 * 
 
 ## Setup Remote rendering service
@@ -82,6 +82,6 @@ grafana-cli.exe plugins install grafana-image-renderer
 -   unified alerting screenshots configuration - [https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots)
 -   Grafana remote rendering service - [https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation](https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2OTMyNzM0MiwxOTI3OTYxOTIxLC0xNz
+eyJoaXN0b3J5IjpbLTQwOTIzMTI1MCwxOTI3OTYxOTIxLC0xNz
 c2NTM1NjE1LC03NTUyMzU1OF19
 -->
