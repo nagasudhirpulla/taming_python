@@ -31,7 +31,6 @@ grafana-cli.exe plugins install grafana-image-renderer
 
 -   In the defaults.ini file [unified_alerting.screenshots] section, keep `capture = true`
 -   Some settings are also present in the [plugin.grafana-image-renderer] section of the defaults.ini Grafana config file’s (Example: “C:\Program Files\GrafanaLabs\grafana\conf\defaults.ini”)
--   The plugin.json file present in the plugins folder (Example: C:\Program Files\GrafanaLabs\data\plugins\grafana-image-renderer\plugin.json") can be used for plugin configuration
 
 ## Link Dashboard in Alert
 
@@ -83,6 +82,6 @@ grafana-cli.exe plugins install grafana-image-renderer
 -   unified alerting screenshots configuration - [https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots)
 -   Grafana remote rendering service - [https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation](https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDc0NzMwMTUsMTU1OTM5NjQ5MywxOT
-I3OTYxOTIxLC0xNzc2NTM1NjE1LC03NTUyMzU1OF19
+eyJoaXN0b3J5IjpbMjI3MDY1MDE3LDE1NTkzOTY0OTMsMTkyNz
+k2MTkyMSwtMTc3NjUzNTYxNSwtNzU1MjM1NThdfQ==
 -->
