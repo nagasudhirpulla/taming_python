@@ -69,8 +69,8 @@ grafana-cli.exe plugins install grafana-image-renderer
         
         ```bash
         [rendering]
-        server_url = <http://localhost:8081/render>
-        callback_url = <http://localhost:3000/>
+        server_url = http://localhost:8081/render
+        callback_url = http://localhost:3000/
         
         ```
         
@@ -83,6 +83,6 @@ grafana-cli.exe plugins install grafana-image-renderer
 -   unified alerting screenshots configuration - [https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots)
 -   Grafana remote rendering service - [https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation](https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTM5NjQ5MywxOTI3OTYxOTIxLC0xNz
-c2NTM1NjE1LC03NTUyMzU1OF19
+eyJoaXN0b3J5IjpbLTE1MDc0NzMwMTUsMTU1OTM5NjQ5MywxOT
+I3OTYxOTIxLC0xNzc2NTM1NjE1LC03NTUyMzU1OF19
 -->
