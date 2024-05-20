@@ -17,7 +17,7 @@ Let us explore the options to customize Grafana alert content
 
 - In the email contact point editing screen there is a provision to customize email message as shown below
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/71b50a85-beab-4b41-8c46-f9ea6ee2faff/Untitled.png)
+![grafana_email_message_customize.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_email_message_customize.png?raw=true)
 
 - The default email message will be replaced with the “Message” input of the contact point configuration screen
 - Template variables can be used to render the alert information in the email message
@@ -41,7 +41,7 @@ Testing out the custom email message
 
 - The new alert will look like the following
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/8dd10d62-884a-4612-b621-9137a7e17d4c/Untitled.png)
+![grafana_custom_email_message_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_custom_email_message_demo.png?raw=true)
 
 - The Grafana logo, footer, colors etc cannot be customized with this approach. For complete customization, the email template HTML file in Grafana needs to be edited
 
@@ -61,5 +61,6 @@ Testing out the custom email message
 
 - Grafana Go templating language guide - https://grafana.com/docs/grafana/latest/alerting/configure-notifications/template-notifications/using-go-templating-language/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjgzODQ2MywtMTY5MTY2ODk2NF19
+eyJoaXN0b3J5IjpbLTEzOTY3MDYwMjYsLTU0NjgzODQ2MywtMT
+Y5MTY2ODk2NF19
 -->
