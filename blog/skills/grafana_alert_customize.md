@@ -55,12 +55,12 @@ Testing out the custom email message
 - If email is not sent after making changes in HTML, check Grafana logs located in the grafana.log file (”C:\Program Files\GrafanaLabs\grafana\data\log\grafana.log”) to check if there are errors in the email HTML file.
 - An example email after commenting out Grafana logo, Alert folder heading and Number of alerts heading can be shown below
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/170cc36d-b626-42ec-8d44-1864277692b3/Untitled.png)
+![grafana_custom_email_html_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_custom_email_html_demo.png?raw=true)
 
 ## References
 
 - Grafana Go templating language guide - https://grafana.com/docs/grafana/latest/alerting/configure-notifications/template-notifications/using-go-templating-language/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTY3MDYwMjYsLTU0NjgzODQ2MywtMT
-Y5MTY2ODk2NF19
+eyJoaXN0b3J5IjpbMjA2NTg2NDU0MiwtNTQ2ODM4NDYzLC0xNj
+kxNjY4OTY0XX0=
 -->
