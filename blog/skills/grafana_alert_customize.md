@@ -2,7 +2,7 @@
 
 - The alert email sent by Grafana can be customized. The default alert email looks something like this
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/93ea6454-aecc-4600-b656-487e8fe1098d/Untitled.png)
+![grafana_alert_email_image_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_alert_email_image_demo.png?raw=true)
 
 - Even though the default alert email is very informative, there might be some customization requirements like removal or change of Grafana logo, change in colors etc.
 
@@ -61,5 +61,5 @@ Testing out the custom email message
 
 - Grafana Go templating language guide - https://grafana.com/docs/grafana/latest/alerting/configure-notifications/template-notifications/using-go-templating-language/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE2Njg5NjRdfQ==
+eyJoaXN0b3J5IjpbLTU0NjgzODQ2MywtMTY5MTY2ODk2NF19
 -->
