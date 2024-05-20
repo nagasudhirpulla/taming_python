@@ -1,4 +1,4 @@
-# Customize Grafana email alerts
+# Customize Grafana alert emails
 
 - The alert email sent by Grafana can be customized. The default alert email looks something like this
 
@@ -61,6 +61,6 @@ Testing out the custom email message
 
 - Grafana Go templating language guide - https://grafana.com/docs/grafana/latest/alerting/configure-notifications/template-notifications/using-go-templating-language/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTg2NDU0MiwtNTQ2ODM4NDYzLC0xNj
-kxNjY4OTY0XX0=
+eyJoaXN0b3J5IjpbMTk1MDQzNTE2NiwyMDY1ODY0NTQyLC01ND
+Y4Mzg0NjMsLTE2OTE2Njg5NjRdfQ==
 -->
