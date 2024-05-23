@@ -56,11 +56,15 @@ Testing out the custom email message
 - An example email after commenting out Grafana logo, Alert folder heading and Number of alerts heading can be shown below
 
 ![grafana_custom_email_html_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_custom_email_html_demo.png?raw=true)
+### Video
+Video on this post can be seen [here](https://youtu.be/z8-SnKd5v98?si=6dNrBu_9b2KrBs7O)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z8-SnKd5v98?si=6dNrBu_9b2KrBs7O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## References
 
 - Grafana Go templating language guide - https://grafana.com/docs/grafana/latest/alerting/configure-notifications/template-notifications/using-go-templating-language/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MDQzNTE2NiwyMDY1ODY0NTQyLC01ND
-Y4Mzg0NjMsLTE2OTE2Njg5NjRdfQ==
+eyJoaXN0b3J5IjpbLTMxMjI0NTMwMiwxOTUwNDM1MTY2LDIwNj
+U4NjQ1NDIsLTU0NjgzODQ2MywtMTY5MTY2ODk2NF19
 -->
