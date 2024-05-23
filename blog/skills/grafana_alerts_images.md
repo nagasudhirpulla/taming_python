@@ -74,7 +74,11 @@ grafana-cli.exe plugins install grafana-image-renderer
         ```
         
     -   Restart Grafana.
-        
+
+### Video
+Video on this post can be seen [here](https://youtu.be/tP_uO92ykUU?si=eHFhRi54QCEXitlj)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tP_uO92ykUU?si=eHFhRi54QCEXitlj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## References
 
@@ -82,6 +86,7 @@ grafana-cli.exe plugins install grafana-image-renderer
 -   unified alerting screenshots configuration - [https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/#unified_alertingscreenshots)
 -   Grafana remote rendering service - [https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation](https://github.com/grafana/grafana-image-renderer?tab=readme-ov-file#remote-rendering-service-installation)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3MDY1MDE3LDE1NTkzOTY0OTMsMTkyNz
-k2MTkyMSwtMTc3NjUzNTYxNSwtNzU1MjM1NThdfQ==
+eyJoaXN0b3J5IjpbMjkxNjQwMTA5LDIyNzA2NTAxNywxNTU5Mz
+k2NDkzLDE5Mjc5NjE5MjEsLTE3NzY1MzU2MTUsLTc1NTIzNTU4
+XX0=
 -->
