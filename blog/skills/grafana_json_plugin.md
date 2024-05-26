@@ -29,7 +29,7 @@ grafana-cli.exe plugins install simpod-json-datasource
 
 -   After installing JSON plugin in Grafana, create a JSON data source and fill the API server URL details as shown below
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/7d763705-e87a-4db9-b3d6-1f877260513d/Untitled.png)
+![grafana_json_plugin_configuration.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_json_plugin_configuration.png?raw=true)
 
 -   For this example, we are hosting the API at [http://localhost:8080/api](http://localhost:8080/api)
 
@@ -78,7 +78,7 @@ grafana-cli.exe plugins install simpod-json-datasource
 
 -   In this scenario, the query payload can be any JSON provided by the user as shown below
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/80acbe0a-9d6b-4f87-803f-753aabee6f13/653b3153-0537-4eb2-b1c4-53e9af26f38a.png)
+![grafana_json_plugin_query_editor_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_json_plugin_query_editor_demo.png?raw=true)
 
 ### Builder mode in query editor (optional)
 
@@ -130,7 +130,7 @@ grafana-cli.exe plugins install simpod-json-datasource
 -   Some payload attributes can have "reloadMetric": true” which means that the metrics endpoint will be called every time when that payload attribute is changed. This helps in dynamically changing the metric payload schema or select list options based on some inputs.
 -   Now the query payload can be provided in Builder mode as shown below
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/3aa304bb-8ddc-41fb-b592-14cddc852c65/Untitled.png)
+![grafana_json_plugin_builder_mode_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_json_plugin_builder_mode_demo.png?raw=true)
 
 ### metric-payload-options endpoint (optional)
 
@@ -395,5 +395,5 @@ app.run(host="0.0.0.0", port=8080, debug=True)
 -   JSON plugin documentation - [https://grafana.com/grafana/plugins/simpod-json-datasource/](https://grafana.com/grafana/plugins/simpod-json-datasource/)
 -   JSON plugin GitHub repository - [https://github.com/simPod/grafana-json-datasource](https://github.com/simPod/grafana-json-datasource)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjIyNTc0MV19
+eyJoaXN0b3J5IjpbLTE2MzcwMjExLC00ODIyMjU3NDFdfQ==
 -->
