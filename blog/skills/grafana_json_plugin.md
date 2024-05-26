@@ -1,9 +1,10 @@
 # JSON Grafana plugin to fetch API data
+
 -   Grafana can support many data-sources like MySQL, PostgreSQL, Elasticsearch, CSV etc., either by default or through a strong opensource plugin ecosystem
 -   But there may be a requirement to integrate data-sources that are not supported by Grafana (may the datasource is in-house or proprietary)
 -   In such cases the data-source can be integrated with Grafana by developing an API server that communicates with the “JSON” plugin in Grafana as shown below
 
-![https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Grafana](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Grafana) JSON plugin arch.png?raw=true
+![Grafana%20JSON%20plugin%20arch.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Grafana%20JSON%20plugin%20arch.png?raw=true)
 
 ## Install JSON plugin in Grafana
 
@@ -394,5 +395,5 @@ app.run(host="0.0.0.0", port=8080, debug=True)
 -   JSON plugin documentation - [https://grafana.com/grafana/plugins/simpod-json-datasource/](https://grafana.com/grafana/plugins/simpod-json-datasource/)
 -   JSON plugin GitHub repository - [https://github.com/simPod/grafana-json-datasource](https://github.com/simPod/grafana-json-datasource)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3MTY1MDAzXX0=
+eyJoaXN0b3J5IjpbLTQ4MjIyNTc0MV19
 -->
