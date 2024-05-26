@@ -335,7 +335,7 @@ metrics = [historyMetric, realTimeMetric]
 
 app = Flask(__name__)
 
-@app.route("/api/")
+@app.route("/api")
 def healthCheck():
     return ""
 
@@ -395,5 +395,6 @@ app.run(host="0.0.0.0", port=8080, debug=True)
 -   JSON plugin documentation - [https://grafana.com/grafana/plugins/simpod-json-datasource/](https://grafana.com/grafana/plugins/simpod-json-datasource/)
 -   JSON plugin GitHub repository - [https://github.com/simPod/grafana-json-datasource](https://github.com/simPod/grafana-json-datasource)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzcwMjExLC00ODIyMjU3NDFdfQ==
+eyJoaXN0b3J5IjpbMjk2NTE4ODQyLC0xNjM3MDIxMSwtNDgyMj
+I1NzQxXX0=
 -->
