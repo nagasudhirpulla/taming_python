@@ -390,11 +390,16 @@ app.run(host="0.0.0.0", port=8080, debug=True)
 
 ```
 
+### Video
+Video on this post can be seen [here](https://youtu.be/lgZMRTST444?si=d8UJC1KE__WrcKEy)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lgZMRTST444?si=d8UJC1KE__WrcKEy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## References
 
 -   JSON plugin documentation - [https://grafana.com/grafana/plugins/simpod-json-datasource/](https://grafana.com/grafana/plugins/simpod-json-datasource/)
 -   JSON plugin GitHub repository - [https://github.com/simPod/grafana-json-datasource](https://github.com/simPod/grafana-json-datasource)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk2NTE4ODQyLC0xNjM3MDIxMSwtNDgyMj
-I1NzQxXX0=
+eyJoaXN0b3J5IjpbNzYxNzI4NTM2LDI5NjUxODg0MiwtMTYzNz
+AyMTEsLTQ4MjIyNTc0MV19
 -->
