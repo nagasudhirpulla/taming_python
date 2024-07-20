@@ -10,9 +10,8 @@ Grafana Infinity datasource plugin can be used to visualize data from csv
 
 -   Run the following command in Grafana bin folder
 
-```powershell
+```bash
 grafana-cli.exe plugins install yesoreyeram-infinity-datasource
-
 ```
 
 ### Install offline
@@ -97,5 +96,5 @@ This feature can be used when the parser is `backend`
 -   Sample csv 2 - [https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data)
 -   Sample csv 3 - [https://github.com/grafana/grafana-infinity-datasource/raw/main/testdata/misc/thingspeak_38629.csv](https://github.com/grafana/grafana-infinity-datasource/raw/main/testdata/misc/thingspeak_38629.csv)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxNDI0MDA3XX0=
+eyJoaXN0b3J5IjpbODE0MzExODQyXX0=
 -->
