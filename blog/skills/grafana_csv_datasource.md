@@ -89,6 +89,11 @@ This feature can be used when the parser is `backend`
 -   Rows can be grouped based on the column value using the summarize section as shown above
 -   In the above example, the visitors for the same date are added and a new table is created for visualization with the grouped data
 
+### Video
+Video on this post can be seen [here](https://youtu.be/ZVsaCUsZLa8?si=zV9CqHIRDHP3EQUL)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZVsaCUsZLa8?si=zV9CqHIRDHP3EQUL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## References
 
 -   Infinity datasource plugin docs - [https://grafana.com/docs/plugins/yesoreyeram-infinity-datasource/latest/csv/](https://grafana.com/docs/plugins/yesoreyeram-infinity-datasource/latest/csv/)
@@ -96,5 +101,5 @@ This feature can be used when the parser is `backend`
 -   Sample csv 2 - [https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data)
 -   Sample csv 3 - [https://github.com/grafana/grafana-infinity-datasource/raw/main/testdata/misc/thingspeak_38629.csv](https://github.com/grafana/grafana-infinity-datasource/raw/main/testdata/misc/thingspeak_38629.csv)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE0MzExODQyXX0=
+eyJoaXN0b3J5IjpbLTcwOTExNjA2MCw4MTQzMTE4NDJdfQ==
 -->
