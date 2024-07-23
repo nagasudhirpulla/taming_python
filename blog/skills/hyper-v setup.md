@@ -7,7 +7,7 @@
 
 Virtualization in CPU should be enabled for Hyper-V. It can be checked in Task Manager
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/db487084-9b79-45b5-9d4e-ae9bdeb60b0b/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/task_manager_virtualization_check.png?raw=true)
 
 ## Add Hyper-V feature for Windows home edition
 
@@ -35,13 +35,13 @@ pause
 
 -   For windows desktop OS, Hyper-V feature can be enabled in Windows Features as shown below.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/0bc84b49-9b8d-4c41-a7e8-41f4b561fd1e/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/hyper_v_windows_feature.png?raw=true)
 
 -   For Windows servers, the Hyper-V role should be enabled to user Hyper-V.
 
 ## Hyper-v manager
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/d9741211-05e7-42aa-836d-0abd6c91b424/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/hyper_v_manager_start.png?raw=true)
 
 -   Hyper-V Manager provides a UI to manage the virtual machines
 -   Search for Hyper-V manager and run as administrator
@@ -49,46 +49,46 @@ pause
 
 ## Create a VM from ISO file in Hyper-V manager
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/47bc180f-53a7-4b80-9f7a-c606464a9163/1758d310-79e7-4539-8aa9-84f233850cc1.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/windows_server_iso_download.png?raw=true)
 
 -   Download ISO for the OS. For this example, we are downloading windows server 2022 evaluation edition. The OS is free to use for about 18 days
 -   In the right pane, click New → Virtual Machine. Specify the new VM name and also if required specify another folder location for storing VM
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/60fdfdcc-68f2-4ab5-9697-a17178937988/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/hyper_v_vm_setup_1.png?raw=true)
 
 -   Specify VM Generation (Generation 2 is preferred)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/89e62924-30dc-4183-a0a0-6521ac875b19/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/hyper_v_vm_setup_2.png?raw=true)
 
 -   Specify Start-up RAM (generally keep it at least 1024 MB). Dynamic Memory option can also be used to allocate only the required amount of RAM to VM while it is running
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/2be08bcd-e939-4cdc-878d-fc55ecf7dc34/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/hyper_v_vm_setup_3.png?raw=true)
 
 -   Configure virtual switch for VM network adapter
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/af852cb6-2877-4730-a4f6-2010838686b4/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/hyper_v_vm_setup_4.png?raw=true)
 
 -   Configure virtual hard disk size for VM
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/a1a0e8ca-94e7-48ac-9158-2b94c5c50ffa/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/hyper_v_vm_setup_5.png?raw=true)
 
 -   Select ISO file for VM operating system. Create a new VM.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/e8aa2a1a-3ea6-493a-9d57-385605249d65/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/hyper_v_vm_setup_6.png?raw=true)
 
 -   Start the new VM from Hyper-V Manager.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/d59201d0-d7e8-488e-b239-bdc480132fc7/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/hyper_v_vm_setup_7.png?raw=true)
 
 -   Connect to VM after VM has started
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/fe8956b1-2ee2-49b5-aadd-4cba9c6d1bc3/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/hyper_v_vm_setup_8.png?raw=true)
 
 -   Select the required server setup options for the first time booting
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/94c8f05a-8c36-4266-acf6-f21865393914/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/hyper_v_vm_setup_9.png?raw=true)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/1baef821-ba16-4a5b-946d-33d3d80760aa/Untitled.png)
+![Untitled](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/hyper_v_vm_setup_10.png?raw=true)
 
 -   Now the VM is setup and can be managed from Hyper-V Manager.
 
@@ -102,5 +102,5 @@ pause
 -   Explanation on why Hper-V is a type 1 hypervisor - [https://superuser.com/a/836123](https://superuser.com/a/836123)
 -   Hyper-V official documentation - [https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM1NDg3OTY4XX0=
+eyJoaXN0b3J5IjpbLTE4OTQ3MTg4OTMsNjM1NDg3OTY4XX0=
 -->
