@@ -61,9 +61,9 @@
 
 ## References
 
--   [https://grafana.com/docs/grafana/latest/dashboards/variables/](https://grafana.com/docs/grafana/latest/dashboards/variables/)
--   [https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download](https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download)
+-   Official documentation - [https://grafana.com/docs/grafana/latest/dashboards/variables/](https://grafana.com/docs/grafana/latest/dashboards/variables/)
+-   Sample dataset used - [https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download](https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3ODYzMTE1LC0xMDAwNTc0OTk4LDE2Mz
-A0MDQ1MDBdfQ==
+eyJoaXN0b3J5IjpbLTIwNzk3MDAxNzksLTEwMDA1NzQ5OTgsMT
+YzMDQwNDUwMF19
 -->
