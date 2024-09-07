@@ -24,9 +24,9 @@
 
 -   The variable value select list options will be defined manually
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/c3bb313a-e227-4fb0-9a1f-4e0cc8a910a2/image.png)
+![grafana%20custom%20variable%20configuration.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana%20custom%20variable%20configuration.png?raw=true)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/cdbba86c-8fd5-4492-abac-b3e65c1ca5d2/image.png)
+![grafana%20custom%20variable%20demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana%20custom%20variable%20demo.png?raw=true)
 
 ### Text box variable
 
@@ -64,5 +64,5 @@
 -   [https://grafana.com/docs/grafana/latest/dashboards/variables/](https://grafana.com/docs/grafana/latest/dashboards/variables/)
 -   [https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download](https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4OTA2ODQ5LDE2MzA0MDQ1MDBdfQ==
+eyJoaXN0b3J5IjpbLTc1MDEwNDU3LDE2MzA0MDQ1MDBdfQ==
 -->
