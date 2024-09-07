@@ -54,7 +54,7 @@
 
 ![grafana%20nested%20variable%20config%20example.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana%20nested%20variable%20config%20example.png?raw=true)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/dc70f907-a2e1-4773-8b04-2fe77ed1ab48/image.png)
+![grafana%20nested%20variable%20demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana%20nested%20variable%20demo.png?raw=true)
 
 -   A variable can be used in the query of another variable
 -   Hence the drop-down values of one variable can be dependent on the value of another variable. This can help in creating hierarchical drop-downs as shown in the above example.
@@ -64,5 +64,6 @@
 -   [https://grafana.com/docs/grafana/latest/dashboards/variables/](https://grafana.com/docs/grafana/latest/dashboards/variables/)
 -   [https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download](https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDA1NzQ5OTgsMTYzMDQwNDUwMF19
+eyJoaXN0b3J5IjpbNzI3ODYzMTE1LC0xMDAwNTc0OTk4LDE2Mz
+A0MDQ1MDBdfQ==
 -->
