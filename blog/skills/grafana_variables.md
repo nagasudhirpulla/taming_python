@@ -8,7 +8,7 @@
 
 -   As shown below, go to the dashboard settings page and go to the `variables` tab
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/898cbd02-8cca-4f38-bdfe-57aef2b3238d/image.png)
+![grafana%20variables%20screen.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana%20variables%20screen.png?raw=true)
 
 ## Variable types
 
@@ -16,9 +16,9 @@
 
 -   The variable value select list options will be fetched from a datasource using a query
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/0c91701f-7fe3-40b7-a52c-1aa81932fcca/image.png)
+![grafana%20query%20variable%20configuration.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana%20query%20variable%20configuration.png?raw=true)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/fca067f7-664c-4e6b-a5dc-277f7a4345da/image.png)
+![grafana%20query%20variable%20demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana%20query%20variable%20demo.png?raw=true)
 
 ### Custom variable
 
@@ -64,5 +64,5 @@
 -   [https://grafana.com/docs/grafana/latest/dashboards/variables/](https://grafana.com/docs/grafana/latest/dashboards/variables/)
 -   [https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download](https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDQwNDUwMF19
+eyJoaXN0b3J5IjpbNDU4OTA2ODQ5LDE2MzA0MDQ1MDBdfQ==
 -->
