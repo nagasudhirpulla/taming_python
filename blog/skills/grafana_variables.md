@@ -38,7 +38,7 @@
 
 ## Using variable in the query of a visualization
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/77cced8d-d5a3-49e0-ac27-6c9a8c08eb9e/image.png)
+![grafana%20variable%20in%20viz%20query%20demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana%20variable%20in%20viz%20query%20demo.png?raw=true)
 
 -   Variable value can be used in a query of the visualization as shown in the above image
 -   In the above example, using `$state_name` in the query will use value of the `state_name` variable
@@ -46,13 +46,13 @@
 
 ## Using variable in a visualization title
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/f4a232b8-3584-407a-a9d4-d6251ef8e0fb/image.png)
+![grafana%20variable%20in%20viz%20title%20demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana%20variable%20in%20viz%20title%20demo.png?raw=true)
 
 -   In the above example, value of the variable `state_name` is used in a visualization title using `$state_name`
 
 ## Nested Variables and Hierarchical Select boxes
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/e409ff25-9cab-4f23-98ee-4dcaedc37400/image.png)
+![grafana%20nested%20variable%20config%20example.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana%20nested%20variable%20config%20example.png?raw=true)
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/dc70f907-a2e1-4773-8b04-2fe77ed1ab48/image.png)
 
@@ -64,5 +64,5 @@
 -   [https://grafana.com/docs/grafana/latest/dashboards/variables/](https://grafana.com/docs/grafana/latest/dashboards/variables/)
 -   [https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download](https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDI5NjA5MSwxNjMwNDA0NTAwXX0=
+eyJoaXN0b3J5IjpbLTEwMDA1NzQ5OTgsMTYzMDQwNDUwMF19
 -->
