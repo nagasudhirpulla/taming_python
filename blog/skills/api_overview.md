@@ -1,6 +1,6 @@
 # Basic overview of Web APIs and API security
 
-## **What is an API?**
+## What is an API?
 
 -   API (Application Programming Interface) is a way two applications can talk to each other
 -   API is a specification that defines the request and response formats, how to call the server etc.
@@ -178,5 +178,5 @@ if __name__ == '__main__':
 
 In Client Credentials OAuth 2.0 authorization flow, the client application sends its client ID and client secret to the STS, receiving an access token in response. Then the client application uses this access token to access data from the resource server.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzc4NzkwNl19
+eyJoaXN0b3J5IjpbLTQ5NTk0ODgyLC01MTc3ODc5MDZdfQ==
 -->
