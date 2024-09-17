@@ -1,4 +1,4 @@
-# Basic overview of Web APIs and API security
+# Overview of Web APIs and API security
 
 ## What is an API?
 
@@ -178,5 +178,6 @@ if __name__ == '__main__':
 
 In Client Credentials OAuth 2.0 authorization flow, the client application sends its client ID and client secret to the STS, receiving an access token in response. Then the client application uses this access token to access data from the resource server.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzU3Njc2ODIsLTUxNzc4NzkwNl19
+eyJoaXN0b3J5IjpbLTExNzc5NTQyNTYsLTEwMzU3Njc2ODIsLT
+UxNzc4NzkwNl19
 -->
