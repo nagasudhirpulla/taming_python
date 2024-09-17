@@ -27,9 +27,9 @@ API Client/User need not know the internals.For example, an API server can be de
 
 A main application can expose API to allow third party developers to create new applications
 
-## **Web API Example**
+## Web API Example
 
-### **GET Request**
+### GET Request
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/api%20get%20request%20example.png?raw=true)
 
@@ -55,7 +55,7 @@ REST API is an architectural style that allows clients to communicate with serve
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/rest%20api%20overview.png?raw=true)
 
-## **How to call APIs**
+## How to call APIs
 
 -   Postman – Browser like tool to call web APIs
 -   REST Client – Visual Studio Code extension
@@ -68,7 +68,7 @@ REST API is an architectural style that allows clients to communicate with serve
 
 Postman is a popular to interact with APIs with a convenient UI just like a web browser
 
-### **Visual Studio Code REST Client Extension**
+### Visual Studio Code REST Client Extension
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/api%20post%20request%20example.png?raw=true)
 
@@ -178,5 +178,5 @@ if __name__ == '__main__':
 
 In Client Credentials OAuth 2.0 authorization flow, the client application sends its client ID and client secret to the STS, receiving an access token in response. Then the client application uses this access token to access data from the resource server.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTk0ODgyLC01MTc3ODc5MDZdfQ==
+eyJoaXN0b3J5IjpbLTEwMzU3Njc2ODIsLTUxNzc4NzkwNl19
 -->
