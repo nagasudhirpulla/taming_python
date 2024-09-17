@@ -136,7 +136,17 @@ if __name__ == '__main__':
 -   Server can set HTTP status codes along with the response body to convey the response outcome
 -   Some important and most used HTTP response status codes are
 
-
+|                           |                    |
+|---------------------------|--------------------|
+| 201 Created               | 1xx: Informational |
+| 204 No Content            | 2xx: Success       |
+| 301 Moved Permanently     | 3xx: Redirection   |
+| 400 Bad Request           | 4xx: Client Error  |
+| 401 Unauthorized          | 5xx: Server Error  |
+| 404 Not Found             |                    |
+| 403 Forbidden             |                    |
+| 409 Conflict              |                    |
+| 500 Internal Server Error |                    |
 
 ## **API security measures**
 
@@ -160,11 +170,11 @@ if __name__ == '__main__':
 -   Clients request short-lived tokens for API access
 -   API servers validate the tokens for authorization
 
-### **Client Credentials API authorization flow**
+### Client Credentials API authorization flow
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/api%20client%20credentials%20oauth%20overiew.png?raw=true)
 
 In Client Credentials OAuth 2.0 authorization flow, the client application sends its client ID and client secret to the STS, receiving an access token in response. Then the client application uses this access token to access data from the resource server.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODc3MDQ3OF19
+eyJoaXN0b3J5IjpbMTA4MjU1ODc4MV19
 -->
