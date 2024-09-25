@@ -80,7 +80,7 @@ print("process complete...")
 
 ## References
 * Pillow documentation - https://pillow.readthedocs.io/en/latest/installation/basic-installation.html
-* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjA5NTU2MCw4MjQ1NjUxXX0=
+eyJoaXN0b3J5IjpbLTQyMDg1MTA3MiwtMjgyMDk1NTYwLDgyND
+U2NTFdfQ==
 -->
