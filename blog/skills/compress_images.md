@@ -1,6 +1,6 @@
 # Compress photos in bulk with pillow python module
 -   Images can be compressed to reduce storage space. This can be particularly useful while storing images in cloud storage.
--   Images can be compressed or resized using `pillow` python library in python
+-   Images can be compressed or resized using `pillow` python library in python. It can be installed 
 -   Pillow is a python library for image processing
 -   To reduce the size of an image, it can be resized to lower resolution or jpeg compression can be increased
 -   `thumbnail` function of pillow library can be used to resize an image.
@@ -76,6 +76,10 @@ for imgIter, imgPath in enumerate(glob.glob(inpFolder+r"\\*.jpg")):
 print("process complete...")
 
 ```
+
+## References
+* Pillow documentation - https://pillow.readthedocs.io/en/latest/installation/basic-installation.html
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0NTY1MV19
+eyJoaXN0b3J5IjpbMTc0NTQ4OTE5OSw4MjQ1NjUxXX0=
 -->
