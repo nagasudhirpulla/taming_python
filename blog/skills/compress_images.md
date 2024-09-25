@@ -67,6 +67,7 @@ outFolder = r"D:\\pics1"
 maxWidth = 1280
 qualityPerc = 100
 
+# iterate through all images of the input folder 
 for imgIter, imgPath in enumerate(glob.glob(inpFolder+r"\\*.jpg")):
     print(f"{imgIter} : processing {imgPath}")
     outFileName = pathlib.Path(imgPath).name
@@ -81,5 +82,5 @@ print("process complete...")
 * Pillow documentation - https://pillow.readthedocs.io/en/latest/installation/basic-installation.html
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjQ5ODk3MSw4MjQ1NjUxXX0=
+eyJoaXN0b3J5IjpbLTI4MjA5NTU2MCw4MjQ1NjUxXX0=
 -->
