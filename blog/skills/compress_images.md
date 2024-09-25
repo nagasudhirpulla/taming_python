@@ -62,8 +62,8 @@ def compressImage(srcImgPath, destImgPath, maxWidth, quality=100):
     copyMetadata(srcImgPath, destImgPath)
 
 # Example usage
-inpFolder = r"D:\\pics"
-outFolder = r"D:\\pics1"
+inpFolder = r"D:\\test1"
+outFolder = r"D:\\test2"
 maxWidth = 1280
 qualityPerc = 100
 
@@ -81,6 +81,6 @@ print("process complete...")
 ## References
 * Pillow documentation - https://pillow.readthedocs.io/en/latest/installation/basic-installation.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDg1MTA3MiwtMjgyMDk1NTYwLDgyND
+eyJoaXN0b3J5IjpbLTc1OTYzODI3OCwtMjgyMDk1NTYwLDgyND
 U2NTFdfQ==
 -->
