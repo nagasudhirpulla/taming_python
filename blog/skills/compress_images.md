@@ -20,12 +20,15 @@ def copyMetadata(srcImgPath, destImgPath):
     srcImg = Image.open(srcImgPath)
 
     # Extract EXIF data from the source image
-    exifData = piexif.load(srcImg.info['exif'])
+    if "exif" in srcImg.info:
+        exifData = piexif.load(srcImg.info['exif'])
 
-    # bug handling for 41729 exif tag (scenetype)
-    if 41729 in exifData['Exif'] and isinstance(exifData['Exif'][41729], int):
-        exifData['Exif'][41729] = str(exifData['Exif'][41729]).encode('utf-8')
-
+        # bug handling for 41729 exif tag (scenetype)
+        if 41729 in exifData['Exif'] and isinstance(exifData['Exif'][41729], int):
+            exifData['Exif'][41729] = str(exifData['Exif'][41729]).encode('utf-8')
+    else:
+        exifData = {}
+    
     # Open the destination image
     destImg = Image.open(destImgPath)
 
@@ -75,12 +78,11 @@ for imgIter, imgPath in enumerate(glob.glob(inpFolder+r"\\*.jpg")):
     compressImage(imgPath, outFilePath, maxWidth, qualityPerc)
 
 print("process complete...")
-
 ```
 
 ## References
 * Pillow documentation - https://pillow.readthedocs.io/en/latest/installation/basic-installation.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTYzODI3OCwtMjgyMDk1NTYwLDgyND
-U2NTFdfQ==
+eyJoaXN0b3J5IjpbNzc1MTg5Njg5LC03NTk2MzgyNzgsLTI4Mj
+A5NTU2MCw4MjQ1NjUxXX0=
 -->
