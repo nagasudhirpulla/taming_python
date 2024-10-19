@@ -60,13 +60,16 @@
 -   Hence the drop-down values of one variable can be dependent on the value of another variable. This can help in creating hierarchical drop-downs as shown in the above example.
 
 ### Video
-Video on this post can be seen [here](https://youtu.be/sj4XF0ZRY-g?si=8FSInMc1XdJlx2W3)
+Video on this post can be seen [here](https://youtu.be/N95yP2Ir9FA?si=3JJVVjOe4uBl-iV1)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N95yP2Ir9FA?si=gqVO8B-HdnJjnAkO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## References
 
 -   Official documentation - [https://grafana.com/docs/grafana/latest/dashboards/variables/](https://grafana.com/docs/grafana/latest/dashboards/variables/)
 -   Sample dataset used - [https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download](https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODgxMjM5MiwtMjA3OTcwMDE3OSwtMT
+eyJoaXN0b3J5IjpbMTU0Njc4ODU0NywtMjA3OTcwMDE3OSwtMT
 AwMDU3NDk5OCwxNjMwNDA0NTAwXX0=
 -->
