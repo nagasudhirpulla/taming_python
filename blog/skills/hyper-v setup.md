@@ -97,10 +97,14 @@ pause
 -   Click “Stop Service” in the right pane of Hyper-V Manager to stop Hyper-V service
 -   To start the service start the windows service “Hyper-V Virtual Machine Management” in services.msc
 
+### Video
+The video for this post can be seen [here](https://youtu.be/KC3CwsEtmag)
+
 ## References
 
 -   Explanation on why Hper-V is a type 1 hypervisor - [https://superuser.com/a/836123](https://superuser.com/a/836123)
 -   Hyper-V official documentation - [https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQ3MTg4OTMsNjM1NDg3OTY4XX0=
+eyJoaXN0b3J5IjpbOTYzNjg2Mjk0LC0xODk0NzE4ODkzLDYzNT
+Q4Nzk2OF19
 -->
