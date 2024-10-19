@@ -59,11 +59,14 @@
 -   A variable can be used in the query of another variable
 -   Hence the drop-down values of one variable can be dependent on the value of another variable. This can help in creating hierarchical drop-downs as shown in the above example.
 
+### Video
+Video on this post can be seen [here](https://youtu.be/sj4XF0ZRY-g?si=8FSInMc1XdJlx2W3)
+
 ## References
 
 -   Official documentation - [https://grafana.com/docs/grafana/latest/dashboards/variables/](https://grafana.com/docs/grafana/latest/dashboards/variables/)
 -   Sample dataset used - [https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download](https://www.kaggle.com/datasets/shubhendra7/indian-cities-analysis?resource=download)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk3MDAxNzksLTEwMDA1NzQ5OTgsMT
-YzMDQwNDUwMF19
+eyJoaXN0b3J5IjpbLTczODgxMjM5MiwtMjA3OTcwMDE3OSwtMT
+AwMDU3NDk5OCwxNjMwNDA0NTAwXX0=
 -->
