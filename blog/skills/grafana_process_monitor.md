@@ -1,4 +1,5 @@
-# Monitor a windows process with Grafana infinity datasource
+# Monitor windows process with Grafana infinity datasource
+
 -   Grafana can generate alerts by periodically monitoring a datasource based on user-defined conditions.
 -   This alerting capability enables continuous monitoring of Windows processes in Grafana.
 -   A Windows batch script, as shown below, can produce a CSV file with timestamps and status updates of the desired program.
@@ -74,5 +75,5 @@ time,val
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_process_monitor_alert_email.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzY0NjcyN119
+eyJoaXN0b3J5IjpbLTc0ODkwOTA4Ml19
 -->
