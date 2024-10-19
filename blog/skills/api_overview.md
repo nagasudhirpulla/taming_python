@@ -177,7 +177,12 @@ if __name__ == '__main__':
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/api%20client%20credentials%20oauth%20overiew.png?raw=true)
 
 In Client Credentials OAuth 2.0 authorization flow, the client application sends its client ID and client secret to the STS, receiving an access token in response. Then the client application uses this access token to access data from the resource server.
+
+### Video
+Video on this post can be seen [here](https://youtu.be/qM52lOijBZs?si=I0Ua4rpBQOBb8rmf)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qM52lOijBZs?si=UUr83HtphyGDs4PK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzc5NTQyNTYsLTEwMzU3Njc2ODIsLT
-UxNzc4NzkwNl19
+eyJoaXN0b3J5IjpbLTQ2MDMyOTIxMSwtMTE3Nzk1NDI1NiwtMT
+AzNTc2NzY4MiwtNTE3Nzg3OTA2XX0=
 -->
