@@ -98,13 +98,15 @@ pause
 -   To start the service start the windows service “Hyper-V Virtual Machine Management” in services.msc
 
 ### Video
-The video for this post can be seen [here](https://youtu.be/KC3CwsEtmag)
+The video for this post can be seen [here](https://youtu.be/0HTD-8_nZD0?si=UDt6BZI0nNSxuRdq)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0HTD-8_nZD0?si=UDt6BZI0nNSxuRdq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## References
 
 -   Explanation on why Hper-V is a type 1 hypervisor - [https://superuser.com/a/836123](https://superuser.com/a/836123)
 -   Hyper-V official documentation - [https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzNjg2Mjk0LC0xODk0NzE4ODkzLDYzNT
-Q4Nzk2OF19
+eyJoaXN0b3J5IjpbMjAwMjE4OTcwOCwtMTg5NDcxODg5Myw2Mz
+U0ODc5NjhdfQ==
 -->
