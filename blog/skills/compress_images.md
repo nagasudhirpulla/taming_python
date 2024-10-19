@@ -80,9 +80,14 @@ for imgIter, imgPath in enumerate(glob.glob(inpFolder+r"\\*.jpg")):
 print("process complete...")
 ```
 
+### Video
+Video on this post can be seen [here](https://youtu.be/LKClIh9I1NI?si=6GOfx4OLofXUfBDP)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LKClIh9I1NI?si=m-44WQOYdEN3VteP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## References
 * Pillow documentation - https://pillow.readthedocs.io/en/latest/installation/basic-installation.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1MTg5Njg5LC03NTk2MzgyNzgsLTI4Mj
-A5NTU2MCw4MjQ1NjUxXX0=
+eyJoaXN0b3J5IjpbMTQxNDkzMTA3Nyw3NzUxODk2ODksLTc1OT
+YzODI3OCwtMjgyMDk1NTYwLDgyNDU2NTFdfQ==
 -->
