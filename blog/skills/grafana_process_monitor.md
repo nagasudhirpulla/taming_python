@@ -12,7 +12,7 @@
 set processName=notepad.exe
 
 @REM run command to check if process is running
-for /f "delims=" %%i in ('tasklist /V /FI "IMAGENAME eq %processName%"') do set cmdRes=%%i
+for /f "delims=" %%i in ('tasklist /FI "IMAGENAME eq %processName%"') do set cmdRes=%%i
 
 setlocal enabledelayedexpansion
 @REM set the flag if process is running
@@ -75,5 +75,5 @@ time,val
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_process_monitor_alert_email.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODkwOTA4Ml19
+eyJoaXN0b3J5IjpbLTc5MDY3MDEzNywtNzQ4OTA5MDgyXX0=
 -->
