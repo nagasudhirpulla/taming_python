@@ -1,3 +1,4 @@
+# Schedule python scripts without task scheduler or cron jobs
 
 -   The `schedule` python module can be used to run python script periodically without task scheduler or cron job
 -   The python script using schedule module will run in an infinite loop and trigger the required python function as per the configured schedule
@@ -330,9 +331,9 @@ while True:
 ## References
 
 -  Examples - [https://schedule.readthedocs.io/en/stable/examples.html#](https://schedule.readthedocs.io/en/stable/examples.html#)
--   Exception Handling with decorator - [https://schedule.readthedocs.io/en/stable/exception-handling.html](https://schedule.readthedocs.io/en/stable/exception-handling.html)
-- Exception handling with inherited scheduler - [https://gist.github.com/mplewis/8483f1c24f2d6259aef6](https://gist.github.com/mplewis/8483f1c24f2d6259aef6)
--   [https://schedule.readthedocs.io/en/stable/logging.html](https://schedule.readthedocs.io/en/stable/logging.html)
+-  Exception Handling with decorator - [https://schedule.readthedocs.io/en/stable/exception-handling.html](https://schedule.readthedocs.io/en/stable/exception-handling.html)
+-  Exception handling with inherited scheduler - [https://gist.github.com/mplewis/8483f1c24f2d6259aef6](https://gist.github.com/mplewis/8483f1c24f2d6259aef6)
+-  Logging - [https://schedule.readthedocs.io/en/stable/logging.html](https://schedule.readthedocs.io/en/stable/logging.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzA3NjU4MzJdfQ==
+eyJoaXN0b3J5IjpbMjA4MDMzMDAwM119
 -->
