@@ -328,9 +328,9 @@ while True:
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/schedule_python_nssm_auto_restart.png?raw=true)
 #### Video
-The video tutorial for this post can be found [here](https://youtu.be/gtfEZr6wK5E)
+The video tutorial for this post can be found [here](https://youtu.be/9dNkPcpO0P0?si=--VP-CsWuIxjDzkP)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gtfEZr6wK5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9dNkPcpO0P0?si=--VP-CsWuIxjDzkP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## References
 
@@ -339,5 +339,6 @@ The video tutorial for this post can be found [here](https://youtu.be/gtfEZr6wK5
 -  Exception handling with inherited scheduler - [https://gist.github.com/mplewis/8483f1c24f2d6259aef6](https://gist.github.com/mplewis/8483f1c24f2d6259aef6)
 -  Logging - [https://schedule.readthedocs.io/en/stable/logging.html](https://schedule.readthedocs.io/en/stable/logging.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMTc0NjkzNSwyMDgwMzMwMDAzXX0=
+eyJoaXN0b3J5IjpbMTg2NDA5MDQ4NCwxMzIxNzQ2OTM1LDIwOD
+AzMzAwMDNdfQ==
 -->
