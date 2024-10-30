@@ -327,6 +327,10 @@ while True:
 -   Using nssm, the script can be configured to restart if it crashes due to some reason
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/schedule_python_nssm_auto_restart.png?raw=true)
+#### Video
+The video tutorial for this post can be found [here](https://youtu.be/gtfEZr6wK5E)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gtfEZr6wK5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## References
 
@@ -335,5 +339,5 @@ while True:
 -  Exception handling with inherited scheduler - [https://gist.github.com/mplewis/8483f1c24f2d6259aef6](https://gist.github.com/mplewis/8483f1c24f2d6259aef6)
 -  Logging - [https://schedule.readthedocs.io/en/stable/logging.html](https://schedule.readthedocs.io/en/stable/logging.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDMzMDAwM119
+eyJoaXN0b3J5IjpbMTMyMTc0NjkzNSwyMDgwMzMwMDAzXX0=
 -->
