@@ -1,4 +1,3 @@
-# Interface with SQLite database in python
 
 ## What is SQLite database
 
@@ -41,6 +40,14 @@ CREATE TABLE if not exists persons (
 conn.close()
 
 ```
+
+## VS Code extension to view SQLite database
+
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/sqlite%20vscode%20extension.png?raw=true)
+
+-   Use CTRL+SHIFT+P in VS code to run the command `SQLite: Open Database` and open an SQLite database file as shown below. Also SQL commands can be executed easily with the commands `SQLite: New Query` and `SQLite: Run Query`
+
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/sqlite%20vscode%20extension%20demo.png?raw=true)
 
 ## Insert single row example
 
@@ -243,5 +250,5 @@ conn.close()
 -   sqlite3 python module docs - [https://docs.python.org/3/library/sqlite3.html](https://docs.python.org/3/library/sqlite3.html)
 -   cursor CRUD operations in sqlite3 - [https://docs.python.org/3/library/sqlite3.html#sqlite3.Cursor.execute](https://docs.python.org/3/library/sqlite3.html#sqlite3.Cursor.execute)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzYyMTU1N119
+eyJoaXN0b3J5IjpbNDQyNzQxOTEyLDEyMzM2MjE1NTddfQ==
 -->
