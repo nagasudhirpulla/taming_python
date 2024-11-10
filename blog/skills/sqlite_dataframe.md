@@ -1,10 +1,11 @@
 # Import / Export Pandas dataframes to SQLite database
+
 -   SQLite is a file based relational database. So an SQLite database would be a single file like csv or excel file
 -   In addition to CSV or excel, pandas dataframes can be exported to SQLite database for persisting or sharing the dataframes. This approach is useful when working with large number of rows
 
 ## Sample SQLite database
 
-The sample SQLite database `iris.db` can be downloaded at *blob:[https://github.com/db095a93-3aa1-4354-b56e-b6c5e4cf2c03*](https://github.com/db095a93-3aa1-4354-b56e-b6c5e4cf2c03*)
+The sample SQLite database `iris.db` can be downloaded at *[blob:https://github.com/db095a93-3aa1-4354-b56e-b6c5e4cf2c03*](blob:https://github.com/db095a93-3aa1-4354-b56e-b6c5e4cf2c03*)
 
 ## Read data as dataframe from SQLite with an SQL query
 
@@ -161,5 +162,5 @@ df = pd.read_sql_query("select * from weatherData", con,
 -   read_sql_query docs - [https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html](https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html)
 -   to_sql docs - [https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDA5ODc3OF19
+eyJoaXN0b3J5IjpbLTUzNjU3NTg2OV19
 -->
