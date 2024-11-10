@@ -5,7 +5,7 @@
 
 ## Sample SQLite database
 
-The sample SQLite database `iris.db` can be downloaded at *[blob:https://github.com/db095a93-3aa1-4354-b56e-b6c5e4cf2c03*](blob:https://github.com/db095a93-3aa1-4354-b56e-b6c5e4cf2c03*)
+The sample SQLite database `iris.db` can be downloaded at [https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/data/iris.db](blob:https://github.com/db095a93-3aa1-4354-b56e-b6c5e4cf2c03)
 
 ## Read data as dataframe from SQLite with an SQL query
 
@@ -162,5 +162,5 @@ df = pd.read_sql_query("select * from weatherData", con,
 -   read_sql_query docs - [https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html](https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html)
 -   to_sql docs - [https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjU3NTg2OV19
+eyJoaXN0b3J5IjpbLTE2MjQ4MDIyMjNdfQ==
 -->
