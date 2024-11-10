@@ -66,7 +66,6 @@ print(df)
 df.to_sql("weatherData", con, if_exists="append",
           index=False)
 
-
 ```
 
 -   Another example below creates a dataframe from and SQL that analyses the database information. The dataframe is again persisted into the database for future reference.
@@ -161,5 +160,5 @@ df = pd.read_sql_query("select * from weatherData", con,
 -   read_sql_query docs - [https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html](https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html)
 -   to_sql docs - [https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzNzU1MzNdfQ==
+eyJoaXN0b3J5IjpbLTE4ODgxOTMzNDVdfQ==
 -->
