@@ -65,7 +65,6 @@ print(df)
 # if_exists can be "append", "replace", "fail"
 df.to_sql("weatherData", con, if_exists="append",
           index=False)
-
 ```
 
 -   Another example below creates a dataframe from and SQL that analyses the database information. The dataframe is again persisted into the database for future reference.
@@ -93,7 +92,6 @@ print(df)
 # write dataframe results to an sqlite table
 # if_exists can be "append", "replace", "fail"
 df.to_sql("speciesSummary", con, if_exists="replace")
-
 ```
 
 ## Read dataframe as chunks for large data queries
@@ -112,7 +110,6 @@ con = sqlite3.connect("data/iris.db")
 for chunkIter, dfChunk in enumerate(pd.read_sql_query("select * from Observation", con, chunksize=60)):
     print(f"printing chunk {chunkIter} of size {len(dfChunk)}")
     print(dfChunk)
-
 ```
 
 ## Parameter substitution while querying data
@@ -136,7 +133,6 @@ df = pd.read_sql_query(sqlQuery, con, params={"sId": 1})
 print(df)
 
 print(f"max sepal width is {df.iloc[0][0]}")
-
 ```
 
 ## Other useful query options
@@ -152,7 +148,6 @@ df = pd.read_sql_query("select * from weatherData", con,
 # or else
 df = pd.read_sql_query("select * from weatherData", con,
                        parse_dates=["time"])
-
 ```
 
 ## References
@@ -160,5 +155,5 @@ df = pd.read_sql_query("select * from weatherData", con,
 -   read_sql_query docs - [https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html](https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html)
 -   to_sql docs - [https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODgxOTMzNDVdfQ==
+eyJoaXN0b3J5IjpbLTU4Njg1Mzg3MV19
 -->
