@@ -151,14 +151,14 @@ df = pd.read_sql_query("select * from weatherData", con,
 ```
 
 ### Video
-The video for this post can be seen [here](https://youtu.be/d22ZxWDSbag)
+The video for this post can be seen [here](https://youtu.be/aC6KYMsK23A?si=S-2vh1rYlf_MaMGH)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/d22ZxWDSbag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aC6KYMsK23A?si=S-2vh1rYlf_MaMGH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## References
 
 -   read_sql_query docs - [https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html](https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html)
 -   to_sql docs - [https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3ODA2OTg2LC01ODY4NTM4NzFdfQ==
+eyJoaXN0b3J5IjpbLTMyNDI5MTY5MiwtNTg2ODUzODcxXX0=
 -->
