@@ -245,10 +245,16 @@ conn.close()
 
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/xBVIdTIKXpk?si=GK1DviT90nfX9xYy)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xBVIdTIKXpk?si=hKouJor3ESsSY3t7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## References
 
 -   sqlite3 python module docs - [https://docs.python.org/3/library/sqlite3.html](https://docs.python.org/3/library/sqlite3.html)
 -   cursor CRUD operations in sqlite3 - [https://docs.python.org/3/library/sqlite3.html#sqlite3.Cursor.execute](https://docs.python.org/3/library/sqlite3.html#sqlite3.Cursor.execute)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyNzQxOTEyLDEyMzM2MjE1NTddfQ==
+eyJoaXN0b3J5IjpbLTMwMjIzNjAyNSw0NDI3NDE5MTIsMTIzMz
+YyMTU1N119
 -->
