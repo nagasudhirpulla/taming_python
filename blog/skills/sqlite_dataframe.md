@@ -150,10 +150,15 @@ df = pd.read_sql_query("select * from weatherData", con,
                        parse_dates=["time"])
 ```
 
+### Video
+The video for this post can be seen [here](https://youtu.be/d22ZxWDSbag)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d22ZxWDSbag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## References
 
 -   read_sql_query docs - [https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html](https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html)
 -   to_sql docs - [https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Njg1Mzg3MV19
+eyJoaXN0b3J5IjpbOTQ3ODA2OTg2LC01ODY4NTM4NzFdfQ==
 -->
