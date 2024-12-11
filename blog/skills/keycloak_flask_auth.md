@@ -1,4 +1,3 @@
-# Flask role-based authorization with Keycloak
 
 The source code of the demo flask application can be found [here](https://github.com/nagasudhirpulla/flask_keycloak_auth)
 
@@ -30,51 +29,51 @@ The source code of the demo flask application can be found [here](https://github
 -   Create a realm for registering the flask application
 -   Here we are creating a realm named **LearningSoftware**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/26dd9d40-915c-4929-9f09-7d64b00a41b6/image.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_flask_client/keycloak_create_realm.png?raw=true)
 
 ### Create a client for flask application
 
 -   Register the Flask application in Keycloak by creating a client. The client Id and client secret will be used by the flask application.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/79e104c7-837d-4073-97c9-c654857407c9/image.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_flask_client/keycloak_flask_client_create1.png?raw=true)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/43709e0a-aab4-4bcb-b762-358b0b24d815/image.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_flask_client/keycloak_flask_client_create2.png?raw=true)
 
-![image (1).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/f15138cc-5588-4acc-84e7-1ed3e2643268/image_(1).png)
+![image (1).png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_flask_client/keycloak_flask_client_create3.png?raw=true)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/4a0bf707-0fe3-4d5f-b73c-771742e68a4d/image.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_flask_client/keycloak_flask_client_create4.png?raw=true)
 
 ### Create user roles used in the flask application
 
 -   Goto the Roles tab of the client and create the roles used in the flask application
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/d9a92330-02f6-4e34-9ff8-0baed086dfb5/image.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_flask_client/keycloak_flask_client_roles.png?raw=true)
 
 ### Include user roles in user info endpoint and id token
 
 -   Go to client scopes > roles > Mappers > client roles and enable “Add to ID token” and “Add to userinfo”
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/0af936e0-1193-4215-bfa5-5a86c63a373b/image.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_flask_client/keycloak_roles_in_token.png?raw=true)
 
 ### Create users in realm
 
 -   Create user as shown below and also set password in the “Credentials” tab of the user
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/b6aca52c-f01f-4f4a-b6af-3416a7d35db7/image.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_flask_client/keycloak_create_flask_user.png?raw=true)
 
 ### Assign roles to users
 
 -   Open the user and go to the “Role mapping” tab to assign required roles to user as shown below
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/10e07718-1d2c-465c-b0eb-74a9d797b719/image.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_flask_client/keycloak_add_roles_to_flask_user.png?raw=true)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/39ccf6fa-78d8-4f5d-b8c1-5be9fd02bfe7/image.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_flask_client/keycloak_add_roles_to_flask_user2.png?raw=true)
 
 ## Create a Flask application (Client app)
 
 ### Authentication in Flask app with Keycloak
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/80a8cb8d-0d67-40aa-93fa-99212d2ce646/image.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_flask_client/keycloak_flask_auth_overview.png?raw=true)
 
 ### Role based authorization overview
 
@@ -99,7 +98,7 @@ The source code of the demo flask application can be found [here](https://github
 -   Client Id and client secret can be found taken by opening the credentials tab of the client
 -   Realm discovery URL can be found in Keycloak in the Realm Settings page as shown below
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e2127588-bc2c-4960-9072-182c822d4772/5bb48949-3835-499c-bc42-1608e392ac32/image.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak_flask_client/keycloak_realm_url_for_well_known.png?raw=true)
 
 ### Authorization decorator for flask route
 
@@ -341,5 +340,5 @@ def logout():
 -   Authlib flask client documentation - [https://docs.authlib.org/en/latest/client/flask.html](https://docs.authlib.org/en/latest/client/flask.html)
 -   [https://www.keycloak.org/securing-apps/oidc-layers](https://www.keycloak.org/securing-apps/oidc-layers)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDA0OTg4MV19
+eyJoaXN0b3J5IjpbLTE1ODg0NjE0MDQsLTgxNDA0OTg4MV19
 -->
