@@ -1,3 +1,4 @@
+# Flask role-based authorization with Keycloak
 
 The source code of the demo flask application can be found [here](https://github.com/nagasudhirpulla/flask_keycloak_auth)
 
@@ -340,5 +341,5 @@ def logout():
 -   Authlib flask client documentation - [https://docs.authlib.org/en/latest/client/flask.html](https://docs.authlib.org/en/latest/client/flask.html)
 -   [https://www.keycloak.org/securing-apps/oidc-layers](https://www.keycloak.org/securing-apps/oidc-layers)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg0NjE0MDQsLTgxNDA0OTg4MV19
+eyJoaXN0b3J5IjpbNDQwOTc0Mzc2LC04MTQwNDk4ODFdfQ==
 -->
