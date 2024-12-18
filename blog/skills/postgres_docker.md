@@ -10,7 +10,7 @@
 
 ## PostgreSQL docker image installation
 
--   Install docker in the machine
+-   Install docker in the machine. docker desktop can also be used
 -   PostgreSQL docker image can be found in docker hub at [https://hub.docker.com/_/postgres](https://hub.docker.com/_/postgres)
 -   Pull docker image using `docker pull postgres`
 -   A specific version of docker can be installed using tags like `docker pull postgres:17` . The supported tags can be found at [https://hub.docker.com/_/postgres/tags](https://hub.docker.com/_/postgres/tags)
@@ -149,5 +149,5 @@ volumes:
 -   Uninstall PostgreSQL in Ubuntu - [https://neon.tech/postgresql/postgresql-administration/uninstall-postgresql-ubuntu](https://neon.tech/postgresql/postgresql-administration/uninstall-postgresql-ubuntu)
 -   install PostgreSQL in WSL Ubuntu - [https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-postgresql](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-postgresql)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDkzMTEwMCwtMTk2MDA0MTk3M119
+eyJoaXN0b3J5IjpbMjA5NTU2NjA0NywtMTk2MDA0MTk3M119
 -->
