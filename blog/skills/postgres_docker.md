@@ -10,6 +10,8 @@
 
 ## PostgreSQL docker image installation
 
+![docker_desktop_snap.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/docker_desktop_snap.png?raw=true)
+
 -   Install docker in the machine. Docker Desktop can be used for easy management
 -   PostgreSQL docker image can be found in docker hub at [https://hub.docker.com/_/postgres](https://hub.docker.com/_/postgres)
 -   Pull docker image using `docker pull postgres`
@@ -139,15 +141,8 @@ volumes:
 ## References
 
 -   PostgreSQL docker environment variables - [https://github.com/docker-library/docs/blob/master/postgres/README.md#environment-variables](https://github.com/docker-library/docs/blob/master/postgres/README.md#environment-variables)
--   difference between docker volume and bind mount - [https://stackoverflow.com/questions/47150829/what-is-the-difference-between-binding-mounts-and-volumes-while-handling-persist](https://stackoverflow.com/questions/47150829/what-is-the-difference-between-binding-mounts-and-volumes-while-handling-persist)
--   PostgreSQL docker cheat-sheet - [https://gist.github.com/robbdimitrov/4e37f5c931e47b1e0fa9b7facddf3851](https://gist.github.com/robbdimitrov/4e37f5c931e47b1e0fa9b7facddf3851)
--   Using exec to run commands in running docker containers - [https://www.digitalocean.com/community/tutorials/how-to-use-docker-exec-to-run-commands-in-a-docker-container](https://www.digitalocean.com/community/tutorials/how-to-use-docker-exec-to-run-commands-in-a-docker-container)
--   docker compose quick-start - [https://spacelift.io/blog/docker-compose](https://spacelift.io/blog/docker-compose)
--   Running PostgreSQL from docker-compose - [https://geshan.com.np/blog/2021/12/docker-postgres/](https://geshan.com.np/blog/2021/12/docker-postgres/)
--   Install PostgreSQL in Ubuntu - [https://www.prisma.io/dataguide/postgresql/setting-up-a-local-postgresql-database#debian-and-ubuntu](https://www.prisma.io/dataguide/postgresql/setting-up-a-local-postgresql-database#debian-and-ubuntu)
--   Start PostgreSQL automatically on startup in Ubuntu- [https://www.heatware.net/postgresql/start-postgresql-automatically-boot/](https://www.heatware.net/postgresql/start-postgresql-automatically-boot/)
--   Uninstall PostgreSQL in Ubuntu - [https://neon.tech/postgresql/postgresql-administration/uninstall-postgresql-ubuntu](https://neon.tech/postgresql/postgresql-administration/uninstall-postgresql-ubuntu)
--   install PostgreSQL in WSL Ubuntu - [https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-postgresql](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-postgresql)
+-   Difference between docker volume and bind mount - [https://stackoverflow.com/questions/47150829/what-is-the-difference-between-binding-mounts-and-volumes-while-handling-persist](https://stackoverflow.com/questions/47150829/what-is-the-difference-between-binding-mounts-and-volumes-while-handling-persist)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTE2NTA5MCwtMTk2MDA0MTk3M119
+eyJoaXN0b3J5IjpbMTg4Mzk3NTcxOSwxMzI5MTY1MDkwLC0xOT
+YwMDQxOTczXX0=
 -->
