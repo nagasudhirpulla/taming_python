@@ -22,7 +22,7 @@
 -   Run the following command to run PostgreSQL docker container
 
 ```powershell
-docker run --rm -d --name mydb1 -e POSTGRES_PASSWORD=db_pswrd -p 5432:5432 -v "C:\\dbFolders\\db1":/var/lib/postgresql/data postgres
+docker run --rm -d --name mydb1 -e POSTGRES_PASSWORD=db_pswrd -p 5432:5432 -v "C:\dbFolders\db1":/var/lib/postgresql/data postgres
 
 ```
 
@@ -31,7 +31,7 @@ docker run --rm -d --name mydb1 -e POSTGRES_PASSWORD=db_pswrd -p 5432:5432 -v "C
 -   `-e POSTGRES_PASSWORD=db_pswrd` sets an environment variable `POSTGRES_PASSWORD` value as `db_pswrd`
 -   `-d` means the container will run in background (detached mode)
 -   `-p 5432:5432` means the 5432 port of container can be accessed using 5432 port of host machine. The format is `host_port:container_port`
--   `-v "C:\\dbFolders\\db1":/var/lib/postgresql/data` means the data of the container folder `/var/lib/postgresql/data` will be stored in `C:\\dbFolders\\db1`. The format is `host_path:container_path`
+-   `-v "C:\dbFolders\db1":/var/lib/postgresql/data` means the data of the container folder `/var/lib/postgresql/data` will be stored in `C:\dbFolders\db1`. The format is `host_path:container_path`
 -   `postgres` is the name of the container image. It can also be something like `postgres:14`
 
 ## Connect to PostgreSQL container
@@ -49,12 +49,12 @@ docker exec -it -u postgres mydb psql
 
 ## Simple psql commands
 
--   `\\l` - List all databases
--   `\\c dbname` - connect to a database `dbname`
--   `\\dn` - list schemas of the database
--   `\\db` - list tablespaces of the database
--   `\\dt` - list tables of the database
--   `\\dt schema1.*` - list tables of the database schema `schema1`
+-   `\l` - List all databases
+-   `\c dbname` - connect to a database `dbname`
+-   `\dn` - list schemas of the database
+-   `\db` - list tablespaces of the database
+-   `\dt` - list tables of the database
+-   `\dt schema1.*` - list tables of the database schema `schema1`
 
 ## View PostgreSQL container logs
 
@@ -69,7 +69,7 @@ docker exec -it -u postgres mydb psql
 -   To persist the logs to host, the folder `/var/lib/postgresql/data/` can also be bound to host folder like
 
 ```powershell
-docker run --rm -d --name mydb1 -e POSTGRES_PASSWORD=db_pswrd -p 5432:5432 -v "C:\\dbFolders\\db1":/var/lib/postgresql/data postgres -c logging_collector=on
+docker run --rm -d --name mydb1 -e POSTGRES_PASSWORD=db_pswrd -p 5432:5432 -v "C:\dbFolders\db1":/var/lib/postgresql/data postgres -c logging_collector=on
 
 ```
 
@@ -101,7 +101,7 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      device: "C:\\\\dbFolders\\\\db1"
+      device: "C:\\dbFolders\\db1"
       o: bind
 
 
@@ -144,6 +144,6 @@ volumes:
 -   Difference between docker volume and bind mount - [https://stackoverflow.com/questions/47150829/what-is-the-difference-between-binding-mounts-and-volumes-while-handling-persist](https://stackoverflow.com/questions/47150829/what-is-the-difference-between-binding-mounts-and-volumes-while-handling-persist)
 - docker compose file reference - https://docs.docker.com/reference/compose-file/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTM4NzMyNjAsMTMyOTE2NTA5MCwtMT
-k2MDA0MTk3M119
+eyJoaXN0b3J5IjpbLTEzOTg2MDU1NDgsLTE5NTM4NzMyNjAsMT
+MyOTE2NTA5MCwtMTk2MDA0MTk3M119
 -->
