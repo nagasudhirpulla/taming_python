@@ -142,7 +142,8 @@ volumes:
 
 -   PostgreSQL docker environment variables - [https://github.com/docker-library/docs/blob/master/postgres/README.md#environment-variables](https://github.com/docker-library/docs/blob/master/postgres/README.md#environment-variables)
 -   Difference between docker volume and bind mount - [https://stackoverflow.com/questions/47150829/what-is-the-difference-between-binding-mounts-and-volumes-while-handling-persist](https://stackoverflow.com/questions/47150829/what-is-the-difference-between-binding-mounts-and-volumes-while-handling-persist)
+- docker compose file reference - https://docs.docker.com/reference/compose-file/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Mzk3NTcxOSwxMzI5MTY1MDkwLC0xOT
-YwMDQxOTczXX0=
+eyJoaXN0b3J5IjpbLTE5NTM4NzMyNjAsMTMyOTE2NTA5MCwtMT
+k2MDA0MTk3M119
 -->
