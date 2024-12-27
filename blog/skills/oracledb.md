@@ -13,7 +13,7 @@ import oracledb as cx_Oracle
 
 -   Install the python-oracledb module using the following command
 
-```python
+```bash
 python -m pip install oracledb
 
 ```
@@ -34,5 +34,5 @@ conn = oracledb.connect(user="hr", password="pwd",
 -   official tutorial - [https://oracle.github.io/python-oracledb/samples/tutorial/Python-and-Oracle-Database-The-New-Wave-of-Scripting.html](https://oracle.github.io/python-oracledb/samples/tutorial/Python-and-Oracle-Database-The-New-Wave-of-Scripting.html)
 -   connect to database with oracledb - [https://python-oracledb.readthedocs.io/en/latest/user_guide/connection_handling.html](https://python-oracledb.readthedocs.io/en/latest/user_guide/connection_handling.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4NTk5NjEsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTU2MTIwMDA3OSwtMjA4ODc0NjYxMl19
 -->
