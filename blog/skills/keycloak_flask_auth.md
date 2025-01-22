@@ -91,7 +91,7 @@ The source code of the demo flask application can be found [here](https://github
 {
     "oauthAppClientId": "flaskClient",
     "oauthAppClientSecret": "ST4rrbr4Z9sZSAhU9xkajfWYVcJEHnkx",
-    "oauthProviderDiscoveryUrl": "<http://localhost:8080/realms/LearningSoftware/.well-known/openid-configuration>"
+    "oauthProviderDiscoveryUrl": "http://localhost:8080/realms/LearningSoftware/.well-known/openid-configuration"
 }
 
 ```
@@ -341,5 +341,6 @@ def logout():
 -   Authlib flask client documentation - [https://docs.authlib.org/en/latest/client/flask.html](https://docs.authlib.org/en/latest/client/flask.html)
 -   [https://www.keycloak.org/securing-apps/oidc-layers](https://www.keycloak.org/securing-apps/oidc-layers)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwOTc0Mzc2LC04MTQwNDk4ODFdfQ==
+eyJoaXN0b3J5IjpbLTEyMTYyMzU5NjIsNDQwOTc0Mzc2LC04MT
+QwNDk4ODFdfQ==
 -->
