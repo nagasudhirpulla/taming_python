@@ -33,6 +33,8 @@ conn = oracledb.connect(user="hr", password="pwd",
 
 -   official tutorial - [https://oracle.github.io/python-oracledb/samples/tutorial/Python-and-Oracle-Database-The-New-Wave-of-Scripting.html](https://oracle.github.io/python-oracledb/samples/tutorial/Python-and-Oracle-Database-The-New-Wave-of-Scripting.html)
 -   connect to database with oracledb - [https://python-oracledb.readthedocs.io/en/latest/user_guide/connection_handling.html](https://python-oracledb.readthedocs.io/en/latest/user_guide/connection_handling.html)
+- connection parameters -[https://python-oracledb.readthedocs.io/en/latest/api_manual/connect_params.html#connectparams-attributes](https://python-oracledb.readthedocs.io/en/latest/api_manual/connect_params.html#connectparams-attributes)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTIwMDA3OSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE4Nzg5MTYwOTYsLTU2MTIwMDA3OSwtMj
+A4ODc0NjYxMl19
 -->
