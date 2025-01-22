@@ -6,7 +6,7 @@
 -   Ephemeral (easy to destroy)
 -   Ideal for development and testing environments
 -   Run multiple PostgreSQL instances very easily
--   very easy to create a temporary isolated environment
+-   Very easy to create a temporary isolated environment
 
 ## PostgreSQL docker image installation
 
@@ -144,6 +144,6 @@ volumes:
 -   Difference between docker volume and bind mount - [https://stackoverflow.com/questions/47150829/what-is-the-difference-between-binding-mounts-and-volumes-while-handling-persist](https://stackoverflow.com/questions/47150829/what-is-the-difference-between-binding-mounts-and-volumes-while-handling-persist)
 - docker compose file reference - https://docs.docker.com/reference/compose-file/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTg2MDU1NDgsLTE5NTM4NzMyNjAsMT
-MyOTE2NTA5MCwtMTk2MDA0MTk3M119
+eyJoaXN0b3J5IjpbMTk0NzA5NDMyNCwtMTM5ODYwNTU0OCwtMT
+k1Mzg3MzI2MCwxMzI5MTY1MDkwLC0xOTYwMDQxOTczXX0=
 -->
