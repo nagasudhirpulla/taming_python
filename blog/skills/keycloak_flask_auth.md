@@ -292,7 +292,7 @@ def callback():
 ```python
 @oauthPage.route("/logout")
 def logout():
-    # <https://stackoverflow.com/a/72011979/2746323>
+    # https://stackoverflow.com/a/72011979/2746323
     user = getUserFromSession()
     idToken = user["idToken"] if not user is None else None
     clearUserSession()
@@ -341,6 +341,6 @@ def logout():
 -   Authlib flask client documentation - [https://docs.authlib.org/en/latest/client/flask.html](https://docs.authlib.org/en/latest/client/flask.html)
 -   [https://www.keycloak.org/securing-apps/oidc-layers](https://www.keycloak.org/securing-apps/oidc-layers)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTYyMzU5NjIsNDQwOTc0Mzc2LC04MT
-QwNDk4ODFdfQ==
+eyJoaXN0b3J5IjpbOTc5Mjg1NTc4LC0xMjE2MjM1OTYyLDQ0MD
+k3NDM3NiwtODE0MDQ5ODgxXX0=
 -->
