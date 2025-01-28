@@ -48,6 +48,9 @@ ALTER USER postgres with password 'new_secure_password'
     ```
     
 -   Restart the database again after changing the pg_hba.conf file. The configuration changes can also be applied by running the SQL command `SELECT pg_reload_conf();` in a psql session.
+
+## References
+* psql docs - https://www.postgresql.org/docs/current/app-psql.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzgyNjk0MTcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEyMTk2NzIyNjcsNzMwOTk4MTE2XX0=
 -->
