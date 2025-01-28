@@ -21,7 +21,6 @@ If we forget the postgres user password of a PostgreSQL database, the following 
 # IPv4 local connections:
 # TYPE  DATABASE        USER            ADDRESS                 METHOD
 local    all             all             127.0.0.1/32            trust
-
 ```
 
 -   Restart the database by restarting the PostgreSQL windows background service or by running `sudo systemctl restart postgresql` command in case of Ubuntu
@@ -33,7 +32,6 @@ local    all             all             127.0.0.1/32            trust
 
 ```sql
 ALTER USER postgres with password 'new_secure_password'
-
 ```
 
 ## Enable password based access to localhost
@@ -51,5 +49,5 @@ ALTER USER postgres with password 'new_secure_password'
     
 -   Restart the database again after changing the pg_hba.conf file. The configuration changes can also be applied by running the SQL command `SELECT pg_reload_conf();` in a psql session.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjU3MjExMDEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE0MzgyNjk0MTcsNzMwOTk4MTE2XX0=
 -->
