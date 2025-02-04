@@ -330,17 +330,22 @@ def logout():
 
 ```
 
-## **Sessions implementation in Flask**
+## Sessions implementation in Flask
 
 -   Flask sessions are signed but not encrypted
 -   Session data can be read from cookie
 -   Encrypt session data separately if required
+
+### Video
+Video for this post can be found [here](https://youtu.be/vOsYE_rTikQ)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vOsYE_rTikQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## References
 
 -   Authlib flask client documentation - [https://docs.authlib.org/en/latest/client/flask.html](https://docs.authlib.org/en/latest/client/flask.html)
 -   [https://www.keycloak.org/securing-apps/oidc-layers](https://www.keycloak.org/securing-apps/oidc-layers)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5Mjg1NTc4LC0xMjE2MjM1OTYyLDQ0MD
-k3NDM3NiwtODE0MDQ5ODgxXX0=
+eyJoaXN0b3J5IjpbMjUyMDA2MjY2LDk3OTI4NTU3OCwtMTIxNj
+IzNTk2Miw0NDA5NzQzNzYsLTgxNDA0OTg4MV19
 -->
