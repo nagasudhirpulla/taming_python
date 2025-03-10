@@ -49,9 +49,15 @@ ALTER USER postgres with password 'new_secure_password'
     
 -   Restart the database again after changing the pg_hba.conf file. The configuration changes can also be applied by running the SQL command `SELECT pg_reload_conf();` in a psql session.
 
+### Video
+The video for this post can be found [here](https://youtu.be/NiRiz_ob-VA?si=olwjeFPg6XLOKLHs)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ErUPLbqXiB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## References
 * psql documentation - https://www.postgresql.org/docs/current/app-psql.html
 * pg_hba.conf documentation - https://www.postgresql.org/docs/current/auth-pg-hba-conf.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgzMDgzNDk1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTA5MzA3NzM2OCw2ODMwODM0OTUsNzMwOT
+k4MTE2XX0=
 -->
