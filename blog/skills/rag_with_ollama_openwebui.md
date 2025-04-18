@@ -55,16 +55,6 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 
 -   Openwebui - [https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration](https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration)
 -   Ollama - [https://ollama.com/library/llama3.2](https://ollama.com/library/llama3.2)
-
-[https://youtu.be/2TJxpyO3ei4?si=A7q-rFwkZ7FcP2RW](https://youtu.be/2TJxpyO3ei4?si=A7q-rFwkZ7FcP2RW)
-
--   [https://youtu.be/fFgyOucIFuk?si=fFht9KCXmaY-937X](https://youtu.be/fFgyOucIFuk?si=fFht9KCXmaY-937X)
-    -   [https://youtu.be/xHxIq5Xvzx4?si=2mT46xnVKfDPqVVH](https://youtu.be/xHxIq5Xvzx4?si=2mT46xnVKfDPqVVH)
-    -   [https://youtu.be/DYhC7nFRL5I?si=FskpeOPhbDuHgC8s](https://youtu.be/DYhC7nFRL5I?si=FskpeOPhbDuHgC8s)
-
-[Embeddings and Vector Databases](https://www.notion.so/Embeddings-and-Vector-Databases-16247f92c7558014a77dfabf456bf299?pvs=21)
-
-[https://www.gpu-mart.com/blog/how-to-install-and-use-ollama-webui-on-windows](https://www.gpu-mart.com/blog/how-to-install-and-use-ollama-webui-on-windows)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjI1ODAyNDZdfQ==
+eyJoaXN0b3J5IjpbMTYyMDA3ODY1Nl19
 -->
