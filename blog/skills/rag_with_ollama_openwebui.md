@@ -13,9 +13,9 @@
 -   The user query will be used to retrieve most relevant content from the knowledge base by performing a semantic search on the knowledge base. The LLM will summarize the content from vector database and provide it as a response.
 
 ### Illustration of RAG
-
+![rag architecture](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/RAG%20architecture.png?raw=true)
 ### Illustration of vector database for documents
-
+![vector database for embeddings architecture](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Vector%20database%20for%20embeddings%20architecture.png?raw=true)
 ## Solution Architecture
 
 -   Ollama is a platform to run various large language models (LLMs) locally on a machine.
@@ -33,6 +33,7 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 ```
 
 -   The logs of the container can also be viewed in docker desktop interactively.
+![openwebui docker logs demo](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Openwebui%20docker%20logs%20demo.png?raw=true)
 
 ## Setup Knowledge base in Openwebui
 
@@ -59,5 +60,5 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 
 [https://www.gpu-mart.com/blog/how-to-install-and-use-ollama-webui-on-windows](https://www.gpu-mart.com/blog/how-to-install-and-use-ollama-webui-on-windows)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDEzOTAyNV19
+eyJoaXN0b3J5IjpbNDQwOTU3MzYwXX0=
 -->
