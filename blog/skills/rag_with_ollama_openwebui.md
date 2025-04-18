@@ -45,9 +45,11 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 
 -   Create a model in the workspace->Models section with the following settings. Document from the knowledge tab is also linked to the model
 
-![openwe](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Openwebui%20expert%20system%20config.png?raw=true)
+![openwebui expert system config](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Openwebui%20expert%20system%20config.png?raw=true)
 
 -   Now the model will provide answers by looking up the knowledge base
+
+![openwebui expert system demo](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Openwebui%20expert%20system%20demo.png?raw=true)
 
 ## References
 
@@ -64,5 +66,5 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 
 [https://www.gpu-mart.com/blog/how-to-install-and-use-ollama-webui-on-windows](https://www.gpu-mart.com/blog/how-to-install-and-use-ollama-webui-on-windows)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTg0NDU3N119
+eyJoaXN0b3J5IjpbLTE1MjI1ODAyNDZdfQ==
 -->
