@@ -53,10 +53,9 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 
 ## References
 
--  Openwebui docs - 
--  Openwebui - [https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration](https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration)
--   Ollama - [https://ollama.com/library/llama3.2](https://ollama.com/library/llama3.2)
-- 
+-  Openwebui docs - https://docs.openwebui.com/features/rag
+-  Openwebui GitHub - [https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration](https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration)
+-   Ollama Models - [https://ollama.com/library/llama3.2](https://ollama.com/library/llama3.2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzI0MDI3MCwxNjIwMDc4NjU2XX0=
+eyJoaXN0b3J5IjpbLTE3NDk4NTc5MTIsMTYyMDA3ODY1Nl19
 -->
