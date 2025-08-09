@@ -19,7 +19,7 @@
 
 -   Data is stored as document snippets with embedding attached to it​ 
 -   Embedding is a vector that positions a document to similar ones​
-
+![vector database embeddings illustration.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/vector%20database%20embeddings%20illustration.png?raw=true)
 
 ## Solution Architecture
 
@@ -62,5 +62,6 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 -  Openwebui GitHub - [https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration](https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration)
 -   Ollama Models - [https://ollama.com/library/llama3.2](https://ollama.com/library/llama3.2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDIyMTY2MiwxNjIwMDc4NjU2XX0=
+eyJoaXN0b3J5IjpbMjA2NTMyMDUwMywtMzUwMjIxNjYyLDE2Mj
+AwNzg2NTZdfQ==
 -->
