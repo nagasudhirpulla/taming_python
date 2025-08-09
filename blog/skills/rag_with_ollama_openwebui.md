@@ -20,6 +20,7 @@
 -   Data is stored as document snippets with embedding attached to it​ 
 -   Embedding is a vector that positions a document to similar ones​
 
+
 ## Solution Architecture
 
 -   Ollama is a platform to run various large language models (LLMs) locally on a machine.
@@ -61,5 +62,5 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 -  Openwebui GitHub - [https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration](https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration)
 -   Ollama Models - [https://ollama.com/library/llama3.2](https://ollama.com/library/llama3.2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NjM1NzA0NCwxNjIwMDc4NjU2XX0=
+eyJoaXN0b3J5IjpbLTM1MDIyMTY2MiwxNjIwMDc4NjU2XX0=
 -->
