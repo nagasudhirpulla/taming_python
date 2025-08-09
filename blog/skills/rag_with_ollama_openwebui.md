@@ -6,6 +6,11 @@
 -   The required pdf documents are provided as a knowledge base to the system.
 -   Since the whole setup is offline, confidential data can be provided to the LLM
 
+## Use cases
+-   Policies, manuals, user guides​    
+-   Confidential documents​
+-   Air-gapped environments (no internet)
+
 ### Overview of RAG
 
 -   Expert systems based on a knowledge base of PDF documents can be created using Retrieval Augmented Generation (RAG).
@@ -62,6 +67,6 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 -  Openwebui GitHub - [https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration](https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration)
 -   Ollama Models - [https://ollama.com/library/llama3.2](https://ollama.com/library/llama3.2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTMyMDUwMywtMzUwMjIxNjYyLDE2Mj
-AwNzg2NTZdfQ==
+eyJoaXN0b3J5IjpbOTA2MjYyNDY2LC0zNTAyMjE2NjIsMTYyMD
+A3ODY1Nl19
 -->
