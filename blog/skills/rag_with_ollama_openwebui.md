@@ -13,6 +13,8 @@
 
 ### Overview of RAG
 
+![RAG HLD.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/RAG%20HLD.png?raw=true)
+
 -   Expert systems based on a knowledge base of PDF documents can be created using Retrieval Augmented Generation (RAG).
 -   This requires an LLM and a searchable knowledge base (content indexed in a vector database for performing similarity searches)
 -   The user query will be used to retrieve most relevant content from the knowledge base by performing a semantic search on the knowledge base. The LLM will summarize the content from vector database and provide it as a response.
@@ -67,6 +69,6 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 -  Openwebui GitHub - [https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration](https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration)
 -   Ollama Models - [https://ollama.com/library/llama3.2](https://ollama.com/library/llama3.2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA2MjYyNDY2LC0zNTAyMjE2NjIsMTYyMD
-A3ODY1Nl19
+eyJoaXN0b3J5IjpbMTQyNzA5NTQ2Nyw5MDYyNjI0NjYsLTM1MD
+IyMTY2MiwxNjIwMDc4NjU2XX0=
 -->
