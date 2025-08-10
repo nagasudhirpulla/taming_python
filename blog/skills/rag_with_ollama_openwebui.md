@@ -63,12 +63,17 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 
 ![openwebui expert system demo](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/Openwebui%20expert%20system%20demo.png?raw=true)
 
+## Video
+Video can be found [here](https://youtu.be/lp4jDA4SRKY?si=jWSpyUz4COX9aXGq)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lp4jDA4SRKY?si=jWSpyUz4COX9aXGq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## References
 
 -  Openwebui docs - https://docs.openwebui.com/features/rag
 -  Openwebui GitHub - [https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration](https://github.com/open-webui/open-webui?tab=readme-ov-file#installation-with-default-configuration)
 -   Ollama Models - [https://ollama.com/library/llama3.2](https://ollama.com/library/llama3.2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzA5NTQ2Nyw5MDYyNjI0NjYsLTM1MD
-IyMTY2MiwxNjIwMDc4NjU2XX0=
+eyJoaXN0b3J5IjpbLTE3OTAwMDE3NjQsMTQyNzA5NTQ2Nyw5MD
+YyNjI0NjYsLTM1MDIyMTY2MiwxNjIwMDc4NjU2XX0=
 -->
