@@ -99,10 +99,13 @@ dependencies = [
 - Packages can be upgraded using `uv lock --upgrade` and then running `uv sync` to update the virtual environment as per the new `uv.lock` file
 - `uv lock --upgrade` works only if the dependencies in the `pyproject.toml` are mentioned something like `pandas>=2.3.1`. If a strict dependency version is mentioned (like pandas==2.3.1), upgrade will not be possible.
 
+## Video
+Video can be found [here]()
+
 ## References
 
 - uv GitHub repository - https://github.com/astral-sh/uv
 - uv official documentation - https://docs.astral.sh/uv/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjI1ODc1MThdfQ==
+eyJoaXN0b3J5IjpbNDQyNzU5MDc4LC0xMTYyNTg3NTE4XX0=
 -->
