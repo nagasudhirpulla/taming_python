@@ -104,7 +104,7 @@ quote-style = "single"
 
 - Example `ruff.toml` is shown below
 
-```toml
+```bash
 # ruff.toml file
 
 [lint]
@@ -133,7 +133,7 @@ quote-style = "single"
 - By default, ruff linter uses Flake8’s F rules and a subset of pycodestyle’s E rules for linting
 - Only specific rules can be enabled using `lint.select`. Specific rules can be ignored from existing rules using `lint.ignore` . Rules can be added on top of existing rules using `lint.extend-select`
 
-```toml
+```bash
 # ruff.toml file
 
 [lint]
@@ -149,7 +149,7 @@ extend-select = ["I"]
 - Ruff formatting options can be found at - https://docs.astral.sh/ruff/settings/#format
 - If required, specified files can be excluded from formatting as shown below
 
-```toml
+```bash
 # ruff.toml file
 
 [format]
@@ -161,7 +161,7 @@ exclude = ["directory/*.py", ".mypy_cache"]
 
 - Behavior of `ruff fix` command can be configured in the `lint` section as follows
 
-```toml
+```bash
 # ruff.toml file
 
 [lint]
@@ -176,7 +176,7 @@ The above configuration fixes all errors except F401
 - By default only safe fixes are done by `ruff check --fix` command. To allow unsafe fixes, use the command `ruff check --fix --unsafe-fixes` (not recommended)
 - Unsafe fixes can be promoted as safe and safe fixes can be demoted as unsafe as follows
 
-```toml
+```bash
 # ruff.toml file
 
 [lint]
@@ -221,5 +221,6 @@ extend-unsafe-fixes = ["UP034"] # demotes UP034 as a safe fix
 - Ruff linter rules - https://docs.astral.sh/ruff/rules/#legend
 - Ruff VS Code extension docs - [astral-sh/ruff-vscode: A Visual Studio Code extension with support for the Ruff linter.](https://github.com/astral-sh/ruff-vscode/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyOTE2MTgwLDkxMjkxNjE4MF19
+eyJoaXN0b3J5IjpbLTcwNzQyNzQzMCw5MTI5MTYxODAsOTEyOT
+E2MTgwXX0=
 -->
