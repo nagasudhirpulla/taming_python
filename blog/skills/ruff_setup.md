@@ -1,4 +1,5 @@
 # Ruff python linter and code formatter
+
 ## Why use a linter and formatter
 
 - Linters and formatters are tools used to maintain consistency in code quality, readability and coding conventions in a code base
@@ -220,5 +221,5 @@ extend-unsafe-fixes = ["UP034"] # demotes UP034 as a safe fix
 - Ruff linter rules - https://docs.astral.sh/ruff/rules/#legend
 - Ruff VS Code extension docs - [astral-sh/ruff-vscode: A Visual Studio Code extension with support for the Ruff linter.](https://github.com/astral-sh/ruff-vscode/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzAwMTMzXX0=
+eyJoaXN0b3J5IjpbLTg2NTMwNTcwOV19
 -->
