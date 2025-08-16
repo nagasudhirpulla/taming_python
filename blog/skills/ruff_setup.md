@@ -79,7 +79,7 @@ ruff check --watch
 - Ruff can be configured in the `pyproject.toml` file or `ruff.toml` file of the python project folder
 - Ruff configuration can be added to a `pyproject.toml` file with section names starting with `tool.ruff`. Example pyproject.toml file can be as follows
 
-```toml
+```bash
 # pyproject.toml file
 
 [tool.ruff.lint]
@@ -221,5 +221,5 @@ extend-unsafe-fixes = ["UP034"] # demotes UP034 as a safe fix
 - Ruff linter rules - https://docs.astral.sh/ruff/rules/#legend
 - Ruff VS Code extension docs - [astral-sh/ruff-vscode: A Visual Studio Code extension with support for the Ruff linter.](https://github.com/astral-sh/ruff-vscode/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDc4OTY5NDYsOTEyOTE2MTgwXX0=
+eyJoaXN0b3J5IjpbOTEyOTE2MTgwLDkxMjkxNjE4MF19
 -->
