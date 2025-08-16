@@ -188,7 +188,7 @@ extend-unsafe-fixes = ["UP034"] # demotes UP034 as a safe fix
 
 - Instead of using the ruff check of ruff format command, ruff VS Code extension can be used for easy usage. The Ruff VS Code extension can be found at https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff
 
-![image.png](attachment:8e6d1594-38f6-4b66-a6ab-012b9c120267:image.png)
+![ruff_vs_code_extension.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/ruff_vs_code_extension.png?raw=true)
 
 - Configure VS Code to use ruff in editor by using the following in the VS Code user settings json
 
@@ -221,5 +221,5 @@ extend-unsafe-fixes = ["UP034"] # demotes UP034 as a safe fix
 - Ruff linter rules - https://docs.astral.sh/ruff/rules/#legend
 - Ruff VS Code extension docs - [astral-sh/ruff-vscode: A Visual Studio Code extension with support for the Ruff linter.](https://github.com/astral-sh/ruff-vscode/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTMwNTcwOV19
+eyJoaXN0b3J5IjpbLTE5MDc4OTY5NDZdfQ==
 -->
