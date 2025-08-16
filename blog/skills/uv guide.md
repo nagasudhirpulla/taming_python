@@ -100,12 +100,14 @@ dependencies = [
 - `uv lock --upgrade` works only if the dependencies in the `pyproject.toml` are mentioned something like `pandas>=2.3.1`. If a strict dependency version is mentioned (like pandas==2.3.1), upgrade will not be possible.
 
 ## Video
-Video can be found [here]()
+Video can be found [here](https://youtu.be/HCoJXebQcsM?si=OpZEgzygdjkAVRY_)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HCoJXebQcsM?si=O0vy_q2XSe2Wf73g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## References
 
 - uv GitHub repository - https://github.com/astral-sh/uv
 - uv official documentation - https://docs.astral.sh/uv/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyNzU5MDc4LC0xMTYyNTg3NTE4XX0=
+eyJoaXN0b3J5IjpbMTIzOTY2MzUxMiwtMTE2MjU4NzUxOF19
 -->
