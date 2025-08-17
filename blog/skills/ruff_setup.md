@@ -214,6 +214,11 @@ extend-unsafe-fixes = ["UP034"] # demotes UP034 as a safe fix
 - Manually organize imports with `Shift+Alt+O`
 - Manually fix linting issues with `Ctrl+Shift+P` and search for `Ruff: Fix all auto-fixable problems`
 
+## Video
+Video for this can be found [here](https://youtu.be/exK3uaX_RKc)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/exK3uaX_RKc?si=W31dWooyIAGMi8tn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # References
 
 - Ruff Linter docs - [The Ruff Linter | Ruff](https://docs.astral.sh/ruff/linter/)
@@ -221,6 +226,6 @@ extend-unsafe-fixes = ["UP034"] # demotes UP034 as a safe fix
 - Ruff linter rules - https://docs.astral.sh/ruff/rules/#legend
 - Ruff VS Code extension docs - [astral-sh/ruff-vscode: A Visual Studio Code extension with support for the Ruff linter.](https://github.com/astral-sh/ruff-vscode/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzQyNzQzMCw5MTI5MTYxODAsOTEyOT
-E2MTgwXX0=
+eyJoaXN0b3J5IjpbMTQxNzMyNTgzMiwtNzA3NDI3NDMwLDkxMj
+kxNjE4MCw5MTI5MTYxODBdfQ==
 -->
