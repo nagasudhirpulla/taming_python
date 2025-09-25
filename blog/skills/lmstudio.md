@@ -1,4 +1,3 @@
-# Run local LLMs with Intel/AMD GPU using LM Studio
 ## What is LM Studio
 
 -   LM Studio is used to run LLMs locally in servers or laptops running Windows / macOS / Linux
@@ -27,6 +26,8 @@ lms get llama-3.1-8b --yes
 
 -   LM Studio application provides chat interface
 -   First load a downloaded model in the top bar and then chat with the loaded model
+
+![](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/lmstudio%20chat%20interface.png?raw=true)
 
 ## Chat in command line with LM Studio CLI
 
@@ -100,5 +101,6 @@ Countries he lived in:
 
 -   LM Studio docs - [LM Studio Docs | LM Studio Docs](https://lmstudio.ai/docs/app)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTAyODI1LC0xMzMzMzU0NDcxXX0=
+eyJoaXN0b3J5IjpbLTE3OTgyNDkzMDUsLTEzMzMzNTQ0NzFdfQ
+==
 -->
