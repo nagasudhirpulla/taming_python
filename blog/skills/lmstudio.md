@@ -60,7 +60,7 @@ with lms.Client() as client:
         responseStream = model.respond_stream(chat)
         for fragment in responseStream:
             print(fragment.content, end="", flush=True)
-        print("\\n*****************************************************")
+        print("\n*****************************************************")
 
 ```
 
@@ -98,9 +98,15 @@ Countries he lived in:
 
 ![](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/lmstudio_models_folder.png?raw=true)
 
+## Video
+Video can be found [here](https://youtu.be/lbIlepHXz-k?si=5i2Ddxob3yRDvvAW)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lbIlepHXz-k?si=Y-pbJOyxw_snTyzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## References
 
 -   LM Studio docs - https://lmstudio.ai/docs/app
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0NDg4MTAxLC0xMzMzMzU0NDcxXX0=
+eyJoaXN0b3J5IjpbLTE5OTA0MTczMjQsMjY0NDg4MTAxLC0xMz
+MzMzU0NDcxXX0=
 -->
