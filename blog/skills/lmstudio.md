@@ -99,8 +99,7 @@ Countries he lived in:
 
 ## References
 
--   LM Studio docs - [LM Studio Docs | LM Studio Docs](https://lmstudio.ai/docs/app)
+-   LM Studio docs - https://lmstudio.ai/docs/app
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTgyNDkzMDUsLTEzMzMzNTQ0NzFdfQ
-==
+eyJoaXN0b3J5IjpbMTY2OTM4OTMzNiwtMTMzMzM1NDQ3MV19
 -->
