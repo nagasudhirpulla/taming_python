@@ -1,3 +1,4 @@
+# Run local LLMs with Intel/AMD GPU using LM Studio
 ## What is LM Studio
 
 -   LM Studio is used to run LLMs locally in servers or laptops running Windows / macOS / Linux
@@ -101,5 +102,5 @@ Countries he lived in:
 
 -   LM Studio docs - https://lmstudio.ai/docs/app
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTM4OTMzNiwtMTMzMzM1NDQ3MV19
+eyJoaXN0b3J5IjpbMjY0NDg4MTAxLC0xMzMzMzU0NDcxXX0=
 -->
