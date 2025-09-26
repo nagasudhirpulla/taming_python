@@ -100,39 +100,11 @@ hostname-strict-https=false
 | X-Forwarded-Host | kubernetes.docker.internal |
 | X-Forwarded-Port | 443 |
 | X-Forwarded-Proto | https |
-- For Apache as a reverse proxy the page would show a table like
-
-| URL | Value |
-| --- | --- |
-| Request | [https://kubernetes.docker.internal/realms/master/hostname-debug](https://kubernetes.docker.internal/realms/master/hostname-debug) |
-| Frontend | [https://kubernetes.docker.internal/](https://kubernetes.docker.internal/) [OK] |
-| Backend | [https://kubernetes.docker.internal/](https://kubernetes.docker.internal/) [OK] |
-| Admin | [https://kubernetes.docker.internal/](https://kubernetes.docker.internal/) [OK] |
-| Runtime | Value |
-| Server mode | dev [start-dev] |
-| Realm | master |
-| Configuration property | Value |
-| hostname-strict | FALSE |
-| hostname-strict-backchannel | FALSE |
-| hostname-strict-https | FALSE |
-| hostname-port | -1 |
-| proxy | none |
-| proxy-headers | xforwarded |
-| http-enabled | TRUE |
-| http-relative-path | / |
-| http-port | 8080 |
-| https-port | 8443 |
-| Header | Value |
-| Host | kubernetes.docker.internal |
-| X-Forwarded-For | 127.0.0.1 |
-| X-Forwarded-Host | kubernetes.docker.internal |
-| X-Forwarded-Port | 443 |
-| X-Forwarded-Proto | https |
 
 ## References
 
 - Keycloak reverse proxy docs - [https://www.keycloak.org/server/reverseproxy](https://www.keycloak.org/server/reverseproxy)
 - IIS server variables - [https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524602(v=vs.90)](https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524602(v=vs.90))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDkzODI3NSw1Nzc1MDExOV19
+eyJoaXN0b3J5IjpbNjA5NjM3OTk3LDU3NzUwMTE5XX0=
 -->
