@@ -2,269 +2,137 @@
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak%20iis%20architecture.png?raw=true)
 
-  
-
 - A reverse proxy like IIS can sit between clients and keycloak server and forwards the client requests to keycloak
-
 - This setup can deligate common web server features like SSL, web server hardening etc to the reverse proxy
-
-  
 
 ## Keycloak “edge” mode
 
-  
-
 - edge mode or SSL termination mode in Keycloak configures Keycloak to use X-Forwarded headers from HTTP request to figure out the client’s original request information
-
-  
 
 ## IIS modules
 
-  
-
 - Install AAR and URL rewrite modules in IIS
-
-  
 
 ## Website in IIS for reverse proxy
 
-  
-
 - Create a website in IIS and bind to a port (say 443)
-
 - Enable HTTP in the website (recommended)
-
-  
 
 ## URL rewrite rule
 
-  
-
 - Open the website in IIS and double click url-rewrite module
-
 - Create a rule as shown below which to make the website act as a reverse proxy for keycloak server which is running at http://192.168.10.11:8085
-
 - Note that HTTP_X_FORWARDED_PROTO, HTTP_X_FORWARDED_PORT, HTTP_X_FORWARDED_HOST, HTTP_X_FORWARDED_FOR server variables are set in the wrl rewrite rule. This helps keycloak to detect that the request is routed through reverse proxy and the original request details received by the reverse proxy.
-
-  
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak%20iis%20url%20rewrite%20rule.png?raw=true)
 
-  
-
 ## IIS web config for reverse proxy site
-
-  
 
 - Instead of graphically configuring url rewrite rule, the rule can also be added to the site’s web.config as shown below
 
-  
-
 ```xml
-
 <?xml version="1.0" encoding="UTF-8"?>
-
 <configuration>
-
-<system.webServer>
-
-<rewrite>
-
-<rules>
-
-<rule  name="keycloak"  enabled="true"  stopProcessing="true">
-
-<match  url="(.*)"  />
-
-<serverVariables>
-
-<set  name="HTTP_X_FORWARDED_PROTO"  value="https"  />
-
-<set  name="HTTP_X_FORWARDED_PORT"  value="{SERVER_PORT}"  />
-
-<set  name="HTTP_X_FORWARDED_HOST"  value="{HTTP_HOST}"  />
-
-<set  name="HTTP_X_FORWARDED_FOR"  value="{REMOTE_ADDR}"  />
-
-</serverVariables>
-
-<action  type="Rewrite"  url="http://192.168.10.11:8085/{R:1}"  logRewrittenUrl="true"  />
-
-<conditions>
-
-</conditions>
-
-</rule>
-
-</rules>
-
-</rewrite>
-
-</system.webServer>
-
+    <system.webServer>
+        <rewrite>
+            <rules>
+                <rule name="keycloak" enabled="true" stopProcessing="true">
+                    <match url="(.*)" />
+                    <serverVariables>
+                        <set name="HTTP_X_FORWARDED_PROTO" value="https" />
+                        <set name="HTTP_X_FORWARDED_PORT" value="{SERVER_PORT}" />
+                        <set name="HTTP_X_FORWARDED_HOST" value="{HTTP_HOST}" />
+                        <set name="HTTP_X_FORWARDED_FOR" value="{REMOTE_ADDR}" />
+                    </serverVariables>
+                    <action type="Rewrite" url="http://192.168.10.11:8085/{R:1}" logRewrittenUrl="true" />
+                    <conditions>
+                    </conditions>
+                </rule>
+            </rules>
+        </rewrite>
+    </system.webServer>
 </configuration>
-
 ```
-
-  
 
 ## Keycloak configuration for reverse proxy
 
-  
-
 - Ensure the following settings in the `conf/keycloak.conf` file
 
-  
-
 ```bash
-
 proxy-headers=xforwarded
-
 # HTTP
-
 http-enabled=true
-
 http-port=8085
-
 hostname-strict=false
-
 hostname-strict-https=false
-
 ```
-
-  
 
 ## Debug reverse proxy headers and host names
 
-  
-
 - Start Keycloak with the `-hostname-debug=true` option (like `bin\kc.bat start-dev --hostname-debug=true`)
-
 - After starting Keycloak, open the URL `https://<keycloak-host-addr>/realms/master/hostname-debug`
-
 - This opens a page where the reverse proxy headers, hostnames received at Keycloak are displayed
-
 - For IIS as a reverse proxy the page would show a table like
 
-  
-
 | URL | Value |
-
 | --- | --- |
-
 | Request | [https://kubernetes.docker.internal/realms/master/hostname-debug](https://kubernetes.docker.internal/realms/master/hostname-debug) |
-
 | Frontend | [https://kubernetes.docker.internal/](https://kubernetes.docker.internal/) [OK] |
-
 | Backend | [https://kubernetes.docker.internal/](https://kubernetes.docker.internal/) [OK] |
-
 | Admin | [https://kubernetes.docker.internal/](https://kubernetes.docker.internal/) [OK] |
-
 | Runtime | Value |
-
 | Server mode | dev [start-dev] |
-
 | Realm | master |
-
 | Configuration property | Value |
-
 | hostname-strict | false |
-
 | hostname-strict-backchannel | false |
-
 | hostname-strict-https | false |
-
 | hostname-port | -1 |
-
 | proxy | none |
-
 | proxy-headers | xforwarded |
-
 | http-enabled | true |
-
 | http-relative-path | / |
-
 | http-port | 8080 |
-
 | https-port | 8443 |
-
 | Header | Value |
-
 | Host | kubernetes.docker.internal |
-
 | X-Forwarded-For | 127.0.0.1, 127.0.0.1:51862 |
-
 | X-Forwarded-Host | kubernetes.docker.internal |
-
 | X-Forwarded-Port | 443 |
-
 | X-Forwarded-Proto | https |
-
 - For Apache as a reverse proxy the page would show a table like
 
-  
-
 | URL | Value |
-
 | --- | --- |
-
 | Request | [https://kubernetes.docker.internal/realms/master/hostname-debug](https://kubernetes.docker.internal/realms/master/hostname-debug) |
-
 | Frontend | [https://kubernetes.docker.internal/](https://kubernetes.docker.internal/) [OK] |
-
 | Backend | [https://kubernetes.docker.internal/](https://kubernetes.docker.internal/) [OK] |
-
 | Admin | [https://kubernetes.docker.internal/](https://kubernetes.docker.internal/) [OK] |
-
 | Runtime | Value |
-
 | Server mode | dev [start-dev] |
-
 | Realm | master |
-
 | Configuration property | Value |
-
 | hostname-strict | FALSE |
-
 | hostname-strict-backchannel | FALSE |
-
 | hostname-strict-https | FALSE |
-
 | hostname-port | -1 |
-
 | proxy | none |
-
 | proxy-headers | xforwarded |
-
 | http-enabled | TRUE |
-
 | http-relative-path | / |
-
 | http-port | 8080 |
-
 | https-port | 8443 |
-
 | Header | Value |
-
 | Host | kubernetes.docker.internal |
-
 | X-Forwarded-For | 127.0.0.1 |
-
 | X-Forwarded-Host | kubernetes.docker.internal |
-
 | X-Forwarded-Port | 443 |
-
 | X-Forwarded-Proto | https |
-
-  
 
 ## References
 
-  
-
 - Keycloak reverse proxy docs - [https://www.keycloak.org/server/reverseproxy](https://www.keycloak.org/server/reverseproxy)
-
 - IIS server variables - [https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524602(v=vs.90)](https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524602(v=vs.90))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4MDAzMjExLDU3NzUwMTE5XX0=
+eyJoaXN0b3J5IjpbLTk2MDkzODI3NSw1Nzc1MDExOV19
 -->
