@@ -2,27 +2,31 @@
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak%20iis%20architecture.png?raw=true)
 
-- A reverse proxy like IIS can sit between clients and keycloak server and forwards the client requests to keycloak
-- This setup can deligate common web server features like SSL, web server hardening etc to the reverse proxy
+- A reverse proxy like IIS can sit between clients and Keycloak server and forwards the client requests to Keycloak
+- This setup can delegate common web server features like SSL, web server hardening etc. to the reverse proxy
 
-## Keycloak “edge” mode
+## Install IIS on a Windows machine
 
-- edge mode or SSL termination mode in Keycloak configures Keycloak to use X-Forwarded headers from HTTP request to figure out the client’s original request information
+- In windows search for “Turn Windows features On or Off”
+- Under the “Internet Information Services” section, make sure that “IIS Management Console” and default options under “World Wide Web Services” are enabled
 
-## IIS modules
+## IIS modules required for reverse proxy
 
-- Install AAR and URL rewrite modules in IIS
+- Install ARR and URL rewrite modules in IIS downloading them from https://www.iis.net/downloads/microsoft/application-request-routing and https://www.iis.net/downloads/microsoft/url-rewrite
+- These modules enable reverse proxy features in IIS
+- After installing the modules, open IIS, open “Application Request Routing”, Click on “Server Proxy Settings” in the right menu bar and make sure “Enable Proxy“ is checked.
 
 ## Website in IIS for reverse proxy
 
 - Create a website in IIS and bind to a port (say 443)
-- Enable HTTP in the website (recommended)
+- Use HTTPS on the website (recommended)
 
 ## URL rewrite rule
 
 - Open the website in IIS and double click url-rewrite module
-- Create a rule as shown below which to make the website act as a reverse proxy for keycloak server which is running at http://192.168.10.11:8085
-- Note that HTTP_X_FORWARDED_PROTO, HTTP_X_FORWARDED_PORT, HTTP_X_FORWARDED_HOST, HTTP_X_FORWARDED_FOR server variables are set in the wrl rewrite rule. This helps keycloak to detect that the request is routed through reverse proxy and the original request details received by the reverse proxy.
+- Before creating a rule, in the right-side menu bar, click on “View Server Variables” and ensure that `HTTP_X_FORWARDED_PROTO`, `HTTP_X_FORWARDED_PORT`, `HTTP_X_FORWARDED_HOST`, `HTTP_X_FORWARDED_FOR` server variables are added
+- Create a rule as shown below which to make the website act as a reverse proxy for Keycloak server which is running at http://192.168.10.11:8085
+- Note that `HTTP_X_FORWARDED_PROTO`, `HTTP_X_FORWARDED_PORT`, `HTTP_X_FORWARDED_HOST`, `HTTP_X_FORWARDED_FOR` server variables are set in the url rewrite rule. This helps Keycloak to detect if a request is routed through reverse proxy. The original client request details wil be extracted in Keycloak by these headers.
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/keycloak%20iis%20url%20rewrite%20rule.png?raw=true)
 
@@ -59,12 +63,16 @@
 - Ensure the following settings in the `conf/keycloak.conf` file
 
 ```bash
+# The proxy headers that should be accepted by the server
 proxy-headers=xforwarded
+
 # HTTP
 http-enabled=true
 http-port=8085
+
+# Hostname for the Keycloak server.
+# hostname=localhost
 hostname-strict=false
-hostname-strict-https=false
 ```
 
 ## Debug reverse proxy headers and host names
@@ -76,10 +84,10 @@ hostname-strict-https=false
 
 | URL | Value |
 | --- | --- |
-| Request | [https://kubernetes.docker.internal/realms/master/hostname-debug](https://kubernetes.docker.internal/realms/master/hostname-debug) |
-| Frontend | [https://kubernetes.docker.internal/](https://kubernetes.docker.internal/) [OK] |
-| Backend | [https://kubernetes.docker.internal/](https://kubernetes.docker.internal/) [OK] |
-| Admin | [https://kubernetes.docker.internal/](https://kubernetes.docker.internal/) [OK] |
+| Request | https://kubernetes.docker.internal/realms/master/hostname-debug |
+| Frontend | https://kubernetes.docker.internal/ [OK] |
+| Backend | https://kubernetes.docker.internal/ [OK] |
+| Admin | https://kubernetes.docker.internal/ [OK] |
 | Runtime | Value |
 | Server mode | dev [start-dev] |
 | Realm | master |
@@ -103,8 +111,9 @@ hostname-strict-https=false
 
 ## References
 
-- Keycloak reverse proxy docs - [https://www.keycloak.org/server/reverseproxy](https://www.keycloak.org/server/reverseproxy)
+- Keycloak reverse proxy docs - https://www.keycloak.org/server/reverseproxy
 - IIS server variables - [https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524602(v=vs.90)](https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524602(v=vs.90))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5NjM3OTk3LDU3NzUwMTE5XX0=
+eyJoaXN0b3J5IjpbMTMyMTQ2MTIxMyw2MDk2Mzc5OTcsNTc3NT
+AxMTldfQ==
 -->
