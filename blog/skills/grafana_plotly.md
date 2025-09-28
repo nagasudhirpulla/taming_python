@@ -1,29 +1,30 @@
 # Customized Grafana visualizations with Plotly Panel
+
 ![](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_plotly_panel_demo.png?raw=true)
 
--   Grafana does not directly support many visualizations out of the box (like scatter plots, box plots, sunburst chart etc.
--   We will use the Plotly panel Grafana plugin to create highly customizable visualizations
+- Grafana does not directly support many visualizations out of the box (like scatter plots, box plots, sunburst chart etc.
+- We will use the Plotly panel Grafana plugin to create highly customizable visualizations
 
 ## How Plotly Panel works
 
--   Plotly panel uses Plotly JS JavaScript library to create the visualization in Grafana Panel
--   Plotly JS is a famous and opensource charting library that has a provision to easily create various types of visualizations (like scatter plots, box plots, bar charts, 3d charts, sunburst chart etc.)
--   The JavaScript code required to create the desired visualization is to be written in the “Script” input of a Plotly panel in Grafana dashboard.
+- Plotly panel uses Plotly JS JavaScript library to create the visualization in Grafana Panel
+- Plotly JS is a famous and opensource charting library that has a provision to easily create various types of visualizations (like scatter plots, box plots, bar charts, 3d charts, sunburst chart etc.)
+- The JavaScript code required to create the desired visualization is to be written in the “Script” input of a Plotly panel in Grafana dashboard.
 
 ## Plotly Panel Grafana plugin installation
 
--   Plotly panel plugin can be found at [https://grafana.com/grafana/plugins/ae3e-plotly-panel/](https://grafana.com/grafana/plugins/ae3e-plotly-panel/)
--   It can be installed directly by searching it in the Plugins page
+- Plotly panel plugin can be found at https://grafana.com/grafana/plugins/ae3e-plotly-panel/
+- It can be installed directly by searching it in the Plugins page
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/plotly_panel_install_in_grafana.png?raw=true)
 
--   For offline installation, the plugin zip file can be downloaded from its GitHub releases page at [https://github.com/ae3e/ae3e-plotly-panel/releases](https://github.com/ae3e/ae3e-plotly-panel/releases) and unpack it in the Grafana plugins folder (`C:\\Program Files\\GrafanaLabs\\grafana\\data\\plugins`)
+- For offline installation, the plugin zip file can be downloaded from its GitHub releases page at https://github.com/ae3e/ae3e-plotly-panel/releases and unpack it in the Grafana plugins folder (`C:\Program Files\GrafanaLabs\grafana\data\plugins`)
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_plotly_plugin_folder.png?raw=true)
 
 ## Using Plotly panel in Grafana dashboard
 
--   Create a panel in the dashboard. In the panel editing screen, select the visualization as “Plotly panel” as shown below
+- Create a panel in the dashboard. In the panel editing screen, select the visualization as “Plotly panel” as shown below
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_plotly_panel_visualization_select.png?raw=true)
 
@@ -31,13 +32,13 @@
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/grafana_plotly_panel_script.png?raw=true)
 
--   The Plotly panel script should return a JavaScript object with attributes `data`, `layout` and `config` (`layout` and `config` are optional)
-    -   `data` is a list of `traces`. Each trace contains a data series like timeseries, bar chart etc. (refer examples of various trace types [here](https://plotly.com/javascript/)).
-    -   `layout` is the non-data related visual attributes like title, margins, backgrounds, axis configuration etc. (refer various layout options [here](https://plotly.com/javascript/reference/layout/))
-    -   config is the high-level options for the chart like scroll zoom behavior, mode bar visibility etc. (refer various config options [here](https://plotly.com/javascript/configuration-options/))
--   The script will have 2 JavaScript variables data and variables populated
-    -   The `data` variable contains the data fetched by the Grafana queries. So, the data from Grafana data sources can be used by Plotly Script using the data variable. For example, `data.series[0].fields[1].values` is the values of the 1st query and `data.series[0].fields[1].values` is the timestamps of the 2nd query
-    -   The `variables` variable contains the Grafana variables of the current dashboard (like user variables, global variables like `__from`, `__to`, `__interval` and `__interval_ms`)
+- The Plotly panel script should return a JavaScript object with attributes `data`, `layout` and `config` (`layout` and `config` are optional)
+    - `data` is a list of `traces`. Each trace contains a data series like timeseries, bar chart etc. (refer examples of various trace types [here](https://plotly.com/javascript/)).
+    - `layout` is the non-data related visual attributes like title, margins, backgrounds, axis configuration etc. (refer various layout options [here](https://plotly.com/javascript/reference/layout/))
+    - config is the high-level options for the chart like scroll zoom behavior, mode bar visibility etc. (refer various config options [here](https://plotly.com/javascript/configuration-options/))
+- The script will have 2 JavaScript variables data and variables populated
+    - The `data` variable contains the data fetched by the Grafana queries. So, the data from Grafana data sources can be used by Plotly Script using the data variable. For example, `data.series[0].fields[1].values` is the values of the 1st query and `data.series[0].fields[1].values` is the timestamps of the 2nd query
+    - The `variables` variable contains the Grafana variables of the current dashboard (like user variables, global variables like `__from`, `__to`, `__interval` and `__interval_ms`)
 
 ## Examples
 
@@ -90,7 +91,6 @@ return {
     data: tracesData,
     layout: layout
 }
-
 ```
 
 ### Box plot example
@@ -159,7 +159,6 @@ return {
     data: tracesdata,
     layout: layout
 }
-
 ```
 
 ### Day wise box plot example
@@ -247,14 +246,13 @@ return {
     data: tracesData,
     layout: layout
 }
-
 ```
 
 ## References
 
--   Grafana Plotly Panel - [https://grafana.com/grafana/plugins/ae3e-plotly-panel/](https://grafana.com/grafana/plugins/ae3e-plotly-panel/)
--   Plotly JS code examples - [https://plotly.com/javascript/basic-charts/](https://plotly.com/javascript/basic-charts/)
--   Plot JS data, layout and config explained - [https://plotly.com/javascript/plotlyjs-function-reference/](https://plotly.com/javascript/plotlyjs-function-reference/)
+- Grafana Plotly Panel - https://grafana.com/grafana/plugins/ae3e-plotly-panel/
+- Plotly JS code examples - https://plotly.com/javascript/basic-charts/
+- Plot JS data, layout and config explained - https://plotly.com/javascript/plotlyjs-function-reference/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTgyNDI5LC0xNjQzMjI0MjcyXX0=
+eyJoaXN0b3J5IjpbMTA4MTU3MTE5NiwtMTY0MzIyNDI3Ml19
 -->
