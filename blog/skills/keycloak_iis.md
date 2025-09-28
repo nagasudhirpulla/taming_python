@@ -109,11 +109,16 @@ hostname-strict=false
 | X-Forwarded-Port | 443 |
 | X-Forwarded-Proto | https |
 
+## Video
+The video for this post can be found [here](https://youtu.be/LSJg3_uqOXU?si=mB31Wj91zia1FHhX)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LSJg3_uqOXU?si=CseR3r69-LkafUyR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## References
 
 - Keycloak reverse proxy docs - https://www.keycloak.org/server/reverseproxy
 - IIS server variables - [https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524602(v=vs.90)](https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524602(v=vs.90))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMTQ2MTIxMyw2MDk2Mzc5OTcsNTc3NT
-AxMTldfQ==
+eyJoaXN0b3J5IjpbMTQ3MTY1MzAxMywxMzIxNDYxMjEzLDYwOT
+YzNzk5Nyw1Nzc1MDExOV19
 -->
