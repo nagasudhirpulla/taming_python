@@ -308,6 +308,10 @@ for qStr, threadId in queryThreads:
 
 ```
 
+### Video
+Video for this post can be found [here](https://youtu.be/F4VMgqLxo6g)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F4VMgqLxo6g?si=lkcxj8VfhTArxcfT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## References
@@ -315,5 +319,5 @@ for qStr, threadId in queryThreads:
 - Checkpointer to persist langgraph app state - https://langchain-ai.github.io/langgraph/tutorials/get-started/3-add-memory/#1-create-a-memorysaver-checkpointer
 - trimming and summarizing chat history - https://python.langchain.com/docs/how_to/chatbots_memory/#modifying-chat-history
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjUyMjc1NCwtMTU5OTU0MzIwMl19
+eyJoaXN0b3J5IjpbODM3NzczMDg1LC0xNTk5NTQzMjAyXX0=
 -->
