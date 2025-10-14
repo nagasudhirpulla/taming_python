@@ -308,10 +308,12 @@ for qStr, threadId in queryThreads:
 
 ```
 
+
+
 ## References
 
 - Checkpointer to persist langgraph app state - https://langchain-ai.github.io/langgraph/tutorials/get-started/3-add-memory/#1-create-a-memorysaver-checkpointer
 - trimming and summarizing chat history - https://python.langchain.com/docs/how_to/chatbots_memory/#modifying-chat-history
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTk1NDMyMDJdfQ==
+eyJoaXN0b3J5IjpbMTgxNjUyMjc1NCwtMTU5OTU0MzIwMl19
 -->
