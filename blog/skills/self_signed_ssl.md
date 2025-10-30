@@ -50,7 +50,7 @@ openssl req -x509 -newkey rsa:4096 -keyout  key.pem -out cert.pem -sha256 -days 
 
 ```
 
-## **Create pfx file from certificate and key files**
+## Create pfx file from certificate and key files
 
 - The following command creats the pfx file (certificate.pfx) from key.pem and cert.pem files
 
@@ -76,5 +76,5 @@ openssl pkcs12 -info -in certificate.pfx
 
 - OpenSSL docs - https://docs.openssl.org/master/man1/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MzAyMzc0OF19
+eyJoaXN0b3J5IjpbMzEzMjg2MDIwXX0=
 -->
