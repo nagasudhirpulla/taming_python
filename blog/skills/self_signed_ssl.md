@@ -9,11 +9,11 @@
 
 - The following files will be generated for a self-signed certificate
 
-- `cert.pem` - Certificate file. This contains the public key, certificate information like subject, department, Organizational unit, country etc.
+	- `cert.pem` - Certificate file. This contains the public key, certificate information like subject, department, Organizational unit, country etc.
 
-- `key.pem` - encrypted private key file. This contains the private key
+	- `key.pem` - encrypted private key file. This contains the private key
 
-- `certificate.pfx` - contains both certificate and private key information in a single file
+	- `certificate.pfx` - contains both certificate and private key information in a single file
 
 ## Install OpenSSL
 
@@ -77,5 +77,5 @@ openssl pkcs12 -info -in certificate.pfx
 
 - OpenSSL docs - https://docs.openssl.org/master/man1/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODEzODk4MjRdfQ==
+eyJoaXN0b3J5IjpbLTYzMDA2NTg5NiwtMTU4MTM4OTgyNF19
 -->
