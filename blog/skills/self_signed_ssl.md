@@ -60,7 +60,7 @@ openssl pkcs12 -export -out certificate.pfx -inkey  key.pem -in cert.pem
 
 ```
 
-### **Check PFX contents:**
+### Check PFX contents:
 
 - Run the following command to check if the pfx file is valid and the contents of pfx file
 
@@ -76,5 +76,5 @@ openssl pkcs12 -info -in certificate.pfx
 
 - OpenSSL docs - https://docs.openssl.org/master/man1/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzMjg2MDIwXX0=
+eyJoaXN0b3J5IjpbMTA0ODg3MjcwOF19
 -->
