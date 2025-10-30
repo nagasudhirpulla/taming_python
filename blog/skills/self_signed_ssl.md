@@ -1,3 +1,4 @@
+# Create a self-signed SSL certificate with OpenSSL
 - In this post we will explore how to create a self-signed SSL certificate files using OpenSSL
 
 - OpenSSL is a toolkit for cryptography
@@ -76,5 +77,5 @@ openssl pkcs12 -info -in certificate.pfx
 
 - OpenSSL docs - https://docs.openssl.org/master/man1/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODg3MjcwOF19
+eyJoaXN0b3J5IjpbLTE1ODEzODk4MjRdfQ==
 -->
