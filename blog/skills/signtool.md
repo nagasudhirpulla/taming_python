@@ -1,6 +1,6 @@
 # Digitally sign software files with signtool.exe
 
-## Signing software files
+## Code Signing
 
 - Code signing is a process where software files are digitally signed with an SSL certificate
 - The user can see the publisher of the software files while installing or using the software
@@ -52,5 +52,5 @@
 - Windows SDK download link - https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/
 - Signtool docs - https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool#examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTE3NzM1NjcsLTQ3NDUyMjAyM119
+eyJoaXN0b3J5IjpbODU5NDg0NjY2LC00NzQ1MjIwMjNdfQ==
 -->
