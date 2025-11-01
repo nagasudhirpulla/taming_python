@@ -17,7 +17,7 @@
 - Download Windows SDK
 - While installing just choose “Windows SDK signing Tools for Desktop Apps”
 
-
+![signtool_installation.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/signtool_installation.png?raw=true)
 
 ## Sign a file with signtool.exe
 
@@ -52,5 +52,5 @@
 - Windows SDK download link - https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/
 - Signtool docs - https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool#examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NDUyMjAyM119
+eyJoaXN0b3J5IjpbLTIwOTE3NzM1NjcsLTQ3NDUyMjAyM119
 -->
