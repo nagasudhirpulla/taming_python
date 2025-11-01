@@ -71,12 +71,17 @@ openssl pkcs12 -info -in certificate.pfx
 
 ```
 
+## Video
+The video for this post can be found [here](https://youtu.be/RdzfnAcrLtU?si=j3ZFItZNcLobL_ry)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RdzfnAcrLtU?si=j3ZFItZNcLobL_ry" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## References
 
 - OpenSSL download for windows - https://slproweb.com/products/Win32OpenSSL.html
 
 - OpenSSL docs - https://docs.openssl.org/master/man1/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTgzNzQ4MzUsLTYzMDA2NTg5NiwtMT
-U4MTM4OTgyNF19
+eyJoaXN0b3J5IjpbLTE3MTM2MzE1NzAsLTExNTgzNzQ4MzUsLT
+YzMDA2NTg5NiwtMTU4MTM4OTgyNF19
 -->
