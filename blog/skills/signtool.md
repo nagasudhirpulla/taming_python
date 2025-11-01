@@ -17,7 +17,7 @@
 - Download Windows SDK
 - While installing just choose “Windows SDK signing Tools for Desktop Apps”
 
-![image.png](attachment:a1bfebc9-14bd-4f6c-8dbe-894332fe51f9:image.png)
+
 
 ## Sign a file with signtool.exe
 
@@ -52,5 +52,5 @@
 - Windows SDK download link - https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/
 - Signtool docs - https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool#examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzc2NzddfQ==
+eyJoaXN0b3J5IjpbLTQ3NDUyMjAyM119
 -->
