@@ -47,10 +47,16 @@
     - `/pa` - Specifies that the Default Authentication Verification Policy is used
     - `/v` - enables verbose mode so that detailed output is printed.
 
+## Video
+The video for this post can be found [here](https://youtu.be/Wvc3ppXe3zQ?si=Cj7_D33fnBvb6eBC)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wvc3ppXe3zQ?si=Cj7_D33fnBvb6eBC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## References
 
 - Windows SDK download link - https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/
 - Signtool docs - https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool#examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU5NDg0NjY2LC00NzQ1MjIwMjNdfQ==
+eyJoaXN0b3J5IjpbLTE0MzEwNjA4NjMsODU5NDg0NjY2LC00Nz
+Q1MjIwMjNdfQ==
 -->
