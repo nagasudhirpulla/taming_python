@@ -16,12 +16,12 @@
 ## Simple python based UI for demo
 
 -   Running the following python script creates a simple application with a UI
--   Create an exe file from the python script using the pyinstaller command `pyinstaller --onefile --noconsole .\\index.py`
+-   Create an exe file from the python script using the pyinstaller command `pyinstaller --onefile --noconsole .\index.py`
 
 ```python
 # Install tkinter with "pip install tk"
 # Install pyinstaller with pip install pyinstaller. 
-# Create exe with "pyinstaller --onefile --noconsole .\\index.py"
+# Create exe with "pyinstaller --onefile --noconsole .\index.py"
 # Import Module
 from tkinter import Tk, Menu, Label, Entry, Button
 
@@ -91,7 +91,7 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-DefaultDirName={autopf}\\{#MyAppName}
+DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 ; Comment the following line to run in administrative install mode (install for all users).
 PrivilegesRequired=lowest
@@ -102,13 +102,13 @@ WizardStyle=modern
 SetupIconFile=favicon.ico
 
 [Files]
-Source: "dist\\index.exe"; DestDir: "{app}"
+Source: "dist\index.exe"; DestDir: "{app}"
 Source: "readme.md"; DestDir: "{app}"; Flags: isreadme
 Source: "favicon.ico"; DestDir: "{app}"
 
 [Icons]
-Name: "{autoprograms}\\{#MyAppName}"; Filename: "{app}\\index.exe"; WorkingDir: "{app}"; IconFilename: "{app}\\favicon.ico"
-Name: "{autodesktop}\\{#MyAppName}"; Filename: "{app}\\index.exe"; WorkingDir: "{app}"; IconFilename: "{app}\\favicon.ico"
+Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\index.exe"; WorkingDir: "{app}"; IconFilename: "{app}\favicon.ico"
+Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\index.exe"; WorkingDir: "{app}"; IconFilename: "{app}\favicon.ico"
 
 ```
 
@@ -129,6 +129,6 @@ Name: "{autodesktop}\\{#MyAppName}"; Filename: "{app}\\index.exe"; WorkingDir: "
 -   InnoSetup script syntax - [https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm](https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm)
 -   InnoSetup script constants - [https://jrsoftware.org/ishelp/index.php?topic=consts](https://jrsoftware.org/ishelp/index.php?topic=consts)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDI4MTQ4OTUsLTIwNzAwMjAzMTAsMT
-kxMDkzMDgwNywtMTk5ODM3MTI4MV19
+eyJoaXN0b3J5IjpbLTI5NjA4ODY4NywtMjA3MDAyMDMxMCwxOT
+EwOTMwODA3LC0xOTk4MzcxMjgxXX0=
 -->
