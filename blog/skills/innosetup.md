@@ -4,9 +4,9 @@
 
 -   Installer should contain required files and setup a software in a client machine
 -   Running an installer file should
-    -   Pastes the required files in appropriate folder locations
-    -   Runs required automation scripts to setup the required software components
-    -   Creates shortcuts to access the software
+    -   Paste the required files in appropriate folder locations
+    -   Run required automation scripts to setup the required software components
+    -   Create shortcuts to access the software
 
 ## Inno Setup
 
@@ -129,6 +129,6 @@ Name: "{autodesktop}\\{#MyAppName}"; Filename: "{app}\\index.exe"; WorkingDir: "
 -   InnoSetup script syntax - [https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm](https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm)
 -   InnoSetup script constants - [https://jrsoftware.org/ishelp/index.php?topic=consts](https://jrsoftware.org/ishelp/index.php?topic=consts)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzAwMjAzMTAsMTkxMDkzMDgwNywtMT
-k5ODM3MTI4MV19
+eyJoaXN0b3J5IjpbLTE3MDI4MTQ4OTUsLTIwNzAwMjAzMTAsMT
+kxMDkzMDgwNywtMTk5ODM3MTI4MV19
 -->
