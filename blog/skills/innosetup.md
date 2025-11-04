@@ -1,4 +1,5 @@
-# 
+# Create a software installer with Inno Setup
+
 ## What is an Installer
 
 -   Installer should contain required files and setup a software in a client machine
@@ -133,5 +134,5 @@ Name: "{autodesktop}\\{#MyAppName}"; Filename: "{app}\\index.exe"; WorkingDir: "
 -   InnoSetup script syntax - [https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm](https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm)
 -   InnoSetup script constants - [https://jrsoftware.org/ishelp/index.php?topic=consts](https://jrsoftware.org/ishelp/index.php?topic=consts)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA4NzExMF19
+eyJoaXN0b3J5IjpbLTE5OTgzNzEyODFdfQ==
 -->
