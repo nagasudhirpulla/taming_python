@@ -126,15 +126,9 @@ Name: "{autodesktop}\\{#MyAppName}"; Filename: "{app}\\index.exe"; WorkingDir: "
 ## References
 
 -   Inno Setup docs - [Inno Setup Help](https://jrsoftware.org/ishelp/)
--   [https://youtu.be/l1p2GQxcP54?si=tSVenL46C1bKaQzj](https://youtu.be/l1p2GQxcP54?si=tSVenL46C1bKaQzj)
--   run script after installation - [windows - How to run a PowerShell Script after Inno Setup installer - Stack Overflow](https://stackoverflow.com/questions/56419077/how-to-run-a-powershell-script-after-inno-setup-installer)
--   Sign the installer [https://revolution.screenstepslive.com/s/revolution/m/10695/l/563371-signing-installers-you-create-with-inno-setup](https://revolution.screenstepslive.com/s/revolution/m/10695/l/563371-signing-installers-you-create-with-inno-setup)
--   Sign an exe with sign tool - [https://stackoverflow.com/questions/252226/signing-a-windows-exe-file](https://stackoverflow.com/questions/252226/signing-a-windows-exe-file)
--   [https://learn.microsoft.com/en-us/windows/win32/seccrypto/using-signtool-to-sign-a-file](https://learn.microsoft.com/en-us/windows/win32/seccrypto/using-signtool-to-sign-a-file)
--   [https://www.youtube.com/watch?v=vAfYP9hiC0M](https://www.youtube.com/watch?v=vAfYP9hiC0M)
--   Sample Innosetup script - [https://github.com/nagasudhirpulla/FolderProtectionService/blob/master/src/FolderProtectionService/InstallerAssets/AppInstallerGenScript.iss](https://github.com/nagasudhirpulla/FolderProtectionService/blob/master/src/FolderProtectionService/InstallerAssets/AppInstallerGenScript.iss)
 -   InnoSetup script syntax - [https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm](https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm)
 -   InnoSetup script constants - [https://jrsoftware.org/ishelp/index.php?topic=consts](https://jrsoftware.org/ishelp/index.php?topic=consts)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDkzMDgwNywtMTk5ODM3MTI4MV19
+eyJoaXN0b3J5IjpbLTIwNzAwMjAzMTAsMTkxMDkzMDgwNywtMT
+k5ODM3MTI4MV19
 -->
