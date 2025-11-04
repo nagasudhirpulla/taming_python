@@ -69,6 +69,8 @@ root.mainloop()
 
 ## Create installer with InnoSetup
 
+![innosetup_installer_demo.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/innosetup_installer_demo.png?raw=true)
+
 -   The following is a sample InnoSetup script (script.iss) that creates an installer named `Awesome Demo App Setup.exe` for the software files. Compiling the below script with InnoSetup creates the `Awesome Demo App Setup.exe` file.
 -   After running the installer, a desktop shortcut and start menu shortcut are created to open the installed application
 
@@ -134,5 +136,5 @@ Name: "{autodesktop}\\{#MyAppName}"; Filename: "{app}\\index.exe"; WorkingDir: "
 -   InnoSetup script syntax - [https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm](https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm)
 -   InnoSetup script constants - [https://jrsoftware.org/ishelp/index.php?topic=consts](https://jrsoftware.org/ishelp/index.php?topic=consts)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTgzNzEyODFdfQ==
+eyJoaXN0b3J5IjpbMTkxMDkzMDgwNywtMTk5ODM3MTI4MV19
 -->
