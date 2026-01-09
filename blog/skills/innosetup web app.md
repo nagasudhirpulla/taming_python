@@ -1,4 +1,4 @@
-# Create Inno Setup installer for a web server to as an nssm service
+# Installer for a web server as a background service with InnoSetup
 
 -   In this post we will
     -   Create a simple flask web app and bundle it into an exe package using pyinstaller
@@ -235,5 +235,5 @@ Filename: "{app}\\serviceDelete.bat"
 -   nssm docs - [https://nssm.cc/usage](https://nssm.cc/usage)
 -   Flask server docs - [https://flask.palletsprojects.com/en/stable/quickstart/](https://flask.palletsprojects.com/en/stable/quickstart/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3MjgwMDg2XX0=
+eyJoaXN0b3J5IjpbLTkxODM3NzI4NF19
 -->
