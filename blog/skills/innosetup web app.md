@@ -33,7 +33,7 @@ app.run(host=appConf["host"], port=appConf["port"], debug=appConf["debug"])
 
 - The server requires the `config` folder, `templates` folder and `static` folder
 
-![image.png](image.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/innosetup%20demo%20web%20app.png?raw=true)
 
 ## Convert the server to an exe file
 
@@ -54,7 +54,7 @@ rem --add-data bundles a folder into the exe. Syntax is --add-data "sourcepath;b
 - The application exe is generated in the `dist` folder
 - The `config` folder is copied into the dist folder using the `xcopy` command
     
-    ![image.png](image%201.png)
+    ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/innosetup%20demo%20web%20app%20exe.png?raw=true)
     
 
 # Windows service
@@ -205,7 +205,7 @@ Filename: "{app}\serviceDelete.bat"
 - Run `build.bat` to create exe files in the dist folder
 - Open `installerGenScript.iss` file in Inno Setup and run Build->Compile from the top menu. This generates the installer exe
 
-![image.png](image%202.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/innosetup%20compile%20option.png?raw=true)
 
 - Run the installer to install the server. This runs the server as a windows background service
 
@@ -237,5 +237,5 @@ Filename: "{app}\serviceDelete.bat"
 - nssm docs - [https://nssm.cc/usage](https://nssm.cc/usage)
 - Flask server docs - [https://flask.palletsprojects.com/en/stable/quickstart/](https://flask.palletsprojects.com/en/stable/quickstart/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTc0MzQxOTQsLTkxODM3NzI4NF19
+eyJoaXN0b3J5IjpbLTU1MzM0ODQ5OCwtOTE4Mzc3Mjg0XX0=
 -->
