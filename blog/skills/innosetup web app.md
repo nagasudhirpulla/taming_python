@@ -1,10 +1,10 @@
-# Installer for a web server as a background service with InnoSetup
+# Installer for a web server with InnoSetup
 
--   In this post we will
-    -   Create a simple flask web app and bundle it into an exe package using pyinstaller
-    -   Create batch scripts that can register, restart and delete the web app as a windows service using nssm
-    -   Create an Inno Setup script that will bundle the web app package, scripts into an installer
--   After installation of the web app with the installer, the web app will be setup and running. Also, windows start menu shortcuts to restart, stop, view logs, edit configuration of the web app will be accessible
+- In this post we will
+    - Create a simple flask web app and bundle it into an exe package using pyinstaller
+    - Create batch scripts that can register, restart and delete the web app as a windows service using nssm
+    - Create an Inno Setup script that will bundle the web app package, scripts into an installer
+- After installation of the web app with the installer, the web app will be setup and running. Also, windows start menu shortcuts to restart, stop, view logs, edit configuration of the web app will be accessible
 
 # Web app
 
@@ -29,101 +29,96 @@ def about():
     return render_template("about.html")
 
 app.run(host=appConf["host"], port=appConf["port"], debug=appConf["debug"])
-
 ```
 
--   The server requires the `config` folder, `templates` folder and `static` folder
+- The server requires the `config` folder, `templates` folder and `static` folder
+
+![image.png](image.png)
 
 ## Convert the server to an exe file
 
--   The application is built as an exe using pyinstaller (install it using `pip install pyinstaller`)
--   The following pyinstaller command is used to generate exe
+- The application is built as an exe using pyinstaller (install it using `pip install pyinstaller`)
+- The following pyinstaller command is used to generate exe
 
 ```visual-basic
-xcopy .\\config\\  .\\dist\\config\\ /E /Y
+xcopy .\config\  .\dist\config\ /E /Y
 rem /E means copy including sub-directories
 
 pyinstaller server.py --onefile --name AwesomeWebApp --add-data "templates;templates" --add-data "static;static"
 rem --onefile creates single exe file
 rem --name is the name of the exe file generated
 rem --add-data bundles a folder into the exe. Syntax is --add-data "sourcepath;bundlepath". for linux/mac, the syntax is --add-data "sourcepath:bundlepath"  
-
 ```
 
--   The `templates` and `static` folder are bundled into the exe using the `--add-data` flag
+- The `templates` and `static` folder are bundled into the exe using the `--add-data` flag
+- The application exe is generated in the `dist` folder
+- The `config` folder is copied into the dist folder using the `xcopy` command
     
--   The application exe is generated in the `dist` folder
-    
--   The `config` folder is copied into the dist folder using the `xcopy` command
+    ![image.png](image%201.png)
     
 
 # Windows service
 
--   The web app exe file can run as a windows service using `nssm.exe`
--   The following batch scripts make the web server run as a windows background service
-    -   The `serviceRegister.bat` script will run the web application exe as a windows background service named `awesome_webapp`
-    -   It also sets up a logs folder for the web server logs
+- The web app exe file can run as a windows service using `nssm.exe`
+- The following batch scripts make the web server run as a windows background service
+    - The `serviceRegister.bat` script will run the web application exe as a windows background service named `awesome_webapp`
+    - It also sets up a logs folder for the web server logs
 
 ```visual-basic
 rem delete service if exists
 call net stop awesome_webapp
 call net delete awesome_webapp
 rem insall service
-call nssm.exe install awesome_webapp "%cd%\\AwesomeWebApp.exe"
-call nssm.exe set awesome_webapp AppStdout "%programdata%\\Awesome Web App\\awesome_webapp.log"
-call nssm.exe set awesome_webapp AppStderr "%programdata%\\Awesome Web App\\awesome_webapp.log"
+call nssm.exe install awesome_webapp "%cd%\AwesomeWebApp.exe"
+call nssm.exe set awesome_webapp AppStdout "%programdata%\Awesome Web App\awesome_webapp.log"
+call nssm.exe set awesome_webapp AppStderr "%programdata%\Awesome Web App\awesome_webapp.log"
 call nssm.exe set awesome_webapp AppStdoutCreationDisposition 4
 call nssm.exe set awesome_webapp AppStderrCreationDisposition 4
 call nssm.exe set awesome_webapp AppRotateFiles 1
 call nssm.exe set awesome_webapp AppRotateOnline 1
 call nssm.exe set awesome_webapp AppRotateBytes 1048576
 call net start awesome_webapp
-
 ```
 
--   The `serviceRestart.bat` script will restart the web application windows background service
+- The `serviceRestart.bat` script will restart the web application windows background service
 
 ```visual-basic
 call net stop awesome_webapp
 call net start awesome_webapp
-
 ```
 
--   The `serviceStop.bat` script will stop the web application windows background service
+- The `serviceStop.bat` script will stop the web application windows background service
 
 ```visual-basic
 call net stop awesome_webapp
-
 ```
 
--   The `serviceDelete.bat` script will delete the web application windows background service
+- The `serviceDelete.bat` script will delete the web application windows background service
 
 ```visual-basic
 call net stop awesome_webapp
 call sc delete awesome_webapp
-
 ```
 
--   The `openLogsFolder.bat` script will open the logs folder in file explorer
+- The `openLogsFolder.bat` script will open the logs folder in file explorer
 
 ```visual-basic
-%SystemRoot%\\explorer.exe "%programdata%\\Awesome Web App\\"
-
+%SystemRoot%\explorer.exe "%programdata%\Awesome Web App\"
 ```
 
 # Installer for the software
 
--   Inno Setup is used to create an installer for the software files
--   It can be downloaded from [https://jrsoftware.org/isdl.php#stable](https://jrsoftware.org/isdl.php#stable)
--   The installer does the following during software installation
-    -   creates all the required software files and folders in the required locations
-    -   creates the logs folder if not present
-    -   runs the script to register the server as a windows background service
-    -   creates shortcuts for server restart, stop, opening logs folder, opening config file in the start menu
-    -   sets up a software uninstallation script that deletes the web application windows service
-    -   starts the server
--   The `installerGenScript.iss` file contains the script to generate the software installer
--   It bundles the exe, bat, readme, favicon and other required files into the installer exe file
+- Inno Setup is used to create an installer for the software files
+- It can be downloaded from [https://jrsoftware.org/isdl.php#stable](https://jrsoftware.org/isdl.php#stable)
+- The installer does the following during software installation
+    - creates all the required software files and folders in the required locations
+    - creates the logs folder if not present
+    - runs the script to register the server as a windows background service
+    - creates shortcuts for server restart, stop, opening logs folder, opening config file in the start menu
+    - sets up a software uninstallation script that deletes the web application windows service
+    - starts the server
+- The `installerGenScript.iss` file contains the script to generate the software installer
+- It bundles the exe, bat, readme, favicon and other required files into the installer exe file
 
 ```bash
 ; Script generated by the Inno Setup Script Wizard.
@@ -132,7 +127,7 @@ call sc delete awesome_webapp
 #define MyAppName "Awesome Web App"
 #define MyAppVersion "1.0"
 #define MyAppPublisher "Learning Software"
-#define MyAppURL "<https://youtube.com/%40learningsoftwareskills>"
+#define MyAppURL "https://youtube.com/%40learningsoftwareskills"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
@@ -149,7 +144,7 @@ AppUpdatesURL={#MyAppURL}
 ; and enable 64-bit install mode.
 ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
-DefaultDirName={autopf}\\{#MyAppName}
+DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 ; Uncomment the following line to run in non administrative install mode (install for current user only).
 ;PrivilegesRequired=lowest
@@ -157,83 +152,90 @@ OutputDir=Installer
 OutputBaseFilename={#MyAppName} Setup
 SolidCompression=yes
 WizardStyle=modern
-SetupIconFile="..\\static\\favicon.ico"
+SetupIconFile="..\static\favicon.ico"
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Files]
-Source: "..\\dist\\config\\config.json"; DestDir: "{app}\\config"; Flags: ignoreversion
-Source: "..\\dist\\AwesomeWebApp.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\dist\config\config.json"; DestDir: "{app}\config"; Flags: ignoreversion
+Source: "..\dist\AwesomeWebApp.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "nssm.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "serviceRegister.bat"; DestDir: "{app}"; Flags: ignoreversion
 Source: "serviceDelete.bat"; DestDir: "{app}"; Flags: ignoreversion
 Source: "serviceRestart.bat"; DestDir: "{app}"; Flags: ignoreversion
 Source: "serviceStop.bat"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
-Source: "..\\static\\favicon.ico"; DestDir: "{app}"
-Source: "..\\README.md"; DestDir: "{app}"; Flags: isreadme
+Source: "..\static\favicon.ico"; DestDir: "{app}"
+Source: "..\README.md"; DestDir: "{app}"; Flags: isreadme
 
 [Icons]
-Name: "{autoprograms}\\Configure {#MyAppName}"; Filename: "{app}\\config\\config.json"; WorkingDir: "{app}\\config"; IconFilename: "{app}\\favicon.ico"
-Name: "{autoprograms}\\Restart {#MyAppName}"; Filename: "{app}\\serviceRestart.bat"; WorkingDir: "{app}"; IconFilename: "{app}\\favicon.ico"
-Name: "{autoprograms}\\Stop {#MyAppName}"; Filename: "{app}\\serviceStop.bat"; WorkingDir: "{app}"; IconFilename: "{app}\\favicon.ico"
-Name: "{autoprograms}\\View Logs of {#MyAppName}"; Filename: "{app}\\openLogsFolder.bat"; WorkingDir: "{app}"; IconFilename: "{app}\\favicon.ico"
+Name: "{autoprograms}\Configure {#MyAppName}"; Filename: "{app}\config\config.json"; WorkingDir: "{app}\config"; IconFilename: "{app}\favicon.ico"
+Name: "{autoprograms}\Restart {#MyAppName}"; Filename: "{app}\serviceRestart.bat"; WorkingDir: "{app}"; IconFilename: "{app}\favicon.ico"
+Name: "{autoprograms}\Stop {#MyAppName}"; Filename: "{app}\serviceStop.bat"; WorkingDir: "{app}"; IconFilename: "{app}\favicon.ico"
+Name: "{autoprograms}\View Logs of {#MyAppName}"; Filename: "{app}\openLogsFolder.bat"; WorkingDir: "{app}"; IconFilename: "{app}\favicon.ico"
 
 [Dirs]
-Name: "{commonappdata}\\{#MyAppName}"
+Name: "{commonappdata}\{#MyAppName}"
 
 [Run]
-Filename: "{app}\\serviceRegister.bat"
+Filename: "{app}\serviceRegister.bat"
 
 [UninstallRun]
-Filename: "{app}\\serviceDelete.bat"
-
+Filename: "{app}\serviceDelete.bat"
 ```
 
--   `#define` is used to define the variables used in the iss script. The installer exe file is generated in the `Installer` folder
--   The `[Files]` section specifies the files that will be bundled into the installer. It also specifies the folders where the files are installed
--   The `[RUN]` section specifies to run the file `serviceRegister.bat` after all the application files are installed
--   The `[UninstallRun]` section specifies to run the file `serviceDelete.bat` before removing the installed files
--   The `[Icons]` section creates a shortcut for 2 files
-    -   `config.json` which facilitates configuring the server
-    -   `serviceRestart.bat` which restarts the server
--   The `[Dirs]` section specifies the folders that will be ensured during the installation
--   The `[Setup]` section specifies the general configuration of the installer like name, version, icon etc.
--   The following special variables are used in the script (official docs [here](https://jrsoftware.org/ishelp/index.php?topic=consts))
-    -   `{autopf}` - program files folder
-    -   `{app}` - directory where the software files would be present after installation
-    -   `{autoprograms}` - Programs folder on the Start Menu
-    -   `{commonappdata}` - The path to the Application Data folder
+- `#define` is used to define the variables used in the iss script. The installer exe file is generated in the `Installer` folder
+- The `[Files]` section specifies the files that will be bundled into the installer. It also specifies the folders where the files are installed
+- The `[RUN]` section specifies to run the file `serviceRegister.bat` after all the application files are installed
+- The `[UninstallRun]` section specifies to run the file `serviceDelete.bat` before removing the installed files
+- The `[Icons]` section creates a shortcut for 2 files
+    - `config.json` which facilitates configuring the server
+    - `serviceRestart.bat` which restarts the server
+- The `[Dirs]` section specifies the folders that will be ensured during the installation
+- The `[Setup]` section specifies the general configuration of the installer like name, version, icon etc.
+- The following special variables are used in the script (official docs [here](https://jrsoftware.org/ishelp/index.php?topic=consts))
+    - `{autopf}` - program files folder
+    - `{app}` - directory where the software files would be present after installation
+    - `{autoprograms}` - Programs folder on the Start Menu
+    - `{commonappdata}` - The path to the Application Data folder
 
 ## Steps to run the demo
 
--   Run `build.bat` to create exe files in the dist folder
--   Open `installerGenScript.iss` file in Inno Setup and run Build->Compile from the top menu. This generates the installer exe
+- Run `build.bat` to create exe files in the dist folder
+- Open `installerGenScript.iss` file in Inno Setup and run Build->Compile from the top menu. This generates the installer exe
 
--   Run the installer to install the server. This runs the server as a windows background service
+![image.png](image%202.png)
 
--   Search for "Configure Awesome Web App" in start menu to edit the server's `config.json` file
--   Search for "Restart Awesome Web App" in start menu to restart the server
--   Search for "View logs of Awesome Web App" in start menu to see the logs folder
--   Because of nssm, the web app is running as a windows background service as shown in the below image
+- Run the installer to install the server. This runs the server as a windows background service
 
--   The software can be uninstalled just like any other software in the control panel or "Add or remove programs" menu
+![image.png](image%203.png)
+
+- Search for "Configure Awesome Web App" in start menu to edit the server's `config.json` file
+- Search for "Restart Awesome Web App" in start menu to restart the server
+- Search for "View logs of Awesome Web App" in start menu to see the logs folder
+- Because of nssm, the web app is running as a windows background service as shown in the below image
+
+![image.png](image%204.png)
+
+- The software can be uninstalled just like any other software in the control panel or "Add or remove programs" menu
+
+![image.png](image%205.png)
 
 ## References
 
--   Inno Setup download - [https://jrsoftware.org/isdl.php#stable](https://jrsoftware.org/isdl.php#stable)
--   Source code and inno setup script for the demo - [https://github.com/nagasudhirpulla/flask_server_installer_demo](https://github.com/nagasudhirpulla/flask_server_installer_demo)
--   Inno Setup docs - [https://jrsoftware.org/ishelp/](https://jrsoftware.org/ishelp/)
--   InnoSetup script syntax - [https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm](https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm)
--   InnoSetup script constants - [https://jrsoftware.org/ishelp/index.php?topic=consts](https://jrsoftware.org/ishelp/index.php?topic=consts)
--   Files section in Innosetup - [https://jrsoftware.org/ishelp/topic_filessection.htm](https://jrsoftware.org/ishelp/topic_filessection.htm)
--   Run & UninstallRun sections in Innosetup - [https://jrsoftware.org/ishelp/topic_runsection.htm](https://jrsoftware.org/ishelp/topic_runsection.htm)
--   Icons section in Innosetup - [https://jrsoftware.org/ishelp/topic_iconssection.htm](https://jrsoftware.org/ishelp/topic_iconssection.htm)
--   Dirs section in Innosetup - [https://jrsoftware.org/ishelp/topic_dirssection.htm](https://jrsoftware.org/ishelp/topic_dirssection.htm)
--   Setup section in Innosetup - [https://jrsoftware.org/ishelp/topic_setupsection.htm](https://jrsoftware.org/ishelp/topic_setupsection.htm)
--   nssm docs - [https://nssm.cc/usage](https://nssm.cc/usage)
--   Flask server docs - [https://flask.palletsprojects.com/en/stable/quickstart/](https://flask.palletsprojects.com/en/stable/quickstart/)
+- Inno Setup download - [https://jrsoftware.org/isdl.php#stable](https://jrsoftware.org/isdl.php#stable)
+- Source code and inno setup script for the demo - [https://github.com/nagasudhirpulla/flask_server_installer_demo](https://github.com/nagasudhirpulla/flask_server_installer_demo)
+- Inno Setup docs - [https://jrsoftware.org/ishelp/](https://jrsoftware.org/ishelp/)
+- InnoSetup script syntax - [https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm](https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm)
+- InnoSetup script constants - [https://jrsoftware.org/ishelp/index.php?topic=consts](https://jrsoftware.org/ishelp/index.php?topic=consts)
+- Files section in Innosetup - [https://jrsoftware.org/ishelp/topic_filessection.htm](https://jrsoftware.org/ishelp/topic_filessection.htm)
+- Run & UninstallRun sections in Innosetup - [https://jrsoftware.org/ishelp/topic_runsection.htm](https://jrsoftware.org/ishelp/topic_runsection.htm)
+- Icons section in Innosetup - [https://jrsoftware.org/ishelp/topic_iconssection.htm](https://jrsoftware.org/ishelp/topic_iconssection.htm)
+- Dirs section in Innosetup - [https://jrsoftware.org/ishelp/topic_dirssection.htm](https://jrsoftware.org/ishelp/topic_dirssection.htm)
+- Setup section in Innosetup - [https://jrsoftware.org/ishelp/topic_setupsection.htm](https://jrsoftware.org/ishelp/topic_setupsection.htm)
+- nssm docs - [https://nssm.cc/usage](https://nssm.cc/usage)
+- Flask server docs - [https://flask.palletsprojects.com/en/stable/quickstart/](https://flask.palletsprojects.com/en/stable/quickstart/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODM3NzI4NF19
+eyJoaXN0b3J5IjpbLTE1OTc0MzQxOTQsLTkxODM3NzI4NF19
 -->
