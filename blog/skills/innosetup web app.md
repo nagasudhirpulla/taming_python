@@ -207,20 +207,20 @@ Filename: "{app}\serviceDelete.bat"
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/innosetup%20compile%20option.png?raw=true)
 
-- Run the installer to install the server. This runs the server as a windows background service
+- Run the installer to install the server. This will setup and run the server as a windows background service
 
-![image.png](image%203.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/innosetup%20installer%20run%20demo.png?raw=true)
 
 - Search for "Configure Awesome Web App" in start menu to edit the server's `config.json` file
 - Search for "Restart Awesome Web App" in start menu to restart the server
 - Search for "View logs of Awesome Web App" in start menu to see the logs folder
 - Because of nssm, the web app is running as a windows background service as shown in the below image
 
-![image.png](image%204.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/innosteup%20demo%20web%20app%20service.png?raw=true)
 
 - The software can be uninstalled just like any other software in the control panel or "Add or remove programs" menu
 
-![image.png](image%205.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/innosetup%20app%20uninstall%20demo.png?raw=true)
 
 ## References
 
@@ -237,5 +237,5 @@ Filename: "{app}\serviceDelete.bat"
 - nssm docs - [https://nssm.cc/usage](https://nssm.cc/usage)
 - Flask server docs - [https://flask.palletsprojects.com/en/stable/quickstart/](https://flask.palletsprojects.com/en/stable/quickstart/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzM0ODQ5OCwtOTE4Mzc3Mjg0XX0=
+eyJoaXN0b3J5IjpbODY3OTAxMzcxLC05MTgzNzcyODRdfQ==
 -->
