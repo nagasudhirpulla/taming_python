@@ -124,7 +124,7 @@ Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\index.exe"; WorkingDir: "{a
     -   `{autodesktop}` - desktop folder
 
 ## Video
-Video for this post can be found at 
+Video for this post can be found at https://youtu.be/OSIGcVI13Lw?si=85_X89_xE4dyRPno
 
 ## References
 
@@ -132,6 +132,7 @@ Video for this post can be found at
 -   InnoSetup script syntax - [https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm](https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm)
 -   InnoSetup script constants - [https://jrsoftware.org/ishelp/index.php?topic=consts](https://jrsoftware.org/ishelp/index.php?topic=consts)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4OTYyOTEwLC0yOTYwODg2ODcsLTIwNz
-AwMjAzMTAsMTkxMDkzMDgwNywtMTk5ODM3MTI4MV19
+eyJoaXN0b3J5IjpbOTQzNjcwMDkxLDQxODk2MjkxMCwtMjk2MD
+g4Njg3LC0yMDcwMDIwMzEwLDE5MTA5MzA4MDcsLTE5OTgzNzEy
+ODFdfQ==
 -->
