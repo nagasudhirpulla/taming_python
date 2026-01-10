@@ -165,6 +165,7 @@ Source: "serviceRegister.bat"; DestDir: "{app}"; Flags: ignoreversion
 Source: "serviceDelete.bat"; DestDir: "{app}"; Flags: ignoreversion
 Source: "serviceRestart.bat"; DestDir: "{app}"; Flags: ignoreversion
 Source: "serviceStop.bat"; DestDir: "{app}"; Flags: ignoreversion
+Source: "openLogsFolder.bat"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 Source: "..\static\favicon.ico"; DestDir: "{app}"
 Source: "..\README.md"; DestDir: "{app}"; Flags: isreadme
@@ -237,5 +238,6 @@ Filename: "{app}\serviceDelete.bat"
 - nssm docs - [https://nssm.cc/usage](https://nssm.cc/usage)
 - Flask server docs - [https://flask.palletsprojects.com/en/stable/quickstart/](https://flask.palletsprojects.com/en/stable/quickstart/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3OTAxMzcxLC05MTgzNzcyODRdfQ==
+eyJoaXN0b3J5IjpbMjk1OTIzMzMzLDg2NzkwMTM3MSwtOTE4Mz
+c3Mjg0XX0=
 -->
