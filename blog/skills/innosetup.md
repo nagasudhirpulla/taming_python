@@ -123,12 +123,15 @@ Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\index.exe"; WorkingDir: "{a
     -   `{autoprograms}` - Programs folder on the Start Menu
     -   `{autodesktop}` - desktop folder
 
+## Video
+Video for this post can be found at 
+
 ## References
 
 -   Inno Setup docs - [Inno Setup Help](https://jrsoftware.org/ishelp/)
 -   InnoSetup script syntax - [https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm](https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm)
 -   InnoSetup script constants - [https://jrsoftware.org/ishelp/index.php?topic=consts](https://jrsoftware.org/ishelp/index.php?topic=consts)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjA4ODY4NywtMjA3MDAyMDMxMCwxOT
-EwOTMwODA3LC0xOTk4MzcxMjgxXX0=
+eyJoaXN0b3J5IjpbNDE4OTYyOTEwLC0yOTYwODg2ODcsLTIwNz
+AwMjAzMTAsMTkxMDkzMDgwNywtMTk5ODM3MTI4MV19
 -->
