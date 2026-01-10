@@ -126,13 +126,15 @@ Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\index.exe"; WorkingDir: "{a
 ## Video
 Video for this post can be found at https://youtu.be/OSIGcVI13Lw?si=85_X89_xE4dyRPno
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OSIGcVI13Lw?si=DnRdgS2iyRYqJsD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## References
 
 -   Inno Setup docs - [Inno Setup Help](https://jrsoftware.org/ishelp/)
 -   InnoSetup script syntax - [https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm](https://jrsoftware.org/ishelp/topic_scriptformatoverview.htm)
 -   InnoSetup script constants - [https://jrsoftware.org/ishelp/index.php?topic=consts](https://jrsoftware.org/ishelp/index.php?topic=consts)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzNjcwMDkxLDQxODk2MjkxMCwtMjk2MD
+eyJoaXN0b3J5IjpbOTk4MTEzMTY3LDQxODk2MjkxMCwtMjk2MD
 g4Njg3LC0yMDcwMDIwMzEwLDE5MTA5MzA4MDcsLTE5OTgzNzEy
 ODFdfQ==
 -->
