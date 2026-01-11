@@ -223,6 +223,11 @@ Filename: "{app}\serviceDelete.bat"
 
 ![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/innosetup%20app%20uninstall%20demo.png?raw=true)
 
+## Video
+Video for this blogpost can be found here - https://youtu.be/87apPk8NuS0?si=uZI3fRESdxv2TlQX
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/87apPk8NuS0?si=Rd6Kvq3d_8aJ5fWL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## References
 
 - Inno Setup download - [https://jrsoftware.org/isdl.php#stable](https://jrsoftware.org/isdl.php#stable)
@@ -238,6 +243,6 @@ Filename: "{app}\serviceDelete.bat"
 - nssm docs - [https://nssm.cc/usage](https://nssm.cc/usage)
 - Flask server docs - [https://flask.palletsprojects.com/en/stable/quickstart/](https://flask.palletsprojects.com/en/stable/quickstart/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk1OTIzMzMzLDg2NzkwMTM3MSwtOTE4Mz
-c3Mjg0XX0=
+eyJoaXN0b3J5IjpbMTk3MTU5NzMzNCw4Njc5MDEzNzEsLTkxOD
+M3NzI4NF19
 -->
