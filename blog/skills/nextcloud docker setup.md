@@ -513,18 +513,18 @@ networks:
 - Nextcloud office settings can be foound at the settings/admin/richdocuments URL or Administration settings(top right)→Administration(left menu section)→Office menu in the web UI
 - Validate that configurations made the post installation script in this UI
 
-![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud%20collabora%20config%20ui.png?raw=true)
+![nextcloud%20collabora%20config%20ui.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud%20collabora%20config%20ui.png?raw=true)
 
 ### Nextcloud talk admin settings
 
 - Nextcloud talk settings can be foound at the /settings/admin/talk URL or Administration settings(top right)→Administration(left menu section)→Talk menu in the web UI
 - Validate that configurations made the post installation script in this UI
 
-![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud%20talk%20hpb%20config%20ui.png?raw=true)
+![nextcloud%20talk%20hpb%20config%20ui.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud%20talk%20hpb%20config%20ui.png?raw=true)
 
-![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud%20talk%20stun%20servers%20config%20ui.png?raw=true)
+![nextcloud%20talk%20stun%20servers%20config%20ui.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud%20talk%20stun%20servers%20config%20ui.png?raw=true)
 
-![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud%20talk%20turn%20servers%20config%20ui.png?raw=true)
+![nextcloud%20talk%20turn%20servers%20config%20ui.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud%20talk%20turn%20servers%20config%20ui.png?raw=true)
 
 ### Nextcloud Cron job setup
 
@@ -539,7 +539,7 @@ sudo crontab -e
 
 - A task scheduler task can also be run in windows similarly to run the cron job periodically
 
-![image.png](image%204.png)
+![nextcloud%20cron%20setup%20ui.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud%20cron%20setup%20ui.png?raw=true)
 
 - Nextcloud needs to be configured as shown above to “Cron” mode either in UI or by running the command `php occ background:cron`. This command can be run inside the nextcloud Docker container using the command
 
@@ -568,5 +568,5 @@ sudo crontab -e
 - [https://help.nextcloud.com/t/howto-ubuntu-docker-nextcloud-talk-collabora/76430](https://help.nextcloud.com/t/howto-ubuntu-docker-nextcloud-talk-collabora/76430) nextcloud howto for collabora and talk
 - [https://nextcloud-talk.readthedocs.io/en/latest/quick-install/](https://nextcloud-talk.readthedocs.io/en/latest/quick-install/) nextcloud talk settings for docker and UI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2Mzc4MjkzMCwtMTU0NzMxOTI0MF19
+eyJoaXN0b3J5IjpbNjY0Mzg1Mzc4LC0xNTQ3MzE5MjQwXX0=
 -->
