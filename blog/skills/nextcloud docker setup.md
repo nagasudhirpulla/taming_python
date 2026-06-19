@@ -520,11 +520,11 @@ networks:
 - Nextcloud talk settings can be foound at the /settings/admin/talk URL or Administration settings(top right)→Administration(left menu section)→Talk menu in the web UI
 - Validate that configurations made the post installation script in this UI
 
-![image.png](image%201.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud%20talk%20hpb%20config%20ui.png?raw=true)
 
-![image.png](image%202.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud%20talk%20stun%20servers%20config%20ui.png?raw=true)
 
-![image.png](image%203.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud%20talk%20turn%20servers%20config%20ui.png?raw=true)
 
 ### Nextcloud Cron job setup
 
@@ -568,5 +568,5 @@ sudo crontab -e
 - [https://help.nextcloud.com/t/howto-ubuntu-docker-nextcloud-talk-collabora/76430](https://help.nextcloud.com/t/howto-ubuntu-docker-nextcloud-talk-collabora/76430) nextcloud howto for collabora and talk
 - [https://nextcloud-talk.readthedocs.io/en/latest/quick-install/](https://nextcloud-talk.readthedocs.io/en/latest/quick-install/) nextcloud talk settings for docker and UI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI3ODU3NzE1LC0xNTQ3MzE5MjQwXX0=
+eyJoaXN0b3J5IjpbLTI2Mzc4MjkzMCwtMTU0NzMxOTI0MF19
 -->
