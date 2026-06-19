@@ -1,8 +1,5 @@
 # Nextcloud docker-compose setup
 
-Date Created: May 10, 2025 7:45 AM
-Status: Doing
-
 ## What is Nextcloud
 
 **Nextcloud** is an open-source software suite for secure file storage and team collaboration.
@@ -568,5 +565,5 @@ sudo crontab -e
 - [https://help.nextcloud.com/t/howto-ubuntu-docker-nextcloud-talk-collabora/76430](https://help.nextcloud.com/t/howto-ubuntu-docker-nextcloud-talk-collabora/76430) nextcloud howto for collabora and talk
 - [https://nextcloud-talk.readthedocs.io/en/latest/quick-install/](https://nextcloud-talk.readthedocs.io/en/latest/quick-install/) nextcloud talk settings for docker and UI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0Mzg1Mzc4LC0xNTQ3MzE5MjQwXX0=
+eyJoaXN0b3J5IjpbNjcxNTYyMjc0LC0xNTQ3MzE5MjQwXX0=
 -->
