@@ -20,7 +20,7 @@ Features deployed in this Nextcloud docker-compose based deployment are:
 
 ## Architecture
 
-![architecture.svg](architecture.svg)
+![architecture.svg](https://raw.githubusercontent.com/nagasudhirpulla/taming_python/8f7a3c90d63d696b04d13a09e6d53b405ebdc0cb/blog/skills/assets/img/nextcloud%20docker%20architecture.svg)
 
 - nextcloud container hosts the main nextcloud application
 - Nextcloud container uses PostgreSQL container as database and Redis container for caching.
@@ -513,7 +513,7 @@ networks:
 - Nextcloud office settings can be foound at the settings/admin/richdocuments URL or Administration settings(top right)→Administration(left menu section)→Office menu in the web UI
 - Validate that configurations made the post installation script in this UI
 
-![image.png](image.png)
+![image.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud%20collabora%20config%20ui.png?raw=true)
 
 ### Nextcloud talk admin settings
 
@@ -568,5 +568,5 @@ sudo crontab -e
 - [https://help.nextcloud.com/t/howto-ubuntu-docker-nextcloud-talk-collabora/76430](https://help.nextcloud.com/t/howto-ubuntu-docker-nextcloud-talk-collabora/76430) nextcloud howto for collabora and talk
 - [https://nextcloud-talk.readthedocs.io/en/latest/quick-install/](https://nextcloud-talk.readthedocs.io/en/latest/quick-install/) nextcloud talk settings for docker and UI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDczMTkyNDBdfQ==
+eyJoaXN0b3J5IjpbNjI3ODU3NzE1LC0xNTQ3MzE5MjQwXX0=
 -->
