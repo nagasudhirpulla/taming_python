@@ -551,20 +551,8 @@ sudo crontab -e
 
 ## References
 
-- Docker compose reference for nextcloud with nginx reverse proxy (self sign option also available) - https://github.com/nextcloud/docker/blob/master/.examples/docker-compose/with-nginx-proxy/postgres/apache/compose.yaml
-- https://github.com/nextcloud/all-in-one?tab=readme-ov-file#how-to-run-aio-on-windows
-- Nextcloud data drive location - https://github.com/nextcloud/all-in-one?tab=readme-ov-file#how-to-change-the-default-location-of-nextclouds-datadir
-- Mount host directories on Nextcloud - https://github.com/nextcloud/all-in-one#how-to-allow-the-nextcloud-container-to-access-directories-on-the-host
-- Change default upload limit of Nextcloud - https://github.com/nextcloud/all-in-one#how-to-adjust-the-upload-limit-for-nextcloud
-- Change default timeout in Nextcloud - https://github.com/nextcloud/all-in-one#how-to-adjust-the-max-execution-time-for-nextcloud
-- Enable hardware acceleration in Nextcloud - https://github.com/nextcloud/all-in-one#how-to-enable-hardware-acceleration-for-nextcloud
-- Nextcloud non AIO image - https://github.com/docker-library/docs/blob/master/nextcloud/README.md
-- https://github.com/docker/awesome-compose/blob/master/nextcloud-postgres%2Fcompose.yaml
-- https://dev.to/nicolasbonnici/dockerize-nextcloud-with-postgre-and-redis-16jl
-- [https://github.com/sskender/nextcloud-docker/blob/master/docker-compose-self-signed.yml](https://github.com/sskender/nextcloud-docker/blob/master/docker-compose-self-signed.yml) next cloud self signed certificate docker setup
-- [https://help.nextcloud.com/t/howto-ubuntu-docker-nextcloud-talk-collabora/76430](https://help.nextcloud.com/t/howto-ubuntu-docker-nextcloud-talk-collabora/76430) nextcloud howto for collabora and talk
-- [https://nextcloud-talk.readthedocs.io/en/latest/quick-install/](https://nextcloud-talk.readthedocs.io/en/latest/quick-install/) nextcloud talk settings for docker and UI
+- nextcloud docker container - [nextcloud/docker: A community maintained docker micro-image for deploying Nextcloud on container platforms](https://github.com/nextcloud/docker)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDcyOTgzNSw2NzE1NjIyNzQsLTE1ND
-czMTkyNDBdfQ==
+eyJoaXN0b3J5IjpbLTYwMzA1Nzg5MywtMzY0NzI5ODM1LDY3MT
+U2MjI3NCwtMTU0NzMxOTI0MF19
 -->
