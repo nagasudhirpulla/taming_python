@@ -548,14 +548,14 @@ sudo crontab -e
 
 - This docker setup uses a flag that specifies if we are using self-signed certificates for this nextcloud installation
 - Use `SKIP_CERT_VERIFY=false`  if the Nextcloud setup uses CA verified ssl certificates instead of self-signed certificates
-- When using self-signed certificate, make sure u trust these certificates in your browser by opening the urls in browser manually (like https://nextcloud.local, https://collabor
+- When using self-signed certificate, make sure u trust these certificates in your browser by opening the URLs in browser manually (like https://nextcloud.local, https://collabora.local, https://signal.local) or using a group policy to manually add these self-signed certificates in the host machine
 
 ## References
 
 - Nextcloud docker container - https://github.com/nextcloud/docker
 - Nextcloud docker setup repository - https://github.com/nagasudhirpulla/nextcloud_docker_setup
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTgwMzkzNiwyMDA1NDU0NDUwLC03NT
-ExODYyODEsLTM2NDcyOTgzNSw2NzE1NjIyNzQsLTE1NDczMTky
-NDBdfQ==
+eyJoaXN0b3J5IjpbLTcxMjA2NzA4LDIwMDU0NTQ0NTAsLTc1MT
+E4NjI4MSwtMzY0NzI5ODM1LDY3MTU2MjI3NCwtMTU0NzMxOTI0
+MF19
 -->
