@@ -552,8 +552,8 @@ sudo crontab -e
 ## References
 
 - Nextcloud docker container - https://github.com/nextcloud/docker
-- Nextcloud docker setup repository - [nagasudhirpulla/nextcloud_docker_setup](https://github.com/nagasudhirpulla/nextcloud_docker_setup)
+- Nextcloud docker setup repository - https://github.com/nagasudhirpulla/nextcloud_docker_setup
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzE5NjcxOTksLTc1MTE4NjI4MSwtMz
-Y0NzI5ODM1LDY3MTU2MjI3NCwtMTU0NzMxOTI0MF19
+eyJoaXN0b3J5IjpbMjAwNTQ1NDQ1MCwtNzUxMTg2MjgxLC0zNj
+Q3Mjk4MzUsNjcxNTYyMjc0LC0xNTQ3MzE5MjQwXX0=
 -->
