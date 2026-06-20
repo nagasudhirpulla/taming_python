@@ -507,7 +507,7 @@ networks:
 
 ### Nextcloud office admin settings
 
-- Nextcloud office settings can be foound at the settings/admin/richdocuments URL or Administration settings(top right)→Administration(left menu section)→Office menu in the web UI
+- Nextcloud office settings can be found at the settings/admin/richdocuments URL or Administration settings(top right)→Administration(left menu section)→Office menu in the web UI
 - Validate that configurations made the post installation script in this UI
 
 ![nextcloud%20collabora%20config%20ui.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud%20collabora%20config%20ui.png?raw=true)
@@ -565,5 +565,6 @@ sudo crontab -e
 - [https://help.nextcloud.com/t/howto-ubuntu-docker-nextcloud-talk-collabora/76430](https://help.nextcloud.com/t/howto-ubuntu-docker-nextcloud-talk-collabora/76430) nextcloud howto for collabora and talk
 - [https://nextcloud-talk.readthedocs.io/en/latest/quick-install/](https://nextcloud-talk.readthedocs.io/en/latest/quick-install/) nextcloud talk settings for docker and UI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcxNTYyMjc0LC0xNTQ3MzE5MjQwXX0=
+eyJoaXN0b3J5IjpbLTM2NDcyOTgzNSw2NzE1NjIyNzQsLTE1ND
+czMTkyNDBdfQ==
 -->
