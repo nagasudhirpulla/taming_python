@@ -339,7 +339,7 @@ KeepAliveTimeout 5
 </VirtualHost>
 ```
 
-### Nextcloud proxy apache dockerfile
+### Reverse proxy apache dockerfile
 
 - The reverse proxy container exposes nextcloud, collabora and nextcloud talk container services to the internet
 - The docker file below adds required files (virtual host config files) and modifications to httpd image (enabling required modules)
@@ -555,7 +555,7 @@ sudo crontab -e
 - Nextcloud docker container - https://github.com/nextcloud/docker
 - Nextcloud docker setup repository - https://github.com/nagasudhirpulla/nextcloud_docker_setup
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjA2NzA4LDIwMDU0NTQ0NTAsLTc1MT
-E4NjI4MSwtMzY0NzI5ODM1LDY3MTU2MjI3NCwtMTU0NzMxOTI0
-MF19
+eyJoaXN0b3J5IjpbLTQ0OTQ0MTAxMiwtNzEyMDY3MDgsMjAwNT
+Q1NDQ1MCwtNzUxMTg2MjgxLC0zNjQ3Mjk4MzUsNjcxNTYyMjc0
+LC0xNTQ3MzE5MjQwXX0=
 -->
