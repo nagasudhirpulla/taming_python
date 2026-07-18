@@ -461,6 +461,7 @@ set "BACKUPS_DIR=%cd%\..\backups"
 ## References
 
 - Restic GitHub repository - [https://github.com/restic/restic](https://github.com/restic/restic)
+- Restic docs - [Restic Documentation — restic 0.19.1-dev documentation](https://restic.readthedocs.io/en/latest/index.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5MTAyMzIyXX0=
+eyJoaXN0b3J5IjpbMTcwOTU1MzU3NCw2MzkxMDIzMjJdfQ==
 -->
