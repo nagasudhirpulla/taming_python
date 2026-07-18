@@ -45,7 +45,7 @@ tar -czvf /backup/nextcloud_bkp.tar.gz /mount_dir
 - Restic supports backing up to **multiple backends like AWS S3**, Azure blob storage etc., seamlessly in addition to local/SFTP storage locations
 
 ### Create Restic backup repository (one time setup)
-* In Restic terms, "Repository" is a place where backups will be saved. This is simply a directory containing a set of subdirectories and files created by restic to store the backups, some corresponding metadata and encryption keys.
+* In Restic terms, "Repository" is a place where backups will be saved. It is a directory containing a set of subdirectories and files created by restic to store the backups, some corresponding metadata and encryption keys.
 
 ```bash
 #!/bin/bash
@@ -464,5 +464,5 @@ set "BACKUPS_DIR=%cd%\..\backups"
 - Restic GitHub repository - [https://github.com/restic/restic](https://github.com/restic/restic)
 - Restic docs - https://restic.readthedocs.io/en/latest/index.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODg1MzQ2Miw2MzkxMDIzMjJdfQ==
+eyJoaXN0b3J5IjpbMjkzNTI1NjgzLDYzOTEwMjMyMl19
 -->
