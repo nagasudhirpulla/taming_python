@@ -462,11 +462,11 @@ set "BACKUPS_DIR=%cd%\..\backups"
 
 ## References
 
-- Restic GitHub repository - [https://github.com/restic/restic](https://github.com/restic/restic)
+- Restic GitHub repository - https://github.com/restic/restic
 - Restic docs - https://restic.readthedocs.io/en/latest/index.html
-- Backup — Nextcloud 34 Administration Manual - https://docs.nextcloud.com/server/stable/admin_manual/maintenance/backup.html)
-- [Restoring backup — Nextcloud 34 Administration Manual](https://docs.nextcloud.com/server/stable/admin_manual/maintenance/restore.html#)
+- Nextcloud Backup Manual - https://docs.nextcloud.com/server/stable/admin_manual/maintenance/backup.html
+- Nextcloud Backup Restoration Manual - https://docs.nextcloud.com/server/stable/admin_manual/maintenance/restore.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQ1ODkyMSwxOTg4NTUzODQwLDYzOT
-EwMjMyMl19
+eyJoaXN0b3J5IjpbODUxMjUwMjU2LDE5ODg1NTM4NDAsNjM5MT
+AyMzIyXX0=
 -->
