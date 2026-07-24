@@ -14,6 +14,7 @@ All the data is present in docker volumes
 
 The restored volumes can be mounted when rebuilding the containers from scratch
 
+
 ## Basic Nextcloud volume backup with tar
 
 - The following docker command backs up the nextcloud volume as a tar file in the host machine
@@ -467,6 +468,6 @@ set "BACKUPS_DIR=%cd%\..\backups"
 - Nextcloud Backup Manual - https://docs.nextcloud.com/server/stable/admin_manual/maintenance/backup.html
 - Nextcloud Backup Restoration Manual - https://docs.nextcloud.com/server/stable/admin_manual/maintenance/restore.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUxMjUwMjU2LDE5ODg1NTM4NDAsNjM5MT
-AyMzIyXX0=
+eyJoaXN0b3J5IjpbODU3NDE2MjI2LDg1MTI1MDI1NiwxOTg4NT
+UzODQwLDYzOTEwMjMyMl19
 -->
