@@ -13,7 +13,7 @@ All the data is present in docker volumes
 - PostgreSQL’s logical dump (using `pg_dump` command) can be backed up as a file, and this file can be used while db restoration (using `pg_restore` command).
 
 The restored volumes can be mounted when rebuilding the containers from scratch
-
+![](extcloud%20backup%20architecture.png)
 
 ## Basic Nextcloud volume backup with tar
 
@@ -468,6 +468,6 @@ set "BACKUPS_DIR=%cd%\..\backups"
 - Nextcloud Backup Manual - https://docs.nextcloud.com/server/stable/admin_manual/maintenance/backup.html
 - Nextcloud Backup Restoration Manual - https://docs.nextcloud.com/server/stable/admin_manual/maintenance/restore.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3NDE2MjI2LDg1MTI1MDI1NiwxOTg4NT
-UzODQwLDYzOTEwMjMyMl19
+eyJoaXN0b3J5IjpbLTUzMTgzNTM0OCw4NTEyNTAyNTYsMTk4OD
+U1Mzg0MCw2MzkxMDIzMjJdfQ==
 -->
