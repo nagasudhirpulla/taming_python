@@ -62,6 +62,8 @@ php occ files_external:create "Folder_Storage" local null:null -c datadir="/loca
 
 -   Nextcloud external storage files can be seen in the Files page as shown below
 
+![nextcloud_local_storage_view_files.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud_local_storage_view_files.png?raw=true)
+
 ## Working example
 
 -   A working example docker setup can be found at [https://github.com/nagasudhirpulla/nextcloud_docker_setup](https://github.com/nagasudhirpulla/nextcloud_docker_setup)
@@ -71,5 +73,5 @@ php occ files_external:create "Folder_Storage" local null:null -c datadir="/loca
 -   [External Storage — Nextcloud 34 Administration Manual](https://docs.nextcloud.com/server/stable/admin_manual/configuration_files/external_storage_configuration_gui.html#)
 -   [Nextcloud docker-compose setup](https://nagasudhir.blogspot.com/2026/06/nextcloud-docker-compose-setup.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzQ2NzU4Miw2NTY2ODQyMjJdfQ==
+eyJoaXN0b3J5IjpbLTE0MDgyMTU4MzAsNjU2Njg0MjIyXX0=
 -->
