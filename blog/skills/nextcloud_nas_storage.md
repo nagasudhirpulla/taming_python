@@ -1,3 +1,4 @@
+# 
 ## External Storage of type “local storage” in Nextcloud
 ![nextcloud_host_folder_mount.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud_host_folder_mount.png?raw=true)
 -   Nextcloud supports adding multiple types of external storage for increasing the file storage capacity. However, “External Storage Support” nextcloud app should be enabled as a prerequisite.
@@ -73,5 +74,6 @@ php occ files_external:create "Folder_Storage" local null:null -c datadir="/loca
 -   [External Storage — Nextcloud 34 Administration Manual](https://docs.nextcloud.com/server/stable/admin_manual/configuration_files/external_storage_configuration_gui.html#)
 -   [Nextcloud docker-compose setup](https://nagasudhir.blogspot.com/2026/06/nextcloud-docker-compose-setup.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDgyMTU4MzAsNjU2Njg0MjIyXX0=
+eyJoaXN0b3J5IjpbNzM0ODA2MDMsLTE0MDgyMTU4MzAsNjU2Nj
+g0MjIyXX0=
 -->
