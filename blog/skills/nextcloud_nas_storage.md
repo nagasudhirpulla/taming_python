@@ -40,6 +40,8 @@ php occ files_external:create "Folder_Storage" local null:null -c datadir="/loca
 
 ## NAS folder as Nextcloud External Storage
 
+![nextcloud_nas_storage_setup.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud_nas_storage_setup.png?raw=true)
+
 -   The NAS folder can be mounted as a folder location in the docker host.  
     For example, if a NAS supports CIFS, it’s folder can be bound as a local folder (say `/local_folder`) by adding a CIFS bind mount in the host’s `/etc/fstab` file.
 
@@ -67,5 +69,5 @@ php occ files_external:create "Folder_Storage" local null:null -c datadir="/loca
 -   [External Storage — Nextcloud 34 Administration Manual](https://docs.nextcloud.com/server/stable/admin_manual/configuration_files/external_storage_configuration_gui.html#)
 -   [Nextcloud docker-compose setup](https://nagasudhir.blogspot.com/2026/06/nextcloud-docker-compose-setup.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDc0NjM1OCw2NTY2ODQyMjJdfQ==
+eyJoaXN0b3J5IjpbLTE1MTc3Mjk0MTgsNjU2Njg0MjIyXX0=
 -->
