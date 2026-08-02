@@ -68,13 +68,18 @@ php occ files_external:create "Folder_Storage" local null:null -c datadir="/loca
 ## Working example
 
 -   A working example docker setup can be found at [https://github.com/nagasudhirpulla/nextcloud_docker_setup](https://github.com/nagasudhirpulla/nextcloud_docker_setup)
-- 
+- Use the following environment variables in the .env file to add the external storage in nextcloud
+```ini
+
+EXTERNAL_STORAGE_FOLDER_PATH=/c/Users/LearningSoftware/Downloads/erd-editor
+EXTERNAL_STORAGE_FOLDER_NAME=Folder_Storage
+```
 
 ## References
 
 -   [External Storage — Nextcloud 34 Administration Manual](https://docs.nextcloud.com/server/stable/admin_manual/configuration_files/external_storage_configuration_gui.html#)
 -   [Nextcloud docker-compose setup](https://nagasudhir.blogspot.com/2026/06/nextcloud-docker-compose-setup.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTQ3MTE2OCw3MzQ4MDYwMywtMTQwOD
-IxNTgzMCw2NTY2ODQyMjJdfQ==
+eyJoaXN0b3J5IjpbLTE4OTE2MjMyMjksNzM0ODA2MDMsLTE0MD
+gyMTU4MzAsNjU2Njg0MjIyXX0=
 -->
