@@ -68,12 +68,13 @@ php occ files_external:create "Folder_Storage" local null:null -c datadir="/loca
 ## Working example
 
 -   A working example docker setup can be found at [https://github.com/nagasudhirpulla/nextcloud_docker_setup](https://github.com/nagasudhirpulla/nextcloud_docker_setup)
+- 
 
 ## References
 
 -   [External Storage — Nextcloud 34 Administration Manual](https://docs.nextcloud.com/server/stable/admin_manual/configuration_files/external_storage_configuration_gui.html#)
 -   [Nextcloud docker-compose setup](https://nagasudhir.blogspot.com/2026/06/nextcloud-docker-compose-setup.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0ODA2MDMsLTE0MDgyMTU4MzAsNjU2Nj
-g0MjIyXX0=
+eyJoaXN0b3J5IjpbMTQwNTQ3MTE2OCw3MzQ4MDYwMywtMTQwOD
+IxNTgzMCw2NTY2ODQyMjJdfQ==
 -->
