@@ -56,6 +56,8 @@ php occ files_external:create "Folder_Storage" local null:null -c datadir="/loca
 
 -   The access to External storage can be restricted to specific nextcloud user groups and users by editing the external storage in the nextcloud administration settings as shown below
 
+![nextcloud_edit_local_storage_access.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud_edit_local_storage_access.png?raw=true)
+
 ## View External Storage Files
 
 -   Nextcloud external storage files can be seen in the Files page as shown below
@@ -69,5 +71,5 @@ php occ files_external:create "Folder_Storage" local null:null -c datadir="/loca
 -   [External Storage — Nextcloud 34 Administration Manual](https://docs.nextcloud.com/server/stable/admin_manual/configuration_files/external_storage_configuration_gui.html#)
 -   [Nextcloud docker-compose setup](https://nagasudhir.blogspot.com/2026/06/nextcloud-docker-compose-setup.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTc3Mjk0MTgsNjU2Njg0MjIyXX0=
+eyJoaXN0b3J5IjpbLTI3MzQ2NzU4Miw2NTY2ODQyMjJdfQ==
 -->
