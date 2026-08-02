@@ -1,4 +1,5 @@
 # Add local folders or NAS folders to Nextcloud storage running in docker
+
 ## External Storage of type “local storage” in Nextcloud
 ![nextcloud_host_folder_mount.png](https://github.com/nagasudhirpulla/taming_python/blob/master/blog/skills/assets/img/nextcloud_host_folder_mount.png?raw=true)
 -   Nextcloud supports adding multiple types of external storage for increasing the file storage capacity. However, “External Storage Support” nextcloud app should be enabled as a prerequisite.
@@ -80,6 +81,6 @@ EXTERNAL_STORAGE_FOLDER_NAME=Folder_Storage
 -   [External Storage — Nextcloud 34 Administration Manual](https://docs.nextcloud.com/server/stable/admin_manual/configuration_files/external_storage_configuration_gui.html#)
 -   [Nextcloud docker-compose setup](https://nagasudhir.blogspot.com/2026/06/nextcloud-docker-compose-setup.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMjQ5MzYzMCw3MzQ4MDYwMywtMTQwOD
+eyJoaXN0b3J5IjpbMTE1MzQyNDQ2NCw3MzQ4MDYwMywtMTQwOD
 IxNTgzMCw2NTY2ODQyMjJdfQ==
 -->
